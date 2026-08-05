@@ -16,5 +16,25 @@
     },
     "startTime": null,
     "endTime": null
+  },
+  {
+    "id": "exam-1785964943824",
+    "title": "Yeni Deneme Sınavı 2",
+    "description": "Otomatik olarak tüm konulardan oluşturulmuş pratik sınavı.",
+    "recommendedTimeMinutes": 30,
+    "level": "A1",
+    "lessons": [],
+    "questions": [
+      "q_reading_auto_111",
+      "q_reading_auto_102",
+      "q_reading_auto_100"
+    ],
+    "questionPoints": {
+      "q_reading_auto_111": 33,
+      "q_reading_auto_102": 33,
+      "q_reading_auto_100": 34
+    },
+    "startTime": null,
+    "endTime": null
   }
 ]
