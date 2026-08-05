@@ -1,8 +1,9 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Users, Search, RefreshCw, Wand2, FolderCog } from "lucide-react";
+import { Users, Search, RefreshCw, Wand2, FolderCog, LogOut } from "lucide-react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function AdminPage() {
   const [results, setResults] = useState<any[]>([]);
@@ -10,6 +11,14 @@ export default function AdminPage() {
   const [error, setError] = useState("");
   const [password, setPassword] = useState("");
   const [isAuthenticated, setIsAuthenticated] = useState(false);
+  const router = useRouter();
+
+  useEffect(() => {
+    const session = localStorage.getItem("student_session");
+    if (!session) {
+      router.push("/");
+    }
+  }, [router]);
 
   // In a real app, use NextAuth or similar. For this static-like setup, simple protection.
   const handleLogin = (e: React.FormEvent) => {
@@ -42,6 +51,13 @@ export default function AdminPage() {
     setLoading(false);
   };
 
+  const handleLogout = () => {
+    localStorage.removeItem("student_session");
+    setIsAuthenticated(false);
+    setPassword("");
+    router.push("/");
+  };
+
   if (!isAuthenticated) {
     return (
       <div className="min-h-[60vh] flex flex-col justify-center max-w-sm mx-auto">
@@ -57,16 +73,15 @@ export default function AdminPage() {
             />
             <button type="submit" className="btn btn-primary">Giriş Yap</button>
           </form>
+          <div className="mt-4 text-center">
+            <button onClick={handleLogout} className="text-sm text-slate-500 hover:text-red-500 font-bold transition-colors">
+              Farklı bir hesapla giriş yap (Çıkış)
+            </button>
+          </div>
         </div>
       </div>
     );
   }
-
-  const handleLogout = () => {
-    setIsAuthenticated(false);
-    setPassword("");
-  };
-
   return (
     <div className="py-4">
       <header className="flex flex-col sm:flex-row justify-between items-center mb-6 bg-white p-4 rounded-2xl shadow-sm border border-slate-200 gap-4">
