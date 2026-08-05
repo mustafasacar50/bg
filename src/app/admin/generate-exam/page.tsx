@@ -332,10 +332,18 @@ export default function GenerateExamPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 bg-slate-50 p-6 rounded-xl border border-slate-100">
               <div>
                 <label className="label text-sm">Test (Çoktan Seçmeli)</label>
-                <div className="text-xs text-slate-400 mb-2">Adet seçin</div>
+                <div className="text-xs font-bold text-indigo-500 mb-2">
+                  Havuzda: {
+                    (selectedLessons.length > 0 
+                      ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'mcq') 
+                      : questionBank.filter(q => q.type === 'mcq')
+                    ).length
+                  } soru
+                </div>
                 <input 
                   type="number" 
                   min="0"
+                  max={(selectedLessons.length > 0 ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'mcq') : questionBank.filter(q => q.type === 'mcq')).length}
                   className="text-input" 
                   value={mcqCount}
                   onChange={e => setMcqCount(parseInt(e.target.value) || 0)}
@@ -344,10 +352,18 @@ export default function GenerateExamPage() {
               
               <div>
                 <label className="label text-sm">Eşleştirme</label>
-                <div className="text-xs text-slate-400 mb-2">Adet seçin</div>
+                <div className="text-xs font-bold text-indigo-500 mb-2">
+                  Havuzda: {
+                    (selectedLessons.length > 0 
+                      ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'match') 
+                      : questionBank.filter(q => q.type === 'match')
+                    ).length
+                  } soru
+                </div>
                 <input 
                   type="number" 
                   min="0"
+                  max={(selectedLessons.length > 0 ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'match') : questionBank.filter(q => q.type === 'match')).length}
                   className="text-input" 
                   value={matchCount}
                   onChange={e => setMatchCount(parseInt(e.target.value) || 0)}
@@ -356,10 +372,18 @@ export default function GenerateExamPage() {
 
               <div>
                 <label className="label text-sm">Boşluk Doldurma</label>
-                <div className="text-xs text-slate-400 mb-2">Adet seçin</div>
+                <div className="text-xs font-bold text-indigo-500 mb-2">
+                  Havuzda: {
+                    (selectedLessons.length > 0 
+                      ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'blank') 
+                      : questionBank.filter(q => q.type === 'blank')
+                    ).length
+                  } soru
+                </div>
                 <input 
                   type="number" 
                   min="0"
+                  max={(selectedLessons.length > 0 ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'blank') : questionBank.filter(q => q.type === 'blank')).length}
                   className="text-input" 
                   value={blankCount}
                   onChange={e => setBlankCount(parseInt(e.target.value) || 0)}
