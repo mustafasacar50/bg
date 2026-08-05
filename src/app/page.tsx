@@ -16,7 +16,7 @@ export default function LoginPage() {
     const session = localStorage.getItem("student_session");
     if (session) {
       const user = JSON.parse(session);
-      if (user.role === 'admin') router.push("/admin/dashboard");
+      if (user.role === 'admin') router.push("/admin");
       else router.push("/dashboard");
     }
   }, [router]);
@@ -40,7 +40,7 @@ export default function LoginPage() {
       if (data.success) {
         localStorage.setItem("student_session", JSON.stringify(data.user));
         if (data.user.role === 'admin') {
-          router.push("/admin/dashboard");
+          router.push("/admin");
         } else {
           router.push("/dashboard");
         }
