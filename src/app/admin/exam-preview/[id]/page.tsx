@@ -494,7 +494,25 @@ export default function ExamPreviewPage() {
                   <div className="section-head">
                     <div>
                       <h2>{qIndex + 1}. Okuma Parçası (Boşluk Doldurma)</h2>
-                      {q.trHint && <p className="text-sm text-slate-500 mt-1 italic">İpucu (Çeviri): {q.trHint}</p>}
+                      {q.trHint && (
+                        editMode ? (
+                          <div className="flex flex-col gap-1 w-full mt-2">
+                            <label className="text-xs font-bold text-slate-500">Parçanın Türkçe Çevirisi (Sınav Sonu Gösterilir)</label>
+                            <textarea 
+                              className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2 text-sm outline-none"
+                              value={q.trHint}
+                              rows={2}
+                              onChange={(e) => updateQuestionState(q.id, { trHint: e.target.value })}
+                              onBlur={() => saveQuestion(q)}
+                              onFocus={(e) => setActiveInput(e.target)}
+                            />
+                          </div>
+                        ) : (
+                          <div className="mt-2 p-2 bg-indigo-50/50 border border-indigo-100 border-dashed rounded text-xs text-indigo-400">
+                            <strong>Sınav bitiminde görünecek çeviri:</strong> {q.trHint}
+                          </div>
+                        )
+                      )}
                     </div>
                     {editMode ? (
                       <div className="flex items-center gap-1 bg-amber-50 px-2 py-1 rounded-md border border-amber-200">

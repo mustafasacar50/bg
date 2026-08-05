@@ -591,7 +591,11 @@ export default function ExamPage() {
                 <div className="section-head">
                   <div>
                     <h2>{qIndex + 1}. Okuma Parçası (Boşluk Doldurma)</h2>
-                    {q.trHint && <p className="text-sm text-slate-500 mt-1 italic">İpucu (Çeviri): {q.trHint}</p>}
+                    {showResults && q.trHint && (
+                      <div className="mt-3 p-3 bg-indigo-50 border border-indigo-100 rounded-lg">
+                        <p className="text-sm text-indigo-700 italic"><strong>Çeviri:</strong> {q.trHint}</p>
+                      </div>
+                    )}
                   </div>
                   <span className="points">{exam.questionPoints?.[q.id] || q.points} puan</span>
                 </div>
