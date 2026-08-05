@@ -626,9 +626,9 @@ export default function ExamPage() {
                 <div className="section-head">
                   <div>
                     <h2>{qIndex + 1}. Okuma Parçası (Boşluk Doldurma)</h2>
-                    {showResults && q.trHint && (
+                    {q.trHint && (
                       <div className="mt-3 p-3 bg-indigo-50 border border-indigo-100 rounded-lg">
-                        <p className="text-sm text-indigo-700 italic"><strong>Çeviri:</strong> {q.trHint}</p>
+                        <p className="text-sm text-indigo-700 italic"><strong>Çeviri (İpucu):</strong> {q.trHint}</p>
                       </div>
                     )}
                   </div>

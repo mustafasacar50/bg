@@ -9,6 +9,7 @@ export default function DashboardPage() {
   const [student, setStudent] = useState<any>(null);
   const [exams, setExams] = useState<any[]>([]);
   const [scores, setScores] = useState<any[]>([]);
+  const [leaderboard, setLeaderboard] = useState<any>(null);
   const [mistakeCount, setMistakeCount] = useState(0);
   const [loading, setLoading] = useState(true);
   const router = useRouter();
@@ -37,19 +38,24 @@ export default function DashboardPage() {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const [examsRes, scoresRes, mistakesRes] = await Promise.all([
+        const [examsRes, scoresRes, mistakesRes, lbRes] = await Promise.all([
           fetch('/api/manage-exams'),
           fetch('/api/scores'),
-          fetch(`/api/mistakes?studentId=${student.id}`)
+          fetch(`/api/mistakes?studentId=${student.id}`),
+          fetch(`/api/leaderboard?studentId=${student.id}`)
         ]);
         
         const examsData = await examsRes.json();
         const scoresData = await scoresRes.json();
         const mistakesData = await mistakesRes.json();
+        const lbData = await lbRes.json();
         
         if (examsData.exams) setExams(examsData.exams);
         if (mistakesData.success && mistakesData.mistakes) {
           setMistakeCount(mistakesData.mistakes.length);
+        }
+        if (lbData.success) {
+          setLeaderboard(lbData);
         }
         
         // Filter scores to only include this student's scores
@@ -159,11 +165,29 @@ export default function DashboardPage() {
         </button>
       </header>
 
+      <div className="flex justify-between items-start flex-col md:flex-row gap-4 mb-4">
+        <div>
+          <h1 className="text-3xl font-bold mb-2">Hoş Geldin, {student?.name}! 👋</h1>
+          <p className="text-slate-600 font-medium">Bulgarca öğrenme serüveninde bugün neler yapacaksın?</p>
+        </div>
+      </div>
+
       <div className="hero mb-6">
         <span className="eyebrow">📚 Sınav Merkezi</span>
         <h1>Mevcut Sınavlar</h1>
         <p>Aşağıdaki listeden çözmek istediğiniz sınava tıklayarak başlayabilirsiniz.</p>
       </div>
+
+      {/* Leaderboard Rank Widget */}
+      {leaderboard && leaderboard.rank > 0 && (
+        <div className="bg-gradient-to-r from-amber-100 to-yellow-50 border border-amber-200 rounded-2xl p-5 mb-8 flex items-center gap-5 shadow-sm">
+          <div className="text-4xl">🏆</div>
+          <div>
+            <h2 className="font-bold text-amber-900 text-lg mb-1">{leaderboard.groupName} İçi Sıralaman: <span className="text-2xl font-black">{leaderboard.rank}.</span></h2>
+            <p className="text-amber-700 text-sm font-medium">Toplam <span className="font-bold">{leaderboard.totalScore}</span> puanın var. Gruptaki {leaderboard.totalStudents} öğrenci arasındasın. Bol bol sınav çözerek zirveye tırman!</p>
+          </div>
+        </div>
+      )}
 
       {loading ? (
         <div className="flex flex-col items-center justify-center p-12 text-slate-400 gap-3">
