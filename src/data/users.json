@@ -1,0 +1,33 @@
+[
+  {
+    "id": "u1",
+    "username": "admin",
+    "password": "123",
+    "role": "admin",
+    "name": "Yönetici"
+  },
+  {
+    "id": "u2",
+    "username": "ogrenci1",
+    "password": "123",
+    "role": "student",
+    "name": "Ahmet Yılmaz",
+    "group": "A Grubu"
+  },
+  {
+    "id": "u3",
+    "username": "ogrenci2",
+    "password": "123",
+    "role": "student",
+    "name": "Ayşe Kaya",
+    "group": "B Grubu"
+  },
+  {
+    "id": "u4",
+    "username": "ogrenci3",
+    "password": "123",
+    "role": "student",
+    "name": "Mehmet Demir",
+    "group": "A Grubu"
+  }
+]

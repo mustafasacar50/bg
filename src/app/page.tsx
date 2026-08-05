@@ -1,69 +1,104 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { GraduationCap, ArrowRight } from "lucide-react";
+
+export default function LoginPage() {
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
+  const router = useRouter();
+
+  useEffect(() => {
+    // If already logged in, redirect to dashboard
+    const session = localStorage.getItem("student_session");
+    if (session) {
+      const user = JSON.parse(session);
+      if (user.role === 'admin') router.push("/admin/dashboard");
+      else router.push("/dashboard");
+    }
+  }, [router]);
+
+  const handleLogin = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!username.trim() || !password.trim()) return;
+    
+    setLoading(true);
+    setError("");
+
+    try {
+      const res = await fetch('/api/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ username, password })
+      });
+      
+      const data = await res.json();
+      
+      if (data.success) {
+        localStorage.setItem("student_session", JSON.stringify(data.user));
+        if (data.user.role === 'admin') {
+          router.push("/admin/dashboard");
+        } else {
+          router.push("/dashboard");
+        }
+      } else {
+        setError(data.error || "Giriş başarısız.");
+      }
+    } catch (err) {
+      setError("Bağlantı hatası oluştu.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="min-h-[80vh] flex flex-col justify-center">
+      <div className="hero mb-6 text-center py-10">
+        <div className="flex justify-center mb-4">
+          <div className="bg-white/20 p-4 rounded-full">
+            <GraduationCap size={48} />
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
+        <h1 className="text-3xl font-bold">Bulgarca Sınav Modülü</h1>
+        <p className="mt-2 text-white/80">Sınavlara katılmak için giriş yapın</p>
+      </div>
+
+      <div className="card">
+        {error && <div className="bg-red-50 text-red-600 p-3 rounded-lg mb-4 text-sm font-bold border border-red-200">{error}</div>}
+        <form onSubmit={handleLogin} className="flex flex-col gap-5">
+          <div>
+            <label className="label" htmlFor="username">Kullanıcı Adı</label>
+            <input 
+              id="username"
+              type="text" 
+              className="text-input" 
+              placeholder="Kullanıcı adınızı girin"
+              value={username}
+              onChange={(e) => setUsername(e.target.value)}
+              required
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+          </div>
+          <div>
+            <label className="label" htmlFor="password">Şifre</label>
+            <input 
+              id="password"
+              type="password" 
+              className="text-input" 
+              placeholder="Şifrenizi girin"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+          </div>
+          
+          <button type="submit" disabled={loading} className="btn btn-primary flex items-center justify-center gap-2 mt-2">
+            {loading ? 'Giriş Yapılıyor...' : 'Sisteme Giriş Yap'} <ArrowRight size={18} />
+          </button>
+        </form>
+      </div>
     </div>
   );
 }
