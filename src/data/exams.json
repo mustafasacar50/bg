@@ -18,24 +18,6 @@
     "level": "A1"
   },
   {
-    "id": "exam-1785947579994",
-    "title": "a1 - deneme",
-    "description": "Yapay zeka ile dinamik olarak oluşturulmuş sınav.",
-    "recommendedTimeMinutes": 30,
-    "level": "A1",
-    "questions": [
-      "q_mcq_8",
-      "q_mcq_7",
-      "q_mcq_9",
-      "q_mcq_2",
-      "q_mcq_4",
-      "q_match_2",
-      "q_match_3",
-      "q_blank_1",
-      "q_blank_3"
-    ]
-  },
-  {
     "id": "exam-1785948079100",
     "title": "Yeni Deneme Sınavı",
     "description": "Yapay zeka ile dinamik olarak oluşturulmuş sınav.",
