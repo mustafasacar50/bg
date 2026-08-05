@@ -130,6 +130,40 @@ export default function ExamPreviewPage() {
     }, 0);
   };
 
+  const renderFormattedText = (text: string) => {
+    if (!text) return null;
+    const parts = text.split(/(\*\*.*?\*\*)/g);
+    return parts.map((part, index) => {
+      if (part.startsWith('**') && part.endsWith('**')) {
+        return <strong key={index} className="font-black text-slate-800">{part.slice(2, -2)}</strong>;
+      }
+      return <span key={index}>{part}</span>;
+    });
+  };
+
+  const renderReadingText = (text: string) => {
+    if (!text) return null;
+    const parts = text.split(/(____\d+____)/g);
+    
+    return parts.map((part, index) => {
+      const match = part.match(/____(\d+)____/);
+      if (match) {
+        const blankKey = match[1];
+        return (
+          <span key={index} className="inline-block mx-1 align-middle">
+            <input 
+              type="text"
+              disabled
+              className="text-input answer-input font-bold tracking-wider w-32 py-1 px-2 text-center text-sm border-b-2 bg-slate-50 border-slate-300"
+              placeholder={`${blankKey}. boşluk`}
+            />
+          </span>
+        );
+      }
+      return <span key={index} className="text-lg text-slate-700 leading-10">{part}</span>;
+    });
+  };
+
   if (loading) {
     return <div className="p-10 flex justify-center text-primary"><Loader2 className="animate-spin" size={40} /></div>;
   }
@@ -206,7 +240,7 @@ export default function ExamPreviewPage() {
                         onFocus={(e) => setActiveInput(e.target)}
                       />
                     ) : (
-                      <div className="question-title"><span className="qno">{qIndex + 1}</span>{q.question}</div>
+                      <div className="question-title"><span className="qno">{qIndex + 1}</span>{renderFormattedText(q.question)}</div>
                     )}
                     
                     <div className="options">
@@ -273,7 +307,7 @@ export default function ExamPreviewPage() {
                           onFocus={(e) => setActiveInput(e.target)}
                         />
                       ) : (
-                        <p>{q.question}</p>
+                        <p>{renderFormattedText(q.question)}</p>
                       )}
                     </div>
                     {editMode ? (
@@ -434,7 +468,7 @@ export default function ExamPreviewPage() {
                       ) : (
                         <>
                           <div>
-                            <div className="sentence"><span className="qno">{qIndex + 1}</span>{q.sentence}</div>
+                            <div className="sentence"><span className="qno">{qIndex + 1}</span>{renderFormattedText(q.sentence)}</div>
                             <div className="hint">{q.hint}</div>
                           </div>
                           <input 
@@ -444,6 +478,74 @@ export default function ExamPreviewPage() {
                             placeholder="Bulgarca yazınız"
                           />
                         </>
+                      )}
+                    </div>
+                  </div>
+                </section>
+              );
+            }
+
+            if (q.type === "reading") {
+              return (
+                <section key={q.id} className="card relative">
+                  {editMode && savingId === q.id && (
+                     <div className="absolute top-2 right-2 text-green-500 flex items-center gap-1 text-xs font-bold bg-green-50 px-2 py-1 rounded-md">
+                       <Loader2 size={12} className="animate-spin" /> Kaydediliyor
+                     </div>
+                  )}
+                  <div className="section-head">
+                    <div>
+                      <h2>{qIndex + 1}. Okuma Parçası (Boşluk Doldurma)</h2>
+                      {q.trHint && <p className="text-sm text-slate-500 mt-1 italic">İpucu (Çeviri): {q.trHint}</p>}
+                    </div>
+                    {editMode ? (
+                      <div className="flex items-center gap-1 bg-amber-50 px-2 py-1 rounded-md border border-amber-200">
+                        <input 
+                          type="number" 
+                          className="w-12 text-center text-sm font-bold bg-transparent outline-none text-amber-700" 
+                          value={q.points || 0}
+                          onChange={(e) => updateQuestionState(q.id, { points: parseInt(e.target.value) || 0 })}
+                          onBlur={() => saveQuestion(q)}
+                        /> <span className="text-amber-700 text-xs">puan</span>
+                      </div>
+                    ) : (
+                      <span className="points">{currentPoints} puan</span>
+                    )}
+                  </div>
+                  <div className="question p-6 bg-slate-50 border border-slate-200 rounded-2xl">
+                    <div className="reading-text relative leading-loose">
+                      {editMode ? (
+                        <div className="flex flex-col gap-4 w-full">
+                          <textarea 
+                            className="w-full bg-white border border-slate-200 rounded-lg p-3 text-sm outline-none font-mono"
+                            rows={5}
+                            value={q.text}
+                            onChange={(e) => updateQuestionState(q.id, { text: e.target.value })}
+                            onBlur={() => saveQuestion(q)}
+                            onFocus={(e) => setActiveInput(e.target)}
+                          />
+                          <div className="bg-slate-100 p-3 rounded-lg">
+                            <h4 className="text-xs font-bold text-slate-500 mb-2 uppercase">Doğru Cevaplar</h4>
+                            {Object.keys(q.answers || {}).map((blankKey) => (
+                              <div key={blankKey} className="flex items-center gap-2 mb-2">
+                                <span className="text-xs font-bold text-slate-500 w-8">{blankKey}.</span>
+                                <input 
+                                  type="text" 
+                                  className="flex-1 bg-white border border-slate-200 rounded-lg p-2 text-sm outline-none font-bold"
+                                  value={q.answers[blankKey]}
+                                  onChange={(e) => {
+                                    const newAnswers = { ...q.answers, [blankKey]: e.target.value };
+                                    updateQuestionState(q.id, { answers: newAnswers });
+                                  }}
+                                  onBlur={() => saveQuestion(q)}
+                                  onFocus={(e) => setActiveInput(e.target)}
+                                />
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+                      ) : (
+                        renderReadingText(q.text)
                       )}
                     </div>
                   </div>
