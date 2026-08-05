@@ -2,13 +2,14 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { LogOut, BookOpen, Clock, Award, User, RefreshCw, Loader2, Edit3, X, Check } from "lucide-react";
+import { LogOut, BookOpen, Clock, Award, User, RefreshCw, Loader2, Edit3, X, Check, Wand2 } from "lucide-react";
 import Link from "next/link";
 
 export default function DashboardPage() {
   const [student, setStudent] = useState<any>(null);
   const [exams, setExams] = useState<any[]>([]);
   const [scores, setScores] = useState<any[]>([]);
+  const [mistakeCount, setMistakeCount] = useState(0);
   const [loading, setLoading] = useState(true);
   const router = useRouter();
 
@@ -36,15 +37,20 @@ export default function DashboardPage() {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const [examsRes, scoresRes] = await Promise.all([
+        const [examsRes, scoresRes, mistakesRes] = await Promise.all([
           fetch('/api/manage-exams'),
-          fetch('/api/scores')
+          fetch('/api/scores'),
+          fetch(`/api/mistakes?studentId=${student.id}`)
         ]);
         
         const examsData = await examsRes.json();
         const scoresData = await scoresRes.json();
+        const mistakesData = await mistakesRes.json();
         
         if (examsData.exams) setExams(examsData.exams);
+        if (mistakesData.success && mistakesData.mistakes) {
+          setMistakeCount(mistakesData.mistakes.length);
+        }
         
         // Filter scores to only include this student's scores
         if (scoresData.scores) {
@@ -166,6 +172,27 @@ export default function DashboardPage() {
         </div>
       ) : (
         <div className="flex flex-col gap-5">
+          {mistakeCount > 0 && (
+            <div className="card bg-gradient-to-br from-orange-50 to-amber-50 border-orange-200 shadow-md mb-2 relative overflow-hidden group">
+              <div className="absolute top-0 right-0 p-8 opacity-10 transform translate-x-4 -translate-y-4">
+                <RefreshCw size={100} />
+              </div>
+              <div className="flex justify-between items-start mb-2 relative z-10">
+                <h3 className="font-bold text-xl text-orange-800">Hata Havuzu Sınavı</h3>
+                <span className="bg-orange-200 text-orange-800 text-xs font-black px-2 py-1 rounded-md">ÖZEL SINAV</span>
+              </div>
+              <p className="text-sm text-orange-700 mb-4 relative z-10 font-medium">
+                Önceki sınavlarda yanlış yaptığınız veya boş bıraktığınız sorulardan size özel oluşturulacak deneme sınavıdır. Soruyu doğru bildiğinizde havuzdan silinir.
+              </p>
+              <div className="flex items-center gap-1.5 text-xs font-bold text-orange-600 mb-4 bg-white/60 p-3 rounded-xl border border-orange-100/50 relative z-10 w-max">
+                <BookOpen size={16} /> Havuzda Çözülmeyi Bekleyen {mistakeCount} Soru Var
+              </div>
+              <Link href="/exam/mistakes" className="btn bg-orange-500 hover:bg-orange-600 text-white w-full inline-flex justify-center items-center gap-2 relative z-10 font-bold shadow-lg shadow-orange-500/30">
+                Bilemediğim Sorulardan Sınav Hazırla <Wand2 size={16} />
+              </Link>
+            </div>
+          )}
+
           {exams.map((exam) => {
             // Find attempts for this exam
             const attempts = scores.filter(s => s.examId === exam.id);

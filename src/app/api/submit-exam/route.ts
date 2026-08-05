@@ -40,6 +40,45 @@ export async function POST(request: Request) {
       `Add exam result for ${data.student.name}`
     );
 
+    // Track mistakes
+    if (data.wrongQuestionIds || data.correctQuestionIds) {
+      try {
+        const MISTAKES_PATH = "src/data/user_mistakes.json";
+        const mistakesFile = await getGitHubFile(MISTAKES_PATH).catch(() => ({ content: "{}" }));
+        let userMistakes = {};
+        try {
+          userMistakes = JSON.parse(mistakesFile.content);
+        } catch(e) {}
+
+        const sId = data.student.id;
+        if (!userMistakes[sId]) {
+          userMistakes[sId] = [];
+        }
+
+        let mistakesSet = new Set(userMistakes[sId]);
+        
+        // Add new mistakes
+        if (data.wrongQuestionIds && Array.isArray(data.wrongQuestionIds)) {
+          data.wrongQuestionIds.forEach((id: string) => mistakesSet.add(id));
+        }
+
+        // Remove corrected mistakes
+        if (data.correctQuestionIds && Array.isArray(data.correctQuestionIds)) {
+          data.correctQuestionIds.forEach((id: string) => mistakesSet.delete(id));
+        }
+
+        userMistakes[sId] = Array.from(mistakesSet);
+
+        await updateGitHubFile(
+          MISTAKES_PATH,
+          JSON.stringify(userMistakes, null, 2),
+          `Update mistakes for ${data.student.name}`
+        );
+      } catch (mistakeErr) {
+        console.error("Error updating mistakes:", mistakeErr);
+      }
+    }
+
     return NextResponse.json({ success: true });
   } catch (error: any) {
     console.error("Error submitting exam:", error);

@@ -9,8 +9,8 @@ type LayoutType = "bg" | "tr";
 
 export default function ExamPage() {
   const router = useRouter();
-  const params = useParams();
-  const examId = params.id as string;
+  
+  const examId = "mistakes";
   
   const [student, setStudent] = useState<any>(null);
   const [activeInput, setActiveInput] = useState<HTMLInputElement | null>(null);
@@ -45,34 +45,39 @@ export default function ExamPage() {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const examRes = await fetch(`/api/manage-exams?id=${examId}`);
-        const examData = await examRes.json();
         
+        const mistakesRes = await fetch(`/api/mistakes?studentId=${student.id}`);
+        const mistakesData = await mistakesRes.json();
         const qRes = await fetch('/api/questions');
         const qData = await qRes.json();
 
-        if (examData.exam && qData.questions) {
-          const fetchedExam = examData.exam;
+        if (mistakesData.success && qData.questions) {
+          const fetchedExam = {
+            id: "mistakes",
+            title: "Hata Havuzu Sınavı",
+            description: "Yanlış yaptığınız veya boş bıraktığınız sorulardan oluşturulan özel sınav.",
+            level: "Karma",
+            recommendedTimeMinutes: Math.ceil((mistakesData.mistakes?.length || 10) * 1.5)
+          };
           setExam(fetchedExam);
           
-          const examQs = fetchedExam.questions.map((qId: string) => 
+          let examQs = mistakesData.mistakes.map((qId: string) => 
             qData.questions.find((q: any) => q.id === qId)
           ).filter(Boolean);
-          
+
+          // Shuffle and take max 50 questions
+          examQs = examQs.sort(() => 0.5 - Math.random()).slice(0, 50);
+
+          if (examQs.length === 0) {
+            router.push("/dashboard");
+            return;
+          }
+
           setQuestions(examQs);
 
-          // Check Schedule
-          const now = new Date().getTime();
-          if (fetchedExam.startTime && now < new Date(fetchedExam.startTime).getTime()) {
-            setStatus("WAITING");
-          } else if (fetchedExam.endTime && now > new Date(fetchedExam.endTime).getTime()) {
-            setStatus("EXPIRED");
-          } else {
-            // Set Timer
-            if (fetchedExam.recommendedTimeMinutes) {
-              setTimeLeft(fetchedExam.recommendedTimeMinutes * 60);
-            }
-          }
+          // Always set as active for mistake exams
+          setStatus("ACTIVE");
+          setTimeLeft(fetchedExam.recommendedTimeMinutes * 60);
         }
       } catch (err) {
         console.error("Failed to load exam", err);
@@ -80,7 +85,7 @@ export default function ExamPage() {
       setLoading(false);
     };
     fetchData();
-  }, [examId]);
+  }, [student]);
 
   useEffect(() => {
     if (status !== "ACTIVE" || timeLeft === null || showResults) return;
