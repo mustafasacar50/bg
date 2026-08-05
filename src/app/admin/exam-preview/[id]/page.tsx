@@ -153,7 +153,6 @@ export default function ExamPreviewPage() {
           <span key={index} className="inline-block mx-1 align-middle">
             <input 
               type="text"
-              disabled
               className="text-input answer-input font-bold tracking-wider w-32 py-1 px-2 text-center text-sm border-b-2 bg-slate-50 border-slate-300"
               placeholder={`${blankKey}. boşluk`}
             />
@@ -361,7 +360,7 @@ export default function ExamPreviewPage() {
                         ) : (
                           <>
                             <span className="match-word flex-1">{pair.word}</span>
-                            <select disabled className="flex-1">
+                            <select className="flex-1">
                               <option>Seçiniz…</option>
                             </select>
                           </>
@@ -474,7 +473,6 @@ export default function ExamPreviewPage() {
                           <input 
                             className="text-input answer-input" 
                             type="text" 
-                            disabled
                             placeholder="Bulgarca yazınız"
                           />
                         </>
