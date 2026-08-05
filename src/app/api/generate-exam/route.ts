@@ -14,6 +14,7 @@ export async function POST(request: Request) {
       description,
       recommendedTimeMinutes: parseInt(timeLimit) || 30,
       level: "A1",
+      lessons: data.lessons || [],
       questions,
       questionPoints,
       startTime: startTime || null,

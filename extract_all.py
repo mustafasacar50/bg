@@ -16,6 +16,7 @@ for filename in os.listdir(docs_dir):
     if not filename.endswith('.txt') or "P04" in filename:
         continue
         
+    lesson_name = filename.replace('.txt', '')
     filepath = os.path.join(docs_dir, filename)
     with open(filepath, 'r', encoding='utf-8') as f:
         lines = f.readlines()
@@ -41,9 +42,9 @@ for filename in os.listdir(docs_dir):
             # If valid looking
             if len(bg) > 1 and len(tr) > 1 and cyrillic_re.search(bg) and not cyrillic_re.search(tr):
                 if len(bg.split()) > 3:
-                    sentences_pairs.append((bg, tr))
+                    sentences_pairs.append({"bg": bg, "tr": tr, "lesson": lesson_name})
                 else:
-                    vocab_pairs.append((bg, tr))
+                    vocab_pairs.append({"bg": bg, "tr": tr, "lesson": lesson_name})
                     
         # Or split by multiple spaces if no dash
         elif "  " in clean_line:
@@ -55,25 +56,35 @@ for filename in os.listdir(docs_dir):
                     bg = re.sub(r'^\d+\.?\s*', '', bg)
                     if cyrillic_re.search(bg) and not cyrillic_re.search(tr) and len(bg) > 1 and len(tr) > 1:
                         if len(bg.split()) > 3:
-                            sentences_pairs.append((bg, tr))
+                            sentences_pairs.append({"bg": bg, "tr": tr, "lesson": lesson_name})
                         else:
-                            vocab_pairs.append((bg, tr))
+                            vocab_pairs.append({"bg": bg, "tr": tr, "lesson": lesson_name})
 
-# Remove duplicates
-vocab_pairs = list(set(vocab_pairs))
-sentences_pairs = list(set(sentences_pairs))
+# Remove duplicates based on bg text
+unique_vocab = {}
+for item in vocab_pairs:
+    if item["bg"] not in unique_vocab:
+        unique_vocab[item["bg"]] = item
+vocab_pairs = list(unique_vocab.values())
+
+unique_sentences = {}
+for item in sentences_pairs:
+    if item["bg"] not in unique_sentences:
+        unique_sentences[item["bg"]] = item
+sentences_pairs = list(unique_sentences.values())
 
 # Generate questions
 questions = []
 
 # 1. MCQs from vocab
-for i, (bg, tr) in enumerate(vocab_pairs):
+for i, item in enumerate(vocab_pairs):
+    bg, tr, lesson = item["bg"], item["tr"], item["lesson"]
     direction = random.choice(["bg_to_tr", "tr_to_bg"])
     
     if direction == "bg_to_tr":
         options = [tr]
         while len(options) < 4 and len(vocab_pairs) >= 4:
-            rand_tr = random.choice(vocab_pairs)[1]
+            rand_tr = random.choice(vocab_pairs)["tr"]
             if rand_tr not in options:
                 options.append(rand_tr)
         random.shuffle(options)
@@ -83,6 +94,7 @@ for i, (bg, tr) in enumerate(vocab_pairs):
             "type": "mcq",
             "difficulty": 1 if i % 2 == 0 else 2,
             "tags": ["Kelime Bilgisi", "BG-TR"],
+            "lesson": lesson,
             "question": f"Aşağıdaki Bulgarca kelimenin Türkçe karşılığı nedir?\n\n**{bg}**",
             "options": [{"id": f"opt{j+1}", "text": opt} for j, opt in enumerate(options)],
             "answer": f"opt{options.index(tr) + 1}",
@@ -91,7 +103,7 @@ for i, (bg, tr) in enumerate(vocab_pairs):
     else:
         options = [bg]
         while len(options) < 4 and len(vocab_pairs) >= 4:
-            rand_bg = random.choice(vocab_pairs)[0]
+            rand_bg = random.choice(vocab_pairs)["bg"]
             if rand_bg not in options:
                 options.append(rand_bg)
         random.shuffle(options)
@@ -101,40 +113,51 @@ for i, (bg, tr) in enumerate(vocab_pairs):
             "type": "mcq",
             "difficulty": 1 if i % 2 == 0 else 2,
             "tags": ["Kelime Bilgisi", "TR-BG"],
+            "lesson": lesson,
             "question": f"Aşağıdaki Türkçe kelimenin Bulgarca karşılığı nedir?\n\n**{tr}**",
             "options": [{"id": f"opt{j+1}", "text": opt} for j, opt in enumerate(options)],
             "answer": f"opt{options.index(bg) + 1}",
             "points": 5
         })
 
-# 2. Matching from vocab
-random.shuffle(vocab_pairs)
-for i in range(0, len(vocab_pairs) - 5, 5):
-    pairs = vocab_pairs[i:i+5]
-    
-    shuffled_right = [p[1] for p in pairs]
-    random.shuffle(shuffled_right)
-    
-    match_options = [{"id": f"opt{j+1}", "text": text} for j, text in enumerate(shuffled_right)]
-    
-    questions.append({
-        "id": f"q_match_auto_{i}",
-        "type": "match",
-        "difficulty": 2,
-        "tags": ["Eşleştirme", "Otomatik Üretim"],
-        "question": "Aşağıdaki Bulgarca kelimeleri Türkçe anlamlarıyla eşleştiriniz.",
-        "pairs": [
-            {
-                "word": p[0], 
-                "match": match_options[[opt["text"] for opt in match_options].index(p[1])]["id"]
-            } for p in pairs
-        ],
-        "options": match_options,
-        "points": 10
-    })
+# 2. Matching from vocab (Group by lesson to make it contextual)
+vocab_by_lesson = {}
+for item in vocab_pairs:
+    vocab_by_lesson.setdefault(item["lesson"], []).append(item)
+
+match_idx = 0
+for lesson, lesson_pairs in vocab_by_lesson.items():
+    random.shuffle(lesson_pairs)
+    for i in range(0, len(lesson_pairs) - 5, 5):
+        pairs = lesson_pairs[i:i+5]
+        if len(pairs) < 3: continue # Don't make matching with less than 3 pairs
+        
+        shuffled_right = [p["tr"] for p in pairs]
+        random.shuffle(shuffled_right)
+        
+        match_options = [{"id": f"opt{j+1}", "text": text} for j, text in enumerate(shuffled_right)]
+        
+        questions.append({
+            "id": f"q_match_auto_{match_idx}",
+            "type": "match",
+            "difficulty": 2,
+            "tags": ["Eşleştirme", "Otomatik Üretim"],
+            "lesson": lesson,
+            "question": "Aşağıdaki Bulgarca kelimeleri Türkçe anlamlarıyla eşleştiriniz.",
+            "pairs": [
+                {
+                    "word": p["bg"], 
+                    "match": match_options[[opt["text"] for opt in match_options].index(p["tr"])]["id"]
+                } for p in pairs
+            ],
+            "options": match_options,
+            "points": 10
+        })
+        match_idx += 1
 
 # 3. Blanks from sentences (hide a random word)
-for i, (bg, tr) in enumerate(sentences_pairs):
+for i, item in enumerate(sentences_pairs):
+    bg, tr, lesson = item["bg"], item["tr"], item["lesson"]
     words = bg.split()
     if len(words) < 3: continue
     
@@ -152,6 +175,7 @@ for i, (bg, tr) in enumerate(sentences_pairs):
         "type": "blank",
         "difficulty": 3,
         "tags": ["Cümle", "Boşluk Doldurma"],
+        "lesson": lesson,
         "sentence": sentence_blanked,
         "hint": tr,
         "answers": {
@@ -161,13 +185,14 @@ for i, (bg, tr) in enumerate(sentences_pairs):
     })
 
 # 4. Sentence Translation MCQs from sentences
-for i, (bg, tr) in enumerate(sentences_pairs):
+for i, item in enumerate(sentences_pairs):
+    bg, tr, lesson = item["bg"], item["tr"], item["lesson"]
     direction = random.choice(["bg_to_tr", "tr_to_bg"])
     
     if direction == "bg_to_tr":
         options = [tr]
         while len(options) < 4 and len(sentences_pairs) >= 4:
-            rand_tr = random.choice(sentences_pairs)[1]
+            rand_tr = random.choice(sentences_pairs)["tr"]
             if rand_tr not in options:
                 options.append(rand_tr)
         random.shuffle(options)
@@ -177,6 +202,7 @@ for i, (bg, tr) in enumerate(sentences_pairs):
             "type": "mcq",
             "difficulty": 3,
             "tags": ["Cümle Çevirisi", "BG-TR"],
+            "lesson": lesson,
             "question": f"Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**{bg}**",
             "options": [{"id": f"opt{j+1}", "text": opt} for j, opt in enumerate(options)],
             "answer": f"opt{options.index(tr) + 1}",
@@ -185,7 +211,7 @@ for i, (bg, tr) in enumerate(sentences_pairs):
     else:
         options = [bg]
         while len(options) < 4 and len(sentences_pairs) >= 4:
-            rand_bg = random.choice(sentences_pairs)[0]
+            rand_bg = random.choice(sentences_pairs)["bg"]
             if rand_bg not in options:
                 options.append(rand_bg)
         random.shuffle(options)
@@ -195,6 +221,7 @@ for i, (bg, tr) in enumerate(sentences_pairs):
             "type": "mcq",
             "difficulty": 3,
             "tags": ["Cümle Çevirisi", "TR-BG"],
+            "lesson": lesson,
             "question": f"Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**{tr}**",
             "options": [{"id": f"opt{j+1}", "text": opt} for j, opt in enumerate(options)],
             "answer": f"opt{options.index(bg) + 1}",

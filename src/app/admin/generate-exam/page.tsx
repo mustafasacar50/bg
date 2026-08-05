@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { ArrowLeft, Wand2, CheckCircle2, Eye } from "lucide-react";
+import { ArrowLeft, Wand2, CheckCircle2, Eye, BookOpen } from "lucide-react";
 import Link from "next/link";
 import questionBank from "@/data/questions.json";
 
@@ -14,6 +14,10 @@ export default function GenerateExamPage() {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
   const [createdExamId, setCreatedExamId] = useState("");
+  
+  // Lesson filter states
+  const [availableLessons, setAvailableLessons] = useState<string[]>([]);
+  const [selectedLessons, setSelectedLessons] = useState<string[]>([]);
   
   // Date states (default empty means no restriction)
   const [startTime, setStartTime] = useState("");
@@ -30,7 +34,24 @@ export default function GenerateExamPage() {
         }
       })
       .catch(err => console.error("Could not fetch exams for default title", err));
+      
+    // Extract unique lessons from question bank
+    const lessons = new Set<string>();
+    questionBank.forEach((q: any) => {
+      if (q.lesson) lessons.add(q.lesson);
+    });
+    const lessonsArray = Array.from(lessons).sort();
+    setAvailableLessons(lessonsArray);
+    
   }, []);
+
+  const toggleLesson = (lesson: string) => {
+    if (selectedLessons.includes(lesson)) {
+      setSelectedLessons(selectedLessons.filter(l => l !== lesson));
+    } else {
+      setSelectedLessons([...selectedLessons, lesson]);
+    }
+  };
 
   const handleGenerate = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -39,10 +60,25 @@ export default function GenerateExamPage() {
     setSuccess(false);
 
     try {
+      // Filter questions by lesson if any lessons are selected
+      let filteredBank = questionBank as any[];
+      if (selectedLessons.length > 0) {
+        filteredBank = filteredBank.filter(q => selectedLessons.includes(q.lesson));
+      }
+      
+      if (filteredBank.length === 0) {
+        throw new Error("Seçilen derslerde hiç soru bulunamadı.");
+      }
+
       // Filter questions by type
-      const mcqs = questionBank.filter(q => q.type === "mcq");
-      const matches = questionBank.filter(q => q.type === "match");
-      const blanks = questionBank.filter(q => q.type === "blank");
+      const mcqs = filteredBank.filter(q => q.type === "mcq");
+      const matches = filteredBank.filter(q => q.type === "match");
+      const blanks = filteredBank.filter(q => q.type === "blank");
+
+      // Check available questions
+      if (mcqs.length < mcqCount) throw new Error(`Seçilen derslerde yeterli test sorusu yok. İstenen: ${mcqCount}, Bulunan: ${mcqs.length}`);
+      if (matches.length < matchCount) throw new Error(`Seçilen derslerde yeterli eşleştirme sorusu yok. İstenen: ${matchCount}, Bulunan: ${matches.length}`);
+      if (blanks.length < blankCount) throw new Error(`Seçilen derslerde yeterli boşluk doldurma sorusu yok. İstenen: ${blankCount}, Bulunan: ${blanks.length}`);
 
       // Randomly select requested amounts
       const shuffle = (array: any[]) => [...array].sort(() => 0.5 - Math.random());
@@ -93,12 +129,15 @@ export default function GenerateExamPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           title,
-          description: "Otomatik olarak oluşturulmuş pratik sınavı.",
+          description: selectedLessons.length > 0 
+            ? `Otomatik oluşturulmuş sınav. İçerdiği dersler: ${selectedLessons.join(", ")}`
+            : "Otomatik olarak tüm konulardan oluşturulmuş pratik sınavı.",
           timeLimit,
           startTime: startTime ? new Date(startTime).toISOString() : null,
           endTime: endTime ? new Date(endTime).toISOString() : null,
           questions: questionIds,
-          questionPoints: questionPoints
+          questionPoints: questionPoints,
+          lessons: selectedLessons
         }),
       });
 
@@ -117,6 +156,11 @@ export default function GenerateExamPage() {
     } finally {
       setLoading(false);
     }
+  };
+
+  // Helper to format lesson names for display (e.g. "A1_Ders1" -> "A1 Ders 1")
+  const formatLessonName = (lesson: string) => {
+    return lesson.replace(/_/g, ' ').replace(/-/g, ' ');
   };
 
   return (
@@ -174,6 +218,46 @@ export default function GenerateExamPage() {
               />
             </div>
 
+            {/* LESSON FILTERS */}
+            {availableLessons.length > 0 && (
+              <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
+                <div className="flex items-center gap-2 mb-4">
+                  <BookOpen size={20} className="text-indigo-600" />
+                  <label className="label mb-0">Ders Filtresi (Opsiyonel)</label>
+                </div>
+                <p className="text-sm text-slate-500 mb-4">
+                  Soruların hangi derslerden seçileceğini belirleyin. Hiçbirini seçmezseniz tüm havuzdan karışık soru gelir.
+                </p>
+                <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                  {availableLessons.map(lesson => (
+                    <label 
+                      key={lesson}
+                      className={`flex items-center gap-3 p-3 rounded-lg border cursor-pointer transition-colors ${
+                        selectedLessons.includes(lesson) 
+                          ? 'bg-indigo-50 border-indigo-200 text-indigo-900' 
+                          : 'bg-white border-slate-200 hover:bg-slate-100'
+                      }`}
+                    >
+                      <input 
+                        type="checkbox" 
+                        className="w-4 h-4 text-indigo-600 rounded border-gray-300 focus:ring-indigo-500"
+                        checked={selectedLessons.includes(lesson)}
+                        onChange={() => toggleLesson(lesson)}
+                      />
+                      <span className="font-semibold text-sm">{formatLessonName(lesson)}</span>
+                    </label>
+                  ))}
+                </div>
+                {selectedLessons.length > 0 && (
+                  <div className="mt-4 text-xs font-bold text-indigo-600 flex justify-end">
+                    <button type="button" onClick={() => setSelectedLessons([])} className="hover:underline">
+                      Seçimleri Temizle
+                    </button>
+                  </div>
+                )}
+              </div>
+            )}
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 bg-slate-50 p-6 rounded-xl border border-slate-100">
               <div>
                 <label className="label text-sm">Başlangıç Zamanı</label>
@@ -214,11 +298,10 @@ export default function GenerateExamPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 bg-slate-50 p-6 rounded-xl border border-slate-100">
               <div>
                 <label className="label text-sm">Test (Çoktan Seçmeli)</label>
-                <div className="text-xs text-slate-400 mb-2">Havuzda: {questionBank.filter(q => q.type === "mcq").length} soru</div>
+                <div className="text-xs text-slate-400 mb-2">Adet seçin</div>
                 <input 
                   type="number" 
                   min="0"
-                  max={questionBank.filter(q => q.type === "mcq").length}
                   className="text-input" 
                   value={mcqCount}
                   onChange={e => setMcqCount(parseInt(e.target.value) || 0)}
@@ -227,11 +310,10 @@ export default function GenerateExamPage() {
               
               <div>
                 <label className="label text-sm">Eşleştirme</label>
-                <div className="text-xs text-slate-400 mb-2">Havuzda: {questionBank.filter(q => q.type === "match").length} soru</div>
+                <div className="text-xs text-slate-400 mb-2">Adet seçin</div>
                 <input 
                   type="number" 
                   min="0"
-                  max={questionBank.filter(q => q.type === "match").length}
                   className="text-input" 
                   value={matchCount}
                   onChange={e => setMatchCount(parseInt(e.target.value) || 0)}
@@ -240,11 +322,10 @@ export default function GenerateExamPage() {
 
               <div>
                 <label className="label text-sm">Boşluk Doldurma</label>
-                <div className="text-xs text-slate-400 mb-2">Havuzda: {questionBank.filter(q => q.type === "blank").length} soru</div>
+                <div className="text-xs text-slate-400 mb-2">Adet seçin</div>
                 <input 
                   type="number" 
                   min="0"
-                  max={questionBank.filter(q => q.type === "blank").length}
                   className="text-input" 
                   value={blankCount}
                   onChange={e => setBlankCount(parseInt(e.target.value) || 0)}
@@ -262,7 +343,7 @@ export default function GenerateExamPage() {
               (Otomatik Küsürat Düzeltmeli - Çoktan Seçmeli: 1x, Eşleştirme: 2x, Boşluk Doldurma: 3x)
             </div>
 
-            {error && <div className="text-red-500 font-bold bg-red-50 p-4 rounded-xl">{error}</div>}
+            {error && <div className="text-red-500 font-bold bg-red-50 p-4 rounded-xl border border-red-200">{error}</div>}
 
             <button disabled={loading} type="submit" className="btn btn-primary flex items-center justify-center gap-2 py-4 text-lg">
               {loading ? "Üretiliyor..." : (

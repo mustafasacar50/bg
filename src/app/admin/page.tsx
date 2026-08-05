@@ -75,6 +75,10 @@ export default function AdminPage() {
           </div>
         </div>
         <div className="flex flex-wrap gap-2 w-full sm:w-auto justify-start sm:justify-end">
+          <Link href="/admin/users" className="p-2 bg-slate-100 text-slate-700 hover:bg-slate-200 rounded-lg transition-colors flex items-center gap-2 text-sm font-bold">
+            <Users size={16} />
+            Kullanıcıları Yönet
+          </Link>
           <Link href="/admin/manage-exams" className="p-2 bg-slate-100 text-slate-700 hover:bg-slate-200 rounded-lg transition-colors flex items-center gap-2 text-sm font-bold">
             <FolderCog size={16} />
             Sınavları Yönet
