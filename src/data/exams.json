@@ -36,5 +36,27 @@
     },
     "startTime": null,
     "endTime": null
+  },
+  {
+    "id": "exam-1785965411478",
+    "title": "Yeni Deneme Sınavı 3",
+    "description": "Otomatik olarak tüm konulardan oluşturulmuş pratik sınavı.",
+    "recommendedTimeMinutes": 30,
+    "level": "A1",
+    "lessons": [],
+    "questions": [
+      "q_reading_auto_111",
+      "q_reading_auto_115",
+      "q_reading_auto_124",
+      "q_reading_auto_117"
+    ],
+    "questionPoints": {
+      "q_reading_auto_111": 25,
+      "q_reading_auto_115": 25,
+      "q_reading_auto_124": 25,
+      "q_reading_auto_117": 25
+    },
+    "startTime": null,
+    "endTime": null
   }
 ]
