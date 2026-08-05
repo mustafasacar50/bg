@@ -15,6 +15,7 @@ export default function ExamPage() {
   const [student, setStudent] = useState<any>(null);
   const [activeInput, setActiveInput] = useState<HTMLInputElement | null>(null);
   const [keyboardOpen, setKeyboardOpen] = useState(false);
+  const [preferNativeKeyboard, setPreferNativeKeyboard] = useState(false);
   const [layout, setLayout] = useState<LayoutType>("bg");
   
   const [exam, setExam] = useState<any>(null);
@@ -373,7 +374,7 @@ export default function ExamPage() {
               onChange={(e) => handleAnswerChange(ansId, e.target.value)}
               onFocus={(e) => {
                 setActiveInput(e.target);
-                setKeyboardOpen(true);
+                if (!preferNativeKeyboard) setKeyboardOpen(true);
               }}
               disabled={showResults}
               title={showResults && !isCorrect ? `Doğru cevap: ${correctAnswer}` : ''}
@@ -587,7 +588,7 @@ export default function ExamPage() {
                       onChange={(e) => handleAnswerChange(q.id, e.target.value)}
                       onFocus={(e) => {
                         setActiveInput(e.target);
-                        setKeyboardOpen(true);
+                        if (!preferNativeKeyboard) setKeyboardOpen(true);
                       }}
                       disabled={showResults}
                     />
@@ -715,7 +716,7 @@ export default function ExamPage() {
       {/* Keyboard */}
       {!showResults && (
         <>
-          <button className="floating-kb" type="button" onClick={() => setKeyboardOpen(true)} style={{ display: keyboardOpen ? 'none' : 'block' }}>
+          <button className="floating-kb" type="button" onClick={() => { setPreferNativeKeyboard(false); setKeyboardOpen(true); }} style={{ display: keyboardOpen ? 'none' : 'block' }}>
             ⌨️ Bulgarca Klavye
           </button>
 
@@ -729,6 +730,7 @@ export default function ExamPage() {
                 </div>
                 <div className="flex gap-2">
                   <button type="button" className="text-xs bg-slate-100 hover:bg-slate-200 text-slate-700 px-3 py-1 rounded-md font-bold transition-colors" onClick={() => { 
+                    setPreferNativeKeyboard(true);
                     setKeyboardOpen(false); 
                     if (activeInput) {
                       activeInput.blur();
