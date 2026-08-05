@@ -23,7 +23,7 @@ export default function ExamPage() {
 
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [showResults, setShowResults] = useState(false);
-  const [score, setScore] = useState<any>({ total: 0, mcq: "", match: "", blank: "" });
+  const [score, setScore] = useState<any>({ total: 0, mcq: "", match: "", blank: "", reading: "" });
   const [isSubmitting, setIsSubmitting] = useState(false);
   
   const [showConfirmSubmit, setShowConfirmSubmit] = useState(false);
@@ -105,6 +105,10 @@ export default function ExamPage() {
       const blankKeys = Object.keys(q.answers || { [q.id]: q.answer });
       return blankKeys.some(bId => !answers[bId]);
     }
+    if (q.type === 'reading') {
+      const readingKeys = Object.keys(q.answers);
+      return readingKeys.some(bId => !answers[bId]);
+    }
     return false;
   };
 
@@ -133,6 +137,7 @@ export default function ExamPage() {
     const mcqs = questions.filter(q => q.type === "mcq");
     const matches = questions.filter(q => q.type === "matching" || q.type === "match");
     const blanks = questions.filter(q => q.type === "blank");
+    const readings = questions.filter(q => q.type === "reading");
 
     let earnedPoints = 0;
     let maxPoints = 0;
@@ -179,6 +184,26 @@ export default function ExamPage() {
       }
     });
 
+    // Reading scoring
+    readings.forEach(q => {
+      const qPts = exam.questionPoints ? (exam.questionPoints[q.id] || q.points || 20) : (q.points || 20);
+      maxPoints += qPts;
+      
+      let correctBlanks = 0;
+      const readingKeys = Object.keys(q.answers);
+      
+      readingKeys.forEach(bId => {
+        const expected = q.answers[bId];
+        if (normalize(answers[bId] || "") === normalize(expected)) {
+          correctBlanks++;
+        }
+      });
+      
+      if (readingKeys.length > 0) {
+        earnedPoints += (correctBlanks / readingKeys.length) * qPts;
+      }
+    });
+
     // Normalize to 100
     const finalScore = maxPoints > 0 ? Math.round((earnedPoints / maxPoints) * 100) : 0;
     
@@ -190,6 +215,9 @@ export default function ExamPage() {
         const expected = q.answers ? q.answers[bId] : q.answer;
         return bAcc + (normalize(answers[bId] || "") === normalize(expected) ? 1 : 0);
       }, 0), 0) + "/" + blanks.reduce((acc, q) => acc + Object.keys(q.answers || { [q.id]: q.answer }).length, 0),
+      reading: readings.reduce((acc, q) => acc + Object.keys(q.answers).reduce((bAcc: number, bId) => {
+        return bAcc + (normalize(answers[bId] || "") === normalize(q.answers[bId]) ? 1 : 0);
+      }, 0), 0) + "/" + readings.reduce((acc, q) => acc + Object.keys(q.answers).length, 0),
     };
 
     setScore(scoreData as any);
@@ -290,6 +318,46 @@ export default function ExamPage() {
         return <strong key={index} className="font-black text-slate-800">{part.slice(2, -2)}</strong>;
       }
       return <span key={index}>{part}</span>;
+    });
+  };
+
+  const renderReadingText = (text: string, qId: string, qAnswers: Record<string, string>) => {
+    if (!text) return null;
+    const parts = text.split(/(____\d+____)/g);
+    
+    return parts.map((part, index) => {
+      const match = part.match(/____(\d+)____/);
+      if (match) {
+        const blankKey = match[1];
+        const ansId = `${qId}_${blankKey}`;
+        const correctAnswer = qAnswers[blankKey];
+        const isCorrect = normalize(answers[ansId] || "") === normalize(correctAnswer);
+        const isSelected = !!answers[ansId];
+
+        return (
+          <span key={index} className="inline-block mx-1 align-middle">
+            <input 
+              type="text"
+              className={`text-input answer-input font-bold tracking-wider w-32 py-1 px-2 text-center text-sm border-b-2 bg-slate-50 ${isSelected ? 'border-primary text-primary-dark shadow-sm' : 'border-slate-300'} ${showResults ? (isCorrect ? 'border-green-500 text-green-700 bg-green-50' : 'border-red-500 text-red-700 bg-red-50') : ''}`}
+              placeholder={`${blankKey}. boşluk`}
+              value={answers[ansId] || ""}
+              onChange={(e) => handleAnswerChange(ansId, e.target.value)}
+              onFocus={(e) => {
+                setActiveInput(e.target);
+                setKeyboardOpen(true);
+              }}
+              disabled={showResults}
+              title={showResults && !isCorrect ? `Doğru cevap: ${correctAnswer}` : ''}
+            />
+            {showResults && !isCorrect && (
+              <span className="text-xs text-red-600 block text-center absolute -mt-1 w-32">
+                {correctAnswer}
+              </span>
+            )}
+          </span>
+        );
+      }
+      return <span key={index} className="text-lg text-slate-700 leading-10">{part}</span>;
     });
   };
 
@@ -506,6 +574,44 @@ export default function ExamPage() {
               </section>
             );
           }
+
+          if (q.type === "reading") {
+            const readingKeys = Object.keys(q.answers);
+            let correctCount = 0;
+            readingKeys.forEach(k => {
+              if (normalize(answers[`${q.id}_${k}`] || "") === normalize(q.answers[k])) {
+                correctCount++;
+              }
+            });
+            const isAllCorrect = correctCount === readingKeys.length;
+            const highlightClassReading = showConfirmSubmit && isQuestionUnanswered(q) ? 'bg-orange-50/50 border-orange-200 ring-4 ring-orange-50' : '';
+
+            return (
+              <section key={q.id} className={`card transition-colors duration-300 ${highlightClassReading}`}>
+                <div className="section-head">
+                  <div>
+                    <h2>{qIndex + 1}. Okuma Parçası (Boşluk Doldurma)</h2>
+                    {q.trHint && <p className="text-sm text-slate-500 mt-1 italic">İpucu (Çeviri): {q.trHint}</p>}
+                  </div>
+                  <span className="points">{exam.questionPoints?.[q.id] || q.points} puan</span>
+                </div>
+                <div className={`question p-6 bg-slate-50 border rounded-2xl ${showResults ? (isAllCorrect ? 'border-green-300' : (correctCount > 0 ? 'border-amber-300' : 'border-red-300')) : 'border-slate-200'}`}>
+                  <div className="reading-text relative leading-loose">
+                    {renderReadingText(q.text, q.id, q.answers)}
+                  </div>
+                  {showResults && (
+                    <div className={`feedback mt-4 text-sm font-bold ${isAllCorrect ? 'text-green-600' : 'text-amber-600'}`}>
+                      {isAllCorrect ? '✓ Tümü Doğru' : `✗ ${readingKeys.length} boşluktan ${correctCount} tanesi doğru.`}
+                    </div>
+                  )}
+                </div>
+                <div className="keyboard-help mt-4 text-xs font-semibold text-slate-400 flex items-center justify-center gap-1">
+                  ⌨️ Yazma alanına dokunduğunuzda Bulgarca klavye açılır.
+                </div>
+              </section>
+            );
+          }
+
           return null;
         })}
 
@@ -564,6 +670,7 @@ export default function ExamPage() {
             <div><strong>{score.mcq}</strong><span>Çoktan seçmeli</span></div>
             <div><strong>{score.match}</strong><span>Eşleştirme</span></div>
             <div><strong>{score.blank}</strong><span>Boşluk doldurma</span></div>
+            <div><strong>{score.reading}</strong><span>Okuma parçası</span></div>
           </div>
           <div className="mt-6 flex flex-col gap-3">
              <Link href="/dashboard" className="btn btn-secondary w-full py-4 text-lg font-bold">Panoya Dön</Link>

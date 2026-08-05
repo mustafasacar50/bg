@@ -10,6 +10,7 @@ export default function GenerateExamPage() {
   const [mcqCount, setMcqCount] = useState(5);
   const [matchCount, setMatchCount] = useState(2);
   const [blankCount, setBlankCount] = useState(2);
+  const [readingCount, setReadingCount] = useState(1);
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
@@ -104,11 +105,13 @@ export default function GenerateExamPage() {
       const mcqs = filteredBank.filter(q => q.type === "mcq");
       const matches = filteredBank.filter(q => q.type === "match");
       const blanks = filteredBank.filter(q => q.type === "blank");
+      const readings = filteredBank.filter(q => q.type === "reading");
 
       // Check available questions
       if (mcqs.length < mcqCount) throw new Error(`Seçilen derslerde yeterli test sorusu yok. İstenen: ${mcqCount}, Bulunan: ${mcqs.length}`);
       if (matches.length < matchCount) throw new Error(`Seçilen derslerde yeterli eşleştirme sorusu yok. İstenen: ${matchCount}, Bulunan: ${matches.length}`);
       if (blanks.length < blankCount) throw new Error(`Seçilen derslerde yeterli boşluk doldurma sorusu yok. İstenen: ${blankCount}, Bulunan: ${blanks.length}`);
+      if (readings.length < readingCount) throw new Error(`Seçilen derslerde yeterli okuma parçası sorusu yok. İstenen: ${readingCount}, Bulunan: ${readings.length}`);
 
       // Randomly select requested amounts
       const shuffle = (array: any[]) => [...array].sort(() => 0.5 - Math.random());
@@ -116,7 +119,8 @@ export default function GenerateExamPage() {
       const selectedQuestions = [
         ...shuffle(mcqs).slice(0, mcqCount),
         ...shuffle(matches).slice(0, matchCount),
-        ...shuffle(blanks).slice(0, blankCount)
+        ...shuffle(blanks).slice(0, blankCount),
+        ...shuffle(readings).slice(0, readingCount)
       ];
 
       if (selectedQuestions.length === 0) {
@@ -128,6 +132,7 @@ export default function GenerateExamPage() {
         if (q.type === "mcq") totalWeight += 1;
         else if (q.type === "match" || q.type === "matching") totalWeight += 2;
         else if (q.type === "blank") totalWeight += 3;
+        else if (q.type === "reading") totalWeight += 4;
       });
 
       const baseUnit = 100 / totalWeight;
@@ -139,6 +144,7 @@ export default function GenerateExamPage() {
         if (q.type === "mcq") weight = 1;
         else if (q.type === "match" || q.type === "matching") weight = 2;
         else if (q.type === "blank") weight = 3;
+        else if (q.type === "reading") weight = 4;
 
         let points = 0;
         if (index === selectedQuestions.length - 1) {
@@ -389,6 +395,26 @@ export default function GenerateExamPage() {
                   onChange={e => setBlankCount(parseInt(e.target.value) || 0)}
                 />
               </div>
+
+              <div>
+                <label className="label text-sm">Okuma Parçası</label>
+                <div className="text-xs font-bold text-indigo-500 mb-2">
+                  Havuzda: {
+                    (selectedLessons.length > 0 
+                      ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'reading') 
+                      : questionBank.filter(q => q.type === 'reading')
+                    ).length
+                  } soru
+                </div>
+                <input 
+                  type="number" 
+                  min="0"
+                  max={(selectedLessons.length > 0 ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'reading') : questionBank.filter(q => q.type === 'reading')).length}
+                  className="text-input" 
+                  value={readingCount}
+                  onChange={e => setReadingCount(parseInt(e.target.value) || 0)}
+                />
+              </div>
             </div>
 
             <div className="flex items-center justify-between bg-purple-50 p-4 rounded-xl border border-purple-100">
@@ -398,7 +424,7 @@ export default function GenerateExamPage() {
               </div>
             </div>
             <div className="text-xs text-purple-400 text-right -mt-4">
-              (Otomatik Küsürat Düzeltmeli - Çoktan Seçmeli: 1x, Eşleştirme: 2x, Boşluk Doldurma: 3x)
+              (Otomatik Küsürat Düzeltmeli - Çoktan Seçmeli: 1x, Eşleştirme: 2x, Boşluk Doldurma: 3x, Okuma: 4x)
             </div>
 
             {error && <div className="text-red-500 font-bold bg-red-50 p-4 rounded-xl border border-red-200">{error}</div>}

@@ -44177,5 +44177,233 @@
       "left5": "right5"
     },
     "points": 15
+  },
+  {
+    "id": "q_reading_auto_100",
+    "type": "reading",
+    "difficulty": 3,
+    "tags": [
+      "Okuma Parçası",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "BULGARA A1 ÇARŞAMBA-CUMA 2.DERS 07.03",
+    "text": "Моето име е ____1____. Аз живея в ____2____. Имам голямо ____3____. Майка ми е учителка, а баща ми е ____4____.",
+    "trHint": "Benim adım İvan. Ben Sofya'da yaşıyorum. Benim büyük bir ailem var. Annem öğretmen, babam ise mühendis.",
+    "answers": {
+      "q_reading_auto_100_1": "Иван",
+      "q_reading_auto_100_2": "София",
+      "q_reading_auto_100_3": "семейство",
+      "q_reading_auto_100_4": "инженер"
+    },
+    "points": 20
+  },
+  {
+    "id": "q_reading_auto_101",
+    "type": "reading",
+    "difficulty": 3,
+    "tags": [
+      "Okuma Parçası",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "BULGARA A1 ÇARŞAMBA-CUMA 2.DERS 07.03",
+    "text": "Днес времето е много ____1____. Слънцето свети и небето е ____2____. Ние отиваме в ____3____. Там ще се срещнем с нашите ____4____.",
+    "trHint": "Bugün hava çok güzel. Güneş parlıyor ve gökyüzü mavi. Biz parka gidiyoruz. Orada arkadaşlarımızla buluşacağız.",
+    "answers": {
+      "q_reading_auto_101_1": "хубаво",
+      "q_reading_auto_101_2": "синьо",
+      "q_reading_auto_101_3": "парка",
+      "q_reading_auto_101_4": "приятели"
+    },
+    "points": 20
+  },
+  {
+    "id": "q_reading_auto_102",
+    "type": "reading",
+    "difficulty": 3,
+    "tags": [
+      "Okuma Parçası",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "BULGARCA A1 ÇARŞAMBA-CUMA 7.DERS 26.03",
+    "text": "Сутрин ставам ____1____. Първо пия ____2____, после закусвам. На закуска обикновено ям ____3____ и маслини. Много е ____4____.",
+    "trHint": "Sabahları erken kalkarım. Önce kahve içerim, sonra kahvaltı yaparım. Kahvaltıda genellikle peynir ve zeytin yerim.",
+    "answers": {
+      "q_reading_auto_102_1": "рано",
+      "q_reading_auto_102_2": "кафе",
+      "q_reading_auto_102_3": "сирене",
+      "q_reading_auto_102_4": "вкусно"
+    },
+    "points": 20
+  },
+  {
+    "id": "q_reading_auto_103",
+    "type": "reading",
+    "difficulty": 3,
+    "tags": [
+      "Okuma Parçası",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "BULGARCA A1 ÇARŞAMBA-CUMA 7.DERS 26.03",
+    "text": "През уикенда отидохме на ____1____. Филмът беше много ____2____. После вечеряхме в ____3____. В неделя си почивахме в ____4____.",
+    "trHint": "Hafta sonu sinemaya gittik. Film çok heyecanlıydı. Sonra restoranda akşam yemeği yedik. Pazar günü ise evde dinlendik.",
+    "answers": {
+      "q_reading_auto_103_1": "кино",
+      "q_reading_auto_103_2": "интересен",
+      "q_reading_auto_103_3": "ресторант",
+      "q_reading_auto_103_4": "къщи"
+    },
+    "points": 20
+  },
+  {
+    "id": "q_reading_auto_104",
+    "type": "reading",
+    "difficulty": 3,
+    "tags": [
+      "Okuma Parçası",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "BULGARCA A1- ÇARŞAMBA-CUMA 6. DERS 22.03",
+    "text": "Аз имам една ____1____ и едно куче. Котката е черна, а кучето е ____2____. Те много обичат да ____3____ в градината. Всеки ден сме ____4____.",
+    "trHint": "Benim bir kedim ve bir köpeğim var. Kedi siyah, köpek ise beyaz. Onlar bahçede oynamayı çok seviyorlar.",
+    "answers": {
+      "q_reading_auto_104_1": "котка",
+      "q_reading_auto_104_2": "бяло",
+      "q_reading_auto_104_3": "играят",
+      "q_reading_auto_104_4": "заедно"
+    },
+    "points": 20
+  },
+  {
+    "id": "q_reading_auto_105",
+    "type": "reading",
+    "difficulty": 3,
+    "tags": [
+      "Okuma Parçası",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "BULGARCA A1- ÇARŞAMBA-CUMA 6. DERS 22.03",
+    "text": "Моят брат учи в ____1____. Той е на двадесет ____2____. Студент е в медицинския факултет. В бъдеще иска да стане добър ____3____. Много чете ____4____.",
+    "trHint": "Benim erkek kardeşim üniversitede okuyor. O yirmi yaşında. Tıp fakültesinde öğrenci. Gelecekte iyi bir doktor olmak istiyor.",
+    "answers": {
+      "q_reading_auto_105_1": "университета",
+      "q_reading_auto_105_2": "години",
+      "q_reading_auto_105_3": "лекар",
+      "q_reading_auto_105_4": "книги"
+    },
+    "points": 20
+  },
+  {
+    "id": "q_reading_auto_106",
+    "type": "reading",
+    "difficulty": 3,
+    "tags": [
+      "Okuma Parçası",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "BULGARCA ÇARŞAMBA-CUMA 1.DERS-5.03",
+    "text": "Здравейте, как ____1____? Аз съм добре, ____2____. Как се ____3____ вие? Приятно ми е да се ____4____.",
+    "trHint": "Merhaba, nasılsınız? Ben iyiyim, teşekkür ederim. Sizin adınız ne? Memnun oldum.",
+    "answers": {
+      "q_reading_auto_106_1": "сте",
+      "q_reading_auto_106_2": "благодаря",
+      "q_reading_auto_106_3": "казвате",
+      "q_reading_auto_106_4": "запознаем"
+    },
+    "points": 20
+  },
+  {
+    "id": "q_reading_auto_107",
+    "type": "reading",
+    "difficulty": 3,
+    "tags": [
+      "Okuma Parçası",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "BULGARCA ÇARŞAMBA-CUMA 1.DERS-5.03",
+    "text": "Това е моята ____1____. В нея има книги и ____2____. Също така има и един ____3____ за химикалки. Той е ____4____ на цвят.",
+    "trHint": "Bu benim çantam. Çantamın içinde kitaplar ve defterler var. Ayrıca bir kalem kutusu da bulunuyor.",
+    "answers": {
+      "q_reading_auto_107_1": "чанта",
+      "q_reading_auto_107_2": "тетрадки",
+      "q_reading_auto_107_3": "несесер",
+      "q_reading_auto_107_4": "червен"
+    },
+    "points": 20
+  },
+  {
+    "id": "q_reading_auto_108",
+    "type": "reading",
+    "difficulty": 3,
+    "tags": [
+      "Okuma Parçası",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "BULGARCA ÇARŞAMBA-CUMA 4. DERS 14.03",
+    "text": "От магазина купих ____1____, мляко и яйца. Общо струваше двадесет ____2____. Дадох парите на ____3____ и взех ____4____.",
+    "trHint": "Marketten ekmek, süt ve yumurta aldım. Toplam yirmi leva tuttu. Kasiyere parayı verdim ve para üstünü aldım.",
+    "answers": {
+      "q_reading_auto_108_1": "хляб",
+      "q_reading_auto_108_2": "лева",
+      "q_reading_auto_108_3": "касиера",
+      "q_reading_auto_108_4": "рестото"
+    },
+    "points": 20
+  },
+  {
+    "id": "q_reading_auto_109",
+    "type": "reading",
+    "difficulty": 3,
+    "tags": [
+      "Okuma Parçası",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "BULGARCA ÇARŞAMBA-CUMA 4. DERS 14.03",
+    "text": "Отидохме на ____1____ за почивка. Водата беше много ____2____. На плажа се пекохме и ____3____. Вечер се разхождахме по ____4____.",
+    "trHint": "Tatil için denize gittik. Su çok sıcaktı. Plajda güneşlendik ve yüzdük. Akşamları sahilde yürüyüş yaptık.",
+    "answers": {
+      "q_reading_auto_109_1": "море",
+      "q_reading_auto_109_2": "топла",
+      "q_reading_auto_109_3": "плувахме",
+      "q_reading_auto_109_4": "бряг"
+    },
+    "points": 20
+  },
+  {
+    "id": "q_reading_auto_110",
+    "type": "reading",
+    "difficulty": 3,
+    "tags": [
+      "Okuma Parçası",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "text": "Аз съм ____1____ и обичам училището. Моите ученици са много ____2____. За мен е удоволствие да преподавам ____3____ в класната стая. Всички сме много ____4____.",
+    "trHint": "Ben bir öğretmenim ve okulu seviyorum. Öğrencilerim çok akıllı. Sınıfta ders anlatmak benim için bir zevk.",
+    "answers": {
+      "q_reading_auto_110_1": "учител",
+      "q_reading_auto_110_2": "умни",
+      "q_reading_auto_110_3": "уроци",
+      "q_reading_auto_110_4": "щастливи"
+    },
+    "points": 20
+  },
+  {
+    "id": "q_reading_auto_111",
+    "type": "reading",
+    "difficulty": 3,
+    "tags": [
+      "Okuma Parçası",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "text": "Вчера времето беше ____1____. Затова не излязохме ____2____. Вкъщи гледахме телевизия и пихме ____3____. Топлият чай ни дойде ____4____.",
+    "trHint": "Dün hava yağmurluydu. Bu yüzden dışarı çıkmadık. Evde televizyon izledik ve çay içtik. Sıcak çay iyi geldi.",
+    "answers": {
+      "q_reading_auto_111_1": "дъждовно",
+      "q_reading_auto_111_2": "навън",
+      "q_reading_auto_111_3": "чай",
+      "q_reading_auto_111_4": "добре"
+    },
+    "points": 20
   }
 ]
