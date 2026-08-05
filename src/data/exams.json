@@ -1,23 +1,5 @@
 [
   {
-    "id": "exam-1",
-    "title": "Bulgarca Mini Sınavı",
-    "description": "1. ve 2. ders konularından: selamlaşma, temel fiiller, aile, günler, renkler ve günlük kelimeler.",
-    "recommendedTimeMinutes": 15,
-    "questions": [
-      "q1",
-      "q2",
-      "q3",
-      "q4",
-      "q5",
-      "q6",
-      "q7",
-      "q8",
-      "q9"
-    ],
-    "level": "A1"
-  },
-  {
     "id": "exam-1785957084029",
     "title": "Yeni Deneme Sınavı 5",
     "description": "Otomatik olarak oluşturulmuş pratik sınavı.",
