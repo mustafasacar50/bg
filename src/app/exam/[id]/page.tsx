@@ -366,6 +366,7 @@ export default function ExamPage() {
           <span key={index} className="inline-block mx-1 align-middle">
             <input 
               type="text"
+              inputMode={keyboardOpen ? "none" : "text"}
               className={`text-input answer-input font-bold tracking-wider w-32 py-1 px-2 text-center text-sm border-b-2 bg-slate-50 ${isSelected ? 'border-primary text-primary-dark shadow-sm' : 'border-slate-300'} ${showResults ? (isCorrect ? 'border-green-500 text-green-700 bg-green-50' : 'border-red-500 text-red-700 bg-red-50') : ''}`}
               placeholder={`${blankKey}. boşluk`}
               value={answers[ansId] || ""}
@@ -577,6 +578,7 @@ export default function ExamPage() {
                     <input 
                       className={`text-input answer-input font-bold tracking-wider ${isSelected ? 'border-primary text-primary-dark ring-2 ring-primary/20' : ''}`}
                       type="text" 
+                      inputMode={keyboardOpen ? "none" : "text"}
                       autoComplete="off" 
                       autoCapitalize="characters" 
                       spellCheck="false" 
@@ -714,20 +716,32 @@ export default function ExamPage() {
       {!showResults && (
         <>
           <button className="floating-kb" type="button" onClick={() => setKeyboardOpen(true)} style={{ display: keyboardOpen ? 'none' : 'block' }}>
-            ⌨️ Klavye
+            ⌨️ Bulgarca Klavye
           </button>
 
           <div className="keyboard-shell" aria-hidden={!keyboardOpen}>
             <div className={`keyboard ${keyboardOpen ? 'open' : ''}`}>
               <div className="kb-top">
                 <div className="kb-tabs">
-                  <button type="button" className={`kb-tab ${layout === 'bg' ? 'active' : ''}`} onClick={() => setLayout('bg')}>БГ Bulgarca</button>
-                  <button type="button" className={`kb-tab ${layout === 'tr' ? 'active' : ''}`} onClick={() => setLayout('tr')}>TR Türkçe</button>
+                  <div className="font-bold text-sm text-indigo-700 px-2 flex items-center gap-2">
+                    🇧🇬 Bulgarca Klavye
+                  </div>
                 </div>
-                <button type="button" className="kb-close" onClick={() => setKeyboardOpen(false)}>Kapat</button>
+                <div className="flex gap-2">
+                  <button type="button" className="text-xs bg-slate-100 hover:bg-slate-200 text-slate-700 px-3 py-1 rounded-md font-bold transition-colors" onClick={() => { 
+                    setKeyboardOpen(false); 
+                    if (activeInput) {
+                      activeInput.blur();
+                      setTimeout(() => activeInput.focus(), 50);
+                    }
+                  }}>
+                    🇹🇷 Normal Klavyeye Geç
+                  </button>
+                  <button type="button" className="kb-close" onClick={() => setKeyboardOpen(false)}>Kapat</button>
+                </div>
               </div>
               <div className="keys">
-                {layouts[layout].map(letter => (
+                {layouts.bg.map(letter => (
                   <button key={letter} type="button" className="key" onClick={(e) => { e.preventDefault(); insertText(letter); }}>
                     {letter}
                   </button>
