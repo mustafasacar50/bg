@@ -131,10 +131,10 @@ export default function ExamPage() {
     setAnswers(prev => ({ ...prev, [qId]: value }));
   };
 
-  const normalize = (value: string) => value
-    .toLocaleUpperCase('bg-BG')
-    .trim()
-    .replace(/[.,!?;:]+$/g, '')
+  const normalize = (value: string | undefined | null) => {
+    if (!value) return "";
+    return value.toLocaleUpperCase('bg-BG').trim().replace(/[.,!?;:]+$/g, '');
+  };
 
   const handleFinalSubmit = async () => {
     setKeyboardOpen(false);
