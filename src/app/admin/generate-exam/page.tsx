@@ -40,7 +40,16 @@ export default function GenerateExamPage() {
     questionBank.forEach((q: any) => {
       if (q.lesson) lessons.add(q.lesson);
     });
-    const lessonsArray = Array.from(lessons).sort();
+    const lessonsArray = Array.from(lessons).sort((a, b) => {
+      // Try to extract the number before ".DERS" or ". DERS"
+      const matchA = a.match(/(\d+)\s*\.\s*DERS/i);
+      const matchB = b.match(/(\d+)\s*\.\s*DERS/i);
+      if (matchA && matchB) {
+        return parseInt(matchA[1]) - parseInt(matchB[1]);
+      }
+      // Fallback to basic string sort if no numbers found
+      return a.localeCompare(b);
+    });
     setAvailableLessons(lessonsArray);
     
   }, []);
@@ -51,6 +60,27 @@ export default function GenerateExamPage() {
     } else {
       setSelectedLessons([...selectedLessons, lesson]);
     }
+  };
+
+  const handleDragStart = (e: React.DragEvent, index: number) => {
+    e.dataTransfer.setData("index", index.toString());
+  };
+
+  const handleDrop = (e: React.DragEvent, dropIndex: number) => {
+    e.preventDefault();
+    const dragIndex = parseInt(e.dataTransfer.getData("index"));
+    if (isNaN(dragIndex) || dragIndex === dropIndex) return;
+
+    const newLessons = [...availableLessons];
+    const draggedItem = newLessons[dragIndex];
+    newLessons.splice(dragIndex, 1);
+    newLessons.splice(dropIndex, 0, draggedItem);
+    
+    setAvailableLessons(newLessons);
+  };
+
+  const handleDragOver = (e: React.DragEvent) => {
+    e.preventDefault();
   };
 
   const handleGenerate = async (e: React.FormEvent) => {
@@ -229,10 +259,14 @@ export default function GenerateExamPage() {
                   Soruların hangi derslerden seçileceğini belirleyin. Hiçbirini seçmezseniz tüm havuzdan karışık soru gelir.
                 </p>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-                  {availableLessons.map(lesson => (
+                  {availableLessons.map((lesson, index) => (
                     <label 
                       key={lesson}
-                      className={`flex items-center gap-3 p-3 rounded-lg border cursor-pointer transition-colors ${
+                      draggable
+                      onDragStart={(e) => handleDragStart(e, index)}
+                      onDrop={(e) => handleDrop(e, index)}
+                      onDragOver={handleDragOver}
+                      className={`flex items-center gap-3 p-3 rounded-lg border cursor-grab active:cursor-grabbing transition-colors ${
                         selectedLessons.includes(lesson) 
                           ? 'bg-indigo-50 border-indigo-200 text-indigo-900' 
                           : 'bg-white border-slate-200 hover:bg-slate-100'
