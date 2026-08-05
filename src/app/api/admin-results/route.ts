@@ -10,11 +10,11 @@ export async function GET(request: Request) {
 
     const octokit = new Octokit({ auth: token });
     
-    const repoFullName = process.env.GITHUB_REPO || "mustafasacar50/bg";
-    const [owner, repo] = repoFullName.split("/");
+    const owner = process.env.GITHUB_OWNER || "mustafasacar50";
+    const repo = process.env.GITHUB_REPO || "bg";
 
     if (!owner || !repo) {
-      return NextResponse.json({ error: "GITHUB_REPO is not set properly." }, { status: 500 });
+      return NextResponse.json({ error: "GITHUB_OWNER or GITHUB_REPO is missing." }, { status: 500 });
     }
 
     // List files in data/results/
