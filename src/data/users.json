@@ -29,5 +29,13 @@
     "role": "student",
     "name": "Tamer SAÇAR",
     "group": "A Grubu"
+  },
+  {
+    "id": "u1785963596504",
+    "username": "yaseminsacar",
+    "password": "123",
+    "role": "student",
+    "name": "Yasemin SAÇAR",
+    "group": "A1"
   }
 ]
