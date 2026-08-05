@@ -16,25 +16,5 @@
     },
     "startTime": null,
     "endTime": null
-  },
-  {
-    "id": "exam-1785964888198",
-    "title": "Yeni Deneme Sınavı 3",
-    "description": "Otomatik oluşturulmuş sınav. İçerdiği dersler: BULGARCA A1- ÇARŞAMBA-CUMA 6. DERS 22.03",
-    "recommendedTimeMinutes": 30,
-    "level": "A1",
-    "lessons": [
-      "BULGARCA A1- ÇARŞAMBA-CUMA 6. DERS 22.03"
-    ],
-    "questions": [
-      "q_reading_auto_104",
-      "q_reading_auto_105"
-    ],
-    "questionPoints": {
-      "q_reading_auto_104": 50,
-      "q_reading_auto_105": 50
-    },
-    "startTime": null,
-    "endTime": null
   }
 ]
