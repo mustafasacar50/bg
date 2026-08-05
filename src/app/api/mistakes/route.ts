@@ -13,7 +13,7 @@ export async function GET(request: Request) {
     }
 
     const fileData = await getGitHubFile(MISTAKES_PATH).catch(() => ({ content: "{}" }));
-    let userMistakes = {};
+    let userMistakes: Record<string, string[]> = {};
     try {
       userMistakes = JSON.parse(fileData.content);
     } catch(e) {}

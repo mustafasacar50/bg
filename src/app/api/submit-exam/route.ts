@@ -45,7 +45,7 @@ export async function POST(request: Request) {
       try {
         const MISTAKES_PATH = "src/data/user_mistakes.json";
         const mistakesFile = await getGitHubFile(MISTAKES_PATH).catch(() => ({ content: "{}" }));
-        let userMistakes = {};
+        let userMistakes: Record<string, string[]> = {};
         try {
           userMistakes = JSON.parse(mistakesFile.content);
         } catch(e) {}
