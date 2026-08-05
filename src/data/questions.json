@@ -30225,22 +30225,6 @@
     "points": 15
   },
   {
-    "id": "q_blank_auto_304",
-    "type": "blank",
-    "difficulty": 3,
-    "tags": [
-      "Cümle",
-      "Boşluk Doldurma"
-    ],
-    "lesson": "Bulgarca TEKRAR",
-    "sentence": "| КОЕ Е ТОВА ____",
-    "hint": "19?",
-    "answers": {
-      "q_blank_auto_304": "ЧИСЛО"
-    },
-    "points": 15
-  },
-  {
     "id": "q_mcq_sentence_0",
     "type": "mcq",
     "difficulty": 3,
@@ -39665,34 +39649,4533 @@
     "points": 10
   },
   {
-    "id": "q_mcq_sentence_304",
+    "id": "q_mcq_tekrar_1000",
     "type": "mcq",
-    "difficulty": 3,
+    "difficulty": 2,
     "tags": [
       "Cümle Çevirisi",
       "TR-BG"
     ],
     "lesson": "Bulgarca TEKRAR",
-    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**19?**",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Kediniz var mı?**",
     "options": [
       {
         "id": "opt1",
-        "text": "НИЕ УТРЕ НЯМАМЕ ЛИ УРОК?"
+        "text": "ИМАТЕ ЛИ КОТКА?"
       },
       {
         "id": "opt2",
-        "text": "ТОВА ВАШИЯТ ПАСПОРТ ЛИ Е?"
+        "text": "НА МАСАТА ИМА ЛИ КНИГА?"
       },
       {
         "id": "opt3",
-        "text": "НИЕ СЕГА ИМАМЕ УРОК"
+        "text": "НЕГОВАТА КЪЩА Е МАЛКА."
       },
       {
         "id": "opt4",
-        "text": "| КОЕ Е ТОВА ЧИСЛО"
+        "text": "ОБИЧАТЕ ЛИ ЦВЕТЯ?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1001",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ИМАТЕ ЛИ КОТКА?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Onun evi küçüktür."
+      },
+      {
+        "id": "opt2",
+        "text": "Ev çok sıcak."
+      },
+      {
+        "id": "opt3",
+        "text": "Kediniz var mı?"
+      },
+      {
+        "id": "opt4",
+        "text": "Dedem hasta."
+      }
+    ],
+    "answer": "opt3",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1002",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ИМАТЕ ЛИ ____?",
+    "hint": "Kediniz var mı?",
+    "answers": {
+      "q_blank_tekrar_1002": "КОТКА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1003",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Köpeğiniz var mı?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ИМАТЕ ЛИ КУЧЕ?"
+      },
+      {
+        "id": "opt2",
+        "text": "КЪДЕ ЖИВЕЕТЕ?"
+      },
+      {
+        "id": "opt3",
+        "text": "ИМАТЕ ЛИ КОТКА?"
+      },
+      {
+        "id": "opt4",
+        "text": "ВИЕ ОТ КЪДЕ СТЕ?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1004",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ИМАТЕ ЛИ КУЧЕ?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Köpeğiniz var mı?"
+      },
+      {
+        "id": "opt2",
+        "text": "Ben ve ailem."
+      },
+      {
+        "id": "opt3",
+        "text": "Bir soğuk bira lütfen."
+      },
+      {
+        "id": "opt4",
+        "text": "Bu yeşil çiçek mi?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1005",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ИМАТЕ ЛИ ____?",
+    "hint": "Köpeğiniz var mı?",
+    "answers": {
+      "q_blank_tekrar_1005": "КУЧЕ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1006",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Çiçekleri sever misiniz?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "В КЪЩИ Е МНОГО ТОПЛО."
+      },
+      {
+        "id": "opt2",
+        "text": "ОБИЧАТЕ ЛИ ЦВЕТЯ?"
+      },
+      {
+        "id": "opt3",
+        "text": "АЗ ОТИВАМ В КИТАЙ."
+      },
+      {
+        "id": "opt4",
+        "text": "КЪДЕ ЖИВЕЕТЕ?"
+      }
+    ],
+    "answer": "opt2",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1007",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ОБИЧАТЕ ЛИ ЦВЕТЯ?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Dedem hasta."
+      },
+      {
+        "id": "opt2",
+        "text": "Onun bisikleti yok mu?"
+      },
+      {
+        "id": "opt3",
+        "text": "Ben doktorum."
+      },
+      {
+        "id": "opt4",
+        "text": "Çiçekleri sever misiniz?"
       }
     ],
     "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1008",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "____ ЛИ ЦВЕТЯ?",
+    "hint": "Çiçekleri sever misiniz?",
+    "answers": {
+      "q_blank_tekrar_1008": "ОБИЧАТЕ"
+    },
     "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1009",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Çay sever misiniz?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ОБИЧАТЕ ЛИ ЧАЙ?"
+      },
+      {
+        "id": "opt2",
+        "text": "ОБИЧАТЕ ЛИ ЦВЕТЯ?"
+      },
+      {
+        "id": "opt3",
+        "text": "КЪДЕ СА МОИТЕ ЧОРАПИ?"
+      },
+      {
+        "id": "opt4",
+        "text": "НАШИТЕ ЧАШИ СА НА МАСАТА."
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1010",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ОБИЧАТЕ ЛИ ЧАЙ?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Masada kitap var mı?"
+      },
+      {
+        "id": "opt2",
+        "text": "Nerede yaşıyorsunuz?"
+      },
+      {
+        "id": "opt3",
+        "text": "Çok güzel gözlerin var."
+      },
+      {
+        "id": "opt4",
+        "text": "Çay sever misiniz?"
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1011",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ОБИЧАТЕ ЛИ ____?",
+    "hint": "Çay sever misiniz?",
+    "answers": {
+      "q_blank_tekrar_1011": "ЧАЙ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1012",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Nerede yaşıyorsunuz?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "КЪДЕ ЖИВЕЕТЕ?"
+      },
+      {
+        "id": "opt2",
+        "text": "КОЛКО ХОРА ИМА В КОЛАТА?"
+      },
+      {
+        "id": "opt3",
+        "text": "КУЧЕТО ТИ БОЛНО ЛИ Е?"
+      },
+      {
+        "id": "opt4",
+        "text": "ЛИПСВАШ МИ."
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1013",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**КЪДЕ ЖИВЕЕТЕ?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Nerede yaşıyorsunuz?"
+      },
+      {
+        "id": "opt2",
+        "text": "Onun bisikleti yok mu?"
+      },
+      {
+        "id": "opt3",
+        "text": "Bugün günlerden ne?"
+      },
+      {
+        "id": "opt4",
+        "text": "Bu yeşil çiçek mi?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1014",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "____ ЖИВЕЕТЕ?",
+    "hint": "Nerede yaşıyorsunuz?",
+    "answers": {
+      "q_blank_tekrar_1014": "КЪДЕ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1015",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Nasılsın?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "БОЛИ МЕ ГЛАВАТА."
+      },
+      {
+        "id": "opt2",
+        "text": "КАК СИ?"
+      },
+      {
+        "id": "opt3",
+        "text": "ИМАТЕ ЛИ КОТКА?"
+      },
+      {
+        "id": "opt4",
+        "text": "ДНЕС РЪКАТА МЕ БОЛИ."
+      }
+    ],
+    "answer": "opt2",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1016",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**КАК СИ?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Ben avukatım"
+      },
+      {
+        "id": "opt2",
+        "text": "Çantanda ne var?"
+      },
+      {
+        "id": "opt3",
+        "text": "Kırmızı elmaları sever misin?"
+      },
+      {
+        "id": "opt4",
+        "text": "Nasılsın?"
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1017",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "____ СИ?",
+    "hint": "Nasılsın?",
+    "answers": {
+      "q_blank_tekrar_1017": "КАК"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1018",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Onun arabası var mı?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ТЯ НЯМА ЛИ КОЛЕЛО?"
+      },
+      {
+        "id": "opt2",
+        "text": "ТОЙ ИМА ЛИ КОЛА?"
+      },
+      {
+        "id": "opt3",
+        "text": "ОБИЧАМ БАНАНИ И ЯБЪЛКИ."
+      },
+      {
+        "id": "opt4",
+        "text": "ОБИЧАТЕ ЛИ ЧАЙ?"
+      }
+    ],
+    "answer": "opt2",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1019",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ТОЙ ИМА ЛИ КОЛА?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Köpeğin hasta mı?"
+      },
+      {
+        "id": "opt2",
+        "text": "Bu yeşil çiçek mi?"
+      },
+      {
+        "id": "opt3",
+        "text": "Onun arabası var mı?"
+      },
+      {
+        "id": "opt4",
+        "text": "Telefonum bozuk."
+      }
+    ],
+    "answer": "opt3",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1020",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ТОЙ ____ ЛИ КОЛА?",
+    "hint": "Onun arabası var mı?",
+    "answers": {
+      "q_blank_tekrar_1020": "ИМА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1021",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Onun bisikleti yok mu?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ТЯ НЯМА ЛИ КОЛЕЛО?"
+      },
+      {
+        "id": "opt2",
+        "text": "ТОЙ ИМА ЛИ КОЛА?"
+      },
+      {
+        "id": "opt3",
+        "text": "АЗ СЪМ АДВОКАТ"
+      },
+      {
+        "id": "opt4",
+        "text": "ДЯДО МИ Е БОЛЕН."
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1022",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ТЯ НЯМА ЛИ КОЛЕЛО?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Bugün günlerden ne?"
+      },
+      {
+        "id": "opt2",
+        "text": "Nerelisin?"
+      },
+      {
+        "id": "opt3",
+        "text": "Bugün kolum ağrıyor."
+      },
+      {
+        "id": "opt4",
+        "text": "Onun bisikleti yok mu?"
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1023",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ТЯ НЯМА ЛИ ____?",
+    "hint": "Onun bisikleti yok mu?",
+    "answers": {
+      "q_blank_tekrar_1023": "КОЛЕЛО"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1024",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Kaç yaşındasın?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ДНЕС РЪКАТА МЕ БОЛИ."
+      },
+      {
+        "id": "opt2",
+        "text": "АЗ СЪМ ЛЕКАР."
+      },
+      {
+        "id": "opt3",
+        "text": "ЛИПСВАШ МИ."
+      },
+      {
+        "id": "opt4",
+        "text": "НА КОЛКО ГОДИНИ СИ?"
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1025",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**НА КОЛКО ГОДИНИ СИ?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Soğuk su içiyorum."
+      },
+      {
+        "id": "opt2",
+        "text": "Kaç yaşındasın?"
+      },
+      {
+        "id": "opt3",
+        "text": "Çiçekleri sever misiniz?"
+      },
+      {
+        "id": "opt4",
+        "text": "Ev çok sıcak."
+      }
+    ],
+    "answer": "opt2",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1026",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "НА КОЛКО ____ СИ?",
+    "hint": "Kaç yaşındasın?",
+    "answers": {
+      "q_blank_tekrar_1026": "ГОДИНИ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1027",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Siyah bisikletin var mı?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "АЗ И МОЕТО СЕМЕЙСТВО."
+      },
+      {
+        "id": "opt2",
+        "text": "ОБИЧАШ ЛИ ЧЕРВЕНИ ЯБЪЛКИ?"
+      },
+      {
+        "id": "opt3",
+        "text": "ТОЙ ИМА ЛИ КОЛА?"
+      },
+      {
+        "id": "opt4",
+        "text": "ИМАШ ЛИ ЧЕРНО КОЛЕЛО?"
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1028",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ИМАШ ЛИ ЧЕРНО КОЛЕЛО?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Siyah bisikletin var mı?"
+      },
+      {
+        "id": "opt2",
+        "text": "Ben ve ailem."
+      },
+      {
+        "id": "opt3",
+        "text": "Kediniz var mı?"
+      },
+      {
+        "id": "opt4",
+        "text": "Çay sever misiniz?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1029",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ИМАШ ЛИ ____ КОЛЕЛО?",
+    "hint": "Siyah bisikletin var mı?",
+    "answers": {
+      "q_blank_tekrar_1029": "ЧЕРНО"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1030",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Nerelisin?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "МОЯТ ТЕЛЕФОН Е РАЗВАЛЕН."
+      },
+      {
+        "id": "opt2",
+        "text": "КЪДЕ ИМА ТОПЛА ВОДА?"
+      },
+      {
+        "id": "opt3",
+        "text": "ТОЙ ИМА ЛИ КОЛА?"
+      },
+      {
+        "id": "opt4",
+        "text": "ОТ КЪДЕ СИ?"
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1031",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ОТ КЪДЕ СИ?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Dedem hasta."
+      },
+      {
+        "id": "opt2",
+        "text": "Bir soğuk bira lütfen."
+      },
+      {
+        "id": "opt3",
+        "text": "Kız kardeşiniz var mı?"
+      },
+      {
+        "id": "opt4",
+        "text": "Nerelisin?"
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1032",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ОТ ____ СИ?",
+    "hint": "Nerelisin?",
+    "answers": {
+      "q_blank_tekrar_1032": "КЪДЕ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1033",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Köpeğin hasta mı?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "БОЛИ МЕ ГЛАВАТА."
+      },
+      {
+        "id": "opt2",
+        "text": "КУЧЕТО ТИ БОЛНО ЛИ Е?"
+      },
+      {
+        "id": "opt3",
+        "text": "ДНЕС РЪКАТА МЕ БОЛИ."
+      },
+      {
+        "id": "opt4",
+        "text": "АЗ И МОЕТО СЕМЕЙСТВО."
+      }
+    ],
+    "answer": "opt2",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1034",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**КУЧЕТО ТИ БОЛНО ЛИ Е?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Köpeğin hasta mı?"
+      },
+      {
+        "id": "opt2",
+        "text": "Çiçekleri sever misiniz?"
+      },
+      {
+        "id": "opt3",
+        "text": "Kız kardeşiniz var mı?"
+      },
+      {
+        "id": "opt4",
+        "text": "Bu siyah tükenmez kalem mi?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1035",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "КУЧЕТО ТИ ____ ЛИ Е?",
+    "hint": "Köpeğin hasta mı?",
+    "answers": {
+      "q_blank_tekrar_1035": "БОЛНО"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1036",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Kırmızı elmaları sever misin?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "АЗ И МОЕТО СЕМЕЙСТВО."
+      },
+      {
+        "id": "opt2",
+        "text": "ОБИЧАШ ЛИ ЧЕРВЕНИ ЯБЪЛКИ?"
+      },
+      {
+        "id": "opt3",
+        "text": "НА КОЛКО ГОДИНИ СИ?"
+      },
+      {
+        "id": "opt4",
+        "text": "НАШИТЕ ЧАШИ СА НА МАСАТА."
+      }
+    ],
+    "answer": "opt2",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1037",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ОБИЧАШ ЛИ ЧЕРВЕНИ ЯБЪЛКИ?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Kırmızı elmaları sever misin?"
+      },
+      {
+        "id": "opt2",
+        "text": "Köpeğiniz var mı?"
+      },
+      {
+        "id": "opt3",
+        "text": "Ben doktorum."
+      },
+      {
+        "id": "opt4",
+        "text": "Şapkam yok."
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1038",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ОБИЧАШ ЛИ ЧЕРВЕНИ ____?",
+    "hint": "Kırmızı elmaları sever misin?",
+    "answers": {
+      "q_blank_tekrar_1038": "ЯБЪЛКИ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1039",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Bu senin araban mı?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "НАШАТА КОТКА Е БОЛНА."
+      },
+      {
+        "id": "opt2",
+        "text": "НЕГОВАТА КЪЩА Е МАЛКА."
+      },
+      {
+        "id": "opt3",
+        "text": "АЗ НЯМАМ ШАПКА."
+      },
+      {
+        "id": "opt4",
+        "text": "ТОВА ТВОЯТА КОЛА ЛИ Е?"
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1040",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ТОВА ТВОЯТА КОЛА ЛИ Е?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Masada kitap var mı?"
+      },
+      {
+        "id": "opt2",
+        "text": "Ev çok sıcak."
+      },
+      {
+        "id": "opt3",
+        "text": "Bu senin araban mı?"
+      },
+      {
+        "id": "opt4",
+        "text": "Çoraplarım nerede?"
+      }
+    ],
+    "answer": "opt3",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1041",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ТОВА ТВОЯТА ____ ЛИ Е?",
+    "hint": "Bu senin araban mı?",
+    "answers": {
+      "q_blank_tekrar_1041": "КОЛА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1042",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Onun evi küçüktür.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "НЕГОВАТА КЪЩА Е МАЛКА."
+      },
+      {
+        "id": "opt2",
+        "text": "КЪДЕ СА МОИТЕ ЧОРАПИ?"
+      },
+      {
+        "id": "opt3",
+        "text": "КОЙ Е ОНЗИ МЪЖ?"
+      },
+      {
+        "id": "opt4",
+        "text": "АЗ ОТИВАМ В КИТАЙ."
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1043",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**НЕГОВАТА КЪЩА Е МАЛКА.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "O adam kim?"
+      },
+      {
+        "id": "opt2",
+        "text": "Onun arabası var mı?"
+      },
+      {
+        "id": "opt3",
+        "text": "Onun evi küçüktür."
+      },
+      {
+        "id": "opt4",
+        "text": "Kediniz var mı?"
+      }
+    ],
+    "answer": "opt3",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1044",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "НЕГОВАТА КЪЩА Е ____.",
+    "hint": "Onun evi küçüktür.",
+    "answers": {
+      "q_blank_tekrar_1044": "МАЛКА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1045",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Bugün kolum ağrıyor.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ТОЙ ИМА ЛИ КОЛА?"
+      },
+      {
+        "id": "opt2",
+        "text": "ЕДНО КАФЕ И ЕДНА ТОРТА МОЛЯ."
+      },
+      {
+        "id": "opt3",
+        "text": "ДНЕС РЪКАТА МЕ БОЛИ."
+      },
+      {
+        "id": "opt4",
+        "text": "ДЯДО МИ Е БОЛЕН."
+      }
+    ],
+    "answer": "opt3",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1046",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ДНЕС РЪКАТА МЕ БОЛИ.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Nerede yaşıyorsunuz?"
+      },
+      {
+        "id": "opt2",
+        "text": "Soğuk su içiyorum."
+      },
+      {
+        "id": "opt3",
+        "text": "Afedersiniz, saat kaç?"
+      },
+      {
+        "id": "opt4",
+        "text": "Bugün kolum ağrıyor."
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1047",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "____ РЪКАТА МЕ БОЛИ.",
+    "hint": "Bugün kolum ağrıyor.",
+    "answers": {
+      "q_blank_tekrar_1047": "ДНЕС"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1048",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Dedem hasta.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ДЯДО МИ Е БОЛЕН."
+      },
+      {
+        "id": "opt2",
+        "text": "ОБИЧАТЕ ЛИ ЧАЙ?"
+      },
+      {
+        "id": "opt3",
+        "text": "КАКВО ИМАШ В ЧАНТАТА ?"
+      },
+      {
+        "id": "opt4",
+        "text": "ДНЕС РЪКАТА МЕ БОЛИ."
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1049",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ДЯДО МИ Е БОЛЕН.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Dedem hasta."
+      },
+      {
+        "id": "opt2",
+        "text": "Bu yeşil çiçek mi?"
+      },
+      {
+        "id": "opt3",
+        "text": "Çantanda ne var?"
+      },
+      {
+        "id": "opt4",
+        "text": "O adam kim?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1050",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ДЯДО МИ Е ____.",
+    "hint": "Dedem hasta.",
+    "answers": {
+      "q_blank_tekrar_1050": "БОЛЕН"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1051",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Afedersiniz, saat kaç?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ИЗВИНЕТЕ, КОЛКО Е ЧАСА?"
+      },
+      {
+        "id": "opt2",
+        "text": "АЗ НЯМАМ ШАПКА."
+      },
+      {
+        "id": "opt3",
+        "text": "БОЛИ МЕ ГЛАВАТА."
+      },
+      {
+        "id": "opt4",
+        "text": "АЗ СЪМ АДВОКАТ"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1052",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ИЗВИНЕТЕ, КОЛКО Е ЧАСА?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Seni özledim."
+      },
+      {
+        "id": "opt2",
+        "text": "Kediniz var mı?"
+      },
+      {
+        "id": "opt3",
+        "text": "Soğuk su içiyorum."
+      },
+      {
+        "id": "opt4",
+        "text": "Afedersiniz, saat kaç?"
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1053",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ИЗВИНЕТЕ, ____ Е ЧАСА?",
+    "hint": "Afedersiniz, saat kaç?",
+    "answers": {
+      "q_blank_tekrar_1053": "КОЛКО"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1054",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Çantanda ne var?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "КАКВО ИМАШ В ЧАНТАТА ?"
+      },
+      {
+        "id": "opt2",
+        "text": "ТОВА ТВОЯТА КОЛА ЛИ Е?"
+      },
+      {
+        "id": "opt3",
+        "text": "ИМАШ МНОГО ХУБАВИ ОЧИ."
+      },
+      {
+        "id": "opt4",
+        "text": "МОЯТ ТЕЛЕФОН Е РАЗВАЛЕН."
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1055",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**КАКВО ИМАШ В ЧАНТАТА ?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Çiçekleri sever misiniz?"
+      },
+      {
+        "id": "opt2",
+        "text": "Kediniz var mı?"
+      },
+      {
+        "id": "opt3",
+        "text": "Çantanda ne var?"
+      },
+      {
+        "id": "opt4",
+        "text": "Afedersiniz, saat kaç?"
+      }
+    ],
+    "answer": "opt3",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1056",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "КАКВО ИМАШ В ____ ?",
+    "hint": "Çantanda ne var?",
+    "answers": {
+      "q_blank_tekrar_1056": "ЧАНТАТА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1057",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Belgeleriniz nerede?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "КЪДЕ СА ВАШИТЕ ДОКУМЕНТИ?"
+      },
+      {
+        "id": "opt2",
+        "text": "АЗ НЯМАМ ШАПКА."
+      },
+      {
+        "id": "opt3",
+        "text": "КЪДЕ ЖИВЕЕТЕ?"
+      },
+      {
+        "id": "opt4",
+        "text": "ИМАТЕ ЛИ КОТКА?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1058",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**КЪДЕ СА ВАШИТЕ ДОКУМЕНТИ?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Belgeleriniz nerede?"
+      },
+      {
+        "id": "opt2",
+        "text": "Muz ve elma severim."
+      },
+      {
+        "id": "opt3",
+        "text": "Nerelisin?"
+      },
+      {
+        "id": "opt4",
+        "text": "Çay sever misiniz?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1059",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "КЪДЕ СА ВАШИТЕ ____?",
+    "hint": "Belgeleriniz nerede?",
+    "answers": {
+      "q_blank_tekrar_1059": "ДОКУМЕНТИ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1060",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Ev çok sıcak.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "В КЪЩИ Е МНОГО ТОПЛО."
+      },
+      {
+        "id": "opt2",
+        "text": "КОЛКО СТРУВА ТОВА КАФЕ?"
+      },
+      {
+        "id": "opt3",
+        "text": "ПИЯ СТУДЕНА ВОДА."
+      },
+      {
+        "id": "opt4",
+        "text": "ЕДНО КАФЕ И ЕДНА ТОРТА МОЛЯ."
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1061",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**В КЪЩИ Е МНОГО ТОПЛО.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Ev çok sıcak."
+      },
+      {
+        "id": "opt2",
+        "text": "Çiçekleri sever misiniz?"
+      },
+      {
+        "id": "opt3",
+        "text": "Muz ve elma severim."
+      },
+      {
+        "id": "opt4",
+        "text": "Kediniz var mı?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1062",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "В КЪЩИ Е МНОГО ____.",
+    "hint": "Ev çok sıcak.",
+    "answers": {
+      "q_blank_tekrar_1062": "ТОПЛО"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1063",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Muz ve elma severim.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ИМАШ ЛИ ЧЕРНО КОЛЕЛО?"
+      },
+      {
+        "id": "opt2",
+        "text": "ЕДНО КАФЕ И ЕДНА ТОРТА МОЛЯ."
+      },
+      {
+        "id": "opt3",
+        "text": "ПИЯ СТУДЕНА ВОДА."
+      },
+      {
+        "id": "opt4",
+        "text": "ОБИЧАМ БАНАНИ И ЯБЪЛКИ."
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1064",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ОБИЧАМ БАНАНИ И ЯБЪЛКИ.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Onun bisikleti yok mu?"
+      },
+      {
+        "id": "opt2",
+        "text": "Onun evi küçüktür."
+      },
+      {
+        "id": "opt3",
+        "text": "Bardaklarımız masada."
+      },
+      {
+        "id": "opt4",
+        "text": "Muz ve elma severim."
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1065",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ОБИЧАМ БАНАНИ И ____.",
+    "hint": "Muz ve elma severim.",
+    "answers": {
+      "q_blank_tekrar_1065": "ЯБЪЛКИ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1066",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Bugün günlerden ne?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ПИЯ СТУДЕНА ВОДА."
+      },
+      {
+        "id": "opt2",
+        "text": "ОБИЧАМ БАНАНИ И ЯБЪЛКИ."
+      },
+      {
+        "id": "opt3",
+        "text": "ДНЕС КОЙ ДЕН Е ?"
+      },
+      {
+        "id": "opt4",
+        "text": "БРАТ ТИ УЧЕНИК ЛИ Е?"
+      }
+    ],
+    "answer": "opt3",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1067",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ДНЕС КОЙ ДЕН Е ?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Bugün günlerden ne?"
+      },
+      {
+        "id": "opt2",
+        "text": "Başım ağrıyor."
+      },
+      {
+        "id": "opt3",
+        "text": "Çay sever misiniz?"
+      },
+      {
+        "id": "opt4",
+        "text": "Bugün kolum ağrıyor."
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1068",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ДНЕС КОЙ ____ Е ?",
+    "hint": "Bugün günlerden ne?",
+    "answers": {
+      "q_blank_tekrar_1068": "ДЕН"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1069",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Erkek kardeşin öğrenci mi?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "БРАТ ТИ УЧЕНИК ЛИ Е?"
+      },
+      {
+        "id": "opt2",
+        "text": "ОБИЧАМ БАНАНИ И ЯБЪЛКИ."
+      },
+      {
+        "id": "opt3",
+        "text": "ИЗВИНЕТЕ, КОЛКО Е ЧАСА?"
+      },
+      {
+        "id": "opt4",
+        "text": "КЪДЕ ЖИВЕЕТЕ?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1070",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**БРАТ ТИ УЧЕНИК ЛИ Е?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Erkek kardeşin öğrenci mi?"
+      },
+      {
+        "id": "opt2",
+        "text": "Çoraplarım nerede?"
+      },
+      {
+        "id": "opt3",
+        "text": "Onun bisikleti yok mu?"
+      },
+      {
+        "id": "opt4",
+        "text": "Masada kitap var mı?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1071",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "БРАТ ТИ ____ ЛИ Е?",
+    "hint": "Erkek kardeşin öğrenci mi?",
+    "answers": {
+      "q_blank_tekrar_1071": "УЧЕНИК"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1072",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Öğretmen odada mı?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "УЧИТЕЛКАТА В СТАЯТА ЛИ Е ?"
+      },
+      {
+        "id": "opt2",
+        "text": "ЕДНА СТУДЕНА БИРА МОЛЯ."
+      },
+      {
+        "id": "opt3",
+        "text": "ТЯ НЯМА ЛИ КОЛЕЛО?"
+      },
+      {
+        "id": "opt4",
+        "text": "КЪДЕ ЖИВЕЕТЕ?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1073",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**УЧИТЕЛКАТА В СТАЯТА ЛИ Е ?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Öğretmen odada mı?"
+      },
+      {
+        "id": "opt2",
+        "text": "Masada kitap var mı?"
+      },
+      {
+        "id": "opt3",
+        "text": "Nerelisin?"
+      },
+      {
+        "id": "opt4",
+        "text": "Erkek kardeşin öğrenci mi?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1074",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "УЧИТЕЛКАТА В ____ ЛИ Е ?",
+    "hint": "Öğretmen odada mı?",
+    "answers": {
+      "q_blank_tekrar_1074": "СТАЯТА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1075",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Bu kahve ne kadar?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ДНЕС КОЙ ДЕН Е ?"
+      },
+      {
+        "id": "opt2",
+        "text": "ИМАТЕ ЛИ КОТКА?"
+      },
+      {
+        "id": "opt3",
+        "text": "КОЙ Е ОНЗИ МЪЖ?"
+      },
+      {
+        "id": "opt4",
+        "text": "КОЛКО СТРУВА ТОВА КАФЕ?"
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1076",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**КОЛКО СТРУВА ТОВА КАФЕ?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Çiçekleri sever misiniz?"
+      },
+      {
+        "id": "opt2",
+        "text": "Onun arabası var mı?"
+      },
+      {
+        "id": "opt3",
+        "text": "Bu kahve ne kadar?"
+      },
+      {
+        "id": "opt4",
+        "text": "Nerede yaşıyorsunuz?"
+      }
+    ],
+    "answer": "opt3",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1077",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "КОЛКО ____ ТОВА КАФЕ?",
+    "hint": "Bu kahve ne kadar?",
+    "answers": {
+      "q_blank_tekrar_1077": "СТРУВА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1078",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Bardaklarımız masada.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ИЗВИНЕТЕ, КОЛКО Е ЧАСА?"
+      },
+      {
+        "id": "opt2",
+        "text": "НЕГОВАТА КЪЩА Е МАЛКА."
+      },
+      {
+        "id": "opt3",
+        "text": "АЗ ОТИВАМ В КИТАЙ."
+      },
+      {
+        "id": "opt4",
+        "text": "НАШИТЕ ЧАШИ СА НА МАСАТА."
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1079",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**НАШИТЕ ЧАШИ СА НА МАСАТА.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Bardaklarımız masada."
+      },
+      {
+        "id": "opt2",
+        "text": "Onun bisikleti yok mu?"
+      },
+      {
+        "id": "opt3",
+        "text": "Afedersiniz, saat kaç?"
+      },
+      {
+        "id": "opt4",
+        "text": "Çoraplarım nerede?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1080",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "НАШИТЕ ЧАШИ СА НА ____.",
+    "hint": "Bardaklarımız masada.",
+    "answers": {
+      "q_blank_tekrar_1080": "МАСАТА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1081",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Arabada kaç kişi var?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "КОЛКО ХОРА ИМА В КОЛАТА?"
+      },
+      {
+        "id": "opt2",
+        "text": "ИМАТЕ ЛИ КОТКА?"
+      },
+      {
+        "id": "opt3",
+        "text": "НЕГОВАТА КЪЩА Е МАЛКА."
+      },
+      {
+        "id": "opt4",
+        "text": "БРАТ ТИ УЧЕНИК ЛИ Е?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1082",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**КОЛКО ХОРА ИМА В КОЛАТА?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Onun bisikleti yok mu?"
+      },
+      {
+        "id": "opt2",
+        "text": "Bu yeşil çiçek mi?"
+      },
+      {
+        "id": "opt3",
+        "text": "Arabada kaç kişi var?"
+      },
+      {
+        "id": "opt4",
+        "text": "Nasılsın?"
+      }
+    ],
+    "answer": "opt3",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1083",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "КОЛКО ____ ИМА В КОЛАТА?",
+    "hint": "Arabada kaç kişi var?",
+    "answers": {
+      "q_blank_tekrar_1083": "ХОРА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1084",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Nerede sıcak su var?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "КЪДЕ ИМА ТОПЛА ВОДА?"
+      },
+      {
+        "id": "opt2",
+        "text": "ОБИЧАТЕ ЛИ ЦВЕТЯ?"
+      },
+      {
+        "id": "opt3",
+        "text": "ИМАШ МНОГО ХУБАВИ ОЧИ."
+      },
+      {
+        "id": "opt4",
+        "text": "ОБИЧАТЕ ЛИ ЧАЙ?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1085",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**КЪДЕ ИМА ТОПЛА ВОДА?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Arabada kaç kişi var?"
+      },
+      {
+        "id": "opt2",
+        "text": "Kedimiz hasta."
+      },
+      {
+        "id": "opt3",
+        "text": "Bir soğuk bira lütfen."
+      },
+      {
+        "id": "opt4",
+        "text": "Nerede sıcak su var?"
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1086",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "КЪДЕ ИМА ТОПЛА ____?",
+    "hint": "Nerede sıcak su var?",
+    "answers": {
+      "q_blank_tekrar_1086": "ВОДА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1087",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Kedimiz hasta.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ТОВА ЧЕРЕН ХИМИКАЛ ЛИ Е?"
+      },
+      {
+        "id": "opt2",
+        "text": "КОЛКО ХОРА ИМА В КОЛАТА?"
+      },
+      {
+        "id": "opt3",
+        "text": "НАШАТА КОТКА Е БОЛНА."
+      },
+      {
+        "id": "opt4",
+        "text": "ИМАТЕ ЛИ КОТКА?"
+      }
+    ],
+    "answer": "opt3",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1088",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**НАШАТА КОТКА Е БОЛНА.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Kedimiz hasta."
+      },
+      {
+        "id": "opt2",
+        "text": "Siyah bisikletin var mı?"
+      },
+      {
+        "id": "opt3",
+        "text": "Çoraplarım nerede?"
+      },
+      {
+        "id": "opt4",
+        "text": "Nerede sıcak su var?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1089",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "НАШАТА КОТКА Е ____.",
+    "hint": "Kedimiz hasta.",
+    "answers": {
+      "q_blank_tekrar_1089": "БОЛНА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1090",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Şapkam yok.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "АЗ НЯМАМ ШАПКА."
+      },
+      {
+        "id": "opt2",
+        "text": "ПИЯ СТУДЕНА ВОДА."
+      },
+      {
+        "id": "opt3",
+        "text": "ДЯДО МИ Е БОЛЕН."
+      },
+      {
+        "id": "opt4",
+        "text": "ОБИЧАТЕ ЛИ ЧАЙ?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1091",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**АЗ НЯМАМ ШАПКА.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Onun arabası var mı?"
+      },
+      {
+        "id": "opt2",
+        "text": "Ben ve ailem."
+      },
+      {
+        "id": "opt3",
+        "text": "Siyah bisikletin var mı?"
+      },
+      {
+        "id": "opt4",
+        "text": "Şapkam yok."
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1092",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "АЗ НЯМАМ ____.",
+    "hint": "Şapkam yok.",
+    "answers": {
+      "q_blank_tekrar_1092": "ШАПКА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1093",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Seni özledim.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ЛИПСВАШ МИ."
+      },
+      {
+        "id": "opt2",
+        "text": "ОБИЧАТЕ ЛИ ЦВЕТЯ?"
+      },
+      {
+        "id": "opt3",
+        "text": "ДНЕС РЪКАТА МЕ БОЛИ."
+      },
+      {
+        "id": "opt4",
+        "text": "ПИЯ СТУДЕНА ВОДА."
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1094",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ЛИПСВАШ МИ.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Ev çok sıcak."
+      },
+      {
+        "id": "opt2",
+        "text": "Kediniz var mı?"
+      },
+      {
+        "id": "opt3",
+        "text": "Onun bisikleti yok mu?"
+      },
+      {
+        "id": "opt4",
+        "text": "Seni özledim."
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1095",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "____ МИ.",
+    "hint": "Seni özledim.",
+    "answers": {
+      "q_blank_tekrar_1095": "ЛИПСВАШ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1096",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Çoraplarım nerede?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "БОЛИ МЕ ГЛАВАТА."
+      },
+      {
+        "id": "opt2",
+        "text": "КЪДЕ СА МОИТЕ ЧОРАПИ?"
+      },
+      {
+        "id": "opt3",
+        "text": "НА КОЛКО ГОДИНИ СИ?"
+      },
+      {
+        "id": "opt4",
+        "text": "ИМАТЕ ЛИ СЕСТРА?"
+      }
+    ],
+    "answer": "opt2",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1097",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**КЪДЕ СА МОИТЕ ЧОРАПИ?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Çoraplarım nerede?"
+      },
+      {
+        "id": "opt2",
+        "text": "Onun arabası var mı?"
+      },
+      {
+        "id": "opt3",
+        "text": "Bir kahve ve bir pasta lütfen."
+      },
+      {
+        "id": "opt4",
+        "text": "Nasılsın?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1098",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "КЪДЕ СА МОИТЕ ____?",
+    "hint": "Çoraplarım nerede?",
+    "answers": {
+      "q_blank_tekrar_1098": "ЧОРАПИ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1099",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Bir kahve ve bir pasta lütfen.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ОБИЧАТЕ ЛИ ЧАЙ?"
+      },
+      {
+        "id": "opt2",
+        "text": "КУЧЕТО ТИ БОЛНО ЛИ Е?"
+      },
+      {
+        "id": "opt3",
+        "text": "КАК СИ?"
+      },
+      {
+        "id": "opt4",
+        "text": "ЕДНО КАФЕ И ЕДНА ТОРТА МОЛЯ."
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1100",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ЕДНО КАФЕ И ЕДНА ТОРТА МОЛЯ.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Kız kardeşiniz var mı?"
+      },
+      {
+        "id": "opt2",
+        "text": "Bir kahve ve bir pasta lütfen."
+      },
+      {
+        "id": "opt3",
+        "text": "O adam kim?"
+      },
+      {
+        "id": "opt4",
+        "text": "Bu siyah tükenmez kalem mi?"
+      }
+    ],
+    "answer": "opt2",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1101",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ЕДНО КАФЕ И ЕДНА ____ МОЛЯ.",
+    "hint": "Bir kahve ve bir pasta lütfen.",
+    "answers": {
+      "q_blank_tekrar_1101": "ТОРТА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1102",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**O adam kim?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "КОЙ Е ОНЗИ МЪЖ?"
+      },
+      {
+        "id": "opt2",
+        "text": "ПИЯ СТУДЕНА ВОДА."
+      },
+      {
+        "id": "opt3",
+        "text": "КАК СИ?"
+      },
+      {
+        "id": "opt4",
+        "text": "КОЛКО СТРУВА ТОВА КАФЕ?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1103",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**КОЙ Е ОНЗИ МЪЖ?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Telefonum bozuk."
+      },
+      {
+        "id": "opt2",
+        "text": "O adam kim?"
+      },
+      {
+        "id": "opt3",
+        "text": "Kırmızı elmaları sever misin?"
+      },
+      {
+        "id": "opt4",
+        "text": "Onun bisikleti yok mu?"
+      }
+    ],
+    "answer": "opt2",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1104",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "КОЙ Е ОНЗИ ____?",
+    "hint": "O adam kim?",
+    "answers": {
+      "q_blank_tekrar_1104": "МЪЖ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1105",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Ben ve ailem.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "АЗ И МОЕТО СЕМЕЙСТВО."
+      },
+      {
+        "id": "opt2",
+        "text": "ИЗВИНЕТЕ, КОЛКО Е ЧАСА?"
+      },
+      {
+        "id": "opt3",
+        "text": "ИМАШ МНОГО ХУБАВИ ОЧИ."
+      },
+      {
+        "id": "opt4",
+        "text": "КУЧЕТО ТИ БОЛНО ЛИ Е?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1106",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**АЗ И МОЕТО СЕМЕЙСТВО.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Nasılsın?"
+      },
+      {
+        "id": "opt2",
+        "text": "Ben ve ailem."
+      },
+      {
+        "id": "opt3",
+        "text": "Onun evi küçüktür."
+      },
+      {
+        "id": "opt4",
+        "text": "Erkek kardeşin var mı?"
+      }
+    ],
+    "answer": "opt2",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1107",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "АЗ И МОЕТО ____.",
+    "hint": "Ben ve ailem.",
+    "answers": {
+      "q_blank_tekrar_1107": "СЕМЕЙСТВО"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1108",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Çok güzel gözlerin var.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ТЯ НЯМА ЛИ КОЛЕЛО?"
+      },
+      {
+        "id": "opt2",
+        "text": "ДЯДО МИ Е БОЛЕН."
+      },
+      {
+        "id": "opt3",
+        "text": "ЛИПСВАШ МИ."
+      },
+      {
+        "id": "opt4",
+        "text": "ИМАШ МНОГО ХУБАВИ ОЧИ."
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1109",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ИМАШ МНОГО ХУБАВИ ОЧИ.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Çok güzel gözlerin var."
+      },
+      {
+        "id": "opt2",
+        "text": "Erkek kardeşin var mı?"
+      },
+      {
+        "id": "opt3",
+        "text": "Kaç yaşındasın?"
+      },
+      {
+        "id": "opt4",
+        "text": "Siyah bisikletin var mı?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1110",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ИМАШ МНОГО ХУБАВИ ____.",
+    "hint": "Çok güzel gözlerin var.",
+    "answers": {
+      "q_blank_tekrar_1110": "ОЧИ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1111",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Siz nerelisiniz?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ВИЕ ОТ КЪДЕ СТЕ?"
+      },
+      {
+        "id": "opt2",
+        "text": "КОЛКО СТРУВА ТОВА КАФЕ?"
+      },
+      {
+        "id": "opt3",
+        "text": "КЪДЕ ИМА ТОПЛА ВОДА?"
+      },
+      {
+        "id": "opt4",
+        "text": "АЗ СЪМ АДВОКАТ"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1112",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ВИЕ ОТ КЪДЕ СТЕ?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Siz nerelisiniz?"
+      },
+      {
+        "id": "opt2",
+        "text": "Çiçekleri sever misiniz?"
+      },
+      {
+        "id": "opt3",
+        "text": "Köpeğiniz var mı?"
+      },
+      {
+        "id": "opt4",
+        "text": "Çoraplarım nerede?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1113",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ВИЕ ОТ ____ СТЕ?",
+    "hint": "Siz nerelisiniz?",
+    "answers": {
+      "q_blank_tekrar_1113": "КЪДЕ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1114",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Bu siyah tükenmez kalem mi?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ТОВА ЧЕРЕН ХИМИКАЛ ЛИ Е?"
+      },
+      {
+        "id": "opt2",
+        "text": "ДЯДО МИ Е БОЛЕН."
+      },
+      {
+        "id": "opt3",
+        "text": "ОБИЧАТЕ ЛИ ЧАЙ?"
+      },
+      {
+        "id": "opt4",
+        "text": "ИМАШ ЛИ ЧЕРНО КОЛЕЛО?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1115",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ТОВА ЧЕРЕН ХИМИКАЛ ЛИ Е?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Başım ağrıyor."
+      },
+      {
+        "id": "opt2",
+        "text": "Afedersiniz, saat kaç?"
+      },
+      {
+        "id": "opt3",
+        "text": "Bu siyah tükenmez kalem mi?"
+      },
+      {
+        "id": "opt4",
+        "text": "Kediniz var mı?"
+      }
+    ],
+    "answer": "opt3",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1116",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ТОВА ЧЕРЕН ____ ЛИ Е?",
+    "hint": "Bu siyah tükenmez kalem mi?",
+    "answers": {
+      "q_blank_tekrar_1116": "ХИМИКАЛ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1117",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Bir soğuk bira lütfen.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ОБИЧАМ БАНАНИ И ЯБЪЛКИ."
+      },
+      {
+        "id": "opt2",
+        "text": "УЧИТЕЛКАТА В СТАЯТА ЛИ Е ?"
+      },
+      {
+        "id": "opt3",
+        "text": "ДНЕС РЪКАТА МЕ БОЛИ."
+      },
+      {
+        "id": "opt4",
+        "text": "ЕДНА СТУДЕНА БИРА МОЛЯ."
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1118",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ЕДНА СТУДЕНА БИРА МОЛЯ.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Afedersiniz, saat kaç?"
+      },
+      {
+        "id": "opt2",
+        "text": "Masada kitap var mı?"
+      },
+      {
+        "id": "opt3",
+        "text": "Arabada kaç kişi var?"
+      },
+      {
+        "id": "opt4",
+        "text": "Bir soğuk bira lütfen."
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1119",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ЕДНА СТУДЕНА ____ МОЛЯ.",
+    "hint": "Bir soğuk bira lütfen.",
+    "answers": {
+      "q_blank_tekrar_1119": "БИРА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1120",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Başım ağrıyor.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ИМАТЕ ЛИ КУЧЕ?"
+      },
+      {
+        "id": "opt2",
+        "text": "ИМАТЕ ЛИ КОТКА?"
+      },
+      {
+        "id": "opt3",
+        "text": "БОЛИ МЕ ГЛАВАТА."
+      },
+      {
+        "id": "opt4",
+        "text": "КУЧЕТО ТИ БОЛНО ЛИ Е?"
+      }
+    ],
+    "answer": "opt3",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1121",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**БОЛИ МЕ ГЛАВАТА.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Başım ağrıyor."
+      },
+      {
+        "id": "opt2",
+        "text": "Bugün günlerden ne?"
+      },
+      {
+        "id": "opt3",
+        "text": "Bu siyah tükenmez kalem mi?"
+      },
+      {
+        "id": "opt4",
+        "text": "Onun evi küçüktür."
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1122",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "БОЛИ МЕ ____.",
+    "hint": "Başım ağrıyor.",
+    "answers": {
+      "q_blank_tekrar_1122": "ГЛАВАТА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1123",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Ben doktorum.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ОБИЧАМ БАНАНИ И ЯБЪЛКИ."
+      },
+      {
+        "id": "opt2",
+        "text": "АЗ СЪМ ЛЕКАР."
+      },
+      {
+        "id": "opt3",
+        "text": "ТОВА ТВОЯТА КОЛА ЛИ Е?"
+      },
+      {
+        "id": "opt4",
+        "text": "ДНЕС РЪКАТА МЕ БОЛИ."
+      }
+    ],
+    "answer": "opt2",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1124",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**АЗ СЪМ ЛЕКАР.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Bardaklarımız masada."
+      },
+      {
+        "id": "opt2",
+        "text": "Çantanda ne var?"
+      },
+      {
+        "id": "opt3",
+        "text": "Onun evi küçüktür."
+      },
+      {
+        "id": "opt4",
+        "text": "Ben doktorum."
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1125",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "АЗ СЪМ ____.",
+    "hint": "Ben doktorum.",
+    "answers": {
+      "q_blank_tekrar_1125": "ЛЕКАР"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1126",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Ben Çin'e gidiyorum.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "КОЙ Е ОНЗИ МЪЖ?"
+      },
+      {
+        "id": "opt2",
+        "text": "АЗ И МОЕТО СЕМЕЙСТВО."
+      },
+      {
+        "id": "opt3",
+        "text": "ДНЕС РЪКАТА МЕ БОЛИ."
+      },
+      {
+        "id": "opt4",
+        "text": "АЗ ОТИВАМ В КИТАЙ."
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1127",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**АЗ ОТИВАМ В КИТАЙ.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Ben ve ailem."
+      },
+      {
+        "id": "opt2",
+        "text": "Ben Çin'e gidiyorum."
+      },
+      {
+        "id": "opt3",
+        "text": "Muz ve elma severim."
+      },
+      {
+        "id": "opt4",
+        "text": "Ben avukatım"
+      }
+    ],
+    "answer": "opt2",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1128",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "АЗ ОТИВАМ В ____.",
+    "hint": "Ben Çin'e gidiyorum.",
+    "answers": {
+      "q_blank_tekrar_1128": "КИТАЙ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1129",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Kız kardeşiniz var mı?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "КОЛКО ХОРА ИМА В КОЛАТА?"
+      },
+      {
+        "id": "opt2",
+        "text": "ИМАТЕ ЛИ СЕСТРА?"
+      },
+      {
+        "id": "opt3",
+        "text": "ДНЕС РЪКАТА МЕ БОЛИ."
+      },
+      {
+        "id": "opt4",
+        "text": "КЪДЕ ЖИВЕЕТЕ?"
+      }
+    ],
+    "answer": "opt2",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1130",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ИМАТЕ ЛИ СЕСТРА?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Kız kardeşiniz var mı?"
+      },
+      {
+        "id": "opt2",
+        "text": "Çay sever misiniz?"
+      },
+      {
+        "id": "opt3",
+        "text": "Çiçekleri sever misiniz?"
+      },
+      {
+        "id": "opt4",
+        "text": "Ev çok sıcak."
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1131",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ИМАТЕ ЛИ ____?",
+    "hint": "Kız kardeşiniz var mı?",
+    "answers": {
+      "q_blank_tekrar_1131": "СЕСТРА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1132",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Telefonum bozuk.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ДНЕС РЪКАТА МЕ БОЛИ."
+      },
+      {
+        "id": "opt2",
+        "text": "НАШАТА КОТКА Е БОЛНА."
+      },
+      {
+        "id": "opt3",
+        "text": "ТЯ НЯМА ЛИ КОЛЕЛО?"
+      },
+      {
+        "id": "opt4",
+        "text": "МОЯТ ТЕЛЕФОН Е РАЗВАЛЕН."
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1133",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**МОЯТ ТЕЛЕФОН Е РАЗВАЛЕН.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Telefonum bozuk."
+      },
+      {
+        "id": "opt2",
+        "text": "Ev çok sıcak."
+      },
+      {
+        "id": "opt3",
+        "text": "Köpeğin hasta mı?"
+      },
+      {
+        "id": "opt4",
+        "text": "Çay sever misiniz?"
+      }
+    ],
+    "answer": "opt1",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1134",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "МОЯТ ____ Е РАЗВАЛЕН.",
+    "hint": "Telefonum bozuk.",
+    "answers": {
+      "q_blank_tekrar_1134": "ТЕЛЕФОН"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1135",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Soğuk su içiyorum.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ИМАШ МНОГО ХУБАВИ ОЧИ."
+      },
+      {
+        "id": "opt2",
+        "text": "ДНЕС КОЙ ДЕН Е ?"
+      },
+      {
+        "id": "opt3",
+        "text": "ИМАШ ЛИ БРАТ?"
+      },
+      {
+        "id": "opt4",
+        "text": "ПИЯ СТУДЕНА ВОДА."
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1136",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ПИЯ СТУДЕНА ВОДА.**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Kediniz var mı?"
+      },
+      {
+        "id": "opt2",
+        "text": "Şapkam yok."
+      },
+      {
+        "id": "opt3",
+        "text": "Çoraplarım nerede?"
+      },
+      {
+        "id": "opt4",
+        "text": "Soğuk su içiyorum."
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1137",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ПИЯ СТУДЕНА ____.",
+    "hint": "Soğuk su içiyorum.",
+    "answers": {
+      "q_blank_tekrar_1137": "ВОДА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1138",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Erkek kardeşin var mı?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "БОЛИ МЕ ГЛАВАТА."
+      },
+      {
+        "id": "opt2",
+        "text": "ИМАТЕ ЛИ КУЧЕ?"
+      },
+      {
+        "id": "opt3",
+        "text": "КАКВО ИМАШ В ЧАНТАТА ?"
+      },
+      {
+        "id": "opt4",
+        "text": "ИМАШ ЛИ БРАТ?"
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1139",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ИМАШ ЛИ БРАТ?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Soğuk su içiyorum."
+      },
+      {
+        "id": "opt2",
+        "text": "Onun arabası var mı?"
+      },
+      {
+        "id": "opt3",
+        "text": "Nerelisin?"
+      },
+      {
+        "id": "opt4",
+        "text": "Erkek kardeşin var mı?"
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1140",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ИМАШ ЛИ ____?",
+    "hint": "Erkek kardeşin var mı?",
+    "answers": {
+      "q_blank_tekrar_1140": "БРАТ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1141",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Bu yeşil çiçek mi?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "НА МАСАТА ИМА ЛИ КНИГА?"
+      },
+      {
+        "id": "opt2",
+        "text": "АЗ СЪМ ЛЕКАР."
+      },
+      {
+        "id": "opt3",
+        "text": "ОБИЧАТЕ ЛИ ЦВЕТЯ?"
+      },
+      {
+        "id": "opt4",
+        "text": "ТОВА ЗЕЛЕНО ЦВЕТЕ ЛИ Е?"
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1142",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**ТОВА ЗЕЛЕНО ЦВЕТЕ ЛИ Е?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Bu senin araban mı?"
+      },
+      {
+        "id": "opt2",
+        "text": "Bu yeşil çiçek mi?"
+      },
+      {
+        "id": "opt3",
+        "text": "Kız kardeşiniz var mı?"
+      },
+      {
+        "id": "opt4",
+        "text": "Kırmızı elmaları sever misin?"
+      }
+    ],
+    "answer": "opt2",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1143",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "ТОВА ЗЕЛЕНО ____ ЛИ Е?",
+    "hint": "Bu yeşil çiçek mi?",
+    "answers": {
+      "q_blank_tekrar_1143": "ЦВЕТЕ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1144",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Ben avukatım**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "КЪДЕ ИМА ТОПЛА ВОДА?"
+      },
+      {
+        "id": "opt2",
+        "text": "НА МАСАТА ИМА ЛИ КНИГА?"
+      },
+      {
+        "id": "opt3",
+        "text": "ТЯ НЯМА ЛИ КОЛЕЛО?"
+      },
+      {
+        "id": "opt4",
+        "text": "АЗ СЪМ АДВОКАТ"
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1145",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**АЗ СЪМ АДВОКАТ**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Seni özledim."
+      },
+      {
+        "id": "opt2",
+        "text": "Erkek kardeşin var mı?"
+      },
+      {
+        "id": "opt3",
+        "text": "Ben doktorum."
+      },
+      {
+        "id": "opt4",
+        "text": "Ben avukatım"
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1146",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "АЗ СЪМ ____",
+    "hint": "Ben avukatım",
+    "answers": {
+      "q_blank_tekrar_1146": "АДВОКАТ"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_mcq_tekrar_1147",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "TR-BG"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**Masada kitap var mı?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "ИМАШ МНОГО ХУБАВИ ОЧИ."
+      },
+      {
+        "id": "opt2",
+        "text": "НА МАСАТА ИМА ЛИ КНИГА?"
+      },
+      {
+        "id": "opt3",
+        "text": "АЗ И МОЕТО СЕМЕЙСТВО."
+      },
+      {
+        "id": "opt4",
+        "text": "ТЯ НЯМА ЛИ КОЛЕЛО?"
+      }
+    ],
+    "answer": "opt2",
+    "points": 5
+  },
+  {
+    "id": "q_mcq_tekrar_1148",
+    "type": "mcq",
+    "difficulty": 2,
+    "tags": [
+      "Cümle Çevirisi",
+      "BG-TR"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**НА МАСАТА ИМА ЛИ КНИГА?**",
+    "options": [
+      {
+        "id": "opt1",
+        "text": "Öğretmen odada mı?"
+      },
+      {
+        "id": "opt2",
+        "text": "Muz ve elma severim."
+      },
+      {
+        "id": "opt3",
+        "text": "Kız kardeşiniz var mı?"
+      },
+      {
+        "id": "opt4",
+        "text": "Masada kitap var mı?"
+      }
+    ],
+    "answer": "opt4",
+    "points": 5
+  },
+  {
+    "id": "q_blank_tekrar_1149",
+    "type": "blank",
+    "difficulty": 2,
+    "tags": [
+      "Cümle",
+      "Boşluk Doldurma"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "sentence": "НА МАСАТА ИМА ЛИ ____?",
+    "hint": "Masada kitap var mı?",
+    "answers": {
+      "q_blank_tekrar_1149": "КНИГА"
+    },
+    "points": 10
+  },
+  {
+    "id": "q_match_tekrar_1150",
+    "type": "match",
+    "difficulty": 2,
+    "tags": [
+      "Eşleştirme",
+      "Cümle"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "instruction": "Bulgarca cümleleri Türkçe anlamlarıyla eşleştiriniz.",
+    "leftItems": [
+      {
+        "id": "left1",
+        "text": "ИМАТЕ ЛИ КОТКА?"
+      },
+      {
+        "id": "left2",
+        "text": "ИМАТЕ ЛИ КУЧЕ?"
+      },
+      {
+        "id": "left3",
+        "text": "ОБИЧАТЕ ЛИ ЦВЕТЯ?"
+      },
+      {
+        "id": "left4",
+        "text": "ОБИЧАТЕ ЛИ ЧАЙ?"
+      },
+      {
+        "id": "left5",
+        "text": "КЪДЕ ЖИВЕЕТЕ?"
+      }
+    ],
+    "rightItems": [
+      {
+        "id": "right3",
+        "text": "Çiçekleri sever misiniz?"
+      },
+      {
+        "id": "right2",
+        "text": "Köpeğiniz var mı?"
+      },
+      {
+        "id": "right1",
+        "text": "Kediniz var mı?"
+      },
+      {
+        "id": "right4",
+        "text": "Çay sever misiniz?"
+      },
+      {
+        "id": "right5",
+        "text": "Nerede yaşıyorsunuz?"
+      }
+    ],
+    "matches": {
+      "left1": "right1",
+      "left2": "right2",
+      "left3": "right3",
+      "left4": "right4",
+      "left5": "right5"
+    },
+    "points": 15
+  },
+  {
+    "id": "q_match_tekrar_1151",
+    "type": "match",
+    "difficulty": 2,
+    "tags": [
+      "Eşleştirme",
+      "Cümle"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "instruction": "Bulgarca cümleleri Türkçe anlamlarıyla eşleştiriniz.",
+    "leftItems": [
+      {
+        "id": "left1",
+        "text": "КАК СИ?"
+      },
+      {
+        "id": "left2",
+        "text": "ТОЙ ИМА ЛИ КОЛА?"
+      },
+      {
+        "id": "left3",
+        "text": "ТЯ НЯМА ЛИ КОЛЕЛО?"
+      },
+      {
+        "id": "left4",
+        "text": "НА КОЛКО ГОДИНИ СИ?"
+      },
+      {
+        "id": "left5",
+        "text": "ИМАШ ЛИ ЧЕРНО КОЛЕЛО?"
+      }
+    ],
+    "rightItems": [
+      {
+        "id": "right1",
+        "text": "Nasılsın?"
+      },
+      {
+        "id": "right4",
+        "text": "Kaç yaşındasın?"
+      },
+      {
+        "id": "right3",
+        "text": "Onun bisikleti yok mu?"
+      },
+      {
+        "id": "right5",
+        "text": "Siyah bisikletin var mı?"
+      },
+      {
+        "id": "right2",
+        "text": "Onun arabası var mı?"
+      }
+    ],
+    "matches": {
+      "left1": "right1",
+      "left2": "right2",
+      "left3": "right3",
+      "left4": "right4",
+      "left5": "right5"
+    },
+    "points": 15
+  },
+  {
+    "id": "q_match_tekrar_1152",
+    "type": "match",
+    "difficulty": 2,
+    "tags": [
+      "Eşleştirme",
+      "Cümle"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "instruction": "Bulgarca cümleleri Türkçe anlamlarıyla eşleştiriniz.",
+    "leftItems": [
+      {
+        "id": "left1",
+        "text": "ОТ КЪДЕ СИ?"
+      },
+      {
+        "id": "left2",
+        "text": "КУЧЕТО ТИ БОЛНО ЛИ Е?"
+      },
+      {
+        "id": "left3",
+        "text": "ОБИЧАШ ЛИ ЧЕРВЕНИ ЯБЪЛКИ?"
+      },
+      {
+        "id": "left4",
+        "text": "ТОВА ТВОЯТА КОЛА ЛИ Е?"
+      },
+      {
+        "id": "left5",
+        "text": "НЕГОВАТА КЪЩА Е МАЛКА."
+      }
+    ],
+    "rightItems": [
+      {
+        "id": "right5",
+        "text": "Onun evi küçüktür."
+      },
+      {
+        "id": "right4",
+        "text": "Bu senin araban mı?"
+      },
+      {
+        "id": "right3",
+        "text": "Kırmızı elmaları sever misin?"
+      },
+      {
+        "id": "right2",
+        "text": "Köpeğin hasta mı?"
+      },
+      {
+        "id": "right1",
+        "text": "Nerelisin?"
+      }
+    ],
+    "matches": {
+      "left1": "right1",
+      "left2": "right2",
+      "left3": "right3",
+      "left4": "right4",
+      "left5": "right5"
+    },
+    "points": 15
+  },
+  {
+    "id": "q_match_tekrar_1153",
+    "type": "match",
+    "difficulty": 2,
+    "tags": [
+      "Eşleştirme",
+      "Cümle"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "instruction": "Bulgarca cümleleri Türkçe anlamlarıyla eşleştiriniz.",
+    "leftItems": [
+      {
+        "id": "left1",
+        "text": "ДНЕС РЪКАТА МЕ БОЛИ."
+      },
+      {
+        "id": "left2",
+        "text": "ДЯДО МИ Е БОЛЕН."
+      },
+      {
+        "id": "left3",
+        "text": "ИЗВИНЕТЕ, КОЛКО Е ЧАСА?"
+      },
+      {
+        "id": "left4",
+        "text": "КАКВО ИМАШ В ЧАНТАТА ?"
+      },
+      {
+        "id": "left5",
+        "text": "КЪДЕ СА ВАШИТЕ ДОКУМЕНТИ?"
+      }
+    ],
+    "rightItems": [
+      {
+        "id": "right1",
+        "text": "Bugün kolum ağrıyor."
+      },
+      {
+        "id": "right2",
+        "text": "Dedem hasta."
+      },
+      {
+        "id": "right3",
+        "text": "Afedersiniz, saat kaç?"
+      },
+      {
+        "id": "right4",
+        "text": "Çantanda ne var?"
+      },
+      {
+        "id": "right5",
+        "text": "Belgeleriniz nerede?"
+      }
+    ],
+    "matches": {
+      "left1": "right1",
+      "left2": "right2",
+      "left3": "right3",
+      "left4": "right4",
+      "left5": "right5"
+    },
+    "points": 15
+  },
+  {
+    "id": "q_match_tekrar_1154",
+    "type": "match",
+    "difficulty": 2,
+    "tags": [
+      "Eşleştirme",
+      "Cümle"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "instruction": "Bulgarca cümleleri Türkçe anlamlarıyla eşleştiriniz.",
+    "leftItems": [
+      {
+        "id": "left1",
+        "text": "В КЪЩИ Е МНОГО ТОПЛО."
+      },
+      {
+        "id": "left2",
+        "text": "ОБИЧАМ БАНАНИ И ЯБЪЛКИ."
+      },
+      {
+        "id": "left3",
+        "text": "ДНЕС КОЙ ДЕН Е ?"
+      },
+      {
+        "id": "left4",
+        "text": "БРАТ ТИ УЧЕНИК ЛИ Е?"
+      },
+      {
+        "id": "left5",
+        "text": "УЧИТЕЛКАТА В СТАЯТА ЛИ Е ?"
+      }
+    ],
+    "rightItems": [
+      {
+        "id": "right1",
+        "text": "Ev çok sıcak."
+      },
+      {
+        "id": "right4",
+        "text": "Erkek kardeşin öğrenci mi?"
+      },
+      {
+        "id": "right3",
+        "text": "Bugün günlerden ne?"
+      },
+      {
+        "id": "right5",
+        "text": "Öğretmen odada mı?"
+      },
+      {
+        "id": "right2",
+        "text": "Muz ve elma severim."
+      }
+    ],
+    "matches": {
+      "left1": "right1",
+      "left2": "right2",
+      "left3": "right3",
+      "left4": "right4",
+      "left5": "right5"
+    },
+    "points": 15
+  },
+  {
+    "id": "q_match_tekrar_1155",
+    "type": "match",
+    "difficulty": 2,
+    "tags": [
+      "Eşleştirme",
+      "Cümle"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "instruction": "Bulgarca cümleleri Türkçe anlamlarıyla eşleştiriniz.",
+    "leftItems": [
+      {
+        "id": "left1",
+        "text": "КОЛКО СТРУВА ТОВА КАФЕ?"
+      },
+      {
+        "id": "left2",
+        "text": "НАШИТЕ ЧАШИ СА НА МАСАТА."
+      },
+      {
+        "id": "left3",
+        "text": "КОЛКО ХОРА ИМА В КОЛАТА?"
+      },
+      {
+        "id": "left4",
+        "text": "КЪДЕ ИМА ТОПЛА ВОДА?"
+      },
+      {
+        "id": "left5",
+        "text": "НАШАТА КОТКА Е БОЛНА."
+      }
+    ],
+    "rightItems": [
+      {
+        "id": "right3",
+        "text": "Arabada kaç kişi var?"
+      },
+      {
+        "id": "right4",
+        "text": "Nerede sıcak su var?"
+      },
+      {
+        "id": "right2",
+        "text": "Bardaklarımız masada."
+      },
+      {
+        "id": "right5",
+        "text": "Kedimiz hasta."
+      },
+      {
+        "id": "right1",
+        "text": "Bu kahve ne kadar?"
+      }
+    ],
+    "matches": {
+      "left1": "right1",
+      "left2": "right2",
+      "left3": "right3",
+      "left4": "right4",
+      "left5": "right5"
+    },
+    "points": 15
+  },
+  {
+    "id": "q_match_tekrar_1156",
+    "type": "match",
+    "difficulty": 2,
+    "tags": [
+      "Eşleştirme",
+      "Cümle"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "instruction": "Bulgarca cümleleri Türkçe anlamlarıyla eşleştiriniz.",
+    "leftItems": [
+      {
+        "id": "left1",
+        "text": "АЗ НЯМАМ ШАПКА."
+      },
+      {
+        "id": "left2",
+        "text": "ЛИПСВАШ МИ."
+      },
+      {
+        "id": "left3",
+        "text": "КЪДЕ СА МОИТЕ ЧОРАПИ?"
+      },
+      {
+        "id": "left4",
+        "text": "ЕДНО КАФЕ И ЕДНА ТОРТА МОЛЯ."
+      },
+      {
+        "id": "left5",
+        "text": "КОЙ Е ОНЗИ МЪЖ?"
+      }
+    ],
+    "rightItems": [
+      {
+        "id": "right4",
+        "text": "Bir kahve ve bir pasta lütfen."
+      },
+      {
+        "id": "right3",
+        "text": "Çoraplarım nerede?"
+      },
+      {
+        "id": "right2",
+        "text": "Seni özledim."
+      },
+      {
+        "id": "right1",
+        "text": "Şapkam yok."
+      },
+      {
+        "id": "right5",
+        "text": "O adam kim?"
+      }
+    ],
+    "matches": {
+      "left1": "right1",
+      "left2": "right2",
+      "left3": "right3",
+      "left4": "right4",
+      "left5": "right5"
+    },
+    "points": 15
+  },
+  {
+    "id": "q_match_tekrar_1157",
+    "type": "match",
+    "difficulty": 2,
+    "tags": [
+      "Eşleştirme",
+      "Cümle"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "instruction": "Bulgarca cümleleri Türkçe anlamlarıyla eşleştiriniz.",
+    "leftItems": [
+      {
+        "id": "left1",
+        "text": "АЗ И МОЕТО СЕМЕЙСТВО."
+      },
+      {
+        "id": "left2",
+        "text": "ИМАШ МНОГО ХУБАВИ ОЧИ."
+      },
+      {
+        "id": "left3",
+        "text": "ВИЕ ОТ КЪДЕ СТЕ?"
+      },
+      {
+        "id": "left4",
+        "text": "ТОВА ЧЕРЕН ХИМИКАЛ ЛИ Е?"
+      },
+      {
+        "id": "left5",
+        "text": "ЕДНА СТУДЕНА БИРА МОЛЯ."
+      }
+    ],
+    "rightItems": [
+      {
+        "id": "right5",
+        "text": "Bir soğuk bira lütfen."
+      },
+      {
+        "id": "right3",
+        "text": "Siz nerelisiniz?"
+      },
+      {
+        "id": "right2",
+        "text": "Çok güzel gözlerin var."
+      },
+      {
+        "id": "right4",
+        "text": "Bu siyah tükenmez kalem mi?"
+      },
+      {
+        "id": "right1",
+        "text": "Ben ve ailem."
+      }
+    ],
+    "matches": {
+      "left1": "right1",
+      "left2": "right2",
+      "left3": "right3",
+      "left4": "right4",
+      "left5": "right5"
+    },
+    "points": 15
+  },
+  {
+    "id": "q_match_tekrar_1158",
+    "type": "match",
+    "difficulty": 2,
+    "tags": [
+      "Eşleştirme",
+      "Cümle"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "instruction": "Bulgarca cümleleri Türkçe anlamlarıyla eşleştiriniz.",
+    "leftItems": [
+      {
+        "id": "left1",
+        "text": "БОЛИ МЕ ГЛАВАТА."
+      },
+      {
+        "id": "left2",
+        "text": "АЗ СЪМ ЛЕКАР."
+      },
+      {
+        "id": "left3",
+        "text": "АЗ ОТИВАМ В КИТАЙ."
+      },
+      {
+        "id": "left4",
+        "text": "ИМАТЕ ЛИ СЕСТРА?"
+      },
+      {
+        "id": "left5",
+        "text": "МОЯТ ТЕЛЕФОН Е РАЗВАЛЕН."
+      }
+    ],
+    "rightItems": [
+      {
+        "id": "right1",
+        "text": "Başım ağrıyor."
+      },
+      {
+        "id": "right4",
+        "text": "Kız kardeşiniz var mı?"
+      },
+      {
+        "id": "right2",
+        "text": "Ben doktorum."
+      },
+      {
+        "id": "right3",
+        "text": "Ben Çin'e gidiyorum."
+      },
+      {
+        "id": "right5",
+        "text": "Telefonum bozuk."
+      }
+    ],
+    "matches": {
+      "left1": "right1",
+      "left2": "right2",
+      "left3": "right3",
+      "left4": "right4",
+      "left5": "right5"
+    },
+    "points": 15
+  },
+  {
+    "id": "q_match_tekrar_1159",
+    "type": "match",
+    "difficulty": 2,
+    "tags": [
+      "Eşleştirme",
+      "Cümle"
+    ],
+    "lesson": "Bulgarca TEKRAR",
+    "instruction": "Bulgarca cümleleri Türkçe anlamlarıyla eşleştiriniz.",
+    "leftItems": [
+      {
+        "id": "left1",
+        "text": "ПИЯ СТУДЕНА ВОДА."
+      },
+      {
+        "id": "left2",
+        "text": "ИМАШ ЛИ БРАТ?"
+      },
+      {
+        "id": "left3",
+        "text": "ТОВА ЗЕЛЕНО ЦВЕТЕ ЛИ Е?"
+      },
+      {
+        "id": "left4",
+        "text": "АЗ СЪМ АДВОКАТ"
+      },
+      {
+        "id": "left5",
+        "text": "НА МАСАТА ИМА ЛИ КНИГА?"
+      }
+    ],
+    "rightItems": [
+      {
+        "id": "right1",
+        "text": "Soğuk su içiyorum."
+      },
+      {
+        "id": "right2",
+        "text": "Erkek kardeşin var mı?"
+      },
+      {
+        "id": "right3",
+        "text": "Bu yeşil çiçek mi?"
+      },
+      {
+        "id": "right4",
+        "text": "Ben avukatım"
+      },
+      {
+        "id": "right5",
+        "text": "Masada kitap var mı?"
+      }
+    ],
+    "matches": {
+      "left1": "right1",
+      "left2": "right2",
+      "left3": "right3",
+      "left4": "right4",
+      "left5": "right5"
+    },
+    "points": 15
   }
 ]
