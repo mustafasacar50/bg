@@ -153,8 +153,12 @@ export default function ExamPreviewPage() {
           <span key={index} className="inline-block mx-1 align-middle">
             <input 
               type="text"
-              className="text-input answer-input font-bold tracking-wider w-32 py-1 px-2 text-center text-sm border-b-2 bg-slate-50 border-slate-300"
+              className={`text-input answer-input font-bold tracking-wider w-32 py-1 px-2 text-center text-sm border-b-2 bg-slate-50 border-slate-300 focus:border-primary focus:bg-indigo-50 focus:text-primary-dark shadow-sm`}
               placeholder={`${blankKey}. boşluk`}
+              onFocus={(e) => {
+                setActiveInput(e.target);
+                setKeyboardOpen(true);
+              }}
             />
           </span>
         );
@@ -190,6 +194,32 @@ export default function ExamPreviewPage() {
           >
             {editMode ? <><Eye size={18} /> Önizlemeye Geç</> : <><Edit3 size={18} /> Düzenleme Modu</>}
           </button>
+        </div>
+      </div>
+
+      {/* Keyboard */}
+      <button className="fixed bottom-4 right-4 z-[60] bg-primary text-white p-3 rounded-full shadow-lg" type="button" onClick={() => setKeyboardOpen(!keyboardOpen)} style={{ display: editMode ? 'block' : 'none' }}>
+        ⌨️
+      </button>
+
+      <div className={`fixed bottom-0 left-0 right-0 z-[55] bg-white border-t border-slate-200 p-4 transition-transform ${keyboardOpen ? 'translate-y-0' : 'translate-y-full'}`}>
+        <div className="max-w-3xl mx-auto">
+          <div className="flex justify-between items-center mb-2">
+            <div className="flex gap-2">
+              <button type="button" className={`text-xs font-bold px-3 py-1 rounded ${layout === 'bg' ? 'bg-primary text-white' : 'bg-slate-200'}`} onClick={() => setLayout('bg')}>БГ</button>
+              <button type="button" className={`text-xs font-bold px-3 py-1 rounded ${layout === 'tr' ? 'bg-primary text-white' : 'bg-slate-200'}`} onClick={() => setLayout('tr')}>TR</button>
+            </div>
+            <button type="button" className="text-xs text-slate-400" onClick={() => setKeyboardOpen(false)}>Kapat</button>
+          </div>
+          <div className="flex flex-wrap gap-1">
+            {layouts[layout].map(letter => (
+              <button key={letter} type="button" className="w-8 h-8 flex items-center justify-center bg-slate-100 rounded hover:bg-slate-200 font-bold" onClick={() => insertText(letter)}>
+                {letter}
+              </button>
+            ))}
+            <button type="button" className="w-20 h-8 flex items-center justify-center bg-slate-100 rounded hover:bg-slate-200 text-xs font-bold" onClick={() => insertText(' ')}>Boşluk</button>
+            <button type="button" className="w-16 h-8 flex items-center justify-center bg-red-100 text-red-600 rounded hover:bg-red-200 text-xs font-bold" onClick={() => backspace()}>⌫</button>
+          </div>
         </div>
       </div>
 
@@ -471,9 +501,13 @@ export default function ExamPreviewPage() {
                             <div className="hint">{q.hint}</div>
                           </div>
                           <input 
-                            className="text-input answer-input" 
+                            className="text-input answer-input focus:bg-indigo-50" 
                             type="text" 
                             placeholder="Bulgarca yazınız"
+                            onFocus={(e) => {
+                              setActiveInput(e.target);
+                              setKeyboardOpen(true);
+                            }}
                           />
                         </>
                       )}

@@ -25,6 +25,9 @@ export default function GenerateExamPage() {
   const [endTime, setEndTime] = useState("");
   const [timeLimit, setTimeLimit] = useState(30);
 
+  // Used questions tracking
+  const [usedQuestionIds, setUsedQuestionIds] = useState<string[]>([]);
+
   useEffect(() => {
     // Sınav sayısını çekip default ismi ayarla
     fetch("/api/manage-exams")
@@ -32,6 +35,15 @@ export default function GenerateExamPage() {
       .then(data => {
         if (data.exams) {
           setTitle(`Yeni Deneme Sınavı ${data.exams.length + 1}`);
+          
+          // Collect used question IDs from existing exams
+          let usedIds: string[] = [];
+          data.exams.forEach((exam: any) => {
+            if (exam.questions && Array.isArray(exam.questions)) {
+              usedIds = [...usedIds, ...exam.questions];
+            }
+          });
+          setUsedQuestionIds(usedIds);
         }
       })
       .catch(err => console.error("Could not fetch exams for default title", err));
@@ -101,11 +113,18 @@ export default function GenerateExamPage() {
         throw new Error("Seçilen derslerde hiç soru bulunamadı.");
       }
 
+      // Filter out used questions
+      const unusedBank = filteredBank.filter(q => !usedQuestionIds.includes(q.id));
+
+      if (unusedBank.length === 0) {
+        throw new Error("Seçilen derslerde kullanılmamış hiç soru bulunamadı. Lütfen eski sınavları silin veya yeni sorular ekleyin.");
+      }
+
       // Filter questions by type
-      const mcqs = filteredBank.filter(q => q.type === "mcq");
-      const matches = filteredBank.filter(q => q.type === "match");
-      const blanks = filteredBank.filter(q => q.type === "blank");
-      const readings = filteredBank.filter(q => q.type === "reading");
+      const mcqs = unusedBank.filter(q => q.type === "mcq");
+      const matches = unusedBank.filter(q => q.type === "match" || q.type === "matching");
+      const blanks = unusedBank.filter(q => q.type === "blank");
+      const readings = unusedBank.filter(q => q.type === "reading");
 
       // Check available questions
       if (mcqs.length < mcqCount) throw new Error(`Seçilen derslerde yeterli test sorusu yok. İstenen: ${mcqCount}, Bulunan: ${mcqs.length}`);
@@ -339,17 +358,17 @@ export default function GenerateExamPage() {
               <div>
                 <label className="label text-sm">Test (Çoktan Seçmeli)</label>
                 <div className="text-xs font-bold text-indigo-500 mb-2">
-                  Havuzda: {
+                  Kullanılabilir: {
                     (selectedLessons.length > 0 
-                      ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'mcq') 
-                      : questionBank.filter(q => q.type === 'mcq')
+                      ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'mcq' && !usedQuestionIds.includes(q.id)) 
+                      : questionBank.filter(q => q.type === 'mcq' && !usedQuestionIds.includes(q.id))
                     ).length
                   } soru
                 </div>
                 <input 
                   type="number" 
                   min="0"
-                  max={(selectedLessons.length > 0 ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'mcq') : questionBank.filter(q => q.type === 'mcq')).length}
+                  max={(selectedLessons.length > 0 ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'mcq' && !usedQuestionIds.includes(q.id)) : questionBank.filter(q => q.type === 'mcq' && !usedQuestionIds.includes(q.id))).length}
                   className="text-input" 
                   value={mcqCount}
                   onChange={e => setMcqCount(parseInt(e.target.value) || 0)}
@@ -359,17 +378,17 @@ export default function GenerateExamPage() {
               <div>
                 <label className="label text-sm">Eşleştirme</label>
                 <div className="text-xs font-bold text-indigo-500 mb-2">
-                  Havuzda: {
+                  Kullanılabilir: {
                     (selectedLessons.length > 0 
-                      ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'match') 
-                      : questionBank.filter(q => q.type === 'match')
+                      ? questionBank.filter(q => selectedLessons.includes(q.lesson) && (q.type === 'match' || q.type === 'matching') && !usedQuestionIds.includes(q.id)) 
+                      : questionBank.filter(q => (q.type === 'match' || q.type === 'matching') && !usedQuestionIds.includes(q.id))
                     ).length
                   } soru
                 </div>
                 <input 
                   type="number" 
                   min="0"
-                  max={(selectedLessons.length > 0 ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'match') : questionBank.filter(q => q.type === 'match')).length}
+                  max={(selectedLessons.length > 0 ? questionBank.filter(q => selectedLessons.includes(q.lesson) && (q.type === 'match' || q.type === 'matching') && !usedQuestionIds.includes(q.id)) : questionBank.filter(q => (q.type === 'match' || q.type === 'matching') && !usedQuestionIds.includes(q.id))).length}
                   className="text-input" 
                   value={matchCount}
                   onChange={e => setMatchCount(parseInt(e.target.value) || 0)}
@@ -379,17 +398,17 @@ export default function GenerateExamPage() {
               <div>
                 <label className="label text-sm">Boşluk Doldurma</label>
                 <div className="text-xs font-bold text-indigo-500 mb-2">
-                  Havuzda: {
+                  Kullanılabilir: {
                     (selectedLessons.length > 0 
-                      ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'blank') 
-                      : questionBank.filter(q => q.type === 'blank')
+                      ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'blank' && !usedQuestionIds.includes(q.id)) 
+                      : questionBank.filter(q => q.type === 'blank' && !usedQuestionIds.includes(q.id))
                     ).length
                   } soru
                 </div>
                 <input 
                   type="number" 
                   min="0"
-                  max={(selectedLessons.length > 0 ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'blank') : questionBank.filter(q => q.type === 'blank')).length}
+                  max={(selectedLessons.length > 0 ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'blank' && !usedQuestionIds.includes(q.id)) : questionBank.filter(q => q.type === 'blank' && !usedQuestionIds.includes(q.id))).length}
                   className="text-input" 
                   value={blankCount}
                   onChange={e => setBlankCount(parseInt(e.target.value) || 0)}
@@ -399,17 +418,17 @@ export default function GenerateExamPage() {
               <div>
                 <label className="label text-sm">Okuma Parçası</label>
                 <div className="text-xs font-bold text-indigo-500 mb-2">
-                  Havuzda: {
+                  Kullanılabilir: {
                     (selectedLessons.length > 0 
-                      ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'reading') 
-                      : questionBank.filter(q => q.type === 'reading')
+                      ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'reading' && !usedQuestionIds.includes(q.id)) 
+                      : questionBank.filter(q => q.type === 'reading' && !usedQuestionIds.includes(q.id))
                     ).length
                   } soru
                 </div>
                 <input 
                   type="number" 
                   min="0"
-                  max={(selectedLessons.length > 0 ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'reading') : questionBank.filter(q => q.type === 'reading')).length}
+                  max={(selectedLessons.length > 0 ? questionBank.filter(q => selectedLessons.includes(q.lesson) && q.type === 'reading' && !usedQuestionIds.includes(q.id)) : questionBank.filter(q => q.type === 'reading' && !usedQuestionIds.includes(q.id))).length}
                   className="text-input" 
                   value={readingCount}
                   onChange={e => setReadingCount(parseInt(e.target.value) || 0)}
