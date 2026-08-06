@@ -77,5 +77,24 @@
       "q_match_auto_70_ПИЯ ВОДА.": "opt4"
     },
     "date": "2026-08-06T16:22:38.075Z"
+  },
+  {
+    "id": "score-1786033778972",
+    "examId": "mistakes",
+    "studentId": "u3",
+    "studentName": "Mustafa SAÇAR",
+    "score": {
+      "total": 6,
+      "mcq": "0/0",
+      "match": "0/0",
+      "blank": "0/0",
+      "reading": "1/16"
+    },
+    "answers": {
+      "q_reading_auto_117_1": "МОРЕ",
+      "q_reading_auto_117_2": "ГОРЕЩТО ",
+      "q_reading_auto_117_4": "плаж"
+    },
+    "date": "2026-08-06T16:29:38.708Z"
   }
 ]
