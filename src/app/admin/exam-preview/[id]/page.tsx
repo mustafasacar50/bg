@@ -154,7 +154,7 @@ export default function ExamPreviewPage() {
             <input 
               type="text"
               className={`text-input answer-input font-bold tracking-wider w-32 py-1 px-2 text-center text-sm border-b-2 bg-slate-50 border-slate-300 focus:border-primary focus:bg-indigo-50 focus:text-primary-dark shadow-sm`}
-              placeholder={`${blankKey}. boşluk`}
+              placeholder={q.answers ? q.answers[blankKey] : `${blankKey}. boşluk`}
               onFocus={(e) => {
                 setActiveInput(e.target);
                 setKeyboardOpen(true);
@@ -503,7 +503,7 @@ export default function ExamPreviewPage() {
                           <input 
                             className="text-input answer-input focus:bg-indigo-50" 
                             type="text" 
-                            placeholder="Bulgarca yazınız"
+                            placeholder={q.answers ? q.answers[q.id] : (q.answer || "Bulgarca yazınız")}
                             onFocus={(e) => {
                               setActiveInput(e.target);
                               setKeyboardOpen(true);
