@@ -28297,8 +28297,8 @@
       "Boşluk Doldurma"
     ],
     "lesson": "BULGARCA ÇARŞAMBA-CUMA 1.DERS-5.03",
-    "sentence": "• ____ → ЖЕНИ",
-    "hint": "→ KADINLAR",
+    "sentence": "Aşağıdaki kelimenin TEKİL halini yazınız: ЖЕНИ",
+    "hint": "Anlamı: Kadınlar",
     "answers": {
       "q_blank_auto_183": "ЖЕНА"
     },
@@ -28313,8 +28313,8 @@
       "Boşluk Doldurma"
     ],
     "lesson": "BULGARCA ÇARŞAMBA-CUMA 1.DERS-5.03",
-    "sentence": "• ____ → ВРАТИ",
-    "hint": "→ KAPILAR",
+    "sentence": "Aşağıdaki kelimenin TEKİL halini yazınız: ВРАТИ",
+    "hint": "Anlamı: Kapılar",
     "answers": {
       "q_blank_auto_184": "ВРАТА"
     },
@@ -35627,7 +35627,7 @@
       "BG-TR"
     ],
     "lesson": "BULGARCA ÇARŞAMBA-CUMA 1.DERS-5.03",
-    "question": "Aşağıdaki Bulgarca cümlenin Türkçe karşılığı nedir?\n\n**Щ - Щ ŞTI**",
+    "question": "Aşağıdaki Bulgarca harfin okunuşu nedir?\n\n**Щ**",
     "options": [
       {
         "id": "opt1",
@@ -35906,7 +35906,7 @@
       "TR-BG"
     ],
     "lesson": "BULGARCA ÇARŞAMBA-CUMA 1.DERS-5.03",
-    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**→ KADINLAR**",
+    "question": "Aşağıdaki ifadenin doğru tekil-çoğul eşleştirmesini bulunuz:\n\n**KADIN → KADINLAR**",
     "options": [
       {
         "id": "opt1",
@@ -35937,7 +35937,7 @@
       "TR-BG"
     ],
     "lesson": "BULGARCA ÇARŞAMBA-CUMA 1.DERS-5.03",
-    "question": "Aşağıdaki Türkçe cümlenin Bulgarca karşılığı nedir?\n\n**→ KAPILAR**",
+    "question": "Aşağıdaki ifadenin doğru tekil-çoğul eşleştirmesini bulunuz:\n\n**KAPI → KAPILAR**",
     "options": [
       {
         "id": "opt1",
