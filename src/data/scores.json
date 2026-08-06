@@ -13,5 +13,23 @@
     },
     "answers": {},
     "date": "2026-08-06T14:07:12.854Z"
+  },
+  {
+    "id": "score-1786025443809",
+    "examId": "exam-1785965411478",
+    "studentId": "u1",
+    "studentName": "Yönetici",
+    "score": {
+      "total": 6,
+      "mcq": "0/0",
+      "match": "0/0",
+      "blank": "0/0",
+      "reading": "1/16"
+    },
+    "answers": {
+      "q_reading_auto_111_1": "село",
+      "q_reading_auto_111_2": "зелен"
+    },
+    "date": "2026-08-06T14:10:43.273Z"
   }
 ]
