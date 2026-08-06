@@ -198,8 +198,28 @@ export default function ExamEditorPage() {
         </div>
         <div className="text-sm font-semibold text-slate-800 line-clamp-3 leading-snug">
           {(() => {
-            const text = q.question || q.sentence || "";
-            // Replace **word** with a styled span
+            const text = q.question || q.sentence || q.text || "";
+            
+            // If it's a reading question, replace ____1____ with the answer
+            if (q.type === 'reading') {
+              const parts = text.split(/(____\d+____)/g);
+              return parts.map((part: string, i: number) => {
+                const match = part.match(/____(\d+)____/);
+                if (match) {
+                  const blankKey = match[1];
+                  const answerKey = `${q.id}_${blankKey}`;
+                  const answerText = q.answers ? q.answers[answerKey] : "_____";
+                  return (
+                    <span key={i} className="text-indigo-700 font-bold px-1 mx-1 border-b-2 border-indigo-200">
+                      {answerText}
+                    </span>
+                  );
+                }
+                return <span key={i}>{part}</span>;
+              });
+            }
+
+            // Normal text formatting for MCQ etc. (replace **word** with a styled span)
             const parts = text.split(/(\*\*.*?\*\*)/g);
             return parts.map((part: string, i: number) => {
               if (part.startsWith('**') && part.endsWith('**')) {
