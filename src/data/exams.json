@@ -58,5 +58,27 @@
     },
     "startTime": null,
     "endTime": null
+  },
+  {
+    "id": "exam-1785997305339",
+    "title": "Yeni Deneme Sınavı 4",
+    "description": "Otomatik oluşturulmuş sınav. İçerdiği dersler: BULGARCA ÇARŞAMBA-CUMA 1.DERS-5.03",
+    "recommendedTimeMinutes": 30,
+    "level": "A1",
+    "lessons": [
+      "BULGARCA ÇARŞAMBA-CUMA 1.DERS-5.03"
+    ],
+    "questions": [
+      "q_reading_auto_113",
+      "q_reading_auto_112",
+      "q_reading_auto_114"
+    ],
+    "questionPoints": {
+      "q_reading_auto_113": 33,
+      "q_reading_auto_112": 33,
+      "q_reading_auto_114": 34
+    },
+    "startTime": null,
+    "endTime": null
   }
 ]
