@@ -17,6 +17,7 @@ export default function ExamPage() {
   const [keyboardOpen, setKeyboardOpen] = useState(false);
   const [preferNativeKeyboard, setPreferNativeKeyboard] = useState(false);
   const [layout, setLayout] = useState<LayoutType>("bg");
+  const [isCaps, setIsCaps] = useState(true);
   
   const [exam, setExam] = useState<any>(null);
   const [questions, setQuestions] = useState<any[]>([]);
@@ -362,14 +363,19 @@ export default function ExamPage() {
         const correctAnswer = qAnswers[ansId];
         const isCorrect = normalize(answers[ansId] || "") === normalize(correctAnswer);
         const isSelected = !!answers[ansId];
+        
+        const val = answers[ansId] || "";
+        const placeholderText = student?.role === 'admin' ? correctAnswer : `${blankKey}. boşluk`;
+        const displayLength = Math.max(10, val.length, placeholderText?.length || 10);
 
         return (
-          <span key={index} className="inline-block mx-1 align-middle">
+          <span key={index} className="inline-block mx-1 align-baseline">
             <input 
               type="text"
               inputMode={keyboardOpen ? "none" : "text"}
-              className={`text-input answer-input font-bold tracking-wider w-32 py-1 px-2 text-center text-sm border-b-2 bg-slate-50 ${isSelected ? 'border-primary text-primary-dark shadow-sm' : 'border-slate-300'} ${showResults ? (isCorrect ? 'border-green-500 text-green-700 bg-green-50' : 'border-red-500 text-red-700 bg-red-50') : ''}`}
-              placeholder={student?.role === 'admin' ? correctAnswer : `${blankKey}. boşluk`}
+              style={{ width: `${displayLength + 1}ch` }}
+              className={`text-input answer-input font-bold tracking-wider py-0 px-1 text-center text-base border-b-2 bg-slate-50/50 outline-none transition-all ${isSelected ? 'border-primary text-primary-dark shadow-sm bg-indigo-50/30' : 'border-slate-300 focus:border-primary focus:bg-indigo-50/50'} ${showResults ? (isCorrect ? 'border-green-500 text-green-700 bg-green-50' : 'border-red-500 text-red-700 bg-red-50') : ''}`}
+              placeholder={placeholderText}
               value={answers[ansId] || ""}
               onChange={(e) => handleAnswerChange(ansId, e.target.value)}
               onFocus={(e) => {
@@ -743,11 +749,17 @@ export default function ExamPage() {
                 </div>
               </div>
               <div className="keys">
-                {layouts.bg.map(letter => (
-                  <button key={letter} type="button" className="key" onClick={(e) => { e.preventDefault(); insertText(letter); }}>
-                    {letter}
-                  </button>
-                ))}
+                <button type="button" className={`key action ${isCaps ? 'bg-primary text-white border-primary' : ''}`} onClick={(e) => { e.preventDefault(); setIsCaps(!isCaps); }}>
+                  ⇧
+                </button>
+                {layouts.bg.map(letter => {
+                  const displayLetter = isCaps ? letter : letter.toLowerCase();
+                  return (
+                    <button key={letter} type="button" className="key" onClick={(e) => { e.preventDefault(); insertText(displayLetter); }}>
+                      {displayLetter}
+                    </button>
+                  );
+                })}
                 <button type="button" className="key action space" onClick={(e) => { e.preventDefault(); insertText(' '); }}>Boşluk</button>
                 <button type="button" className="key action wide" onClick={(e) => { e.preventDefault(); backspace(); }}>⌫ Sil</button>
               </div>

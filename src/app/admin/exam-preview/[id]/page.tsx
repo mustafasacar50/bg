@@ -21,6 +21,7 @@ export default function ExamPreviewPage() {
   const [activeInput, setActiveInput] = useState<HTMLInputElement | HTMLTextAreaElement | null>(null);
   const [keyboardOpen, setKeyboardOpen] = useState(false);
   const [layout, setLayout] = useState<LayoutType>("bg");
+  const [isCaps, setIsCaps] = useState(true);
 
   useEffect(() => {
     if (editMode) setKeyboardOpen(true);
@@ -150,12 +151,15 @@ export default function ExamPreviewPage() {
       if (match) {
         const blankKey = match[1];
         const ansId = `${qId}_${blankKey}`;
+        const placeholderText = qAnswers ? qAnswers[ansId] : `${blankKey}. boşluk`;
+        const displayLength = Math.max(10, placeholderText?.length || 10);
         return (
-          <span key={index} className="inline-block mx-1 align-middle">
+          <span key={index} className="inline-block mx-1 align-baseline">
             <input 
               type="text"
-              className={`text-input answer-input font-bold tracking-wider w-32 py-1 px-2 text-center text-sm border-b-2 bg-slate-50 border-slate-300 focus:border-primary focus:bg-indigo-50 focus:text-primary-dark shadow-sm`}
-              placeholder={qAnswers ? qAnswers[ansId] : `${blankKey}. boşluk`}
+              style={{ width: `${displayLength + 1}ch` }}
+              className={`text-input answer-input font-bold tracking-wider py-0 px-1 text-center text-base border-b-2 bg-slate-50/50 border-slate-300 focus:border-primary focus:bg-indigo-50/50 focus:text-primary-dark shadow-sm outline-none transition-all`}
+              placeholder={placeholderText}
               onFocus={(e) => {
                 setActiveInput(e.target);
                 setKeyboardOpen(true);
@@ -213,11 +217,17 @@ export default function ExamPreviewPage() {
             <button type="button" className="text-xs text-slate-400" onClick={() => setKeyboardOpen(false)}>Kapat</button>
           </div>
           <div className="flex flex-wrap gap-1">
-            {layouts[layout].map(letter => (
-              <button key={letter} type="button" className="w-8 h-8 flex items-center justify-center bg-slate-100 rounded hover:bg-slate-200 font-bold" onClick={() => insertText(letter)}>
-                {letter}
-              </button>
-            ))}
+            <button type="button" className={`w-8 h-8 flex items-center justify-center rounded hover:bg-slate-200 font-bold ${isCaps ? 'bg-primary text-white border-primary' : 'bg-slate-100'}`} onClick={() => setIsCaps(!isCaps)}>
+              ⇧
+            </button>
+            {layouts[layout].map(letter => {
+              const displayLetter = isCaps ? letter : letter.toLowerCase();
+              return (
+                <button key={letter} type="button" className="w-8 h-8 flex items-center justify-center bg-slate-100 rounded hover:bg-slate-200 font-bold" onClick={() => insertText(displayLetter)}>
+                  {displayLetter}
+                </button>
+              );
+            })}
             <button type="button" className="w-20 h-8 flex items-center justify-center bg-slate-100 rounded hover:bg-slate-200 text-xs font-bold" onClick={() => insertText(' ')}>Boşluk</button>
             <button type="button" className="w-16 h-8 flex items-center justify-center bg-red-100 text-red-600 rounded hover:bg-red-200 text-xs font-bold" onClick={() => backspace()}>⌫</button>
           </div>
@@ -625,11 +635,17 @@ export default function ExamPreviewPage() {
                 <button type="button" className="kb-close" onClick={() => setKeyboardOpen(false)}>Kapat</button>
               </div>
               <div className="keys">
-                {layouts[layout].map(letter => (
-                  <button key={letter} type="button" className="key" onClick={(e) => { e.preventDefault(); insertText(letter); }}>
-                    {letter}
-                  </button>
-                ))}
+                <button type="button" className={`key action ${isCaps ? 'bg-primary text-white border-primary' : ''}`} onClick={(e) => { e.preventDefault(); setIsCaps(!isCaps); }}>
+                  ⇧
+                </button>
+                {layouts[layout].map(letter => {
+                  const displayLetter = isCaps ? letter : letter.toLowerCase();
+                  return (
+                    <button key={letter} type="button" className="key" onClick={(e) => { e.preventDefault(); insertText(displayLetter); }}>
+                      {displayLetter}
+                    </button>
+                  );
+                })}
                 <button type="button" className="key action space" onClick={(e) => { e.preventDefault(); insertText(' '); }}>Boşluk</button>
                 <button type="button" className="key action wide" onClick={(e) => { e.preventDefault(); backspace(); }}>⌫ Sil</button>
               </div>
