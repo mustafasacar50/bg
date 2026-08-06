@@ -345,7 +345,11 @@ export default function ExamPage() {
     const parts = text.split(/(\*\*.*?\*\*)/g);
     return parts.map((part, index) => {
       if (part.startsWith('**') && part.endsWith('**')) {
-        return <strong key={index} className="font-black text-slate-800">{part.slice(2, -2)}</strong>;
+        return (
+          <span key={index} className="text-indigo-700 font-black px-1 mx-1 bg-indigo-50/50 rounded inline-block">
+            — {part.slice(2, -2)}
+          </span>
+        );
       }
       return <span key={index}>{part}</span>;
     });

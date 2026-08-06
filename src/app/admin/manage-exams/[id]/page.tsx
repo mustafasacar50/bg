@@ -196,9 +196,24 @@ export default function ExamEditorPage() {
           </span>
           <span className="text-xs text-slate-400 truncate">{q.id}</span>
         </div>
-        <p className="text-sm font-semibold text-slate-800 line-clamp-3 leading-snug">
-          {q.question || q.sentence}
-        </p>
+        <div className="text-sm font-semibold text-slate-800 line-clamp-3 leading-snug">
+          {(() => {
+            const text = q.question || q.sentence || "";
+            // Replace **word** with a styled span
+            const parts = text.split(/(\*\*.*?\*\*)/g);
+            return parts.map((part: string, i: number) => {
+              if (part.startsWith('**') && part.endsWith('**')) {
+                const content = part.slice(2, -2);
+                return (
+                  <span key={i} className="text-indigo-700 font-black px-1 mx-1 bg-indigo-50/50 rounded inline-block">
+                    — {content}
+                  </span>
+                );
+              }
+              return <span key={i}>{part}</span>;
+            });
+          })()}
+        </div>
       </div>
       
       <div className="flex flex-col items-end gap-2 shrink-0">
