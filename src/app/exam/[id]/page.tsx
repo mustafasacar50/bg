@@ -616,7 +616,7 @@ export default function ExamPage() {
             const readingKeys = Object.keys(q.answers);
             let correctCount = 0;
             readingKeys.forEach(k => {
-              if (normalize(answers[`${q.id}_${k}`] || "") === normalize(q.answers[k])) {
+              if (normalize(answers[k] || "") === normalize(q.answers[k])) {
                 correctCount++;
               }
             });
