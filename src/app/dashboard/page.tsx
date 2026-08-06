@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { LogOut, BookOpen, Clock, Award, User, RefreshCw, Loader2, Edit3, X, Check, Wand2 } from "lucide-react";
+import { LogOut, BookOpen, Clock, Award, User, RefreshCw, Loader2, Edit3, X, Check, Wand2, Settings } from "lucide-react";
 import Link from "next/link";
 
 export default function DashboardPage() {
@@ -159,10 +159,18 @@ export default function DashboardPage() {
             </span>
           )}
         </div>
-        <button onClick={handleLogout} className="p-2 text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors flex flex-col items-center gap-1 group">
-          <LogOut size={20} className="group-hover:translate-x-0.5 transition-transform" />
-          <span className="text-[10px] font-bold">Çıkış Yap</span>
-        </button>
+        <div className="flex items-center gap-2">
+          {student?.role === 'admin' && (
+            <Link href="/admin" className="p-2 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors flex flex-col items-center gap-1 group">
+              <Settings size={20} className="group-hover:rotate-45 transition-transform duration-300" />
+              <span className="text-[10px] font-bold">Yönetim</span>
+            </Link>
+          )}
+          <button onClick={handleLogout} className="p-2 text-slate-400 hover:text-red-500 hover:bg-red-50 rounded-lg transition-colors flex flex-col items-center gap-1 group">
+            <LogOut size={20} className="group-hover:translate-x-0.5 transition-transform" />
+            <span className="text-[10px] font-bold">Çıkış Yap</span>
+          </button>
+        </div>
       </header>
 
       <div className="flex justify-between items-start flex-col md:flex-row gap-4 mb-4">
