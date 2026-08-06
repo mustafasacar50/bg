@@ -1,0 +1,17 @@
+[
+  {
+    "id": "score-1786025234819",
+    "examId": "exam-1785965411478",
+    "studentId": "u3",
+    "studentName": "Mustafa SAÇAR",
+    "score": {
+      "total": 0,
+      "mcq": "0/0",
+      "match": "0/0",
+      "blank": "0/0",
+      "reading": "0/16"
+    },
+    "answers": {},
+    "date": "2026-08-06T14:07:12.854Z"
+  }
+]
