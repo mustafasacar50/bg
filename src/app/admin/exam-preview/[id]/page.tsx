@@ -205,7 +205,7 @@ export default function ExamPreviewPage() {
       </div>
 
       {/* Keyboard */}
-      <button className="fixed bottom-4 right-4 z-[60] bg-primary text-white p-3 rounded-full shadow-lg" title="Klavyeyi Aç/Kapat" type="button" onClick={() => setKeyboardOpen(!keyboardOpen)} style={{ display: editMode ? 'block' : 'none' }}>
+      <button className="fixed bottom-4 right-4 z-[60] bg-primary text-white p-3 rounded-full shadow-lg" title="Klavyeyi Aç/Kapat" type="button" onClick={() => { setPreferNativeKeyboard(false); setKeyboardOpen(!keyboardOpen); }} style={{ display: editMode ? 'block' : 'none' }}>
         ⌨️
       </button>
 
