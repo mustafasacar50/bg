@@ -158,7 +158,7 @@ export default function ExamPreviewPage() {
             <input 
               type="text"
               style={{ width: `${displayLength + 1}ch` }}
-              className={`text-input answer-input font-bold tracking-wider py-0 px-1 text-center text-base border-b-2 bg-slate-50/50 border-slate-300 focus:border-primary focus:bg-indigo-50/50 focus:text-primary-dark shadow-sm outline-none transition-all`}
+              className={`inline-block font-bold tracking-wider px-2 py-0.5 text-center text-base border-b-2 rounded-md outline-none transition-all shadow-inner border-slate-300 bg-amber-50 focus:border-primary focus:bg-amber-100 focus:text-primary-dark`}
               placeholder={placeholderText}
               onFocus={(e) => {
                 setActiveInput(e.target);

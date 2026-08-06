@@ -374,7 +374,7 @@ export default function ExamPage() {
               type="text"
               inputMode={keyboardOpen ? "none" : "text"}
               style={{ width: `${displayLength + 1}ch` }}
-              className={`text-input answer-input font-bold tracking-wider py-0 px-1 text-center text-base border-b-2 bg-slate-50/50 outline-none transition-all ${isSelected ? 'border-primary text-primary-dark shadow-sm bg-indigo-50/30' : 'border-slate-300 focus:border-primary focus:bg-indigo-50/50'} ${showResults ? (isCorrect ? 'border-green-500 text-green-700 bg-green-50' : 'border-red-500 text-red-700 bg-red-50') : ''}`}
+              className={`inline-block font-bold tracking-wider px-2 py-0.5 text-center text-base border-b-2 rounded-md outline-none transition-all shadow-inner ${isSelected ? 'border-primary text-primary-dark bg-amber-200' : 'border-slate-300 bg-amber-50 focus:border-primary focus:bg-amber-100'} ${showResults ? (isCorrect ? 'border-green-500 text-green-700 bg-green-100' : 'border-red-500 text-red-700 bg-red-100') : ''}`}
               placeholder={placeholderText}
               value={answers[ansId] || ""}
               onChange={(e) => handleAnswerChange(ansId, e.target.value)}
