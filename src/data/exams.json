@@ -15,7 +15,10 @@
       "q_reading_auto_110": 50
     },
     "startTime": null,
-    "endTime": null
+    "endTime": null,
+    "targetGroups": [
+      "SAÇARLAR"
+    ]
   },
   {
     "id": "exam-1785964943824",
