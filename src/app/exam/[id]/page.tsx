@@ -726,46 +726,42 @@ export default function ExamPage() {
       {/* Keyboard */}
       {!showResults && (
         <>
-          <button className="floating-kb" type="button" onClick={() => { setPreferNativeKeyboard(false); setKeyboardOpen(true); }} style={{ display: keyboardOpen ? 'none' : 'block' }}>
-            ⌨️ Bulgarca Klavye
+          <button className="fixed bottom-4 right-4 z-[60] bg-primary text-white p-3 rounded-full shadow-lg" title="Klavyeyi Aç/Kapat" type="button" onClick={() => { setPreferNativeKeyboard(false); setKeyboardOpen(!keyboardOpen); }} style={{ display: keyboardOpen ? 'none' : 'block' }}>
+            ⌨️
           </button>
 
-          <div className="keyboard-shell" aria-hidden={!keyboardOpen}>
-            <div className={`keyboard ${keyboardOpen ? 'open' : ''}`}>
-              <div className="kb-top">
-                <div className="kb-tabs">
-                  <div className="font-bold text-sm text-indigo-700 px-2 flex items-center gap-2">
-                    🇧🇬 Bulgarca Klavye
-                  </div>
-                </div>
-                <div className="flex gap-2">
-                  <button type="button" className="text-xs bg-slate-100 hover:bg-slate-200 text-slate-700 px-3 py-1 rounded-md font-bold transition-colors" onClick={() => { 
-                    setPreferNativeKeyboard(true);
-                    setKeyboardOpen(false); 
-                    if (activeInput) {
-                      activeInput.blur();
-                      setTimeout(() => activeInput.focus(), 50);
-                    }
-                  }}>
-                    🇹🇷 Normal Klavyeye Geç
-                  </button>
-                  <button type="button" className="kb-close" onClick={() => setKeyboardOpen(false)}>Kapat</button>
-                </div>
+          <div 
+            className={`fixed bottom-0 left-0 right-0 z-[55] bg-white border-t border-slate-200 p-4 transition-transform ${keyboardOpen && !preferNativeKeyboard ? 'translate-y-0 shadow-[0_-10px_40px_rgba(0,0,0,0.1)]' : 'translate-y-full'}`}
+            onPointerDown={(e) => e.preventDefault()}
+          >
+            <div className="max-w-3xl mx-auto pb-2">
+              <div className="flex justify-between items-center mb-2 px-1">
+                <label className="flex items-center gap-2 text-xs font-bold text-slate-500 cursor-pointer">
+                  <input type="checkbox" checked={preferNativeKeyboard} onChange={(e) => { setPreferNativeKeyboard(e.target.checked); if (e.target.checked) setKeyboardOpen(false); }} className="w-3 h-3" />
+                  Sistem Klavyesi
+                </label>
+                <button type="button" className="text-xs font-bold text-slate-500 bg-slate-100 px-3 py-1 rounded-full hover:bg-slate-200" onClick={() => setKeyboardOpen(false)}>Kapat</button>
               </div>
-              <div className="keys">
-                <button type="button" className={`key action ${isCaps ? 'bg-primary text-white border-primary' : ''}`} onClick={(e) => { e.preventDefault(); setIsCaps(!isCaps); }}>
-                  ⇧
-                </button>
-                {layouts.bg.map(letter => {
+              <div className="flex flex-wrap justify-center gap-[4px]">
+                {layouts[layout].map(letter => {
                   const displayLetter = isCaps ? letter : letter.toLowerCase();
                   return (
-                    <button key={letter} type="button" className="key" onClick={(e) => { e.preventDefault(); insertText(displayLetter); }}>
+                    <button key={letter} type="button" className="flex items-center justify-center bg-slate-100 rounded hover:bg-slate-200 font-semibold text-base shadow-sm" style={{ width: 'calc(10% - 4px)', height: '2.5rem', minWidth: '28px' }} onClick={() => insertText(displayLetter)}>
                       {displayLetter}
                     </button>
                   );
                 })}
-                <button type="button" className="key action space" onClick={(e) => { e.preventDefault(); insertText(' '); }}>Boşluk</button>
-                <button type="button" className="key action wide" onClick={(e) => { e.preventDefault(); backspace(); }}>⌫ Sil</button>
+              </div>
+              <div className="flex justify-center items-center gap-1.5 mt-2 px-1">
+                <button type="button" className={`flex items-center justify-center rounded-md font-bold px-3 h-10 shadow-sm ${isCaps ? 'bg-primary text-white' : 'bg-slate-200 text-slate-700'}`} onClick={() => setIsCaps(!isCaps)}>
+                  aA
+                </button>
+                <button type="button" className="flex-1 max-w-[200px] flex items-center justify-center bg-slate-200 text-slate-700 rounded-md text-sm font-bold h-10 shadow-sm" onClick={() => insertText(' ')}>Boşluk</button>
+                <button type="button" className="flex items-center justify-center bg-red-100 text-red-600 rounded-md px-3 h-10 font-bold shadow-sm" onClick={() => backspace()}>⌫</button>
+                <div className="flex gap-1 ml-auto bg-slate-100 p-1 rounded-md shadow-inner">
+                  <button type="button" className={`text-[10px] font-bold px-2 h-8 rounded ${layout === 'bg' ? 'bg-white shadow text-primary' : 'text-slate-500'}`} onClick={() => setLayout('bg')}>БГ</button>
+                  <button type="button" className={`text-[10px] font-bold px-2 h-8 rounded ${layout === 'tr' ? 'bg-white shadow text-primary' : 'text-slate-500'}`} onClick={() => setLayout('tr')}>TR</button>
+                </div>
               </div>
             </div>
           </div>
