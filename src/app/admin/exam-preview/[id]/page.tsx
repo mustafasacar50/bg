@@ -141,7 +141,7 @@ export default function ExamPreviewPage() {
     });
   };
 
-  const renderReadingText = (text: string) => {
+  const renderReadingText = (text: string, qId: string, qAnswers: any) => {
     if (!text) return null;
     const parts = text.split(/(____\d+____)/g);
     
@@ -149,12 +149,13 @@ export default function ExamPreviewPage() {
       const match = part.match(/____(\d+)____/);
       if (match) {
         const blankKey = match[1];
+        const ansId = `${qId}_${blankKey}`;
         return (
           <span key={index} className="inline-block mx-1 align-middle">
             <input 
               type="text"
               className={`text-input answer-input font-bold tracking-wider w-32 py-1 px-2 text-center text-sm border-b-2 bg-slate-50 border-slate-300 focus:border-primary focus:bg-indigo-50 focus:text-primary-dark shadow-sm`}
-              placeholder={q.answers ? q.answers[blankKey] : `${blankKey}. boşluk`}
+              placeholder={qAnswers ? qAnswers[ansId] : `${blankKey}. boşluk`}
               onFocus={(e) => {
                 setActiveInput(e.target);
                 setKeyboardOpen(true);
@@ -595,7 +596,7 @@ export default function ExamPreviewPage() {
                           </div>
                         </div>
                       ) : (
-                        renderReadingText(q.text)
+                        renderReadingText(q.text, q.id, q.answers)
                       )}
                     </div>
                   </div>

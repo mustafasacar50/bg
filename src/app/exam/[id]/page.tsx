@@ -359,7 +359,7 @@ export default function ExamPage() {
       if (match) {
         const blankKey = match[1];
         const ansId = `${qId}_${blankKey}`;
-        const correctAnswer = qAnswers[blankKey];
+        const correctAnswer = qAnswers[ansId];
         const isCorrect = normalize(answers[ansId] || "") === normalize(correctAnswer);
         const isSelected = !!answers[ansId];
 
