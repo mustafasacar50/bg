@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { LogOut, BookOpen, Clock, Award, User, RefreshCw, Loader2, Edit3, X, Check, Wand2, Settings } from "lucide-react";
 import Link from "next/link";
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 export default function DashboardPage() {
   const [student, setStudent] = useState<any>(null);
@@ -50,7 +51,17 @@ export default function DashboardPage() {
         const mistakesData = await mistakesRes.json();
         const lbData = await lbRes.json();
         
-        if (examsData.exams) setExams(examsData.exams);
+        if (examsData.exams) {
+          // Filter exams based on isPublic and targetGroups
+          const filteredExams = examsData.exams.filter((exam: any) => {
+            if (exam.isPublic) return true;
+            if (student.group && exam.targetGroups && exam.targetGroups.includes(student.group)) {
+              return true;
+            }
+            return false;
+          });
+          setExams(filteredExams.reverse());
+        }
         if (mistakesData.success && mistakesData.mistakes) {
           setMistakeCount(mistakesData.mistakes.length);
         }
@@ -196,6 +207,75 @@ export default function DashboardPage() {
           </div>
         </div>
       )}
+
+      {/* Progress Chart & Logs */}
+      {!loading && scores.length > 0 && (
+        <div className="mb-10">
+          <div className="flex items-center gap-2 mb-4">
+            <h2 className="text-2xl font-bold">Gelişim Grafiğin 📈</h2>
+          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+            <div className="lg:col-span-2 card p-6">
+              <h3 className="font-bold text-slate-700 mb-4">Sınav Puanları (Zaman İçinde)</h3>
+              <div className="h-64 w-full">
+                <ResponsiveContainer width="100%" height="100%">
+                  <LineChart
+                    data={[...scores].reverse().map(s => ({
+                      date: new Date(s.date).toLocaleDateString('tr-TR', { day: 'numeric', month: 'short' }),
+                      Puan: s.score?.total || 0,
+                      fullTitle: exams.find(e => e.id === s.examId)?.title || "Bilinmeyen Sınav"
+                    }))}
+                    margin={{ top: 5, right: 20, left: -20, bottom: 5 }}
+                  >
+                    <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" />
+                    <XAxis dataKey="date" tick={{fontSize: 12, fill: '#94a3b8'}} stroke="#cbd5e1" />
+                    <YAxis tick={{fontSize: 12, fill: '#94a3b8'}} stroke="#cbd5e1" />
+                    <Tooltip 
+                      contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }}
+                      labelStyle={{ fontWeight: 'bold', color: '#1e293b', marginBottom: '4px' }}
+                      formatter={(value: any, name: any, props: any) => [
+                        <div key="val" className="font-bold">{value} Puan</div>, 
+                        <div key="title" className="text-xs text-slate-500 mt-1">{props.payload.fullTitle}</div>
+                      ]}
+                    />
+                    <Line type="monotone" dataKey="Puan" stroke="#6366f1" strokeWidth={3} dot={{ r: 4, strokeWidth: 2, fill: 'white' }} activeDot={{ r: 6 }} />
+                  </LineChart>
+                </ResponsiveContainer>
+              </div>
+            </div>
+            
+            <div className="card p-6 flex flex-col h-full max-h-[350px]">
+              <h3 className="font-bold text-slate-700 mb-4">Son Etkinlikler</h3>
+              <div className="flex-1 overflow-y-auto pr-2 space-y-3">
+                {scores.slice(0, 10).map((score: any, idx: number) => {
+                  const examName = exams.find(e => e.id === score.examId)?.title || "Bilinmeyen Sınav";
+                  return (
+                    <div key={idx} className="flex flex-col border-b border-slate-100 pb-3 last:border-0 last:pb-0">
+                      <div className="flex justify-between items-start mb-1">
+                        <span className="font-bold text-sm text-slate-800 line-clamp-1 flex-1 pr-2">{examName}</span>
+                        <span className={`text-xs font-black px-2 py-0.5 rounded-md ${
+                          score.score?.total >= 80 ? 'bg-green-100 text-green-700' :
+                          score.score?.total >= 50 ? 'bg-amber-100 text-amber-700' : 'bg-red-100 text-red-700'
+                        }`}>
+                          {score.score?.total} Puan
+                        </span>
+                      </div>
+                      <span className="text-[10px] text-slate-400 font-bold uppercase tracking-wider">
+                        {new Date(score.date).toLocaleString('tr-TR')}
+                      </span>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Exams Section Header */}
+      <div className="flex justify-between items-center mb-6">
+        <h2 className="text-2xl font-bold">Mevcut Sınavlar</h2>
+      </div>
 
       {loading ? (
         <div className="flex flex-col items-center justify-center p-12 text-slate-400 gap-3">

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { ArrowLeft, Wand2, CheckCircle2, Eye, BookOpen } from "lucide-react";
+import { ArrowLeft, Wand2, CheckCircle2, Eye, BookOpen, Users } from "lucide-react";
 import Link from "next/link";
 import questionBank from "@/data/questions.json";
 
@@ -15,12 +15,14 @@ export default function GenerateExamPage() {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
   const [createdExamId, setCreatedExamId] = useState("");
-  
   // Lesson filter states
   const [availableLessons, setAvailableLessons] = useState<string[]>([]);
   const [selectedLessons, setSelectedLessons] = useState<string[]>([]);
-  
-  // Date states (default empty means no restriction)
+
+  // Group targeting states
+  const [groups, setGroups] = useState<any[]>([]);
+  const [targetGroups, setTargetGroups] = useState<string[]>([]);
+  const [isPublic, setIsPublic] = useState(false);
   const [startTime, setStartTime] = useState("");
   const [endTime, setEndTime] = useState("");
   const [timeLimit, setTimeLimit] = useState(30);
@@ -47,6 +49,13 @@ export default function GenerateExamPage() {
         }
       })
       .catch(err => console.error("Could not fetch exams for default title", err));
+      
+    fetch("/api/groups")
+      .then(res => res.json())
+      .then(data => {
+        if (data.groups) setGroups(data.groups);
+      })
+      .catch(err => console.error("Could not fetch groups", err));
       
     // Extract unique lessons from question bank
     const lessons = new Set<string>();
@@ -192,7 +201,9 @@ export default function GenerateExamPage() {
           endTime: endTime ? new Date(endTime).toISOString() : null,
           questions: questionIds,
           questionPoints: questionPoints,
-          lessons: selectedLessons
+          lessons: selectedLessons,
+          targetGroups: isPublic ? [] : targetGroups,
+          isPublic: isPublic
         }),
       });
 
@@ -316,6 +327,84 @@ export default function GenerateExamPage() {
                 )}
               </div>
             )}
+
+            {/* GROUP FILTERS */}
+            <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
+              <div className="flex justify-between items-start mb-4">
+                <div className="flex items-center gap-2">
+                  <Users size={20} className="text-pink-600" />
+                  <label className="label mb-0">Hedef Gruplar / Sınıflar</label>
+                </div>
+                
+                {/* Public Toggle */}
+                <label className="flex items-center cursor-pointer gap-2 bg-white px-3 py-1.5 rounded-lg border border-slate-200 shadow-sm">
+                  <span className="text-xs font-bold text-slate-700">Herkese Açık</span>
+                  <div className="relative">
+                    <input 
+                      type="checkbox" 
+                      className="sr-only" 
+                      checked={isPublic} 
+                      onChange={() => {
+                        setIsPublic(!isPublic);
+                        if (!isPublic) setTargetGroups([]);
+                      }} 
+                    />
+                    <div className={`block w-10 h-6 rounded-full transition-colors ${isPublic ? 'bg-green-500' : 'bg-slate-300'}`}></div>
+                    <div className={`dot absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition-transform ${isPublic ? 'transform translate-x-4' : ''}`}></div>
+                  </div>
+                </label>
+              </div>
+              
+              <p className="text-sm text-slate-500 mb-4">
+                {isPublic 
+                  ? "Bu sınav herkese açık olarak yayınlanacak. Belirli gruplara atamak için 'Herkese Açık' modunu kapatın." 
+                  : "Sınavın sadece belirli sınıflara görünmesini istiyorsanız buradan seçin. Hiçbirini seçmezseniz sınav kapalı (gizli) kalır."}
+              </p>
+              
+              {!isPublic && (
+                groups.length === 0 ? (
+                  <div className="bg-amber-50 text-amber-700 p-4 rounded-xl border border-amber-200 text-sm font-semibold">
+                    Sistemde hiç grup/sınıf bulunmuyor. Lütfen admin panelinden grup ekleyin.
+                  </div>
+                ) : (
+                  <>
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                      {groups.map((g) => (
+                        <label 
+                          key={g.id}
+                          className={`flex items-center gap-3 p-3 rounded-lg border cursor-pointer transition-colors ${
+                            targetGroups.includes(g.name) 
+                              ? 'bg-pink-50 border-pink-200 text-pink-900' 
+                              : 'bg-white border-slate-200 hover:bg-slate-100'
+                          }`}
+                        >
+                          <input 
+                            type="checkbox" 
+                            className="w-4 h-4 text-pink-600 rounded border-gray-300 focus:ring-pink-500"
+                            checked={targetGroups.includes(g.name)}
+                            onChange={() => {
+                              if (targetGroups.includes(g.name)) {
+                                setTargetGroups(targetGroups.filter(t => t !== g.name));
+                              } else {
+                                setTargetGroups([...targetGroups, g.name]);
+                              }
+                            }}
+                          />
+                          <span className="font-semibold text-sm">{g.name}</span>
+                        </label>
+                      ))}
+                    </div>
+                    {targetGroups.length > 0 && (
+                      <div className="mt-4 text-xs font-bold text-pink-600 flex justify-end">
+                        <button type="button" onClick={() => setTargetGroups([])} className="hover:underline">
+                          Grup Seçimlerini Temizle
+                        </button>
+                      </div>
+                    )}
+                  </>
+                )
+              )}
+            </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 bg-slate-50 p-6 rounded-xl border border-slate-100">
               <div>

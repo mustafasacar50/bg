@@ -135,6 +135,25 @@ export default function ManageExamsPage() {
                     {exam.level}
                   </span>
                 </div>
+                <div className="flex gap-2 flex-wrap mb-4">
+                    {exam.isPublic ? (
+                      <span className="text-[10px] font-bold bg-green-100 text-green-700 px-2 py-0.5 rounded-full">
+                        Herkese Açık
+                      </span>
+                    ) : (
+                      (!exam.targetGroups || exam.targetGroups.length === 0) ? (
+                        <span className="text-[10px] font-bold bg-slate-100 text-slate-500 px-2 py-0.5 rounded-full">
+                          Gizli (Grupsuz)
+                        </span>
+                      ) : (
+                        exam.targetGroups.map((group: string) => (
+                          <span key={group} className="text-[10px] font-bold bg-pink-100 text-pink-700 px-2 py-0.5 rounded-full">
+                            Grup: {group}
+                          </span>
+                        ))
+                      )
+                    )}
+                  </div>
                 <p className="text-sm text-slate-500 line-clamp-2 mb-4 h-10">{exam.description}</p>
                 
                 <div className="grid grid-cols-2 gap-2 mb-4">

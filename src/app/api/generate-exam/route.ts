@@ -6,17 +6,23 @@ const FILE_PATH = "src/data/exams.json";
 export async function POST(request: Request) {
   try {
     const data = await request.json();
-    const { title, description, timeLimit, questions, questionPoints, startTime, endTime } = data;
+    const { title, description, timeLimit, startTime, endTime, questions, questionPoints, lessons, targetGroups, isPublic } = data;
+
+    if (!title || !questions || questions.length === 0) {
+      return NextResponse.json({ error: "Eksik bilgi" }, { status: 400 });
+    }
 
     const newExam = {
       id: `exam-${Date.now()}`,
       title,
-      description,
-      recommendedTimeMinutes: parseInt(timeLimit) || 30,
+      description: description || "",
+      recommendedTimeMinutes: timeLimit || 30,
       level: "A1",
-      lessons: data.lessons || [],
+      lessons: lessons || [],
       questions,
-      questionPoints,
+      questionPoints: questionPoints || {},
+      targetGroups: Array.isArray(targetGroups) ? targetGroups : [],
+      isPublic: isPublic === true,
       startTime: startTime || null,
       endTime: endTime || null
     };

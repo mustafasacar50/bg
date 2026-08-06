@@ -16,12 +16,18 @@ export default function ExamEditorPage() {
   const [saving, setSaving] = useState(false);
 
   const [searchQuery, setSearchQuery] = useState("");
+  const [filterType, setFilterType] = useState<string>("all");
   
   // Local state for edits
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [level, setLevel] = useState("");
   const [time, setTime] = useState<number>(0);
+  
+  // Group targeting states
+  const [groups, setGroups] = useState<any[]>([]);
+  const [targetGroups, setTargetGroups] = useState<string[]>([]);
+  const [isPublic, setIsPublic] = useState(false);
 
   // Transfer list states (only stores IDs)
   const [examQuestionIds, setExamQuestionIds] = useState<string[]>([]);
@@ -36,13 +42,19 @@ export default function ExamEditorPage() {
   const fetchData = async () => {
     setLoading(true);
     try {
-      // Fetch exam
-      const examRes = await fetch(`/api/manage-exams?id=${examId}`);
+      const [examRes, qRes, groupRes] = await Promise.all([
+        fetch(`/api/manage-exams?id=${examId}`),
+        fetch('/api/questions'),
+        fetch('/api/groups')
+      ]);
+
       const examData = await examRes.json();
-      
-      // Fetch all questions
-      const qRes = await fetch('/api/questions');
       const qData = await qRes.json();
+      const groupData = await groupRes.json();
+
+      if (groupData.groups) {
+        setGroups(groupData.groups);
+      }
 
       if (examData.exam && qData.questions) {
         const e = examData.exam;
@@ -51,6 +63,8 @@ export default function ExamEditorPage() {
         setDescription(e.description || "");
         setLevel(e.level || "A1");
         setTime(e.recommendedTimeMinutes || 30);
+        setTargetGroups(e.targetGroups || []);
+        setIsPublic(e.isPublic || false);
         setExamQuestionIds(e.questions || []);
         
         setAllQuestions(qData.questions);
@@ -66,7 +80,7 @@ export default function ExamEditorPage() {
   // converts "ka to" into /ka.*to/i
   const createFuzzyRegex = (query: string) => {
     if (!query) return null;
-    const clean = query.toLowerCase().replace(/\\s+/g, '.*');
+    const clean = query.toLowerCase().replace(/\s+/g, '.*');
     try {
       return new RegExp(clean, 'i');
     } catch {
@@ -86,13 +100,14 @@ export default function ExamEditorPage() {
   const poolQuestionsList = useMemo(() => {
     return allQuestions
       .filter(q => !examQuestionIds.includes(q.id))
+      .filter(q => filterType === "all" || q.type === filterType || (filterType === "match" && (q.type === "matching" || q.type === "match")))
       .filter(q => {
         if (!regex) return true;
         // Search in text depending on type
         const textToSearch = q.question + " " + (q.sentence || "") + " " + (q.hint || "");
         return regex.test(textToSearch);
       });
-  }, [allQuestions, examQuestionIds, regex]);
+  }, [allQuestions, examQuestionIds, regex, filterType]);
 
   const addToExam = (qId: string) => {
     setExamQuestionIds(prev => [...prev, qId]);
@@ -133,6 +148,8 @@ export default function ExamEditorPage() {
         description,
         level,
         recommendedTimeMinutes: time,
+        targetGroups: isPublic ? [] : targetGroups,
+        isPublic: isPublic,
         questions: examQuestionIds
       };
 
@@ -261,6 +278,79 @@ export default function ExamEditorPage() {
             <input type="number" className="text-input" value={time} onChange={e => setTime(parseInt(e.target.value) || 0)} />
           </div>
         </div>
+        {/* GROUP FILTERS */}
+        <div className="mt-6 border-t border-slate-100 pt-6">
+          <div className="flex justify-between items-start mb-2">
+            <label className="label mb-0">Hedef Gruplar / Sınıflar</label>
+            {/* Public Toggle */}
+            <label className="flex items-center cursor-pointer gap-2 bg-white px-3 py-1.5 rounded-lg border border-slate-200 shadow-sm">
+              <span className="text-xs font-bold text-slate-700">Herkese Açık</span>
+              <div className="relative">
+                <input 
+                  type="checkbox" 
+                  className="sr-only" 
+                  checked={isPublic} 
+                  onChange={() => {
+                    setIsPublic(!isPublic);
+                    if (!isPublic) setTargetGroups([]);
+                  }} 
+                />
+                <div className={`block w-10 h-6 rounded-full transition-colors ${isPublic ? 'bg-green-500' : 'bg-slate-300'}`}></div>
+                <div className={`dot absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition-transform ${isPublic ? 'transform translate-x-4' : ''}`}></div>
+              </div>
+            </label>
+          </div>
+          
+          <p className="text-sm text-slate-500 mb-4">
+            {isPublic 
+              ? "Bu sınav herkese açık olarak yayınlanacak. Belirli gruplara atamak için 'Herkese Açık' modunu kapatın." 
+              : "Sınavın sadece belirli sınıflara görünmesini istiyorsanız seçin. Hiçbirini seçmezseniz sınav kapalı (gizli) kalır."}
+          </p>
+          
+          {!isPublic && (
+            groups.length === 0 ? (
+              <div className="bg-amber-50 text-amber-700 p-4 rounded-xl border border-amber-200 text-sm font-semibold">
+                Sistemde hiç grup/sınıf bulunmuyor. Lütfen admin panelinden grup ekleyin.
+              </div>
+            ) : (
+              <>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
+                  {groups.map((g) => (
+                    <label 
+                      key={g.id}
+                      className={`flex items-center gap-3 p-3 rounded-lg border cursor-pointer transition-colors ${
+                        targetGroups.includes(g.name) 
+                          ? 'bg-pink-50 border-pink-200 text-pink-900' 
+                          : 'bg-slate-50 border-slate-200 hover:bg-slate-100'
+                      }`}
+                    >
+                      <input 
+                        type="checkbox" 
+                        className="w-4 h-4 text-pink-600 rounded border-gray-300 focus:ring-pink-500"
+                        checked={targetGroups.includes(g.name)}
+                        onChange={() => {
+                          if (targetGroups.includes(g.name)) {
+                            setTargetGroups(targetGroups.filter(t => t !== g.name));
+                          } else {
+                            setTargetGroups([...targetGroups, g.name]);
+                          }
+                        }}
+                      />
+                      <span className="font-semibold text-sm">{g.name}</span>
+                    </label>
+                  ))}
+                </div>
+                {targetGroups.length > 0 && (
+                  <div className="mt-3 text-xs font-bold text-pink-600 flex justify-end">
+                    <button type="button" onClick={() => setTargetGroups([])} className="hover:underline">
+                      Grup Seçimlerini Temizle
+                    </button>
+                  </div>
+                )}
+              </>
+            )
+          )}
+        </div>
       </div>
 
       {/* Transfer List */}
@@ -297,16 +387,29 @@ export default function ExamEditorPage() {
                 {poolQuestionsList.length} Soru Bulundu
               </span>
             </div>
-            {/* Fuzzy Search Bar */}
-            <div className="relative">
-              <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
-              <input 
-                type="text" 
-                placeholder="Akıllı arama (Örn: 'ka to' yazarak 'kavo tova' bul)"
-                className="w-full pl-9 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-sm outline-none focus:border-primary focus:ring-2 focus:ring-primary-soft transition-all"
-                value={searchQuery}
-                onChange={e => setSearchQuery(e.target.value)}
-              />
+            {/* Search and Filter */}
+            <div className="flex gap-2">
+              <div className="relative flex-1">
+                <Search size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+                <input 
+                  type="text" 
+                  placeholder="Akıllı arama (Örn: 'ka to')"
+                  className="w-full pl-9 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-sm outline-none focus:border-primary focus:ring-2 focus:ring-primary-soft transition-all"
+                  value={searchQuery}
+                  onChange={e => setSearchQuery(e.target.value)}
+                />
+              </div>
+              <select 
+                value={filterType}
+                onChange={e => setFilterType(e.target.value)}
+                className="bg-slate-50 border border-slate-200 rounded-xl px-3 py-2 text-sm outline-none focus:border-primary focus:ring-2 focus:ring-primary-soft"
+              >
+                <option value="all">Tüm Tipler</option>
+                <option value="mcq">Test (MCQ)</option>
+                <option value="match">Eşleştirme</option>
+                <option value="blank">Boşluk Doldurma</option>
+                <option value="reading">Okuma Parçası</option>
+              </select>
             </div>
           </div>
           
