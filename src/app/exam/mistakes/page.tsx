@@ -374,7 +374,7 @@ export default function ExamPage() {
               type="text"
               inputMode={keyboardOpen ? "none" : "text"}
               className={`text-input answer-input font-bold tracking-wider w-32 py-1 px-2 text-center text-sm border-b-2 bg-slate-50 ${isSelected ? 'border-primary text-primary-dark shadow-sm' : 'border-slate-300'} ${showResults ? (isCorrect ? 'border-green-500 text-green-700 bg-green-50' : 'border-red-500 text-red-700 bg-red-50') : ''}`}
-              placeholder={`${blankKey}. boşluk`}
+              placeholder={student?.role === 'admin' ? correctAnswer : `${blankKey}. boşluk`}
               value={answers[ansId] || ""}
               onChange={(e) => handleAnswerChange(ansId, e.target.value)}
               onFocus={(e) => {
@@ -588,7 +588,7 @@ export default function ExamPage() {
                       autoComplete="off" 
                       autoCapitalize="characters" 
                       spellCheck="false" 
-                      placeholder="Bulgarca yazınız"
+                      placeholder={student?.role === 'admin' ? correctAnswerForBlank : "Bulgarca yazınız"}
                       value={answers[q.id] || ""}
                       onChange={(e) => handleAnswerChange(q.id, e.target.value)}
                       onFocus={(e) => {
