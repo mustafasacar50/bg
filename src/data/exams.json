@@ -1,26 +1,5 @@
 [
   {
-    "id": "exam-1785964840377",
-    "title": "Yeni Deneme Sınavı 2",
-    "description": "Otomatik olarak tüm konulardan oluşturulmuş pratik sınavı.",
-    "recommendedTimeMinutes": 30,
-    "level": "A1",
-    "lessons": [],
-    "questions": [
-      "q_reading_auto_106",
-      "q_reading_auto_110"
-    ],
-    "questionPoints": {
-      "q_reading_auto_106": 50,
-      "q_reading_auto_110": 50
-    },
-    "startTime": null,
-    "endTime": null,
-    "targetGroups": [
-      "SAÇARLAR"
-    ]
-  },
-  {
     "id": "exam-1785965411478",
     "title": "Yeni Deneme Sınavı 3",
     "description": "Otomatik olarak tüm konulardan oluşturulmuş pratik sınavı.",
