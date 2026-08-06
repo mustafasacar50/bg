@@ -20,6 +20,7 @@ export default function ExamPreviewPage() {
   type LayoutType = "bg" | "tr";
   const [activeInput, setActiveInput] = useState<HTMLInputElement | HTMLTextAreaElement | null>(null);
   const [keyboardOpen, setKeyboardOpen] = useState(false);
+  const [preferNativeKeyboard, setPreferNativeKeyboard] = useState(false);
   const [layout, setLayout] = useState<LayoutType>("bg");
   const [isCaps, setIsCaps] = useState(true);
 
@@ -160,9 +161,10 @@ export default function ExamPreviewPage() {
               style={{ width: `${displayLength + 1}ch` }}
               className={`inline-block font-bold tracking-wider px-2 py-0.5 text-center text-base border-b-2 rounded-md outline-none transition-all shadow-inner border-slate-300 bg-amber-50 focus:border-primary focus:bg-amber-100 focus:text-primary-dark`}
               placeholder={placeholderText}
+              inputMode={!preferNativeKeyboard && keyboardOpen ? "none" : "text"}
               onFocus={(e) => {
                 setActiveInput(e.target);
-                setKeyboardOpen(true);
+                if (!preferNativeKeyboard) setKeyboardOpen(true);
               }}
             />
           </span>
@@ -203,18 +205,27 @@ export default function ExamPreviewPage() {
       </div>
 
       {/* Keyboard */}
-      <button className="fixed bottom-4 right-4 z-[60] bg-primary text-white p-3 rounded-full shadow-lg" type="button" onClick={() => setKeyboardOpen(!keyboardOpen)} style={{ display: editMode ? 'block' : 'none' }}>
+      <button className="fixed bottom-4 right-4 z-[60] bg-primary text-white p-3 rounded-full shadow-lg" title="Klavyeyi Aç/Kapat" type="button" onClick={() => setKeyboardOpen(!keyboardOpen)} style={{ display: editMode ? 'block' : 'none' }}>
         ⌨️
       </button>
 
-      <div className={`fixed bottom-0 left-0 right-0 z-[55] bg-white border-t border-slate-200 p-4 transition-transform ${keyboardOpen ? 'translate-y-0' : 'translate-y-full'}`}>
+      <div 
+        className={`fixed bottom-0 left-0 right-0 z-[55] bg-white border-t border-slate-200 p-4 transition-transform ${keyboardOpen && !preferNativeKeyboard ? 'translate-y-0 shadow-[0_-10px_40px_rgba(0,0,0,0.1)]' : 'translate-y-full'}`}
+        onPointerDown={(e) => e.preventDefault()}
+      >
         <div className="max-w-3xl mx-auto">
           <div className="flex justify-between items-center mb-2">
             <div className="flex gap-2">
-              <button type="button" className={`text-xs font-bold px-3 py-1 rounded ${layout === 'bg' ? 'bg-primary text-white' : 'bg-slate-200'}`} onClick={() => setLayout('bg')}>БГ</button>
-              <button type="button" className={`text-xs font-bold px-3 py-1 rounded ${layout === 'tr' ? 'bg-primary text-white' : 'bg-slate-200'}`} onClick={() => setLayout('tr')}>TR</button>
+              <button type="button" className={`text-xs font-bold px-3 py-1 rounded ${layout === 'bg' ? 'bg-primary text-white' : 'bg-slate-200'}`} onClick={() => setLayout('bg')}>БГ Bulgarca</button>
+              <button type="button" className={`text-xs font-bold px-3 py-1 rounded ${layout === 'tr' ? 'bg-primary text-white' : 'bg-slate-200'}`} onClick={() => setLayout('tr')}>TR Türkçe</button>
             </div>
-            <button type="button" className="text-xs text-slate-400" onClick={() => setKeyboardOpen(false)}>Kapat</button>
+            <div className="flex items-center gap-4">
+              <label className="flex items-center gap-2 text-xs font-bold text-slate-600 cursor-pointer">
+                <input type="checkbox" checked={preferNativeKeyboard} onChange={(e) => { setPreferNativeKeyboard(e.target.checked); if (e.target.checked) setKeyboardOpen(false); }} className="w-3 h-3" />
+                Sistem Klavyesini Kullan
+              </label>
+              <button type="button" className="text-xs text-slate-400 bg-slate-100 px-3 py-1 rounded hover:bg-slate-200" onClick={() => setKeyboardOpen(false)}>Kapat</button>
+            </div>
           </div>
           <div className="flex flex-wrap gap-1">
             <button type="button" className={`w-8 h-8 flex items-center justify-center rounded hover:bg-slate-200 font-bold ${isCaps ? 'bg-primary text-white border-primary' : 'bg-slate-100'}`} onClick={() => setIsCaps(!isCaps)}>
@@ -374,13 +385,17 @@ export default function ExamPreviewPage() {
                               type="text"
                               className="flex-1 bg-white border border-slate-200 rounded-md p-1.5 text-sm font-bold outline-none"
                               value={pair.word}
+                              inputMode={!preferNativeKeyboard && keyboardOpen ? "none" : "text"}
                               onChange={(e) => {
                                 const newPairs = [...q.pairs];
                                 newPairs[pIndex] = { ...newPairs[pIndex], word: e.target.value };
                                 updateQuestionState(q.id, { pairs: newPairs });
                               }}
                               onBlur={() => saveQuestion(q)}
-                              onFocus={(e) => setActiveInput(e.target)}
+                              onFocus={(e) => {
+                                setActiveInput(e.target);
+                                if (!preferNativeKeyboard) setKeyboardOpen(true);
+                              }}
                             />
                             <span className="text-slate-400">➡️</span>
                             <select 
@@ -420,13 +435,17 @@ export default function ExamPreviewPage() {
                             type="text"
                             className="flex-1 bg-white border border-slate-200 rounded-md p-1 text-sm outline-none"
                             value={opt.text}
+                            inputMode={!preferNativeKeyboard && keyboardOpen ? "none" : "text"}
                             onChange={(e) => {
                               const newOpts = [...q.options];
                               newOpts[oIndex] = { ...newOpts[oIndex], text: e.target.value };
                               updateQuestionState(q.id, { options: newOpts });
                             }}
                             onBlur={() => saveQuestion(q)}
-                            onFocus={(e) => setActiveInput(e.target)}
+                            onFocus={(e) => {
+                              setActiveInput(e.target);
+                              if (!preferNativeKeyboard) setKeyboardOpen(true);
+                            }}
                           />
                         </div>
                       ))}
@@ -469,9 +488,13 @@ export default function ExamPreviewPage() {
                             <textarea 
                               className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2 text-sm outline-none"
                               value={q.sentence}
+                              inputMode={!preferNativeKeyboard && keyboardOpen ? "none" : "text"}
                               onChange={(e) => updateQuestionState(q.id, { sentence: e.target.value })}
                               onBlur={() => saveQuestion(q)}
-                              onFocus={(e) => setActiveInput(e.target)}
+                              onFocus={(e) => {
+                                setActiveInput(e.target);
+                                if (!preferNativeKeyboard) setKeyboardOpen(true);
+                              }}
                             />
                           </div>
                           
@@ -481,6 +504,7 @@ export default function ExamPreviewPage() {
                               type="text" 
                               className="w-full bg-green-50 border border-green-200 text-green-800 font-bold rounded-lg p-2 text-sm outline-none uppercase"
                               value={q.answers ? q.answers[q.id] : q.answer || ""}
+                              inputMode={!preferNativeKeyboard && keyboardOpen ? "none" : "text"}
                               onChange={(e) => {
                                 if (q.answers) {
                                   updateQuestionState(q.id, { answers: { ...q.answers, [q.id]: e.target.value } });
@@ -489,7 +513,10 @@ export default function ExamPreviewPage() {
                                 }
                               }}
                               onBlur={() => saveQuestion(q)}
-                              onFocus={(e) => setActiveInput(e.target)}
+                              onFocus={(e) => {
+                                setActiveInput(e.target);
+                                if (!preferNativeKeyboard) setKeyboardOpen(true);
+                              }}
                             />
                           </div>
 
@@ -499,9 +526,13 @@ export default function ExamPreviewPage() {
                               type="text" 
                               className="w-full bg-slate-50 border border-slate-200 rounded-lg p-2 text-sm outline-none italic"
                               value={q.hint || ""}
+                              inputMode={!preferNativeKeyboard && keyboardOpen ? "none" : "text"}
                               onChange={(e) => updateQuestionState(q.id, { hint: e.target.value })}
                               onBlur={() => saveQuestion(q)}
-                              onFocus={(e) => setActiveInput(e.target)}
+                              onFocus={(e) => {
+                                setActiveInput(e.target);
+                                if (!preferNativeKeyboard) setKeyboardOpen(true);
+                              }}
                             />
                           </div>
                         </>
