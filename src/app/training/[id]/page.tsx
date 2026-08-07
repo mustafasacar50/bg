@@ -337,6 +337,31 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     }
   };
 
+  // Global Keyboard Shortcuts
+  useEffect(() => {
+    const handleGlobalKeyDown = (e: KeyboardEvent) => {
+      if (document.activeElement?.tagName === 'INPUT' || document.activeElement?.tagName === 'TEXTAREA') return;
+
+      if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        setCurrentIndex(prev => Math.max(0, prev - 1));
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        setCurrentIndex(prev => Math.min(filteredQuestions.length - 1, prev + 1));
+      } else if (e.key === ' ') {
+        e.preventDefault();
+        if (feedback === 'none') {
+          handleSkip();
+        } else {
+          handleNext();
+        }
+      }
+    };
+
+    window.addEventListener('keydown', handleGlobalKeyDown);
+    return () => window.removeEventListener('keydown', handleGlobalKeyDown);
+  }, [filteredQuestions.length, feedback, activeQuestion, mistakesPool, mode, searchQuery, sessionQuestions]);
+
   // Keyboard Functions
   const insertText = (text: string) => {
     if (!inputRef.current) return;
