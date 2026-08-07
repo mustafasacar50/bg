@@ -637,6 +637,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                   );
                 })}
               </div>
+
               <div className="flex justify-center items-center gap-1.5 mt-2 px-1">
                 <button type="button" className={`flex items-center justify-center rounded-md font-bold px-3 h-10 shadow-sm ${isCaps ? 'bg-indigo-600 text-white' : 'bg-slate-200 text-slate-700'}`} onClick={() => setIsCaps(!isCaps)}>
                   aA
