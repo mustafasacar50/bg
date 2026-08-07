@@ -158,6 +158,16 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     }
   };
 
+  const handleSkip = () => {
+    if (!currentQuestion) return;
+    // Show answer as if wrong, but no point penalty
+    setFeedback('wrong');
+    if (!mistakesPool.includes(currentQuestion.id)) {
+      saveMistakes([...mistakesPool, currentQuestion.id]);
+      // 0 points for skipping, so we don't call syncScore() with any penalty
+    }
+  };
+
   const handleNext = () => {
     setUserAnswer('');
     setFeedback('none');
@@ -176,11 +186,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     }
 
     if (nextIdx < sessionQuestions.length || (mode === 'mistakes' && feedback === 'correct')) {
-       // if we are in mistakes mode and we removed an item, we stay on nextIdx which now points to the next item
        setCurrentIndex(nextIdx);
        localStorage.setItem(`training_${mode}_progress_${moduleId}`, nextIdx.toString());
     } else {
-       // Finished
        setCurrentIndex(sessionQuestions.length);
     }
   };
@@ -347,7 +355,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         <div className={`fixed bottom-0 left-0 right-0 z-50 transition-colors duration-300 ${feedback === 'correct' ? 'bg-green-100 border-t-2 border-green-200' : feedback === 'wrong' ? 'bg-red-100 border-t-2 border-red-200' : 'bg-white border-t border-slate-200'}`}>
           <div className="max-w-3xl mx-auto px-4 py-4 sm:py-6 flex flex-col sm:flex-row justify-between items-center gap-4">
             
-            <div className="flex-1 w-full">
+            <div className="flex-1 w-full flex items-center">
               {feedback === 'correct' && (
                 <div className="text-green-700">
                   <div className="font-black text-xl mb-1 flex items-center gap-2"><span>✅</span> Harika!</div>
@@ -355,18 +363,27 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               )}
               {feedback === 'wrong' && (
                 <div className="text-red-700">
-                  <div className="font-black text-xl mb-1 flex items-center gap-2"><span>❌</span> Yanlış cevap</div>
+                  <div className="font-black text-xl mb-1 flex items-center gap-2"><span>❌</span> {userAnswer.trim() ? "Yanlış cevap" : "Pas geçtiniz"}</div>
                   <div className="font-medium text-sm">Doğru cevap: <span className="font-bold">{expectedAnswer}</span></div>
                 </div>
               )}
               {feedback === 'none' && (
-                <button 
-                  className="hidden sm:block text-slate-400 font-bold hover:text-slate-600 px-4 py-2 rounded-lg"
-                  onClick={() => setKeyboardOpen(!keyboardOpen)}
-                  title="Klavyeyi Aç/Kapat"
-                >
-                  ⌨️ Sanal Klavye
-                </button>
+                <div className="flex items-center gap-4">
+                  <button 
+                    className="hidden sm:block text-slate-400 font-bold hover:text-slate-600 px-4 py-2 rounded-lg"
+                    onClick={() => setKeyboardOpen(!keyboardOpen)}
+                    title="Klavyeyi Aç/Kapat"
+                  >
+                    ⌨️ Sanal Klavye
+                  </button>
+                  <button 
+                    className="text-amber-500 font-bold hover:text-amber-600 hover:underline"
+                    onClick={handleSkip}
+                    title="Cevabı göster ve bu soruyu atla"
+                  >
+                    ⏭️ Pas
+                  </button>
+                </div>
               )}
             </div>
 
