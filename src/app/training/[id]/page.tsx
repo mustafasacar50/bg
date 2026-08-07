@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useRef, Suspense, use } from 'react';
+import { useState, useEffect, useRef, Suspense, use, useMemo } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 
@@ -23,6 +23,27 @@ const layouts = {
   tr: ['A','B','C','Ç','D','E','F','G','Ğ','H','I','İ','J','K','L','M','N','O','Ö','P','R','S','Ş','T','U','Ü','V','Y','Z']
 };
 
+function levenshteinDistance(a: string, b: string): number {
+  if (a.length === 0) return b.length;
+  if (b.length === 0) return a.length;
+  const matrix = Array(a.length + 1).fill(null).map(() => Array(b.length + 1).fill(null));
+
+  for (let i = 0; i <= a.length; i++) matrix[i][0] = i;
+  for (let j = 0; j <= b.length; j++) matrix[0][j] = j;
+
+  for (let i = 1; i <= a.length; i++) {
+    for (let j = 1; j <= b.length; j++) {
+      const indicator = a[i - 1] === b[j - 1] ? 0 : 1;
+      matrix[i][j] = Math.min(
+        matrix[i][j - 1] + 1, // insertion
+        matrix[i - 1][j] + 1, // deletion
+        matrix[i - 1][j - 1] + indicator // substitution
+      );
+    }
+  }
+  return matrix[a.length][b.length];
+}
+
 function TrainingContent({ moduleId }: { moduleId: string }) {
   const searchParams = useSearchParams();
   const mode = searchParams.get('mode') || 'all'; 
@@ -35,12 +56,14 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [sessionQuestions, setSessionQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [userAnswer, setUserAnswer] = useState('');
-  const [feedback, setFeedback] = useState<'none' | 'correct' | 'wrong'>('none');
+  const [feedback, setFeedback] = useState<'none' | 'correct' | 'typo' | 'wrong'>('none');
   const [score, setScore] = useState(0);
   
   // New State
   const [mistakesPool, setMistakesPool] = useState<string[]>([]);
   const [isSwapped, setIsSwapped] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const [activeQuestion, setActiveQuestion] = useState<any>(null);
   
   // Keyboard State
   const [keyboardOpen, setKeyboardOpen] = useState(false);
@@ -74,19 +97,19 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         } catch(e) {}
         setMistakesPool(mistakes);
 
-        let activeQuestions: Question[] = [];
+        let activePool: Question[] = [];
         if (mode === 'mistakes') {
-          activeQuestions = modData.questions.filter(q => mistakes.includes(q.id));
+          activePool = modData.questions.filter(q => mistakes.includes(q.id));
         } else {
-          activeQuestions = modData.questions;
+          activePool = modData.questions;
         }
         
-        setSessionQuestions(activeQuestions);
+        setSessionQuestions(activePool);
 
         // Load progress
         try {
           const savedIndex = parseInt(localStorage.getItem(`training_${mode}_progress_${moduleId}`) || '0');
-          if (savedIndex >= 0 && savedIndex < activeQuestions.length) {
+          if (savedIndex >= 0 && savedIndex < activePool.length) {
             setCurrentIndex(savedIndex);
           }
         } catch(e) {}
@@ -99,20 +122,60 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       });
   }, [moduleId, mode]);
 
-  const currentQuestion = sessionQuestions[currentIndex];
+  // Derived Filtered Questions
+  const filteredQuestions = useMemo(() => {
+    if (!searchQuery.trim()) return sessionQuestions;
+    const terms = searchQuery.toLowerCase().split(' ').filter(t => t);
+    return sessionQuestions.filter(q => {
+      const text = `${q.sentence} ${q.answer}`.toLowerCase();
+      return terms.every(term => text.includes(term));
+    });
+  }, [sessionQuestions, searchQuery]);
 
-  let displaySentence = currentQuestion?.sentence.replace('_____', '...');
-  let expectedAnswer = currentQuestion?.answer || '';
-  let hint = currentQuestion?.hint || '';
-
-  if (isSwapped && currentQuestion) {
-    const match = currentQuestion.sentence.match(/:\s*(.*?)\)/);
-    if (match) {
-      displaySentence = `... (${currentQuestion.sentence.includes('Türkçesi:') ? 'Bulgarcası' : 'Türkçesi'}: ${currentQuestion.answer})`;
-      expectedAnswer = match[1].trim().toUpperCase();
-      hint = currentQuestion.sentence.includes('Türkçesi:') ? 'Bulgarca karşılığını yazınız' : 'Türkçe karşılığını yazınız';
+  // Set Active Question and Generate Fill-In-The-Blank (if applicable)
+  useEffect(() => {
+    const q = filteredQuestions[currentIndex];
+    if (!q) {
+      setActiveQuestion(null);
+      return;
     }
-  }
+    
+    let display = q.sentence.replace('_____', '...');
+    let expected = q.answer;
+    let hint = q.hint;
+    
+    if (isSwapped) {
+      const match = q.sentence.match(/:\s*(.*?)\)/);
+      if (match) {
+        display = `... (${q.sentence.includes('Türkçesi:') ? 'Bulgarcası' : 'Türkçesi'}: ${q.answer})`;
+        expected = match[1].trim();
+        hint = q.sentence.includes('Türkçesi:') ? 'Bulgarca karşılığını yazınız' : 'Türkçe karşılığını yazınız';
+      }
+    }
+
+    let fitbTarget = null;
+    const words = expected.split(' ').filter(w => w.trim());
+    
+    if (words.length > 1) {
+       const targetIdx = Math.floor(Math.random() * words.length);
+       const targetWordRaw = words[targetIdx];
+       
+       const punctuationMatch = targetWordRaw.match(/[.,!?]+$/);
+       const punctuation = punctuationMatch ? punctuationMatch[0] : '';
+       fitbTarget = targetWordRaw.replace(/[.,!?]+$/, '');
+       
+       const maskedWords = [...words];
+       maskedWords[targetIdx] = `_____${punctuation}`;
+       
+       // Show masked version below the source sentence
+       display = `${display}\n(Boşluk Doldurma: ${maskedWords.join(' ')})`;
+    }
+    
+    setActiveQuestion({ id: q.id, display, expected, fitbTarget, hint });
+    setFeedback('none');
+    setUserAnswer('');
+  }, [currentIndex, isSwapped, filteredQuestions]);
+
 
   const syncScore = (pointsDelta: number) => {
     setScore(s => s + pointsDelta);
@@ -136,35 +199,50 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   };
 
   const handleCheck = () => {
-    if (!currentQuestion) return;
+    if (!activeQuestion) return;
     
-    const normalizedUser = userAnswer.trim().toLowerCase();
-    const normalizedAnswer = expectedAnswer.trim().toLowerCase();
+    const isFitb = !!activeQuestion.fitbTarget;
+    const expectedStr = isFitb ? activeQuestion.fitbTarget : activeQuestion.expected;
+    
+    const normalizedUser = userAnswer.trim().toLocaleLowerCase('tr-TR');
+    const normalizedAnswer = expectedStr.trim().toLocaleLowerCase('tr-TR');
     
     if (normalizedUser === normalizedAnswer) {
       setFeedback('correct');
-      if (mistakesPool.includes(currentQuestion.id)) {
-        saveMistakes(mistakesPool.filter(id => id !== currentQuestion.id));
+      if (mistakesPool.includes(activeQuestion.id)) {
+        saveMistakes(mistakesPool.filter(id => id !== activeQuestion.id));
         syncScore(1); 
       } else if (mode === 'all') {
         syncScore(1); 
       }
     } else {
-      setFeedback('wrong');
-      if (!mistakesPool.includes(currentQuestion.id)) {
-        saveMistakes([...mistakesPool, currentQuestion.id]);
-        syncScore(-0.2); 
+      const dist = levenshteinDistance(normalizedUser, normalizedAnswer);
+      const isTypo = dist === 1 || (normalizedAnswer.length > 4 && dist === 2);
+      
+      if (isTypo) {
+        setFeedback('typo');
+        // Accept as correct but note it's a typo, don't remove from mistakes if there, give partial score
+        if (mistakesPool.includes(activeQuestion.id)) {
+           // We might still consider it slightly wrong so we don't remove from mistakes pool, but give score
+           syncScore(0.9);
+        } else if (mode === 'all') {
+           syncScore(0.9);
+        }
+      } else {
+        setFeedback('wrong');
+        if (!mistakesPool.includes(activeQuestion.id)) {
+          saveMistakes([...mistakesPool, activeQuestion.id]);
+          syncScore(-0.2); 
+        }
       }
     }
   };
 
   const handleSkip = () => {
-    if (!currentQuestion) return;
-    // Show answer as if wrong, but no point penalty
+    if (!activeQuestion) return;
     setFeedback('wrong');
-    if (!mistakesPool.includes(currentQuestion.id)) {
-      saveMistakes([...mistakesPool, currentQuestion.id]);
-      // 0 points for skipping, so we don't call syncScore() with any penalty
+    if (!mistakesPool.includes(activeQuestion.id)) {
+      saveMistakes([...mistakesPool, activeQuestion.id]);
     }
   };
 
@@ -176,7 +254,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     let nextIdx = currentIndex;
     
     if (mode === 'mistakes' && feedback === 'correct') {
-      const updatedQuestions = sessionQuestions.filter(q => q.id !== currentQuestion.id);
+      const updatedQuestions = sessionQuestions.filter(q => q.id !== activeQuestion.id);
       setSessionQuestions(updatedQuestions);
       if (currentIndex >= updatedQuestions.length) {
          nextIdx = Math.max(0, updatedQuestions.length - 1);
@@ -185,11 +263,13 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       nextIdx = currentIndex + 1;
     }
 
-    if (nextIdx < sessionQuestions.length || (mode === 'mistakes' && feedback === 'correct')) {
+    if (nextIdx < filteredQuestions.length || (mode === 'mistakes' && feedback === 'correct')) {
        setCurrentIndex(nextIdx);
-       localStorage.setItem(`training_${mode}_progress_${moduleId}`, nextIdx.toString());
+       if (!searchQuery.trim()) {
+           localStorage.setItem(`training_${mode}_progress_${moduleId}`, nextIdx.toString());
+       }
     } else {
-       setCurrentIndex(sessionQuestions.length);
+       setCurrentIndex(filteredQuestions.length);
     }
   };
 
@@ -197,11 +277,11 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     const newSwapped = !isSwapped;
     setIsSwapped(newSwapped);
     
-    // Auto switch keyboard layout if we swap
+    const q = filteredQuestions[currentIndex];
     if (newSwapped) {
-      setLayout(currentQuestion?.sentence.includes('Türkçesi:') ? 'bg' : 'tr');
+      setLayout(q?.sentence.includes('Türkçesi:') ? 'bg' : 'tr');
     } else {
-      setLayout(currentQuestion?.sentence.includes('Türkçesi:') ? 'tr' : 'bg');
+      setLayout(q?.sentence.includes('Türkçesi:') ? 'tr' : 'bg');
     }
   };
 
@@ -245,7 +325,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     }
   };
 
-  const isFinished = sessionQuestions.length === 0 || (currentIndex >= sessionQuestions.length && mode === 'all') || (currentIndex >= sessionQuestions.length && mode === 'mistakes' && feedback !== 'correct');
+  const isFinished = filteredQuestions.length === 0 || (currentIndex >= filteredQuestions.length && mode === 'all') || (currentIndex >= filteredQuestions.length && mode === 'mistakes' && feedback !== 'correct' && feedback !== 'typo');
 
   if (loading) return <div className="min-h-screen flex items-center justify-center text-slate-500">Yükleniyor...</div>;
   if (!data) return <div className="min-h-screen flex items-center justify-center text-red-500">Modül bulunamadı.</div>;
@@ -253,37 +333,92 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col">
       {/* Header */}
-      <header className="bg-white border-b border-slate-200 px-4 py-4 flex flex-col sm:flex-row items-center justify-between sticky top-0 z-10 gap-4">
-        <div className="flex items-center gap-4 w-full sm:w-auto flex-1">
-          <button onClick={() => router.push('/training')} className="text-slate-400 hover:text-slate-600">
-            ✕
-          </button>
+      <header className="bg-white border-b border-slate-200 px-4 py-4 flex flex-col items-center justify-between sticky top-0 z-10 gap-4 sm:flex-row">
+        
+        <div className="flex w-full items-center gap-2 sm:w-auto flex-1 flex-col sm:flex-row">
+          
+          <div className="flex w-full items-center gap-2 sm:w-auto flex-1 sm:flex-none">
+            <button onClick={() => router.push('/training')} className="text-slate-400 hover:text-slate-600 mr-2">
+              ✕
+            </button>
+            
+            {/* Search Input */}
+            <div className="relative flex-1 sm:w-[200px]">
+              <input 
+                type="text" 
+                placeholder="🔍 Kelime ara..." 
+                value={searchQuery}
+                onChange={(e) => {
+                  setSearchQuery(e.target.value);
+                  setCurrentIndex(0);
+                }}
+                className="w-full bg-slate-100 border-none rounded-full px-4 py-1.5 text-sm outline-none focus:ring-2 focus:ring-indigo-500"
+              />
+            </div>
+          </div>
           
           {/* Interactive Progress Slider */}
-          {!isFinished && sessionQuestions.length > 0 && (
-            <div className="flex-1 max-w-xl mx-4 flex items-center gap-3">
-              <input 
-                type="range" 
-                min="0" 
-                max={sessionQuestions.length - 1} 
-                value={currentIndex}
-                onChange={(e) => {
-                  const newIdx = parseInt(e.target.value);
-                  setCurrentIndex(newIdx);
-                  localStorage.setItem(`training_${mode}_progress_${moduleId}`, newIdx.toString());
-                  setFeedback('none');
-                  setUserAnswer('');
-                  setIsSwapped(false);
-                }}
-                className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-indigo-600"
-              />
-              <span className="text-xs font-bold text-slate-500 whitespace-nowrap min-w-[50px] text-right">
-                {currentIndex + 1} / {sessionQuestions.length}
+          {!isFinished && filteredQuestions.length > 0 && (
+            <div className="flex-1 w-full mx-2 flex items-center gap-2 mt-2 sm:mt-0">
+              <button 
+                onClick={() => setCurrentIndex(Math.max(0, currentIndex - 1))}
+                disabled={currentIndex === 0}
+                className="text-slate-400 font-black text-xl hover:text-indigo-600 disabled:opacity-30 disabled:hover:text-slate-400 transition-colors"
+                title="Önceki Soru"
+              >
+                ◀
+              </button>
+              
+              <div className="flex-1 flex items-center gap-2">
+                <input 
+                  type="range" 
+                  min="0" 
+                  max={filteredQuestions.length - 1} 
+                  value={currentIndex}
+                  onChange={(e) => {
+                    const newIdx = parseInt(e.target.value);
+                    setCurrentIndex(newIdx);
+                    if (!searchQuery.trim()) {
+                      localStorage.setItem(`training_${mode}_progress_${moduleId}`, newIdx.toString());
+                    }
+                    setFeedback('none');
+                    setUserAnswer('');
+                    setIsSwapped(false);
+                  }}
+                  className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-indigo-600"
+                />
+              </div>
+
+              <button 
+                onClick={() => setCurrentIndex(Math.min(filteredQuestions.length - 1, currentIndex + 1))}
+                disabled={currentIndex >= filteredQuestions.length - 1}
+                className="text-slate-400 font-black text-xl hover:text-indigo-600 disabled:opacity-30 disabled:hover:text-slate-400 transition-colors"
+                title="Sonraki Soru"
+              >
+                ▶
+              </button>
+              
+              <span className="text-xs font-bold text-slate-500 whitespace-nowrap min-w-[45px] text-right">
+                {currentIndex + 1} / {filteredQuestions.length}
               </span>
+              
+              <button
+                onClick={() => {
+                  const shuffled = [...sessionQuestions].sort(() => 0.5 - Math.random());
+                  setSessionQuestions(shuffled);
+                  setCurrentIndex(0);
+                  setSearchQuery('');
+                }}
+                className="ml-1 flex items-center justify-center bg-slate-100 hover:bg-slate-200 text-indigo-600 rounded-lg px-2 py-1.5 text-sm font-bold transition-colors"
+                title="Soruları Karıştır"
+              >
+                🔀
+              </button>
             </div>
           )}
         </div>
-        <div className="text-sm font-bold text-indigo-600 px-4 py-1.5 bg-indigo-50 rounded-full">
+
+        <div className="text-sm font-bold text-indigo-600 px-4 py-1.5 bg-indigo-50 rounded-full shrink-0">
           Puan: {Number.isInteger(score) ? score : score.toFixed(1)}
         </div>
       </header>
@@ -309,7 +444,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         ) : (
           <div className="flex-1 flex flex-col mt-4">
             <div className="flex justify-between items-center mb-2">
-              <h1 className="text-2xl font-extrabold text-slate-800">Çeviriyi yazın</h1>
+              <h1 className="text-2xl font-extrabold text-slate-800">
+                {activeQuestion?.fitbTarget ? "Boşluğu doldurun" : "Çeviriyi yazın"}
+              </h1>
               <button 
                 onClick={handleSwap}
                 className="flex items-center gap-2 px-3 py-1.5 bg-amber-50 text-amber-700 hover:bg-amber-100 rounded-lg text-sm font-bold transition-colors"
@@ -319,12 +456,12 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               </button>
             </div>
             
-            <p className="text-slate-500 mb-8 font-medium">{hint}</p>
+            <p className="text-slate-500 mb-8 font-medium">{activeQuestion?.hint}</p>
 
-            <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-8 flex items-center gap-4">
-              <div className="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center text-xl">🤖</div>
-              <div className="text-lg font-medium text-slate-700">
-                {displaySentence}
+            <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-8 flex items-start gap-4 whitespace-pre-wrap">
+              <div className="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center text-xl shrink-0 mt-1">🤖</div>
+              <div className="text-lg font-medium text-slate-700 leading-relaxed">
+                {activeQuestion?.display}
               </div>
             </div>
 
@@ -333,7 +470,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                 ref={inputRef}
                 type="text"
                 inputMode={preferNativeKeyboard ? "text" : "none"}
-                className={`w-full bg-white border-2 rounded-xl px-4 py-4 text-xl outline-none transition-colors ${feedback === 'wrong' ? 'border-red-400 bg-red-50 text-red-900' : feedback === 'correct' ? 'border-green-400 bg-green-50 text-green-900' : 'border-slate-200 focus:border-indigo-400'}`}
+                className={`w-full bg-white border-2 rounded-xl px-4 py-4 text-xl outline-none transition-colors ${feedback === 'wrong' ? 'border-red-400 bg-red-50 text-red-900' : feedback === 'typo' ? 'border-amber-400 bg-amber-50 text-amber-900' : feedback === 'correct' ? 'border-green-400 bg-green-50 text-green-900' : 'border-slate-200 focus:border-indigo-400'}`}
                 placeholder="Cevabınızı buraya yazın..."
                 value={userAnswer}
                 onChange={(e) => setUserAnswer(e.target.value)}
@@ -352,7 +489,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
       {/* Footer Area (Check Button & Feedback) */}
       {!isFinished && (
-        <div className={`fixed bottom-0 left-0 right-0 z-50 transition-colors duration-300 ${feedback === 'correct' ? 'bg-green-100 border-t-2 border-green-200' : feedback === 'wrong' ? 'bg-red-100 border-t-2 border-red-200' : 'bg-white border-t border-slate-200'}`}>
+        <div className={`fixed bottom-0 left-0 right-0 z-50 transition-colors duration-300 ${feedback === 'correct' ? 'bg-green-100 border-t-2 border-green-200' : feedback === 'typo' ? 'bg-amber-100 border-t-2 border-amber-200' : feedback === 'wrong' ? 'bg-red-100 border-t-2 border-red-200' : 'bg-white border-t border-slate-200'}`}>
           <div className="max-w-3xl mx-auto px-4 py-4 sm:py-6 flex flex-col sm:flex-row justify-between items-center gap-4">
             
             <div className="flex-1 w-full flex items-center">
@@ -361,10 +498,16 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                   <div className="font-black text-xl mb-1 flex items-center gap-2"><span>✅</span> Harika!</div>
                 </div>
               )}
+              {feedback === 'typo' && (
+                <div className="text-amber-800">
+                  <div className="font-black text-xl mb-1 flex items-center gap-2"><span>⚠️</span> Harf hatası var! (+0.9 puan)</div>
+                  <div className="font-medium text-sm">Doğrusu şöyle olmalıydı: <span className="font-bold">{activeQuestion?.fitbTarget ? activeQuestion.fitbTarget : activeQuestion?.expected}</span></div>
+                </div>
+              )}
               {feedback === 'wrong' && (
                 <div className="text-red-700">
                   <div className="font-black text-xl mb-1 flex items-center gap-2"><span>❌</span> {userAnswer.trim() ? "Yanlış cevap" : "Pas geçtiniz"}</div>
-                  <div className="font-medium text-sm">Doğru cevap: <span className="font-bold">{expectedAnswer}</span></div>
+                  <div className="font-medium text-sm">Doğru cevap: <span className="font-bold">{activeQuestion?.fitbTarget ? activeQuestion.fitbTarget : activeQuestion?.expected}</span></div>
                 </div>
               )}
               {feedback === 'none' && (
@@ -390,7 +533,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
             <button
               onClick={feedback === 'none' ? handleCheck : handleNext}
               disabled={feedback === 'none' && !userAnswer.trim()}
-              className={`w-full sm:w-auto px-8 py-3 rounded-xl font-black text-lg transition-all ${feedback === 'none' ? (userAnswer.trim() ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-md' : 'bg-slate-200 text-slate-400 cursor-not-allowed') : feedback === 'correct' ? 'bg-green-600 text-white hover:bg-green-700 shadow-md' : 'bg-red-600 text-white hover:bg-red-700 shadow-md'}`}
+              className={`w-full sm:w-auto px-8 py-3 rounded-xl font-black text-lg transition-all ${feedback === 'none' ? (userAnswer.trim() ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-md' : 'bg-slate-200 text-slate-400 cursor-not-allowed') : feedback === 'correct' ? 'bg-green-600 text-white hover:bg-green-700 shadow-md' : feedback === 'typo' ? 'bg-amber-600 text-white hover:bg-amber-700 shadow-md' : 'bg-red-600 text-white hover:bg-red-700 shadow-md'}`}
             >
               {feedback === 'none' ? 'KONTROL ET' : 'DEVAM ET'}
             </button>
