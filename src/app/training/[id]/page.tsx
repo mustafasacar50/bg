@@ -325,7 +325,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     }
   };
 
-  const isFinished = filteredQuestions.length === 0 || (currentIndex >= filteredQuestions.length && mode === 'all') || (currentIndex >= filteredQuestions.length && mode === 'mistakes' && feedback !== 'correct' && feedback !== 'typo');
+  const isFinished = sessionQuestions.length === 0 || (currentIndex >= filteredQuestions.length && mode === 'all') || (currentIndex >= filteredQuestions.length && mode === 'mistakes' && feedback !== 'correct' && feedback !== 'typo');
+  const isSearchEmpty = sessionQuestions.length > 0 && filteredQuestions.length === 0 && searchQuery.trim() !== '';
 
   if (loading) return <div className="min-h-screen flex items-center justify-center text-slate-500">Yükleniyor...</div>;
   if (!data) return <div className="min-h-screen flex items-center justify-center text-red-500">Modül bulunamadı.</div>;
@@ -358,7 +359,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
           </div>
           
           {/* Interactive Progress Slider */}
-          {!isFinished && filteredQuestions.length > 0 && (
+          {!isFinished && !isSearchEmpty && filteredQuestions.length > 0 && (
             <div className="flex-1 w-full mx-2 flex items-center gap-2 mt-2 sm:mt-0">
               <button 
                 onClick={() => setCurrentIndex(Math.max(0, currentIndex - 1))}
@@ -425,7 +426,14 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
       {/* Main Content */}
       <main className="flex-1 max-w-3xl w-full mx-auto px-4 py-8 pb-48 flex flex-col">
-        {isFinished ? (
+        {isSearchEmpty ? (
+          <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 text-center mt-12">
+            <div className="text-6xl mb-4">🔍</div>
+            <h2 className="text-2xl font-bold text-slate-800 mb-2">Eşleşme Bulunamadı</h2>
+            <p className="text-slate-600 mb-8">"{searchQuery}" araması ile eşleşen bir soru mevcut havuzda yok.</p>
+            <button onClick={() => setSearchQuery('')} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Aramayı Temizle</button>
+          </div>
+        ) : isFinished ? (
           <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 text-center mt-12">
             <div className="text-6xl mb-4">🏆</div>
             <h2 className="text-2xl font-bold text-slate-800 mb-2">
