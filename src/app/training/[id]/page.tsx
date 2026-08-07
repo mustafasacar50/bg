@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useEffect, useRef } from 'react';
-import { useRouter } from 'next/navigation';
+import { useState, useEffect, useRef, Suspense, use } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 
 interface Question {
@@ -23,16 +23,11 @@ const layouts = {
   tr: ['A','B','C','Ç','D','E','F','G','Ğ','H','I','İ','J','K','L','M','N','O','Ö','P','R','S','Ş','T','U','Ü','V','Y','Z']
 };
 
-export default function TrainingSessionPage({ params }: { params: Promise<{ id: string }> }) {
-  // We'll use React's use() hook for the promise inside useEffect, but since this is a client component, 
-  // it's easier to unwrap it in useEffect or just use React.use(). Wait, client components in Next 15 
-  // should use `use(params)`.
-  const [moduleId, setModuleId] = useState<string | null>(null);
-  
-  useEffect(() => {
-    params.then(p => setModuleId(p.id));
-  }, [params]);
+function TrainingContent({ moduleId }: { moduleId: string }) {
+  const searchParams = useSearchParams();
+  const mode = searchParams.get('mode') || 'all'; 
 
+  const [student, setStudent] = useState<any>(null);
   const [data, setData] = useState<ModuleData | null>(null);
   const [loading, setLoading] = useState(true);
   
@@ -43,6 +38,10 @@ export default function TrainingSessionPage({ params }: { params: Promise<{ id: 
   const [feedback, setFeedback] = useState<'none' | 'correct' | 'wrong'>('none');
   const [score, setScore] = useState(0);
   
+  // New State
+  const [mistakesPool, setMistakesPool] = useState<string[]>([]);
+  const [isSwapped, setIsSwapped] = useState(false);
+  
   // Keyboard State
   const [keyboardOpen, setKeyboardOpen] = useState(false);
   const [layout, setLayout] = useState<LayoutType>('bg');
@@ -51,48 +50,150 @@ export default function TrainingSessionPage({ params }: { params: Promise<{ id: 
   const inputRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
 
+  // 1. Initialize Student & Score
   useEffect(() => {
-    if (!moduleId) return;
+    try {
+      const storedStudent = JSON.parse(localStorage.getItem('student_session') || 'null');
+      setStudent(storedStudent);
+      if (storedStudent && storedStudent.trainingScore) {
+        setScore(storedStudent.trainingScore);
+      }
+    } catch(e) {}
+  }, []);
+
+  // 2. Fetch Module & Set Questions
+  useEffect(() => {
     fetch(`/api/modules/${moduleId}`)
       .then(res => res.json())
       .then((modData: ModuleData) => {
         setData(modData);
-        // Shuffle and pick 20 questions for a session
-        const shuffled = [...modData.questions].sort(() => 0.5 - Math.random());
-        setSessionQuestions(shuffled.slice(0, 20));
+        
+        let mistakes: string[] = [];
+        try {
+          mistakes = JSON.parse(localStorage.getItem(`training_mistakes_${moduleId}`) || '[]');
+        } catch(e) {}
+        setMistakesPool(mistakes);
+
+        let activeQuestions: Question[] = [];
+        if (mode === 'mistakes') {
+          activeQuestions = modData.questions.filter(q => mistakes.includes(q.id));
+        } else {
+          activeQuestions = modData.questions;
+        }
+        
+        setSessionQuestions(activeQuestions);
+
+        // Load progress
+        try {
+          const savedIndex = parseInt(localStorage.getItem(`training_${mode}_progress_${moduleId}`) || '0');
+          if (savedIndex >= 0 && savedIndex < activeQuestions.length) {
+            setCurrentIndex(savedIndex);
+          }
+        } catch(e) {}
+        
         setLoading(false);
       })
       .catch(err => {
         console.error('Error fetching module:', err);
         setLoading(false);
       });
-  }, [moduleId]);
+  }, [moduleId, mode]);
 
   const currentQuestion = sessionQuestions[currentIndex];
+
+  let displaySentence = currentQuestion?.sentence.replace('_____', '...');
+  let expectedAnswer = currentQuestion?.answer || '';
+  let hint = currentQuestion?.hint || '';
+
+  if (isSwapped && currentQuestion) {
+    const match = currentQuestion.sentence.match(/:\s*(.*?)\)/);
+    if (match) {
+      displaySentence = `... (${currentQuestion.sentence.includes('Türkçesi:') ? 'Bulgarcası' : 'Türkçesi'}: ${currentQuestion.answer})`;
+      expectedAnswer = match[1].trim().toUpperCase();
+      hint = currentQuestion.sentence.includes('Türkçesi:') ? 'Bulgarca karşılığını yazınız' : 'Türkçe karşılığını yazınız';
+    }
+  }
+
+  const syncScore = (pointsDelta: number) => {
+    setScore(s => s + pointsDelta);
+    if (!student) return;
+
+    const newScore = (student.trainingScore || 0) + pointsDelta;
+    const updatedStudent = { ...student, trainingScore: newScore };
+    setStudent(updatedStudent);
+    localStorage.setItem('student_session', JSON.stringify(updatedStudent));
+
+    fetch('/api/training-scores', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ studentId: student.id, pointsDelta })
+    }).catch(e => console.error('Failed to sync training score', e));
+  };
+
+  const saveMistakes = (newPool: string[]) => {
+    setMistakesPool(newPool);
+    localStorage.setItem(`training_mistakes_${moduleId}`, JSON.stringify(newPool));
+  };
 
   const handleCheck = () => {
     if (!currentQuestion) return;
     
-    // Normalize both strings for comparison (remove spaces, lowercase)
     const normalizedUser = userAnswer.trim().toLowerCase();
-    const normalizedAnswer = currentQuestion.answer.trim().toLowerCase();
+    const normalizedAnswer = expectedAnswer.trim().toLowerCase();
     
     if (normalizedUser === normalizedAnswer) {
       setFeedback('correct');
-      setScore(s => s + 1);
+      if (mistakesPool.includes(currentQuestion.id)) {
+        saveMistakes(mistakesPool.filter(id => id !== currentQuestion.id));
+        syncScore(1); 
+      } else if (mode === 'all') {
+        syncScore(1); 
+      }
     } else {
       setFeedback('wrong');
+      if (!mistakesPool.includes(currentQuestion.id)) {
+        saveMistakes([...mistakesPool, currentQuestion.id]);
+        syncScore(-0.2); 
+      }
     }
   };
 
   const handleNext = () => {
     setUserAnswer('');
     setFeedback('none');
-    if (currentIndex < sessionQuestions.length - 1) {
-      setCurrentIndex(i => i + 1);
+    setIsSwapped(false);
+    
+    let nextIdx = currentIndex;
+    
+    if (mode === 'mistakes' && feedback === 'correct') {
+      const updatedQuestions = sessionQuestions.filter(q => q.id !== currentQuestion.id);
+      setSessionQuestions(updatedQuestions);
+      if (currentIndex >= updatedQuestions.length) {
+         nextIdx = Math.max(0, updatedQuestions.length - 1);
+      }
     } else {
-      // Finished session
-      setCurrentIndex(sessionQuestions.length);
+      nextIdx = currentIndex + 1;
+    }
+
+    if (nextIdx < sessionQuestions.length || (mode === 'mistakes' && feedback === 'correct')) {
+       // if we are in mistakes mode and we removed an item, we stay on nextIdx which now points to the next item
+       setCurrentIndex(nextIdx);
+       localStorage.setItem(`training_${mode}_progress_${moduleId}`, nextIdx.toString());
+    } else {
+       // Finished
+       setCurrentIndex(sessionQuestions.length);
+    }
+  };
+
+  const handleSwap = () => {
+    const newSwapped = !isSwapped;
+    setIsSwapped(newSwapped);
+    
+    // Auto switch keyboard layout if we swap
+    if (newSwapped) {
+      setLayout(currentQuestion?.sentence.includes('Türkçesi:') ? 'bg' : 'tr');
+    } else {
+      setLayout(currentQuestion?.sentence.includes('Türkçesi:') ? 'tr' : 'bg');
     }
   };
 
@@ -136,27 +237,47 @@ export default function TrainingSessionPage({ params }: { params: Promise<{ id: 
     }
   };
 
+  const isFinished = sessionQuestions.length === 0 || (currentIndex >= sessionQuestions.length && mode === 'all') || (currentIndex >= sessionQuestions.length && mode === 'mistakes' && feedback !== 'correct');
+
   if (loading) return <div className="min-h-screen flex items-center justify-center text-slate-500">Yükleniyor...</div>;
   if (!data) return <div className="min-h-screen flex items-center justify-center text-red-500">Modül bulunamadı.</div>;
-
-  const isFinished = currentIndex >= sessionQuestions.length;
 
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col">
       {/* Header */}
-      <header className="bg-white border-b border-slate-200 px-4 py-4 flex items-center justify-between sticky top-0 z-10">
-        <div className="flex items-center gap-4">
+      <header className="bg-white border-b border-slate-200 px-4 py-4 flex flex-col sm:flex-row items-center justify-between sticky top-0 z-10 gap-4">
+        <div className="flex items-center gap-4 w-full sm:w-auto flex-1">
           <button onClick={() => router.push('/training')} className="text-slate-400 hover:text-slate-600">
             ✕
           </button>
-          <div className="w-48 sm:w-64 bg-slate-200 h-3 rounded-full overflow-hidden">
-            <div 
-              className="bg-indigo-500 h-full transition-all duration-500" 
-              style={{ width: `${(currentIndex / sessionQuestions.length) * 100}%` }}
-            />
-          </div>
+          
+          {/* Interactive Progress Slider */}
+          {!isFinished && sessionQuestions.length > 0 && (
+            <div className="flex-1 max-w-xl mx-4 flex items-center gap-3">
+              <input 
+                type="range" 
+                min="0" 
+                max={sessionQuestions.length - 1} 
+                value={currentIndex}
+                onChange={(e) => {
+                  const newIdx = parseInt(e.target.value);
+                  setCurrentIndex(newIdx);
+                  localStorage.setItem(`training_${mode}_progress_${moduleId}`, newIdx.toString());
+                  setFeedback('none');
+                  setUserAnswer('');
+                  setIsSwapped(false);
+                }}
+                className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-indigo-600"
+              />
+              <span className="text-xs font-bold text-slate-500 whitespace-nowrap min-w-[50px] text-right">
+                {currentIndex + 1} / {sessionQuestions.length}
+              </span>
+            </div>
+          )}
         </div>
-        <div className="text-sm font-bold text-indigo-600">Puan: {score}</div>
+        <div className="text-sm font-bold text-indigo-600 px-4 py-1.5 bg-indigo-50 rounded-full">
+          Puan: {Number.isInteger(score) ? score : score.toFixed(1)}
+        </div>
       </header>
 
       {/* Main Content */}
@@ -164,22 +285,38 @@ export default function TrainingSessionPage({ params }: { params: Promise<{ id: 
         {isFinished ? (
           <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 text-center mt-12">
             <div className="text-6xl mb-4">🏆</div>
-            <h2 className="text-2xl font-bold text-slate-800 mb-2">Antrenman Tamamlandı!</h2>
-            <p className="text-slate-600 mb-8">20 soruluk seti başarıyla bitirdiniz. Toplam doğru sayınız: <span className="font-bold text-indigo-600">{score}</span></p>
-            <div className="flex gap-4 justify-center">
-              <button onClick={() => window.location.reload()} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Tekrar Oyna</button>
+            <h2 className="text-2xl font-bold text-slate-800 mb-2">
+              {mode === 'mistakes' ? "Harika! Bilinmeyen soru kalmadı." : "Antrenman Tamamlandı!"}
+            </h2>
+            <p className="text-slate-600 mb-8">Havuzdaki tüm soruları tamamladınız.</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              {mode === 'mistakes' ? (
+                 <button onClick={() => router.push(`/training/${moduleId}?mode=all`)} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Tüm Havuza Geç</button>
+              ) : (
+                 <button onClick={() => { localStorage.setItem(`training_${mode}_progress_${moduleId}`, '0'); window.location.reload(); }} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Baştan Başla</button>
+              )}
               <Link href="/training" className="px-6 py-3 bg-slate-200 text-slate-700 font-bold rounded-xl hover:bg-slate-300 transition-colors">Modül Seçimine Dön</Link>
             </div>
           </div>
         ) : (
           <div className="flex-1 flex flex-col mt-4">
-            <h1 className="text-2xl font-extrabold text-slate-800 mb-2">Çeviriyi yazın</h1>
-            <p className="text-slate-500 mb-8 font-medium">{currentQuestion?.hint}</p>
+            <div className="flex justify-between items-center mb-2">
+              <h1 className="text-2xl font-extrabold text-slate-800">Çeviriyi yazın</h1>
+              <button 
+                onClick={handleSwap}
+                className="flex items-center gap-2 px-3 py-1.5 bg-amber-50 text-amber-700 hover:bg-amber-100 rounded-lg text-sm font-bold transition-colors"
+                title="Soruyu ters çevir (Bulgarca <-> Türkçe)"
+              >
+                🔄 Yön Değiştir
+              </button>
+            </div>
+            
+            <p className="text-slate-500 mb-8 font-medium">{hint}</p>
 
             <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-8 flex items-center gap-4">
               <div className="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center text-xl">🤖</div>
               <div className="text-lg font-medium text-slate-700">
-                {currentQuestion?.sentence.replace('_____', '...')}
+                {displaySentence}
               </div>
             </div>
 
@@ -219,7 +356,7 @@ export default function TrainingSessionPage({ params }: { params: Promise<{ id: 
               {feedback === 'wrong' && (
                 <div className="text-red-700">
                   <div className="font-black text-xl mb-1 flex items-center gap-2"><span>❌</span> Yanlış cevap</div>
-                  <div className="font-medium text-sm">Doğru cevap: <span className="font-bold">{currentQuestion?.answer}</span></div>
+                  <div className="font-medium text-sm">Doğru cevap: <span className="font-bold">{expectedAnswer}</span></div>
                 </div>
               )}
               {feedback === 'none' && (
@@ -281,5 +418,15 @@ export default function TrainingSessionPage({ params }: { params: Promise<{ id: 
         </div>
       )}
     </div>
+  );
+}
+
+export default function TrainingSessionPage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = use(params);
+  
+  return (
+    <Suspense fallback={<div className="min-h-screen flex items-center justify-center text-slate-500">Yükleniyor...</div>}>
+      <TrainingContent moduleId={id} />
+    </Suspense>
   );
 }

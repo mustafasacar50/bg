@@ -43,7 +43,8 @@ export async function GET(request: Request) {
     const studentPoints: Record<string, number> = {};
     
     groupStudents.forEach((student: any) => {
-      studentPoints[student.id] = 0;
+      // Include their training score as the base
+      studentPoints[student.id] = student.trainingScore || 0;
     });
 
     scores.forEach((scoreRecord: any) => {
