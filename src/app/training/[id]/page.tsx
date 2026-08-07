@@ -92,7 +92,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
   // 2. Fetch Module & Set Questions
   useEffect(() => {
-    if (!student) return;
+    if (!student?.id) return;
 
     const fetchAll = async () => {
       try {
@@ -138,7 +138,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     };
 
     fetchAll();
-  }, [moduleId, mode, student]);
+  }, [moduleId, mode, student?.id]);
 
   // Derived Filtered Questions
   const filteredQuestions = useMemo(() => {
