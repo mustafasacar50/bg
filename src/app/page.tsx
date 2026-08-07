@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import { GraduationCap, ArrowRight } from "lucide-react";
 
 export default function LoginPage() {
@@ -98,6 +99,32 @@ export default function LoginPage() {
             {loading ? 'Giriş Yapılıyor...' : 'Sisteme Giriş Yap'} <ArrowRight size={18} />
           </button>
         </form>
+
+        <div className="mt-8 pt-8 border-t border-slate-200">
+          <p className="text-gray-600 mb-8 max-w-2xl mx-auto text-lg leading-relaxed">
+            Öğrenciler için interaktif Bulgarca sınav platformuna ve interaktif antrenman moduna hoş geldiniz.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/training"
+              className="px-8 py-4 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 hover:-translate-y-1 transition-all duration-300 shadow-[0_4px_14px_0_rgb(79,70,229,0.39)] hover:shadow-[0_6px_20px_rgba(79,70,229,0.23)] flex items-center justify-center gap-2"
+            >
+              <span>🚀</span> Antrenman Modu
+            </Link>
+            <Link
+              href="/exam"
+              className="px-8 py-4 bg-white text-indigo-600 font-bold rounded-xl border-2 border-indigo-100 hover:border-indigo-600 hover:bg-indigo-50 hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2"
+            >
+              <span>📝</span> Sınava Gir
+            </Link>
+            <Link
+              href="/admin"
+              className="px-8 py-4 bg-slate-800 text-white font-bold rounded-xl hover:bg-slate-900 hover:-translate-y-1 transition-all duration-300 shadow-lg flex items-center justify-center gap-2"
+            >
+              <span>⚙️</span> Yönetici Paneli
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );
