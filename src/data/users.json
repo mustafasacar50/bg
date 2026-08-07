@@ -20,7 +20,8 @@
     "password": "123",
     "role": "student",
     "name": "Mustafa SAÇAR",
-    "group": "SAÇARLAR"
+    "group": "SAÇARLAR",
+    "trainingScore": -0.2
   },
   {
     "id": "u4",
