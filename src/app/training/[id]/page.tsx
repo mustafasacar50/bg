@@ -584,9 +584,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                   ref={inputRef}
                   type="text"
                   inputMode={preferNativeKeyboard ? "text" : "none"}
-                  className={`w-full bg-white border-2 rounded-xl px-4 py-4 text-xl outline-none transition-colors ${feedback === 'wrong' ? 'border-red-400 bg-red-50 text-red-900' : feedback === 'typo' ? 'border-amber-400 bg-amber-50 text-amber-900' : feedback === 'correct' ? 'border-green-400 bg-green-50 text-green-900' : 'border-slate-200 focus:border-indigo-400'}`}
+                  className={`w-full bg-white border-2 rounded-xl px-4 py-4 text-xl outline-none transition-colors ${feedback === 'wrong' ? 'border-red-400 bg-red-50 text-red-900 font-bold' : feedback === 'typo' ? 'border-amber-400 bg-amber-50 text-amber-900 font-bold' : feedback === 'correct' ? 'border-green-400 bg-green-50 text-green-900 font-bold' : 'border-slate-200 focus:border-indigo-400'}`}
                   placeholder="Cevabınızı buraya yazın..."
-                  value={userAnswer}
+                  value={feedback === 'wrong' && !userAnswer.trim() ? (activeQuestion?.fitbTarget || activeQuestion?.expected) : userAnswer}
                   onChange={(e) => setUserAnswer(e.target.value)}
                   onFocus={() => { if (!preferNativeKeyboard) setKeyboardOpen(true); }}
                   onKeyDown={(e) => {
@@ -597,6 +597,16 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                   disabled={feedback !== 'none'}
                 />
               </div>
+
+              {/* Doğru Cevap (Yanlış veya eksik yazıldıysa metin kutusunun altında göster) */}
+              {(feedback === 'wrong' || feedback === 'typo') && userAnswer.trim() !== '' && (
+                <div className={`mt-3 flex items-center gap-2 px-2 text-[15px] font-bold ${feedback === 'wrong' ? 'text-red-600' : 'text-amber-600'} animate-in fade-in`}>
+                  <span>{feedback === 'wrong' ? 'Doğrusu:' : 'Doğru yazım:'}</span>
+                  <span className="bg-white px-3 py-1.5 rounded-lg border shadow-sm text-lg text-slate-800">
+                    {activeQuestion?.fitbTarget || activeQuestion?.expected}
+                  </span>
+                </div>
+              )}
 
               {/* Açıklama / Kural Kutusu */}
               {feedback !== 'none' && activeQuestion?.explanation && (
@@ -626,14 +636,12 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               )}
               {feedback === 'typo' && (
                 <div className="text-amber-800">
-                  <div className="font-black text-xl mb-1 flex items-center gap-2"><span>⚠️</span> Harf hatası var! (+0.9 puan)</div>
-                  <div className="font-medium text-sm">Doğrusu şöyle olmalıydı: <span className="font-bold">{activeQuestion?.fitbTarget ? activeQuestion.fitbTarget : activeQuestion?.expected}</span></div>
+                  <div className="font-black text-xl flex items-center gap-2"><span>⚠️</span> Harf hatası var! (+0.9 puan)</div>
                 </div>
               )}
               {feedback === 'wrong' && (
                 <div className="text-red-700">
-                  <div className="font-black text-xl mb-1 flex items-center gap-2"><span>❌</span> {userAnswer.trim() ? "Yanlış cevap" : "Pas geçtiniz"}</div>
-                  <div className="font-medium text-sm">Doğru cevap: <span className="font-bold">{activeQuestion?.fitbTarget ? activeQuestion.fitbTarget : activeQuestion?.expected}</span></div>
+                  <div className="font-black text-xl flex items-center gap-2"><span>❌</span> {userAnswer.trim() ? "Yanlış cevap" : "Pas geçtiniz"}</div>
                 </div>
               )}
               {feedback === 'none' && (
