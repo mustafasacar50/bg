@@ -248,8 +248,15 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     const isFitb = !!activeQuestion.fitbTarget;
     const expectedStr = isFitb ? activeQuestion.fitbTarget : activeQuestion.expected;
     
-    const normalizedUser = userAnswer.trim().toLocaleLowerCase('tr-TR');
-    const normalizedAnswer = expectedStr.trim().toLocaleLowerCase('tr-TR');
+    const normalizeString = (str: string) => {
+      return str.trim()
+        .replace(/I/g, 'ı')
+        .replace(/İ/g, 'i')
+        .toLowerCase();
+    };
+    
+    const normalizedUser = normalizeString(userAnswer);
+    const normalizedAnswer = normalizeString(expectedStr);
     
     if (normalizedUser === normalizedAnswer) {
       setFeedback('correct');
@@ -261,7 +268,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       }
     } else {
       const dist = levenshteinDistance(normalizedUser, normalizedAnswer);
-      const isTypo = dist === 1 || (normalizedAnswer.length > 4 && dist === 2);
+      const isTypo = dist <= 1 || (normalizedAnswer.length > 4 && dist <= 2);
       
       if (isTypo) {
         setFeedback('typo');
@@ -379,17 +386,17 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col">
       {/* Header */}
-      <header className="bg-white border-b border-slate-200 px-4 py-4 flex flex-col items-center justify-between sticky top-0 z-10 gap-4 sm:flex-row">
+      <header className="bg-white border-b border-slate-200 px-4 py-4 flex flex-col items-center sticky top-0 z-10 gap-3">
         
-        <div className="flex w-full items-center gap-2 sm:w-auto flex-1 flex-col sm:flex-row">
-          
-          <div className="flex w-full flex-wrap items-center gap-2 sm:w-auto flex-1 sm:flex-none">
-            <button onClick={() => router.push('/training')} className="text-slate-400 hover:text-slate-600 mr-2">
+        {/* Top Row: Close, Search, Language */}
+        <div className="flex w-full items-center justify-between gap-2 flex-wrap sm:flex-nowrap">
+          <div className="flex items-center flex-1 min-w-[200px]">
+            <button onClick={() => router.push('/training')} className="text-slate-400 hover:text-slate-600 mr-2 flex-shrink-0">
               ✕
             </button>
             
             {/* Search Input */}
-            <div className="relative flex-1 sm:min-w-[150px] max-w-[200px]">
+            <div className="relative flex-1 max-w-[300px]">
               <input 
                 type="text" 
                 placeholder="🔍 Kelime ara..." 
@@ -401,33 +408,36 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                 className="w-full bg-slate-100 border-none rounded-full px-4 py-1.5 text-sm outline-none focus:ring-2 focus:ring-indigo-500"
               />
             </div>
-            
-            {/* Language Filter */}
-            <div className="flex bg-slate-100 rounded-full p-1 border border-slate-200">
-              <button
-                onClick={() => { setLangFilter('all'); setCurrentIndex(0); }}
-                className={`px-3 py-0.5 text-xs font-bold rounded-full transition-colors ${langFilter === 'all' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
-              >
-                Tümü
-              </button>
-              <button
-                onClick={() => { setLangFilter('bg'); setCurrentIndex(0); }}
-                className={`px-3 py-0.5 text-xs font-bold rounded-full transition-colors ${langFilter === 'bg' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
-              >
-                Bulgarca
-              </button>
-              <button
-                onClick={() => { setLangFilter('tr'); setCurrentIndex(0); }}
-                className={`px-3 py-0.5 text-xs font-bold rounded-full transition-colors ${langFilter === 'tr' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
-              >
-                Türkçe
-              </button>
-            </div>
           </div>
           
+          {/* Language Filter */}
+          <div className="flex bg-slate-100 rounded-full p-1 border border-slate-200 flex-shrink-0">
+            <button
+              onClick={() => { setLangFilter('all'); setCurrentIndex(0); }}
+              className={`px-3 py-0.5 text-xs font-bold rounded-full transition-colors ${langFilter === 'all' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+            >
+              Tümü
+            </button>
+            <button
+              onClick={() => { setLangFilter('bg'); setCurrentIndex(0); }}
+              className={`px-3 py-0.5 text-xs font-bold rounded-full transition-colors ${langFilter === 'bg' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+            >
+              Bulgarca
+            </button>
+            <button
+              onClick={() => { setLangFilter('tr'); setCurrentIndex(0); }}
+              className={`px-3 py-0.5 text-xs font-bold rounded-full transition-colors ${langFilter === 'tr' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+            >
+              Türkçe
+            </button>
+          </div>
+        </div>
+        
+        {/* Bottom Row: Slider, Random, Score */}
+        <div className="flex w-full items-center justify-between gap-4">
           {/* Interactive Progress Slider */}
-          {!isFinished && !isSearchEmpty && filteredQuestions.length > 0 && (
-            <div className="flex-1 w-full mx-2 flex items-center gap-2 mt-2 sm:mt-0">
+          {!isFinished && !isSearchEmpty && filteredQuestions.length > 0 ? (
+            <div className="flex-1 flex items-center gap-2">
               <button 
                 onClick={() => setCurrentIndex(Math.max(0, currentIndex - 1))}
                 disabled={currentIndex === 0}
@@ -437,7 +447,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                 ◀
               </button>
               
-              <div className="flex-1 flex items-center gap-2">
+              <div className="flex-1 flex items-center">
                 <input 
                   type="range" 
                   min="0" 
@@ -469,25 +479,29 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               <span className="text-xs font-bold text-slate-500 whitespace-nowrap min-w-[45px] text-right">
                 {currentIndex + 1} / {filteredQuestions.length}
               </span>
-              
-              <button
-                onClick={() => {
-                  const shuffled = [...sessionQuestions].sort(() => 0.5 - Math.random());
-                  setSessionQuestions(shuffled);
-                  setCurrentIndex(0);
-                  setSearchQuery('');
-                }}
-                className="ml-1 flex items-center justify-center bg-slate-100 hover:bg-slate-200 text-indigo-600 rounded-lg px-2 py-1.5 text-sm font-bold transition-colors"
-                title="Soruları Karıştır"
-              >
-                🔀
-              </button>
             </div>
+          ) : (
+            <div className="flex-1"></div>
           )}
-        </div>
 
-        <div className="text-sm font-bold text-indigo-600 px-4 py-1.5 bg-indigo-50 rounded-full shrink-0">
-          Puan: {Number.isInteger(score) ? score : score.toFixed(1)}
+          <div className="flex items-center gap-2 flex-shrink-0">
+            <button
+              onClick={() => {
+                const shuffled = [...sessionQuestions].sort(() => 0.5 - Math.random());
+                setSessionQuestions(shuffled);
+                setCurrentIndex(0);
+                setSearchQuery('');
+              }}
+              className="flex items-center justify-center bg-slate-100 hover:bg-slate-200 text-indigo-600 rounded-lg px-2 py-1.5 text-sm font-bold transition-colors"
+              title="Soruları Karıştır"
+            >
+              🔀
+            </button>
+
+            <div className="text-sm font-bold text-indigo-600 px-4 py-1.5 bg-indigo-50 rounded-full shrink-0">
+              Puan: {Number.isInteger(score) ? score : score.toFixed(1)}
+            </div>
+          </div>
         </div>
       </header>
 
