@@ -162,5 +162,24 @@
     },
     "answers": {},
     "date": "2026-08-07T19:19:58.689Z"
+  },
+  {
+    "id": "score-1786131883608",
+    "examId": "mistakes",
+    "studentId": "u2",
+    "studentName": "Betül SAÇAR",
+    "score": {
+      "total": 100,
+      "mcq": "0/0",
+      "match": "0/0",
+      "blank": "3/3",
+      "reading": "0/0"
+    },
+    "answers": {
+      "q_blank_auto_184": "ВРАТА",
+      "q_blank_auto_181": "ТОВА",
+      "q_blank_auto_179": "ТОВА"
+    },
+    "date": "2026-08-07T19:44:44.758Z"
   }
 ]
