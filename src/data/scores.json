@@ -96,5 +96,56 @@
       "q_reading_auto_117_4": "плаж"
     },
     "date": "2026-08-06T16:29:38.708Z"
+  },
+  {
+    "id": "score-1786128600202",
+    "examId": "exam-1786029161193",
+    "studentId": "u2",
+    "studentName": "Betül SAÇAR",
+    "score": {
+      "total": 79,
+      "mcq": "10/10",
+      "match": "15/15",
+      "blank": "7/10",
+      "reading": "0/0"
+    },
+    "answers": {
+      "q_mcq_auto_427": "opt2",
+      "q_mcq_auto_377": "opt3",
+      "q_mcq_auto_345": "opt1",
+      "q_mcq_auto_343": "opt2",
+      "q_mcq_auto_333": "opt4",
+      "q_mcq_auto_387": "opt3",
+      "q_mcq_auto_439": "opt1",
+      "q_mcq_auto_370": "opt1",
+      "q_mcq_auto_421": "opt1",
+      "q_match_auto_70_СТОЛ": "opt5",
+      "q_match_auto_70_ЛЕКА НОЩ": "opt3",
+      "q_match_auto_70_ЛАПТОП / КОМПЮТЪР": "opt2",
+      "q_match_auto_70_ХУБАВ ГРАД": "opt1",
+      "q_match_auto_70_ПИЯ ВОДА.": "opt4",
+      "q_match_auto_84_РИЗА": "opt3",
+      "q_match_auto_84_ФИЛМ": "opt1",
+      "q_match_auto_84_КЪДЕ": "opt2",
+      "q_match_auto_84_ЖИВЕЯ": "opt5",
+      "q_match_auto_84_ЛИПСВАШ МИ": "opt4",
+      "q_match_auto_76_СТАВАМ": "opt4",
+      "q_match_auto_76_ПАЗАРУВАМ/ КУПУВАМ": "opt2",
+      "q_match_auto_76_ЗДРАВЕЙ": "opt1",
+      "q_match_auto_76_ЧАША": "opt3",
+      "q_match_auto_76_ПЛОДОВЕ": "opt5",
+      "q_blank_auto_187": "ТОВА",
+      "q_blank_auto_186": "ТОВА",
+      "q_blank_auto_181": "ЕДНО",
+      "q_blank_auto_177": "РОД",
+      "q_blank_auto_183": "ЖЕНА",
+      "q_blank_auto_184": "ВРАТ",
+      "q_blank_auto_189": "СТРУВА",
+      "q_blank_auto_182": "ЕДНО",
+      "q_blank_auto_179": "ЕДНА",
+      "q_blank_auto_190": "СТРУВА",
+      "q_mcq_auto_444": "opt3"
+    },
+    "date": "2026-08-07T18:49:59.154Z"
   }
 ]
