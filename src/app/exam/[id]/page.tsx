@@ -10,7 +10,7 @@ type LayoutType = "bg" | "tr";
 export default function ExamPage() {
   const router = useRouter();
   const params = useParams();
-  const examId = params.id as string;
+  const examId = params?.id as string;
   
   const [student, setStudent] = useState<any>(null);
   const [activeInput, setActiveInput] = useState<HTMLInputElement | null>(null);
@@ -44,6 +44,8 @@ export default function ExamPage() {
   }, [router]);
 
   useEffect(() => {
+    if (!student || !examId) return;
+
     const fetchData = async () => {
       setLoading(true);
       try {

@@ -112,7 +112,7 @@ export default function LoginPage() {
               <span>🚀</span> Antrenman Modu
             </Link>
             <Link
-              href="/exam"
+              href="/dashboard"
               className="px-8 py-4 bg-white text-indigo-600 font-bold rounded-xl border-2 border-indigo-100 hover:border-indigo-600 hover:bg-indigo-50 hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2"
             >
               <span>📝</span> Sınava Gir
