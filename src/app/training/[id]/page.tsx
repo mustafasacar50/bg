@@ -554,27 +554,39 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               </div>
             </div>
 
-            <div className="relative">
-              <input
-                ref={inputRef}
-                type="text"
-                inputMode={preferNativeKeyboard ? "text" : "none"}
-                className={`w-full bg-white border-2 rounded-xl px-4 py-4 text-xl outline-none transition-colors ${feedback === 'wrong' ? 'border-red-400 bg-red-50 text-red-900' : feedback === 'typo' ? 'border-amber-400 bg-amber-50 text-amber-900' : feedback === 'correct' ? 'border-green-400 bg-green-50 text-green-900' : 'border-slate-200 focus:border-indigo-400'}`}
-                placeholder="Cevabınızı buraya yazın..."
-                value={userAnswer}
-                onChange={(e) => setUserAnswer(e.target.value)}
-                onFocus={() => { if (!preferNativeKeyboard) setKeyboardOpen(true); }}
-                onKeyDown={(e) => {
-                  if (e.key === 'Enter') {
-                    feedback === 'none' ? handleCheck() : handleNext();
-                  }
-                }}
-                disabled={feedback !== 'none'}
-              />
+              <div className="relative">
+                <input
+                  ref={inputRef}
+                  type="text"
+                  inputMode={preferNativeKeyboard ? "text" : "none"}
+                  className={`w-full bg-white border-2 rounded-xl px-4 py-4 text-xl outline-none transition-colors ${feedback === 'wrong' ? 'border-red-400 bg-red-50 text-red-900' : feedback === 'typo' ? 'border-amber-400 bg-amber-50 text-amber-900' : feedback === 'correct' ? 'border-green-400 bg-green-50 text-green-900' : 'border-slate-200 focus:border-indigo-400'}`}
+                  placeholder="Cevabınızı buraya yazın..."
+                  value={userAnswer}
+                  onChange={(e) => setUserAnswer(e.target.value)}
+                  onFocus={() => { if (!preferNativeKeyboard) setKeyboardOpen(true); }}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter') {
+                      feedback === 'none' ? handleCheck() : handleNext();
+                    }
+                  }}
+                  disabled={feedback !== 'none'}
+                />
+              </div>
+
+              {/* Açıklama / Kural Kutusu */}
+              {feedback !== 'none' && activeQuestion?.explanation && (
+                <div className="mt-6 bg-indigo-50 border-2 border-indigo-200 rounded-xl p-5 text-left animate-in slide-in-from-bottom-2 shadow-sm">
+                  <h4 className="text-indigo-800 font-black text-sm mb-2 flex items-center gap-1.5 uppercase tracking-wide">
+                    💡 Bilgi Notu & Kural
+                  </h4>
+                  <p className="text-indigo-900 text-[15px] font-medium leading-relaxed">
+                    {activeQuestion.explanation}
+                  </p>
+                </div>
+              )}
             </div>
-          </div>
-        )}
-      </main>
+          )}
+        </main>
 
       {/* Footer Area (Check Button & Feedback) */}
       {!isFinished && (
