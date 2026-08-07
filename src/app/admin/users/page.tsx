@@ -206,6 +206,13 @@ export default function UsersAdminPage() {
                       </span>
                     </td>
                     <td className="p-4 flex gap-2 justify-end">
+                      <Link 
+                        href={`/admin/users/${u.id}`}
+                        className="p-2 text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors font-bold text-xs flex items-center gap-1"
+                        title="Detaylı Rapor"
+                      >
+                        📊 Rapor
+                      </Link>
                       <button 
                         onClick={() => openEditModal(u)}
                         className="p-2 text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"

@@ -15,42 +15,69 @@ export default function TrainingListPage() {
   const [loading, setLoading] = useState(true);
   const router = useRouter();
 
+  const [student, setStudent] = useState<any>(null);
   const [mistakeCounts, setMistakeCounts] = useState<Record<string, number>>({});
 
   useEffect(() => {
-    fetch('/api/modules')
-      .then(res => res.json())
-      .then(data => {
-        const mods = data.modules || [];
-        setModules(mods);
+    const session = localStorage.getItem('student_session');
+    if (!session) {
+      router.push('/');
+      return;
+    }
+    
+    const parsedStudent = JSON.parse(session);
+    setStudent(parsedStudent);
+
+    const fetchModulesAndProgress = async () => {
+      try {
+        const [modRes, progRes] = await Promise.all([
+          fetch('/api/modules'),
+          fetch(`/api/training-progress?studentId=${parsedStudent.id}`)
+        ]);
+
+        const modData = await modRes.json();
+        const progData = await progRes.json();
         
-        // Read mistake counts from localStorage
+        const mods = modData.modules || [];
+        setModules(mods);
+
+        const progress = progData.progress || {};
         const counts: Record<string, number> = {};
+        
         mods.forEach((mod: Module) => {
-          try {
-            const mistakes = JSON.parse(localStorage.getItem(`training_mistakes_${mod.id}`) || '[]');
-            counts[mod.id] = mistakes.length;
-          } catch(e) {
+          if (progress[mod.id] && progress[mod.id].mistakes) {
+            counts[mod.id] = progress[mod.id].mistakes.length;
+          } else {
             counts[mod.id] = 0;
           }
         });
+        
         setMistakeCounts(counts);
         setLoading(false);
-      })
-      .catch(err => {
-        console.error('Error fetching modules:', err);
+      } catch (err) {
+        console.error('Error fetching data:', err);
         setLoading(false);
-      });
-  }, []);
+      }
+    };
+
+    fetchModulesAndProgress();
+  }, [router]);
+
+  if (!student) {
+    return <div className="min-h-screen bg-slate-50 flex items-center justify-center text-slate-500">Yönlendiriliyor...</div>;
+  }
 
   return (
     <div className="min-h-screen bg-slate-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
         <div className="flex justify-between items-center mb-8">
           <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">Antrenman Modu</h1>
-          <Link href="/dashboard" className="text-indigo-600 hover:text-indigo-800 font-medium">
-            Öğrenci Paneli
-          </Link>
+          <div className="flex items-center gap-4">
+            <span className="text-sm font-medium text-slate-500 bg-white px-3 py-1 rounded-full shadow-sm">👤 {student.name}</span>
+            <Link href="/dashboard" className="text-indigo-600 hover:text-indigo-800 font-medium">
+              Öğrenci Paneli
+            </Link>
+          </div>
         </div>
 
         <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
@@ -60,7 +87,10 @@ export default function TrainingListPage() {
           </div>
 
           {loading ? (
-            <div className="p-12 text-center text-slate-500">Yükleniyor...</div>
+            <div className="p-12 text-center text-slate-500 flex justify-center items-center gap-2">
+              <span className="w-5 h-5 border-2 border-indigo-600 border-t-transparent rounded-full animate-spin"></span>
+              Veriler yükleniyor...
+            </div>
           ) : modules.length === 0 ? (
             <div className="p-12 text-center text-slate-500">Henüz modül bulunmamaktadır.</div>
           ) : (
@@ -70,7 +100,6 @@ export default function TrainingListPage() {
                   <div className="flex-1">
                     <h3 className="text-lg font-bold text-slate-800">{mod.title}</h3>
                     <p className="text-sm text-slate-500 mt-1 font-medium">{mod.questionCount} soru içeriyor</p>
-                    <p className="text-xs text-slate-400 mt-1">Dosya: {mod.id}.json</p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-2">
                     <button

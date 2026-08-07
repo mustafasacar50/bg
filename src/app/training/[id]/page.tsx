@@ -77,50 +77,68 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   useEffect(() => {
     try {
       const storedStudent = JSON.parse(localStorage.getItem('student_session') || 'null');
+      if (!storedStudent) {
+        router.push('/');
+        return;
+      }
       setStudent(storedStudent);
-      if (storedStudent && storedStudent.trainingScore) {
+      if (storedStudent.trainingScore) {
         setScore(storedStudent.trainingScore);
       }
-    } catch(e) {}
-  }, []);
+    } catch(e) {
+      router.push('/');
+    }
+  }, [router]);
 
   // 2. Fetch Module & Set Questions
   useEffect(() => {
-    fetch(`/api/modules/${moduleId}`)
-      .then(res => res.json())
-      .then((modData: ModuleData) => {
-        setData(modData);
+    if (!student) return;
+
+    const fetchAll = async () => {
+      try {
+        const [modRes, progRes] = await Promise.all([
+          fetch(`/api/modules/${moduleId}`),
+          fetch(`/api/training-progress?studentId=${student.id}`)
+        ]);
+
+        const modData = await modRes.json();
+        const progData = await progRes.json();
         
-        let mistakes: string[] = [];
-        try {
-          mistakes = JSON.parse(localStorage.getItem(`training_mistakes_${moduleId}`) || '[]');
-        } catch(e) {}
+        setData(modData);
+
+        const progress = progData.progress || {};
+        const modProgress = progress[moduleId] || { mistakes: [], allProgress: 0, mistakesProgress: 0, score: 0 };
+        
+        const mistakes = modProgress.mistakes || [];
         setMistakesPool(mistakes);
 
         let activePool: Question[] = [];
         if (mode === 'mistakes') {
-          activePool = modData.questions.filter(q => mistakes.includes(q.id));
+          activePool = modData.questions.filter((q: Question) => mistakes.includes(q.id));
         } else {
           activePool = modData.questions;
         }
         
         setSessionQuestions(activePool);
 
-        // Load progress
-        try {
-          const savedIndex = parseInt(localStorage.getItem(`training_${mode}_progress_${moduleId}`) || '0');
-          if (savedIndex >= 0 && savedIndex < activePool.length) {
-            setCurrentIndex(savedIndex);
-          }
-        } catch(e) {}
+        const savedIndex = mode === 'mistakes' ? modProgress.mistakesProgress : modProgress.allProgress;
+        if (savedIndex >= 0 && savedIndex < activePool.length) {
+          setCurrentIndex(savedIndex);
+        }
         
+        if (modProgress.score) {
+           setScore(modProgress.score);
+        }
+
         setLoading(false);
-      })
-      .catch(err => {
+      } catch (err) {
         console.error('Error fetching module:', err);
         setLoading(false);
-      });
-  }, [moduleId, mode]);
+      }
+    };
+
+    fetchAll();
+  }, [moduleId, mode, student]);
 
   // Derived Filtered Questions
   const filteredQuestions = useMemo(() => {
@@ -177,25 +195,41 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   }, [currentIndex, isSwapped, filteredQuestions]);
 
 
+  const syncProgress = (updates: any) => {
+    if (!student) return;
+    
+    fetch('/api/training-progress', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        studentId: student.id,
+        moduleId,
+        ...updates
+      })
+    }).catch(e => console.error('Failed to sync training progress', e));
+  };
+
   const syncScore = (pointsDelta: number) => {
-    setScore(s => s + pointsDelta);
+    const newScore = score + pointsDelta;
+    setScore(newScore);
     if (!student) return;
 
-    const newScore = (student.trainingScore || 0) + pointsDelta;
-    const updatedStudent = { ...student, trainingScore: newScore };
+    const updatedStudent = { ...student, trainingScore: (student.trainingScore || 0) + pointsDelta };
     setStudent(updatedStudent);
     localStorage.setItem('student_session', JSON.stringify(updatedStudent));
+
+    syncProgress({ score: newScore });
 
     fetch('/api/training-scores', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ studentId: student.id, pointsDelta })
-    }).catch(e => console.error('Failed to sync training score', e));
+    }).catch(e => console.error('Failed to sync training score to scores.json', e));
   };
 
   const saveMistakes = (newPool: string[]) => {
     setMistakesPool(newPool);
-    localStorage.setItem(`training_mistakes_${moduleId}`, JSON.stringify(newPool));
+    syncProgress({ mistakes: newPool });
   };
 
   const handleCheck = () => {
@@ -221,9 +255,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       
       if (isTypo) {
         setFeedback('typo');
-        // Accept as correct but note it's a typo, don't remove from mistakes if there, give partial score
         if (mistakesPool.includes(activeQuestion.id)) {
-           // We might still consider it slightly wrong so we don't remove from mistakes pool, but give score
            syncScore(0.9);
         } else if (mode === 'all') {
            syncScore(0.9);
@@ -266,10 +298,13 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     if (nextIdx < filteredQuestions.length || (mode === 'mistakes' && feedback === 'correct')) {
        setCurrentIndex(nextIdx);
        if (!searchQuery.trim()) {
-           localStorage.setItem(`training_${mode}_progress_${moduleId}`, nextIdx.toString());
+           syncProgress({ [mode === 'mistakes' ? 'mistakesProgress' : 'allProgress']: nextIdx });
        }
     } else {
        setCurrentIndex(filteredQuestions.length);
+       if (!searchQuery.trim()) {
+           syncProgress({ [mode === 'mistakes' ? 'mistakesProgress' : 'allProgress']: filteredQuestions.length });
+       }
     }
   };
 
@@ -380,7 +415,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                     const newIdx = parseInt(e.target.value);
                     setCurrentIndex(newIdx);
                     if (!searchQuery.trim()) {
-                      localStorage.setItem(`training_${mode}_progress_${moduleId}`, newIdx.toString());
+                      syncProgress({ [mode === 'mistakes' ? 'mistakesProgress' : 'allProgress']: newIdx });
                     }
                     setFeedback('none');
                     setUserAnswer('');
@@ -444,7 +479,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               {mode === 'mistakes' ? (
                  <button onClick={() => router.push(`/training/${moduleId}?mode=all`)} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Tüm Havuza Geç</button>
               ) : (
-                 <button onClick={() => { localStorage.setItem(`training_${mode}_progress_${moduleId}`, '0'); window.location.reload(); }} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Baştan Başla</button>
+                 <button onClick={() => { syncProgress({ allProgress: 0 }); window.location.reload(); }} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Baştan Başla</button>
               )}
               <Link href="/training" className="px-6 py-3 bg-slate-200 text-slate-700 font-bold rounded-xl hover:bg-slate-300 transition-colors">Modül Seçimine Dön</Link>
             </div>
