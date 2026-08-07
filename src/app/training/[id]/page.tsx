@@ -198,7 +198,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
        display = `${display}\n(Boşluk Doldurma: ${maskedWords.join(' ')})`;
     }
     
-    setActiveQuestion({ id: q.id, display, expected, fitbTarget, hint });
+    setActiveQuestion({ id: q.id, display, expected, fitbTarget, hint, explanation: (q as any).explanation });
     setLayout(hint.toLowerCase().includes('bulgarca') ? 'bg' : 'tr');
     setFeedback('none');
     setUserAnswer('');
