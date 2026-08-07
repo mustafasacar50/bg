@@ -252,7 +252,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       return str.trim()
         .replace(/I/g, 'ı')
         .replace(/İ/g, 'i')
-        .toLowerCase();
+        .toLowerCase()
+        .replace(/ı/g, 'i');
     };
     
     const normalizedUser = normalizeString(userAnswer);
@@ -348,6 +349,13 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       } else if (e.key === 'ArrowRight') {
         e.preventDefault();
         setCurrentIndex(prev => Math.min(filteredQuestions.length - 1, prev + 1));
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        if (feedback === 'none') {
+          if (userAnswer.trim()) handleCheck();
+        } else {
+          handleNext();
+        }
       } else if (e.key === ' ') {
         e.preventDefault();
         if (feedback === 'none') {
@@ -653,24 +661,27 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                   >
                     ⌨️ Sanal Klavye
                   </button>
-                  <button 
-                    className="text-amber-500 font-bold hover:text-amber-600 hover:underline"
-                    onClick={handleSkip}
-                    title="Cevabı göster ve bu soruyu atla"
-                  >
-                    ⏭️ Pas
-                  </button>
                 </div>
               )}
             </div>
 
-            <button
-              onClick={feedback === 'none' ? handleCheck : handleNext}
-              disabled={feedback === 'none' && !userAnswer.trim()}
-              className={`w-full sm:w-auto px-8 py-3 rounded-xl font-black text-lg transition-all ${feedback === 'none' ? (userAnswer.trim() ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-md' : 'bg-slate-200 text-slate-400 cursor-not-allowed') : feedback === 'correct' ? 'bg-green-600 text-white hover:bg-green-700 shadow-md' : feedback === 'typo' ? 'bg-amber-600 text-white hover:bg-amber-700 shadow-md' : 'bg-red-600 text-white hover:bg-red-700 shadow-md'}`}
-            >
-              {feedback === 'none' ? 'KONTROL ET' : 'DEVAM ET'}
-            </button>
+            <div className="flex flex-col sm:flex-row w-full sm:w-auto gap-3">
+              {feedback === 'none' && (
+                <button
+                  onClick={handleSkip}
+                  className="w-full sm:w-auto px-6 py-3 rounded-xl font-black text-lg transition-all bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700 shadow-sm border border-slate-200"
+                >
+                  PAS GEÇ
+                </button>
+              )}
+              <button
+                onClick={feedback === 'none' ? handleCheck : handleNext}
+                disabled={feedback === 'none' && !userAnswer.trim()}
+                className={`w-full sm:w-auto px-8 py-3 rounded-xl font-black text-lg transition-all ${feedback === 'none' ? (userAnswer.trim() ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-md' : 'bg-slate-200 text-slate-400 cursor-not-allowed') : feedback === 'correct' ? 'bg-green-600 text-white hover:bg-green-700 shadow-md' : feedback === 'typo' ? 'bg-amber-600 text-white hover:bg-amber-700 shadow-md' : 'bg-red-600 text-white hover:bg-red-700 shadow-md'}`}
+              >
+                {feedback === 'none' ? 'KONTROL ET' : 'DEVAM ET'}
+              </button>
+            </div>
           </div>
 
           {/* Virtual Keyboard */}
