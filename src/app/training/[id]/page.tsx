@@ -63,6 +63,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [mistakesPool, setMistakesPool] = useState<string[]>([]);
   const [isSwapped, setIsSwapped] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const [langFilter, setLangFilter] = useState<'all' | 'bg' | 'tr'>('all');
   const [activeQuestion, setActiveQuestion] = useState<any>(null);
   
   // Keyboard State
@@ -142,13 +143,21 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
   // Derived Filtered Questions
   const filteredQuestions = useMemo(() => {
-    if (!searchQuery.trim()) return sessionQuestions;
+    let base = sessionQuestions;
+
+    if (langFilter === 'bg') {
+      base = base.filter(q => q.hint.toLowerCase().includes('bulgarca'));
+    } else if (langFilter === 'tr') {
+      base = base.filter(q => q.hint.toLowerCase().includes('türkçe'));
+    }
+
+    if (!searchQuery.trim()) return base;
     const terms = searchQuery.toLowerCase().split(' ').filter(t => t);
-    return sessionQuestions.filter(q => {
+    return base.filter(q => {
       const text = `${q.sentence} ${q.answer}`.toLowerCase();
       return terms.every(term => text.includes(term));
     });
-  }, [sessionQuestions, searchQuery]);
+  }, [sessionQuestions, searchQuery, langFilter]);
 
   // Set Active Question and Generate Fill-In-The-Blank (if applicable)
   useEffect(() => {
@@ -190,6 +199,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     }
     
     setActiveQuestion({ id: q.id, display, expected, fitbTarget, hint });
+    setLayout(hint.toLowerCase().includes('bulgarca') ? 'bg' : 'tr');
     setFeedback('none');
     setUserAnswer('');
   }, [currentIndex, isSwapped, filteredQuestions]);
@@ -373,13 +383,13 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         
         <div className="flex w-full items-center gap-2 sm:w-auto flex-1 flex-col sm:flex-row">
           
-          <div className="flex w-full items-center gap-2 sm:w-auto flex-1 sm:flex-none">
+          <div className="flex w-full flex-wrap items-center gap-2 sm:w-auto flex-1 sm:flex-none">
             <button onClick={() => router.push('/training')} className="text-slate-400 hover:text-slate-600 mr-2">
               ✕
             </button>
             
             {/* Search Input */}
-            <div className="relative flex-1 sm:w-[200px]">
+            <div className="relative flex-1 sm:min-w-[150px] max-w-[200px]">
               <input 
                 type="text" 
                 placeholder="🔍 Kelime ara..." 
@@ -390,6 +400,28 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                 }}
                 className="w-full bg-slate-100 border-none rounded-full px-4 py-1.5 text-sm outline-none focus:ring-2 focus:ring-indigo-500"
               />
+            </div>
+            
+            {/* Language Filter */}
+            <div className="flex bg-slate-100 rounded-full p-1 border border-slate-200">
+              <button
+                onClick={() => { setLangFilter('all'); setCurrentIndex(0); }}
+                className={`px-3 py-0.5 text-xs font-bold rounded-full transition-colors ${langFilter === 'all' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+              >
+                Tümü
+              </button>
+              <button
+                onClick={() => { setLangFilter('bg'); setCurrentIndex(0); }}
+                className={`px-3 py-0.5 text-xs font-bold rounded-full transition-colors ${langFilter === 'bg' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+              >
+                Bulgarca
+              </button>
+              <button
+                onClick={() => { setLangFilter('tr'); setCurrentIndex(0); }}
+                className={`px-3 py-0.5 text-xs font-bold rounded-full transition-colors ${langFilter === 'tr' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+              >
+                Türkçe
+              </button>
             </div>
           </div>
           
