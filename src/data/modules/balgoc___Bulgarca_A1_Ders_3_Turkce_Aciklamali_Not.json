@@ -1,0 +1,297 @@
+{
+  "title": "Balkan Göçmenleri İçin Bulgarca - Ders 3 (Açıklamalı Kurallar)",
+  "questions": [
+    {
+      "id": "q_auto_730095e0",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Добър ден, госпожице!)",
+      "answer": "İYI GÜNLER, HANIMEFENDI!",
+      "hint": "Türkçe karşılığını yazınız"
+    },
+    {
+      "id": "q_auto_b5cd0b9e",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Türkçesi: İyi günler, hanımefendi!)",
+      "answer": "ДОБЪР ДЕН, ГОСПОЖИЦЕ!",
+      "hint": "Bulgarca karşılığını yazınız"
+    },
+    {
+      "id": "q_auto_b5fdc207",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Откъде сте?)",
+      "answer": "NERELISINIZ?",
+      "hint": "Türkçe karşılığını yazınız"
+    },
+    {
+      "id": "q_auto_a21f3f95",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Türkçesi: Nerelisiniz?)",
+      "answer": "ОТКЪДЕ СТЕ?",
+      "hint": "Bulgarca karşılığını yazınız"
+    },
+    {
+      "id": "q_auto_41eac6cf",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Аз съм от Турция.)",
+      "answer": "BEN TÜRKIYE'DENIM.",
+      "hint": "Türkçe karşılığını yazınız"
+    },
+    {
+      "id": "q_auto_6ecb51ec",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Türkçesi: Ben Türkiye'denim.)",
+      "answer": "АЗ СЪМ ОТ ТУРЦИЯ.",
+      "hint": "Bulgarca karşılığını yazınız"
+    },
+    {
+      "id": "q_auto_7b1b14ca",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Приятно ми е.)",
+      "answer": "MEMNUN OLDUM.",
+      "hint": "Türkçe karşılığını yazınız"
+    },
+    {
+      "id": "q_auto_39361a03",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Türkçesi: Memnun oldum.)",
+      "answer": "ПРИЯТНО МИ Е.",
+      "hint": "Bulgarca karşılığını yazınız"
+    },
+    {
+      "id": "q_auto_cf4aeb2d",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Как се казвате?)",
+      "answer": "ADINIZ NEDIR?",
+      "hint": "Türkçe karşılığını yazınız"
+    },
+    {
+      "id": "q_auto_85eef2e2",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Türkçesi: Adınız nedir?)",
+      "answer": "КАК СЕ КАЗВАТЕ?",
+      "hint": "Bulgarca karşılığını yazınız"
+    },
+    {
+      "id": "q_auto_6792e7eb",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Аз съм студент.)",
+      "answer": "BEN ÖĞRENCIYIM.",
+      "hint": "Türkçe karşılığını yazınız"
+    },
+    {
+      "id": "q_auto_8965b548",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Türkçesi: Ben öğrenciyim.)",
+      "answer": "АЗ СЪМ СТУДЕНТ.",
+      "hint": "Bulgarca karşılığını yazınız"
+    },
+    {
+      "id": "q_auto_602b4909",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Ще се запознаем с тях.)",
+      "answer": "ONLARLA TANIŞACAĞIZ.",
+      "hint": "Türkçe karşılığını yazınız"
+    },
+    {
+      "id": "q_auto_8bb83627",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Türkçesi: Onlarla tanışacağız.)",
+      "answer": "ЩЕ СЕ ЗАПОЗНАЕМ С ТЯХ.",
+      "hint": "Bulgarca karşılığını yazınız"
+    },
+    {
+      "id": "q_auto_0986a581",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Това е Джеврие. Тя е _____.)",
+      "answer": "СТУДЕНТКА",
+      "hint": "Boşluğa 'öğrenci (kadın)' kelimesini yazın",
+      "explanation": "Bulgarcada meslekler cinsiyete göre değişir. Kadın öğrenci için 'студентка', genel veya erkek öğrenci için 'студент' kullanılır."
+    },
+    {
+      "id": "q_auto_cefa964d",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: И аз съм _____.)",
+      "answer": "СТУДЕНТ",
+      "hint": "Boşluğa 'öğrenci (erkek)' kelimesini yazın",
+      "explanation": "Erkekler (veya genel kullanım) için 'студент' kelimesi kullanılır. Kadın olsaydı 'студентка' olurdu."
+    },
+    {
+      "id": "q_auto_93411497",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Добър ден, _____!)",
+      "answer": "ГОСПОЖИЦЕ",
+      "hint": "Boşluğa 'küçük hanım/hanımefendi' kelimesini yazın",
+      "explanation": "'Госпожице', genç veya evli olmayan kadınlara yönelik resmi bir hitaptır."
+    },
+    {
+      "id": "q_auto_3d9fe3e5",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: А _____ госпожица коя е?)",
+      "answer": "ТАЗИ",
+      "hint": "Boşluğa 'bu (dişil)' kelimesini yazın",
+      "explanation": "'Тази' kelimesi dişil (kadın/dişi) isimler için 'bu' anlamına gelir. 'Госпожица' dişil olduğu için 'тази' kullanılır."
+    },
+    {
+      "id": "q_auto_a6ea5dfc",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: А тази госпожица _____ е?)",
+      "answer": "КОЯ",
+      "hint": "Boşluğa 'kim (dişil)' kelimesini yazın",
+      "explanation": "'Коя', dişil isimler için 'Kim?' sorusudur. Eril olsaydı 'Кой' kullanılırdı."
+    },
+    {
+      "id": "q_auto_ba2b15f9",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: _____ господин кой е?)",
+      "answer": "ОНЗИ",
+      "hint": "Boşluğa 'şu/öteki (eril)' kelimesini yazın",
+      "explanation": "'Онзи', eril (erkek) isimler için 'şu/öteki' anlamına gelir. 'Господин' eril olduğu için kullanılır."
+    },
+    {
+      "id": "q_auto_d5a0eea4",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Познавате _____ го?)",
+      "answer": "ЛИ",
+      "hint": "Boşluğa 'mı/mi' soru edatını yazın",
+      "explanation": "'Ли' Bulgarcada soru edatıdır ve her zaman vurgulanan kelimeden (genellikle yüklemden/fiilden) hemen sonra gelir."
+    },
+    {
+      "id": "q_auto_9f2502b7",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Българи _____ са?)",
+      "answer": "ЛИ",
+      "hint": "Boşluğa 'mı/mi' soru edatını yazın",
+      "explanation": "Soru edatı 'ли' kendinden önceki kelimeyi (burada Българи) soru yapar: 'Bulgarlar mı?'"
+    },
+    {
+      "id": "q_auto_780cb62d",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: _____ сте по националност?)",
+      "answer": "КАКЪВ",
+      "hint": "Boşluğa 'Ne/Hangi (eril)' kelimesini yazın",
+      "explanation": "'Какъв' (Nasıl/Ne), erkekler için milliyet veya meslek sorarken kullanılır. Kadınlar için 'Каква' kullanılır."
+    },
+    {
+      "id": "q_auto_cc43f1c3",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: _____ сте по националност?)",
+      "answer": "КАКВА",
+      "hint": "Boşluğa 'Ne/Hangi (dişil)' kelimesini yazın",
+      "explanation": "'Каква' (Nasıl/Ne), kadınlar için milliyet veya meslek sorarken kullanılır. Erkekler için 'Какъв' kullanılır."
+    },
+    {
+      "id": "q_auto_339e1916",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Той е професор. _____ е преподавателят ни.)",
+      "answer": "ТОЙ",
+      "hint": "Boşluğa 'O (eril)' zamirini yazın",
+      "explanation": "'Той', eril (erkek) isimler için 'O' şahıs zamiridir. Dişil için 'Тя', nötr için 'То' kullanılır."
+    },
+    {
+      "id": "q_auto_82c472cf",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Това е Джеврие. _____ е от Одрин.)",
+      "answer": "ТЯ",
+      "hint": "Boşluğa 'O (dişil)' zamirini yazın",
+      "explanation": "'Тя', dişil (kadın) isimler için 'O' şahıs zamiridir. Cevriye kadın olduğu için 'Тя' kullanılır."
+    },
+    {
+      "id": "q_auto_0c6d2b05",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: _____ се запознаем с тях.)",
+      "answer": "ЩЕ",
+      "hint": "Boşluğa gelecek zaman ekini/kelimesini yazın",
+      "explanation": "'Ще' (okunuşu: şte), kendisinden sonra gelen fiili Gelecek Zaman yapar (Ecek/Acak). Örn: Ще се запознаем = Tanışacağız."
+    },
+    {
+      "id": "q_auto_3e30c267",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Никос е _____, Емине е туркиня.)",
+      "answer": "ГРЪК",
+      "hint": "Boşluğa 'Yunan (erkek)' kelimesini yazın",
+      "explanation": "Milliyet isimleri de cinsiyete göre değişir. Yunan erkek için 'грък', Yunan kadın için 'гъркиня' kullanılır."
+    },
+    {
+      "id": "q_auto_98e2d079",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Емине е _____, Мирча е румънец.)",
+      "answer": "ТУРКИНЯ",
+      "hint": "Boşluğa 'Türk (kadın)' kelimesini yazın",
+      "explanation": "Türk kadın için 'туркиня', Türk erkek için 'турчин' kullanılır."
+    },
+    {
+      "id": "q_auto_38f850a7",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Ние имаме сънародници и в _____ страни.)",
+      "answer": "ДРУГИ",
+      "hint": "Boşluğa 'başka/diğer (çoğul)' kelimesini yazın",
+      "explanation": "'Други', 'други' (başka/diğer) sıfatının ÇOĞUL halidir. 'Страни' (ülkeler) çoğul olduğu için sıfat da çoğul eki almıştır."
+    },
+    {
+      "id": "q_auto_5f54f069",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Ана е преводачка, Лучия е _____, Мари е моделиерка.)",
+      "answer": "СЕКРЕТАРКА",
+      "hint": "Boşluğa 'sekreter (kadın)' kelimesini yazın",
+      "explanation": "Mesleklerin sonuna '-ка' eki getirilerek dişil (kadın) formları elde edilir. (Секретар -> Секретарка)"
+    },
+    {
+      "id": "q_auto_399cc616",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Мария е преподавателка, а Иван сега е _____.)",
+      "answer": "БИЗНЕСМЕН",
+      "hint": "Boşluğa 'iş adamı' kelimesini yazın",
+      "explanation": "Bazı kelimeler İngilizceden doğrudan geçmiştir. 'Бизнесмен' (İş adamı) eril formdadır."
+    },
+    {
+      "id": "q_auto_598fc062",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Баща ми е учител, майка ми е _____.)",
+      "answer": "ЛЕКАРКА",
+      "hint": "Boşluğa 'doktor (kadın)' kelimesini yazın",
+      "explanation": "Erkek doktor 'лекар', kadın doktor 'лекарка' olarak adlandırılır."
+    },
+    {
+      "id": "q_auto_665c6637",
+      "type": "blank",
+      "points": 5,
+      "sentence": "_____ (Bulgarcası: Две от колежките работят във фризьорски салон – едната е _____, а другата – фризьорка.)",
+      "answer": "МАНИКЮРИСТКА",
+      "hint": "Boşluğa 'manikürcü (kadın)' kelimesini yazın",
+      "explanation": "Yabancı kökenli -ист ile biten meslekler, kadınlar için -ка eki alır: Маникюрист (erkek) -> Маникюристка (kadın)."
+    }
+  ]
+}
