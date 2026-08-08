@@ -266,8 +266,11 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     syncProgress({ mistakes: newPool });
   };
 
+  const lastCheckTime = useRef(0);
+
   const handleCheck = () => {
     if (!activeQuestion) return;
+    lastCheckTime.current = Date.now();
     
     const isFitb = !!activeQuestion.fitbTarget;
     const expectedStr = isFitb ? activeQuestion.fitbTarget : activeQuestion.expected;
@@ -354,6 +357,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   };
 
   const handleNext = () => {
+    if (Date.now() - lastCheckTime.current < 500) return; // Prevent double-click or enter-hold auto-advance
+    
     setUserAnswer('');
     setFeedback('none');
     setIsSwapped(false);
