@@ -6,10 +6,11 @@
     {
       "id": "q_ders4_5e853cdd",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hatice Türkiye’den bir üniversite öğrencisidir.)",
+      "sentence": "Çeviriniz (Türkçesi: Hatice Türkiye’den bir öğrencidir.)",
       "answer": "Хатидже е студентка от Турция.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 4"
+      "lesson": "Ders 4",
+      "explanation": ""
     },
     {
       "id": "q_ders4_85b8b0e3",
