@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, Suspense, use, useMemo } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
+import { RefreshCw } from 'lucide-react';
 
 interface Question {
   id: string;
@@ -564,30 +565,31 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   if (!data) return <div className="min-h-screen flex items-center justify-center text-red-500">Modül bulunamadı.</div>;
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col">
+    <div className="min-h-screen bg-slate-50 flex flex-col pb-36 sm:pb-24">
       {/* Header */}
-      <header className="bg-white border-b border-slate-200 px-4 py-4 flex flex-col items-center sticky top-0 z-10 gap-3">
+      <header className="bg-white border-b border-slate-200 px-2 py-3 sm:px-4 sm:py-4 flex flex-col items-center sticky top-0 z-10 gap-3">
         
         {/* Top Row: Close, Search, Language */}
         <div className="flex w-full items-center justify-between gap-2 flex-wrap sm:flex-nowrap">
-          <div className="flex items-center flex-1 min-w-[200px]">
-            <button onClick={() => router.push('/training')} className="text-slate-400 hover:text-slate-600 mr-2 flex-shrink-0">
+          <div className="flex items-center flex-1 min-w-0 sm:min-w-[200px]">
+            <button onClick={() => router.push('/training')} className="text-slate-400 hover:text-slate-600 mr-1 sm:mr-2 flex-shrink-0">
               ✕
             </button>
             
             {student?.role === 'admin' && (
-              <label className="flex items-center gap-1.5 cursor-pointer mr-3 ml-1 bg-slate-100 pr-3 pl-1 py-1 rounded-full border border-slate-200">
+              <label className="flex items-center gap-1.5 cursor-pointer mr-2 ml-1 bg-slate-100 pr-2 pl-1 py-1 rounded-full border border-slate-200">
                 <div className="relative">
                   <input type="checkbox" className="sr-only" checked={adminMode} onChange={(e) => { setAdminMode(e.target.checked); setFeedback('none'); setUserAnswer(''); setKeyboardOpen(false); }} />
-                  <div className={`block w-8 h-4 rounded-full transition-colors ${adminMode ? 'bg-indigo-500' : 'bg-slate-300'}`}></div>
-                  <div className={`dot absolute left-1 top-0.5 bg-white w-3 h-3 rounded-full transition-transform ${adminMode ? 'translate-x-4' : ''}`}></div>
+                  <div className={`block w-7 h-4 rounded-full transition-colors ${adminMode ? 'bg-indigo-500' : 'bg-slate-300'}`}></div>
+                  <div className={`dot absolute left-0.5 top-0.5 bg-white w-3 h-3 rounded-full transition-transform ${adminMode ? 'translate-x-3' : ''}`}></div>
                 </div>
-                <span className="text-[11px] font-bold text-slate-500 select-none">Admin Modu</span>
+                <span className="text-[10px] sm:text-[11px] font-bold text-slate-500 select-none hidden sm:inline">Admin Modu</span>
+                <span className="text-[10px] font-bold text-slate-500 select-none sm:hidden">Admin</span>
               </label>
             )}
             
             {/* Search Input */}
-            <div className="relative flex-1 max-w-[300px]">
+            <div className="relative flex-1 min-w-0 max-w-[300px]">
               <input 
                 type="text" 
                 placeholder="🔍 Kelime ara..." 
@@ -596,28 +598,28 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                   setSearchQuery(e.target.value);
                   setCurrentIndex(0);
                 }}
-                className="w-full bg-slate-100 border-none rounded-full px-4 py-1.5 text-sm outline-none focus:ring-2 focus:ring-indigo-500"
+                className="w-full bg-slate-100 border-none rounded-full px-3 sm:px-4 py-1 sm:py-1.5 text-xs sm:text-sm outline-none focus:ring-2 focus:ring-indigo-500 min-w-0"
               />
             </div>
           </div>
           
           {/* Language Filter */}
-          <div className="flex bg-slate-100 rounded-full p-1 border border-slate-200 flex-shrink-0">
+          <div className="flex bg-slate-100 rounded-full p-1 border border-slate-200 flex-shrink-0 overflow-x-auto max-w-full">
             <button
               onClick={() => { setLangFilter('all'); setCurrentIndex(0); }}
-              className={`px-3 py-0.5 text-xs font-bold rounded-full transition-colors ${langFilter === 'all' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+              className={`px-2 sm:px-3 py-0.5 text-[10px] sm:text-xs font-bold rounded-full transition-colors ${langFilter === 'all' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
             >
               Tümü
             </button>
             <button
               onClick={() => { setLangFilter('bg'); setCurrentIndex(0); }}
-              className={`px-3 py-0.5 text-xs font-bold rounded-full transition-colors ${langFilter === 'bg' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+              className={`px-2 sm:px-3 py-0.5 text-[10px] sm:text-xs font-bold rounded-full transition-colors ${langFilter === 'bg' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
             >
               Bulgarca
             </button>
             <button
               onClick={() => { setLangFilter('tr'); setCurrentIndex(0); }}
-              className={`px-3 py-0.5 text-xs font-bold rounded-full transition-colors ${langFilter === 'tr' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+              className={`px-2 sm:px-3 py-0.5 text-[10px] sm:text-xs font-bold rounded-full transition-colors ${langFilter === 'tr' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
             >
               Türkçe
             </button>
@@ -625,14 +627,35 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         </div>
         
         {/* Bottom Row: Slider, Random, Score */}
-        <div className="flex w-full items-center justify-between gap-4">
+        <div className="flex flex-wrap sm:flex-nowrap w-full items-center justify-between gap-3 sm:gap-4">
+          
+          <div className="flex items-center justify-between sm:justify-end w-full sm:w-auto gap-2 flex-shrink-0 order-1 sm:order-2">
+            <button
+              onClick={() => {
+                const shuffled = [...filteredQuestions].sort(() => Math.random() - 0.5);
+                setSessionQuestions(shuffled);
+                setCurrentIndex(0);
+                setFeedback('none');
+                setUserAnswer('');
+              }}
+              className="px-2 py-1.5 bg-slate-100 text-slate-500 hover:bg-indigo-100 hover:text-indigo-600 rounded-lg text-sm font-bold transition-colors shadow-sm border border-slate-200 flex items-center gap-1.5"
+              title="Soruları Karıştır"
+            >
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
+              <span className="text-xs sm:hidden">Karıştır</span>
+            </button>
+            <div className="bg-indigo-50 text-indigo-700 px-3 py-1.5 rounded-lg font-black text-sm border border-indigo-100 shadow-sm whitespace-nowrap">
+              Puan: {score.toFixed(1)}
+            </div>
+          </div>
+
           {/* Interactive Progress Slider */}
           {!isFinished && !isSearchEmpty && filteredQuestions.length > 0 ? (
-            <div className="flex-1 flex items-center gap-2">
+            <div className="w-full sm:w-auto sm:flex-1 flex items-center gap-2 order-2 sm:order-1">
               <button 
                 onClick={() => setCurrentIndex(Math.max(0, currentIndex - 1))}
                 disabled={currentIndex === 0}
-                className="text-slate-400 font-black text-xl hover:text-indigo-600 disabled:opacity-30 disabled:hover:text-slate-400 transition-colors"
+                className="text-slate-400 font-black text-xl hover:text-indigo-600 disabled:opacity-30 disabled:hover:text-slate-400 transition-colors px-2"
                 title="Önceki Soru"
               >
                 ◀
@@ -654,50 +677,32 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                     setUserAnswer('');
                     setIsSwapped(false);
                   }}
-                  className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-indigo-600"
+                  className="w-full h-3 sm:h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-indigo-600"
                 />
               </div>
 
               <button 
                 onClick={() => setCurrentIndex(Math.min(filteredQuestions.length - 1, currentIndex + 1))}
                 disabled={currentIndex >= filteredQuestions.length - 1}
-                className="text-slate-400 font-black text-xl hover:text-indigo-600 disabled:opacity-30 disabled:hover:text-slate-400 transition-colors"
+                className="text-slate-400 font-black text-xl hover:text-indigo-600 disabled:opacity-30 disabled:hover:text-slate-400 transition-colors px-2"
                 title="Sonraki Soru"
               >
                 ▶
               </button>
               
-              <span className="text-xs font-bold text-slate-500 whitespace-nowrap min-w-[45px] text-right">
+              <span className="text-xs font-bold text-slate-500 whitespace-nowrap w-[50px] text-right">
                 {currentIndex + 1} / {filteredQuestions.length}
               </span>
             </div>
           ) : (
-            <div className="flex-1"></div>
+            <div className="hidden sm:block flex-1 order-2 sm:order-1"></div>
           )}
 
-          <div className="flex items-center gap-2 flex-shrink-0">
-            <button
-              onClick={() => {
-                const shuffled = [...sessionQuestions].sort(() => 0.5 - Math.random());
-                setSessionQuestions(shuffled);
-                setCurrentIndex(0);
-                setSearchQuery('');
-              }}
-              className="flex items-center justify-center bg-slate-100 hover:bg-slate-200 text-indigo-600 rounded-lg px-2 py-1.5 text-sm font-bold transition-colors"
-              title="Soruları Karıştır"
-            >
-              🔀
-            </button>
-
-            <div className="text-sm font-bold text-indigo-600 px-4 py-1.5 bg-indigo-50 rounded-full shrink-0">
-              Puan: {Number.isInteger(score) ? score : score.toFixed(1)}
-            </div>
-          </div>
         </div>
       </header>
 
       {/* Main Content */}
-      <main className="flex-1 max-w-3xl w-full mx-auto px-4 py-8 pb-48 flex flex-col">
+      <main className="flex-1 max-w-3xl w-full mx-auto px-4 py-6 sm:py-8 pb-48 flex flex-col relative z-0">
         {isSearchEmpty ? (
           <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-8 text-center mt-12">
             <div className="text-6xl mb-4">🔍</div>
@@ -722,12 +727,19 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
             </div>
           </div>
         ) : (
-          <div className="flex-1 flex flex-col mt-4">
-            <div className="flex justify-between items-center mb-2">
-              <h1 className="text-2xl font-extrabold text-slate-800">
-                {isEditingQuestion ? "Soruyu Düzenle" : activeQuestion?.fitbTarget ? "Boşluğu doldurun" : "Çeviriyi yazın"}
-              </h1>
-              <div className="flex gap-2">
+          <div className="flex-1 flex flex-col mt-2 sm:mt-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4 sm:mb-6 gap-3">
+              <div>
+                <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-800 tracking-tight">
+                  {isEditingQuestion ? "Soruyu Düzenle" : activeQuestion?.fitbTarget ? "Boşluğu doldurun" : "Çeviriyi yazın"}
+                </h1>
+                {!isEditingQuestion && (
+                  <p className="text-slate-500 font-medium mt-1 text-sm sm:text-base hidden sm:block">
+                    {activeQuestion?.hint}
+                  </p>
+                )}
+              </div>
+              <div className="flex gap-2 w-full sm:w-auto">
                 {!isEditingQuestion && adminMode && (
                   <button 
                     onClick={() => {
@@ -741,7 +753,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                       setIsEditingQuestion(true);
                       setFeedback('none');
                     }}
-                    className="flex items-center gap-1.5 px-3 py-1.5 bg-indigo-50 text-indigo-700 hover:bg-indigo-100 rounded-lg text-sm font-bold transition-colors"
+                    className="flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-3 py-2 bg-indigo-50 text-indigo-700 hover:bg-indigo-100 rounded-xl text-sm font-bold transition-colors"
                   >
                     ✏️ Düzenle
                   </button>
@@ -749,10 +761,11 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                 {!isEditingQuestion && (
                   <button 
                     onClick={handleSwap}
-                    className="flex items-center gap-2 px-3 py-1.5 bg-amber-50 text-amber-700 hover:bg-amber-100 rounded-lg text-sm font-bold transition-colors"
+                    className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-4 py-2 sm:px-3 sm:py-1.5 bg-amber-50 text-amber-700 hover:bg-amber-100 rounded-xl text-sm font-bold transition-colors shadow-sm"
                     title="Soruyu ters çevir (Bulgarca <-> Türkçe)"
                   >
-                    🔄 Yön Değiştir
+                    <RefreshCw size={16} className={isSwapped ? 'rotate-180 transition-transform duration-500' : 'transition-transform duration-500'} />
+                    <span>Yön Değiştir</span>
                   </button>
                 )}
               </div>
@@ -801,9 +814,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                 </div>
 
               {activeQuestion?.type === 'scramble' && !adminMode ? (
-                <div className="flex flex-col gap-4">
+                <div className="flex flex-col gap-3 sm:gap-4">
                   {/* Selected Words Area (The Sentence) */}
-                  <div className={`flex flex-wrap gap-2 min-h-[64px] p-4 bg-white border-2 rounded-xl items-start transition-colors ${(feedback === 'wrong') ? 'border-red-400 bg-red-50' : feedback === 'typo' ? 'border-amber-400 bg-amber-50' : feedback === 'correct' ? 'border-green-400 bg-green-50' : 'border-slate-200 focus:border-indigo-400'}`}>
+                  <div className={`flex flex-wrap gap-1.5 sm:gap-2 min-h-[56px] sm:min-h-[64px] p-3 sm:p-4 bg-white border-2 rounded-xl items-start transition-colors ${(feedback === 'wrong') ? 'border-red-400 bg-red-50' : feedback === 'typo' ? 'border-amber-400 bg-amber-50' : feedback === 'correct' ? 'border-green-400 bg-green-50' : 'border-slate-200 focus:border-indigo-400'}`}>
                     {selectedWords.map((word, idx) => (
                       <button 
                         key={`sel-${idx}`}
@@ -814,16 +827,16 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                           setSelectedWords(newSel);
                           setScrambleWords([...scrambleWords, word]);
                         }}
-                        className={`px-4 py-2 font-bold rounded-lg border shadow-sm transition-colors ${feedback === 'wrong' ? 'bg-red-100 text-red-900 border-red-200' : feedback === 'correct' ? 'bg-green-100 text-green-900 border-green-200' : 'bg-indigo-50 text-indigo-700 border-indigo-200 hover:bg-indigo-100'}`}
+                        className={`px-3 sm:px-4 py-1.5 sm:py-2 font-bold text-sm sm:text-base rounded-lg border shadow-sm transition-colors ${feedback === 'wrong' ? 'bg-red-100 text-red-900 border-red-200' : feedback === 'correct' ? 'bg-green-100 text-green-900 border-green-200' : 'bg-indigo-50 text-indigo-700 border-indigo-200 hover:bg-indigo-100'}`}
                       >
                         {word}
                       </button>
                     ))}
-                    {selectedWords.length === 0 && <span className="text-slate-300 font-medium my-auto ml-2">Kelimeleri buraya dizin...</span>}
+                    {selectedWords.length === 0 && <span className="text-slate-300 font-medium my-auto ml-2 text-sm sm:text-base">Kelimeleri buraya dizin...</span>}
                   </div>
                   
                   {/* Word Pool */}
-                  <div className="flex flex-wrap gap-3 mt-2 justify-center">
+                  <div className="flex flex-wrap gap-2 sm:gap-3 mt-1 sm:mt-2 justify-center">
                     {scrambleWords.map((word, idx) => (
                       <button 
                         key={`pool-${idx}`}
@@ -834,7 +847,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                           setScrambleWords(newPool);
                           setSelectedWords([...selectedWords, word]);
                         }}
-                        className="px-5 py-3 bg-white text-slate-700 font-extrabold text-lg rounded-xl shadow-sm border-2 border-slate-200 hover:border-indigo-400 hover:text-indigo-600 hover:shadow-md transition-all active:scale-95 disabled:opacity-50"
+                        className="px-3 sm:px-5 py-2 sm:py-3 bg-white text-slate-700 font-extrabold text-base sm:text-lg rounded-xl shadow-sm border-2 border-slate-200 hover:border-indigo-400 hover:text-indigo-600 hover:shadow-md transition-all active:scale-95 disabled:opacity-50"
                       >
                         {word}
                       </button>
@@ -894,44 +907,44 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
       {/* Footer Area (Check Button & Feedback) */}
       {!isFinished && !isEditingQuestion && (
-        <div className={`fixed bottom-0 left-0 right-0 z-50 transition-colors duration-300 ${feedback === 'correct' ? 'bg-green-100 border-t-2 border-green-200' : feedback === 'typo' ? 'bg-amber-100 border-t-2 border-amber-200' : feedback === 'wrong' ? 'bg-red-100 border-t-2 border-red-200' : 'bg-white border-t border-slate-200'}`}>
-          <div className="max-w-3xl mx-auto px-4 py-4 sm:py-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div className={`fixed bottom-0 left-0 right-0 z-50 transition-colors duration-300 ${feedback === 'correct' ? 'bg-green-100 border-t-2 border-green-200' : feedback === 'typo' ? 'bg-amber-100 border-t-2 border-amber-200' : feedback === 'wrong' ? 'bg-red-100 border-t-2 border-red-200' : 'bg-white border-t border-slate-200 shadow-[0_-10px_40px_-15px_rgba(0,0,0,0.1)]'}`}>
+          <div className="max-w-3xl mx-auto px-3 sm:px-4 py-3 sm:py-6 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
             
-            <div className="flex-1 w-full flex items-center">
+            <div className="flex-1 w-full flex items-center justify-between sm:justify-start">
               {feedback === 'correct' && (
                 <div className="text-green-700">
-                  <div className="font-black text-xl mb-1 flex items-center gap-2"><span>✅</span> Harika!</div>
+                  <div className="font-black text-lg sm:text-xl flex items-center gap-2"><span>✅</span> Harika!</div>
                 </div>
               )}
               {feedback === 'typo' && (
                 <div className="text-amber-800">
-                  <div className="font-black text-xl flex items-center gap-2"><span>⚠️</span> Harf hatası var! (+0.9 puan)</div>
+                  <div className="font-black text-lg sm:text-xl flex items-center gap-2"><span>⚠️</span> Harf hatası!</div>
                 </div>
               )}
               {feedback === 'wrong' && (
                 <div className="text-red-700">
-                  <div className="font-black text-xl flex items-center gap-2"><span>❌</span> {userAnswer.trim() ? "Yanlış cevap" : "Pas geçtiniz"}</div>
+                  <div className="font-black text-lg sm:text-xl flex items-center gap-2"><span>❌</span> {userAnswer.trim() ? "Yanlış" : "Pas geçtiniz"}</div>
                 </div>
               )}
               {feedback === 'none' && (
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-2">
                   <button 
-                    className="hidden sm:block text-slate-400 font-bold hover:text-slate-600 px-4 py-2 rounded-lg"
+                    className="text-slate-400 font-bold hover:text-slate-600 px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-sm bg-slate-50 border border-slate-200"
                     onClick={() => setKeyboardOpen(!keyboardOpen)}
                     title="Klavyeyi Aç/Kapat"
                   >
-                    ⌨️ Sanal Klavye
+                    ⌨️ <span className="hidden sm:inline">Sanal Klavye</span>
                   </button>
                 </div>
               )}
             </div>
 
-            <div className="flex flex-col sm:flex-row w-full sm:w-auto gap-3">
+            <div className="flex flex-row w-full sm:w-auto gap-2 sm:gap-3">
               {adminMode ? (
                 <button
                   onClick={() => setCurrentIndex(p => Math.min(filteredQuestions.length - 1, p + 1))}
                   disabled={currentIndex >= filteredQuestions.length - 1}
-                  className="w-full sm:w-auto px-8 py-3 rounded-xl font-black text-lg transition-all bg-indigo-600 text-white hover:bg-indigo-700 shadow-md disabled:opacity-30"
+                  className="flex-1 sm:flex-none w-full sm:w-auto px-4 sm:px-8 py-2.5 sm:py-3 rounded-xl font-black text-base sm:text-lg transition-all bg-indigo-600 text-white hover:bg-indigo-700 shadow-md disabled:opacity-30"
                 >
                   SONRAKİ 
                 </button>
@@ -940,7 +953,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                   {feedback === 'none' && (
                     <button
                       onClick={handleSkip}
-                      className="w-full sm:w-auto px-6 py-3 rounded-xl font-black text-lg transition-all bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700 shadow-sm border border-slate-200"
+                      className="flex-1 sm:flex-none w-full sm:w-auto px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-black text-sm sm:text-lg transition-all bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700 shadow-sm border border-slate-200 active:scale-95"
                     >
                       PAS GEÇ
                     </button>
@@ -948,7 +961,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                   <button
                     onClick={feedback === 'none' ? handleCheck : handleNext}
                     disabled={feedback === 'none' && (activeQuestion?.type === 'scramble' ? selectedWords.length === 0 : !userAnswer.trim())}
-                    className={`w-full sm:w-auto px-8 py-3 rounded-xl font-black text-lg transition-all ${feedback === 'none' ? ((activeQuestion?.type === 'scramble' ? selectedWords.length > 0 : userAnswer.trim()) ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-md' : 'bg-slate-200 text-slate-400 cursor-not-allowed') : feedback === 'correct' ? 'bg-green-600 text-white hover:bg-green-700 shadow-md' : feedback === 'typo' ? 'bg-amber-600 text-white hover:bg-amber-700 shadow-md' : 'bg-red-600 text-white hover:bg-red-700 shadow-md'}`}
+                    className={`flex-[2] sm:flex-none w-full sm:w-auto px-4 sm:px-8 py-2.5 sm:py-3 rounded-xl font-black text-sm sm:text-lg transition-all active:scale-95 ${feedback === 'none' ? ((activeQuestion?.type === 'scramble' ? selectedWords.length > 0 : userAnswer.trim()) ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-md' : 'bg-slate-200 text-slate-400 cursor-not-allowed') : feedback === 'correct' ? 'bg-green-600 text-white hover:bg-green-700 shadow-md' : feedback === 'typo' ? 'bg-amber-600 text-white hover:bg-amber-700 shadow-md' : 'bg-red-600 text-white hover:bg-red-700 shadow-md'}`}
                   >
                     {feedback === 'none' ? 'KONTROL ET' : 'DEVAM ET'}
                   </button>
