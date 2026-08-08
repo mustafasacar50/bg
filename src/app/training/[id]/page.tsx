@@ -64,6 +64,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [score, setScore] = useState(0);
   
   // New State
+  const [sessionQuestions, setSessionQuestions] = useState<Question[]>([]);
   const [mistakesPool, setMistakesPool] = useState<string[]>([]);
   const [isSwapped, setIsSwapped] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
