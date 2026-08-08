@@ -10,6 +10,7 @@ interface Question {
   sentence: string;
   answer: string;
   hint: string;
+  explanation?: string;
 }
 
 interface ModuleData {
@@ -311,7 +312,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       if (!res.ok) throw new Error(data.error);
 
       // Update local state
-      setQuestions(prev => prev.map(q => q.id === activeQuestion.id ? { ...q, ...editForm } : q));
+      setSessionQuestions((prev: Question[]) => prev.map((q: Question) => q.id === activeQuestion.id ? { ...q, ...editForm } : q));
       setIsEditingQuestion(false);
     } catch (err) {
       console.error('Error saving question:', err);
@@ -340,7 +341,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       if (!res.ok) throw new Error(data.error);
 
       // Update local state
-      setQuestions(prev => prev.filter(q => q.id !== activeQuestion.id));
+      setSessionQuestions((prev: Question[]) => prev.filter((q: Question) => q.id !== activeQuestion.id));
       setIsEditingQuestion(false);
       setFeedback('none');
       setUserAnswer('');
@@ -356,8 +357,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     if (!activeQuestion) return;
     lastCheckTime.current = Date.now();
     
-    const isFitb = !!activeQuestion.fitbTarget;
-    const expectedStr = isFitb ? activeQuestion.fitbTarget : activeQuestion.expected;
+    const expectedStr = activeQuestion.fitbTarget || activeQuestion.expected;
     
     let currentAnswer = userAnswer;
     if (activeQuestion.type === 'scramble') {
@@ -442,6 +442,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
   const handleNext = () => {
     if (Date.now() - lastCheckTime.current < 500) return; // Prevent double-click or enter-hold auto-advance
+    if (!activeQuestion) return;
     
     setUserAnswer('');
     setFeedback('none');
