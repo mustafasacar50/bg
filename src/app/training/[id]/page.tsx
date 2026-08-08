@@ -46,6 +46,12 @@ function levenshteinDistance(a: string, b: string): number {
 
 function TrainingContent({ moduleId }: { moduleId: string }) {
   const searchParams = useSearchParams();
+  const [showExplanation, setShowExplanation] = useState(false);
+  
+  const [isEditingQuestion, setIsEditingQuestion] = useState(false);
+  const [editForm, setEditForm] = useState<any>({});
+  const [isSavingEdit, setIsSavingEdit] = useState(false);
+
   const mode = searchParams.get('mode') || 'all'; 
 
   const [student, setStudent] = useState<any>(null);
@@ -285,6 +291,66 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   };
 
   const lastCheckTime = useRef(0);
+
+  const handleEditSave = async () => {
+    if (!activeQuestion) return;
+    setIsSavingEdit(true);
+    
+    try {
+      const res = await fetch(`/api/modules/${moduleId}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          action: 'update',
+          questionId: activeQuestion.id,
+          updatedData: editForm
+        })
+      });
+      
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error);
+
+      // Update local state
+      setQuestions(prev => prev.map(q => q.id === activeQuestion.id ? { ...q, ...editForm } : q));
+      setIsEditingQuestion(false);
+    } catch (err) {
+      console.error('Error saving question:', err);
+      alert('Soru güncellenirken hata oluştu!');
+    } finally {
+      setIsSavingEdit(false);
+    }
+  };
+
+  const handleDeleteQuestion = async () => {
+    if (!activeQuestion) return;
+    if (!confirm('Bu soruyu kalıcı olarak silmek istediğinize emin misiniz?')) return;
+    
+    setIsSavingEdit(true);
+    try {
+      const res = await fetch(`/api/modules/${moduleId}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          action: 'delete',
+          questionId: activeQuestion.id
+        })
+      });
+      
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error);
+
+      // Update local state
+      setQuestions(prev => prev.filter(q => q.id !== activeQuestion.id));
+      setIsEditingQuestion(false);
+      setFeedback('none');
+      setUserAnswer('');
+    } catch (err) {
+      console.error('Error deleting question:', err);
+      alert('Soru silinirken hata oluştu!');
+    } finally {
+      setIsSavingEdit(false);
+    }
+  };
 
   const handleCheck = () => {
     if (!activeQuestion) return;
@@ -658,25 +724,79 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
           <div className="flex-1 flex flex-col mt-4">
             <div className="flex justify-between items-center mb-2">
               <h1 className="text-2xl font-extrabold text-slate-800">
-                {activeQuestion?.fitbTarget ? "Boşluğu doldurun" : "Çeviriyi yazın"}
+                {isEditingQuestion ? "Soruyu Düzenle" : activeQuestion?.fitbTarget ? "Boşluğu doldurun" : "Çeviriyi yazın"}
               </h1>
-              <button 
-                onClick={handleSwap}
-                className="flex items-center gap-2 px-3 py-1.5 bg-amber-50 text-amber-700 hover:bg-amber-100 rounded-lg text-sm font-bold transition-colors"
-                title="Soruyu ters çevir (Bulgarca <-> Türkçe)"
-              >
-                🔄 Yön Değiştir
-              </button>
-            </div>
-            
-            <p className="text-slate-500 mb-8 font-medium">{activeQuestion?.hint}</p>
-
-            <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-8 flex items-start gap-4 whitespace-pre-wrap">
-              <div className="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center text-xl shrink-0 mt-1">🤖</div>
-              <div className="text-lg font-medium text-slate-700 leading-relaxed">
-                {activeQuestion?.display}
+              <div className="flex gap-2">
+                {!isEditingQuestion && adminMode && (
+                  <button 
+                    onClick={() => {
+                      setEditForm({
+                        sentence: activeQuestion.sentence,
+                        answer: activeQuestion.answer,
+                        hint: activeQuestion.hint,
+                        explanation: activeQuestion.explanation || ''
+                      });
+                      setIsEditingQuestion(true);
+                      setFeedback('none');
+                    }}
+                    className="flex items-center gap-1.5 px-3 py-1.5 bg-indigo-50 text-indigo-700 hover:bg-indigo-100 rounded-lg text-sm font-bold transition-colors"
+                  >
+                    ✏️ Düzenle
+                  </button>
+                )}
+                {!isEditingQuestion && (
+                  <button 
+                    onClick={handleSwap}
+                    className="flex items-center gap-2 px-3 py-1.5 bg-amber-50 text-amber-700 hover:bg-amber-100 rounded-lg text-sm font-bold transition-colors"
+                    title="Soruyu ters çevir (Bulgarca <-> Türkçe)"
+                  >
+                    🔄 Yön Değiştir
+                  </button>
+                )}
               </div>
             </div>
+            
+            {!isEditingQuestion && <p className="text-slate-500 mb-8 font-medium">{activeQuestion?.hint}</p>}
+
+            {isEditingQuestion ? (
+              <div className="bg-white rounded-2xl shadow-sm border-2 border-indigo-100 p-6 mb-8 flex flex-col gap-4">
+                <div>
+                  <label className="block text-xs font-bold text-slate-500 mb-1 uppercase tracking-wider">Soru Cümlesi (Sentence)</label>
+                  <input type="text" value={editForm.sentence} onChange={e => setEditForm({...editForm, sentence: e.target.value})} className="w-full p-3 border border-slate-300 rounded-xl text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all" />
+                </div>
+                <div>
+                  <label className="block text-xs font-bold text-slate-500 mb-1 uppercase tracking-wider">Cevap (Answer)</label>
+                  <input type="text" value={editForm.answer} onChange={e => setEditForm({...editForm, answer: e.target.value})} className="w-full p-3 border border-slate-300 rounded-xl text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all" />
+                </div>
+                <div>
+                  <label className="block text-xs font-bold text-slate-500 mb-1 uppercase tracking-wider">İpucu (Hint)</label>
+                  <input type="text" value={editForm.hint} onChange={e => setEditForm({...editForm, hint: e.target.value})} className="w-full p-3 border border-slate-300 rounded-xl text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all" />
+                </div>
+                <div>
+                  <label className="block text-xs font-bold text-slate-500 mb-1 uppercase tracking-wider">Kural/Açıklama (Explanation)</label>
+                  <textarea value={editForm.explanation} onChange={e => setEditForm({...editForm, explanation: e.target.value})} className="w-full p-3 border border-slate-300 rounded-xl text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all min-h-[100px]" />
+                </div>
+                <div className="flex flex-wrap gap-3 pt-4 border-t border-slate-100 mt-2">
+                  <button disabled={isSavingEdit} onClick={handleEditSave} className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 disabled:opacity-50 transition-colors">
+                    {isSavingEdit ? 'Kaydediliyor...' : 'Kaydet'}
+                  </button>
+                  <button disabled={isSavingEdit} onClick={() => setIsEditingQuestion(false)} className="px-6 py-2.5 bg-slate-100 text-slate-600 font-bold rounded-xl hover:bg-slate-200 disabled:opacity-50 transition-colors">
+                    İptal
+                  </button>
+                  <div className="flex-1"></div>
+                  <button disabled={isSavingEdit} onClick={handleDeleteQuestion} className="px-6 py-2.5 bg-red-50 text-red-600 font-bold rounded-xl hover:bg-red-100 disabled:opacity-50 transition-colors">
+                    🗑️ Soruyu Sil
+                  </button>
+                </div>
+              </div>
+            ) : (
+              <>
+                <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-8 flex items-start gap-4 whitespace-pre-wrap">
+                  <div className="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center text-xl shrink-0 mt-1">🤖</div>
+                  <div className="text-lg font-medium text-slate-700 leading-relaxed">
+                    {activeQuestion?.display}
+                  </div>
+                </div>
 
               {activeQuestion?.type === 'scramble' && !adminMode ? (
                 <div className="flex flex-col gap-4">
@@ -764,12 +884,14 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                   </div>
                 </div>
               )}
+              </>
+            )}
             </div>
           )}
         </main>
 
       {/* Footer Area (Check Button & Feedback) */}
-      {!isFinished && (
+      {!isFinished && !isEditingQuestion && (
         <div className={`fixed bottom-0 left-0 right-0 z-50 transition-colors duration-300 ${feedback === 'correct' ? 'bg-green-100 border-t-2 border-green-200' : feedback === 'typo' ? 'bg-amber-100 border-t-2 border-amber-200' : feedback === 'wrong' ? 'bg-red-100 border-t-2 border-red-200' : 'bg-white border-t border-slate-200'}`}>
           <div className="max-w-3xl mx-auto px-4 py-4 sm:py-6 flex flex-col sm:flex-row justify-between items-center gap-4">
             
