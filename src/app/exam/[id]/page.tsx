@@ -149,11 +149,21 @@ export default function ExamPage() {
     const wrongQuestionIds: string[] = [];
     const correctQuestionIds: string[] = [];
     
+    const detailedAnswers: any = {};
+
     // Test (MCQ) scoring
     mcqs.forEach(q => {
       const pts = exam.questionPoints ? (exam.questionPoints[q.id] || q.points || 5) : (q.points || 5);
       maxPoints += pts;
-      if (answers[q.id] === q.answer) {
+      const uAns = answers[q.id];
+      const isC = uAns === q.answer;
+      detailedAnswers[q.id] = {
+        question: q.sentence || q.text || "Soru",
+        userAnswer: uAns,
+        correctAnswer: q.answer,
+        isCorrect: isC
+      };
+      if (isC) {
         earnedPoints += pts;
         correctQuestionIds.push(q.id);
       } else {
@@ -168,7 +178,15 @@ export default function ExamPage() {
       
       let correctPairs = 0;
       q.pairs.forEach((p: any) => {
-        if (answers[`${q.id}_${p.word}`] === p.match) correctPairs++;
+        const uAns = answers[`${q.id}_${p.word}`];
+        const isC = uAns === p.match;
+        detailedAnswers[`${q.id}_${p.word}`] = {
+           question: `${q.instruction || 'Eşleştir'}: ${p.word}`,
+           userAnswer: uAns,
+           correctAnswer: p.match,
+           isCorrect: isC
+        };
+        if (isC) correctPairs++;
       });
       
       if (q.pairs.length > 0) {
@@ -192,7 +210,15 @@ export default function ExamPage() {
       
       blankKeys.forEach(bId => {
         const expected = q.answers ? q.answers[bId] : q.answer;
-        if (normalize(answers[bId] || "") === normalize(expected)) {
+        const uAns = answers[bId];
+        const isC = normalize(uAns || "") === normalize(expected);
+        detailedAnswers[bId] = {
+           question: q.sentence || "Boşluk doldurma",
+           userAnswer: uAns,
+           correctAnswer: expected,
+           isCorrect: isC
+        };
+        if (isC) {
           correctBlanks++;
         }
       });
@@ -218,7 +244,15 @@ export default function ExamPage() {
       
       readingKeys.forEach(bId => {
         const expected = q.answers[bId];
-        if (normalize(answers[bId] || "") === normalize(expected)) {
+        const uAns = answers[bId];
+        const isC = normalize(uAns || "") === normalize(expected);
+        detailedAnswers[bId] = {
+           question: "Okuma Parçası Sorusu",
+           userAnswer: uAns,
+           correctAnswer: expected,
+           isCorrect: isC
+        };
+        if (isC) {
           correctBlanks++;
         }
       });
@@ -263,7 +297,7 @@ export default function ExamPage() {
           student,
           examId,
           score: scoreData,
-          answers,
+          answers: detailedAnswers,
           date: new Date().toISOString(),
           wrongQuestionIds,
           correctQuestionIds

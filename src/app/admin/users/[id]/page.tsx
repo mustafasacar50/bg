@@ -158,26 +158,34 @@ export default function StudentReportPage() {
                     </summary>
                     <div className="p-4 border-t border-slate-200 bg-white space-y-3 max-h-96 overflow-y-auto">
                        {exam.answers && Object.keys(exam.answers).length > 0 ? (
-                         Object.entries(exam.answers).map(([qId, ansObj]: any) => (
-                            <div key={qId} className={`p-3 rounded-lg border text-sm ${ansObj.isCorrect ? 'bg-emerald-50 border-emerald-100' : 'bg-rose-50 border-rose-100'}`}>
-                               <div className="font-semibold text-slate-700 mb-1 flex items-start gap-2">
-                                  {ansObj.isCorrect ? <CheckCircle size={16} className="text-emerald-500 shrink-0 mt-0.5" /> : <XCircle size={16} className="text-rose-500 shrink-0 mt-0.5" />}
-                                  <span>{ansObj.question}</span>
-                               </div>
-                               <div className="pl-6 grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs mt-2">
-                                  <div>
-                                    <span className="text-slate-500">Cevap: </span>
-                                    <span className={`font-bold ${ansObj.isCorrect ? 'text-emerald-700' : 'text-rose-700'}`}>{ansObj.userAnswer || '-boş-'}</span>
-                                  </div>
-                                  {!ansObj.isCorrect && (
-                                    <div>
-                                      <span className="text-slate-500">Doğrusu: </span>
-                                      <span className="font-bold text-emerald-700">{ansObj.correctAnswer}</span>
-                                    </div>
-                                  )}
-                               </div>
-                            </div>
-                         ))
+                          Object.entries(exam.answers).map(([qId, ansObj]: any) => {
+                             const isOldFormat = typeof ansObj === 'string';
+                             const isCorrect = isOldFormat ? (!exam.wrongQuestionIds?.includes(qId)) : ansObj.isCorrect;
+                             const questionText = isOldFormat ? "Soru (Eski Kayıt Formatı)" : ansObj.question;
+                             const userAnswer = isOldFormat ? ansObj : ansObj.userAnswer;
+                             const correctAnswer = isOldFormat ? "Bilinmiyor" : ansObj.correctAnswer;
+                             
+                             return (
+                             <div key={qId} className={`p-3 rounded-lg border text-sm ${isCorrect ? 'bg-emerald-50 border-emerald-100' : 'bg-rose-50 border-rose-100'}`}>
+                                <div className="font-semibold text-slate-700 mb-1 flex items-start gap-2">
+                                   {isCorrect ? <CheckCircle size={16} className="text-emerald-500 shrink-0 mt-0.5" /> : <XCircle size={16} className="text-rose-500 shrink-0 mt-0.5" />}
+                                   <span>{questionText}</span>
+                                </div>
+                                <div className="pl-6 grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs mt-2">
+                                   <div>
+                                     <span className="text-slate-500">Cevap: </span>
+                                     <span className={`font-bold ${isCorrect ? 'text-emerald-700' : 'text-rose-700'}`}>{userAnswer || '-boş-'}</span>
+                                   </div>
+                                   {!isCorrect && (
+                                     <div>
+                                       <span className="text-slate-500">Doğrusu: </span>
+                                       <span className="font-bold text-emerald-700">{correctAnswer}</span>
+                                     </div>
+                                   )}
+                                </div>
+                             </div>
+                             );
+                          })
                        ) : (
                          <div className="text-xs text-slate-500">Detaylı log bulunamadı.</div>
                        )}
