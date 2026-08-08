@@ -1,0 +1,5783 @@
+{
+  "title": "Ders 3: Откъде сте? (Nerelisiniz?)",
+  "questions": [
+    {
+      "id": "q_auto_54709a03",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Бюлент: – Добър ден, госпожице!)",
+      "answer": "Bülent: İyi günler, hanımefendi / küçük hanım!",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "госпожице genç veya evli olmayan kadına resmi hitaptır."
+    },
+    {
+      "id": "q_auto_a52f124e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bülent: İyi günler, hanımefendi / küçük hanım!)",
+      "answer": "Бюлент: – Добър ден, госпожице!",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "госпожице genç veya evli olmayan kadına resmi hitaptır."
+    },
+    {
+      "id": "q_auto_4820ae89",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Севил: – Добър ден!)",
+      "answer": "Sevil: İyi günler!",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_23f282ad",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sevil: İyi günler!)",
+      "answer": "Севил: – Добър ден!",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ee1a0905",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Бюлент: – Приятно ми е. Аз съм Бюлент. А Вие как се казвате?)",
+      "answer": "Bülent: Memnun oldum. Ben Bülent. Peki siz nasıl adlandırılıyorsunuz / adınız nedir?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Как се казвате? kelime kelime “Nasıl çağrılıyorsunuz?” anlamına gelir."
+    },
+    {
+      "id": "q_auto_18073848",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bülent: Memnun oldum. Ben Bülent. Peki siz nasıl adlandırılıyorsunuz / adınız nedir?)",
+      "answer": "Бюлент: – Приятно ми е. Аз съм Бюлент. А Вие как се казвате?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Как се казвате? kelime kelime “Nasıl çağrılıyorsunuz?” anlamına gelir."
+    },
+    {
+      "id": "q_auto_9eb64cd0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Севил: – Казвам се Севил. Приятно ми е. Откъде сте, Бюлент?)",
+      "answer": "Sevil: Adım Sevil. Memnun oldum. Nerelisiniz, Bülent?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_b019f805",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sevil: Adım Sevil. Memnun oldum. Nerelisiniz, Bülent?)",
+      "answer": "Севил: – Казвам се Севил. Приятно ми е. Откъде сте, Бюлент?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_5304e95b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Бюлент: – Аз съм от Турция, от Истанбул. А Вие?)",
+      "answer": "Bülent: Ben Türkiye’denim, İstanbul’danım. Ya siz?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_11076909",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bülent: Ben Türkiye’denim, İstanbul’danım. Ya siz?)",
+      "answer": "Бюлент: – Аз съм от Турция, от Истанбул. А Вие?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_bc60a919",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Севил: – Аз съм от Измир.)",
+      "answer": "Sevil: Ben İzmir’denim.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_0c108139",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sevil: Ben İzmir’denim.)",
+      "answer": "Севил: – Аз съм от Измир.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6b45a8bb",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Бюлент: – А тази госпожица коя е?)",
+      "answer": "Bülent: Peki bu genç hanım kimdir?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "тази = bu (dişil isimler için). коя = kim? (dişil)."
+    },
+    {
+      "id": "q_auto_459282e2",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bülent: Peki bu genç hanım kimdir?)",
+      "answer": "Бюлент: – А тази госпожица коя е?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "тази = bu (dişil isimler için). коя = kim? (dişil)."
+    },
+    {
+      "id": "q_auto_8178242a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Севил: – Това е Джеврие. Тя е от Одрин. Тя е студентка. Аз – също. А Вие?)",
+      "answer": "Sevil: Bu Cevriye. O Edirne’den. O kadın öğrencidir. Ben de öyle. Ya siz?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "студентка kadın öğrenci; студент erkek öğrenci/genel öğrenci."
+    },
+    {
+      "id": "q_auto_86191fc8",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sevil: Bu Cevriye. O Edirne’den. O kadın öğrencidir. Ben de öyle. Ya siz?)",
+      "answer": "Севил: – Това е Джеврие. Тя е от Одрин. Тя е студентка. Аз – също. А Вие?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "студентка kadın öğrenci; студент erkek öğrenci/genel öğrenci."
+    },
+    {
+      "id": "q_auto_1b0f10cd",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Бюлент: – И аз съм студент. Онзи господин кой е? Познавате ли го?)",
+      "answer": "Bülent: Ben de öğrenciyim. Şu bey kimdir? Onu tanıyor musunuz?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "онзи = şu/öteki; го = onu (eril nesne zamiri)."
+    },
+    {
+      "id": "q_auto_7e6c8d20",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bülent: Ben de öğrenciyim. Şu bey kimdir? Onu tanıyor musunuz?)",
+      "answer": "Бюлент: – И аз съм студент. Онзи господин кой е? Познавате ли го?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "онзи = şu/öteki; го = onu (eril nesne zamiri)."
+    },
+    {
+      "id": "q_auto_fd819880",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Севил: – Това е професор Райнов. Той е преподавателят ни по български език.)",
+      "answer": "Sevil: Bu Profesör Raynov. O bizim Bulgarca öğretmenimizdir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "преподавателят ни = öğretmenimiz; -ят belirli artikel, ни bizim."
+    },
+    {
+      "id": "q_auto_eeccbe30",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sevil: Bu Profesör Raynov. O bizim Bulgarca öğretmenimizdir.)",
+      "answer": "Севил: – Това е професор Райнов. Той е преподавателят ни по български език.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "преподавателят ни = öğretmenimiz; -ят belirli artikel, ни bizim."
+    },
+    {
+      "id": "q_auto_e7d71434",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Бюлент: – Откъде е?)",
+      "answer": "Bülent: O nereli?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_dee45e20",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bülent: O nereli?)",
+      "answer": "Бюлент: – Откъде е?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_6958bf09",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Севил: – От България, разбира се. От София.)",
+      "answer": "Sevil: Bulgaristan’dan, elbette. Sofya’dan.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_c38e17a2",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sevil: Bulgaristan’dan, elbette. Sofya’dan.)",
+      "answer": "Севил: – От България, разбира се. От София.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_51fbe790",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Бюлент: – А господинът до него? Как се казва?)",
+      "answer": "Bülent: Peki onun yanındaki bey? Adı nedir?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "до него = onun yanında."
+    },
+    {
+      "id": "q_auto_56dc05e1",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bülent: Peki onun yanındaki bey? Adı nedir?)",
+      "answer": "Бюлент: – А господинът до него? Как се казва?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "до него = onun yanında."
+    },
+    {
+      "id": "q_auto_ce7b6581",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Севил: – Това е професор Йоргос от Гърция. До него е професор Лакай от Албания.)",
+      "answer": "Sevil: Bu Yunanistan’dan Profesör Yorgos. Onun yanında Arnavutluk’tan Profesör Lakay var.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_45292b7f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sevil: Bu Yunanistan’dan Profesör Yorgos. Onun yanında Arnavutluk’tan Profesör Lakay var.)",
+      "answer": "Севил: – Това е професор Йоргос от Гърция. До него е професор Лакай от Албания.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_fdc34e46",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Севил: – Това са професор Петрова, професор Василиду, професор Иванов и професор Илиеску.)",
+      "answer": "Sevil: Bunlar Profesör Petrova, Profesör Vasilidu, Profesör İvanov ve Profesör İliesku’dur.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Това са = Bunlar ...dır."
+    },
+    {
+      "id": "q_auto_883730d4",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sevil: Bunlar Profesör Petrova, Profesör Vasilidu, Profesör İvanov ve Profesör İliesku’dur.)",
+      "answer": "Севил: – Това са професор Петрова, професор Василиду, професор Иванов и професор Илиеску.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Това са = Bunlar ...dır."
+    },
+    {
+      "id": "q_auto_4ad6c110",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Бюлент: – Българи ли са?)",
+      "answer": "Bülent: Bulgarlar mı?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_7fb3b199",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bülent: Bulgarlar mı?)",
+      "answer": "Бюлент: – Българи ли са?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_0e70f582",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Севил: – Не, не са българи, разбира се.)",
+      "answer": "Sevil: Hayır, Bulgar değiller, elbette.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_2ea65f97",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sevil: Hayır, Bulgar değiller, elbette.)",
+      "answer": "Севил: – Не, не са българи, разбира се.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_43c274e8",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Севил: – Това са професорите от Катедрата по балкански езици на Тракийския университет.)",
+      "answer": "Sevil: Bunlar Trakya Üniversitesinin Balkan Dilleri Bölümündeki profesörlerdir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Катедра burada üniversite bölümü/anabilim dalı anlamındadır."
+    },
+    {
+      "id": "q_auto_d1d7145f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sevil: Bunlar Trakya Üniversitesinin Balkan Dilleri Bölümündeki profesörlerdir.)",
+      "answer": "Севил: – Това са професорите от Катедрата по балкански езици на Тракийския университет.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Катедра burada üniversite bölümü/anabilim dalı anlamındadır."
+    },
+    {
+      "id": "q_auto_39ab44a3",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Севил: – Професор Йоргос е грък, професор Лакай е албанец, професор Петрова е българка, професор Василиду е гъркиня...)",
+      "answer": "Sevil: Profesör Yorgos Yunan erkek, Profesör Lakay Arnavut erkek, Profesör Petrova Bulgar kadın, Profesör Vasilidu Yunan kadındır...",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_473b5692",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sevil: Profesör Yorgos Yunan erkek, Profesör Lakay Arnavut erkek, Profesör Petrova Bulgar kadın, Profesör Vasilidu Yunan kadındır...)",
+      "answer": "Севил: – Професор Йоргос е грък, професор Лакай е албанец, професор Петрова е българка, професор Василиду е гъркиня...",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_43e27b9c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Севил: – Ще се запознаем с тях.)",
+      "answer": "Sevil: Onlarla tanışacağız.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "ще + fiil = gelecek zaman."
+    },
+    {
+      "id": "q_auto_8dd36922",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sevil: Onlarla tanışacağız.)",
+      "answer": "Севил: – Ще се запознаем с тях.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "ще + fiil = gelecek zaman."
+    },
+    {
+      "id": "q_auto_f8cc4e2a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Бюлент: – Благодаря за информацията, госпожице Севил.)",
+      "answer": "Bülent: Bilgi için teşekkür ederim, Sevil Hanım.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_810e3ff6",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bülent: Bilgi için teşekkür ederim, Sevil Hanım.)",
+      "answer": "Бюлент: – Благодаря за информацията, госпожице Севил.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_bd1b93d1",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Бюлент: – Беше ми приятно да се запознаем. Приятен ден!)",
+      "answer": "Bülent: Tanıştığımıza memnun oldum. İyi günler!",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ş sesi Bulgarcada genellikle Ш ile yazılır. / Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_a6099961",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bülent: Tanıştığımıza memnun oldum. İyi günler!)",
+      "answer": "Бюлент: – Беше ми приятно да се запознаем. Приятен ден!",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ş sesi Bulgarcada genellikle Ш ile yazılır. / Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_f3ed3012",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Севил: – Довиждане!)",
+      "answer": "Sevil: Hoşça kalın / görüşmek üzere!",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_8be4a4f9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sevil: Hoşça kalın / görüşmek üzere!)",
+      "answer": "Севил: – Довиждане!",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_8044e2aa",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Какъв/каква сте по националност?)",
+      "answer": "Milliyetiniz nedir? / Hangi millettensiniz?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Какъв erkek için, каква kadın için kullanılır."
+    },
+    {
+      "id": "q_auto_ea95ef45",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Milliyetiniz nedir? / Hangi millettensiniz?)",
+      "answer": "Какъв/каква сте по националност?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Какъв erkek için, каква kadın için kullanılır."
+    },
+    {
+      "id": "q_auto_91caa4fe",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Турчин ли сте? Туркиня ли сте?)",
+      "answer": "Türk erkek misiniz? Türk kadın mısınız?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "ли soru edatıdır; yüklemden sonra gelir."
+    },
+    {
+      "id": "q_auto_57456260",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Türk erkek misiniz? Türk kadın mısınız?)",
+      "answer": "Турчин ли сте? Туркиня ли сте?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "ли soru edatıdır; yüklemden sonra gelir."
+    },
+    {
+      "id": "q_auto_12beb471",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Откъде си? От коя държава си?)",
+      "answer": "Nerelisin? Hangi ülkedensin?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Разговорния език = konuşma dili; си samimi “sen” biçimi."
+    },
+    {
+      "id": "q_auto_6c02e006",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Nerelisin? Hangi ülkedensin?)",
+      "answer": "Откъде си? От коя държава си?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Разговорния език = konuşma dili; си samimi “sen” biçimi."
+    },
+    {
+      "id": "q_auto_e5638c55",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Райна и Иван са студенти.)",
+      "answer": "Rayna ve İvan öğrencidir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7929a4ad",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Rayna ve İvan öğrencidir.)",
+      "answer": "Райна и Иван са студенти.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_edf6ec16",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Те следват българска филология в Софийски университет „Свети Климент Охридски“.)",
+      "answer": "Onlar Sofya Üniversitesi “Aziz Kliment Ohridski”de Bulgar Filolojisi okuyorlar.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_43b95ce3",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Onlar Sofya Üniversitesi “Aziz Kliment Ohridski”de Bulgar Filolojisi okuyorlar.)",
+      "answer": "Те следват българска филология в Софийски университет „Свети Климент Охридски“.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_5204c4c6",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: В тяхната катедра се учат студенти от различни държави и националности.)",
+      "answer": "Onların bölümünde farklı ülkelerden ve milliyetlerden öğrenciler okuyor.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ad5afa71",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Onların bölümünde farklı ülkelerden ve milliyetlerden öğrenciler okuyor.)",
+      "answer": "В тяхната катедра се учат студенти от различни държави и националности.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_4d56e084",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Никос е грък, Емине е туркиня, Мирча е румънец, Оля е рускиня, Милица е от Сърбия, Деян е от Босна.)",
+      "answer": "Nikos Yunan, Emine Türk kadın, Mirça Romen, Olya Rus kadın, Militsa Sırbistan’dan, Deyan Bosna’dandır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_ab8a1043",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Nikos Yunan, Emine Türk kadın, Mirça Romen, Olya Rus kadın, Militsa Sırbistan’dan, Deyan Bosna’dandır.)",
+      "answer": "Никос е грък, Емине е туркиня, Мирча е румънец, Оля е рускиня, Милица е от Сърбия, Деян е от Босна.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_8a16dc3b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Имат колеги и от Албания, Македония, Херцеговина, Словения и Черна гора.)",
+      "answer": "Arnavutluk, Makedonya, Hersek, Slovenya ve Karadağ’dan da arkadaşları vardır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_1985db95",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Arnavutluk, Makedonya, Hersek, Slovenya ve Karadağ’dan da arkadaşları vardır.)",
+      "answer": "Имат колеги и от Албания, Македония, Херцеговина, Словения и Черна гора.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6f07e02c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Но някои от чужденците са българи по народност.)",
+      "answer": "Ama yabancılardan bazıları köken olarak Bulgardır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_2c373942",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Ama yabancılardan bazıları köken olarak Bulgardır.)",
+      "answer": "Но някои от чужденците са българи по народност.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_c5deb8ee",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Такива са Марина от Украйна, Мария от Аржентина, Джон от САЩ и Ищван от Унгария.)",
+      "answer": "Ukrayna’dan Marina, Arjantin’den Maria, ABD’den John ve Macaristan’dan İştvan böyledir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki J sesi Bulgarcada Ж ile yazılır."
+    },
+    {
+      "id": "q_auto_4b45e523",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Ukrayna’dan Marina, Arjantin’den Maria, ABD’den John ve Macaristan’dan İştvan böyledir.)",
+      "answer": "Такива са Марина от Украйна, Мария от Аржентина, Джон от САЩ и Ищван от Унгария.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki J sesi Bulgarcada Ж ile yazılır."
+    },
+    {
+      "id": "q_auto_0e0e1771",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Преди много години, дори векове, техните прародители са емигрирали в тези страни и там са останали.)",
+      "answer": "Çok yıllar, hatta yüzyıllar önce onların ataları bu ülkelere göç etmiş ve orada kalmıştır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_766e810e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Çok yıllar, hatta yüzyıllar önce onların ataları bu ülkelere göç etmiş ve orada kalmıştır.)",
+      "answer": "Преди много години, дори векове, техните прародители са емигрирали в тези страни и там са останали.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_d4240154",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Някои от тях още имат връзка с България.)",
+      "answer": "Onlardan bazıları hâlâ Bulgaristan’la bağa sahiptir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_292da8c9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Onlardan bazıları hâlâ Bulgaristan’la bağa sahiptir.)",
+      "answer": "Някои от тях още имат връзка с България.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_c8c803c6",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Ние имаме сънародници и в други страни – Канада, Австралия, Германия и на много други места.)",
+      "answer": "Bizim başka ülkelerde de soydaşlarımız vardır: Kanada, Avustralya, Almanya ve daha birçok yerde.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7b4e731e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bizim başka ülkelerde de soydaşlarımız vardır: Kanada, Avustralya, Almanya ve daha birçok yerde.)",
+      "answer": "Ние имаме сънародници и в други страни – Канада, Австралия, Германия и на много други места.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_3ecc41e0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Тя е Гьозде.)",
+      "answer": "O Gözde’dir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ö sesi bazı kelimelerde yumuşatma işaretli ьо ile gösterilir."
+    },
+    {
+      "id": "q_auto_c3046d5c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: O Gözde’dir.)",
+      "answer": "Тя е Гьозде.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ö sesi bazı kelimelerde yumuşatma işaretli ьо ile gösterilir."
+    },
+    {
+      "id": "q_auto_3e8a36e0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: От Турция е.)",
+      "answer": "Türkiye’dendir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_4d9e616c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Türkiye’dendir.)",
+      "answer": "От Турция е.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_3f010f2e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Родена е в Париж.)",
+      "answer": "Paris’te doğmuştur.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_144719db",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Paris’te doğmuştur.)",
+      "answer": "Родена е в Париж.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_679f701f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Говори турски, френски и английски.)",
+      "answer": "Türkçe, Fransızca ve İngilizce konuşur.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_d5ca5bc3",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Türkçe, Fransızca ve İngilizce konuşur.)",
+      "answer": "Говори турски, френски и английски.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_26f3b914",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Иска да стане по професия зъболекар като мама и татко.)",
+      "answer": "Anne ve babası gibi meslek olarak diş hekimi olmak ister.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_06570c7e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Anne ve babası gibi meslek olarak diş hekimi olmak ister.)",
+      "answer": "Иска да стане по професия зъболекар като мама и татко.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_fb430be6",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Сега учи български език, за да учи стоматология в България.)",
+      "answer": "Şimdi Bulgaristan’da diş hekimliği okumak için Bulgarca öğreniyor.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_fafad76c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Şimdi Bulgaristan’da diş hekimliği okumak için Bulgarca öğreniyor.)",
+      "answer": "Сега учи български език, за да учи стоматология в България.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_a94086f6",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Това е трудно и затова е добре да учи много.)",
+      "answer": "Bu zordur ve bu yüzden çok çalışması iyidir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_0556fa96",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bu zordur ve bu yüzden çok çalışması iyidir.)",
+      "answer": "Това е трудно и затова е добре да учи много.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_c5a19a7a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Сутрин има пет часа лекции.)",
+      "answer": "Sabah beş saat dersi vardır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_9d474a94",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sabah beş saat dersi vardır.)",
+      "answer": "Сутрин има пет часа лекции.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_a396cb40",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Обича почивките между лекциите, защото отива до кафето с колегите.)",
+      "answer": "Dersler arasındaki molaları sever, çünkü arkadaşlarıyla kafeye gider.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_576bb101",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Dersler arasındaki molaları sever, çünkü arkadaşlarıyla kafeye gider.)",
+      "answer": "Обича почивките между лекциите, защото отива до кафето с колегите.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_5ece94bd",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Гледа българска телевизия и слуша български радиостанции, но разбира малко.)",
+      "answer": "Bulgar televizyonu izler ve Bulgar radyo istasyonlarını dinler ama az anlar.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_54830281",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bulgar televizyonu izler ve Bulgar radyo istasyonlarını dinler ama az anlar.)",
+      "answer": "Гледа българска телевизия и слуша български радиостанции, но разбира малко.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_00e05a83",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: В България много неща са различни.)",
+      "answer": "Bulgaristan’da birçok şey farklıdır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_59448c49",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bulgaristan’da birçok şey farklıdır.)",
+      "answer": "В България много неща са различни.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_8ce75ad2",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Но и в Турция, и в България хората са любезни, четат много и учат езици.)",
+      "answer": "Ama hem Türkiye’de hem Bulgaristan’da insanlar naziktir, çok okurlar ve diller öğrenirler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır. / Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_3da38a20",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Ama hem Türkiye’de hem Bulgaristan’da insanlar naziktir, çok okurlar ve diller öğrenirler.)",
+      "answer": "Но и в Турция, и в България хората са любезни, четат много и учат езици.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır. / Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_93c43e30",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Той се казва Мурат.)",
+      "answer": "Onun adı Murat’tır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_2322381b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Onun adı Murat’tır.)",
+      "answer": "Той се казва Мурат.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_0a9aa4e8",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: В момента е студент в Тракийския университет в град Одрин.)",
+      "answer": "Şu anda Edirne şehrindeki Trakya Üniversitesinde öğrencidir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_014490ea",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Şu anda Edirne şehrindeki Trakya Üniversitesinde öğrencidir.)",
+      "answer": "В момента е студент в Тракийския университет в град Одрин.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_69f4daf1",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Има колеги от Истанбул, Бурса, Измир, Антакия, Такирдаг.)",
+      "answer": "İstanbul, Bursa, İzmir, Antakya ve Tekirdağ’dan arkadaşları vardır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_2a7cdb22",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: İstanbul, Bursa, İzmir, Antakya ve Tekirdağ’dan arkadaşları vardır.)",
+      "answer": "Има колеги от Истанбул, Бурса, Измир, Антакия, Такирдаг.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_a661ccf0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Сега учи български език.)",
+      "answer": "Şimdi Bulgarca öğreniyor.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_8ec9bcaf",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Şimdi Bulgarca öğreniyor.)",
+      "answer": "Сега учи български език.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_91785dc2",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Всеки ден има лекции сутрин и следобед.)",
+      "answer": "Her gün sabah ve öğleden sonra dersleri vardır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_3bc22992",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Her gün sabah ve öğleden sonra dersleri vardır.)",
+      "answer": "Всеки ден има лекции сутрин и следобед.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_830ff8a5",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Много е зает. Няма време.)",
+      "answer": "Çok meşguldür. Vakti yoktur.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_33cedf6f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Çok meşguldür. Vakti yoktur.)",
+      "answer": "Много е зает. Няма време.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_4aa1643e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Има много книги, но не може да ги прочете, защото сега интензивно учи български език.)",
+      "answer": "Çok kitabı vardır ama onları okuyamaz, çünkü şimdi yoğun biçimde Bulgarca öğreniyor.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_7812be7b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Çok kitabı vardır ama onları okuyamaz, çünkü şimdi yoğun biçimde Bulgarca öğreniyor.)",
+      "answer": "Има много книги, но не може да ги прочете, защото сега интензивно учи български език.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_f5d1c2a9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Има приятели от Франция, Италия, Русия и САЩ.)",
+      "answer": "Fransa, İtalya, Rusya ve ABD’den arkadaşları vardır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_c87aa4ef",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Fransa, İtalya, Rusya ve ABD’den arkadaşları vardır.)",
+      "answer": "Има приятели от Франция, Италия, Русия и САЩ.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_1ae80f67",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Мари е французойка, Ана е рускиня, Лучия е италианка, Джон е американец.)",
+      "answer": "Mari Fransız kadın, Ana Rus kadın, Luçiya İtalyan kadın, John Amerikalıdır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki J sesi Bulgarcada Ж ile yazılır. / Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_0e905ea0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Mari Fransız kadın, Ana Rus kadın, Luçiya İtalyan kadın, John Amerikalıdır.)",
+      "answer": "Мари е французойка, Ана е рускиня, Лучия е италианка, Джон е американец.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki J sesi Bulgarcada Ж ile yazılır. / Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_272b236d",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Те са с различни професии.)",
+      "answer": "Onlar farklı mesleklere sahiptir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_aff8b094",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Onlar farklı mesleklere sahiptir.)",
+      "answer": "Те са с различни професии.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_67aab0a4",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Ана е преводачка, Лучия е секретарка, Мари е моделиерка, а Джон е компютърен специалист.)",
+      "answer": "Ana çevirmen, Luçiya sekreter, Mari modelist, John ise bilgisayar uzmanıdır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki J sesi Bulgarcada Ж ile yazılır. / Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_3cf620e5",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Ana çevirmen, Luçiya sekreter, Mari modelist, John ise bilgisayar uzmanıdır.)",
+      "answer": "Ана е преводачка, Лучия е секретарка, Мари е моделиерка, а Джон е компютърен специалист.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki J sesi Bulgarcada Ж ile yazılır. / Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_aa3e45db",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Той има фирма.)",
+      "answer": "Onun bir firması vardır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_40c33643",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Onun bir firması vardır.)",
+      "answer": "Той има фирма.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7730cec9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Има приятели и от България.)",
+      "answer": "Bulgaristan’dan da arkadaşları vardır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_cc9586a2",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bulgaristan’dan da arkadaşları vardır.)",
+      "answer": "Има приятели и от България.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_67cc960f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Това са Мария и Иван. Те са семейство.)",
+      "answer": "Bunlar Maria ve İvan’dır. Onlar ailedir/evli çifttir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_cbf73736",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bunlar Maria ve İvan’dır. Onlar ailedir/evli çifttir.)",
+      "answer": "Това са Мария и Иван. Те са семейство.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_bbb008f0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Мария е преподавателка, а Иван сега е бизнесмен.)",
+      "answer": "Maria öğretim görevlisidir, İvan ise şimdi iş insanıdır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_9712a26f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Maria öğretim görevlisidir, İvan ise şimdi iş insanıdır.)",
+      "answer": "Мария е преподавателка, а Иван сега е бизнесмен.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_08220eb1",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: По професия е инженер.)",
+      "answer": "Meslek olarak mühendistir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_06268cfa",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Meslek olarak mühendistir.)",
+      "answer": "По професия е инженер.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_04e14a21",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Госпожо Николова, разрешете да Ви представя господин Попов!)",
+      "answer": "– Nikolova Hanım, size Popov Bey’i takdim etmeme izin verin!",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_0f367a00",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Nikolova Hanım, size Popov Bey’i takdim etmeme izin verin!)",
+      "answer": "– Госпожо Николова, разрешете да Ви представя господин Попов!",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6e3da1cc",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Приятно ми е, Николова.)",
+      "answer": "– Memnun oldum, Nikolova.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_07b7dc6b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Memnun oldum, Nikolova.)",
+      "answer": "– Приятно ми е, Николова.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6b58e504",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Вие българка ли сте?)",
+      "answer": "– Siz Bulgar kadın mısınız?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_d32dd749",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Siz Bulgar kadın mısınız?)",
+      "answer": "– Вие българка ли сте?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_3638575d",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Не, рускиня.)",
+      "answer": "– Hayır, Rus kadınıyım.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_5301c0d2",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Hayır, Rus kadınıyım.)",
+      "answer": "– Не, рускиня.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ea186038",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Много хубаво говорите български.)",
+      "answer": "– Bulgarcayı çok güzel konuşuyorsunuz.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ce381527",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Bulgarcayı çok güzel konuşuyorsunuz.)",
+      "answer": "– Много хубаво говорите български.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_87715cc0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Майка ми е българка.)",
+      "answer": "– Annem Bulgar kadınıdır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_e835e7e6",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Annem Bulgar kadınıdır.)",
+      "answer": "– Майка ми е българка.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_8afc4a39",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Какво правите в София? На екскурзия ли сте?)",
+      "answer": "– Sofya’da ne yapıyorsunuz? Gezide misiniz?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_eb4e97f2",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Sofya’da ne yapıyorsunuz? Gezide misiniz?)",
+      "answer": "– Какво правите в София? На екскурзия ли сте?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_5110d31f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Студентка съм. Следвам българска филология в Софийския университет „Св. Климент Охридски“.)",
+      "answer": "– Öğrenciyim. Sofya Üniversitesi “Aziz Kliment Ohridski”de Bulgar Filolojisi okuyorum.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_4a5f8c6a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Öğrenciyim. Sofya Üniversitesi “Aziz Kliment Ohridski”de Bulgar Filolojisi okuyorum.)",
+      "answer": "– Студентка съм. Следвам българска филология в Софийския университет „Св. Климент Охридски“.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_a5d94ed9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – В кой курс сте?)",
+      "answer": "– Hangi sınıftasınız / kurstasınız?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_f534ea00",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Hangi sınıftasınız / kurstasınız?)",
+      "answer": "– В кой курс сте?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_15c43239",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – В първи. Вие също ли сте студент?)",
+      "answer": "– Birincideyim. Siz de öğrenci misiniz?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_494f4c7e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Birincideyim. Siz de öğrenci misiniz?)",
+      "answer": "– В първи. Вие също ли сте студент?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_2991edc0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Да. Аз следвам в Инженерно-строителния институт.)",
+      "answer": "– Evet. Ben Mühendislik-İnşaat Enstitüsünde okuyorum.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_43f9787c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Evet. Ben Mühendislik-İnşaat Enstitüsünde okuyorum.)",
+      "answer": "– Да. Аз следвам в Инженерно-строителния институт.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_cbeba6dc",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Значи искате да станете строителен инженер.)",
+      "answer": "– Demek inşaat mühendisi olmak istiyorsunuz.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_1685b74d",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Demek inşaat mühendisi olmak istiyorsunuz.)",
+      "answer": "– Значи искате да станете строителен инженер.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_3a21879f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Не, ще бъда архитект. Всъщност аз следвам архитектура.)",
+      "answer": "– Hayır, mimar olacağım. Aslında mimarlık okuyorum.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_e2c49870",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Hayır, mimar olacağım. Aslında mimarlık okuyorum.)",
+      "answer": "– Не, ще бъда архитект. Всъщност аз следвам архитектура.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_75403ea1",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – А родителите Ви какви са?)",
+      "answer": "– Peki anne babanız ne iş yapıyor?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_fb9c9612",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Peki anne babanız ne iş yapıyor?)",
+      "answer": "– А родителите Ви какви са?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_a70d2f66",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Баща ми е учител, майка ми е лекарка, дядо ми е строител.)",
+      "answer": "– Babam öğretmen, annem doktor, dedem inşaatçıdır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_c96a345b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Babam öğretmen, annem doktor, dedem inşaatçıdır.)",
+      "answer": "– Баща ми е учител, майка ми е лекарка, дядо ми е строител.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_00fb896a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – И моят баща е лекар, но майка ми е медицинска сестра.)",
+      "answer": "– Benim babam da doktor, ama annem hemşiredir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6cbb2d96",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Benim babam da doktor, ama annem hemşiredir.)",
+      "answer": "– И моят баща е лекар, но майка ми е медицинска сестра.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_dba3603b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Работят в една болница. Аз искам да стана учителка по литература.)",
+      "answer": "– Bir hastanede çalışıyorlar. Ben edebiyat öğretmeni olmak istiyorum.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_3a615380",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Bir hastanede çalışıyorlar. Ben edebiyat öğretmeni olmak istiyorum.)",
+      "answer": "– Работят в една болница. Аз искам да стана учителка по литература.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_c6f50320",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Това е много хубава професия, особено за жена.)",
+      "answer": "– Bu çok güzel bir meslek, özellikle bir kadın için.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_bdd48970",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Bu çok güzel bir meslek, özellikle bir kadın için.)",
+      "answer": "– Това е много хубава професия, особено за жена.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_4f6fb372",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Брат ми също следва, но той учи в Икономическия институт.)",
+      "answer": "– Erkek kardeşim de okuyor, ama o İktisat Enstitüsünde okuyor.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_698825f3",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Erkek kardeşim de okuyor, ama o İktisat Enstitüsünde okuyor.)",
+      "answer": "– Брат ми също следва, но той учи в Икономическия институт.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_3ed26d06",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Каква специалност? Счетоводство ли?)",
+      "answer": "– Hangi bölüm? Muhasebe mi?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_31858f08",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Hangi bölüm? Muhasebe mi?)",
+      "answer": "– Каква специалност? Счетоводство ли?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_b69feddb",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Да, обаче той не иска да бъде счетоводител.)",
+      "answer": "– Evet, ancak o muhasebeci olmak istemiyor.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_75c06aff",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Evet, ancak o muhasebeci olmak istemiyor.)",
+      "answer": "– Да, обаче той не иска да бъде счетоводител.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_f1306728",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Мечтае да стане бизнесмен или банкер.)",
+      "answer": "– İş insanı veya bankacı olmayı hayal ediyor.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_5dc541b4",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – İş insanı veya bankacı olmayı hayal ediyor.)",
+      "answer": "– Мечтае да стане бизнесмен или банкер.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_72b7b7d1",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Моята сестра е художничка, но работи като моделиер в една модна къща.)",
+      "answer": "– Benim kız kardeşim ressamdır, ama bir moda evinde modelist olarak çalışıyor.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_3da4f599",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Benim kız kardeşim ressamdır, ama bir moda evinde modelist olarak çalışıyor.)",
+      "answer": "– Моята сестра е художничка, но работи като моделиер в една модна къща.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_cffb35cd",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Преди това беше аранжьор, после стана дизайнер.)",
+      "answer": "– Bundan önce vitrin/dekor düzenleyicisiydi, sonra tasarımcı oldu.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ö sesi bazı kelimelerde yumuşatma işaretli ьо ile gösterilir."
+    },
+    {
+      "id": "q_auto_cb6ef6a9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Bundan önce vitrin/dekor düzenleyicisiydi, sonra tasarımcı oldu.)",
+      "answer": "– Преди това беше аранжьор, после стана дизайнер.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ö sesi bazı kelimelerde yumuşatma işaretli ьо ile gösterilir."
+    },
+    {
+      "id": "q_auto_78a1e3cd",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Аз имам колежка, която също работи в модна къща, но тя е шивачка.)",
+      "answer": "– Benim de moda evinde çalışan bir kadın arkadaşım var, ama o terzidir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ş sesi Bulgarcada genellikle Ш ile yazılır. / Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_27cd2600",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Benim de moda evinde çalışan bir kadın arkadaşım var, ama o terzidir.)",
+      "answer": "– Аз имам колежка, която също работи в модна къща, но тя е шивачка.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ş sesi Bulgarcada genellikle Ш ile yazılır. / Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_7eec28bc",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – И аз работя в свободното време като продавачка в един магазин за облекло.)",
+      "answer": "– Ben de boş zamanımda bir giyim mağazasında satıcı olarak çalışıyorum.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_23482165",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Ben de boş zamanımda bir giyim mağazasında satıcı olarak çalışıyorum.)",
+      "answer": "– И аз работя в свободното време като продавачка в един магазин за облекло.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_37581767",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – А пък аз работя като сервитьор в един нощен ресторант.)",
+      "answer": "– Ben ise bir gece restoranında garson olarak çalışıyorum.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_da8edbba",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Ben ise bir gece restoranında garson olarak çalışıyorum.)",
+      "answer": "– А пък аз работя като сервитьор в един нощен ресторант.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_e7078936",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Много мои колеги работят: един е книжар, друг е вестникар, трети е печатар.)",
+      "answer": "– Birçok arkadaşım çalışıyor: biri kitapçı, diğeri gazete satıcısı, üçüncüsü matbaacıdır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_59065f44",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Birçok arkadaşım çalışıyor: biri kitapçı, diğeri gazete satıcısı, üçüncüsü matbaacıdır.)",
+      "answer": "– Много мои колеги работят: един е книжар, друг е вестникар, трети е печатар.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_e8f3fcc6",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Сред тях има таксиметров шофьор, ватман, редактор в печатница.)",
+      "answer": "– Aralarında taksi şoförü, tramvay sürücüsü, matbaada editör vardır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ş sesi Bulgarcada genellikle Ш ile yazılır. / Ö sesi bazı kelimelerde yumuşatma işaretli ьо ile gösterilir."
+    },
+    {
+      "id": "q_auto_6cf90bdb",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Aralarında taksi şoförü, tramvay sürücüsü, matbaada editör vardır.)",
+      "answer": "– Сред тях има таксиметров шофьор, ватман, редактор в печатница.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ş sesi Bulgarcada genellikle Ш ile yazılır. / Ö sesi bazı kelimelerde yumuşatma işaretli ьо ile gösterilir."
+    },
+    {
+      "id": "q_auto_db0e4e10",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Две от колежките работят във фризьорски салон – едната е маникюристка, а другата – фризьорка.)",
+      "answer": "– Kadın arkadaşlardan ikisi kuaför salonunda çalışıyor; biri manikürcü, diğeri kuaför.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ö sesi bazı kelimelerde yumuşatma işaretli ьо ile gösterilir. / Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_3b529840",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Kadın arkadaşlardan ikisi kuaför salonunda çalışıyor; biri manikürcü, diğeri kuaför.)",
+      "answer": "– Две от колежките работят във фризьорски салон – едната е маникюристка, а другата – фризьорка.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ö sesi bazı kelimelerde yumuşatma işaretli ьо ile gösterilir. / Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_5ace8867",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Една позната от Медицинска академия е санитарка в болница.)",
+      "answer": "– Tıp Akademisinden bir tanıdık hastanede hasta bakıcı/temizlik görevlisidir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_beb1c081",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Tıp Akademisinden bir tanıdık hastanede hasta bakıcı/temizlik görevlisidir.)",
+      "answer": "– Една позната от Медицинска академия е санитарка в болница.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7d9cfb74",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Моята приятелка следва журналистика и вече е репортер в един столичен вестник.)",
+      "answer": "– Benim kız arkadaşım gazetecilik okuyor ve şimdiden başkentteki bir gazetede muhabirdir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_456e8976",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Benim kız arkadaşım gazetecilik okuyor ve şimdiden başkentteki bir gazetede muhabirdir.)",
+      "answer": "– Моята приятелка следва журналистика и вече е репортер в един столичен вестник.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_10ebc242",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Да, в големите градове могат да се срещнат хора с различни професии.)",
+      "answer": "– Evet, büyük şehirlerde farklı mesleklerden insanlarla karşılaşılabilir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_8c968042",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Evet, büyük şehirlerde farklı mesleklerden insanlarla karşılaşılabilir.)",
+      "answer": "– Да, в големите градове могат да се срещнат хора с различни професии.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_5df17d1f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Е, радвам се, че се запознахме! Надявам се, скоро да се видим!)",
+      "answer": "– Tanıştığımıza sevindim! Umarım yakında görüşürüz!",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_cbf9d9b0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Tanıştığımıza sevindim! Umarım yakında görüşürüz!)",
+      "answer": "– Е, радвам се, че се запознахме! Надявам се, скоро да се видим!",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_9c2e50c4",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Може би! Светът е малък!)",
+      "answer": "– Belki! Dünya küçüktür!",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_1b856ba6",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Belki! Dünya küçüktür!)",
+      "answer": "– Може би! Светът е малък!",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_3c755274",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Запишете ми телефона, ако обичате и ми се обадете, когато имате възможност.)",
+      "answer": "– Lütfen telefonumu yazın ve fırsatınız olduğunda beni arayın.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_efe50424",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Lütfen telefonumu yazın ve fırsatınız olduğunda beni arayın.)",
+      "answer": "– Запишете ми телефона, ако обичате и ми се обадете, когато имате възможност.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_054a70e6",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Елате ми на гости.)",
+      "answer": "– Bana misafirliğe gelin.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7e822942",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Bana misafirliğe gelin.)",
+      "answer": "– Елате ми на гости.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_27365844",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Благодаря! До скоро.)",
+      "answer": "– Teşekkürler! Yakında görüşürüz.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_53d75ae9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Teşekkürler! Yakında görüşürüz.)",
+      "answer": "– Благодаря! До скоро.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7c251bd2",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: – Довиждане!)",
+      "answer": "– Hoşça kalın!",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ea9b03ea",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: – Hoşça kalın!)",
+      "answer": "– Довиждане!",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_66e4d211",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: На северозапад Турция граничи с България и Гърция, а на североизток с Грузия и Армения.)",
+      "answer": "Türkiye kuzeybatıda Bulgaristan ve Yunanistan ile, kuzeydoğuda ise Gürcistan ve Ermenistan ile sınır komşusudur.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_82564e79",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Türkiye kuzeybatıda Bulgaristan ve Yunanistan ile, kuzeydoğuda ise Gürcistan ve Ermenistan ile sınır komşusudur.)",
+      "answer": "На северозапад Турция граничи с България и Гърция, а на североизток с Грузия и Армения.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_1d34c8c1",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: На изток тя граничи с Иран и на югоизток с Ирак и Сирия.)",
+      "answer": "Doğuda İran ile, güneydoğuda Irak ve Suriye ile sınır komşusudur.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_954ae2bb",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Doğuda İran ile, güneydoğuda Irak ve Suriye ile sınır komşusudur.)",
+      "answer": "На изток тя граничи с Иран и на югоизток с Ирак и Сирия.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_513e9473",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: От север Турция е обградена от Черно море и от Мраморно море.)",
+      "answer": "Türkiye kuzeyden Karadeniz ve Marmara Denizi ile çevrilidir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_6701b329",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Türkiye kuzeyden Karadeniz ve Marmara Denizi ile çevrilidir.)",
+      "answer": "От север Турция е обградена от Черно море и от Мраморно море.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
+    },
+    {
+      "id": "q_auto_adfca3d2",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: На запад е Егейско море, а на юг граничи със Средиземно море.)",
+      "answer": "Batıda Ege Denizi vardır, güneyde ise Akdeniz ile sınır/deniz komşuluğu vardır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_88e81969",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Batıda Ege Denizi vardır, güneyde ise Akdeniz ile sınır/deniz komşuluğu vardır.)",
+      "answer": "На запад е Егейско море, а на юг граничи със Средиземно море.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_b6c6f5e8",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: На запад България граничи със Сърбия и Македония.)",
+      "answer": "Bulgaristan batıda Sırbistan ve Makedonya ile sınır komşusudur.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_079464b9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bulgaristan batıda Sırbistan ve Makedonya ile sınır komşusudur.)",
+      "answer": "На запад България граничи със Сърбия и Македония.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_a2ac90fc",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: На изток е Черно море.)",
+      "answer": "Doğuda Karadeniz vardır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_15ca6cb9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Doğuda Karadeniz vardır.)",
+      "answer": "На изток е Черно море.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_5b4ce9cc",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: На север тя има обща граница с Румъния, а на юг нейни съседи са Турция и Гърция.)",
+      "answer": "Kuzeyde Romanya ile ortak sınırı vardır; güneyde komşuları Türkiye ve Yunanistan’dır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_c7e8a058",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Kuzeyde Romanya ile ortak sınırı vardır; güneyde komşuları Türkiye ve Yunanistan’dır.)",
+      "answer": "На север тя има обща граница с Румъния, а на юг нейни съседи са Турция и Гърция.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır."
+    },
+    {
+      "id": "q_auto_e22bac16",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Г-ца Севил е от Измир.)",
+      "answer": "Откъде е г-ца Севил?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Sevil Hanım İzmir’dendir."
+    },
+    {
+      "id": "q_auto_96f16a2c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Откъде е г-ца Севил?)",
+      "answer": "Г-ца Севил е от Измир.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Sevil Hanım İzmir’dendir."
+    },
+    {
+      "id": "q_auto_86c12847",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Г-н Бюлент е от Турция, от Истанбул.)",
+      "answer": "Откъде е г-н Бюлент?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Bülent Bey Türkiye’den, İstanbul’dandır."
+    },
+    {
+      "id": "q_auto_1031d00f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Откъде е г-н Бюлент?)",
+      "answer": "Г-н Бюлент е от Турция, от Истанбул.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Bülent Bey Türkiye’den, İstanbul’dandır."
+    },
+    {
+      "id": "q_auto_08873dda",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Г-ца Джеврие е от Одрин.)",
+      "answer": "Откъде е г-ца Джеврие?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Cevriye Hanım Edirne’dendir."
+    },
+    {
+      "id": "q_auto_b468e503",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Откъде е г-ца Джеврие?)",
+      "answer": "Г-ца Джеврие е от Одрин.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Cevriye Hanım Edirne’dendir."
+    },
+    {
+      "id": "q_auto_2f51637e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Проф. Райнов е от България, от София.)",
+      "answer": "Откъде е проф. Райнов?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Prof. Raynov Bulgaristan’dan, Sofya’dandır."
+    },
+    {
+      "id": "q_auto_605da4ed",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Откъде е проф. Райнов?)",
+      "answer": "Проф. Райнов е от България, от София.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Prof. Raynov Bulgaristan’dan, Sofya’dandır."
+    },
+    {
+      "id": "q_auto_0d6324c3",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Те са студенти.)",
+      "answer": "Какви са Джеврие, Севил и Бюлент?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Onlar öğrencidir."
+    },
+    {
+      "id": "q_auto_b3e45c4b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Какви са Джеврие, Севил и Бюлент?)",
+      "answer": "Те са студенти.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Onlar öğrencidir."
+    },
+    {
+      "id": "q_auto_07f4fcc9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Професор Райнов е преподавателят по български език.)",
+      "answer": "Кой е преподавателят по български език?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Bulgarca öğretmeni Profesör Raynov’dur."
+    },
+    {
+      "id": "q_auto_dd65525e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Кой е преподавателят по български език?)",
+      "answer": "Професор Райнов е преподавателят по български език.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Bulgarca öğretmeni Profesör Raynov’dur."
+    },
+    {
+      "id": "q_auto_1f340ca3",
+      "type": "translation",
+      "sentence": "Avusturya ülkesinin Bulgarcası:",
+      "answer": "Австрия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_9b19b826",
+      "type": "translation",
+      "sentence": "Австрия ülkesinin Türkçesi:",
+      "answer": "Avusturya",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_73bb59b5",
+      "type": "translation",
+      "sentence": "Avusturya vatandaşı (erkek):",
+      "answer": "австриец",
+      "hint": "Avusturya erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_7ed69cd1",
+      "type": "translation",
+      "sentence": "Avusturya vatandaşı (kadın):",
+      "answer": "австрийка",
+      "hint": "Avusturya kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_93c14488",
+      "type": "translation",
+      "sentence": "Avusturya vatandaşları (çoğul):",
+      "answer": "австрийци",
+      "hint": "Avusturya milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_6340f9a7",
+      "type": "translation",
+      "sentence": "Arnavutluk ülkesinin Bulgarcası:",
+      "answer": "Албания",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_88761e5d",
+      "type": "translation",
+      "sentence": "Албания ülkesinin Türkçesi:",
+      "answer": "Arnavutluk",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_818aca31",
+      "type": "translation",
+      "sentence": "Arnavutluk vatandaşı (erkek):",
+      "answer": "албанец",
+      "hint": "Arnavutluk erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_5bbf7f64",
+      "type": "translation",
+      "sentence": "Arnavutluk vatandaşı (kadın):",
+      "answer": "албанка",
+      "hint": "Arnavutluk kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_29e1abc5",
+      "type": "translation",
+      "sentence": "Arnavutluk vatandaşları (çoğul):",
+      "answer": "албанци",
+      "hint": "Arnavutluk milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_e2246fb6",
+      "type": "translation",
+      "sentence": "İngiltere ülkesinin Bulgarcası:",
+      "answer": "Англия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_e172fac1",
+      "type": "translation",
+      "sentence": "Англия ülkesinin Türkçesi:",
+      "answer": "İngiltere",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_d35817a4",
+      "type": "translation",
+      "sentence": "İngiltere vatandaşı (erkek):",
+      "answer": "англичанин",
+      "hint": "İngiltere erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_32ddf7e8",
+      "type": "translation",
+      "sentence": "İngiltere vatandaşı (kadın):",
+      "answer": "англичанка",
+      "hint": "İngiltere kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_277f6c1a",
+      "type": "translation",
+      "sentence": "İngiltere vatandaşları (çoğul):",
+      "answer": "англичани",
+      "hint": "İngiltere milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_b48dd902",
+      "type": "translation",
+      "sentence": "Belçika ülkesinin Bulgarcası:",
+      "answer": "Белгия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ddae754e",
+      "type": "translation",
+      "sentence": "Белгия ülkesinin Türkçesi:",
+      "answer": "Belçika",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7b43bbf0",
+      "type": "translation",
+      "sentence": "Belçika vatandaşı (erkek):",
+      "answer": "белгиец",
+      "hint": "Belçika erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_1f534f14",
+      "type": "translation",
+      "sentence": "Belçika vatandaşı (kadın):",
+      "answer": "белгийка",
+      "hint": "Belçika kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_5bc8367a",
+      "type": "translation",
+      "sentence": "Belçika vatandaşları (çoğul):",
+      "answer": "белгийци",
+      "hint": "Belçika milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_fb294977",
+      "type": "translation",
+      "sentence": "Brezilya ülkesinin Bulgarcası:",
+      "answer": "Бразилия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_4f5f22ec",
+      "type": "translation",
+      "sentence": "Бразилия ülkesinin Türkçesi:",
+      "answer": "Brezilya",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_c77ee726",
+      "type": "translation",
+      "sentence": "Brezilya vatandaşı (erkek):",
+      "answer": "бразилец",
+      "hint": "Brezilya erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_33172d84",
+      "type": "translation",
+      "sentence": "Brezilya vatandaşı (kadın):",
+      "answer": "бразилка",
+      "hint": "Brezilya kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_aebc8a1d",
+      "type": "translation",
+      "sentence": "Brezilya vatandaşları (çoğul):",
+      "answer": "бразилци",
+      "hint": "Brezilya milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_e5185a7a",
+      "type": "translation",
+      "sentence": "Bulgaristan ülkesinin Bulgarcası:",
+      "answer": "България",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_29a01d26",
+      "type": "translation",
+      "sentence": "България ülkesinin Türkçesi:",
+      "answer": "Bulgaristan",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_fba96a22",
+      "type": "translation",
+      "sentence": "Bulgaristan vatandaşı (erkek):",
+      "answer": "българин",
+      "hint": "Bulgaristan erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_db804647",
+      "type": "translation",
+      "sentence": "Bulgaristan vatandaşı (kadın):",
+      "answer": "българка",
+      "hint": "Bulgaristan kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_53fa87c9",
+      "type": "translation",
+      "sentence": "Bulgaristan vatandaşları (çoğul):",
+      "answer": "българи",
+      "hint": "Bulgaristan milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_283ac78f",
+      "type": "translation",
+      "sentence": "Almanya ülkesinin Bulgarcası:",
+      "answer": "Германия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_27a0eb84",
+      "type": "translation",
+      "sentence": "Германия ülkesinin Türkçesi:",
+      "answer": "Almanya",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6d0ac456",
+      "type": "translation",
+      "sentence": "Almanya vatandaşı (erkek):",
+      "answer": "германец",
+      "hint": "Almanya erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_097dbac4",
+      "type": "translation",
+      "sentence": "Almanya vatandaşı (kadın):",
+      "answer": "германка",
+      "hint": "Almanya kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_5d17e405",
+      "type": "translation",
+      "sentence": "Almanya vatandaşları (çoğul):",
+      "answer": "германци",
+      "hint": "Almanya milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_c29b2156",
+      "type": "translation",
+      "sentence": "Yunanistan ülkesinin Bulgarcası:",
+      "answer": "Гърция",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7ff258b4",
+      "type": "translation",
+      "sentence": "Гърция ülkesinin Türkçesi:",
+      "answer": "Yunanistan",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_4ec8d9b1",
+      "type": "translation",
+      "sentence": "Yunanistan vatandaşı (erkek):",
+      "answer": "грък",
+      "hint": "Yunanistan erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_28c17102",
+      "type": "translation",
+      "sentence": "Yunanistan vatandaşı (kadın):",
+      "answer": "гъркиня",
+      "hint": "Yunanistan kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_751bd613",
+      "type": "translation",
+      "sentence": "Yunanistan vatandaşları (çoğul):",
+      "answer": "гърци",
+      "hint": "Yunanistan milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_8a224384",
+      "type": "translation",
+      "sentence": "Danimarka ülkesinin Bulgarcası:",
+      "answer": "Дания",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_f8ae3d73",
+      "type": "translation",
+      "sentence": "Дания ülkesinin Türkçesi:",
+      "answer": "Danimarka",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_f530bd12",
+      "type": "translation",
+      "sentence": "Danimarka vatandaşı (erkek):",
+      "answer": "датчанин",
+      "hint": "Danimarka erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_17b5cd7b",
+      "type": "translation",
+      "sentence": "Danimarka vatandaşı (kadın):",
+      "answer": "датчанка",
+      "hint": "Danimarka kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_d1c67836",
+      "type": "translation",
+      "sentence": "Danimarka vatandaşları (çoğul):",
+      "answer": "датчани",
+      "hint": "Danimarka milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_e8f24881",
+      "type": "translation",
+      "sentence": "Mısır ülkesinin Bulgarcası:",
+      "answer": "Египет",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ffc3d4e7",
+      "type": "translation",
+      "sentence": "Египет ülkesinin Türkçesi:",
+      "answer": "Mısır",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_d3209181",
+      "type": "translation",
+      "sentence": "Mısır vatandaşı (erkek):",
+      "answer": "египтянин",
+      "hint": "Mısır erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_18b54337",
+      "type": "translation",
+      "sentence": "Mısır vatandaşı (kadın):",
+      "answer": "египтянка",
+      "hint": "Mısır kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_e158b97d",
+      "type": "translation",
+      "sentence": "Mısır vatandaşları (çoğul):",
+      "answer": "египтяни",
+      "hint": "Mısır milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_c32bf164",
+      "type": "translation",
+      "sentence": "Hindistan ülkesinin Bulgarcası:",
+      "answer": "Индия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_8579cc7e",
+      "type": "translation",
+      "sentence": "Индия ülkesinin Türkçesi:",
+      "answer": "Hindistan",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_b73a4a28",
+      "type": "translation",
+      "sentence": "Hindistan vatandaşı (erkek):",
+      "answer": "индиец",
+      "hint": "Hindistan erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_fd1f61c5",
+      "type": "translation",
+      "sentence": "Hindistan vatandaşı (kadın):",
+      "answer": "индийка",
+      "hint": "Hindistan kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_13cc6484",
+      "type": "translation",
+      "sentence": "Hindistan vatandaşları (çoğul):",
+      "answer": "индийци",
+      "hint": "Hindistan milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_5d3d37f5",
+      "type": "translation",
+      "sentence": "Endonezya ülkesinin Bulgarcası:",
+      "answer": "Индонезия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_8aadc417",
+      "type": "translation",
+      "sentence": "Индонезия ülkesinin Türkçesi:",
+      "answer": "Endonezya",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_c0b679eb",
+      "type": "translation",
+      "sentence": "Endonezya vatandaşı (erkek):",
+      "answer": "индонезиец",
+      "hint": "Endonezya erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_bb7dd741",
+      "type": "translation",
+      "sentence": "Endonezya vatandaşı (kadın):",
+      "answer": "индонезийка",
+      "hint": "Endonezya kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_a12a03ec",
+      "type": "translation",
+      "sentence": "Endonezya vatandaşları (çoğul):",
+      "answer": "индонезийци",
+      "hint": "Endonezya milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_186d122c",
+      "type": "translation",
+      "sentence": "Irak ülkesinin Bulgarcası:",
+      "answer": "Ирак",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_eb04e821",
+      "type": "translation",
+      "sentence": "Ирак ülkesinin Türkçesi:",
+      "answer": "Irak",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_db38773d",
+      "type": "translation",
+      "sentence": "Irak vatandaşı (erkek):",
+      "answer": "иракчанин",
+      "hint": "Irak erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_cda4a28a",
+      "type": "translation",
+      "sentence": "Irak vatandaşı (kadın):",
+      "answer": "иракчанка",
+      "hint": "Irak kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_977bee06",
+      "type": "translation",
+      "sentence": "Irak vatandaşları (çoğul):",
+      "answer": "иракчани",
+      "hint": "Irak milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_13714c72",
+      "type": "translation",
+      "sentence": "İzlanda ülkesinin Bulgarcası:",
+      "answer": "Исландия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_612b88bc",
+      "type": "translation",
+      "sentence": "Исландия ülkesinin Türkçesi:",
+      "answer": "İzlanda",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_8590c2d1",
+      "type": "translation",
+      "sentence": "İzlanda vatandaşı (erkek):",
+      "answer": "исландец",
+      "hint": "İzlanda erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_e2ba148e",
+      "type": "translation",
+      "sentence": "İzlanda vatandaşı (kadın):",
+      "answer": "исландка",
+      "hint": "İzlanda kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_0010895e",
+      "type": "translation",
+      "sentence": "İzlanda vatandaşları (çoğul):",
+      "answer": "исландци",
+      "hint": "İzlanda milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_3a194794",
+      "type": "translation",
+      "sentence": "İspanya ülkesinin Bulgarcası:",
+      "answer": "Испания",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_47e17f26",
+      "type": "translation",
+      "sentence": "Испания ülkesinin Türkçesi:",
+      "answer": "İspanya",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_20bca97c",
+      "type": "translation",
+      "sentence": "İspanya vatandaşı (erkek):",
+      "answer": "испанец",
+      "hint": "İspanya erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_825ee00f",
+      "type": "translation",
+      "sentence": "İspanya vatandaşı (kadın):",
+      "answer": "испанка",
+      "hint": "İspanya kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_5980af75",
+      "type": "translation",
+      "sentence": "İspanya vatandaşları (çoğul):",
+      "answer": "испанци",
+      "hint": "İspanya milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_9d9648c6",
+      "type": "translation",
+      "sentence": "İtalya ülkesinin Bulgarcası:",
+      "answer": "Италия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_97649015",
+      "type": "translation",
+      "sentence": "Италия ülkesinin Türkçesi:",
+      "answer": "İtalya",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7a52d054",
+      "type": "translation",
+      "sentence": "İtalya vatandaşı (erkek):",
+      "answer": "италианец",
+      "hint": "İtalya erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_dd31cb79",
+      "type": "translation",
+      "sentence": "İtalya vatandaşı (kadın):",
+      "answer": "италианка",
+      "hint": "İtalya kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_b7d6a487",
+      "type": "translation",
+      "sentence": "İtalya vatandaşları (çoğul):",
+      "answer": "италианци",
+      "hint": "İtalya milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_a300765d",
+      "type": "translation",
+      "sentence": "Kanada ülkesinin Bulgarcası:",
+      "answer": "Канада",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_5831f4e2",
+      "type": "translation",
+      "sentence": "Канада ülkesinin Türkçesi:",
+      "answer": "Kanada",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_07155f54",
+      "type": "translation",
+      "sentence": "Kanada vatandaşı (erkek):",
+      "answer": "канадец",
+      "hint": "Kanada erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_40018fb4",
+      "type": "translation",
+      "sentence": "Kanada vatandaşı (kadın):",
+      "answer": "канадка",
+      "hint": "Kanada kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_ec17b872",
+      "type": "translation",
+      "sentence": "Kanada vatandaşları (çoğul):",
+      "answer": "канадци",
+      "hint": "Kanada milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_719d2453",
+      "type": "translation",
+      "sentence": "Çin ülkesinin Bulgarcası:",
+      "answer": "Китай",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_043d2d4b",
+      "type": "translation",
+      "sentence": "Китай ülkesinin Türkçesi:",
+      "answer": "Çin",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_0b254625",
+      "type": "translation",
+      "sentence": "Çin vatandaşı (erkek):",
+      "answer": "китаец",
+      "hint": "Çin erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_927daa23",
+      "type": "translation",
+      "sentence": "Çin vatandaşı (kadın):",
+      "answer": "китайка",
+      "hint": "Çin kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_8cef3332",
+      "type": "translation",
+      "sentence": "Çin vatandaşları (çoğul):",
+      "answer": "китайци",
+      "hint": "Çin milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_2d1b8f37",
+      "type": "translation",
+      "sentence": "Kore ülkesinin Bulgarcası:",
+      "answer": "Корея",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_e9760180",
+      "type": "translation",
+      "sentence": "Корея ülkesinin Türkçesi:",
+      "answer": "Kore",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_264d90ed",
+      "type": "translation",
+      "sentence": "Kore vatandaşı (erkek):",
+      "answer": "кореец",
+      "hint": "Kore erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_ccae67f5",
+      "type": "translation",
+      "sentence": "Kore vatandaşı (kadın):",
+      "answer": "корейка",
+      "hint": "Kore kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_75981b2c",
+      "type": "translation",
+      "sentence": "Kore vatandaşları (çoğul):",
+      "answer": "корейци",
+      "hint": "Kore milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_08a588b7",
+      "type": "translation",
+      "sentence": "Libya ülkesinin Bulgarcası:",
+      "answer": "Либия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_c99e5ac2",
+      "type": "translation",
+      "sentence": "Либия ülkesinin Türkçesi:",
+      "answer": "Libya",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_c1dd7a98",
+      "type": "translation",
+      "sentence": "Libya vatandaşı (erkek):",
+      "answer": "либиец",
+      "hint": "Libya erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_b66e0847",
+      "type": "translation",
+      "sentence": "Libya vatandaşı (kadın):",
+      "answer": "либийка",
+      "hint": "Libya kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_ebbd8715",
+      "type": "translation",
+      "sentence": "Libya vatandaşları (çoğul):",
+      "answer": "либийци",
+      "hint": "Libya milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_bc46fff6",
+      "type": "translation",
+      "sentence": "Lübnan ülkesinin Bulgarcası:",
+      "answer": "Ливан",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_837e9742",
+      "type": "translation",
+      "sentence": "Ливан ülkesinin Türkçesi:",
+      "answer": "Lübnan",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_e576f24d",
+      "type": "translation",
+      "sentence": "Lübnan vatandaşı (erkek):",
+      "answer": "ливанец",
+      "hint": "Lübnan erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_013e0b82",
+      "type": "translation",
+      "sentence": "Lübnan vatandaşı (kadın):",
+      "answer": "ливанка",
+      "hint": "Lübnan kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_0921b2b1",
+      "type": "translation",
+      "sentence": "Lübnan vatandaşları (çoğul):",
+      "answer": "ливанци",
+      "hint": "Lübnan milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_5c79fa98",
+      "type": "translation",
+      "sentence": "Fas ülkesinin Bulgarcası:",
+      "answer": "Мароко",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7e706574",
+      "type": "translation",
+      "sentence": "Мароко ülkesinin Türkçesi:",
+      "answer": "Fas",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7ce389b1",
+      "type": "translation",
+      "sentence": "Fas vatandaşı (erkek):",
+      "answer": "мароканец",
+      "hint": "Fas erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_294936c3",
+      "type": "translation",
+      "sentence": "Fas vatandaşı (kadın):",
+      "answer": "мароканка",
+      "hint": "Fas kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_399889b4",
+      "type": "translation",
+      "sentence": "Fas vatandaşları (çoğul):",
+      "answer": "мароканци",
+      "hint": "Fas milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_e0b09ebc",
+      "type": "translation",
+      "sentence": "Yeni Zelanda ülkesinin Bulgarcası:",
+      "answer": "Нова Зеландия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_275596d2",
+      "type": "translation",
+      "sentence": "Нова Зеландия ülkesinin Türkçesi:",
+      "answer": "Yeni Zelanda",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_897dce63",
+      "type": "translation",
+      "sentence": "Yeni Zelanda vatandaşı (erkek):",
+      "answer": "новозеландец",
+      "hint": "Yeni Zelanda erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_610d576a",
+      "type": "translation",
+      "sentence": "Yeni Zelanda vatandaşı (kadın):",
+      "answer": "новозеландка",
+      "hint": "Yeni Zelanda kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_4ead6546",
+      "type": "translation",
+      "sentence": "Yeni Zelanda vatandaşları (çoğul):",
+      "answer": "новозеландци",
+      "hint": "Yeni Zelanda milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_2a616e32",
+      "type": "translation",
+      "sentence": "Norveç ülkesinin Bulgarcası:",
+      "answer": "Норвегия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6daa508a",
+      "type": "translation",
+      "sentence": "Норвегия ülkesinin Türkçesi:",
+      "answer": "Norveç",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_d6689e9e",
+      "type": "translation",
+      "sentence": "Norveç vatandaşı (erkek):",
+      "answer": "норвежец",
+      "hint": "Norveç erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_af5d85c9",
+      "type": "translation",
+      "sentence": "Norveç vatandaşı (kadın):",
+      "answer": "норвежка",
+      "hint": "Norveç kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_dc257438",
+      "type": "translation",
+      "sentence": "Norveç vatandaşları (çoğul):",
+      "answer": "норвежци",
+      "hint": "Norveç milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_9a1c03de",
+      "type": "translation",
+      "sentence": "Polonya ülkesinin Bulgarcası:",
+      "answer": "Полша",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_d3c2d92d",
+      "type": "translation",
+      "sentence": "Полша ülkesinin Türkçesi:",
+      "answer": "Polonya",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_b28dd559",
+      "type": "translation",
+      "sentence": "Polonya vatandaşı (erkek):",
+      "answer": "поляк",
+      "hint": "Polonya erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_bcc8fa45",
+      "type": "translation",
+      "sentence": "Polonya vatandaşı (kadın):",
+      "answer": "полякиня",
+      "hint": "Polonya kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_9acd03e6",
+      "type": "translation",
+      "sentence": "Polonya vatandaşları (çoğul):",
+      "answer": "поляци",
+      "hint": "Polonya milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_8531d7ff",
+      "type": "translation",
+      "sentence": "Portekiz ülkesinin Bulgarcası:",
+      "answer": "Португалия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7fe92488",
+      "type": "translation",
+      "sentence": "Португалия ülkesinin Türkçesi:",
+      "answer": "Portekiz",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_b101c0fa",
+      "type": "translation",
+      "sentence": "Portekiz vatandaşı (erkek):",
+      "answer": "португалец",
+      "hint": "Portekiz erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_92c19390",
+      "type": "translation",
+      "sentence": "Portekiz vatandaşı (kadın):",
+      "answer": "португалка",
+      "hint": "Portekiz kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_bdf3d0a0",
+      "type": "translation",
+      "sentence": "Portekiz vatandaşları (çoğul):",
+      "answer": "португалци",
+      "hint": "Portekiz milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_388b359c",
+      "type": "translation",
+      "sentence": "Romanya ülkesinin Bulgarcası:",
+      "answer": "Румъния",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_8fd18603",
+      "type": "translation",
+      "sentence": "Румъния ülkesinin Türkçesi:",
+      "answer": "Romanya",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_072a498a",
+      "type": "translation",
+      "sentence": "Romanya vatandaşı (erkek):",
+      "answer": "румънец",
+      "hint": "Romanya erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_d0a2a214",
+      "type": "translation",
+      "sentence": "Romanya vatandaşı (kadın):",
+      "answer": "румънка",
+      "hint": "Romanya kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_5280ec17",
+      "type": "translation",
+      "sentence": "Romanya vatandaşları (çoğul):",
+      "answer": "румънци",
+      "hint": "Romanya milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_153f5159",
+      "type": "translation",
+      "sentence": "Rusya ülkesinin Bulgarcası:",
+      "answer": "Русия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_fba18758",
+      "type": "translation",
+      "sentence": "Русия ülkesinin Türkçesi:",
+      "answer": "Rusya",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_2eccf10f",
+      "type": "translation",
+      "sentence": "Rusya vatandaşı (erkek):",
+      "answer": "руснак",
+      "hint": "Rusya erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_65d08d19",
+      "type": "translation",
+      "sentence": "Rusya vatandaşı (kadın):",
+      "answer": "рускиня",
+      "hint": "Rusya kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_2a279f30",
+      "type": "translation",
+      "sentence": "Rusya vatandaşları (çoğul):",
+      "answer": "руснаци",
+      "hint": "Rusya milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_e07694dd",
+      "type": "translation",
+      "sentence": "Suriye ülkesinin Bulgarcası:",
+      "answer": "Сирия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_82c22abe",
+      "type": "translation",
+      "sentence": "Сирия ülkesinin Türkçesi:",
+      "answer": "Suriye",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_8473c537",
+      "type": "translation",
+      "sentence": "Suriye vatandaşı (erkek):",
+      "answer": "сириец",
+      "hint": "Suriye erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_4c2cfc6f",
+      "type": "translation",
+      "sentence": "Suriye vatandaşı (kadın):",
+      "answer": "сирийка",
+      "hint": "Suriye kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_3b358411",
+      "type": "translation",
+      "sentence": "Suriye vatandaşları (çoğul):",
+      "answer": "сирийци",
+      "hint": "Suriye milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_f116708f",
+      "type": "translation",
+      "sentence": "Amerika Birleşik Devletleri ülkesinin Bulgarcası:",
+      "answer": "САЩ",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ef7f1ec9",
+      "type": "translation",
+      "sentence": "САЩ ülkesinin Türkçesi:",
+      "answer": "Amerika Birleşik Devletleri",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_1f879c07",
+      "type": "translation",
+      "sentence": "Amerika Birleşik Devletleri vatandaşı (erkek):",
+      "answer": "американец",
+      "hint": "Amerika Birleşik Devletleri erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_fa92c2b2",
+      "type": "translation",
+      "sentence": "Amerika Birleşik Devletleri vatandaşı (kadın):",
+      "answer": "американка",
+      "hint": "Amerika Birleşik Devletleri kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_835698aa",
+      "type": "translation",
+      "sentence": "Amerika Birleşik Devletleri vatandaşları (çoğul):",
+      "answer": "американци",
+      "hint": "Amerika Birleşik Devletleri milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_391602e4",
+      "type": "translation",
+      "sentence": "Sırbistan ülkesinin Bulgarcası:",
+      "answer": "Сърбия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_17248fd3",
+      "type": "translation",
+      "sentence": "Сърбия ülkesinin Türkçesi:",
+      "answer": "Sırbistan",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_eb5b8207",
+      "type": "translation",
+      "sentence": "Sırbistan vatandaşı (erkek):",
+      "answer": "сърбин",
+      "hint": "Sırbistan erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_25893181",
+      "type": "translation",
+      "sentence": "Sırbistan vatandaşı (kadın):",
+      "answer": "сръбкиня",
+      "hint": "Sırbistan kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_5b26e181",
+      "type": "translation",
+      "sentence": "Sırbistan vatandaşları (çoğul):",
+      "answer": "сърби",
+      "hint": "Sırbistan milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_8dd07ad3",
+      "type": "translation",
+      "sentence": "Türkiye ülkesinin Bulgarcası:",
+      "answer": "Турция",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_daf36946",
+      "type": "translation",
+      "sentence": "Турция ülkesinin Türkçesi:",
+      "answer": "Türkiye",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_165b3c62",
+      "type": "translation",
+      "sentence": "Türkiye vatandaşı (erkek):",
+      "answer": "турчин",
+      "hint": "Türkiye erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_82c56207",
+      "type": "translation",
+      "sentence": "Türkiye vatandaşı (kadın):",
+      "answer": "туркиня",
+      "hint": "Türkiye kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_1a013f14",
+      "type": "translation",
+      "sentence": "Türkiye vatandaşları (çoğul):",
+      "answer": "турци",
+      "hint": "Türkiye milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_0b9eb7e9",
+      "type": "translation",
+      "sentence": "Macaristan ülkesinin Bulgarcası:",
+      "answer": "Унгария",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_92920242",
+      "type": "translation",
+      "sentence": "Унгария ülkesinin Türkçesi:",
+      "answer": "Macaristan",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6b9bcf21",
+      "type": "translation",
+      "sentence": "Macaristan vatandaşı (erkek):",
+      "answer": "унгарец",
+      "hint": "Macaristan erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_fa8a14cc",
+      "type": "translation",
+      "sentence": "Macaristan vatandaşı (kadın):",
+      "answer": "унгарка",
+      "hint": "Macaristan kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_6e0ea6e5",
+      "type": "translation",
+      "sentence": "Macaristan vatandaşları (çoğul):",
+      "answer": "унгарци",
+      "hint": "Macaristan milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_1dc42df5",
+      "type": "translation",
+      "sentence": "Finlandiya ülkesinin Bulgarcası:",
+      "answer": "Финландия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ddca3800",
+      "type": "translation",
+      "sentence": "Финландия ülkesinin Türkçesi:",
+      "answer": "Finlandiya",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_fc01c9fe",
+      "type": "translation",
+      "sentence": "Finlandiya vatandaşı (erkek):",
+      "answer": "финландец",
+      "hint": "Finlandiya erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_ab72f224",
+      "type": "translation",
+      "sentence": "Finlandiya vatandaşı (kadın):",
+      "answer": "финландка",
+      "hint": "Finlandiya kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_6320eeb4",
+      "type": "translation",
+      "sentence": "Finlandiya vatandaşları (çoğul):",
+      "answer": "финландци",
+      "hint": "Finlandiya milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_808fe115",
+      "type": "translation",
+      "sentence": "Fransa ülkesinin Bulgarcası:",
+      "answer": "Франция",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_717b6d30",
+      "type": "translation",
+      "sentence": "Франция ülkesinin Türkçesi:",
+      "answer": "Fransa",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6d9ebca9",
+      "type": "translation",
+      "sentence": "Fransa vatandaşı (erkek):",
+      "answer": "французин",
+      "hint": "Fransa erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_2acbda05",
+      "type": "translation",
+      "sentence": "Fransa vatandaşı (kadın):",
+      "answer": "французойка",
+      "hint": "Fransa kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_c7425a70",
+      "type": "translation",
+      "sentence": "Fransa vatandaşları (çoğul):",
+      "answer": "французи",
+      "hint": "Fransa milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_b89ae528",
+      "type": "translation",
+      "sentence": "Hollanda ülkesinin Bulgarcası:",
+      "answer": "Холандия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_3072f9e1",
+      "type": "translation",
+      "sentence": "Холандия ülkesinin Türkçesi:",
+      "answer": "Hollanda",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_d196fda8",
+      "type": "translation",
+      "sentence": "Hollanda vatandaşı (erkek):",
+      "answer": "холандец",
+      "hint": "Hollanda erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_2d1f7793",
+      "type": "translation",
+      "sentence": "Hollanda vatandaşı (kadın):",
+      "answer": "холандка",
+      "hint": "Hollanda kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_4b406115",
+      "type": "translation",
+      "sentence": "Hollanda vatandaşları (çoğul):",
+      "answer": "холандци",
+      "hint": "Hollanda milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_ce5bedbe",
+      "type": "translation",
+      "sentence": "Çekya ülkesinin Bulgarcası:",
+      "answer": "Чехия",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_839b1883",
+      "type": "translation",
+      "sentence": "Чехия ülkesinin Türkçesi:",
+      "answer": "Çekya",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_842cc607",
+      "type": "translation",
+      "sentence": "Çekya vatandaşı (erkek):",
+      "answer": "чех",
+      "hint": "Çekya erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_5187f4ab",
+      "type": "translation",
+      "sentence": "Çekya vatandaşı (kadın):",
+      "answer": "чехкиня",
+      "hint": "Çekya kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_df5abf4a",
+      "type": "translation",
+      "sentence": "Çekya vatandaşları (çoğul):",
+      "answer": "чехи",
+      "hint": "Çekya milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_3ae58a72",
+      "type": "translation",
+      "sentence": "İsviçre ülkesinin Bulgarcası:",
+      "answer": "Швейцария",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_3bc6e222",
+      "type": "translation",
+      "sentence": "Швейцария ülkesinin Türkçesi:",
+      "answer": "İsviçre",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ef2dcab3",
+      "type": "translation",
+      "sentence": "İsviçre vatandaşı (erkek):",
+      "answer": "швейцарец",
+      "hint": "İsviçre erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_42e6e792",
+      "type": "translation",
+      "sentence": "İsviçre vatandaşı (kadın):",
+      "answer": "швейцарка",
+      "hint": "İsviçre kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_6e1ff7fd",
+      "type": "translation",
+      "sentence": "İsviçre vatandaşları (çoğul):",
+      "answer": "швейцарци",
+      "hint": "İsviçre milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_ee176989",
+      "type": "translation",
+      "sentence": "İsveç ülkesinin Bulgarcası:",
+      "answer": "Швеция",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ca9d08c6",
+      "type": "translation",
+      "sentence": "Швеция ülkesinin Türkçesi:",
+      "answer": "İsveç",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7676d4bb",
+      "type": "translation",
+      "sentence": "İsveç vatandaşı (erkek):",
+      "answer": "швед",
+      "hint": "İsveç erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_3cbf72d9",
+      "type": "translation",
+      "sentence": "İsveç vatandaşı (kadın):",
+      "answer": "шведка",
+      "hint": "İsveç kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_b3eb3ed0",
+      "type": "translation",
+      "sentence": "İsveç vatandaşları (çoğul):",
+      "answer": "шведи",
+      "hint": "İsveç milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_146a8fb1",
+      "type": "translation",
+      "sentence": "Japonya ülkesinin Bulgarcası:",
+      "answer": "Япония",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ababfb04",
+      "type": "translation",
+      "sentence": "Япония ülkesinin Türkçesi:",
+      "answer": "Japonya",
+      "hint": "Ülke adını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_f2b94aa1",
+      "type": "translation",
+      "sentence": "Japonya vatandaşı (erkek):",
+      "answer": "японец",
+      "hint": "Japonya erkek milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Erkekler için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_78750638",
+      "type": "translation",
+      "sentence": "Japonya vatandaşı (kadın):",
+      "answer": "японка",
+      "hint": "Japonya kadın milliyet",
+      "lesson": "Ders 3",
+      "explanation": "Kadınlar için tekil milliyet formatı"
+    },
+    {
+      "id": "q_auto_ab4e5515",
+      "type": "translation",
+      "sentence": "Japonya vatandaşları (çoğul):",
+      "answer": "японци",
+      "hint": "Japonya milliyet çoğul",
+      "lesson": "Ders 3",
+      "explanation": "Çoğul milliyet formatı"
+    },
+    {
+      "id": "q_auto_f6356efc",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Mesleğiniz nedir?)",
+      "answer": "Каква е Вашата професия?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ef54f3bc",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Каква е Вашата професия?)",
+      "answer": "Mesleğiniz nedir?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_fa8cb8f7",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Ne iş yapıyorsunuz?)",
+      "answer": "Какво работите?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_b63c2611",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Какво работите?)",
+      "answer": "Ne iş yapıyorsunuz?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_f0ac2b6a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Nerede çalışıyorsunuz?)",
+      "answer": "Къде работите?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_8a2f4b19",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Къде работите?)",
+      "answer": "Nerede çalışıyorsunuz?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_06bd8de9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Fabrikada çalışıyorum.)",
+      "answer": "Работя в завод / фабрика.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6d04c93a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Работя в завод / фабрика.)",
+      "answer": "Fabrikada çalışıyorum.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_910ccfc9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Ne kadar maaş alıyorsunuz?)",
+      "answer": "Колко получавате?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_4dd9c70e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Колко получавате?)",
+      "answer": "Ne kadar maaş alıyorsunuz?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_abd2fd60",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Maaşınız ne kadar?)",
+      "answer": "Каква е заплатата Ви?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ee7df3f0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Каква е заплатата Ви?)",
+      "answer": "Maaşınız ne kadar?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6a578289",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Ben gazeteciyim / öğretmenim.)",
+      "answer": "Аз съм журналист / учител.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7b451503",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Аз съм журналист / учител.)",
+      "answer": "Ben gazeteciyim / öğretmenim.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_1630abd3",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Ayda 300 leva alıyorum.)",
+      "answer": "Аз получавам 300 лева на месец.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_4391c3b3",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Аз получавам 300 лева на месец.)",
+      "answer": "Ayda 300 leva alıyorum.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_8432b450",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Lütfen buraya geliniz!)",
+      "answer": "Елате тук, моля!",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_069616ac",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Елате тук, моля!)",
+      "answer": "Lütfen buraya geliniz!",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_b890ce2f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Lütfen veriniz!)",
+      "answer": "Дайте, ако обичате!",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_c7b78bd9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Дайте, ако обичате!)",
+      "answer": "Lütfen veriniz!",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_721e117b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Lütfen alınız!)",
+      "answer": "Вземете, моля!",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_65e41561",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Вземете, моля!)",
+      "answer": "Lütfen alınız!",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_70858f0c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Lütfen yazınız!)",
+      "answer": "Напишете, ако обичате!",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_c240864b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Напишете, ако обичате!)",
+      "answer": "Lütfen yazınız!",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6d08c652",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Lütfen burayı doldurunuz!)",
+      "answer": "Попълнете тук, моля!",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_9d6ca619",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Попълнете тук, моля!)",
+      "answer": "Lütfen burayı doldurunuz!",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_2f4e19a5",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bunun ne kadar olduğunu söyleyebilir misiniz?)",
+      "answer": "Бихте ли ми казали колко струва това?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ef0e96c7",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Бихте ли ми казали колко струва това?)",
+      "answer": "Bunun ne kadar olduğunu söyleyebilir misiniz?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_644f849b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Ona kadar sayabilir misiniz?)",
+      "answer": "Можете ли да броите до десет?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_2c6d9678",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Можете ли да броите до десет?)",
+      "answer": "Ona kadar sayabilir misiniz?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_8ebf28a7",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Hangi sınıf/kurstasınız? – Birincideyim.)",
+      "answer": "В кой курс сте? – В първи.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_bcfae86b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: В кой курс сте? – В първи.)",
+      "answer": "Hangi sınıf/kurstasınız? – Birincideyim.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_d7c5dece",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Doğum gününüz ne zaman?)",
+      "answer": "Кога имате рожден ден?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_d8bc0ca4",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Кога имате рожден ден?)",
+      "answer": "Doğum gününüz ne zaman?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_393b50e4",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: İyi hafta sonları!)",
+      "answer": "Приятен уикенд!",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_aece82ec",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Приятен уикенд!)",
+      "answer": "İyi hafta sonları!",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6c13faee",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Lütfen söyleyin, saat kaç?)",
+      "answer": "Кажете, моля, колко е часът?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_3572530f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Кажете, моля, колко е часът?)",
+      "answer": "Lütfen söyleyin, saat kaç?",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_fb6c8183",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bir dakika lütfen!)",
+      "answer": "Една минута, моля!",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_5302a457",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Една минута, моля!)",
+      "answer": "Bir dakika lütfen!",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_dd91ebbc",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Lütfen bekleyiniz!)",
+      "answer": "Моля, изчакайте!",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_5c085840",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Моля, изчакайте!)",
+      "answer": "Lütfen bekleyiniz!",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_126d703e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: avukat)",
+      "answer": "Адвокат",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_a6a6d20a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Адвокат)",
+      "answer": "avukat",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6933ca9b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kadın avukat)",
+      "answer": "Адвокатка",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_e31c13dd",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Адвокатка)",
+      "answer": "kadın avukat",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_5cc6527d",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: sanatçı / erkek oyuncu)",
+      "answer": "Артист / Актьор",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_985d2f6f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Артист / Актьор)",
+      "answer": "sanatçı / erkek oyuncu",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_4b7dd54e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kadın sanatçı / kadın oyuncu)",
+      "answer": "Артистка / Актриса",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7ab66e45",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Артистка / Актриса)",
+      "answer": "kadın sanatçı / kadın oyuncu",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_2a243a83",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: ressam / sanatçı)",
+      "answer": "Художник",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_bb19a3e1",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Художник)",
+      "answer": "ressam / sanatçı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_69d3eb52",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kadın ressam)",
+      "answer": "Художничка",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_f3cf2454",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Художничка)",
+      "answer": "kadın ressam",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_58e30cb6",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: hukukçu)",
+      "answer": "Юрист / Правист",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_a63edfc0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Юрист / Правист)",
+      "answer": "hukukçu",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_dbf38cac",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kadın hukukçu)",
+      "answer": "Юристка",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_d8bedff1",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Юристка)",
+      "answer": "kadın hukukçu",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_d0244394",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: doktor / hekim)",
+      "answer": "Лекар",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_14bbfd40",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Лекар)",
+      "answer": "doktor / hekim",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_167ad2b2",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kadın doktor)",
+      "answer": "Лекарка",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_a618c2bb",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Лекарка)",
+      "answer": "kadın doktor",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_fca83883",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: diş hekimi)",
+      "answer": "Зъболекар / стоматолог",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_4bcf2f10",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Зъболекар / стоматолог)",
+      "answer": "diş hekimi",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_bb45d0ac",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kadın diş hekimi)",
+      "answer": "Зъболекарка",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_69253255",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Зъболекарка)",
+      "answer": "kadın diş hekimi",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_1786e699",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: ziraat mühendisi)",
+      "answer": "Агроном",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_b36498c4",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Агроном)",
+      "answer": "ziraat mühendisi",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7915b284",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: botanikçi)",
+      "answer": "Ботаник",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_adbf9214",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Ботаник)",
+      "answer": "botanikçi",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ffd31588",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: boyacı)",
+      "answer": "Бояджия",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_1d9a4fa2",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Бояджия)",
+      "answer": "boyacı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_5b730965",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: berber)",
+      "answer": "Бръснар",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_443f2a58",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Бръснар)",
+      "answer": "berber",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6639926a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: aşçı)",
+      "answer": "Готвач",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_b96c6674",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Готвач)",
+      "answer": "aşçı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_de2a7ee0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: ev hanımı)",
+      "answer": "Домакиня",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_19c46cc5",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Домакиня)",
+      "answer": "ev hanımı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6c910594",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: marangoz)",
+      "answer": "Дърводелец",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_b6d3f4e9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Дърводелец)",
+      "answer": "marangoz",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_c922f6c1",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: erkek rehber)",
+      "answer": "Екскурзовод",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_11fa01e7",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Екскурзовод)",
+      "answer": "erkek rehber",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_45d56177",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kadın rehber)",
+      "answer": "Екскурзоводка",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_e51e3563",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Екскурзоводка)",
+      "answer": "kadın rehber",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_170b1784",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: uzman)",
+      "answer": "Експерт",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_c492df9d",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Експерт)",
+      "answer": "uzman",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_2f7b9917",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kaynakçı)",
+      "answer": "Електроженист",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_de0b0567",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Електроженист)",
+      "answer": "kaynakçı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_0d9cd81f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: gazeteci)",
+      "answer": "Журналист",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_250cf33f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Журналист)",
+      "answer": "gazeteci",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_46f98d53",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kadın gazeteci)",
+      "answer": "Журналистка",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_b954ae9d",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Журналистка)",
+      "answer": "kadın gazeteci",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_16fc931f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: iktisatçı / ekonomist)",
+      "answer": "Икономист",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_1725ad46",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Икономист)",
+      "answer": "iktisatçı / ekonomist",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_46684180",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: mühendis)",
+      "answer": "Инженер",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_1bb5fc5f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Инженер)",
+      "answer": "mühendis",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_708698de",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: film yönetmeni)",
+      "answer": "Кинорежисьор",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_67dbf278",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Кинорежисьор)",
+      "answer": "film yönetmeni",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_b9e8c2fa",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: demirci)",
+      "answer": "Ковач",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_4c5c1ffa",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Ковач)",
+      "answer": "demirci",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6f8b3ed0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: bilgisayar uzmanı)",
+      "answer": "Компютърен специалист",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_23b3fbd4",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Компютърен специалист)",
+      "answer": "bilgisayar uzmanı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_4671c26e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kondüktör)",
+      "answer": "Кондуктор",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_b3ed4992",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Кондуктор)",
+      "answer": "kondüktör",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_46ddfb0a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: dökümcü)",
+      "answer": "Леяр",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_15d14898",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Леяр)",
+      "answer": "dökümcü",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_76250b77",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: mobilyacı)",
+      "answer": "Мебелист",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_d61d3c9e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Мебелист)",
+      "answer": "mobilyacı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_0b699e03",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: yönetici)",
+      "answer": "Мениджър",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7490de78",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Мениджър)",
+      "answer": "yönetici",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_f831c6c1",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: mekanikçi)",
+      "answer": "Механик",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_243a750d",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Механик)",
+      "answer": "mekanikçi",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_5402e6da",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: modacı / modelist)",
+      "answer": "Моделиер",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_53193df0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Моделиер)",
+      "answer": "modacı / modelist",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_81239f68",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kadın modelist)",
+      "answer": "Моделиерка",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_f7df73bd",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Моделиерка)",
+      "answer": "kadın modelist",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_d647ced9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: müzisyen)",
+      "answer": "Музикант",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_b27b310b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Музикант)",
+      "answer": "müzisyen",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_d3ff26dc",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: ayakkabıcı)",
+      "answer": "Обущар",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_109f5030",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Обущар)",
+      "answer": "ayakkabıcı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_736d9b27",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: erkek şarkıcı)",
+      "answer": "Певец",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6fd4608d",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Певец)",
+      "answer": "erkek şarkıcı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_661ca602",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kadın şarkıcı)",
+      "answer": "Певица",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ab4c65c6",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Певица)",
+      "answer": "kadın şarkıcı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_08ba076b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: fırıncı)",
+      "answer": "Пекар",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6213634a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Пекар)",
+      "answer": "fırıncı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_a37ae11d",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: yazar)",
+      "answer": "Писател",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_90b88293",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Писател)",
+      "answer": "yazar",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_77888493",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kadın yazar)",
+      "answer": "Писателка",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_dac3922d",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Писателка)",
+      "answer": "kadın yazar",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_c033133c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: şair)",
+      "answer": "Поет",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_12a5ae8a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Поет)",
+      "answer": "şair",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_7a9e4f70",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kadın şair)",
+      "answer": "Поетеса",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_e407b8bf",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Поетеса)",
+      "answer": "kadın şair",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_be611e8b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: erkek çevirmen)",
+      "answer": "Преводач",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_91018d8b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Преводач)",
+      "answer": "erkek çevirmen",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_2c6b3981",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kadın çevirmen)",
+      "answer": "Преводачка",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_1f5e98cb",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Преводачка)",
+      "answer": "kadın çevirmen",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_a7b5d96b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: işçi)",
+      "answer": "Работник",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_bf426e72",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Работник)",
+      "answer": "işçi",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_cfa308e1",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kadın işçi)",
+      "answer": "Работничка",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_a8426720",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Работничка)",
+      "answer": "kadın işçi",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6b3cb589",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: editör)",
+      "answer": "Редактор",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_700dc52a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Редактор)",
+      "answer": "editör",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_cde8ddce",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: balıkçı)",
+      "answer": "Рибар",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_b59f29e3",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Рибар)",
+      "answer": "balıkçı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_72e8274e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: köylü erkek)",
+      "answer": "Селянин",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_1ba6a51b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Селянин)",
+      "answer": "köylü erkek",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_d31a8b18",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: köylü kadın)",
+      "answer": "Селянка",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_8a5f1144",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Селянка)",
+      "answer": "köylü kadın",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_df05a177",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: memur / çalışan)",
+      "answer": "Служител",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_65bf5a1e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Служител)",
+      "answer": "memur / çalışan",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_cc5cacbb",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kadın memur / çalışan)",
+      "answer": "Служителка",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_d6159b0a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Служителка)",
+      "answer": "kadın memur / çalışan",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_a9af82ad",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: inşaatçı)",
+      "answer": "Строител",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_90f7e0a0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Строител)",
+      "answer": "inşaatçı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_5d9852ca",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: muhasebeci)",
+      "answer": "Счетоводител",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_c078a690",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Счетоводител)",
+      "answer": "muhasebeci",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_1ea4e8c9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: erkek öğretmen)",
+      "answer": "Учител",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_892f3374",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Учител)",
+      "answer": "erkek öğretmen",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_86d63a75",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kadın öğretmen)",
+      "answer": "Учителка",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_b73b5d24",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Учителка)",
+      "answer": "kadın öğretmen",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_a1b2d3c0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: finansçı)",
+      "answer": "Финансист",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_4e4e8bfb",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Финансист)",
+      "answer": "finansçı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_51f0ffa4",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kimyager)",
+      "answer": "Химик",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_efb143cc",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Химик)",
+      "answer": "kimyager",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_60d8326c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: saatçi)",
+      "answer": "Часовникар",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_e144678f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Часовникар)",
+      "answer": "saatçi",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_ca112c3b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: erkek terzi)",
+      "answer": "Шивач",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_3cb4d20c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Шивач)",
+      "answer": "erkek terzi",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_01dd12e3",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kadın terzi)",
+      "answer": "Шивачка",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_1eae6f7d",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Шивачка)",
+      "answer": "kadın terzi",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_9171fc8e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: şoför)",
+      "answer": "Шофьор",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_dbc0bd9a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Шофьор)",
+      "answer": "şoför",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_4ae81f0c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Райна и Иван са студенти.)",
+      "answer": "Какви са Райна и Иван?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Rayna ve İvan öğrencidir."
+    },
+    {
+      "id": "q_auto_dd6027fc",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Какви са Райна и Иван?)",
+      "answer": "Райна и Иван са студенти.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Rayna ve İvan öğrencidir."
+    },
+    {
+      "id": "q_auto_03afc054",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Българи живеят в Канада, Австралия, Германия и на много други места.)",
+      "answer": "Къде живеят българи?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Bulgarlar Kanada, Avustralya, Almanya ve daha birçok yerde yaşar."
+    },
+    {
+      "id": "q_auto_3fe09224",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Къде живеят българи?)",
+      "answer": "Българи живеят в Канада, Австралия, Германия и на много други места.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Bulgarlar Kanada, Avustralya, Almanya ve daha birçok yerde yaşar."
+    },
+    {
+      "id": "q_auto_451e34f3",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Аз съм турчин/туркиня и съм от Турция.)",
+      "answer": "Какъв сте Вие и откъде сте?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ben Türküm ve Türkiye’denim."
+    },
+    {
+      "id": "q_auto_d6c7cb99",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Какъв сте Вие и откъде сте?)",
+      "answer": "Аз съм турчин/туркиня и съм от Турция.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "Ben Türküm ve Türkiye’denim."
+    },
+    {
+      "id": "q_auto_ef5d0dd3",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: учителка)",
+      "answer": "учител",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "öğretmen"
+    },
+    {
+      "id": "q_auto_37418a42",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: учител)",
+      "answer": "учителка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "öğretmen"
+    },
+    {
+      "id": "q_auto_c20d6027",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: преподавателка)",
+      "answer": "преподавател",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "öğretim görevlisi"
+    },
+    {
+      "id": "q_auto_767654ea",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: преподавател)",
+      "answer": "преподавателка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "öğretim görevlisi"
+    },
+    {
+      "id": "q_auto_47dca47d",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: адвокатка)",
+      "answer": "адвокат",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "avukat"
+    },
+    {
+      "id": "q_auto_df83890b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: адвокат)",
+      "answer": "адвокатка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "avukat"
+    },
+    {
+      "id": "q_auto_f39a31c2",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: юристка)",
+      "answer": "юрист",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "hukukçu"
+    },
+    {
+      "id": "q_auto_76d5a5c4",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: юрист)",
+      "answer": "юристка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "hukukçu"
+    },
+    {
+      "id": "q_auto_fae71c10",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: лекарка)",
+      "answer": "лекар",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "doktor"
+    },
+    {
+      "id": "q_auto_cae30b76",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: лекар)",
+      "answer": "лекарка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "doktor"
+    },
+    {
+      "id": "q_auto_beba9032",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: художничка)",
+      "answer": "художник",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "ressam"
+    },
+    {
+      "id": "q_auto_e39a318b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: художник)",
+      "answer": "художничка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "ressam"
+    },
+    {
+      "id": "q_auto_d6bca9fa",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: скулпторка)",
+      "answer": "скулптор",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "heykeltıraş"
+    },
+    {
+      "id": "q_auto_a9436e7e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: скулптор)",
+      "answer": "скулпторка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "heykeltıraş"
+    },
+    {
+      "id": "q_auto_60a7c069",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: преводачка)",
+      "answer": "преводач",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "çevirmen"
+    },
+    {
+      "id": "q_auto_a7fca2ad",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: преводач)",
+      "answer": "преводачка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "çevirmen"
+    },
+    {
+      "id": "q_auto_02bfe519",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: екскурзоводка)",
+      "answer": "екскурзовод",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "rehber"
+    },
+    {
+      "id": "q_auto_c49adf28",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: екскурзовод)",
+      "answer": "екскурзоводка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "rehber"
+    },
+    {
+      "id": "q_auto_9779847f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: икономистка)",
+      "answer": "икономист",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "ekonomist"
+    },
+    {
+      "id": "q_auto_16ffdc63",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: икономист)",
+      "answer": "икономистка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "ekonomist"
+    },
+    {
+      "id": "q_auto_8c12e152",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: счетоводителка)",
+      "answer": "счетоводител",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "muhasebeci"
+    },
+    {
+      "id": "q_auto_f8ae3308",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: счетоводител)",
+      "answer": "счетоводителка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "muhasebeci"
+    },
+    {
+      "id": "q_auto_1e1f871b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: финансистка)",
+      "answer": "финансист",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "finansçı"
+    },
+    {
+      "id": "q_auto_6178c1d0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: финансист)",
+      "answer": "финансистка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "finansçı"
+    },
+    {
+      "id": "q_auto_24bdb1de",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: журналистка)",
+      "answer": "журналист",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "gazeteci"
+    },
+    {
+      "id": "q_auto_6bd9bf2c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: журналист)",
+      "answer": "журналистка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "gazeteci"
+    },
+    {
+      "id": "q_auto_7a12df02",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: секретарка)",
+      "answer": "секретар",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "sekreter"
+    },
+    {
+      "id": "q_auto_e1cd0dfc",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: секретар)",
+      "answer": "секретарка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "sekreter"
+    },
+    {
+      "id": "q_auto_38b4c60e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: архитектка)",
+      "answer": "архитект",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "mimar"
+    },
+    {
+      "id": "q_auto_4487fd24",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: архитект)",
+      "answer": "архитектка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "mimar"
+    },
+    {
+      "id": "q_auto_a05021e7",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: инженер)",
+      "answer": "инженер",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "mühendis (kadında da aynı kullanılabilir)"
+    },
+    {
+      "id": "q_auto_239c1273",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: инженер)",
+      "answer": "инженер",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "mühendis (kadında da aynı kullanılabilir)"
+    },
+    {
+      "id": "q_auto_010acb8a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: служителка)",
+      "answer": "служител",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "memur/çalışan"
+    },
+    {
+      "id": "q_auto_288bf0ca",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: служител)",
+      "answer": "служителка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "memur/çalışan"
+    },
+    {
+      "id": "q_auto_7e576f31",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: чиновничка)",
+      "answer": "чиновник",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "memur"
+    },
+    {
+      "id": "q_auto_e7dec32f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: чиновник)",
+      "answer": "чиновничка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "memur"
+    },
+    {
+      "id": "q_auto_de795eb4",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: продавачка)",
+      "answer": "продавач",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "satıcı"
+    },
+    {
+      "id": "q_auto_3495a003",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: продавач)",
+      "answer": "продавачка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "satıcı"
+    },
+    {
+      "id": "q_auto_5f218464",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: мениджър)",
+      "answer": "мениджър",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "yönetici"
+    },
+    {
+      "id": "q_auto_33b32738",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: мениджър)",
+      "answer": "мениджър",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "yönetici"
+    },
+    {
+      "id": "q_auto_9f4d0b0b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: дърводелец)",
+      "answer": "дърводелец",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "marangoz"
+    },
+    {
+      "id": "q_auto_608cbb4c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: дърводелец)",
+      "answer": "дърводелец",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "marangoz"
+    },
+    {
+      "id": "q_auto_3477ac8e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: шивачка)",
+      "answer": "шивач",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "terzi"
+    },
+    {
+      "id": "q_auto_9575028e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: шивач)",
+      "answer": "шивачка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "terzi"
+    },
+    {
+      "id": "q_auto_e9e8973f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: моделиерка)",
+      "answer": "моделиер",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "modelist"
+    },
+    {
+      "id": "q_auto_9b7d8a3e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: моделиер)",
+      "answer": "моделиерка",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "modelist"
+    },
+    {
+      "id": "q_auto_5c33a5ad",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: домакиня)",
+      "answer": "домакин",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "ev sahibi/ev hanımı"
+    },
+    {
+      "id": "q_auto_957e55c2",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: домакин)",
+      "answer": "домакиня",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "ev sahibi/ev hanımı"
+    },
+    {
+      "id": "q_auto_c599cd24",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: шофьор)",
+      "answer": "шофьор",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "şoför"
+    },
+    {
+      "id": "q_auto_c95652eb",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: шофьор)",
+      "answer": "шофьор",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3",
+      "explanation": "şoför"
+    },
+    {
+      "id": "q_auto_b653b958",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Trakya)",
+      "answer": "Тракия",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_3edff577",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Тракия)",
+      "answer": "Trakya",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_c36ac2a7",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: pencereler)",
+      "answer": "прозорци",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_8d4b4584",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: прозорци)",
+      "answer": "pencereler",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6a19240b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: dersler)",
+      "answer": "лекции",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_0b5917d5",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: лекции)",
+      "answer": "dersler",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_9c1e71a7",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: içiyorum)",
+      "answer": "пия",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_57cb6861",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: пия)",
+      "answer": "içiyorum",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_9d40bf0a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: doğu)",
+      "answer": "изток",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_4a8d7fcf",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: изток)",
+      "answer": "doğu",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_210de8d8",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: batı)",
+      "answer": "запад",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_2b51122a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: запад)",
+      "answer": "batı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_bffd9456",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: yürüyorum)",
+      "answer": "вървя",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_6d1f00d9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: вървя)",
+      "answer": "yürüyorum",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_793522be",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: dönüyorum)",
+      "answer": "завивам",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_0c53cbbe",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: завивам)",
+      "answer": "dönüyorum",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_75220fc6",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: kitaplar)",
+      "answer": "книги",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_9d7c97b5",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: книги)",
+      "answer": "kitaplar",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_780c28b0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: oda)",
+      "answer": "стая",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_cb50eb0a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: стая)",
+      "answer": "oda",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_2fb341ee",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: koltuk)",
+      "answer": "фотьойл",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_89121c8e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: фотьойл)",
+      "answer": "koltuk",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_91f630e7",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: şoför)",
+      "answer": "шофьор",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_c3f96407",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: шофьор)",
+      "answer": "şoför",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_cd1779ce",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: şehir)",
+      "answer": "град",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 3"
+    },
+    {
+      "id": "q_auto_157dc3da",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: град)",
+      "answer": "şehir",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 3"
+    }
+  ]
+}
