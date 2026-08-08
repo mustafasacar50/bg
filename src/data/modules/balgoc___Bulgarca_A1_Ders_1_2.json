@@ -676,14 +676,16 @@
       "type": "translation",
       "sentence": "MORFOLOJİ (morfoloji) kelimesinin Bulgarca yazılışı:",
       "answer": "морфология",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_204359ef",
       "type": "translation",
       "sentence": "морфология kelimesinin Türkçe anlamı:",
       "answer": "MORFOLOJİ (morfoloji)",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_673fdeb1",
@@ -704,28 +706,32 @@
       "type": "translation",
       "sentence": "ZOOLOJİ (zooloji) kelimesinin Bulgarca yazılışı:",
       "answer": "зоология",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_d83addbe",
       "type": "translation",
       "sentence": "зоология kelimesinin Türkçe anlamı:",
       "answer": "ZOOLOJİ (zooloji)",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_f506cff5",
       "type": "translation",
       "sentence": "HİDROLOJİ (hidroloji) kelimesinin Bulgarca yazılışı:",
       "answer": "хидрология",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_cc7212a6",
       "type": "translation",
       "sentence": "хидрология kelimesinin Türkçe anlamı:",
       "answer": "HİDROLOJİ (hidroloji)",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_f36cbdd6",
@@ -760,14 +766,16 @@
       "type": "translation",
       "sentence": "ANTOLOJİ (antoloji) kelimesinin Bulgarca yazılışı:",
       "answer": "антология",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_555741c9",
       "type": "translation",
       "sentence": "антология kelimesinin Türkçe anlamı:",
       "answer": "ANTOLOJİ (antoloji)",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_5d7fc606",
@@ -1079,7 +1087,7 @@
       "sentence": "NÖROLOJİ (nöroloji) kelimesinin Bulgarca yazılışı:",
       "answer": "неврология",
       "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır."
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır. Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır."
     },
     {
       "id": "q_auto_b8bc05bf",
@@ -1087,7 +1095,7 @@
       "sentence": "неврология kelimesinin Türkçe anlamı:",
       "answer": "NÖROLOJİ (nöroloji)",
       "hint": "Türkçe karşılığını yazınız",
-      "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır."
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır. Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır."
     },
     {
       "id": "q_auto_96c02019",
@@ -1598,28 +1606,32 @@
       "type": "translation",
       "sentence": "BİYOLOJİ (biyoloji) kelimesinin Bulgarca yazılışı:",
       "answer": "биология",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_c452edec",
       "type": "translation",
       "sentence": "биология kelimesinin Türkçe anlamı:",
       "answer": "BİYOLOJİ (biyoloji)",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_216670b4",
       "type": "translation",
       "sentence": "AGROBİYOLOJİ (agrobiyoloji) kelimesinin Bulgarca yazılışı:",
       "answer": "агробиология",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_c31b576a",
       "type": "translation",
       "sentence": "агробиология kelimesinin Türkçe anlamı:",
       "answer": "AGROBİYOLOJİ (agrobiyoloji)",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_fa0d8315",
@@ -2168,14 +2180,16 @@
       "type": "translation",
       "sentence": "KRONOLOJİ (kronoloji) kelimesinin Bulgarca yazılışı:",
       "answer": "хронология",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_b32601f5",
       "type": "translation",
       "sentence": "хронология kelimesinin Türkçe anlamı:",
       "answer": "KRONOLOJİ (kronoloji)",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_dfb2ce0d",
@@ -2210,14 +2224,16 @@
       "type": "translation",
       "sentence": "PSİKOLOJİ (psikoloji) kelimesinin Bulgarca yazılışı:",
       "answer": "психология",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_b64084c4",
       "type": "translation",
       "sentence": "психология kelimesinin Türkçe anlamı:",
       "answer": "PSİKOLOJİ (psikoloji)",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_0c960f7b",
@@ -2308,28 +2324,32 @@
       "type": "translation",
       "sentence": "ATEİZM (ateizm) kelimesinin Bulgarca yazılışı:",
       "answer": "атеизъм",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "-izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_56eb3f50",
       "type": "translation",
       "sentence": "атеизъм kelimesinin Türkçe anlamı:",
       "answer": "ATEİZM (ateizm)",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "-izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_2cd823f1",
       "type": "translation",
       "sentence": "BUDİZM (Budizm) kelimesinin Bulgarca yazılışı:",
       "answer": "будизъм",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "-izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_f44f37a3",
       "type": "translation",
       "sentence": "будизъм kelimesinin Türkçe anlamı:",
       "answer": "BUDİZM (Budizm)",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "-izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_dc099453",
@@ -2353,7 +2373,7 @@
       "sentence": "HÜMANİZM (hümanizm) kelimesinin Bulgarca yazılışı:",
       "answer": "хуманизъм",
       "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Ü bazı alıntılarda У ile yazılır."
+      "explanation": "Ü bazı alıntılarda У ile yazılır. -izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_3869066e",
@@ -2361,7 +2381,7 @@
       "sentence": "хуманизъм kelimesinin Türkçe anlamı:",
       "answer": "HÜMANİZM (hümanizm)",
       "hint": "Türkçe karşılığını yazınız",
-      "explanation": "Ü bazı alıntılarda У ile yazılır."
+      "explanation": "Ü bazı alıntılarda У ile yazılır. -izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_e02c8e8a",
@@ -2369,7 +2389,7 @@
       "sentence": "DALTONİZM (renk körlüğü) kelimesinin Bulgarca yazılışı:",
       "answer": "далтонизъм",
       "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır."
+      "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır. -izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_2e81f826",
@@ -2377,63 +2397,71 @@
       "sentence": "далтонизъм kelimesinin Türkçe anlamı:",
       "answer": "DALTONİZM (renk körlüğü)",
       "hint": "Türkçe karşılığını yazınız",
-      "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır."
+      "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır. -izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_2f26cbdc",
       "type": "translation",
       "sentence": "DARVİNİZM (Darvinizm) kelimesinin Bulgarca yazılışı:",
       "answer": "дарвинизъм",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "-izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_7ddd93f2",
       "type": "translation",
       "sentence": "дарвинизъм kelimesinin Türkçe anlamı:",
       "answer": "DARVİNİZM (Darvinizm)",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "-izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_72ce614b",
       "type": "translation",
       "sentence": "DİNAMİZM (dinamizm) kelimesinin Bulgarca yazılışı:",
       "answer": "динамизъм",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "-izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_a1f670b8",
       "type": "translation",
       "sentence": "динамизъм kelimesinin Türkçe anlamı:",
       "answer": "DİNAMİZM (dinamizm)",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "-izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_88e81e16",
       "type": "translation",
       "sentence": "DRAMATİZM (dramatizm) kelimesinin Bulgarca yazılışı:",
       "answer": "драматизъм",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "-izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_9aec3668",
       "type": "translation",
       "sentence": "драматизъм kelimesinin Türkçe anlamı:",
       "answer": "DRAMATİZM (dramatizm)",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "-izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_e26016c4",
       "type": "translation",
       "sentence": "EGOİZM (egoizm) kelimesinin Bulgarca yazılışı:",
       "answer": "егоизъм",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "-izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_4ac73aed",
       "type": "translation",
       "sentence": "егоизъм kelimesinin Türkçe anlamı:",
       "answer": "EGOİZM (egoizm)",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "-izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_c5ed1b94",
@@ -3895,7 +3923,7 @@
       "sentence": "nöroloji kelimesinin Bulgarca yazılışı:",
       "answer": "Неврология",
       "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır."
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır. Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır."
     },
     {
       "id": "q_auto_4bbc0f4c",
@@ -3903,7 +3931,7 @@
       "sentence": "Неврология kelimesinin Türkçe anlamı:",
       "answer": "nöroloji",
       "hint": "Türkçe karşılığını yazınız",
-      "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır."
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır. Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır."
     },
     {
       "id": "q_auto_085c20d6",
@@ -4108,14 +4136,16 @@
       "type": "translation",
       "sentence": "organizma kelimesinin Bulgarca yazılışı:",
       "answer": "Организъм",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "-izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_41a212a1",
       "type": "translation",
       "sentence": "Организъм kelimesinin Türkçe anlamı:",
       "answer": "organizma",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "-izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_53e76be7",
@@ -4668,14 +4698,16 @@
       "type": "translation",
       "sentence": "filoloji kelimesinin Bulgarca yazılışı:",
       "answer": "Филология",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_c5afeaec",
       "type": "translation",
       "sentence": "Филология kelimesinin Türkçe anlamı:",
       "answer": "filoloji",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_a0776f8e",
@@ -5246,14 +5278,16 @@
       "type": "translation",
       "sentence": "ANARŞİZM kelimesinin Bulgarca yazılışı:",
       "answer": "анархизъм",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "-izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_2f753799",
       "type": "translation",
       "sentence": "анархизъм kelimesinin Türkçe anlamı:",
       "answer": "ANARŞİZM",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "-izm ile biten kavramlar Bulgarcada -изъм ile yazılır."
     },
     {
       "id": "q_auto_39b6b965",
@@ -5514,14 +5548,16 @@
       "type": "translation",
       "sentence": "ZOOLOJİ kelimesinin Bulgarca yazılışı:",
       "answer": "зоология",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_f0c6ea03",
       "type": "translation",
       "sentence": "зоология kelimesinin Türkçe anlamı:",
       "answer": "ZOOLOJİ",
-      "hint": "Türkçe karşılığını yazınız"
+      "hint": "Türkçe karşılığını yazınız",
+      "explanation": "Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır."
     },
     {
       "id": "q_auto_d35a6783",

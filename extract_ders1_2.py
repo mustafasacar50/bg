@@ -24,14 +24,14 @@ def add_q(sentence, answer, hint, explanation=None):
 
 def get_phonetic_rule(tr_word, bg_word):
     rules = []
-    tr_upper = tr_word.upper().replace('İ', 'I')
+    tr_upper = tr_word.upper()
     bg_upper = bg_word.upper()
     
     if 'Ş' in tr_upper and 'Ш' in bg_upper:
         rules.append("Türkçedeki Ş sesi Bulgarcada genellikle Ш ile yazılır.")
     if 'J' in tr_upper and 'Ж' in bg_upper:
         rules.append("Türkçedeki J sesi Bulgarcada Ж ile yazılır.")
-    if 'LOJİ' in tr_upper and 'ЛОГИ' in bg_upper:
+    if ('LOJİ' in tr_upper or 'LOJI' in tr_upper) and 'ЛОГИ' in bg_upper:
         rules.append("Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır.")
     if 'Ç' in tr_upper and 'Ч' in bg_upper:
         rules.append("Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır.")
@@ -47,7 +47,7 @@ def get_phonetic_rule(tr_word, bg_word):
         rules.append("Ü bazı alıntılarda У ile yazılır.")
     if 'SYON' in tr_upper and 'ЦИЯ' in bg_upper:
         rules.append("-syon sonları Bulgarcada çoğunlukla -ция olur.")
-    if 'İZM' in tr_upper and 'ИЗЪМ' in bg_upper:
+    if ('İZM' in tr_upper or 'IZM' in tr_upper) and 'ИЗЪМ' in bg_upper:
         rules.append("-izm ile biten kavramlar Bulgarcada -изъм ile yazılır.")
     if 'OTO' in tr_upper and 'АВТО' in bg_upper:
         rules.append("Oto- kökü Bulgarcada çoğu zaman авто- olur.")
