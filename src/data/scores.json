@@ -308,5 +308,20 @@
       "q_reading_auto_113_2": "ТЕТРА"
     },
     "date": "2026-08-08T11:28:11.614Z"
+  },
+  {
+    "id": "score-1786189016649",
+    "examId": "mistakes",
+    "studentId": "u3",
+    "studentName": "Mustafa SAÇAR",
+    "score": {
+      "total": 0,
+      "mcq": "0/0",
+      "match": "0/0",
+      "blank": "0/0",
+      "reading": "0/20"
+    },
+    "answers": {},
+    "date": "2026-08-08T11:36:55.787Z"
   }
 ]
