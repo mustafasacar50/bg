@@ -182,5 +182,55 @@
     "isPublic": false,
     "startTime": null,
     "endTime": null
+  },
+  {
+    "id": "exam-1786178084976",
+    "title": "Yeni Deneme Sınavı 4",
+    "description": "Otomatik oluşturulmuş sınav. İçerdiği dersler: BULGARCA ÇARŞAMBA-CUMA 1.DERS-5.03",
+    "recommendedTimeMinutes": 30,
+    "level": "A1",
+    "lessons": [
+      "BULGARCA ÇARŞAMBA-CUMA 1.DERS-5.03"
+    ],
+    "questions": [
+      "q_mcq_auto_442",
+      "q_mcq_auto_354",
+      "q_mcq_auto_336",
+      "q_mcq_auto_390",
+      "q_mcq_auto_334",
+      "q_mcq_auto_383",
+      "q_mcq_auto_380",
+      "q_mcq_auto_341",
+      "q_mcq_auto_393",
+      "q_mcq_auto_418",
+      "q_match_auto_87",
+      "q_match_auto_75",
+      "q_match_auto_66",
+      "q_match_auto_85",
+      "q_match_auto_77",
+      "q_reading_auto_115"
+    ],
+    "questionPoints": {
+      "q_mcq_auto_442": 4,
+      "q_mcq_auto_354": 4,
+      "q_mcq_auto_336": 4,
+      "q_mcq_auto_390": 4,
+      "q_mcq_auto_334": 4,
+      "q_mcq_auto_383": 4,
+      "q_mcq_auto_380": 4,
+      "q_mcq_auto_341": 4,
+      "q_mcq_auto_393": 4,
+      "q_mcq_auto_418": 4,
+      "q_match_auto_87": 8,
+      "q_match_auto_75": 8,
+      "q_match_auto_66": 8,
+      "q_match_auto_85": 8,
+      "q_match_auto_77": 8,
+      "q_reading_auto_115": 20
+    },
+    "targetGroups": [],
+    "isPublic": false,
+    "startTime": null,
+    "endTime": null
   }
 ]
