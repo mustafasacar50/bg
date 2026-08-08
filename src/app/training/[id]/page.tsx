@@ -90,6 +90,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         return;
       }
       setStudent(storedStudent);
+      if (storedStudent.role === 'admin') {
+        setAdminMode(true);
+      }
       if (storedStudent.trainingScore) {
         setScore(storedStudent.trainingScore);
       }

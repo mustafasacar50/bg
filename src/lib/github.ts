@@ -22,7 +22,7 @@ export async function getGitHubFile(filePath: string) {
 
   try {
     const res = await fetch(
-      `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${filePath}?ref=${GITHUB_BRANCH}`,
+      `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${filePath}?ref=${GITHUB_BRANCH}&t=${Date.now()}`,
       {
         headers: {
           'Authorization': `Bearer ${GITHUB_TOKEN}`,
