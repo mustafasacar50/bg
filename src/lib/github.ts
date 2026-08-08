@@ -64,7 +64,7 @@ export async function getGitHubFile(filePath: string) {
  * Updates a file in GitHub repo.
  * If running locally without a token, falls back to local file system.
  */
-export async function updateGitHubFile(filePath: string, content: string, message: string) {
+export async function updateGitHubFile(filePath: string, content: string, message: string, retries = 3) {
   // Local fallback if no GitHub token is provided
   if (!GITHUB_TOKEN) {
     const localPath = path.join(process.cwd(), filePath);
@@ -73,37 +73,48 @@ export async function updateGitHubFile(filePath: string, content: string, messag
     return;
   }
 
-  try {
-    // We need the current file SHA to update it
-    const current = await getGitHubFile(filePath);
-    const sha = current.sha;
+  for (let attempt = 1; attempt <= retries; attempt++) {
+    try {
+      // We need the current file SHA to update it
+      const current = await getGitHubFile(filePath);
+      const sha = current.sha;
 
-    const res = await fetch(
-      `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${filePath}`,
-      {
-        method: 'PUT',
-        headers: {
-          'Authorization': `Bearer ${GITHUB_TOKEN}`,
-          'Accept': 'application/vnd.github.v3+json',
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          message,
-          content: Buffer.from(content).toString('base64'),
-          sha: sha || undefined, // undefined if creating a new file
-          branch: GITHUB_BRANCH
-        })
+      const res = await fetch(
+        `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/${filePath}`,
+        {
+          method: 'PUT',
+          headers: {
+            'Authorization': `Bearer ${GITHUB_TOKEN}`,
+            'Accept': 'application/vnd.github.v3+json',
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            message,
+            content: Buffer.from(content).toString('base64'),
+            sha: sha || undefined, // undefined if creating a new file
+            branch: GITHUB_BRANCH
+          })
+        }
+      );
+
+      if (!res.ok) {
+        if (res.status === 409 && attempt < retries) {
+          // Conflict: Wait and retry
+          await new Promise(r => setTimeout(r, 500 * attempt));
+          continue;
+        }
+        const errorData = await res.text();
+        throw new Error(`GitHub API error on write: ${res.statusText} - ${errorData}`);
       }
-    );
-
-    if (!res.ok) {
-      const errorData = await res.text();
-      throw new Error(`GitHub API error on write: ${res.statusText} - ${errorData}`);
+      
+      return await res.json();
+    } catch (error: any) {
+      if (attempt === retries || !error.message?.includes('GitHub API error on write')) {
+        console.error(`Error writing ${filePath} to GitHub on attempt ${attempt}:`, error);
+        throw error;
+      }
+      // Wait and retry
+      await new Promise(r => setTimeout(r, 500 * attempt));
     }
-    
-    return await res.json();
-  } catch (error) {
-    console.error(`Error writing ${filePath} to GitHub:`, error);
-    throw error;
   }
 }
