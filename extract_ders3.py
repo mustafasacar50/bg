@@ -5,13 +5,14 @@ import docx
 
 questions = []
 
-def add_q(sentence, answer, hint, explanation=None, lesson="Ders 3"):
+def add_q(sentence, answer, hint, explanation=None, lesson="Ders 3", type_override=None):
     # Unique ID
-    raw = sentence + answer + hint
+    raw = sentence + answer + hint + str(type_override)
     qid = "q_auto_" + hashlib.md5(raw.encode('utf-8')).hexdigest()[:8]
+    q_type = type_override if type_override else ("fill_in_the_blank" if "_____" in sentence else "translation")
     q = {
         "id": qid,
-        "type": "fill_in_the_blank" if "_____" in sentence else "translation",
+        "type": q_type,
         "sentence": sentence,
         "answer": answer,
         "hint": hint,
@@ -21,7 +22,7 @@ def add_q(sentence, answer, hint, explanation=None, lesson="Ders 3"):
         q["explanation"] = explanation
     
     # Avoid exact duplicates
-    if not any(x['sentence'] == q['sentence'] and x['answer'] == q['answer'] for x in questions):
+    if not any(x['sentence'] == q['sentence'] and x['answer'] == q['answer'] and x['type'] == q['type'] for x in questions):
         questions.append(q)
 
 def get_phonetic_rule(tr_word, bg_word):
@@ -83,6 +84,14 @@ def parse_docx(filepath):
                     hint="Bulgarca karşılığını yazınız",
                     explanation=exp
                 )
+                if len(bg_text.split()) >= 2:
+                    add_q(
+                        sentence=f"Kelimeleri sıraya dizerek cümleyi kurunuz: {tr_text}",
+                        answer=bg_text,
+                        hint="Doğru sıralamayı bul",
+                        explanation=exp,
+                        type_override="scramble"
+                    )
                 
         i += 1
 
@@ -130,6 +139,8 @@ def parse_docx(filepath):
                     
                     add_q(f"Çeviriniz (Türkçesi: {tr_col})", bg_col, "Bulgarca karşılığını yazınız", exp)
                     add_q(f"Çeviriniz (Bulgarcası: {bg_col})", tr_col, "Türkçe karşılığını yazınız", exp)
+                    if len(bg_col.split()) >= 2:
+                        add_q(f"Kelimeleri sıraya dizerek cümleyi kurunuz: {tr_col}", bg_col, "Doğru sıralamayı bul", exp, type_override="scramble")
 
 parse_docx('D:\\bulgarca_sınav_modulu\\docs\\balgoc___Bulgarca_A1_Ders_3_Turkce_Aciklamali_Not.docx')
 

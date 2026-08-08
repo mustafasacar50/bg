@@ -52,11 +52,15 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [data, setData] = useState<ModuleData | null>(null);
   const [loading, setLoading] = useState(true);
   
-  // Session State
-  const [sessionQuestions, setSessionQuestions] = useState<Question[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [activeQuestion, setActiveQuestion] = useState<{ id: string, type?: string, display: string, expected: string, fitbTarget: string | null, hint: string, explanation?: string } | null>(null);
   const [userAnswer, setUserAnswer] = useState('');
-  const [feedback, setFeedback] = useState<'none' | 'correct' | 'typo' | 'wrong'>('none');
+  
+  // Scramble states
+  const [scrambleWords, setScrambleWords] = useState<string[]>([]);
+  const [selectedWords, setSelectedWords] = useState<string[]>([]);
+  
+  const [feedback, setFeedback] = useState<'none' | 'correct' | 'wrong' | 'typo'>('none');
   const [score, setScore] = useState(0);
   
   // New State
@@ -186,7 +190,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     let fitbTarget = null;
     const words = expected.split(' ').filter(w => w.trim());
     
-    if (words.length > 1) {
+    if (words.length > 1 && q.type !== 'scramble') {
        const targetIdx = Math.floor(Math.random() * words.length);
        const targetWordRaw = words[targetIdx];
        
@@ -201,7 +205,13 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
        display = `${display}\n(Boşluk Doldurma: ${maskedWords.join(' ')})`;
     }
     
-    setActiveQuestion({ id: q.id, display, expected, fitbTarget, hint, explanation: (q as any).explanation });
+    if (q.type === 'scramble') {
+      const shuffle = (array: string[]) => [...array].sort(() => 0.5 - Math.random());
+      setScrambleWords(shuffle(words));
+      setSelectedWords([]);
+    }
+    
+    setActiveQuestion({ id: q.id, type: q.type, display, expected, fitbTarget, hint, explanation: (q as any).explanation });
     setLayout(hint.toLowerCase().includes('bulgarca') ? 'bg' : 'tr');
     setFeedback('none');
     setUserAnswer('');
@@ -251,6 +261,11 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     const isFitb = !!activeQuestion.fitbTarget;
     const expectedStr = isFitb ? activeQuestion.fitbTarget : activeQuestion.expected;
     
+    let currentAnswer = userAnswer;
+    if (activeQuestion.type === 'scramble') {
+      currentAnswer = selectedWords.join(' ');
+    }
+    
     const normalizeString = (str: string) => {
       return str.trim()
         .replace(/I/g, 'ı')
@@ -259,7 +274,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         .replace(/ı/g, 'i');
     };
     
-    const normalizedUser = normalizeString(userAnswer);
+    const normalizedUser = normalizeString(currentAnswer);
     const normalizedAnswer = normalizeString(expectedStr);
     
     if (normalizedUser === normalizedAnswer) {
@@ -274,7 +289,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       const dist = levenshteinDistance(normalizedUser, normalizedAnswer);
       const isTypo = dist <= 1 || (normalizedAnswer.length > 4 && dist <= 2);
       
-      if (isTypo) {
+      if (isTypo && activeQuestion.type !== 'scramble') {
         setFeedback('typo');
         if (mistakesPool.includes(activeQuestion.id)) {
            syncScore(0.9);
@@ -283,7 +298,23 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         }
       } else {
         setFeedback('wrong');
-        if (!mistakesPool.includes(activeQuestion.id)) {
+        
+        // SRS: Insert question again 3 steps later
+        const qOriginal = filteredQuestions[currentIndex];
+        if (qOriginal && mode === 'all') {
+           setSessionQuestions(prev => {
+             const next = [...prev];
+             const originalIndex = next.findIndex(q => q.id === qOriginal.id);
+             if (originalIndex !== -1) {
+                const insertIdx = Math.min(currentIndex + 4, next.length);
+                // Duplicate it for spaced repetition
+                next.splice(insertIdx, 0, { ...qOriginal, id: qOriginal.id + '_retry_' + Date.now() });
+             }
+             return next;
+           });
+        }
+        
+        if (!mistakesPool.includes(activeQuestion.id) && !activeQuestion.id.includes('_retry_')) {
           saveMistakes([...mistakesPool, activeQuestion.id]);
           syncScore(-0.2); 
         }
@@ -294,7 +325,19 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const handleSkip = () => {
     if (!activeQuestion) return;
     setFeedback('wrong');
-    if (!mistakesPool.includes(activeQuestion.id)) {
+    
+    // SRS: Insert question again 3 steps later
+    const qOriginal = filteredQuestions[currentIndex];
+    if (qOriginal && mode === 'all') {
+       setSessionQuestions(prev => {
+         const next = [...prev];
+         const insertIdx = Math.min(currentIndex + 4, next.length);
+         next.splice(insertIdx, 0, { ...qOriginal, id: qOriginal.id + '_retry_' + Date.now() });
+         return next;
+       });
+    }
+    
+    if (!mistakesPool.includes(activeQuestion.id) && !activeQuestion.id.includes('_retry_')) {
       saveMistakes([...mistakesPool, activeQuestion.id]);
     }
   };
@@ -601,24 +644,67 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               </div>
             </div>
 
-              <div className="relative">
-                <input
-                  ref={inputRef}
-                  type="text"
-                  inputMode={preferNativeKeyboard ? "text" : "none"}
-                  className={`w-full bg-white border-2 rounded-xl px-4 py-4 text-xl outline-none transition-colors ${(feedback === 'wrong' || adminMode) ? 'border-red-400 bg-red-50 text-red-900 font-bold' : feedback === 'typo' ? 'border-amber-400 bg-amber-50 text-amber-900 font-bold' : feedback === 'correct' ? 'border-green-400 bg-green-50 text-green-900 font-bold' : 'border-slate-200 focus:border-indigo-400'}`}
-                  placeholder={adminMode ? "Admin Modu Aktif" : "Cevabınızı buraya yazın..."}
-                  value={(feedback === 'wrong' && !userAnswer.trim()) || adminMode ? (activeQuestion?.fitbTarget || activeQuestion?.expected) : userAnswer}
-                  onChange={(e) => setUserAnswer(e.target.value)}
-                  onFocus={() => { if (!preferNativeKeyboard && !adminMode) setKeyboardOpen(true); }}
-                  onKeyDown={(e) => {
-                    if (e.key === 'Enter') {
-                      (feedback === 'none' && !adminMode) ? handleCheck() : handleNext();
-                    }
-                  }}
-                  disabled={feedback !== 'none' || adminMode}
-                />
-              </div>
+              {activeQuestion?.type === 'scramble' && !adminMode ? (
+                <div className="flex flex-col gap-4">
+                  {/* Selected Words Area (The Sentence) */}
+                  <div className={`flex flex-wrap gap-2 min-h-[64px] p-4 bg-white border-2 rounded-xl items-start transition-colors ${(feedback === 'wrong') ? 'border-red-400 bg-red-50' : feedback === 'typo' ? 'border-amber-400 bg-amber-50' : feedback === 'correct' ? 'border-green-400 bg-green-50' : 'border-slate-200 focus:border-indigo-400'}`}>
+                    {selectedWords.map((word, idx) => (
+                      <button 
+                        key={`sel-${idx}`}
+                        disabled={feedback !== 'none'}
+                        onClick={() => {
+                          const newSel = [...selectedWords];
+                          newSel.splice(idx, 1);
+                          setSelectedWords(newSel);
+                          setScrambleWords([...scrambleWords, word]);
+                        }}
+                        className={`px-4 py-2 font-bold rounded-lg border shadow-sm transition-colors ${feedback === 'wrong' ? 'bg-red-100 text-red-900 border-red-200' : feedback === 'correct' ? 'bg-green-100 text-green-900 border-green-200' : 'bg-indigo-50 text-indigo-700 border-indigo-200 hover:bg-indigo-100'}`}
+                      >
+                        {word}
+                      </button>
+                    ))}
+                    {selectedWords.length === 0 && <span className="text-slate-300 font-medium my-auto ml-2">Kelimeleri buraya dizin...</span>}
+                  </div>
+                  
+                  {/* Word Pool */}
+                  <div className="flex flex-wrap gap-3 mt-2 justify-center">
+                    {scrambleWords.map((word, idx) => (
+                      <button 
+                        key={`pool-${idx}`}
+                        disabled={feedback !== 'none'}
+                        onClick={() => {
+                          const newPool = [...scrambleWords];
+                          newPool.splice(idx, 1);
+                          setScrambleWords(newPool);
+                          setSelectedWords([...selectedWords, word]);
+                        }}
+                        className="px-5 py-3 bg-white text-slate-700 font-extrabold text-lg rounded-xl shadow-sm border-2 border-slate-200 hover:border-indigo-400 hover:text-indigo-600 hover:shadow-md transition-all active:scale-95 disabled:opacity-50"
+                      >
+                        {word}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              ) : (
+                <div className="relative">
+                  <input
+                    ref={inputRef}
+                    type="text"
+                    inputMode={preferNativeKeyboard ? "text" : "none"}
+                    className={`w-full bg-white border-2 rounded-xl px-4 py-4 text-xl outline-none transition-colors ${(feedback === 'wrong' || adminMode) ? 'border-red-400 bg-red-50 text-red-900 font-bold' : feedback === 'typo' ? 'border-amber-400 bg-amber-50 text-amber-900 font-bold' : feedback === 'correct' ? 'border-green-400 bg-green-50 text-green-900 font-bold' : 'border-slate-200 focus:border-indigo-400'}`}
+                    placeholder={adminMode ? "Admin Modu Aktif" : "Cevabınızı buraya yazın..."}
+                    value={(feedback === 'wrong' && !userAnswer.trim() && activeQuestion?.type !== 'scramble') || adminMode ? (activeQuestion?.fitbTarget || activeQuestion?.expected || '') : userAnswer}
+                    onChange={(e) => setUserAnswer(e.target.value)}
+                    onFocus={() => { if (!preferNativeKeyboard && !adminMode) setKeyboardOpen(true); }}
+                    onKeyDown={(e) => {
+                      if (e.key === 'Enter') {
+                        (feedback === 'none' && !adminMode) ? handleCheck() : handleNext();
+                      }
+                    }}
+                    disabled={feedback !== 'none' || adminMode}
+                  />
+                </div>
+              )}
 
               {/* Doğru Cevap (Yanlış veya eksik yazıldıysa metin kutusunun altında göster) */}
               {(feedback === 'wrong' || feedback === 'typo') && !adminMode && userAnswer.trim() !== '' && (
@@ -700,8 +786,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                   )}
                   <button
                     onClick={feedback === 'none' ? handleCheck : handleNext}
-                    disabled={feedback === 'none' && !userAnswer.trim()}
-                    className={`w-full sm:w-auto px-8 py-3 rounded-xl font-black text-lg transition-all ${feedback === 'none' ? (userAnswer.trim() ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-md' : 'bg-slate-200 text-slate-400 cursor-not-allowed') : feedback === 'correct' ? 'bg-green-600 text-white hover:bg-green-700 shadow-md' : feedback === 'typo' ? 'bg-amber-600 text-white hover:bg-amber-700 shadow-md' : 'bg-red-600 text-white hover:bg-red-700 shadow-md'}`}
+                    disabled={feedback === 'none' && (activeQuestion?.type === 'scramble' ? selectedWords.length === 0 : !userAnswer.trim())}
+                    className={`w-full sm:w-auto px-8 py-3 rounded-xl font-black text-lg transition-all ${feedback === 'none' ? ((activeQuestion?.type === 'scramble' ? selectedWords.length > 0 : userAnswer.trim()) ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-md' : 'bg-slate-200 text-slate-400 cursor-not-allowed') : feedback === 'correct' ? 'bg-green-600 text-white hover:bg-green-700 shadow-md' : feedback === 'typo' ? 'bg-amber-600 text-white hover:bg-amber-700 shadow-md' : 'bg-red-600 text-white hover:bg-red-700 shadow-md'}`}
                   >
                     {feedback === 'none' ? 'KONTROL ET' : 'DEVAM ET'}
                   </button>
