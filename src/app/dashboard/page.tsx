@@ -171,6 +171,10 @@ export default function DashboardPage() {
           )}
         </div>
         <div className="flex items-center gap-2">
+          <Link href="/training" className="p-2 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors flex flex-col items-center gap-1 group">
+            <Wand2 size={20} className="group-hover:scale-110 transition-transform duration-300" />
+            <span className="text-[10px] font-bold">Antrenman</span>
+          </Link>
           {student?.role === 'admin' && (
             <Link href="/admin" className="p-2 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors flex flex-col items-center gap-1 group">
               <Settings size={20} className="group-hover:rotate-45 transition-transform duration-300" />
@@ -189,6 +193,10 @@ export default function DashboardPage() {
           <h1 className="text-3xl font-bold mb-2">Hoş Geldin, {student?.name}! 👋</h1>
           <p className="text-slate-600 font-medium">Bulgarca öğrenme serüveninde bugün neler yapacaksın?</p>
         </div>
+        <Link href="/training" className="flex items-center gap-2 bg-indigo-600 text-white px-5 py-3 rounded-xl font-bold hover:bg-indigo-700 transition-transform hover:-translate-y-0.5 shadow-sm whitespace-nowrap">
+          <Wand2 size={20} />
+          Antrenman Modu
+        </Link>
       </div>
 
       <div className="hero mb-6">
