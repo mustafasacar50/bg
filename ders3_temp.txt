@@ -1,9 +1,7 @@
 Bulgarca A1 - Ders 3
 Türkçe Açıklamalı Eğitim Notu
 Урок № 3: „Откъде сте?“
-
 1. Diyalog: „Откъде сте?“ - Nerelisiniz?
-
 BG: Бюлент: – Добър ден, госпожице!
 TR: (Bülent: İyi günler, hanımefendi / küçük hanım!)
 Not: госпожице genç veya evli olmayan kadına resmi hitaptır.
@@ -61,12 +59,8 @@ TR: (Bülent: Tanıştığımıza memnun oldum. İyi günler!)
 BG: Севил: – Довиждане!
 TR: (Sevil: Hoşça kalın / görüşmek üzere!)
 1.1. Diyalog soruları ve örnek cevaplar
-
 Diyalog kelimeleri
-
 2. Ülkeler ve milliyetler
-
-
 BG: Какъв/каква сте по националност?
 TR: (Milliyetiniz nedir? / Hangi millettensiniz?)
 Not: Какъв erkek için, каква kadın için kullanılır.
@@ -77,10 +71,6 @@ BG: Откъде си? От коя държава си?
 TR: (Nerelisin? Hangi ülkedensin?)
 Not: Разговорния език = konuşma dili; си samimi “sen” biçimi.
 3. Meslekler ve günlük kalıplar
-
-
-
-
 4. Okuma: „Какъв съм аз?“ - Ben neyim / kimim?
 BG: Райна и Иван са студенти.
 TR: (Rayna ve İvan öğrencidir.)
@@ -102,11 +92,8 @@ BG: Някои от тях още имат връзка с България.
 TR: (Onlardan bazıları hâlâ Bulgaristan’la bağa sahiptir.)
 BG: Ние имаме сънародници и в други страни – Канада, Австралия, Германия и на много други места.
 TR: (Bizim başka ülkelerde de soydaşlarımız vardır: Kanada, Avustralya, Almanya ve daha birçok yerde.)
-
 5. Meslek tablosu: erkek/kadın biçimleri
-
 6. Dönüştürme alıştırmaları: 1. tekil -> 3. tekil
-
 6.1. „Гьозде“ - dönüştürülmüş metin
 BG: Тя е Гьозде.
 TR: (O Gözde’dir.)
@@ -168,7 +155,6 @@ TR: (Maria öğretim görevlisidir, İvan ise şimdi iş insanıdır.)
 BG: По професия е инженер.
 TR: (Meslek olarak mühendistir.)
 7. Ülke -> erkek/kadın/çoğul alıştırması
-
 8. Diyalog: „Искам да стана...“ - ... olmak istiyorum
 BG: – Госпожо Николова, разрешете да Ви представя господин Попов!
 TR: (– Nikolova Hanım, size Popov Bey’i takdim etmeme izin verin!)
@@ -249,9 +235,7 @@ TR: (– Teşekkürler! Yakında görüşürüz.)
 BG: – Довиждане!
 TR: (– Hoşça kalın!)
 Diyalog kelimeleri
-
 9. Yazım alıştırması - doğru biçimler
-
 10. Konuşma konusu: Türkiye ve Bulgaristan sınırları
 BG: На северозапад Турция граничи с България и Гърция, а на североизток с Грузия и Армения.
 TR: (Türkiye kuzeybatıda Bulgaristan ve Yunanistan ile, kuzeydoğuda ise Gürcistan ve Ermenistan ile sınır komşusudur.)
@@ -268,7 +252,4 @@ TR: (Doğuda Karadeniz vardır.)
 BG: На север тя има обща граница с Румъния, а на юг нейни съседи са Турция и Гърция.
 TR: (Kuzeyde Romanya ile ortak sınırı vardır; güneyde komşuları Türkiye ve Yunanistan’dır.)
 Sınırlar ve yönler sözlüğü
-
 11. Ders sonu hızlı tekrar
-
-

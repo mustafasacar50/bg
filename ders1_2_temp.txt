@@ -1,0 +1,983 @@
+Bulgarca A1 - Ders 1 ve 2
+Tam Türkçe Çevirili, Renkli Açıklamalı ve Yeni Öğrenci Dostu Eğitim Notu
+Bu dosya; Bulgar alfabesi, Kiril harfleri, Türkçe-Bulgarca yazım dönüşümleri, tanışma diyalogları, hitaplar, selamlaşmalar, zamirler, “казвам се” ve “съм” fiilleri ile soru cümlelerini A1 seviyesinde, hiçbir ana cümleyi atlamadan öğretmek için hazırlanmıştır.
+Renk kılavuzu: Mavi kutular Bulgarca orijinali, yeşil kutular Türkçe karşılığı, sarı kutular ezber/uyarı, mor kutular dilbilgisi, turuncu kutular öğretici notlar içindir.
+İçindekiler
+Ders 1: Bulgar Alfabesi ve Kiril Yazısı
+Fonetik özellikler: ünlü, ünsüz, Ю/Я/Щ/Й
+Türkçe kelimelerin Bulgarca yazımı: ses eşleştirme tabloları
+Bulgarcadan Türkçeye okuma/karşılaştırma listesi
+Ses yasaları: tekilden çoğula geçişte değişimler
+Ders 2: Как се казвате? - Tanışma ve kendini tanıtma
+Kısaltmalar, hitaplar, selamlaşmalar, teşekkürler ve özürler
+Zamirler ve şahıs zamirleri
+Казвам се ve съм fiilleri
+Soru cümleleri ve alıştırmalar
+DERS 1 - Запознаване с българската азбука
+Türkçe: Bulgar alfabesiyle tanışma. Bu dersin amacı harfleri tanımak, sesleri duymak, Kiril yazısını okuyabilmek ve Türkçe kelimelerin Bulgarca karşılıklarını yazmaya başlamaktır.
+Önemli: Bulgar alfabesi 30 harften oluşur. Türkçeye göre en yeni gelen harfler genellikle Ж, Ц, Ч, Ш, Щ, Ъ, Ь, Ю, Я harfleridir. Özellikle Ъ sesi Türkçede bire bir yoktur; kısa, boğazdan gelen “ı/a arası” bir sestir.
+Çalışma önerisi: Her harfi önce büyük-küçük okuyun, sonra 5 kez yazın. Ardından örnek kelimeleri yüksek sesle okuyun. Bulgarca öğrenirken harfi görmek, sesi duymak ve elle yazmak birlikte ilerlemelidir.
+Fonetik özellikler ve Kiril yazısında dikkat noktaları
+Yeni öğrenci için pratik kural: Bulgarcada bir kelimeyi okuyabilmek için önce harf-ses eşleşmesini öğrenin. Sonra hecelere ayırın. Son olarak cümle içinde okuyun.
+Türkçe kelimeleri Bulgarca yazma: ses dönüşüm tabloları
+Bu bölümde PDF’deki tüm dönüşüm başlıkları korunmuştur. Amaç, Türkçeden tanıdığınız kelimelerin Bulgarca Kiril yazılışını sezebilmenizdir. Bu tablolar “mutlak kural” değil, özellikle alıntı ve benzer kelimelerde sık görülen yazım eğilimleridir.
+Ş → Ш
+Türkçedeki Ş sesi Bulgarcada genellikle Ш ile yazılır.
+J → Ж
+Türkçedeki J sesi Bulgarcada Ж ile yazılır.
+-Jİ → -ГИ(Я)
+Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır.
+Ç → Ч
+Türkçedeki Ç sesi bazı kelimelerde Ч ile yazılır.
+Ç → Ц
+Bazı alıntı kelimelerde Ç/ts benzeri ses Ц ile yazılır.
+Ö → ЬО
+Ö sesi bazı kelimelerde yumuşatma işaretli ьо ile gösterilir.
+Ö → О
+Ö, birçok uluslararası alıntı kelimede O ile karşılanır.
+Ö → ЕВ
+Nöro- kökü Bulgarcada невро- biçiminde görülür.
+Ö → ЕУ
+Bazı bilimsel kelimelerde ö/eu ilişkisi görülebilir.
+Ü → Ю
+Ü sesi kimi kelimelerde Ю ile yazılır.
+(İ)Y → Й
+Türkçedeki y kaydırma sesi Bulgarcada Й ile karşılanabilir.
+YA → ИЯ
+-ya ile biten ülke/bilim adları çoğu zaman -ия olur.
+YA → Я
+Bazı kelimelerde ya doğrudan Я ile yazılır.
+(İ)YA → ИА
+-iya/-ya birleşimleri bazı kelimelerde иа ile yazılır.
+(İ)YE → ИЕ
+-ye/-iye sesi bazı kelimelerde ие olur.
+(İ)YO → ИО
+-yo/-iyo sesleri bazı kelimelerde ио olur.
+(İ)YU → ИУ
+-yu/-iyu bazı kelimelerde иу gibi görünür.
+S(YON) → Ц(ИЯ)
+-syon sonları Bulgarcada çoğunlukla -ция olur.
+Ü → У
+Ü bazı alıntılarda У ile yazılır.
+T → Д || F → В
+Kelime sonlarındaki t/f bazı alıntılarda d/v ile sonuçlanabilir.
+К → Х || Ş → Х || Y → Х || H → Ф
+Bazı uluslararası kelimelerde k/ş/y/h sesleri Bulgarcada х veya ф ile görülebilir.
+-İZM → -ИЗЪМ
+-izm ile biten kavramlar Bulgarcada -изъм ile yazılır.
+I değişimleri
+Türkçedeki ı/i/u/a gibi sesler kelimeye göre farklı karşılanabilir.
+OTO- → АВТО-
+Oto- kökü Bulgarcada çoğu zaman авто- olur.
+E → A
+Bazı kelimelerde e/a karşılığı görülür.
+A → E || A → O
+Bazı alıntılarda a sesi e/o olarak karşılanabilir.
+P → Б
+Bazı kelimelerde p/b ilişkisi görülebilir.
+Bulgarcadan Türkçeye ters yazılış listesi
+PDF’de bu bölüm “Bulgarca kelime - Türkçe kelime” olarak boşluklu çalışma tablosu şeklindedir. Aşağıda tüm kelimeler Türkçe karşılıklarıyla verilmiştir.
+Ses yasaları ve çoğul yapımı
+A1 öğrencisi için en önemli fikir: Bulgarcada çoğul yaparken sadece sona ek getirmek yetmez; bazen kelimenin son sesi de değişir. Örneğin -ия -> -ии, -к -> -ци, -г -> -зи gibi.
+DERS 2 - „Как се казвате?“ / “Adınız ne?”
+Bu derste tanışma, kendini tanıtma, başkasını tanıtma ve kibar iletişim kalıpları öğrenilir.
+Dil notu: Как се казвате? resmi/kibar biçimdir. Как се казваш? samimi tekil biçimdir. “Казвам се ...” kelime kelime “kendime ... denir” gibi düşünülebilir ama Türkçede “Benim adım ...” diye çevrilir.
+Kalıp: “Приятно ми е” tek başına “Memnun oldum” demektir. “На мен също” = “Ben de.”
+Kısaltmalar: госпожица, госпожа, господин
+Çok önemli: Bulgarcada hitap ederken kelimenin biçimi değişebilir. Örneğin господин = bay, ama doğrudan seslenirken господине! denir.
+Tanışma için temel ifadeler
+Hitaplar: resmi ve konuşma dili
+Ülke, milliyet ve nereli olduğunu sorma
+Selamlaşma, vedalaşma ve dilekler
+Teşekkür etme ve karşılık verme
+Özür dileme
+Kutlama, tebrik ve iyi dilekler
+Günün saatlerine göre selamlaşma
+Alıştırma cevabı: “Сутрин се поздравяваме с ...” cümlesinde doğru cevap ДОБРО УТРО’dur. Çünkü “сутрин” sabah demektir.
+Местоимение - Zamir
+Türkçede “o” tek biçimdir. Bulgarcada “o” üç biçimlidir: той (eril), тя (dişil), то (orta/nötr). Bu yüzden zamir öğrenirken mutlaka ismin cinsiyetini de düşünmelisiniz.
+Kısa formlar Bulgarcada çok kullanılır: ме, те, го, я, ни, ви, ги; ми, ти, му, й, ни, ви, им. Yeni öğrenci için ilk aşamada yalın formları iyi öğrenmek yeterlidir; sonra kısa formlar cümle içinde pekiştirilir.
+Сегашно време на глагола казвам се - “adım ...” fiili
+“се” dönüşlülük unsurudur. Türkçeye kelime kelime çevrilmez; kalıp olarak “Benim adım...” diye öğrenin.
+Сегашно време на глагола съм - “olmak” fiili
+A1 düzeyinde en önemli fiil “съм” fiilidir: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са. Bunu ezberlemeden Bulgarca cümle kurmak çok zor olur.
+Soru zamirleri ve soru cümleleri
+ли parçacığı evet/hayır sorusu yapar. Örnek: Учиш ли? = Çalışıyor/okuyor musun? Студент ли си? = Öğrenci misin?
+Alıştırmalar - çözümlü ve açıklamalı
+Kendini tanıtma modeli
+Kendi cümlenizi kurun: Аз съм ... / Казвам се ... / Роден(а) съм в ... / Сега съм на ... години. / Студент(ка) съм в ... / Обичам да ... / Искам да стана ...
+Bu derslerde öğrenmeniz gereken çekirdek bilgiler
+Bulgar alfabesinde 30 harf vardır; Türkçeye göre özellikle Ж, Ц, Ч, Ш, Щ, Ъ, Ь, Ю, Я harflerine dikkat edilir.
+Ю, Я, Щ çoğu zaman iki sesli düşünülür: ю = й+у, я = й+а, щ = ш+т.
+Türkçe-Bulgarca benzer kelimelerde ses dönüşümleri vardır: Ş→Ш, J→Ж, Ç→Ч/Ц, -syon→-ция, -izm→-изъм.
+Tanışmada en önemli kalıplar: Как се казвате? / Казвам се ... / Приятно ми е.
+Resmi konuşmada Вие, samimi konuşmada ти kullanılır.
+“съм” fiili: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са.
+Zamirlerde Bulgarca cinsiyet önemlidir: той, тя, то.
+ли parçacığı evet/hayır sorusu yapar: Учиш ли? Студент ли си?
+Basılı harf	El yazısı	PDF’deki örnek/telaffuz	Türkçe okuma	Örnek okunuş	Yeni öğrenci notu
+А а	А а	[а] като азбука, вагон	a	azbuka, vagon	A
+Б б	Б б	[б] като баба, бебе	b	baba, bebe	B
+В в	В в	[в] като вол, вятър	v	vol, vyatar	V
+Г г	Г г	[г] като гъба, гьол, гол	g	gaba, gyol, gol	G
+Д д	Д д	[д] като добро, дете, дядо	d	dobro, dete, dyado	D
+Е е	Е е	[е] като ехо, елха	e	eho, elha	E
+Ж ж	Ж ж	[ж] като жаба, жетон, плаж	j / zh	jaba, jeton, plaj	Türkçedeki j sesine yakın
+З з	З з	[з] като зима, зар	z	zima, zar	Z
+И и	И и	[и] като идвам, игла	i	idvam, igla	İ
+Й й	Й й	[й] като лейка, йена	y	leyka, yena	Y kaydırma sesi
+К к	К к	[к] като котка, кифла	k	kotka, kifla	K
+Л л	Л л	[л] като лов, липа, лейка	l	lov, lipa, leyka	L
+М м	М м	[м] като майка, месец	m	mayka, mesets	M
+Н н	Н н	[н] като нос, нива	n	nos, niva	N
+О о	О о	[о] като огън, око	o	ogan, oko	O
+П п	П п	[п] като пламък, паяк, поща	p	plamak, payak, poshta	P
+Р р	Р р	[р] като риба, ръка	r	riba, raka	Titreşimli R
+С с	С с	[с] като сова, сила	s	sova, sila	S
+Т т	Т т	[т] като торба, тире	t	torba, tire	T
+У у	У у	[у] като ухо, дух	u	uho, duh	U
+Ф ф	Ф ф	[ф] като факла, фенер	f	fakla, fener	F
+Х х	Х х	[х] като хора, хитрец	h / kh	hora, hitrets	Hırıltılı H
+Ц ц	Ц ц	[ц] като цвете, цяр, цар	ts	tsvete, tsar	ts birleşik sesi
+Ч ч	Ч ч	[ч] като чорба, чам	ç / ch	chorba, cham	Türkçe ç
+Ш ш	Ш ш	[ш] като шебек, шосе	ş / sh	shebek, shose	Türkçe ş
+Щ щ	Щ щ	[щ] като щъркел, щраус	sht	shtarkel, shtraus	ş+t gibi
+Ъ ъ	Ъ ъ	[ъ] като ъгъл, ръка	ı/a arası	agal, raka	Türkçede tam karşılığı yok
+Ь ь	Ь ь	Ø в някои думи като шофьор, миньор	yumuşatma	shofyor, minyor	Tek başına okunmaz
+Ю ю	Ю ю	[ю] като ютия, юрган	yu	yutiya, yurgan	й+у
+Я я	Я я	[я] като ято, ябълка	ya	yato, yabalka	й+а
+Bulgarca
+Фонетични особености на кирилицата. Печатни и ръкописни букви, разлики и контаминация при писане.	Türkçe
+Kiril alfabesinin fonetik özellikleri. Basılı ve el yazısı harfleri, yazıdaki farklılıklar ve birbirine karıştırılabilecek harfler.
+Bulgarca
+Запомнете!	Türkçe
+Unutmayın / ezberleyin.
+Bulgarca
+Ьо - синьо - sinyo - yo	Türkçe
+Ьо birleşimi “yo” gibi okunur: синьо = mavi.
+Bulgarca
+Йо - yo	Türkçe
+Йо birleşimi “yo” gibi okunur.
+Bulgarca
+България - Bulgaria	Türkçe
+България = Bulgaristan; Latinleştirmede Bulgaria yazılır.
+Bulgarca
+-ия - София - Sofia -ia	Türkçe
+-ия sonu Latin yazımda çoğu zaman -ia olur: София = Sofia.
+Bulgarca
+Изброяване и изговаряне на гласни и съгласни звукове, особености.	Türkçe
+Ünlü ve ünsüz sesleri sayma, söyleme ve özelliklerini öğrenme.
+Bulgarca
+Особености при буквите Ю, Я, Щ, Й.	Türkçe
+Ю, Я, Щ, Й harflerindeki özel durumlar.
+Bulgarca
+Ю, Я, Щ, Й съдържат по два звука.	Türkçe
+Ю, Я, Щ, Й çoğu durumda iki ses içerir.
+Bulgarca
+ю – й + у; я – й + а; щ – ш + т; й – и + о.	Türkçe
+ю = y+u; я = y+a; щ = ş+t; й = kısa y kaydırma sesi gibi düşünülür.
+Bulgarca
+Дж като суджук, но над|живея.	Türkçe
+Дж “c/j” birleşik sesi verir: суджук. Ama iki ayrı kökten gelen kelimelerde sınır korunur: над|живея.
+Bulgarca
+Дз като дзън, дзифт, но над|зъртам.	Türkçe
+Дз birleşik “dz” sesidir; ancak kök sınırı varsa ayrı düşünülür.
+Bulgarca
+Сграда [зграда]	Türkçe
+Сграда yazılır ama söyleyişte “зграда” gibi duyulabilir: bina.
+Bulgarca
+Звуковете в съвременния български книжовен език са 45. Буквите са 30.	Türkçe
+Modern standart Bulgarcada 45 ses, alfabede 30 harf vardır.
+Bulgarca
+Азбуката се състои от гласни и съгласни букви.	Türkçe
+Alfabe ünlü ve ünsüz harflerden oluşur.
+Bulgarca
+Гласни букви са а, ъ, е, и, о, у.	Türkçe
+Ünlü harfler: а, ъ, е, и, о, у.
+Bulgarca
+Съгласните букви са три вида.	Türkçe
+Ünsüz harfler üç gruba ayrılır.
+Bulgarca
+Първи вид – звучни съгласни: б, в, г, д, ж, з, й, дз, дж.	Türkçe
+Birinci grup: ötümlü ünsüzler: б, в, г, д, ж, з, й, дз, дж.
+Bulgarca
+Втори вид – беззвучни съгласни: п, ф, к, т, ш, с, ч, ц, х.	Türkçe
+İkinci grup: ötümsüz ünsüzler: п, ф, к, т, ш, с, ч, ц, х.
+Bulgarca
+Трети вид – сонорни съгласни: м, н, р, л.	Türkçe
+Üçüncü grup: sonor ünsüzler: м, н, р, л.
+Bulgarca
+Частите, на които може да се раздели думата при изговор се наричат срички.	Türkçe
+Bir kelime telaffuz sırasında bölünebildiği parçalara ayrılır; bu parçalara hece denir.
+Bulgarca
+Броят на гласните в думата определя броя на сричките.	Türkçe
+Bir kelimedeki ünlü sayısı genellikle hece sayısını belirler.
+Bulgarca
+Сричката е част от думата, почти всяка дума може да се раздели на срички.	Türkçe
+Hece kelimenin parçasıdır; neredeyse her kelime hecelere ayrılabilir.
+Bulgarca
+Ако думата е малка, има малко срички, ако е голяма, има повече срички.	Türkçe
+Kelime kısaysa az hecelidir; uzunsa daha çok hecelidir.
+Bulgarca
+Колкото е по-голяма думата, толкова повече срички има.	Türkçe
+Kelime ne kadar uzunsa genellikle o kadar çok hece içerir.
+Bulgarca
+Думите от цветните табла се сричкуват и се изписват на дъската и в тетрадките.	Türkçe
+Renkli tablolardaki kelimeler hecelenir, tahtaya ve defterlere yazılır.
+Bulgarca
+С помощта на сходните думи, обучаемите се учат да пишат ръкописно турски думи на български език.	Türkçe
+Benzer kelimeler yardımıyla öğrenciler Türkçe kelimeleri Bulgarca el yazısıyla yazmayı öğrenir.
+Bulgarca
+За упражняване в писането на кирилица е желателно да се напишат думите поне 2 пъти.	Türkçe
+Kiril yazısını pekiştirmek için kelimeleri en az 2 kez yazmak önerilir.
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+DUŞ	душ	duş
+AFİŞ	афиш	afiş
+MARŞ	марш	marş
+GİŞE	гише	gişe
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+AJUR	ажур	ajur
+KAMUFLAJ	камуфлаж	kamuflaj
+STAJ	стаж	staj
+MASAJ	масаж	masaj
+VOLTAJ	волтаж	voltaj
+MONTAJ	монтаж	montaj
+KOLEJ	колеж	kolej
+BANDAJ	бандаж	bandaj
+AMBALAJ	амбалаж	ambalaj
+DRENAJ	дренаж	drenaj
+KORTEJ	кортеж	kortej
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+MORFOLOJİ	морфология	morfoloji
+STRATEJİ	стратегия	strateji
+ZOOLOJİ	зоология	zooloji
+HİDROLOJİ	хидрология	hidroloji
+LEJYONER	легионер	lejyoner
+ENERJİ	енергия	enerji
+ANTOLOJİ	антология	antoloji
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+SANDVİÇ	сандвич	sandviç
+KAUÇUK	каучук	kauçuk
+ÇAR	цар	çar/çar unvanı
+ÇİROZ	чироз	çiroz
+ÇORAP	чорап	çorap
+ÇORBA	чорба	çorba
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+DOÇENT	доцент	doçent
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+GÖN	гьон	gön/sert deri
+GÖL	гьол	göl
+DUBLÖR	дубльор	dublör
+KLASÖR	класьор	klasör
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+DEKORATÖR	декоратор	dekoratör
+DİREKTÖR	директор	direktör
+TERÖR	терор	terör
+TENÖR	тенор	tenor
+PROFESÖR	професор	profesör
+MONİTÖR	монитор	monitör
+KONSERVATÖR	консерватор	konservatör
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+NÖROLOG	невролог	nörolog
+NÖROLOJİ	неврология	nöroloji
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+NÖTRON	неутрон	nötron
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+MENÜ	меню	menü
+BÜROKRAT	бюрократ	bürokrat
+BÜST	бюст	büst
+BÜRO	бюро	büro
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+İYON	йон	iyon
+GAYDA	гайда	gayda
+KALAY	калай	kalay
+HAYDE	хайде	haydi
+HEY	хей	hey
+TAYGA	тайга	tayga
+VOLEYBOL	волейбол	voleybol
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+İTALYA	Италия	İtalya
+KAMELYA	камелия	kamelya
+LİTOGRAFYA	литография	litografi
+TENYA	тения	tenya
+ASYA	Азия	Asya
+İSPANYA	Испания	İspanya
+MALARYA	малария	sıtma/malarya
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+AMONYAK	амоняк	amonyak
+BOYA	боя	boya
+MAYA	мая	maya
+SOYA	соя	soya
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+RADYATÖR	радиатор	radyatör
+DİYALEKT	диалект	diyalekt/lehçe
+DİYALOG	диалог	diyalog
+GLADYATÖR	гладиатор	gladyatör
+DİYAGNOZ	диагноза	tanı/diagnoz
+DİYAPAZON	диапазон	diyapazon/aralık
+MANYAK	маниак	manyak
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+DİYEZ	диез	diyez
+ATELYE	ателие	atölye
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+KAMYON	камион	kamyon
+RADYO	радио	radyo
+BİYOLOG	биолог	biyolog
+BİYOLOJİ	биология	biyoloji
+AGROBİYOLOJİ	агробиология	agrobiyoloji
+DİYOPTER	диоптър	diyopter
+MİLYON	милион	milyon
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+AKVARYUM	аквариум	akvaryum
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+SİGARA	цигара	sigara
+DESİGRAM	дециграм	desigram
+DEKORASYON	декорация	dekorasyon
+DELEGASYON	делегация	delegasyon
+AKASYA	акация	akasya
+ASETİLEN	ацетилен	asetilen
+ASETON	ацетон	aseton
+NAVİGASYON	навигация	navigasyon
+SİRK	цирк	sirk
+SİVİL	цивилен / цивил	sivil
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+AKÜMÜLATÖR	акумулатор	akümülatör
+ALBÜM	албум	albüm
+CÜCE	джудже	cüce
+DÜET	дует	düet
+HÜMANİST	хуманист	hümanist
+LÜKS	лукс	lüks
+KAKTÜS	кактус	kaktüs
+SATÜRN	Сатурн	Satürn
+KAPSÜL	капсула	kapsül
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+APERİTİF	аперитив	aperitif
+KOLEKTİF	колектив	kolektif
+LOKOMOTİF	локомотив	lokomotif
+ELEKTROT	електрод	elektrot
+İYOT	йод	iyot
+LİMONATA	лимонада	limonata
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+ALMANAK	алманах	almanak
+BİYOKİMYA	биохимия	biyokimya
+KAOS	хаос	kaos
+KARAKTERİSTİK	характеристика	karakteristik
+KİMYA	химия	kimya
+KLOR	хлор	klor
+KLOROFİL	хлорофил	klorofil
+KLOROFORM	хлороформ	kloroform
+ANARŞİ	анархия	anarşi
+KRONOLOJİ	хронология	kronoloji
+MEKANİK	механика	mekanik
+MONARŞİ	монархия	monarşi
+PSİKOLOJİ	психология	psikoloji
+TEKNİK	техника	teknik
+ZEYTİN	зехтин	zeytin yağı
+AMBAR	хамбар	ambar
+OTEL	хотел	otel
+ASTAR	хастар	astar
+HURMA	фурма	hurma
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+ATEİZM	атеизъм	ateizm
+BUDİZM	будизъм	Budizm
+ENTÜSİAZM	ентусиазъм	coşku/entüzyazm
+HÜMANİZM	хуманизъм	hümanizm
+DALTONİZM	далтонизъм	renk körlüğü
+DARVİNİZM	дарвинизъм	Darvinizm
+DİNAMİZM	динамизъм	dinamizm
+DRAMATİZM	драматизъм	dramatizm
+EGOİZM	егоизъм	egoizm
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+KATIR	катър	katır
+FIRKETE	фуркета	firkete
+KADASTRO	кадастър	kadastro
+MANASTIR	манастир	manastır
+KİLOMETRE	километър	kilometre
+KAYISI	кайсия	kayısı
+KRONOMETRE	хронометър	kronometre
+PİRZOLA	пържола	pirzola
+PIRANGA	пиранга	pranga/pıranga
+DESİLİTRE	децилитър	desilitre
+DETSİMETRE	дециметър	desimetre
+HEKTOLİTRE	хектолитър	hektolitre
+IRGAT	аргат	ırgat
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+OTOBİYOGRAFİ	автобиография	otobiyografi
+OTOBÜS	автобус	otobüs
+OTOMAT	автомат	otomat
+OTOMATİK	автоматичен	otomatik
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+BREZİLYA	Бразилия	Brezilya
+ATEŞE	аташе	ateşe
+HELVA	халва	helva
+TARİFE	тарифа	tarife
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+İMPARATOR	император	imparator
+DİZANTERİ	дизентерия	dizanteri
+DOSYA	досие	dosya
+VANTİLATÖR	вентилатор	vantilatör
+İZALATÖR	изолатор	izolatör
+ANSİKLOPEDİ	енциклопедия	ansiklopedi
+Türkçe kelime	Bulgarca yazım	Türkçe anlam/not
+MİKROP	микроб	mikrop
+PORSUK	борсук	porsuk
+POTİNKA	ботинка	potin/bot
+Bulgarca kelime	Türkçe karşılığı
+Абанос	abanoz
+Авария	arıza/kaza
+Август	Ağustos
+Австралия	Avustralya
+Австрия	Avusturya
+Адвокат	avukat
+Балон	balon
+Балсам	balsam
+Бамбук	bambu
+Банка	banka / kavanoz
+Бебе	bebek
+Белгия	Belçika
+Бира	bira
+Вагон	vagon
+Ваза	vazo
+Вампир	vampir
+Ватман	tramvay sürücüsü
+Велур	velur/süet
+Веранда	veranda
+Газопровод	gaz boru hattı
+Гангстер	gangster
+Гарга	karga
+Геврек	gevrek/simit
+География	coğrafya
+Геометрия	geometri
+Декан	dekan
+Делегация	delegasyon
+Депозит	depozito/mevduat
+Екстра	ekstra
+Елеватор	elevatör/asansör
+Енергия	enerji
+Естетика	estetik
+Етикет	etiket
+Етнография	etnografya
+Жетон	jeton
+Жираф	zürafa
+Журнал	dergi/jurnal
+Завеса	perde
+Зала	salon
+Захар	şeker
+Звънец	zil
+Здравейте	merhaba
+Зебра	zebra
+Зехтин	zeytinyağı
+Извор	kaynak/pınar
+Изложба	sergi
+Икономика	ekonomi
+Име	isim/ad
+Индиго	indigo
+Интернет	internet
+Йерархия	hiyerarşi
+Йероглиф	hiyeroglif
+Йон	iyon
+Кабел	kablo
+Кабина	kabin
+Кавал	kaval
+Кайсия	kayısı
+Калиграфия	kaligrafi
+Кехлибар	kehribar
+Компютър	bilgisayar
+Лабиринт	labirent
+Лаптоп	dizüstü bilgisayar
+Ластик	lastik/silgi
+Левент	levent
+Лидер	lider
+Лимон	limon
+Март	Mart
+Маса	masa
+Масаж	masaj
+Математика	matematik
+Метафора	metafor
+Мода	moda
+Неврология	nöroloji
+Новела	novella/uzun hikaye
+Ноември	Kasım
+Норма	norm
+Нота	nota
+Нотариус	noter
+Обелиск	obelisk
+Общежитие	yurt/öğrenci yurdu
+Одеколон	kolonya
+Одрин	Edirne
+Океан	okyanus
+Октомври	Ekim
+Октопод	ahtapot
+Опера	opera
+Оперета	operet
+Организъм	organizma
+Паваж	kaldırım taşı/parke
+Павиан	babun
+Панорама	panorama
+Пансион	pansiyon
+Парафин	parafin
+Партер	zemin kat
+Парфюм	parfüm
+Перде	perde
+Радио	radyo
+Ракия	rakı/alkollü içki
+Рафт	raf
+Режисьор	rejisör/yönetmen
+Ректор	rektör
+Ринг	ring
+Салон	salon
+Сандвич	sandviç
+Сезон	sezon
+Сергия	tezgâh/sergi
+Серум	serum
+Скарида	karides
+Сода	soda
+Спанак	ıspanak
+Табела	tabela
+Табло	pano/tablo
+Тайга	tayga
+Тапа	tıpa
+Телевизия	televizyon
+Тенис	tenis
+Увертюра	uvertür
+Уиски	viski
+Университет	üniversite
+Фабрика	fabrika
+Факултет	fakülte
+Фамилия	soyadı/aile adı
+Фасул	fasulye
+Фаянс	fayans
+Ферма	çiftlik
+Физика	fizik
+Филология	filoloji
+Фурма	hurma
+Хамбар	ambar
+Хаос	kaos
+Характер	karakter
+Хастар	astar
+Химия	kimya
+Хотел	otel
+Цветарство	çiçekçilik
+Цвете	çiçek
+Център	merkez
+Церемония	seremoni
+Циклон	siklon
+Цимент	çimento
+Цирк	sirk
+Чай	çay
+Чифлик	çiftlik
+Шалвари	şalvar
+Шеф	şef/patron
+Шише	şişe
+Шоколад	çikolata
+Шут (футбол)	şut
+Юли	Temmuz
+Юни	Haziran
+Ютия	ütü
+Януари	Ocak
+Яхър	ahır
+Bulgarca
+Упражнение. Изписване на личните имена на обучаемите на български език, както и името на родния им град или село.	Türkçe
+Alıştırma: Öğrencilerin kişisel adlarını ve doğdukları şehir/köy adlarını Bulgarca yazmaları.
+Bulgarca
+Звукови закони.	Türkçe
+Ses yasaları.
+Bulgarca
+За илюстрация на звуковите закони при преход от единствено в множествено число работим с Малък речник на сходните думи.	Türkçe
+Tekilden çoğula geçerken ortaya çıkan ses değişimlerini göstermek için “Benzer Kelimeler Küçük Sözlüğü” ile çalışılır.
+Bulgarca
+В графа „Други особености“ се пише приложеният звуков закон.	Türkçe
+“Diğer özellikler” sütununa uygulanan ses yasası yazılır.
+Bulgarca
+Например в „анархия“ – ия-ии.	Türkçe
+Örneğin “анархия” kelimesinde çoğulda ия -> ии olur: анархии.
+Bulgarca
+Тоест, отнася се само за думите, към които е приложен съответния звуков закон.	Türkçe
+Yani bu not sadece ilgili ses kuralının gerçekten uygulandığı kelimeler için yazılır.
+Bulgarca
+Думи, завършващи на ия в множествено число приемат окончание ии.	Türkçe
+-ия ile biten kelimeler çoğulda -ии alır.
+Bulgarca
+Думи, завършващи на –к, в множествено число приемат окончание –ци.	Türkçe
+-к ile biten bazı eril isimler çoğulda -ци alır.
+Bulgarca
+Думи, завършващи на –г, в множествено число приемат окончание –зи.	Türkçe
+-г ile biten bazı isimler çoğulda -зи olur.
+Türkçe	Bulgarca	Rod	Çoğul	Kural
+ANAMNEZ	анамнеза	ж.р.	анамнези	-а -> -и
+ANARŞİ	анархия	ж.р.	анархии	ия -> ии
+ANARŞİST	анархист	м.р.	анархисти	-ист -> -исти
+ANARŞİZM	анархизъм	м.р.	анархизми	-изъм -> -изми
+ANASON	анасонов,-а,-о;-и	sıfat	анасонови	sıfat çekimi
+ANATOMİ	анатомия	ж.р.	анатомии	ия -> ии
+ANATOMİK	анатомичен,-чна,-о;-и	sıfat	анатомични	sıfat çekimi
+ANGARYA	ангария	ж.р.	ангарии	ия -> ии
+ANSİKLOPEDİ	енциклопедия	ж.р.	енциклопедии	ия -> ии
+ANTARKTİKA	Антарктика	ж.р.	-	özel ad
+ANTARKTİK	антарктичен	sıfat	антарктични	sıfat çekimi
+Türkçe	Bulgarca	Rod	Çoğul	Kural
+AMAZON	амазонка	ж.р.	амазонки	-а -> -и
+AMBALAJ	амбалаж	м.р.	амбалажи	-ж -> -жи
+AMBAR	хамбар	м.р.	хамбари	-р -> -ри
+AMERİKAN	американец	м.р.	американци	-ец -> -ци
+ÂMİN	амин	м.р.	амини	normal
+AMİRAL	адмирал	м.р.	адмирали	normal
+AMONYAK	амоняк	м.р.	амоняци	к -> ци
+AMPER	ампер	м.р.	ампери	normal
+AMPUL	ампула	ж.р.	ампули	-а -> -и
+ANALİTİK	аналитик	м.р.	аналитици	к -> ци
+Türkçe	Bulgarca	Rod	Çoğul	Kural
+ZOOLOG	зоолог	м.р.	зоолози	г -> зи
+ZOOLOJİ	зоология	ж.р.	зоологии	ия -> ии
+ZOOTEKNİK	зоотехника	ж.р.	зоотехники	-а -> -и
+ZOOTEKNİSYEN	зоотехник	м.р.	зоотехници	к -> ци
+ZÜRİH	Цюрих	м.р. özel ad	-	özel yer adı
+Bulgarca diyalog	Tam Türkçe çeviri
+– Добър ден!	– İyi günler!
+– Добър ден!	– İyi günler!
+– Аз съм вашата преподавателка по български език.	– Ben sizin Bulgarca öğretmeninizim.
+Казвам се Станка Донева.	Benim adım Stanka Doneva.
+А Вие как се казвате?	Peki sizin adınız nedir?
+– Аз се казвам Симеон Димитров.	– Benim adım Simeon Dimitrov.
+– Благодаря! А Вие кой сте?	– Teşekkür ederim! Peki siz kimsiniz?
+– Аз съм Димитър Петров.	– Ben Dimitar Petrov’um.
+– А Вие, колежке, как се казвате?	– Peki siz, meslektaşım/öğrenci arkadaşım, adınız nedir?
+– Донка Асенова.	– Donka Asenova.
+– Вашето име, моля?	– Adınız lütfen?
+– Румен Василев.	– Rumen Vasilev.
+– Извинете, не чух добре.	– Affedersiniz, iyi duyamadım.
+Бихте ли повторили?	Tekrar eder misiniz?
+– Да. Румен Василев.	– Evet. Rumen Vasilev.
+– С Вас вече се познаваме.	– Sizinle zaten tanışıyoruz / birbirimizi tanıyoruz.
+Вие сте Елена Иванова, нали?	Siz Elena Ivanova’sınız, değil mi?
+– Да. Аз съм Елена Иванова.	– Evet. Ben Elena Ivanova’yım.
+– А госпожицата с Вас коя е?	– Peki sizin yanınızdaki genç hanım kim?
+– Това е приятелката ми.	– Bu benim arkadaşım.
+Тя се казва Боряна Тодорова.	Onun adı Boryana Todorova.
+– Беше ми приятно да се запозная с вас.	– Sizinle tanışmak benim için memnuniyet vericiydi.
+А сега да започнем работа.	Şimdi çalışmaya başlayalım.
+– Ние също се радваме, че се запознахме с Вас!	– Biz de sizinle tanıştığımız için memnunuz!
+Bulgarca diyalog	Tam Türkçe çeviri
+– Извинете, Вие ли сте Елка Боянова?	– Affedersiniz, Elka Boyanova siz misiniz?
+– Да. А Вие сигурно сте приятелката на Галя?	– Evet. Siz de herhalde Galya’nın arkadaşısınız?
+– Да. Приятно ми е, Росица Милева.	– Evet. Memnun oldum, Rositsa Mileva.
+– На мен също ми е приятно.	– Ben de memnun oldum.
+– А това е моя колежка. Запознайте се!	– Bu da benim meslektaşım/arkadaşım. Tanışın lütfen!
+– Приятно ми е, Стоянова.	– Memnun oldum, Stoyanova.
+– Боянова. Радвам се, че се запознахме.	– Boyanova. Tanıştığımıza sevindim.
+Надявам се, че скоро пак ще се видим.	Umarım yakında tekrar görüşürüz.
+Запишете, ако обичате, моя телефон: 25-34-28.	Lütfen telefon numaramı yazın: 25-34-28.
+– Благодаря! Довиждане!	– Teşekkür ederim! Hoşça kalın!
+– Довиждане! Ще чакам да се обадите.	– Hoşça kalın! Aramanızı bekleyeceğim.
+– Да, непременно ще се обадя.	– Evet, mutlaka arayacağım.
+Bulgarca diyalog	Tam Türkçe çeviri
+– Извинете, искам да се запозная с Вас.	– Affedersiniz, sizinle tanışmak istiyorum.
+Ще разрешите ли да Ви се представя?	Kendimi size tanıtmama izin verir misiniz?
+Аз се казвам Радой Антонов.	Benim adım Radoy Antonov.
+А Вие как се казвате?	Peki sizin adınız nedir?
+– Аз се казвам Марта.	– Benim adım Marta.
+– Приятно ми е да се запозная с Вас!	– Sizinle tanıştığıma memnun oldum!
+– На мен също.	– Ben de.
+– А това е Ирина.	– Bu da İrina.
+Ирина, запознай се, това е нашият екскурзовод.	İrina, tanış; bu bizim rehberimiz.
+– Приятно ми е!	– Memnun oldum!
+– Извинете, не чух добре, бихте ли повторили името си?	– Affedersiniz, iyi duyamadım, adınızı tekrar eder misiniz?
+– Ирина Василева.	– İrina Vasileva.
+– Радвам се, че се запознахме!	– Tanıştığımıza sevindim!
+– Извинете, а шофьорът как се казва?	– Affedersiniz, peki şoförün adı ne?
+– Той се казва Димитър Иванов.	– Onun adı Dimitar İvanov.
+Запознайте се, моля.	Tanışın lütfen.
+– Благодаря Ви! Много сте любезна!	– Teşekkür ederim! Çok naziksiniz!
+– Няма защо!	– Rica ederim / önemli değil!
+Anlam	Rod/sayı	Tam biçim	Kısaltma	Hitap biçimi	Türkçe
+неомъжена жена	ж.р. ед.ч.	госпожица	г-ца	госпожице	evli olmayan genç kadın / hanımefendi
+ж.р. мн.ч.	ж.р. мн.ч.	госпожици	г-ци	госпожици	genç hanımlar
+омъжена или възрастна жена	ж.р. ед.ч.	госпожа	г-жа	госпожо	evli veya yetişkin kadın / bayan
+ж.р. мн.ч.	ж.р. мн.ч.	госпожи	г-жи	госпожи	hanımlar
+мъж	м.р. ед.ч.	господин	г-н	господине	erkek / bay
+м.р. мн.ч.	м.р. мн.ч.	господа	г-да	господа	beyler
+Bulgarca	Türkçe	Kullanım notu
+Как се казвате?	Adınız nedir?	resmi
+Как се казваш?	Adın nedir?	samimi
+Името Ви, моля?	Adınız lütfen?	resmi
+Бихте ли казали името си?	Adınızı söyler misiniz?	çok kibar
+Вашето име?	Adınız?	kısa/resmi
+Моля, представете се!	Lütfen kendinizi tanıtın.	resmi
+Моля, запознайте ме с...	Lütfen beni ... ile tanıştırın.	resmi
+Позволете ми да Ви представя на...	Sizi ... ile tanıştırmama izin verin.	resmi
+Разрешете да Ви представя...	Size ... tanıtmama izin verin.	resmi
+Представям Ви...	Size ... tanıtıyorum.	resmi
+Бих искал/искала да ви представя съпруга си.	Size eşimi tanıtmak isterim.	erkek/kadın konuşana göre
+Моля, запознайте се с моите приятели.	Lütfen arkadaşlarımla tanışın.	resmi
+Моля, представете ме на Вашите приятели.	Lütfen beni arkadaşlarınıza tanıtın.	resmi
+Познавате ли господин/госпожа...?	Bay/Bayan ...’ı tanıyor musunuz?	resmi
+Да Ви се представя!	Kendimi size tanıtayım!	resmi
+Да Ви представя моя приятел/моята приятелка!	Size erkek/kız arkadaşımı tanıtayım!	resmi
+Да Ви представя моя съпруг/моята съпруга!	Size eşimi tanıtayım!	resmi
+Казвам се...	Benim adım...	ana kalıp
+Името ми е...	Benim ismim...	ana kalıp
+Моята фамилия е...	Soyadım...	aile adı
+Бащиното ми име е...	Baba adım...	Bulgar ad sisteminde önemli
+Ето моята визитна картичка.	İşte kartvizitim.	resmi
+Много се радвам да се срещна с Вас!	Sizinle karşılaştığıma çok sevindim!	resmi
+Радвам се, че се запознахме.	Tanıştığımıza sevindim.	resmi
+Приятно ми е!	Memnun oldum!	çok sık
+На мен също!	Ben de!	cevap
+Ще се радвам да се видим отново!	Tekrar görüşürsek memnun olurum!	kibar
+Bulgarca	Türkçe	Açıklama
+Господине!	Beyefendi!	tanımadığınız veya saygı gösterdiğiniz erkek
+Господин Петров!	Bay Petrov!	tanıdık erkek + soyadı
+Уважаеми господине!	Sayın beyefendi!	resmi mektup
+Господа!	Beyler!	çoğul
+Господин полицай	Polis Bey	meslekle hitap
+Госпожо!	Hanımefendi/Bayan!	evli/yetişkin kadın
+Госпожо Петрова!	Bayan Petrova!	soyadıyla
+Госпожи!	Hanımlar!	çoğul
+Госпожице!	Genç hanım!	genç/evli olmayan kadın
+Гражданино!	Vatandaş!	erkek
+Гражданко!	Vatandaş!	kadın
+Граждани!	Vatandaşlar!	çoğul
+Колега!	Meslektaşım!	erkek/kadın
+Колеги!	Meslektaşlar!	çoğul
+Уважаеми колеги!	Sayın meslektaşlar!	resmi
+Дами и господа!	Hanımefendiler ve beyefendiler!	resmi açılış
+Уважаеми гости!	Sayın misafirler!	resmi
+Скъпи приятели!	Sevgili dostlar!	samimi
+Скъпи приятелю!	Sevgili erkek arkadaşım/dostum!	erkek
+Скъпа приятелко!	Sevgili kadın arkadaşım/dostum!	kadın
+Ей, жено!	Hey kadın!	çok gündelik/kaba olabilir
+Ей, мъжо!	Hey adam/kocam!	gündelik
+Булка!	Gelin/hanım!	geleneksel
+Ей, младеж!	Hey genç!	gündelik
+Ела тук, синко!	Buraya gel, oğlum!	şefkatli hitap
+Майко! / Мамо!	Anne!	anneye hitap
+Татко! / Тате!	Baba!	babaya hitap
+Чедо!	Evladım!	çocuğa
+Сине! / Синко!	Oğlum!	erkek çocuğa
+Щерко! / Дъще!	Kızım!	kız çocuğa
+Бабо!	Nine!	büyükanne
+Дядо!	Dede!	büyükbaba
+Bulgarca	Türkçe
+Чужденец/чужденка ли сте?	Yabancı mısınız?
+Не сте българин/българка, нали?	Bulgar değilsiniz, değil mi?
+Какъв/каква сте по националност?	Milliyetiniz nedir?
+Вашата националност/народност?	Milliyetiniz/etnik kökeniniz?
+Турчин ли сте? Туркиня ли сте?	Türk müsünüz?
+Откъде сте?	Nerelisiniz?
+От Турция ли сте?	Türkiye’den misiniz?
+Били ли сте в Турция/България?	Türkiye’de/Bulgaristan’da bulundunuz mu?
+Откъде си?	Nerelisin?
+От коя държава си?	Hangi ülkedensin?
+В България ходил/ходила ли си?	Bulgaristan’a gittin mi?
+Бил/била ли си в България?	Bulgaristan’da bulundun mu?
+Bulgarca	Türkçe	Kullanım
+Здравейте!	Merhaba!	her zaman, resmi/çoğul
+Здравей!	Merhaba!	samimi tekil
+Здрасти!	Selam!	konuşma dili
+Добро утро!	Günaydın!	sabah
+Добър ден!	İyi günler!	gündüz
+Добър вечер!	İyi akşamlar!	akşam
+Лека нощ!	İyi geceler!	gece yatarken/ayrılırken
+Довиждане!	Hoşça kalın / görüşmek üzere!	resmi
+Чао!	Çao / görüşürüz!	samimi
+До нови срещи!	Tekrar görüşmek üzere!	resmi
+Всичко хубаво! / Всичко добро!	Her şey gönlünüzce olsun!	ayrılırken
+Сбогом!	Elveda!	kalıcı ayrılık
+Приятна работа!	İyi çalışmalar!	iş için
+Успешен ден!	Başarılı/iyi günler!	dilek
+Лек ден!	İyi günler/kolay bir gün!	dilek
+Успех!	Başarılar!	dilek
+Късмет!	Bol şans!	dilek
+Весели празници!	İyi bayramlar / mutlu tatiller!	dilek
+Bulgarca	Türkçe
+Благодаря!	Teşekkür ederim!
+Благодаря ти/Ви много!	Sana/size çok teşekkür ederim!
+Сърдечно благодаря!	İçten teşekkür ederim!
+Благодаря за приема/поканата!	Kabul/davet için teşekkür ederim!
+Благодаря за вниманието!	İlginiz için teşekkür ederim!
+Благодаря за съчувствието!	Duyarlılığınız/başsağlığı için teşekkür ederim!
+Благодаря за помощта!	Yardımınız için teşekkür ederim!
+Благодаря за топлия прием!	Sıcak karşılama için teşekkür ederim!
+Благодаря за гостоприемството!	Misafirperverliğiniz için teşekkür ederim!
+Благодаря за пожеланията!	Dilekleriniz için teşekkür ederim!
+Много мило от Ваша страна!	Bu sizin tarafınızdan çok nazikçe!
+Много сте любезен/любезна!	Çok naziksiniz!
+Много съм Ви признателен/признателна!	Size çok minnettarım!
+Много съм Ви благодарен/благодарна!	Size çok teşekkür ederim/minnettarım!
+Моля Ви!	Rica ederim!
+Няма защо!	Önemli değil / rica ederim!
+Безкрайно съм Ви благодарен/благодарна!	Size son derece minnettarım!
+Не знам как да Ви се отблагодаря!	Size nasıl teşekkür edeceğimi bilemiyorum!
+Bulgarca	Türkçe
+Извинете!	Affedersiniz!
+Простете!	Beni bağışlayın!
+Простете, моля Ви!	Lütfen beni bağışlayın!
+За нищо, моля!	Bir şey değil, rica ederim!
+Извинете... не Ви чух.	Affedersiniz, sizi duymadım.
+Извинете... не Ви разбрах.	Affedersiniz, sizi anlamadım.
+Извинявайте за закъснението.	Gecikme için özür dilerim.
+Извинявайте за безпокойствието.	Rahatsızlık için özür dilerim.
+Няма нищо.	Bir şey yok / önemli değil.
+Няма значение.	Önemi yok.
+Bulgarca	Türkçe
+Честита нова година!	Yeni yılınız kutlu olsun!
+ЧНГ!	Yeni yılınız kutlu olsun! (kısaltma)
+Най-добри пожелания за новата година!	Yeni yıl için en iyi dileklerimle!
+Честита Коледа!	Mutlu Noeller!
+Честита Баба Марта!	Baba Marta gününüz kutlu olsun!
+Честит осми март!	8 Mart Kadınlar Günü kutlu olsun!
+Честит юбилей!	Yıl dönümünüz/jübileniz kutlu olsun!
+Честит рожден ден!	Doğum günün kutlu olsun!
+ЧРД!	Doğum günün kutlu olsun! (kısaltma)
+Честит имен ден!	İsim günün kutlu olsun!
+Честит празник!	Bayramınız/kutlamanız kutlu olsun!
+Живейте и се радвайте!	Mutlulukla yaşayın!
+Пожелавам ти/Ви щастие.	Sana/size mutluluk dilerim.
+Пожелавам ти/Ви успех.	Sana/size başarı dilerim.
+Пожелавам ти/Ви здраве.	Sana/size sağlık dilerim.
+Пожелавам Ви успех в работата.	İşinizde başarılar dilerim.
+Пожелавам Ви успех в учението.	Eğitiminizde başarılar dilerim.
+Пожелавам Ви здраве и щастие!	Sağlık ve mutluluk dilerim!
+Бъдете щастливи!	Mutlu olun!
+Пожелавам ти/Ви много късмет!	Bol şans dilerim!
+За много години!	Nice yıllara!
+Приятни забавления!	İyi eğlenceler!
+Ползотворна работа!	Verimli çalışmalar!
+Приятна почивка!	İyi dinlenmeler / iyi tatiller!
+Моите поздравления!	Tebriklerimi sunarım!
+Поздравления!	Tebrikler!
+Поздравявам те/Ви с успеха!	Başarını/başarınızı kutlarım!
+Много поздрави!	Çok selamlar!
+Предай поздрави!	Selam söyle!
+Поздравете го/ги от мен.	Ona/onlara benden selam söyleyin.
+Спорна работа! / Лека работа!	Kolay gelsin!
+Добър път! / На добър път! / Лек път!	İyi yolculuklar!
+Приятно пътуване!	İyi yolculuklar!
+На добър час!	Yolunuz açık olsun!
+Честито!	Tebrikler!
+Да Ви се връща!	Darısı başınıza!
+Радвам се да чуя това!	Bunu duyduğuma sevindim!
+Bulgarca	Zaman/kullanım	Türkçe
+Добро утро!	05.00-09.00	Günaydın!
+Добър ден!	09.00-18.00	İyi günler!
+Добър вечер!	18.00-21.00/22.00	İyi akşamlar!
+Лека нощ!	gece/ayrılırken	İyi geceler!
+Здравейте! / Здравей!	her zaman	Merhaba!
+Здрасти! / Чао!	samimi	Selam! / Çao!
+Bulgarca
+Местоимение е всяка дума, с която могат да се заменят имената.	Türkçe
+Zamir, isimlerin yerine kullanılabilen her sözcüktür.
+Bulgarca
+С местоимения могат да се заменят съществителни, прилагателни, числителни.	Türkçe
+Zamirler isimlerin, sıfatların ve sayıların yerine geçebilir.
+Bulgarca
+С тях могат да се посочват различни обекти и техни признаци или да се пита за тях.	Türkçe
+Zamirlerle çeşitli nesneler, onların özellikleri gösterilebilir veya onlar hakkında soru sorulabilir.
+Bulgarca
+Местоимението е заместваща дума.	Türkçe
+Zamir bir “yerine geçen” sözcüktür.
+Bulgarca
+Вървяхме дълго към върха, но не успяхме да го изкачим.	Türkçe
+Tepeye doğru uzun süre yürüdük ama onu tırmanmayı/ona çıkmayı başaramadık.
+Bulgarca
+Местоимението го замества съществителното име върха.	Türkçe
+го zamiri burada “tepeyi” anlamındaki върха isminin yerine geçer.
+Bulgarca
+Аз харесвам това момиче.	Türkçe
+Ben bu kızı beğeniyorum.
+Bulgarca
+И аз искам такава рокля.	Türkçe
+Ben de böyle bir elbise istiyorum.
+Bulgarca
+С кого ще ходиш на разходка?	Türkçe
+Kiminle yürüyüşe/gezmeye gideceksin?
+Bulgarca
+Срещна ли някого?	Türkçe
+Birisiyle karşılaştın mı? / Birini gördün mü?
+Bulgarca
+Местоимението може да се изменя по род, число, лице, падеж и членуване.	Türkçe
+Zamir; cinsiyet, sayı, şahıs, hâl ve belirlilik yönünden değişebilir.
+Bulgarca
+Местоимението приема граматичните признаци на думата, която замества.	Türkçe
+Zamir, yerine geçtiği kelimenin gramatik özelliklerine uyum sağlar.
+Kişi	Yalın	TR	Tam nesne	TR	Kısa nesne	TR	Tam yönelme	TR	Kısa yönelme	TR
+Единствено 1. лице	аз	ben	мене/мен	beni	ме	beni	на мене	bana	ми	bana
+Единствено 2. лице	ти	sen	тебе/теб	seni	те	seni	на тебе	sana	ти	sana
+Единствено 3. лице м.р.	той	o	него	onu	го	onu	нему	ona	му	ona
+Единствено 3. лице ж.р.	тя	o	нея	onu	я	onu	ней	ona	й	ona
+Единствено 3. лице ср.р.	то	o	него	onu	го	onu	нему	ona	му	ona
+Множествено 1. лице	ние/ний	biz	нас	bizi	ни	bizi	нам	bize	ни	bize
+Множествено 2. лице	вие/вий	siz	вас	sizi	ви	sizi	вам	size	ви	size
+Множествено 3. лице	те	onlar	тях	onları	ги	onları	тям	onlara	им	onlara
+Şahıs	Bulgarca	Türkçe
+1 л. ед. ч.	Аз се казвам ...	Benim adım ...
+2 л. ед. ч.	Ти се казваш ...	Senin adın ...
+3 л. ед. ч.	Той/Тя/То се казва ...	Onun adı ...
+1 л. мн. ч.	Ние се казваме ...	Bizim adımız ...
+2 л. мн. ч.	Вие се казвате ...	Sizin adınız ...
+3 л. мн. ч.	Те се казват ...	Onların adı ...
+Şahıs	Bulgarca	Türkçe
+1 л. ед. ч.	Аз съм студент/студентка.	Ben öğrenciyim.
+2 л. ед. ч.	Ти си ...	Sen ...sin.
+3 л. ед. ч.	Той/Тя/То е ...	O ...dır.
+1 л. мн. ч.	Ние сме ...	Biz ...iz.
+2 л. мн. ч.	Вие сте ...	Siz ...siniz.
+3 л. мн. ч.	Те са ...	Onlar ...dır/dir.
+Bulgarca	Türkçe
+Ти кой си? / Кой си ти?	Sen kimsin?
+Вие кой сте? / Кой сте Вие?	Siz kimsiniz? (erkek/tekil resmi)
+Ти коя си? / Коя си ти?	Sen kimsin? (kadın)
+Вие коя сте? / Коя сте Вие?	Siz kimsiniz? (kadın/tekil resmi)
+Той кой е? / Кой е той?	O kim? (erkek)
+Тя коя е? / Коя е тя?	O kim? (kadın)
+Вие кои сте? / Кои сте вие?	Siz kimsiniz? (çoğul)
+Те кои са? / Кои са те?	Onlar kim?
+Anlam	Eril	TR	Nesne hâli	TR	Yönelme	TR	Dişil	TR	Orta	TR	Çoğul	TR
+За лица	кой	ким/kim	кого	kimi	кому	kime	коя	kim	кое	kim	кои	kimler
+За предмети	кой	hangi	какво/що	ne/nedir	-	-	коя	hangi	кое	hangi	кои	hangiler
+За признаци	какъв	nasıl/ne tür	-	-	-	-	каква	nasıl/ne tür	какво	nasıl/ne tür	какви	nasıl/ne tür
+За притежание	чий	kimin	-	-	-	-	чия	kimin	чие	kimin	чии	kimlerin
+За количество	колко	kaç/ne kadar	-	-	-	-	колко	kaç	колко	kaç	колко	kaç
+Boşluklu cümle	Doğru cevap	Türkçe
+Аз .............. Севил.	Аз се казвам Севил.	Benim adım Sevil.
+Студентка ........................ в Тракийския университет.	Студентка съм в Тракийския университет.	Trakya Üniversitesinde öğrenciyim.
+... университет в град Одрин.	Тракийския университет в град Одрин.	Edirne şehrindeki Trakya Üniversitesi.
+Уча ........................................................................	Уча български език.	Bulgarca öğreniyorum.
+Това ...................... Бюлент.	Това е Бюлент.	Bu Bülent.
+.................. също е студент.	Той също е студент.	O da öğrencidir.
+Alıştırma	Cevap	Türkçe
+Аз .... спортист.	Аз съм спортист.	Ben sporcuyum.
+Ти спортист ли..... ?	Ти спортист ли си?	Sen sporcu musun?
+Не ..... ли на театър?	Не си ли на театър?	Tiyatroda değil misin?
+Те .... на кино.	Те са на кино.	Onlar sinemadalar.
+Той .... гладен.	Той е гладен.	O aç.
+Model	Cevap	Türkçe
+Разбираш ли?	– Не, не разбирам. / – Да, разбирам.	Anlıyor musun? Hayır, anlamıyorum. / Evet, anlıyorum.
+Преподавате ли?	– Не, не преподавам. / – Да, преподавам.	Ders veriyor musunuz? Hayır, vermiyorum. / Evet, veriyorum.
+Преподавател ли сте?	– Да, преподавател съм. / – Не, не съм.	Öğretmen misiniz? Evet, öğretmenim. / Hayır, değilim.
+Bulgarca	Türkçe
+− Как се казваш?	Adın ne?
+− Аз съм Емин. А ти?	Ben Emin. Ya sen?
+− Аз съм Фери.	Ben Feri.
+Аз съм Емин.	Ben Emin’im.
+Аз съм студент.	Ben erkek öğrenciyim.
+Аз съм Фери.	Ben Feri’yim.
+Аз съм студентка.	Ben kadın öğrenciyim.
+Казвам се Емин.	Benim adım Emin.
+Това е Фери.	Bu Feri.
+Тя се казва Фери.	Onun adı Feri.
+Тя е студентка в Тракийския университет в град Одрин.	O Edirne şehrindeki Trakya Üniversitesinde kadın öğrencidir.
+Той е студент.	O erkek öğrencidir.
+Тези студенти се казват Фери и Емин.	Bu öğrencilerin adları Feri ve Emin’dir.
+Ние се казваме Фери и Емин.	Bizim adlarımız Feri ve Emin.
+Вие се казвате Фери и Емин.	Sizin adlarınız Feri ve Emin.
+Ти се казваш ...	Senin adın ...
+Bulgarca kalıp	Türkçe
+Аз съм ...	Ben ...’im.
+Роден съм в ...	...’de doğdum. (erkek)
+Родена съм в ...	...’de doğdum. (kadın)
+Сега съм на ... години.	Şu anda ... yaşındayım.
+Студент съм в ...	...’de erkek öğrenciyim.
+Студентка съм в ...	...’de kadın öğrenciyim.
+Обичам да ...	... yapmayı severim.
+Искам да стана ...	... olmak istiyorum.
