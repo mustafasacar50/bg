@@ -1,0 +1,117 @@
+Bulgarca A1 - Ders 1 ve 2
+Tam Türkçe Çevirili, Renkli Açıklamalı ve Yeni Öğrenci Dostu Eğitim Notu
+Bu dosya; Bulgar alfabesi, Kiril harfleri, Türkçe-Bulgarca yazım dönüşümleri, tanışma diyalogları, hitaplar, selamlaşmalar, zamirler, “казвам се” ve “съм” fiilleri ile soru cümlelerini A1 seviyesinde, hiçbir ana cümleyi atlamadan öğretmek için hazırlanmıştır.
+Renk kılavuzu: Mavi kutular Bulgarca orijinali, yeşil kutular Türkçe karşılığı, sarı kutular ezber/uyarı, mor kutular dilbilgisi, turuncu kutular öğretici notlar içindir.
+İçindekiler
+Ders 1: Bulgar Alfabesi ve Kiril Yazısı
+Fonetik özellikler: ünlü, ünsüz, Ю/Я/Щ/Й
+Türkçe kelimelerin Bulgarca yazımı: ses eşleştirme tabloları
+Bulgarcadan Türkçeye okuma/karşılaştırma listesi
+Ses yasaları: tekilden çoğula geçişte değişimler
+Ders 2: Как се казвате? - Tanışma ve kendini tanıtma
+Kısaltmalar, hitaplar, selamlaşmalar, teşekkürler ve özürler
+Zamirler ve şahıs zamirleri
+Казвам се ve съм fiilleri
+Soru cümleleri ve alıştırmalar
+DERS 1 - Запознаване с българската азбука
+Türkçe: Bulgar alfabesiyle tanışma. Bu dersin amacı harfleri tanımak, sesleri duymak, Kiril yazısını okuyabilmek ve Türkçe kelimelerin Bulgarca karşılıklarını yazmaya başlamaktır.
+Önemli: Bulgar alfabesi 30 harften oluşur. Türkçeye göre en yeni gelen harfler genellikle Ж, Ц, Ч, Ш, Щ, Ъ, Ь, Ю, Я harfleridir. Özellikle Ъ sesi Türkçede bire bir yoktur; kısa, boğazdan gelen “ı/a arası” bir sestir.
+Çalışma önerisi: Her harfi önce büyük-küçük okuyun, sonra 5 kez yazın. Ardından örnek kelimeleri yüksek sesle okuyun. Bulgarca öğrenirken harfi görmek, sesi duymak ve elle yazmak birlikte ilerlemelidir.
+Fonetik özellikler ve Kiril yazısında dikkat noktaları
+Yeni öğrenci için pratik kural: Bulgarcada bir kelimeyi okuyabilmek için önce harf-ses eşleşmesini öğrenin. Sonra hecelere ayırın. Son olarak cümle içinde okuyun.
+Türkçe kelimeleri Bulgarca yazma: ses dönüşüm tabloları
+Bu bölümde PDF’deki tüm dönüşüm başlıkları korunmuştur. Amaç, Türkçeden tanıdığınız kelimelerin Bulgarca Kiril yazılışını sezebilmenizdir. Bu tablolar “mutlak kural” değil, özellikle alıntı ve benzer kelimelerde sık görülen yazım eğilimleridir.
+Ş → Ш
+Türkçedeki Ş sesi Bulgarcada genellikle Ш ile yazılır.
+J → Ж
+Türkçedeki J sesi Bulgarcada Ж ile yazılır.
+-Jİ → -ГИ(Я)
+Türkçedeki -loji/-ji sonları Bulgarcada çoğunlukla -логия/-гия biçimine yaklaşır.
+Ç → Ч
+Türkçedeki Ç sesi bazı kelimelerde Ч ile yazılır.
+Ç → Ц
+Bazı alıntı kelimelerde Ç/ts benzeri ses Ц ile yazılır.
+Ö → ЬО
+Ö sesi bazı kelimelerde yumuşatma işaretli ьо ile gösterilir.
+Ö → О
+Ö, birçok uluslararası alıntı kelimede O ile karşılanır.
+Ö → ЕВ
+Nöro- kökü Bulgarcada невро- biçiminde görülür.
+Ö → ЕУ
+Bazı bilimsel kelimelerde ö/eu ilişkisi görülebilir.
+Ü → Ю
+Ü sesi kimi kelimelerde Ю ile yazılır.
+(İ)Y → Й
+Türkçedeki y kaydırma sesi Bulgarcada Й ile karşılanabilir.
+YA → ИЯ
+-ya ile biten ülke/bilim adları çoğu zaman -ия olur.
+YA → Я
+Bazı kelimelerde ya doğrudan Я ile yazılır.
+(İ)YA → ИА
+-iya/-ya birleşimleri bazı kelimelerde иа ile yazılır.
+(İ)YE → ИЕ
+-ye/-iye sesi bazı kelimelerde ие olur.
+(İ)YO → ИО
+-yo/-iyo sesleri bazı kelimelerde ио olur.
+(İ)YU → ИУ
+-yu/-iyu bazı kelimelerde иу gibi görünür.
+S(YON) → Ц(ИЯ)
+-syon sonları Bulgarcada çoğunlukla -ция olur.
+Ü → У
+Ü bazı alıntılarda У ile yazılır.
+T → Д || F → В
+Kelime sonlarındaki t/f bazı alıntılarda d/v ile sonuçlanabilir.
+К → Х || Ş → Х || Y → Х || H → Ф
+Bazı uluslararası kelimelerde k/ş/y/h sesleri Bulgarcada х veya ф ile görülebilir.
+-İZM → -ИЗЪМ
+-izm ile biten kavramlar Bulgarcada -изъм ile yazılır.
+I değişimleri
+Türkçedeki ı/i/u/a gibi sesler kelimeye göre farklı karşılanabilir.
+OTO- → АВТО-
+Oto- kökü Bulgarcada çoğu zaman авто- olur.
+E → A
+Bazı kelimelerde e/a karşılığı görülür.
+A → E || A → O
+Bazı alıntılarda a sesi e/o olarak karşılanabilir.
+P → Б
+Bazı kelimelerde p/b ilişkisi görülebilir.
+Bulgarcadan Türkçeye ters yazılış listesi
+PDF’de bu bölüm “Bulgarca kelime - Türkçe kelime” olarak boşluklu çalışma tablosu şeklindedir. Aşağıda tüm kelimeler Türkçe karşılıklarıyla verilmiştir.
+Ses yasaları ve çoğul yapımı
+A1 öğrencisi için en önemli fikir: Bulgarcada çoğul yaparken sadece sona ek getirmek yetmez; bazen kelimenin son sesi de değişir. Örneğin -ия -> -ии, -к -> -ци, -г -> -зи gibi.
+DERS 2 - „Как се казвате?“ / “Adınız ne?”
+Bu derste tanışma, kendini tanıtma, başkasını tanıtma ve kibar iletişim kalıpları öğrenilir.
+Dil notu: Как се казвате? resmi/kibar biçimdir. Как се казваш? samimi tekil biçimdir. “Казвам се ...” kelime kelime “kendime ... denir” gibi düşünülebilir ama Türkçede “Benim adım ...” diye çevrilir.
+Kalıp: “Приятно ми е” tek başına “Memnun oldum” demektir. “На мен също” = “Ben de.”
+Kısaltmalar: госпожица, госпожа, господин
+Çok önemli: Bulgarcada hitap ederken kelimenin biçimi değişebilir. Örneğin господин = bay, ama doğrudan seslenirken господине! denir.
+Tanışma için temel ifadeler
+Hitaplar: resmi ve konuşma dili
+Ülke, milliyet ve nereli olduğunu sorma
+Selamlaşma, vedalaşma ve dilekler
+Teşekkür etme ve karşılık verme
+Özür dileme
+Kutlama, tebrik ve iyi dilekler
+Günün saatlerine göre selamlaşma
+Alıştırma cevabı: “Сутрин се поздравяваме с ...” cümlesinde doğru cevap ДОБРО УТРО’dur. Çünkü “сутрин” sabah demektir.
+Местоимение - Zamir
+Türkçede “o” tek biçimdir. Bulgarcada “o” üç biçimlidir: той (eril), тя (dişil), то (orta/nötr). Bu yüzden zamir öğrenirken mutlaka ismin cinsiyetini de düşünmelisiniz.
+Kısa formlar Bulgarcada çok kullanılır: ме, те, го, я, ни, ви, ги; ми, ти, му, й, ни, ви, им. Yeni öğrenci için ilk aşamada yalın formları iyi öğrenmek yeterlidir; sonra kısa formlar cümle içinde pekiştirilir.
+Сегашно време на глагола казвам се - “adım ...” fiili
+“се” dönüşlülük unsurudur. Türkçeye kelime kelime çevrilmez; kalıp olarak “Benim adım...” diye öğrenin.
+Сегашно време на глагола съм - “olmak” fiili
+A1 düzeyinde en önemli fiil “съм” fiilidir: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са. Bunu ezberlemeden Bulgarca cümle kurmak çok zor olur.
+Soru zamirleri ve soru cümleleri
+ли parçacığı evet/hayır sorusu yapar. Örnek: Учиш ли? = Çalışıyor/okuyor musun? Студент ли си? = Öğrenci misin?
+Alıştırmalar - çözümlü ve açıklamalı
+Kendini tanıtma modeli
+Kendi cümlenizi kurun: Аз съм ... / Казвам се ... / Роден(а) съм в ... / Сега съм на ... години. / Студент(ка) съм в ... / Обичам да ... / Искам да стана ...
+Bu derslerde öğrenmeniz gereken çekirdek bilgiler
+Bulgar alfabesinde 30 harf vardır; Türkçeye göre özellikle Ж, Ц, Ч, Ш, Щ, Ъ, Ь, Ю, Я harflerine dikkat edilir.
+Ю, Я, Щ çoğu zaman iki sesli düşünülür: ю = й+у, я = й+а, щ = ш+т.
+Türkçe-Bulgarca benzer kelimelerde ses dönüşümleri vardır: Ş→Ш, J→Ж, Ç→Ч/Ц, -syon→-ция, -izm→-изъм.
+Tanışmada en önemli kalıplar: Как се казвате? / Казвам се ... / Приятно ми е.
+Resmi konuşmada Вие, samimi konuşmada ти kullanılır.
+“съм” fiili: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са.
+Zamirlerde Bulgarca cinsiyet önemlidir: той, тя, то.
+ли parçacığı evet/hayır sorusu yapar: Учиш ли? Студент ли си?

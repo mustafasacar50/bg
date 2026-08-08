@@ -68,7 +68,6 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [isSwapped, setIsSwapped] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [langFilter, setLangFilter] = useState<'all' | 'bg' | 'tr'>('all');
-  const [activeQuestion, setActiveQuestion] = useState<any>(null);
   
   // Keyboard State
   const [keyboardOpen, setKeyboardOpen] = useState(false);
@@ -718,13 +717,16 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
               {/* Açıklama / Kural Kutusu */}
               {(feedback !== 'none' || adminMode) && activeQuestion?.explanation && (
-                <div className="mt-6 bg-indigo-50 border-2 border-indigo-200 rounded-xl p-5 text-left animate-in slide-in-from-bottom-2 shadow-sm">
-                  <h4 className="text-indigo-800 font-black text-sm mb-2 flex items-center gap-1.5 uppercase tracking-wide">
-                    💡 Bilgi Notu & Kural
-                  </h4>
-                  <p className="text-indigo-900 text-[15px] font-medium leading-relaxed">
-                    {activeQuestion.explanation}
-                  </p>
+                <div className="bg-indigo-50 border border-indigo-100 rounded-xl p-5 mt-8 flex items-start gap-4">
+                  <div className="bg-indigo-100 p-2 rounded-lg mt-1 shrink-0">
+                    <svg className="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-indigo-900 mb-1 text-sm uppercase tracking-wider">BİLGİ NOTU & KURAL</h4>
+                    <p className="text-indigo-900 text-[15px] font-medium leading-relaxed whitespace-pre-wrap">
+                      {activeQuestion.explanation}
+                    </p>
+                  </div>
                 </div>
               )}
             </div>

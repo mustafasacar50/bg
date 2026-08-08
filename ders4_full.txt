@@ -1,0 +1,857 @@
+Bulgarca A1 Ders 4 – Türkçe Açıklamalı Eğitim Notu
+Orijinal Bulgarca + satır altı tam Türkçe çeviri + kelime listeleri + dilbilgisi açıklamaları + çözümlü alıştırmalar
+Kaynak not: Kullanıcının yüklediği A1-V-4(1).pdf ders notundaki 15 sayfalık içerik eğitim amaçlı olarak yeniden düzenlenmiştir.
+Kullanım Rehberi
+Bu materyalde her Bulgarca cümle mavi renkte, hemen altındaki Türkçe karşılığı yeşil renkte verilmiştir. Kelime listeleri ve dilbilgisi açıklamaları, Bulgarca öğrenen Türk öğrencinin cümleyi yalnızca çevirmesini değil, yapısını da anlamasını hedefler.
+Kısaltmalar: м.р. = eril, ж.р. = dişil, ср.р. = orta/nötr; ед.ч. = tekil, мн.ч. = çoğul; 1 л. = birinci kişi, 2 л. = ikinci kişi, 3 л. = üçüncü kişi.
+1. Okuma Metni: „Хатидже“
+BG: Хатидже е студентка от Турция.
+TR: (Hatice Türkiye’den bir üniversite öğrencisidir.)
+BG: Тя е на 18 години.
+TR: (O 18 yaşındadır.)
+BG: Родена е в град Бурса.
+TR: (Bursa şehrinde doğmuştur.)
+BG: Сега учи български език в Одрин.
+TR: (Şimdi Edirne’de Bulgarca öğrenmektedir.)
+BG: Хатидже живее в студентското общежитие на Тракийския университет.
+TR: (Hatice Trakya Üniversitesi’nin öğrenci yurdunda yaşamaktadır.)
+BG: Има една малка стая с антре, кухненски бокс и баня.
+TR: (Antresi, küçük mutfak bölümü ve banyosu olan küçük bir odası vardır.)
+BG: В стаята има легло, гардероб, маса с два стола, библиотека, телевизор и компютър.
+TR: (Odada yatak, gardırop, iki sandalyeli bir masa, kitaplık, televizyon ve bilgisayar vardır.)
+BG: Няма канапе или диван, няма също и фотьойли.
+TR: (Kanepe ya da divan yoktur; ayrıca koltuklar da yoktur.)
+BG: Няма домашен телефон, но има два мобилни телефона.
+TR: (Ev telefonu yoktur; fakat iki cep telefonu vardır.)
+BG: Хатидже има много книги, но няма време за четене.
+TR: (Hatice’nin çok kitabı vardır; fakat okumak için zamanı yoktur.)
+BG: Има също и учебници, речници, тетрадки, химикалки, моливи и гумички.
+TR: (Ayrıca ders kitapları, sözlükler, defterler, tükenmez kalemler, kurşun kalemler ve silgiler vardır.)
+BG: Тя учи български език.
+TR: (O Bulgarca öğrenmektedir.)
+Metin kelimeleri
+Okuma Soruları ve Cevap Anahtarı
+2. Dilbilgisi: Съществително име / İsim
+BG: Съществителни имена са думите, с които назоваваме различни предмети, лица, вещества, животни, преживявания и др.
+TR: (İsimler; nesneleri, kişileri, maddeleri, hayvanları, yaşantıları/duyguları ve benzer varlıkları adlandırdığımız sözcüklerdir.)
+BG: Съществително име е всяка дума, която можем да свържем с числителните имена един, една, едно, едни.
+TR: (İsim, “bir” anlamına gelen един, една, едно, едни gibi sayı sözcükleriyle birlikte kullanılabilen sözcüktür.)
+Türkçede isimlerin dilbilgisel cinsiyeti yoktur. Bulgarcada ise her isim eril, dişil veya orta/nötr cinstendir. Bu cinsiyet, sıfatları, sayıları ve bazı ekleri etkiler.
+2.1. Род / Cinsiyet
+2.2. Число / Sayı: Tekil ve Çoğul
+Bulgarcada isimler tekil ve çoğul biçime sahiptir. Çoğul yapımı kelimenin cinsiyetine ve son sesine göre değişebilir. Aşağıdaki tablolar PDF’deki örnekleri Türkçe karşılıklarıyla verir.
+3. Fiiller: имам, нямам ve bazı öğrenme fiilleri
+3.1. Сегашно време: имам / нямам
+BG: В магазина има плодове.
+TR: (Mağazada meyveler var.)
+BG: В магазина няма хляб.
+TR: (Mağazada ekmek yok.)
+Önemli fark: “имам” özneye bağlı “var/sahip olmak” anlamındadır. “има/няма” ise Türkçedeki “var/yok” gibi kişisiz kullanılabilir.
+3.2. Сегашно време: уча, обучавам, преподавам, зная, разбирам, говоря
+BG: Уча български език.
+TR: (Bulgarca öğreniyorum.)
+BG: Уча се да говоря на български.
+TR: (Bulgarca konuşmayı öğreniyorum.)
+BG: Обучавам студентите на български език.
+TR: (Öğrencilere Bulgarca öğretiyorum / onları Bulgarca konusunda eğitiyorum.)
+BG: Обучавам се да говоря на български.
+TR: (Bulgarca konuşmak üzere eğitim alıyorum / öğreniyorum.)
+BG: Преподавателят обучава студентите.
+TR: (Öğretim görevlisi öğrencileri eğitir.)
+BG: Студентите учат български език.
+TR: (Öğrenciler Bulgarca öğrenir.)
+BG: Преподавам български език на студенти.
+TR: (Öğrencilere Bulgarca dersi veriyorum.)
+BG: Зная български език.
+TR: (Bulgarca biliyorum.)
+4. Числително име / Sayılar
+Числително бройно = asıl sayı (bir, iki, üç). Числително редно = sıra sayısı (birinci, ikinci, üçüncü).
+BG: Можете ли да броите до десет?
+TR: (Ona kadar sayabilir misiniz?)
+BG: В кой курс сте? – В първи.
+TR: (Kaçıncı sınıftasınız/kurstasınız? – Birincideyim.)
+5. Цветове / Renkler
+BG: Как се казва този цвят?
+TR: (Bu rengin adı nedir?)
+BG: Този цвят какъв е?
+TR: (Bu renk nasıldır / hangi renktir?)
+6. Okuma Metni: „Емин“
+BG: Казвам се Емин.
+TR: (Benim adım Emin.)
+BG: Роден съм в Бурса.
+TR: (Bursa’da doğdum / Bursa doğumluyum.)
+BG: На 19 години съм.
+TR: (19 yaşındayım.)
+BG: Обичам да гледам телевизия, обичам да гледам филми, но най обичам да използвам интернет.
+TR: (Televizyon izlemeyi severim, film izlemeyi severim; ama en çok internet kullanmayı severim.)
+BG: В мрежата има много полезна информация.
+TR: (İnternette çok yararlı bilgi vardır.)
+BG: Имам куче и котка.
+TR: (Bir köpeğim ve bir kedim var.)
+BG: Това са моите домашни любимци.
+TR: (Bunlar benim evcil hayvanlarım.)
+BG: Кучето се казва Рекс, а котката – Мъри.
+TR: (Köpeğin adı Reks, kedinin adı ise Mıri.)
+BG: Сега ми е мъчно за тях.
+TR: (Şimdi onları özlüyorum / onlar için içim burkuluyor.)
+BG: Обичам животните.
+TR: (Hayvanları severim.)
+BG: Обичам също и морето.
+TR: (Denizi de severim.)
+BG: Карам сърф.
+TR: (Sörf yaparım.)
+BG: Избрах да уча български език в университета в град Одрин.
+TR: (Edirne şehrindeki üniversitede Bulgarca öğrenmeyi seçtim.)
+BG: Знам малко за България: имаме обща граница.
+TR: (Bulgaristan hakkında biraz şey biliyorum: ortak sınırımız var.)
+BG: Искам да чета български книги, да ползвам българските интернет сайтове и да посетя България, разбира се.
+TR: (Bulgarca kitaplar okumak, Bulgar internet sitelerini kullanmak ve elbette Bulgaristan’ı ziyaret etmek istiyorum.)
+BG: Живея в студентското общежитие.
+TR: (Öğrenci yurdunda yaşıyorum.)
+BG: Стаята е малка: има легло, маса, стол и компютър.
+TR: (Oda küçük: yatak, masa, sandalye ve bilgisayar var.)
+BG: В шкафа за книги стоят учебникът по български език, тетрадките ми, два речника и един българско-турски разговорник.
+TR: (Kitap dolabında Bulgarca ders kitabı, defterlerim, iki sözlük ve bir Bulgarca-Türkçe konuşma kılavuzu duruyor.)
+BG: В понеделник, вторник, сряда и четвъртък имаме лекции.
+TR: (Pazartesi, salı, çarşamba ve perşembe derslerimiz var.)
+BG: В петък пиша домашните си и уча новите думи.
+TR: (Cuma günü ödevlerimi yazarım/yaparım ve yeni kelimeleri öğrenirim.)
+BG: Почивам само в събота и неделя.
+TR: (Sadece cumartesi ve pazar dinlenirim.)
+BG: Сега е зима, времето е студено и не излизам често на разходка.
+TR: (Şimdi kış, hava soğuk ve sık sık yürüyüşe çıkmıyorum.)
+Emin metni kelimeleri
+7. Çözümlü Alıştırmalar: Çoğul ve Cinsiyet
+Aşağıdaki tablolar PDF’de boş bırakılmış alıştırmaların eğitim amaçlı doldurulmuş hâlidir. Bazı yabancı kökenli kelimelerde konuşma dilinde farklı biçimler görülebilir; burada standart öğretim biçimleri verilmiştir.
+8. Ev ve Eşya Kelimeleri: Tekil-Çoğul Çalışmaları
+9. Okuma Metni: „Фатма“
+BG: Фатма е млада и интелигентна госпожица.
+TR: (Fatma genç ve zeki bir hanımefendidir.)
+BG: Тя знае добре турски и английски език, говори свободно, чете и пише без грешки.
+TR: (O Türkçeyi ve İngilizceyi iyi bilir; akıcı konuşur, hatasız okur ve yazar.)
+BG: Сега учи български език.
+TR: (Şimdi Bulgarca öğreniyor.)
+BG: Иска да стане преводачка.
+TR: (Çevirmen olmak istiyor.)
+BG: Всеки ден има лекции сутрин и следобед.
+TR: (Her gün sabah ve öğleden sonra dersleri var.)
+BG: Преподавателите обясняват само на български и Фатма не разбира всичко.
+TR: (Öğretim görevlileri sadece Bulgarca açıklıyor ve Fatma her şeyi anlamıyor.)
+BG: Но в края на учебната година вече няма да има проблеми с разбирането.
+TR: (Ama öğretim yılının sonunda artık anlamayla ilgili sorunları olmayacak.)
+BG: Фатма се надява, че с три езика – с турски, английски и български – ще намери добра работа.
+TR: (Fatma üç dille – Türkçe, İngilizce ve Bulgarca ile – iyi bir iş bulacağını umuyor.)
+BG: Сега има много фирми, които търсят млади хора не само с професия, но знаещи няколко езика.
+TR: (Şimdi sadece mesleği olan değil, birkaç dil bilen gençleri arayan çok firma var.)
+BG: Важно е да можеш да работиш с компютър и да имаш шофьорска книжка.
+TR: (Bilgisayarla çalışabilmek ve ehliyet sahibi olmak önemlidir.)
+BG: Следващата година Фатма ще се запише на шофьорски курсове, за да вземе шофьорска книжка и да може да кара кола.
+TR: (Gelecek yıl Fatma ehliyet almak ve araba kullanabilmek için sürücü kursuna yazılacak.)
+BG: Фатма има компютър и интернет вкъщи.
+TR: (Fatma’nın evde bilgisayarı ve interneti var.)
+BG: Тя има приятели по целия свят.
+TR: (Onun dünyanın her yerinde arkadaşları var.)
+Alıştırma: Metindeki şimdiki zaman fiilleri: е, знае, говори, чете, пише, учи, иска, има, обясняват, разбира, се надява, търсят. Gelecek zaman örnekleri: ще намери, ще се запише.
+Fiil ve sayı alıştırmaları
+10. Хранене, пазаруване / Beslenme ve Alışveriş
+Kışlıklar, salatalar ve yemek kalıpları
+BG: Правя салата.
+TR: (Salata yapıyorum.)
+BG: Купувам зеле за салата.
+TR: (Salata için lahana alıyorum.)
+BG: Да сложа ли магданоз в салатата?
+TR: (Salataya maydanoz koyayım mı?)
+BG: Моля, дайте ми един килограм домати и две връзки лук.
+TR: (Lütfen bana bir kilogram domates ve iki bağ soğan verin.)
+BG: Искам едно кило домати и две връзки лук.
+TR: (Bir kilo domates ve iki bağ soğan istiyorum.)
+BG: Правя салата. / Режа салата.
+TR: (Salata yapıyorum. / Salata doğruyorum.)
+Хранителни стоки / Gıda ürünleri
+BG: Къде има магазин за хранителни стоки?
+TR: (Gıda ürünleri satan mağaza nerede var?)
+BG: Дайте ми, моля, това парче салам.
+TR: (Lütfen bana şu salam parçasını verin.)
+BG: Дайте ми 100 грама от шунката.
+TR: (Bana jambondan 100 gram verin.)
+BG: Какъв е този колбас?
+TR: (Bu nasıl bir salam/işlenmiş et ürünüdür?)
+BG: Искам телешка луканка.
+TR: (Dana etinden lukanka istiyorum.)
+BG: Искам да купя сувенир.
+TR: (Hatıra/hediye olarak bir süs eşyası almak istiyorum.)
+11. Diyalog: В магазина за плодове и зеленчуци
+BG: – Ако обичате, три килограма от тези домати и два килограма от онези чушки.
+TR: (Lütfen şu domateslerden üç kilogram ve o biberlerden iki kilogram.)
+BG: – Имате ли в какво да ги сложите?
+TR: (Bunları koyacak bir şeyiniz var mı?)
+BG: – Да. Ето в тази торбичка.
+TR: (Evet. İşte bu poşete.)
+BG: – Друго?
+TR: (Başka?)
+BG: – Краставиците пресни ли са?
+TR: (Salatalıklar taze mi?)
+BG: – Всички зеленчуци са пресни.
+TR: (Bütün sebzeler tazedir.)
+BG: – Премерете ми тези две краставици.
+TR: (Şu iki salatalığı benim için tartın.)
+BG: – 600 грама.
+TR: (600 gram.)
+BG: – Колко струват морковите?
+TR: (Havuçların fiyatı ne kadar?)
+BG: – Един лев килограма. Колко да Ви отмеря?
+TR: (Kilosu bir leva. Size ne kadar tartayım?)
+BG: – Половин килограм.
+TR: (Yarım kilogram.)
+BG: – А гъбите по колко са?
+TR: (Peki mantarların kilosu ne kadar?)
+BG: – По един лев и петдесет стотинки килограма/за килограм.
+TR: (Kilosu bir leva elli stotinka.)
+BG: – Дайте ми 250 грама. Моля Ви, изберете ми една по-голяма зелка.
+TR: (Bana 250 gram verin. Lütfen benim için daha büyük bir lahana seçin.)
+BG: – Тази харесва ли Ви?
+TR: (Bunu beğendiniz mi?)
+BG: – Да, става. Премерете я, моля.
+TR: (Evet, olur. Lütfen onu tartın.)
+BG: – Искате ли нещо друго?
+TR: (Başka bir şey ister misiniz?)
+BG: – Искам ябълки, ако има.
+TR: (Varsa elma istiyorum.)
+BG: – Не. Ябълки няма, но има хубави круши.
+TR: (Hayır. Elma yok, ama güzel armutlar var.)
+BG: – Да, наистина са хубави.
+TR: (Evet, gerçekten güzeller.)
+BG: – Ще вземете ли?
+TR: (Alacak mısınız?)
+BG: – Да. Ще взема един килограм.
+TR: (Evet. Bir kilogram alacağım.)
+BG: – Гроздето по колко го продавате?
+TR: (Üzümü kaça satıyorsunuz?)
+BG: – По осемдесет и пет стотинки килограм.
+TR: (Kilosu seksen beş stotinka.)
+BG: – А каква е цената на магданоза и копъра?
+TR: (Maydanozun ve dereotunun fiyatı nedir?)
+BG: – По тридесет стотинки връзката.
+TR: (Bağı otuz stotinka.)
+BG: – Дайте ми две връзки магданоз и една връзка копър.
+TR: (Bana iki bağ maydanoz ve bir bağ dereotu verin.)
+BG: – Заповядайте! Това ли е всичко?
+TR: (Buyurun! Hepsi bu mu?)
+BG: – Да. Всъщност не. Какви зеленчукови консерви имате?
+TR: (Evet. Aslında hayır. Ne tür sebze konserveleriniz var?)
+BG: – Мариновани чушки, грах, домати, зелен фасул.
+TR: (Marine biber, bezelye, domates, yeşil fasulye.)
+BG: – Има хубав компот от кайсии, а също от праскови, вишни, ягоди.
+TR: (Güzel kayısı kompostosu var; ayrıca şeftali, vişne ve çilek kompostosu da var.)
+BG: – Имаме и конфитюр от сливи и череши.
+TR: (Erik ve kiraz reçelimiz de var.)
+BG: – Каква цена има компотът от ананас?
+TR: (Ananas kompostosunun fiyatı nedir?)
+BG: – Той е много скъп. Три лева и двадесет стотинки струва един.
+TR: (O çok pahalı. Bir tanesi üç leva yirmi stotinka.)
+BG: – Има и натурален сок от ананас, портокал и други южни плодове. Искате ли? Кое да Ви дам?
+TR: (Ananas, portakal ve diğer güney meyvelerinden doğal meyve suyu da var. İster misiniz? Size hangisini vereyim?)
+BG: – Не. По-добре ми дайте един буркан конфитюр от череши и един ябълков сок. Колко струва всичко?
+TR: (Hayır. En iyisi bana bir kavanoz kiraz reçeli ve bir elma suyu verin. Hepsi ne kadar tutuyor?)
+BG: – Десет лева и трийсет стотинки.
+TR: (On leva otuz stotinka.)
+BG: – Заповядайте! Цените при Вас са високи, но и стоката Ви е хубава.
+TR: (Buyurun! Sizde fiyatlar yüksek, ama malınız da güzel.)
+BG: – Извинете, забравихте си рестото!
+TR: (Affedersiniz, para üstünüzü unuttunuz!)
+BG: – Благодаря Ви! Довиждане.
+TR: (Teşekkür ederim! Hoşça kalın.)
+BG: – Заповядайте пак. Приятно е да се работи с такива клиенти.
+TR: (Yine bekleriz. Böyle müşterilerle çalışmak hoştur.)
+12. Diyalog: „Обяд в ресторанта“
+BG: – Къде ще обядваш днес?
+TR: (Bugün nerede öğle yemeği yiyeceksin?)
+BG: – Както винаги – в стола на института.
+TR: (Her zamanki gibi – enstitünün yemekhanesinde.)
+BG: – Днес те каня на обяд в ресторанта.
+TR: (Bugün seni restoranda öğle yemeğine davet ediyorum.)
+BG: – Защо? По какъв повод искаш да идем на ресторант? Да нямаш рожден ден?
+TR: (Neden? Hangi vesileyle restorana gitmemizi istiyorsun? Yoksa doğum günün mü var?)
+BG: – Нямам никакъв повод. Просто така.
+TR: (Hiçbir özel nedenim yok. Öylesine.)
+BG: – В кой ресторант ще отидем? Предлагам да отидем в „Плиска“, защото е най-близо.
+TR: (Hangi restorana gideceğiz? “Pliska”ya gitmeyi öneriyorum, çünkü en yakını o.)
+BG: – Не, този път ще отидем в „Шератон“.
+TR: (Hayır, bu kez “Sheraton”a gideceğiz.)
+BG: – В „Шератон“! Но там е много скъпо. Не можем да си позволим да похарчим толкова пари за един обяд. Освен ако си спечелил от лотарията.
+TR: (“Sheraton”a mı! Ama orası çok pahalı. Bir öğle yemeği için bu kadar para harcamayı karşılayamayız. Tabii piyangodan kazanmadıysan.)
+BG: – Нищо не съм спечелил от лотарията. Всъщност, взех един голям хонорар. Затова мога да си позволя този лукс.
+TR: (Piyangodan hiçbir şey kazanmadım. Aslında büyük bir telif/ücret aldım. Bu yüzden bu lüksü karşılayabilirim.)
+BG: – Чудесно! Тогава ще ме заведеш в Червената зала. Тръгваме ли?
+TR: (Harika! O zaman beni Kırmızı Salon’a götüreceksin. Gidiyor muyuz?)
+BG: – Какво обичате, моля!
+TR: (Ne arzu edersiniz, lütfen?)
+BG: – Какво можете да ни предложите за обяд?
+TR: (Öğle yemeği için bize ne önerebilirsiniz?)
+BG: – Заповядайте менюто. Изберете си.
+TR: (Buyurun menü. Seçiminizi yapın.)
+BG: – А Вие какво бихте ни препоръчали?
+TR: (Peki siz bize ne tavsiye edersiniz?)
+BG: – В момента има хубава скара. Но има и готвени ястия – с месо и постни.
+TR: (Şu anda güzel ızgara var. Ama pişmiş yemekler de var – etli ve etsiz.)
+BG: – А медальон с гъби имате ли?
+TR: (Mantarlı madalyon var mı?)
+BG: – Да, има. Искате ли?
+TR: (Evet, var. İster misiniz?)
+BG: – Да, ако обичате.
+TR: (Evet, lütfen.)
+BG: – За Вас същото ли? Значи, един медальон с гъби.
+TR: (Sizin için de aynısı mı? Yani bir mantarlı madalyon.)
+BG: – Не, предпочитам едно гювече с агнешко месо. Но преди това ако може, по една шопска салата и нещо безалкохолно.
+TR: (Hayır, kuzu etli bir güveç tercih ediyorum. Ama ondan önce mümkünse kişi başı bir Şopska salata ve alkolsüz bir şey.)
+BG: – Това ли е всичко?
+TR: (Hepsi bu mu?)
+BG: – Не, моля Ви, една бутилка сухо вино с обяда. За десерт искаме по един крем карамел. Накрая, ако обичате, по едно двойно кафе.
+TR: (Hayır, lütfen öğle yemeğiyle birlikte bir şişe sek şarap. Tatlı olarak kişi başı bir krem karamel istiyoruz. Sonunda da lütfen kişi başı bir duble kahve.)
+BG: – Заповядайте! Добър апетит и приятен обяд!
+TR: (Buyurun! Afiyet olsun ve iyi öğle yemekleri!)
+BG: – Извинете може ли сметката?
+TR: (Affedersiniz, hesap mümkün mü?)
+BG: – Да, моля! Всичко осемдесет и четири лева и петдесет стотинки.
+TR: (Evet, lütfen! Hepsi seksen dört leva elli stotinka.)
+BG: – Заповядайте! Без ресто.
+TR: (Buyurun! Üstü kalsın.)
+BG: – Благодаря! Всичко добро Ви желая!
+TR: (Teşekkürler! Size her şeyin iyisini dilerim!)
+BG: – На Вас също! Довиждане!
+TR: (Size de! Hoşça kalın!)
+13. Bölüm Sonu Mini Sözlük
+Bu mini sözlükte ders boyunca sık geçen temel kelimeler özetlenmiştir. Daha geniş kelime listeleri ilgili bölümlerde verilmiştir.
+14. Genel Öğrenme Özeti
+• Bulgarcada isimler eril, dişil ve orta cins olarak üçe ayrılır.
+• един, една, едно sözcükleri “bir” anlamına gelir; seçilecek biçim ismin cinsiyetine bağlıdır.
+• имам/нямам “var/yok; sahip olmak/sahip olmamak” anlamı verir.
+• има/няма kişisiz olarak “var/yok” anlamında kullanılabilir.
+• уча, говоря, разбирам, зная gibi fiiller A1 seviyesinde çok sık kullanılır.
+• Alışveriş diyaloglarında ако обичате, дайте ми, колко струва, по колко са gibi kalıplar çok önemlidir.
+• Restoranda sipariş verirken какво можете да ни предложите, искам, предпочитам, сметката gibi kalıplar kullanılır.
+
+--- TABLES ---
+Bulgarca | Türkçe | Not / kullanım
+студентка | kız/kadın öğrenci | Dişil biçim; erkek için студент.
+от Турция | Türkiye’den | от = -den/-dan
+на 18 години | 18 yaşında | Bulgarcada yaş “на ... години” ile söylenir.
+родена е | doğmuştur / doğmuş | Dişil özne için родена.
+учи | öğreniyor / okuyor | уча fiilinin 3. tekil biçimi.
+живее | yaşıyor | живея fiili.
+общежитие | öğrenci yurdu | Orta cins isim.
+стая | oda | Dişil isim.
+антре | antre | Orta cins.
+кухненски бокс | küçük mutfak bölümü | Öğrenci yurdu/daire bağlamında.
+баня | banyo | Dişil isim.
+легло | yatak | Orta cins.
+гардероб | gardırop | Eril isim.
+библиотека | kitaplık / kütüphane | Bağlama göre değişir.
+няма време | zamanı yok | няма = yok / sahip değil.
+за четене | okumak için | за + isimleşmiş fiil.
+
+Soru (BG) | Türkçesi | Cevap (BG) | Cevabın Türkçesi
+Каква е Хатидже? | Hatice nedir / nasıl biridir? | Хатидже е студентка от Турция. | Hatice Türkiye’den bir öğrencidir.
+Откъде е? | Nerelidir? | Тя е от Турция. Родена е в Бурса. | Türkiye’dendir. Bursa’da doğmuştur.
+На колко години е тя? | O kaç yaşındadır? | Тя е на 18 години. | O 18 yaşındadır.
+Сега какво прави в Одрин? | Şimdi Edirne’de ne yapıyor? | Сега учи български език. | Şimdi Bulgarca öğreniyor.
+Къде живее Хатидже? | Hatice nerede yaşıyor? | Живее в студентското общежитие. | Öğrenci yurdunda yaşıyor.
+Каква е стаята й? | Odası nasıldır? | Стаята й е малка. | Odası küçüktür.
+Какво има в стаята? | Odada ne vardır? | Има легло, гардероб, маса, столове, библиотека, телевизор и компютър. | Yatak, gardırop, masa, sandalyeler, kitaplık, televizyon ve bilgisayar vardır.
+Има ли време за четене? | Okumak için zamanı var mı? | Не, няма време за четене. | Hayır, okumak için zamanı yoktur.
+Защо Хатидже няма време? | Hatice’nin neden zamanı yok? | Защото учи български език. | Çünkü Bulgarca öğrenmektedir.
+
+Cinsiyet | Bulgarca belirteç | Örnekler | Türkçe
+Eril / Мъжки род | един | един самолет, един стол, един домат, един човек | bir uçak, bir sandalye, bir domates, bir insan
+Dişil / Женски род | една | една стая, една любов, една радост, една ябълка, една свещ | bir oda, bir aşk, bir sevinç, bir elma, bir mum
+Orta / Среден род | едно | едно приключение, едно колело, едно момиче, едно цвете, едно дете | bir macera, bir bisiklet, bir kız, bir çiçek, bir çocuk
+
+Tekil | Çoğul | Türkçe | Cinsiyet / Not
+самолет | самолети | uçak / uçaklar | м.р.
+вълшебник | вълшебници | sihirbaz / sihirbazlar | м.р.
+стол | столове | sandalye / sandalyeler | м.р.
+домат | домати | domates / domatesler | м.р.
+човек | хора | insan / insanlar | м.р.; düzensiz
+час | часове | saat / saatler | м.р.
+чай | чайове | çay / çaylar | м.р.
+ключ | ключове | anahtar / anahtarlar | м.р.
+баща | бащи | baba / babalar | м.р.; -а ile biter ama eril kişidir
+съдия | съдии | hâkim/hakem / hâkimler/hakemler | м.р.
+лъч | лъчи | ışın / ışınlar | м.р.
+случай | случаи | olay / olaylar | м.р.
+сезон | сезони | mevsim / mevsimler | м.р.
+дядо | дядовци | dede / dedeler | м.р.
+чичо | чичовци | amca / amcalar | м.р.
+вуйчо | вуйчовци | dayı / dayılar | м.р.
+улица | улици | sokak / sokaklar | ж.р.
+книга | книги | kitap / kitaplar | ж.р.
+жена | жени | kadın / kadınlar | ж.р.
+змия | змии | yılan / yılanlar | ж.р.
+стая | стаи | oda / odalar | ж.р.
+идея | идеи | fikir / fikirler | ж.р.
+кост | кости | kemik / kemikler | ж.р.
+свещ | свещи | mum / mumlar | ж.р.
+добродетел | добродетели | fazilet / faziletler | ж.р.
+колело | колела | bisiklet / bisikletler | ср.р.
+учение | учения | öğreti/bilim/teori / öğretiler | ср.р.
+сливане | сливания | birleşme / birleşmeler | ср.р.
+море | морета | deniz / denizler | ср.р.
+дете | деца | çocuk / çocuklar | ср.р.; düzensiz
+чудо | чудеса | mucize / mucizeler | ср.р.; düzensiz
+
+Kişi | имам | Türkçe | нямам | Türkçe
+Аз | имам | benim var / sahibim | нямам | benim yok
+Ти | имаш | senin var | нямаш | senin yok
+Той/Тя/То | има | onun var | няма | onun yok
+Ние | имаме | bizim var | нямаме | bizim yok
+Вие | имате | sizin var | нямате | sizin yok
+Те | имат | onların var | нямат | onların yok
+
+Kişi | уча (öğrenmek/okumak) | обучавам (eğitmek/eğitim almak) | преподавам (ders vermek) | зная (bilmek) | разбирам (anlamak) | говоря (konuşmak)
+Аз | уча (се) | обучавам (се) | преподавам | зная | разбирам | говоря
+Ти | учиш (се) | обучаваш (се) | преподаваш | знаеш | разбираш | говориш
+Той/Тя/То | учи (се) | обучава (се) | преподава | знае | разбира | говори
+Ние | учим (се) | обучаваме (се) | преподаваме | знаем | разбираме | говорим
+Вие | учите (се) | обучавате (се) | преподавате | знаете | разбирате | говорите
+Те | учат (се) | обучават (се) | преподават | знаят | разбират | говорят
+
+Rakam | Asıl sayı BG | Sıra sayı BG | Asıl sayı TR | Sıra sayı TR
+1 | едно | първи | bir | birinci
+2 | две | втори | iki | ikinci
+3 | три | трети | üç | üçüncü
+4 | четири | четвърти | dört | dördüncü
+5 | пет | пети | beş | beşinci
+6 | шест | шести | altı | altıncı
+7 | седем | седми | yedi | yedinci
+8 | осем | осми | sekiz | sekizinci
+9 | девет | девети | dokuz | dokuzuncu
+10 | десет | десети | on | onuncu
+11 | единайсет/единадесет | единайсети/единадесети | on bir | on birinci
+12 | дванайсет/дванадесет | дванайсети/дванадесети | on iki | on ikinci
+13 | тринайсет/тринадесет | тринайсети/тринадесети | on üç | on üçüncü
+14 | четиринайсет/четиринадесет | четиринайсети/четиринадесети | on dört | on dördüncü
+16 | шестнайсет/шестнадесет | шестнайсети/шестнадесети | on altı | on altıncı
+17 | седемнайсет/седемнадесет | седемнайсети/седемнадесети | on yedi | on yedinci
+18 | осемнайсет/осемнадесет | осемнайсети/осемнадесети | on sekiz | on sekizinci
+19 | деветнайсет/деветнадесет | деветнайсети/деветнадесети | on dokuz | on dokuzuncu
+20 | двайсет/двадесет | двайсети/двадесети | yirmi | yirminci
+21 | двайсет и едно/двадесет и едно | двайсет и първи/двадесет и първи | yirmi bir | yirmi birinci
+30 | трийсет/тридесет | трийсети/тридесети | otuz | otuzuncu
+40 | четирийсет/четиридесет | четирийсети/четиридесети | kırk | kırkıncı
+50 | петдесет | петдесети | elli | ellinci
+60 | шейсет/шестдесет | шейсети/шестдесети | altmış | altmışıncı
+70 | седемдесет | седемдесети | yetmiş | yetmişinci
+80 | осемдесет | осемдесети | seksen | sekseninci
+90 | деветдесет | деветдесети | doksan | doksanıncı
+100 | сто | стотен | yüz | yüzüncü
+1000 | хиляда | хиляден | bin | bininci
+
+Bulgarca | Türkçe | Not
+светъл | açık renkli | светъл цвят = açık renk
+тъмен | koyu renkli | тъмен цвят = koyu renk
+бял | beyaz | бял хляб = beyaz ekmek
+черен | siyah | черен чай = siyah çay
+червен | kırmızı | 
+пурпурен | morumsu kırmızı / erguvani | 
+розов | pembe | 
+кафяв | kahverengi | 
+син | mavi | 
+светлосин | açık mavi | 
+жълт | sarı | 
+зелен | yeşil | 
+сив | gri | 
+бежов | bej | 
+оранжев | turuncu | 
+виолетов | menekşe rengi / mor | 
+лилав | lila / mor | 
+пъстър | alacalı / rengârenk | 
+златен | altın rengi | 
+сребърен | gümüş rengi | 
+ярък | parlak / canlı | 
+шарен | renkli / desenli | 
+
+Bulgarca | Türkçe | Not / kullanım
+казвам се | adım ... / kendime ... denir | Tanışma kalıbı.
+роден съм | doğdum / doğumluyum | Erkek konuşmacı için.
+обичам | severim | обичам да + fiil = ... yapmayı severim
+мрежата | ağ / internet | Günlük dilde internet için kullanılabilir.
+домашни любимци | evcil hayvanlar | букв. ev sevilenleri
+мъчно ми е | özlüyorum / üzgünüm | Duygusal ifade.
+обща граница | ortak sınır | Bulgaristan-Türkiye bağlamı.
+разговорник | konuşma kılavuzu | Pratik konuşma kitabı.
+лекции | dersler / üniversite dersleri | çoğul
+домашните | ödevler | домашна работа = ev ödevi
+разходка | yürüyüş / gezinti | излизам на разходка = yürüyüşe çıkmak
+
+Дума / Kelime | Мн. число / Çoğul | Род / Cinsiyet
+Адвокат | адвокати | м.р.
+Балон | балони | м.р.
+Балсам | балсами | м.р.
+Вагон | вагони | м.р.
+Вампир | вампири | м.р.
+Ватман | ватмани | м.р.
+Газопровод | газопроводи | м.р.
+Гангстер | гангстери | м.р.
+Геврек | гевреци | м.р.
+Декан | декани | м.р.
+Депозит | депозити | м.р.
+Елеватор | елеватори | м.р.
+Жетон | жетони | м.р.
+Жираф | жирафи | м.р.
+Журнал | журнали | м.р.
+Звънец | звънци | м.р.
+Йероглиф | йероглифи | м.р.
+Йон | йони | м.р.
+Кабел | кабели | м.р.
+Кавал | кавали | м.р.
+Компютър | компютри | м.р.
+Лабиринт | лабиринти | м.р.
+Лаптоп | лаптопи | м.р.
+Ластик | ластици | м.р.
+Левент | левенти | м.р.
+Лидер | лидери | м.р.
+Лимон | лимони | м.р.
+Масаж | масажи | м.р.
+Нотариус | нотариуси | м.р.
+Одеколон | одеколони | м.р.
+Океан | океани | м.р.
+Октопод | октоподи | м.р.
+Павиан | павиани | м.р.
+Панорама | панорами | ж.р.
+Пансион | пансиони | м.р.
+Партер | партери | м.р.
+Парфюм | парфюми | м.р.
+Рафт | рафтове | м.р.
+Режисьор | режисьори | м.р.
+Ректор | ректори | м.р.
+Ринг | рингове | м.р.
+Салон | салони | м.р.
+Сандвич | сандвичи | м.р.
+Сезон | сезони | м.р.
+Серум | серуми | м.р.
+Университет | университети | м.р.
+Факултет | факултети | м.р.
+Хамбар | хамбари | м.р.
+Хастар | хастари | м.р.
+Хотел | хотели | м.р.
+Център | центрове | м.р.
+Циклон | циклони | м.р.
+Цирк | циркове | м.р.
+Чай | чайове | м.р.
+Чифлик | чифлици | м.р.
+Шеф | шефове | м.р.
+Шоколад | шоколади | м.р.
+Шут | шутове | м.р.
+
+Дума / Kelime | Множествено число / Çoğul | Род / Cinsiyet
+Авария | аварии | ж.р.
+Банка | банки | ж.р.
+Бира | бири | ж.р.
+Ваза | вази | ж.р.
+Веранда | веранди | ж.р.
+Гарга | гарги | ж.р.
+Делегация | делегации | ж.р.
+Енергия | енергии | ж.р.
+Завеса | завеси | ж.р.
+Зала | зали | ж.р.
+Зебра | зебри | ж.р.
+Изложба | изложби | ж.р.
+Икономика | икономики | ж.р.
+Кабина | кабини | ж.р.
+Кайсия | кайсии | ж.р.
+Маса | маси | ж.р.
+Метафора | метафори | ж.р.
+Новела | новели | ж.р.
+Норма | норми | ж.р.
+Нота | ноти | ж.р.
+Опера | опери | ж.р.
+Оперета | оперети | ж.р.
+Ракия | ракии | ж.р.
+Скарида | скариди | ж.р.
+Сергия | сергии | ж.р.
+Табела | табели | ж.р.
+Тапа | тапи | ж.р.
+Телевизия | телевизии | ж.р.
+Увертюра | увертюри | ж.р.
+Фабрика | фабрики | ж.р.
+Фамилия | фамилии | ж.р.
+Ферма | ферми | ж.р.
+Фурма | фурми | ж.р.
+Церемония | церемонии | ж.р.
+Ютия | ютии | ж.р.
+
+Дума / Kelime | Множествено число / Çoğul | Род / Cinsiyet
+Бебе | бебета | ср.р.
+Име | имена | ср.р.
+Общежитие | общежития | ср.р.
+Одрин | Одрин | м.р.
+Перде | пердета | ср.р.
+Радио | радиа | ср.р.
+Табло | табла | ср.р.
+Уиски | уискита | ср.р.
+Цвете | цветя | ср.р.
+Шише | шишета | ср.р.
+
+Tekil BG | Çoğul BG | Türkçe
+хол | холове | salon
+коридор | коридори | koridor
+баня | бани | banyo
+стая | стаи | oda
+антре | антрета | antre
+сграда | сгради | bina
+общежитие | общежития | öğrenci yurdu
+балкон | балкони | balkon
+тераса | тераси | teras
+врата | врати | kapı
+тоалетна | тоалетни | tuvalet
+трапезария | трапезарии | yemek odası
+апартамент | апартаменти | apartman dairesi
+къща | къщи | ev
+
+Çoğul BG | Tekil BG | Türkçe
+пердета | перде | perdeler/perde
+морета | море | denizler/deniz
+ръце | ръка | eller/el
+очи | око | gözler/göz
+лица | лице | yüzler/yüz
+крака | крак | bacaklar/ayaklar
+чорапи | чорап | çoraplar/çorap
+облаци | облак | bulutlar/bulut
+дрехи | дреха | kıyafetler/kıyafet
+обувки | обувка | ayakkabılar/ayakkabı
+панталони | панталон | pantolonlar/pantolon
+рокли | рокля | elbiseler/elbise
+ризи | риза | gömlekler/gömlek
+сака | сако | ceketler/ceket
+
+Kelime | Sayı | Türkçe
+дивани | мн.ч. | divanlar
+чай | ед.ч. | çay
+мостове | мн.ч. | köprüler
+холове | мн.ч. | salonlar
+кафета | мн.ч. | kahveler
+химикалка | ед.ч. | tükenmez kalem
+стая | ед.ч. | oda
+бюреци | мн.ч. | börekler
+легла | мн.ч. | yataklar
+дъска | ед.ч. | tahta
+баница | ед.ч. | banitsa/börek
+пердета | мн.ч. | perdeler
+чаши | мн.ч. | bardaklar/fincanlar
+ключ | ед.ч. | anahtar
+
+Çoğul BG | Tekil BG | Türkçe
+трапезарии | трапезария | yemek odaları
+тоалетни | тоалетна | tuvaletler
+мостове | мост | köprüler
+планини | планина | dağlar
+дрехи | дреха | kıyafetler
+рокли | рокля | elbiseler
+сака | сако | ceketler
+ризи | риза | gömlekler
+лекции | лекция | dersler
+уроци | урок | dersler/üniteler
+часове | час | saatler/ders saatleri
+хлябове | хляб | ekmekler
+гевреци | геврек | gevrek/simitler
+баници | баница | banitsalar/börekler
+бюреци | бюрек | börekler
+лица | лице | yüzler
+ръце | ръка | eller
+очи | око | gözler
+уши | ухо | kulaklar
+носове | нос | burunlar
+
+Verilen biçim | Cinsiyet | Belirli tekil biçim | Çoğul biçim | Türkçe
+стъкла | ср.р. | стъклото | стъкла | camlar
+деца | ср.р. | детето | деца | çocuklar
+пейки | ж.р. | пейката | пейки | banklar
+трактор | м.р. | тракторът | трактори | traktör
+тържество | ср.р. | тържеството | тържества | kutlama/tören
+
+Soru | Doğru cevap | Türkçe açıklama
+Глаголната форма за 1 лице множествено число на глагола мисля е... | в) мислим | “Biz düşünüyoruz” = ние мислим.
+Глаголната форма за 1 лице множествено число на глагола тичам е... | Doğru biçim: тичаме | Seçeneklerde тичаме yoksa soru/seçenek uyumsuzdur.
+В групата има ... | А) седем студенти | Kişiler için normal çoğul: yedi öğrenci.
+В двора има ... | Б) три деца | деца = çocuklar; “три деца” doğru.
+
+Cümle boşluğu | Doğru tamamlanmış biçim | Türkçesi
+Аз глед... през прозореца. | Аз гледам през прозореца. | Pencereden bakıyorum.
+Моят познат ид... насам. | Моят познат идва насам. | Tanıdığım kişi bu tarafa geliyor.
+Ела да го вид... | Ела да го видиш. | Gel de onu gör.
+Той нос..... ягоди. | Той носи ягоди. | O çilek getiriyor/taşıyor.
+Иск... ли да яд... ягоди? | Искаш ли да ядеш ягоди? | Çilek yemek ister misin?
+Иск... и аз да си куп... ягоди. | Искам и аз да си купя ягоди. | Ben de kendime çilek almak istiyorum.
+Не ми се излиз..... навън. | Не ми се излиза навън. | Dışarı çıkmak istemiyorum / canım dışarı çıkmak istemiyor.
+Аз скоро ще се върн... | Аз скоро ще се върна. | Yakında döneceğim.
+Често ход... на театър. | Често ходя на театър. | Sık sık tiyatroya giderim.
+Глед... хубави филми. | Гледам хубави филми. | Güzel filmler izlerim.
+Им..... ли куфар? | Имаш ли куфар? | Valizin var mı?
+
+Bulgarca | Türkçe | Not
+Пазар | pazar | 
+Пазарувам | alışveriş yapıyorum | 
+Купувам | satın alıyorum | 
+продавам | satıyorum | 
+Плодове и зеленчуци | meyveler ve sebzeler | 
+Сорт | çeşit/tür | 
+Плод | meyve | 
+Авокадо | avokado | 
+Ананас | ananas | 
+Банан | muz | 
+Вишна | vişne | 
+Грейпфрут | greyfurt | 
+Грозде | üzüm | 
+Диня | karpuz | 
+Кайсия | kayısı | 
+Къпина | böğürtlen | 
+Круша | armut | 
+Лимон | limon | 
+Малина | ahududu | 
+Мандарина | mandalina | 
+Мушмула | muşmula | 
+Портокал | portakal | 
+Праскова | şeftali | 
+Пъпеш | kavun | 
+Слива | erik | 
+Джанка | can eriği | 
+Череша | kiraz | 
+Ябълка | elma | 
+Ягода | çilek | 
+Плодов | десерт meyveli tatlı | 
+Сушени | плодове kuru meyveler | 
+Стафиди | kuru üzüm | 
+Сушени | кайсии kuru kayısılar | 
+Зеленчук | sebze | 
+Домат | domates | 
+Зеле | lahana | 
+Картоф | patates | 
+Карфиол | karnabahar | 
+Краставица | salatalık | 
+Лук | soğan | 
+Пресен | лук taze soğan | 
+Стар | лук kuru soğan | 
+Маруля | marul | 
+Морков | havuç | 
+Патладжан | patlıcan | 
+морав | patlıcan için yöresel/alternatif ad | 
+Праз | pırasa | 
+Салата | salata | 
+Спанак | ıspanak | 
+Тиквички | kabaklar/kabak | 
+Чесън | sarımsak | 
+Чушка | biber | 
+Чорбаджийска | чушка çorbacı biberi | 
+Чушка | за пълнене dolmalık biber | 
+Царевица | mısır | 
+Ароматни | треви за подправки aromatik baharat otları | 
+Копър | dereotu | 
+Магданоз | maydanoz | 
+Джоджен | nane/yarpuz | 
+Босилек | fesleğen | 
+Дивисил | selâmotu/lovage | 
+Целина | kereviz | 
+Лозов | лист asma yaprağı | 
+Ядки | kuruyemişler | 
+Фъстъци | yer fıstığı | 
+Бадеми | bademler | 
+Кашу | kaju | 
+Шам-фъстък | Antep fıstığı | 
+
+Bulgarca | Türkçe
+Зимнина | kışlık yiyecek hazırlığı
+Туршия | turşu
+Кисели краставички | kornişon/salatalık turşusu
+Кисело зеле | lahana turşusu
+Царска туршия | karışık özel turşu
+Сурова туршия | çiğ turşu
+Компот от праскови/кайсии/череши/вишни | şeftali/kayısı/kiraz/vişne kompostosu
+Сладко от ягоди | çilek reçeli
+Конфитюр от дюли | ayva marmeladı/reçeli
+Сироп от вишни | vişne şurubu
+Салата от домати и краставици | domates ve salatalık salatası
+Салата от зеле и моркови | lahana ve havuç salatası
+Настъргани моркови | rendelenmiş havuç
+Мешана салата | karışık salata
+Шопска салата | Şopska salata: domates, biber, salatalık, soğan, maydanoz, zeytinyağı, sirke, tuz, beyaz peynir
+Кьопоолу | Köz patlıcan/biberli meze: domates, patlıcan, biber, sarımsak, maydanoz, yağ, tuz
+Пържени картофи | patates kızartması
+Картофи на фурна | fırında patates
+
+Bulgarca | Türkçe
+Хляб | ekmek
+Питка | küçük ekmek/pide
+Погача | poğaça
+Диетичен | хляб diyet ekmeği
+Брашно | un
+Царевично | брашно mısır unu
+Баница | banitsa/peynirli börek
+Баничка | küçük banitsa
+Бюрек | börek
+Милинка | peynirli küçük hamur işi
+Колбас | salam/sucuk türü işlenmiş et
+салам | salam
+Луканка | Bulgar kuru sucuğu
+Кренвирш | sosis
+Наденица | sosis/sucuk
+Суджук | sucuk
+Шунка | jambon
+Месо | et
+Пилешко | tavuk eti
+Телешко | dana eti
+Говеждо | sığır eti
+Свинско | domuz eti
+Заешко | tavşan eti
+Котлет | kotlet
+Пържола | biftek/pirzola
+Филе | fileto
+Кайма | kıyma
+мляно | месо kıyma
+Пастет | от гъше месо kaz ciğeri/et pate
+гъши | пастет kaz pate
+Мляко | süt
+Прясно | мляко taze süt
+Краве | мляко inek sütü
+Овче | мляко koyun sütü
+Биволско | мляко manda sütü
+Кисело | мляко yoğurt
+Айран | ayran
+Сметана | krema
+Масло | tereyağı
+Сирене | beyaz peynir
+Краве | сирене inek peyniri
+Овче | сирене koyun peyniri
+Кашкавал | kaşar peyniri
+Извара | lor peyniri
+
+Bulgarca | Türkçe
+аз | ben
+ти | sen
+той/тя/то | o
+ние | biz
+вие | siz
+те | onlar
+има | var / onun var
+няма | yok / onun yok
+уча | öğrenmek / okumak
+говоря | konuşmak
+разбирам | anlamak
+зная | bilmek
+стая | oda
+общежитие | öğrenci yurdu
+университет | üniversite
+книга | kitap
+речник | sözlük
+тетрадка | defter
+пазар | pazar
+магазин | mağaza
+домати | domatesler
+краставица | salatalık
+ябълка | elma
+круша | armut
+ресторант | restoran
+сметка | hesap
+моля | lütfen
+благодаря | teşekkür ederim
+довиждане | hoşça kalın
+
