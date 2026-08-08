@@ -7,10 +7,20 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Bulgarca Sınav Modülü",
   description: "Bulgarca öğrenimi için interaktif sınav modülü",
+  manifest: "/manifest.json",
+  appleWebApp: {
+    capable: true,
+    statusBarStyle: "default",
+    title: "Bulgarca",
+  },
 };
 
 export const viewport = {
   themeColor: "#5b4bdb",
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 };
 
 export default function RootLayout({

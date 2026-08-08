@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { LogOut, BookOpen, Clock, Award, User, RefreshCw, Loader2, Edit3, X, Check, Wand2, Settings } from "lucide-react";
 import Link from "next/link";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import PushSettings from "@/components/PushSettings";
 
 export default function DashboardPage() {
   const [student, setStudent] = useState<any>(null);
@@ -198,6 +199,8 @@ export default function DashboardPage() {
           Antrenman Modu
         </Link>
       </div>
+
+      <PushSettings studentId={student.id} />
 
       <div className="hero mb-6">
         <span className="eyebrow">📚 Sınav Merkezi</span>
