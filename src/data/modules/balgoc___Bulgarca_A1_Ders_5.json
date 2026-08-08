@@ -4,14 +4,6 @@
   "description": "Ders 5 okuma metinleri, kelimeleri ve dilbilgisi kurallarından üretilmiş profesyonel eğitim seti.",
   "questions": [
     {
-      "id": "q_ders4_3ff9e33b",
-      "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Metni okuyunuz ve soruları cevaplayınız.)",
-      "answer": "Прочетете текста и отговорете на въпросите.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 4"
-    },
-    {
       "id": "q_ders4_a06fae18",
       "type": "scramble",
       "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Metni okuyunuz ve soruları cevaplayınız.",
