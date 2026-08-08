@@ -4,15 +4,6 @@
   "description": "Ders 5 okuma metinleri, kelimeleri ve dilbilgisi kurallarından üretilmiş profesyonel eğitim seti.",
   "questions": [
     {
-      "id": "q_ders4_16aa6689",
-      "type": "fitb",
-      "sentence": "Metni okuyunuz ve soruları cevaplayınız.",
-      "answer": "Прочетете текста и отговорете на въпросите.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 5",
-      "fitbTarget": "Прочетете"
-    },
-    {
       "id": "q_ders4_b14cd545",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Милка и Коста имат едно момиче и едно момче.)",
