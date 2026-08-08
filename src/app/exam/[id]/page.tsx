@@ -84,7 +84,7 @@ export default function ExamPage() {
       setLoading(false);
     };
     fetchData();
-  }, [examId]);
+  }, [examId, student?.id]);
 
   useEffect(() => {
     if (status !== "ACTIVE" || timeLeft === null || showResults) return;
