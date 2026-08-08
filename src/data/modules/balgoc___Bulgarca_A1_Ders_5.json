@@ -4,15 +4,6 @@
   "description": "Ders 5 okuma metinleri, kelimeleri ve dilbilgisi kurallarından üretilmiş profesyonel eğitim seti.",
   "questions": [
     {
-      "id": "q_ders4_140366d5",
-      "type": "fitb",
-      "sentence": "Ders No 5. “Çocuk mağazasında”. ÇBD, s. 197-198",
-      "answer": "Урок № 5. „В детския магазин“. ЧБД, с. 197-198",
-      "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 5",
-      "fitbTarget": "детския"
-    },
-    {
       "id": "q_ders4_d771f6d3",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Прочетете текста и отговорете на въпросите.)",
