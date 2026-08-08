@@ -74,6 +74,11 @@ export default function TrainingListPage() {
           <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">Antrenman Modu</h1>
           <div className="flex items-center gap-4">
             <span className="text-sm font-medium text-slate-500 bg-white px-3 py-1 rounded-full shadow-sm">👤 {student.name}</span>
+            {student.role === 'admin' && (
+              <Link href="/admin" className="text-emerald-600 hover:text-emerald-800 font-medium">
+                Admin Paneli
+              </Link>
+            )}
             <Link href="/dashboard" className="text-indigo-600 hover:text-indigo-800 font-medium">
               Öğrenci Paneli
             </Link>
