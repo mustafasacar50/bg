@@ -4,7 +4,8 @@
     "username": "admin",
     "password": "123",
     "role": "admin",
-    "name": "Yönetici"
+    "name": "Yönetici",
+    "trainingScore": 1
   },
   {
     "id": "u2",
