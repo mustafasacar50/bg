@@ -229,18 +229,30 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   }, [currentIndex, isSwapped, filteredQuestions]);
 
 
+  const pendingUpdates = useRef<any>({});
+  const syncTimeout = useRef<NodeJS.Timeout | null>(null);
+
   const syncProgress = (updates: any) => {
     if (!student) return;
     
-    fetch('/api/training-progress', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        studentId: student.id,
-        moduleId,
-        ...updates
-      })
-    }).catch(e => console.error('Failed to sync training progress', e));
+    pendingUpdates.current = { ...pendingUpdates.current, ...updates };
+    
+    if (syncTimeout.current) clearTimeout(syncTimeout.current);
+    
+    syncTimeout.current = setTimeout(() => {
+      const mergedUpdates = { ...pendingUpdates.current };
+      pendingUpdates.current = {};
+      
+      fetch('/api/training-progress', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          studentId: student.id,
+          moduleId,
+          ...mergedUpdates
+        })
+      }).catch(e => console.error('Failed to sync training progress', e));
+    }, 500);
   };
 
   const syncScore = (pointsDelta: number) => {
