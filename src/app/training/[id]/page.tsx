@@ -730,11 +730,12 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                 {!isEditingQuestion && adminMode && (
                   <button 
                     onClick={() => {
+                      const rawQ = filteredQuestions[currentIndex];
                       setEditForm({
-                        sentence: activeQuestion.sentence,
-                        answer: activeQuestion.answer,
-                        hint: activeQuestion.hint,
-                        explanation: activeQuestion.explanation || ''
+                        sentence: rawQ.sentence,
+                        answer: rawQ.answer,
+                        hint: rawQ.hint,
+                        explanation: rawQ.explanation || ''
                       });
                       setIsEditingQuestion(true);
                       setFeedback('none');
