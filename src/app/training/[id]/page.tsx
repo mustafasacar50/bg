@@ -177,6 +177,12 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       return;
     }
     
+    // Sadece soru değiştiyse veya swap yapıldıysa state'i sıfırla
+    if (activeQuestion && activeQuestion.id === q.id && !isSwapped) {
+       // Soru aynı, sadece listeye eleman eklendi, resetleme yapma
+       return;
+    }
+    
     let display = q.sentence.replace('_____', '...');
     let expected = q.answer;
     let hint = q.hint;
@@ -218,6 +224,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     setLayout(hint.toLowerCase().includes('bulgarca') ? 'bg' : 'tr');
     setFeedback('none');
     setUserAnswer('');
+    
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [currentIndex, isSwapped, filteredQuestions]);
 
 
@@ -477,7 +485,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               ✕
             </button>
             
-            {student?.isAdminMode && (
+            {student?.role === 'admin' && (
               <label className="flex items-center gap-1.5 cursor-pointer mr-3 ml-1 bg-slate-100 pr-3 pl-1 py-1 rounded-full border border-slate-200">
                 <div className="relative">
                   <input type="checkbox" className="sr-only" checked={adminMode} onChange={(e) => { setAdminMode(e.target.checked); setFeedback('none'); setUserAnswer(''); setKeyboardOpen(false); }} />
