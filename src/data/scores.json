@@ -323,5 +323,261 @@
     },
     "answers": {},
     "date": "2026-08-08T11:36:55.787Z"
+  },
+  {
+    "id": "score-1786202861279",
+    "examId": "exam-1786177832806",
+    "studentId": "u2",
+    "studentName": "Betül SAÇAR",
+    "score": {
+      "total": 79,
+      "mcq": "9/10",
+      "match": "15/15",
+      "blank": "6/7",
+      "reading": "3/8"
+    },
+    "answers": {
+      "q_mcq_auto_365": {
+        "question": "Soru",
+        "userAnswer": "opt4",
+        "correctAnswer": "opt4",
+        "isCorrect": true
+      },
+      "q_mcq_auto_351": {
+        "question": "Soru",
+        "userAnswer": "opt1",
+        "correctAnswer": "opt1",
+        "isCorrect": true
+      },
+      "q_mcq_auto_374": {
+        "question": "Soru",
+        "userAnswer": "opt2",
+        "correctAnswer": "opt4",
+        "isCorrect": false
+      },
+      "q_mcq_auto_350": {
+        "question": "Soru",
+        "userAnswer": "opt3",
+        "correctAnswer": "opt3",
+        "isCorrect": true
+      },
+      "q_mcq_auto_359": {
+        "question": "Soru",
+        "userAnswer": "opt1",
+        "correctAnswer": "opt1",
+        "isCorrect": true
+      },
+      "q_mcq_auto_364": {
+        "question": "Soru",
+        "userAnswer": "opt2",
+        "correctAnswer": "opt2",
+        "isCorrect": true
+      },
+      "q_mcq_auto_402": {
+        "question": "Soru",
+        "userAnswer": "opt4",
+        "correctAnswer": "opt4",
+        "isCorrect": true
+      },
+      "q_mcq_auto_401": {
+        "question": "Soru",
+        "userAnswer": "opt2",
+        "correctAnswer": "opt2",
+        "isCorrect": true
+      },
+      "q_mcq_auto_338": {
+        "question": "Soru",
+        "userAnswer": "opt3",
+        "correctAnswer": "opt3",
+        "isCorrect": true
+      },
+      "q_mcq_auto_347": {
+        "question": "Soru",
+        "userAnswer": "opt4",
+        "correctAnswer": "opt4",
+        "isCorrect": true
+      },
+      "q_match_auto_82_ПОЗДРАВИ": {
+        "question": "Eşleştir: ПОЗДРАВИ",
+        "userAnswer": "opt2",
+        "correctAnswer": "opt2",
+        "isCorrect": true
+      },
+      "q_match_auto_82_УЧА": {
+        "question": "Eşleştir: УЧА",
+        "userAnswer": "opt3",
+        "correctAnswer": "opt3",
+        "isCorrect": true
+      },
+      "q_match_auto_82_АЗ ЯМ ЯБЪЛКА.": {
+        "question": "Eşleştir: АЗ ЯМ ЯБЪЛКА.",
+        "userAnswer": "opt1",
+        "correctAnswer": "opt1",
+        "isCorrect": true
+      },
+      "q_match_auto_82_ОБИЧАМ МЕД": {
+        "question": "Eşleştir: ОБИЧАМ МЕД",
+        "userAnswer": "opt4",
+        "correctAnswer": "opt4",
+        "isCorrect": true
+      },
+      "q_match_auto_82_ДИВАН": {
+        "question": "Eşleştir: ДИВАН",
+        "userAnswer": "opt5",
+        "correctAnswer": "opt5",
+        "isCorrect": true
+      },
+      "q_match_auto_68_ЗАКУСКА": {
+        "question": "Eşleştir: ЗАКУСКА",
+        "userAnswer": "opt2",
+        "correctAnswer": "opt2",
+        "isCorrect": true
+      },
+      "q_match_auto_68_МОЛЯ": {
+        "question": "Eşleştir: МОЛЯ",
+        "userAnswer": "opt3",
+        "correctAnswer": "opt3",
+        "isCorrect": true
+      },
+      "q_match_auto_68_ОБУВКА": {
+        "question": "Eşleştir: ОБУВКА",
+        "userAnswer": "opt1",
+        "correctAnswer": "opt1",
+        "isCorrect": true
+      },
+      "q_match_auto_68_КЪДЕ ЖИВЕЕШ?": {
+        "question": "Eşleştir: КЪДЕ ЖИВЕЕШ?",
+        "userAnswer": "opt5",
+        "correctAnswer": "opt5",
+        "isCorrect": true
+      },
+      "q_match_auto_68_ОБЛИЧАМ СЕ": {
+        "question": "Eşleştir: ОБЛИЧАМ СЕ",
+        "userAnswer": "opt4",
+        "correctAnswer": "opt4",
+        "isCorrect": true
+      },
+      "q_match_auto_79_АЗ ЯМ БАНАН.": {
+        "question": "Eşleştir: АЗ ЯМ БАНАН.",
+        "userAnswer": "opt4",
+        "correctAnswer": "opt4",
+        "isCorrect": true
+      },
+      "q_match_auto_79_ОБИЧАМ": {
+        "question": "Eşleştir: ОБИЧАМ",
+        "userAnswer": "opt1",
+        "correctAnswer": "opt1",
+        "isCorrect": true
+      },
+      "q_match_auto_79_КАКВО": {
+        "question": "Eşleştir: КАКВО",
+        "userAnswer": "opt2",
+        "correctAnswer": "opt2",
+        "isCorrect": true
+      },
+      "q_match_auto_79_ВЪПРОСИ": {
+        "question": "Eşleştir: ВЪПРОСИ",
+        "userAnswer": "opt3",
+        "correctAnswer": "opt3",
+        "isCorrect": true
+      },
+      "q_match_auto_79_ДОБЪР ДЕН": {
+        "question": "Eşleştir: ДОБЪР ДЕН",
+        "userAnswer": "opt5",
+        "correctAnswer": "opt5",
+        "isCorrect": true
+      },
+      "q_blank_auto_185": {
+        "question": "КАКВО СА ____ ?",
+        "userAnswer": "ТОВА",
+        "correctAnswer": "ТОВА",
+        "isCorrect": true
+      },
+      "q_blank_auto_178": {
+        "question": "“KADIN” ANLAMINA GELİR VE DİŞİLDİR VE ____",
+        "userAnswer": "ЖЕНИ",
+        "correctAnswer": "“ДЕТЕ”",
+        "isCorrect": false
+      },
+      "q_blank_auto_180": {
+        "question": "ТОВА Е ЕДИН ____    BU BIR ERKEK",
+        "userAnswer": "МЪЖ",
+        "correctAnswer": "МЪЖ",
+        "isCorrect": true
+      },
+      "q_blank_auto_188": {
+        "question": "____ Е ТОЗИ СТОЛ?",
+        "userAnswer": "ЧИЙ",
+        "correctAnswer": "ЧИЙ",
+        "isCorrect": true
+      },
+      "q_blank_auto_192": {
+        "question": "МОЖЕ ЛИ ДА МИ ____ ...",
+        "userAnswer": "КАЖЕТЕ",
+        "correctAnswer": "КАЖЕТЕ",
+        "isCorrect": true
+      },
+      "q_blank_auto_191": {
+        "question": "ДОБРЕ СЪМ, А ____",
+        "userAnswer": "ТИ",
+        "correctAnswer": "ТИ",
+        "isCorrect": true
+      },
+      "q_blank_auto_193": {
+        "question": "МОЖЕ ЛИ ДА МИ КАЖЕТЕ ____ СТРУВА ЕДНО КАФЕ?",
+        "userAnswer": "КОЛКО",
+        "correctAnswer": "КОЛКО",
+        "isCorrect": true
+      },
+      "q_reading_auto_112_1": {
+        "question": "Okuma Parçası Sorusu",
+        "userAnswer": "ЧИ",
+        "correctAnswer": "сте",
+        "isCorrect": false
+      },
+      "q_reading_auto_112_2": {
+        "question": "Okuma Parçası Sorusu",
+        "userAnswer": "МОЛЯ",
+        "correctAnswer": "благодаря",
+        "isCorrect": false
+      },
+      "q_reading_auto_112_3": {
+        "question": "Okuma Parçası Sorusu",
+        "userAnswer": "КАЗЪАШ",
+        "correctAnswer": "казвате",
+        "isCorrect": false
+      },
+      "q_reading_auto_112_4": {
+        "question": "Okuma Parçası Sorusu",
+        "userAnswer": "ЗАПОЗНАЕМ",
+        "correctAnswer": "запознаем",
+        "isCorrect": true
+      },
+      "q_reading_auto_114_1": {
+        "question": "Okuma Parçası Sorusu",
+        "userAnswer": "ПРОСТОРНА",
+        "correctAnswer": "широка",
+        "isCorrect": false
+      },
+      "q_reading_auto_114_2": {
+        "question": "Okuma Parçası Sorusu",
+        "userAnswer": "ЦВЯТ",
+        "correctAnswer": "цвят",
+        "isCorrect": true
+      },
+      "q_reading_auto_114_3": {
+        "question": "Okuma Parçası Sorusu",
+        "userAnswer": "КОМПЮТРИ",
+        "correctAnswer": "компютри",
+        "isCorrect": true
+      },
+      "q_reading_auto_114_4": {
+        "question": "Okuma Parçası Sorusu",
+        "userAnswer": "ЧАСА",
+        "correctAnswer": "урока",
+        "isCorrect": false
+      }
+    },
+    "date": "2026-08-08T15:27:42.515Z"
   }
 ]
