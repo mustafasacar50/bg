@@ -51,8 +51,16 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [showExplanation, setShowExplanation] = useState(false);
   
   const [isEditingQuestion, setIsEditingQuestion] = useState(false);
-  const [editForm, setEditForm] = useState<any>({});
+  const [editForm, setEditForm] = useState({ sentence: '', answer: '', hint: '', explanation: '' });
   const [isSavingEdit, setIsSavingEdit] = useState(false);
+  const [focusedEditField, setFocusedEditField] = useState<string | null>(null);
+
+  // New features state
+  const [flashcardMode, setFlashcardMode] = useState(false);
+  const [isFlipped, setIsFlipped] = useState(false);
+  const [matchingPairs, setMatchingPairs] = useState<{bg: any[], tr: any[]}>({bg: [], tr: []});
+  const [matchedIds, setMatchedIds] = useState<number[]>([]);
+  const [selectedMatch, setSelectedMatch] = useState<{type: 'bg'|'tr', idx: number, id: number} | null>(null);
 
   const mode = searchParams.get('mode') || 'all'; 
 
@@ -227,8 +235,15 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     let fitbTarget = null;
     const words = expected.split(' ').filter(w => w.trim());
     let maskedWords: string[] | null = null;
-    
-    if (words.length > 1 && q.type !== 'scramble') {
+    if (q.type === 'matching') {
+      const bgItems = q.pairs.map((p: any, i: number) => ({ id: i, text: p.bg })).sort(() => Math.random() - 0.5);
+      const trItems = q.pairs.map((p: any, i: number) => ({ id: i, text: p.tr })).sort(() => Math.random() - 0.5);
+      setMatchingPairs({ bg: bgItems, tr: trItems });
+      setMatchedIds([]);
+      setSelectedMatch(null);
+    }
+
+    if (words.length > 1 && q.type !== 'scramble' && q.type !== 'error_correction' && q.type !== 'matching') {
        const targetIdx = Math.floor(Math.random() * words.length);
        const targetWordRaw = words[targetIdx];
        
@@ -297,6 +312,30 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         })
       }).catch(e => console.error('Failed to sync training progress', e));
     }, 500);
+  };
+
+  const handleMatchSelect = (type: 'bg' | 'tr', idx: number, id: number) => {
+    if (matchedIds.includes(id)) return;
+    
+    if (!selectedMatch) {
+      setSelectedMatch({ type, idx, id });
+    } else {
+      if (selectedMatch.type === type) {
+        setSelectedMatch({ type, idx, id });
+      } else {
+        if (selectedMatch.id === id) {
+           const newMatchedIds = [...matchedIds, id];
+           setMatchedIds(newMatchedIds);
+           setSelectedMatch(null);
+           if (newMatchedIds.length === activeQuestion.pairs.length) {
+              setFeedback('correct');
+           }
+        } else {
+           setSelectedMatch(null);
+           if (navigator.vibrate) navigator.vibrate(50);
+        }
+      }
+    }
   };
 
   const syncScore = (pointsDelta: number) => {
@@ -471,6 +510,16 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     }
   };
 
+  const speakText = (text: string) => {
+    if (typeof window !== 'undefined' && window.speechSynthesis) {
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'bg-BG';
+      utterance.rate = 0.9;
+      window.speechSynthesis.speak(utterance);
+    }
+  };
+
   const handleSkip = () => {
     if (!activeQuestion) return;
     setFeedback('wrong');
@@ -492,7 +541,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   };
 
   const handleNext = () => {
-    if (Date.now() - lastCheckTime.current < 500) return; // Prevent double-click or enter-hold auto-advance
+    if (Date.now() - lastCheckTime.current < 800) return; // Prevent double-click or enter-hold auto-advance
     if (!activeQuestion) return;
     
     if (pendingMistakeRemove.current) {
@@ -503,6 +552,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     setUserAnswer('');
     setFeedback('none');
     setIsSwapped(false);
+    setIsFlipped(false);
+    setSelectedMatch(null);
+    setMatchedIds([]);
     
     let nextIdx = currentIndex;
     
@@ -573,15 +625,27 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     return () => window.removeEventListener('keydown', handleGlobalKeyDown);
   }, [filteredQuestions.length, feedback, activeQuestion, mistakesPool, mode, searchQuery, sessionQuestions]);
 
+  const editRefs = useRef<Record<string, HTMLTextAreaElement | null>>({
+    sentence: null, answer: null, hint: null, explanation: null
+  });
+
   // Keyboard Functions
   const insertText = (text: string) => {
-    if (!inputRef.current) return;
-    const input = inputRef.current;
+    const input = (isEditingQuestion && focusedEditField) ? editRefs.current[focusedEditField] : inputRef.current;
+    if (!input) return;
+    
     const start = input.selectionStart ?? 0;
     const end = input.selectionEnd ?? 0;
-    const current = userAnswer;
-    const nextValue = current.slice(0, start) + text + current.slice(end);
-    setUserAnswer(nextValue);
+    
+    if (isEditingQuestion && focusedEditField) {
+      const current = (editForm as any)[focusedEditField] || '';
+      const nextValue = current.slice(0, start) + text + current.slice(end);
+      setEditForm(prev => ({ ...prev, [focusedEditField]: nextValue }));
+    } else {
+      const current = userAnswer;
+      const nextValue = current.slice(0, start) + text + current.slice(end);
+      setUserAnswer(nextValue);
+    }
     
     setTimeout(() => {
       input.focus();
@@ -590,22 +654,27 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   };
 
   const backspace = () => {
-    if (!inputRef.current) return;
-    const input = inputRef.current;
+    const input = (isEditingQuestion && focusedEditField) ? editRefs.current[focusedEditField] : inputRef.current;
+    if (!input) return;
+    
     const start = input.selectionStart ?? 0;
     const end = input.selectionEnd ?? 0;
+    
+    const current = (isEditingQuestion && focusedEditField) ? ((editForm as any)[focusedEditField] || '') : userAnswer;
+    
     if (start === end && start > 0) {
-      const current = userAnswer;
       const nextValue = current.slice(0, start - 1) + current.slice(end);
-      setUserAnswer(nextValue);
+      if (isEditingQuestion && focusedEditField) setEditForm(prev => ({ ...prev, [focusedEditField]: nextValue }));
+      else setUserAnswer(nextValue);
+      
       setTimeout(() => {
         input.focus();
         input.setSelectionRange(start - 1, start - 1);
       }, 0);
     } else if (start !== end) {
-      const current = userAnswer;
       const nextValue = current.slice(0, start) + current.slice(end);
-      setUserAnswer(nextValue);
+      if (isEditingQuestion && focusedEditField) setEditForm(prev => ({ ...prev, [focusedEditField]: nextValue }));
+      else setUserAnswer(nextValue);
       setTimeout(() => {
         input.focus();
         input.setSelectionRange(start, start);
@@ -820,19 +889,19 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               <div className="bg-white rounded-xl shadow-sm border-2 border-indigo-100 p-4 sm:p-6 mb-4 sm:mb-8 flex flex-col gap-3 sm:gap-4">
                 <div>
                   <label className="block text-xs font-bold text-slate-500 mb-1 uppercase tracking-wider">Soru Cümlesi (Sentence)</label>
-                  <textarea value={editForm.sentence} onChange={e => setEditForm({...editForm, sentence: e.target.value})} className="w-full p-2.5 border border-slate-300 rounded-lg text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all resize-y" rows={2} />
+                  <textarea ref={el => { editRefs.current['sentence'] = el; }} onFocus={() => { setFocusedEditField('sentence'); setLayout('tr'); setKeyboardOpen(true); }} value={editForm.sentence} onChange={e => setEditForm({...editForm, sentence: e.target.value})} className="w-full p-2.5 border border-slate-300 rounded-lg text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all resize-y" rows={2} />
                 </div>
                 <div>
                   <label className="block text-xs font-bold text-slate-500 mb-1 uppercase tracking-wider">Cevap (Answer)</label>
-                  <textarea value={editForm.answer} onChange={e => setEditForm({...editForm, answer: e.target.value})} className="w-full p-2.5 border border-slate-300 rounded-lg text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all resize-y" rows={2} />
+                  <textarea ref={el => { editRefs.current['answer'] = el; }} onFocus={() => { setFocusedEditField('answer'); setLayout('bg'); setKeyboardOpen(true); }} value={editForm.answer} onChange={e => setEditForm({...editForm, answer: e.target.value})} className="w-full p-2.5 border border-slate-300 rounded-lg text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all resize-y" rows={2} />
                 </div>
                 <div>
                   <label className="block text-xs font-bold text-slate-500 mb-1 uppercase tracking-wider">İpucu (Hint)</label>
-                  <textarea value={editForm.hint} onChange={e => setEditForm({...editForm, hint: e.target.value})} className="w-full p-2.5 border border-slate-300 rounded-lg text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all resize-y" rows={2} />
+                  <textarea ref={el => { editRefs.current['hint'] = el; }} onFocus={() => { setFocusedEditField('hint'); setLayout('tr'); setKeyboardOpen(true); }} value={editForm.hint} onChange={e => setEditForm({...editForm, hint: e.target.value})} className="w-full p-2.5 border border-slate-300 rounded-lg text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all resize-y" rows={2} />
                 </div>
                 <div>
                   <label className="block text-xs font-bold text-slate-500 mb-1 uppercase tracking-wider">Açıklama (Explanation)</label>
-                  <textarea value={editForm.explanation} onChange={e => setEditForm({...editForm, explanation: e.target.value})} className="w-full p-2.5 border border-slate-300 rounded-lg text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all resize-y" rows={3} />
+                  <textarea ref={el => { editRefs.current['explanation'] = el; }} onFocus={() => { setFocusedEditField('explanation'); setLayout('tr'); setKeyboardOpen(true); }} value={editForm.explanation || ''} onChange={e => setEditForm({...editForm, explanation: e.target.value})} className="w-full p-2.5 border border-slate-300 rounded-lg text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all resize-y" rows={2} />
                 </div>
                 <div className="flex gap-2 mt-2">
                   <button disabled={isSavingEdit} onClick={handleEditSave} className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-lg hover:bg-indigo-700 disabled:opacity-50 transition-colors">
@@ -876,13 +945,87 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                     </div>
                   )}
                   {(!activeQuestion?.displayParts?.trText && !activeQuestion?.displayParts?.bgText) && (
-                    <div className="text-base sm:text-lg font-bold text-slate-700 leading-relaxed w-full pr-12">
+                    <div className="text-base sm:text-lg font-bold text-slate-700 leading-relaxed w-full pr-12 whitespace-pre-wrap">
                       {activeQuestion?.display}
                     </div>
                   )}
+                  
+                  {/* TTS Button */}
+                  {activeQuestion && (
+                    <button 
+                      onClick={() => speakText(activeQuestion.answer || activeQuestion.expected)} 
+                      className="absolute top-4 right-4 w-10 h-10 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center hover:bg-indigo-100 hover:scale-105 active:scale-95 transition-all shadow-sm"
+                      title="Bulgarca okunuşunu dinle"
+                    >
+                      <span className="text-xl">🔊</span>
+                    </button>
+                  )}
                 </div>
 
-              {activeQuestion?.type === 'scramble' && !adminMode ? (
+              {/* Flashcard Mode */}
+              {flashcardMode && !adminMode ? (
+                <div className="flex flex-col items-center justify-center min-h-[150px]">
+                  {!isFlipped ? (
+                    <button onClick={() => setIsFlipped(true)} className="px-8 py-4 bg-indigo-600 text-white font-black text-xl rounded-2xl shadow-lg hover:bg-indigo-700 active:scale-95 transition-all">
+                      Kartı Çevir
+                    </button>
+                  ) : (
+                    <div className="flex flex-col items-center gap-6 w-full animate-in zoom-in-95 duration-300">
+                      <div className="text-2xl sm:text-3xl font-black text-indigo-700 text-center">
+                        {activeQuestion?.answer || activeQuestion?.expected}
+                      </div>
+                      <div className="flex w-full gap-2 sm:gap-4 mt-4">
+                        <button onClick={() => { setFeedback('wrong'); setTimeout(handleNext, 100); }} className="flex-1 px-2 sm:px-4 py-3 bg-red-100 text-red-700 font-bold rounded-xl hover:bg-red-200 active:scale-95 transition-all shadow-sm">
+                          Bilemedim (Tekrarla)
+                        </button>
+                        <button onClick={() => { setFeedback('typo'); setTimeout(handleNext, 100); }} className="flex-1 px-2 sm:px-4 py-3 bg-amber-100 text-amber-700 font-bold rounded-xl hover:bg-amber-200 active:scale-95 transition-all shadow-sm">
+                          Zorlandım
+                        </button>
+                        <button onClick={() => { setFeedback('correct'); setTimeout(handleNext, 100); }} className="flex-1 px-2 sm:px-4 py-3 bg-green-100 text-green-700 font-bold rounded-xl hover:bg-green-200 active:scale-95 transition-all shadow-sm">
+                          Bildiğim (Geç)
+                        </button>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              ) : activeQuestion?.type === 'matching' && !adminMode ? (
+                <div className="flex flex-col gap-4">
+                  <div className="flex flex-row justify-between gap-2 sm:gap-6 w-full">
+                    <div className="flex flex-col gap-2 w-1/2">
+                      {matchingPairs.bg.map((item, idx) => {
+                        const isMatched = matchedIds.includes(item.id);
+                        const isSelected = selectedMatch?.type === 'bg' && selectedMatch.idx === idx;
+                        return (
+                          <button 
+                            key={`bg-${idx}`}
+                            disabled={isMatched || feedback !== 'none'}
+                            onClick={() => handleMatchSelect('bg', idx, item.id)}
+                            className={`p-3 sm:p-4 rounded-xl text-sm sm:text-base font-bold text-center transition-all border-2 shadow-sm ${isMatched ? 'bg-green-100 border-green-200 text-green-700 opacity-50' : isSelected ? 'bg-indigo-100 border-indigo-400 text-indigo-700 scale-105' : 'bg-white border-slate-200 text-slate-700 hover:border-indigo-200 hover:bg-slate-50'}`}
+                          >
+                            {item.text}
+                          </button>
+                        )
+                      })}
+                    </div>
+                    <div className="flex flex-col gap-2 w-1/2">
+                      {matchingPairs.tr.map((item, idx) => {
+                        const isMatched = matchedIds.includes(item.id);
+                        const isSelected = selectedMatch?.type === 'tr' && selectedMatch.idx === idx;
+                        return (
+                          <button 
+                            key={`tr-${idx}`}
+                            disabled={isMatched || feedback !== 'none'}
+                            onClick={() => handleMatchSelect('tr', idx, item.id)}
+                            className={`p-3 sm:p-4 rounded-xl text-sm sm:text-base font-bold text-center transition-all border-2 shadow-sm ${isMatched ? 'bg-green-100 border-green-200 text-green-700 opacity-50' : isSelected ? 'bg-indigo-100 border-indigo-400 text-indigo-700 scale-105' : 'bg-white border-slate-200 text-slate-700 hover:border-indigo-200 hover:bg-slate-50'}`}
+                          >
+                            {item.text}
+                          </button>
+                        )
+                      })}
+                    </div>
+                  </div>
+                </div>
+              ) : activeQuestion?.type === 'scramble' && !adminMode ? (
                 <div className="flex flex-col gap-3 sm:gap-4">
                   {/* Selected Words Area (The Sentence) */}
                   <div className={`flex flex-wrap gap-1.5 sm:gap-2 min-h-[56px] sm:min-h-[64px] p-3 sm:p-4 bg-white border-2 rounded-xl items-start transition-colors ${(feedback === 'wrong') ? 'border-red-400 bg-red-50' : feedback === 'typo' ? 'border-amber-400 bg-amber-50' : feedback === 'correct' ? 'border-green-400 bg-green-50' : 'border-slate-200 focus:border-indigo-400'}`}>
@@ -939,6 +1082,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                     onFocus={() => { if (!preferNativeKeyboard && !adminMode) setKeyboardOpen(true); }}
                     onKeyDown={(e) => {
                       if (e.key === 'Enter') {
+                        e.preventDefault();
                         (feedback === 'none' && !adminMode) ? handleCheck() : handleNext();
                       }
                     }}
@@ -979,85 +1123,115 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         </main>
 
       {/* Footer Area (Check Button & Feedback) */}
-      {!isFinished && !isEditingQuestion && (
-        <div className={`fixed bottom-0 left-0 right-0 z-50 transition-colors duration-300 ${feedback === 'correct' ? 'bg-green-100 border-t-2 border-green-200' : feedback === 'typo' ? 'bg-amber-100 border-t-2 border-amber-200' : feedback === 'wrong' ? 'bg-red-100 border-t-2 border-red-200' : 'bg-white border-t border-slate-200 shadow-[0_-10px_40px_-15px_rgba(0,0,0,0.1)]'}`}>
-          <div className="max-w-3xl mx-auto px-3 sm:px-4 py-3 sm:py-6 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
-            
-            <div className="flex-1 w-full flex items-center justify-between sm:justify-start">
-              {feedback === 'correct' && (
-                <div className="text-green-700">
-                  <div className="font-black text-lg sm:text-xl flex items-center gap-2"><span>✅</span> Harika!</div>
-                </div>
-              )}
-              {feedback === 'typo' && (
-                <div className="text-amber-800">
-                  <div className="font-black text-lg sm:text-xl flex items-center gap-2"><span>⚠️</span> Harf hatası!</div>
-                </div>
-              )}
-              {feedback === 'wrong' && (
-                <div className="text-red-700">
-                  <div className="font-black text-lg sm:text-xl flex items-center gap-2"><span>❌</span> {userAnswer.trim() ? "Yanlış" : "Pas geçtiniz"}</div>
-                </div>
-              )}
-              {feedback === 'none' && (
-                <div className="flex items-center gap-2">
-                  <button 
-                    className="text-slate-400 font-bold hover:text-slate-600 px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-sm bg-slate-50 border border-slate-200"
-                    onClick={() => setKeyboardOpen(!keyboardOpen)}
-                    title="Klavyeyi Aç/Kapat"
-                  >
-                    ⌨️ <span className="hidden sm:inline">Sanal Klavye</span>
-                  </button>
-                </div>
-              )}
-            </div>
-
-            <div className="flex flex-row w-full gap-2 sm:gap-3">
-              {adminMode ? (
-                <button
-                  onClick={() => setCurrentIndex(p => Math.min(filteredQuestions.length - 1, p + 1))}
-                  disabled={currentIndex >= filteredQuestions.length - 1}
-                  className="flex-1 px-4 sm:px-8 py-2.5 rounded-xl font-black text-sm sm:text-lg transition-all bg-indigo-600 text-white hover:bg-indigo-700 shadow-md disabled:opacity-30 flex items-center justify-center gap-2"
-                >
-                  <span>SONRAKİ</span>
-                  <span className="text-lg">⏭️</span>
-                </button>
-              ) : (
-                <>
-                  {feedback === 'none' && (
-                    <button
-                      onClick={handleSkip}
-                      className="flex-1 px-2 py-2.5 rounded-xl font-black text-xs sm:text-lg transition-all bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700 shadow-sm border border-slate-200 active:scale-95 flex items-center justify-center gap-1.5"
+      {!isFinished && (
+        <div className={`fixed bottom-0 left-0 right-0 z-50 transition-colors duration-300 ${isEditingQuestion ? 'bg-indigo-50 border-t-2 border-indigo-200' : feedback === 'correct' ? 'bg-green-100 border-t-2 border-green-200' : feedback === 'typo' ? 'bg-amber-100 border-t-2 border-amber-200' : feedback === 'wrong' ? 'bg-red-100 border-t-2 border-red-200' : 'bg-white border-t border-slate-200 shadow-[0_-10px_40px_-15px_rgba(0,0,0,0.1)]'}`}>
+          {!isEditingQuestion && (
+            <div className="max-w-3xl mx-auto px-3 sm:px-4 py-3 sm:py-6 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
+              
+              <div className="flex-1 w-full flex items-center justify-between sm:justify-start">
+                {feedback === 'correct' && (
+                  <div className="text-green-700">
+                    <div className="font-black text-lg sm:text-xl flex items-center gap-2"><span>✅</span> Harika!</div>
+                  </div>
+                )}
+                {feedback === 'typo' && (
+                  <div className="text-amber-800">
+                    <div className="font-black text-lg sm:text-xl flex items-center gap-2"><span>⚠️</span> Harf hatası!</div>
+                  </div>
+                )}
+                {feedback === 'wrong' && (
+                  <div className="text-red-700">
+                    <div className="font-black text-lg sm:text-xl flex items-center gap-2"><span>❌</span> {userAnswer.trim() ? "Yanlış" : "Pas geçtiniz"}</div>
+                  </div>
+                )}
+                {feedback === 'none' && !flashcardMode && (
+                  <div className="flex items-center gap-2">
+                    <button 
+                      className="text-slate-400 font-bold hover:text-slate-600 px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-sm bg-slate-50 border border-slate-200"
+                      onClick={() => setKeyboardOpen(!keyboardOpen)}
+                      title="Klavyeyi Aç/Kapat"
                     >
-                      <span className="text-base sm:text-lg">⏭️</span>
-                      <span>PAS GEÇ</span>
+                      ⌨️ <span className="hidden sm:inline">Sanal Klavye</span>
                     </button>
-                  )}
+                  </div>
+                )}
+              </div>
+
+              <div className="flex flex-row w-full gap-2 sm:gap-3">
+                {adminMode ? (
                   <button
-                    onClick={feedback === 'none' ? handleCheck : handleNext}
-                    disabled={feedback === 'none' && (activeQuestion?.type === 'scramble' ? selectedWords.length === 0 : !userAnswer.trim())}
-                    className={`flex-[2] px-2 py-2.5 rounded-xl font-black text-xs sm:text-lg transition-all active:scale-95 flex items-center justify-center gap-1.5 ${feedback === 'none' ? ((activeQuestion?.type === 'scramble' ? selectedWords.length > 0 : userAnswer.trim()) ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-md' : 'bg-slate-200 text-slate-400 cursor-not-allowed') : feedback === 'correct' ? 'bg-green-600 text-white hover:bg-green-700 shadow-md' : feedback === 'typo' ? 'bg-amber-600 text-white hover:bg-amber-700 shadow-md' : 'bg-red-600 text-white hover:bg-red-700 shadow-md'}`}
+                    onClick={() => setCurrentIndex(p => Math.min(filteredQuestions.length - 1, p + 1))}
+                    disabled={currentIndex >= filteredQuestions.length - 1}
+                    className="flex-1 px-4 sm:px-8 py-2.5 rounded-xl font-black text-sm sm:text-lg transition-all bg-indigo-600 text-white hover:bg-indigo-700 shadow-md disabled:opacity-30 flex items-center justify-center gap-2"
                   >
-                    {feedback === 'none' ? (
-                      <>
-                        <span className="text-base sm:text-lg">✔️</span>
-                        <span>KONTROL ET</span>
-                      </>
-                    ) : (
-                      <>
-                        <span>DEVAM ET</span>
-                        <span className="text-base sm:text-lg">⏭️</span>
-                      </>
-                    )}
+                    <span>SONRAKİ</span>
+                    <span className="text-lg">⏭️</span>
                   </button>
-                </>
-              )}
+                ) : flashcardMode ? (
+                  <button
+                    onClick={() => setFlashcardMode(false)}
+                    className="flex-1 px-2 py-2.5 rounded-xl font-black text-xs sm:text-lg transition-all bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700 shadow-sm border border-slate-200 active:scale-95 flex items-center justify-center gap-1.5"
+                  >
+                    <span>Yazma Moduna Geç</span>
+                  </button>
+                ) : (
+                  <>
+                    {feedback === 'none' && (
+                      <button
+                        onClick={handleSkip}
+                        className="flex-[0.5] px-2 py-2.5 rounded-xl font-black text-xs sm:text-sm transition-all bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700 shadow-sm border border-slate-200 active:scale-95 flex items-center justify-center gap-1.5"
+                      >
+                        <span className="text-base">⏭️</span>
+                        <span className="hidden sm:inline">PAS GEÇ</span>
+                      </button>
+                    )}
+                    {feedback === 'none' && activeQuestion?.type !== 'matching' && (
+                      <button
+                        onClick={() => setFlashcardMode(true)}
+                        className="flex-[0.5] px-2 py-2.5 rounded-xl font-black text-xs sm:text-sm transition-all bg-indigo-50 text-indigo-600 hover:bg-indigo-100 hover:text-indigo-700 shadow-sm border border-indigo-200 active:scale-95 flex items-center justify-center gap-1.5"
+                        title="Yazmadan akıldan tekrar etmek için flaşkarta geç"
+                      >
+                        <span className="text-base">📇</span>
+                        <span className="hidden sm:inline">Flaşkart</span>
+                      </button>
+                    )}
+                    {activeQuestion?.type !== 'matching' && (
+                      <button
+                        onClick={feedback === 'none' ? handleCheck : handleNext}
+                        disabled={feedback === 'none' && (activeQuestion?.type === 'scramble' ? selectedWords.length === 0 : !userAnswer.trim())}
+                        className={`flex-[1.5] px-2 py-2.5 rounded-xl font-black text-xs sm:text-lg transition-all active:scale-95 flex items-center justify-center gap-1.5 ${feedback === 'none' ? ((activeQuestion?.type === 'scramble' ? selectedWords.length > 0 : userAnswer.trim()) ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-md' : 'bg-slate-200 text-slate-400 cursor-not-allowed') : feedback === 'correct' ? 'bg-green-600 text-white hover:bg-green-700 shadow-md' : feedback === 'typo' ? 'bg-amber-600 text-white hover:bg-amber-700 shadow-md' : 'bg-red-600 text-white hover:bg-red-700 shadow-md'}`}
+                      >
+                        {feedback === 'none' ? (
+                          <>
+                            <span className="text-base sm:text-lg">✔️</span>
+                            <span>KONTROL ET</span>
+                          </>
+                        ) : (
+                          <>
+                            <span>DEVAM ET</span>
+                            <span className="text-base sm:text-lg">⏭️</span>
+                          </>
+                        )}
+                      </button>
+                    )}
+                    {activeQuestion?.type === 'matching' && feedback !== 'none' && (
+                       <button
+                         onClick={handleNext}
+                         className="flex-[1.5] px-2 py-2.5 rounded-xl font-black text-xs sm:text-lg transition-all bg-green-600 text-white hover:bg-green-700 shadow-md active:scale-95 flex items-center justify-center gap-1.5"
+                       >
+                          <span>DEVAM ET</span>
+                          <span className="text-base sm:text-lg">⏭️</span>
+                       </button>
+                    )}
+                  </>
+                )}
+              </div>
             </div>
-          </div>
+          )}
 
           {/* Virtual Keyboard */}
           <div 
-            className={`bg-white border-t border-slate-200 p-2 sm:p-4 transition-all duration-300 ${keyboardOpen && !preferNativeKeyboard && feedback === 'none' ? 'h-auto opacity-100' : 'h-0 opacity-0 overflow-hidden py-0 border-transparent'}`}
+            className={`bg-white border-t border-slate-200 p-2 sm:p-4 transition-all duration-300 ${(keyboardOpen && !preferNativeKeyboard && feedback === 'none') || (isEditingQuestion && keyboardOpen) ? 'h-auto opacity-100' : 'h-0 opacity-0 overflow-hidden py-0 border-transparent'}`}
             onPointerDown={(e) => e.preventDefault()}
           >
             <div className="max-w-3xl mx-auto pb-2">
