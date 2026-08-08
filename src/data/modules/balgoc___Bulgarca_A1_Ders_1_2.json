@@ -42,16 +42,16 @@
     {
       "id": "q_auto_fbc76d8c",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ьо birleşimi “yo” gibi okunur: синьо = mavi.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Ьо birleşimi “yo” gibi okunur: синьо = mavi.)",
       "answer": "Ьо - синьо - sinyo - yo",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_d5486a05",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ьо - синьо - sinyo - yo)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Ьо - синьо - sinyo - yo)",
       "answer": "Ьо birleşimi “yo” gibi okunur: синьо = mavi.",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_4a803f68",
@@ -63,16 +63,16 @@
     {
       "id": "q_auto_c794a62b",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Йо birleşimi “yo” gibi okunur.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Йо birleşimi “yo” gibi okunur.)",
       "answer": "Йо - yo",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_8db74ee6",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Йо - yo)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Йо - yo)",
       "answer": "Йо birleşimi “yo” gibi okunur.",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_c53adc75",
@@ -84,16 +84,16 @@
     {
       "id": "q_auto_b70adbab",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: България = Bulgaristan; Latinleştirmede Bulgaria yazılır.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: България = Bulgaristan; Latinleştirmede Bulgaria yazılır.)",
       "answer": "България - Bulgaria",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_3ba55992",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: България - Bulgaria)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: България - Bulgaria)",
       "answer": "България = Bulgaristan; Latinleştirmede Bulgaria yazılır.",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_4e8d0596",
@@ -105,16 +105,16 @@
     {
       "id": "q_auto_877a6fcf",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: -ия sonu Latin yazımda çoğu zaman -ia olur: София = Sofia.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: -ия sonu Latin yazımda çoğu zaman -ia olur: София = Sofia.)",
       "answer": "-ия - София - Sofia -ia",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_1a28309c",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: -ия - София - Sofia -ia)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: -ия - София - Sofia -ia)",
       "answer": "-ия sonu Latin yazımda çoğu zaman -ia olur: София = Sofia.",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_1ada0996",
@@ -150,17 +150,17 @@
     {
       "id": "q_auto_0c22ffc0",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ю, Я, Щ, Й harflerindeki özel durumlar.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Ю, Я, Щ, Й harflerindeki özel durumlar.)",
       "answer": "Особености при буквите Ю, Я, Щ, Й.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır."
     },
     {
       "id": "q_auto_0cb483fb",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Особености при буквите Ю, Я, Щ, Й.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Особености при буквите Ю, Я, Щ, Й.)",
       "answer": "Ю, Я, Щ, Й harflerindeki özel durumlar.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır."
     },
     {
@@ -174,16 +174,16 @@
     {
       "id": "q_auto_e8e01c57",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ю, Я, Щ, Й çoğu durumda iki ses içerir.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Ю, Я, Щ, Й çoğu durumda iki ses içerir.)",
       "answer": "Ю, Я, Щ, Й съдържат по два звука.",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_4125e305",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ю, Я, Щ, Й съдържат по два звука.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Ю, Я, Щ, Й съдържат по два звука.)",
       "answer": "Ю, Я, Щ, Й çoğu durumda iki ses içerir.",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_dc91f0ad",
@@ -195,17 +195,17 @@
     {
       "id": "q_auto_01e872ad",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ю = y+u; я = y+a; щ = ş+t; й = kısa y kaydırma sesi gibi düşünülür.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: ю = y+u; я = y+a; щ = ş+t; й = kısa y kaydırma sesi gibi düşünülür.)",
       "answer": "ю – й + у; я – й + а; щ – ш + т; й – и + о.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Türkçedeki Ş sesi Bulgarcada genellikle Ш ile yazılır. Ü sesi kimi kelimelerde Ю ile yazılır. Ü bazı alıntılarda У ile yazılır.\n\n📘 Kural: Zamirlerin Kullanımı\n- го = onu (eril kısa nesne zamiridir). \n- до него = onun yanında (Bir edattan -до- sonra kullanıldığı için uzun form \"него\" kullanılmıştır).\nKısa formlar fiilden önce, uzun formlar edatlardan sonra gelir."
     },
     {
       "id": "q_auto_047ff3a4",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ю – й + у; я – й + а; щ – ш + т; й – и + о.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: ю – й + у; я – й + а; щ – ш + т; й – и + о.)",
       "answer": "ю = y+u; я = y+a; щ = ş+t; й = kısa y kaydırma sesi gibi düşünülür.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Türkçedeki Ş sesi Bulgarcada genellikle Ш ile yazılır. Ü sesi kimi kelimelerde Ю ile yazılır. Ü bazı alıntılarda У ile yazılır.\n\n📘 Kural: Zamirlerin Kullanımı\n- го = onu (eril kısa nesne zamiridir). \n- до него = onun yanında (Bir edattan -до- sonra kullanıldığı için uzun form \"него\" kullanılmıştır).\nKısa formlar fiilden önce, uzun formlar edatlardan sonra gelir."
     },
     {
@@ -219,17 +219,17 @@
     {
       "id": "q_auto_8644ce76",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Дж “c/j” birleşik sesi verir: суджук. Ama iki ayrı kökten gelen kelimelerde sınır korunur: над|живея.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Дж “c/j” birleşik sesi verir: суджук. Ama iki ayrı kökten gelen kelimelerde sınır korunur: над|живея.)",
       "answer": "Дж като суджук, но над|живея.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Türkçedeki J sesi Bulgarcada Ж ile yazılır. Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır.\n\n📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
     },
     {
       "id": "q_auto_5dfda97e",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Дж като суджук, но над|живея.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Дж като суджук, но над|живея.)",
       "answer": "Дж “c/j” birleşik sesi verir: суджук. Ama iki ayrı kökten gelen kelimelerde sınır korunur: над|живея.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Türkçedeki J sesi Bulgarcada Ж ile yazılır. Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır.\n\n📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
     },
     {
@@ -243,17 +243,17 @@
     {
       "id": "q_auto_ecab24f3",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Дз birleşik “dz” sesidir; ancak kök sınırı varsa ayrı düşünülür.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Дз birleşik “dz” sesidir; ancak kök sınırı varsa ayrı düşünülür.)",
       "answer": "Дз като дзън, дзифт, но над|зъртам.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır.\n\n📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
     },
     {
       "id": "q_auto_aa5f1460",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Дз като дзън, дзифт, но над|зъртам.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Дз като дзън, дзифт, но над|зъртам.)",
       "answer": "Дз birleşik “dz” sesidir; ancak kök sınırı varsa ayrı düşünülür.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır.\n\n📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
     },
     {
@@ -267,16 +267,16 @@
     {
       "id": "q_auto_0412d626",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Сграда yazılır ama söyleyişte “зграда” gibi duyulabilir: bina.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Сграда yazılır ama söyleyişte “зграда” gibi duyulabilir: bina.)",
       "answer": "Сграда [зграда]",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_ea358dd1",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Сграда [зграда])",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Сграда [зграда])",
       "answer": "Сграда yazılır ama söyleyişte “зграда” gibi duyulabilir: bina.",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_0aec9772",
@@ -336,17 +336,17 @@
     {
       "id": "q_auto_9cd52434",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ünlü harfler: а, ъ, е, и, о, у.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Ünlü harfler: а, ъ, е, и, о, у.)",
       "answer": "Гласни букви са а, ъ, е, и, о, у.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Bulgarcada 'olmak' fiili (съм) çok önemlidir: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са.\n\n📘 Kural: \"Съм\" (Olmak) Fiili\nA1 düzeyinde en önemli fiil “съм” (olmak) fiilidir. Durum, meslek ve milliyet bildirirken kullanılır.\nаз съм (ben ...'im)        ние сме (biz ...'iz)\nти си (sen ...'sin)        вие сте (siz ...'siniz)\nтой/тя/то е (o ...'dir)    те са (onlar ...'dir)"
     },
     {
       "id": "q_auto_9af28856",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Гласни букви са а, ъ, е, и, о, у.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Гласни букви са а, ъ, е, и, о, у.)",
       "answer": "Ünlü harfler: а, ъ, е, и, о, у.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Bulgarcada 'olmak' fiili (съм) çok önemlidir: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са.\n\n📘 Kural: \"Съм\" (Olmak) Fiili\nA1 düzeyinde en önemli fiil “съм” (olmak) fiilidir. Durum, meslek ve milliyet bildirirken kullanılır.\nаз съм (ben ...'im)        ние сме (biz ...'iz)\nти си (sen ...'sin)        вие сте (siz ...'siniz)\nтой/тя/то е (o ...'dir)    те са (onlar ...'dir)"
     },
     {
@@ -384,17 +384,17 @@
     {
       "id": "q_auto_24385d30",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Birinci grup: ötümlü ünsüzler: б, в, г, д, ж, з, й, дз, дж.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Birinci grup: ötümlü ünsüzler: б, в, г, д, ж, з, й, дз, дж.)",
       "answer": "Първи вид – звучни съгласни: б, в, г, д, ж, з, й, дз, дж.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Ü bazı alıntılarda У ile yazılır."
     },
     {
       "id": "q_auto_14a08ba0",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Първи вид – звучни съгласни: б, в, г, д, ж, з, й, дз, дж.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Първи вид – звучни съгласни: б, в, г, д, ж, з, й, дз, дж.)",
       "answer": "Birinci grup: ötümlü ünsüzler: б, в, г, д, ж, з, й, дз, дж.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Ü bazı alıntılarda У ile yazılır."
     },
     {
@@ -408,17 +408,17 @@
     {
       "id": "q_auto_368b58c2",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: İkinci grup: ötümsüz ünsüzler: п, ф, к, т, ш, с, ч, ц, х.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: İkinci grup: ötümsüz ünsüzler: п, ф, к, т, ш, с, ч, ц, х.)",
       "answer": "Втори вид – беззвучни съгласни: п, ф, к, т, ш, с, ч, ц, х.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır. Ü bazı alıntılarda У ile yazılır."
     },
     {
       "id": "q_auto_c0627dc4",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Втори вид – беззвучни съгласни: п, ф, к, т, ш, с, ч, ц, х.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Втори вид – беззвучни съгласни: п, ф, к, т, ш, с, ч, ц, х.)",
       "answer": "İkinci grup: ötümsüz ünsüzler: п, ф, к, т, ш, с, ч, ц, х.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır. Ü bazı alıntılarda У ile yazılır."
     },
     {
@@ -432,16 +432,16 @@
     {
       "id": "q_auto_f1550dd8",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Üçüncü grup: sonor ünsüzler: м, н, р, л.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Üçüncü grup: sonor ünsüzler: м, н, р, л.)",
       "answer": "Трети вид – сонорни съгласни: м, н, р, л.",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_723f2715",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Трети вид – сонорни съгласни: м, н, р, л.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Трети вид – сонорни съгласни: м, н, р, л.)",
       "answer": "Üçüncü grup: sonor ünsüzler: м, н, р, л.",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_a6b2000e",
@@ -5390,16 +5390,16 @@
     {
       "id": "q_auto_026e6c1e",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Örneğin “анархия” kelimesinde çoğulda ия -> ии olur: анархии.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Örneğin “анархия” kelimesinde çoğulda ия -> ии olur: анархии.)",
       "answer": "Например в „анархия“ – ия-ии.",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_d21f42bc",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Например в „анархия“ – ия-ии.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Например в „анархия“ – ия-ии.)",
       "answer": "Örneğin “анархия” kelimesinde çoğulda ия -> ии olur: анархии.",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_42e0face",
@@ -5435,17 +5435,17 @@
     {
       "id": "q_auto_710aa42e",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: -ия ile biten kelimeler çoğulda -ии alır.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: -ия ile biten kelimeler çoğulda -ии alır.)",
       "answer": "Думи, завършващи на ия в множествено число приемат окончание ии.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
     },
     {
       "id": "q_auto_9244eb2c",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Думи, завършващи на ия в множествено число приемат окончание ии.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Думи, завършващи на ия в множествено число приемат окончание ии.)",
       "answer": "-ия ile biten kelimeler çoğulda -ии alır.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
     },
     {
@@ -5459,17 +5459,17 @@
     {
       "id": "q_auto_7e053cf2",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: -к ile biten bazı eril isimler çoğulda -ци alır.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: -к ile biten bazı eril isimler çoğulda -ци alır.)",
       "answer": "Думи, завършващи на –к, в множествено число приемат окончание –ци.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır. Bazı alıntı kelimelerde Ç/ts benzeri ses Ц ile yazılır."
     },
     {
       "id": "q_auto_24cd7491",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Думи, завършващи на –к, в множествено число приемат окончание –ци.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Думи, завършващи на –к, в множествено число приемат окончание –ци.)",
       "answer": "-к ile biten bazı eril isimler çoğulda -ци alır.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır. Bazı alıntı kelimelerde Ç/ts benzeri ses Ц ile yazılır."
     },
     {
@@ -5483,17 +5483,17 @@
     {
       "id": "q_auto_e819d4cf",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: -г ile biten bazı isimler çoğulda -зи olur.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: -г ile biten bazı isimler çoğulda -зи olur.)",
       "answer": "Думи, завършващи на –г, в множествено число приемат окончание –зи.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
     },
     {
       "id": "q_auto_f943ec5b",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Думи, завършващи на –г, в множествено число приемат окончание –зи.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Думи, завършващи на –г, в множествено число приемат окончание –зи.)",
       "answer": "-г ile biten bazı isimler çoğulda -зи olur.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
     },
     {
@@ -7033,16 +7033,16 @@
     {
       "id": "q_auto_02ebdf73",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: омъжена или възрастна жена)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: омъжена или възрастна жена)",
       "answer": "ж.р. ед.ч.",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_af386100",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ж.р. ед.ч.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: ж.р. ед.ч.)",
       "answer": "омъжена или възрастна жена",
-      "hint": "Bulgarca kelimeyi yazınız"
+      "hint": "Diğer formu yazınız"
     },
     {
       "id": "q_auto_f59b3b71",
@@ -10152,17 +10152,17 @@
     {
       "id": "q_auto_b2c5ad4e",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: го zamiri burada “tepeyi” anlamındaki върха isminin yerine geçer.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: го zamiri burada “tepeyi” anlamındaki върха isminin yerine geçer.)",
       "answer": "Местоимението го замества съществителното име върха.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)\n\n📘 Kural: Zamirlerin Kullanımı\n- го = onu (eril kısa nesne zamiridir). \n- до него = onun yanında (Bir edattan -до- sonra kullanıldığı için uzun form \"него\" kullanılmıştır).\nKısa formlar fiilden önce, uzun formlar edatlardan sonra gelir."
     },
     {
       "id": "q_auto_66d71358",
       "type": "translation",
-      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Местоимението го замества съществителното име върха.)",
+      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Местоимението го замества съществителното име върха.)",
       "answer": "го zamiri burada “tepeyi” anlamındaki върха isminin yerine geçer.",
-      "hint": "Bulgarca kelimeyi yazınız",
+      "hint": "Diğer formu yazınız",
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)\n\n📘 Kural: Zamirlerin Kullanımı\n- го = onu (eril kısa nesne zamiridir). \n- до него = onun yanında (Bir edattan -до- sonra kullanıldığı için uzun form \"него\" kullanılmıştır).\nKısa formlar fiilden önce, uzun formlar edatlardan sonra gelir."
     },
     {

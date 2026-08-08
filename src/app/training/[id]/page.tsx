@@ -190,10 +190,10 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     if (isSwapped) {
       const match = q.sentence.match(/:\s*(.*?)\)/);
       if (match) {
-        if (q.sentence.includes('İlişkili')) {
-          display = `İlişkili kelimeyi yazınız (Bulgarca: ${q.answer})`;
+        if (q.sentence.includes('İlgili formu')) {
+          display = `İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: ${q.answer})`;
           expected = match[1].trim();
-          hint = 'Bulgarca kelimeyi yazınız';
+          hint = 'Diğer formu yazınız';
         } else {
           display = `... (${q.sentence.includes('Türkçesi:') ? 'Bulgarcası' : 'Türkçesi'}: ${q.answer})`;
           expected = match[1].trim();

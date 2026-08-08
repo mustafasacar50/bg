@@ -1,0 +1,84 @@
+[
+  {
+    "id": "q_auto_75aca8f5",
+    "type": "translation",
+    "sentence": "Çeviriniz (Türkçesi: Güzel kayısı kompostosu var; ayrıca şeftali, vişne ve çilek kompostosu da var.)",
+    "answer": "– Има хубав компот от кайсии, а също от праскови, вишни, ягоди.",
+    "hint": "Bulgarca karşılığını yazınız",
+    "lesson": "Ders 4",
+    "explanation": "📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
+  },
+  {
+    "id": "q_auto_d1d83eba",
+    "type": "scramble",
+    "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Güzel kayısı kompostosu var; ayrıca şeftali, vişne ve çilek kompostosu da var.",
+    "answer": "– Има хубав компот от кайсии, а също от праскови, вишни, ягоди.",
+    "hint": "Doğru sıralamayı bul",
+    "lesson": "Ders 4",
+    "explanation": "📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
+  },
+  {
+    "id": "q_auto_e0404036",
+    "type": "translation",
+    "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: кайсии)",
+    "answer": "Кайсия",
+    "hint": "Bulgarca kelimeyi yazınız",
+    "lesson": "Ders 4"
+  },
+  {
+    "id": "q_auto_b2bec340",
+    "type": "translation",
+    "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Кайсия)",
+    "answer": "кайсии",
+    "hint": "Bulgarca kelimeyi yazınız",
+    "lesson": "Ders 4"
+  },
+  {
+    "id": "q_auto_68a1f54a",
+    "type": "translation",
+    "sentence": "Çeviriniz (Türkçesi: kayısı)",
+    "answer": "Кайсия",
+    "hint": "Bulgarca karşılığını yazınız",
+    "lesson": "Ders 4"
+  },
+  {
+    "id": "q_auto_22d247eb",
+    "type": "translation",
+    "sentence": "Çeviriniz (Bulgarcası: Кайсия)",
+    "answer": "kayısı",
+    "hint": "Türkçe karşılığını yazınız",
+    "lesson": "Ders 4"
+  },
+  {
+    "id": "q_auto_3e8ca209",
+    "type": "translation",
+    "sentence": "Çeviriniz (Türkçesi: kuru kayısılar)",
+    "answer": "Сушени кайсии",
+    "hint": "Bulgarca karşılığını yazınız",
+    "lesson": "Ders 4"
+  },
+  {
+    "id": "q_auto_121c2ce3",
+    "type": "scramble",
+    "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: kuru kayısılar",
+    "answer": "Сушени кайсии",
+    "hint": "Doğru sıralamayı bul",
+    "lesson": "Ders 4"
+  },
+  {
+    "id": "q_auto_bb0caf5f",
+    "type": "translation",
+    "sentence": "Çeviriniz (Türkçesi: şeftali/kayısı/kiraz/vişne kompostosu)",
+    "answer": "Компот от праскови/кайсии/череши/вишни",
+    "hint": "Bulgarca karşılığını yazınız",
+    "lesson": "Ders 4"
+  },
+  {
+    "id": "q_auto_9cf24266",
+    "type": "scramble",
+    "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: şeftali/kayısı/kiraz/vişne kompostosu",
+    "answer": "Компот от праскови/кайсии/череши/вишни",
+    "hint": "Doğru sıralamayı bul",
+    "lesson": "Ders 4"
+  }
+]
