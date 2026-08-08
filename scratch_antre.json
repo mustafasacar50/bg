@@ -1,0 +1,61 @@
+[
+  {
+    "id": "q_auto_3a3f46e2",
+    "type": "translation",
+    "sentence": "Çeviriniz (Bulgarcası: Има една малка стая с антре, кухненски бокс и баня.)",
+    "answer": "Antresi, küçük mutfak bölümü ve banyosu olan küçük bir odası vardır.",
+    "hint": "Türkçe karşılığını yazınız",
+    "lesson": "Ders 4",
+    "explanation": "📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
+  },
+  {
+    "id": "q_auto_60eb46e7",
+    "type": "translation",
+    "sentence": "Çeviriniz (Türkçesi: Antresi, küçük mutfak bölümü ve banyosu olan küçük bir odası vardır.)",
+    "answer": "Има една малка стая с антре, кухненски бокс и баня.",
+    "hint": "Bulgarca karşılığını yazınız",
+    "lesson": "Ders 4",
+    "explanation": "📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
+  },
+  {
+    "id": "q_auto_6f0dc001",
+    "type": "scramble",
+    "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Antresi, küçük mutfak bölümü ve banyosu olan küçük bir odası vardır.",
+    "answer": "Има една малка стая с антре, кухненски бокс и баня.",
+    "hint": "Doğru sıralamayı bul",
+    "lesson": "Ders 4",
+    "explanation": "📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
+  },
+  {
+    "id": "q_auto_3bf8d9c7",
+    "type": "translation",
+    "sentence": "Çeviriniz (Türkçesi: antre)",
+    "answer": "антре",
+    "hint": "Bulgarca karşılığını yazınız",
+    "lesson": "Ders 4"
+  },
+  {
+    "id": "q_auto_c90383c8",
+    "type": "translation",
+    "sentence": "Çeviriniz (Bulgarcası: антре)",
+    "answer": "antre",
+    "hint": "Türkçe karşılığını yazınız",
+    "lesson": "Ders 4"
+  },
+  {
+    "id": "q_auto_29ad4d3c",
+    "type": "translation",
+    "sentence": "Çeviriniz (Türkçesi: антрета)",
+    "answer": "антре",
+    "hint": "Bulgarca karşılığını yazınız",
+    "lesson": "Ders 4"
+  },
+  {
+    "id": "q_auto_b259bdb4",
+    "type": "translation",
+    "sentence": "Çeviriniz (Bulgarcası: антре)",
+    "answer": "антрета",
+    "hint": "Türkçe karşılığını yazınız",
+    "lesson": "Ders 4"
+  }
+]

@@ -354,18 +354,18 @@
     {
       "id": "q_auto_40f58c17",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Съществително име е всяка дума, която можем да свържем с числителните имена един, една, едно, едни.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Съществително име е всяка дума, която можем да свържем с числителните имена един, една, едно, едни.)",
       "answer": "İsim, “bir” anlamına gelen един, една, едно, едни gibi sayı sözcükleriyle birlikte kullanılabilen sözcüktür.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
     },
     {
       "id": "q_auto_fc18e7db",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: İsim, “bir” anlamına gelen един, една, едно, едни gibi sayı sözcükleriyle birlikte kullanılabilen sözcüktür.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: İsim, “bir” anlamına gelen един, една, едно, едни gibi sayı sözcükleriyle birlikte kullanılabilen sözcüktür.)",
       "answer": "Съществително име е всяка дума, която можем да свържем с числителните имена един, една, едно, едни.",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
     },
@@ -4323,17 +4323,17 @@
     {
       "id": "q_auto_c75694f4",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: един)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: един)",
       "answer": "Eril / Мъжки род",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_88c3c9d2",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Eril / Мъжки род)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Eril / Мъжки род)",
       "answer": "един",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -4347,17 +4347,17 @@
     {
       "id": "q_auto_998d5172",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: една)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: една)",
       "answer": "Dişil / Женски род",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c1d9f4d0",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Dişil / Женски род)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Dişil / Женски род)",
       "answer": "една",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -4371,17 +4371,17 @@
     {
       "id": "q_auto_d299c043",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: едно)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: едно)",
       "answer": "Orta / Среден род",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_d5571095",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Orta / Среден род)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Orta / Среден род)",
       "answer": "едно",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -4411,499 +4411,499 @@
     {
       "id": "q_auto_e3b971b7",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: самолети)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: самолети)",
       "answer": "самолет",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_f3beddbf",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: самолет)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: самолет)",
       "answer": "самолети",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_acc73145",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: вълшебници)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: вълшебници)",
       "answer": "вълшебник",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_751e3f74",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: вълшебник)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: вълшебник)",
       "answer": "вълшебници",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_343f0ece",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: столове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: столове)",
       "answer": "стол",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ace63903",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: стол)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: стол)",
       "answer": "столове",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_208aefcc",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: домати)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: домати)",
       "answer": "домат",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_3c673990",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: домат)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: домат)",
       "answer": "домати",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_f388dfd7",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: хора)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: хора)",
       "answer": "човек",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_2c28a543",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: човек)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: човек)",
       "answer": "хора",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_912e750c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: часове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: часове)",
       "answer": "час",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_9d556400",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: час)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: час)",
       "answer": "часове",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_1546ee06",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: чайове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: чайове)",
       "answer": "чай",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_58a6581f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: чай)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: чай)",
       "answer": "чайове",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_3c6b488d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ключове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ключове)",
       "answer": "ключ",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_b9ea5f7f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: ключ)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ключ)",
       "answer": "ключове",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_8fe82ffd",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: бащи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: бащи)",
       "answer": "баща",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_646b2e9c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: баща)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: баща)",
       "answer": "бащи",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_88eff836",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: съдии)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: съдии)",
       "answer": "съдия",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_8652968d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: съдия)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: съдия)",
       "answer": "съдии",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a846c2a4",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: лъчи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: лъчи)",
       "answer": "лъч",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_d50fc522",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: лъч)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: лъч)",
       "answer": "лъчи",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_72a61b0d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: случаи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: случаи)",
       "answer": "случай",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Fiil Çekimi - Уча (Öğrenmek)\nаз уча (ben öğrenirim)       ние учим (biz öğreniriz)\nти учиш (sen öğrenirsin)     вие учите (siz öğrenirsiniz)\nтой/тя/то учи (o öğrenir)    те учат (onlar öğrenirler)"
     },
     {
       "id": "q_auto_11979e5a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: случай)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: случай)",
       "answer": "случаи",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Fiil Çekimi - Уча (Öğrenmek)\nаз уча (ben öğrenirim)       ние учим (biz öğreniriz)\nти учиш (sen öğrenirsin)     вие учите (siz öğrenirsiniz)\nтой/тя/то учи (o öğrenir)    те учат (onlar öğrenirler)"
     },
     {
       "id": "q_auto_30bc80bc",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: сезони)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: сезони)",
       "answer": "сезон",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_7647de3e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: сезон)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: сезон)",
       "answer": "сезони",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_0e24d18a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: дядовци)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: дядовци)",
       "answer": "дядо",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_f8e580f0",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: дядо)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: дядо)",
       "answer": "дядовци",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_9049dd65",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: чичовци)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: чичовци)",
       "answer": "чичо",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ad170435",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: чичо)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: чичо)",
       "answer": "чичовци",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_3307756d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: вуйчовци)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: вуйчовци)",
       "answer": "вуйчо",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c2ce57f9",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: вуйчо)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: вуйчо)",
       "answer": "вуйчовци",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c1c8135a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: улици)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: улици)",
       "answer": "улица",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_e025e83c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: улица)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: улица)",
       "answer": "улици",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_e2625eeb",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: книги)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: книги)",
       "answer": "книга",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_5407f9a2",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: книга)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: книга)",
       "answer": "книги",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c0b12425",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: жени)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: жени)",
       "answer": "жена",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_15ae64ec",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: жена)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: жена)",
       "answer": "жени",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_e2152e9b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: змии)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: змии)",
       "answer": "змия",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_91dd26d2",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: змия)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: змия)",
       "answer": "змии",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_2a0c74be",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: стаи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: стаи)",
       "answer": "стая",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a9d0b84e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: стая)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: стая)",
       "answer": "стаи",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_eb23e7ed",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: идеи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: идеи)",
       "answer": "идея",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_468b9067",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: идея)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: идея)",
       "answer": "идеи",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_8c805f15",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: кости)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: кости)",
       "answer": "кост",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_86b6de96",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: кост)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: кост)",
       "answer": "кости",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_8d32934b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: свещи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: свещи)",
       "answer": "свещ",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ee4b725d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: свещ)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: свещ)",
       "answer": "свещи",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_7e1c928a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: добродетели)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: добродетели)",
       "answer": "добродетел",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c665a905",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: добродетел)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: добродетел)",
       "answer": "добродетели",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ac13b360",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: колела)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: колела)",
       "answer": "колело",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_9afb9a56",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: колело)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: колело)",
       "answer": "колела",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_73500485",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: учения)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: учения)",
       "answer": "учение",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_2e4d954d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: учение)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: учение)",
       "answer": "учения",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_abe7b9bc",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: сливания)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: сливания)",
       "answer": "сливане",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_32a2f823",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: сливане)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: сливане)",
       "answer": "сливания",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_98eaac3f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: морета)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: морета)",
       "answer": "море",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_6b5691b4",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: море)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: море)",
       "answer": "морета",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_df8292d3",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: деца)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: деца)",
       "answer": "дете",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_f5beeb84",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: дете)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: дете)",
       "answer": "деца",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_4bf4410a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: чудеса)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: чудеса)",
       "answer": "чудо",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_dbd4decf",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: чудо)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: чудо)",
       "answer": "чудеса",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -4927,108 +4927,108 @@
     {
       "id": "q_auto_ce356afa",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: имам)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: имам)",
       "answer": "Аз",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
     {
       "id": "q_auto_bd508e57",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Аз)",
       "answer": "имам",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
     {
       "id": "q_auto_509aca9a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: имаш)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: имаш)",
       "answer": "Ти",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
     {
       "id": "q_auto_f4dd92ec",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ти)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ти)",
       "answer": "имаш",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
     {
       "id": "q_auto_1deff0e6",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: има)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: има)",
       "answer": "Той/Тя/То",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)\n\n📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
     {
       "id": "q_auto_f83c61b2",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Той/Тя/То)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Той/Тя/То)",
       "answer": "има",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)\n\n📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
     {
       "id": "q_auto_08d3c607",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: имаме)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: имаме)",
       "answer": "Ние",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
     {
       "id": "q_auto_e5f2904d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ние)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ние)",
       "answer": "имаме",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
     {
       "id": "q_auto_14ca605b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: имате)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: имате)",
       "answer": "Вие",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
     {
       "id": "q_auto_370dd64a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вие)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Вие)",
       "answer": "имате",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
     {
       "id": "q_auto_dca2de6c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: имат)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: имат)",
       "answer": "Те",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
     {
       "id": "q_auto_ac15ccf3",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Те)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Те)",
       "answer": "имат",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
@@ -5053,108 +5053,108 @@
     {
       "id": "q_auto_9e3d6754",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: уча (се))",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: уча (се)",
       "answer": "Аз",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Fiil Çekimi - Уча (Öğrenmek)\nаз уча (ben öğrenirim)       ние учим (biz öğreniriz)\nти учиш (sen öğrenirsin)     вие учите (siz öğrenirsiniz)\nтой/тя/то учи (o öğrenir)    те учат (onlar öğrenirler)"
     },
     {
       "id": "q_auto_ec3cb00d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Аз)",
       "answer": "уча (се)",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Fiil Çekimi - Уча (Öğrenmek)\nаз уча (ben öğrenirim)       ние учим (biz öğreniriz)\nти учиш (sen öğrenirsin)     вие учите (siz öğrenirsiniz)\nтой/тя/то учи (o öğrenir)    те учат (onlar öğrenirler)"
     },
     {
       "id": "q_auto_6310f3f4",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: учиш (се))",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: учиш (се)",
       "answer": "Ти",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Fiil Çekimi - Уча (Öğrenmek)\nаз уча (ben öğrenirim)       ние учим (biz öğreniriz)\nти учиш (sen öğrenirsin)     вие учите (siz öğrenirsiniz)\nтой/тя/то учи (o öğrenir)    те учат (onlar öğrenirler)"
     },
     {
       "id": "q_auto_047cada5",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ти)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ти)",
       "answer": "учиш (се)",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Fiil Çekimi - Уча (Öğrenmek)\nаз уча (ben öğrenirim)       ние учим (biz öğreniriz)\nти учиш (sen öğrenirsin)     вие учите (siz öğrenirsiniz)\nтой/тя/то учи (o öğrenir)    те учат (onlar öğrenirler)"
     },
     {
       "id": "q_auto_49b39950",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: учи (се))",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: учи (се)",
       "answer": "Той/Тя/То",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)\n\n📘 Kural: Fiil Çekimi - Уча (Öğrenmek)\nаз уча (ben öğrenirim)       ние учим (biz öğreniriz)\nти учиш (sen öğrenirsin)     вие учите (siz öğrenirsiniz)\nтой/тя/то учи (o öğrenir)    те учат (onlar öğrenirler)"
     },
     {
       "id": "q_auto_242116e8",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Той/Тя/То)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Той/Тя/То)",
       "answer": "учи (се)",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)\n\n📘 Kural: Fiil Çekimi - Уча (Öğrenmek)\nаз уча (ben öğrenirim)       ние учим (biz öğreniriz)\nти учиш (sen öğrenirsin)     вие учите (siz öğrenirsiniz)\nтой/тя/то учи (o öğrenir)    те учат (onlar öğrenirler)"
     },
     {
       "id": "q_auto_37950981",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: учим (се))",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: учим (се)",
       "answer": "Ние",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Fiil Çekimi - Уча (Öğrenmek)\nаз уча (ben öğrenirim)       ние учим (biz öğreniriz)\nти учиш (sen öğrenirsin)     вие учите (siz öğrenirsiniz)\nтой/тя/то учи (o öğrenir)    те учат (onlar öğrenirler)"
     },
     {
       "id": "q_auto_306664f4",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ние)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ние)",
       "answer": "учим (се)",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Fiil Çekimi - Уча (Öğrenmek)\nаз уча (ben öğrenirim)       ние учим (biz öğreniriz)\nти учиш (sen öğrenirsin)     вие учите (siz öğrenirsiniz)\nтой/тя/то учи (o öğrenir)    те учат (onlar öğrenirler)"
     },
     {
       "id": "q_auto_2a123273",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: учите (се))",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: учите (се)",
       "answer": "Вие",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Fiil Çekimi - Уча (Öğrenmek)\nаз уча (ben öğrenirim)       ние учим (biz öğreniriz)\nти учиш (sen öğrenirsin)     вие учите (siz öğrenirsiniz)\nтой/тя/то учи (o öğrenir)    те учат (onlar öğrenirler)"
     },
     {
       "id": "q_auto_7ac66b28",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вие)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Вие)",
       "answer": "учите (се)",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Fiil Çekimi - Уча (Öğrenmek)\nаз уча (ben öğrenirim)       ние учим (biz öğreniriz)\nти учиш (sen öğrenirsin)     вие учите (siz öğrenirsiniz)\nтой/тя/то учи (o öğrenir)    те учат (onlar öğrenirler)"
     },
     {
       "id": "q_auto_3059230e",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: учат (се))",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: учат (се)",
       "answer": "Те",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Fiil Çekimi - Уча (Öğrenmek)\nаз уча (ben öğrenirim)       ние учим (biz öğreniriz)\nти учиш (sen öğrenirsin)     вие учите (siz öğrenirsiniz)\nтой/тя/то учи (o öğrenir)    те учат (onlar öğrenirler)"
     },
     {
       "id": "q_auto_66768465",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Те)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Те)",
       "answer": "учат (се)",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Fiil Çekimi - Уча (Öğrenmek)\nаз уча (ben öğrenirim)       ние учим (biz öğreniriz)\nти учиш (sen öğrenirsin)     вие учите (siz öğrenirsiniz)\nтой/тя/то учи (o öğrenir)    те учат (onlar öğrenirler)"
     },
@@ -6071,17 +6071,17 @@
     {
       "id": "q_auto_61f9a176",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Мн. число / Çoğul)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Мн. число / Çoğul)",
       "answer": "Дума / Kelime",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_d2fa99a0",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Дума / Kelime)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Дума / Kelime)",
       "answer": "Мн. число / Çoğul",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -6095,945 +6095,945 @@
     {
       "id": "q_auto_d8f4aa3f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: адвокати)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: адвокати)",
       "answer": "Адвокат",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_52e5e520",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Адвокат)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Адвокат)",
       "answer": "адвокати",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_431f14f0",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: балони)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: балони)",
       "answer": "Балон",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_411ad720",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Балон)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Балон)",
       "answer": "балони",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_893ece5e",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: балсами)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: балсами)",
       "answer": "Балсам",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_16c466ba",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Балсам)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Балсам)",
       "answer": "балсами",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_fc8da02f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: вагони)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: вагони)",
       "answer": "Вагон",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a5424e9b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вагон)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Вагон)",
       "answer": "вагони",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_233281f8",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: вампири)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: вампири)",
       "answer": "Вампир",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ec60b084",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вампир)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Вампир)",
       "answer": "вампири",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_6c2cbd3c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ватмани)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ватмани)",
       "answer": "Ватман",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_dd2ea42d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ватман)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ватман)",
       "answer": "ватмани",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_dd71252e",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: газопроводи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: газопроводи)",
       "answer": "Газопровод",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_e5c9775d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Газопровод)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Газопровод)",
       "answer": "газопроводи",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c9e01ccb",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: гангстери)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: гангстери)",
       "answer": "Гангстер",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_eea9a9ca",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Гангстер)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Гангстер)",
       "answer": "гангстери",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_80385fc5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: гевреци)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: гевреци)",
       "answer": "Геврек",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_48f82bc9",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Геврек)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Геврек)",
       "answer": "гевреци",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_0bc13923",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: декани)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: декани)",
       "answer": "Декан",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ed7008d0",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Декан)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Декан)",
       "answer": "декани",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_6e09552e",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: депозити)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: депозити)",
       "answer": "Депозит",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ac844ffe",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Депозит)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Депозит)",
       "answer": "депозити",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_3a81b0a4",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: елеватори)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: елеватори)",
       "answer": "Елеватор",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_d7b75abc",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Елеватор)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Елеватор)",
       "answer": "елеватори",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_30f5f87f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: жетони)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: жетони)",
       "answer": "Жетон",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c7d9afda",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Жетон)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Жетон)",
       "answer": "жетони",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_195f129a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: жирафи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: жирафи)",
       "answer": "Жираф",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_5c2644e5",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Жираф)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Жираф)",
       "answer": "жирафи",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_55532e0f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: журнали)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: журнали)",
       "answer": "Журнал",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_4fe19329",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Журнал)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Журнал)",
       "answer": "журнали",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c8321b0a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: звънци)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: звънци)",
       "answer": "Звънец",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a63d41f1",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Звънец)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Звънец)",
       "answer": "звънци",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_4e052724",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: йероглифи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: йероглифи)",
       "answer": "Йероглиф",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_57f65184",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Йероглиф)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Йероглиф)",
       "answer": "йероглифи",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_3e238e66",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: йони)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: йони)",
       "answer": "Йон",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_dd216033",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Йон)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Йон)",
       "answer": "йони",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_0ab4a858",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: кабели)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: кабели)",
       "answer": "Кабел",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_f31047d3",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Кабел)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Кабел)",
       "answer": "кабели",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_91b6b2f6",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: кавали)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: кавали)",
       "answer": "Кавал",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_cb0bc65b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Кавал)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Кавал)",
       "answer": "кавали",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a4d02610",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: компютри)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: компютри)",
       "answer": "Компютър",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_2bc606c6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Компютър)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Компютър)",
       "answer": "компютри",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_19a0ef7a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: лабиринти)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: лабиринти)",
       "answer": "Лабиринт",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_daff4c89",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Лабиринт)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Лабиринт)",
       "answer": "лабиринти",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_b38a606f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: лаптопи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: лаптопи)",
       "answer": "Лаптоп",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_5c4fbe76",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Лаптоп)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Лаптоп)",
       "answer": "лаптопи",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_bf4e6bb5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ластици)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ластици)",
       "answer": "Ластик",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_1e037587",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ластик)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ластик)",
       "answer": "ластици",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ef96316f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: левенти)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: левенти)",
       "answer": "Левент",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_7352beda",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Левент)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Левент)",
       "answer": "левенти",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a6a9e232",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: лидери)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: лидери)",
       "answer": "Лидер",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_7ad3da29",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Лидер)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Лидер)",
       "answer": "лидери",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_f4731ccb",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: лимони)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: лимони)",
       "answer": "Лимон",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_92939365",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Лимон)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Лимон)",
       "answer": "лимони",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_352d452f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: масажи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: масажи)",
       "answer": "Масаж",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_fa8ea386",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Масаж)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Масаж)",
       "answer": "масажи",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_5d5addcb",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: нотариуси)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: нотариуси)",
       "answer": "Нотариус",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_6d062c14",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Нотариус)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Нотариус)",
       "answer": "нотариуси",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c46705c8",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: одеколони)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: одеколони)",
       "answer": "Одеколон",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_5e4ec7f6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Одеколон)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Одеколон)",
       "answer": "одеколони",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_1fd158cf",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: океани)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: океани)",
       "answer": "Океан",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_bdb29b88",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Океан)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Океан)",
       "answer": "океани",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_9f6ac103",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: октоподи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: октоподи)",
       "answer": "Октопод",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_023a85b8",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Октопод)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Октопод)",
       "answer": "октоподи",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_31463b53",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: павиани)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: павиани)",
       "answer": "Павиан",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_b506a2d6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Павиан)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Павиан)",
       "answer": "павиани",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ee95c48b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: панорами)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: панорами)",
       "answer": "Панорама",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_979ad481",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Панорама)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Панорама)",
       "answer": "панорами",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_32ee1dbb",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: пансиони)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: пансиони)",
       "answer": "Пансион",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_06cfdf4b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Пансион)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Пансион)",
       "answer": "пансиони",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_14234526",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: партери)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: партери)",
       "answer": "Партер",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_01db643f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Партер)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Партер)",
       "answer": "партери",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_597d1d38",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: парфюми)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: парфюми)",
       "answer": "Парфюм",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_0dc4b573",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Парфюм)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Парфюм)",
       "answer": "парфюми",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_4befcb36",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: рафтове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: рафтове)",
       "answer": "Рафт",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_541f9e53",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Рафт)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Рафт)",
       "answer": "рафтове",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a43e6144",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: режисьори)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: режисьори)",
       "answer": "Режисьор",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_6575a489",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Режисьор)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Режисьор)",
       "answer": "режисьори",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_b31e945b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ректори)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ректори)",
       "answer": "Ректор",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_24d4ca87",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ректор)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ректор)",
       "answer": "ректори",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c0712b56",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: рингове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: рингове)",
       "answer": "Ринг",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_6be83761",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ринг)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ринг)",
       "answer": "рингове",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c5875d0f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: салони)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: салони)",
       "answer": "Салон",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_7a7437c2",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Салон)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Салон)",
       "answer": "салони",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a6f40c08",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: сандвичи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: сандвичи)",
       "answer": "Сандвич",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_24589b70",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Сандвич)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Сандвич)",
       "answer": "сандвичи",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_45ae0e0d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: сезони)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: сезони)",
       "answer": "Сезон",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_656d49f7",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Сезон)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Сезон)",
       "answer": "сезони",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_b7939690",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: серуми)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: серуми)",
       "answer": "Серум",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_d1507ab6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Серум)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Серум)",
       "answer": "серуми",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_52e6ef8f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: университети)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: университети)",
       "answer": "Университет",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_57acd963",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Университет)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Университет)",
       "answer": "университети",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_e99ed434",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: факултети)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: факултети)",
       "answer": "Факултет",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a3e01eea",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Факултет)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Факултет)",
       "answer": "факултети",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_e9356f01",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: хамбари)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: хамбари)",
       "answer": "Хамбар",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_35c68b0e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Хамбар)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Хамбар)",
       "answer": "хамбари",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_41cf21bf",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: хастари)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: хастари)",
       "answer": "Хастар",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_3c818525",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Хастар)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Хастар)",
       "answer": "хастари",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_cdccee05",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: хотели)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: хотели)",
       "answer": "Хотел",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c7f36976",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Хотел)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Хотел)",
       "answer": "хотели",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_12f9222f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: центрове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: центрове)",
       "answer": "Център",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ebdb47a7",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Център)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Център)",
       "answer": "центрове",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_234581d2",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: циклони)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: циклони)",
       "answer": "Циклон",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a0a3c787",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Циклон)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Циклон)",
       "answer": "циклони",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_8603ea31",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: циркове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: циркове)",
       "answer": "Цирк",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_0f0b18ef",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Цирк)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Цирк)",
       "answer": "циркове",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_3e48d601",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: чайове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: чайове)",
       "answer": "Чай",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_e2f0f1d9",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Чай)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Чай)",
       "answer": "чайове",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ba7ea80b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: чифлици)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: чифлици)",
       "answer": "Чифлик",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_b1e7cf2f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Чифлик)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Чифлик)",
       "answer": "чифлици",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_bfcc2e61",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: шефове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: шефове)",
       "answer": "Шеф",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_04a718ee",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Шеф)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Шеф)",
       "answer": "шефове",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_cae499bd",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: шоколади)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: шоколади)",
       "answer": "Шоколад",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_615f7f7d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Шоколад)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Шоколад)",
       "answer": "шоколади",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_6d8bcccc",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: шутове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: шутове)",
       "answer": "Шут",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_8ce128e9",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Шут)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Шут)",
       "answer": "шутове",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_e03320bc",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Множествено число / Çoğul)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Множествено число / Çoğul)",
       "answer": "Дума / Kelime",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_449672ba",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Дума / Kelime)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Дума / Kelime)",
       "answer": "Множествено число / Çoğul",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -7047,723 +7047,723 @@
     {
       "id": "q_auto_76d4810c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: аварии)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: аварии)",
       "answer": "Авария",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_10049688",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Авария)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Авария)",
       "answer": "аварии",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_9095dd12",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: банки)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: банки)",
       "answer": "Банка",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_e5315363",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Банка)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Банка)",
       "answer": "банки",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_0091d8cb",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: бири)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: бири)",
       "answer": "Бира",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_5746e176",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Бира)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Бира)",
       "answer": "бири",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_78c3aee3",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: вази)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: вази)",
       "answer": "Ваза",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_5b7cbcb3",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ваза)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ваза)",
       "answer": "вази",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_2ba1d649",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: веранди)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: веранди)",
       "answer": "Веранда",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_caa8d917",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Веранда)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Веранда)",
       "answer": "веранди",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_f15cf04b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: гарги)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: гарги)",
       "answer": "Гарга",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_2fa370ad",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Гарга)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Гарга)",
       "answer": "гарги",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_e7750500",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: делегации)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: делегации)",
       "answer": "Делегация",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_2cbcef89",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Делегация)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Делегация)",
       "answer": "делегации",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_6e031bd6",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: енергии)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: енергии)",
       "answer": "Енергия",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_01541814",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Енергия)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Енергия)",
       "answer": "енергии",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a07eabba",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: завеси)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: завеси)",
       "answer": "Завеса",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_6e1189da",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Завеса)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Завеса)",
       "answer": "завеси",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_dfa97ce5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: зали)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: зали)",
       "answer": "Зала",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_11159548",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Зала)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Зала)",
       "answer": "зали",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_25977c6f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: зебри)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: зебри)",
       "answer": "Зебра",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_aa1c6582",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Зебра)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Зебра)",
       "answer": "зебри",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a8a85988",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: изложби)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: изложби)",
       "answer": "Изложба",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_8a80bccd",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Изложба)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Изложба)",
       "answer": "изложби",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_5005d279",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: икономики)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: икономики)",
       "answer": "Икономика",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a3e36849",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Икономика)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Икономика)",
       "answer": "икономики",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_298276ca",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: кабини)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: кабини)",
       "answer": "Кабина",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_f964090a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Кабина)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Кабина)",
       "answer": "кабини",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_e0404036",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: кайсии)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: кайсии)",
       "answer": "Кайсия",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_b2bec340",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Кайсия)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Кайсия)",
       "answer": "кайсии",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c4088772",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: маси)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: маси)",
       "answer": "Маса",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_9d32f9b3",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Маса)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Маса)",
       "answer": "маси",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_de6a67eb",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: метафори)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: метафори)",
       "answer": "Метафора",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_dc9fa249",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Метафора)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Метафора)",
       "answer": "метафори",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_386d1e14",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: новели)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: новели)",
       "answer": "Новела",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_d5018181",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Новела)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Новела)",
       "answer": "новели",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ba21c002",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: норми)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: норми)",
       "answer": "Норма",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_6a012cf3",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Норма)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Норма)",
       "answer": "норми",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c46b67d5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ноти)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ноти)",
       "answer": "Нота",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_35b971da",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Нота)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Нота)",
       "answer": "ноти",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_d27d44c6",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: опери)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: опери)",
       "answer": "Опера",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_62edec5f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Опера)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Опера)",
       "answer": "опери",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_2b8a1bdf",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: оперети)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: оперети)",
       "answer": "Оперета",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_cb275d11",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Оперета)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Оперета)",
       "answer": "оперети",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_f200765e",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ракии)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ракии)",
       "answer": "Ракия",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_aaa046ff",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ракия)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ракия)",
       "answer": "ракии",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_f20fe09a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: скариди)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: скариди)",
       "answer": "Скарида",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_49ef26a3",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Скарида)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Скарида)",
       "answer": "скариди",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_622bf614",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: сергии)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: сергии)",
       "answer": "Сергия",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_0782fda3",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Сергия)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Сергия)",
       "answer": "сергии",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c5c902a6",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: табели)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: табели)",
       "answer": "Табела",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_b007f4fe",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Табела)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Табела)",
       "answer": "табели",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a5b0ea1c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: тапи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: тапи)",
       "answer": "Тапа",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_0e912c86",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Тапа)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Тапа)",
       "answer": "тапи",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_75a53e09",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: телевизии)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: телевизии)",
       "answer": "Телевизия",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_6f04f2ec",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Телевизия)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Телевизия)",
       "answer": "телевизии",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_421185be",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: увертюри)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: увертюри)",
       "answer": "Увертюра",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_bb302b67",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Увертюра)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Увертюра)",
       "answer": "увертюри",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_07d7b7e7",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: фабрики)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: фабрики)",
       "answer": "Фабрика",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_073dc423",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Фабрика)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Фабрика)",
       "answer": "фабрики",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_cd6b1de8",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: фамилии)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: фамилии)",
       "answer": "Фамилия",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_7cc21d15",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Фамилия)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Фамилия)",
       "answer": "фамилии",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_eed028e9",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ферми)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ферми)",
       "answer": "Ферма",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_7d3a2083",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ферма)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ферма)",
       "answer": "ферми",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a2d19b09",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: фурми)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: фурми)",
       "answer": "Фурма",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_0d670ba5",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Фурма)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Фурма)",
       "answer": "фурми",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ee61708f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: церемонии)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: церемонии)",
       "answer": "Церемония",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_bf9e89da",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Церемония)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Церемония)",
       "answer": "церемонии",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_80fd0606",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ютии)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ютии)",
       "answer": "Ютия",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_34305733",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ютия)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ютия)",
       "answer": "ютии",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_fa044425",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: бебета)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: бебета)",
       "answer": "Бебе",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c2ed8b97",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Бебе)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Бебе)",
       "answer": "бебета",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_1a8b61c9",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: имена)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: имена)",
       "answer": "Име",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_861c66b3",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Име)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Име)",
       "answer": "имена",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_66f4e268",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: общежития)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: общежития)",
       "answer": "Общежитие",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_5154d447",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Общежитие)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Общежитие)",
       "answer": "общежития",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_3f117301",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Одрин)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Одрин)",
       "answer": "Одрин",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c91c8171",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Одрин)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Одрин)",
       "answer": "Одрин",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_f48039f9",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: пердета)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: пердета)",
       "answer": "Перде",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_117e2775",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Перде)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Перде)",
       "answer": "пердета",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ef5ef2ec",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: радиа)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: радиа)",
       "answer": "Радио",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_5c1de79e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Радио)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Радио)",
       "answer": "радиа",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_92bca2ce",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: табла)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: табла)",
       "answer": "Табло",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c98c747b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Табло)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Табло)",
       "answer": "табла",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_b6472ad4",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: уискита)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: уискита)",
       "answer": "Уиски",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_4793cc49",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Уиски)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Уиски)",
       "answer": "уискита",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c299dfa5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: цветя)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: цветя)",
       "answer": "Цвете",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
     },
     {
       "id": "q_auto_26340d5c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Цвете)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Цвете)",
       "answer": "цветя",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
     },
     {
       "id": "q_auto_07b966fb",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: шишета)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: шишета)",
       "answer": "Шише",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_2d57c644",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Шише)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Шише)",
       "answer": "шишета",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -7793,209 +7793,209 @@
     {
       "id": "q_auto_0fe54a7e",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: холове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: холове)",
       "answer": "хол",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c39f3261",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: хол)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: хол)",
       "answer": "холове",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_2f9ba304",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: коридори)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: коридори)",
       "answer": "коридор",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_9ca8bab8",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: коридор)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: коридор)",
       "answer": "коридори",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_dd661fd6",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: бани)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: бани)",
       "answer": "баня",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_06b68034",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: баня)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: баня)",
       "answer": "бани",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_29ad4d3c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: антрета)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: антрета)",
       "answer": "антре",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_b259bdb4",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: антре)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: антре)",
       "answer": "антрета",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_5d34dacc",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: сгради)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: сгради)",
       "answer": "сграда",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c36551f6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: сграда)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: сграда)",
       "answer": "сгради",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_7e5664be",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: общежития)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: общежития)",
       "answer": "общежитие",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_267bf087",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: общежитие)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: общежитие)",
       "answer": "общежития",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ec2f87ee",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: балкони)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: балкони)",
       "answer": "балкон",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_64d207d1",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: балкон)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: балкон)",
       "answer": "балкони",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_94270234",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: тераси)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: тераси)",
       "answer": "тераса",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_dc1d45ed",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: тераса)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: тераса)",
       "answer": "тераси",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_6b62736c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: врати)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: врати)",
       "answer": "врата",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_fb6533eb",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: врата)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: врата)",
       "answer": "врати",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_1af8e261",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: тоалетни)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: тоалетни)",
       "answer": "тоалетна",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ca72bae7",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: тоалетна)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: тоалетна)",
       "answer": "тоалетни",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_976f6019",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: трапезарии)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: трапезарии)",
       "answer": "трапезария",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_84521667",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: трапезария)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: трапезария)",
       "answer": "трапезарии",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_085863c3",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: апартаменти)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: апартаменти)",
       "answer": "апартамент",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_3133fa04",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: апартамент)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: апартамент)",
       "answer": "апартаменти",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_864ec24d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: къщи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: къщи)",
       "answer": "къща",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_d2491f22",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: къща)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: къща)",
       "answer": "къщи",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -8025,225 +8025,225 @@
     {
       "id": "q_auto_305076ae",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: перде)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: перде)",
       "answer": "пердета",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_da289869",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: пердета)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: пердета)",
       "answer": "перде",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_975d2896",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: море)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: море)",
       "answer": "морета",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c2f33e57",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: морета)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: морета)",
       "answer": "море",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_fdcae416",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ръка)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ръка)",
       "answer": "ръце",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a8cbae64",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: ръце)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ръце)",
       "answer": "ръка",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ae9503c3",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: око)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: око)",
       "answer": "очи",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_fe7b2f4a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: очи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: очи)",
       "answer": "око",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a57ee3ff",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: лице)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: лице)",
       "answer": "лица",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_bf94ec26",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: лица)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: лица)",
       "answer": "лице",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_bc94d657",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: крак)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: крак)",
       "answer": "крака",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_d4ad3ed6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: крака)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: крака)",
       "answer": "крак",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_6877e089",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: чорап)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: чорап)",
       "answer": "чорапи",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_637319ae",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: чорапи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: чорапи)",
       "answer": "чорап",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_0cce2b8f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: облак)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: облак)",
       "answer": "облаци",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_5a5c8132",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: облаци)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: облаци)",
       "answer": "облак",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_3131a7da",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: дреха)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: дреха)",
       "answer": "дрехи",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c3c79236",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: дрехи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: дрехи)",
       "answer": "дреха",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_434bf38d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: обувка)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: обувка)",
       "answer": "обувки",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_02fe3817",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: обувки)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: обувки)",
       "answer": "обувка",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_16d88eda",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: панталон)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: панталон)",
       "answer": "панталони",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_e58b6d1b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: панталони)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: панталони)",
       "answer": "панталон",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_7b82bcfa",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: рокля)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: рокля)",
       "answer": "рокли",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_773c5c97",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: рокли)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: рокли)",
       "answer": "рокля",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_e2f2b8cd",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: риза)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: риза)",
       "answer": "ризи",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c385392c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: ризи)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ризи)",
       "answer": "риза",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_64c35112",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: сако)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: сако)",
       "answer": "сака",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_6db7537c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: сака)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: сака)",
       "answer": "сако",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -8265,433 +8265,433 @@
     {
       "id": "q_auto_7c53df27",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: мн.ч.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: мн.ч.)",
       "answer": "дивани",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_91db345c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: дивани)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: дивани)",
       "answer": "мн.ч.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_62165226",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ед.ч.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ед.ч.)",
       "answer": "чай",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_773d65cb",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: чай)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: чай)",
       "answer": "ед.ч.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ba65dd52",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: мн.ч.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: мн.ч.)",
       "answer": "мостове",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_3e3e7be4",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: мостове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: мостове)",
       "answer": "мн.ч.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_d0ec3a9a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: мн.ч.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: мн.ч.)",
       "answer": "холове",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_7ebb9338",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: холове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: холове)",
       "answer": "мн.ч.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_449f6130",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: мн.ч.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: мн.ч.)",
       "answer": "кафета",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_89e51b65",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: кафета)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: кафета)",
       "answer": "мн.ч.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_40dc9f4d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ед.ч.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ед.ч.)",
       "answer": "химикалка",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_dd3246c0",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: химикалка)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: химикалка)",
       "answer": "ед.ч.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_75be7230",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ед.ч.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ед.ч.)",
       "answer": "стая",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_69041f71",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: стая)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: стая)",
       "answer": "ед.ч.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_63854084",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: мн.ч.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: мн.ч.)",
       "answer": "бюреци",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_3fc3348c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: бюреци)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: бюреци)",
       "answer": "мн.ч.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ed47f4aa",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: мн.ч.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: мн.ч.)",
       "answer": "легла",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_41be0f06",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: легла)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: легла)",
       "answer": "мн.ч.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_83e99875",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ед.ч.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ед.ч.)",
       "answer": "дъска",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c5023bb5",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: дъска)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: дъска)",
       "answer": "ед.ч.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ba63b55d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ед.ч.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ед.ч.)",
       "answer": "баница",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_83a7312c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: баница)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: баница)",
       "answer": "ед.ч.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_bdefadcc",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: мн.ч.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: мн.ч.)",
       "answer": "пердета",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_28bb614e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: пердета)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: пердета)",
       "answer": "мн.ч.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_8ead80a2",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: мн.ч.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: мн.ч.)",
       "answer": "чаши",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_fb56191a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: чаши)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: чаши)",
       "answer": "мн.ч.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_bb092bc6",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ед.ч.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ед.ч.)",
       "answer": "ключ",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_3cd60bf3",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: ключ)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ключ)",
       "answer": "ед.ч.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_63eff4dd",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: трапезария)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: трапезария)",
       "answer": "трапезарии",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_be4ec71e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: трапезарии)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: трапезарии)",
       "answer": "трапезария",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a8667f44",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: тоалетна)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: тоалетна)",
       "answer": "тоалетни",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a9882ed4",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: тоалетни)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: тоалетни)",
       "answer": "тоалетна",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_0b141ae2",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: мост)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: мост)",
       "answer": "мостове",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_3cd567af",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: мостове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: мостове)",
       "answer": "мост",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_38b80efc",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: планина)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: планина)",
       "answer": "планини",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_3a02b02d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: планини)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: планини)",
       "answer": "планина",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_e1e75fa0",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: лекция)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: лекция)",
       "answer": "лекции",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c5d1ef50",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: лекции)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: лекции)",
       "answer": "лекция",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_e0727766",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: урок)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: урок)",
       "answer": "уроци",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_30ae4bc9",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: уроци)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: уроци)",
       "answer": "урок",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c43fec71",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: час)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: час)",
       "answer": "часове",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ae6e1cf5",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: часове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: часове)",
       "answer": "час",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_83d2d76f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: хляб)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: хляб)",
       "answer": "хлябове",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_dca8ae3a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: хлябове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: хлябове)",
       "answer": "хляб",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c48afa63",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: геврек)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: геврек)",
       "answer": "гевреци",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ffa17b45",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: гевреци)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: гевреци)",
       "answer": "геврек",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_03d01c27",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: баница)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: баница)",
       "answer": "баници",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a583a3fa",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: баници)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: баници)",
       "answer": "баница",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_521bc0dc",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: бюрек)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: бюрек)",
       "answer": "бюреци",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_57403722",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: бюреци)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: бюреци)",
       "answer": "бюрек",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_25051dd7",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ухо)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ухо)",
       "answer": "уши",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_d370d88d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: уши)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: уши)",
       "answer": "ухо",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_bfb57108",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: нос)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: нос)",
       "answer": "носове",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_11b7fa2f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: носове)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: носове)",
       "answer": "нос",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -8721,81 +8721,81 @@
     {
       "id": "q_auto_c2a4c9c8",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ср.р.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ср.р.)",
       "answer": "стъкла",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_14d29bea",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: стъкла)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: стъкла)",
       "answer": "ср.р.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_19f50290",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ср.р.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ср.р.)",
       "answer": "деца",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ddd6531d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: деца)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: деца)",
       "answer": "ср.р.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_5b0e2a1d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ж.р.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ж.р.)",
       "answer": "пейки",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ff407ebb",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: пейки)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: пейки)",
       "answer": "ж.р.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_86d9c60d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: м.р.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: м.р.)",
       "answer": "трактор",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_e578cc29",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: трактор)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: трактор)",
       "answer": "м.р.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_9b79440f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: ср.р.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: ср.р.)",
       "answer": "тържество",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ea69d28a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: тържество)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: тържество)",
       "answer": "ср.р.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -8817,17 +8817,17 @@
     {
       "id": "q_auto_aaf37f9e",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: в) мислим)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: в)",
       "answer": "Глаголната форма за 1 лице множествено число на глагола мисля е...",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ff50016d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Глаголната форма за 1 лице множествено число на глагола мисля е...)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Глаголната форма за 1 лице множествено число на глагола мисля е...)",
       "answer": "в) мислим",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -8841,17 +8841,17 @@
     {
       "id": "q_auto_a01afac2",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Doğru biçim: тичаме)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Doğru biçim: тичаме)",
       "answer": "Глаголната форма за 1 лице множествено число на глагола тичам е...",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_9ef28931",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Глаголната форма за 1 лице множествено число на глагола тичам е...)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Глаголната форма за 1 лице множествено число на глагола тичам е...)",
       "answer": "Doğru biçim: тичаме",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -8865,18 +8865,18 @@
     {
       "id": "q_auto_c0d9dbc6",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: А) седем студенти)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: А)",
       "answer": "В групата има ...",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)\n\n📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
     {
       "id": "q_auto_dec7a9d9",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: В групата има ...)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: В групата има ...)",
       "answer": "А) седем студенти",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)\n\n📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
@@ -8892,18 +8892,18 @@
     {
       "id": "q_auto_aacd991c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Б) три деца)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Б)",
       "answer": "В двора има ...",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
     {
       "id": "q_auto_e85f797b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: В двора има ...)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: В двора има ...)",
       "answer": "Б) три деца",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
@@ -8943,17 +8943,17 @@
     {
       "id": "q_auto_a5e5b915",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Аз гледам през прозореца.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Аз гледам през прозореца.)",
       "answer": "Аз глед... през прозореца.",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c3f627d5",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз глед... през прозореца.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Аз глед... през прозореца.)",
       "answer": "Аз гледам през прозореца.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -8967,17 +8967,17 @@
     {
       "id": "q_auto_130d21a0",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Моят познат идва насам.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Моят познат идва насам.)",
       "answer": "Моят познат ид... насам.",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ad023ce0",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Моят познат ид... насам.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Моят познат ид... насам.)",
       "answer": "Моят познат идва насам.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -8991,18 +8991,18 @@
     {
       "id": "q_auto_70d1dd6d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ела да го видиш.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ела да го видиш.)",
       "answer": "Ела да го вид...",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Zamirlerin Kullanımı\n- го = onu (eril kısa nesne zamiridir). \n- до него = onun yanında (Bir edattan -до- sonra kullanıldığı için uzun form \"него\" kullanılmıştır).\nKısa formlar fiilden önce, uzun formlar edatlardan sonra gelir."
     },
     {
       "id": "q_auto_d6fc2283",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ела да го вид...)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ела да го вид...)",
       "answer": "Ела да го видиш.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Zamirlerin Kullanımı\n- го = onu (eril kısa nesne zamiridir). \n- до него = onun yanında (Bir edattan -до- sonra kullanıldığı için uzun form \"него\" kullanılmıştır).\nKısa formlar fiilden önce, uzun formlar edatlardan sonra gelir."
     },
@@ -9018,18 +9018,18 @@
     {
       "id": "q_auto_f6e5dbad",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Той носи ягоди.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Той носи ягоди.)",
       "answer": "Той нос..... ягоди.",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
     },
     {
       "id": "q_auto_eee9f3c5",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Той нос..... ягоди.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Той нос..... ягоди.)",
       "answer": "Той носи ягоди.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
     },
@@ -9045,18 +9045,18 @@
     {
       "id": "q_auto_7e8cf8f9",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Искаш ли да ядеш ягоди?)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Искаш ли да ядеш ягоди?)",
       "answer": "Иск... ли да яд... ягоди?",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: \"Ли\" Soru Eki\nBulgarcada \"ли\" parçacığı Türkçedeki \"mı/mi\" gibi evet/hayır sorusu yapar ve genellikle vurgulanan kelimeden/yüklemden hemen sonra gelir.\nÖrnek: Учиш ли? = Okuyor musun? / Студент ли си? = Öğrenci misin?"
     },
     {
       "id": "q_auto_727cf3d1",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Иск... ли да яд... ягоди?)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Иск... ли да яд... ягоди?)",
       "answer": "Искаш ли да ядеш ягоди?",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: \"Ли\" Soru Eki\nBulgarcada \"ли\" parçacığı Türkçedeki \"mı/mi\" gibi evet/hayır sorusu yapar ve genellikle vurgulanan kelimeden/yüklemden hemen sonra gelir.\nÖrnek: Учиш ли? = Okuyor musun? / Студент ли си? = Öğrenci misin?"
     },
@@ -9072,18 +9072,18 @@
     {
       "id": "q_auto_57ecb3f5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Искам и аз да си купя ягоди.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Искам и аз да си купя ягоди.)",
       "answer": "Иск... и аз да си куп... ягоди.",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: \"Съм\" (Olmak) Fiili\nA1 düzeyinde en önemli fiil “съм” (olmak) fiilidir. Durum, meslek ve milliyet bildirirken kullanılır.\nаз съм (ben ...'im)        ние сме (biz ...'iz)\nти си (sen ...'sin)        вие сте (siz ...'siniz)\nтой/тя/то е (o ...'dir)    те са (onlar ...'dir)"
     },
     {
       "id": "q_auto_6400721d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Иск... и аз да си куп... ягоди.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Иск... и аз да си куп... ягоди.)",
       "answer": "Искам и аз да си купя ягоди.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: \"Съм\" (Olmak) Fiili\nA1 düzeyinde en önemli fiil “съм” (olmak) fiilidir. Durum, meslek ve milliyet bildirirken kullanılır.\nаз съм (ben ...'im)        ние сме (biz ...'iz)\nти си (sen ...'sin)        вие сте (siz ...'siniz)\nтой/тя/то е (o ...'dir)    те са (onlar ...'dir)"
     },
@@ -9099,17 +9099,17 @@
     {
       "id": "q_auto_416b5dc0",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Не ми се излиза навън.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Не ми се излиза навън.)",
       "answer": "Не ми се излиз..... навън.",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_0e5c1aa9",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Не ми се излиз..... навън.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Не ми се излиз..... навън.)",
       "answer": "Не ми се излиза навън.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -9123,18 +9123,18 @@
     {
       "id": "q_auto_17101404",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Аз скоро ще се върна.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Аз скоро ще се върна.)",
       "answer": "Аз скоро ще се върн...",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Gelecek Zaman (Ще)\nFiilden önce gelen \"ще\" parçacığı cümleyi gelecek zamana (yapacağım, edeceğim) çevirir. (Örn: Ще се запознаем = Tanışacağız)."
     },
     {
       "id": "q_auto_6fccc98d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз скоро ще се върн...)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Аз скоро ще се върн...)",
       "answer": "Аз скоро ще се върна.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Gelecek Zaman (Ще)\nFiilden önce gelen \"ще\" parçacığı cümleyi gelecek zamana (yapacağım, edeceğim) çevirir. (Örn: Ще се запознаем = Tanışacağız)."
     },
@@ -9150,18 +9150,18 @@
     {
       "id": "q_auto_17200735",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Често ходя на театър.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Често ходя на театър.)",
       "answer": "Често ход... на театър.",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
     },
     {
       "id": "q_auto_007fb132",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Често ход... на театър.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Често ход... на театър.)",
       "answer": "Често ходя на театър.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
     },
@@ -9177,17 +9177,17 @@
     {
       "id": "q_auto_d4750fab",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Гледам хубави филми.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Гледам хубави филми.)",
       "answer": "Глед... хубави филми.",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_4496c70a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Глед... хубави филми.)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Глед... хубави филми.)",
       "answer": "Гледам хубави филми.",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -9201,18 +9201,18 @@
     {
       "id": "q_auto_ff190e41",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Имаш ли куфар?)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Имаш ли куфар?)",
       "answer": "Им..... ли куфар?",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: \"Ли\" Soru Eki\nBulgarcada \"ли\" parçacığı Türkçedeki \"mı/mi\" gibi evet/hayır sorusu yapar ve genellikle vurgulanan kelimeden/yüklemden hemen sonra gelir.\nÖrnek: Учиш ли? = Okuyor musun? / Студент ли си? = Öğrenci misin?\n\n📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
     {
       "id": "q_auto_cef73906",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Им..... ли куфар?)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Им..... ли куфар?)",
       "answer": "Имаш ли куфар?",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4",
       "explanation": "📘 Kural: \"Ли\" Soru Eki\nBulgarcada \"ли\" parçacığı Türkçedeki \"mı/mi\" gibi evet/hayır sorusu yapar ve genellikle vurgulanan kelimeden/yüklemden hemen sonra gelir.\nÖrnek: Учиш ли? = Okuyor musun? / Студент ли си? = Öğrenci misin?\n\n📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
@@ -9900,33 +9900,33 @@
     {
       "id": "q_auto_b20921d7",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: лук taze soğan)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: лук taze soğan)",
       "answer": "Пресен",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_2f074f43",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Пресен)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Пресен)",
       "answer": "лук taze soğan",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c654a1b1",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: лук kuru soğan)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: лук kuru soğan)",
       "answer": "Стар",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_de51ff75",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Стар)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Стар)",
       "answer": "лук kuru soğan",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -10092,33 +10092,33 @@
     {
       "id": "q_auto_5bf8c1a0",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: чушка çorbacı biberi)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: чушка çorbacı biberi)",
       "answer": "Чорбаджийска",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ab5203c7",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Чорбаджийска)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Чорбаджийска)",
       "answer": "чушка çorbacı biberi",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_3dfacfbb",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: за пълнене dolmalık biber)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: за пълнене dolmalık biber)",
       "answer": "Чушка",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ae5d64dd",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Чушка)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Чушка)",
       "answer": "за пълнене dolmalık biber",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -10140,17 +10140,17 @@
     {
       "id": "q_auto_7f25b522",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: треви за подправки aromatik baharat otları)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: треви за подправки aromatik baharat otları)",
       "answer": "Ароматни",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_9c62d83a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ароматни)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Ароматни)",
       "answer": "треви за подправки aromatik baharat otları",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -10252,17 +10252,17 @@
     {
       "id": "q_auto_755dcd8b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: лист asma yaprağı)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: лист asma yaprağı)",
       "answer": "Лозов",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_b9eb7a66",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Лозов)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Лозов)",
       "answer": "лист asma yaprağı",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -10804,17 +10804,17 @@
     {
       "id": "q_auto_6a0f887b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: хляб diyet ekmeği)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: хляб diyet ekmeği)",
       "answer": "Диетичен",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_21638ac4",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Диетичен)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Диетичен)",
       "answer": "хляб diyet ekmeği",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -10836,17 +10836,17 @@
     {
       "id": "q_auto_cd67d975",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: брашно mısır unu)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: брашно mısır unu)",
       "answer": "Царевично",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_c4d8a5dd",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Царевично)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Царевично)",
       "answer": "брашно mısır unu",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -11188,49 +11188,49 @@
     {
       "id": "q_auto_b0b1411a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: месо kıyma)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: месо kıyma)",
       "answer": "мляно",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_f0b13e1c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: мляно)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: мляно)",
       "answer": "месо kıyma",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_d63dada9",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: от гъше месо kaz ciğeri/et pate)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: от гъше месо kaz ciğeri/et pate)",
       "answer": "Пастет",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_94c52297",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Пастет)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Пастет)",
       "answer": "от гъше месо kaz ciğeri/et pate",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_4613953b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: пастет kaz pate)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: пастет kaz pate)",
       "answer": "гъши",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_355cafbb",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: гъши)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: гъши)",
       "answer": "пастет kaz pate",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -11252,81 +11252,81 @@
     {
       "id": "q_auto_114ad548",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: мляко taze süt)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: мляко taze süt)",
       "answer": "Прясно",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_42f78eb4",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Прясно)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Прясно)",
       "answer": "мляко taze süt",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_d1fc2df7",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: мляко inek sütü)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: мляко inek sütü)",
       "answer": "Краве",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_5bc7efd7",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Краве)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Краве)",
       "answer": "мляко inek sütü",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_a8e1400e",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: мляко koyun sütü)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: мляко koyun sütü)",
       "answer": "Овче",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_614227f7",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Овче)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Овче)",
       "answer": "мляко koyun sütü",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_b7726bdc",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: мляко manda sütü)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: мляко manda sütü)",
       "answer": "Биволско",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_ddc21c09",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Биволско)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Биволско)",
       "answer": "мляко manda sütü",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_f814980c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: мляко yoğurt)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: мляко yoğurt)",
       "answer": "Кисело",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_745fdcec",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Кисело)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Кисело)",
       "answer": "мляко yoğurt",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
@@ -11396,33 +11396,33 @@
     {
       "id": "q_auto_f04c66ab",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: сирене inek peyniri)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: сирене inek peyniri)",
       "answer": "Краве",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_6589e6cc",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Краве)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Краве)",
       "answer": "сирене inek peyniri",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_607e63b2",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: сирене koyun peyniri)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: сирене koyun peyniri)",
       "answer": "Овче",
-      "hint": "Bulgarca karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
       "id": "q_auto_3c37e985",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Овче)",
+      "sentence": "İlişkili / Çoğul kelimeyi yazınız (Bulgarca: Овче)",
       "answer": "сирене koyun peyniri",
-      "hint": "Türkçe karşılığını yazınız",
+      "hint": "Bulgarca kelimeyi yazınız",
       "lesson": "Ders 4"
     },
     {
