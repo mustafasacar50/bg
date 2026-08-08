@@ -19,6 +19,7 @@
     "username": "mustafasacar",
     "password": "123",
     "role": "student",
+    "isAdminMode": true,
     "name": "Mustafa SAÇAR",
     "group": "SAÇARLAR",
     "trainingScore": 5.7

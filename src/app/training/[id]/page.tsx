@@ -73,6 +73,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [preferNativeKeyboard, setPreferNativeKeyboard] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
+  
+  // Admin Mode State
+  const [adminMode, setAdminMode] = useState(false);
 
   // 1. Initialize Student & Score
   useEffect(() => {
@@ -428,6 +431,17 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               ✕
             </button>
             
+            {student?.isAdminMode && (
+              <label className="flex items-center gap-1.5 cursor-pointer mr-3 ml-1 bg-slate-100 pr-3 pl-1 py-1 rounded-full border border-slate-200">
+                <div className="relative">
+                  <input type="checkbox" className="sr-only" checked={adminMode} onChange={(e) => { setAdminMode(e.target.checked); setFeedback('none'); setUserAnswer(''); setKeyboardOpen(false); }} />
+                  <div className={`block w-8 h-4 rounded-full transition-colors ${adminMode ? 'bg-indigo-500' : 'bg-slate-300'}`}></div>
+                  <div className={`dot absolute left-1 top-0.5 bg-white w-3 h-3 rounded-full transition-transform ${adminMode ? 'translate-x-4' : ''}`}></div>
+                </div>
+                <span className="text-[11px] font-bold text-slate-500 select-none">Admin Modu</span>
+              </label>
+            )}
+            
             {/* Search Input */}
             <div className="relative flex-1 max-w-[300px]">
               <input 
@@ -592,22 +606,22 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                   ref={inputRef}
                   type="text"
                   inputMode={preferNativeKeyboard ? "text" : "none"}
-                  className={`w-full bg-white border-2 rounded-xl px-4 py-4 text-xl outline-none transition-colors ${feedback === 'wrong' ? 'border-red-400 bg-red-50 text-red-900 font-bold' : feedback === 'typo' ? 'border-amber-400 bg-amber-50 text-amber-900 font-bold' : feedback === 'correct' ? 'border-green-400 bg-green-50 text-green-900 font-bold' : 'border-slate-200 focus:border-indigo-400'}`}
-                  placeholder="Cevabınızı buraya yazın..."
-                  value={feedback === 'wrong' && !userAnswer.trim() ? (activeQuestion?.fitbTarget || activeQuestion?.expected) : userAnswer}
+                  className={`w-full bg-white border-2 rounded-xl px-4 py-4 text-xl outline-none transition-colors ${(feedback === 'wrong' || adminMode) ? 'border-red-400 bg-red-50 text-red-900 font-bold' : feedback === 'typo' ? 'border-amber-400 bg-amber-50 text-amber-900 font-bold' : feedback === 'correct' ? 'border-green-400 bg-green-50 text-green-900 font-bold' : 'border-slate-200 focus:border-indigo-400'}`}
+                  placeholder={adminMode ? "Admin Modu Aktif" : "Cevabınızı buraya yazın..."}
+                  value={(feedback === 'wrong' && !userAnswer.trim()) || adminMode ? (activeQuestion?.fitbTarget || activeQuestion?.expected) : userAnswer}
                   onChange={(e) => setUserAnswer(e.target.value)}
-                  onFocus={() => { if (!preferNativeKeyboard) setKeyboardOpen(true); }}
+                  onFocus={() => { if (!preferNativeKeyboard && !adminMode) setKeyboardOpen(true); }}
                   onKeyDown={(e) => {
                     if (e.key === 'Enter') {
-                      feedback === 'none' ? handleCheck() : handleNext();
+                      (feedback === 'none' && !adminMode) ? handleCheck() : handleNext();
                     }
                   }}
-                  disabled={feedback !== 'none'}
+                  disabled={feedback !== 'none' || adminMode}
                 />
               </div>
 
               {/* Doğru Cevap (Yanlış veya eksik yazıldıysa metin kutusunun altında göster) */}
-              {(feedback === 'wrong' || feedback === 'typo') && userAnswer.trim() !== '' && (
+              {(feedback === 'wrong' || feedback === 'typo') && !adminMode && userAnswer.trim() !== '' && (
                 <div className={`mt-3 flex items-center gap-2 px-2 text-[15px] font-bold ${feedback === 'wrong' ? 'text-red-600' : 'text-amber-600'} animate-in fade-in`}>
                   <span>{feedback === 'wrong' ? 'Doğrusu:' : 'Doğru yazım:'}</span>
                   <span className="bg-white px-3 py-1.5 rounded-lg border shadow-sm text-lg text-slate-800">
@@ -617,7 +631,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               )}
 
               {/* Açıklama / Kural Kutusu */}
-              {feedback !== 'none' && activeQuestion?.explanation && (
+              {(feedback !== 'none' || adminMode) && activeQuestion?.explanation && (
                 <div className="mt-6 bg-indigo-50 border-2 border-indigo-200 rounded-xl p-5 text-left animate-in slide-in-from-bottom-2 shadow-sm">
                   <h4 className="text-indigo-800 font-black text-sm mb-2 flex items-center gap-1.5 uppercase tracking-wide">
                     💡 Bilgi Notu & Kural
@@ -666,21 +680,33 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
             </div>
 
             <div className="flex flex-col sm:flex-row w-full sm:w-auto gap-3">
-              {feedback === 'none' && (
+              {adminMode ? (
                 <button
-                  onClick={handleSkip}
-                  className="w-full sm:w-auto px-6 py-3 rounded-xl font-black text-lg transition-all bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700 shadow-sm border border-slate-200"
+                  onClick={() => setCurrentIndex(p => Math.min(filteredQuestions.length - 1, p + 1))}
+                  disabled={currentIndex >= filteredQuestions.length - 1}
+                  className="w-full sm:w-auto px-8 py-3 rounded-xl font-black text-lg transition-all bg-indigo-600 text-white hover:bg-indigo-700 shadow-md disabled:opacity-30"
                 >
-                  PAS GEÇ
+                  SONRAKİ 
                 </button>
+              ) : (
+                <>
+                  {feedback === 'none' && (
+                    <button
+                      onClick={handleSkip}
+                      className="w-full sm:w-auto px-6 py-3 rounded-xl font-black text-lg transition-all bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700 shadow-sm border border-slate-200"
+                    >
+                      PAS GEÇ
+                    </button>
+                  )}
+                  <button
+                    onClick={feedback === 'none' ? handleCheck : handleNext}
+                    disabled={feedback === 'none' && !userAnswer.trim()}
+                    className={`w-full sm:w-auto px-8 py-3 rounded-xl font-black text-lg transition-all ${feedback === 'none' ? (userAnswer.trim() ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-md' : 'bg-slate-200 text-slate-400 cursor-not-allowed') : feedback === 'correct' ? 'bg-green-600 text-white hover:bg-green-700 shadow-md' : feedback === 'typo' ? 'bg-amber-600 text-white hover:bg-amber-700 shadow-md' : 'bg-red-600 text-white hover:bg-red-700 shadow-md'}`}
+                  >
+                    {feedback === 'none' ? 'KONTROL ET' : 'DEVAM ET'}
+                  </button>
+                </>
               )}
-              <button
-                onClick={feedback === 'none' ? handleCheck : handleNext}
-                disabled={feedback === 'none' && !userAnswer.trim()}
-                className={`w-full sm:w-auto px-8 py-3 rounded-xl font-black text-lg transition-all ${feedback === 'none' ? (userAnswer.trim() ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-md' : 'bg-slate-200 text-slate-400 cursor-not-allowed') : feedback === 'correct' ? 'bg-green-600 text-white hover:bg-green-700 shadow-md' : feedback === 'typo' ? 'bg-amber-600 text-white hover:bg-amber-700 shadow-md' : 'bg-red-600 text-white hover:bg-red-700 shadow-md'}`}
-              >
-                {feedback === 'none' ? 'KONTROL ET' : 'DEVAM ET'}
-              </button>
             </div>
           </div>
 
