@@ -61,7 +61,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [loading, setLoading] = useState(true);
   
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [activeQuestion, setActiveQuestion] = useState<{ id: string, type?: string, display: string, expected: string, fitbTarget: string | null, hint: string, explanation?: string } | null>(null);
+  const [activeQuestion, setActiveQuestion] = useState<{ id: string, type?: string, display: string, displayParts?: { trText: string | null, bgText: string | null }, expected: string, fitbTarget: string | null, hint: string, explanation?: string } | null>(null);
   const [userAnswer, setUserAnswer] = useState('');
   
   // Scramble states
@@ -187,31 +187,46 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     
     // Sadece soru değiştiyse veya swap yapıldıysa state'i sıfırla
     if (activeQuestion && activeQuestion.id === q.id && !isSwapped) {
-       // Soru aynı, sadece listeye eleman eklendi, resetleme yapma
        return;
     }
     
-    let display = q.sentence.replace('_____', '...');
     let expected = q.answer;
     let hint = q.hint;
+    let rawSentence = q.sentence;
     
     if (isSwapped) {
       const match = q.sentence.match(/:\s*(.*?)\)/);
       if (match) {
         if (q.sentence.includes('İlgili formu')) {
-          display = `İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: ${q.answer})`;
+          rawSentence = `(Bulgarca: ${q.answer})`;
           expected = match[1].trim();
           hint = 'Diğer formu yazınız';
         } else {
-          display = `... (${q.sentence.includes('Türkçesi:') ? 'Bulgarcası' : 'Türkçesi'}: ${q.answer})`;
+          rawSentence = `(${q.sentence.includes('Türkçesi:') ? 'Bulgarcası' : 'Türkçesi'}: ${q.answer})`;
           expected = match[1].trim();
           hint = q.sentence.includes('Türkçesi:') ? 'Bulgarca karşılığını yazınız' : 'Türkçe karşılığını yazınız';
         }
+      } else {
+         // Fallback if no match
+         rawSentence = q.answer;
+         expected = q.sentence;
       }
     }
 
+    // Clean up prefixes
+    let cleanSentence = rawSentence;
+    const trMatch = cleanSentence.match(/Çeviriniz\s*\(Türkçesi:\s*(.*?)\)/i);
+    const bgMatch = cleanSentence.match(/Çeviriniz\s*\(Bulgarcası:\s*(.*?)\)/i);
+    if (trMatch) cleanSentence = trMatch[1];
+    else if (bgMatch) cleanSentence = bgMatch[1];
+    else {
+       cleanSentence = cleanSentence.replace(/^\(Türkçesi:\s*/i, '').replace(/^\(Bulgarcası:\s*/i, '').replace(/\)$/, '');
+    }
+    cleanSentence = cleanSentence.replace(/Kelimeleri sıraya dizerek cümleyi kurunuz:\s*/i, '');
+
     let fitbTarget = null;
     const words = expected.split(' ').filter(w => w.trim());
+    let maskedWords: string[] | null = null;
     
     if (words.length > 1 && q.type !== 'scramble') {
        const targetIdx = Math.floor(Math.random() * words.length);
@@ -221,11 +236,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
        const punctuation = punctuationMatch ? punctuationMatch[0] : '';
        fitbTarget = targetWordRaw.replace(/[.,!?]+$/, '');
        
-       const maskedWords = [...words];
+       maskedWords = [...words];
        maskedWords[targetIdx] = `_____${punctuation}`;
-       
-       // Show masked version below the source sentence
-       display = `${display}\n(Boşluk Doldurma: ${maskedWords.join(' ')})`;
     }
     
     if (q.type === 'scramble') {
@@ -234,8 +246,26 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       setSelectedWords([]);
     }
     
-    setActiveQuestion({ id: q.id, type: q.type, display, expected, fitbTarget, hint, explanation: (q as any).explanation });
-    setLayout(hint.toLowerCase().includes('bulgarca') ? 'bg' : 'tr');
+    const isExpectedBg = hint.toLowerCase().includes('bulgarca');
+    setLayout(isExpectedBg ? 'bg' : 'tr');
+    
+    // Build displayParts for rendering colored parts
+    const displayParts = {
+      trText: isExpectedBg ? cleanSentence : (maskedWords ? maskedWords.join(' ') : null),
+      bgText: isExpectedBg ? (maskedWords ? maskedWords.join(' ') : null) : cleanSentence,
+    };
+    
+    setActiveQuestion({ 
+      id: q.id, 
+      type: q.type, 
+      display: cleanSentence, // fallback for scrambling
+      displayParts,
+      expected, 
+      fitbTarget, 
+      hint: '', // User requested to remove the hint row entirely from display
+      explanation: (q as any).explanation 
+    });
+    
     setFeedback('none');
     setUserAnswer('');
     
@@ -287,11 +317,21 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     }).catch(e => console.error('Failed to sync training score to scores.json', e));
   };
 
+  // Auto-resize textarea when value changes externally (admin mode, wrong feedback, etc.)
+  useEffect(() => {
+    if (inputRef.current) {
+      const el = inputRef.current as HTMLTextAreaElement;
+      el.style.height = 'auto';
+      el.style.height = el.scrollHeight + 'px';
+    }
+  }, [activeQuestion, adminMode, feedback, userAnswer, selectedWords]);
+
   const saveMistakes = (newPool: string[]) => {
     setMistakesPool(newPool);
     syncProgress({ mistakes: newPool });
   };
 
+  const pendingMistakeRemove = useRef<string | null>(null);
   const lastCheckTime = useRef(0);
 
   const handleEditSave = async () => {
@@ -379,21 +419,31 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     if (normalizedUser === normalizedAnswer) {
       setFeedback('correct');
       if (mistakesPool.includes(activeQuestion.id)) {
-        saveMistakes(mistakesPool.filter(id => id !== activeQuestion.id));
+        pendingMistakeRemove.current = activeQuestion.id;
         syncScore(1); 
       } else if (mode === 'all') {
         syncScore(1); 
       }
     } else {
       const dist = levenshteinDistance(normalizedUser, normalizedAnswer);
-      const isTypo = dist <= 1 || (normalizedAnswer.length > 4 && dist <= 2);
+      let isTypo = dist <= 1 || (normalizedAnswer.length > 4 && dist <= 2);
       
-      if (isTypo && activeQuestion.type !== 'scramble') {
+      if (activeQuestion.type === 'scramble') {
+        const userW = normalizedUser.split(' ');
+        const expectedW = normalizedAnswer.split(' ');
+        let diffCount = 0;
+        for (let i = 0; i < Math.max(userW.length, expectedW.length); i++) {
+           if (userW[i] !== expectedW[i]) diffCount++;
+        }
+        isTypo = diffCount > 0 && diffCount <= 2;
+      }
+      
+      if (isTypo) {
         setFeedback('typo');
         if (mistakesPool.includes(activeQuestion.id)) {
-           syncScore(0.9);
+           syncScore(0.5); // reduced points for typo
         } else if (mode === 'all') {
-           syncScore(0.9);
+           syncScore(0.5);
         }
       } else {
         setFeedback('wrong');
@@ -444,6 +494,11 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const handleNext = () => {
     if (Date.now() - lastCheckTime.current < 500) return; // Prevent double-click or enter-hold auto-advance
     if (!activeQuestion) return;
+    
+    if (pendingMistakeRemove.current) {
+      saveMistakes(mistakesPool.filter(id => id !== pendingMistakeRemove.current));
+      pendingMistakeRemove.current = null;
+    }
     
     setUserAnswer('');
     setFeedback('none');
@@ -567,61 +622,63 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col pb-36 sm:pb-24">
       {/* Header */}
-      <header className="bg-white border-b border-slate-200 px-2 py-3 sm:px-4 sm:py-4 flex flex-col items-center sticky top-0 z-10 gap-3">
+      <header className="bg-white border-b border-slate-200 px-2 py-2 sm:px-4 sm:py-3 flex flex-col items-center sticky top-0 z-10 gap-2">
         
         {/* Top Row: Close, Search, Language */}
-        <div className="flex w-full items-center justify-between gap-2 flex-wrap sm:flex-nowrap">
-          <div className="flex items-center flex-1 min-w-0 sm:min-w-[200px]">
-            <button onClick={() => router.push('/training')} className="text-slate-400 hover:text-slate-600 mr-1 sm:mr-2 flex-shrink-0">
+        <div className="flex w-full items-center justify-between gap-1 flex-wrap sm:flex-nowrap">
+          <div className="flex items-center flex-1 min-w-0">
+            <button onClick={() => router.push('/training')} className="text-slate-400 hover:text-slate-600 mr-1 sm:mr-2 flex-shrink-0 text-xl">
               ✕
             </button>
             
-            {student?.role === 'admin' && (
-              <label className="flex items-center gap-1.5 cursor-pointer mr-2 ml-1 bg-slate-100 pr-2 pl-1 py-1 rounded-full border border-slate-200">
+            {(student?.role === 'admin' || student?.isAdminMode || student?.username === 'mustafasacar') && (
+              <label className="flex items-center gap-1.5 cursor-pointer mr-2 bg-slate-100 px-2 py-1 rounded-full border border-slate-200">
                 <div className="relative">
                   <input type="checkbox" className="sr-only" checked={adminMode} onChange={(e) => { setAdminMode(e.target.checked); setFeedback('none'); setUserAnswer(''); setKeyboardOpen(false); }} />
-                  <div className={`block w-7 h-4 rounded-full transition-colors ${adminMode ? 'bg-indigo-500' : 'bg-slate-300'}`}></div>
-                  <div className={`dot absolute left-0.5 top-0.5 bg-white w-3 h-3 rounded-full transition-transform ${adminMode ? 'translate-x-3' : ''}`}></div>
+                  <div className={`block w-6 h-3 rounded-full transition-colors ${adminMode ? 'bg-indigo-500' : 'bg-slate-300'}`}></div>
+                  <div className={`dot absolute left-0.5 top-[2px] bg-white w-2 h-2 rounded-full transition-transform ${adminMode ? 'translate-x-3' : ''}`}></div>
                 </div>
-                <span className="text-[10px] sm:text-[11px] font-bold text-slate-500 select-none hidden sm:inline">Admin Modu</span>
-                <span className="text-[10px] font-bold text-slate-500 select-none sm:hidden">Admin</span>
+                <span className="text-[10px] font-bold text-slate-500 select-none">Admin</span>
               </label>
             )}
             
             {/* Search Input */}
-            <div className="relative flex-1 min-w-0 max-w-[300px]">
+            <div className="relative flex-1 min-w-0 max-w-[200px]">
               <input 
                 type="text" 
-                placeholder="🔍 Kelime ara..." 
+                placeholder="🔍 Ara..." 
                 value={searchQuery}
                 onChange={(e) => {
                   setSearchQuery(e.target.value);
                   setCurrentIndex(0);
                 }}
-                className="w-full bg-slate-100 border-none rounded-full px-3 sm:px-4 py-1 sm:py-1.5 text-xs sm:text-sm outline-none focus:ring-2 focus:ring-indigo-500 min-w-0"
+                className="w-full bg-slate-100 border-none rounded-full px-3 py-1 text-xs outline-none focus:ring-2 focus:ring-indigo-500 min-w-0"
               />
             </div>
           </div>
           
           {/* Language Filter */}
-          <div className="flex bg-slate-100 rounded-full p-1 border border-slate-200 flex-shrink-0 overflow-x-auto max-w-full">
+          <div className="flex bg-slate-100 rounded-full p-0.5 border border-slate-200 flex-shrink-0">
             <button
               onClick={() => { setLangFilter('all'); setCurrentIndex(0); }}
-              className={`px-2 sm:px-3 py-0.5 text-[10px] sm:text-xs font-bold rounded-full transition-colors ${langFilter === 'all' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+              className={`px-2 py-0.5 text-sm sm:text-base rounded-full transition-colors ${langFilter === 'all' ? 'bg-white shadow-sm grayscale-0' : 'grayscale opacity-50 hover:opacity-100 hover:grayscale-0'}`}
+              title="Tümü"
             >
-              Tümü
+              🌐
             </button>
             <button
               onClick={() => { setLangFilter('bg'); setCurrentIndex(0); }}
-              className={`px-2 sm:px-3 py-0.5 text-[10px] sm:text-xs font-bold rounded-full transition-colors ${langFilter === 'bg' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+              className={`px-2 py-0.5 text-sm sm:text-base rounded-full transition-colors ${langFilter === 'bg' ? 'bg-white shadow-sm grayscale-0' : 'grayscale opacity-50 hover:opacity-100 hover:grayscale-0'}`}
+              title="Bulgarca"
             >
-              Bulgarca
+              🇧🇬
             </button>
             <button
               onClick={() => { setLangFilter('tr'); setCurrentIndex(0); }}
-              className={`px-2 sm:px-3 py-0.5 text-[10px] sm:text-xs font-bold rounded-full transition-colors ${langFilter === 'tr' ? 'bg-white text-indigo-600 shadow-sm' : 'text-slate-500 hover:text-slate-700'}`}
+              className={`px-2 py-0.5 text-sm sm:text-base rounded-full transition-colors ${langFilter === 'tr' ? 'bg-white shadow-sm grayscale-0' : 'grayscale opacity-50 hover:opacity-100 hover:grayscale-0'}`}
+              title="Türkçe"
             >
-              Türkçe
+              🇹🇷
             </button>
           </div>
         </div>
@@ -630,6 +687,36 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         <div className="flex flex-wrap sm:flex-nowrap w-full items-center justify-between gap-3 sm:gap-4">
           
           <div className="flex items-center justify-between sm:justify-end w-full sm:w-auto gap-2 flex-shrink-0 order-1 sm:order-2">
+            {(!isEditingQuestion && adminMode) && (
+              <button 
+                onClick={() => {
+                  const rawQ = filteredQuestions[currentIndex];
+                  setEditForm({
+                    sentence: rawQ.sentence,
+                    answer: rawQ.answer,
+                    hint: rawQ.hint,
+                    explanation: rawQ.explanation || ''
+                  });
+                  setIsEditingQuestion(true);
+                  setFeedback('none');
+                }}
+                className="flex items-center justify-center p-1.5 bg-indigo-50 text-indigo-700 hover:bg-indigo-100 rounded-lg transition-colors shadow-sm border border-indigo-100"
+                title="Düzenle"
+              >
+                ✏️
+              </button>
+            )}
+
+            {!isEditingQuestion && (
+              <button 
+                onClick={handleSwap}
+                className="flex items-center justify-center p-1.5 bg-amber-50 text-amber-700 hover:bg-amber-100 rounded-lg transition-colors shadow-sm border border-amber-100"
+                title="Soruyu ters çevir (Bulgarca <-> Türkçe)"
+              >
+                <RefreshCw size={20} className={isSwapped ? 'rotate-180 transition-transform duration-500' : 'transition-transform duration-500'} />
+              </button>
+            )}
+
             <button
               onClick={() => {
                 const shuffled = [...filteredQuestions].sort(() => Math.random() - 0.5);
@@ -638,11 +725,10 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                 setFeedback('none');
                 setUserAnswer('');
               }}
-              className="px-2 py-1.5 bg-slate-100 text-slate-500 hover:bg-indigo-100 hover:text-indigo-600 rounded-lg text-sm font-bold transition-colors shadow-sm border border-slate-200 flex items-center gap-1.5"
+              className="p-1.5 bg-slate-100 text-slate-500 hover:bg-indigo-100 hover:text-indigo-600 rounded-lg transition-colors shadow-sm border border-slate-200 flex items-center justify-center"
               title="Soruları Karıştır"
             >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
-              <span className="text-xs sm:hidden">Karıştır</span>
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
             </button>
             <div className="bg-indigo-50 text-indigo-700 px-3 py-1.5 rounded-lg font-black text-sm border border-indigo-100 shadow-sm whitespace-nowrap">
               Puan: {score.toFixed(1)}
@@ -728,89 +814,72 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
           </div>
         ) : (
           <div className="flex-1 flex flex-col mt-2 sm:mt-4">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-4 sm:mb-6 gap-3">
-              <div>
-                <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-800 tracking-tight">
-                  {isEditingQuestion ? "Soruyu Düzenle" : activeQuestion?.fitbTarget ? "Boşluğu doldurun" : "Çeviriyi yazın"}
-                </h1>
-                {!isEditingQuestion && (
-                  <p className="text-slate-500 font-medium mt-1 text-sm sm:text-base hidden sm:block">
-                    {activeQuestion?.hint}
-                  </p>
-                )}
-              </div>
-              <div className="flex gap-2 w-full sm:w-auto">
-                {!isEditingQuestion && adminMode && (
-                  <button 
-                    onClick={() => {
-                      const rawQ = filteredQuestions[currentIndex];
-                      setEditForm({
-                        sentence: rawQ.sentence,
-                        answer: rawQ.answer,
-                        hint: rawQ.hint,
-                        explanation: rawQ.explanation || ''
-                      });
-                      setIsEditingQuestion(true);
-                      setFeedback('none');
-                    }}
-                    className="flex-1 sm:flex-none flex items-center justify-center gap-1.5 px-3 py-2 bg-indigo-50 text-indigo-700 hover:bg-indigo-100 rounded-xl text-sm font-bold transition-colors"
-                  >
-                    ✏️ Düzenle
-                  </button>
-                )}
-                {!isEditingQuestion && (
-                  <button 
-                    onClick={handleSwap}
-                    className="flex-1 sm:flex-none flex items-center justify-center gap-2 px-4 py-2 sm:px-3 sm:py-1.5 bg-amber-50 text-amber-700 hover:bg-amber-100 rounded-xl text-sm font-bold transition-colors shadow-sm"
-                    title="Soruyu ters çevir (Bulgarca <-> Türkçe)"
-                  >
-                    <RefreshCw size={16} className={isSwapped ? 'rotate-180 transition-transform duration-500' : 'transition-transform duration-500'} />
-                    <span>Yön Değiştir</span>
-                  </button>
-                )}
-              </div>
-            </div>
-            
-            {!isEditingQuestion && <p className="text-slate-500 mb-8 font-medium">{activeQuestion?.hint}</p>}
+            {/* Space recovered from removed button row */}
 
             {isEditingQuestion ? (
-              <div className="bg-white rounded-2xl shadow-sm border-2 border-indigo-100 p-6 mb-8 flex flex-col gap-4">
+              <div className="bg-white rounded-xl shadow-sm border-2 border-indigo-100 p-4 sm:p-6 mb-4 sm:mb-8 flex flex-col gap-3 sm:gap-4">
                 <div>
                   <label className="block text-xs font-bold text-slate-500 mb-1 uppercase tracking-wider">Soru Cümlesi (Sentence)</label>
-                  <input type="text" value={editForm.sentence} onChange={e => setEditForm({...editForm, sentence: e.target.value})} className="w-full p-3 border border-slate-300 rounded-xl text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all" />
+                  <textarea value={editForm.sentence} onChange={e => setEditForm({...editForm, sentence: e.target.value})} className="w-full p-2.5 border border-slate-300 rounded-lg text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all resize-y" rows={2} />
                 </div>
                 <div>
                   <label className="block text-xs font-bold text-slate-500 mb-1 uppercase tracking-wider">Cevap (Answer)</label>
-                  <input type="text" value={editForm.answer} onChange={e => setEditForm({...editForm, answer: e.target.value})} className="w-full p-3 border border-slate-300 rounded-xl text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all" />
+                  <textarea value={editForm.answer} onChange={e => setEditForm({...editForm, answer: e.target.value})} className="w-full p-2.5 border border-slate-300 rounded-lg text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all resize-y" rows={2} />
                 </div>
                 <div>
                   <label className="block text-xs font-bold text-slate-500 mb-1 uppercase tracking-wider">İpucu (Hint)</label>
-                  <input type="text" value={editForm.hint} onChange={e => setEditForm({...editForm, hint: e.target.value})} className="w-full p-3 border border-slate-300 rounded-xl text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all" />
+                  <textarea value={editForm.hint} onChange={e => setEditForm({...editForm, hint: e.target.value})} className="w-full p-2.5 border border-slate-300 rounded-lg text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all resize-y" rows={2} />
                 </div>
                 <div>
-                  <label className="block text-xs font-bold text-slate-500 mb-1 uppercase tracking-wider">Kural/Açıklama (Explanation)</label>
-                  <textarea value={editForm.explanation} onChange={e => setEditForm({...editForm, explanation: e.target.value})} className="w-full p-3 border border-slate-300 rounded-xl text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all min-h-[100px]" />
+                  <label className="block text-xs font-bold text-slate-500 mb-1 uppercase tracking-wider">Açıklama (Explanation)</label>
+                  <textarea value={editForm.explanation} onChange={e => setEditForm({...editForm, explanation: e.target.value})} className="w-full p-2.5 border border-slate-300 rounded-lg text-slate-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 outline-none transition-all resize-y" rows={3} />
                 </div>
-                <div className="flex flex-wrap gap-3 pt-4 border-t border-slate-100 mt-2">
-                  <button disabled={isSavingEdit} onClick={handleEditSave} className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 disabled:opacity-50 transition-colors">
+                <div className="flex gap-2 mt-2">
+                  <button disabled={isSavingEdit} onClick={handleEditSave} className="px-6 py-2.5 bg-indigo-600 text-white font-bold rounded-lg hover:bg-indigo-700 disabled:opacity-50 transition-colors">
                     {isSavingEdit ? 'Kaydediliyor...' : 'Kaydet'}
                   </button>
-                  <button disabled={isSavingEdit} onClick={() => setIsEditingQuestion(false)} className="px-6 py-2.5 bg-slate-100 text-slate-600 font-bold rounded-xl hover:bg-slate-200 disabled:opacity-50 transition-colors">
+                  <button disabled={isSavingEdit} onClick={() => setIsEditingQuestion(false)} className="px-6 py-2.5 bg-slate-100 text-slate-600 font-bold rounded-lg hover:bg-slate-200 disabled:opacity-50 transition-colors">
                     İptal
                   </button>
                   <div className="flex-1"></div>
-                  <button disabled={isSavingEdit} onClick={handleDeleteQuestion} className="px-6 py-2.5 bg-red-50 text-red-600 font-bold rounded-xl hover:bg-red-100 disabled:opacity-50 transition-colors">
-                    🗑️ Soruyu Sil
+                  <button disabled={isSavingEdit} onClick={handleDeleteQuestion} className="px-4 sm:px-6 py-2.5 bg-red-50 text-red-600 font-bold rounded-lg hover:bg-red-100 disabled:opacity-50 transition-colors" title="Soruyu Sil">
+                    <span className="hidden sm:inline">🗑️ Soruyu Sil</span>
+                    <span className="sm:hidden">🗑️</span>
                   </button>
                 </div>
               </div>
             ) : (
               <>
-                <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6 mb-8 flex items-start gap-4 whitespace-pre-wrap">
-                  <div className="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center text-xl shrink-0 mt-1">🤖</div>
-                  <div className="text-lg font-medium text-slate-700 leading-relaxed">
-                    {activeQuestion?.display}
-                  </div>
+                <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-4 sm:p-5 mb-4 sm:mb-6 flex flex-col gap-2 relative">
+                  {(!isEditingQuestion && adminMode) && (
+                    <button
+                      onClick={() => handleDeleteQuestion()}
+                      className="absolute top-2 right-2 p-1.5 text-xs bg-red-50 text-red-500 hover:bg-red-100 hover:text-red-700 rounded-lg transition-colors opacity-60 hover:opacity-100 z-10"
+                      title="Soruyu Sil"
+                    >
+                      🗑️ Sil
+                    </button>
+                  )}
+                  {activeQuestion?.displayParts?.trText && (
+                    <div className="text-base sm:text-lg font-bold text-indigo-700 leading-relaxed w-full pr-12">
+                      {activeQuestion.displayParts.trText}
+                    </div>
+                  )}
+                  {activeQuestion?.displayParts?.bgText && (
+                    <div className="text-base sm:text-lg font-bold text-slate-900 leading-relaxed w-full pr-12">
+                      {activeQuestion.displayParts.bgText.split('_____').map((part, i, arr) => (
+                        <span key={i}>
+                          {part}
+                          {i < arr.length - 1 && <span className="text-red-500 mx-1 tracking-widest">_______</span>}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                  {(!activeQuestion?.displayParts?.trText && !activeQuestion?.displayParts?.bgText) && (
+                    <div className="text-base sm:text-lg font-bold text-slate-700 leading-relaxed w-full pr-12">
+                      {activeQuestion?.display}
+                    </div>
+                  )}
                 </div>
 
               {activeQuestion?.type === 'scramble' && !adminMode ? (
@@ -856,14 +925,17 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                 </div>
               ) : (
                 <div className="relative">
-                  <input
-                    ref={inputRef}
-                    type="text"
+                  <textarea
+                    ref={inputRef as any}
                     inputMode={preferNativeKeyboard ? "text" : "none"}
-                    className={`w-full bg-white border-2 rounded-xl px-4 py-4 text-xl outline-none transition-colors ${(feedback === 'wrong' || adminMode) ? 'border-red-400 bg-red-50 text-red-900 font-bold' : feedback === 'typo' ? 'border-amber-400 bg-amber-50 text-amber-900 font-bold' : feedback === 'correct' ? 'border-green-400 bg-green-50 text-green-900 font-bold' : 'border-slate-200 focus:border-indigo-400'}`}
+                    className={`w-full bg-white border-2 rounded-xl px-4 py-4 text-base sm:text-xl outline-none transition-colors resize-none overflow-hidden min-h-[70px] ${(feedback === 'wrong' || adminMode) ? 'border-red-400 bg-red-50 text-red-900 font-bold' : feedback === 'typo' ? 'border-amber-400 bg-amber-50 text-amber-900 font-bold' : feedback === 'correct' ? 'border-green-400 bg-green-50 text-green-900 font-bold' : 'border-slate-200 focus:border-indigo-400'}`}
                     placeholder={adminMode ? "Admin Modu Aktif" : "Cevabınızı buraya yazın..."}
                     value={(feedback === 'wrong' && !userAnswer.trim() && activeQuestion?.type !== 'scramble') || adminMode ? (activeQuestion?.fitbTarget || activeQuestion?.expected || '') : userAnswer}
-                    onChange={(e) => setUserAnswer(e.target.value)}
+                    onChange={(e) => {
+                      setUserAnswer(e.target.value);
+                      e.target.style.height = 'auto';
+                      e.target.style.height = (e.target.scrollHeight) + 'px';
+                    }}
                     onFocus={() => { if (!preferNativeKeyboard && !adminMode) setKeyboardOpen(true); }}
                     onKeyDown={(e) => {
                       if (e.key === 'Enter') {
@@ -871,6 +943,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                       }
                     }}
                     disabled={feedback !== 'none' || adminMode}
+                    rows={2}
                   />
                 </div>
               )}
@@ -939,31 +1012,43 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               )}
             </div>
 
-            <div className="flex flex-row w-full sm:w-auto gap-2 sm:gap-3">
+            <div className="flex flex-row w-full gap-2 sm:gap-3">
               {adminMode ? (
                 <button
                   onClick={() => setCurrentIndex(p => Math.min(filteredQuestions.length - 1, p + 1))}
                   disabled={currentIndex >= filteredQuestions.length - 1}
-                  className="flex-1 sm:flex-none w-full sm:w-auto px-4 sm:px-8 py-2.5 sm:py-3 rounded-xl font-black text-base sm:text-lg transition-all bg-indigo-600 text-white hover:bg-indigo-700 shadow-md disabled:opacity-30"
+                  className="flex-1 px-4 sm:px-8 py-2.5 rounded-xl font-black text-sm sm:text-lg transition-all bg-indigo-600 text-white hover:bg-indigo-700 shadow-md disabled:opacity-30 flex items-center justify-center gap-2"
                 >
-                  SONRAKİ 
+                  <span>SONRAKİ</span>
+                  <span className="text-lg">⏭️</span>
                 </button>
               ) : (
                 <>
                   {feedback === 'none' && (
                     <button
                       onClick={handleSkip}
-                      className="flex-1 sm:flex-none w-full sm:w-auto px-4 sm:px-6 py-2.5 sm:py-3 rounded-xl font-black text-sm sm:text-lg transition-all bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700 shadow-sm border border-slate-200 active:scale-95"
+                      className="flex-1 px-2 py-2.5 rounded-xl font-black text-xs sm:text-lg transition-all bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700 shadow-sm border border-slate-200 active:scale-95 flex items-center justify-center gap-1.5"
                     >
-                      PAS GEÇ
+                      <span className="text-base sm:text-lg">⏭️</span>
+                      <span>PAS GEÇ</span>
                     </button>
                   )}
                   <button
                     onClick={feedback === 'none' ? handleCheck : handleNext}
                     disabled={feedback === 'none' && (activeQuestion?.type === 'scramble' ? selectedWords.length === 0 : !userAnswer.trim())}
-                    className={`flex-[2] sm:flex-none w-full sm:w-auto px-4 sm:px-8 py-2.5 sm:py-3 rounded-xl font-black text-sm sm:text-lg transition-all active:scale-95 ${feedback === 'none' ? ((activeQuestion?.type === 'scramble' ? selectedWords.length > 0 : userAnswer.trim()) ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-md' : 'bg-slate-200 text-slate-400 cursor-not-allowed') : feedback === 'correct' ? 'bg-green-600 text-white hover:bg-green-700 shadow-md' : feedback === 'typo' ? 'bg-amber-600 text-white hover:bg-amber-700 shadow-md' : 'bg-red-600 text-white hover:bg-red-700 shadow-md'}`}
+                    className={`flex-[2] px-2 py-2.5 rounded-xl font-black text-xs sm:text-lg transition-all active:scale-95 flex items-center justify-center gap-1.5 ${feedback === 'none' ? ((activeQuestion?.type === 'scramble' ? selectedWords.length > 0 : userAnswer.trim()) ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-md' : 'bg-slate-200 text-slate-400 cursor-not-allowed') : feedback === 'correct' ? 'bg-green-600 text-white hover:bg-green-700 shadow-md' : feedback === 'typo' ? 'bg-amber-600 text-white hover:bg-amber-700 shadow-md' : 'bg-red-600 text-white hover:bg-red-700 shadow-md'}`}
                   >
-                    {feedback === 'none' ? 'KONTROL ET' : 'DEVAM ET'}
+                    {feedback === 'none' ? (
+                      <>
+                        <span className="text-base sm:text-lg">✔️</span>
+                        <span>KONTROL ET</span>
+                      </>
+                    ) : (
+                      <>
+                        <span>DEVAM ET</span>
+                        <span className="text-base sm:text-lg">⏭️</span>
+                      </>
+                    )}
                   </button>
                 </>
               )}
