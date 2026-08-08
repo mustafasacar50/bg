@@ -4,20 +4,13 @@
   "description": "Ders 4 okuma metinleri, kelimeleri ve dilbilgisi kurallarından üretilmiş profesyonel eğitim seti.",
   "questions": [
     {
-      "id": "q_ders4_5061007f",
-      "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Хатидже е студентка от Турция.)",
-      "answer": "Hatice Türkiye’den bir üniversite öğrencisidir.",
-      "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 4"
-    },
-    {
       "id": "q_ders4_5e853cdd",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hatice Türkiye’den bir üniversite öğrencisidir.)",
+      "sentence": "Çeviriniz (Türkçesi: Hatice Türkiye’den bir öğrencidir.)",
       "answer": "Хатидже е студентка от Турция.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 4"
+      "lesson": "Ders 4",
+      "explanation": ""
     },
     {
       "id": "q_ders4_85b8b0e3",
