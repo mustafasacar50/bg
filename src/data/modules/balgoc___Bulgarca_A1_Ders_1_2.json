@@ -611,14 +611,6 @@
       ]
     },
     {
-      "id": "q_auto_4b19cef9",
-      "type": "translation",
-      "sentence": "Hece kelimenin parçasıdır; neredeyse her kelime hecelere ayrılabilir.",
-      "answer": "Сричката е част от думата, почти всяка дума може да се раздели на срички.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
-    },
-    {
       "id": "q_auto_8f86df9c",
       "type": "translation",
       "sentence": "Сричката е част от думата, почти всяка дума може да се раздели на срички.",
