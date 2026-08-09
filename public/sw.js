@@ -7,7 +7,8 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  // Basit fetch listener: PWA kurulumu için gerekli
+  // Pass through all requests to network
+  event.respondWith(fetch(event.request));
 });
 
 self.addEventListener('push', (event) => {
