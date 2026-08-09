@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Caveat } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+const caveat = Caveat({ subsets: ["cyrillic", "latin"], variable: "--font-cursive", weight: ["400", "700"] });
 
 export const metadata: Metadata = {
   title: "Bulgarca Sınav Modülü",
@@ -30,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="tr">
-      <body className={inter.className}>
+      <body className={`${inter.className} ${caveat.variable}`}>
         <main className="app-container">
           {children}
         </main>

@@ -414,3 +414,6 @@ label.label { display: block; font-weight: 700; font-size: 14px; margin-bottom: 
   .summary-item { padding: 10px 6px; }
   .match-row { grid-template-columns: 1fr; }
 }
+
+.bg-cursive { font-family: var(--font-cursive), cursive; font-size: 1.25em; font-weight: 700; }
+

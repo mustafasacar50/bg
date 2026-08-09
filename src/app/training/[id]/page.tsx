@@ -96,6 +96,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   
   // Admin Mode State
   const [adminMode, setAdminMode] = useState(false);
+  
+  // Font State
+  const [useCursiveBg, setUseCursiveBg] = useState(false);
 
   // 1. Initialize Student & Score
   useEffect(() => {
@@ -716,6 +719,15 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               </label>
             )}
             
+            <label className="flex items-center gap-1.5 cursor-pointer mr-2 bg-slate-100 px-2 py-1 rounded-full border border-slate-200" title="Bulgarca metinleri el yazısı ile göster">
+              <div className="relative">
+                <input type="checkbox" className="sr-only" checked={useCursiveBg} onChange={(e) => setUseCursiveBg(e.target.checked)} />
+                <div className={`block w-6 h-3 rounded-full transition-colors ${useCursiveBg ? 'bg-indigo-500' : 'bg-slate-300'}`}></div>
+                <div className={`dot absolute left-0.5 top-[2px] bg-white w-2 h-2 rounded-full transition-transform ${useCursiveBg ? 'translate-x-3' : ''}`}></div>
+              </div>
+              <span className="text-[10px] font-bold text-slate-500 select-none">✍️ El Yazısı</span>
+            </label>
+            
             {/* Search Input */}
             <div className="relative flex-1 min-w-0 max-w-[200px]">
               <input 
@@ -940,7 +952,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                     </div>
                   )}
                   {activeQuestion?.displayParts?.bgText && (
-                    <div className="text-base sm:text-lg font-bold text-slate-900 leading-relaxed w-full pr-12">
+                    <div className={`text-base sm:text-lg font-bold text-slate-900 leading-relaxed w-full pr-12 ${useCursiveBg ? 'bg-cursive' : ''}`}>
                       {activeQuestion.displayParts.bgText.split('_____').map((part, i, arr) => (
                         <span key={i}>
                           {part}
@@ -976,7 +988,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                     </button>
                   ) : (
                     <div className="flex flex-col items-center gap-6 w-full animate-in zoom-in-95 duration-300">
-                      <div className="text-2xl sm:text-3xl font-black text-indigo-700 text-center">
+                      <div className={`text-2xl sm:text-3xl font-black text-indigo-700 text-center ${useCursiveBg && isExpectedBg ? 'bg-cursive' : ''}`}>
                         {activeQuestion?.answer || activeQuestion?.expected}
                       </div>
                       <div className="flex w-full gap-2 sm:gap-4 mt-4">
@@ -1005,7 +1017,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                             key={`bg-${idx}`}
                             disabled={isMatched || feedback !== 'none'}
                             onClick={() => handleMatchSelect('bg', idx, item.id)}
-                            className={`p-3 sm:p-4 rounded-xl text-sm sm:text-base font-bold text-center transition-all border-2 shadow-sm ${isMatched ? 'bg-green-100 border-green-200 text-green-700 opacity-50' : isSelected ? 'bg-indigo-100 border-indigo-400 text-indigo-700 scale-105' : 'bg-white border-slate-200 text-slate-700 hover:border-indigo-200 hover:bg-slate-50'}`}
+                            className={`p-3 sm:p-4 rounded-xl font-bold text-center transition-all border-2 shadow-sm ${isMatched ? 'bg-green-100 border-green-200 text-green-700 opacity-50' : isSelected ? 'bg-indigo-100 border-indigo-400 text-indigo-700 scale-105' : 'bg-white border-slate-200 text-slate-700 hover:border-indigo-200 hover:bg-slate-50'} ${useCursiveBg ? 'bg-cursive text-xl' : 'text-sm sm:text-base'}`}
                           >
                             {item.text}
                           </button>
@@ -1044,7 +1056,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                           setSelectedWords(newSel);
                           setScrambleWords([...scrambleWords, word]);
                         }}
-                        className={`px-3 sm:px-4 py-1.5 sm:py-2 font-bold text-sm sm:text-base rounded-lg border shadow-sm transition-colors ${feedback === 'wrong' ? 'bg-red-100 text-red-900 border-red-200' : feedback === 'correct' ? 'bg-green-100 text-green-900 border-green-200' : 'bg-indigo-50 text-indigo-700 border-indigo-200 hover:bg-indigo-100'}`}
+                        className={`px-3 sm:px-4 py-1.5 sm:py-2 font-bold text-sm sm:text-base rounded-lg border shadow-sm transition-colors ${feedback === 'wrong' ? 'bg-red-100 text-red-900 border-red-200' : feedback === 'correct' ? 'bg-green-100 text-green-900 border-green-200' : 'bg-indigo-50 text-indigo-700 border-indigo-200 hover:bg-indigo-100'} ${useCursiveBg && isExpectedBg ? 'bg-cursive text-xl' : ''}`}
                       >
                         {word}
                       </button>
@@ -1064,7 +1076,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                           setScrambleWords(newPool);
                           setSelectedWords([...selectedWords, word]);
                         }}
-                        className="px-3 sm:px-5 py-2 sm:py-3 bg-white text-slate-700 font-extrabold text-base sm:text-lg rounded-xl shadow-sm border-2 border-slate-200 hover:border-indigo-400 hover:text-indigo-600 hover:shadow-md transition-all active:scale-95 disabled:opacity-50"
+                        className={`px-3 sm:px-5 py-2 sm:py-3 bg-white text-slate-700 font-extrabold text-base sm:text-lg rounded-xl shadow-sm border-2 border-slate-200 hover:border-indigo-400 hover:text-indigo-600 hover:shadow-md transition-all active:scale-95 disabled:opacity-50 ${useCursiveBg && isExpectedBg ? 'bg-cursive text-2xl' : ''}`}
                       >
                         {word}
                       </button>
@@ -1084,7 +1096,13 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                       e.target.style.height = 'auto';
                       e.target.style.height = (e.target.scrollHeight) + 'px';
                     }}
-                    onFocus={() => { if (!preferNativeKeyboard && !adminMode) setKeyboardOpen(true); }}
+                    onFocus={() => { 
+                      if (!preferNativeKeyboard && !adminMode) {
+                        setKeyboardOpen(true);
+                        const isExpectedBg = activeQuestion?.hint.toLowerCase().includes('bulgarca');
+                        setLayout(isExpectedBg ? 'bg' : 'tr');
+                      } 
+                    }}
                     onKeyDown={(e) => {
                       if (e.key === 'Enter') {
                         e.preventDefault();
