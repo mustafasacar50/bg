@@ -14,12 +14,13 @@
   "u4": {
     "balgoc___Bulgarca_A1_Ders_8": {
       "mistakes": [
-        "q_auto_dfeab19d"
+        "q_auto_dfeab19d",
+        "q_auto_10ce47c3"
       ],
       "allProgress": 0,
       "mistakesProgress": 0,
-      "score": 0,
-      "lastUpdated": "2026-08-09T19:08:09.573Z"
+      "score": -0.2,
+      "lastUpdated": "2026-08-09T19:08:15.630Z"
     }
   }
 }
