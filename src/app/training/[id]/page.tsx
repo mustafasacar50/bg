@@ -203,7 +203,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     let rawSentence = q.sentence;
     
     if (isSwapped) {
-      const match = q.sentence.match(/:\s*(.*?)\)/);
+      const match = q.sentence.match(/:\s*(.*)\)/);
       if (match) {
         if (q.sentence.includes('İlgili formu')) {
           rawSentence = `(Bulgarca: ${q.answer})`;
@@ -228,8 +228,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
     // Clean up prefixes
     let cleanSentence = rawSentence;
-    const trMatch = cleanSentence.match(/Çeviriniz\s*\(Türkçesi:\s*(.*?)\)/i);
-    const bgMatch = cleanSentence.match(/Çeviriniz\s*\(Bulgarcası:\s*(.*?)\)/i);
+    const trMatch = cleanSentence.match(/Çeviriniz\s*\(Türkçesi:\s*(.*)\)/i);
+    const bgMatch = cleanSentence.match(/Çeviriniz\s*\(Bulgarcası:\s*(.*)\)/i);
     if (trMatch) cleanSentence = trMatch[1];
     else if (bgMatch) cleanSentence = bgMatch[1];
     else {
