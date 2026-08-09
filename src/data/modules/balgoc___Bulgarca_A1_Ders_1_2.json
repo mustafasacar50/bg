@@ -422,14 +422,6 @@
       ]
     },
     {
-      "id": "q_auto_0af1e8d2",
-      "type": "translation",
-      "sentence": "Ünsüz harfler üç gruba ayrılır.",
-      "answer": "Съгласните букви са три вида.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Bulgarcada 'olmak' fiili (съм) çok önemlidir: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са.\n\n📘 Kural: \"Съм\" (Olmak) Fiili\nA1 düzeyinde en önemli fiil “съм” (olmak) fiilidir. Durum, meslek ve milliyet bildirirken kullanılır.\nаз съм (ben ...'im)        ние сме (biz ...'iz)\nти си (sen ...'sin)        вие сте (siz ...'siniz)\nтой/тя/то е (o ...'dir)    те са (onlar ...'dir)"
-    },
-    {
       "id": "q_auto_4734a8f5",
       "type": "translation",
       "sentence": "Съгласните букви са три вида.",
