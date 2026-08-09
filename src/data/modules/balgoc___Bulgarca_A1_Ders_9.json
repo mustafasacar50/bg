@@ -1,0 +1,2388 @@
+{
+  "id": "balgoc___Bulgarca_A1_Ders_9",
+  "title": "Ders 9 (Kapsamlı)",
+  "description": "Ders metinleri ve kelimelerinden üretilmiş temiz, kural açıklamalarından arındırılmış eğitim seti.",
+  "questions": [
+    {
+      "id": "q_ders9_99694d2e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: В този материал всяко изречение е дадено с пълния му турски превод.)",
+      "answer": "Bu materyalde her cümle tam Türkçe çevirisiyle verilmiştir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_8c8167ff",
+      "type": "fitb",
+      "sentence": "Bu materyalde her cümle tam Türkçe çevirisiyle verilmiştir.",
+      "answer": "В този материал всяко изречение е дадено с пълния му турски превод.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "дадено"
+    },
+    {
+      "id": "q_ders9_e4b88368",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Христо обядва в университетския стол.)",
+      "answer": "Hristo üniversite yemekhanesinde öğle yemeği yer.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_33b4978f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Hristo üniversite yemekhanesinde öğle yemeği yer.)",
+      "answer": "Христо обядва в университетския стол.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_562ce48d",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hristo üniversite yemekhanesinde öğle yemeği yer.",
+      "answer": "Христо обядва в университетския стол.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Христо",
+        "обядва",
+        "в",
+        "университетския",
+        "стол"
+      ]
+    },
+    {
+      "id": "q_ders9_5b4eaf14",
+      "type": "fitb",
+      "sentence": "Hristo üniversite yemekhanesinde öğle yemeği yer.",
+      "answer": "Христо обядва в университетския стол.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "Христо"
+    },
+    {
+      "id": "q_ders9_7708f016",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Той се намира в сутерена на Ректората.)",
+      "answer": "O, rektörlük binasının bodrum katında bulunur.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_51df7720",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: O, rektörlük binasının bodrum katında bulunur.)",
+      "answer": "Той се намира в сутерена на Ректората.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_f110de5b",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: O, rektörlük binasının bodrum katında bulunur.",
+      "answer": "Той се намира в сутерена на Ректората.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Той",
+        "се",
+        "намира",
+        "в",
+        "сутерена",
+        "на",
+        "Ректората"
+      ]
+    },
+    {
+      "id": "q_ders9_6ca9aadc",
+      "type": "fitb",
+      "sentence": "O, rektörlük binasının bodrum katında bulunur.",
+      "answer": "Той се намира в сутерена на Ректората.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "Ректората"
+    },
+    {
+      "id": "q_ders9_c861520f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Много е удобен и затова, когато свършат лекциите, той и колегата му Митко слизат да се нахранят.)",
+      "answer": "Çok uygundur; bu yüzden dersler bittiğinde o ve arkadaşı Mitko yemek yemek için aşağı inerler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_e279df4f",
+      "type": "fitb",
+      "sentence": "Çok uygundur; bu yüzden dersler bittiğinde o ve arkadaşı Mitko yemek yemek için aşağı inerler.",
+      "answer": "Много е удобен и затова, когато свършат лекциите, той и колегата му Митко слизат да се нахранят.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "свършат"
+    },
+    {
+      "id": "q_ders9_3da10cab",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: В общежитието също има стол, но той е много далече.)",
+      "answer": "Yurtta da bir yemekhane vardır; fakat o çok uzaktır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_be8e8ffd",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Yurtta da bir yemekhane vardır; fakat o çok uzaktır.)",
+      "answer": "В общежитието също има стол, но той е много далече.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_6a835047",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yurtta da bir yemekhane vardır; fakat o çok uzaktır.",
+      "answer": "В общежитието също има стол, но той е много далече.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "В",
+        "общежитието",
+        "също",
+        "има",
+        "стол",
+        "но",
+        "той",
+        "е",
+        "много",
+        "далече"
+      ]
+    },
+    {
+      "id": "q_ders9_a623ae0d",
+      "type": "fitb",
+      "sentence": "Yurtta da bir yemekhane vardır; fakat o çok uzaktır.",
+      "answer": "В общежитието също има стол, но той е много далече.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "далече"
+    },
+    {
+      "id": "q_ders9_97bdbb1b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Там се хранят вечер.)",
+      "answer": "Orada akşam yemek yerler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_ccc51cc1",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Orada akşam yemek yerler.)",
+      "answer": "Там се хранят вечер.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_e666318d",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Orada akşam yemek yerler.",
+      "answer": "Там се хранят вечер.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Там",
+        "се",
+        "хранят",
+        "вечер"
+      ]
+    },
+    {
+      "id": "q_ders9_8d37cf05",
+      "type": "fitb",
+      "sentence": "Orada akşam yemek yerler.",
+      "answer": "Там се хранят вечер.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "вечер"
+    },
+    {
+      "id": "q_ders9_64bca89f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Освен това, в този стол готвят по-хубаво.)",
+      "answer": "Ayrıca bu yemekhanede daha güzel yemek yaparlar.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_5e186535",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Ayrıca bu yemekhanede daha güzel yemek yaparlar.)",
+      "answer": "Освен това, в този стол готвят по-хубаво.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_a91fde4b",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ayrıca bu yemekhanede daha güzel yemek yaparlar.",
+      "answer": "Освен това, в този стол готвят по-хубаво.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Освен",
+        "това",
+        "в",
+        "този",
+        "стол",
+        "готвят",
+        "по-хубаво"
+      ]
+    },
+    {
+      "id": "q_ders9_95bcaecb",
+      "type": "fitb",
+      "sentence": "Ayrıca bu yemekhanede daha güzel yemek yaparlar.",
+      "answer": "Освен това, в този стол готвят по-хубаво.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "Освен"
+    },
+    {
+      "id": "q_ders9_77bb9136",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Ето защо на обяд се хранят тук, а вечерят в стола на общежитието.)",
+      "answer": "İşte bu yüzden öğlen burada yemek yerler, akşam ise yurdun yemekhanesinde akşam yemeği yerler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_178968fd",
+      "type": "fitb",
+      "sentence": "İşte bu yüzden öğlen burada yemek yerler, akşam ise yurdun yemekhanesinde akşam yemeği yerler.",
+      "answer": "Ето защо на обяд се хранят тук, а вечерят в стола на общежитието.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "вечерят"
+    },
+    {
+      "id": "q_ders9_c3eb4804",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Понякога си купуват нещо за ядене и обядват или вечерят в стаята си.)",
+      "answer": "Bazen yiyecek bir şey satın alırlar ve odalarında öğle ya da akşam yemeği yerler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_d7b065dc",
+      "type": "fitb",
+      "sentence": "Bazen yiyecek bir şey satın alırlar ve odalarında öğle ya da akşam yemeği yerler.",
+      "answer": "Понякога си купуват нещо за ядене и обядват или вечерят в стаята си.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "купуват"
+    },
+    {
+      "id": "q_ders9_3bfd6ab1",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Това най-често става в събота и неделя, но днес е сряда.)",
+      "answer": "Bu çoğunlukla cumartesi ve pazar olur; fakat bugün çarşambadır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_e5f1e27b",
+      "type": "fitb",
+      "sentence": "Bu çoğunlukla cumartesi ve pazar olur; fakat bugün çarşambadır.",
+      "answer": "Това най-често става в събота и неделя, но днес е сряда.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "най-често"
+    },
+    {
+      "id": "q_ders9_dd283ecd",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Столът на университета е много голям, просторен.)",
+      "answer": "Üniversitenin yemekhanesi çok büyük ve ferahtır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_d83cccf6",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Üniversitenin yemekhanesi çok büyük ve ferahtır.)",
+      "answer": "Столът на университета е много голям, просторен.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_67a9956f",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Üniversitenin yemekhanesi çok büyük ve ferahtır.",
+      "answer": "Столът на университета е много голям, просторен.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Столът",
+        "на",
+        "университета",
+        "е",
+        "много",
+        "голям",
+        "просторен"
+      ]
+    },
+    {
+      "id": "q_ders9_b06edc24",
+      "type": "fitb",
+      "sentence": "Üniversitenin yemekhanesi çok büyük ve ferahtır.",
+      "answer": "Столът на университета е много голям, просторен.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "Столът"
+    },
+    {
+      "id": "q_ders9_4c6edb50",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Той е на самообслужване, храната се раздава от няколко гишета.)",
+      "answer": "Orası self servistir; yemek birkaç gişeden dağıtılır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_109d714b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Orası self servistir; yemek birkaç gişeden dağıtılır.)",
+      "answer": "Той е на самообслужване, храната се раздава от няколко гишета.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_70e2fbb6",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Orası self servistir; yemek birkaç gişeden dağıtılır.",
+      "answer": "Той е на самообслужване, храната се раздава от няколко гишета.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Той",
+        "е",
+        "на",
+        "самообслужване",
+        "храната",
+        "се",
+        "раздава",
+        "от",
+        "няколко",
+        "гишета"
+      ]
+    },
+    {
+      "id": "q_ders9_9fd3fbe7",
+      "type": "fitb",
+      "sentence": "Orası self servistir; yemek birkaç gişeden dağıtılır.",
+      "answer": "Той е на самообслужване, храната се раздава от няколко гишета.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "гишета"
+    },
+    {
+      "id": "q_ders9_53665cc6",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Пред всяко от тях обикновено има голяма опашка, но тя върви бързо.)",
+      "answer": "Her birinin önünde genellikle uzun bir sıra vardır; fakat sıra hızlı ilerler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_a942e695",
+      "type": "fitb",
+      "sentence": "Her birinin önünde genellikle uzun bir sıra vardır; fakat sıra hızlı ilerler.",
+      "answer": "Пред всяко от тях обикновено има голяма опашка, но тя върви бързо.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "голяма"
+    },
+    {
+      "id": "q_ders9_be3b0d57",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Христо се нарежда на една от тези опашки и търпеливо чака реда си, а Митко отива да търси свободни места.)",
+      "answer": "Hristo bu sıralardan birine girer ve sabırla sırasını bekler; Mitko ise boş yer aramaya gider.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_5e2b62df",
+      "type": "fitb",
+      "sentence": "Hristo bu sıralardan birine girer ve sabırla sırasını bekler; Mitko ise boş yer aramaya gider.",
+      "answer": "Христо се нарежда на една от тези опашки и търпеливо чака реда си, а Митко отива да търси свободни места.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "реда"
+    },
+    {
+      "id": "q_ders9_791ef02a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Скоро една маса се освобождава и Митко веднага слага чантите на две от местата.)",
+      "answer": "Kısa süre sonra bir masa boşalır ve Mitko hemen çantaları iki yere koyar.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_d7708d54",
+      "type": "fitb",
+      "sentence": "Kısa süre sonra bir masa boşalır ve Mitko hemen çantaları iki yere koyar.",
+      "answer": "Скоро една маса се освобождава и Митко веднага слага чантите на две от местата.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "веднага"
+    },
+    {
+      "id": "q_ders9_c0118426",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: След това отива да помогне на Христо да донесе яденето и приборите.)",
+      "answer": "Sonra Hristo’ya yemeği ve çatal-bıçak takımını getirmesine yardım etmeye gider.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_bc88b01c",
+      "type": "fitb",
+      "sentence": "Sonra Hristo’ya yemeği ve çatal-bıçak takımını getirmesine yardım etmeye gider.",
+      "answer": "След това отива да помогне на Христо да донесе яденето и приборите.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "яденето"
+    },
+    {
+      "id": "q_ders9_372687ae",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Всеки ден в този стол се предлагат по няколко вида супи – зеленчукова супа, супа топчета, супа от леща или боб.)",
+      "answer": "Bu yemekhanede her gün birkaç çeşit çorba sunulur: sebze çorbası, köfteli çorba, mercimek ya da fasulye çorbası.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_c12fba0c",
+      "type": "fitb",
+      "sentence": "Bu yemekhanede her gün birkaç çeşit çorba sunulur: sebze çorbası, köfteli çorba, mercimek ya da fasulye çorbası.",
+      "answer": "Всеки ден в този стол се предлагат по няколко вида супи – зеленчукова супа, супа топчета, супа от леща или боб.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "няколко"
+    },
+    {
+      "id": "q_ders9_82a57dfe",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: За второ предлагат кюфтета с гарнитура или със сос, пилешко със зеле, телешко с картофи, мусака, пържена риба, пилешка яхния, тас кебап и други.)",
+      "answer": "İkinci yemek olarak garnitürlü veya soslu köfte, lahanalı tavuk, patatesli dana eti, musakka, kızarmış balık, tavuk yahni, tas kebabı ve başka yemekler sunarlar.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_37224c84",
+      "type": "fitb",
+      "sentence": "İkinci yemek olarak garnitürlü veya soslu köfte, lahanalı tavuk, patatesli dana eti, musakka, kızarmış balık, tavuk yahni, tas kebabı ve başka yemekler sunarlar.",
+      "answer": "За второ предлагат кюфтета с гарнитура или със сос, пилешко със зеле, телешко с картофи, мусака, пържена риба, пилешка яхния, тас кебап и други.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "кюфтета"
+    },
+    {
+      "id": "q_ders9_c2a5bb30",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: А за десерт дават пасти, толумби, баклава, нишесте или мляко с ориз.)",
+      "answer": "Tatlı olarak ise pastalar, tulumbalar, baklava, nişasta tatlısı veya sütlaç verirler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_e5ed7517",
+      "type": "fitb",
+      "sentence": "Tatlı olarak ise pastalar, tulumbalar, baklava, nişasta tatlısı veya sütlaç verirler.",
+      "answer": "А за десерт дават пасти, толумби, баклава, нишесте или мляко с ориз.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "толумби"
+    },
+    {
+      "id": "q_ders9_a2e08b3e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Христо подава на Митко една табла, на която е сложил една чиния с постна супа, една с пилешко със зеле и една паничка с нишесте и го пита какво да вземе за него.)",
+      "answer": "Hristo, üzerine bir tabak etsiz çorba, bir tabak lahanalı tavuk ve küçük bir kase nişasta tatlısı koyduğu bir tepsiyi Mitko’ya uzatır ve onun için ne alacağını sorar.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_367f0f7a",
+      "type": "fitb",
+      "sentence": "Hristo, üzerine bir tabak etsiz çorba, bir tabak lahanalı tavuk ve küçük bir kase nişasta tatlısı koyduğu bir tepsiyi Mitko’ya uzatır ve onun için ne alacağını sorar.",
+      "answer": "Христо подава на Митко една табла, на която е сложил една чиния с постна супа, една с пилешко със зеле и една паничка с нишесте и го пита какво да вземе за него.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "една"
+    },
+    {
+      "id": "q_ders9_9800d599",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Митко иска супа от леща, мусака и мляко с ориз.)",
+      "answer": "Mitko mercimek çorbası, musakka ve sütlaç ister.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_6f3efbf7",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Mitko mercimek çorbası, musakka ve sütlaç ister.)",
+      "answer": "Митко иска супа от леща, мусака и мляко с ориз.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_e4ddcfd3",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Mitko mercimek çorbası, musakka ve sütlaç ister.",
+      "answer": "Митко иска супа от леща, мусака и мляко с ориз.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Митко",
+        "иска",
+        "супа",
+        "от",
+        "леща",
+        "мусака",
+        "и",
+        "мляко",
+        "с",
+        "ориз"
+      ]
+    },
+    {
+      "id": "q_ders9_c3aea731",
+      "type": "fitb",
+      "sentence": "Mitko mercimek çorbası, musakka ve sütlaç ister.",
+      "answer": "Митко иска супа от леща, мусака и мляко с ориз.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "мусака"
+    },
+    {
+      "id": "q_ders9_706491cc",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: След това вземат по две-три филийки хляб, вилици, лъжици и ножове и отиват на масата.)",
+      "answer": "Sonra ikişer üçer dilim ekmek, çatallar, kaşıklar ve bıçaklar alıp masaya giderler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_1a5bf474",
+      "type": "fitb",
+      "sentence": "Sonra ikişer üçer dilim ekmek, çatallar, kaşıklar ve bıçaklar alıp masaya giderler.",
+      "answer": "След това вземат по две-три филийки хляб, вилици, лъжици и ножове и отиват на масата.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "вилици"
+    },
+    {
+      "id": "q_ders9_cb268f8b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Те си пожелават „Добър апетит“ и започват да се хранят.)",
+      "answer": "Birbirlerine “Afiyet olsun” dilerler ve yemek yemeye başlarlar.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_606129eb",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Birbirlerine “Afiyet olsun” dilerler ve yemek yemeye başlarlar.)",
+      "answer": "Те си пожелават „Добър апетит“ и започват да се хранят.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_a2aee012",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Birbirlerine “Afiyet olsun” dilerler ve yemek yemeye başlarlar.",
+      "answer": "Те си пожелават „Добър апетит“ и започват да се хранят.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Те",
+        "си",
+        "пожелават",
+        "Добър",
+        "апетит",
+        "и",
+        "започват",
+        "да",
+        "се",
+        "хранят"
+      ]
+    },
+    {
+      "id": "q_ders9_d27d497e",
+      "type": "fitb",
+      "sentence": "Birbirlerine “Afiyet olsun” dilerler ve yemek yemeye başlarlar.",
+      "answer": "Те си пожелават „Добър апетит“ и започват да се хранят.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "започват"
+    },
+    {
+      "id": "q_ders9_29d86191",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: На другите две места седят две момичета.)",
+      "answer": "Diğer iki yerde iki kız oturmaktadır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_6213f6cd",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Diğer iki yerde iki kız oturmaktadır.)",
+      "answer": "На другите две места седят две момичета.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_e2c8a678",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Diğer iki yerde iki kız oturmaktadır.",
+      "answer": "На другите две места седят две момичета.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "На",
+        "другите",
+        "две",
+        "места",
+        "седят",
+        "момичета"
+      ]
+    },
+    {
+      "id": "q_ders9_d289732f",
+      "type": "fitb",
+      "sentence": "Diğer iki yerde iki kız oturmaktadır.",
+      "answer": "На другите две места седят две момичета.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "места"
+    },
+    {
+      "id": "q_ders9_57bc133b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Те дояждат десерта си и стават.)",
+      "answer": "Onlar tatlılarını bitirir ve kalkarlar.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_aa440a2f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Onlar tatlılarını bitirir ve kalkarlar.)",
+      "answer": "Те дояждат десерта си и стават.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_b6b83ddc",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Onlar tatlılarını bitirir ve kalkarlar.",
+      "answer": "Те дояждат десерта си и стават.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Те",
+        "дояждат",
+        "десерта",
+        "си",
+        "и",
+        "стават"
+      ]
+    },
+    {
+      "id": "q_ders9_83e5e9a9",
+      "type": "fitb",
+      "sentence": "Onlar tatlılarını bitirir ve kalkarlar.",
+      "answer": "Те дояждат десерта си и стават.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "дояждат"
+    },
+    {
+      "id": "q_ders9_32579b15",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Прибират чиниите и другите прибори върху таблите, сбогуват се и си отиват.)",
+      "answer": "Tabakları ve diğer çatal-bıçak takımlarını tepsilerin üzerine toplarlar, vedalaşır ve giderler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_0e27d5de",
+      "type": "fitb",
+      "sentence": "Tabakları ve diğer çatal-bıçak takımlarını tepsilerin üzerine toplarlar, vedalaşır ve giderler.",
+      "answer": "Прибират чиниите и другите прибори върху таблите, сбогуват се и си отиват.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "таблите"
+    },
+    {
+      "id": "q_ders9_15eb64d3",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: След тях идват други двама студенти.)",
+      "answer": "Onlardan sonra iki başka öğrenci gelir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_a2ca417e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Onlardan sonra iki başka öğrenci gelir.)",
+      "answer": "След тях идват други двама студенти.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_a9998c0d",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Onlardan sonra iki başka öğrenci gelir.",
+      "answer": "След тях идват други двама студенти.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "След",
+        "тях",
+        "идват",
+        "други",
+        "двама",
+        "студенти"
+      ]
+    },
+    {
+      "id": "q_ders9_dba848f2",
+      "type": "fitb",
+      "sentence": "Onlardan sonra iki başka öğrenci gelir.",
+      "answer": "След тях идват други двама студенти.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "двама"
+    },
+    {
+      "id": "q_ders9_bcc86cc7",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Те питат дали са свободни местата и сядат.)",
+      "answer": "Yerlerin boş olup olmadığını sorarlar ve otururlar.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_648fc1ab",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Yerlerin boş olup olmadığını sorarlar ve otururlar.)",
+      "answer": "Те питат дали са свободни местата и сядат.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_c151063f",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yerlerin boş olup olmadığını sorarlar ve otururlar.",
+      "answer": "Те питат дали са свободни местата и сядат.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Те",
+        "питат",
+        "дали",
+        "са",
+        "свободни",
+        "местата",
+        "и",
+        "сядат"
+      ]
+    },
+    {
+      "id": "q_ders9_330f3133",
+      "type": "fitb",
+      "sentence": "Yerlerin boş olup olmadığını sorarlar ve otururlar.",
+      "answer": "Те питат дали са свободни местата и сядат.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "дали"
+    },
+    {
+      "id": "q_ders9_817694d7",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: До стола има и бюфет.)",
+      "answer": "Yemekhanenin yanında bir büfe de vardır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_35530668",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Yemekhanenin yanında bir büfe de vardır.)",
+      "answer": "До стола има и бюфет.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_218ffcfe",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yemekhanenin yanında bir büfe de vardır.",
+      "answer": "До стола има и бюфет.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "До",
+        "стола",
+        "има",
+        "и",
+        "бюфет"
+      ]
+    },
+    {
+      "id": "q_ders9_a9d0563d",
+      "type": "fitb",
+      "sentence": "Yemekhanenin yanında bir büfe de vardır.",
+      "answer": "До стола има и бюфет.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "стола"
+    },
+    {
+      "id": "q_ders9_e81e80e5",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: След обяда Христо и Митко изпиват там по един сок и кафе.)",
+      "answer": "Öğle yemeğinden sonra Hristo ve Mitko orada birer meyve suyu ve kahve içerler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_409954d3",
+      "type": "fitb",
+      "sentence": "Öğle yemeğinden sonra Hristo ve Mitko orada birer meyve suyu ve kahve içerler.",
+      "answer": "След обяда Христо и Митко изпиват там по един сок и кафе.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "След"
+    },
+    {
+      "id": "q_ders9_481a3a18",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Понякога си вземат и по нещо друго – шоколад, вафли или бисквити.)",
+      "answer": "Bazen başka bir şey de alırlar: çikolata, gofret veya bisküvi.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_b36fedaf",
+      "type": "fitb",
+      "sentence": "Bazen başka bir şey de alırlar: çikolata, gofret veya bisküvi.",
+      "answer": "Понякога си вземат и по нещо друго – шоколад, вафли или бисквити.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "друго"
+    },
+    {
+      "id": "q_ders9_9695f7d0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Прилагателни имена са думите, с които се назовава признак на предмет.)",
+      "answer": "Sıfatlar, bir varlığın/nesnenin özelliğini bildiren sözcüklerdir.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_7887f47b",
+      "type": "fitb",
+      "sentence": "Sıfatlar, bir varlığın/nesnenin özelliğini bildiren sözcüklerdir.",
+      "answer": "Прилагателни имена са думите, с които се назовава признак на предмет.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "назовава"
+    },
+    {
+      "id": "q_ders9_3c199c56",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: С тях се назовават цвят, големина, качества, физически качества, форма на предмета, обща оценка на предмета и др.)",
+      "answer": "Onlarla renk, büyüklük, koku/tat/dokunma gibi nitelikler, fiziksel özellikler, şekil ve genel değerlendirme gibi özellikler adlandırılır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_bf293f51",
+      "type": "fitb",
+      "sentence": "Onlarla renk, büyüklük, koku/tat/dokunma gibi nitelikler, fiziksel özellikler, şekil ve genel değerlendirme gibi özellikler adlandırılır.",
+      "answer": "С тях се назовават цвят, големина, качества, физически качества, форма на предмета, обща оценка на предмета и др.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "форма"
+    },
+    {
+      "id": "q_ders9_1db00e64",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: ГОЛЯМ човек, БЕЗКРАЙНА вселена, ХУБАВО дете, КРИСТАЛНА ваза, БРАТОВ син.)",
+      "answer": "BÜYÜK insan, SONSUZ evren, GÜZEL çocuk, KRİSTAL vazo, KARDEŞİN oğlu.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_9918ef29",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: BÜYÜK insan, SONSUZ evren, GÜZEL çocuk, KRİSTAL vazo, KARDEŞİN oğlu.)",
+      "answer": "ГОЛЯМ човек, БЕЗКРАЙНА вселена, ХУБАВО дете, КРИСТАЛНА ваза, БРАТОВ син.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_c6c599d6",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: BÜYÜK insan, SONSUZ evren, GÜZEL çocuk, KRİSTAL vazo, KARDEŞİN oğlu.",
+      "answer": "ГОЛЯМ човек, БЕЗКРАЙНА вселена, ХУБАВО дете, КРИСТАЛНА ваза, БРАТОВ син.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "ГОЛЯМ",
+        "човек",
+        "БЕЗКРАЙНА",
+        "вселена",
+        "ХУБАВО",
+        "дете",
+        "КРИСТАЛНА",
+        "ваза",
+        "БРАТОВ",
+        "син"
+      ]
+    },
+    {
+      "id": "q_ders9_b07001cb",
+      "type": "fitb",
+      "sentence": "BÜYÜK insan, SONSUZ evren, GÜZEL çocuk, KRİSTAL vazo, KARDEŞİN oğlu.",
+      "answer": "ГОЛЯМ човек, БЕЗКРАЙНА вселена, ХУБАВО дете, КРИСТАЛНА ваза, БРАТОВ син.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "вселена"
+    },
+    {
+      "id": "q_ders9_f87cef0f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: по-голям, най-интересен, по-щастлив, най-горещ.)",
+      "answer": "daha büyük, en ilginç, daha mutlu, en sıcak.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_54ae7f0b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: daha büyük, en ilginç, daha mutlu, en sıcak.)",
+      "answer": "по-голям, най-интересен, по-щастлив, най-горещ.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_d21855d8",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: daha büyük, en ilginç, daha mutlu, en sıcak.",
+      "answer": "по-голям, най-интересен, по-щастлив, най-горещ.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "по-голям",
+        "най-интересен",
+        "по-щастлив",
+        "най-горещ"
+      ]
+    },
+    {
+      "id": "q_ders9_817b52c7",
+      "type": "fitb",
+      "sentence": "daha büyük, en ilginç, daha mutlu, en sıcak.",
+      "answer": "по-голям, най-интересен, по-щастлив, най-горещ.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "най-горещ"
+    },
+    {
+      "id": "q_ders9_8e0729ca",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Днес Бистра и Петър имат празник – годишнина от сватбата.)",
+      "answer": "Bugün Bistra ve Petır’ın özel günü var: evlilik yıldönümleri.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_f10689eb",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bugün Bistra ve Petır’ın özel günü var: evlilik yıldönümleri.)",
+      "answer": "Днес Бистра и Петър имат празник – годишнина от сватбата.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_0d98fb26",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bugün Bistra ve Petır’ın özel günü var: evlilik yıldönümleri.",
+      "answer": "Днес Бистра и Петър имат празник – годишнина от сватбата.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Днес",
+        "Бистра",
+        "и",
+        "Петър",
+        "имат",
+        "празник",
+        "–",
+        "годишнина",
+        "от",
+        "сватбата"
+      ]
+    },
+    {
+      "id": "q_ders9_60880c5e",
+      "type": "fitb",
+      "sentence": "Bugün Bistra ve Petır’ın özel günü var: evlilik yıldönümleri.",
+      "answer": "Днес Бистра и Петър имат празник – годишнина от сватбата.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "Бистра"
+    },
+    {
+      "id": "q_ders9_fc9215b7",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Навършват се десет години, откакто са се оженили.)",
+      "answer": "Evlenmelerinin üzerinden on yıl doluyor.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_536b6b71",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Evlenmelerinin üzerinden on yıl doluyor.)",
+      "answer": "Навършват се десет години, откакто са се оженили.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_5e88d3f4",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Evlenmelerinin üzerinden on yıl doluyor.",
+      "answer": "Навършват се десет години, откакто са се оженили.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Навършват",
+        "се",
+        "десет",
+        "години",
+        "откакто",
+        "са",
+        "оженили"
+      ]
+    },
+    {
+      "id": "q_ders9_83efa29e",
+      "type": "fitb",
+      "sentence": "Evlenmelerinin üzerinden on yıl doluyor.",
+      "answer": "Навършват се десет години, откакто са се оженили.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "десет"
+    },
+    {
+      "id": "q_ders9_ed77f3ae",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Но няма да празнуват вкъщи.)",
+      "answer": "Ama evde kutlamayacaklar.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_e82d05bd",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Ama evde kutlamayacaklar.)",
+      "answer": "Но няма да празнуват вкъщи.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_791990ea",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ama evde kutlamayacaklar.",
+      "answer": "Но няма да празнуват вкъщи.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Но",
+        "няма",
+        "да",
+        "празнуват",
+        "вкъщи"
+      ]
+    },
+    {
+      "id": "q_ders9_e887e6e0",
+      "type": "fitb",
+      "sentence": "Ama evde kutlamayacaklar.",
+      "answer": "Но няма да празнуват вкъщи.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "няма"
+    },
+    {
+      "id": "q_ders9_a1fb0294",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Решиха да отидат с кумовете си на ресторант.)",
+      "answer": "Sağdıçları/nikâh şahitleriyle restorana gitmeye karar verdiler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_9574b40c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sağdıçları/nikâh şahitleriyle restorana gitmeye karar verdiler.)",
+      "answer": "Решиха да отидат с кумовете си на ресторант.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_c9b0cc66",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sağdıçları/nikâh şahitleriyle restorana gitmeye karar verdiler.",
+      "answer": "Решиха да отидат с кумовете си на ресторант.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Решиха",
+        "да",
+        "отидат",
+        "с",
+        "кумовете",
+        "си",
+        "на",
+        "ресторант"
+      ]
+    },
+    {
+      "id": "q_ders9_e989560a",
+      "type": "fitb",
+      "sentence": "Sağdıçları/nikâh şahitleriyle restorana gitmeye karar verdiler.",
+      "answer": "Решиха да отидат с кумовете си на ресторант.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "отидат"
+    },
+    {
+      "id": "q_ders9_11069166",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Още преди няколко дни Петър резервира маса в ресторанта на хотел „Пирин“.)",
+      "answer": "Petır daha birkaç gün önce “Pirin” otelinin restoranında masa ayırttı.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_81063e62",
+      "type": "fitb",
+      "sentence": "Petır daha birkaç gün önce “Pirin” otelinin restoranında masa ayırttı.",
+      "answer": "Още преди няколко дни Петър резервира маса в ресторанта на хотел „Пирин“.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "Петър"
+    },
+    {
+      "id": "q_ders9_433242fd",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Това е един твърде изискан и скъп ресторант.)",
+      "answer": "Bu oldukça seçkin ve pahalı bir restorandır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_a9179b36",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bu oldukça seçkin ve pahalı bir restorandır.)",
+      "answer": "Това е един твърде изискан и скъп ресторант.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_be636bf3",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bu oldukça seçkin ve pahalı bir restorandır.",
+      "answer": "Това е един твърде изискан и скъп ресторант.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Това",
+        "е",
+        "един",
+        "твърде",
+        "изискан",
+        "и",
+        "скъп",
+        "ресторант"
+      ]
+    },
+    {
+      "id": "q_ders9_2d361f4f",
+      "type": "fitb",
+      "sentence": "Bu oldukça seçkin ve pahalı bir restorandır.",
+      "answer": "Това е един твърде изискан и скъп ресторант.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "скъп"
+    },
+    {
+      "id": "q_ders9_611211e3",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Бистра и Петър не са богати, но един-два пъти в годината, когато имат повод, си позволяват да отидат в някой луксозен ресторант.)",
+      "answer": "Bistra ve Petır zengin değildir; fakat yılda bir iki kez, özel bir nedenleri olduğunda, lüks bir restorana gitmeye imkân ayırırlar.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_63450e87",
+      "type": "fitb",
+      "sentence": "Bistra ve Petır zengin değildir; fakat yılda bir iki kez, özel bir nedenleri olduğunda, lüks bir restorana gitmeye imkân ayırırlar.",
+      "answer": "Бистра и Петър не са богати, но един-два пъти в годината, когато имат повод, си позволяват да отидат в някой луксозен ресторант.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "годината"
+    },
+    {
+      "id": "q_ders9_2b823d53",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: В шест часа те вече бяха готови и тръгнаха.)",
+      "answer": "Saat altıda artık hazırdılar ve yola çıktılar.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_e75a1285",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Saat altıda artık hazırdılar ve yola çıktılar.)",
+      "answer": "В шест часа те вече бяха готови и тръгнаха.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_3cbe10b0",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Saat altıda artık hazırdılar ve yola çıktılar.",
+      "answer": "В шест часа те вече бяха готови и тръгнаха.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "В",
+        "шест",
+        "часа",
+        "те",
+        "вече",
+        "бяха",
+        "готови",
+        "и",
+        "тръгнаха"
+      ]
+    },
+    {
+      "id": "q_ders9_6813e658",
+      "type": "fitb",
+      "sentence": "Saat altıda artık hazırdılar ve yola çıktılar.",
+      "answer": "В шест часа те вече бяха готови и тръгнаха.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "вече"
+    },
+    {
+      "id": "q_ders9_86041ea2",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Не взеха такси, защото ресторантът е близо до тях.)",
+      "answer": "Taksiye binmediler, çünkü restoran onlara yakındır.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_c8ef7091",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Taksiye binmediler, çünkü restoran onlara yakındır.)",
+      "answer": "Не взеха такси, защото ресторантът е близо до тях.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_c03e3b7b",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Taksiye binmediler, çünkü restoran onlara yakındır.",
+      "answer": "Не взеха такси, защото ресторантът е близо до тях.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Не",
+        "взеха",
+        "такси",
+        "защото",
+        "ресторантът",
+        "е",
+        "близо",
+        "до",
+        "тях"
+      ]
+    },
+    {
+      "id": "q_ders9_c79c86c4",
+      "type": "fitb",
+      "sentence": "Taksiye binmediler, çünkü restoran onlara yakındır.",
+      "answer": "Не взеха такси, защото ресторантът е близо до тях.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "такси"
+    },
+    {
+      "id": "q_ders9_96afb7c7",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Освен това времето е хубаво и искаха да се поразходят преди това в парка.)",
+      "answer": "Ayrıca hava güzeldi ve öncesinde parkta biraz yürümek istiyorlardı.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_165104ee",
+      "type": "fitb",
+      "sentence": "Ayrıca hava güzeldi ve öncesinde parkta biraz yürümek istiyorlardı.",
+      "answer": "Освен това времето е хубаво и искаха да се поразходят преди това в парка.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "преди"
+    },
+    {
+      "id": "q_ders9_7c886c43",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: В седем часа те бяха пред входа на ресторанта.)",
+      "answer": "Saat yedide restoranın girişinin önündeydiler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_7bc77272",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Saat yedide restoranın girişinin önündeydiler.)",
+      "answer": "В седем часа те бяха пред входа на ресторанта.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_23358e29",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Saat yedide restoranın girişinin önündeydiler.",
+      "answer": "В седем часа те бяха пред входа на ресторанта.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "В",
+        "седем",
+        "часа",
+        "те",
+        "бяха",
+        "пред",
+        "входа",
+        "на",
+        "ресторанта"
+      ]
+    },
+    {
+      "id": "q_ders9_7a06758e",
+      "type": "fitb",
+      "sentence": "Saat yedide restoranın girişinin önündeydiler.",
+      "answer": "В седем часа те бяха пред входа на ресторанта.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "бяха"
+    },
+    {
+      "id": "q_ders9_8feda74c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Там вече ги чакаха кумовете им Калина и Георги.)",
+      "answer": "Orada nikâh şahitleri Kalina ve Georgi onları bekliyordu.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_4689e19b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Orada nikâh şahitleri Kalina ve Georgi onları bekliyordu.)",
+      "answer": "Там вече ги чакаха кумовете им Калина и Георги.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_32eddcf8",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Orada nikâh şahitleri Kalina ve Georgi onları bekliyordu.",
+      "answer": "Там вече ги чакаха кумовете им Калина и Георги.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Там",
+        "вече",
+        "ги",
+        "чакаха",
+        "кумовете",
+        "им",
+        "Калина",
+        "и",
+        "Георги"
+      ]
+    },
+    {
+      "id": "q_ders9_14c07566",
+      "type": "fitb",
+      "sentence": "Orada nikâh şahitleri Kalina ve Georgi onları bekliyordu.",
+      "answer": "Там вече ги чакаха кумовете им Калина и Георги.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "чакаха"
+    },
+    {
+      "id": "q_ders9_5a9bc431",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Те се поздравиха и влязоха.)",
+      "answer": "Birbirlerini selamladılar ve içeri girdiler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_3b245c02",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Birbirlerini selamladılar ve içeri girdiler.)",
+      "answer": "Те се поздравиха и влязоха.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_ad41658b",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Birbirlerini selamladılar ve içeri girdiler.",
+      "answer": "Те се поздравиха и влязоха.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Те",
+        "се",
+        "поздравиха",
+        "и",
+        "влязоха"
+      ]
+    },
+    {
+      "id": "q_ders9_21f3feb7",
+      "type": "fitb",
+      "sentence": "Birbirlerini selamladılar ve içeri girdiler.",
+      "answer": "Те се поздравиха и влязоха.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "влязоха"
+    },
+    {
+      "id": "q_ders9_47dd64a0",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Главният сервитьор им показа тяхната маса.)",
+      "answer": "Baş garson onlara masalarını gösterdi.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_c172a94a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Baş garson onlara masalarını gösterdi.)",
+      "answer": "Главният сервитьор им показа тяхната маса.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_f25ba335",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Baş garson onlara masalarını gösterdi.",
+      "answer": "Главният сервитьор им показа тяхната маса.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Главният",
+        "сервитьор",
+        "им",
+        "показа",
+        "тяхната",
+        "маса"
+      ]
+    },
+    {
+      "id": "q_ders9_9a45e84a",
+      "type": "fitb",
+      "sentence": "Baş garson onlara masalarını gösterdi.",
+      "answer": "Главният сервитьор им показа тяхната маса.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "сервитьор"
+    },
+    {
+      "id": "q_ders9_4b08af7b",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: В ресторанта още имаше много свободни маси.)",
+      "answer": "Restoranda hâlâ çok sayıda boş masa vardı.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_596326fe",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Restoranda hâlâ çok sayıda boş masa vardı.)",
+      "answer": "В ресторанта още имаше много свободни маси.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_acef028a",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Restoranda hâlâ çok sayıda boş masa vardı.",
+      "answer": "В ресторанта още имаше много свободни маси.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "В",
+        "ресторанта",
+        "още",
+        "имаше",
+        "много",
+        "свободни",
+        "маси"
+      ]
+    },
+    {
+      "id": "q_ders9_10de5f9c",
+      "type": "fitb",
+      "sentence": "Restoranda hâlâ çok sayıda boş masa vardı.",
+      "answer": "В ресторанта още имаше много свободни маси.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "имаше"
+    },
+    {
+      "id": "q_ders9_acaae49e",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Келнерът забеляза, че дамите се оглеждат и им предложи да си изберат друга маса.)",
+      "answer": "Garson hanımların etrafa baktığını fark etti ve onlara başka bir masa seçmelerini önerdi.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_08d8b0ec",
+      "type": "fitb",
+      "sentence": "Garson hanımların etrafa baktığını fark etti ve onlara başka bir masa seçmelerini önerdi.",
+      "answer": "Келнерът забеляза, че дамите се оглеждат и им предложи да си изберат друга маса.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "изберат"
+    },
+    {
+      "id": "q_ders9_43ef45cc",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Явно тази не им харесваше.)",
+      "answer": "Anlaşılan bu masa hoşlarına gitmemişti.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_b08d3aba",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Anlaşılan bu masa hoşlarına gitmemişti.)",
+      "answer": "Явно тази не им харесваше.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_bdae417d",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Anlaşılan bu masa hoşlarına gitmemişti.",
+      "answer": "Явно тази не им харесваше.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Явно",
+        "тази",
+        "не",
+        "им",
+        "харесваше"
+      ]
+    },
+    {
+      "id": "q_ders9_6b3a90fa",
+      "type": "fitb",
+      "sentence": "Anlaşılan bu masa hoşlarına gitmemişti.",
+      "answer": "Явно тази не им харесваше.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "харесваше"
+    },
+    {
+      "id": "q_ders9_ea4a240a",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Жените смятаха, че е много близо до оркестъра и предпочетоха да я сменят с друга.)",
+      "answer": "Kadınlar onun orkestraya çok yakın olduğunu düşünüyorlardı ve onu başka bir masayla değiştirmeyi tercih ettiler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_e5514542",
+      "type": "fitb",
+      "sentence": "Kadınlar onun orkestraya çok yakın olduğunu düşünüyorlardı ve onu başka bir masayla değiştirmeyi tercih ettiler.",
+      "answer": "Жените смятаха, че е много близо до оркестъра и предпочетоха да я сменят с друга.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "сменят"
+    },
+    {
+      "id": "q_ders9_ef74d934",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Масата, която избраха, наистина беше на по-тихо място.)",
+      "answer": "Seçtikleri masa gerçekten daha sessiz bir yerdeydi.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_c1c61759",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Seçtikleri masa gerçekten daha sessiz bir yerdeydi.)",
+      "answer": "Масата, която избраха, наистина беше на по-тихо място.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_92429bf1",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Seçtikleri masa gerçekten daha sessiz bir yerdeydi.",
+      "answer": "Масата, която избраха, наистина беше на по-тихо място.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Масата",
+        "която",
+        "избраха",
+        "наистина",
+        "беше",
+        "на",
+        "по-тихо",
+        "място"
+      ]
+    },
+    {
+      "id": "q_ders9_99069952",
+      "type": "fitb",
+      "sentence": "Seçtikleri masa gerçekten daha sessiz bir yerdeydi.",
+      "answer": "Масата, която избраха, наистина беше на по-тихо място.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "която"
+    },
+    {
+      "id": "q_ders9_d33ffa47",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Кавалерите уважиха решението на дамите.)",
+      "answer": "Beyler hanımların kararına saygı gösterdi.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_4b88d37c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Beyler hanımların kararına saygı gösterdi.)",
+      "answer": "Кавалерите уважиха решението на дамите.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_d2cc1fa4",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Beyler hanımların kararına saygı gösterdi.",
+      "answer": "Кавалерите уважиха решението на дамите.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Кавалерите",
+        "уважиха",
+        "решението",
+        "на",
+        "дамите"
+      ]
+    },
+    {
+      "id": "q_ders9_f1528c33",
+      "type": "fitb",
+      "sentence": "Beyler hanımların kararına saygı gösterdi.",
+      "answer": "Кавалерите уважиха решението на дамите.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "решението"
+    },
+    {
+      "id": "q_ders9_129643ac",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Веднага след като седнаха, сервитьорът подреди масата.)",
+      "answer": "Oturtur oturmaz garson masayı düzenledi.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_e0b6ecbf",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Oturtur oturmaz garson masayı düzenledi.)",
+      "answer": "Веднага след като седнаха, сервитьорът подреди масата.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_01f9944a",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Oturtur oturmaz garson masayı düzenledi.",
+      "answer": "Веднага след като седнаха, сервитьорът подреди масата.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Веднага",
+        "след",
+        "като",
+        "седнаха",
+        "сервитьорът",
+        "подреди",
+        "масата"
+      ]
+    },
+    {
+      "id": "q_ders9_82f250f6",
+      "type": "fitb",
+      "sentence": "Oturtur oturmaz garson masayı düzenledi.",
+      "answer": "Веднага след като седнаха, сервитьорът подреди масата.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "сервитьорът"
+    },
+    {
+      "id": "q_ders9_53993073",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Той донесе вилици, лъжици, ножове и салфетки.)",
+      "answer": "Çatallar, kaşıklar, bıçaklar ve peçeteler getirdi.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_2b930042",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Çatallar, kaşıklar, bıçaklar ve peçeteler getirdi.)",
+      "answer": "Той донесе вилици, лъжици, ножове и салфетки.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_7316192e",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Çatallar, kaşıklar, bıçaklar ve peçeteler getirdi.",
+      "answer": "Той донесе вилици, лъжици, ножове и салфетки.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Той",
+        "донесе",
+        "вилици",
+        "лъжици",
+        "ножове",
+        "и",
+        "салфетки"
+      ]
+    },
+    {
+      "id": "q_ders9_e443be38",
+      "type": "fitb",
+      "sentence": "Çatallar, kaşıklar, bıçaklar ve peçeteler getirdi.",
+      "answer": "Той донесе вилици, лъжици, ножове и салфетки.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "ножове"
+    },
+    {
+      "id": "q_ders9_de033116",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: След това им подаде менюто.)",
+      "answer": "Sonra onlara menüyü uzattı.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_d993b708",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sonra onlara menüyü uzattı.)",
+      "answer": "След това им подаде менюто.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_9207c655",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sonra onlara menüyü uzattı.",
+      "answer": "След това им подаде менюто.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "След",
+        "това",
+        "им",
+        "подаде",
+        "менюто"
+      ]
+    },
+    {
+      "id": "q_ders9_ba769bb6",
+      "type": "fitb",
+      "sentence": "Sonra onlara menüyü uzattı.",
+      "answer": "След това им подаде менюто.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "След"
+    },
+    {
+      "id": "q_ders9_40671eaa",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Първо го погледнаха дамите.)",
+      "answer": "Önce hanımlar ona baktılar.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_cb1b4d39",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Önce hanımlar ona baktılar.)",
+      "answer": "Първо го погледнаха дамите.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_7ae7a0ca",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Önce hanımlar ona baktılar.",
+      "answer": "Първо го погледнаха дамите.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Първо",
+        "го",
+        "погледнаха",
+        "дамите"
+      ]
+    },
+    {
+      "id": "q_ders9_a1752c15",
+      "type": "fitb",
+      "sentence": "Önce hanımlar ona baktılar.",
+      "answer": "Първо го погледнаха дамите.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "Първо"
+    },
+    {
+      "id": "q_ders9_2007a672",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Калина си избра един ордьовър с шунка, яйца и руска салата, а за вечеря – телешка пържола с гарнитура.)",
+      "answer": "Kalina kendine jambonlu, yumurtalı ve Rus salatalı bir ordövr seçti; akşam yemeği için de garnitürlü dana pirzola seçti.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_50cd26b3",
+      "type": "fitb",
+      "sentence": "Kalina kendine jambonlu, yumurtalı ve Rus salatalı bir ordövr seçti; akşam yemeği için de garnitürlü dana pirzola seçti.",
+      "answer": "Калина си избра един ордьовър с шунка, яйца и руска салата, а за вечеря – телешка пържола с гарнитура.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "яйца"
+    },
+    {
+      "id": "q_ders9_47e64a47",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Бистра реши да си вземе една мешана салата вместо предястие, а за вечеря – пържени кюфтета с доматен сос и гъби.)",
+      "answer": "Bistra meze yerine karışık salata almaya, akşam yemeği için ise domates soslu ve mantarlı kızarmış köfte almaya karar verdi.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_e299cfb0",
+      "type": "fitb",
+      "sentence": "Bistra meze yerine karışık salata almaya, akşam yemeği için ise domates soslu ve mantarlı kızarmış köfte almaya karar verdi.",
+      "answer": "Бистра реши да си вземе една мешана салата вместо предястие, а за вечеря – пържени кюфтета с доматен сос и гъби.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "пържени"
+    },
+    {
+      "id": "q_ders9_385ca0db",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: После подадоха менюто на мъжете.)",
+      "answer": "Sonra menüyü erkeklere verdiler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_6e04c966",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sonra menüyü erkeklere verdiler.)",
+      "answer": "После подадоха менюто на мъжете.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_fa9880be",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sonra menüyü erkeklere verdiler.",
+      "answer": "После подадоха менюто на мъжете.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "После",
+        "подадоха",
+        "менюто",
+        "на",
+        "мъжете"
+      ]
+    },
+    {
+      "id": "q_ders9_ff1ce9d2",
+      "type": "fitb",
+      "sentence": "Sonra menüyü erkeklere verdiler.",
+      "answer": "После подадоха менюто на мъжете.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "менюто"
+    },
+    {
+      "id": "q_ders9_b84cc0ea",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Те решиха да си поръчат по една шопска салата и по една мешана скара.)",
+      "answer": "Onlar kişi başı birer Şopska salata ve birer karışık ızgara sipariş etmeye karar verdiler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_d58f6ca3",
+      "type": "fitb",
+      "sentence": "Onlar kişi başı birer Şopska salata ve birer karışık ızgara sipariş etmeye karar verdiler.",
+      "answer": "Те решиха да си поръчат по една шопска салата и по една мешана скара.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "мешана"
+    },
+    {
+      "id": "q_ders9_5b73b831",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: За вечерята келнерът им препоръча да си вземат френско шампанско.)",
+      "answer": "Garson akşam yemeği için Fransız şampanyası almalarını tavsiye etti.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_4471daea",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Garson akşam yemeği için Fransız şampanyası almalarını tavsiye etti.)",
+      "answer": "За вечерята келнерът им препоръча да си вземат френско шампанско.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_1ec961a8",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Garson akşam yemeği için Fransız şampanyası almalarını tavsiye etti.",
+      "answer": "За вечерята келнерът им препоръча да си вземат френско шампанско.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "За",
+        "вечерята",
+        "келнерът",
+        "им",
+        "препоръча",
+        "да",
+        "си",
+        "вземат",
+        "френско",
+        "шампанско"
+      ]
+    },
+    {
+      "id": "q_ders9_56ae5bba",
+      "type": "fitb",
+      "sentence": "Garson akşam yemeği için Fransız şampanyası almalarını tavsiye etti.",
+      "answer": "За вечерята келнерът им препоръча да си вземат френско шампанско.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "препоръча"
+    },
+    {
+      "id": "q_ders9_40508b59",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: След вечерята те си поръчаха за десерт по една мелба.)",
+      "answer": "Akşam yemeğinden sonra tatlı olarak kişi başı birer melba sipariş ettiler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_2f3e7d37",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Akşam yemeğinden sonra tatlı olarak kişi başı birer melba sipariş ettiler.)",
+      "answer": "След вечерята те си поръчаха за десерт по една мелба.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_b01dee35",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Akşam yemeğinden sonra tatlı olarak kişi başı birer melba sipariş ettiler.",
+      "answer": "След вечерята те си поръчаха за десерт по една мелба.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "След",
+        "вечерята",
+        "те",
+        "си",
+        "поръчаха",
+        "за",
+        "десерт",
+        "по",
+        "една",
+        "мелба"
+      ]
+    },
+    {
+      "id": "q_ders9_75a99b28",
+      "type": "fitb",
+      "sentence": "Akşam yemeğinden sonra tatlı olarak kişi başı birer melba sipariş ettiler.",
+      "answer": "След вечерята те си поръчаха за десерт по една мелба.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "След"
+    },
+    {
+      "id": "q_ders9_44fb591c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Вечерта премина много весело.)",
+      "answer": "Akşam çok neşeli geçti.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_658cf39c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Akşam çok neşeli geçti.)",
+      "answer": "Вечерта премина много весело.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_db9a2660",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Akşam çok neşeli geçti.",
+      "answer": "Вечерта премина много весело.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Вечерта",
+        "премина",
+        "много",
+        "весело"
+      ]
+    },
+    {
+      "id": "q_ders9_e05201ab",
+      "type": "fitb",
+      "sentence": "Akşam çok neşeli geçti.",
+      "answer": "Вечерта премина много весело.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "премина"
+    },
+    {
+      "id": "q_ders9_0020126d",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Те често вдигаха тостове за здраве и щастие.)",
+      "answer": "Sık sık sağlık ve mutluluk için kadeh kaldırdılar.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_0fbb0e9c",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Sık sık sağlık ve mutluluk için kadeh kaldırdılar.)",
+      "answer": "Те често вдигаха тостове за здраве и щастие.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_48e5c78a",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sık sık sağlık ve mutluluk için kadeh kaldırdılar.",
+      "answer": "Те често вдигаха тостове за здраве и щастие.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Те",
+        "често",
+        "вдигаха",
+        "тостове",
+        "за",
+        "здраве",
+        "и",
+        "щастие"
+      ]
+    },
+    {
+      "id": "q_ders9_c1c44121",
+      "type": "fitb",
+      "sentence": "Sık sık sağlık ve mutluluk için kadeh kaldırdılar.",
+      "answer": "Те често вдигаха тостове за здраве и щастие.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "тостове"
+    },
+    {
+      "id": "q_ders9_616a17c6",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Пожелаваха си много щастие, радост и успехи в живота.)",
+      "answer": "Birbirlerine hayatta çok mutluluk, sevinç ve başarı dilediler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_c200b7d1",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Birbirlerine hayatta çok mutluluk, sevinç ve başarı dilediler.)",
+      "answer": "Пожелаваха си много щастие, радост и успехи в живота.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_b089a3da",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Birbirlerine hayatta çok mutluluk, sevinç ve başarı dilediler.",
+      "answer": "Пожелаваха си много щастие, радост и успехи в живота.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Пожелаваха",
+        "си",
+        "много",
+        "щастие",
+        "радост",
+        "и",
+        "успехи",
+        "в",
+        "живота"
+      ]
+    },
+    {
+      "id": "q_ders9_234bfa76",
+      "type": "fitb",
+      "sentence": "Birbirlerine hayatta çok mutluluk, sevinç ve başarı dilediler.",
+      "answer": "Пожелаваха си много щастие, радост и успехи в живота.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "радост"
+    },
+    {
+      "id": "q_ders9_7baea844",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: По време на вечерята танцуваха, шегуваха се, смяха се.)",
+      "answer": "Akşam yemeği sırasında dans ettiler, şakalaştılar, güldüler.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_c678f355",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Akşam yemeği sırasında dans ettiler, şakalaştılar, güldüler.)",
+      "answer": "По време на вечерята танцуваха, шегуваха се, смяха се.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_6a9be117",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Akşam yemeği sırasında dans ettiler, şakalaştılar, güldüler.",
+      "answer": "По време на вечерята танцуваха, шегуваха се, смяха се.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "По",
+        "време",
+        "на",
+        "вечерята",
+        "танцуваха",
+        "шегуваха",
+        "се",
+        "смяха"
+      ]
+    },
+    {
+      "id": "q_ders9_ec186331",
+      "type": "fitb",
+      "sentence": "Akşam yemeği sırasında dans ettiler, şakalaştılar, güldüler.",
+      "answer": "По време на вечерята танцуваха, шегуваха се, смяха се.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "танцуваха"
+    },
+    {
+      "id": "q_ders9_492505a3",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Това беше една прекрасна вечер!)",
+      "answer": "Bu harika bir akşamdı!",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_142b6999",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Bu harika bir akşamdı!)",
+      "answer": "Това беше една прекрасна вечер!",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_8625e0f8",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bu harika bir akşamdı!",
+      "answer": "Това беше една прекрасна вечер!",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Това",
+        "беше",
+        "една",
+        "прекрасна",
+        "вечер"
+      ]
+    },
+    {
+      "id": "q_ders9_4d5ed552",
+      "type": "fitb",
+      "sentence": "Bu harika bir akşamdı!",
+      "answer": "Това беше една прекрасна вечер!",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "вечер"
+    },
+    {
+      "id": "q_ders9_5d61f444",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Дълго ще я помнят.)",
+      "answer": "Onu uzun süre hatırlayacaklar.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_5bb9d6f9",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Onu uzun süre hatırlayacaklar.)",
+      "answer": "Дълго ще я помнят.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_fbf754b6",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Onu uzun süre hatırlayacaklar.",
+      "answer": "Дълго ще я помнят.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Дълго",
+        "ще",
+        "я",
+        "помнят"
+      ]
+    },
+    {
+      "id": "q_ders9_6151957e",
+      "type": "fitb",
+      "sentence": "Onu uzun süre hatırlayacaklar.",
+      "answer": "Дълго ще я помнят.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "помнят"
+    },
+    {
+      "id": "q_ders9_677e9a3d",
+      "type": "translation",
+      "sentence": "Çeviriniz (Bulgarcası: Щандове, видове стоки в различните магазини. Предпочитан магазин за пазаруване.)",
+      "answer": "Reyonlar, farklı mağazalardaki ürün türleri ve alışveriş için tercih edilen mağaza.",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_804dda2f",
+      "type": "translation",
+      "sentence": "Çeviriniz (Türkçesi: Reyonlar, farklı mağazalardaki ürün türleri ve alışveriş için tercih edilen mağaza.)",
+      "answer": "Щандове, видове стоки в различните магазини. Предпочитан магазин за пазаруване.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 9"
+    },
+    {
+      "id": "q_ders9_c06929df",
+      "type": "scramble",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Reyonlar, farklı mağazalardaki ürün türleri ve alışveriş için tercih edilen mağaza.",
+      "answer": "Щандове, видове стоки в различните магазини. Предпочитан магазин за пазаруване.",
+      "hint": "Doğru sıralamayı bul",
+      "lesson": "Ders 9",
+      "options": [
+        "Щандове",
+        "видове",
+        "стоки",
+        "в",
+        "различните",
+        "магазини",
+        "Предпочитан",
+        "магазин",
+        "за",
+        "пазаруване"
+      ]
+    },
+    {
+      "id": "q_ders9_32199879",
+      "type": "fitb",
+      "sentence": "Reyonlar, farklı mağazalardaki ürün türleri ve alışveriş için tercih edilen mağaza.",
+      "answer": "Щандове, видове стоки в различните магазини. Предпочитан магазин за пазаруване.",
+      "hint": "Boşluğa uygun kelimeyi yazınız",
+      "lesson": "Ders 9",
+      "fitbTarget": "магазини"
+    },
+    {
+      "id": "q_ders9_4f4031f4",
+      "type": "matching",
+      "sentence": "Kelimeleri veya kısa cümleleri doğru anlamlarıyla eşleştiriniz.",
+      "answer": "Там се хранят вечер., Първо го погледнаха дамите., Вечерта премина много весело., Дълго ще я помнят.",
+      "pairs": [
+        {
+          "bg": "Там се хранят вечер.",
+          "tr": "Orada akşam yemek yerler."
+        },
+        {
+          "bg": "Първо го погледнаха дамите.",
+          "tr": "Önce hanımlar ona baktılar."
+        },
+        {
+          "bg": "Вечерта премина много весело.",
+          "tr": "Akşam çok neşeli geçti."
+        },
+        {
+          "bg": "Дълго ще я помнят.",
+          "tr": "Onu uzun süre hatırlayacaklar."
+        }
+      ],
+      "hint": "Üzerlerine tıklayarak eşleştir",
+      "lesson": "Ders 9"
+    }
+  ]
+}
