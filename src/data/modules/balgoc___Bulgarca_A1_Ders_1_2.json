@@ -585,14 +585,6 @@
       ]
     },
     {
-      "id": "q_auto_b99dce7e",
-      "type": "translation",
-      "sentence": "Bir kelimedeki ünlü sayısı genellikle hece sayısını belirler.",
-      "answer": "Броят на гласните в думата определя броя на сричките.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Ü bazı alıntılarda У ile yazılır."
-    },
-    {
       "id": "q_auto_50632ba6",
       "type": "translation",
       "sentence": "Броят на гласните в думата определя броя на сричките.",
