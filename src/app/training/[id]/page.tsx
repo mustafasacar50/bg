@@ -148,21 +148,23 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     return () => document.removeEventListener('selectionchange', handleSelection);
   }, []);
 
+  const [isWordAdded, setIsWordAdded] = useState(false);
+
   const handleAddUnknownWord = async () => {
     if (!selectedWord || !student?.id) return;
     const word = selectedWord.word;
     
-    // Clear the selection natively so the button disappears
-    window.getSelection()?.removeAllRanges();
-    
     if (unknownWords.includes(word)) {
+      window.getSelection()?.removeAllRanges();
       setSelectedWord(null);
       return;
     }
     
     const newWords = [...unknownWords, word];
     setUnknownWords(newWords);
-    setSelectedWord(null);
+    
+    // Show success state
+    setIsWordAdded(true);
     
     try {
       await fetch('/api/training-progress', {
@@ -176,6 +178,13 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     } catch(e) {
       console.error(e);
     }
+    
+    // Hide after a brief delay
+    setTimeout(() => {
+      window.getSelection()?.removeAllRanges();
+      setSelectedWord(null);
+      setIsWordAdded(false);
+    }, 1200);
   };
 
   // 2. Fetch Module & Set Questions
@@ -827,9 +836,12 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               e.preventDefault(); // Prevent selection from clearing before click
               handleAddUnknownWord();
             }}
-            className="bg-indigo-500 hover:bg-indigo-400 px-4 py-2 rounded-xl font-bold text-sm transition-colors whitespace-nowrap shadow-sm cursor-pointer"
+            disabled={isWordAdded}
+            className={`px-4 py-2 rounded-xl font-bold text-sm transition-colors whitespace-nowrap shadow-sm cursor-pointer ${
+              isWordAdded ? 'bg-emerald-500 hover:bg-emerald-500' : 'bg-indigo-500 hover:bg-indigo-400'
+            }`}
           >
-            ➕ Listeme Ekle
+            {isWordAdded ? '✅ Eklendi' : '➕ Listeme Ekle'}
           </button>
         </div>
       )}
