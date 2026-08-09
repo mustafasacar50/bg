@@ -37,10 +37,14 @@ export async function POST(request: Request) {
     }
 
     const fileData = await getGitHubFile(FILE_PATH).catch(() => ({ content: "{}" }));
-    
     let progressData: any = {};
     try {
-      progressData = JSON.parse(fileData.content);
+      const parsed = JSON.parse(fileData.content);
+      if (Array.isArray(parsed)) {
+        progressData = {};
+      } else {
+        progressData = parsed || {};
+      }
     } catch(e) {
       progressData = {};
     }
