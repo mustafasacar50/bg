@@ -2,14 +2,6 @@
   "title": "Ders 1 ve 2: Alfabeye Giriş ve Tanışma",
   "questions": [
     {
-      "id": "q_auto_d075c2e4",
-      "type": "translation",
-      "sentence": "Kiril alfabesinin fonetik özellikleri. Basılı ve el yazısı harfleri, yazıdaki farklılıklar ve birbirine karıştırılabilecek harfler.",
-      "answer": "Фонетични особености на кирилицата. Печатни и ръкописни букви, разлики и контаминация при писане.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır."
-    },
-    {
       "id": "q_auto_ee093c6e",
       "type": "translation",
       "sentence": "Фонетични особености на кирилицата. Печатни и ръкописни букви, разлики и контаминация при писане.",
