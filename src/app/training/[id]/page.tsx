@@ -100,6 +100,10 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   // Font State
   const [useCursiveBg, setUseCursiveBg] = useState(false);
 
+  // Swipe State
+  const [touchStart, setTouchStart] = useState<number | null>(null);
+  const [touchEnd, setTouchEnd] = useState<number | null>(null);
+
   // 1. Initialize Student & Score
   useEffect(() => {
     try {
@@ -549,6 +553,43 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     }
   };
 
+  const handlePrev = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1);
+      setUserAnswer('');
+      setFeedback('none');
+      setIsSwapped(false);
+      setIsFlipped(false);
+      setSelectedMatch(null);
+      setMatchedIds([]);
+    }
+  };
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    if (!adminMode) return;
+    setTouchEnd(null);
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const onTouchMove = (e: React.TouchEvent) => {
+    if (!adminMode) return;
+    setTouchEnd(e.targetTouches[0].clientX);
+  };
+
+  const onTouchEnd = () => {
+    if (!adminMode || touchStart === null || touchEnd === null) return;
+    const distance = touchStart - touchEnd;
+    const isLeftSwipe = distance > 50;
+    const isRightSwipe = distance < -50;
+    
+    if (isLeftSwipe) {
+      handleNext();
+    }
+    if (isRightSwipe) {
+      handlePrev();
+    }
+  };
+
   const handleNext = () => {
     if (Date.now() - lastCheckTime.current < 800) return; // Prevent double-click or enter-hold auto-advance
     if (!activeQuestion) return;
@@ -698,7 +739,12 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   if (!data) return <div className="min-h-screen flex items-center justify-center text-red-500">Modül bulunamadı.</div>;
 
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col pb-36 sm:pb-24">
+    <div 
+      className="min-h-screen bg-slate-50 flex flex-col pb-36 sm:pb-24 overflow-x-hidden"
+      onTouchStart={onTouchStart}
+      onTouchMove={onTouchMove}
+      onTouchEnd={onTouchEnd}
+    >
       {/* Header */}
       <header className="bg-white border-b border-slate-200 px-2 py-2 sm:px-4 sm:py-3 flex flex-col items-center sticky top-0 z-10 gap-2">
         
