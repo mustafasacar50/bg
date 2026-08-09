@@ -2,14 +2,21 @@ import { NextResponse } from 'next/server';
 import { kv } from '@vercel/kv';
 import webpush from 'web-push';
 
-webpush.setVapidDetails(
-  process.env.VAPID_SUBJECT || 'mailto:admin@example.com',
-  process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY as string,
-  process.env.VAPID_PRIVATE_KEY as string
-);
-
 export async function GET(request: Request) {
   try {
+    const publicKey = process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY;
+    const privateKey = process.env.VAPID_PRIVATE_KEY;
+    
+    if (publicKey && privateKey) {
+      webpush.setVapidDetails(
+        process.env.VAPID_SUBJECT || 'mailto:admin@example.com',
+        publicKey,
+        privateKey
+      );
+    } else {
+      console.warn("VAPID keys are missing in environment variables.");
+    }
+
     // In production, secure this endpoint with a secret token
     const { searchParams } = new URL(request.url);
     if (searchParams.get('token') !== process.env.CRON_SECRET && process.env.NODE_ENV === 'production') {
