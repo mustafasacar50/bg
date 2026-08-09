@@ -8,6 +8,55 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
   try {
     const params = await context.params;
     const moduleId = params.id;
+    const { searchParams } = new URL(request.url);
+    const studentId = searchParams.get('studentId');
+
+    // Handle virtual vocabulary module
+    if (moduleId === 'vocab') {
+      if (!studentId) {
+        return NextResponse.json({ error: 'studentId required for vocab module' }, { status: 400 });
+      }
+
+      // 1. Get unknown words for student
+      const progPath = path.join(process.cwd(), 'src', 'data', 'training_progress.json');
+      let unknownWords: string[] = [];
+      if (fs.existsSync(progPath)) {
+        const progData = JSON.parse(fs.readFileSync(progPath, 'utf8'));
+        unknownWords = progData[studentId]?.unknownWords || [];
+      }
+
+      if (unknownWords.length === 0) {
+        return NextResponse.json({ title: 'Kelime Sepetim', questions: [] });
+      }
+
+      // 2. Scan all modules for matching questions
+      const modulesDir = path.join(process.cwd(), 'src', 'data', 'modules');
+      const files = fs.existsSync(modulesDir) ? fs.readdirSync(modulesDir).filter(f => f.endsWith('.json')) : [];
+      
+      const allMatchingQuestions: any[] = [];
+      const seenIds = new Set();
+
+      for (const file of files) {
+        const content = fs.readFileSync(path.join(modulesDir, file), 'utf8');
+        try {
+          const modData = JSON.parse(content);
+          if (modData.questions) {
+            for (const q of modData.questions) {
+              const text = (q.sentence + ' ' + q.answer).toLowerCase();
+              const hasUnknown = unknownWords.some(w => text.includes(w));
+              if (hasUnknown && !seenIds.has(q.id)) {
+                allMatchingQuestions.push(q);
+                seenIds.add(q.id);
+              }
+            }
+          }
+        } catch(e) {}
+      }
+
+      return NextResponse.json({ title: 'Kelime Sepetim', questions: allMatchingQuestions });
+    }
+
+    // Normal module handling
     const filePath = path.join(process.cwd(), 'src', 'data', 'modules', `${moduleId}.json`);
     
     if (!fs.existsSync(filePath)) {

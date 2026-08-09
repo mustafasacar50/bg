@@ -32,8 +32,8 @@ export async function POST(request: Request) {
   try {
     const data = await request.json();
     
-    if (!data.studentId || !data.moduleId) {
-      return NextResponse.json({ error: "studentId and moduleId are required" }, { status: 400 });
+    if (!data.studentId) {
+      return NextResponse.json({ error: "studentId is required" }, { status: 400 });
     }
 
     const fileData = await getGitHubFile(FILE_PATH).catch(() => ({ content: "{}" }));
@@ -50,34 +50,42 @@ export async function POST(request: Request) {
       progressData[data.studentId] = {};
     }
 
-    // Initialize module if not exists
-    if (!progressData[data.studentId][data.moduleId]) {
-      progressData[data.studentId][data.moduleId] = {
-        mistakes: [],
-        allProgress: 0,
-        mistakesProgress: 0,
-        score: 0,
-        lastUpdated: new Date().toISOString()
-      };
+    // Update global student fields
+    if (data.unknownWords !== undefined) {
+      progressData[data.studentId].unknownWords = data.unknownWords;
     }
 
-    // Update fields if provided
-    const modProgress = progressData[data.studentId][data.moduleId];
-    
-    if (data.mistakes !== undefined) modProgress.mistakes = data.mistakes;
-    if (data.allProgress !== undefined) modProgress.allProgress = data.allProgress;
-    if (data.mistakesProgress !== undefined) modProgress.mistakesProgress = data.mistakesProgress;
-    if (data.score !== undefined) modProgress.score = data.score;
-    
-    modProgress.lastUpdated = new Date().toISOString();
+    let modProgress = null;
+    if (data.moduleId) {
+      // Initialize module if not exists
+      if (!progressData[data.studentId][data.moduleId]) {
+        progressData[data.studentId][data.moduleId] = {
+          mistakes: [],
+          allProgress: 0,
+          mistakesProgress: 0,
+          score: 0,
+          lastUpdated: new Date().toISOString()
+        };
+      }
+
+      // Update fields if provided
+      modProgress = progressData[data.studentId][data.moduleId];
+      
+      if (data.mistakes !== undefined) modProgress.mistakes = data.mistakes;
+      if (data.allProgress !== undefined) modProgress.allProgress = data.allProgress;
+      if (data.mistakesProgress !== undefined) modProgress.mistakesProgress = data.mistakesProgress;
+      if (data.score !== undefined) modProgress.score = data.score;
+      
+      modProgress.lastUpdated = new Date().toISOString();
+    }
 
     await updateGitHubFile(
       FILE_PATH,
       JSON.stringify(progressData, null, 2),
-      `Update training progress for ${data.studentId} on ${data.moduleId}`
+      `Update training progress for ${data.studentId}${data.moduleId ? ' on ' + data.moduleId : ''}`
     );
 
-    return NextResponse.json({ success: true, data: modProgress });
+    return NextResponse.json({ success: true, data: modProgress, unknownWords: progressData[data.studentId].unknownWords || [] });
   } catch (error: any) {
     console.error("Error saving training progress:", error);
     return NextResponse.json({ error: error.message }, { status: 500 });

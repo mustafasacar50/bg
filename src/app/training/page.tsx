@@ -85,6 +85,18 @@ export default function TrainingListPage() {
           </div>
         </div>
 
+        <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-8">
+          <div className="p-4 border-b border-slate-100 bg-indigo-50/50 flex justify-between items-center">
+            <div>
+              <h2 className="text-lg font-semibold text-slate-800">📚 Kelime Sepetim</h2>
+              <p className="text-slate-500 text-sm mt-1">Antrenmanlarda işaretlediğiniz bilmediğiniz kelimeleri ve örnek cümleleri çalışın.</p>
+            </div>
+            <Link href="/training/vocabulary" className="bg-indigo-600 text-white px-5 py-2.5 rounded-xl font-bold shadow-sm hover:bg-indigo-700 transition-colors whitespace-nowrap">
+              Kelimelere Çalış ➔
+            </Link>
+          </div>
+        </div>
+
         <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
           <div className="p-6 border-b border-slate-100 bg-slate-50/50">
             <h2 className="text-lg font-semibold text-slate-800">Eğitim Modülleri</h2>

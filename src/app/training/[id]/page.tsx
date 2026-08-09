@@ -82,6 +82,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   // New State
   const [sessionQuestions, setSessionQuestions] = useState<Question[]>([]);
   const [mistakesPool, setMistakesPool] = useState<string[]>([]);
+  const [unknownWords, setUnknownWords] = useState<string[]>([]);
+  const [selectedWord, setSelectedWord] = useState<{word: string} | null>(null);
   const [isSwapped, setIsSwapped] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [langFilter, setLangFilter] = useState<'all' | 'bg' | 'tr'>('all');
@@ -123,6 +125,56 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     }
   }, [router]);
 
+  // Selection Listener for Unknown Words
+  useEffect(() => {
+    const handleSelection = () => {
+      setTimeout(() => {
+        const selection = window.getSelection();
+        if (selection && selection.toString().trim()) {
+          const raw = selection.toString().trim();
+          const word = raw.replace(/[.,!?;:()]/g, '');
+          // Check if it's mostly Bulgarian characters and not too long
+          if (/[А-Яа-я]/i.test(word) && word.length < 30) {
+            setSelectedWord({ word: word.toLowerCase() });
+          } else {
+            setSelectedWord(null);
+          }
+        } else {
+          setSelectedWord(null);
+        }
+      }, 50);
+    };
+    document.addEventListener('selectionchange', handleSelection);
+    return () => document.removeEventListener('selectionchange', handleSelection);
+  }, []);
+
+  const handleAddUnknownWord = async () => {
+    if (!selectedWord || !student?.id) return;
+    const word = selectedWord.word;
+    
+    if (unknownWords.includes(word)) {
+      setSelectedWord(null);
+      return;
+    }
+    
+    const newWords = [...unknownWords, word];
+    setUnknownWords(newWords);
+    setSelectedWord(null);
+    
+    try {
+      await fetch('/api/training-progress', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          studentId: student.id,
+          unknownWords: newWords
+        })
+      });
+    } catch(e) {
+      console.error(e);
+    }
+  };
+
   // 2. Fetch Module & Set Questions
   useEffect(() => {
     if (!student?.id) return;
@@ -130,7 +182,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     const fetchAll = async () => {
       try {
         const [modRes, progRes] = await Promise.all([
-          fetch(`/api/modules/${moduleId}`),
+          fetch(`/api/modules/${moduleId}?studentId=${student.id}`),
           fetch(`/api/training-progress?studentId=${student.id}`)
         ]);
 
@@ -142,6 +194,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         const progress = progData.progress || {};
         const modProgress = progress[moduleId] || { mistakes: [], allProgress: 0, mistakesProgress: 0, score: 0 };
         
+        const globalUnknownWords = progress.unknownWords || [];
+        setUnknownWords(globalUnknownWords);
+
         const mistakes = modProgress.mistakes || [];
         setMistakesPool(mistakes);
 
@@ -150,6 +205,19 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
           activePool = modData.questions.filter((q: Question) => mistakes.includes(q.id));
         } else {
           activePool = modData.questions;
+        }
+
+        // Prioritize questions containing unknown words
+        if (globalUnknownWords.length > 0 && mode !== 'mistakes') {
+          activePool = [...activePool].sort((a, b) => {
+            const aText = (a.sentence + ' ' + a.answer).toLowerCase();
+            const bText = (b.sentence + ' ' + b.answer).toLowerCase();
+            const aHas = globalUnknownWords.some((w: string) => aText.includes(w));
+            const bHas = globalUnknownWords.some((w: string) => bText.includes(w));
+            if (aHas && !bHas) return -1;
+            if (!aHas && bHas) return 1;
+            return 0;
+          });
         }
         
         setSessionQuestions(activePool);
@@ -743,11 +811,23 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
   return (
     <div 
-      className="min-h-screen bg-slate-50 flex flex-col pb-36 sm:pb-24 overflow-x-hidden"
+      className="min-h-screen bg-slate-50 flex flex-col pb-36 sm:pb-24 overflow-x-hidden relative"
       style={{ touchAction: 'pan-y' }}
       onTouchStart={onTouchStart}
       onTouchEnd={onTouchEnd}
     >
+      {selectedWord && (
+        <div className="fixed bottom-24 sm:bottom-12 left-1/2 -translate-x-1/2 z-50 bg-slate-900 text-white px-4 py-3 rounded-2xl shadow-2xl flex items-center gap-4 animate-in slide-in-from-bottom-5">
+          <span className="font-bold text-lg">"{selectedWord.word}"</span>
+          <button 
+            onClick={handleAddUnknownWord}
+            className="bg-indigo-500 hover:bg-indigo-400 px-4 py-2 rounded-xl font-bold text-sm transition-colors whitespace-nowrap shadow-sm"
+          >
+            ➕ Listeme Ekle
+          </button>
+        </div>
+      )}
+
       {/* Header */}
       <header className="bg-white border-b border-slate-200 px-2 py-2 sm:px-4 sm:py-3 flex flex-col items-center sticky top-0 z-10 gap-2">
         
