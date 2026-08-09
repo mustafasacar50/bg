@@ -13,13 +13,15 @@ export default function PushSettings({ studentId }: { studentId: string }) {
   const [interval, setIntervalVal] = useState("60");
 
   useEffect(() => {
-    setPermission(Notification.permission);
+    if (typeof window !== 'undefined' && 'Notification' in window) {
+      setPermission(Notification.permission);
+    }
     checkSubscription();
   }, []);
 
   const checkSubscription = async () => {
     try {
-      if (!("serviceWorker" in navigator) || !("PushManager" in window)) {
+      if (typeof navigator === 'undefined' || !("serviceWorker" in navigator) || typeof window === 'undefined' || !("PushManager" in window)) {
         setLoading(false);
         return;
       }
