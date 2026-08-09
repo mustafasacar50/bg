@@ -75,7 +75,6 @@
       "hint": "Doğru sıralamayı bul",
       "options": [
         "Ьо",
-        "-",
         "синьо",
         "sinyo",
         "yo"
@@ -103,7 +102,6 @@
       "hint": "Doğru sıralamayı bul",
       "options": [
         "Йо",
-        "-",
         "yo"
       ]
     },
@@ -129,7 +127,6 @@
       "hint": "Doğru sıralamayı bul",
       "options": [
         "България",
-        "-",
         "Bulgaria"
       ]
     },
@@ -155,7 +152,6 @@
       "hint": "Doğru sıralamayı bul",
       "options": [
         "ия",
-        "-",
         "София",
         "Sofia",
         "-ia"
@@ -284,9 +280,7 @@
       "explanation": "Türkçedeki Ş sesi Bulgarcada genellikle Ш ile yazılır. Ü sesi kimi kelimelerde Ю ile yazılır. Ü bazı alıntılarda У ile yazılır.\n\n📘 Kural: Zamirlerin Kullanımı\n- го = onu (eril kısa nesne zamiridir). \n- до него = onun yanında (Bir edattan -до- sonra kullanıldığı için uzun form \"него\" kullanılmıştır).\nKısa formlar fiilden önce, uzun formlar edatlardan sonra gelir.",
       "options": [
         "ю",
-        "–",
         "й",
-        "+",
         "у;",
         "я",
         "а;",
@@ -416,9 +410,7 @@
         "книжовен",
         "език",
         "са",
-        "45",
-        "Буквите",
-        "30"
+        "Буквите"
       ]
     },
     {
@@ -547,7 +539,6 @@
       "options": [
         "Първи",
         "вид",
-        "–",
         "звучни",
         "съгласни",
         "б",
@@ -587,7 +578,6 @@
       "options": [
         "Втори",
         "вид",
-        "–",
         "беззвучни",
         "съгласни",
         "п",
@@ -624,7 +614,6 @@
       "options": [
         "Трети",
         "вид",
-        "–",
         "сонорни",
         "съгласни",
         "м",
@@ -927,7 +916,6 @@
         "напишат",
         "думите",
         "поне",
-        "2",
         "пъти"
       ]
     },
@@ -5608,50 +5596,6 @@
       "hint": "Türkçe karşılığını yazınız"
     },
     {
-      "id": "q_auto_84b4d659",
-      "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Tekilden çoğula geçerken ortaya çıkan ses değişimlerini göstermek için “Benzer Kelimeler Küçük Sözlüğü” ile çalışılır.)",
-      "answer": "За илюстрация на звуковите закони при преход от единствено в множествено число работим с Малък речник на сходните думи.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır. Bazı alıntı kelimelerde Ç/ts benzeri ses Ц ile yazılır. Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır. Ü sesi kimi kelimelerde Ю ile yazılır. Ü bazı alıntılarda У ile yazılır."
-    },
-    {
-      "id": "q_auto_b2bba844",
-      "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: За илюстрация на звуковите закони при преход от единствено в множествено число работим с Малък речник на сходните думи.)",
-      "answer": "Tekilden çoğula geçerken ortaya çıkan ses değişimlerini göstermek için “Benzer Kelimeler Küçük Sözlüğü” ile çalışılır.",
-      "hint": "Türkçe karşılığını yazınız",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır. Bazı alıntı kelimelerde Ç/ts benzeri ses Ц ile yazılır. Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır. Ü sesi kimi kelimelerde Ю ile yazılır. Ü bazı alıntılarda У ile yazılır."
-    },
-    {
-      "id": "q_auto_a576a8ef",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Tekilden çoğula geçerken ortaya çıkan ses değişimlerini göstermek için “Benzer Kelimeler Küçük Sözlüğü” ile çalışılır.",
-      "answer": "За илюстрация на звуковите закони при преход от единствено в множествено число работим с Малък речник на сходните думи.",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır. Bazı alıntı kelimelerde Ç/ts benzeri ses Ц ile yazılır. Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır. Ü sesi kimi kelimelerde Ю ile yazılır. Ü bazı alıntılarda У ile yazılır.",
-      "options": [
-        "За",
-        "илюстрация",
-        "на",
-        "звуковите",
-        "закони",
-        "при",
-        "преход",
-        "от",
-        "единствено",
-        "в",
-        "множествено",
-        "число",
-        "работим",
-        "с",
-        "Малък",
-        "речник",
-        "сходните",
-        "думи"
-      ]
-    },
-    {
       "id": "q_auto_5d035d6f",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: “Diğer özellikler” sütununa uygulanan ses yasası yazılır.)",
@@ -5723,114 +5667,6 @@
         "съответния",
         "звуков",
         "закон"
-      ]
-    },
-    {
-      "id": "q_auto_710aa42e",
-      "type": "translation",
-      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: -ия ile biten kelimeler çoğulda -ии alır.)",
-      "answer": "Думи, завършващи на ия в множествено число приемат окончание ии.",
-      "hint": "Diğer formu yazınız",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
-    },
-    {
-      "id": "q_auto_9244eb2c",
-      "type": "translation",
-      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Думи, завършващи на ия в множествено число приемат окончание ии.)",
-      "answer": "ия ile biten kelimeler çoğulda -ии alır.",
-      "hint": "Diğer formu yazınız",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
-    },
-    {
-      "id": "q_auto_097a897f",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: -ия ile biten kelimeler çoğulda -ии alır.",
-      "answer": "Думи, завършващи на ия в множествено число приемат окончание ии.",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır.",
-      "options": [
-        "Думи",
-        "завършващи",
-        "на",
-        "ия",
-        "в",
-        "множествено",
-        "число",
-        "приемат",
-        "окончание",
-        "ии"
-      ]
-    },
-    {
-      "id": "q_auto_7e053cf2",
-      "type": "translation",
-      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: -к ile biten bazı eril isimler çoğulda -ци alır.)",
-      "answer": "Думи, завършващи на –к, в множествено число приемат окончание –ци.",
-      "hint": "Diğer formu yazınız",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır. Bazı alıntı kelimelerde Ç/ts benzeri ses Ц ile yazılır."
-    },
-    {
-      "id": "q_auto_24cd7491",
-      "type": "translation",
-      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Думи, завършващи на –к, в множествено число приемат окончание –ци.)",
-      "answer": "к ile biten bazı eril isimler çoğulda -ци alır.",
-      "hint": "Diğer formu yazınız",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır. Bazı alıntı kelimelerde Ç/ts benzeri ses Ц ile yazılır."
-    },
-    {
-      "id": "q_auto_671bc187",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: -к ile biten bazı eril isimler çoğulda -ци alır.",
-      "answer": "Думи, завършващи на –к, в множествено число приемат окончание –ци.",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır. Bazı alıntı kelimelerde Ç/ts benzeri ses Ц ile yazılır.",
-      "options": [
-        "Думи",
-        "завършващи",
-        "на",
-        "–к",
-        "в",
-        "множествено",
-        "число",
-        "приемат",
-        "окончание",
-        "–ци"
-      ]
-    },
-    {
-      "id": "q_auto_e819d4cf",
-      "type": "translation",
-      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: -г ile biten bazı isimler çoğulda -зи olur.)",
-      "answer": "Думи, завършващи на –г, в множествено число приемат окончание –зи.",
-      "hint": "Diğer formu yazınız",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
-    },
-    {
-      "id": "q_auto_f943ec5b",
-      "type": "translation",
-      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Думи, завършващи на –г, в множествено число приемат окончание –зи.)",
-      "answer": "г ile biten bazı isimler çoğulda -зи olur.",
-      "hint": "Diğer formu yazınız",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
-    },
-    {
-      "id": "q_auto_6fc8a619",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: -г ile biten bazı isimler çoğulda -зи olur.",
-      "answer": "Думи, завършващи на –г, в множествено число приемат окончание –зи.",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır.",
-      "options": [
-        "Думи",
-        "завършващи",
-        "на",
-        "–г",
-        "в",
-        "множествено",
-        "число",
-        "приемат",
-        "окончание",
-        "–зи"
       ]
     },
     {
@@ -7090,8 +6926,7 @@
         "ако",
         "обичате",
         "моя",
-        "телефон",
-        "25-34-28"
+        "телефон"
       ]
     },
     {
@@ -7671,59 +7506,6 @@
         "Няма",
         "защо"
       ]
-    },
-    {
-      "id": "q_auto_24ed6a9b",
-      "type": "translation",
-      "sentence": "неомъжена жена kelimesinin Bulgarca yazılışı:",
-      "answer": "ж.р. ед.ч.",
-      "hint": "Bulgarca karşılığını yazınız"
-    },
-    {
-      "id": "q_auto_7d5821f8",
-      "type": "translation",
-      "sentence": "ж.р. ед.ч. kelimesinin Türkçe anlamı:",
-      "answer": "неомъжена жена",
-      "hint": "Türkçe karşılığını yazınız"
-    },
-    {
-      "id": "q_auto_02ebdf73",
-      "type": "translation",
-      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: омъжена или възрастна жена)",
-      "answer": "ж.р. ед.ч.",
-      "hint": "Diğer formu yazınız"
-    },
-    {
-      "id": "q_auto_af386100",
-      "type": "translation",
-      "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: ж.р. ед.ч.)",
-      "answer": "омъжена или възрастна жена",
-      "hint": "Diğer formu yazınız"
-    },
-    {
-      "id": "q_auto_f59b3b71",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: омъжена или възрастна жена",
-      "answer": "ж.р. ед.ч.",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "жр",
-        "едч"
-      ]
-    },
-    {
-      "id": "q_auto_7505a426",
-      "type": "translation",
-      "sentence": "мъж kelimesinin Bulgarca yazılışı:",
-      "answer": "м.р. ед.ч.",
-      "hint": "Bulgarca karşılığını yazınız"
-    },
-    {
-      "id": "q_auto_f83b81bd",
-      "type": "translation",
-      "sentence": "м.р. ед.ч. kelimesinin Türkçe anlamı:",
-      "answer": "мъж",
-      "hint": "Türkçe karşılığını yazınız"
     },
     {
       "id": "q_auto_6ea97fbd",
@@ -9476,7 +9258,6 @@
       "options": [
         "Всичко",
         "хубаво",
-        "/",
         "добро"
       ]
     },
@@ -10903,7 +10684,6 @@
       "options": [
         "Спорна",
         "работа",
-        "/",
         "Лека"
       ]
     },
@@ -10930,7 +10710,6 @@
       "options": [
         "Добър",
         "път",
-        "/",
         "На",
         "добър",
         "Лек"
@@ -11132,7 +10911,6 @@
       "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır.",
       "options": [
         "Здрасти",
-        "/",
         "Чао"
       ]
     },
@@ -11393,7 +11171,6 @@
         "Ти",
         "кой",
         "си",
-        "/",
         "Кой",
         "ти"
       ]
@@ -11425,7 +11202,6 @@
         "Вие",
         "кой",
         "сте",
-        "/",
         "Кой"
       ]
     },
@@ -11456,7 +11232,6 @@
         "Ти",
         "коя",
         "си",
-        "/",
         "Коя",
         "ти"
       ]
@@ -11488,7 +11263,6 @@
         "Вие",
         "коя",
         "сте",
-        "/",
         "Коя"
       ]
     },
@@ -11519,7 +11293,6 @@
         "Той",
         "кой",
         "е",
-        "/",
         "Кой",
         "той"
       ]
@@ -11551,7 +11324,6 @@
         "Тя",
         "коя",
         "е",
-        "/",
         "Коя",
         "тя"
       ]
@@ -11583,7 +11355,6 @@
         "Вие",
         "кои",
         "сте",
-        "/",
         "Кои",
         "вие"
       ]
@@ -11615,7 +11386,6 @@
         "Те",
         "кои",
         "са",
-        "/",
         "Кои",
         "те"
       ]
@@ -11658,7 +11428,6 @@
       "hint": "Doğru sıralamayı bul",
       "explanation": "Dil Notu: 'се' dönüşlülük unsurudur. 'Казвам се' kelime kelime 'kendime ... denir' gibi düşünülebilir ama Türkçede 'Benim adım ...' diye çevrilir.\n\n📘 Kural: Resmiyet ve Hitap\n- Как се казвате? resmi/kibar biçimdir (Siz).\n- Как се казваш? samimi tekil biçimdir (Sen).\n- “Казвам се ...” kelime kelime “kendime ... denir” gibi düşünülse de Türkçede “Benim adım ...” diye çevrilir.",
       "options": [
-        "−",
         "Как",
         "се",
         "казваш"
@@ -11688,7 +11457,6 @@
       "hint": "Doğru sıralamayı bul",
       "explanation": "Bulgarcada 'olmak' fiili (съм) çok önemlidir: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са.\n\n📘 Kural: \"Съм\" (Olmak) Fiili\nA1 düzeyinde en önemli fiil “съм” (olmak) fiilidir. Durum, meslek ve milliyet bildirirken kullanılır.\nаз съм (ben ...'im)        ние сме (biz ...'iz)\nти си (sen ...'sin)        вие сте (siz ...'siniz)\nтой/тя/то е (o ...'dir)    те са (onlar ...'dir)",
       "options": [
-        "−",
         "Аз",
         "съм",
         "Емин",
@@ -11720,7 +11488,6 @@
       "hint": "Doğru sıralamayı bul",
       "explanation": "Bulgarcada 'olmak' fiili (съм) çok önemlidir: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са.\n\n📘 Kural: \"Съм\" (Olmak) Fiili\nA1 düzeyinde en önemli fiil “съм” (olmak) fiilidir. Durum, meslek ve milliyet bildirirken kullanılır.\nаз съм (ben ...'im)        ние сме (biz ...'iz)\nти си (sen ...'sin)        вие сте (siz ...'siniz)\nтой/тя/то е (o ...'dir)    те са (onlar ...'dir)",
       "options": [
-        "−",
         "Аз",
         "съм",
         "Фери"

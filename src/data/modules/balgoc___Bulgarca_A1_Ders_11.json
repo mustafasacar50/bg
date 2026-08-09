@@ -158,10 +158,8 @@
         "Есента",
         "продължава",
         "от",
-        "22",
         "септември",
         "до",
-        "21",
         "декември"
       ]
     },
@@ -682,7 +680,6 @@
         "с",
         "едно",
         "име",
-        "–",
         "южнякът"
       ]
     },
@@ -1839,7 +1836,6 @@
       "options": [
         "Редно",
         "числително",
-        "–",
         "първи",
         "втори",
         "трети…",
@@ -1918,23 +1914,6 @@
       "hint": "Boşluğa uygun kelimeyi yazınız",
       "lesson": "Ders 11",
       "fitbTarget": "първи"
-    },
-    {
-      "id": "q_ders11_85bf7c08",
-      "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Число – формата за мн.ч. съвпада с формата за м.р. ед. число.)",
-      "answer": "Sayı: Çoğul biçimi, yalın durumda eril tekil biçimle aynıdır.",
-      "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 11"
-    },
-    {
-      "id": "q_ders11_a0702d56",
-      "type": "fitb",
-      "sentence": "Sayı: Çoğul biçimi, yalın durumda eril tekil biçimle aynıdır.",
-      "answer": "Число – формата за мн.ч. съвпада с формата за м.р. ед. число.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 11",
-      "fitbTarget": "съвпада"
     },
     {
       "id": "q_ders11_f3bb8c5a",
@@ -2042,7 +2021,6 @@
       "options": [
         "Членуват",
         "се",
-        "–",
         "първи",
         "първия",
         "първият;",

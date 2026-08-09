@@ -152,7 +152,6 @@
         "е",
         "Никола",
         "Петров",
-        "–",
         "мой",
         "колега"
       ]
@@ -1007,48 +1006,6 @@
       "lesson": "Ders 10"
     },
     {
-      "id": "q_ders10_a349ffe0",
-      "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Минало и бъдеще време на глагола съм.)",
-      "answer": "съм (olmak) fiilinin geçmiş ve gelecek zamanı.",
-      "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 10"
-    },
-    {
-      "id": "q_ders10_c7b46e26",
-      "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: съм (olmak) fiilinin geçmiş ve gelecek zamanı.)",
-      "answer": "Минало и бъдеще време на глагола съм.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 10"
-    },
-    {
-      "id": "q_ders10_a121b1be",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: съм (olmak) fiilinin geçmiş ve gelecek zamanı.",
-      "answer": "Минало и бъдеще време на глагола съм.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "Минало",
-        "и",
-        "бъдеще",
-        "време",
-        "на",
-        "глагола",
-        "съм"
-      ]
-    },
-    {
-      "id": "q_ders10_b940c0f2",
-      "type": "fitb",
-      "sentence": "съм (olmak) fiilinin geçmiş ve gelecek zamanı.",
-      "answer": "Минало и бъдеще време на глагола съм.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 10",
-      "fitbTarget": "време"
-    },
-    {
       "id": "q_ders10_924f2836",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Спомагателният глагол съм има едни и същи форми и в аорист, и в имперфект.)",
@@ -1144,108 +1101,6 @@
       "hint": "Boşluğa uygun kelimeyi yazınız",
       "lesson": "Ders 10",
       "fitbTarget": "лекции"
-    },
-    {
-      "id": "q_ders10_bad6ee59",
-      "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Бъдеще време на спомагателния глагол съм.)",
-      "answer": "Yardımcı съм fiilinin gelecek zamanı.",
-      "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 10"
-    },
-    {
-      "id": "q_ders10_6f2a0c45",
-      "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yardımcı съм fiilinin gelecek zamanı.)",
-      "answer": "Бъдеще време на спомагателния глагол съм.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 10"
-    },
-    {
-      "id": "q_ders10_c162fe37",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yardımcı съм fiilinin gelecek zamanı.",
-      "answer": "Бъдеще време на спомагателния глагол съм.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "Бъдеще",
-        "време",
-        "на",
-        "спомагателния",
-        "глагол",
-        "съм"
-      ]
-    },
-    {
-      "id": "q_ders10_652ab605",
-      "type": "fitb",
-      "sentence": "Yardımcı съм fiilinin gelecek zamanı.",
-      "answer": "Бъдеще време на спомагателния глагол съм.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 10",
-      "fitbTarget": "време"
-    },
-    {
-      "id": "q_ders10_325664e2",
-      "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Спомагателният глагол съм има две форми на бъдеще време.)",
-      "answer": "Yardımcı съм fiilinin gelecek zamanda iki eşdeğer biçim dizisi vardır.",
-      "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 10"
-    },
-    {
-      "id": "q_ders10_0dd329fb",
-      "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yardımcı съм fiilinin gelecek zamanda iki eşdeğer biçim dizisi vardır.)",
-      "answer": "Спомагателният глагол съм има две форми на бъдеще време.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 10"
-    },
-    {
-      "id": "q_ders10_6fef53b2",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yardımcı съм fiilinin gelecek zamanda iki eşdeğer biçim dizisi vardır.",
-      "answer": "Спомагателният глагол съм има две форми на бъдеще време.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "Спомагателният",
-        "глагол",
-        "съм",
-        "има",
-        "две",
-        "форми",
-        "на",
-        "бъдеще",
-        "време"
-      ]
-    },
-    {
-      "id": "q_ders10_6ad8f0c9",
-      "type": "fitb",
-      "sentence": "Yardımcı съм fiilinin gelecek zamanda iki eşdeğer biçim dizisi vardır.",
-      "answer": "Спомагателният глагол съм има две форми на бъдеще време.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 10",
-      "fitbTarget": "време"
-    },
-    {
-      "id": "q_ders10_0173d16a",
-      "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Разлика в смисъла между тези две форми за бъдеще време няма.)",
-      "answer": "Bu iki gelecek zaman biçimi arasında temel anlam farkı yoktur.",
-      "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 10"
-    },
-    {
-      "id": "q_ders10_b545c40a",
-      "type": "fitb",
-      "sentence": "Bu iki gelecek zaman biçimi arasında temel anlam farkı yoktur.",
-      "answer": "Разлика в смисъла между тези две форми за бъдеще време няма.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 10",
-      "fitbTarget": "време"
     },
     {
       "id": "q_ders10_de996e2b",
@@ -1347,23 +1202,6 @@
       "fitbTarget": "никога"
     },
     {
-      "id": "q_ders10_44a20495",
-      "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Бъдеще време (ще пея, ще ходя, ще гледам): действието е предстоящо спрямо момента на говоренето.)",
-      "answer": "Gelecek zaman (şarkı söyleyeceğim, gideceğim, izleyeceğim): Eylem, konuşma anına göre ileride gerçekleşecektir.",
-      "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 10"
-    },
-    {
-      "id": "q_ders10_36b8f595",
-      "type": "fitb",
-      "sentence": "Gelecek zaman (şarkı söyleyeceğim, gideceğim, izleyeceğim): Eylem, konuşma anına göre ileride gerçekleşecektir.",
-      "answer": "Бъдеще време (ще пея, ще ходя, ще гледам): действието е предстоящо спрямо момента на говоренето.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 10",
-      "fitbTarget": "спрямо"
-    },
-    {
       "id": "q_ders10_9b715260",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Утре ще изкача върха.)",
@@ -1401,23 +1239,6 @@
       "hint": "Boşluğa uygun kelimeyi yazınız",
       "lesson": "Ders 10",
       "fitbTarget": "изкача"
-    },
-    {
-      "id": "q_ders10_741f095f",
-      "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Говорещият съобщава, че действието може да се извърши, но при някакво условие – условно наклонение.)",
-      "answer": "Konuşmacı, eylemin belirli bir şart altında gerçekleşebileceğini şart kipiyle bildirir.",
-      "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 10"
-    },
-    {
-      "id": "q_ders10_759594bd",
-      "type": "fitb",
-      "sentence": "Konuşmacı, eylemin belirli bir şart altında gerçekleşebileceğini şart kipiyle bildirir.",
-      "answer": "Говорещият съобщава, че действието може да се извърши, но при някакво условие – условно наклонение.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 10",
-      "fitbTarget": "може"
     },
     {
       "id": "q_ders10_b3c17d1b",
@@ -2059,7 +1880,6 @@
         "имат",
         "едно",
         "дете",
-        "–",
         "момиче"
       ]
     },
@@ -3755,18 +3575,6 @@
       "lesson": "Ders 10"
     },
     {
-      "id": "q_ders10_13b0849a",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: 95 leva.",
-      "answer": "95 лева.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "95",
-        "лева"
-      ]
-    },
-    {
       "id": "q_ders10_9fec7ce6",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Ще го взема. Не е много скъп.)",
@@ -4152,7 +3960,6 @@
         "се",
         "Работим",
         "до",
-        "20",
         "часа"
       ]
     },
@@ -4724,18 +4531,6 @@
       "lesson": "Ders 10"
     },
     {
-      "id": "q_ders10_ebe49d87",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: 58 leva.",
-      "answer": "58 лева.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "58",
-        "лева"
-      ]
-    },
-    {
       "id": "q_ders10_9ca7292b",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Не са евтини, но са много хубави.)",
@@ -5142,7 +4937,6 @@
         "би",
         "тези",
         "ще",
-        "ѝ",
         "станат"
       ]
     },
@@ -5551,7 +5345,6 @@
         "и",
         "наши",
         "вносни",
-        "–",
         "румънски",
         "полски",
         "италиански"
@@ -5991,7 +5784,6 @@
         "румънски",
         "а",
         "онзи",
-        "–",
         "полски"
       ]
     },

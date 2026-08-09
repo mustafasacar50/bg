@@ -67,7 +67,6 @@
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
       "options": [
-        "−",
         "Защо",
         "минахте",
         "на",
@@ -163,7 +162,6 @@
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
       "options": [
-        "−",
         "Вие",
         "и",
         "друг",
@@ -263,7 +261,6 @@
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
       "options": [
-        "−",
         "Колко",
         "струва",
         "тази",
@@ -303,7 +300,6 @@
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
       "options": [
-        "−",
         "Сто",
         "хиляди"
       ]
@@ -341,7 +337,6 @@
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
       "options": [
-        "−",
         "Ау",
         "кошмар",
         "А",
@@ -382,7 +377,6 @@
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
       "options": [
-        "−",
         "Два",
         "кошмара"
       ]
@@ -436,7 +430,6 @@
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
       "options": [
-        "−",
         "Тате",
         "познай",
         "кой",
@@ -469,18 +462,6 @@
       "answer": "− Кой?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
-    },
-    {
-      "id": "q_ders7_286941e9",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hangisi?",
-      "answer": "− Кой?",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 7",
-      "options": [
-        "−",
-        "Кой"
-      ]
     },
     {
       "id": "q_ders7_199b267b",
@@ -584,66 +565,6 @@
       "hint": "Boşluğa uygun kelimeyi yazınız",
       "lesson": "Ders 7",
       "fitbTarget": "различни"
-    },
-    {
-      "id": "q_ders7_6ba933e4",
-      "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Предлогът е неизменяема дума, която означава смислови отношения между имената и другите думи в изречението.)",
-      "answer": "Edat, cümlede isimler ile diğer kelimeler arasındaki anlam ilişkisini gösteren değişmeyen bir kelimedir.",
-      "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 7"
-    },
-    {
-      "id": "q_ders7_06a3d8b0",
-      "type": "fitb",
-      "sentence": "Edat, cümlede isimler ile diğer kelimeler arasındaki anlam ilişkisini gösteren değişmeyen bir kelimedir.",
-      "answer": "Предлогът е неизменяема дума, която означава смислови отношения между имената и другите думи в изречението.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 7",
-      "fitbTarget": "отношения"
-    },
-    {
-      "id": "q_ders7_d48c88e5",
-      "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Предлогът стои винаги пред имена или именни словосъчетания.)",
-      "answer": "Bulgarcada edat her zaman isimlerin veya isim gruplarının önünde durur.",
-      "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 7"
-    },
-    {
-      "id": "q_ders7_438772d3",
-      "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bulgarcada edat her zaman isimlerin veya isim gruplarının önünde durur.)",
-      "answer": "Предлогът стои винаги пред имена или именни словосъчетания.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 7"
-    },
-    {
-      "id": "q_ders7_855ae850",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bulgarcada edat her zaman isimlerin veya isim gruplarının önünde durur.",
-      "answer": "Предлогът стои винаги пред имена или именни словосъчетания.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 7",
-      "options": [
-        "Предлогът",
-        "стои",
-        "винаги",
-        "пред",
-        "имена",
-        "или",
-        "именни",
-        "словосъчетания"
-      ]
-    },
-    {
-      "id": "q_ders7_e04ad2b0",
-      "type": "fitb",
-      "sentence": "Bulgarcada edat her zaman isimlerin veya isim gruplarının önünde durur.",
-      "answer": "Предлогът стои винаги пред имена или именни словосъчетания.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 7",
-      "fitbTarget": "пред"
     },
     {
       "id": "q_ders7_99968696",
@@ -766,40 +687,6 @@
       "hint": "Boşluğa uygun kelimeyi yazınız",
       "lesson": "Ders 7",
       "fitbTarget": "свръх"
-    },
-    {
-      "id": "q_ders7_c0fd5468",
-      "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Предлогът във се пише, когато думата след него започва с В или Ф.)",
-      "answer": "Sonraki kelime В veya Ф ile başlıyorsa “във” yazılır.",
-      "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 7"
-    },
-    {
-      "id": "q_ders7_a9542083",
-      "type": "fitb",
-      "sentence": "Sonraki kelime В veya Ф ile başlıyorsa “във” yazılır.",
-      "answer": "Предлогът във се пише, когато думата след него започва с В или Ф.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 7",
-      "fitbTarget": "думата"
-    },
-    {
-      "id": "q_ders7_42b2b05b",
-      "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Предлогът със се пише, когато следващата дума започва със С или З.)",
-      "answer": "Sonraki kelime С veya З ile başlıyorsa “със” yazılır.",
-      "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 7"
-    },
-    {
-      "id": "q_ders7_221ef4f7",
-      "type": "fitb",
-      "sentence": "Sonraki kelime С veya З ile başlıyorsa “със” yazılır.",
-      "answer": "Предлогът със се пише, когато следващата дума започва със С или З.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 7",
-      "fitbTarget": "следващата"
     },
     {
       "id": "q_ders7_d7cbe6d8",

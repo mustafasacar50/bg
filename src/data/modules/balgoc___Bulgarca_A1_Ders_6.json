@@ -814,7 +814,6 @@
       "lesson": "Ders 6",
       "options": [
         "игрáй",
-        "–",
         "игрáйте"
       ]
     },
@@ -852,7 +851,6 @@
       "lesson": "Ders 6",
       "options": [
         "четú",
-        "–",
         "четéте"
       ]
     },
@@ -975,111 +973,6 @@
       "hint": "Boşluğa uygun kelimeyi yazınız",
       "lesson": "Ders 6",
       "fitbTarget": "нека"
-    },
-    {
-      "id": "q_ders6_0dbec2bc",
-      "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Мъжки род: сезон – сезона – сезонът; мн.ч.: сезони – сезоните.)",
-      "answer": "Eril cins: mevsim - belirli mevsimi - belirli mevsim; çoğul: mevsimler - belirli mevsimler.",
-      "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_26a85a97",
-      "type": "fitb",
-      "sentence": "Eril cins: mevsim - belirli mevsimi - belirli mevsim; çoğul: mevsimler - belirli mevsimler.",
-      "answer": "Мъжки род: сезон – сезона – сезонът; мн.ч.: сезони – сезоните.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "сезонът;"
-    },
-    {
-      "id": "q_ders6_552cf728",
-      "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Женски род: радост – радостта; мн. ч.: радости – радостите.)",
-      "answer": "Dişil cins: sevinç - o sevinç; çoğul: sevinçler - o sevinçler.",
-      "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_ec31e79a",
-      "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Dişil cins: sevinç - o sevinç; çoğul: sevinçler - o sevinçler.)",
-      "answer": "Женски род: радост – радостта; мн. ч.: радости – радостите.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_748772f1",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Dişil cins: sevinç - o sevinç; çoğul: sevinçler - o sevinçler.",
-      "answer": "Женски род: радост – радостта; мн. ч.: радости – радостите.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Женски",
-        "род",
-        "радост",
-        "–",
-        "радостта;",
-        "мн",
-        "ч",
-        "радости",
-        "радостите"
-      ]
-    },
-    {
-      "id": "q_ders6_e4fb8907",
-      "type": "fitb",
-      "sentence": "Dişil cins: sevinç - o sevinç; çoğul: sevinçler - o sevinçler.",
-      "answer": "Женски род: радост – радостта; мн. ч.: радости – радостите.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "радост"
-    },
-    {
-      "id": "q_ders6_ec4e8c83",
-      "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Среден род: момиче – момичето; мн. ч.: момичета – момичетата.)",
-      "answer": "Orta cins: kız - o kız; çoğul: kızlar - o kızlar.",
-      "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_a3648bac",
-      "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Orta cins: kız - o kız; çoğul: kızlar - o kızlar.)",
-      "answer": "Среден род: момиче – момичето; мн. ч.: момичета – момичетата.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_54911e92",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Orta cins: kız - o kız; çoğul: kızlar - o kızlar.",
-      "answer": "Среден род: момиче – момичето; мн. ч.: момичета – момичетата.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Среден",
-        "род",
-        "момиче",
-        "–",
-        "момичето;",
-        "мн",
-        "ч",
-        "момичета",
-        "момичетата"
-      ]
-    },
-    {
-      "id": "q_ders6_5696cf14",
-      "type": "fitb",
-      "sentence": "Orta cins: kız - o kız; çoğul: kızlar - o kızlar.",
-      "answer": "Среден род: момиче – момичето; мн. ч.: момичета – момичетата.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "момичето;"
     },
     {
       "id": "q_ders6_a8430acd",
@@ -1289,7 +1182,6 @@
       "options": [
         "През",
         "лятото",
-        "/",
         "зимата",
         "пролетта",
         "есента"
@@ -1641,7 +1533,6 @@
         "Десет",
         "часа",
         "сутринта",
-        "/",
         "вечерта"
       ]
     },
@@ -1754,7 +1645,6 @@
         "разликата",
         "е",
         "с",
-        "1",
         "час",
         "напред"
       ]
@@ -1977,7 +1867,6 @@
       "lesson": "Ders 6",
       "options": [
         "Преди",
-        "200",
         "години"
       ]
     },
@@ -2017,7 +1906,6 @@
         "преди",
         "два",
         "века",
-        "/",
         "две",
         "столетия"
       ]
@@ -2056,7 +1944,6 @@
       "lesson": "Ders 6",
       "options": [
         "преди",
-        "100",
         "лета"
       ]
     },
@@ -2314,7 +2201,6 @@
         "на",
         "две",
         "части",
-        "–",
         "ден",
         "и",
         "нощ"
@@ -2391,8 +2277,7 @@
         "в",
         "една",
         "година",
-        "са",
-        "365"
+        "са"
       ]
     },
     {
@@ -2448,9 +2333,7 @@
         "Месеците",
         "имат",
         "по",
-        "30",
         "или",
-        "31",
         "дни"
       ]
     },
@@ -2490,7 +2373,6 @@
         "Само",
         "февруари",
         "има",
-        "28",
         "дни"
       ]
     },
@@ -2754,7 +2636,6 @@
         "скрива",
         "зад",
         "хоризонта",
-        "–",
         "залез"
       ]
     },
@@ -4565,7 +4446,6 @@
       "options": [
         "А",
         "сесията",
-        "–",
         "около",
         "средата",
         "на",
@@ -5369,7 +5249,6 @@
         "Сия",
         "свършват",
         "в",
-        "13",
         "часа"
       ]
     },
@@ -5548,7 +5427,7 @@
       "answer": "В 19.30 ч. цялото семейство се събира в трапезарията за вечеря.",
       "hint": "Boşluğa uygun kelimeyi yazınız",
       "lesson": "Ders 6",
-      "fitbTarget": "1930"
+      "fitbTarget": "цялото"
     },
     {
       "id": "q_ders6_ce3e1498",
@@ -6986,7 +6865,6 @@
         "Добър",
         "ден",
         "Какво",
-        "ѝ",
         "е",
         "на",
         "колата"
@@ -7470,9 +7348,7 @@
       "lesson": "Ders 6",
       "options": [
         "От",
-        "20",
         "до",
-        "200",
         "лева"
       ]
     },
