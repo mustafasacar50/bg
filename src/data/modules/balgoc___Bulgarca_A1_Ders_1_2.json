@@ -335,14 +335,6 @@
       "hint": "Diğer formu yazınız"
     },
     {
-      "id": "q_auto_5dae8a7b",
-      "type": "translation",
-      "sentence": "Modern standart Bulgarcada 45 ses, alfabede 30 harf vardır.",
-      "answer": "Звуковете в съвременния български книжовен език са 45. Буквите са 30.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Bulgarcada 'olmak' fiili (съм) çok önemlidir: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са.\n\n📘 Kural: \"Съм\" (Olmak) Fiili\nA1 düzeyinde en önemli fiil “съм” (olmak) fiilidir. Durum, meslek ve milliyet bildirirken kullanılır.\nаз съм (ben ...'im)        ние сме (biz ...'iz)\nти си (sen ...'sin)        вие сте (siz ...'siniz)\nтой/тя/то е (o ...'dir)    те са (onlar ...'dir)"
-    },
-    {
       "id": "q_auto_82f19d66",
       "type": "translation",
       "sentence": "Звуковете в съвременния български книжовен език са 45. Буквите са 30.",
