@@ -566,24 +566,24 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   };
 
   const onTouchStart = (e: React.TouchEvent) => {
-    if (!adminMode) return;
     touchEndRef.current = null;
     touchStartRef.current = e.targetTouches[0].clientX;
   };
 
   const onTouchMove = (e: React.TouchEvent) => {
-    if (!adminMode) return;
     touchEndRef.current = e.targetTouches[0].clientX;
   };
 
   const onTouchEnd = () => {
-    if (!adminMode || touchStartRef.current === null || touchEndRef.current === null) return;
+    if (touchStartRef.current === null || touchEndRef.current === null) return;
     const distance = touchStartRef.current - touchEndRef.current;
     const isLeftSwipe = distance > 50;
     const isRightSwipe = distance < -50;
     
     if (isLeftSwipe) {
-      handleNext();
+      if (currentIndex < filteredQuestions.length - 1) {
+        setCurrentIndex(currentIndex + 1);
+      }
     } else if (isRightSwipe) {
       handlePrev();
     }
