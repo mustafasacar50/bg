@@ -5695,6 +5695,2550 @@
       ],
       "hint": "Üzerlerine tıklayarak eşleştir",
       "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_e23d5df1",
+      "type": "translation",
+      "sentence": "географски пояс",
+      "answer": "coğrafi kuşak",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_ca533357",
+      "type": "translation",
+      "sentence": "coğrafi kuşak",
+      "answer": "географски пояс",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_7df70827",
+      "type": "translation",
+      "sentence": "обхващам",
+      "answer": "kapsamak",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_8a979cc7",
+      "type": "translation",
+      "sentence": "kapsamak",
+      "answer": "обхващам",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_13a1cb24",
+      "type": "translation",
+      "sentence": "според",
+      "answer": "-e göre",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_94bc6f08",
+      "type": "translation",
+      "sentence": "-e göre",
+      "answer": "според",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_a61fbd57",
+      "type": "translation",
+      "sentence": "астроном",
+      "answer": "astronom",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_c90eb67d",
+      "type": "translation",
+      "sentence": "astronom",
+      "answer": "астроном",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_adcf36a3",
+      "type": "translation",
+      "sentence": "продължавам",
+      "answer": "sürmek/devam etmek",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_e8a27815",
+      "type": "translation",
+      "sentence": "sürmek/devam etmek",
+      "answer": "продължавам",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_6f30234b",
+      "type": "translation",
+      "sentence": "пелена",
+      "answer": "örtü, kundak bezi",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_b11e87a4",
+      "type": "translation",
+      "sentence": "örtü, kundak bezi",
+      "answer": "пелена",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_e1cdffd5",
+      "type": "translation",
+      "sentence": "натежавам",
+      "answer": "ağırlaşmak",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_6854957f",
+      "type": "translation",
+      "sentence": "ağırlaşmak",
+      "answer": "натежавам",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_ff642da9",
+      "type": "translation",
+      "sentence": "скреж",
+      "answer": "kırağı",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_717e4ece",
+      "type": "translation",
+      "sentence": "kırağı",
+      "answer": "скреж",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_a680f865",
+      "type": "translation",
+      "sentence": "замръзвам",
+      "answer": "donmak",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_f9ef857c",
+      "type": "translation",
+      "sentence": "donmak",
+      "answer": "замръзвам",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_77a5f676",
+      "type": "translation",
+      "sentence": "мразовит",
+      "answer": "dondurucu, ayazlı",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_d4185729",
+      "type": "translation",
+      "sentence": "dondurucu, ayazlı",
+      "answer": "мразовит",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_145301e4",
+      "type": "translation",
+      "sentence": "затоплям се",
+      "answer": "ısınmak",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_117e442e",
+      "type": "translation",
+      "sentence": "ısınmak",
+      "answer": "затоплям се",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_47661e50",
+      "type": "translation",
+      "sentence": "южняк",
+      "answer": "güneyden esen rüzgâr",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_cf63ca89",
+      "type": "translation",
+      "sentence": "güneyden esen rüzgâr",
+      "answer": "южняк",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_a3fabc51",
+      "type": "translation",
+      "sentence": "топя се",
+      "answer": "erimek",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_d2335ef6",
+      "type": "translation",
+      "sentence": "erimek",
+      "answer": "топя се",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_64830029",
+      "type": "translation",
+      "sentence": "напъпвам",
+      "answer": "tomurcuklanmak",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_0ed3643c",
+      "type": "translation",
+      "sentence": "tomurcuklanmak",
+      "answer": "напъпвам",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_bdbbca52",
+      "type": "translation",
+      "sentence": "разлиствам се",
+      "answer": "yapraklanmak",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_88e18047",
+      "type": "translation",
+      "sentence": "yapraklanmak",
+      "answer": "разлиствам се",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_17f9f5e6",
+      "type": "translation",
+      "sentence": "цъфтя",
+      "answer": "çiçek açmak",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_524171eb",
+      "type": "translation",
+      "sentence": "çiçek açmak",
+      "answer": "цъфтя",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_8c236688",
+      "type": "translation",
+      "sentence": "прелетна птица",
+      "answer": "göçmen kuş",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_63919dff",
+      "type": "translation",
+      "sentence": "göçmen kuş",
+      "answer": "прелетна птица",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_1f3cb454",
+      "type": "translation",
+      "sentence": "градушка",
+      "answer": "dolu",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_fddfc456",
+      "type": "translation",
+      "sentence": "dolu",
+      "answer": "градушка",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_e005c4c0",
+      "type": "translation",
+      "sentence": "гръмотевица",
+      "answer": "gök gürültüsü/yıldırım",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_89427eb6",
+      "type": "translation",
+      "sentence": "gök gürültüsü/yıldırım",
+      "answer": "гръмотевица",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_0bf2633b",
+      "type": "translation",
+      "sentence": "светкавица",
+      "answer": "şimşek",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_5f7350a5",
+      "type": "translation",
+      "sentence": "şimşek",
+      "answer": "светкавица",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_9d0365a8",
+      "type": "translation",
+      "sentence": "потъвам в зеленина",
+      "answer": "yeşilliğe bürünmek",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_1987b246",
+      "type": "translation",
+      "sentence": "yeşilliğe bürünmek",
+      "answer": "потъвам в зеленина",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_dd573e48",
+      "type": "translation",
+      "sentence": "багра",
+      "answer": "renk, ton",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_d64b1aee",
+      "type": "translation",
+      "sentence": "renk, ton",
+      "answer": "багра",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_75afdd54",
+      "type": "translation",
+      "sentence": "вия гнездо",
+      "answer": "yuva kurmak",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_986697c1",
+      "type": "translation",
+      "sentence": "yuva kurmak",
+      "answer": "вия гнездо",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_0afc2050",
+      "type": "translation",
+      "sentence": "краткотраен",
+      "answer": "kısa süreli",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_de456382",
+      "type": "translation",
+      "sentence": "kısa süreli",
+      "answer": "краткотраен",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_a44eddfa",
+      "type": "translation",
+      "sentence": "обсипан със звезди",
+      "answer": "yıldızlarla bezenmiş",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_8d559726",
+      "type": "translation",
+      "sentence": "yıldızlarla bezenmiş",
+      "answer": "обсипан със звезди",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_04557ccb",
+      "type": "translation",
+      "sentence": "дъга",
+      "answer": "gökkuşağı",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_26b810b0",
+      "type": "translation",
+      "sentence": "gökkuşağı",
+      "answer": "дъга",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_69c2d762",
+      "type": "translation",
+      "sentence": "зрея",
+      "answer": "olgunlaşmak",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_648c2bf5",
+      "type": "translation",
+      "sentence": "olgunlaşmak",
+      "answer": "зрея",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_5df2b992",
+      "type": "translation",
+      "sentence": "залез",
+      "answer": "gün batımı",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_71e00243",
+      "type": "translation",
+      "sentence": "gün batımı",
+      "answer": "залез",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_ea7e5803",
+      "type": "translation",
+      "sentence": "захладнявам",
+      "answer": "serinlemek",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_494dfab3",
+      "type": "translation",
+      "sentence": "serinlemek",
+      "answer": "захладнявам",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_95cd3476",
+      "type": "translation",
+      "sentence": "слана",
+      "answer": "kırağı/don",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_33d6a4bc",
+      "type": "translation",
+      "sentence": "kırağı/don",
+      "answer": "слана",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_879ffa3d",
+      "type": "translation",
+      "sentence": "проливен дъжд",
+      "answer": "sağanak yağmur",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_6e9b5163",
+      "type": "translation",
+      "sentence": "sağanak yağmur",
+      "answer": "проливен дъжд",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_1d3f04a0",
+      "type": "translation",
+      "sentence": "отлитам",
+      "answer": "uçup gitmek",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_d04b8efd",
+      "type": "translation",
+      "sentence": "uçup gitmek",
+      "answer": "отлитам",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_529e0ac1",
+      "type": "translation",
+      "sentence": "Soru (BG)",
+      "answer": "Türkçesi",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_8d10b3a5",
+      "type": "translation",
+      "sentence": "Türkçesi",
+      "answer": "Soru (BG)",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_7dcb73e1",
+      "type": "translation",
+      "sentence": "Колко сезона има в нашия географски пояс?",
+      "answer": "Bizim coğrafi kuşağımızda kaç mevsim vardır?",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_0be3c115",
+      "type": "translation",
+      "sentence": "Bizim coğrafi kuşağımızda kaç mevsim vardır?",
+      "answer": "Колко сезона има в нашия географски пояс?",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_c74eb94b",
+      "type": "translation",
+      "sentence": "Кои са летните месеци?",
+      "answer": "Yaz ayları hangileridir?",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_fa41b128",
+      "type": "translation",
+      "sentence": "Yaz ayları hangileridir?",
+      "answer": "Кои са летните месеци?",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_f86989d6",
+      "type": "translation",
+      "sentence": "Кои са пролетните месеци?",
+      "answer": "İlkbahar ayları hangileridir?",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_93de85e1",
+      "type": "translation",
+      "sentence": "İlkbahar ayları hangileridir?",
+      "answer": "Кои са пролетните месеци?",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_318cc0b0",
+      "type": "translation",
+      "sentence": "Кои са зимните месеци?",
+      "answer": "Kış ayları hangileridir?",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_6ddd3710",
+      "type": "translation",
+      "sentence": "Kış ayları hangileridir?",
+      "answer": "Кои са зимните месеци?",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_16908648",
+      "type": "translation",
+      "sentence": "Кои са есенните месеци?",
+      "answer": "Sonbahar ayları hangileridir?",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_fc026e5d",
+      "type": "translation",
+      "sentence": "Sonbahar ayları hangileridir?",
+      "answer": "Кои са есенните месеци?",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_96b6424f",
+      "type": "translation",
+      "sentence": "Кога започва зимата според астрономите?",
+      "answer": "Astronomlara göre kış ne zaman başlar?",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_6717e773",
+      "type": "translation",
+      "sentence": "Astronomlara göre kış ne zaman başlar?",
+      "answer": "Кога започва зимата според астрономите?",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_54a61ab5",
+      "type": "translation",
+      "sentence": "Какво можете да разкажете за зимата?",
+      "answer": "Kış hakkında ne anlatabilirsiniz?",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_b651d0aa",
+      "type": "translation",
+      "sentence": "Kış hakkında ne anlatabilirsiniz?",
+      "answer": "Какво можете да разкажете за зимата?",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_64b68faf",
+      "type": "translation",
+      "sentence": "Кога най-често вали дъжд?",
+      "answer": "En sık ne zaman yağmur yağar?",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_0ab75000",
+      "type": "translation",
+      "sentence": "En sık ne zaman yağmur yağar?",
+      "answer": "Кога най-често вали дъжд?",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_eb771c2e",
+      "type": "translation",
+      "sentence": "Кога най-често духа вятър?",
+      "answer": "Rüzgâr en sık ne zaman eser?",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_a185f668",
+      "type": "translation",
+      "sentence": "Rüzgâr en sık ne zaman eser?",
+      "answer": "Кога най-често духа вятър?",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_633e76cf",
+      "type": "translation",
+      "sentence": "Кой сезон обичате най-много?",
+      "answer": "En çok hangi mevsimi seviyorsunuz?",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_fd86f6d8",
+      "type": "translation",
+      "sentence": "En çok hangi mevsimi seviyorsunuz?",
+      "answer": "Кой сезон обичате най-много?",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_357d849d",
+      "type": "translation",
+      "sentence": "Кога гората е най-хубава?",
+      "answer": "Orman ne zaman en güzeldir?",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_1bd4d1f3",
+      "type": "translation",
+      "sentence": "Orman ne zaman en güzeldir?",
+      "answer": "Кога гората е най-хубава?",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_b099238e",
+      "type": "translation",
+      "sentence": "Кога птиците отлитат на юг?",
+      "answer": "Kuşlar ne zaman güneye uçar?",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_eb8a4624",
+      "type": "translation",
+      "sentence": "Kuşlar ne zaman güneye uçar?",
+      "answer": "Кога птиците отлитат на юг?",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_2550705b",
+      "type": "translation",
+      "sentence": "Kişi",
+      "answer": "прочета fiili",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_1faa5285",
+      "type": "translation",
+      "sentence": "прочета fiili",
+      "answer": "Kişi",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_3931f6b6",
+      "type": "translation",
+      "sentence": "Аз",
+      "answer": "прочетох",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_86961e89",
+      "type": "translation",
+      "sentence": "прочетох",
+      "answer": "Аз",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_4eb0201b",
+      "type": "translation",
+      "sentence": "Ти",
+      "answer": "прочете",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_fc62e37b",
+      "type": "translation",
+      "sentence": "прочете",
+      "answer": "Ти",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_122b518e",
+      "type": "translation",
+      "sentence": "Той/Тя/То",
+      "answer": "прочете",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_2e79d524",
+      "type": "translation",
+      "sentence": "прочете",
+      "answer": "Той/Тя/То",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_eead53b3",
+      "type": "translation",
+      "sentence": "Ние",
+      "answer": "прочетохме",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_b3aa2be8",
+      "type": "translation",
+      "sentence": "прочетохме",
+      "answer": "Ние",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_bfdc19c9",
+      "type": "translation",
+      "sentence": "Вие",
+      "answer": "прочетохте",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_46a9429d",
+      "type": "translation",
+      "sentence": "прочетохте",
+      "answer": "Вие",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_540ee0b8",
+      "type": "translation",
+      "sentence": "Те",
+      "answer": "прочетоха",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_57f2cbfa",
+      "type": "translation",
+      "sentence": "прочетоха",
+      "answer": "Те",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_f35e4ae2",
+      "type": "translation",
+      "sentence": "Sayı",
+      "answer": "Eril",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_65b3e99c",
+      "type": "translation",
+      "sentence": "Eril",
+      "answer": "Sayı",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_1bafd4de",
+      "type": "translation",
+      "sentence": "1",
+      "answer": "първи",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_8f8554ce",
+      "type": "translation",
+      "sentence": "първи",
+      "answer": "1",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_bd16404d",
+      "type": "translation",
+      "sentence": "2",
+      "answer": "втори",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_83e93d13",
+      "type": "translation",
+      "sentence": "втори",
+      "answer": "2",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_b884b25b",
+      "type": "translation",
+      "sentence": "3",
+      "answer": "трети",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_f2e0dec8",
+      "type": "translation",
+      "sentence": "трети",
+      "answer": "3",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_b37561ff",
+      "type": "translation",
+      "sentence": "4",
+      "answer": "четвърти",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_6c55ebd0",
+      "type": "translation",
+      "sentence": "четвърти",
+      "answer": "4",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_7e31186f",
+      "type": "translation",
+      "sentence": "5",
+      "answer": "пети",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_ecb36f95",
+      "type": "translation",
+      "sentence": "пети",
+      "answer": "5",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_a6287d94",
+      "type": "translation",
+      "sentence": "6",
+      "answer": "шести",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_21c5830b",
+      "type": "translation",
+      "sentence": "шести",
+      "answer": "6",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_8076fe3b",
+      "type": "translation",
+      "sentence": "7",
+      "answer": "седми",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_02531d61",
+      "type": "translation",
+      "sentence": "седми",
+      "answer": "7",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_9acfb407",
+      "type": "translation",
+      "sentence": "8",
+      "answer": "осми",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_af5f6d55",
+      "type": "translation",
+      "sentence": "осми",
+      "answer": "8",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_87be0039",
+      "type": "translation",
+      "sentence": "9",
+      "answer": "девети",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_48302bef",
+      "type": "translation",
+      "sentence": "девети",
+      "answer": "9",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_22cb2af8",
+      "type": "translation",
+      "sentence": "10",
+      "answer": "десети",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_a87607c9",
+      "type": "translation",
+      "sentence": "десети",
+      "answer": "10",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_f3018710",
+      "type": "translation",
+      "sentence": "22",
+      "answer": "двадесет и втори",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_2939454e",
+      "type": "translation",
+      "sentence": "двадесет и втори",
+      "answer": "22",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_c52557eb",
+      "type": "translation",
+      "sentence": "36",
+      "answer": "тридесет и шести",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_f4628b9d",
+      "type": "translation",
+      "sentence": "тридесет и шести",
+      "answer": "36",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_66dcf45f",
+      "type": "translation",
+      "sentence": "кажа (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "казах",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_c13e4d01",
+      "type": "translation",
+      "sentence": "мисля (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "мислих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_fdcc7d1d",
+      "type": "translation",
+      "sentence": "летя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "летях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_6abc7923",
+      "type": "translation",
+      "sentence": "дойда (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "дойдох",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_0fcc476b",
+      "type": "translation",
+      "sentence": "казвам (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "казах",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_8961a815",
+      "type": "translation",
+      "sentence": "помисля (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "помислих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_05f4e0cf",
+      "type": "translation",
+      "sentence": "прелетя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "прелетях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_0fc9a965",
+      "type": "translation",
+      "sentence": "река (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "рекох",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_7408d48a",
+      "type": "translation",
+      "sentence": "мога (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "можах",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_02190e58",
+      "type": "translation",
+      "sentence": "отворя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "отворих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_623c6acd",
+      "type": "translation",
+      "sentence": "седя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "седях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_33dfbee1",
+      "type": "translation",
+      "sentence": "изляза (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "излязох",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_1f34e318",
+      "type": "translation",
+      "sentence": "искам (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "исках",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_e9819b8d",
+      "type": "translation",
+      "sentence": "говоря (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "говорих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_71602fea",
+      "type": "translation",
+      "sentence": "вървя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "вървях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_2823c174",
+      "type": "translation",
+      "sentence": "ям (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "ядох",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_b816ceb6",
+      "type": "translation",
+      "sentence": "давам (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "давах",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_f84bbeb4",
+      "type": "translation",
+      "sentence": "затворя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "затворих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_2767b977",
+      "type": "translation",
+      "sentence": "извървя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "извървях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_f8edcd4a",
+      "type": "translation",
+      "sentence": "облека (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "облякох",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_1243d0bd",
+      "type": "translation",
+      "sentence": "питам (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "питах",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_fc0278e1",
+      "type": "translation",
+      "sentence": "изсвиря (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "изсвирих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_b7419b20",
+      "type": "translation",
+      "sentence": "трептя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "трептях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_8a660074",
+      "type": "translation",
+      "sentence": "отида (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "отидох",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_a5cb648c",
+      "type": "translation",
+      "sentence": "повярвам (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "повярвах",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_4c595733",
+      "type": "translation",
+      "sentence": "правя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "правих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_2c7ea79b",
+      "type": "translation",
+      "sentence": "живея (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "живях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_fa5669b3",
+      "type": "translation",
+      "sentence": "прочета (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "прочетох",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_b21a5438",
+      "type": "translation",
+      "sentence": "идвам (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "идвах",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_de8e9439",
+      "type": "translation",
+      "sentence": "направя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "направих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_7f55ea5d",
+      "type": "translation",
+      "sentence": "изживея (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "изживях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_ca223536",
+      "type": "translation",
+      "sentence": "внеса (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "внесох",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_e17b08b4",
+      "type": "translation",
+      "sentence": "имам (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "имах",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_32fdbce3",
+      "type": "translation",
+      "sentence": "забравя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "забравих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_0f345a52",
+      "type": "translation",
+      "sentence": "остарея (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "остарях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_c4f37126",
+      "type": "translation",
+      "sentence": "донеса (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "донесох",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_719ca7f5",
+      "type": "translation",
+      "sentence": "седна (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "седнах",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_8a13db21",
+      "type": "translation",
+      "sentence": "моля (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "молих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_c90f0436",
+      "type": "translation",
+      "sentence": "копнея (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "копнях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_e70d165e",
+      "type": "translation",
+      "sentence": "проведа (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "проведох",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_0123dec8",
+      "type": "translation",
+      "sentence": "вляза (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "влязох",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_311018b7",
+      "type": "translation",
+      "sentence": "строя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "строих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_fc8eeed8",
+      "type": "translation",
+      "sentence": "заболея (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "заболях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_5b42728f",
+      "type": "translation",
+      "sentence": "приведа (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "приведох",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_ad6daa63",
+      "type": "translation",
+      "sentence": "падна (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "паднах",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_1d6538f1",
+      "type": "translation",
+      "sentence": "построя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "построих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_f79a1628",
+      "type": "translation",
+      "sentence": "изпея (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "изпях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_e0be0c68",
+      "type": "translation",
+      "sentence": "плета (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "плетох",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_392d87a8",
+      "type": "translation",
+      "sentence": "преведа (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "преведох",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_f64bdb0e",
+      "type": "translation",
+      "sentence": "изнеса (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "изнесох",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_cafc3ada",
+      "type": "translation",
+      "sentence": "бия (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "бих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_99c80586",
+      "type": "translation",
+      "sentence": "пея (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "пях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_4e8acf3d",
+      "type": "translation",
+      "sentence": "съхна (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "съхнах",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_5a247c07",
+      "type": "translation",
+      "sentence": "засмея се (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "засмях се",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_7c0e177e",
+      "type": "translation",
+      "sentence": "дочуя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "дочух",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_46871efb",
+      "type": "translation",
+      "sentence": "смея се (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "смях се",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_d3c6b03e",
+      "type": "translation",
+      "sentence": "чуя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "чух",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_03b5d277",
+      "type": "translation",
+      "sentence": "пия (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "пих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_d3eb0d93",
+      "type": "translation",
+      "sentence": "набия (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "набих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_a73f7c62",
+      "type": "translation",
+      "sentence": "измия (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "измих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_66ab1289",
+      "type": "translation",
+      "sentence": "плюя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "плюх",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_81520c9a",
+      "type": "translation",
+      "sentence": "крия (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "крих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_1e05cdd0",
+      "type": "translation",
+      "sentence": "мия (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "мих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_c19d0b37",
+      "type": "translation",
+      "sentence": "владея (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "владях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_fc3e42c2",
+      "type": "translation",
+      "sentence": "дам (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "дадох",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_8dca4141",
+      "type": "translation",
+      "sentence": "бдя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "бдях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_f90d64d7",
+      "type": "translation",
+      "sentence": "даря (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "дарих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_a29b21d3",
+      "type": "translation",
+      "sentence": "излъча (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "излъчих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_57457112",
+      "type": "translation",
+      "sentence": "изчисля (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "изчислих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_4b746c6f",
+      "type": "translation",
+      "sentence": "пазаря се (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "пазарих се",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_81cc5f28",
+      "type": "translation",
+      "sentence": "ощетя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "ощетих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_6095e0e2",
+      "type": "translation",
+      "sentence": "обуя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "обух",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_9e3d7afa",
+      "type": "translation",
+      "sentence": "преобразя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "преобразих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_12deae30",
+      "type": "translation",
+      "sentence": "търча (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "търчах",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_6e38ed57",
+      "type": "translation",
+      "sentence": "уча (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "учих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_9e0c259e",
+      "type": "translation",
+      "sentence": "успея (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "успях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_cdbea98e",
+      "type": "translation",
+      "sentence": "чудя се (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "чудих се",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_6dcfdb5b",
+      "type": "translation",
+      "sentence": "твърдя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "твърдях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_912a0d3f",
+      "type": "translation",
+      "sentence": "уеднаквя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "уеднаквих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_5fe63246",
+      "type": "translation",
+      "sentence": "уголемя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "уголемих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_6d67741b",
+      "type": "translation",
+      "sentence": "скокна (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "скокнах",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_8d8fbd22",
+      "type": "translation",
+      "sentence": "ритам (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "ритах",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_cd9a58a9",
+      "type": "translation",
+      "sentence": "ридая (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "ридах",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_d07fab51",
+      "type": "translation",
+      "sentence": "прелея (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "прелях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_7223deee",
+      "type": "translation",
+      "sentence": "прекъсна (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "прекъснах",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_a3b251dd",
+      "type": "translation",
+      "sentence": "ходя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "ходих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_05475948",
+      "type": "translation",
+      "sentence": "възмутя се (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "възмутих се",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_2b0aeea8",
+      "type": "translation",
+      "sentence": "броя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "броих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_fe66e78f",
+      "type": "translation",
+      "sentence": "задълбоча (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "задълбочих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_ffceba60",
+      "type": "translation",
+      "sentence": "заверя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "заверих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_c5469661",
+      "type": "translation",
+      "sentence": "забогатея (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "забогатях",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_25ad93ec",
+      "type": "translation",
+      "sentence": "купя (Aorist 1. Tekil Şahıs - аз)",
+      "answer": "купих",
+      "hint": "Fiili Aorist (Geçmiş Zaman) yapın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_bcad87d2",
+      "type": "translation",
+      "sentence": "Ona söylemedin mi?",
+      "answer": "Ти не му ли каза?",
+      "hint": "Bulgarca'ya çevirin. İpucu: кажа fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_49db7252",
+      "type": "translation",
+      "sentence": "Bana meşgul olduğunu söyledi.",
+      "answer": "Той ми каза, че е зает.",
+      "hint": "Bulgarca'ya çevirin. İpucu: кажа fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_4906cfd2",
+      "type": "translation",
+      "sentence": "Ona, kendisini bekleyeceğimizi söyledim.",
+      "answer": "Аз му казах, че ще го чакаме.",
+      "hint": "Bulgarca'ya çevirin. İpucu: кажа fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_87426d7d",
+      "type": "translation",
+      "sentence": "Bunu ona söylediniz mi?",
+      "answer": "Вие казахте ли му това?",
+      "hint": "Bulgarca'ya çevirin. İpucu: кажа fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_6c36ae1c",
+      "type": "translation",
+      "sentence": "Ona söylediler.",
+      "answer": "Те му казаха.",
+      "hint": "Bulgarca'ya çevirin. İpucu: кажа fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_604457fc",
+      "type": "translation",
+      "sentence": "Gelemedim.",
+      "answer": "Не можах да дойда.",
+      "hint": "Bulgarca'ya çevirin. İpucu: мога fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_fdde0fce",
+      "type": "translation",
+      "sentence": "O gelemedi.",
+      "answer": "Той не можа да дойде.",
+      "hint": "Bulgarca'ya çevirin. İpucu: мога fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_90d03b8b",
+      "type": "translation",
+      "sentence": "Arkadaşımdan bir dergi istedim.",
+      "answer": "Поисках от приятеля си едно списание.",
+      "hint": "Bulgarca'ya çevirin. İpucu: Поискам fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_55678513",
+      "type": "translation",
+      "sentence": "Onu istasyonda karşıladım.",
+      "answer": "Посрещнах го на гарата.",
+      "hint": "Bulgarca'ya çevirin. İpucu: Посрещна fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_c0cf1f62",
+      "type": "translation",
+      "sentence": "Siz ne zaman yattınız?",
+      "answer": "Вие кога си легнахте?",
+      "hint": "Bulgarca'ya çevirin. İpucu: легна fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_f939c1a6",
+      "type": "translation",
+      "sentence": "Gelmeyeceğini düşündüm.",
+      "answer": "Помислих, че няма да дойдеш.",
+      "hint": "Bulgarca'ya çevirin. İpucu: Помисля fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_02a51e0d",
+      "type": "translation",
+      "sentence": "Birisi kapıyı çaldı/telefon etti.",
+      "answer": "Някой позвъни.",
+      "hint": "Bulgarca'ya çevirin. İpucu: позвъня fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_dc0eb075",
+      "type": "translation",
+      "sentence": "Kapıyı açtım, fakat kimse olmadığı için tekrar kapattım.",
+      "answer": "Аз отворих вратата и пак я затворих, защото нямаше никой.",
+      "hint": "Bulgarca'ya çevirin. İpucu: отваря fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_b4ed9649",
+      "type": "translation",
+      "sentence": "Dün uçakla uçtum/seyahat ettim.",
+      "answer": "Вчера летях със самолет.",
+      "hint": "Bulgarca'ya çevirin. İpucu: летя fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_8c9656f3",
+      "type": "translation",
+      "sentence": "O uçmadı.",
+      "answer": "Той не летя.",
+      "hint": "Bulgarca'ya çevirin. İpucu: летя fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_4f44ce81",
+      "type": "translation",
+      "sentence": "Ne yaptığını görmek için geldim.",
+      "answer": "Дойдох да видя какво правиш.",
+      "hint": "Bulgarca'ya çevirin. İpucu: Дойда fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_56adc36c",
+      "type": "translation",
+      "sentence": "Nasıl geldin?",
+      "answer": "Как дойде?",
+      "hint": "Bulgarca'ya çevirin. İpucu: дойда fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_ab6898e5",
+      "type": "translation",
+      "sentence": "Son haberleri duydum.",
+      "answer": "Чух последните новини.",
+      "hint": "Bulgarca'ya çevirin. İpucu: Чуя fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_dee5d3f6",
+      "type": "translation",
+      "sentence": "Sana çilek getirdim.",
+      "answer": "Донесох ти ягоди.",
+      "hint": "Bulgarca'ya çevirin. İpucu: Донеса fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_8fc856e4",
+      "type": "translation",
+      "sentence": "Sen yedin mi?",
+      "answer": "Ти яде ли?",
+      "hint": "Bulgarca'ya çevirin. İpucu: ям fiilini aorist kullanın.",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_8a8743b0",
+      "type": "translation",
+      "sentence": "се върна от работа (Ние / Biz)",
+      "answer": "се върнахме",
+      "hint": "Fiili Aorist - 1. Çoğul Şahıs (Ние) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_4174d0ac",
+      "type": "translation",
+      "sentence": "се върна от работа (Те / Onlar)",
+      "answer": "се върнаха",
+      "hint": "Fiili Aorist - 3. Çoğul Şahıs (Те) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_2aa35a82",
+      "type": "translation",
+      "sentence": "падна от ските (Ние / Biz)",
+      "answer": "паднахме",
+      "hint": "Fiili Aorist - 1. Çoğul Şahıs (Ние) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_fe2d1440",
+      "type": "translation",
+      "sentence": "падна от ските (Те / Onlar)",
+      "answer": "паднаха",
+      "hint": "Fiili Aorist - 3. Çoğul Şahıs (Те) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_5c871c2e",
+      "type": "translation",
+      "sentence": "се спусна по пързалката (Ние / Biz)",
+      "answer": "се спуснахме",
+      "hint": "Fiili Aorist - 1. Çoğul Şahıs (Ние) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_b26816e8",
+      "type": "translation",
+      "sentence": "се спусна по пързалката (Те / Onlar)",
+      "answer": "се спуснаха",
+      "hint": "Fiili Aorist - 3. Çoğul Şahıs (Те) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_583eaecd",
+      "type": "translation",
+      "sentence": "покани приятелите си на гости (Ние / Biz)",
+      "answer": "поканихме",
+      "hint": "Fiili Aorist - 1. Çoğul Şahıs (Ние) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_5e956e21",
+      "type": "translation",
+      "sentence": "покани приятелите си на гости (Те / Onlar)",
+      "answer": "поканиха",
+      "hint": "Fiili Aorist - 3. Çoğul Şahıs (Те) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_a7c93cc3",
+      "type": "translation",
+      "sentence": "си купи хубав плат (Ние / Biz)",
+      "answer": "си купихме",
+      "hint": "Fiili Aorist - 1. Çoğul Şahıs (Ние) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_da71aa01",
+      "type": "translation",
+      "sentence": "си купи хубав плат (Те / Onlar)",
+      "answer": "си купиха",
+      "hint": "Fiili Aorist - 3. Çoğul Şahıs (Те) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_395be2a9",
+      "type": "translation",
+      "sentence": "налее вода в чашата (Ние / Biz)",
+      "answer": "наляхме",
+      "hint": "Fiili Aorist - 1. Çoğul Şahıs (Ние) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_348319e2",
+      "type": "translation",
+      "sentence": "налее вода в чашата (Те / Onlar)",
+      "answer": "наляха",
+      "hint": "Fiili Aorist - 3. Çoğul Şahıs (Те) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_1c0792fc",
+      "type": "translation",
+      "sentence": "лети със самолет (Ние / Biz)",
+      "answer": "летяхме",
+      "hint": "Fiili Aorist - 1. Çoğul Şahıs (Ние) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_461b77cc",
+      "type": "translation",
+      "sentence": "лети със самолет (Те / Onlar)",
+      "answer": "летяха",
+      "hint": "Fiili Aorist - 3. Çoğul Şahıs (Те) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_da3d4b57",
+      "type": "translation",
+      "sentence": "прочете вестника (Ние / Biz)",
+      "answer": "прочетохме",
+      "hint": "Fiili Aorist - 1. Çoğul Şahıs (Ние) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_deee9226",
+      "type": "translation",
+      "sentence": "прочете вестника (Те / Onlar)",
+      "answer": "прочетоха",
+      "hint": "Fiili Aorist - 3. Çoğul Şahıs (Те) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_4f9c0466",
+      "type": "translation",
+      "sentence": "влезе в стаята (Ние / Biz)",
+      "answer": "влязохме",
+      "hint": "Fiili Aorist - 1. Çoğul Şahıs (Ние) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_a8f1bf56",
+      "type": "translation",
+      "sentence": "влезе в стаята (Те / Onlar)",
+      "answer": "влязоха",
+      "hint": "Fiili Aorist - 3. Çoğul Şahıs (Те) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_d7894f09",
+      "type": "translation",
+      "sentence": "чу последните новини (Ние / Biz)",
+      "answer": "чухме",
+      "hint": "Fiili Aorist - 1. Çoğul Şahıs (Ние) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_b9b7fcad",
+      "type": "translation",
+      "sentence": "чу последните новини (Те / Onlar)",
+      "answer": "чуха",
+      "hint": "Fiili Aorist - 3. Çoğul Şahıs (Те) formunda yazın",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_0e1b45a4",
+      "type": "translation",
+      "sentence": "природата се събужда",
+      "answer": "doğa uyanır",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_a1a90eda",
+      "type": "translation",
+      "sentence": "doğa uyanır",
+      "answer": "природата се събужда",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_1221fcd2",
+      "type": "translation",
+      "sentence": "раззеленявам се",
+      "answer": "yeşermek",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_55387e33",
+      "type": "translation",
+      "sentence": "yeşermek",
+      "answer": "раззеленявам се",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_cd32d05b",
+      "type": "translation",
+      "sentence": "прилив на сили",
+      "answer": "enerji artışı",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_401d9ee5",
+      "type": "translation",
+      "sentence": "enerji artışı",
+      "answer": "прилив на сили",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_b8cdab27",
+      "type": "translation",
+      "sentence": "пролетна умора",
+      "answer": "bahar yorgunluğu",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_afed672c",
+      "type": "translation",
+      "sentence": "bahar yorgunluğu",
+      "answer": "пролетна умора",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_570ebd26",
+      "type": "translation",
+      "sentence": "не понасям",
+      "answer": "dayanamıyorum",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_778fd410",
+      "type": "translation",
+      "sentence": "dayanamıyorum",
+      "answer": "не понасям",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_a417d942",
+      "type": "translation",
+      "sentence": "киша",
+      "answer": "sulu kar ve çamur",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_3efaf17e",
+      "type": "translation",
+      "sentence": "sulu kar ve çamur",
+      "answer": "киша",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_c5db7d54",
+      "type": "translation",
+      "sentence": "излизам в отпуск",
+      "answer": "izne çıkmak",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_d3215528",
+      "type": "translation",
+      "sentence": "izne çıkmak",
+      "answer": "излизам в отпуск",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_8ac2cffb",
+      "type": "translation",
+      "sentence": "почернявам",
+      "answer": "bronzlaşmak",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_453306bb",
+      "type": "translation",
+      "sentence": "bronzlaşmak",
+      "answer": "почернявам",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_c4764da9",
+      "type": "translation",
+      "sentence": "пързалям се с шейна",
+      "answer": "kızakla kaymak",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_84fa8675",
+      "type": "translation",
+      "sentence": "kızakla kaymak",
+      "answer": "пързалям се с шейна",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_2f006f44",
+      "type": "translation",
+      "sentence": "карам кънки",
+      "answer": "paten kaymak",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_740b8fc7",
+      "type": "translation",
+      "sentence": "paten kaymak",
+      "answer": "карам кънки",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_2ca63d35",
+      "type": "translation",
+      "sentence": "златна есен",
+      "answer": "altın sonbahar",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_179fc86f",
+      "type": "translation",
+      "sentence": "altın sonbahar",
+      "answer": "златна есен",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_702234ae",
+      "type": "translation",
+      "sentence": "циганско лято",
+      "answer": "pastırma yazı",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_4bf3a555",
+      "type": "translation",
+      "sentence": "pastırma yazı",
+      "answer": "циганско лято",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_ff778c07",
+      "type": "translation",
+      "sentence": "вдъхновявам",
+      "answer": "ilham vermek",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_d294b1a5",
+      "type": "translation",
+      "sentence": "ilham vermek",
+      "answer": "вдъхновявам",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_690a6fda",
+      "type": "translation",
+      "sentence": "непрекъснато",
+      "answer": "durmadan, sürekli",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_8fc54686",
+      "type": "translation",
+      "sentence": "durmadan, sürekli",
+      "answer": "непрекъснато",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_81a7de56",
+      "type": "translation",
+      "sentence": "пред камината",
+      "answer": "şöminenin önünde",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_257b6f60",
+      "type": "translation",
+      "sentence": "şöminenin önünde",
+      "answer": "пред камината",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_2220cbf6",
+      "type": "translation",
+      "sentence": "успокоявам",
+      "answer": "sakinleştirmek",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_73ed546e",
+      "type": "translation",
+      "sentence": "sakinleştirmek",
+      "answer": "успокоявам",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_c7ac136d",
+      "type": "translation",
+      "sentence": "ситен дъжд",
+      "answer": "ince yağmur",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_872c59ec",
+      "type": "translation",
+      "sentence": "ince yağmur",
+      "answer": "ситен дъжд",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_9583ba88",
+      "type": "translation",
+      "sentence": "пронизващ вятър",
+      "answer": "içe işleyen rüzgâr",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_3a744acb",
+      "type": "translation",
+      "sentence": "içe işleyen rüzgâr",
+      "answer": "пронизващ вятър",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_b592963d",
+      "type": "translation",
+      "sentence": "не чак толкова",
+      "answer": "o kadar da değil",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_4d2fc432",
+      "type": "translation",
+      "sentence": "o kadar da değil",
+      "answer": "не чак толкова",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_3c0cd61f",
+      "type": "translation",
+      "sentence": "ръми",
+      "answer": "çiseliyor",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_5da695b8",
+      "type": "translation",
+      "sentence": "çiseliyor",
+      "answer": "ръми",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_25100cd0",
+      "type": "translation",
+      "sentence": "ми беше студено",
+      "answer": "üşüdüm / bana soğuk geldi",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_10c41253",
+      "type": "translation",
+      "sentence": "üşüdüm / bana soğuk geldi",
+      "answer": "ми беше студено",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_654dd279",
+      "type": "translation",
+      "sentence": "едва ли",
+      "answer": "pek sanmıyorum",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_30b42afa",
+      "type": "translation",
+      "sentence": "pek sanmıyorum",
+      "answer": "едва ли",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_6b221c25",
+      "type": "translation",
+      "sentence": "закъснявам",
+      "answer": "gecikmek",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_e610fd54",
+      "type": "translation",
+      "sentence": "gecikmek",
+      "answer": "закъснявам",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_f422116b",
+      "type": "translation",
+      "sentence": "потънал в зеленина",
+      "answer": "yeşilliğe bürünmüş",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_289f307d",
+      "type": "translation",
+      "sentence": "yeşilliğe bürünmüş",
+      "answer": "потънал в зеленина",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_ed7cefaa",
+      "type": "translation",
+      "sentence": "лунна нощ",
+      "answer": "mehtaplı/gece ay ışıklı",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_4be78811",
+      "type": "translation",
+      "sentence": "mehtaplı/gece ay ışıklı",
+      "answer": "лунна нощ",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_b1ee34e2",
+      "type": "translation",
+      "sentence": "възраждам се",
+      "answer": "yeniden doğmak/canlanmak",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_2a4393bc",
+      "type": "translation",
+      "sentence": "yeniden doğmak/canlanmak",
+      "answer": "възраждам се",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_22c29033",
+      "type": "translation",
+      "sentence": "вали като из ведро",
+      "answer": "bardaktan boşanırcasına yağmak",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_8f5ec8c3",
+      "type": "translation",
+      "sentence": "bardaktan boşanırcasına yağmak",
+      "answer": "вали като из ведро",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_3b1c251f",
+      "type": "translation",
+      "sentence": "времето се оправя",
+      "answer": "hava düzelir",
+      "hint": "Kelime anlamı",
+      "lesson": "Ders 11"
+    },
+    {
+      "id": "q_ders11_42a94fc7",
+      "type": "translation",
+      "sentence": "hava düzelir",
+      "answer": "времето се оправя",
+      "hint": "Bulgarca kelime karşılığı",
+      "lesson": "Ders 11"
     }
   ]
 }

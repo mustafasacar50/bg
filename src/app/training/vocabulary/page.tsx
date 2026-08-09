@@ -14,6 +14,7 @@ export default function VocabularyPage() {
   const [student, setStudent] = useState<any>(null);
   const [unknownWords, setUnknownWords] = useState<string[]>([]);
   const [questions, setQuestions] = useState<Question[]>([]);
+  const [dictionary, setDictionary] = useState<Record<string, string>>({});
   const [loading, setLoading] = useState(true);
   const [editingWord, setEditingWord] = useState<{old: string, new: string} | null>(null);
   const [expandedWords, setExpandedWords] = useState<Record<string, boolean>>({});
@@ -34,14 +35,25 @@ export default function VocabularyPage() {
 
     const fetchData = async () => {
       try {
-        const [progRes, modRes] = await Promise.all([
+        const [progRes, modRes, dictRes] = await Promise.all([
           fetch(`/api/training-progress?studentId=${parsedStudent.id}`),
-          fetch(`/api/modules/vocab?studentId=${parsedStudent.id}`)
+          fetch(`/api/modules/vocab?studentId=${parsedStudent.id}`),
+          fetch('/dictionary.json')
         ]);
         
         const progData = await progRes.json();
         const modData = await modRes.json();
         
+        let cleanDict: Record<string, string> = {};
+        if (dictRes.ok) {
+          const dictData = await dictRes.json();
+          for (const key in dictData) {
+            let cleanKey = key.replace(/^(açiklama:|not:|gramer:|diyalog:|konuşma konusu:|diğer:|örnek:)\s*/i, '').trim();
+            cleanDict[cleanKey] = dictData[key];
+          }
+        }
+        
+        setDictionary(cleanDict);
         setUnknownWords(progData.progress?.unknownWords || []);
         setQuestions(modData.questions || []);
         setLoading(false);
@@ -167,14 +179,26 @@ export default function VocabularyPage() {
                         
                         const regex = new RegExp(`(${word})`, 'gi');
                         const highlightedBg = bgText.split(regex).map((part, index) => 
-                          part.toLowerCase() === word.toLowerCase() ? <span key={index} className="bg-yellow-200 text-yellow-900 px-1 rounded font-bold">{part}</span> : part
+                          part.toLowerCase() === word.toLowerCase() ? <span key={index} className="bg-green-100 text-green-900 px-1 rounded font-bold">{part}</span> : part
                         );
+                        
+                        let highlightedTr: any = trText;
+                        const translation = dictionary[word] || dictionary[word.toLowerCase()];
+                        if (translation) {
+                           const cleanTr = translation.replace(/[.,!?]/g, '').trim();
+                           if (cleanTr.length > 2) {
+                              const trRegex = new RegExp(`(${cleanTr})`, 'gi');
+                              highlightedTr = trText.split(trRegex).map((part, index) => 
+                                part.toLowerCase() === cleanTr.toLowerCase() ? <span key={index} className="bg-green-100 text-green-900 px-1 rounded font-bold">{part}</span> : part
+                              );
+                           }
+                        }
 
                         return (
                           <div key={i} className="py-3 flex flex-col gap-1">
                             <div className="text-slate-800 font-medium text-lg leading-relaxed">{highlightedBg}</div>
                             <div className="mt-1 text-slate-500 text-sm">
-                              {trText}
+                              {highlightedTr}
                             </div>
                           </div>
                         );

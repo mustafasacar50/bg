@@ -102,6 +102,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   // Font State
   const [useCursiveBg, setUseCursiveBg] = useState(false);
 
+  // Settings Modal State
+  const [showSettingsModal, setShowSettingsModal] = useState(false);
+
   // Swipe Refs
   const touchStartRef = useRef<{ x: number, y: number } | null>(null);
 
@@ -154,17 +157,20 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     if (!selectedWord || !student?.id) return;
     const word = selectedWord.word;
     
+    // Show success state
+    setIsWordAdded(true);
+    
     if (unknownWords.includes(word)) {
-      window.getSelection()?.removeAllRanges();
-      setSelectedWord(null);
+      setTimeout(() => {
+        window.getSelection()?.removeAllRanges();
+        setSelectedWord(null);
+        setIsWordAdded(false);
+      }, 1000);
       return;
     }
     
     const newWords = [...unknownWords, word];
     setUnknownWords(newWords);
-    
-    // Show success state
-    setIsWordAdded(true);
     
     try {
       await fetch('/api/training-progress', {
@@ -179,12 +185,12 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       console.error(e);
     }
     
-    // Hide after a brief delay
+    // Hide after 1 second
     setTimeout(() => {
       window.getSelection()?.removeAllRanges();
       setSelectedWord(null);
       setIsWordAdded(false);
-    }, 1200);
+    }, 1000);
   };
 
   // 2. Fetch Module & Set Questions
@@ -586,7 +592,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
              const next = [...prev];
              const originalIndex = next.findIndex(q => q.id === qOriginal.id);
              if (originalIndex !== -1) {
-                const insertIdx = Math.min(currentIndex + 4, next.length);
+                const insertIdx = Math.min(originalIndex + 4, next.length);
                 // Duplicate it for spaced repetition
                 next.splice(insertIdx, 0, { ...qOriginal, id: qOriginal.id + '_retry_' + Date.now() });
              }
@@ -621,8 +627,11 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     if (qOriginal && mode === 'all') {
        setSessionQuestions(prev => {
          const next = [...prev];
-         const insertIdx = Math.min(currentIndex + 4, next.length);
-         next.splice(insertIdx, 0, { ...qOriginal, id: qOriginal.id + '_retry_' + Date.now() });
+         const originalIndex = next.findIndex(q => q.id === qOriginal.id);
+         if (originalIndex !== -1) {
+            const insertIdx = Math.min(originalIndex + 4, next.length);
+            next.splice(insertIdx, 0, { ...qOriginal, id: qOriginal.id + '_retry_' + Date.now() });
+         }
          return next;
        });
     }
@@ -846,178 +855,127 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         </div>
       )}
 
-      {/* Header */}
-      <header className="bg-white border-b border-slate-200 px-2 py-2 sm:px-4 sm:py-3 flex flex-col items-center sticky top-0 z-10 gap-2">
-        
-        {/* Top Row: Close, Search, Language */}
-        <div className="flex w-full items-center justify-between gap-1 flex-wrap sm:flex-nowrap">
-          <div className="flex items-center flex-1 min-w-0">
-            <button onClick={() => router.push('/training')} className="text-slate-400 hover:text-slate-600 mr-1 sm:mr-2 flex-shrink-0 text-xl">
-              ✕
-            </button>
-            
-            {(student?.role === 'admin' || student?.isAdminMode || student?.username === 'mustafasacar') && (
-              <label className="flex items-center gap-1.5 cursor-pointer mr-2 bg-slate-100 px-2 py-1 rounded-full border border-slate-200">
-                <div className="relative">
-                  <input type="checkbox" className="sr-only" checked={adminMode} onChange={(e) => { setAdminMode(e.target.checked); setFeedback('none'); setUserAnswer(''); setKeyboardOpen(false); }} />
-                  <div className={`block w-6 h-3 rounded-full transition-colors ${adminMode ? 'bg-indigo-500' : 'bg-slate-300'}`}></div>
-                  <div className={`dot absolute left-0.5 top-[2px] bg-white w-2 h-2 rounded-full transition-transform ${adminMode ? 'translate-x-3' : ''}`}></div>
-                </div>
-                <span className="text-[10px] font-bold text-slate-500 select-none">Admin</span>
-              </label>
-            )}
-            
-            <label className="flex items-center gap-1.5 cursor-pointer mr-2 bg-slate-100 px-2 py-1 rounded-full border border-slate-200" title="Bulgarca metinleri el yazısı ile göster">
-              <div className="relative">
-                <input type="checkbox" className="sr-only" checked={useCursiveBg} onChange={(e) => setUseCursiveBg(e.target.checked)} />
-                <div className={`block w-6 h-3 rounded-full transition-colors ${useCursiveBg ? 'bg-indigo-500' : 'bg-slate-300'}`}></div>
-                <div className={`dot absolute left-0.5 top-[2px] bg-white w-2 h-2 rounded-full transition-transform ${useCursiveBg ? 'translate-x-3' : ''}`}></div>
-              </div>
-              <span className="text-[10px] font-bold text-slate-500 select-none">✍️ El Yazısı</span>
-            </label>
-            
-            {/* Search Input */}
-            <div className="relative flex-1 min-w-0 max-w-[200px]">
-              <input 
-                type="text" 
-                placeholder="🔍 Ara..." 
-                value={searchQuery}
-                onChange={(e) => {
-                  setSearchQuery(e.target.value);
-                  setCurrentIndex(0);
-                }}
-                className="w-full bg-slate-100 border-none rounded-full px-3 py-1 text-xs outline-none focus:ring-2 focus:ring-indigo-500 min-w-0"
-              />
+      {/* Settings Modal */}
+      {showSettingsModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4">
+          <div className="bg-white rounded-2xl w-full max-w-sm overflow-hidden shadow-2xl animate-in zoom-in-95">
+            <div className="bg-slate-50 border-b border-slate-100 p-4 flex justify-between items-center">
+              <h3 className="font-bold text-slate-800 text-lg">⚙️ Ayarlar</h3>
+              <button onClick={() => setShowSettingsModal(false)} className="w-8 h-8 flex items-center justify-center rounded-full bg-slate-200 text-slate-500 hover:bg-slate-300">✕</button>
             </div>
-          </div>
-          
-          {/* Language Filter */}
-          <div className="flex bg-slate-100 rounded-full p-0.5 border border-slate-200 flex-shrink-0">
-            <button
-              onClick={() => { setLangFilter('all'); setCurrentIndex(0); }}
-              className={`px-2 py-0.5 text-sm sm:text-base rounded-full transition-colors ${langFilter === 'all' ? 'bg-white shadow-sm grayscale-0' : 'grayscale opacity-50 hover:opacity-100 hover:grayscale-0'}`}
-              title="Tümü"
-            >
-              🌐
-            </button>
-            <button
-              onClick={() => { setLangFilter('bg'); setCurrentIndex(0); }}
-              className={`px-2 py-0.5 text-sm sm:text-base rounded-full transition-colors ${langFilter === 'bg' ? 'bg-white shadow-sm grayscale-0' : 'grayscale opacity-50 hover:opacity-100 hover:grayscale-0'}`}
-              title="Bulgarca"
-            >
-              🇧🇬
-            </button>
-            <button
-              onClick={() => { setLangFilter('tr'); setCurrentIndex(0); }}
-              className={`px-2 py-0.5 text-sm sm:text-base rounded-full transition-colors ${langFilter === 'tr' ? 'bg-white shadow-sm grayscale-0' : 'grayscale opacity-50 hover:opacity-100 hover:grayscale-0'}`}
-              title="Türkçe"
-            >
-              🇹🇷
-            </button>
-          </div>
-        </div>
-        
-        {/* Bottom Row: Slider, Random, Score */}
-        <div className="flex flex-wrap sm:flex-nowrap w-full items-center justify-between gap-3 sm:gap-4">
-          
-          <div className="flex items-center justify-between sm:justify-end w-full sm:w-auto gap-2 flex-shrink-0 order-1 sm:order-2">
-            {(!isEditingQuestion && adminMode) && (
-              <button 
-                onClick={() => {
-                  const rawQ = filteredQuestions[currentIndex];
-                  setEditForm({
-                    sentence: rawQ.sentence,
-                    answer: rawQ.answer,
-                    hint: rawQ.hint,
-                    explanation: rawQ.explanation || ''
-                  });
-                  setIsEditingQuestion(true);
-                  setFeedback('none');
-                }}
-                className="flex items-center justify-center p-1.5 bg-indigo-50 text-indigo-700 hover:bg-indigo-100 rounded-lg transition-colors shadow-sm border border-indigo-100"
-                title="Düzenle"
-              >
-                ✏️
-              </button>
-            )}
-
-            {!isEditingQuestion && (
-              <button 
-                onClick={handleSwap}
-                className="flex items-center justify-center p-1.5 bg-amber-50 text-amber-700 hover:bg-amber-100 rounded-lg transition-colors shadow-sm border border-amber-100"
-                title="Soruyu ters çevir (Bulgarca <-> Türkçe)"
-              >
-                <RefreshCw size={20} className={isSwapped ? 'rotate-180 transition-transform duration-500' : 'transition-transform duration-500'} />
-              </button>
-            )}
-
-            <button
-              onClick={() => {
-                const shuffled = [...filteredQuestions].sort(() => Math.random() - 0.5);
-                setSessionQuestions(shuffled);
-                setCurrentIndex(0);
-                setFeedback('none');
-                setUserAnswer('');
-              }}
-              className="p-1.5 bg-slate-100 text-slate-500 hover:bg-indigo-100 hover:text-indigo-600 rounded-lg transition-colors shadow-sm border border-slate-200 flex items-center justify-center"
-              title="Soruları Karıştır"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg>
-            </button>
-            <div className="bg-indigo-50 text-indigo-700 px-3 py-1.5 rounded-lg font-black text-sm border border-indigo-100 shadow-sm whitespace-nowrap">
-              Puan: {score.toFixed(1)}
-            </div>
-          </div>
-
-          {/* Interactive Progress Slider */}
-          {!isFinished && !isSearchEmpty && filteredQuestions.length > 0 ? (
-            <div className="w-full sm:w-auto sm:flex-1 flex items-center gap-2 order-2 sm:order-1">
-              <button 
-                onClick={() => setCurrentIndex(Math.max(0, currentIndex - 1))}
-                disabled={currentIndex === 0}
-                className="text-slate-400 font-black text-xl hover:text-indigo-600 disabled:opacity-30 disabled:hover:text-slate-400 transition-colors px-2"
-                title="Önceki Soru"
-              >
-                ◀
-              </button>
+            <div className="p-4 flex flex-col gap-5">
               
-              <div className="flex-1 flex items-center">
-                <input 
-                  type="range" 
-                  min="0" 
-                  max={filteredQuestions.length - 1} 
-                  value={currentIndex}
-                  onChange={(e) => {
-                    const newIdx = parseInt(e.target.value);
-                    setCurrentIndex(newIdx);
-                    if (!searchQuery.trim()) {
-                      syncProgress({ [mode === 'mistakes' ? 'mistakesProgress' : 'allProgress']: newIdx });
-                    }
+              {/* Search */}
+              <div>
+                <label className="block text-xs font-bold text-slate-500 mb-2 uppercase">Arama</label>
+                <div className="relative w-full">
+                  <input 
+                    type="text" 
+                    placeholder="🔍 Sorularda Ara..." 
+                    value={searchQuery}
+                    onChange={(e) => {
+                      setSearchQuery(e.target.value);
+                      setCurrentIndex(0);
+                    }}
+                    className="w-full bg-slate-100 border border-slate-200 rounded-xl px-4 py-2.5 text-sm outline-none focus:ring-2 focus:ring-indigo-500"
+                  />
+                </div>
+              </div>
+
+              {/* Language Filter */}
+              <div>
+                <label className="block text-xs font-bold text-slate-500 mb-2 uppercase">Dil Filtresi</label>
+                <div className="flex bg-slate-100 rounded-xl p-1 border border-slate-200 w-full justify-between">
+                  <button onClick={() => { setLangFilter('all'); setCurrentIndex(0); }} className={`flex-1 py-2 text-sm rounded-lg transition-colors font-bold ${langFilter === 'all' ? 'bg-white shadow-sm text-indigo-600' : 'text-slate-500 hover:bg-slate-200'}`}>Tümü 🌐</button>
+                  <button onClick={() => { setLangFilter('bg'); setCurrentIndex(0); }} className={`flex-1 py-2 text-sm rounded-lg transition-colors font-bold ${langFilter === 'bg' ? 'bg-white shadow-sm text-indigo-600' : 'text-slate-500 hover:bg-slate-200'}`}>BG 🇧🇬</button>
+                  <button onClick={() => { setLangFilter('tr'); setCurrentIndex(0); }} className={`flex-1 py-2 text-sm rounded-lg transition-colors font-bold ${langFilter === 'tr' ? 'bg-white shadow-sm text-indigo-600' : 'text-slate-500 hover:bg-slate-200'}`}>TR 🇹🇷</button>
+                </div>
+              </div>
+
+              {/* Toggles */}
+              <div className="flex flex-col gap-3">
+                <label className="flex items-center justify-between cursor-pointer p-3 bg-slate-50 rounded-xl border border-slate-100 hover:bg-slate-100 transition-colors">
+                  <span className="font-bold text-slate-700 text-sm">✍️ El Yazısı Modu</span>
+                  <div className="relative">
+                    <input type="checkbox" className="sr-only" checked={useCursiveBg} onChange={(e) => setUseCursiveBg(e.target.checked)} />
+                    <div className={`block w-10 h-6 rounded-full transition-colors ${useCursiveBg ? 'bg-indigo-500' : 'bg-slate-300'}`}></div>
+                    <div className={`dot absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition-transform ${useCursiveBg ? 'translate-x-4' : ''}`}></div>
+                  </div>
+                </label>
+
+                {(student?.role === 'admin' || student?.isAdminMode || student?.username === 'mustafasacar') && (
+                  <label className="flex items-center justify-between cursor-pointer p-3 bg-slate-50 rounded-xl border border-slate-100 hover:bg-slate-100 transition-colors">
+                    <span className="font-bold text-slate-700 text-sm">👑 Admin Modu</span>
+                    <div className="relative">
+                      <input type="checkbox" className="sr-only" checked={adminMode} onChange={(e) => { setAdminMode(e.target.checked); setFeedback('none'); setUserAnswer(''); setKeyboardOpen(false); }} />
+                      <div className={`block w-10 h-6 rounded-full transition-colors ${adminMode ? 'bg-indigo-500' : 'bg-slate-300'}`}></div>
+                      <div className={`dot absolute left-1 top-1 bg-white w-4 h-4 rounded-full transition-transform ${adminMode ? 'translate-x-4' : ''}`}></div>
+                    </div>
+                  </label>
+                )}
+              </div>
+
+              {/* Actions */}
+              <div className="grid grid-cols-2 gap-2 mt-2">
+                <button 
+                  onClick={() => {
+                    handleSwap();
+                    setShowSettingsModal(false);
+                  }}
+                  className="flex items-center justify-center gap-2 p-3 bg-amber-50 text-amber-700 hover:bg-amber-100 rounded-xl transition-colors font-bold text-sm"
+                >
+                  <RefreshCw size={16} className={isSwapped ? 'rotate-180' : ''} /> <span>Yönü Değiştir</span>
+                </button>
+                <button
+                  onClick={() => {
+                    const shuffled = [...filteredQuestions].sort(() => Math.random() - 0.5);
+                    setSessionQuestions(shuffled);
+                    setCurrentIndex(0);
                     setFeedback('none');
                     setUserAnswer('');
-                    setIsSwapped(false);
+                    setShowSettingsModal(false);
                   }}
-                  className="w-full h-3 sm:h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-indigo-600"
-                />
+                  className="flex items-center justify-center gap-2 p-3 bg-indigo-50 text-indigo-700 hover:bg-indigo-100 rounded-xl transition-colors font-bold text-sm"
+                >
+                  <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path></svg> <span>Karıştır</span>
+                </button>
               </div>
 
-              <button 
-                onClick={() => setCurrentIndex(Math.min(filteredQuestions.length - 1, currentIndex + 1))}
-                disabled={currentIndex >= filteredQuestions.length - 1}
-                className="text-slate-400 font-black text-xl hover:text-indigo-600 disabled:opacity-30 disabled:hover:text-slate-400 transition-colors px-2"
-                title="Sonraki Soru"
-              >
-                ▶
-              </button>
-              
-              <span className="text-xs font-bold text-slate-500 whitespace-nowrap w-[50px] text-right">
-                {currentIndex + 1} / {filteredQuestions.length}
-              </span>
             </div>
-          ) : (
-            <div className="hidden sm:block flex-1 order-2 sm:order-1"></div>
-          )}
+          </div>
+        </div>
+      )}
 
+      {/* Header (Compact Duolingo Style) */}
+      <header className="bg-white border-b border-slate-200 px-3 py-3 flex items-center sticky top-0 z-10 gap-3">
+        {/* Close Button */}
+        <button onClick={() => router.push('/training')} className="w-10 h-10 flex items-center justify-center rounded-full bg-slate-100 text-slate-500 hover:bg-slate-200 flex-shrink-0 transition-colors">
+          <span className="text-xl font-bold">✕</span>
+        </button>
+
+        {/* Progress Bar */}
+        <div className="flex-1 relative h-4 bg-slate-100 rounded-full overflow-hidden border border-slate-200 flex items-center">
+          <div 
+            className="absolute top-0 left-0 bottom-0 bg-green-500 transition-all duration-500 ease-out rounded-full"
+            style={{ width: `${filteredQuestions.length > 0 ? ((currentIndex + 1) / filteredQuestions.length) * 100 : 0}%` }}
+          >
+            {/* Glossy shine effect */}
+            <div className="absolute top-0 left-0 right-0 h-1.5 bg-white/30 rounded-t-full"></div>
+          </div>
+        </div>
+
+        {/* Score & Settings */}
+        <div className="flex items-center gap-2 flex-shrink-0">
+          <div className="flex items-center justify-center px-3 py-2 bg-amber-50 text-amber-600 rounded-xl font-black text-sm border border-amber-100 shadow-sm">
+             ⭐ {score.toFixed(0)}
+          </div>
+          <button 
+            onClick={() => setShowSettingsModal(true)} 
+            className="w-10 h-10 flex items-center justify-center rounded-xl bg-slate-100 text-slate-600 hover:bg-slate-200 transition-colors border border-slate-200 shadow-sm relative"
+          >
+            <span className="text-xl">⚙️</span>
+            {searchQuery && <span className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full border-2 border-white"></span>}
+          </button>
         </div>
       </header>
 
@@ -1084,47 +1042,72 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               </div>
             ) : (
               <>
-                <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-4 sm:p-5 mb-4 sm:mb-6 flex flex-col gap-2 relative">
-                  {(!isEditingQuestion && adminMode) && (
-                    <button
-                      onClick={() => handleDeleteQuestion()}
-                      className="absolute top-2 right-2 p-1.5 text-xs bg-red-50 text-red-500 hover:bg-red-100 hover:text-red-700 rounded-lg transition-colors opacity-60 hover:opacity-100 z-10"
-                      title="Soruyu Sil"
-                    >
-                      🗑️ Sil
-                    </button>
-                  )}
-                  {activeQuestion?.displayParts?.trText && (
-                    <div className="text-base sm:text-lg font-bold text-indigo-700 leading-relaxed w-full pr-12">
-                      {activeQuestion.displayParts.trText}
+                <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-5 mb-6 flex flex-col gap-3">
+                  <div className="flex justify-between items-start gap-4">
+                    {/* Text Container */}
+                    <div className="flex-1 flex flex-col gap-2 min-w-0">
+                      {activeQuestion?.displayParts?.trText && (
+                        <div className="text-lg sm:text-xl font-bold text-indigo-700 leading-relaxed">
+                          {activeQuestion.displayParts.trText}
+                        </div>
+                      )}
+                      {activeQuestion?.displayParts?.bgText && (
+                        <div className={`text-lg sm:text-xl font-bold text-slate-900 leading-relaxed ${useCursiveBg ? 'bg-cursive' : ''}`}>
+                          {activeQuestion.displayParts.bgText.split('_____').map((part, i, arr) => (
+                            <span key={i}>
+                              {part}
+                              {i < arr.length - 1 && <span className="text-red-500 mx-1 tracking-widest">_______</span>}
+                            </span>
+                          ))}
+                        </div>
+                      )}
+                      {(!activeQuestion?.displayParts?.trText && !activeQuestion?.displayParts?.bgText) && (
+                        <div className="text-lg sm:text-xl font-bold text-slate-800 leading-relaxed whitespace-pre-wrap break-words">
+                          {activeQuestion?.display}
+                        </div>
+                      )}
                     </div>
-                  )}
-                  {activeQuestion?.displayParts?.bgText && (
-                    <div className={`text-base sm:text-lg font-bold text-slate-900 leading-relaxed w-full pr-12 ${useCursiveBg ? 'bg-cursive' : ''}`}>
-                      {activeQuestion.displayParts.bgText.split('_____').map((part, i, arr) => (
-                        <span key={i}>
-                          {part}
-                          {i < arr.length - 1 && <span className="text-red-500 mx-1 tracking-widest">_______</span>}
-                        </span>
-                      ))}
+
+                    {/* Action Buttons (TTS and Admin Delete) */}
+                    <div className="flex flex-col gap-2 shrink-0">
+                      {(!isEditingQuestion && adminMode) && (
+                        <>
+                          <button
+                            onClick={() => {
+                              const rawQ = filteredQuestions[currentIndex];
+                              setEditForm({
+                                sentence: rawQ?.sentence || '',
+                                answer: rawQ?.answer || '',
+                                hint: rawQ?.hint || '',
+                                explanation: rawQ?.explanation || ''
+                              });
+                              setIsEditingQuestion(true);
+                            }}
+                            className="w-10 h-10 flex items-center justify-center bg-blue-50 text-blue-500 hover:bg-blue-100 hover:text-blue-700 rounded-xl transition-colors shadow-sm"
+                            title="Soruyu Düzenle"
+                          >
+                            ✏️
+                          </button>
+                          <button
+                            onClick={() => handleDeleteQuestion()}
+                            className="w-10 h-10 flex items-center justify-center bg-red-50 text-red-500 hover:bg-red-100 hover:text-red-700 rounded-xl transition-colors shadow-sm"
+                            title="Soruyu Sil"
+                          >
+                            🗑️
+                          </button>
+                        </>
+                      )}
+                      {activeQuestion && (
+                        <button 
+                          onClick={() => speakText(activeQuestion.answer || activeQuestion.expected)} 
+                          className="w-10 h-10 bg-indigo-50 text-indigo-600 rounded-xl flex items-center justify-center hover:bg-indigo-100 hover:scale-105 active:scale-95 transition-all shadow-sm"
+                          title="Bulgarca okunuşunu dinle"
+                        >
+                          <span className="text-xl">🔊</span>
+                        </button>
+                      )}
                     </div>
-                  )}
-                  {(!activeQuestion?.displayParts?.trText && !activeQuestion?.displayParts?.bgText) && (
-                    <div className="text-base sm:text-lg font-bold text-slate-700 leading-relaxed w-full pr-12 whitespace-pre-wrap">
-                      {activeQuestion?.display}
-                    </div>
-                  )}
-                  
-                  {/* TTS Button */}
-                  {activeQuestion && (
-                    <button 
-                      onClick={() => speakText(activeQuestion.answer || activeQuestion.expected)} 
-                      className="absolute top-4 right-4 w-10 h-10 bg-indigo-50 text-indigo-600 rounded-full flex items-center justify-center hover:bg-indigo-100 hover:scale-105 active:scale-95 transition-all shadow-sm"
-                      title="Bulgarca okunuşunu dinle"
-                    >
-                      <span className="text-xl">🔊</span>
-                    </button>
-                  )}
+                  </div>
                 </div>
 
               {/* Flashcard Mode */}
@@ -1263,15 +1246,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                 </div>
               )}
 
-              {/* Doğru Cevap (Yanlış veya eksik yazıldıysa metin kutusunun altında göster) */}
-              {(feedback === 'wrong' || feedback === 'typo') && !adminMode && userAnswer.trim() !== '' && (
-                <div className={`mt-3 flex items-center gap-2 px-2 text-[15px] font-bold ${feedback === 'wrong' ? 'text-red-600' : 'text-amber-600'} animate-in fade-in`}>
-                  <span>{feedback === 'wrong' ? 'Doğrusu:' : 'Doğru yazım:'}</span>
-                  <span className="bg-white px-3 py-1.5 rounded-lg border shadow-sm text-lg text-slate-800">
-                    {activeQuestion?.fitbTarget || activeQuestion?.expected}
-                  </span>
-                </div>
-              )}
+
 
               {/* Açıklama / Kural Kutusu */}
               {(feedback !== 'none' || adminMode) && activeQuestion?.explanation && (
@@ -1297,101 +1272,105 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       {!isFinished && (
         <div className={`fixed bottom-0 left-0 right-0 z-50 transition-colors duration-300 ${isEditingQuestion ? 'bg-indigo-50 border-t-2 border-indigo-200' : feedback === 'correct' ? 'bg-green-100 border-t-2 border-green-200' : feedback === 'typo' ? 'bg-amber-100 border-t-2 border-amber-200' : feedback === 'wrong' ? 'bg-red-100 border-t-2 border-red-200' : 'bg-white border-t border-slate-200 shadow-[0_-10px_40px_-15px_rgba(0,0,0,0.1)]'}`}>
           {!isEditingQuestion && (
-            <div className="max-w-3xl mx-auto px-3 sm:px-4 py-3 sm:py-6 flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
+            <div className="max-w-3xl mx-auto px-4 py-4 sm:py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
               
-              <div className="flex-1 w-full flex items-center justify-between sm:justify-start">
+              {/* Feedback Text (Left Side) */}
+              <div className="w-full sm:flex-1 flex flex-col justify-center">
                 {feedback === 'correct' && (
-                  <div className="text-green-700">
-                    <div className="font-black text-lg sm:text-xl flex items-center gap-2"><span>✅</span> Harika!</div>
+                  <div className="text-green-700 animate-in slide-in-from-bottom-2">
+                    <div className="font-black text-xl sm:text-2xl flex items-center gap-2">
+                      <div className="w-8 h-8 rounded-full bg-green-200 flex items-center justify-center text-green-700">✓</div>
+                      Harika!
+                    </div>
                   </div>
                 )}
                 {feedback === 'typo' && (
-                  <div className="text-amber-800">
-                    <div className="font-black text-lg sm:text-xl flex items-center gap-2"><span>⚠️</span> Harf hatası!</div>
+                  <div className="text-amber-800 animate-in slide-in-from-bottom-2">
+                    <div className="font-black text-xl sm:text-2xl flex items-center gap-2">
+                      <div className="w-8 h-8 rounded-full bg-amber-200 flex items-center justify-center text-amber-700">!</div>
+                      Harf hatası!
+                    </div>
+                    <div className="text-sm sm:text-base font-bold mt-1 opacity-90">
+                      Doğrusu: <span className="font-black">{activeQuestion?.fitbTarget || activeQuestion?.expected}</span>
+                    </div>
                   </div>
                 )}
                 {feedback === 'wrong' && (
-                  <div className="text-red-700">
-                    <div className="font-black text-lg sm:text-xl flex items-center gap-2"><span>❌</span> {userAnswer.trim() ? "Yanlış" : "Pas geçtiniz"}</div>
+                  <div className="text-red-700 animate-in slide-in-from-bottom-2">
+                    <div className="font-black text-xl sm:text-2xl flex items-center gap-2">
+                      <div className="w-8 h-8 rounded-full bg-red-200 flex items-center justify-center text-red-700">✕</div>
+                      {userAnswer.trim() ? "Yanlış" : "Pas geçtiniz"}
+                    </div>
+                    <div className="text-sm sm:text-base font-bold mt-1 opacity-90">
+                      Doğrusu: <span className="font-black">{activeQuestion?.fitbTarget || activeQuestion?.expected}</span>
+                    </div>
                   </div>
                 )}
                 {feedback === 'none' && !flashcardMode && (
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center">
                     <button 
-                      className="text-slate-400 font-bold hover:text-slate-600 px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-sm bg-slate-50 border border-slate-200"
+                      className="text-slate-400 font-bold hover:text-slate-600 px-4 py-2 rounded-xl text-sm bg-slate-50 border border-slate-200 transition-colors flex items-center gap-2"
                       onClick={() => setKeyboardOpen(!keyboardOpen)}
                       title="Klavyeyi Aç/Kapat"
                     >
-                      ⌨️ <span className="hidden sm:inline">Sanal Klavye</span>
+                      <span className="text-lg">⌨️</span> <span>Klavye</span>
                     </button>
                   </div>
                 )}
               </div>
 
-              <div className="flex flex-row w-full gap-2 sm:gap-3">
+              {/* Action Buttons (Right Side) */}
+              <div className="w-full sm:w-auto flex flex-row gap-2 sm:gap-3 shrink-0">
                 {adminMode ? (
                   <button
                     onClick={() => setCurrentIndex(p => Math.min(filteredQuestions.length - 1, p + 1))}
                     disabled={currentIndex >= filteredQuestions.length - 1}
-                    className="flex-1 px-4 sm:px-8 py-2.5 rounded-xl font-black text-sm sm:text-lg transition-all bg-indigo-600 text-white hover:bg-indigo-700 shadow-md disabled:opacity-30 flex items-center justify-center gap-2"
+                    className="flex-1 sm:w-48 px-6 py-3.5 rounded-2xl font-black text-base sm:text-lg transition-all bg-indigo-600 text-white hover:bg-indigo-700 shadow-[0_4px_0_0_rgb(67,56,202)] active:translate-y-1 active:shadow-none disabled:opacity-30 disabled:shadow-none disabled:translate-y-1 flex items-center justify-center gap-2"
                   >
                     <span>SONRAKİ</span>
-                    <span className="text-lg">⏭️</span>
                   </button>
                 ) : flashcardMode ? (
                   <button
                     onClick={() => setFlashcardMode(false)}
-                    className="flex-1 px-2 py-2.5 rounded-xl font-black text-xs sm:text-lg transition-all bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700 shadow-sm border border-slate-200 active:scale-95 flex items-center justify-center gap-1.5"
+                    className="flex-1 sm:w-48 px-6 py-3.5 rounded-2xl font-black text-sm sm:text-base transition-all bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700 border-2 border-slate-200 shadow-[0_4px_0_0_rgb(226,232,240)] active:translate-y-1 active:shadow-none flex items-center justify-center"
                   >
-                    <span>Yazma Moduna Geç</span>
+                    Yazma Moduna Geç
                   </button>
                 ) : (
                   <>
                     {feedback === 'none' && (
                       <button
-                        onClick={handleSkip}
-                        className="flex-[0.5] px-2 py-2.5 rounded-xl font-black text-xs sm:text-sm transition-all bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700 shadow-sm border border-slate-200 active:scale-95 flex items-center justify-center gap-1.5"
+                         onClick={handleSkip}
+                         className="px-4 py-3.5 rounded-2xl font-black text-sm transition-all bg-slate-100 text-slate-500 hover:bg-slate-200 border-2 border-slate-200 shadow-[0_4px_0_0_rgb(226,232,240)] active:translate-y-1 active:shadow-none flex items-center justify-center"
                       >
-                        <span className="text-base">⏭️</span>
-                        <span className="hidden sm:inline">PAS GEÇ</span>
-                      </button>
-                    )}
-                    {feedback === 'none' && activeQuestion?.type !== 'matching' && (
-                      <button
-                        onClick={() => setFlashcardMode(true)}
-                        className="flex-[0.5] px-2 py-2.5 rounded-xl font-black text-xs sm:text-sm transition-all bg-indigo-50 text-indigo-600 hover:bg-indigo-100 hover:text-indigo-700 shadow-sm border border-indigo-200 active:scale-95 flex items-center justify-center gap-1.5"
-                        title="Yazmadan akıldan tekrar etmek için flaşkarta geç"
-                      >
-                        <span className="text-base">📇</span>
-                        <span className="hidden sm:inline">Flaşkart</span>
+                         PAS GEÇ
                       </button>
                     )}
                     {activeQuestion?.type !== 'matching' && (
                       <button
                         onClick={feedback === 'none' ? handleCheck : handleNext}
                         disabled={feedback === 'none' && (activeQuestion?.type === 'scramble' ? selectedWords.length === 0 : !userAnswer.trim())}
-                        className={`flex-[1.5] px-2 py-2.5 rounded-xl font-black text-xs sm:text-lg transition-all active:scale-95 flex items-center justify-center gap-1.5 ${feedback === 'none' ? ((activeQuestion?.type === 'scramble' ? selectedWords.length > 0 : userAnswer.trim()) ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-md' : 'bg-slate-200 text-slate-400 cursor-not-allowed') : feedback === 'correct' ? 'bg-green-600 text-white hover:bg-green-700 shadow-md' : feedback === 'typo' ? 'bg-amber-600 text-white hover:bg-amber-700 shadow-md' : 'bg-red-600 text-white hover:bg-red-700 shadow-md'}`}
+                        className={`flex-1 sm:w-48 px-6 py-3.5 rounded-2xl font-black text-base sm:text-lg transition-all flex items-center justify-center gap-2 ${
+                          feedback === 'none' 
+                            ? ((activeQuestion?.type === 'scramble' ? selectedWords.length > 0 : userAnswer.trim()) 
+                                ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-[0_4px_0_0_rgb(67,56,202)] active:translate-y-1 active:shadow-none' 
+                                : 'bg-slate-200 text-slate-400 cursor-not-allowed') 
+                            : feedback === 'correct' 
+                                ? 'bg-green-600 text-white hover:bg-green-700 shadow-[0_4px_0_0_rgb(21,128,61)] active:translate-y-1 active:shadow-none' 
+                                : feedback === 'typo' 
+                                    ? 'bg-amber-600 text-white hover:bg-amber-700 shadow-[0_4px_0_0_rgb(180,83,9)] active:translate-y-1 active:shadow-none' 
+                                    : 'bg-red-600 text-white hover:bg-red-700 shadow-[0_4px_0_0_rgb(185,28,28)] active:translate-y-1 active:shadow-none'
+                        }`}
                       >
-                        {feedback === 'none' ? (
-                          <>
-                            <span className="text-base sm:text-lg">✔️</span>
-                            <span>KONTROL ET</span>
-                          </>
-                        ) : (
-                          <>
-                            <span>DEVAM ET</span>
-                            <span className="text-base sm:text-lg">⏭️</span>
-                          </>
-                        )}
+                        {feedback === 'none' ? 'KONTROL ET' : 'DEVAM ET'}
                       </button>
                     )}
                     {activeQuestion?.type === 'matching' && feedback !== 'none' && (
                        <button
                          onClick={handleNext}
-                         className="flex-[1.5] px-2 py-2.5 rounded-xl font-black text-xs sm:text-lg transition-all bg-green-600 text-white hover:bg-green-700 shadow-md active:scale-95 flex items-center justify-center gap-1.5"
+                         className="flex-1 sm:w-48 px-6 py-3.5 rounded-2xl font-black text-base sm:text-lg transition-all bg-green-600 text-white hover:bg-green-700 shadow-[0_4px_0_0_rgb(21,128,61)] active:translate-y-1 active:shadow-none flex items-center justify-center"
                        >
-                          <span>DEVAM ET</span>
-                          <span className="text-base sm:text-lg">⏭️</span>
+                          DEVAM ET
                        </button>
                     )}
                   </>
