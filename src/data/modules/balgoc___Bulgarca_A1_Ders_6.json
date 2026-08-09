@@ -4690,8 +4690,8 @@
     {
       "id": "q_ders6_317a7cf0",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: – Tatili nerede geçirmeyi düşünüyorsun?",
-      "answer": "– Къде смяташ да прекараш ваканцията?",
+      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Tatili nerede geçirmeyi düşünüyorsun?",
+      "answer": "Къде смяташ да прекараш ваканцията?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 6",
       "options": [
@@ -4701,7 +4701,8 @@
         "да",
         "прекараш",
         "ваканцията"
-      ]
+      ],
+      "explanation": ""
     },
     {
       "id": "q_ders6_c93d2180",
