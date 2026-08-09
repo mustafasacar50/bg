@@ -23,7 +23,11 @@ export default function PushSettings({ studentId }: { studentId: string }) {
         setLoading(false);
         return;
       }
-      const registration = await navigator.serviceWorker.ready;
+      const registration = await navigator.serviceWorker.getRegistration();
+      if (!registration) {
+        setLoading(false);
+        return;
+      }
       const subscription = await registration.pushManager.getSubscription();
       setIsSubscribed(!!subscription);
       
