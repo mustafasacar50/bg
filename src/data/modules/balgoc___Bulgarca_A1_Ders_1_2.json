@@ -58,7 +58,8 @@
       "type": "translation",
       "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Ьо birleşimi “yo” gibi okunur: синьо = mavi.)",
       "answer": "Ьо - синьо - sinyo - yo",
-      "hint": "Diğer formu yazınız"
+      "hint": "Diğer formu yazınız",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_auto_d5486a05",
@@ -85,7 +86,8 @@
       "type": "translation",
       "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Йо birleşimi “yo” gibi okunur.)",
       "answer": "Йо - yo",
-      "hint": "Diğer formu yazınız"
+      "hint": "Diğer formu yazınız",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_auto_8db74ee6",
@@ -95,22 +97,12 @@
       "hint": "Diğer formu yazınız"
     },
     {
-      "id": "q_auto_c53adc75",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Йо birleşimi “yo” gibi okunur.",
-      "answer": "Йо - yo",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Йо",
-        "yo"
-      ]
-    },
-    {
       "id": "q_auto_b70adbab",
       "type": "translation",
       "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: България = Bulgaristan; Latinleştirmede Bulgaria yazılır.)",
       "answer": "България - Bulgaria",
-      "hint": "Diğer formu yazınız"
+      "hint": "Diğer formu yazınız",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_auto_3ba55992",
@@ -120,22 +112,12 @@
       "hint": "Diğer formu yazınız"
     },
     {
-      "id": "q_auto_4e8d0596",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: България = Bulgaristan; Latinleştirmede Bulgaria yazılır.",
-      "answer": "България - Bulgaria",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "България",
-        "Bulgaria"
-      ]
-    },
-    {
       "id": "q_auto_877a6fcf",
       "type": "translation",
       "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: -ия sonu Latin yazımda çoğu zaman -ia olur: София = Sofia.)",
       "answer": "ия - София - Sofia -ia",
-      "hint": "Diğer formu yazınız"
+      "hint": "Diğer formu yazınız",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_auto_1a28309c",
@@ -369,17 +351,6 @@
       "hint": "Diğer formu yazınız"
     },
     {
-      "id": "q_auto_0aec9772",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Сграда yazılır ama söyleyişte “зграда” gibi duyulabilir: bina.",
-      "answer": "Сграда [зграда]",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Сграда",
-        "[зграда]"
-      ]
-    },
-    {
       "id": "q_auto_5dae8a7b",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Modern standart Bulgarcada 45 ses, alfabede 30 harf vardır.)",
@@ -596,7 +567,8 @@
       "type": "translation",
       "sentence": "İlgili formu yazınız (Tekil/Çoğul veya Şahıs/Fiil) (Bulgarca: Üçüncü grup: sonor ünsüzler: м, н, р, л.)",
       "answer": "Трети вид – сонорни съгласни: м, н, р, л.",
-      "hint": "Diğer formu yazınız"
+      "hint": "Diğer formu yazınız",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_auto_723f2715",
@@ -6271,19 +6243,6 @@
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
     },
     {
-      "id": "q_auto_6e7018a2",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: – Adınız lütfen?",
-      "answer": "Вашето име, моля?",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)",
-      "options": [
-        "Вашето",
-        "име",
-        "моля"
-      ]
-    },
-    {
       "id": "q_auto_b344e83b",
       "type": "translation",
       "sentence": "Rumen Vasilev. kelimesinin Bulgarca yazılışı:",
@@ -6357,19 +6316,6 @@
       "answer": "Evet. Rumen Vasilev.",
       "hint": "Türkçe karşılığını yazınız",
       "explanation": "Resmi ve kibar konuşmada 'Вие' (Siz) kullanılır."
-    },
-    {
-      "id": "q_auto_c068a94a",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: – Evet. Rumen Vasilev.",
-      "answer": "Да. Румен Василев.",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Resmi ve kibar konuşmada 'Вие' (Siz) kullanılır.",
-      "options": [
-        "Да",
-        "Румен",
-        "Василев"
-      ]
     },
     {
       "id": "q_auto_1c4933d0",
@@ -6944,17 +6890,6 @@
       "hint": "Türkçe karşılığını yazınız"
     },
     {
-      "id": "q_auto_2ee86862",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: – Teşekkür ederim! Hoşça kalın!",
-      "answer": "Благодаря! Довиждане!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Благодаря",
-        "Довиждане"
-      ]
-    },
-    {
       "id": "q_auto_2a594837",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Hoşça kalın! Aramanızı bekleyeceğim.)",
@@ -7193,18 +7128,6 @@
       "hint": "Türkçe karşılığını yazınız"
     },
     {
-      "id": "q_auto_62997a60",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: – Ben de.",
-      "answer": "На мен също.",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "На",
-        "мен",
-        "също"
-      ]
-    },
-    {
       "id": "q_auto_a638fbd6",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Bu da İrina.)",
@@ -7279,19 +7202,6 @@
       "answer": "Memnun oldum!",
       "hint": "Türkçe karşılığını yazınız",
       "explanation": "Kalıp: 'Приятно ми е' tek başına 'Memnun oldum' demektir."
-    },
-    {
-      "id": "q_auto_7ac416dd",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: – Memnun oldum!",
-      "answer": "Приятно ми е!",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Kalıp: 'Приятно ми е' tek başına 'Memnun oldum' demektir.",
-      "options": [
-        "Приятно",
-        "ми",
-        "е"
-      ]
     },
     {
       "id": "q_auto_8b4115c8",
@@ -7496,18 +7406,6 @@
       "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır.\n\n📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
     {
-      "id": "q_auto_037f8a61",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: – Rica ederim / önemli değil!",
-      "answer": "Няма защо!",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır.\n\n📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir.",
-      "options": [
-        "Няма",
-        "защо"
-      ]
-    },
-    {
       "id": "q_auto_6ea97fbd",
       "type": "translation",
       "sentence": "Adınız nedir? (resmi) kelimesinin Bulgarca yazılışı:",
@@ -7617,18 +7515,6 @@
       "hint": "Türkçe karşılığını yazınız"
     },
     {
-      "id": "q_auto_b67c6a1b",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Lütfen kendinizi tanıtın. (resmi)",
-      "answer": "Моля, представете се!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Моля",
-        "представете",
-        "се"
-      ]
-    },
-    {
       "id": "q_auto_3bc1a20f",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Lütfen beni ... ile tanıştırın. (resmi))",
@@ -7724,17 +7610,6 @@
       "sentence": "Çeviriniz (Bulgarcası: Представям Ви...)",
       "answer": "Size ... tanıtıyorum. (resmi)",
       "hint": "Türkçe karşılığını yazınız"
-    },
-    {
-      "id": "q_auto_3b3c8bc3",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Size ... tanıtıyorum. (resmi)",
-      "answer": "Представям Ви...",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Представям",
-        "Ви"
-      ]
     },
     {
       "id": "q_auto_16ce7d48",
@@ -7844,19 +7719,6 @@
       "explanation": "'ли' parçacığı evet/hayır sorusu yapar (Örn: Студент ли си? = Öğrenci misin?). Bulgarcada hitap ederken kelimenin biçimi değişebilir. Örneğin господин = bay, ama doğrudan seslenirken 'господине!' denir.\n\n📘 Kural: \"Ли\" Soru Eki\nBulgarcada \"ли\" parçacığı Türkçedeki \"mı/mi\" gibi evet/hayır sorusu yapar ve genellikle vurgulanan kelimeden/yüklemden hemen sonra gelir.\nÖrnek: Учиш ли? = Okuyor musun? / Студент ли си? = Öğrenci misin?"
     },
     {
-      "id": "q_auto_669249dc",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bay/Bayan ...’ı tanıyor musunuz? (resmi)",
-      "answer": "Познавате ли господин/госпожа...?",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "'ли' parçacığı evet/hayır sorusu yapar (Örn: Студент ли си? = Öğrenci misin?). Bulgarcada hitap ederken kelimenin biçimi değişebilir. Örneğin господин = bay, ama doğrudan seslenirken 'господине!' denir.\n\n📘 Kural: \"Ли\" Soru Eki\nBulgarcada \"ли\" parçacığı Türkçedeki \"mı/mi\" gibi evet/hayır sorusu yapar ve genellikle vurgulanan kelimeden/yüklemden hemen sonra gelir.\nÖrnek: Учиш ли? = Okuyor musun? / Студент ли си? = Öğrenci misin?",
-      "options": [
-        "Познавате",
-        "ли",
-        "господин/госпожа"
-      ]
-    },
-    {
       "id": "q_auto_add52fbf",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Kendimi size tanıtayım! (resmi))",
@@ -7958,18 +7820,6 @@
       "explanation": "Dil Notu: 'се' dönüşlülük unsurudur. 'Казвам се' kelime kelime 'kendime ... denir' gibi düşünülebilir ama Türkçede 'Benim adım ...' diye çevrilir.\n\n📘 Kural: Resmiyet ve Hitap\n- Как се казвате? resmi/kibar biçimdir (Siz).\n- Как се казваш? samimi tekil biçimdir (Sen).\n- “Казвам се ...” kelime kelime “kendime ... denir” gibi düşünülse de Türkçede “Benim adım ...” diye çevrilir."
     },
     {
-      "id": "q_auto_95ec520e",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Benim adım... (ana kalıp)",
-      "answer": "Казвам се...",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Dil Notu: 'се' dönüşlülük unsurudur. 'Казвам се' kelime kelime 'kendime ... denir' gibi düşünülebilir ama Türkçede 'Benim adım ...' diye çevrilir.\n\n📘 Kural: Resmiyet ve Hitap\n- Как се казвате? resmi/kibar biçimdir (Siz).\n- Как се казваш? samimi tekil biçimdir (Sen).\n- “Казвам се ...” kelime kelime “kendime ... denir” gibi düşünülse de Türkçede “Benim adım ...” diye çevrilir.",
-      "options": [
-        "Казвам",
-        "се"
-      ]
-    },
-    {
       "id": "q_auto_dcccd29d",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Benim ismim... (ana kalıp))",
@@ -7984,19 +7834,6 @@
       "answer": "Benim ismim... (ana kalıp)",
       "hint": "Türkçe karşılığını yazınız",
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
-    },
-    {
-      "id": "q_auto_bf5f260f",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Benim ismim... (ana kalıp)",
-      "answer": "Името ми е...",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)",
-      "options": [
-        "Името",
-        "ми",
-        "е"
-      ]
     },
     {
       "id": "q_auto_1eb9cb06",
@@ -8149,19 +7986,6 @@
       "explanation": "Kalıp: 'Приятно ми е' tek başına 'Memnun oldum' demektir."
     },
     {
-      "id": "q_auto_03f0dcf3",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Memnun oldum! (çok sık)",
-      "answer": "Приятно ми е!",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Kalıp: 'Приятно ми е' tek başına 'Memnun oldum' demektir.",
-      "options": [
-        "Приятно",
-        "ми",
-        "е"
-      ]
-    },
-    {
       "id": "q_auto_b7714bc3",
       "type": "translation",
       "sentence": "Ben de! (cevap) kelimesinin Bulgarca yazılışı:",
@@ -8240,18 +8064,6 @@
       "explanation": "Bulgarcada hitap ederken kelimenin biçimi değişebilir. Örneğin господин = bay, ama doğrudan seslenirken 'господине!' denir."
     },
     {
-      "id": "q_auto_92a2699b",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bay Petrov! (tanıdık erkek + soyadı)",
-      "answer": "Господин Петров!",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Bulgarcada hitap ederken kelimenin biçimi değişebilir. Örneğin господин = bay, ama doğrudan seslenirken 'господине!' denir.",
-      "options": [
-        "Господин",
-        "Петров"
-      ]
-    },
-    {
       "id": "q_auto_47e1a723",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Sayın beyefendi! (resmi mektup))",
@@ -8266,18 +8078,6 @@
       "answer": "Sayın beyefendi! (resmi mektup)",
       "hint": "Türkçe karşılığını yazınız",
       "explanation": "Bulgarcada hitap ederken kelimenin biçimi değişebilir. Örneğin господин = bay, ama doğrudan seslenirken 'господине!' denir."
-    },
-    {
-      "id": "q_auto_58137946",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sayın beyefendi! (resmi mektup)",
-      "answer": "Уважаеми господине!",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Bulgarcada hitap ederken kelimenin biçimi değişebilir. Örneğin господин = bay, ama doğrudan seslenirken 'господине!' denir.",
-      "options": [
-        "Уважаеми",
-        "господине"
-      ]
     },
     {
       "id": "q_auto_6da5788e",
@@ -8308,18 +8108,6 @@
       "answer": "Polis Bey (meslekle hitap)",
       "hint": "Türkçe karşılığını yazınız",
       "explanation": "Bulgarcada hitap ederken kelimenin biçimi değişebilir. Örneğin господин = bay, ama doğrudan seslenirken 'господине!' denir."
-    },
-    {
-      "id": "q_auto_b55cbf78",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Polis Bey (meslekle hitap)",
-      "answer": "Господин полицай",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Bulgarcada hitap ederken kelimenin biçimi değişebilir. Örneğin господин = bay, ama doğrudan seslenirken 'господине!' denir.",
-      "options": [
-        "Господин",
-        "полицай"
-      ]
     },
     {
       "id": "q_auto_e1cab6b2",
@@ -8478,18 +8266,6 @@
       "hint": "Türkçe karşılığını yazınız"
     },
     {
-      "id": "q_auto_73b8cb72",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hanımefendiler ve beyefendiler! (resmi açılış)",
-      "answer": "Дами и господа!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Дами",
-        "и",
-        "господа"
-      ]
-    },
-    {
       "id": "q_auto_bdbdd5ce",
       "type": "translation",
       "sentence": "Sayın misafirler! (resmi) kelimesinin Bulgarca yazılışı:",
@@ -8532,17 +8308,6 @@
       "hint": "Türkçe karşılığını yazınız"
     },
     {
-      "id": "q_auto_0f60b0c0",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sevgili erkek arkadaşım/dostum! (erkek)",
-      "answer": "Скъпи приятелю!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Скъпи",
-        "приятелю"
-      ]
-    },
-    {
       "id": "q_auto_a8ce65a0",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Sevgili kadın arkadaşım/dostum! (kadın))",
@@ -8557,17 +8322,6 @@
       "hint": "Türkçe karşılığını yazınız"
     },
     {
-      "id": "q_auto_6b3a2baa",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sevgili kadın arkadaşım/dostum! (kadın)",
-      "answer": "Скъпа приятелко!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Скъпа",
-        "приятелко"
-      ]
-    },
-    {
       "id": "q_auto_9034371d",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Hey kadın! (çok gündelik/kaba olabilir))",
@@ -8580,17 +8334,6 @@
       "sentence": "Çeviriniz (Bulgarcası: Ей, жено!)",
       "answer": "Hey kadın! (çok gündelik/kaba olabilir)",
       "hint": "Türkçe karşılığını yazınız"
-    },
-    {
-      "id": "q_auto_00850333",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hey kadın! (çok gündelik/kaba olabilir)",
-      "answer": "Ей, жено!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Ей",
-        "жено"
-      ]
     },
     {
       "id": "q_auto_e10926cd",
@@ -8647,18 +8390,6 @@
       "sentence": "Çeviriniz (Bulgarcası: Ела тук, синко!)",
       "answer": "Buraya gel, oğlum! (şefkatli hitap)",
       "hint": "Türkçe karşılığını yazınız"
-    },
-    {
-      "id": "q_auto_b0a4f95f",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Buraya gel, oğlum! (şefkatli hitap)",
-      "answer": "Ела тук, синко!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Ела",
-        "тук",
-        "синко"
-      ]
     },
     {
       "id": "q_auto_bde39e8c",
@@ -9161,17 +8892,6 @@
       "hint": "Türkçe karşılığını yazınız"
     },
     {
-      "id": "q_auto_a2a81e07",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: İyi geceler! (gece yatarken/ayrılırken)",
-      "answer": "Лека нощ!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Лека",
-        "нощ"
-      ]
-    },
-    {
       "id": "q_auto_5f9c24fc",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Hoşça kalın / görüşmek üzere! (resmi))",
@@ -9218,19 +8938,6 @@
       "answer": "Tekrar görüşmek üzere! (resmi)",
       "hint": "Türkçe karşılığını yazınız",
       "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır."
-    },
-    {
-      "id": "q_auto_dc10b48b",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Tekrar görüşmek üzere! (resmi)",
-      "answer": "До нови срещи!",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır.",
-      "options": [
-        "До",
-        "нови",
-        "срещи"
-      ]
     },
     {
       "id": "q_auto_86e5453a",
@@ -9290,17 +8997,6 @@
       "hint": "Türkçe karşılığını yazınız"
     },
     {
-      "id": "q_auto_78838452",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: İyi çalışmalar! (iş için)",
-      "answer": "Приятна работа!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Приятна",
-        "работа"
-      ]
-    },
-    {
       "id": "q_auto_725c6c81",
       "type": "translation",
       "sentence": "Başarılı/iyi günler! (dilek) kelimesinin Bulgarca yazılışı:",
@@ -9329,17 +9025,6 @@
       "sentence": "Çeviriniz (Bulgarcası: Лек ден!)",
       "answer": "İyi günler/kolay bir gün! (dilek)",
       "hint": "Türkçe karşılığını yazınız"
-    },
-    {
-      "id": "q_auto_e64b1cb3",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: İyi günler/kolay bir gün! (dilek)",
-      "answer": "Лек ден!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Лек",
-        "ден"
-      ]
     },
     {
       "id": "q_auto_31e3df63",
@@ -9384,17 +9069,6 @@
       "hint": "Türkçe karşılığını yazınız"
     },
     {
-      "id": "q_auto_633f9224",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: İyi bayramlar / mutlu tatiller! (dilek)",
-      "answer": "Весели празници!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Весели",
-        "празници"
-      ]
-    },
-    {
       "id": "q_auto_c7235cb3",
       "type": "translation",
       "sentence": "Teşekkür ederim! kelimesinin Bulgarca yazılışı:",
@@ -9421,18 +9095,6 @@
       "sentence": "Çeviriniz (Bulgarcası: Благодаря ти/Ви много!)",
       "answer": "Sana/size çok teşekkür ederim!",
       "hint": "Türkçe karşılığını yazınız"
-    },
-    {
-      "id": "q_auto_66f284a2",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sana/size çok teşekkür ederim!",
-      "answer": "Благодаря ти/Ви много!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Благодаря",
-        "ти/Ви",
-        "много"
-      ]
     },
     {
       "id": "q_auto_67aad9af",
@@ -9465,18 +9127,6 @@
       "hint": "Türkçe karşılığını yazınız"
     },
     {
-      "id": "q_auto_42a9c755",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Kabul/davet için teşekkür ederim!",
-      "answer": "Благодаря за приема/поканата!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Благодаря",
-        "за",
-        "приема/поканата"
-      ]
-    },
-    {
       "id": "q_auto_5e987007",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Duyarlılığınız/başsağlığı için teşekkür ederim!)",
@@ -9493,19 +9143,6 @@
       "explanation": "Resmi ve kibar konuşmada 'Вие' (Siz) kullanılır."
     },
     {
-      "id": "q_auto_e846c8c2",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Duyarlılığınız/başsağlığı için teşekkür ederim!",
-      "answer": "Благодаря за съчувствието!",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Resmi ve kibar konuşmada 'Вие' (Siz) kullanılır.",
-      "options": [
-        "Благодаря",
-        "за",
-        "съчувствието"
-      ]
-    },
-    {
       "id": "q_auto_7ab5bce4",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Yardımınız için teşekkür ederim!)",
@@ -9518,18 +9155,6 @@
       "sentence": "Çeviriniz (Bulgarcası: Благодаря за помощта!)",
       "answer": "Yardımınız için teşekkür ederim!",
       "hint": "Türkçe karşılığını yazınız"
-    },
-    {
-      "id": "q_auto_9e5a7554",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yardımınız için teşekkür ederim!",
-      "answer": "Благодаря за помощта!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Благодаря",
-        "за",
-        "помощта"
-      ]
     },
     {
       "id": "q_auto_e8d12fe2",
@@ -9573,18 +9198,6 @@
       "hint": "Türkçe karşılığını yazınız"
     },
     {
-      "id": "q_auto_5003befb",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Misafirperverliğiniz için teşekkür ederim!",
-      "answer": "Благодаря за гостоприемството!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Благодаря",
-        "за",
-        "гостоприемството"
-      ]
-    },
-    {
       "id": "q_auto_9c4ce359",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Dilekleriniz için teşekkür ederim!)",
@@ -9597,18 +9210,6 @@
       "sentence": "Çeviriniz (Bulgarcası: Благодаря за пожеланията!)",
       "answer": "Dilekleriniz için teşekkür ederim!",
       "hint": "Türkçe karşılığını yazınız"
-    },
-    {
-      "id": "q_auto_160a7af0",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Dilekleriniz için teşekkür ederim!",
-      "answer": "Благодаря за пожеланията!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Благодаря",
-        "за",
-        "пожеланията"
-      ]
     },
     {
       "id": "q_auto_df0e4c33",
@@ -9745,18 +9346,6 @@
       "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır.\n\n📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
     },
     {
-      "id": "q_auto_15b7f68d",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Önemli değil / rica ederim!",
-      "answer": "Няма защо!",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır.\n\n📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir.",
-      "options": [
-        "Няма",
-        "защо"
-      ]
-    },
-    {
       "id": "q_auto_836808fc",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Size son derece minnettarım!)",
@@ -9876,18 +9465,6 @@
       "hint": "Türkçe karşılığını yazınız"
     },
     {
-      "id": "q_auto_5485b996",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bir şey değil, rica ederim!",
-      "answer": "За нищо, моля!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "За",
-        "нищо",
-        "моля"
-      ]
-    },
-    {
       "id": "q_auto_6365acf9",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Affedersiniz, sizi duymadım.)",
@@ -9958,19 +9535,6 @@
       "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır."
     },
     {
-      "id": "q_auto_f9008753",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Gecikme için özür dilerim.",
-      "answer": "Извинявайте за закъснението.",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır.",
-      "options": [
-        "Извинявайте",
-        "за",
-        "закъснението"
-      ]
-    },
-    {
       "id": "q_auto_aecff094",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Rahatsızlık için özür dilerim.)",
@@ -9987,19 +9551,6 @@
       "explanation": "Resmi ve kibar konuşmada 'Вие' (Siz) kullanılır."
     },
     {
-      "id": "q_auto_d23b24e0",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Rahatsızlık için özür dilerim.",
-      "answer": "Извинявайте за безпокойствието.",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Resmi ve kibar konuşmada 'Вие' (Siz) kullanılır.",
-      "options": [
-        "Извинявайте",
-        "за",
-        "безпокойствието"
-      ]
-    },
-    {
       "id": "q_auto_9b1a95df",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Bir şey yok / önemli değil.)",
@@ -10014,18 +9565,6 @@
       "answer": "Bir şey yok / önemli değil.",
       "hint": "Türkçe karşılığını yazınız",
       "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır.\n\n📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
-    },
-    {
-      "id": "q_auto_9234460d",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bir şey yok / önemli değil.",
-      "answer": "Няма нищо.",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır.\n\n📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir.",
-      "options": [
-        "Няма",
-        "нищо"
-      ]
     },
     {
       "id": "q_auto_13d87569",
@@ -10056,18 +9595,6 @@
       "sentence": "Çeviriniz (Bulgarcası: Честита нова година!)",
       "answer": "Yeni yılınız kutlu olsun!",
       "hint": "Türkçe karşılığını yazınız"
-    },
-    {
-      "id": "q_auto_8e99f897",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yeni yılınız kutlu olsun!",
-      "answer": "Честита нова година!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Честита",
-        "нова",
-        "година"
-      ]
     },
     {
       "id": "q_auto_26b780fd",
@@ -10140,18 +9667,6 @@
       "hint": "Türkçe karşılığını yazınız"
     },
     {
-      "id": "q_auto_4a184dcd",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Baba Marta gününüz kutlu olsun!",
-      "answer": "Честита Баба Марта!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Честита",
-        "Баба",
-        "Марта"
-      ]
-    },
-    {
       "id": "q_auto_431c9a1a",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: 8 Mart Kadınlar Günü kutlu olsun!)",
@@ -10164,18 +9679,6 @@
       "sentence": "Çeviriniz (Bulgarcası: Честит осми март!)",
       "answer": "8 Mart Kadınlar Günü kutlu olsun!",
       "hint": "Türkçe karşılığını yazınız"
-    },
-    {
-      "id": "q_auto_4da9d915",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: 8 Mart Kadınlar Günü kutlu olsun!",
-      "answer": "Честит осми март!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Честит",
-        "осми",
-        "март"
-      ]
     },
     {
       "id": "q_auto_abe5da88",
@@ -10194,18 +9697,6 @@
       "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır."
     },
     {
-      "id": "q_auto_6e1f4427",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yıl dönümünüz/jübileniz kutlu olsun!",
-      "answer": "Честит юбилей!",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Ü sesi kimi kelimelerde Ю ile yazılır.",
-      "options": [
-        "Честит",
-        "юбилей"
-      ]
-    },
-    {
       "id": "q_auto_1bc6f967",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Doğum günün kutlu olsun!)",
@@ -10218,18 +9709,6 @@
       "sentence": "Çeviriniz (Bulgarcası: Честит рожден ден!)",
       "answer": "Doğum günün kutlu olsun!",
       "hint": "Türkçe karşılığını yazınız"
-    },
-    {
-      "id": "q_auto_a09f1992",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Doğum günün kutlu olsun!",
-      "answer": "Честит рожден ден!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Честит",
-        "рожден",
-        "ден"
-      ]
     },
     {
       "id": "q_auto_fd4ca72b",
@@ -10258,18 +9737,6 @@
       "sentence": "Çeviriniz (Bulgarcası: Честит имен ден!)",
       "answer": "İsim günün kutlu olsun!",
       "hint": "Türkçe karşılığını yazınız"
-    },
-    {
-      "id": "q_auto_aae541e3",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: İsim günün kutlu olsun!",
-      "answer": "Честит имен ден!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Честит",
-        "имен",
-        "ден"
-      ]
     },
     {
       "id": "q_auto_67b7c62a",
@@ -10534,17 +10001,6 @@
       "sentence": "Çeviriniz (Bulgarcası: Приятна почивка!)",
       "answer": "İyi dinlenmeler / iyi tatiller!",
       "hint": "Türkçe karşılığını yazınız"
-    },
-    {
-      "id": "q_auto_8005c7e4",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: İyi dinlenmeler / iyi tatiller!",
-      "answer": "Приятна почивка!",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Приятна",
-        "почивка"
-      ]
     },
     {
       "id": "q_auto_ea482080",
@@ -10903,18 +10359,6 @@
       "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır."
     },
     {
-      "id": "q_auto_947af2ec",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: samimi (Selam! / Çao!)",
-      "answer": "Здрасти! / Чао!",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır.",
-      "options": [
-        "Здрасти",
-        "Чао"
-      ]
-    },
-    {
       "id": "q_auto_a0f1d1ca",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: Zamirler isimlerin, sıfatların ve sayıların yerine geçebilir.)",
@@ -11130,19 +10574,6 @@
       "answer": "Birisiyle karşılaştın mı? / Birini gördün mü?",
       "hint": "Türkçe karşılığını yazınız",
       "explanation": "'ли' parçacığı evet/hayır sorusu yapar (Örn: Студент ли си? = Öğrenci misin?).\n\n📘 Kural: \"Ли\" Soru Eki\nBulgarcada \"ли\" parçacığı Türkçedeki \"mı/mi\" gibi evet/hayır sorusu yapar ve genellikle vurgulanan kelimeden/yüklemden hemen sonra gelir.\nÖrnek: Учиш ли? = Okuyor musun? / Студент ли си? = Öğrenci misin?"
-    },
-    {
-      "id": "q_auto_b3183d00",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Birisiyle karşılaştın mı? / Birini gördün mü?",
-      "answer": "Срещна ли някого?",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "'ли' parçacığı evet/hayır sorusu yapar (Örn: Студент ли си? = Öğrenci misin?).\n\n📘 Kural: \"Ли\" Soru Eki\nBulgarcada \"ли\" parçacığı Türkçedeki \"mı/mi\" gibi evet/hayır sorusu yapar ve genellikle vurgulanan kelimeden/yüklemden hemen sonra gelir.\nÖrnek: Учиш ли? = Okuyor musun? / Студент ли си? = Öğrenci misin?",
-      "options": [
-        "Срещна",
-        "ли",
-        "някого"
-      ]
     },
     {
       "id": "q_auto_3fed09c2",
@@ -11781,19 +11212,6 @@
       "explanation": "Dil Notu: 'се' dönüşlülük unsurudur. 'Казвам се' kelime kelime 'kendime ... denir' gibi düşünülebilir ama Türkçede 'Benim adım ...' diye çevrilir.\n\n📘 Kural: Resmiyet ve Hitap\n- Как се казвате? resmi/kibar biçimdir (Siz).\n- Как се казваш? samimi tekil biçimdir (Sen).\n- “Казвам се ...” kelime kelime “kendime ... denir” gibi düşünülse de Türkçede “Benim adım ...” diye çevrilir."
     },
     {
-      "id": "q_auto_138fb091",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Senin adın ...",
-      "answer": "Ти се казваш ...",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Dil Notu: 'се' dönüşlülük unsurudur. 'Казвам се' kelime kelime 'kendime ... denir' gibi düşünülebilir ama Türkçede 'Benim adım ...' diye çevrilir.\n\n📘 Kural: Resmiyet ve Hitap\n- Как се казвате? resmi/kibar biçimdir (Siz).\n- Как се казваш? samimi tekil biçimdir (Sen).\n- “Казвам се ...” kelime kelime “kendime ... denir” gibi düşünülse de Türkçede “Benim adım ...” diye çevrilir.",
-      "options": [
-        "Ти",
-        "се",
-        "казваш"
-      ]
-    },
-    {
       "id": "q_auto_27154705",
       "type": "translation",
       "sentence": "Ben ...’im. kelimesinin Bulgarca yazılışı:",
@@ -11826,19 +11244,6 @@
       "explanation": "Bulgarcada 'olmak' fiili (съм) çok önemlidir: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са.\n\n📘 Kural: \"Съм\" (Olmak) Fiili\nA1 düzeyinde en önemli fiil “съм” (olmak) fiilidir. Durum, meslek ve milliyet bildirirken kullanılır.\nаз съм (ben ...'im)        ние сме (biz ...'iz)\nти си (sen ...'sin)        вие сте (siz ...'siniz)\nтой/тя/то е (o ...'dir)    те са (onlar ...'dir)"
     },
     {
-      "id": "q_auto_22188b4d",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: ...’de doğdum. (erkek)",
-      "answer": "Роден съм в ...",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Bulgarcada 'olmak' fiili (съм) çok önemlidir: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са.\n\n📘 Kural: \"Съм\" (Olmak) Fiili\nA1 düzeyinde en önemli fiil “съм” (olmak) fiilidir. Durum, meslek ve milliyet bildirirken kullanılır.\nаз съм (ben ...'im)        ние сме (biz ...'iz)\nти си (sen ...'sin)        вие сте (siz ...'siniz)\nтой/тя/то е (o ...'dir)    те са (onlar ...'dir)",
-      "options": [
-        "Роден",
-        "съм",
-        "в"
-      ]
-    },
-    {
       "id": "q_auto_794a43f5",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: ...’de doğdum. (kadın))",
@@ -11853,19 +11258,6 @@
       "answer": "...’de doğdum. (kadın)",
       "hint": "Türkçe karşılığını yazınız",
       "explanation": "Bulgarcada 'olmak' fiili (съм) çok önemlidir: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са.\n\n📘 Kural: \"Съм\" (Olmak) Fiili\nA1 düzeyinde en önemli fiil “съм” (olmak) fiilidir. Durum, meslek ve milliyet bildirirken kullanılır.\nаз съм (ben ...'im)        ние сме (biz ...'iz)\nти си (sen ...'sin)        вие сте (siz ...'siniz)\nтой/тя/то е (o ...'dir)    те са (onlar ...'dir)"
-    },
-    {
-      "id": "q_auto_aafed407",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: ...’de doğdum. (kadın)",
-      "answer": "Родена съм в ...",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Bulgarcada 'olmak' fiili (съм) çok önemlidir: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са.\n\n📘 Kural: \"Съм\" (Olmak) Fiili\nA1 düzeyinde en önemli fiil “съм” (olmak) fiilidir. Durum, meslek ve milliyet bildirirken kullanılır.\nаз съм (ben ...'im)        ние сме (biz ...'iz)\nти си (sen ...'sin)        вие сте (siz ...'siniz)\nтой/тя/то е (o ...'dir)    те са (onlar ...'dir)",
-      "options": [
-        "Родена",
-        "съм",
-        "в"
-      ]
     },
     {
       "id": "q_auto_39b20cec",
@@ -11914,19 +11306,6 @@
       "explanation": "Bulgarcada 'olmak' fiili (съм) çok önemlidir: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са.\n\n📘 Kural: \"Съм\" (Olmak) Fiili\nA1 düzeyinde en önemli fiil “съм” (olmak) fiilidir. Durum, meslek ve milliyet bildirirken kullanılır.\nаз съм (ben ...'im)        ние сме (biz ...'iz)\nти си (sen ...'sin)        вие сте (siz ...'siniz)\nтой/тя/то е (o ...'dir)    те са (onlar ...'dir)\n\n📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
     },
     {
-      "id": "q_auto_f16a4a47",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: ...’de erkek öğrenciyim.",
-      "answer": "Студент съм в ...",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Bulgarcada 'olmak' fiili (съм) çok önemlidir: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са.\n\n📘 Kural: \"Съм\" (Olmak) Fiili\nA1 düzeyinde en önemli fiil “съм” (olmak) fiilidir. Durum, meslek ve milliyet bildirirken kullanılır.\nаз съм (ben ...'im)        ние сме (biz ...'iz)\nти си (sen ...'sin)        вие сте (siz ...'siniz)\nтой/тя/то е (o ...'dir)    те са (onlar ...'dir)\n\n📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)",
-      "options": [
-        "Студент",
-        "съм",
-        "в"
-      ]
-    },
-    {
       "id": "q_auto_18ca18aa",
       "type": "translation",
       "sentence": "Çeviriniz (Türkçesi: ...’de kadın öğrenciyim.)",
@@ -11941,19 +11320,6 @@
       "answer": "...’de kadın öğrenciyim.",
       "hint": "Türkçe karşılığını yazınız",
       "explanation": "Bulgarcada 'olmak' fiili (съм) çok önemlidir: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са.\n\n📘 Kural: \"Съм\" (Olmak) Fiili\nA1 düzeyinde en önemli fiil “съм” (olmak) fiilidir. Durum, meslek ve milliyet bildirirken kullanılır.\nаз съм (ben ...'im)        ние сме (biz ...'iz)\nти си (sen ...'sin)        вие сте (siz ...'siniz)\nтой/тя/то е (o ...'dir)    те са (onlar ...'dir)\n\n📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
-    },
-    {
-      "id": "q_auto_93c9038f",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: ...’de kadın öğrenciyim.",
-      "answer": "Студентка съм в ...",
-      "hint": "Doğru sıralamayı bul",
-      "explanation": "Bulgarcada 'olmak' fiili (съм) çok önemlidir: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са.\n\n📘 Kural: \"Съм\" (Olmak) Fiili\nA1 düzeyinde en önemli fiil “съм” (olmak) fiilidir. Durum, meslek ve milliyet bildirirken kullanılır.\nаз съм (ben ...'im)        ние сме (biz ...'iz)\nти си (sen ...'sin)        вие сте (siz ...'siniz)\nтой/тя/то е (o ...'dir)    те са (onlar ...'dir)\n\n📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)",
-      "options": [
-        "Студентка",
-        "съм",
-        "в"
-      ]
     },
     {
       "id": "q_auto_f3c8507b",
@@ -11982,18 +11348,6 @@
       "sentence": "Çeviriniz (Bulgarcası: Искам да стана ...)",
       "answer": "... olmak istiyorum.",
       "hint": "Türkçe karşılığını yazınız"
-    },
-    {
-      "id": "q_auto_c390a805",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: ... olmak istiyorum.",
-      "answer": "Искам да стана ...",
-      "hint": "Doğru sıralamayı bul",
-      "options": [
-        "Искам",
-        "да",
-        "стана"
-      ]
     }
   ]
 }

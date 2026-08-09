@@ -138,7 +138,8 @@
       "sentence": "Çeviriniz (Türkçesi: Bu Nikola Petrov; benim okul/üniversite arkadaşım.)",
       "answer": "Това е Никола Петров – мой колега.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 10"
+      "lesson": "Ders 10",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders10_3a2422c4",
@@ -237,28 +238,6 @@
       "answer": "На мен също.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
-    },
-    {
-      "id": "q_ders10_e83b1a48",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ben de.",
-      "answer": "На мен също.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "На",
-        "мен",
-        "също"
-      ]
-    },
-    {
-      "id": "q_ders10_601a8914",
-      "type": "fitb",
-      "sentence": "Ben de.",
-      "answer": "На мен също.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 10",
-      "fitbTarget": "също"
     },
     {
       "id": "q_ders10_240ce90f",
@@ -495,18 +474,6 @@
       "lesson": "Ders 10"
     },
     {
-      "id": "q_ders10_18ad04b9",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hangi bölümü okuyorsunuz?",
-      "answer": "Какво следвате?",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "Какво",
-        "следвате"
-      ]
-    },
-    {
       "id": "q_ders10_70b259c3",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Медицина. С Пламен сме колеги.)",
@@ -724,28 +691,6 @@
       "answer": "Желая Ви успех!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
-    },
-    {
-      "id": "q_ders10_006703bf",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Size başarılar dilerim!",
-      "answer": "Желая Ви успех!",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "Желая",
-        "Ви",
-        "успех"
-      ]
-    },
-    {
-      "id": "q_ders10_9d482c08",
-      "type": "fitb",
-      "sentence": "Size başarılar dilerim!",
-      "answer": "Желая Ви успех!",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 10",
-      "fitbTarget": "успех"
     },
     {
       "id": "q_ders10_4956d805",
@@ -1431,28 +1376,6 @@
       "lesson": "Ders 10"
     },
     {
-      "id": "q_ders10_d4d29c50",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ben öğrenciyim.",
-      "answer": "Аз съм студентка.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "Аз",
-        "съм",
-        "студентка"
-      ]
-    },
-    {
-      "id": "q_ders10_79b752ad",
-      "type": "fitb",
-      "sentence": "Ben öğrenciyim.",
-      "answer": "Аз съм студентка.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 10",
-      "fitbTarget": "студентка"
-    },
-    {
       "id": "q_ders10_0a22a3d6",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Следвам българска филология във Великотърновския университет.)",
@@ -1751,28 +1674,6 @@
       "lesson": "Ders 10"
     },
     {
-      "id": "q_ders10_85f0c600",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: O doktordur.",
-      "answer": "Той е лекар.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "Той",
-        "е",
-        "лекар"
-      ]
-    },
-    {
-      "id": "q_ders10_f9797ed9",
-      "type": "fitb",
-      "sentence": "O doktordur.",
-      "answer": "Той е лекар.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 10",
-      "fitbTarget": "лекар"
-    },
-    {
       "id": "q_ders10_263d6440",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Работи в една поликлиника в Бургас.)",
@@ -1866,7 +1767,8 @@
       "sentence": "Çeviriniz (Türkçesi: Onların bir çocukları var; kız çocuğu.)",
       "answer": "Те имат едно дете – момиче.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 10"
+      "lesson": "Ders 10",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders10_12815322",
@@ -2108,18 +2010,6 @@
       "answer": "Не, рускиня.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
-    },
-    {
-      "id": "q_ders10_3031f8d8",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hayır, Rusum.",
-      "answer": "Не, рускиня.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "Не",
-        "рускиня"
-      ]
     },
     {
       "id": "q_ders10_84effae2",
@@ -2950,28 +2840,6 @@
       "lesson": "Ders 10"
     },
     {
-      "id": "q_ders10_b48733e8",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Teşekkür ederim! Yakında görüşürüz.",
-      "answer": "Благодаря! До скоро.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "Благодаря",
-        "До",
-        "скоро"
-      ]
-    },
-    {
-      "id": "q_ders10_457bfdfe",
-      "type": "fitb",
-      "sentence": "Teşekkür ederim! Yakında görüşürüz.",
-      "answer": "Благодаря! До скоро.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 10",
-      "fitbTarget": "Благодаря"
-    },
-    {
       "id": "q_ders10_7f050052",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Довиждане!)",
@@ -3004,28 +2872,6 @@
       "lesson": "Ders 10"
     },
     {
-      "id": "q_ders10_153351f2",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Standart/yazı dilinde.",
-      "answer": "В книжовния език.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "В",
-        "книжовния",
-        "език"
-      ]
-    },
-    {
-      "id": "q_ders10_714d4472",
-      "type": "fitb",
-      "sentence": "Standart/yazı dilinde.",
-      "answer": "В книжовния език.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 10",
-      "fitbTarget": "език"
-    },
-    {
       "id": "q_ders10_025de9cd",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Заповядайте! Какво желаете?)",
@@ -3040,28 +2886,6 @@
       "answer": "Заповядайте! Какво желаете?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
-    },
-    {
-      "id": "q_ders10_3dbd05ad",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Buyurun! Ne arzu edersiniz?",
-      "answer": "Заповядайте! Какво желаете?",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "Заповядайте",
-        "Какво",
-        "желаете"
-      ]
-    },
-    {
-      "id": "q_ders10_e2e3650e",
-      "type": "fitb",
-      "sentence": "Buyurun! Ne arzu edersiniz?",
-      "answer": "Заповядайте! Какво желаете?",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 10",
-      "fitbTarget": "желаете"
     },
     {
       "id": "q_ders10_71151340",
@@ -3547,18 +3371,6 @@
       "lesson": "Ders 10"
     },
     {
-      "id": "q_ders10_2baebfe1",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ne kadar?",
-      "answer": "Колко струва?",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "Колко",
-        "струва"
-      ]
-    },
-    {
       "id": "q_ders10_4d9e5471",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: 95 лева.)",
@@ -3717,28 +3529,6 @@
       "answer": "Много Ви благодаря!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
-    },
-    {
-      "id": "q_ders10_c9bff416",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Çok teşekkür ederim!",
-      "answer": "Много Ви благодаря!",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "Много",
-        "Ви",
-        "благодаря"
-      ]
-    },
-    {
-      "id": "q_ders10_2d2cbcd5",
-      "type": "fitb",
-      "sentence": "Çok teşekkür ederim!",
-      "answer": "Много Ви благодаря!",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 10",
-      "fitbTarget": "благодаря"
     },
     {
       "id": "q_ders10_42025ceb",
@@ -4110,28 +3900,6 @@
       "lesson": "Ders 10"
     },
     {
-      "id": "q_ders10_b89af919",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hangileri? Siyah olanlar mı?",
-      "answer": "Кои? Черните ли?",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "Кои",
-        "Черните",
-        "ли"
-      ]
-    },
-    {
-      "id": "q_ders10_83acc5aa",
-      "type": "fitb",
-      "sentence": "Hangileri? Siyah olanlar mı?",
-      "answer": "Кои? Черните ли?",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 10",
-      "fitbTarget": "Черните"
-    },
-    {
       "id": "q_ders10_0c41163b",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Да. Затворените с висок ток.)",
@@ -4186,28 +3954,6 @@
       "answer": "Кой номер носите?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
-    },
-    {
-      "id": "q_ders10_ff69f1e3",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Kaç numara giyiyorsunuz?",
-      "answer": "Кой номер носите?",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "Кой",
-        "номер",
-        "носите"
-      ]
-    },
-    {
-      "id": "q_ders10_68157155",
-      "type": "fitb",
-      "sentence": "Kaç numara giyiyorsunuz?",
-      "answer": "Кой номер носите?",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 10",
-      "fitbTarget": "номер"
     },
     {
       "id": "q_ders10_1ef63d6b",
@@ -4331,28 +4077,6 @@
       "answer": "Да. Ето Ви.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
-    },
-    {
-      "id": "q_ders10_67a1e79b",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Evet. Buyurun.",
-      "answer": "Да. Ето Ви.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "Да",
-        "Ето",
-        "Ви"
-      ]
-    },
-    {
-      "id": "q_ders10_effce021",
-      "type": "fitb",
-      "sentence": "Evet. Buyurun.",
-      "answer": "Да. Ето Ви.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 10",
-      "fitbTarget": "Да"
     },
     {
       "id": "q_ders10_eba9bd03",
@@ -5331,7 +5055,8 @@
       "sentence": "Çeviriniz (Türkçesi: Hem yerli hem ithal var: Rumen, Polonya ve İtalyan ürünleri.)",
       "answer": "Има и наши и вносни – румънски, полски, италиански.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 10"
+      "lesson": "Ders 10",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders10_c0583031",
@@ -5769,7 +5494,8 @@
       "sentence": "Çeviriniz (Türkçesi: Bu Rumen, şu ise Polonya malıdır.)",
       "answer": "Този е румънски, а онзи – полски.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 10"
+      "lesson": "Ders 10",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders10_ac6d7ca0",
@@ -5927,18 +5653,6 @@
       "answer": "Благодаря Ви!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
-    },
-    {
-      "id": "q_ders10_de30fec3",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Teşekkür ederim!",
-      "answer": "Благодаря Ви!",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 10",
-      "options": [
-        "Благодаря",
-        "Ви"
-      ]
     },
     {
       "id": "q_ders10_790fbebe",

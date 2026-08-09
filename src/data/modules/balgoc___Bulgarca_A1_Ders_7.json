@@ -216,28 +216,6 @@
       "lesson": "Ders 7"
     },
     {
-      "id": "q_ders7_a69f863e",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bir kuyumcu dükkânında:",
-      "answer": "В бижутерски магазин:",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 7",
-      "options": [
-        "В",
-        "бижутерски",
-        "магазин"
-      ]
-    },
-    {
-      "id": "q_ders7_8ce0371e",
-      "type": "fitb",
-      "sentence": "Bir kuyumcu dükkânında:",
-      "answer": "В бижутерски магазин:",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 7",
-      "fitbTarget": "магазин"
-    },
-    {
       "id": "q_ders7_2bd05048",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: − Колко струва тази гривна?)",
@@ -291,27 +269,6 @@
       "answer": "− Сто хиляди.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
-    },
-    {
-      "id": "q_ders7_269f0fde",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yüz bin.",
-      "answer": "− Сто хиляди.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 7",
-      "options": [
-        "Сто",
-        "хиляди"
-      ]
-    },
-    {
-      "id": "q_ders7_97fcf768",
-      "type": "fitb",
-      "sentence": "Yüz bin.",
-      "answer": "− Сто хиляди.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 7",
-      "fitbTarget": "хиляди"
     },
     {
       "id": "q_ders7_2007eab4",
@@ -368,27 +325,6 @@
       "answer": "− Два кошмара.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
-    },
-    {
-      "id": "q_ders7_e6cf85db",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: İki kabus.",
-      "answer": "− Два кошмара.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 7",
-      "options": [
-        "Два",
-        "кошмара"
-      ]
-    },
-    {
-      "id": "q_ders7_17819e38",
-      "type": "fitb",
-      "sentence": "İki kabus.",
-      "answer": "− Два кошмара.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 7",
-      "fitbTarget": "кошмара"
     },
     {
       "id": "q_ders7_e4aad732",

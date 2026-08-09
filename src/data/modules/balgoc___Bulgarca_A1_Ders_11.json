@@ -269,18 +269,6 @@
       "lesson": "Ders 11"
     },
     {
-      "id": "q_ders11_06974fc9",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Kar yağar.",
-      "answer": "Вали сняг.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Вали",
-        "сняг"
-      ]
-    },
-    {
       "id": "q_ders11_1cdc1ce5",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Той покрива земята и покривите на сградите като бяла пелена.)",
@@ -664,7 +652,8 @@
       "sentence": "Çeviriniz (Türkçesi: Halk bunlara tek bir ad verir: “güney rüzgârı / yujnyak”.)",
       "answer": "Народът ги назовава с едно име – южнякът.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 11"
+      "lesson": "Ders 11",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders11_15c602df",
@@ -1128,28 +1117,6 @@
       "lesson": "Ders 11"
     },
     {
-      "id": "q_ders11_20463d04",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bu yağmur kısa sürer.",
-      "answer": "Той е краткотраен.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Той",
-        "е",
-        "краткотраен"
-      ]
-    },
-    {
-      "id": "q_ders11_3e4d5d5c",
-      "type": "fitb",
-      "sentence": "Bu yağmur kısa sürer.",
-      "answer": "Той е краткотраен.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 11",
-      "fitbTarget": "краткотраен"
-    },
-    {
       "id": "q_ders11_dbf86200",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Летният дъжд е много полезен за растенията.)",
@@ -1564,28 +1531,6 @@
       "lesson": "Ders 11"
     },
     {
-      "id": "q_ders11_72ab058c",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sabahları kırağı düşer.",
-      "answer": "Сутрин пада слана.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Сутрин",
-        "пада",
-        "слана"
-      ]
-    },
-    {
-      "id": "q_ders11_0c589159",
-      "type": "fitb",
-      "sentence": "Sabahları kırağı düşer.",
-      "answer": "Сутрин пада слана.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 11",
-      "fitbTarget": "слана"
-    },
-    {
       "id": "q_ders11_af016931",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Започват да духат по-студени ветрове и често валят проливни дъждове.)",
@@ -1824,7 +1769,8 @@
       "sentence": "Çeviriniz (Türkçesi: Sıra sayıları: birinci, ikinci, üçüncü… otuz altıncı.)",
       "answer": "Редно числително – първи, втори, трети… тридесет и шести.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 11"
+      "lesson": "Ders 11",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders11_44c83aed",
@@ -2009,7 +1955,8 @@
       "sentence": "Çeviriniz (Türkçesi: Belirlilik eki alırlar: birinci; belirli kısa eril; belirli tam eril; belirli çoğul.)",
       "answer": "Членуват се – първи, първия, първият; първите.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 11"
+      "lesson": "Ders 11",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders11_cb6ba64a",
@@ -2373,28 +2320,6 @@
       "lesson": "Ders 11"
     },
     {
-      "id": "q_ders11_3abc98f3",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ben yazı tercih ederim.",
-      "answer": "Аз предпочитам лятото.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Аз",
-        "предпочитам",
-        "лятото"
-      ]
-    },
-    {
-      "id": "q_ders11_7820635e",
-      "type": "fitb",
-      "sentence": "Ben yazı tercih ederim.",
-      "answer": "Аз предпочитам лятото.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 11",
-      "fitbTarget": "лятото"
-    },
-    {
       "id": "q_ders11_817d3818",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: През юли обикновено излизам в отпуск.)",
@@ -2553,18 +2478,6 @@
       "answer": "Чудесно прекарахме.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
-    },
-    {
-      "id": "q_ders11_302912ee",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Harika vakit geçirdik.",
-      "answer": "Чудесно прекарахме.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Чудесно",
-        "прекарахме"
-      ]
     },
     {
       "id": "q_ders11_da2fffb1",
@@ -3026,28 +2939,6 @@
       "lesson": "Ders 11"
     },
     {
-      "id": "q_ders11_3650d036",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Pastırma yazını seviyorum.",
-      "answer": "Обичам циганското лято.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Обичам",
-        "циганското",
-        "лято"
-      ]
-    },
-    {
-      "id": "q_ders11_b53b59a8",
-      "type": "fitb",
-      "sentence": "Pastırma yazını seviyorum.",
-      "answer": "Обичам циганското лято.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 11",
-      "fitbTarget": "лято"
-    },
-    {
       "id": "q_ders11_018a807c",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: За мен това време е много подходящо за работа.)",
@@ -3106,28 +2997,6 @@
       "answer": "Есента ме вдъхновява.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
-    },
-    {
-      "id": "q_ders11_d369cf75",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sonbahar bana ilham verir.",
-      "answer": "Есента ме вдъхновява.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Есента",
-        "ме",
-        "вдъхновява"
-      ]
-    },
-    {
-      "id": "q_ders11_f7447a17",
-      "type": "fitb",
-      "sentence": "Sonbahar bana ilham verir.",
-      "answer": "Есента ме вдъхновява.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 11",
-      "fitbTarget": "Есента"
     },
     {
       "id": "q_ders11_c5dd9206",
@@ -3243,28 +3112,6 @@
       "answer": "Това ме успокоява.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
-    },
-    {
-      "id": "q_ders11_6494866d",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bu beni sakinleştirir.",
-      "answer": "Това ме успокоява.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Това",
-        "ме",
-        "успокоява"
-      ]
-    },
-    {
-      "id": "q_ders11_31c6152d",
-      "type": "fitb",
-      "sentence": "Bu beni sakinleştirir.",
-      "answer": "Това ме успокоява.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 11",
-      "fitbTarget": "успокоява"
     },
     {
       "id": "q_ders11_1221a76a",
@@ -3647,28 +3494,6 @@
       "lesson": "Ders 11"
     },
     {
-      "id": "q_ders11_9af91961",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Gerçek bir pastırma yazıydı!",
-      "answer": "Истинско циганско лято!",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Истинско",
-        "циганско",
-        "лято"
-      ]
-    },
-    {
-      "id": "q_ders11_e8bdc2a5",
-      "type": "fitb",
-      "sentence": "Gerçek bir pastırma yazıydı!",
-      "answer": "Истинско циганско лято!",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 11",
-      "fitbTarget": "лято"
-    },
-    {
       "id": "q_ders11_9ee4e621",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Привечер обаче започна да духа вятър и да ръми.)",
@@ -3851,18 +3676,6 @@
       "lesson": "Ders 11"
     },
     {
-      "id": "q_ders11_d6d883be",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Pek sanmıyorum.",
-      "answer": "Едва ли.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Едва",
-        "ли"
-      ]
-    },
-    {
       "id": "q_ders11_6f7b791d",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Вече е късна есен.)",
@@ -3957,28 +3770,6 @@
       "answer": "Време е вече.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
-    },
-    {
-      "id": "q_ders11_18b9ac86",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Artık zamanı geldi.",
-      "answer": "Време е вече.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Време",
-        "е",
-        "вече"
-      ]
-    },
-    {
-      "id": "q_ders11_6b823c42",
-      "type": "fitb",
-      "sentence": "Artık zamanı geldi.",
-      "answer": "Време е вече.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 11",
-      "fitbTarget": "вече"
     },
     {
       "id": "q_ders11_04a3987f",
@@ -4179,28 +3970,6 @@
       "lesson": "Ders 11"
     },
     {
-      "id": "q_ders11_efd5c81b",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Güneş güçlü parlar.",
-      "answer": "Слънцето грее силно.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Слънцето",
-        "грее",
-        "силно"
-      ]
-    },
-    {
-      "id": "q_ders11_c7b92e48",
-      "type": "fitb",
-      "sentence": "Güneş güçlü parlar.",
-      "answer": "Слънцето грее силно.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 11",
-      "fitbTarget": "грее"
-    },
-    {
       "id": "q_ders11_70c1dfec",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Всичко е потънало в зеленина.)",
@@ -4338,28 +4107,6 @@
       "lesson": "Ders 11"
     },
     {
-      "id": "q_ders11_1c0b5df6",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ben sonbaharı tercih ederim.",
-      "answer": "Аз предпочитам есента.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Аз",
-        "предпочитам",
-        "есента"
-      ]
-    },
-    {
-      "id": "q_ders11_ead293f3",
-      "type": "fitb",
-      "sentence": "Ben sonbaharı tercih ederim.",
-      "answer": "Аз предпочитам есента.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 11",
-      "fitbTarget": "предпочитам"
-    },
-    {
       "id": "q_ders11_717ecbe3",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Особено ранната есен.)",
@@ -4374,28 +4121,6 @@
       "answer": "Особено ранната есен.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
-    },
-    {
-      "id": "q_ders11_196cd19b",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Özellikle erken sonbaharı.",
-      "answer": "Особено ранната есен.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Особено",
-        "ранната",
-        "есен"
-      ]
-    },
-    {
-      "id": "q_ders11_6e10408a",
-      "type": "fitb",
-      "sentence": "Özellikle erken sonbaharı.",
-      "answer": "Особено ранната есен.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 11",
-      "fitbTarget": "Особено"
     },
     {
       "id": "q_ders11_9ba2368a",
@@ -4455,28 +4180,6 @@
       "answer": "Нощите са прохладни.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
-    },
-    {
-      "id": "q_ders11_c37f02fb",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Geceler serindir.",
-      "answer": "Нощите са прохладни.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Нощите",
-        "са",
-        "прохладни"
-      ]
-    },
-    {
-      "id": "q_ders11_ab8966db",
-      "type": "fitb",
-      "sentence": "Geceler serindir.",
-      "answer": "Нощите са прохладни.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 11",
-      "fitbTarget": "Нощите"
     },
     {
       "id": "q_ders11_fca0b5bf",
@@ -4617,18 +4320,6 @@
       "answer": "Обожавам ги.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
-    },
-    {
-      "id": "q_ders11_1f64d2c6",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Onlara bayılıyorum.",
-      "answer": "Обожавам ги.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Обожавам",
-        "ги"
-      ]
     },
     {
       "id": "q_ders11_7b453f36",
@@ -4816,28 +4507,6 @@
       "answer": "Затова предпочитам лятото.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
-    },
-    {
-      "id": "q_ders11_b5b10ea0",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bu yüzden yazı tercih ediyorum.",
-      "answer": "Затова предпочитам лятото.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Затова",
-        "предпочитам",
-        "лятото"
-      ]
-    },
-    {
-      "id": "q_ders11_82ecef9f",
-      "type": "fitb",
-      "sentence": "Bu yüzden yazı tercih ediyorum.",
-      "answer": "Затова предпочитам лятото.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 11",
-      "fitbTarget": "лятото"
     },
     {
       "id": "q_ders11_210ef755",
@@ -5202,28 +4871,6 @@
       "lesson": "Ders 11"
     },
     {
-      "id": "q_ders11_0fd425ba",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Şimdi kış.",
-      "answer": "Сега е зима.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Сега",
-        "е",
-        "зима"
-      ]
-    },
-    {
-      "id": "q_ders11_a0ed4a05",
-      "type": "fitb",
-      "sentence": "Şimdi kış.",
-      "answer": "Сега е зима.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 11",
-      "fitbTarget": "Сега"
-    },
-    {
       "id": "q_ders11_f5542c13",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: През зимата вали сняг.)",
@@ -5279,28 +4926,6 @@
       "lesson": "Ders 11"
     },
     {
-      "id": "q_ders11_77a251ba",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hava soğuktur.",
-      "answer": "Времето е студено.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Времето",
-        "е",
-        "студено"
-      ]
-    },
-    {
-      "id": "q_ders11_1e8f50cd",
-      "type": "fitb",
-      "sentence": "Hava soğuktur.",
-      "answer": "Времето е студено.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 11",
-      "fitbTarget": "студено"
-    },
-    {
       "id": "q_ders11_572a3a45",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Идва лято.)",
@@ -5315,18 +4940,6 @@
       "answer": "Идва лято.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
-    },
-    {
-      "id": "q_ders11_710a8a36",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yaz geliyor.",
-      "answer": "Идва лято.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Идва",
-        "лято"
-      ]
     },
     {
       "id": "q_ders11_49f1e22c",
@@ -5466,18 +5079,6 @@
       "answer": "Пролетта отмина.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
-    },
-    {
-      "id": "q_ders11_551d7cf6",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: İlkbahar geçti.",
-      "answer": "Пролетта отмина.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Пролетта",
-        "отмина"
-      ]
     },
     {
       "id": "q_ders11_cfd97af9",
@@ -5656,28 +5257,6 @@
       "answer": "Вчера беше облачно.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
-    },
-    {
-      "id": "q_ders11_e29a458f",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Dün hava bulutluydu.",
-      "answer": "Вчера беше облачно.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 11",
-      "options": [
-        "Вчера",
-        "беше",
-        "облачно"
-      ]
-    },
-    {
-      "id": "q_ders11_475c89c3",
-      "type": "fitb",
-      "sentence": "Dün hava bulutluydu.",
-      "answer": "Вчера беше облачно.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 11",
-      "fitbTarget": "беше"
     },
     {
       "id": "q_ders11_27b07100",

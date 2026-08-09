@@ -1015,7 +1015,8 @@
       "sentence": "Çeviriniz (Türkçesi: Bugün Bistra ve Petır’ın özel günü var: evlilik yıldönümleri.)",
       "answer": "Днес Бистра и Петър имат празник – годишнина от сватбата.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 9"
+      "lesson": "Ders 9",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders9_0d98fb26",

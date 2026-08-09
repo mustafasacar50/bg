@@ -17,7 +17,8 @@
       "sentence": "Çeviriniz (Türkçesi: Bülent: İyi günler, hanımefendi / küçük hanım!)",
       "answer": "Бюлент: – Добър ден, госпожице!",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 3"
+      "lesson": "Ders 3",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders3_f600cefd",
@@ -56,29 +57,8 @@
       "sentence": "Çeviriniz (Türkçesi: Sevil: İyi günler!)",
       "answer": "Севил: – Добър ден!",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 3"
-    },
-    {
-      "id": "q_ders3_8e54c39a",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sevil: İyi günler!",
-      "answer": "Севил: – Добър ден!",
-      "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 3",
-      "options": [
-        "Севил",
-        "Добър",
-        "ден"
-      ]
-    },
-    {
-      "id": "q_ders3_3ba0ba87",
-      "type": "fitb",
-      "sentence": "Sevil: İyi günler!",
-      "answer": "Севил: – Добър ден!",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 3",
-      "fitbTarget": "Добър"
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders3_d1c38498",
@@ -128,7 +108,8 @@
       "sentence": "Çeviriniz (Türkçesi: Bülent: Ben Türkiye’denim, İstanbul’danım. Ya siz?)",
       "answer": "Бюлент: – Аз съм от Турция, от Истанбул. А Вие?",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 3"
+      "lesson": "Ders 3",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders3_821b61e9",
@@ -171,7 +152,8 @@
       "sentence": "Çeviriniz (Türkçesi: Sevil: Ben İzmir’denim.)",
       "answer": "Севил: – Аз съм от Измир.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 3"
+      "lesson": "Ders 3",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders3_5549e756",
@@ -211,7 +193,8 @@
       "sentence": "Çeviriniz (Türkçesi: Bülent: Peki bu genç hanım kimdir?)",
       "answer": "Бюлент: – А тази госпожица коя е?",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 3"
+      "lesson": "Ders 3",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders3_4a2e0d95",
@@ -303,29 +286,8 @@
       "sentence": "Çeviriniz (Türkçesi: Bülent: O nereli?)",
       "answer": "Бюлент: – Откъде е?",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 3"
-    },
-    {
-      "id": "q_ders3_ecd9adaf",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bülent: O nereli?",
-      "answer": "Бюлент: – Откъде е?",
-      "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 3",
-      "options": [
-        "Бюлент",
-        "Откъде",
-        "е"
-      ]
-    },
-    {
-      "id": "q_ders3_25521b82",
-      "type": "fitb",
-      "sentence": "Bülent: O nereli?",
-      "answer": "Бюлент: – Откъде е?",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 3",
-      "fitbTarget": "Бюлент"
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders3_b8b5b59f",
@@ -341,7 +303,8 @@
       "sentence": "Çeviriniz (Türkçesi: Sevil: Bulgaristan’dan, elbette. Sofya’dan.)",
       "answer": "Севил: – От България, разбира се. От София.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 3"
+      "lesson": "Ders 3",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders3_37033389",
@@ -382,7 +345,8 @@
       "sentence": "Çeviriniz (Türkçesi: Bülent: Peki onun yanındaki bey? Adı nedir?)",
       "answer": "Бюлент: – А господинът до него? Как се казва?",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 3"
+      "lesson": "Ders 3",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders3_db9432ce",
@@ -459,7 +423,8 @@
       "sentence": "Çeviriniz (Türkçesi: Bülent: Bulgarlar mı?)",
       "answer": "Бюлент: – Българи ли са?",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 3"
+      "lesson": "Ders 3",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders3_50820dd8",
@@ -498,7 +463,8 @@
       "sentence": "Çeviriniz (Türkçesi: Sevil: Hayır, Bulgar değiller, elbette.)",
       "answer": "Севил: – Не, не са българи, разбира се.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 3"
+      "lesson": "Ders 3",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders3_0defca13",
@@ -574,7 +540,8 @@
       "sentence": "Çeviriniz (Türkçesi: Sevil: Onlarla tanışacağız.)",
       "answer": "Севил: – Ще се запознаем с тях.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 3"
+      "lesson": "Ders 3",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders3_b933c5f4",
@@ -615,7 +582,8 @@
       "sentence": "Çeviriniz (Türkçesi: Bülent: Bilgi için teşekkür ederim, Sevil Hanım.)",
       "answer": "Бюлент: – Благодаря за информацията, госпожице Севил.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 3"
+      "lesson": "Ders 3",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders3_511b0d06",
@@ -656,7 +624,8 @@
       "sentence": "Çeviriniz (Türkçesi: Bülent: Tanıştığımıza memnun oldum. İyi günler!)",
       "answer": "Бюлент: – Беше ми приятно да се запознаем. Приятен ден!",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 3"
+      "lesson": "Ders 3",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders3_df46a297",
@@ -700,28 +669,8 @@
       "sentence": "Çeviriniz (Türkçesi: Sevil: Hoşça kalın / görüşmek üzere!)",
       "answer": "Севил: – Довиждане!",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 3"
-    },
-    {
-      "id": "q_ders3_5ada5ac1",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sevil: Hoşça kalın / görüşmek üzere!",
-      "answer": "Севил: – Довиждане!",
-      "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 3",
-      "options": [
-        "Севил",
-        "Довиждане"
-      ]
-    },
-    {
-      "id": "q_ders3_b2da65c3",
-      "type": "fitb",
-      "sentence": "Sevil: Hoşça kalın / görüşmek üzere!",
-      "answer": "Севил: – Довиждане!",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 3",
-      "fitbTarget": "Довиждане"
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders3_32f7ccc3",
@@ -1131,28 +1080,6 @@
       "lesson": "Ders 3"
     },
     {
-      "id": "q_ders3_1d9595ce",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: O Gözde’dir.",
-      "answer": "Тя е Гьозде.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 3",
-      "options": [
-        "Тя",
-        "е",
-        "Гьозде"
-      ]
-    },
-    {
-      "id": "q_ders3_2eed6b96",
-      "type": "fitb",
-      "sentence": "O Gözde’dir.",
-      "answer": "Тя е Гьозде.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 3",
-      "fitbTarget": "Гьозде"
-    },
-    {
       "id": "q_ders3_49d9c140",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: От Турция е.)",
@@ -1167,28 +1094,6 @@
       "answer": "От Турция е.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 3"
-    },
-    {
-      "id": "q_ders3_1f3b7198",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Türkiye’dendir.",
-      "answer": "От Турция е.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 3",
-      "options": [
-        "От",
-        "Турция",
-        "е"
-      ]
-    },
-    {
-      "id": "q_ders3_7a58e5e5",
-      "type": "fitb",
-      "sentence": "Türkiye’dendir.",
-      "answer": "От Турция е.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 3",
-      "fitbTarget": "Турция"
     },
     {
       "id": "q_ders3_a70385b2",
@@ -1988,28 +1893,6 @@
       "lesson": "Ders 3"
     },
     {
-      "id": "q_ders3_b5bf705b",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Onun bir firması vardır.",
-      "answer": "Той има фирма.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 3",
-      "options": [
-        "Той",
-        "има",
-        "фирма"
-      ]
-    },
-    {
-      "id": "q_ders3_d18fd869",
-      "type": "fitb",
-      "sentence": "Onun bir firması vardır.",
-      "answer": "Той има фирма.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 3",
-      "fitbTarget": "фирма"
-    },
-    {
       "id": "q_ders3_de857b2c",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Има приятели и от България.)",
@@ -2308,18 +2191,6 @@
       "answer": "Не, рускиня.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 3"
-    },
-    {
-      "id": "q_ders3_90e30ec8",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hayır, Rus kadınıyım.",
-      "answer": "Не, рускиня.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 3",
-      "options": [
-        "Не",
-        "рускиня"
-      ]
     },
     {
       "id": "q_ders3_8d830920",
@@ -3389,28 +3260,6 @@
       "answer": "Благодаря! До скоро.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 3"
-    },
-    {
-      "id": "q_ders3_a95d7df4",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Teşekkürler! Yakında görüşürüz.",
-      "answer": "Благодаря! До скоро.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 3",
-      "options": [
-        "Благодаря",
-        "До",
-        "скоро"
-      ]
-    },
-    {
-      "id": "q_ders3_9d424130",
-      "type": "fitb",
-      "sentence": "Teşekkürler! Yakında görüşürüz.",
-      "answer": "Благодаря! До скоро.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 3",
-      "fitbTarget": "скоро"
     },
     {
       "id": "q_ders3_258eba04",

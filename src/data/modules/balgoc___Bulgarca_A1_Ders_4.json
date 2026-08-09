@@ -593,28 +593,6 @@
       "lesson": "Ders 4"
     },
     {
-      "id": "q_ders4_c8e241b2",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bulgarca öğreniyorum.",
-      "answer": "Уча български език.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 4",
-      "options": [
-        "Уча",
-        "български",
-        "език"
-      ]
-    },
-    {
-      "id": "q_ders4_6f012912",
-      "type": "fitb",
-      "sentence": "Bulgarca öğreniyorum.",
-      "answer": "Уча български език.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 4",
-      "fitbTarget": "език"
-    },
-    {
       "id": "q_ders4_8072cbca",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Уча се да говоря на български.)",
@@ -753,28 +731,6 @@
       "lesson": "Ders 4"
     },
     {
-      "id": "q_ders4_a7d86b43",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Öğretim görevlisi öğrencileri eğitir.",
-      "answer": "Преподавателят обучава студентите.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 4",
-      "options": [
-        "Преподавателят",
-        "обучава",
-        "студентите"
-      ]
-    },
-    {
-      "id": "q_ders4_579d5878",
-      "type": "fitb",
-      "sentence": "Öğretim görevlisi öğrencileri eğitir.",
-      "answer": "Преподавателят обучава студентите.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 4",
-      "fitbTarget": "студентите"
-    },
-    {
       "id": "q_ders4_27f5f016",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Студентите учат български език.)",
@@ -870,28 +826,6 @@
       "lesson": "Ders 4"
     },
     {
-      "id": "q_ders4_ac91caba",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bulgarca biliyorum.",
-      "answer": "Зная български език.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 4",
-      "options": [
-        "Зная",
-        "български",
-        "език"
-      ]
-    },
-    {
-      "id": "q_ders4_280ee65a",
-      "type": "fitb",
-      "sentence": "Bulgarca biliyorum.",
-      "answer": "Зная български език.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 4",
-      "fitbTarget": "Зная"
-    },
-    {
       "id": "q_ders4_78cf5c06",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Можете ли да броите до десет?)",
@@ -938,7 +872,8 @@
       "sentence": "Çeviriniz (Bulgarcası: В кой курс сте? – В първи.)",
       "answer": "Kaçıncı sınıftasınız/kurstasınız? – Birincideyim.",
       "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 4"
+      "lesson": "Ders 4",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders4_7bb49b3e",
@@ -946,7 +881,8 @@
       "sentence": "Çeviriniz (Türkçesi: Kaçıncı sınıftasınız/kurstasınız? – Birincideyim.)",
       "answer": "В кой курс сте? – В първи.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 4"
+      "lesson": "Ders 4",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders4_9d190a0a",
@@ -1066,28 +1002,6 @@
       "answer": "Казвам се Емин.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 4"
-    },
-    {
-      "id": "q_ders4_df96b14d",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Benim adım Emin.",
-      "answer": "Казвам се Емин.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 4",
-      "options": [
-        "Казвам",
-        "се",
-        "Емин"
-      ]
-    },
-    {
-      "id": "q_ders4_a93aa6de",
-      "type": "fitb",
-      "sentence": "Benim adım Emin.",
-      "answer": "Казвам се Емин.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 4",
-      "fitbTarget": "Емин"
     },
     {
       "id": "q_ders4_a5ed0ee6",
@@ -1317,7 +1231,8 @@
       "sentence": "Çeviriniz (Türkçesi: Köpeğin adı Reks, kedinin adı ise Mıri.)",
       "answer": "Кучето се казва Рекс, а котката – Мъри.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 4"
+      "lesson": "Ders 4",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders4_2d267854",
@@ -1403,18 +1318,6 @@
       "lesson": "Ders 4"
     },
     {
-      "id": "q_ders4_d1a37878",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hayvanları severim.",
-      "answer": "Обичам животните.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 4",
-      "options": [
-        "Обичам",
-        "животните"
-      ]
-    },
-    {
       "id": "q_ders4_5b350cc2",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Обичам също и морето.)",
@@ -1468,18 +1371,6 @@
       "answer": "Карам сърф.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 4"
-    },
-    {
-      "id": "q_ders4_bbce9973",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sörf yaparım.",
-      "answer": "Карам сърф.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 4",
-      "options": [
-        "Карам",
-        "сърф"
-      ]
     },
     {
       "id": "q_ders4_9f62f327",
@@ -2075,7 +1966,8 @@
       "sentence": "Çeviriniz (Bulgarcası: Фатма се надява, че с три езика – с турски, английски и български – ще намери добра работа.)",
       "answer": "Fatma üç dille – Türkçe, İngilizce ve Bulgarca ile – iyi bir iş bulacağını umuyor.",
       "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 4"
+      "lesson": "Ders 4",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders4_bd05bc3c",
@@ -2234,18 +2126,6 @@
       "answer": "Правя салата.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 4"
-    },
-    {
-      "id": "q_ders4_c7dfd8f5",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Salata yapıyorum.",
-      "answer": "Правя салата.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 4",
-      "options": [
-        "Правя",
-        "салата"
-      ]
     },
     {
       "id": "q_ders4_9a2568da",
@@ -2631,28 +2511,6 @@
       "lesson": "Ders 4"
     },
     {
-      "id": "q_ders4_eaea93c9",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Dana etinden lukanka istiyorum.",
-      "answer": "Искам телешка луканка.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 4",
-      "options": [
-        "Искам",
-        "телешка",
-        "луканка"
-      ]
-    },
-    {
-      "id": "q_ders4_536073bb",
-      "type": "fitb",
-      "sentence": "Dana etinden lukanka istiyorum.",
-      "answer": "Искам телешка луканка.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 4",
-      "fitbTarget": "телешка"
-    },
-    {
       "id": "q_ders4_48d368f7",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Искам да купя сувенир.)",
@@ -2957,28 +2815,6 @@
       "lesson": "Ders 4"
     },
     {
-      "id": "q_ders4_1063cf8d",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Havuçların fiyatı ne kadar?",
-      "answer": "Колко струват морковите?",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 4",
-      "options": [
-        "Колко",
-        "струват",
-        "морковите"
-      ]
-    },
-    {
-      "id": "q_ders4_79255e9c",
-      "type": "fitb",
-      "sentence": "Havuçların fiyatı ne kadar?",
-      "answer": "Колко струват морковите?",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 4",
-      "fitbTarget": "морковите"
-    },
-    {
       "id": "q_ders4_7d383483",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Един лев килограма. Колко да Ви отмеря?)",
@@ -3035,18 +2871,6 @@
       "answer": "Половин килограм.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 4"
-    },
-    {
-      "id": "q_ders4_6e4469e6",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yarım kilogram.",
-      "answer": "Половин килограм.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 4",
-      "options": [
-        "Половин",
-        "килограм"
-      ]
     },
     {
       "id": "q_ders4_39054205",
@@ -3401,28 +3225,6 @@
       "answer": "Ще вземете ли?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 4"
-    },
-    {
-      "id": "q_ders4_de88ca6f",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Alacak mısınız?",
-      "answer": "Ще вземете ли?",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 4",
-      "options": [
-        "Ще",
-        "вземете",
-        "ли"
-      ]
-    },
-    {
-      "id": "q_ders4_859d01c7",
-      "type": "fitb",
-      "sentence": "Alacak mısınız?",
-      "answer": "Ще вземете ли?",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 4",
-      "fitbTarget": "вземете"
     },
     {
       "id": "q_ders4_d5fe8141",
@@ -4057,28 +3859,6 @@
       "lesson": "Ders 4"
     },
     {
-      "id": "q_ders4_7c0365ac",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Teşekkür ederim! Hoşça kalın.",
-      "answer": "Благодаря Ви! Довиждане.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 4",
-      "options": [
-        "Благодаря",
-        "Ви",
-        "Довиждане"
-      ]
-    },
-    {
-      "id": "q_ders4_9f9556d6",
-      "type": "fitb",
-      "sentence": "Teşekkür ederim! Hoşça kalın.",
-      "answer": "Благодаря Ви! Довиждане.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 4",
-      "fitbTarget": "Благодаря"
-    },
-    {
       "id": "q_ders4_09628176",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Заповядайте пак. Приятно е да се работи с такива клиенти.)",
@@ -4168,7 +3948,8 @@
       "sentence": "Çeviriniz (Bulgarcası: Както винаги – в стола на института.)",
       "answer": "Her zamanki gibi – enstitünün yemekhanesinde.",
       "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 4"
+      "lesson": "Ders 4",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders4_d4a9f022",
@@ -4176,7 +3957,8 @@
       "sentence": "Çeviriniz (Türkçesi: Her zamanki gibi – enstitünün yemekhanesinde.)",
       "answer": "Както винаги – в стола на института.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 4"
+      "lesson": "Ders 4",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders4_fc55c661",
@@ -4457,28 +4239,6 @@
       "lesson": "Ders 4"
     },
     {
-      "id": "q_ders4_a42f1f6b",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ne arzu edersiniz, lütfen?",
-      "answer": "Какво обичате, моля!",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 4",
-      "options": [
-        "Какво",
-        "обичате",
-        "моля"
-      ]
-    },
-    {
-      "id": "q_ders4_e1721de0",
-      "type": "fitb",
-      "sentence": "Ne arzu edersiniz, lütfen?",
-      "answer": "Какво обичате, моля!",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 4",
-      "fitbTarget": "Какво"
-    },
-    {
       "id": "q_ders4_3e4c72bb",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Какво можете да ни предложите за обяд?)",
@@ -4606,7 +4366,8 @@
       "sentence": "Çeviriniz (Bulgarcası: В момента има хубава скара. Но има и готвени ястия – с месо и постни.)",
       "answer": "Şu anda güzel ızgara var. Ama pişmiş yemekler de var – etli ve etsiz.",
       "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 4"
+      "lesson": "Ders 4",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders4_4ba4577a",
@@ -4712,28 +4473,6 @@
       "answer": "Да, ако обичате.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 4"
-    },
-    {
-      "id": "q_ders4_bc78c379",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Evet, lütfen.",
-      "answer": "Да, ако обичате.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 4",
-      "options": [
-        "Да",
-        "ако",
-        "обичате"
-      ]
-    },
-    {
-      "id": "q_ders4_b5189d82",
-      "type": "fitb",
-      "sentence": "Evet, lütfen.",
-      "answer": "Да, ако обичате.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 4",
-      "fitbTarget": "обичате"
     },
     {
       "id": "q_ders4_76cf3549",
@@ -4991,28 +4730,6 @@
       "answer": "Заповядайте! Без ресто.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 4"
-    },
-    {
-      "id": "q_ders4_ed0f23f6",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Buyurun! Üstü kalsın.",
-      "answer": "Заповядайте! Без ресто.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 4",
-      "options": [
-        "Заповядайте",
-        "Без",
-        "ресто"
-      ]
-    },
-    {
-      "id": "q_ders4_fa4c6196",
-      "type": "fitb",
-      "sentence": "Buyurun! Üstü kalsın.",
-      "answer": "Заповядайте! Без ресто.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 4",
-      "fitbTarget": "Заповядайте"
     },
     {
       "id": "q_ders4_279e6170",

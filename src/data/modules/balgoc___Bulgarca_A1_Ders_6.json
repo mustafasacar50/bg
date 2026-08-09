@@ -383,28 +383,6 @@
       "lesson": "Ders 6"
     },
     {
-      "id": "q_ders6_5b23a626",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Kapı kahverengidir.",
-      "answer": "Вратата е кафява.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Вратата",
-        "е",
-        "кафява"
-      ]
-    },
-    {
-      "id": "q_ders6_9b8b6831",
-      "type": "fitb",
-      "sentence": "Kapı kahverengidir.",
-      "answer": "Вратата е кафява.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "кафява"
-    },
-    {
       "id": "q_ders6_4029969b",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Стените са бели.)",
@@ -419,28 +397,6 @@
       "answer": "Стените са бели.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_b975bb99",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Duvarlar beyazdır.",
-      "answer": "Стените са бели.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Стените",
-        "са",
-        "бели"
-      ]
-    },
-    {
-      "id": "q_ders6_b0eeb87c",
-      "type": "fitb",
-      "sentence": "Duvarlar beyazdır.",
-      "answer": "Стените са бели.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "Стените"
     },
     {
       "id": "q_ders6_81ccf122",
@@ -768,34 +724,13 @@
       "lesson": "Ders 6"
     },
     {
-      "id": "q_ders6_dbbe00e6",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Zirveye doğru yola çık!",
-      "answer": "Тръгни към върха!",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Тръгни",
-        "към",
-        "върха"
-      ]
-    },
-    {
-      "id": "q_ders6_dbec9675",
-      "type": "fitb",
-      "sentence": "Zirveye doğru yola çık!",
-      "answer": "Тръгни към върха!",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "върха"
-    },
-    {
       "id": "q_ders6_02d200bb",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: игрáй – игрáйте)",
       "answer": "oyna - oynayın/oynayınız",
       "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 6"
+      "lesson": "Ders 6",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders6_dcaa594a",
@@ -803,28 +738,8 @@
       "sentence": "Çeviriniz (Türkçesi: oyna - oynayın/oynayınız)",
       "answer": "игрáй – игрáйте",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_7495e8f5",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: oyna - oynayın/oynayınız",
-      "answer": "игрáй – игрáйте",
-      "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 6",
-      "options": [
-        "игрáй",
-        "игрáйте"
-      ]
-    },
-    {
-      "id": "q_ders6_743467c4",
-      "type": "fitb",
-      "sentence": "oyna - oynayın/oynayınız",
-      "answer": "игрáй – игрáйте",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "игрáйте"
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders6_115d275e",
@@ -832,7 +747,8 @@
       "sentence": "Çeviriniz (Bulgarcası: четú – четéте)",
       "answer": "oku - okuyun/okuyunuz",
       "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 6"
+      "lesson": "Ders 6",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders6_49d45ab2",
@@ -840,28 +756,8 @@
       "sentence": "Çeviriniz (Türkçesi: oku - okuyun/okuyunuz)",
       "answer": "четú – четéте",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_1e612497",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: oku - okuyun/okuyunuz",
-      "answer": "четú – четéте",
-      "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 6",
-      "options": [
-        "четú",
-        "четéте"
-      ]
-    },
-    {
-      "id": "q_ders6_1ad795a1",
-      "type": "fitb",
-      "sentence": "oku - okuyun/okuyunuz",
-      "answer": "четú – четéте",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "четéте"
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders6_d01fe877",
@@ -897,18 +793,6 @@
       "lesson": "Ders 6"
     },
     {
-      "id": "q_ders6_84bd0549",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: oynayayım",
-      "answer": "да играя",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "да",
-        "играя"
-      ]
-    },
-    {
       "id": "q_ders6_55d30c48",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: нека играя)",
@@ -923,18 +807,6 @@
       "answer": "нека играя",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_34a50063",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: bırak oynayayım / varsın oynayayım",
-      "answer": "нека играя",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "нека",
-        "играя"
-      ]
     },
     {
       "id": "q_ders6_a9256d69",
@@ -953,28 +825,6 @@
       "lesson": "Ders 6"
     },
     {
-      "id": "q_ders6_fcda8d2b",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: bırak oynayayım / varsın oynayayım",
-      "answer": "нека да играя",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "нека",
-        "да",
-        "играя"
-      ]
-    },
-    {
-      "id": "q_ders6_b353f963",
-      "type": "fitb",
-      "sentence": "bırak oynayayım / varsın oynayayım",
-      "answer": "нека да играя",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "нека"
-    },
-    {
       "id": "q_ders6_a8430acd",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Днес е понеделник.)",
@@ -989,28 +839,6 @@
       "answer": "Днес е понеделник.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_f4734eb0",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bugün pazartesi.",
-      "answer": "Днес е понеделник.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Днес",
-        "е",
-        "понеделник"
-      ]
-    },
-    {
-      "id": "q_ders6_893bd730",
-      "type": "fitb",
-      "sentence": "Bugün pazartesi.",
-      "answer": "Днес е понеделник.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "понеделник"
     },
     {
       "id": "q_ders6_71c57eb5",
@@ -1068,28 +896,6 @@
       "lesson": "Ders 6"
     },
     {
-      "id": "q_ders6_f57f52e1",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bugün bayram/resmi tatil.",
-      "answer": "Днес е празник.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Днес",
-        "е",
-        "празник"
-      ]
-    },
-    {
-      "id": "q_ders6_467927f0",
-      "type": "fitb",
-      "sentence": "Bugün bayram/resmi tatil.",
-      "answer": "Днес е празник.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "Днес"
-    },
-    {
       "id": "q_ders6_5defcabe",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Днес имам рожден ден.)",
@@ -1143,18 +949,6 @@
       "answer": "През януари...",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_62da8d34",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ocak ayında...",
-      "answer": "През януари...",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "През",
-        "януари"
-      ]
     },
     {
       "id": "q_ders6_3cf936dd",
@@ -1291,28 +1085,6 @@
       "lesson": "Ders 6"
     },
     {
-      "id": "q_ders6_00e4db0b",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ne zaman doğdun?",
-      "answer": "Кога си роден?",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Кога",
-        "си",
-        "роден"
-      ]
-    },
-    {
-      "id": "q_ders6_240830c4",
-      "type": "fitb",
-      "sentence": "Ne zaman doğdun?",
-      "answer": "Кога си роден?",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "Кога"
-    },
-    {
       "id": "q_ders6_c91b54dd",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Кажете, моля, колко е часът?)",
@@ -1369,28 +1141,6 @@
       "lesson": "Ders 6"
     },
     {
-      "id": "q_ders6_3c55c593",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: On iki buçuk.",
-      "answer": "Дванадесет и половина.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Дванадесет",
-        "и",
-        "половина"
-      ]
-    },
-    {
-      "id": "q_ders6_8d20ffd6",
-      "type": "fitb",
-      "sentence": "On iki buçuk.",
-      "answer": "Дванадесет и половина.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "Дванадесет"
-    },
-    {
       "id": "q_ders6_86e72900",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Десет без петнадесет.)",
@@ -1405,28 +1155,6 @@
       "answer": "Десет без петнадесет.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_87bd2de6",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ona on beş var.",
-      "answer": "Десет без петнадесет.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Десет",
-        "без",
-        "петнадесет"
-      ]
-    },
-    {
-      "id": "q_ders6_3dcd5b94",
-      "type": "fitb",
-      "sentence": "Ona on beş var.",
-      "answer": "Десет без петнадесет.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "Десет"
     },
     {
       "id": "q_ders6_bfa5a1cb",
@@ -1560,18 +1288,6 @@
       "answer": "Осемнадесет часа.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_095711fc",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Saat on sekiz.",
-      "answer": "Осемнадесет часа.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Осемнадесет",
-        "часа"
-      ]
     },
     {
       "id": "q_ders6_29899285",
@@ -1755,28 +1471,6 @@
       "lesson": "Ders 6"
     },
     {
-      "id": "q_ders6_229b9f62",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bir saniye lütfen!",
-      "answer": "Една секунда, моля!",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Една",
-        "секунда",
-        "моля"
-      ]
-    },
-    {
-      "id": "q_ders6_dc7694ca",
-      "type": "fitb",
-      "sentence": "Bir saniye lütfen!",
-      "answer": "Една секунда, моля!",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "Една"
-    },
-    {
       "id": "q_ders6_a6740c6a",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Моля, изчакайте!)",
@@ -1791,18 +1485,6 @@
       "answer": "Моля, изчакайте!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_856e4ed6",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Lütfen bekleyin!",
-      "answer": "Моля, изчакайте!",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Моля",
-        "изчакайте"
-      ]
     },
     {
       "id": "q_ders6_71a580d9",
@@ -1821,28 +1503,6 @@
       "lesson": "Ders 6"
     },
     {
-      "id": "q_ders6_2bdd91f5",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Beş dakika sonra.",
-      "answer": "След пет минути.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "След",
-        "пет",
-        "минути"
-      ]
-    },
-    {
-      "id": "q_ders6_a8f7cd83",
-      "type": "fitb",
-      "sentence": "Beş dakika sonra.",
-      "answer": "След пет минути.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "минути"
-    },
-    {
       "id": "q_ders6_7f22a790",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Преди 200 години.)",
@@ -1857,27 +1517,6 @@
       "answer": "Преди 200 години.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_9814b4a7",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: 200 yıl önce.",
-      "answer": "Преди 200 години.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Преди",
-        "години"
-      ]
-    },
-    {
-      "id": "q_ders6_424aa7a9",
-      "type": "fitb",
-      "sentence": "200 yıl önce.",
-      "answer": "Преди 200 години.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "години"
     },
     {
       "id": "q_ders6_0c9b8070",
@@ -1934,27 +1573,6 @@
       "answer": "преди 100 лета.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_36a49d90",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: 100 yaz/yıl önce.",
-      "answer": "преди 100 лета.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "преди",
-        "лета"
-      ]
-    },
-    {
-      "id": "q_ders6_d4877068",
-      "type": "fitb",
-      "sentence": "100 yaz/yıl önce.",
-      "answer": "преди 100 лета.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "преди"
     },
     {
       "id": "q_ders6_fdc382b4",
@@ -2185,7 +1803,8 @@
       "sentence": "Çeviriniz (Türkçesi: 24 saatlik gün iki bölüme ayrılır: gündüz ve gece.)",
       "answer": "Денонощието се дели на две части – ден и нощ.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 6"
+      "lesson": "Ders 6",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders6_c881f3c1",
@@ -2619,7 +2238,8 @@
       "sentence": "Çeviriniz (Türkçesi: Güneşin ufkun arkasına saklandığı batış ise “gün batımı”dır.)",
       "answer": "А залязването, когато се скрива зад хоризонта – залез.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 6"
+      "lesson": "Ders 6",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders6_d7b424a9",
@@ -2890,28 +2510,6 @@
       "lesson": "Ders 6"
     },
     {
-      "id": "q_ders6_e39f9464",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bugün pazartesiyiz.",
-      "answer": "Днес сме понеделник.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Днес",
-        "сме",
-        "понеделник"
-      ]
-    },
-    {
-      "id": "q_ders6_d61a0b17",
-      "type": "fitb",
-      "sentence": "Bugün pazartesiyiz.",
-      "answer": "Днес сме понеделник.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "Днес"
-    },
-    {
       "id": "q_ders6_aec274ec",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Кой ден бяхме вчера?)",
@@ -2967,28 +2565,6 @@
       "lesson": "Ders 6"
     },
     {
-      "id": "q_ders6_5afad613",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Dün pazardık.",
-      "answer": "Вчера бяхме неделя.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Вчера",
-        "бяхме",
-        "неделя"
-      ]
-    },
-    {
-      "id": "q_ders6_5b1828a5",
-      "type": "fitb",
-      "sentence": "Dün pazardık.",
-      "answer": "Вчера бяхме неделя.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "Вчера"
-    },
-    {
       "id": "q_ders6_0e36fcb8",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Утре какъв ден е?)",
@@ -3042,28 +2618,6 @@
       "answer": "Утре е вторник.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_56675585",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yarın salı.",
-      "answer": "Утре е вторник.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Утре",
-        "е",
-        "вторник"
-      ]
-    },
-    {
-      "id": "q_ders6_1f3efece",
-      "type": "fitb",
-      "sentence": "Yarın salı.",
-      "answer": "Утре е вторник.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "Утре"
     },
     {
       "id": "q_ders6_20e6765e",
@@ -3580,7 +3134,8 @@
       "sentence": "Çeviriniz (Bulgarcası: Да. Нали тогава е Двадесет и четвърти май – Денят на славянската писменост и култура!)",
       "answer": "Evet. Hani o zaman 24 Mayıs - Slav yazısı ve kültürü günü!",
       "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 6"
+      "lesson": "Ders 6",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders6_79ae6796",
@@ -3988,28 +3543,6 @@
       "lesson": "Ders 6"
     },
     {
-      "id": "q_ders6_d061da20",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Evet. Mecburum / gerekiyor.",
-      "answer": "Да. Налага се.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Да",
-        "Налага",
-        "се"
-      ]
-    },
-    {
-      "id": "q_ders6_0a8bd8e6",
-      "type": "fitb",
-      "sentence": "Evet. Mecburum / gerekiyor.",
-      "answer": "Да. Налага се.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "Налага"
-    },
-    {
       "id": "q_ders6_7a4c5425",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Е, привечер ще излизам по малко да се разхождам, но преди обяд и след обяд ще работя.)",
@@ -4162,28 +3695,6 @@
       "answer": "А утре вечер?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_7cec9dee",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Peki yarın akşam?",
-      "answer": "А утре вечер?",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "А",
-        "утре",
-        "вечер"
-      ]
-    },
-    {
-      "id": "q_ders6_c3883986",
-      "type": "fitb",
-      "sentence": "Peki yarın akşam?",
-      "answer": "А утре вечер?",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "утре"
     },
     {
       "id": "q_ders6_a1956cc2",
@@ -4434,7 +3945,8 @@
       "sentence": "Çeviriniz (Türkçesi: Sınav dönemi ise haziran ortası civarında.)",
       "answer": "А сесията – около средата на юни.",
       "hint": "Bulgarca karşılığını yazınız",
-      "lesson": "Ders 6"
+      "lesson": "Ders 6",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders6_ef83ec13",
@@ -4830,28 +4342,6 @@
       "lesson": "Ders 6"
     },
     {
-      "id": "q_ders6_c9395236",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Güzel. Ara.",
-      "answer": "Хубаво. Обади се.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Хубаво",
-        "Обади",
-        "се"
-      ]
-    },
-    {
-      "id": "q_ders6_ef8bd84b",
-      "type": "fitb",
-      "sentence": "Güzel. Ara.",
-      "answer": "Хубаво. Обади се.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "Обади"
-    },
-    {
       "id": "q_ders6_6409c522",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Обикновено след обяд съм си вкъщи.)",
@@ -4962,28 +4452,6 @@
       "answer": "Колко е часът?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_9b011900",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Saat kaç?",
-      "answer": "Колко е часът?",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Колко",
-        "е",
-        "часът"
-      ]
-    },
-    {
-      "id": "q_ders6_db17b2a4",
-      "type": "fitb",
-      "sentence": "Saat kaç?",
-      "answer": "Колко е часът?",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "Колко"
     },
     {
       "id": "q_ders6_79edc47d",
@@ -5613,18 +5081,6 @@
       "lesson": "Ders 6"
     },
     {
-      "id": "q_ders6_d14cf757",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: İş seyahatinde / görev yolculuğunda.",
-      "answer": "В командировка.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "В",
-        "командировка"
-      ]
-    },
-    {
       "id": "q_ders6_34b1af56",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Лили работи като счетоводителка в една търговска фирма.)",
@@ -6207,7 +5663,8 @@
       "sentence": "Çeviriniz (Bulgarcası: Понякога си взема и по някой плод – ябълка или портокал, който изяжда след кафето.)",
       "answer": "Bazen bir meyve de alır - elma veya portakal; onu kahveden sonra yer.",
       "hint": "Türkçe karşılığını yazınız",
-      "lesson": "Ders 6"
+      "lesson": "Ders 6",
+      "explanation": "Gramer kuralı/Paradigma: Kısa tire ile ayrılmış bu kelimeler genellikle tekil-çoğul veya eril-dişil-nötr kullanımlarını gösterir. Örneğin: Emir kipi (sen/siz) veya İsim (belirsiz/belirli)."
     },
     {
       "id": "q_ders6_bdb78990",
@@ -6708,18 +6165,6 @@
       "lesson": "Ders 6"
     },
     {
-      "id": "q_ders6_d8abbe36",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Oto serviste.",
-      "answer": "В автосервиза.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "В",
-        "автосервиза"
-      ]
-    },
-    {
       "id": "q_ders6_486167ee",
       "type": "translation",
       "sentence": "Çeviriniz (Bulgarcası: Добър ден, госпожо. Какъв е проблемът с колата?)",
@@ -6936,28 +6381,6 @@
       "answer": "Колелото е нагрято.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 6"
-    },
-    {
-      "id": "q_ders6_95114f0c",
-      "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Teker ısınmış.",
-      "answer": "Колелото е нагрято.",
-      "hint": "Doğru sıralamayı bul",
-      "lesson": "Ders 6",
-      "options": [
-        "Колелото",
-        "е",
-        "нагрято"
-      ]
-    },
-    {
-      "id": "q_ders6_f136a2ab",
-      "type": "fitb",
-      "sentence": "Teker ısınmış.",
-      "answer": "Колелото е нагрято.",
-      "hint": "Boşluğa uygun kelimeyi yazınız",
-      "lesson": "Ders 6",
-      "fitbTarget": "нагрято"
     },
     {
       "id": "q_ders6_39172094",
