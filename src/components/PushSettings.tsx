@@ -147,7 +147,19 @@ export default function PushSettings({ studentId }: { studentId: string }) {
     setLoading(false);
   };
 
-  if (!("serviceWorker" in navigator) || !("PushManager" in window)) {
+  const [mounted, setMounted] = useState(false);
+  const [isSupported, setIsSupported] = useState(true);
+
+  useEffect(() => {
+    if (typeof navigator !== 'undefined' && !("serviceWorker" in navigator)) {
+      setIsSupported(false);
+    }
+    setMounted(true);
+  }, []);
+  
+  if (!mounted) return <div className="card p-5 mb-6 h-32 animate-pulse bg-slate-100"></div>;
+
+  if (!isSupported) {
     return (
       <div className="card p-5 mb-6 opacity-75">
         <h3 className="font-bold text-slate-700 flex items-center gap-2 mb-2"><BellOff size={18} /> Otomatik Soru Bildirimleri</h3>
