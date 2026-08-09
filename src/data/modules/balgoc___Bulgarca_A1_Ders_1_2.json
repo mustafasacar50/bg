@@ -555,14 +555,6 @@
       ]
     },
     {
-      "id": "q_auto_81a54e95",
-      "type": "translation",
-      "sentence": "Bir kelime telaffuz sırasında bölünebildiği parçalara ayrılır; bu parçalara hece denir.",
-      "answer": "Частите, на които може да се раздели думата при изговор се наричат срички.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır. Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır. Ü bazı alıntılarda У ile yazılır.\n\n📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
-    },
-    {
       "id": "q_auto_cd324d73",
       "type": "translation",
       "sentence": "Частите, на които може да се раздели думата при изговор се наричат срички.",
