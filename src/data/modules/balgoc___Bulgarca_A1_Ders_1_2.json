@@ -765,14 +765,6 @@
       ]
     },
     {
-      "id": "q_auto_b4c9c8c9",
-      "type": "translation",
-      "sentence": "Kiril yazısını pekiştirmek için kelimeleri en az 2 kez yazmak önerilir.",
-      "answer": "За упражняване в писането на кирилица е желателно да се напишат думите поне 2 пъти.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Türkçedeki Ş sesi Bulgarcada genellikle Ш ile yazılır. Bazı alıntı kelimelerde Ç/ts benzeri ses Ц ile yazılır. Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır.\n\n📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
-    },
-    {
       "id": "q_auto_95dbfa03",
       "type": "translation",
       "sentence": "За упражняване в писането на кирилица е желателно да се напишат думите поне 2 пъти.",
