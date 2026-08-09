@@ -100,9 +100,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   // Font State
   const [useCursiveBg, setUseCursiveBg] = useState(false);
 
-  // Swipe State
-  const [touchStart, setTouchStart] = useState<number | null>(null);
-  const [touchEnd, setTouchEnd] = useState<number | null>(null);
+  // Swipe Refs
+  const touchStartRef = useRef<number | null>(null);
+  const touchEndRef = useRef<number | null>(null);
 
   // 1. Initialize Student & Score
   useEffect(() => {
@@ -567,27 +567,29 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
   const onTouchStart = (e: React.TouchEvent) => {
     if (!adminMode) return;
-    setTouchEnd(null);
-    setTouchStart(e.targetTouches[0].clientX);
+    touchEndRef.current = null;
+    touchStartRef.current = e.targetTouches[0].clientX;
   };
 
   const onTouchMove = (e: React.TouchEvent) => {
     if (!adminMode) return;
-    setTouchEnd(e.targetTouches[0].clientX);
+    touchEndRef.current = e.targetTouches[0].clientX;
   };
 
   const onTouchEnd = () => {
-    if (!adminMode || touchStart === null || touchEnd === null) return;
-    const distance = touchStart - touchEnd;
+    if (!adminMode || touchStartRef.current === null || touchEndRef.current === null) return;
+    const distance = touchStartRef.current - touchEndRef.current;
     const isLeftSwipe = distance > 50;
     const isRightSwipe = distance < -50;
     
     if (isLeftSwipe) {
       handleNext();
-    }
-    if (isRightSwipe) {
+    } else if (isRightSwipe) {
       handlePrev();
     }
+    
+    touchStartRef.current = null;
+    touchEndRef.current = null;
   };
 
   const handleNext = () => {
@@ -741,6 +743,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   return (
     <div 
       className="min-h-screen bg-slate-50 flex flex-col pb-36 sm:pb-24 overflow-x-hidden"
+      style={{ touchAction: 'pan-y' }}
       onTouchStart={onTouchStart}
       onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd}
