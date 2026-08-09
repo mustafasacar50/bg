@@ -200,8 +200,6 @@ export default function DashboardPage() {
         </Link>
       </div>
 
-      <PushSettings studentId={student.id} />
-
       <div className="hero mb-6">
         <span className="eyebrow">📚 Sınav Merkezi</span>
         <h1>Mevcut Sınavlar</h1>
