@@ -6,7 +6,7 @@
     {
       "id": "q_ders7_da8eb07c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Полицай спира жена и пита:)",
+      "sentence": "Полицай спира жена и пита:",
       "answer": "Bir polis bir kadını durdurur ve sorar:",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -14,7 +14,7 @@
     {
       "id": "q_ders7_88cbd545",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bir polis bir kadını durdurur ve sorar:)",
+      "sentence": "Bir polis bir kadını durdurur ve sorar:",
       "answer": "Полицай спира жена и пита:",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -22,7 +22,7 @@
     {
       "id": "q_ders7_ba334e5c",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bir polis bir kadını durdurur ve sorar:",
+      "sentence": "Bir polis bir kadını durdurur ve sorar:",
       "answer": "Полицай спира жена и пита:",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
@@ -46,7 +46,7 @@
     {
       "id": "q_ders7_fd1dc285",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: − Защо минахте на червено на светофара?)",
+      "sentence": "− Защо минахте на червено на светофара?",
       "answer": "Trafik lambasında neden kırmızıda geçtiniz?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -54,7 +54,7 @@
     {
       "id": "q_ders7_651dcf35",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Trafik lambasında neden kırmızıda geçtiniz?)",
+      "sentence": "Trafik lambasında neden kırmızıda geçtiniz?",
       "answer": "− Защо минахте на червено на светофара?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -62,7 +62,7 @@
     {
       "id": "q_ders7_f7f2493d",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Trafik lambasında neden kırmızıda geçtiniz?",
+      "sentence": "Trafik lambasında neden kırmızıda geçtiniz?",
       "answer": "− Защо минахте на червено на светофара?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
@@ -86,7 +86,7 @@
     {
       "id": "q_ders7_1fcde7c6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: − Ами вижте ме с това червило, тази червена чанта, червени обувки, червена кола... Как мога да мина на зелено?)",
+      "sentence": "− Ами вижте ме с това червило, тази червена чанта, червени обувки, червена кола... Как мога да мина на зелено?",
       "answer": "Eee, bana bakın: bu ruj, bu kırmızı çanta, kırmızı ayakkabılar, kırmızı araba... Nasıl yeşilde geçebilirim ki?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -103,7 +103,7 @@
     {
       "id": "q_ders7_7b69081f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: В бръснаро-фризьорски салон.)",
+      "sentence": "В бръснаро-фризьорски салон.",
       "answer": "Berber-kuaför salonunda.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -111,7 +111,7 @@
     {
       "id": "q_ders7_bbbe8c81",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Berber-kuaför salonunda.)",
+      "sentence": "Berber-kuaför salonunda.",
       "answer": "В бръснаро-фризьорски салон.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -119,7 +119,7 @@
     {
       "id": "q_ders7_446620be",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Berber-kuaför salonunda.",
+      "sentence": "Berber-kuaför salonunda.",
       "answer": "В бръснаро-фризьорски салон.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
@@ -141,7 +141,7 @@
     {
       "id": "q_ders7_c004386a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: − Вие и друг път сте посещавали нашия бръснарски салон?)",
+      "sentence": "− Вие и друг път сте посещавали нашия бръснарски салон?",
       "answer": "Siz daha önce de bizim berber salonumuzu ziyaret etmiş miydiniz?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -149,7 +149,7 @@
     {
       "id": "q_ders7_88565b4d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Siz daha önce de bizim berber salonumuzu ziyaret etmiş miydiniz?)",
+      "sentence": "Siz daha önce de bizim berber salonumuzu ziyaret etmiş miydiniz?",
       "answer": "− Вие и друг път сте посещавали нашия бръснарски салон?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -157,7 +157,7 @@
     {
       "id": "q_ders7_3e1a8ed1",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Siz daha önce de bizim berber salonumuzu ziyaret etmiş miydiniz?",
+      "sentence": "Siz daha önce de bizim berber salonumuzu ziyaret etmiş miydiniz?",
       "answer": "− Вие и друг път сте посещавали нашия бръснарски салон?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
@@ -185,7 +185,7 @@
     {
       "id": "q_ders7_ae9e1293",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: − О не, тези белези по лицето ми са от войната!)",
+      "sentence": "− О не, тези белези по лицето ми са от войната!",
       "answer": "Ah hayır, yüzümdeki bu izler savaştan kalma!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -202,7 +202,7 @@
     {
       "id": "q_ders7_7cc2e618",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: В бижутерски магазин:)",
+      "sentence": "В бижутерски магазин:",
       "answer": "Bir kuyumcu dükkânında:",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -210,7 +210,7 @@
     {
       "id": "q_ders7_2fdad891",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bir kuyumcu dükkânında:)",
+      "sentence": "Bir kuyumcu dükkânında:",
       "answer": "В бижутерски магазин:",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -218,7 +218,7 @@
     {
       "id": "q_ders7_2bd05048",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: − Колко струва тази гривна?)",
+      "sentence": "− Колко струва тази гривна?",
       "answer": "Bu bilezik ne kadar?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -226,7 +226,7 @@
     {
       "id": "q_ders7_03c86c1b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bu bilezik ne kadar?)",
+      "sentence": "Bu bilezik ne kadar?",
       "answer": "− Колко струва тази гривна?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -234,7 +234,7 @@
     {
       "id": "q_ders7_fc1747bb",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bu bilezik ne kadar?",
+      "sentence": "Bu bilezik ne kadar?",
       "answer": "− Колко струва тази гривна?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
@@ -257,7 +257,7 @@
     {
       "id": "q_ders7_b3c0a12a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: − Сто хиляди.)",
+      "sentence": "− Сто хиляди.",
       "answer": "Yüz bin.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -265,7 +265,7 @@
     {
       "id": "q_ders7_405c881c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yüz bin.)",
+      "sentence": "Yüz bin.",
       "answer": "− Сто хиляди.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -273,7 +273,7 @@
     {
       "id": "q_ders7_2007eab4",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: − Ау, кошмар. А онази огърлица?)",
+      "sentence": "− Ау, кошмар. А онази огърлица?",
       "answer": "Aman, kabus gibi. Peki şu kolye?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -281,7 +281,7 @@
     {
       "id": "q_ders7_cdee6799",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Aman, kabus gibi. Peki şu kolye?)",
+      "sentence": "Aman, kabus gibi. Peki şu kolye?",
       "answer": "− Ау, кошмар. А онази огърлица?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -289,7 +289,7 @@
     {
       "id": "q_ders7_70240c42",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Aman, kabus gibi. Peki şu kolye?",
+      "sentence": "Aman, kabus gibi. Peki şu kolye?",
       "answer": "− Ау, кошмар. А онази огърлица?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
@@ -313,7 +313,7 @@
     {
       "id": "q_ders7_6d7aa6d2",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: − Два кошмара.)",
+      "sentence": "− Два кошмара.",
       "answer": "İki kabus.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -321,7 +321,7 @@
     {
       "id": "q_ders7_45bfccdc",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: İki kabus.)",
+      "sentence": "İki kabus.",
       "answer": "− Два кошмара.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -329,7 +329,7 @@
     {
       "id": "q_ders7_e4aad732",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Играчки.)",
+      "sentence": "Играчки.",
       "answer": "Oyuncaklar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -337,7 +337,7 @@
     {
       "id": "q_ders7_48d5d8b4",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Oyuncaklar.)",
+      "sentence": "Oyuncaklar.",
       "answer": "Играчки.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -345,7 +345,7 @@
     {
       "id": "q_ders7_4c2d7f58",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: − Тате, познай кой влак закъснява най-много?)",
+      "sentence": "− Тате, познай кой влак закъснява най-много?",
       "answer": "Baba, en çok hangi tren gecikir, bil bakalım?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -353,7 +353,7 @@
     {
       "id": "q_ders7_ce432323",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Baba, en çok hangi tren gecikir, bil bakalım?)",
+      "sentence": "Baba, en çok hangi tren gecikir, bil bakalım?",
       "answer": "− Тате, познай кой влак закъснява най-много?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -361,7 +361,7 @@
     {
       "id": "q_ders7_d0dae912",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Baba, en çok hangi tren gecikir, bil bakalım?",
+      "sentence": "Baba, en çok hangi tren gecikir, bil bakalım?",
       "answer": "− Тате, познай кой влак закъснява най-много?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
@@ -386,7 +386,7 @@
     {
       "id": "q_ders7_421d01e6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: − Кой?)",
+      "sentence": "− Кой?",
       "answer": "Hangisi?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -394,7 +394,7 @@
     {
       "id": "q_ders7_0ed8782a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hangisi?)",
+      "sentence": "Hangisi?",
       "answer": "− Кой?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -402,7 +402,7 @@
     {
       "id": "q_ders7_199b267b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: − Онзи, който ми обеща, че ще ми купиш за Нова година.)",
+      "sentence": "− Онзи, който ми обеща, че ще ми купиш за Нова година.",
       "answer": "Yeni yıl için bana alacağına söz verdiğin tren.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -419,7 +419,7 @@
     {
       "id": "q_ders7_d503531b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Показателните местоимения притежават форми за род и число.)",
+      "sentence": "Показателните местоимения притежават форми за род и число.",
       "answer": "Gösterme zamirlerinin cinsiyete ve tekil-çoğul duruma göre biçimleri vardır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -427,7 +427,7 @@
     {
       "id": "q_ders7_8713ebca",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Gösterme zamirlerinin cinsiyete ve tekil-çoğul duruma göre biçimleri vardır.)",
+      "sentence": "Gösterme zamirlerinin cinsiyete ve tekil-çoğul duruma göre biçimleri vardır.",
       "answer": "Показателните местоимения притежават форми за род и число.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -435,7 +435,7 @@
     {
       "id": "q_ders7_f1928319",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Gösterme zamirlerinin cinsiyete ve tekil-çoğul duruma göre biçimleri vardır.",
+      "sentence": "Gösterme zamirlerinin cinsiyete ve tekil-çoğul duruma göre biçimleri vardır.",
       "answer": "Показателните местоимения притежават форми за род и число.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
@@ -462,7 +462,7 @@
     {
       "id": "q_ders7_7e724f63",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Посочват различни явления, техни качествени или количествени признаци.)",
+      "sentence": "Посочват различни явления, техни качествени или количествени признаци.",
       "answer": "Farklı varlıkları/olayları ve onların niteliksel veya niceliksel özelliklerini gösterirler.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -470,7 +470,7 @@
     {
       "id": "q_ders7_26bdb99a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Farklı varlıkları/olayları ve onların niteliksel veya niceliksel özelliklerini gösterirler.)",
+      "sentence": "Farklı varlıkları/olayları ve onların niteliksel veya niceliksel özelliklerini gösterirler.",
       "answer": "Посочват различни явления, техни качествени или количествени признаци.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -478,7 +478,7 @@
     {
       "id": "q_ders7_3fc7be16",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Farklı varlıkları/olayları ve onların niteliksel veya niceliksel özelliklerini gösterirler.",
+      "sentence": "Farklı varlıkları/olayları ve onların niteliksel veya niceliksel özelliklerini gösterirler.",
       "answer": "Посочват различни явления, техни качествени или количествени признаци.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
@@ -505,7 +505,7 @@
     {
       "id": "q_ders7_99968696",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: По състав предлозите се делят на прости и сложни.)",
+      "sentence": "По състав предлозите се делят на прости и сложни.",
       "answer": "Yapılarına göre edatlar basit ve birleşik olarak ayrılır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -513,7 +513,7 @@
     {
       "id": "q_ders7_d41a4e98",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yapılarına göre edatlar basit ve birleşik olarak ayrılır.)",
+      "sentence": "Yapılarına göre edatlar basit ve birleşik olarak ayrılır.",
       "answer": "По състав предлозите се делят на прости и сложни.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -521,7 +521,7 @@
     {
       "id": "q_ders7_98786a39",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yapılarına göre edatlar basit ve birleşik olarak ayrılır.",
+      "sentence": "Yapılarına göre edatlar basit ve birleşik olarak ayrılır.",
       "answer": "По състав предлозите се делят на прости и сложни.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
@@ -549,7 +549,7 @@
     {
       "id": "q_ders7_d7a7f494",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Прости: до, над, за.)",
+      "sentence": "Прости: до, над, за.",
       "answer": "Basit edatlar: до, над, за.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -557,7 +557,7 @@
     {
       "id": "q_ders7_0b109c9e",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Basit edatlar: до, над, за.)",
+      "sentence": "Basit edatlar: до, над, за.",
       "answer": "Прости: до, над, за.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -565,7 +565,7 @@
     {
       "id": "q_ders7_17c9401f",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Basit edatlar: до, над, за.",
+      "sentence": "Basit edatlar: до, над, за.",
       "answer": "Прости: до, над, за.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
@@ -588,7 +588,7 @@
     {
       "id": "q_ders7_6538ecc4",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Сложни: покрай, извън, свръх.)",
+      "sentence": "Сложни: покрай, извън, свръх.",
       "answer": "Birleşik edatlar: покрай, извън, свръх.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -596,7 +596,7 @@
     {
       "id": "q_ders7_392f3cd7",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Birleşik edatlar: покрай, извън, свръх.)",
+      "sentence": "Birleşik edatlar: покрай, извън, свръх.",
       "answer": "Сложни: покрай, извън, свръх.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -604,7 +604,7 @@
     {
       "id": "q_ders7_297b7c47",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Birleşik edatlar: покрай, извън, свръх.",
+      "sentence": "Birleşik edatlar: покрай, извън, свръх.",
       "answer": "Сложни: покрай, извън, свръх.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",
@@ -627,7 +627,7 @@
     {
       "id": "q_ders7_d7cbe6d8",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Интереси, хоби. Културни развлечения: кино, театър, концерт. Спорт.)",
+      "sentence": "Интереси, хоби. Културни развлечения: кино, театър, концерт. Спорт.",
       "answer": "İlgi alanları, hobi. Kültürel eğlenceler: sinema, tiyatro, konser. Spor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 7"
@@ -635,7 +635,7 @@
     {
       "id": "q_ders7_aeb962d0",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: İlgi alanları, hobi. Kültürel eğlenceler: sinema, tiyatro, konser. Spor.)",
+      "sentence": "İlgi alanları, hobi. Kültürel eğlenceler: sinema, tiyatro, konser. Spor.",
       "answer": "Интереси, хоби. Културни развлечения: кино, театър, концерт. Спорт.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 7"
@@ -643,7 +643,7 @@
     {
       "id": "q_ders7_660f5022",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: İlgi alanları, hobi. Kültürel eğlenceler: sinema, tiyatro, konser. Spor.",
+      "sentence": "İlgi alanları, hobi. Kültürel eğlenceler: sinema, tiyatro, konser. Spor.",
       "answer": "Интереси, хоби. Културни развлечения: кино, театър, концерт. Спорт.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 7",

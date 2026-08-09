@@ -6,7 +6,7 @@
     {
       "id": "q_ders11_a1ab1da1",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Освен на месеци, годините се делят и на сезони.)",
+      "sentence": "Освен на месеци, годините се делят и на сезони.",
       "answer": "Yıllar, aylara ayrılmanın yanı sıra mevsimlere de ayrılır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -14,7 +14,7 @@
     {
       "id": "q_ders11_3c441881",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yıllar, aylara ayrılmanın yanı sıra mevsimlere de ayrılır.)",
+      "sentence": "Yıllar, aylara ayrılmanın yanı sıra mevsimlere de ayrılır.",
       "answer": "Освен на месеци, годините се делят и на сезони.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -22,7 +22,7 @@
     {
       "id": "q_ders11_93902489",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yıllar, aylara ayrılmanın yanı sıra mevsimlere de ayrılır.",
+      "sentence": "Yıllar, aylara ayrılmanın yanı sıra mevsimlere de ayrılır.",
       "answer": "Освен на месеци, годините се делят и на сезони.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -49,7 +49,7 @@
     {
       "id": "q_ders11_fd6a455e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: В държавите от нашия географски пояс има четири сезона в една година – пролет, лято, есен и зима.)",
+      "sentence": "В държавите от нашия географски пояс има четири сезона в една година – пролет, лято, есен и зима.",
       "answer": "Bizim coğrafi kuşağımızdaki ülkelerde bir yılda dört mevsim vardır: ilkbahar, yaz, sonbahar ve kış.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -66,7 +66,7 @@
     {
       "id": "q_ders11_543dcd63",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Според календара всеки от тях обхваща по три месеца: през декември, януари и февруари е зима, през март, април и май е пролет, през юни, юли и август е лято, а през септември, октомври и ноември е есен.)",
+      "sentence": "Според календара всеки от тях обхваща по три месеца: през декември, януари и февруари е зима, през март, април и май е пролет, през юни, юли и август е лято, а през септември, октомври и ноември е есен.",
       "answer": "Takvime göre bunların her biri üç ayı kapsar: Aralık, ocak ve şubat aylarında kış; mart, nisan ve mayısta ilkbahar; haziran, temmuz ve ağustosta yaz; eylül, ekim ve kasımda ise sonbahardır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -83,7 +83,7 @@
     {
       "id": "q_ders11_475bb22d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Според астрономите обаче зимата започва на 22. ХII. и завършва на 21.III.)",
+      "sentence": "Според астрономите обаче зимата започва на 22. ХII. и завършва на 21.III.",
       "answer": "Ancak astronomlara göre kış 22 Aralık’ta başlar ve 21 Mart’ta sona erer.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -100,7 +100,7 @@
     {
       "id": "q_ders11_2a9438ef",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Първият ден на пролетта е 22 март, а последният – 21 юни.)",
+      "sentence": "Първият ден на пролетта е 22 март, а последният – 21 юни.",
       "answer": "İlkbaharın ilk günü 22 Mart, son günü ise 21 Haziran’dır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -117,7 +117,7 @@
     {
       "id": "q_ders11_75f0a3b4",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: За начало на лятото се приема 22 юни, а за край – 21 септември.)",
+      "sentence": "За начало на лятото се приема 22 юни, а за край – 21 септември.",
       "answer": "Yazın başlangıcı 22 Haziran, sonu ise 21 Eylül kabul edilir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -134,7 +134,7 @@
     {
       "id": "q_ders11_7fa12c13",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Есента продължава от 22 септември до 21 декември.)",
+      "sentence": "Есента продължава от 22 септември до 21 декември.",
       "answer": "Sonbahar 22 Eylül’den 21 Aralık’a kadar sürer.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -142,7 +142,7 @@
     {
       "id": "q_ders11_dbd2d843",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Sonbahar 22 Eylül’den 21 Aralık’a kadar sürer.)",
+      "sentence": "Sonbahar 22 Eylül’den 21 Aralık’a kadar sürer.",
       "answer": "Есента продължава от 22 септември до 21 декември.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -150,7 +150,7 @@
     {
       "id": "q_ders11_df74189f",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sonbahar 22 Eylül’den 21 Aralık’a kadar sürer.",
+      "sentence": "Sonbahar 22 Eylül’den 21 Aralık’a kadar sürer.",
       "answer": "Есента продължава от 22 септември до 21 декември.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -175,7 +175,7 @@
     {
       "id": "q_ders11_7b39db08",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: През зимата е много студено.)",
+      "sentence": "През зимата е много студено.",
       "answer": "Kışın hava çok soğuktur.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -183,7 +183,7 @@
     {
       "id": "q_ders11_31bf3e0f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Kışın hava çok soğuktur.)",
+      "sentence": "Kışın hava çok soğuktur.",
       "answer": "През зимата е много студено.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -191,7 +191,7 @@
     {
       "id": "q_ders11_a96941ed",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Kışın hava çok soğuktur.",
+      "sentence": "Kışın hava çok soğuktur.",
       "answer": "През зимата е много студено.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -215,7 +215,7 @@
     {
       "id": "q_ders11_67aee00a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Слънцето грее слабо и рядко.)",
+      "sentence": "Слънцето грее слабо и рядко.",
       "answer": "Güneş zayıf parlar ve seyrek görünür.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -223,7 +223,7 @@
     {
       "id": "q_ders11_adca147d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Güneş zayıf parlar ve seyrek görünür.)",
+      "sentence": "Güneş zayıf parlar ve seyrek görünür.",
       "answer": "Слънцето грее слабо и рядко.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -231,7 +231,7 @@
     {
       "id": "q_ders11_010383d6",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Güneş zayıf parlar ve seyrek görünür.",
+      "sentence": "Güneş zayıf parlar ve seyrek görünür.",
       "answer": "Слънцето грее слабо и рядко.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -255,7 +255,7 @@
     {
       "id": "q_ders11_cf1c8a70",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вали сняг.)",
+      "sentence": "Вали сняг.",
       "answer": "Kar yağar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -263,7 +263,7 @@
     {
       "id": "q_ders11_b2a48454",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Kar yağar.)",
+      "sentence": "Kar yağar.",
       "answer": "Вали сняг.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -271,7 +271,7 @@
     {
       "id": "q_ders11_1cdc1ce5",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Той покрива земята и покривите на сградите като бяла пелена.)",
+      "sentence": "Той покрива земята и покривите на сградите като бяла пелена.",
       "answer": "Kar, yeryüzünü ve binaların çatılarını beyaz bir örtü gibi kaplar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -279,7 +279,7 @@
     {
       "id": "q_ders11_c04374b2",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Kar, yeryüzünü ve binaların çatılarını beyaz bir örtü gibi kaplar.)",
+      "sentence": "Kar, yeryüzünü ve binaların çatılarını beyaz bir örtü gibi kaplar.",
       "answer": "Той покрива земята и покривите на сградите като бяла пелена.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -287,7 +287,7 @@
     {
       "id": "q_ders11_45403b0c",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Kar, yeryüzünü ve binaların çatılarını beyaz bir örtü gibi kaplar.",
+      "sentence": "Kar, yeryüzünü ve binaların çatılarını beyaz bir örtü gibi kaplar.",
       "answer": "Той покрива земята и покривите на сградите като бяла пелена.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -316,7 +316,7 @@
     {
       "id": "q_ders11_75a4003c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Клоните на дърветата натежават от сняг или се сковават от скреж.)",
+      "sentence": "Клоните на дърветата натежават от сняг или се сковават от скреж.",
       "answer": "Ağaç dalları karın ağırlığıyla ağırlaşır ya da kırağıdan donar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -333,7 +333,7 @@
     {
       "id": "q_ders11_629201c7",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Водата замръзва и се покрива с лед.)",
+      "sentence": "Водата замръзва и се покрива с лед.",
       "answer": "Su donar ve buzla kaplanır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -341,7 +341,7 @@
     {
       "id": "q_ders11_f0fe9b7f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Su donar ve buzla kaplanır.)",
+      "sentence": "Su donar ve buzla kaplanır.",
       "answer": "Водата замръзва и се покрива с лед.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -349,7 +349,7 @@
     {
       "id": "q_ders11_f43067bf",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Su donar ve buzla kaplanır.",
+      "sentence": "Su donar ve buzla kaplanır.",
       "answer": "Водата замръзва и се покрива с лед.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -375,7 +375,7 @@
     {
       "id": "q_ders11_9a5eadb1",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Небето е покрито с облаци.)",
+      "sentence": "Небето е покрито с облаци.",
       "answer": "Gökyüzü bulutlarla kaplıdır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -383,7 +383,7 @@
     {
       "id": "q_ders11_94f1461f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Gökyüzü bulutlarla kaplıdır.)",
+      "sentence": "Gökyüzü bulutlarla kaplıdır.",
       "answer": "Небето е покрито с облаци.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -391,7 +391,7 @@
     {
       "id": "q_ders11_e84b0f00",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Gökyüzü bulutlarla kaplıdır.",
+      "sentence": "Gökyüzü bulutlarla kaplıdır.",
       "answer": "Небето е покрито с облаци.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -415,7 +415,7 @@
     {
       "id": "q_ders11_9ce97a5e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Духат студени северни ветрове.)",
+      "sentence": "Духат студени северни ветрове.",
       "answer": "Soğuk kuzey rüzgârları eser.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -423,7 +423,7 @@
     {
       "id": "q_ders11_eaa976a6",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Soğuk kuzey rüzgârları eser.)",
+      "sentence": "Soğuk kuzey rüzgârları eser.",
       "answer": "Духат студени северни ветрове.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -431,7 +431,7 @@
     {
       "id": "q_ders11_ad71020e",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Soğuk kuzey rüzgârları eser.",
+      "sentence": "Soğuk kuzey rüzgârları eser.",
       "answer": "Духат студени северни ветрове.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -454,7 +454,7 @@
     {
       "id": "q_ders11_eb8bd994",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Често пада мъгла, и тогава времето е мрачно и мразовито.)",
+      "sentence": "Често пада мъгла, и тогава времето е мрачно и мразовито.",
       "answer": "Sık sık sis çöker; o zaman hava kasvetli ve dondurucu olur.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -462,7 +462,7 @@
     {
       "id": "q_ders11_ef48a67a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Sık sık sis çöker; o zaman hava kasvetli ve dondurucu olur.)",
+      "sentence": "Sık sık sis çöker; o zaman hava kasvetli ve dondurucu olur.",
       "answer": "Често пада мъгла, и тогава времето е мрачно и мразовито.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -470,7 +470,7 @@
     {
       "id": "q_ders11_217885a3",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sık sık sis çöker; o zaman hava kasvetli ve dondurucu olur.",
+      "sentence": "Sık sık sis çöker; o zaman hava kasvetli ve dondurucu olur.",
       "answer": "Често пада мъгла, и тогава времето е мрачно и мразовито.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -498,7 +498,7 @@
     {
       "id": "q_ders11_f6f64b6e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Но и когато небето е ясно, времето също е студено.)",
+      "sentence": "Но и когато небето е ясно, времето също е студено.",
       "answer": "Fakat gökyüzü açık olduğunda da hava yine soğuktur.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -506,7 +506,7 @@
     {
       "id": "q_ders11_b4114d3d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Fakat gökyüzü açık olduğunda da hava yine soğuktur.)",
+      "sentence": "Fakat gökyüzü açık olduğunda da hava yine soğuktur.",
       "answer": "Но и когато небето е ясно, времето също е студено.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -514,7 +514,7 @@
     {
       "id": "q_ders11_b5c9df3a",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Fakat gökyüzü açık olduğunda da hava yine soğuktur.",
+      "sentence": "Fakat gökyüzü açık olduğunda da hava yine soğuktur.",
       "answer": "Но и когато небето е ясно, времето също е студено.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -542,7 +542,7 @@
     {
       "id": "q_ders11_971fffed",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Въпреки това през зимата природата е много красива, особено в планините.)",
+      "sentence": "Въпреки това през зимата природата е много красива, особено в планините.",
       "answer": "Buna rağmen kışın doğa, özellikle dağlarda, çok güzeldir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -559,7 +559,7 @@
     {
       "id": "q_ders11_23e2483d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: През пролетта слънцето грее и времето се затопля.)",
+      "sentence": "През пролетта слънцето грее и времето се затопля.",
       "answer": "İlkbaharda güneş parlar ve hava ısınır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -567,7 +567,7 @@
     {
       "id": "q_ders11_e678dbf7",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: İlkbaharda güneş parlar ve hava ısınır.)",
+      "sentence": "İlkbaharda güneş parlar ve hava ısınır.",
       "answer": "През пролетта слънцето грее и времето се затопля.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -575,7 +575,7 @@
     {
       "id": "q_ders11_d10f9dd7",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: İlkbaharda güneş parlar ve hava ısınır.",
+      "sentence": "İlkbaharda güneş parlar ve hava ısınır.",
       "answer": "През пролетта слънцето грее и времето се затопля.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -602,7 +602,7 @@
     {
       "id": "q_ders11_ba52b87c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Духат топли южни ветрове.)",
+      "sentence": "Духат топли южни ветрове.",
       "answer": "Ilık güney rüzgârları eser.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -610,7 +610,7 @@
     {
       "id": "q_ders11_41f09b94",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ilık güney rüzgârları eser.)",
+      "sentence": "Ilık güney rüzgârları eser.",
       "answer": "Духат топли южни ветрове.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -618,7 +618,7 @@
     {
       "id": "q_ders11_f5d8d995",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ilık güney rüzgârları eser.",
+      "sentence": "Ilık güney rüzgârları eser.",
       "answer": "Духат топли южни ветрове.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -641,7 +641,7 @@
     {
       "id": "q_ders11_65c2d61d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Народът ги назовава с едно име – южнякът.)",
+      "sentence": "Народът ги назовава с едно име – южнякът.",
       "answer": "Halk bunlara tek bir ad verir: “güney rüzgârı / yujnyak”.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -649,7 +649,7 @@
     {
       "id": "q_ders11_596a81fd",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Halk bunlara tek bir ad verir: “güney rüzgârı / yujnyak”.)",
+      "sentence": "Halk bunlara tek bir ad verir: “güney rüzgârı / yujnyak”.",
       "answer": "Народът ги назовава с едно име – южнякът.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11",
@@ -658,7 +658,7 @@
     {
       "id": "q_ders11_15c602df",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Halk bunlara tek bir ad verir: “güney rüzgârı / yujnyak”.",
+      "sentence": "Halk bunlara tek bir ad verir: “güney rüzgârı / yujnyak”.",
       "answer": "Народът ги назовава с едно име – южнякът.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -684,7 +684,7 @@
     {
       "id": "q_ders11_4fd69d90",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Снегът започва да се топи.)",
+      "sentence": "Снегът започва да се топи.",
       "answer": "Kar erimeye başlar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -692,7 +692,7 @@
     {
       "id": "q_ders11_10edbbb5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Kar erimeye başlar.)",
+      "sentence": "Kar erimeye başlar.",
       "answer": "Снегът започва да се топи.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -700,7 +700,7 @@
     {
       "id": "q_ders11_ce0a3a55",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Kar erimeye başlar.",
+      "sentence": "Kar erimeye başlar.",
       "answer": "Снегът започва да се топи.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -724,7 +724,7 @@
     {
       "id": "q_ders11_50eddc70",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: След това се появяват първите пролетни цветя.)",
+      "sentence": "След това се появяват първите пролетни цветя.",
       "answer": "Bundan sonra ilk ilkbahar çiçekleri ortaya çıkar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -732,7 +732,7 @@
     {
       "id": "q_ders11_9db09492",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bundan sonra ilk ilkbahar çiçekleri ortaya çıkar.)",
+      "sentence": "Bundan sonra ilk ilkbahar çiçekleri ortaya çıkar.",
       "answer": "След това се появяват първите пролетни цветя.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -740,7 +740,7 @@
     {
       "id": "q_ders11_eba67fd1",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bundan sonra ilk ilkbahar çiçekleri ortaya çıkar.",
+      "sentence": "Bundan sonra ilk ilkbahar çiçekleri ortaya çıkar.",
       "answer": "След това се появяват първите пролетни цветя.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -766,7 +766,7 @@
     {
       "id": "q_ders11_d442238e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Дърветата напъпват, разлистват се и цъфтят.)",
+      "sentence": "Дърветата напъпват, разлистват се и цъфтят.",
       "answer": "Ağaçlar tomurcuklanır, yapraklanır ve çiçek açar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -774,7 +774,7 @@
     {
       "id": "q_ders11_0c6c602d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ağaçlar tomurcuklanır, yapraklanır ve çiçek açar.)",
+      "sentence": "Ağaçlar tomurcuklanır, yapraklanır ve çiçek açar.",
       "answer": "Дърветата напъпват, разлистват се и цъфтят.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -782,7 +782,7 @@
     {
       "id": "q_ders11_00c217c1",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ağaçlar tomurcuklanır, yapraklanır ve çiçek açar.",
+      "sentence": "Ağaçlar tomurcuklanır, yapraklanır ve çiçek açar.",
       "answer": "Дърветата напъпват, разлистват се и цъфтят.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -807,7 +807,7 @@
     {
       "id": "q_ders11_f35904ce",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: От юг пристигат прелетните птици.)",
+      "sentence": "От юг пристигат прелетните птици.",
       "answer": "Göçmen kuşlar güneyden gelir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -815,7 +815,7 @@
     {
       "id": "q_ders11_292edcb7",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Göçmen kuşlar güneyden gelir.)",
+      "sentence": "Göçmen kuşlar güneyden gelir.",
       "answer": "От юг пристигат прелетните птици.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -823,7 +823,7 @@
     {
       "id": "q_ders11_adb0a624",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Göçmen kuşlar güneyden gelir.",
+      "sentence": "Göçmen kuşlar güneyden gelir.",
       "answer": "От юг пристигат прелетните птици.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -847,7 +847,7 @@
     {
       "id": "q_ders11_80504ec5",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: В началото на пролетта често вали дъжд, а понякога и градушка.)",
+      "sentence": "В началото на пролетта често вали дъжд, а понякога и градушка.",
       "answer": "İlkbaharın başında sık sık yağmur, bazen de dolu yağar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -864,7 +864,7 @@
     {
       "id": "q_ders11_dc482d31",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Гърмят гръмотевици и сред тъмните облаци на небето проблясват светкавици.)",
+      "sentence": "Гърмят гръмотевици и сред тъмните облаци на небето проблясват светкавици.",
       "answer": "Gök gürler ve gökyüzündeki koyu bulutların arasında şimşekler çakar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -872,7 +872,7 @@
     {
       "id": "q_ders11_fc8ffca8",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Gök gürler ve gökyüzündeki koyu bulutların arasında şimşekler çakar.)",
+      "sentence": "Gök gürler ve gökyüzündeki koyu bulutların arasında şimşekler çakar.",
       "answer": "Гърмят гръмотевици и сред тъмните облаци на небето проблясват светкавици.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -880,7 +880,7 @@
     {
       "id": "q_ders11_99a0ade3",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Gök gürler ve gökyüzündeki koyu bulutların arasında şimşekler çakar.",
+      "sentence": "Gök gürler ve gökyüzündeki koyu bulutların arasında şimşekler çakar.",
       "answer": "Гърмят гръмотевици и сред тъмните облаци на небето проблясват светкавици.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -909,7 +909,7 @@
     {
       "id": "q_ders11_8fadd875",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Но по-късно всичко потъва в зеленина, изпъстрена с багрите на пролетните цветя.)",
+      "sentence": "Но по-късно всичко потъва в зеленина, изпъстрена с багрите на пролетните цветя.",
       "answer": "Fakat daha sonra her yer, ilkbahar çiçeklerinin renkleriyle bezenmiş yeşilliğe bürünür.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -926,7 +926,7 @@
     {
       "id": "q_ders11_c84b52ac",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Славеят, синигерът и много други птици запяват своите любовни песни, а щъркелът и лястовичката си вият гнездата.)",
+      "sentence": "Славеят, синигерът и много други птици запяват своите любовни песни, а щъркелът и лястовичката си вият гнездата.",
       "answer": "Bülbül, baştankara ve birçok başka kuş aşk şarkılarını söylemeye başlar; leylek ile kırlangıç ise yuvalarını kurar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -943,7 +943,7 @@
     {
       "id": "q_ders11_09ecc54f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: През лятото слънцето грее силно.)",
+      "sentence": "През лятото слънцето грее силно.",
       "answer": "Yazın güneş güçlü biçimde parlar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -951,7 +951,7 @@
     {
       "id": "q_ders11_50dd1936",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yazın güneş güçlü biçimde parlar.)",
+      "sentence": "Yazın güneş güçlü biçimde parlar.",
       "answer": "През лятото слънцето грее силно.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -959,7 +959,7 @@
     {
       "id": "q_ders11_3558fb40",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yazın güneş güçlü biçimde parlar.",
+      "sentence": "Yazın güneş güçlü biçimde parlar.",
       "answer": "През лятото слънцето грее силно.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -983,7 +983,7 @@
     {
       "id": "q_ders11_0e0555d6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Времето става сухо и горещо.)",
+      "sentence": "Времето става сухо и горещо.",
       "answer": "Hava kuru ve sıcak olur.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -991,7 +991,7 @@
     {
       "id": "q_ders11_4baaa0b6",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hava kuru ve sıcak olur.)",
+      "sentence": "Hava kuru ve sıcak olur.",
       "answer": "Времето става сухо и горещо.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -999,7 +999,7 @@
     {
       "id": "q_ders11_448ed53e",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hava kuru ve sıcak olur.",
+      "sentence": "Hava kuru ve sıcak olur.",
       "answer": "Времето става сухо и горещо.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1023,7 +1023,7 @@
     {
       "id": "q_ders11_6b3ab368",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Небето е ясно и безоблачно.)",
+      "sentence": "Небето е ясно и безоблачно.",
       "answer": "Gökyüzü açık ve bulutsuzdur.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1031,7 +1031,7 @@
     {
       "id": "q_ders11_cb867c25",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Gökyüzü açık ve bulutsuzdur.)",
+      "sentence": "Gökyüzü açık ve bulutsuzdur.",
       "answer": "Небето е ясно и безоблачно.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1039,7 +1039,7 @@
     {
       "id": "q_ders11_20fb4e28",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Gökyüzü açık ve bulutsuzdur.",
+      "sentence": "Gökyüzü açık ve bulutsuzdur.",
       "answer": "Небето е ясно и безоблачно.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1063,7 +1063,7 @@
     {
       "id": "q_ders11_8f85d4dc",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Понякога вали топъл летен дъжд.)",
+      "sentence": "Понякога вали топъл летен дъжд.",
       "answer": "Bazen ılık bir yaz yağmuru yağar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1071,7 +1071,7 @@
     {
       "id": "q_ders11_ed65e8e2",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bazen ılık bir yaz yağmuru yağar.)",
+      "sentence": "Bazen ılık bir yaz yağmuru yağar.",
       "answer": "Понякога вали топъл летен дъжд.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1079,7 +1079,7 @@
     {
       "id": "q_ders11_956c3347",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bazen ılık bir yaz yağmuru yağar.",
+      "sentence": "Bazen ılık bir yaz yağmuru yağar.",
       "answer": "Понякога вали топъл летен дъжд.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1103,7 +1103,7 @@
     {
       "id": "q_ders11_e043373e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Той е краткотраен.)",
+      "sentence": "Той е краткотраен.",
       "answer": "Bu yağmur kısa sürer.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1111,7 +1111,7 @@
     {
       "id": "q_ders11_c3fd66a0",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bu yağmur kısa sürer.)",
+      "sentence": "Bu yağmur kısa sürer.",
       "answer": "Той е краткотраен.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1119,7 +1119,7 @@
     {
       "id": "q_ders11_dbf86200",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Летният дъжд е много полезен за растенията.)",
+      "sentence": "Летният дъжд е много полезен за растенията.",
       "answer": "Yaz yağmuru bitkiler için çok yararlıdır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1127,7 +1127,7 @@
     {
       "id": "q_ders11_f5f3ea65",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yaz yağmuru bitkiler için çok yararlıdır.)",
+      "sentence": "Yaz yağmuru bitkiler için çok yararlıdır.",
       "answer": "Летният дъжд е много полезен за растенията.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1135,7 +1135,7 @@
     {
       "id": "q_ders11_0f5fcb37",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yaz yağmuru bitkiler için çok yararlıdır.",
+      "sentence": "Yaz yağmuru bitkiler için çok yararlıdır.",
       "answer": "Летният дъжд е много полезен за растенията.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1161,7 +1161,7 @@
     {
       "id": "q_ders11_aad30e97",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: През лятото има много цветя, плодове и зеленчуци.)",
+      "sentence": "През лятото има много цветя, плодове и зеленчуци.",
       "answer": "Yazın çok sayıda çiçek, meyve ve sebze vardır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1169,7 +1169,7 @@
     {
       "id": "q_ders11_490a34f4",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yazın çok sayıda çiçek, meyve ve sebze vardır.)",
+      "sentence": "Yazın çok sayıda çiçek, meyve ve sebze vardır.",
       "answer": "През лятото има много цветя, плодове и зеленчуци.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1177,7 +1177,7 @@
     {
       "id": "q_ders11_a1a10fcb",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yazın çok sayıda çiçek, meyve ve sebze vardır.",
+      "sentence": "Yazın çok sayıda çiçek, meyve ve sebze vardır.",
       "answer": "През лятото има много цветя, плодове и зеленчуци.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1204,7 +1204,7 @@
     {
       "id": "q_ders11_8b49a4fc",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: През летните нощи небето е обсипано със звезди.)",
+      "sentence": "През летните нощи небето е обсипано със звезди.",
       "answer": "Yaz gecelerinde gökyüzü yıldızlarla bezenmiştir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1212,7 +1212,7 @@
     {
       "id": "q_ders11_5b1c23cf",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yaz gecelerinde gökyüzü yıldızlarla bezenmiştir.)",
+      "sentence": "Yaz gecelerinde gökyüzü yıldızlarla bezenmiştir.",
       "answer": "През летните нощи небето е обсипано със звезди.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1220,7 +1220,7 @@
     {
       "id": "q_ders11_3fa5c910",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yaz gecelerinde gökyüzü yıldızlarla bezenmiştir.",
+      "sentence": "Yaz gecelerinde gökyüzü yıldızlarla bezenmiştir.",
       "answer": "През летните нощи небето е обсипано със звезди.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1247,7 +1247,7 @@
     {
       "id": "q_ders11_be37bf2b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: След лятото идва есента.)",
+      "sentence": "След лятото идва есента.",
       "answer": "Yazdan sonra sonbahar gelir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1255,7 +1255,7 @@
     {
       "id": "q_ders11_9d47827f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yazdan sonra sonbahar gelir.)",
+      "sentence": "Yazdan sonra sonbahar gelir.",
       "answer": "След лятото идва есента.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1263,7 +1263,7 @@
     {
       "id": "q_ders11_a356501c",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yazdan sonra sonbahar gelir.",
+      "sentence": "Yazdan sonra sonbahar gelir.",
       "answer": "След лятото идва есента.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1286,7 +1286,7 @@
     {
       "id": "q_ders11_c2b10011",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: През този сезон природата е обагрена с всички цветове на дъгата.)",
+      "sentence": "През този сезон природата е обагрена с всички цветове на дъгата.",
       "answer": "Bu mevsimde doğa gökkuşağının bütün renklerine boyanır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1303,7 +1303,7 @@
     {
       "id": "q_ders11_d10babfc",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: В началото на есента времето е хубаво като през лятото.)",
+      "sentence": "В началото на есента времето е хубаво като през лятото.",
       "answer": "Sonbaharın başında hava yazdaki gibi güzeldir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1311,7 +1311,7 @@
     {
       "id": "q_ders11_a7677e60",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Sonbaharın başında hava yazdaki gibi güzeldir.)",
+      "sentence": "Sonbaharın başında hava yazdaki gibi güzeldir.",
       "answer": "В началото на есента времето е хубаво като през лятото.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1319,7 +1319,7 @@
     {
       "id": "q_ders11_4b8ef2b4",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sonbaharın başında hava yazdaki gibi güzeldir.",
+      "sentence": "Sonbaharın başında hava yazdaki gibi güzeldir.",
       "answer": "В началото на есента времето е хубаво като през лятото.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1348,7 +1348,7 @@
     {
       "id": "q_ders11_989348f4",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Има много цветя и зреят различни плодове и зеленчуци.)",
+      "sentence": "Има много цветя и зреят различни плодове и зеленчуци.",
       "answer": "Çok sayıda çiçek vardır; çeşitli meyve ve sebzeler olgunlaşır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1356,7 +1356,7 @@
     {
       "id": "q_ders11_e28efef4",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Çok sayıda çiçek vardır; çeşitli meyve ve sebzeler olgunlaşır.)",
+      "sentence": "Çok sayıda çiçek vardır; çeşitli meyve ve sebzeler olgunlaşır.",
       "answer": "Има много цветя и зреят различни плодове и зеленчуци.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1364,7 +1364,7 @@
     {
       "id": "q_ders11_df974275",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Çok sayıda çiçek vardır; çeşitli meyve ve sebzeler olgunlaşır.",
+      "sentence": "Çok sayıda çiçek vardır; çeşitli meyve ve sebzeler olgunlaşır.",
       "answer": "Има много цветя и зреят различни плодове и зеленчуци.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1391,7 +1391,7 @@
     {
       "id": "q_ders11_c74b4010",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Най-красиви през есента са залезите.)",
+      "sentence": "Най-красиви през есента са залезите.",
       "answer": "Sonbaharda en güzel olan şey gün batımlarıdır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1399,7 +1399,7 @@
     {
       "id": "q_ders11_707011c5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Sonbaharda en güzel olan şey gün batımlarıdır.)",
+      "sentence": "Sonbaharda en güzel olan şey gün batımlarıdır.",
       "answer": "Най-красиви през есента са залезите.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1407,7 +1407,7 @@
     {
       "id": "q_ders11_8cf413fc",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sonbaharda en güzel olan şey gün batımlarıdır.",
+      "sentence": "Sonbaharda en güzel olan şey gün batımlarıdır.",
       "answer": "Най-красиви през есента са залезите.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1431,7 +1431,7 @@
     {
       "id": "q_ders11_1cf6ed52",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: После постепенно времето захладнява и се разваля.)",
+      "sentence": "После постепенно времето захладнява и се разваля.",
       "answer": "Daha sonra hava yavaş yavaş serinler ve bozulur.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1439,7 +1439,7 @@
     {
       "id": "q_ders11_d6f0a48b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Daha sonra hava yavaş yavaş serinler ve bozulur.)",
+      "sentence": "Daha sonra hava yavaş yavaş serinler ve bozulur.",
       "answer": "После постепенно времето захладнява и се разваля.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1447,7 +1447,7 @@
     {
       "id": "q_ders11_b94c569b",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Daha sonra hava yavaş yavaş serinler ve bozulur.",
+      "sentence": "Daha sonra hava yavaş yavaş serinler ve bozulur.",
       "answer": "После постепенно времето захладнява и се разваля.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1473,7 +1473,7 @@
     {
       "id": "q_ders11_068c9dbe",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Листата на дърветата стават жълти/пожълтяват, изсъхват и падат на земята.)",
+      "sentence": "Листата на дърветата стават жълти/пожълтяват, изсъхват и падат на земята.",
       "answer": "Ağaçların yaprakları sararır, kurur ve yere düşer.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1481,7 +1481,7 @@
     {
       "id": "q_ders11_fa8b54a3",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ağaçların yaprakları sararır, kurur ve yere düşer.)",
+      "sentence": "Ağaçların yaprakları sararır, kurur ve yere düşer.",
       "answer": "Листата на дърветата стават жълти/пожълтяват, изсъхват и падат на земята.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1489,7 +1489,7 @@
     {
       "id": "q_ders11_bad28452",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ağaçların yaprakları sararır, kurur ve yere düşer.",
+      "sentence": "Ağaçların yaprakları sararır, kurur ve yere düşer.",
       "answer": "Листата на дърветата стават жълти/пожълтяват, изсъхват и падат на земята.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1517,7 +1517,7 @@
     {
       "id": "q_ders11_8613eb60",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Сутрин пада слана.)",
+      "sentence": "Сутрин пада слана.",
       "answer": "Sabahları kırağı düşer.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1525,7 +1525,7 @@
     {
       "id": "q_ders11_0bd115a1",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Sabahları kırağı düşer.)",
+      "sentence": "Sabahları kırağı düşer.",
       "answer": "Сутрин пада слана.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1533,7 +1533,7 @@
     {
       "id": "q_ders11_af016931",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Започват да духат по-студени ветрове и често валят проливни дъждове.)",
+      "sentence": "Започват да духат по-студени ветрове и често валят проливни дъждове.",
       "answer": "Daha soğuk rüzgârlar esmeye başlar ve sık sık sağanak yağmurlar yağar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1541,7 +1541,7 @@
     {
       "id": "q_ders11_75195dec",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Daha soğuk rüzgârlar esmeye başlar ve sık sık sağanak yağmurlar yağar.)",
+      "sentence": "Daha soğuk rüzgârlar esmeye başlar ve sık sık sağanak yağmurlar yağar.",
       "answer": "Започват да духат по-студени ветрове и често валят проливни дъждове.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1549,7 +1549,7 @@
     {
       "id": "q_ders11_4ec7ffc2",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Daha soğuk rüzgârlar esmeye başlar ve sık sık sağanak yağmurlar yağar.",
+      "sentence": "Daha soğuk rüzgârlar esmeye başlar ve sık sık sağanak yağmurlar yağar.",
       "answer": "Започват да духат по-студени ветрове и често валят проливни дъждове.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1578,7 +1578,7 @@
     {
       "id": "q_ders11_39e8ff01",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Небето се покрива с тъмни облаци.)",
+      "sentence": "Небето се покрива с тъмни облаци.",
       "answer": "Gökyüzü koyu bulutlarla kaplanır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1586,7 +1586,7 @@
     {
       "id": "q_ders11_be27d95a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Gökyüzü koyu bulutlarla kaplanır.)",
+      "sentence": "Gökyüzü koyu bulutlarla kaplanır.",
       "answer": "Небето се покрива с тъмни облаци.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1594,7 +1594,7 @@
     {
       "id": "q_ders11_07b35694",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Gökyüzü koyu bulutlarla kaplanır.",
+      "sentence": "Gökyüzü koyu bulutlarla kaplanır.",
       "answer": "Небето се покрива с тъмни облаци.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1619,7 +1619,7 @@
     {
       "id": "q_ders11_8f9dcfe6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Времето е мрачно и хладно.)",
+      "sentence": "Времето е мрачно и хладно.",
       "answer": "Hava kasvetli ve serindir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1627,7 +1627,7 @@
     {
       "id": "q_ders11_3d2d2e6b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hava kasvetli ve serindir.)",
+      "sentence": "Hava kasvetli ve serindir.",
       "answer": "Времето е мрачно и хладно.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1635,7 +1635,7 @@
     {
       "id": "q_ders11_a64cc7fb",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hava kasvetli ve serindir.",
+      "sentence": "Hava kasvetli ve serindir.",
       "answer": "Времето е мрачно и хладно.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1659,7 +1659,7 @@
     {
       "id": "q_ders11_9989d41f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Прелетните птици отлитат на юг.)",
+      "sentence": "Прелетните птици отлитат на юг.",
       "answer": "Göçmen kuşlar güneye uçar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1667,7 +1667,7 @@
     {
       "id": "q_ders11_9d6a3892",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Göçmen kuşlar güneye uçar.)",
+      "sentence": "Göçmen kuşlar güneye uçar.",
       "answer": "Прелетните птици отлитат на юг.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1675,7 +1675,7 @@
     {
       "id": "q_ders11_a732012b",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Göçmen kuşlar güneye uçar.",
+      "sentence": "Göçmen kuşlar güneye uçar.",
       "answer": "Прелетните птици отлитат на юг.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1699,7 +1699,7 @@
     {
       "id": "q_ders11_3ee64437",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Минало свършено (пях, ходих, рисувах) показва, че действието е започнало и приключило преди момента на говоренето.)",
+      "sentence": "Минало свършено (пях, ходих, рисувах показва, че действието е започнало и приключило преди момента на говоренето.)",
       "answer": "Bitmiş geçmiş zaman (şarkı söyledim, gittim, resim yaptım), eylemin konuşma anından önce başlayıp tamamlandığını gösterir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1716,7 +1716,7 @@
     {
       "id": "q_ders11_6ed18387",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Изкачихме върха бавно, но все пак успяхме.)",
+      "sentence": "Изкачихме върха бавно, но все пак успяхме.",
       "answer": "Zirveye yavaş çıktık, fakat yine de başardık.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1724,7 +1724,7 @@
     {
       "id": "q_ders11_2363f09f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Zirveye yavaş çıktık, fakat yine de başardık.)",
+      "sentence": "Zirveye yavaş çıktık, fakat yine de başardık.",
       "answer": "Изкачихме върха бавно, но все пак успяхме.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1732,7 +1732,7 @@
     {
       "id": "q_ders11_4d03cf34",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Zirveye yavaş çıktık, fakat yine de başardık.",
+      "sentence": "Zirveye yavaş çıktık, fakat yine de başardık.",
       "answer": "Изкачихме върха бавно, но все пак успяхме.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1758,7 +1758,7 @@
     {
       "id": "q_ders11_80a06cb0",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Редно числително – първи, втори, трети… тридесет и шести.)",
+      "sentence": "Редно числително – първи, втори, трети… тридесет и шести.",
       "answer": "Sıra sayıları: birinci, ikinci, üçüncü… otuz altıncı.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1766,7 +1766,7 @@
     {
       "id": "q_ders11_c715c46d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Sıra sayıları: birinci, ikinci, üçüncü… otuz altıncı.)",
+      "sentence": "Sıra sayıları: birinci, ikinci, üçüncü… otuz altıncı.",
       "answer": "Редно числително – първи, втори, трети… тридесет и шести.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11",
@@ -1775,7 +1775,7 @@
     {
       "id": "q_ders11_44c83aed",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sıra sayıları: birinci, ikinci, üçüncü… otuz altıncı.",
+      "sentence": "Sıra sayıları: birinci, ikinci, üçüncü… otuz altıncı.",
       "answer": "Редно числително – първи, втори, трети… тридесет и шести.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1802,7 +1802,7 @@
     {
       "id": "q_ders11_ad8377db",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Редните числителни имена се изменят по род, число и определеност.)",
+      "sentence": "Редните числителни имена се изменят по род, число и определеност.",
       "answer": "Sıra sayıları cinsiyete, sayıya ve belirliliğe göre değişir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1810,7 +1810,7 @@
     {
       "id": "q_ders11_b038f70a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Sıra sayıları cinsiyete, sayıya ve belirliliğe göre değişir.)",
+      "sentence": "Sıra sayıları cinsiyete, sayıya ve belirliliğe göre değişir.",
       "answer": "Редните числителни имена се изменят по род, число и определеност.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1818,7 +1818,7 @@
     {
       "id": "q_ders11_17a66305",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sıra sayıları cinsiyete, sayıya ve belirliliğe göre değişir.",
+      "sentence": "Sıra sayıları cinsiyete, sayıya ve belirliliğe göre değişir.",
       "answer": "Редните числителни имена се изменят по род, число и определеност.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1847,7 +1847,7 @@
     {
       "id": "q_ders11_9b184a53",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Род – първи (м.р.), първа (ж.р.), първо (ср.р.), тридесет и шеста (ж.р.).)",
+      "sentence": "Род – първи (м.р., първа (ж.р.), първо (ср.р.), тридесет и шеста (ж.р.).)",
       "answer": "Cinsiyet: първи eril, първа dişil, първо orta cins; тридесет и шеста dişil “otuz altıncı”.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1864,7 +1864,7 @@
     {
       "id": "q_ders11_f3bb8c5a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз бях пети по успех.)",
+      "sentence": "Аз бях пети по успех.",
       "answer": "Başarı sıralamasında beşinciydim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1872,7 +1872,7 @@
     {
       "id": "q_ders11_cbcef7cf",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Başarı sıralamasında beşinciydim.)",
+      "sentence": "Başarı sıralamasında beşinciydim.",
       "answer": "Аз бях пети по успех.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1880,7 +1880,7 @@
     {
       "id": "q_ders11_3fc244e9",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Başarı sıralamasında beşinciydim.",
+      "sentence": "Başarı sıralamasında beşinciydim.",
       "answer": "Аз бях пети по успех.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1904,7 +1904,7 @@
     {
       "id": "q_ders11_818bded4",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ние бяхме пети по успех.)",
+      "sentence": "Ние бяхме пети по успех.",
       "answer": "Başarı sıralamasında beşinciydik.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1912,7 +1912,7 @@
     {
       "id": "q_ders11_35b6098d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Başarı sıralamasında beşinciydik.)",
+      "sentence": "Başarı sıralamasında beşinciydik.",
       "answer": "Ние бяхме пети по успех.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1920,7 +1920,7 @@
     {
       "id": "q_ders11_602822e5",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Başarı sıralamasında beşinciydik.",
+      "sentence": "Başarı sıralamasında beşinciydik.",
       "answer": "Ние бяхме пети по успех.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1944,7 +1944,7 @@
     {
       "id": "q_ders11_6e660f45",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Членуват се – първи, първия, първият; първите.)",
+      "sentence": "Членуват се – първи, първия, първият; първите.",
       "answer": "Belirlilik eki alırlar: birinci; belirli kısa eril; belirli tam eril; belirli çoğul.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1952,7 +1952,7 @@
     {
       "id": "q_ders11_cba961bd",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Belirlilik eki alırlar: birinci; belirli kısa eril; belirli tam eril; belirli çoğul.)",
+      "sentence": "Belirlilik eki alırlar: birinci; belirli kısa eril; belirli tam eril; belirli çoğul.",
       "answer": "Членуват се – първи, първия, първият; първите.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11",
@@ -1961,7 +1961,7 @@
     {
       "id": "q_ders11_cb6ba64a",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Belirlilik eki alırlar: birinci; belirli kısa eril; belirli tam eril; belirli çoğul.",
+      "sentence": "Belirlilik eki alırlar: birinci; belirli kısa eril; belirli tam eril; belirli çoğul.",
       "answer": "Членуват се – първи, първия, първият; първите.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -1986,7 +1986,7 @@
     {
       "id": "q_ders11_0239df8a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Природа. Климат. Годишни времена. Особености на времето през различните сезони.)",
+      "sentence": "Природа. Климат. Годишни времена. Особености на времето през различните сезони.",
       "answer": "Doğa, iklim, mevsimler ve farklı mevsimlerde havanın özellikleri.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -1994,7 +1994,7 @@
     {
       "id": "q_ders11_858ecd7a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Doğa, iklim, mevsimler ve farklı mevsimlerde havanın özellikleri.)",
+      "sentence": "Doğa, iklim, mevsimler ve farklı mevsimlerde havanın özellikleri.",
       "answer": "Природа. Климат. Годишни времена. Особености на времето през различните сезони.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2002,7 +2002,7 @@
     {
       "id": "q_ders11_d9a1adbc",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Doğa, iklim, mevsimler ve farklı mevsimlerde havanın özellikleri.",
+      "sentence": "Doğa, iklim, mevsimler ve farklı mevsimlerde havanın özellikleri.",
       "answer": "Природа. Климат. Годишни времена. Особености на времето през различните сезони.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2031,7 +2031,7 @@
     {
       "id": "q_ders11_f6ac84d2",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Кой сезон обичаш най-много?)",
+      "sentence": "Кой сезон обичаш най-много?",
       "answer": "En çok hangi mevsimi seviyorsun?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2039,7 +2039,7 @@
     {
       "id": "q_ders11_e2eb5e50",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: En çok hangi mevsimi seviyorsun?)",
+      "sentence": "En çok hangi mevsimi seviyorsun?",
       "answer": "Кой сезон обичаш най-много?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2047,7 +2047,7 @@
     {
       "id": "q_ders11_1e37eb87",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: En çok hangi mevsimi seviyorsun?",
+      "sentence": "En çok hangi mevsimi seviyorsun?",
       "answer": "Кой сезон обичаш най-много?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2070,7 +2070,7 @@
     {
       "id": "q_ders11_74a44f78",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Пролетта, когато природата се събужда, цветята започват да цъфтят, дърветата напъпват и всичко наоколо се раззеленява.)",
+      "sentence": "Пролетта, когато природата се събужда, цветята започват да цъфтят, дърветата напъпват и всичко наоколо се раззеленява.",
       "answer": "İlkbaharı; doğa uyandığında, çiçekler açmaya başladığında, ağaçlar tomurcuklandığında ve etrafındaki her yer yeşerdiğinde.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2087,7 +2087,7 @@
     {
       "id": "q_ders11_3cfdc443",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Тогава чувствам прилив на сили.)",
+      "sentence": "Тогава чувствам прилив на сили.",
       "answer": "O zaman içimde bir güç ve enerji artışı hissediyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2095,7 +2095,7 @@
     {
       "id": "q_ders11_19ad7611",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: O zaman içimde bir güç ve enerji artışı hissediyorum.)",
+      "sentence": "O zaman içimde bir güç ve enerji artışı hissediyorum.",
       "answer": "Тогава чувствам прилив на сили.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2103,7 +2103,7 @@
     {
       "id": "q_ders11_65ad482c",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: O zaman içimde bir güç ve enerji artışı hissediyorum.",
+      "sentence": "O zaman içimde bir güç ve enerji artışı hissediyorum.",
       "answer": "Тогава чувствам прилив на сили.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2127,7 +2127,7 @@
     {
       "id": "q_ders11_957c5975",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз не обичам пролетта.)",
+      "sentence": "Аз не обичам пролетта.",
       "answer": "Ben ilkbaharı sevmiyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2135,7 +2135,7 @@
     {
       "id": "q_ders11_43eb4813",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ben ilkbaharı sevmiyorum.)",
+      "sentence": "Ben ilkbaharı sevmiyorum.",
       "answer": "Аз не обичам пролетта.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2143,7 +2143,7 @@
     {
       "id": "q_ders11_c8d30e87",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ben ilkbaharı sevmiyorum.",
+      "sentence": "Ben ilkbaharı sevmiyorum.",
       "answer": "Аз не обичам пролетта.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2166,7 +2166,7 @@
     {
       "id": "q_ders11_71c3786b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: За разлика от тебе, липсата на витамини и пролетната умора ми се отразяват зле.)",
+      "sentence": "За разлика от тебе, липсата на витамини и пролетната умора ми се отразяват зле.",
       "answer": "Senden farklı olarak vitamin eksikliği ve bahar yorgunluğu beni kötü etkiliyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2183,7 +2183,7 @@
     {
       "id": "q_ders11_6c2bae00",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Освен това не понасям дъждовете.)",
+      "sentence": "Освен това не понасям дъждовете.",
       "answer": "Ayrıca yağmurlara dayanamıyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2191,7 +2191,7 @@
     {
       "id": "q_ders11_e84a9b76",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ayrıca yağmurlara dayanamıyorum.)",
+      "sentence": "Ayrıca yağmurlara dayanamıyorum.",
       "answer": "Освен това не понасям дъждовете.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2199,7 +2199,7 @@
     {
       "id": "q_ders11_cae1ef44",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ayrıca yağmurlara dayanamıyorum.",
+      "sentence": "Ayrıca yağmurlara dayanamıyorum.",
       "answer": "Освен това не понасям дъждовете.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2223,7 +2223,7 @@
     {
       "id": "q_ders11_1d2c7dfe",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Пролетта е кална, кишата е отвратителна, времето е много променливо.)",
+      "sentence": "Пролетта е кална, кишата е отвратителна, времето е много променливо.",
       "answer": "İlkbahar çamurludur, sulu kar ve çamur iğrençtir; hava çok değişkendir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2231,7 +2231,7 @@
     {
       "id": "q_ders11_f8a97592",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: İlkbahar çamurludur, sulu kar ve çamur iğrençtir; hava çok değişkendir.)",
+      "sentence": "İlkbahar çamurludur, sulu kar ve çamur iğrençtir; hava çok değişkendir.",
       "answer": "Пролетта е кална, кишата е отвратителна, времето е много променливо.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2239,7 +2239,7 @@
     {
       "id": "q_ders11_cc83c3db",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: İlkbahar çamurludur, sulu kar ve çamur iğrençtir; hava çok değişkendir.",
+      "sentence": "İlkbahar çamurludur, sulu kar ve çamur iğrençtir; hava çok değişkendir.",
       "answer": "Пролетта е кална, кишата е отвратителна, времето е много променливо.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2266,7 +2266,7 @@
     {
       "id": "q_ders11_26850f42",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Това не е за мене.)",
+      "sentence": "Това не е за мене.",
       "answer": "Bu bana göre değil.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2274,7 +2274,7 @@
     {
       "id": "q_ders11_777fb79e",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bu bana göre değil.)",
+      "sentence": "Bu bana göre değil.",
       "answer": "Това не е за мене.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2282,7 +2282,7 @@
     {
       "id": "q_ders11_9a86d0d2",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bu bana göre değil.",
+      "sentence": "Bu bana göre değil.",
       "answer": "Това не е за мене.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2306,7 +2306,7 @@
     {
       "id": "q_ders11_6eb0dd4c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз предпочитам лятото.)",
+      "sentence": "Аз предпочитам лятото.",
       "answer": "Ben yazı tercih ederim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2314,7 +2314,7 @@
     {
       "id": "q_ders11_e53d06b9",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ben yazı tercih ederim.)",
+      "sentence": "Ben yazı tercih ederim.",
       "answer": "Аз предпочитам лятото.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2322,7 +2322,7 @@
     {
       "id": "q_ders11_817d3818",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: През юли обикновено излизам в отпуск.)",
+      "sentence": "През юли обикновено излизам в отпуск.",
       "answer": "Temmuz ayında genellikle izne çıkarım.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2330,7 +2330,7 @@
     {
       "id": "q_ders11_2a7a6ee5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Temmuz ayında genellikle izne çıkarım.)",
+      "sentence": "Temmuz ayında genellikle izne çıkarım.",
       "answer": "През юли обикновено излизам в отпуск.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2338,7 +2338,7 @@
     {
       "id": "q_ders11_a8bff4b0",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Temmuz ayında genellikle izne çıkarım.",
+      "sentence": "Temmuz ayında genellikle izne çıkarım.",
       "answer": "През юли обикновено излизам в отпуск.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2363,7 +2363,7 @@
     {
       "id": "q_ders11_8b469a9f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Миналата година бяхме на Черно море.)",
+      "sentence": "Миналата година бяхме на Черно море.",
       "answer": "Geçen yıl Karadeniz’deydik.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2371,7 +2371,7 @@
     {
       "id": "q_ders11_5bd1dd12",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Geçen yıl Karadeniz’deydik.)",
+      "sentence": "Geçen yıl Karadeniz’deydik.",
       "answer": "Миналата година бяхме на Черно море.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2379,7 +2379,7 @@
     {
       "id": "q_ders11_d3456ad0",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Geçen yıl Karadeniz’deydik.",
+      "sentence": "Geçen yıl Karadeniz’deydik.",
       "answer": "Миналата година бяхме на Черно море.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2404,7 +2404,7 @@
     {
       "id": "q_ders11_67b6eccc",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: В началото живяхме на палатка, а после бяхме в една почивна станция.)",
+      "sentence": "В началото живяхме на палатка, а после бяхме в една почивна станция.",
       "answer": "Başlangıçta çadırda kaldık, sonra bir tatil tesisinde kaldık.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2421,7 +2421,7 @@
     {
       "id": "q_ders11_2e132c71",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Почерняхме, починахме си, децата се научиха да плуват, ловихме риба.)",
+      "sentence": "Почерняхме, починахме си, децата се научиха да плуват, ловихме риба.",
       "answer": "Bronzlaştık, dinlendik, çocuklar yüzmeyi öğrendi ve balık tuttuk.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2429,7 +2429,7 @@
     {
       "id": "q_ders11_8a779ac8",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bronzlaştık, dinlendik, çocuklar yüzmeyi öğrendi ve balık tuttuk.)",
+      "sentence": "Bronzlaştık, dinlendik, çocuklar yüzmeyi öğrendi ve balık tuttuk.",
       "answer": "Почерняхме, починахме си, децата се научиха да плуват, ловихме риба.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2437,7 +2437,7 @@
     {
       "id": "q_ders11_e2fdf7b6",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bronzlaştık, dinlendik, çocuklar yüzmeyi öğrendi ve balık tuttuk.",
+      "sentence": "Bronzlaştık, dinlendik, çocuklar yüzmeyi öğrendi ve balık tuttuk.",
       "answer": "Почерняхме, починахме си, децата се научиха да плуват, ловихме риба.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2466,7 +2466,7 @@
     {
       "id": "q_ders11_e7147f8e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Чудесно прекарахме.)",
+      "sentence": "Чудесно прекарахме.",
       "answer": "Harika vakit geçirdik.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2474,7 +2474,7 @@
     {
       "id": "q_ders11_5962657f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Harika vakit geçirdik.)",
+      "sentence": "Harika vakit geçirdik.",
       "answer": "Чудесно прекарахме.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2482,7 +2482,7 @@
     {
       "id": "q_ders11_da2fffb1",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз не понасям горещините.)",
+      "sentence": "Аз не понасям горещините.",
       "answer": "Ben aşırı sıcaklara dayanamıyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2490,7 +2490,7 @@
     {
       "id": "q_ders11_23d5ac94",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ben aşırı sıcaklara dayanamıyorum.)",
+      "sentence": "Ben aşırı sıcaklara dayanamıyorum.",
       "answer": "Аз не понасям горещините.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2498,7 +2498,7 @@
     {
       "id": "q_ders11_cf52ca08",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ben aşırı sıcaklara dayanamıyorum.",
+      "sentence": "Ben aşırı sıcaklara dayanamıyorum.",
       "answer": "Аз не понасям горещините.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2521,7 +2521,7 @@
     {
       "id": "q_ders11_be54ff96",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вземам си отпуск през зимата и заминавам в планината.)",
+      "sentence": "Вземам си отпуск през зимата и заминавам в планината.",
       "answer": "Kışın izin alır ve dağa giderim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2529,7 +2529,7 @@
     {
       "id": "q_ders11_8b3c1733",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Kışın izin alır ve dağa giderim.)",
+      "sentence": "Kışın izin alır ve dağa giderim.",
       "answer": "Вземам си отпуск през зимата и заминавам в планината.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2537,7 +2537,7 @@
     {
       "id": "q_ders11_482624e0",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Kışın izin alır ve dağa giderim.",
+      "sentence": "Kışın izin alır ve dağa giderim.",
       "answer": "Вземам си отпуск през зимата и заминавам в планината.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2565,7 +2565,7 @@
     {
       "id": "q_ders11_ddf137fc",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Обикновено почивам в Родопите.)",
+      "sentence": "Обикновено почивам в Родопите.",
       "answer": "Genellikle Rodoplar’da tatil yaparım.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2573,7 +2573,7 @@
     {
       "id": "q_ders11_2d5178f2",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Genellikle Rodoplar’da tatil yaparım.)",
+      "sentence": "Genellikle Rodoplar’da tatil yaparım.",
       "answer": "Обикновено почивам в Родопите.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2581,7 +2581,7 @@
     {
       "id": "q_ders11_bc03e05a",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Genellikle Rodoplar’da tatil yaparım.",
+      "sentence": "Genellikle Rodoplar’da tatil yaparım.",
       "answer": "Обикновено почивам в Родопите.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2604,7 +2604,7 @@
     {
       "id": "q_ders11_93061f10",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз карам ски, а децата се пързалят с шейни.)",
+      "sentence": "Аз карам ски, а децата се пързалят с шейни.",
       "answer": "Ben kayak yaparım, çocuklar ise kızakla kayar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2612,7 +2612,7 @@
     {
       "id": "q_ders11_d06a7f89",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ben kayak yaparım, çocuklar ise kızakla kayar.)",
+      "sentence": "Ben kayak yaparım, çocuklar ise kızakla kayar.",
       "answer": "Аз карам ски, а децата се пързалят с шейни.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2620,7 +2620,7 @@
     {
       "id": "q_ders11_cbcfcc7f",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ben kayak yaparım, çocuklar ise kızakla kayar.",
+      "sentence": "Ben kayak yaparım, çocuklar ise kızakla kayar.",
       "answer": "Аз карам ски, а децата се пързалят с шейни.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2648,7 +2648,7 @@
     {
       "id": "q_ders11_e74bf0c5",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Но големият ми син вече се учи да кара и ски, а пък малкият повече обича кънки.)",
+      "sentence": "Но големият ми син вече се учи да кара и ски, а пък малкият повече обича кънки.",
       "answer": "Fakat büyük oğlum artık kayak yapmayı da öğreniyor; küçük olan ise pateni daha çok seviyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2665,7 +2665,7 @@
     {
       "id": "q_ders11_caef9c6e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вие можете ли да карате ски?)",
+      "sentence": "Вие можете ли да карате ски?",
       "answer": "Siz kayak yapabiliyor musunuz?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2673,7 +2673,7 @@
     {
       "id": "q_ders11_3ae077c0",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Siz kayak yapabiliyor musunuz?)",
+      "sentence": "Siz kayak yapabiliyor musunuz?",
       "answer": "Вие можете ли да карате ски?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2681,7 +2681,7 @@
     {
       "id": "q_ders11_937c20b2",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Siz kayak yapabiliyor musunuz?",
+      "sentence": "Siz kayak yapabiliyor musunuz?",
       "answer": "Вие можете ли да карате ски?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2706,7 +2706,7 @@
     {
       "id": "q_ders11_21ab8185",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Малко. Но ако потренирам...)",
+      "sentence": "Малко. Но ако потренирам...",
       "answer": "Biraz. Fakat biraz antrenman yaparsam...",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2714,7 +2714,7 @@
     {
       "id": "q_ders11_62516a65",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Biraz. Fakat biraz antrenman yaparsam...)",
+      "sentence": "Biraz. Fakat biraz antrenman yaparsam...",
       "answer": "Малко. Но ако потренирам...",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2722,7 +2722,7 @@
     {
       "id": "q_ders11_e50acb96",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Biraz. Fakat biraz antrenman yaparsam...",
+      "sentence": "Biraz. Fakat biraz antrenman yaparsam...",
       "answer": "Малко. Но ако потренирам...",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2745,7 +2745,7 @@
     {
       "id": "q_ders11_faaedebd",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Някога добре карах кънки, даже играех хокей на лед.)",
+      "sentence": "Някога добре карах кънки, даже играех хокей на лед.",
       "answer": "Bir zamanlar iyi paten kayardım, hatta buz hokeyi oynardım.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2753,7 +2753,7 @@
     {
       "id": "q_ders11_5418ee5f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bir zamanlar iyi paten kayardım, hatta buz hokeyi oynardım.)",
+      "sentence": "Bir zamanlar iyi paten kayardım, hatta buz hokeyi oynardım.",
       "answer": "Някога добре карах кънки, даже играех хокей на лед.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2761,7 +2761,7 @@
     {
       "id": "q_ders11_26c2d5fd",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bir zamanlar iyi paten kayardım, hatta buz hokeyi oynardım.",
+      "sentence": "Bir zamanlar iyi paten kayardım, hatta buz hokeyi oynardım.",
       "answer": "Някога добре карах кънки, даже играех хокей на лед.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2789,7 +2789,7 @@
     {
       "id": "q_ders11_1dd76133",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз обичам също и златната есен.)",
+      "sentence": "Аз обичам също и златната есен.",
       "answer": "Ben altın sonbaharı da severim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2797,7 +2797,7 @@
     {
       "id": "q_ders11_ff4e3605",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ben altın sonbaharı da severim.)",
+      "sentence": "Ben altın sonbaharı da severim.",
       "answer": "Аз обичам също и златната есен.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2805,7 +2805,7 @@
     {
       "id": "q_ders11_50359250",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ben altın sonbaharı da severim.",
+      "sentence": "Ben altın sonbaharı da severim.",
       "answer": "Аз обичам също и златната есен.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2830,7 +2830,7 @@
     {
       "id": "q_ders11_01fd07c8",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Тихи, топли, хубави слънчеви дни...)",
+      "sentence": "Тихи, топли, хубави слънчеви дни...",
       "answer": "Sessiz, ılık, güzel ve güneşli günler...",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2838,7 +2838,7 @@
     {
       "id": "q_ders11_747af08a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Sessiz, ılık, güzel ve güneşli günler...)",
+      "sentence": "Sessiz, ılık, güzel ve güneşli günler...",
       "answer": "Тихи, топли, хубави слънчеви дни...",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2846,7 +2846,7 @@
     {
       "id": "q_ders11_0cbcfbc0",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sessiz, ılık, güzel ve güneşli günler...",
+      "sentence": "Sessiz, ılık, güzel ve güneşli günler...",
       "answer": "Тихи, топли, хубави слънчеви дни...",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2870,7 +2870,7 @@
     {
       "id": "q_ders11_00ab5831",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вече е по-прохладно.)",
+      "sentence": "Вече е по-прохладно.",
       "answer": "Hava artık daha serindir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2878,7 +2878,7 @@
     {
       "id": "q_ders11_9bc0f56b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hava artık daha serindir.)",
+      "sentence": "Hava artık daha serindir.",
       "answer": "Вече е по-прохладно.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2886,7 +2886,7 @@
     {
       "id": "q_ders11_d4dda4c8",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hava artık daha serindir.",
+      "sentence": "Hava artık daha serindir.",
       "answer": "Вече е по-прохладно.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2908,7 +2908,7 @@
     {
       "id": "q_ders11_dc05bc66",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Падналите листа изглеждат като пъстър килим върху земята и шумолят под краката...)",
+      "sentence": "Падналите листа изглеждат като пъстър килим върху земята и шумолят под краката...",
       "answer": "Dökülen yapraklar yerde rengârenk bir halı gibi görünür ve ayakların altında hışırdar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2925,7 +2925,7 @@
     {
       "id": "q_ders11_a4d74f09",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Обичам циганското лято.)",
+      "sentence": "Обичам циганското лято.",
       "answer": "Pastırma yazını seviyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2933,7 +2933,7 @@
     {
       "id": "q_ders11_dbae2683",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Pastırma yazını seviyorum.)",
+      "sentence": "Pastırma yazını seviyorum.",
       "answer": "Обичам циганското лято.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2941,7 +2941,7 @@
     {
       "id": "q_ders11_018a807c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: За мен това време е много подходящо за работа.)",
+      "sentence": "За мен това време е много подходящо за работа.",
       "answer": "Bana göre bu hava çalışmak için çok uygundur.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2949,7 +2949,7 @@
     {
       "id": "q_ders11_f784f34f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bana göre bu hava çalışmak için çok uygundur.)",
+      "sentence": "Bana göre bu hava çalışmak için çok uygundur.",
       "answer": "За мен това време е много подходящо за работа.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2957,7 +2957,7 @@
     {
       "id": "q_ders11_15498bde",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bana göre bu hava çalışmak için çok uygundur.",
+      "sentence": "Bana göre bu hava çalışmak için çok uygundur.",
       "answer": "За мен това време е много подходящо за работа.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -2985,7 +2985,7 @@
     {
       "id": "q_ders11_207625b1",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Есента ме вдъхновява.)",
+      "sentence": "Есента ме вдъхновява.",
       "answer": "Sonbahar bana ilham verir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -2993,7 +2993,7 @@
     {
       "id": "q_ders11_00265d0c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Sonbahar bana ilham verir.)",
+      "sentence": "Sonbahar bana ilham verir.",
       "answer": "Есента ме вдъхновява.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3001,7 +3001,7 @@
     {
       "id": "q_ders11_c5dd9206",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: А когато е хладно и непрекъснато вали?)",
+      "sentence": "А когато е хладно и непрекъснато вали?",
       "answer": "Peki hava serin olduğunda ve durmadan yağmur yağdığında?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3009,7 +3009,7 @@
     {
       "id": "q_ders11_0c1efbcc",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Peki hava serin olduğunda ve durmadan yağmur yağdığında?)",
+      "sentence": "Peki hava serin olduğunda ve durmadan yağmur yağdığında?",
       "answer": "А когато е хладно и непрекъснато вали?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3017,7 +3017,7 @@
     {
       "id": "q_ders11_28a9e5b3",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Peki hava serin olduğunda ve durmadan yağmur yağdığında?",
+      "sentence": "Peki hava serin olduğunda ve durmadan yağmur yağdığında?",
       "answer": "А когато е хладно и непрекъснато вали?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3043,7 +3043,7 @@
     {
       "id": "q_ders11_46add2c0",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: О, тогава много обичам да си стоя вкъщи и да чета книга пред камината.)",
+      "sentence": "О, тогава много обичам да си стоя вкъщи и да чета книга пред камината.",
       "answer": "O zaman evde oturup şöminenin önünde kitap okumayı çok severim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3060,7 +3060,7 @@
     {
       "id": "q_ders11_72acd321",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Или да слушам класическа музика.)",
+      "sentence": "Или да слушам класическа музика.",
       "answer": "Ya da klasik müzik dinlemeyi.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3068,7 +3068,7 @@
     {
       "id": "q_ders11_f693b05b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ya da klasik müzik dinlemeyi.)",
+      "sentence": "Ya da klasik müzik dinlemeyi.",
       "answer": "Или да слушам класическа музика.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3076,7 +3076,7 @@
     {
       "id": "q_ders11_c99b7c69",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ya da klasik müzik dinlemeyi.",
+      "sentence": "Ya da klasik müzik dinlemeyi.",
       "answer": "Или да слушам класическа музика.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3100,7 +3100,7 @@
     {
       "id": "q_ders11_04a041f0",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Това ме успокоява.)",
+      "sentence": "Това ме успокоява.",
       "answer": "Bu beni sakinleştirir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3108,7 +3108,7 @@
     {
       "id": "q_ders11_fde47eb7",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bu beni sakinleştirir.)",
+      "sentence": "Bu beni sakinleştirir.",
       "answer": "Това ме успокоява.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3116,7 +3116,7 @@
     {
       "id": "q_ders11_1221a76a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Какво е времето днес?)",
+      "sentence": "Какво е времето днес?",
       "answer": "Bugün hava nasıl?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3124,7 +3124,7 @@
     {
       "id": "q_ders11_149f1663",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bugün hava nasıl?)",
+      "sentence": "Bugün hava nasıl?",
       "answer": "Какво е времето днес?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3132,7 +3132,7 @@
     {
       "id": "q_ders11_c4c9327f",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bugün hava nasıl?",
+      "sentence": "Bugün hava nasıl?",
       "answer": "Какво е времето днес?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3155,7 +3155,7 @@
     {
       "id": "q_ders11_4995933e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Днес времето е лошо.)",
+      "sentence": "Днес времето е лошо.",
       "answer": "Bugün hava kötü.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3163,7 +3163,7 @@
     {
       "id": "q_ders11_c49d2f67",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bugün hava kötü.)",
+      "sentence": "Bugün hava kötü.",
       "answer": "Днес времето е лошо.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3171,7 +3171,7 @@
     {
       "id": "q_ders11_b9f40334",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bugün hava kötü.",
+      "sentence": "Bugün hava kötü.",
       "answer": "Днес времето е лошо.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3194,7 +3194,7 @@
     {
       "id": "q_ders11_275a26d3",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вали ситен дъжд, духа пронизващ вятър и е мрачно.)",
+      "sentence": "Вали ситен дъжд, духа пронизващ вятър и е мрачно.",
       "answer": "İnce bir yağmur yağıyor, içe işleyen bir rüzgâr esiyor ve hava kasvetli.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3202,7 +3202,7 @@
     {
       "id": "q_ders11_302d4212",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: İnce bir yağmur yağıyor, içe işleyen bir rüzgâr esiyor ve hava kasvetli.)",
+      "sentence": "İnce bir yağmur yağıyor, içe işleyen bir rüzgâr esiyor ve hava kasvetli.",
       "answer": "Вали ситен дъжд, духа пронизващ вятър и е мрачно.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3210,7 +3210,7 @@
     {
       "id": "q_ders11_0feade3f",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: İnce bir yağmur yağıyor, içe işleyen bir rüzgâr esiyor ve hava kasvetli.",
+      "sentence": "İnce bir yağmur yağıyor, içe işleyen bir rüzgâr esiyor ve hava kasvetli.",
       "answer": "Вали ситен дъжд, духа пронизващ вятър и е мрачно.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3238,7 +3238,7 @@
     {
       "id": "q_ders11_010b7684",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Много ли е студено навън?)",
+      "sentence": "Много ли е студено навън?",
       "answer": "Dışarısı çok mu soğuk?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3246,7 +3246,7 @@
     {
       "id": "q_ders11_44b97f29",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Dışarısı çok mu soğuk?)",
+      "sentence": "Dışarısı çok mu soğuk?",
       "answer": "Много ли е студено навън?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3254,7 +3254,7 @@
     {
       "id": "q_ders11_b09214b2",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Dışarısı çok mu soğuk?",
+      "sentence": "Dışarısı çok mu soğuk?",
       "answer": "Много ли е студено навън?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3278,7 +3278,7 @@
     {
       "id": "q_ders11_2889181d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Не чак толкова много, но е доста хладно.)",
+      "sentence": "Не чак толкова много, но е доста хладно.",
       "answer": "O kadar çok değil, fakat oldukça serin.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3286,7 +3286,7 @@
     {
       "id": "q_ders11_e08efecc",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: O kadar çok değil, fakat oldukça serin.)",
+      "sentence": "O kadar çok değil, fakat oldukça serin.",
       "answer": "Не чак толкова много, но е доста хладно.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3294,7 +3294,7 @@
     {
       "id": "q_ders11_ef667364",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: O kadar çok değil, fakat oldukça serin.",
+      "sentence": "O kadar çok değil, fakat oldukça serin.",
       "answer": "Не чак толкова много, но е доста хладно.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3321,7 +3321,7 @@
     {
       "id": "q_ders11_f6b2fac2",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Температурата е дванайсет градуса.)",
+      "sentence": "Температурата е дванайсет градуса.",
       "answer": "Sıcaklık on iki derece.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3329,7 +3329,7 @@
     {
       "id": "q_ders11_c76f632c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Sıcaklık on iki derece.)",
+      "sentence": "Sıcaklık on iki derece.",
       "answer": "Температурата е дванайсет градуса.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3337,7 +3337,7 @@
     {
       "id": "q_ders11_26fa0320",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sıcaklık on iki derece.",
+      "sentence": "Sıcaklık on iki derece.",
       "answer": "Температурата е дванайсет градуса.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3360,7 +3360,7 @@
     {
       "id": "q_ders11_2b2652db",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вчера температурата беше деветнадесет градуса.)",
+      "sentence": "Вчера температурата беше деветнадесет градуса.",
       "answer": "Dün sıcaklık on dokuz dereceydi.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3368,7 +3368,7 @@
     {
       "id": "q_ders11_55b0241c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Dün sıcaklık on dokuz dereceydi.)",
+      "sentence": "Dün sıcaklık on dokuz dereceydi.",
       "answer": "Вчера температурата беше деветнадесет градуса.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3376,7 +3376,7 @@
     {
       "id": "q_ders11_65a0005e",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Dün sıcaklık on dokuz dereceydi.",
+      "sentence": "Dün sıcaklık on dokuz dereceydi.",
       "answer": "Вчера температурата беше деветнадесет градуса.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3400,7 +3400,7 @@
     {
       "id": "q_ders11_1c0f6813",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Времето бе слънчево и приятно.)",
+      "sentence": "Времето бе слънчево и приятно.",
       "answer": "Hava güneşli ve güzeldi.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3408,7 +3408,7 @@
     {
       "id": "q_ders11_e870ef6b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hava güneşli ve güzeldi.)",
+      "sentence": "Hava güneşli ve güzeldi.",
       "answer": "Времето бе слънчево и приятно.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3416,7 +3416,7 @@
     {
       "id": "q_ders11_595a3233",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hava güneşli ve güzeldi.",
+      "sentence": "Hava güneşli ve güzeldi.",
       "answer": "Времето бе слънчево и приятно.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3440,7 +3440,7 @@
     {
       "id": "q_ders11_fface323",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Беше такъв хубав есенен ден!)",
+      "sentence": "Беше такъв хубав есенен ден!",
       "answer": "Ne kadar güzel bir sonbahar günüydü!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3448,7 +3448,7 @@
     {
       "id": "q_ders11_f774012c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ne kadar güzel bir sonbahar günüydü!)",
+      "sentence": "Ne kadar güzel bir sonbahar günüydü!",
       "answer": "Беше такъв хубав есенен ден!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3456,7 +3456,7 @@
     {
       "id": "q_ders11_46382726",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ne kadar güzel bir sonbahar günüydü!",
+      "sentence": "Ne kadar güzel bir sonbahar günüydü!",
       "answer": "Беше такъв хубав есенен ден!",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3480,7 +3480,7 @@
     {
       "id": "q_ders11_89a88f61",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Истинско циганско лято!)",
+      "sentence": "Истинско циганско лято!",
       "answer": "Gerçek bir pastırma yazıydı!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3488,7 +3488,7 @@
     {
       "id": "q_ders11_f2981775",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Gerçek bir pastırma yazıydı!)",
+      "sentence": "Gerçek bir pastırma yazıydı!",
       "answer": "Истинско циганско лято!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3496,7 +3496,7 @@
     {
       "id": "q_ders11_9ee4e621",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Привечер обаче започна да духа вятър и да ръми.)",
+      "sentence": "Привечер обаче започна да духа вятър и да ръми.",
       "answer": "Ancak akşama doğru rüzgâr esmeye ve çiselemeye başladı.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3504,7 +3504,7 @@
     {
       "id": "q_ders11_5c094013",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ancak akşama doğru rüzgâr esmeye ve çiselemeye başladı.)",
+      "sentence": "Ancak akşama doğru rüzgâr esmeye ve çiselemeye başladı.",
       "answer": "Привечер обаче започна да духа вятър и да ръми.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3512,7 +3512,7 @@
     {
       "id": "q_ders11_ce51c474",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ancak akşama doğru rüzgâr esmeye ve çiselemeye başladı.",
+      "sentence": "Ancak akşama doğru rüzgâr esmeye ve çiselemeye başladı.",
       "answer": "Привечер обаче започна да духа вятър и да ръми.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3539,7 +3539,7 @@
     {
       "id": "q_ders11_7a63f41a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Нощес ми беше студено.)",
+      "sentence": "Нощес ми беше студено.",
       "answer": "Gece üşüdüm / bana soğuk geldi.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3547,7 +3547,7 @@
     {
       "id": "q_ders11_05a03002",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Gece üşüdüm / bana soğuk geldi.)",
+      "sentence": "Gece üşüdüm / bana soğuk geldi.",
       "answer": "Нощес ми беше студено.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3555,7 +3555,7 @@
     {
       "id": "q_ders11_2c8f60d4",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Gece üşüdüm / bana soğuk geldi.",
+      "sentence": "Gece üşüdüm / bana soğuk geldi.",
       "answer": "Нощес ми беше студено.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3578,7 +3578,7 @@
     {
       "id": "q_ders11_4258d723",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз включих печката и ми беше топло.)",
+      "sentence": "Аз включих печката и ми беше топло.",
       "answer": "Ben sobayı/ısıtıcıyı açtım ve ısındım.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3586,7 +3586,7 @@
     {
       "id": "q_ders11_7189ad6b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ben sobayı/ısıtıcıyı açtım ve ısındım.)",
+      "sentence": "Ben sobayı/ısıtıcıyı açtım ve ısındım.",
       "answer": "Аз включих печката и ми беше топло.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3594,7 +3594,7 @@
     {
       "id": "q_ders11_c359f783",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ben sobayı/ısıtıcıyı açtım ve ısındım.",
+      "sentence": "Ben sobayı/ısıtıcıyı açtım ve ısındım.",
       "answer": "Аз включих печката и ми беше топло.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3620,7 +3620,7 @@
     {
       "id": "q_ders11_0b446b7a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Може би утре отново ще се стопли.)",
+      "sentence": "Може би утре отново ще се стопли.",
       "answer": "Belki yarın hava yeniden ısınır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3628,7 +3628,7 @@
     {
       "id": "q_ders11_430fb487",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Belki yarın hava yeniden ısınır.)",
+      "sentence": "Belki yarın hava yeniden ısınır.",
       "answer": "Може би утре отново ще се стопли.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3636,7 +3636,7 @@
     {
       "id": "q_ders11_c841ee60",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Belki yarın hava yeniden ısınır.",
+      "sentence": "Belki yarın hava yeniden ısınır.",
       "answer": "Може би утре отново ще се стопли.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3662,7 +3662,7 @@
     {
       "id": "q_ders11_4653939f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Едва ли.)",
+      "sentence": "Едва ли.",
       "answer": "Pek sanmıyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3670,7 +3670,7 @@
     {
       "id": "q_ders11_1aae650f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Pek sanmıyorum.)",
+      "sentence": "Pek sanmıyorum.",
       "answer": "Едва ли.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3678,7 +3678,7 @@
     {
       "id": "q_ders11_6f7b791d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вече е късна есен.)",
+      "sentence": "Вече е късна есен.",
       "answer": "Artık sonbaharın sonları.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3686,7 +3686,7 @@
     {
       "id": "q_ders11_02d43466",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Artık sonbaharın sonları.)",
+      "sentence": "Artık sonbaharın sonları.",
       "answer": "Вече е късна есен.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3694,7 +3694,7 @@
     {
       "id": "q_ders11_6b2864e7",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Artık sonbaharın sonları.",
+      "sentence": "Artık sonbaharın sonları.",
       "answer": "Вече е късна есен.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3717,7 +3717,7 @@
     {
       "id": "q_ders11_8ce75130",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да, сигурно скоро ще завали сняг.)",
+      "sentence": "Да, сигурно скоро ще завали сняг.",
       "answer": "Evet, herhâlde yakında kar yağmaya başlayacak.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3725,7 +3725,7 @@
     {
       "id": "q_ders11_3d5de1a2",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Evet, herhâlde yakında kar yağmaya başlayacak.)",
+      "sentence": "Evet, herhâlde yakında kar yağmaya başlayacak.",
       "answer": "Да, сигурно скоро ще завали сняг.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3733,7 +3733,7 @@
     {
       "id": "q_ders11_77c06edc",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Evet, herhâlde yakında kar yağmaya başlayacak.",
+      "sentence": "Evet, herhâlde yakında kar yağmaya başlayacak.",
       "answer": "Да, сигурно скоро ще завали сняг.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3758,7 +3758,7 @@
     {
       "id": "q_ders11_6ba5bfe6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Време е вече.)",
+      "sentence": "Време е вече.",
       "answer": "Artık zamanı geldi.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3766,7 +3766,7 @@
     {
       "id": "q_ders11_3a02fdf2",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Artık zamanı geldi.)",
+      "sentence": "Artık zamanı geldi.",
       "answer": "Време е вече.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3774,7 +3774,7 @@
     {
       "id": "q_ders11_04a3987f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Миналата година по това време имаше много сняг.)",
+      "sentence": "Миналата година по това време имаше много сняг.",
       "answer": "Geçen yıl bu zamanlarda çok kar vardı.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3782,7 +3782,7 @@
     {
       "id": "q_ders11_1adeaa4a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Geçen yıl bu zamanlarda çok kar vardı.)",
+      "sentence": "Geçen yıl bu zamanlarda çok kar vardı.",
       "answer": "Миналата година по това време имаше много сняг.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3790,7 +3790,7 @@
     {
       "id": "q_ders11_3ebe1e4b",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Geçen yıl bu zamanlarda çok kar vardı.",
+      "sentence": "Geçen yıl bu zamanlarda çok kar vardı.",
       "answer": "Миналата година по това време имаше много сняг.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3817,7 +3817,7 @@
     {
       "id": "q_ders11_ee2315b7",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да, тази година есента много продължи и зимата закъснява.)",
+      "sentence": "Да, тази година есента много продължи и зимата закъснява.",
       "answer": "Evet, bu yıl sonbahar çok uzadı ve kış gecikiyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3825,7 +3825,7 @@
     {
       "id": "q_ders11_d37a957a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Evet, bu yıl sonbahar çok uzadı ve kış gecikiyor.)",
+      "sentence": "Evet, bu yıl sonbahar çok uzadı ve kış gecikiyor.",
       "answer": "Да, тази година есента много продължи и зимата закъснява.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3833,7 +3833,7 @@
     {
       "id": "q_ders11_6644a570",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Evet, bu yıl sonbahar çok uzadı ve kış gecikiyor.",
+      "sentence": "Evet, bu yıl sonbahar çok uzadı ve kış gecikiyor.",
       "answer": "Да, тази година есента много продължи и зимата закъснява.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3861,7 +3861,7 @@
     {
       "id": "q_ders11_fccffc9b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ти кой сезон обичаш най-много?)",
+      "sentence": "Ти кой сезон обичаш най-много?",
       "answer": "Sen en çok hangi mevsimi seviyorsun?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3869,7 +3869,7 @@
     {
       "id": "q_ders11_17d77470",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Sen en çok hangi mevsimi seviyorsun?)",
+      "sentence": "Sen en çok hangi mevsimi seviyorsun?",
       "answer": "Ти кой сезон обичаш най-много?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3877,7 +3877,7 @@
     {
       "id": "q_ders11_81eaa88a",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sen en çok hangi mevsimi seviyorsun?",
+      "sentence": "Sen en çok hangi mevsimi seviyorsun?",
       "answer": "Ти кой сезон обичаш най-много?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3901,7 +3901,7 @@
     {
       "id": "q_ders11_1aaa8bd6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Лятото.)",
+      "sentence": "Лятото.",
       "answer": "Yazı.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3909,7 +3909,7 @@
     {
       "id": "q_ders11_a5d7415d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yazı.)",
+      "sentence": "Yazı.",
       "answer": "Лятото.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3917,7 +3917,7 @@
     {
       "id": "q_ders11_77de3ebc",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Тогава времето е топло.)",
+      "sentence": "Тогава времето е топло.",
       "answer": "O zaman hava sıcaktır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3925,7 +3925,7 @@
     {
       "id": "q_ders11_72dad151",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: O zaman hava sıcaktır.)",
+      "sentence": "O zaman hava sıcaktır.",
       "answer": "Тогава времето е топло.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3933,7 +3933,7 @@
     {
       "id": "q_ders11_9f97b9ca",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: O zaman hava sıcaktır.",
+      "sentence": "O zaman hava sıcaktır.",
       "answer": "Тогава времето е топло.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -3956,7 +3956,7 @@
     {
       "id": "q_ders11_35110bd3",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Слънцето грее силно.)",
+      "sentence": "Слънцето грее силно.",
       "answer": "Güneş güçlü parlar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3964,7 +3964,7 @@
     {
       "id": "q_ders11_cda89af5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Güneş güçlü parlar.)",
+      "sentence": "Güneş güçlü parlar.",
       "answer": "Слънцето грее силно.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3972,7 +3972,7 @@
     {
       "id": "q_ders11_70c1dfec",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Всичко е потънало в зеленина.)",
+      "sentence": "Всичко е потънало в зеленина.",
       "answer": "Her yer yeşilliğe bürünmüştür.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3980,7 +3980,7 @@
     {
       "id": "q_ders11_6c4a7e05",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Her yer yeşilliğe bürünmüştür.)",
+      "sentence": "Her yer yeşilliğe bürünmüştür.",
       "answer": "Всичко е потънало в зеленина.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -3988,7 +3988,7 @@
     {
       "id": "q_ders11_c35343c0",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Her yer yeşilliğe bürünmüştür.",
+      "sentence": "Her yer yeşilliğe bürünmüştür.",
       "answer": "Всичко е потънало в зеленина.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4012,7 +4012,7 @@
     {
       "id": "q_ders11_25fb2635",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Пък и много обичам морето.)",
+      "sentence": "Пък и много обичам морето.",
       "answer": "Üstelik denizi de çok severim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4020,7 +4020,7 @@
     {
       "id": "q_ders11_ca71e61e",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Üstelik denizi de çok severim.)",
+      "sentence": "Üstelik denizi de çok severim.",
       "answer": "Пък и много обичам морето.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4028,7 +4028,7 @@
     {
       "id": "q_ders11_405fb8a1",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Üstelik denizi de çok severim.",
+      "sentence": "Üstelik denizi de çok severim.",
       "answer": "Пък и много обичам морето.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4052,7 +4052,7 @@
     {
       "id": "q_ders11_01267e75",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Затова всяко лято ходя на море.)",
+      "sentence": "Затова всяко лято ходя на море.",
       "answer": "Bu yüzden her yaz denize giderim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4060,7 +4060,7 @@
     {
       "id": "q_ders11_6d2524f8",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bu yüzden her yaz denize giderim.)",
+      "sentence": "Bu yüzden her yaz denize giderim.",
       "answer": "Затова всяко лято ходя на море.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4068,7 +4068,7 @@
     {
       "id": "q_ders11_04952163",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bu yüzden her yaz denize giderim.",
+      "sentence": "Bu yüzden her yaz denize giderim.",
       "answer": "Затова всяко лято ходя на море.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4093,7 +4093,7 @@
     {
       "id": "q_ders11_94d98b83",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз предпочитам есента.)",
+      "sentence": "Аз предпочитам есента.",
       "answer": "Ben sonbaharı tercih ederim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4101,7 +4101,7 @@
     {
       "id": "q_ders11_788b4d32",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ben sonbaharı tercih ederim.)",
+      "sentence": "Ben sonbaharı tercih ederim.",
       "answer": "Аз предпочитам есента.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4109,7 +4109,7 @@
     {
       "id": "q_ders11_717ecbe3",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Особено ранната есен.)",
+      "sentence": "Особено ранната есен.",
       "answer": "Özellikle erken sonbaharı.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4117,7 +4117,7 @@
     {
       "id": "q_ders11_bac666b8",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Özellikle erken sonbaharı.)",
+      "sentence": "Özellikle erken sonbaharı.",
       "answer": "Особено ранната есен.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4125,7 +4125,7 @@
     {
       "id": "q_ders11_9ba2368a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Тогава времето не е горещо, но не е и студено.)",
+      "sentence": "Тогава времето не е горещо, но не е и студено.",
       "answer": "O zaman hava ne sıcaktır ne de soğuk.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4133,7 +4133,7 @@
     {
       "id": "q_ders11_b905fb33",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: O zaman hava ne sıcaktır ne de soğuk.)",
+      "sentence": "O zaman hava ne sıcaktır ne de soğuk.",
       "answer": "Тогава времето не е горещо, но не е и студено.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4141,7 +4141,7 @@
     {
       "id": "q_ders11_5415715b",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: O zaman hava ne sıcaktır ne de soğuk.",
+      "sentence": "O zaman hava ne sıcaktır ne de soğuk.",
       "answer": "Тогава времето не е горещо, но не е и студено.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4168,7 +4168,7 @@
     {
       "id": "q_ders11_8277c91c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Нощите са прохладни.)",
+      "sentence": "Нощите са прохладни.",
       "answer": "Geceler serindir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4176,7 +4176,7 @@
     {
       "id": "q_ders11_7d99e721",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Geceler serindir.)",
+      "sentence": "Geceler serindir.",
       "answer": "Нощите са прохладни.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4184,7 +4184,7 @@
     {
       "id": "q_ders11_fca0b5bf",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Природата е необикновено красива.)",
+      "sentence": "Природата е необикновено красива.",
       "answer": "Doğa olağanüstü güzeldir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4192,7 +4192,7 @@
     {
       "id": "q_ders11_09cf1a2a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Doğa olağanüstü güzeldir.)",
+      "sentence": "Doğa olağanüstü güzeldir.",
       "answer": "Природата е необикновено красива.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4200,7 +4200,7 @@
     {
       "id": "q_ders11_fd49a6c4",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Doğa olağanüstü güzeldir.",
+      "sentence": "Doğa olağanüstü güzeldir.",
       "answer": "Природата е необикновено красива.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4223,7 +4223,7 @@
     {
       "id": "q_ders11_eaea4d1a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Много обичам есенните залези и лунните нощи.)",
+      "sentence": "Много обичам есенните залези и лунните нощи.",
       "answer": "Sonbahar gün batımlarını ve mehtaplı geceleri çok severim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4231,7 +4231,7 @@
     {
       "id": "q_ders11_52db20d6",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Sonbahar gün batımlarını ve mehtaplı geceleri çok severim.)",
+      "sentence": "Sonbahar gün batımlarını ve mehtaplı geceleri çok severim.",
       "answer": "Много обичам есенните залези и лунните нощи.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4239,7 +4239,7 @@
     {
       "id": "q_ders11_00e3a641",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sonbahar gün batımlarını ve mehtaplı geceleri çok severim.",
+      "sentence": "Sonbahar gün batımlarını ve mehtaplı geceleri çok severim.",
       "answer": "Много обичам есенните залези и лунните нощи.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4265,7 +4265,7 @@
     {
       "id": "q_ders11_a036d6ca",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Мога с часове да стоя и да ги гледам.)",
+      "sentence": "Мога с часове да стоя и да ги гледам.",
       "answer": "Saatlerce oturup onları izleyebilirim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4273,7 +4273,7 @@
     {
       "id": "q_ders11_9f577b82",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Saatlerce oturup onları izleyebilirim.)",
+      "sentence": "Saatlerce oturup onları izleyebilirim.",
       "answer": "Мога с часове да стоя и да ги гледам.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4281,7 +4281,7 @@
     {
       "id": "q_ders11_95610bd6",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Saatlerce oturup onları izleyebilirim.",
+      "sentence": "Saatlerce oturup onları izleyebilirim.",
       "answer": "Мога с часове да стоя и да ги гледам.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4308,7 +4308,7 @@
     {
       "id": "q_ders11_bee4ba3e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Обожавам ги.)",
+      "sentence": "Обожавам ги.",
       "answer": "Onlara bayılıyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4316,7 +4316,7 @@
     {
       "id": "q_ders11_26bdb8b7",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Onlara bayılıyorum.)",
+      "sentence": "Onlara bayılıyorum.",
       "answer": "Обожавам ги.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4324,7 +4324,7 @@
     {
       "id": "q_ders11_7b453f36",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз също харесвам багрите на есента.)",
+      "sentence": "Аз също харесвам багрите на есента.",
       "answer": "Ben de sonbaharın renklerini seviyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4332,7 +4332,7 @@
     {
       "id": "q_ders11_1cb33b8b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ben de sonbaharın renklerini seviyorum.)",
+      "sentence": "Ben de sonbaharın renklerini seviyorum.",
       "answer": "Аз също харесвам багрите на есента.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4340,7 +4340,7 @@
     {
       "id": "q_ders11_2ee8c50e",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ben de sonbaharın renklerini seviyorum.",
+      "sentence": "Ben de sonbaharın renklerini seviyorum.",
       "answer": "Аз също харесвам багрите на есента.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4365,7 +4365,7 @@
     {
       "id": "q_ders11_f5ab6a4a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: И пролетта харесвам, когато цялата природа се възражда.)",
+      "sentence": "И пролетта харесвам, когато цялата природа се възражда.",
       "answer": "Bütün doğa yeniden canlandığında ilkbaharı da seviyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4373,7 +4373,7 @@
     {
       "id": "q_ders11_405126d5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bütün doğa yeniden canlandığında ilkbaharı da seviyorum.)",
+      "sentence": "Bütün doğa yeniden canlandığında ilkbaharı da seviyorum.",
       "answer": "И пролетта харесвам, когато цялата природа се възражда.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4381,7 +4381,7 @@
     {
       "id": "q_ders11_a9dc2fd7",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bütün doğa yeniden canlandığında ilkbaharı da seviyorum.",
+      "sentence": "Bütün doğa yeniden canlandığında ilkbaharı da seviyorum.",
       "answer": "И пролетта харесвам, когато цялата природа се възражда.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4408,7 +4408,7 @@
     {
       "id": "q_ders11_22e9c1c8",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: А колко е хубава дъгата след пролетния дъжд!)",
+      "sentence": "А колко е хубава дъгата след пролетния дъжд!",
       "answer": "İlkbahar yağmurundan sonra gökkuşağı ne kadar da güzeldir!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4416,7 +4416,7 @@
     {
       "id": "q_ders11_16f3ff51",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: İlkbahar yağmurundan sonra gökkuşağı ne kadar da güzeldir!)",
+      "sentence": "İlkbahar yağmurundan sonra gökkuşağı ne kadar da güzeldir!",
       "answer": "А колко е хубава дъгата след пролетния дъжд!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4424,7 +4424,7 @@
     {
       "id": "q_ders11_2f9390c1",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: İlkbahar yağmurundan sonra gökkuşağı ne kadar da güzeldir!",
+      "sentence": "İlkbahar yağmurundan sonra gökkuşağı ne kadar da güzeldir!",
       "answer": "А колко е хубава дъгата след пролетния дъжд!",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4451,7 +4451,7 @@
     {
       "id": "q_ders11_fd1cfc9b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Но не харесвам променливото време през есента и пролетта.)",
+      "sentence": "Но не харесвам променливото време през есента и пролетта.",
       "answer": "Fakat sonbahar ve ilkbahardaki değişken havayı sevmiyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4459,7 +4459,7 @@
     {
       "id": "q_ders11_b0e50357",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Fakat sonbahar ve ilkbahardaki değişken havayı sevmiyorum.)",
+      "sentence": "Fakat sonbahar ve ilkbahardaki değişken havayı sevmiyorum.",
       "answer": "Но не харесвам променливото време през есента и пролетта.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4467,7 +4467,7 @@
     {
       "id": "q_ders11_1903e55d",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Fakat sonbahar ve ilkbahardaki değişken havayı sevmiyorum.",
+      "sentence": "Fakat sonbahar ve ilkbahardaki değişken havayı sevmiyorum.",
       "answer": "Но не харесвам променливото време през есента и пролетта.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4495,7 +4495,7 @@
     {
       "id": "q_ders11_5163eae0",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Затова предпочитам лятото.)",
+      "sentence": "Затова предпочитам лятото.",
       "answer": "Bu yüzden yazı tercih ediyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4503,7 +4503,7 @@
     {
       "id": "q_ders11_d2bbaece",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bu yüzden yazı tercih ediyorum.)",
+      "sentence": "Bu yüzden yazı tercih ediyorum.",
       "answer": "Затова предпочитам лятото.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4511,7 +4511,7 @@
     {
       "id": "q_ders11_210ef755",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ако в неделя времето е хубаво, искаш ли да се разходим в парка или да идем на Витоша?)",
+      "sentence": "Ако в неделя времето е хубаво, искаш ли да се разходим в парка или да идем на Витоша?",
       "answer": "Pazar günü hava güzel olursa parkta yürümek ya da Vitoşa’ya gitmek ister misin?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4528,7 +4528,7 @@
     {
       "id": "q_ders11_e835c468",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да, но виж, дъждът се усилва.)",
+      "sentence": "Да, но виж, дъждът се усилва.",
       "answer": "Evet, fakat bak, yağmur şiddetleniyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4536,7 +4536,7 @@
     {
       "id": "q_ders11_a868860b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Evet, fakat bak, yağmur şiddetleniyor.)",
+      "sentence": "Evet, fakat bak, yağmur şiddetleniyor.",
       "answer": "Да, но виж, дъждът се усилва.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4544,7 +4544,7 @@
     {
       "id": "q_ders11_ac9ae9c6",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Evet, fakat bak, yağmur şiddetleniyor.",
+      "sentence": "Evet, fakat bak, yağmur şiddetleniyor.",
       "answer": "Да, но виж, дъждът се усилва.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4569,7 +4569,7 @@
     {
       "id": "q_ders11_a2e7e4f7",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вали като из ведро.)",
+      "sentence": "Вали като из ведро.",
       "answer": "Bardaktan boşanırcasına yağıyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4577,7 +4577,7 @@
     {
       "id": "q_ders11_d840bf3c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bardaktan boşanırcasına yağıyor.)",
+      "sentence": "Bardaktan boşanırcasına yağıyor.",
       "answer": "Вали като из ведро.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4585,7 +4585,7 @@
     {
       "id": "q_ders11_79cda97f",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bardaktan boşanırcasına yağıyor.",
+      "sentence": "Bardaktan boşanırcasına yağıyor.",
       "answer": "Вали като из ведро.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4608,7 +4608,7 @@
     {
       "id": "q_ders11_a6a0e163",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Скоро може и сняг да завали.)",
+      "sentence": "Скоро може и сняг да завали.",
       "answer": "Yakında kar bile yağabilir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4616,7 +4616,7 @@
     {
       "id": "q_ders11_f15b124f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yakında kar bile yağabilir.)",
+      "sentence": "Yakında kar bile yağabilir.",
       "answer": "Скоро може и сняг да завали.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4624,7 +4624,7 @@
     {
       "id": "q_ders11_7ea169ab",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yakında kar bile yağabilir.",
+      "sentence": "Yakında kar bile yağabilir.",
       "answer": "Скоро може и сняг да завали.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4649,7 +4649,7 @@
     {
       "id": "q_ders11_d5ff6995",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Такъв проливен дъжд отдавна не е имало.)",
+      "sentence": "Такъв проливен дъжд отдавна не е имало.",
       "answer": "Uzun zamandır böyle sağanak yağmur olmamıştı.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4657,7 +4657,7 @@
     {
       "id": "q_ders11_7984cd35",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Uzun zamandır böyle sağanak yağmur olmamıştı.)",
+      "sentence": "Uzun zamandır böyle sağanak yağmur olmamıştı.",
       "answer": "Такъв проливен дъжд отдавна не е имало.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4665,7 +4665,7 @@
     {
       "id": "q_ders11_b84b0a62",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Uzun zamandır böyle sağanak yağmur olmamıştı.",
+      "sentence": "Uzun zamandır böyle sağanak yağmur olmamıştı.",
       "answer": "Такъв проливен дъжд отдавна не е имало.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4691,7 +4691,7 @@
     {
       "id": "q_ders11_41bdb6bd",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Но до неделя има още време.)",
+      "sentence": "Но до неделя има още време.",
       "answer": "Fakat pazara kadar daha zaman var.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4699,7 +4699,7 @@
     {
       "id": "q_ders11_93dbd862",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Fakat pazara kadar daha zaman var.)",
+      "sentence": "Fakat pazara kadar daha zaman var.",
       "answer": "Но до неделя има още време.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4707,7 +4707,7 @@
     {
       "id": "q_ders11_cd7bf0e3",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Fakat pazara kadar daha zaman var.",
+      "sentence": "Fakat pazara kadar daha zaman var.",
       "answer": "Но до неделя има още време.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4732,7 +4732,7 @@
     {
       "id": "q_ders11_ce086283",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: До тогава времето може да се оправи.)",
+      "sentence": "До тогава времето може да се оправи.",
       "answer": "O zamana kadar hava düzelebilir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4740,7 +4740,7 @@
     {
       "id": "q_ders11_ed2e7f12",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: O zamana kadar hava düzelebilir.)",
+      "sentence": "O zamana kadar hava düzelebilir.",
       "answer": "До тогава времето може да се оправи.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4748,7 +4748,7 @@
     {
       "id": "q_ders11_ec038aad",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: O zamana kadar hava düzelebilir.",
+      "sentence": "O zamana kadar hava düzelebilir.",
       "answer": "До тогава времето може да се оправи.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4774,7 +4774,7 @@
     {
       "id": "q_ders11_852746fb",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ако завали сняг, ще отидем на ски в планината.)",
+      "sentence": "Ако завали сняг, ще отидем на ски в планината.",
       "answer": "Kar yağarsa dağda kayak yapmaya gideceğiz.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4782,7 +4782,7 @@
     {
       "id": "q_ders11_570d069d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Kar yağarsa dağda kayak yapmaya gideceğiz.)",
+      "sentence": "Kar yağarsa dağda kayak yapmaya gideceğiz.",
       "answer": "Ако завали сняг, ще отидем на ски в планината.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4790,7 +4790,7 @@
     {
       "id": "q_ders11_b495ee81",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Kar yağarsa dağda kayak yapmaya gideceğiz.",
+      "sentence": "Kar yağarsa dağda kayak yapmaya gideceğiz.",
       "answer": "Ако завали сняг, ще отидем на ски в планината.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4818,7 +4818,7 @@
     {
       "id": "q_ders11_bcc8fb97",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Добре. Идеята ми харесва.)",
+      "sentence": "Добре. Идеята ми харесва.",
       "answer": "Tamam. Bu fikir hoşuma gitti.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4826,7 +4826,7 @@
     {
       "id": "q_ders11_4aa27b87",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Tamam. Bu fikir hoşuma gitti.)",
+      "sentence": "Tamam. Bu fikir hoşuma gitti.",
       "answer": "Добре. Идеята ми харесва.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4834,7 +4834,7 @@
     {
       "id": "q_ders11_e56ffd9d",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Tamam. Bu fikir hoşuma gitti.",
+      "sentence": "Tamam. Bu fikir hoşuma gitti.",
       "answer": "Добре. Идеята ми харесва.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4857,7 +4857,7 @@
     {
       "id": "q_ders11_9f0f3a87",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Сега е зима.)",
+      "sentence": "Сега е зима.",
       "answer": "Şimdi kış.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4865,7 +4865,7 @@
     {
       "id": "q_ders11_bf945ed5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Şimdi kış.)",
+      "sentence": "Şimdi kış.",
       "answer": "Сега е зима.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4873,7 +4873,7 @@
     {
       "id": "q_ders11_f5542c13",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: През зимата вали сняг.)",
+      "sentence": "През зимата вали сняг.",
       "answer": "Kışın kar yağar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4881,7 +4881,7 @@
     {
       "id": "q_ders11_9d90ef0b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Kışın kar yağar.)",
+      "sentence": "Kışın kar yağar.",
       "answer": "През зимата вали сняг.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4889,7 +4889,7 @@
     {
       "id": "q_ders11_a0ffec90",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Kışın kar yağar.",
+      "sentence": "Kışın kar yağar.",
       "answer": "През зимата вали сняг.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4912,7 +4912,7 @@
     {
       "id": "q_ders11_ac711bfb",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Времето е студено.)",
+      "sentence": "Времето е студено.",
       "answer": "Hava soğuktur.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4920,7 +4920,7 @@
     {
       "id": "q_ders11_3c5a4298",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hava soğuktur.)",
+      "sentence": "Hava soğuktur.",
       "answer": "Времето е студено.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4928,7 +4928,7 @@
     {
       "id": "q_ders11_572a3a45",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Идва лято.)",
+      "sentence": "Идва лято.",
       "answer": "Yaz geliyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4936,7 +4936,7 @@
     {
       "id": "q_ders11_4568e282",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yaz geliyor.)",
+      "sentence": "Yaz geliyor.",
       "answer": "Идва лято.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4944,7 +4944,7 @@
     {
       "id": "q_ders11_49f1e22c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: През лятото времето е топло и горещо.)",
+      "sentence": "През лятото времето е топло и горещо.",
       "answer": "Yazın hava ılık ve sıcaktır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4952,7 +4952,7 @@
     {
       "id": "q_ders11_08e43c89",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yazın hava ılık ve sıcaktır.)",
+      "sentence": "Yazın hava ılık ve sıcaktır.",
       "answer": "През лятото времето е топло и горещо.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4960,7 +4960,7 @@
     {
       "id": "q_ders11_4ecb74f3",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yazın hava ılık ve sıcaktır.",
+      "sentence": "Yazın hava ılık ve sıcaktır.",
       "answer": "През лятото времето е топло и горещо.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -4986,7 +4986,7 @@
     {
       "id": "q_ders11_ed5522d0",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Скоро ще дойде есента.)",
+      "sentence": "Скоро ще дойде есента.",
       "answer": "Sonbahar yakında gelecek.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -4994,7 +4994,7 @@
     {
       "id": "q_ders11_2b8c3102",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Sonbahar yakında gelecek.)",
+      "sentence": "Sonbahar yakında gelecek.",
       "answer": "Скоро ще дойде есента.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5002,7 +5002,7 @@
     {
       "id": "q_ders11_18985503",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sonbahar yakında gelecek.",
+      "sentence": "Sonbahar yakında gelecek.",
       "answer": "Скоро ще дойде есента.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -5025,7 +5025,7 @@
     {
       "id": "q_ders11_5b9b8569",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: През есента времето е хладно и влажно.)",
+      "sentence": "През есента времето е хладно и влажно.",
       "answer": "Sonbaharda hava serin ve nemlidir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5033,7 +5033,7 @@
     {
       "id": "q_ders11_90ced95c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Sonbaharda hava serin ve nemlidir.)",
+      "sentence": "Sonbaharda hava serin ve nemlidir.",
       "answer": "През есента времето е хладно и влажно.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5041,7 +5041,7 @@
     {
       "id": "q_ders11_95f00201",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sonbaharda hava serin ve nemlidir.",
+      "sentence": "Sonbaharda hava serin ve nemlidir.",
       "answer": "През есента времето е хладно и влажно.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -5067,7 +5067,7 @@
     {
       "id": "q_ders11_46c11c2b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Пролетта отмина.)",
+      "sentence": "Пролетта отмина.",
       "answer": "İlkbahar geçti.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5075,7 +5075,7 @@
     {
       "id": "q_ders11_475494d6",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: İlkbahar geçti.)",
+      "sentence": "İlkbahar geçti.",
       "answer": "Пролетта отмина.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5083,7 +5083,7 @@
     {
       "id": "q_ders11_cfd97af9",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: През тази пролет времето бе хубаво.)",
+      "sentence": "През тази пролет времето бе хубаво.",
       "answer": "Bu ilkbaharda hava güzeldi.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5091,7 +5091,7 @@
     {
       "id": "q_ders11_ac27fee0",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bu ilkbaharda hava güzeldi.)",
+      "sentence": "Bu ilkbaharda hava güzeldi.",
       "answer": "През тази пролет времето бе хубаво.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5099,7 +5099,7 @@
     {
       "id": "q_ders11_76421bb0",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bu ilkbaharda hava güzeldi.",
+      "sentence": "Bu ilkbaharda hava güzeldi.",
       "answer": "През тази пролет времето бе хубаво.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -5124,7 +5124,7 @@
     {
       "id": "q_ders11_fce73421",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Лятото закъсня, а есента подрани.)",
+      "sentence": "Лятото закъсня, а есента подрани.",
       "answer": "Yaz gecikti, sonbahar ise erken geldi.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5132,7 +5132,7 @@
     {
       "id": "q_ders11_e1711673",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yaz gecikti, sonbahar ise erken geldi.)",
+      "sentence": "Yaz gecikti, sonbahar ise erken geldi.",
       "answer": "Лятото закъсня, а есента подрани.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5140,7 +5140,7 @@
     {
       "id": "q_ders11_858dcadf",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yaz gecikti, sonbahar ise erken geldi.",
+      "sentence": "Yaz gecikti, sonbahar ise erken geldi.",
       "answer": "Лятото закъсня, а есента подрани.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -5164,7 +5164,7 @@
     {
       "id": "q_ders11_0132c0df",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Днес времето е слънчево.)",
+      "sentence": "Днес времето е слънчево.",
       "answer": "Bugün hava güneşli.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5172,7 +5172,7 @@
     {
       "id": "q_ders11_7e1680f9",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bugün hava güneşli.)",
+      "sentence": "Bugün hava güneşli.",
       "answer": "Днес времето е слънчево.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5180,7 +5180,7 @@
     {
       "id": "q_ders11_bc243834",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bugün hava güneşli.",
+      "sentence": "Bugün hava güneşli.",
       "answer": "Днес времето е слънчево.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -5203,7 +5203,7 @@
     {
       "id": "q_ders11_11cda200",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вчера валя дъжд, а днес грее слънце.)",
+      "sentence": "Вчера валя дъжд, а днес грее слънце.",
       "answer": "Dün yağmur yağdı, bugün ise güneş parlıyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5211,7 +5211,7 @@
     {
       "id": "q_ders11_b3465edc",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Dün yağmur yağdı, bugün ise güneş parlıyor.)",
+      "sentence": "Dün yağmur yağdı, bugün ise güneş parlıyor.",
       "answer": "Вчера валя дъжд, а днес грее слънце.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5219,7 +5219,7 @@
     {
       "id": "q_ders11_0a95cef9",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Dün yağmur yağdı, bugün ise güneş parlıyor.",
+      "sentence": "Dün yağmur yağdı, bugün ise güneş parlıyor.",
       "answer": "Вчера валя дъжд, а днес грее слънце.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -5245,7 +5245,7 @@
     {
       "id": "q_ders11_aea59b5d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вчера беше облачно.)",
+      "sentence": "Вчера беше облачно.",
       "answer": "Dün hava bulutluydu.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5253,7 +5253,7 @@
     {
       "id": "q_ders11_5513ca0d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Dün hava bulutluydu.)",
+      "sentence": "Dün hava bulutluydu.",
       "answer": "Вчера беше облачно.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5261,7 +5261,7 @@
     {
       "id": "q_ders11_27b07100",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Утре ще бъде мъгливо.)",
+      "sentence": "Утре ще бъде мъгливо.",
       "answer": "Yarın hava sisli olacak.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5269,7 +5269,7 @@
     {
       "id": "q_ders11_038ca5bc",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yarın hava sisli olacak.)",
+      "sentence": "Yarın hava sisli olacak.",
       "answer": "Утре ще бъде мъгливо.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5277,7 +5277,7 @@
     {
       "id": "q_ders11_bb2c1a74",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yarın hava sisli olacak.",
+      "sentence": "Yarın hava sisli olacak.",
       "answer": "Утре ще бъде мъгливо.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -5300,7 +5300,7 @@
     {
       "id": "q_ders11_154dc383",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Нощес е паднала слана.)",
+      "sentence": "Нощес е паднала слана.",
       "answer": "Gece kırağı düşmüş.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5308,7 +5308,7 @@
     {
       "id": "q_ders11_8db6f290",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Gece kırağı düşmüş.)",
+      "sentence": "Gece kırağı düşmüş.",
       "answer": "Нощес е паднала слана.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5316,7 +5316,7 @@
     {
       "id": "q_ders11_be23c2df",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Gece kırağı düşmüş.",
+      "sentence": "Gece kırağı düşmüş.",
       "answer": "Нощес е паднала слана.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -5339,7 +5339,7 @@
     {
       "id": "q_ders11_73d23602",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Навън вали проливен дъжд.)",
+      "sentence": "Навън вали проливен дъжд.",
       "answer": "Dışarıda sağanak yağmur yağıyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5347,7 +5347,7 @@
     {
       "id": "q_ders11_617d79a1",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Dışarıda sağanak yağmur yağıyor.)",
+      "sentence": "Dışarıda sağanak yağmur yağıyor.",
       "answer": "Навън вали проливен дъжд.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5355,7 +5355,7 @@
     {
       "id": "q_ders11_b7735a56",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Dışarıda sağanak yağmur yağıyor.",
+      "sentence": "Dışarıda sağanak yağmur yağıyor.",
       "answer": "Навън вали проливен дъжд.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -5378,7 +5378,7 @@
     {
       "id": "q_ders11_7da87800",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Стъклата на прозорците са заскрежени.)",
+      "sentence": "Стъклата на прозорците са заскрежени.",
       "answer": "Pencere camları kırağıyla kaplanmış.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5386,7 +5386,7 @@
     {
       "id": "q_ders11_711acfe5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Pencere camları kırağıyla kaplanmış.)",
+      "sentence": "Pencere camları kırağıyla kaplanmış.",
       "answer": "Стъклата на прозорците са заскрежени.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5394,7 +5394,7 @@
     {
       "id": "q_ders11_a7726e2d",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Pencere camları kırağıyla kaplanmış.",
+      "sentence": "Pencere camları kırağıyla kaplanmış.",
       "answer": "Стъклата на прозорците са заскрежени.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",
@@ -5418,7 +5418,7 @@
     {
       "id": "q_ders11_46990105",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Снегът се сипе на едри снежинки.)",
+      "sentence": "Снегът се сипе на едри снежинки.",
       "answer": "Kar iri taneler hâlinde yağıyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5426,7 +5426,7 @@
     {
       "id": "q_ders11_20823668",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Kar iri taneler hâlinde yağıyor.)",
+      "sentence": "Kar iri taneler hâlinde yağıyor.",
       "answer": "Снегът се сипе на едри снежинки.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 11"
@@ -5434,7 +5434,7 @@
     {
       "id": "q_ders11_5bd71257",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Kar iri taneler hâlinde yağıyor.",
+      "sentence": "Kar iri taneler hâlinde yağıyor.",
       "answer": "Снегът се сипе на едри снежинки.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 11",

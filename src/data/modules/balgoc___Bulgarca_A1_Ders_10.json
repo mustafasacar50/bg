@@ -6,7 +6,7 @@
     {
       "id": "q_ders10_ba044dcb",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вера, запознайте се! Това е моят брат.)",
+      "sentence": "Вера, запознайте се! Това е моят брат.",
       "answer": "Vera, tanışın lütfen! Bu benim erkek kardeşim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -14,7 +14,7 @@
     {
       "id": "q_ders10_060f9103",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Vera, tanışın lütfen! Bu benim erkek kardeşim.)",
+      "sentence": "Vera, tanışın lütfen! Bu benim erkek kardeşim.",
       "answer": "Вера, запознайте се! Това е моят брат.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -22,7 +22,7 @@
     {
       "id": "q_ders10_bf510111",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Vera, tanışın lütfen! Bu benim erkek kardeşim.",
+      "sentence": "Vera, tanışın lütfen! Bu benim erkek kardeşim.",
       "answer": "Вера, запознайте се! Това е моят брат.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -48,7 +48,7 @@
     {
       "id": "q_ders10_c62ab35b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Приятно ми е, Пламен Георгиев.)",
+      "sentence": "Приятно ми е, Пламен Георгиев.",
       "answer": "Tanıştığımıza memnun oldum, Plamen Georgiev.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -56,7 +56,7 @@
     {
       "id": "q_ders10_cdb898e6",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Tanıştığımıza memnun oldum, Plamen Georgiev.)",
+      "sentence": "Tanıştığımıza memnun oldum, Plamen Georgiev.",
       "answer": "Приятно ми е, Пламен Георгиев.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -64,7 +64,7 @@
     {
       "id": "q_ders10_70beb741",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Tanıştığımıza memnun oldum, Plamen Georgiev.",
+      "sentence": "Tanıştığımıza memnun oldum, Plamen Georgiev.",
       "answer": "Приятно ми е, Пламен Георгиев.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -88,7 +88,7 @@
     {
       "id": "q_ders10_d5c29352",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Радвам се, че се запознахме.)",
+      "sentence": "Радвам се, че се запознахме.",
       "answer": "Tanıştığımıza sevindim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -96,7 +96,7 @@
     {
       "id": "q_ders10_5105e010",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Tanıştığımıza sevindim.)",
+      "sentence": "Tanıştığımıza sevindim.",
       "answer": "Радвам се, че се запознахме.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -104,7 +104,7 @@
     {
       "id": "q_ders10_e14c278e",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Tanıştığımıza sevindim.",
+      "sentence": "Tanıştığımıza sevindim.",
       "answer": "Радвам се, че се запознахме.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -127,7 +127,7 @@
     {
       "id": "q_ders10_93e5d85c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Това е Никола Петров – мой колега.)",
+      "sentence": "Това е Никола Петров – мой колега.",
       "answer": "Bu Nikola Petrov; benim okul/üniversite arkadaşım.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -135,7 +135,7 @@
     {
       "id": "q_ders10_437b4056",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bu Nikola Petrov; benim okul/üniversite arkadaşım.)",
+      "sentence": "Bu Nikola Petrov; benim okul/üniversite arkadaşım.",
       "answer": "Това е Никола Петров – мой колега.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10",
@@ -144,7 +144,7 @@
     {
       "id": "q_ders10_3a2422c4",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bu Nikola Petrov; benim okul/üniversite arkadaşım.",
+      "sentence": "Bu Nikola Petrov; benim okul/üniversite arkadaşım.",
       "answer": "Това е Никола Петров – мой колега.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -169,7 +169,7 @@
     {
       "id": "q_ders10_f0b13fe2",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Но ние вече се познаваме.)",
+      "sentence": "Но ние вече се познаваме.",
       "answer": "Ama biz zaten birbirimizi tanıyoruz.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -177,7 +177,7 @@
     {
       "id": "q_ders10_93d2f03f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ama biz zaten birbirimizi tanıyoruz.)",
+      "sentence": "Ama biz zaten birbirimizi tanıyoruz.",
       "answer": "Но ние вече се познаваме.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -185,7 +185,7 @@
     {
       "id": "q_ders10_4d0200a2",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ama biz zaten birbirimizi tanıyoruz.",
+      "sentence": "Ama biz zaten birbirimizi tanıyoruz.",
       "answer": "Но ние вече се познаваме.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -209,7 +209,7 @@
     {
       "id": "q_ders10_6301c2c0",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Много ми е приятно, че пак Ви виждам (да Ви видя отново).)",
+      "sentence": "Много ми е приятно, че пак Ви виждам (да Ви видя отново.)",
       "answer": "Sizi tekrar gördüğüme çok memnun oldum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -226,7 +226,7 @@
     {
       "id": "q_ders10_2c3b4137",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: На мен също.)",
+      "sentence": "На мен също.",
       "answer": "Ben de.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -234,7 +234,7 @@
     {
       "id": "q_ders10_e493cf3a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ben de.)",
+      "sentence": "Ben de.",
       "answer": "На мен също.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -242,7 +242,7 @@
     {
       "id": "q_ders10_240ce90f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Приятно ми е, Димитрина Захариева.)",
+      "sentence": "Приятно ми е, Димитрина Захариева.",
       "answer": "Memnun oldum, Dimitrina Zaharieva.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -250,7 +250,7 @@
     {
       "id": "q_ders10_4ed18ed1",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Memnun oldum, Dimitrina Zaharieva.)",
+      "sentence": "Memnun oldum, Dimitrina Zaharieva.",
       "answer": "Приятно ми е, Димитрина Захариева.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -258,7 +258,7 @@
     {
       "id": "q_ders10_1118263f",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Memnun oldum, Dimitrina Zaharieva.",
+      "sentence": "Memnun oldum, Dimitrina Zaharieva.",
       "answer": "Приятно ми е, Димитрина Захариева.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -282,7 +282,7 @@
     {
       "id": "q_ders10_6028cfcc",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Никола Петров. Радвам се, че се запознахме.)",
+      "sentence": "Никола Петров. Радвам се, че се запознахме.",
       "answer": "Nikola Petrov. Tanıştığımıza sevindim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -290,7 +290,7 @@
     {
       "id": "q_ders10_824fbcf3",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Nikola Petrov. Tanıştığımıza sevindim.)",
+      "sentence": "Nikola Petrov. Tanıştığımıza sevindim.",
       "answer": "Никола Петров. Радвам се, че се запознахме.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -298,7 +298,7 @@
     {
       "id": "q_ders10_51c30b20",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Nikola Petrov. Tanıştığımıza sevindim.",
+      "sentence": "Nikola Petrov. Tanıştığımıza sevindim.",
       "answer": "Никола Петров. Радвам се, че се запознахме.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -323,7 +323,7 @@
     {
       "id": "q_ders10_cf846160",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз съм Светла Павлова.)",
+      "sentence": "Аз съм Светла Павлова.",
       "answer": "Ben Svetla Pavlova.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -331,7 +331,7 @@
     {
       "id": "q_ders10_d9744f68",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ben Svetla Pavlova.)",
+      "sentence": "Ben Svetla Pavlova.",
       "answer": "Аз съм Светла Павлова.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -339,7 +339,7 @@
     {
       "id": "q_ders10_e0a4df34",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ben Svetla Pavlova.",
+      "sentence": "Ben Svetla Pavlova.",
       "answer": "Аз съм Светла Павлова.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -362,7 +362,7 @@
     {
       "id": "q_ders10_eb86d078",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Светла е най-добрата ми приятелка. Тя е учителка по български език и литература.)",
+      "sentence": "Светла е най-добрата ми приятелка. Тя е учителка по български език и литература.",
       "answer": "Svetla benim en iyi arkadaşımdır. O, Bulgar dili ve edebiyatı öğretmenidir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -379,7 +379,7 @@
     {
       "id": "q_ders10_a819ec06",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: А Вие (Никола,) с какво се занимавате?)",
+      "sentence": "А Вие (Никола, с какво се занимавате?)",
       "answer": "Peki siz, Nikola, ne işle uğraşıyorsunuz / ne yapıyorsunuz?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -387,7 +387,7 @@
     {
       "id": "q_ders10_39864e01",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Peki siz, Nikola, ne işle uğraşıyorsunuz / ne yapıyorsunuz?)",
+      "sentence": "Peki siz, Nikola, ne işle uğraşıyorsunuz / ne yapıyorsunuz?",
       "answer": "А Вие (Никола,) с какво се занимавате?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -395,7 +395,7 @@
     {
       "id": "q_ders10_07302fc3",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Peki siz, Nikola, ne işle uğraşıyorsunuz / ne yapıyorsunuz?",
+      "sentence": "Peki siz, Nikola, ne işle uğraşıyorsunuz / ne yapıyorsunuz?",
       "answer": "А Вие (Никола,) с какво се занимавате?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -421,7 +421,7 @@
     {
       "id": "q_ders10_33237fa6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз още съм студент.)",
+      "sentence": "Аз още съм студент.",
       "answer": "Ben hâlâ öğrenciyim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -429,7 +429,7 @@
     {
       "id": "q_ders10_f41bcc3b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ben hâlâ öğrenciyim.)",
+      "sentence": "Ben hâlâ öğrenciyim.",
       "answer": "Аз още съм студент.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -437,7 +437,7 @@
     {
       "id": "q_ders10_65927ee9",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ben hâlâ öğrenciyim.",
+      "sentence": "Ben hâlâ öğrenciyim.",
       "answer": "Аз още съм студент.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -460,7 +460,7 @@
     {
       "id": "q_ders10_cc46b92d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Какво следвате?)",
+      "sentence": "Какво следвате?",
       "answer": "Hangi bölümü okuyorsunuz?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -468,7 +468,7 @@
     {
       "id": "q_ders10_af2284c8",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hangi bölümü okuyorsunuz?)",
+      "sentence": "Hangi bölümü okuyorsunuz?",
       "answer": "Какво следвате?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -476,7 +476,7 @@
     {
       "id": "q_ders10_70b259c3",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Медицина. С Пламен сме колеги.)",
+      "sentence": "Медицина. С Пламен сме колеги.",
       "answer": "Tıp okuyorum. Plamen ile aynı bölümde/okulda öğrenciyiz.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -484,7 +484,7 @@
     {
       "id": "q_ders10_6b913dd9",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Tıp okuyorum. Plamen ile aynı bölümde/okulda öğrenciyiz.)",
+      "sentence": "Tıp okuyorum. Plamen ile aynı bölümde/okulda öğrenciyiz.",
       "answer": "Медицина. С Пламен сме колеги.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -492,7 +492,7 @@
     {
       "id": "q_ders10_f140a057",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Tıp okuyorum. Plamen ile aynı bölümde/okulda öğrenciyiz.",
+      "sentence": "Tıp okuyorum. Plamen ile aynı bölümde/okulda öğrenciyiz.",
       "answer": "Медицина. С Пламен сме колеги.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -516,7 +516,7 @@
     {
       "id": "q_ders10_e0821150",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: В кой курс сте?)",
+      "sentence": "В кой курс сте?",
       "answer": "Kaçıncı sınıftasınız?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -524,7 +524,7 @@
     {
       "id": "q_ders10_464e9196",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Kaçıncı sınıftasınız?)",
+      "sentence": "Kaçıncı sınıftasınız?",
       "answer": "В кой курс сте?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -532,7 +532,7 @@
     {
       "id": "q_ders10_11aba0c0",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Kaçıncı sınıftasınız?",
+      "sentence": "Kaçıncı sınıftasınız?",
       "answer": "В кой курс сте?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -555,7 +555,7 @@
     {
       "id": "q_ders10_f6395bdf",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Последна година съм. В пети курс.)",
+      "sentence": "Последна година съм. В пети курс.",
       "answer": "Son sınıftayım. Beşinci sınıftayım.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -563,7 +563,7 @@
     {
       "id": "q_ders10_cee9401d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Son sınıftayım. Beşinci sınıftayım.)",
+      "sentence": "Son sınıftayım. Beşinci sınıftayım.",
       "answer": "Последна година съм. В пети курс.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -571,7 +571,7 @@
     {
       "id": "q_ders10_afb55d91",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Son sınıftayım. Beşinci sınıftayım.",
+      "sentence": "Son sınıftayım. Beşinci sınıftayım.",
       "answer": "Последна година съм. В пети курс.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -596,7 +596,7 @@
     {
       "id": "q_ders10_4988c276",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: О, значи скоро ще бъдете лекар!)",
+      "sentence": "О, значи скоро ще бъдете лекар!",
       "answer": "O hâlde yakında doktor olacaksınız!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -604,7 +604,7 @@
     {
       "id": "q_ders10_b7c50fb4",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: O hâlde yakında doktor olacaksınız!)",
+      "sentence": "O hâlde yakında doktor olacaksınız!",
       "answer": "О, значи скоро ще бъдете лекар!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -612,7 +612,7 @@
     {
       "id": "q_ders10_e663ddb9",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: O hâlde yakında doktor olacaksınız!",
+      "sentence": "O hâlde yakında doktor olacaksınız!",
       "answer": "О, значи скоро ще бъдете лекар!",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -637,7 +637,7 @@
     {
       "id": "q_ders10_86e1bc77",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Надявам се. Остават ми само държавните изпити.)",
+      "sentence": "Надявам се. Остават ми само държавните изпити.",
       "answer": "Umarım. Yalnızca devlet/bitirme sınavlarım kaldı.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -645,7 +645,7 @@
     {
       "id": "q_ders10_696fee39",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Umarım. Yalnızca devlet/bitirme sınavlarım kaldı.)",
+      "sentence": "Umarım. Yalnızca devlet/bitirme sınavlarım kaldı.",
       "answer": "Надявам се. Остават ми само държавните изпити.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -653,7 +653,7 @@
     {
       "id": "q_ders10_ab981301",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Umarım. Yalnızca devlet/bitirme sınavlarım kaldı.",
+      "sentence": "Umarım. Yalnızca devlet/bitirme sınavlarım kaldı.",
       "answer": "Надявам се. Остават ми само държавните изпити.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -679,7 +679,7 @@
     {
       "id": "q_ders10_6d9cdc7e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Желая Ви успех!)",
+      "sentence": "Желая Ви успех!",
       "answer": "Size başarılar dilerim!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -687,7 +687,7 @@
     {
       "id": "q_ders10_74f5415f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Size başarılar dilerim!)",
+      "sentence": "Size başarılar dilerim!",
       "answer": "Желая Ви успех!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -695,7 +695,7 @@
     {
       "id": "q_ders10_4956d805",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Благодаря!)",
+      "sentence": "Благодаря!",
       "answer": "Teşekkür ederim!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -703,7 +703,7 @@
     {
       "id": "q_ders10_8dde5742",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Teşekkür ederim!)",
+      "sentence": "Teşekkür ederim!",
       "answer": "Благодаря!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -711,7 +711,7 @@
     {
       "id": "q_ders10_0dd8e32d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: А Вие с какво се занимавате?)",
+      "sentence": "А Вие с какво се занимавате?",
       "answer": "Peki siz ne işle uğraşıyorsunuz?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -719,7 +719,7 @@
     {
       "id": "q_ders10_256f6082",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Peki siz ne işle uğraşıyorsunuz?)",
+      "sentence": "Peki siz ne işle uğraşıyorsunuz?",
       "answer": "А Вие с какво се занимавате?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -727,7 +727,7 @@
     {
       "id": "q_ders10_0f49f9b9",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Peki siz ne işle uğraşıyorsunuz?",
+      "sentence": "Peki siz ne işle uğraşıyorsunuz?",
       "answer": "А Вие с какво се занимавате?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -752,7 +752,7 @@
     {
       "id": "q_ders10_629c44b4",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз също следвам, но в Химико-технологическия институт.)",
+      "sentence": "Аз също следвам, но в Химико-технологическия институт.",
       "answer": "Ben de öğrenciyim; fakat Kimya-Teknoloji Enstitüsünde okuyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -760,7 +760,7 @@
     {
       "id": "q_ders10_7541c5ad",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ben de öğrenciyim; fakat Kimya-Teknoloji Enstitüsünde okuyorum.)",
+      "sentence": "Ben de öğrenciyim; fakat Kimya-Teknoloji Enstitüsünde okuyorum.",
       "answer": "Аз също следвам, но в Химико-технологическия институт.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -768,7 +768,7 @@
     {
       "id": "q_ders10_8b89eb7f",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ben de öğrenciyim; fakat Kimya-Teknoloji Enstitüsünde okuyorum.",
+      "sentence": "Ben de öğrenciyim; fakat Kimya-Teknoloji Enstitüsünde okuyorum.",
       "answer": "Аз също следвам, но в Химико-технологическия институт.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -794,7 +794,7 @@
     {
       "id": "q_ders10_bba524d0",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Значи ще станете инженер-химик.)",
+      "sentence": "Значи ще станете инженер-химик.",
       "answer": "Demek ki kimya mühendisi olacaksınız.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -802,7 +802,7 @@
     {
       "id": "q_ders10_1dcee392",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Demek ki kimya mühendisi olacaksınız.)",
+      "sentence": "Demek ki kimya mühendisi olacaksınız.",
       "answer": "Значи ще станете инженер-химик.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -810,7 +810,7 @@
     {
       "id": "q_ders10_7d2f9a3d",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Demek ki kimya mühendisi olacaksınız.",
+      "sentence": "Demek ki kimya mühendisi olacaksınız.",
       "answer": "Значи ще станете инженер-химик.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -833,7 +833,7 @@
     {
       "id": "q_ders10_bd1614a5",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Бих искала. Но докато стане това, има още много време. Аз съм едва в първи курс.)",
+      "sentence": "Бих искала. Но докато стане това, има още много време. Аз съм едва в първи курс.",
       "answer": "Olmayı isterdim / olmayı istiyorum. Fakat bunun gerçekleşmesine daha çok zaman var. Henüz birinci sınıftayım.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -850,7 +850,7 @@
     {
       "id": "q_ders10_896bc5c3",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ние тръгваме, но се надявам, че пак ще се видим.)",
+      "sentence": "Ние тръгваме, но се надявам, че пак ще се видим.",
       "answer": "Biz artık gidiyoruz; fakat yeniden görüşeceğimizi umuyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -858,7 +858,7 @@
     {
       "id": "q_ders10_5a40cce9",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Biz artık gidiyoruz; fakat yeniden görüşeceğimizi umuyorum.)",
+      "sentence": "Biz artık gidiyoruz; fakat yeniden görüşeceğimizi umuyorum.",
       "answer": "Ние тръгваме, но се надявам, че пак ще се видим.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -866,7 +866,7 @@
     {
       "id": "q_ders10_59cf5334",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Biz artık gidiyoruz; fakat yeniden görüşeceğimizi umuyorum.",
+      "sentence": "Biz artık gidiyoruz; fakat yeniden görüşeceğimizi umuyorum.",
       "answer": "Ние тръгваме, но се надявам, че пак ще се видим.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -894,7 +894,7 @@
     {
       "id": "q_ders10_6c656558",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Разбира се! Надявам се, че това ще бъде скоро.)",
+      "sentence": "Разбира се! Надявам се, че това ще бъде скоро.",
       "answer": "Elbette! Bunun yakında olmasını umuyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -902,7 +902,7 @@
     {
       "id": "q_ders10_a70af7b8",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Elbette! Bunun yakında olmasını umuyorum.)",
+      "sentence": "Elbette! Bunun yakında olmasını umuyorum.",
       "answer": "Разбира се! Надявам се, че това ще бъде скоро.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -910,7 +910,7 @@
     {
       "id": "q_ders10_7c98bd09",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Elbette! Bunun yakında olmasını umuyorum.",
+      "sentence": "Elbette! Bunun yakında olmasını umuyorum.",
       "answer": "Разбира се! Надявам се, че това ще бъде скоро.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -937,7 +937,7 @@
     {
       "id": "q_ders10_22fb792e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Довиждане!)",
+      "sentence": "Довиждане!",
       "answer": "Hoşça kalın / görüşmek üzere!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -945,7 +945,7 @@
     {
       "id": "q_ders10_51c74bab",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hoşça kalın / görüşmek üzere!)",
+      "sentence": "Hoşça kalın / görüşmek üzere!",
       "answer": "Довиждане!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -953,7 +953,7 @@
     {
       "id": "q_ders10_924f2836",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Спомагателният глагол съм има едни и същи форми и в аорист, и в имперфект.)",
+      "sentence": "Спомагателният глагол съм има едни и същи форми и в аорист, и в имперфект.",
       "answer": "Yardımcı съм fiili, aorist ve imperfekt geçmiş zamanlarda aynı kişi biçimlerine sahiptir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -970,7 +970,7 @@
     {
       "id": "q_ders10_c095ec99",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Миналата година бях в първи курс.)",
+      "sentence": "Миналата година бях в първи курс.",
       "answer": "Geçen yıl birinci sınıftaydım.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -978,7 +978,7 @@
     {
       "id": "q_ders10_3e178f8a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Geçen yıl birinci sınıftaydım.)",
+      "sentence": "Geçen yıl birinci sınıftaydım.",
       "answer": "Миналата година бях в първи курс.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -986,7 +986,7 @@
     {
       "id": "q_ders10_00cf6aae",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Geçen yıl birinci sınıftaydım.",
+      "sentence": "Geçen yıl birinci sınıftaydım.",
       "answer": "Миналата година бях в първи курс.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1011,7 +1011,7 @@
     {
       "id": "q_ders10_26d88503",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вчера бях на лекции.)",
+      "sentence": "Вчера бях на лекции.",
       "answer": "Dün derslerdeydim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1019,7 +1019,7 @@
     {
       "id": "q_ders10_8367f0d2",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Dün derslerdeydim.)",
+      "sentence": "Dün derslerdeydim.",
       "answer": "Вчера бях на лекции.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1027,7 +1027,7 @@
     {
       "id": "q_ders10_c062daf3",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Dün derslerdeydim.",
+      "sentence": "Dün derslerdeydim.",
       "answer": "Вчера бях на лекции.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1050,7 +1050,7 @@
     {
       "id": "q_ders10_de996e2b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Втората може в някои случаи да бъде по-ясна; има и определени предпочитания към едната от тях в определени региони на българската езикова територия.)",
+      "sentence": "Втората може в някои случаи да бъде по-ясна; има и определени предпочитания към едната от тях в определени региони на българската езикова територия.",
       "answer": "İkinci dizi bazı durumlarda daha açık olabilir; ayrıca Bulgarcanın konuşulduğu bazı bölgelerde dizilerden birine yönelik kullanım tercihi bulunabilir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1067,7 +1067,7 @@
     {
       "id": "q_ders10_94ceb901",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Утре ще пътуваме за София.)",
+      "sentence": "Утре ще пътуваме за София.",
       "answer": "Yarın Sofya’ya seyahat edeceğiz.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1075,7 +1075,7 @@
     {
       "id": "q_ders10_c4ef7375",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yarın Sofya’ya seyahat edeceğiz.)",
+      "sentence": "Yarın Sofya’ya seyahat edeceğiz.",
       "answer": "Утре ще пътуваме за София.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1083,7 +1083,7 @@
     {
       "id": "q_ders10_e14a0140",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yarın Sofya’ya seyahat edeceğiz.",
+      "sentence": "Yarın Sofya’ya seyahat edeceğiz.",
       "answer": "Утре ще пътуваме за София.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1107,7 +1107,7 @@
     {
       "id": "q_ders10_335d3c84",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Той няма да се върне вече никога.)",
+      "sentence": "Той няма да се върне вече никога.",
       "answer": "O artık hiçbir zaman geri dönmeyecek.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1115,7 +1115,7 @@
     {
       "id": "q_ders10_b971a527",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: O artık hiçbir zaman geri dönmeyecek.)",
+      "sentence": "O artık hiçbir zaman geri dönmeyecek.",
       "answer": "Той няма да се върне вече никога.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1123,7 +1123,7 @@
     {
       "id": "q_ders10_1856a718",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: O artık hiçbir zaman geri dönmeyecek.",
+      "sentence": "O artık hiçbir zaman geri dönmeyecek.",
       "answer": "Той няма да се върне вече никога.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1149,7 +1149,7 @@
     {
       "id": "q_ders10_9b715260",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Утре ще изкача върха.)",
+      "sentence": "Утре ще изкача върха.",
       "answer": "Yarın zirveye çıkacağım.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1157,7 +1157,7 @@
     {
       "id": "q_ders10_866e0d2b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yarın zirveye çıkacağım.)",
+      "sentence": "Yarın zirveye çıkacağım.",
       "answer": "Утре ще изкача върха.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1165,7 +1165,7 @@
     {
       "id": "q_ders10_90e15db4",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yarın zirveye çıkacağım.",
+      "sentence": "Yarın zirveye çıkacağım.",
       "answer": "Утре ще изкача върха.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1188,7 +1188,7 @@
     {
       "id": "q_ders10_b3c17d1b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Рано сутринта бих тръгнал към върха.)",
+      "sentence": "Рано сутринта бих тръгнал към върха.",
       "answer": "Sabah erkenden zirveye doğru yola çıkardım / çıkmak isterdim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1196,7 +1196,7 @@
     {
       "id": "q_ders10_8c2e0ce5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Sabah erkenden zirveye doğru yola çıkardım / çıkmak isterdim.)",
+      "sentence": "Sabah erkenden zirveye doğru yola çıkardım / çıkmak isterdim.",
       "answer": "Рано сутринта бих тръгнал към върха.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1204,7 +1204,7 @@
     {
       "id": "q_ders10_9cd8eb76",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sabah erkenden zirveye doğru yola çıkardım / çıkmak isterdim.",
+      "sentence": "Sabah erkenden zirveye doğru yola çıkardım / çıkmak isterdim.",
       "answer": "Рано сутринта бих тръгнал към върха.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1229,7 +1229,7 @@
     {
       "id": "q_ders10_a3c54b88",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Говорещият казва, че не би тръгнал сега, не би тръгнал вечер, а би тръгнал само рано сутрин.)",
+      "sentence": "Говорещият казва, че не би тръгнал сега, не би тръгнал вечер, а би тръгнал само рано сутрин.",
       "answer": "Konuşmacı şimdi veya akşam yola çıkmayacağını; yalnızca sabah erken saatte çıkacağını ifade etmektedir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1246,7 +1246,7 @@
     {
       "id": "q_ders10_d28d727f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Сложните форми винаги съдържат особена форма на спомагателния глагол съм: бих, би, би, бихме, бихте, биха.)",
+      "sentence": "Сложните форми винаги съдържат особена форма на спомагателния глагол съм: бих, би, би, бихме, бихте, биха.",
       "answer": "Birleşik şart kipi biçimleri, съм yardımcı fiilinin özel biçimlerinden birini içerir: бих, би, би, бихме, бихте, биха.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1263,7 +1263,7 @@
     {
       "id": "q_ders10_c1eb99c5",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Бих хапнал една круша.)",
+      "sentence": "Бих хапнал една круша.",
       "answer": "Bir armut yerdim / bir armut yemek isterdim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1271,7 +1271,7 @@
     {
       "id": "q_ders10_f67b85aa",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bir armut yerdim / bir armut yemek isterdim.)",
+      "sentence": "Bir armut yerdim / bir armut yemek isterdim.",
       "answer": "Бих хапнал една круша.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1279,7 +1279,7 @@
     {
       "id": "q_ders10_c4405b16",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bir armut yerdim / bir armut yemek isterdim.",
+      "sentence": "Bir armut yerdim / bir armut yemek isterdim.",
       "answer": "Бих хапнал една круша.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1302,7 +1302,7 @@
     {
       "id": "q_ders10_a755d42c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Простите форми се образуват с наставки -вам, -ям, -ам, но се срещат рядко в съвременния език.)",
+      "sentence": "Простите форми се образуват с наставки -вам, -ям, -ам, но се срещат рядко в съвременния език.",
       "answer": "Basit şart biçimleri -вам, -ям, -ам ekleriyle yapılabilir; fakat çağdaş Bulgarcada seyrektir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1319,7 +1319,7 @@
     {
       "id": "q_ders10_94ccae8c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ядвам една круша е равносилно на: Бих изял една круша.)",
+      "sentence": "Ядвам една круша е равносилно на: Бих изял една круша.",
       "answer": "Ядвам една круша ifadesi, Бих изял една круша “Bir armut yerdim” ifadesine eşdeğerdir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1327,7 +1327,7 @@
     {
       "id": "q_ders10_24fddba1",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ядвам една круша ifadesi, Бих изял една круша “Bir armut yerdim” ifadesine eşdeğerdir.)",
+      "sentence": "Ядвам една круша ifadesi, Бих изял една круша “Bir armut yerdim” ifadesine eşdeğerdir.",
       "answer": "Ядвам една круша е равносилно на: Бих изял една круша.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1335,7 +1335,7 @@
     {
       "id": "q_ders10_f24cf5df",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ядвам една круша ifadesi, Бих изял една круша “Bir armut yerdim” ifadesine eşdeğerdir.",
+      "sentence": "Ядвам една круша ifadesi, Бих изял една круша “Bir armut yerdim” ifadesine eşdeğerdir.",
       "answer": "Ядвам една круша е равносилно на: Бих изял една круша.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1362,7 +1362,7 @@
     {
       "id": "q_ders10_8e18058a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз съм студентка.)",
+      "sentence": "Аз съм студентка.",
       "answer": "Ben öğrenciyim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1370,7 +1370,7 @@
     {
       "id": "q_ders10_d481f8f5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ben öğrenciyim.)",
+      "sentence": "Ben öğrenciyim.",
       "answer": "Аз съм студентка.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1378,7 +1378,7 @@
     {
       "id": "q_ders10_0a22a3d6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Следвам българска филология във Великотърновския университет.)",
+      "sentence": "Следвам българска филология във Великотърновския университет.",
       "answer": "Veliko Tırnovo Üniversitesinde Bulgar Filolojisi okuyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1386,7 +1386,7 @@
     {
       "id": "q_ders10_70c160fe",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Veliko Tırnovo Üniversitesinde Bulgar Filolojisi okuyorum.)",
+      "sentence": "Veliko Tırnovo Üniversitesinde Bulgar Filolojisi okuyorum.",
       "answer": "Следвам българска филология във Великотърновския университет.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1394,7 +1394,7 @@
     {
       "id": "q_ders10_5c23d94c",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Veliko Tırnovo Üniversitesinde Bulgar Filolojisi okuyorum.",
+      "sentence": "Veliko Tırnovo Üniversitesinde Bulgar Filolojisi okuyorum.",
       "answer": "Следвам българска филология във Великотърновския университет.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1419,7 +1419,7 @@
     {
       "id": "q_ders10_45b70982",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Искам да стана учителка по български език и литература.)",
+      "sentence": "Искам да стана учителка по български език и литература.",
       "answer": "Bulgar dili ve edebiyatı öğretmeni olmak istiyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1427,7 +1427,7 @@
     {
       "id": "q_ders10_eb7084c9",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bulgar dili ve edebiyatı öğretmeni olmak istiyorum.)",
+      "sentence": "Bulgar dili ve edebiyatı öğretmeni olmak istiyorum.",
       "answer": "Искам да стана учителка по български език и литература.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1435,7 +1435,7 @@
     {
       "id": "q_ders10_e019def9",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bulgar dili ve edebiyatı öğretmeni olmak istiyorum.",
+      "sentence": "Bulgar dili ve edebiyatı öğretmeni olmak istiyorum.",
       "answer": "Искам да стана учителка по български език и литература.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1463,7 +1463,7 @@
     {
       "id": "q_ders10_a98b84ae",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Сега съм в първи курс.)",
+      "sentence": "Сега съм в първи курс.",
       "answer": "Şimdi birinci sınıftayım.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1471,7 +1471,7 @@
     {
       "id": "q_ders10_80fc0c08",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Şimdi birinci sınıftayım.)",
+      "sentence": "Şimdi birinci sınıftayım.",
       "answer": "Сега съм в първи курс.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1479,7 +1479,7 @@
     {
       "id": "q_ders10_096bbbab",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Şimdi birinci sınıftayım.",
+      "sentence": "Şimdi birinci sınıftayım.",
       "answer": "Сега съм в първи курс.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1503,7 +1503,7 @@
     {
       "id": "q_ders10_323d3ce9",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Сестра ми следва право.)",
+      "sentence": "Сестра ми следва право.",
       "answer": "Kız kardeşim hukuk okuyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1511,7 +1511,7 @@
     {
       "id": "q_ders10_7e266840",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Kız kardeşim hukuk okuyor.)",
+      "sentence": "Kız kardeşim hukuk okuyor.",
       "answer": "Сестра ми следва право.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1519,7 +1519,7 @@
     {
       "id": "q_ders10_816a30d0",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Kız kardeşim hukuk okuyor.",
+      "sentence": "Kız kardeşim hukuk okuyor.",
       "answer": "Сестра ми следва право.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1542,7 +1542,7 @@
     {
       "id": "q_ders10_fe3600f6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Тя е в четвърти курс.)",
+      "sentence": "Тя е в четвърти курс.",
       "answer": "O dördüncü sınıfta.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1550,7 +1550,7 @@
     {
       "id": "q_ders10_ad78bb72",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: O dördüncü sınıfta.)",
+      "sentence": "O dördüncü sınıfta.",
       "answer": "Тя е в четвърти курс.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1558,7 +1558,7 @@
     {
       "id": "q_ders10_28607135",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: O dördüncü sınıfta.",
+      "sentence": "O dördüncü sınıfta.",
       "answer": "Тя е в четвърти курс.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1582,7 +1582,7 @@
     {
       "id": "q_ders10_d929ed49",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Иска да стане адвокат.)",
+      "sentence": "Иска да стане адвокат.",
       "answer": "Avukat olmak istiyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1590,7 +1590,7 @@
     {
       "id": "q_ders10_e0e5d226",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Avukat olmak istiyor.)",
+      "sentence": "Avukat olmak istiyor.",
       "answer": "Иска да стане адвокат.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1598,7 +1598,7 @@
     {
       "id": "q_ders10_c2925ca5",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Avukat olmak istiyor.",
+      "sentence": "Avukat olmak istiyor.",
       "answer": "Иска да стане адвокат.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1621,7 +1621,7 @@
     {
       "id": "q_ders10_ec68fd65",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз имам и брат.)",
+      "sentence": "Аз имам и брат.",
       "answer": "Bir erkek kardeşim de var.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1629,7 +1629,7 @@
     {
       "id": "q_ders10_0dc2e10b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bir erkek kardeşim de var.)",
+      "sentence": "Bir erkek kardeşim de var.",
       "answer": "Аз имам и брат.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1637,7 +1637,7 @@
     {
       "id": "q_ders10_8b361c1c",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bir erkek kardeşim de var.",
+      "sentence": "Bir erkek kardeşim de var.",
       "answer": "Аз имам и брат.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1660,7 +1660,7 @@
     {
       "id": "q_ders10_aa6946f7",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Той е лекар.)",
+      "sentence": "Той е лекар.",
       "answer": "O doktordur.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1668,7 +1668,7 @@
     {
       "id": "q_ders10_290339da",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: O doktordur.)",
+      "sentence": "O doktordur.",
       "answer": "Той е лекар.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1676,7 +1676,7 @@
     {
       "id": "q_ders10_263d6440",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Работи в една поликлиника в Бургас.)",
+      "sentence": "Работи в една поликлиника в Бургас.",
       "answer": "Burgaz’daki bir poliklinikte çalışıyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1684,7 +1684,7 @@
     {
       "id": "q_ders10_9adb2da5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Burgaz’daki bir poliklinikte çalışıyor.)",
+      "sentence": "Burgaz’daki bir poliklinikte çalışıyor.",
       "answer": "Работи в една поликлиника в Бургас.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1692,7 +1692,7 @@
     {
       "id": "q_ders10_25a3ad22",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Burgaz’daki bir poliklinikte çalışıyor.",
+      "sentence": "Burgaz’daki bir poliklinikte çalışıyor.",
       "answer": "Работи в една поликлиника в Бургас.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1716,7 +1716,7 @@
     {
       "id": "q_ders10_1a90089a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Неговата жена е медицинска сестра.)",
+      "sentence": "Неговата жена е медицинска сестра.",
       "answer": "Onun eşi hemşiredir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1724,7 +1724,7 @@
     {
       "id": "q_ders10_d20288b4",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Onun eşi hemşiredir.)",
+      "sentence": "Onun eşi hemşiredir.",
       "answer": "Неговата жена е медицинска сестра.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1732,7 +1732,7 @@
     {
       "id": "q_ders10_ab1c94f2",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Onun eşi hemşiredir.",
+      "sentence": "Onun eşi hemşiredir.",
       "answer": "Неговата жена е медицинска сестра.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1756,7 +1756,7 @@
     {
       "id": "q_ders10_41b7c175",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Те имат едно дете – момиче.)",
+      "sentence": "Те имат едно дете – момиче.",
       "answer": "Onların bir çocukları var; kız çocuğu.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1764,7 +1764,7 @@
     {
       "id": "q_ders10_e42707f6",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Onların bir çocukları var; kız çocuğu.)",
+      "sentence": "Onların bir çocukları var; kız çocuğu.",
       "answer": "Те имат едно дете – момиче.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10",
@@ -1773,7 +1773,7 @@
     {
       "id": "q_ders10_12815322",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Onların bir çocukları var; kız çocuğu.",
+      "sentence": "Onların bir çocukları var; kız çocuğu.",
       "answer": "Те имат едно дете – момиче.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1797,7 +1797,7 @@
     {
       "id": "q_ders10_e08516cc",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: То е на две години.)",
+      "sentence": "То е на две години.",
       "answer": "O iki yaşındadır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1805,7 +1805,7 @@
     {
       "id": "q_ders10_c3a1df4b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: O iki yaşındadır.)",
+      "sentence": "O iki yaşındadır.",
       "answer": "То е на две години.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1813,7 +1813,7 @@
     {
       "id": "q_ders10_1660327b",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: O iki yaşındadır.",
+      "sentence": "O iki yaşındadır.",
       "answer": "То е на две години.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1837,7 +1837,7 @@
     {
       "id": "q_ders10_0301ad97",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз много обичам племенницата си.)",
+      "sentence": "Аз много обичам племенницата си.",
       "answer": "Yeğenimi çok seviyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1845,7 +1845,7 @@
     {
       "id": "q_ders10_d51aba69",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yeğenimi çok seviyorum.)",
+      "sentence": "Yeğenimi çok seviyorum.",
       "answer": "Аз много обичам племенницата си.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1853,7 +1853,7 @@
     {
       "id": "q_ders10_563addfd",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yeğenimi çok seviyorum.",
+      "sentence": "Yeğenimi çok seviyorum.",
       "answer": "Аз много обичам племенницата си.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1877,7 +1877,7 @@
     {
       "id": "q_ders10_18cb5b8e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Госпожо Николова, разрешете да Ви представя господин Попов!)",
+      "sentence": "Госпожо Николова, разрешете да Ви представя господин Попов!",
       "answer": "Bayan Nikolova, size Bay Popov’u tanıtmama izin verin!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1885,7 +1885,7 @@
     {
       "id": "q_ders10_cd6638e0",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bayan Nikolova, size Bay Popov’u tanıtmama izin verin!)",
+      "sentence": "Bayan Nikolova, size Bay Popov’u tanıtmama izin verin!",
       "answer": "Госпожо Николова, разрешете да Ви представя господин Попов!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1893,7 +1893,7 @@
     {
       "id": "q_ders10_c2823811",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bayan Nikolova, size Bay Popov’u tanıtmama izin verin!",
+      "sentence": "Bayan Nikolova, size Bay Popov’u tanıtmama izin verin!",
       "answer": "Госпожо Николова, разрешете да Ви представя господин Попов!",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1920,7 +1920,7 @@
     {
       "id": "q_ders10_9395c829",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Приятно ми е, Николова.)",
+      "sentence": "Приятно ми е, Николова.",
       "answer": "Memnun oldum, Nikolova.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1928,7 +1928,7 @@
     {
       "id": "q_ders10_b8016a19",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Memnun oldum, Nikolova.)",
+      "sentence": "Memnun oldum, Nikolova.",
       "answer": "Приятно ми е, Николова.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1936,7 +1936,7 @@
     {
       "id": "q_ders10_d8bb32f5",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Memnun oldum, Nikolova.",
+      "sentence": "Memnun oldum, Nikolova.",
       "answer": "Приятно ми е, Николова.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1959,7 +1959,7 @@
     {
       "id": "q_ders10_8a9d36ee",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вие българка ли сте?)",
+      "sentence": "Вие българка ли сте?",
       "answer": "Siz Bulgar mısınız? (kadın)",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1967,7 +1967,7 @@
     {
       "id": "q_ders10_9d647666",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Siz Bulgar mısınız? (kadın))",
+      "sentence": "Siz Bulgar mısınız? (kadın)",
       "answer": "Вие българка ли сте?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -1975,7 +1975,7 @@
     {
       "id": "q_ders10_c0255534",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Siz Bulgar mısınız? (kadın)",
+      "sentence": "Siz Bulgar mısınız? (kadın)",
       "answer": "Вие българка ли сте?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -1998,7 +1998,7 @@
     {
       "id": "q_ders10_b04a6095",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Не, рускиня.)",
+      "sentence": "Не, рускиня.",
       "answer": "Hayır, Rusum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2006,7 +2006,7 @@
     {
       "id": "q_ders10_ebcdc70f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hayır, Rusum.)",
+      "sentence": "Hayır, Rusum.",
       "answer": "Не, рускиня.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2014,7 +2014,7 @@
     {
       "id": "q_ders10_84effae2",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Много хубаво говорите български.)",
+      "sentence": "Много хубаво говорите български.",
       "answer": "Bulgarcayı çok güzel konuşuyorsunuz.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2022,7 +2022,7 @@
     {
       "id": "q_ders10_8c5151a3",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bulgarcayı çok güzel konuşuyorsunuz.)",
+      "sentence": "Bulgarcayı çok güzel konuşuyorsunuz.",
       "answer": "Много хубаво говорите български.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2030,7 +2030,7 @@
     {
       "id": "q_ders10_1411e6b5",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bulgarcayı çok güzel konuşuyorsunuz.",
+      "sentence": "Bulgarcayı çok güzel konuşuyorsunuz.",
       "answer": "Много хубаво говорите български.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -2053,7 +2053,7 @@
     {
       "id": "q_ders10_20cde05d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Майка ми е българка.)",
+      "sentence": "Майка ми е българка.",
       "answer": "Annem Bulgardır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2061,7 +2061,7 @@
     {
       "id": "q_ders10_3dc09089",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Annem Bulgardır.)",
+      "sentence": "Annem Bulgardır.",
       "answer": "Майка ми е българка.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2069,7 +2069,7 @@
     {
       "id": "q_ders10_aaa1a73c",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Annem Bulgardır.",
+      "sentence": "Annem Bulgardır.",
       "answer": "Майка ми е българка.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -2092,7 +2092,7 @@
     {
       "id": "q_ders10_ab528026",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Какво правите в София? На екскурзия ли сте?)",
+      "sentence": "Какво правите в София? На екскурзия ли сте?",
       "answer": "Sofya’da ne yapıyorsunuz? Gezi için mi buradasınız?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2100,7 +2100,7 @@
     {
       "id": "q_ders10_503bf4c4",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Sofya’da ne yapıyorsunuz? Gezi için mi buradasınız?)",
+      "sentence": "Sofya’da ne yapıyorsunuz? Gezi için mi buradasınız?",
       "answer": "Какво правите в София? На екскурзия ли сте?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2108,7 +2108,7 @@
     {
       "id": "q_ders10_9cc851ee",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sofya’da ne yapıyorsunuz? Gezi için mi buradasınız?",
+      "sentence": "Sofya’da ne yapıyorsunuz? Gezi için mi buradasınız?",
       "answer": "Какво правите в София? На екскурзия ли сте?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -2135,7 +2135,7 @@
     {
       "id": "q_ders10_b2590f62",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Студентка съм. Следвам българска филология в Софийския университет „Св. Климент Охридски“.)",
+      "sentence": "Студентка съм. Следвам българска филология в Софийския университет „Св. Климент Охридски“.",
       "answer": "Öğrenciyim. Sofya “Aziz Kliment Ohridski” Üniversitesinde Bulgar Filolojisi okuyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2152,7 +2152,7 @@
     {
       "id": "q_ders10_25bd8d98",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: В първи. Вие също ли сте студент?)",
+      "sentence": "В първи. Вие също ли сте студент?",
       "answer": "Birinci sınıftayım. Siz de öğrenci misiniz?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2160,7 +2160,7 @@
     {
       "id": "q_ders10_b65783ed",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Birinci sınıftayım. Siz de öğrenci misiniz?)",
+      "sentence": "Birinci sınıftayım. Siz de öğrenci misiniz?",
       "answer": "В първи. Вие също ли сте студент?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2168,7 +2168,7 @@
     {
       "id": "q_ders10_b387e69c",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Birinci sınıftayım. Siz de öğrenci misiniz?",
+      "sentence": "Birinci sınıftayım. Siz de öğrenci misiniz?",
       "answer": "В първи. Вие също ли сте студент?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -2194,7 +2194,7 @@
     {
       "id": "q_ders10_e0e04dc6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да. Аз следвам в Инженерно-строителния институт.)",
+      "sentence": "Да. Аз следвам в Инженерно-строителния институт.",
       "answer": "Evet. İnşaat Mühendisliği Enstitüsünde okuyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2202,7 +2202,7 @@
     {
       "id": "q_ders10_3d7b67c1",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Evet. İnşaat Mühendisliği Enstitüsünde okuyorum.)",
+      "sentence": "Evet. İnşaat Mühendisliği Enstitüsünde okuyorum.",
       "answer": "Да. Аз следвам в Инженерно-строителния институт.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2210,7 +2210,7 @@
     {
       "id": "q_ders10_91491575",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Evet. İnşaat Mühendisliği Enstitüsünde okuyorum.",
+      "sentence": "Evet. İnşaat Mühendisliği Enstitüsünde okuyorum.",
       "answer": "Да. Аз следвам в Инженерно-строителния институт.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -2235,7 +2235,7 @@
     {
       "id": "q_ders10_3cd8d7f1",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Значи искате да станете строителен инженер.)",
+      "sentence": "Значи искате да станете строителен инженер.",
       "answer": "Demek inşaat mühendisi olmak istiyorsunuz.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2243,7 +2243,7 @@
     {
       "id": "q_ders10_f3300e6b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Demek inşaat mühendisi olmak istiyorsunuz.)",
+      "sentence": "Demek inşaat mühendisi olmak istiyorsunuz.",
       "answer": "Значи искате да станете строителен инженер.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2251,7 +2251,7 @@
     {
       "id": "q_ders10_0447d53c",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Demek inşaat mühendisi olmak istiyorsunuz.",
+      "sentence": "Demek inşaat mühendisi olmak istiyorsunuz.",
       "answer": "Значи искате да станете строителен инженер.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -2276,7 +2276,7 @@
     {
       "id": "q_ders10_da193fe6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Не, ще бъда архитект. Всъщност аз следвам архитектура.)",
+      "sentence": "Не, ще бъда архитект. Всъщност аз следвам архитектура.",
       "answer": "Hayır, mimar olacağım. Aslında mimarlık okuyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2284,7 +2284,7 @@
     {
       "id": "q_ders10_8189168b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hayır, mimar olacağım. Aslında mimarlık okuyorum.)",
+      "sentence": "Hayır, mimar olacağım. Aslında mimarlık okuyorum.",
       "answer": "Не, ще бъда архитект. Всъщност аз следвам архитектура.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2292,7 +2292,7 @@
     {
       "id": "q_ders10_d1ff8342",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hayır, mimar olacağım. Aslında mimarlık okuyorum.",
+      "sentence": "Hayır, mimar olacağım. Aslında mimarlık okuyorum.",
       "answer": "Не, ще бъда архитект. Всъщност аз следвам архитектура.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -2319,7 +2319,7 @@
     {
       "id": "q_ders10_6b666df7",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: А родителите Ви какви са?)",
+      "sentence": "А родителите Ви какви са?",
       "answer": "Peki anne ve babanızın meslekleri nedir?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2327,7 +2327,7 @@
     {
       "id": "q_ders10_69e872d1",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Peki anne ve babanızın meslekleri nedir?)",
+      "sentence": "Peki anne ve babanızın meslekleri nedir?",
       "answer": "А родителите Ви какви са?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2335,7 +2335,7 @@
     {
       "id": "q_ders10_efcbc662",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Peki anne ve babanızın meslekleri nedir?",
+      "sentence": "Peki anne ve babanızın meslekleri nedir?",
       "answer": "А родителите Ви какви са?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -2359,7 +2359,7 @@
     {
       "id": "q_ders10_0d8a806f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Баща ми е учител, майка ми е лекарка, дядо ми е строител.)",
+      "sentence": "Баща ми е учител, майка ми е лекарка, дядо ми е строител.",
       "answer": "Babam öğretmen, annem doktor, dedem inşaat işçisidir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2376,7 +2376,7 @@
     {
       "id": "q_ders10_c39587ae",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: И моят баща е лекар, но майка ми е медицинска сестра. Работят в една болница. Аз искам да стана учителка по литература.)",
+      "sentence": "И моят баща е лекар, но майка ми е медицинска сестра. Работят в една болница. Аз искам да стана учителка по литература.",
       "answer": "Benim babam da doktor, fakat annem hemşire. Bir hastanede çalışıyorlar. Ben edebiyat öğretmeni olmak istiyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2393,7 +2393,7 @@
     {
       "id": "q_ders10_c021e05c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Това е много хубава професия, особено за жена.)",
+      "sentence": "Това е много хубава професия, особено за жена.",
       "answer": "Bu, özellikle bir kadın için çok güzel bir meslektir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2401,7 +2401,7 @@
     {
       "id": "q_ders10_b8e19712",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bu, özellikle bir kadın için çok güzel bir meslektir.)",
+      "sentence": "Bu, özellikle bir kadın için çok güzel bir meslektir.",
       "answer": "Това е много хубава професия, особено за жена.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2409,7 +2409,7 @@
     {
       "id": "q_ders10_75cc50b2",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bu, özellikle bir kadın için çok güzel bir meslektir.",
+      "sentence": "Bu, özellikle bir kadın için çok güzel bir meslektir.",
       "answer": "Това е много хубава професия, особено за жена.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -2436,7 +2436,7 @@
     {
       "id": "q_ders10_4bde09d6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Брат ми също следва, но той учи в Икономическия институт.)",
+      "sentence": "Брат ми също следва, но той учи в Икономическия институт.",
       "answer": "Erkek kardeşim de yükseköğrenim görüyor; Ekonomi Enstitüsünde okuyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2444,7 +2444,7 @@
     {
       "id": "q_ders10_9d440788",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Erkek kardeşim de yükseköğrenim görüyor; Ekonomi Enstitüsünde okuyor.)",
+      "sentence": "Erkek kardeşim de yükseköğrenim görüyor; Ekonomi Enstitüsünde okuyor.",
       "answer": "Брат ми също следва, но той учи в Икономическия институт.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2452,7 +2452,7 @@
     {
       "id": "q_ders10_c4cbb146",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Erkek kardeşim de yükseköğrenim görüyor; Ekonomi Enstitüsünde okuyor.",
+      "sentence": "Erkek kardeşim de yükseköğrenim görüyor; Ekonomi Enstitüsünde okuyor.",
       "answer": "Брат ми също следва, но той учи в Икономическия институт.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -2481,7 +2481,7 @@
     {
       "id": "q_ders10_44e8ac6f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Каква специалност? Счетоводство ли?)",
+      "sentence": "Каква специалност? Счетоводство ли?",
       "answer": "Hangi bölüm? Muhasebe mi?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2489,7 +2489,7 @@
     {
       "id": "q_ders10_9c33d7b8",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hangi bölüm? Muhasebe mi?)",
+      "sentence": "Hangi bölüm? Muhasebe mi?",
       "answer": "Каква специалност? Счетоводство ли?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2497,7 +2497,7 @@
     {
       "id": "q_ders10_18a97b1e",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hangi bölüm? Muhasebe mi?",
+      "sentence": "Hangi bölüm? Muhasebe mi?",
       "answer": "Каква специалност? Счетоводство ли?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -2520,7 +2520,7 @@
     {
       "id": "q_ders10_d3282815",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да, обаче той не иска да бъде счетоводител. Мечтае да стане бизнесмен или банкер.)",
+      "sentence": "Да, обаче той не иска да бъде счетоводител. Мечтае да стане бизнесмен или банкер.",
       "answer": "Evet; fakat muhasebeci olmak istemiyor. İş insanı veya bankacı olmayı hayal ediyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2537,7 +2537,7 @@
     {
       "id": "q_ders10_d96410f5",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Моята сестра е художничка, но работи като моделиер в една модна къща. Преди това беше аранжьор, после стана дизайнер.)",
+      "sentence": "Моята сестра е художничка, но работи като моделиер в една модна къща. Преди това беше аранжьор, после стана дизайнер.",
       "answer": "Kız kardeşim ressamdır; fakat bir moda evinde modelist olarak çalışıyor. Önceden vitrin/dekor düzenleyicisiydi, sonra tasarımcı oldu.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2554,7 +2554,7 @@
     {
       "id": "q_ders10_96eadd3d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Аз имам колежка, която също работи в модна къща, но тя е шивачка.)",
+      "sentence": "Аз имам колежка, която също работи в модна къща, но тя е шивачка.",
       "answer": "Benim de bir moda evinde çalışan bir okul arkadaşım var; fakat o terzidir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2571,7 +2571,7 @@
     {
       "id": "q_ders10_8eaf330e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: И аз работя в свободното време като продавачка в един магазин за облекло.)",
+      "sentence": "И аз работя в свободното време като продавачка в един магазин за облекло.",
       "answer": "Ben de boş zamanlarımda bir giyim mağazasında satış görevlisi olarak çalışıyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2588,7 +2588,7 @@
     {
       "id": "q_ders10_576f7403",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: А пък аз работя като сервитьор в един нощен ресторант.)",
+      "sentence": "А пък аз работя като сервитьор в един нощен ресторант.",
       "answer": "Ben ise bir gece restoranında garson olarak çalışıyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2596,7 +2596,7 @@
     {
       "id": "q_ders10_ab8b2934",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ben ise bir gece restoranında garson olarak çalışıyorum.)",
+      "sentence": "Ben ise bir gece restoranında garson olarak çalışıyorum.",
       "answer": "А пък аз работя като сервитьор в един нощен ресторант.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2604,7 +2604,7 @@
     {
       "id": "q_ders10_8be5822e",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ben ise bir gece restoranında garson olarak çalışıyorum.",
+      "sentence": "Ben ise bir gece restoranında garson olarak çalışıyorum.",
       "answer": "А пък аз работя като сервитьор в един нощен ресторант.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -2633,7 +2633,7 @@
     {
       "id": "q_ders10_c82df7fa",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Много мои колеги работят: един е книжар, друг е вестникар, трети е печатар.)",
+      "sentence": "Много мои колеги работят: един е книжар, друг е вестникар, трети е печатар.",
       "answer": "Birçok arkadaşım çalışıyor: biri kitapçı, diğeri gazete satıcısı, üçüncüsü matbaa işçisidir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2650,7 +2650,7 @@
     {
       "id": "q_ders10_bb090cd9",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: И аз имам колеги, които работят. Сред тях има таксиметров шофьор, ватман, редактор в печатница.)",
+      "sentence": "И аз имам колеги, които работят. Сред тях има таксиметров шофьор, ватман, редактор в печатница.",
       "answer": "Benim de çalışan arkadaşlarım var. Aralarında taksi şoförü, tramvay sürücüsü ve matbaada editör bulunuyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2667,7 +2667,7 @@
     {
       "id": "q_ders10_92616cf0",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Две от колежките работят във фризьорски салон – едната е маникюристка, а другата – фризьорка.)",
+      "sentence": "Две от колежките работят във фризьорски салон – едната е маникюристка, а другата – фризьорка.",
       "answer": "Arkadaşlardan ikisi kuaför salonunda çalışıyor; biri manikürcü, diğeri kuafördür.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2684,7 +2684,7 @@
     {
       "id": "q_ders10_92883abc",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Една позната от Медицинска академия е санитарка в болница, а нейната приятелка е филоложка, но работи като камериерка в хотел „Родина“.)",
+      "sentence": "Една позната от Медицинска академия е санитарка в болница, а нейната приятелка е филоложка, но работи като камериерка в хотел „Родина“.",
       "answer": "Tıp Akademisinden bir tanıdık hastanede hasta bakıcıdır; onun arkadaşı filologdur fakat “Rodina” Otelinde kat görevlisi olarak çalışır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2701,7 +2701,7 @@
     {
       "id": "q_ders10_b4a49ef1",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Моята приятелка следва журналистика и вече е репортер в един столичен вестник.)",
+      "sentence": "Моята приятелка следва журналистика и вече е репортер в един столичен вестник.",
       "answer": "Arkadaşım gazetecilik okuyor ve şimdiden başkentteki bir gazetede muhabirdir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2718,7 +2718,7 @@
     {
       "id": "q_ders10_266b4424",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Майката на една от колежките ми е журналистка, а баща ѝ е писател.)",
+      "sentence": "Майката на една от колежките ми е журналистка, а баща ѝ е писател.",
       "answer": "Arkadaşlarımdan birinin annesi gazeteci, babası ise yazardır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2735,7 +2735,7 @@
     {
       "id": "q_ders10_09e0b88b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да, в големите градове могат да се срещнат хора с различни професии: артисти, художници, поети, журналисти, учени, хора от различни области на науката и изкуствата, издатели, учители, лекари, инженери, архитекти, проектанти, програмисти, археолози, чиновници в различни учреждения, а също и обикновени работници, които работят в различни фабрики и заводи, в строителни фирми и много други сфери на производството.)",
+      "sentence": "Да, в големите градове могат да се срещнат хора с различни професии: артисти, художници, поети, журналисти, учени, хора от различни области на науката и изкуствата, издатели, учители, лекари, инженери, архитекти, проектанти, програмисти, археолози, чиновници в различни учреждения, а също и обикновени работници, които работят в различни фабрики и заводи, в строителни фирми и много други сфери на производството.",
       "answer": "Evet, büyük şehirlerde farklı mesleklerden insanlara rastlanabilir: sanatçılar, ressamlar, şairler, gazeteciler, bilim insanları, bilim ve sanatın farklı alanlarında çalışanlar, yayıncılar, öğretmenler, doktorlar, mühendisler, mimarlar, proje uzmanları, programcılar, arkeologlar, çeşitli kurumlarda memurlar ve ayrıca fabrikalarda, tesislerde, inşaat şirketlerinde ve üretimin birçok başka alanında çalışan işçiler.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2752,7 +2752,7 @@
     {
       "id": "q_ders10_a4faf35c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Разбира се, това е така.)",
+      "sentence": "Разбира се, това е така.",
       "answer": "Elbette, bu böyledir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2760,7 +2760,7 @@
     {
       "id": "q_ders10_c1c8f041",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Elbette, bu böyledir.)",
+      "sentence": "Elbette, bu böyledir.",
       "answer": "Разбира се, това е така.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2768,7 +2768,7 @@
     {
       "id": "q_ders10_c22f155e",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Elbette, bu böyledir.",
+      "sentence": "Elbette, bu böyledir.",
       "answer": "Разбира се, това е така.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -2792,7 +2792,7 @@
     {
       "id": "q_ders10_7fa181e6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Е, радвам се, че се запознахме! Надявам се скоро да се видим!)",
+      "sentence": "Е, радвам се, че се запознахме! Надявам се скоро да се видим!",
       "answer": "Tanıştığımıza sevindim! Yakında görüşmeyi umuyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2809,7 +2809,7 @@
     {
       "id": "q_ders10_bc26d7c4",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Може би! Светът е малък! Запишете ми телефона, ако обичате, и ми се обадете, когато имате възможност. Елате ми на гости.)",
+      "sentence": "Може би! Светът е малък! Запишете ми телефона, ако обичате, и ми се обадете, когато имате възможност. Елате ми на гости.",
       "answer": "Belki! Dünya küçük! Lütfen telefon numaramı kaydedin ve fırsatınız olduğunda beni arayın. Bana misafirliğe gelin.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2826,7 +2826,7 @@
     {
       "id": "q_ders10_2bef36b0",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Благодаря! До скоро.)",
+      "sentence": "Благодаря! До скоро.",
       "answer": "Teşekkür ederim! Yakında görüşürüz.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2834,7 +2834,7 @@
     {
       "id": "q_ders10_07eafa05",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Teşekkür ederim! Yakında görüşürüz.)",
+      "sentence": "Teşekkür ederim! Yakında görüşürüz.",
       "answer": "Благодаря! До скоро.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2842,7 +2842,7 @@
     {
       "id": "q_ders10_7f050052",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Довиждане!)",
+      "sentence": "Довиждане!",
       "answer": "Hoşça kalın!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2850,7 +2850,7 @@
     {
       "id": "q_ders10_e59b10f7",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hoşça kalın!)",
+      "sentence": "Hoşça kalın!",
       "answer": "Довиждане!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2858,7 +2858,7 @@
     {
       "id": "q_ders10_6aafc2c2",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: В книжовния език.)",
+      "sentence": "В книжовния език.",
       "answer": "Standart/yazı dilinde.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2866,7 +2866,7 @@
     {
       "id": "q_ders10_423b125a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Standart/yazı dilinde.)",
+      "sentence": "Standart/yazı dilinde.",
       "answer": "В книжовния език.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2874,7 +2874,7 @@
     {
       "id": "q_ders10_025de9cd",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Заповядайте! Какво желаете?)",
+      "sentence": "Заповядайте! Какво желаете?",
       "answer": "Buyurun! Ne arzu edersiniz?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2882,7 +2882,7 @@
     {
       "id": "q_ders10_4232d12a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Buyurun! Ne arzu edersiniz?)",
+      "sentence": "Buyurun! Ne arzu edersiniz?",
       "answer": "Заповядайте! Какво желаете?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2890,7 +2890,7 @@
     {
       "id": "q_ders10_71151340",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Бих искала да видя костюмите. Искам да си купя летен костюм. Вече няколко дни търся, но не мога да си намеря нищо подходящо.)",
+      "sentence": "Бих искала да видя костюмите. Искам да си купя летен костюм. Вече няколко дни търся, но не мога да си намеря нищо подходящо.",
       "answer": "Takım elbiselere bakmak isterim. Yazlık bir takım satın almak istiyorum. Birkaç gündür arıyorum fakat kendime uygun bir şey bulamıyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2907,7 +2907,7 @@
     {
       "id": "q_ders10_b6886af9",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Какви костюми Ви интересуват? В момента имаме много хубави копринени костюми.)",
+      "sentence": "Какви костюми Ви интересуват? В момента имаме много хубави копринени костюми.",
       "answer": "Ne tür takımlarla ilgileniyorsunuz? Şu anda çok güzel ipek takımlarımız var.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2924,7 +2924,7 @@
     {
       "id": "q_ders10_3e0de34e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ето тези са официални, а тези са по-всекидневни. Но и едните, и другите са много елегантни. Кой номер носите?)",
+      "sentence": "Ето тези са официални, а тези са по-всекидневни. Но и едните, и другите са много елегантни. Кой номер носите?",
       "answer": "Şunlar resmî, bunlar ise daha günlük. Fakat her iki grup da çok şık. Kaç beden giyiyorsunuz?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2941,7 +2941,7 @@
     {
       "id": "q_ders10_64161f1a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: 46-и.)",
+      "sentence": "46-и.",
       "answer": "46 beden.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2949,7 +2949,7 @@
     {
       "id": "q_ders10_e0790a89",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: 46 beden.)",
+      "sentence": "46 beden.",
       "answer": "46-и.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2957,7 +2957,7 @@
     {
       "id": "q_ders10_fc8fe05e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Вижте този. Това е последната дума на модата. Той е 46-и размер.)",
+      "sentence": "Вижте този. Това е последната дума на модата. Той е 46-и размер.",
       "answer": "Şuna bakın. Bu modanın son yeniliği. 46 bedendir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2974,7 +2974,7 @@
     {
       "id": "q_ders10_caf51175",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да. Моделът ми харесва, но цветът е много ярък. Нямате ли нещо по-тъмно? Освен това искам да е с ревери и двуреден.)",
+      "sentence": "Да. Моделът ми харесва, но цветът е много ярък. Нямате ли нещо по-тъмно? Освен това искам да е с ревери и двуреден.",
       "answer": "Evet, modeli beğendim; fakat rengi çok parlak. Daha koyu bir şeyiniz yok mu? Ayrıca yakalı ve kruvaze olmasını istiyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -2991,7 +2991,7 @@
     {
       "id": "q_ders10_56ab6f21",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Има, но той е спортен модел и е с панталон. Ето, заповядайте.)",
+      "sentence": "Има, но той е спортен модел и е с панталон. Ето, заповядайте.",
       "answer": "Var; fakat o spor bir model ve pantolonludur. Buyurun.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3008,7 +3008,7 @@
     {
       "id": "q_ders10_d88a2709",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Този ми харесва повече. Може ли да го премеря?)",
+      "sentence": "Този ми харесва повече. Може ли да го премеря?",
       "answer": "Bunu daha çok beğendim. Deneyebilir miyim?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3016,7 +3016,7 @@
     {
       "id": "q_ders10_1470adf3",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bunu daha çok beğendim. Deneyebilir miyim?)",
+      "sentence": "Bunu daha çok beğendim. Deneyebilir miyim?",
       "answer": "Този ми харесва повече. Може ли да го премеря?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3024,7 +3024,7 @@
     {
       "id": "q_ders10_416331b4",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bunu daha çok beğendim. Deneyebilir miyim?",
+      "sentence": "Bunu daha çok beğendim. Deneyebilir miyim?",
       "answer": "Този ми харесва повече. Може ли да го премеря?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3052,7 +3052,7 @@
     {
       "id": "q_ders10_d6f6c8fd",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да, разбира се! Елате в пробната.)",
+      "sentence": "Да, разбира се! Елате в пробната.",
       "answer": "Evet, elbette! Deneme kabinine gelin.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3060,7 +3060,7 @@
     {
       "id": "q_ders10_32a6a7e3",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Evet, elbette! Deneme kabinine gelin.)",
+      "sentence": "Evet, elbette! Deneme kabinine gelin.",
       "answer": "Да, разбира се! Елате в пробната.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3068,7 +3068,7 @@
     {
       "id": "q_ders10_1a7f1e32",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Evet, elbette! Deneme kabinine gelin.",
+      "sentence": "Evet, elbette! Deneme kabinine gelin.",
       "answer": "Да, разбира се! Елате в пробната.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3093,7 +3093,7 @@
     {
       "id": "q_ders10_3fe60a23",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Много съжалявам, но той ми е малък. Малко ме стяга. Нямате ли по-големи номера?)",
+      "sentence": "Много съжалявам, но той ми е малък. Малко ме стяга. Нямате ли по-големи номера?",
       "answer": "Üzgünüm ama bu bana küçük. Biraz sıkıyor. Daha büyük bedeniniz yok mu?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3110,7 +3110,7 @@
     {
       "id": "q_ders10_93cbe2ef",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Има. Ето този е 48-и номер, но е с пола.)",
+      "sentence": "Има. Ето този е 48-и номер, но е с пола.",
       "answer": "Var. Bu 48 beden; fakat eteklidir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3118,7 +3118,7 @@
     {
       "id": "q_ders10_25df9c5c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Var. Bu 48 beden; fakat eteklidir.)",
+      "sentence": "Var. Bu 48 beden; fakat eteklidir.",
       "answer": "Има. Ето този е 48-и номер, но е с пола.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3126,7 +3126,7 @@
     {
       "id": "q_ders10_6e50c210",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Var. Bu 48 beden; fakat eteklidir.",
+      "sentence": "Var. Bu 48 beden; fakat eteklidir.",
       "answer": "Има. Ето този е 48-и номер, но е с пола.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3154,7 +3154,7 @@
     {
       "id": "q_ders10_c684105d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Дайте ми, ако обичате, да го премеря.)",
+      "sentence": "Дайте ми, ако обичате, да го премеря.",
       "answer": "Lütfen onu denemem için verin.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3162,7 +3162,7 @@
     {
       "id": "q_ders10_ad205b28",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Lütfen onu denemem için verin.)",
+      "sentence": "Lütfen onu denemem için verin.",
       "answer": "Дайте ми, ако обичате, да го премеря.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3170,7 +3170,7 @@
     {
       "id": "q_ders10_cc16c4cf",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Lütfen onu denemem için verin.",
+      "sentence": "Lütfen onu denemem için verin.",
       "answer": "Дайте ми, ако обичате, да го премеря.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3196,7 +3196,7 @@
     {
       "id": "q_ders10_bcbeceaa",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Заповядайте! Мисля, че този ще Ви стане.)",
+      "sentence": "Заповядайте! Мисля, че този ще Ви стане.",
       "answer": "Buyurun! Bunun size olacağını düşünüyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3204,7 +3204,7 @@
     {
       "id": "q_ders10_935108b9",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Buyurun! Bunun size olacağını düşünüyorum.)",
+      "sentence": "Buyurun! Bunun size olacağını düşünüyorum.",
       "answer": "Заповядайте! Мисля, че този ще Ви стане.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3212,7 +3212,7 @@
     {
       "id": "q_ders10_45157b52",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Buyurun! Bunun size olacağını düşünüyorum.",
+      "sentence": "Buyurun! Bunun size olacağını düşünüyorum.",
       "answer": "Заповядайте! Мисля, че този ще Ви стане.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3238,7 +3238,7 @@
     {
       "id": "q_ders10_f47a5a0b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Кажете, моля Ви, отива ли ми?)",
+      "sentence": "Кажете, моля Ви, отива ли ми?",
       "answer": "Lütfen söyleyin, bana yakışıyor mu?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3246,7 +3246,7 @@
     {
       "id": "q_ders10_9f56625b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Lütfen söyleyin, bana yakışıyor mu?)",
+      "sentence": "Lütfen söyleyin, bana yakışıyor mu?",
       "answer": "Кажете, моля Ви, отива ли ми?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3254,7 +3254,7 @@
     {
       "id": "q_ders10_ae9372db",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Lütfen söyleyin, bana yakışıyor mu?",
+      "sentence": "Lütfen söyleyin, bana yakışıyor mu?",
       "answer": "Кажете, моля Ви, отива ли ми?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3279,7 +3279,7 @@
     {
       "id": "q_ders10_87d022bf",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да. Много добре Ви стои, а цветът Ви отива на лицето.)",
+      "sentence": "Да. Много добре Ви стои, а цветът Ви отива на лицето.",
       "answer": "Evet. Üzerinizde çok iyi duruyor; rengi de yüzünüze yakışıyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3296,7 +3296,7 @@
     {
       "id": "q_ders10_6ec54962",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: И аз се харесвам. Това естествена коприна ли е?)",
+      "sentence": "И аз се харесвам. Това естествена коприна ли е?",
       "answer": "Ben de kendimi beğendim. Bu doğal ipek mi?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3304,7 +3304,7 @@
     {
       "id": "q_ders10_ff571bc8",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ben de kendimi beğendim. Bu doğal ipek mi?)",
+      "sentence": "Ben de kendimi beğendim. Bu doğal ipek mi?",
       "answer": "И аз се харесвам. Това естествена коприна ли е?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3312,7 +3312,7 @@
     {
       "id": "q_ders10_85a56b5c",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ben de kendimi beğendim. Bu doğal ipek mi?",
+      "sentence": "Ben de kendimi beğendim. Bu doğal ipek mi?",
       "answer": "И аз се харесвам. Това естествена коприна ли е?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3340,7 +3340,7 @@
     {
       "id": "q_ders10_31ff2aa7",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Не. 30 на сто е коприна и 70 на сто синтетика. Но той не се мачка и лесно се почиства. Това е много удобно.)",
+      "sentence": "Не. 30 на сто е коприна и 70 на сто синтетика. Но той не се мачка и лесно се почиства. Това е много удобно.",
       "answer": "Hayır. Yüzde 30’u ipek, yüzde 70’i sentetiktir. Fakat kırışmaz ve kolay temizlenir. Bu çok kullanışlıdır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3357,7 +3357,7 @@
     {
       "id": "q_ders10_7abf72d7",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Колко струва?)",
+      "sentence": "Колко струва?",
       "answer": "Ne kadar?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3365,7 +3365,7 @@
     {
       "id": "q_ders10_5a0710d8",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ne kadar?)",
+      "sentence": "Ne kadar?",
       "answer": "Колко струва?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3373,7 +3373,7 @@
     {
       "id": "q_ders10_4d9e5471",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: 95 лева.)",
+      "sentence": "95 лева.",
       "answer": "95 leva.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3381,7 +3381,7 @@
     {
       "id": "q_ders10_34430ecb",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: 95 leva.)",
+      "sentence": "95 leva.",
       "answer": "95 лева.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3389,7 +3389,7 @@
     {
       "id": "q_ders10_9fec7ce6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Ще го взема. Не е много скъп.)",
+      "sentence": "Ще го взема. Не е много скъп.",
       "answer": "Bunu alacağım. Çok pahalı değil.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3397,7 +3397,7 @@
     {
       "id": "q_ders10_0f3bc6aa",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bunu alacağım. Çok pahalı değil.)",
+      "sentence": "Bunu alacağım. Çok pahalı değil.",
       "answer": "Ще го взема. Не е много скъп.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3405,7 +3405,7 @@
     {
       "id": "q_ders10_0d2094e7",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bunu alacağım. Çok pahalı değil.",
+      "sentence": "Bunu alacağım. Çok pahalı değil.",
       "answer": "Ще го взема. Не е много скъп.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3431,7 +3431,7 @@
     {
       "id": "q_ders10_e769ebf5",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Моля, платете на касата и елате да го вземете.)",
+      "sentence": "Моля, платете на касата и елате да го вземете.",
       "answer": "Lütfen kasada ödeyin ve gelip ürünü alın.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3439,7 +3439,7 @@
     {
       "id": "q_ders10_2d663c2d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Lütfen kasada ödeyin ve gelip ürünü alın.)",
+      "sentence": "Lütfen kasada ödeyin ve gelip ürünü alın.",
       "answer": "Моля, платете на касата и елате да го вземете.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3447,7 +3447,7 @@
     {
       "id": "q_ders10_0dcfb5af",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Lütfen kasada ödeyin ve gelip ürünü alın.",
+      "sentence": "Lütfen kasada ödeyin ve gelip ürünü alın.",
       "answer": "Моля, платете на касата и елате да го вземете.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3475,7 +3475,7 @@
     {
       "id": "q_ders10_ac0692b5",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Честито и със здраве да го носите!)",
+      "sentence": "Честито и със здраве да го носите!",
       "answer": "Hayırlı olsun, güle güle giyin!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3483,7 +3483,7 @@
     {
       "id": "q_ders10_f5f8b475",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hayırlı olsun, güle güle giyin!)",
+      "sentence": "Hayırlı olsun, güle güle giyin!",
       "answer": "Честито и със здраве да го носите!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3491,7 +3491,7 @@
     {
       "id": "q_ders10_2fe397f7",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hayırlı olsun, güle güle giyin!",
+      "sentence": "Hayırlı olsun, güle güle giyin!",
       "answer": "Честито и със здраве да го носите!",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3517,7 +3517,7 @@
     {
       "id": "q_ders10_2b48c811",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Много Ви благодаря!)",
+      "sentence": "Много Ви благодаря!",
       "answer": "Çok teşekkür ederim!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3525,7 +3525,7 @@
     {
       "id": "q_ders10_04242f0c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Çok teşekkür ederim!)",
+      "sentence": "Çok teşekkür ederim!",
       "answer": "Много Ви благодаря!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3533,7 +3533,7 @@
     {
       "id": "q_ders10_42025ceb",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: А какви блузи имате?)",
+      "sentence": "А какви блузи имате?",
       "answer": "Peki ne tür bluzlarınız var?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3541,7 +3541,7 @@
     {
       "id": "q_ders10_87425bc6",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Peki ne tür bluzlarınız var?)",
+      "sentence": "Peki ne tür bluzlarınız var?",
       "answer": "А какви блузи имате?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3549,7 +3549,7 @@
     {
       "id": "q_ders10_8ac4f8fa",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Peki ne tür bluzlarınız var?",
+      "sentence": "Peki ne tür bluzlarınız var?",
       "answer": "А какви блузи имате?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3572,7 +3572,7 @@
     {
       "id": "q_ders10_2447dbcd",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Зимни или летни? Вчера получихме много хубави дамски и мъжки пуловери.)",
+      "sentence": "Зимни или летни? Вчера получихме много хубави дамски и мъжки пуловери.",
       "answer": "Kışlık mı yazlık mı? Dün çok güzel kadın ve erkek kazakları geldi.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3589,7 +3589,7 @@
     {
       "id": "q_ders10_24c3874a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Бихте ли ми показали мъжките пуловери?)",
+      "sentence": "Бихте ли ми показали мъжките пуловери?",
       "answer": "Erkek kazaklarını gösterebilir misiniz?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3597,7 +3597,7 @@
     {
       "id": "q_ders10_333bfc25",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Erkek kazaklarını gösterebilir misiniz?)",
+      "sentence": "Erkek kazaklarını gösterebilir misiniz?",
       "answer": "Бихте ли ми показали мъжките пуловери?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3605,7 +3605,7 @@
     {
       "id": "q_ders10_0c4dc651",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Erkek kazaklarını gösterebilir misiniz?",
+      "sentence": "Erkek kazaklarını gösterebilir misiniz?",
       "answer": "Бихте ли ми показали мъжките пуловери?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3630,7 +3630,7 @@
     {
       "id": "q_ders10_eb1b06eb",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Разбира се! Ето тези. Те са от мерино.)",
+      "sentence": "Разбира се! Ето тези. Те са от мерино.",
       "answer": "Elbette! İşte bunlar. Merinos yünündendir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3638,7 +3638,7 @@
     {
       "id": "q_ders10_55dfb16e",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Elbette! İşte bunlar. Merinos yünündendir.)",
+      "sentence": "Elbette! İşte bunlar. Merinos yünündendir.",
       "answer": "Разбира се! Ето тези. Те са от мерино.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3646,7 +3646,7 @@
     {
       "id": "q_ders10_95d9c9c8",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Elbette! İşte bunlar. Merinos yünündendir.",
+      "sentence": "Elbette! İşte bunlar. Merinos yünündendir.",
       "answer": "Разбира се! Ето тези. Те са от мерино.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3673,7 +3673,7 @@
     {
       "id": "q_ders10_b652af1b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Наистина са много хубави. Мъжът ми има нужда от нов пуловер, но в момента нямам достатъчно пари. Имате ли много от тях?)",
+      "sentence": "Наистина са много хубави. Мъжът ми има нужда от нов пуловер, но в момента нямам достатъчно пари. Имате ли много от тях?",
       "answer": "Gerçekten çok güzeller. Eşimin yeni bir kazağa ihtiyacı var; fakat şu anda yeterli param yok. Bunlardan çok var mı?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3690,7 +3690,7 @@
     {
       "id": "q_ders10_1080ded9",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да, имаме. Сега е лято и едва ли ще се продадат скоро. Но нищо не се знае.)",
+      "sentence": "Да, имаме. Сега е лято и едва ли ще се продадат скоро. Но нищо не се знае.",
       "answer": "Evet, var. Şimdi yaz ve yakın zamanda satılmaları pek olası değil. Ama belli olmaz.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3707,7 +3707,7 @@
     {
       "id": "q_ders10_c5e42a73",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: За всеки случай бихте ли ми запазили един? Утре след работа ще дойдем с мъжа ми да го купим. До колко часа е отворен магазинът?)",
+      "sentence": "За всеки случай бихте ли ми запазили един? Утре след работа ще дойдем с мъжа ми да го купим. До колко часа е отворен магазинът?",
       "answer": "Her ihtimale karşı benim için bir tane ayırabilir misiniz? Yarın işten sonra eşimle gelip satın alacağız. Mağaza saat kaça kadar açık?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3724,7 +3724,7 @@
     {
       "id": "q_ders10_d9d72404",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да, разбира се! Работим до 20 часа.)",
+      "sentence": "Да, разбира се! Работим до 20 часа.",
       "answer": "Evet, elbette! Saat 20.00’ye kadar çalışıyoruz.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3732,7 +3732,7 @@
     {
       "id": "q_ders10_37afd0dd",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Evet, elbette! Saat 20.00’ye kadar çalışıyoruz.)",
+      "sentence": "Evet, elbette! Saat 20.00’ye kadar çalışıyoruz.",
       "answer": "Да, разбира се! Работим до 20 часа.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3740,7 +3740,7 @@
     {
       "id": "q_ders10_902b4322",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Evet, elbette! Saat 20.00’ye kadar çalışıyoruz.",
+      "sentence": "Evet, elbette! Saat 20.00’ye kadar çalışıyoruz.",
       "answer": "Да, разбира се! Работим до 20 часа.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3765,7 +3765,7 @@
     {
       "id": "q_ders10_f1dfe45b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Много сте любезна. Благодаря Ви! Довиждане!)",
+      "sentence": "Много сте любезна. Благодаря Ви! Довиждане!",
       "answer": "Çok naziksiniz. Teşekkür ederim! Hoşça kalın!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3773,7 +3773,7 @@
     {
       "id": "q_ders10_5fafa148",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Çok naziksiniz. Teşekkür ederim! Hoşça kalın!)",
+      "sentence": "Çok naziksiniz. Teşekkür ederim! Hoşça kalın!",
       "answer": "Много сте любезна. Благодаря Ви! Довиждане!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3781,7 +3781,7 @@
     {
       "id": "q_ders10_6320ffe0",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Çok naziksiniz. Teşekkür ederim! Hoşça kalın!",
+      "sentence": "Çok naziksiniz. Teşekkür ederim! Hoşça kalın!",
       "answer": "Много сте любезна. Благодаря Ви! Довиждане!",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3806,7 +3806,7 @@
     {
       "id": "q_ders10_3dcd5d6d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Довиждане и пак заповядайте!)",
+      "sentence": "Довиждане и пак заповядайте!",
       "answer": "Hoşça kalın, yine bekleriz!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3814,7 +3814,7 @@
     {
       "id": "q_ders10_83f2da06",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hoşça kalın, yine bekleriz!)",
+      "sentence": "Hoşça kalın, yine bekleriz!",
       "answer": "Довиждане и пак заповядайте!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3822,7 +3822,7 @@
     {
       "id": "q_ders10_1641631c",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hoşça kalın, yine bekleriz!",
+      "sentence": "Hoşça kalın, yine bekleriz!",
       "answer": "Довиждане и пак заповядайте!",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3845,7 +3845,7 @@
     {
       "id": "q_ders10_5e2c2d5b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Може ли да видя тези обувки?)",
+      "sentence": "Може ли да видя тези обувки?",
       "answer": "Bu ayakkabılara bakabilir miyim?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3853,7 +3853,7 @@
     {
       "id": "q_ders10_3354dc2f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bu ayakkabılara bakabilir miyim?)",
+      "sentence": "Bu ayakkabılara bakabilir miyim?",
       "answer": "Може ли да видя тези обувки?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3861,7 +3861,7 @@
     {
       "id": "q_ders10_2309f317",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bu ayakkabılara bakabilir miyim?",
+      "sentence": "Bu ayakkabılara bakabilir miyim?",
       "answer": "Може ли да видя тези обувки?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3886,7 +3886,7 @@
     {
       "id": "q_ders10_80c9da41",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Кои? Черните ли?)",
+      "sentence": "Кои? Черните ли?",
       "answer": "Hangileri? Siyah olanlar mı?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3894,7 +3894,7 @@
     {
       "id": "q_ders10_51e9049d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hangileri? Siyah olanlar mı?)",
+      "sentence": "Hangileri? Siyah olanlar mı?",
       "answer": "Кои? Черните ли?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3902,7 +3902,7 @@
     {
       "id": "q_ders10_0c41163b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да. Затворените с висок ток.)",
+      "sentence": "Да. Затворените с висок ток.",
       "answer": "Evet. Kapalı, yüksek topuklu olanlar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3910,7 +3910,7 @@
     {
       "id": "q_ders10_58c054c0",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Evet. Kapalı, yüksek topuklu olanlar.)",
+      "sentence": "Evet. Kapalı, yüksek topuklu olanlar.",
       "answer": "Да. Затворените с висок ток.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3918,7 +3918,7 @@
     {
       "id": "q_ders10_14aeac1c",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Evet. Kapalı, yüksek topuklu olanlar.",
+      "sentence": "Evet. Kapalı, yüksek topuklu olanlar.",
       "answer": "Да. Затворените с висок ток.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -3942,7 +3942,7 @@
     {
       "id": "q_ders10_3b29c0db",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Кой номер носите?)",
+      "sentence": "Кой номер носите?",
       "answer": "Kaç numara giyiyorsunuz?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3950,7 +3950,7 @@
     {
       "id": "q_ders10_a0b83c9e",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Kaç numara giyiyorsunuz?)",
+      "sentence": "Kaç numara giyiyorsunuz?",
       "answer": "Кой номер носите?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3958,7 +3958,7 @@
     {
       "id": "q_ders10_1ef63d6b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: 38-и.)",
+      "sentence": "38-и.",
       "answer": "38.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3966,7 +3966,7 @@
     {
       "id": "q_ders10_1c7075a3",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: 38.)",
+      "sentence": "38.",
       "answer": "38-и.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3974,7 +3974,7 @@
     {
       "id": "q_ders10_b020372f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: От този номер нямаме. Този номер най-много се търси и свърши бързо. Но има 38 и половина.)",
+      "sentence": "От този номер нямаме. Този номер най-много се търси и свърши бързо. Но има 38 и половина.",
       "answer": "Bu numaradan yok. En çok bu numara aranıyor ve çabuk tükendi. Fakat 38 buçuk var.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3991,7 +3991,7 @@
     {
       "id": "q_ders10_bd199153",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Дайте, моля Ви, да ги пробвам!)",
+      "sentence": "Дайте, моля Ви, да ги пробвам!",
       "answer": "Lütfen denemem için verin!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -3999,7 +3999,7 @@
     {
       "id": "q_ders10_353ca6b2",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Lütfen denemem için verin!)",
+      "sentence": "Lütfen denemem için verin!",
       "answer": "Дайте, моля Ви, да ги пробвам!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4007,7 +4007,7 @@
     {
       "id": "q_ders10_b6c6fc69",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Lütfen denemem için verin!",
+      "sentence": "Lütfen denemem için verin!",
       "answer": "Дайте, моля Ви, да ги пробвам!",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -4032,7 +4032,7 @@
     {
       "id": "q_ders10_d7471256",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Заповядайте!)",
+      "sentence": "Заповядайте!",
       "answer": "Buyurun!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4040,7 +4040,7 @@
     {
       "id": "q_ders10_bdedd697",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Buyurun!)",
+      "sentence": "Buyurun!",
       "answer": "Заповядайте!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4048,7 +4048,7 @@
     {
       "id": "q_ders10_2ad6669d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Не. Широки са. А може ли да пробвам 37 и половина?)",
+      "sentence": "Не. Широки са. А може ли да пробвам 37 и половина?",
       "answer": "Hayır, geniş geliyorlar. 37 buçuğu deneyebilir miyim?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4065,7 +4065,7 @@
     {
       "id": "q_ders10_255df6ed",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да. Ето Ви.)",
+      "sentence": "Да. Ето Ви.",
       "answer": "Evet. Buyurun.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4073,7 +4073,7 @@
     {
       "id": "q_ders10_58ad0aa2",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Evet. Buyurun.)",
+      "sentence": "Evet. Buyurun.",
       "answer": "Да. Ето Ви.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4081,7 +4081,7 @@
     {
       "id": "q_ders10_eba9bd03",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Тези ме стягат. Малки са.)",
+      "sentence": "Тези ме стягат. Малки са.",
       "answer": "Bunlar beni sıkıyor. Küçükler.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4089,7 +4089,7 @@
     {
       "id": "q_ders10_af95b90d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bunlar beni sıkıyor. Küçükler.)",
+      "sentence": "Bunlar beni sıkıyor. Küçükler.",
       "answer": "Тези ме стягат. Малки са.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4097,7 +4097,7 @@
     {
       "id": "q_ders10_7e395b76",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bunlar beni sıkıyor. Küçükler.",
+      "sentence": "Bunlar beni sıkıyor. Küçükler.",
       "answer": "Тези ме стягат. Малки са.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -4121,7 +4121,7 @@
     {
       "id": "q_ders10_c4643c88",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Съжалявам. Но от същия модел 38-и номер има бели.)",
+      "sentence": "Съжалявам. Но от същия модел 38-и номер има бели.",
       "answer": "Üzgünüm. Fakat aynı modelin 38 numarası beyaz renkte var.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4129,7 +4129,7 @@
     {
       "id": "q_ders10_0898d6e1",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Üzgünüm. Fakat aynı modelin 38 numarası beyaz renkte var.)",
+      "sentence": "Üzgünüm. Fakat aynı modelin 38 numarası beyaz renkte var.",
       "answer": "Съжалявам. Но от същия модел 38-и номер има бели.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4137,7 +4137,7 @@
     {
       "id": "q_ders10_5dac57e2",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Üzgünüm. Fakat aynı modelin 38 numarası beyaz renkte var.",
+      "sentence": "Üzgünüm. Fakat aynı modelin 38 numarası beyaz renkte var.",
       "answer": "Съжалявам. Но от същия модел 38-и номер има бели.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -4165,7 +4165,7 @@
     {
       "id": "q_ders10_66ca3e3e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Не. Предпочитам черни. А бихте ли ми показали тези – ниските летни обувки?)",
+      "sentence": "Не. Предпочитам черни. А бихте ли ми показали тези – ниските летни обувки?",
       "answer": "Hayır, siyahı tercih ediyorum. Peki şu alçak yazlık ayakkabıları gösterebilir misiniz?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4182,7 +4182,7 @@
     {
       "id": "q_ders10_34d00e3c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Сандалите ли? Разбира се! Заповядайте! Те са много удобни за всеки ден. Ето Вашия номер. Пробвайте ги!)",
+      "sentence": "Сандалите ли? Разбира се! Заповядайте! Те са много удобни за всеки ден. Ето Вашия номер. Пробвайте ги!",
       "answer": "Sandaletleri mi? Elbette! Buyurun! Günlük kullanım için çok rahattırlar. İşte numaranız. Deneyin!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4199,7 +4199,7 @@
     {
       "id": "q_ders10_2b476917",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Благодаря! Наистина са много удобни. Колко струват?)",
+      "sentence": "Благодаря! Наистина са много удобни. Колко струват?",
       "answer": "Teşekkür ederim! Gerçekten çok rahatlar. Ne kadar?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4207,7 +4207,7 @@
     {
       "id": "q_ders10_800982d4",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Teşekkür ederim! Gerçekten çok rahatlar. Ne kadar?)",
+      "sentence": "Teşekkür ederim! Gerçekten çok rahatlar. Ne kadar?",
       "answer": "Благодаря! Наистина са много удобни. Колко струват?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4215,7 +4215,7 @@
     {
       "id": "q_ders10_b113acce",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Teşekkür ederim! Gerçekten çok rahatlar. Ne kadar?",
+      "sentence": "Teşekkür ederim! Gerçekten çok rahatlar. Ne kadar?",
       "answer": "Благодаря! Наистина са много удобни. Колко струват?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -4241,7 +4241,7 @@
     {
       "id": "q_ders10_df14fa9e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: 58 лева.)",
+      "sentence": "58 лева.",
       "answer": "58 leva.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4249,7 +4249,7 @@
     {
       "id": "q_ders10_66d952be",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: 58 leva.)",
+      "sentence": "58 leva.",
       "answer": "58 лева.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4257,7 +4257,7 @@
     {
       "id": "q_ders10_9ca7292b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Не са евтини, но са много хубави.)",
+      "sentence": "Не са евтини, но са много хубави.",
       "answer": "Ucuz değiller ama çok güzeller.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4265,7 +4265,7 @@
     {
       "id": "q_ders10_236fd79f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ucuz değiller ama çok güzeller.)",
+      "sentence": "Ucuz değiller ama çok güzeller.",
       "answer": "Не са евтини, но са много хубави.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4273,7 +4273,7 @@
     {
       "id": "q_ders10_e6739017",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ucuz değiller ama çok güzeller.",
+      "sentence": "Ucuz değiller ama çok güzeller.",
       "answer": "Не са евтини, но са много хубави.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -4298,7 +4298,7 @@
     {
       "id": "q_ders10_46b711fe",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Те са от естествена кожа, затова са толкова скъпи. Освен това те са вносни.)",
+      "sentence": "Те са от естествена кожа, затова са толкова скъпи. Освен това те са вносни.",
       "answer": "Gerçek deriden oldukları için bu kadar pahalılar. Ayrıca ithal ürünler.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4315,7 +4315,7 @@
     {
       "id": "q_ders10_b48294c2",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: О! Те са на „Саламандър“! Ясно. Добре. Ще ги взема.)",
+      "sentence": "О! Те са на „Саламандър“! Ясно. Добре. Ще ги взема.",
       "answer": "Aa! “Salamander” markası! Anladım. Tamam, alacağım.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4323,7 +4323,7 @@
     {
       "id": "q_ders10_e791d194",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Aa! “Salamander” markası! Anladım. Tamam, alacağım.)",
+      "sentence": "Aa! “Salamander” markası! Anladım. Tamam, alacağım.",
       "answer": "О! Те са на „Саламандър“! Ясно. Добре. Ще ги взема.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4331,7 +4331,7 @@
     {
       "id": "q_ders10_329b764d",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Aa! “Salamander” markası! Anladım. Tamam, alacağım.",
+      "sentence": "Aa! “Salamander” markası! Anladım. Tamam, alacağım.",
       "answer": "О! Те са на „Саламандър“! Ясно. Добре. Ще ги взема.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -4360,7 +4360,7 @@
     {
       "id": "q_ders10_f9b5cfa5",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Платете на касата, ако обичате. Тя е зад Вас.)",
+      "sentence": "Платете на касата, ако обичате. Тя е зад Вас.",
       "answer": "Lütfen kasada ödeyin. Kasa arkanızdadır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4368,7 +4368,7 @@
     {
       "id": "q_ders10_59aa6331",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Lütfen kasada ödeyin. Kasa arkanızdadır.)",
+      "sentence": "Lütfen kasada ödeyin. Kasa arkanızdadır.",
       "answer": "Платете на касата, ако обичате. Тя е зад Вас.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4376,7 +4376,7 @@
     {
       "id": "q_ders10_394bc338",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Lütfen kasada ödeyin. Kasa arkanızdadır.",
+      "sentence": "Lütfen kasada ödeyin. Kasa arkanızdadır.",
       "answer": "Платете на касата, ако обичате. Тя е зад Вас.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -4404,7 +4404,7 @@
     {
       "id": "q_ders10_2aaa45b9",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: А белите боти колко струват?)",
+      "sentence": "А белите боти колко струват?",
       "answer": "Beyaz botlar ne kadar?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4412,7 +4412,7 @@
     {
       "id": "q_ders10_8cecdac7",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Beyaz botlar ne kadar?)",
+      "sentence": "Beyaz botlar ne kadar?",
       "answer": "А белите боти колко струват?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4420,7 +4420,7 @@
     {
       "id": "q_ders10_a9ccc366",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Beyaz botlar ne kadar?",
+      "sentence": "Beyaz botlar ne kadar?",
       "answer": "А белите боти колко струват?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -4444,7 +4444,7 @@
     {
       "id": "q_ders10_e2ffddbb",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: 100 лева. Но от Вашия номер е останал само един чифт. Искате ли да ги пробвате?)",
+      "sentence": "100 лева. Но от Вашия номер е останал само един чифт. Искате ли да ги пробвате?",
       "answer": "100 leva. Fakat sizin numaranızdan yalnızca bir çift kaldı. Denemek ister misiniz?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4461,7 +4461,7 @@
     {
       "id": "q_ders10_8f5a2f7b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: За есента ще ми трябват, но сега са ми по-необходими официални летни обувки. Затова ще се откажа.)",
+      "sentence": "За есента ще ми трябват, но сега са ми по-необходими официални летни обувки. Затова ще се откажа.",
       "answer": "Sonbaharda ihtiyacım olacak; fakat şu anda resmî yazlık ayakkabılara daha çok ihtiyacım var. Bu yüzden vazgeçeceğim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4478,7 +4478,7 @@
     {
       "id": "q_ders10_b2e41af5",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Както решите. Но те са намалени и до есента няма да останат.)",
+      "sentence": "Както решите. Но те са намалени и до есента няма да останат.",
       "answer": "Nasıl isterseniz. Fakat indirimdeler ve sonbahara kadar kalmayacaklar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4495,7 +4495,7 @@
     {
       "id": "q_ders10_84ec6e01",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: А защо са преоценени?)",
+      "sentence": "А защо са преоценени?",
       "answer": "Neden fiyatları düşürülmüş?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4503,7 +4503,7 @@
     {
       "id": "q_ders10_b3634814",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Neden fiyatları düşürülmüş?)",
+      "sentence": "Neden fiyatları düşürülmüş?",
       "answer": "А защо са преоценени?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4511,7 +4511,7 @@
     {
       "id": "q_ders10_d39eb61e",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Neden fiyatları düşürülmüş?",
+      "sentence": "Neden fiyatları düşürülmüş?",
       "answer": "А защо са преоценени?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -4534,7 +4534,7 @@
     {
       "id": "q_ders10_8249922f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Защото случайно са останали от предишния сезон. Но не са демоде. Освен това са с вълнена подплата и са от естествена кожа. Могат да се носят и през зимата. Обуйте ги.)",
+      "sentence": "Защото случайно са останали от предишния сезон. Но не са демоде. Освен това са с вълнена подплата и са от естествена кожа. Могат да се носят и през зимата. Обуйте ги.",
       "answer": "Önceki sezondan tesadüfen kaldıkları için. Fakat modası geçmiş değiller. Ayrıca yün astarlı ve gerçek deridenler. Kışın da giyilebilirler. Deneyin.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4551,7 +4551,7 @@
     {
       "id": "q_ders10_c461f720",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да, права сте. Не знам какво да правя. Колебая се, защото имам боти, но са черни. Те са здрави. Трябва само капачетата им да сменя. А тези вносни ли са?)",
+      "sentence": "Да, права сте. Не знам какво да правя. Колебая се, защото имам боти, но са черни. Те са здрави. Трябва само капачетата им да сменя. А тези вносни ли са?",
       "answer": "Evet, haklısınız. Ne yapacağımı bilmiyorum. Kararsızım; çünkü botum var ama siyah. Sağlamlar. Yalnızca topuk uçlarını değiştirmem gerekiyor. Bunlar ithal mi?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4568,7 +4568,7 @@
     {
       "id": "q_ders10_5c741484",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Не, те са български. Преценете и решете, но мисля, че ще съжалявате, ако не ги купите. Много добре изглеждат на крака.)",
+      "sentence": "Не, те са български. Преценете и решете, но мисля, че ще съжалявате, ако не ги купите. Много добре изглеждат на крака.",
       "answer": "Hayır, Bulgar malıdır. Değerlendirip karar verin; fakat satın almazsanız pişman olacağınızı düşünüyorum. Ayakta çok iyi görünüyorlar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4585,7 +4585,7 @@
     {
       "id": "q_ders10_f79cce7c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Така е. Много са хубави и са удобни. Пък и не са скъпи. Ще ги купя, пък да става каквото ще!)",
+      "sentence": "Така е. Много са хубави и са удобни. Пък и не са скъпи. Ще ги купя, пък да става каквото ще!",
       "answer": "Doğru. Çok güzel ve rahatlar. Üstelik pahalı da değiller. Satın alacağım; artık ne olursa olsun!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4602,7 +4602,7 @@
     {
       "id": "q_ders10_9620e628",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Честито! Не съжалявайте. Есента ще се радвате, че сте ги купили.)",
+      "sentence": "Честито! Не съжалявайте. Есента ще се радвате, че сте ги купили.",
       "answer": "Hayırlı olsun! Pişman olmayın. Sonbaharda aldığınıza sevineceksiniz.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4619,7 +4619,7 @@
     {
       "id": "q_ders10_98c0e937",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: А детски обувки не продавате ли? Аз търся и сандали за петгодишно момиченце.)",
+      "sentence": "А детски обувки не продавате ли? Аз търся и сандали за петгодишно момиченце.",
       "answer": "Çocuk ayakkabısı satmıyor musunuz? Beş yaşında bir kız çocuğu için sandalet de arıyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4636,7 +4636,7 @@
     {
       "id": "q_ders10_349cf51e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Може би тези ще ѝ станат?)",
+      "sentence": "Може би тези ще ѝ станат?",
       "answer": "Belki bunlar ona olur?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4644,7 +4644,7 @@
     {
       "id": "q_ders10_8723f6dd",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Belki bunlar ona olur?)",
+      "sentence": "Belki bunlar ona olur?",
       "answer": "Може би тези ще ѝ станат?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4652,7 +4652,7 @@
     {
       "id": "q_ders10_d97dd870",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Belki bunlar ona olur?",
+      "sentence": "Belki bunlar ona olur?",
       "answer": "Може би тези ще ѝ станат?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -4676,7 +4676,7 @@
     {
       "id": "q_ders10_458b8619",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да. Тези не са лоши, но ми се струват малки. Тя всъщност е на четири годинки, но е по-едра за възрастта си и има голям крак.)",
+      "sentence": "Да. Тези не са лоши, но ми се струват малки. Тя всъщност е на четири годинки, но е по-едра за възрастта си и има голям крак.",
       "answer": "Evet. Bunlar kötü değil ama bana küçük görünüyorlar. Aslında dört yaşında; fakat yaşına göre iri ve ayağı büyük.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4693,7 +4693,7 @@
     {
       "id": "q_ders10_1ed46b63",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Погледнете и тези. Но те са по-подходящи за момченца.)",
+      "sentence": "Погледнете и тези. Но те са по-подходящи за момченца.",
       "answer": "Bunlara da bakın. Fakat erkek çocuklarına daha uygundur.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4701,7 +4701,7 @@
     {
       "id": "q_ders10_446a32a8",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bunlara da bakın. Fakat erkek çocuklarına daha uygundur.)",
+      "sentence": "Bunlara da bakın. Fakat erkek çocuklarına daha uygundur.",
       "answer": "Погледнете и тези. Но те са по-подходящи за момченца.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4709,7 +4709,7 @@
     {
       "id": "q_ders10_610264be",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bunlara da bakın. Fakat erkek çocuklarına daha uygundur.",
+      "sentence": "Bunlara da bakın. Fakat erkek çocuklarına daha uygundur.",
       "answer": "Погледнете и тези. Но те са по-подходящи за момченца.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -4737,7 +4737,7 @@
     {
       "id": "q_ders10_93ccd63b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Много сте мила, благодаря Ви! Ще потърся първо в детския магазин. Там има по-голям избор.)",
+      "sentence": "Много сте мила, благодаря Ви! Ще потърся първо в детския магазин. Там има по-голям избор.",
       "answer": "Çok naziksiniz, teşekkür ederim! Önce çocuk mağazasında arayacağım. Orada daha fazla seçenek var.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4754,7 +4754,7 @@
     {
       "id": "q_ders10_ca1d5a32",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да, така е. Желая Ви успех!)",
+      "sentence": "Да, така е. Желая Ви успех!",
       "answer": "Evet, öyle. Başarılar dilerim!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4762,7 +4762,7 @@
     {
       "id": "q_ders10_dc422124",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Evet, öyle. Başarılar dilerim!)",
+      "sentence": "Evet, öyle. Başarılar dilerim!",
       "answer": "Да, така е. Желая Ви успех!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4770,7 +4770,7 @@
     {
       "id": "q_ders10_3ceb2c98",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Evet, öyle. Başarılar dilerim!",
+      "sentence": "Evet, öyle. Başarılar dilerim!",
       "answer": "Да, така е. Желая Ви успех!",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -4795,7 +4795,7 @@
     {
       "id": "q_ders10_fa186531",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Благодаря, и на Вас!)",
+      "sentence": "Благодаря, и на Вас!",
       "answer": "Teşekkür ederim, size de!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4803,7 +4803,7 @@
     {
       "id": "q_ders10_14c5cf65",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Teşekkür ederim, size de!)",
+      "sentence": "Teşekkür ederim, size de!",
       "answer": "Благодаря, и на Вас!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4811,7 +4811,7 @@
     {
       "id": "q_ders10_cb662d52",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Teşekkür ederim, size de!",
+      "sentence": "Teşekkür ederim, size de!",
       "answer": "Благодаря, и на Вас!",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -4834,7 +4834,7 @@
     {
       "id": "q_ders10_3aae338d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Мебелите ли ще си смениш?)",
+      "sentence": "Мебелите ли ще си смениш?",
       "answer": "Mobilyalarını mı değiştireceksin?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4842,7 +4842,7 @@
     {
       "id": "q_ders10_97e59bae",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Mobilyalarını mı değiştireceksin?)",
+      "sentence": "Mobilyalarını mı değiştireceksin?",
       "answer": "Мебелите ли ще си смениш?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4850,7 +4850,7 @@
     {
       "id": "q_ders10_cea7094a",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Mobilyalarını mı değiştireceksin?",
+      "sentence": "Mobilyalarını mı değiştireceksin?",
       "answer": "Мебелите ли ще си смениш?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -4874,7 +4874,7 @@
     {
       "id": "q_ders10_eaf75ea6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да. Скоро си купихме нов апартамент и сега трябва да го обзаведем. Налага се да купим всичко ново. Старите мебели ще ги занесем на вилата. А ти какво ще си купиш?)",
+      "sentence": "Да. Скоро си купихме нов апартамент и сега трябва да го обзаведем. Налага се да купим всичко ново. Старите мебели ще ги занесем на вилата. А ти какво ще си купиш?",
       "answer": "Evet. Kısa süre önce yeni bir daire aldık ve şimdi döşememiz gerekiyor. Her şeyi yeni almak zorundayız. Eski mobilyaları yazlığa götüreceğiz. Sen ne satın alacaksın?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4891,7 +4891,7 @@
     {
       "id": "q_ders10_12fc4888",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Искам да купя само един кабинетен стол за бюрото. Старият вече се счупи.)",
+      "sentence": "Искам да купя само един кабинетен стол за бюрото. Старият вече се счупи.",
       "answer": "Yalnızca çalışma masası için bir ofis sandalyesi almak istiyorum. Eskisi artık kırıldı.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4908,7 +4908,7 @@
     {
       "id": "q_ders10_e1e4bfe7",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: В момента има много хубави. Скоро ги гледах в мебелния магазин.)",
+      "sentence": "В момента има много хубави. Скоро ги гледах в мебелния магазин.",
       "answer": "Şu anda çok güzelleri var. Kısa süre önce mobilya mağazasında baktım.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4925,7 +4925,7 @@
     {
       "id": "q_ders10_10aefe2e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: А скъпи ли са?)",
+      "sentence": "А скъпи ли са?",
       "answer": "Pahalılar mı?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4933,7 +4933,7 @@
     {
       "id": "q_ders10_7ee59c57",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Pahalılar mı?)",
+      "sentence": "Pahalılar mı?",
       "answer": "А скъпи ли са?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4941,7 +4941,7 @@
     {
       "id": "q_ders10_271a6caa",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Pahalılar mı?",
+      "sentence": "Pahalılar mı?",
       "answer": "А скъпи ли са?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -4964,7 +4964,7 @@
     {
       "id": "q_ders10_ea64aeb0",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Не помня точно колко струват.)",
+      "sentence": "Не помня точно колко струват.",
       "answer": "Tam olarak ne kadar olduklarını hatırlamıyorum.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4972,7 +4972,7 @@
     {
       "id": "q_ders10_eb245eb1",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Tam olarak ne kadar olduklarını hatırlamıyorum.)",
+      "sentence": "Tam olarak ne kadar olduklarını hatırlamıyorum.",
       "answer": "Не помня точно колко струват.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -4980,7 +4980,7 @@
     {
       "id": "q_ders10_aaf617b4",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Tam olarak ne kadar olduklarını hatırlamıyorum.",
+      "sentence": "Tam olarak ne kadar olduklarını hatırlamıyorum.",
       "answer": "Не помня точно колко струват.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5004,7 +5004,7 @@
     {
       "id": "q_ders10_475a33fc",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Наши ли са или вносни?)",
+      "sentence": "Наши ли са или вносни?",
       "answer": "Yerli mi, ithal mi?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5012,7 +5012,7 @@
     {
       "id": "q_ders10_21094ed1",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yerli mi, ithal mi?)",
+      "sentence": "Yerli mi, ithal mi?",
       "answer": "Наши ли са или вносни?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5020,7 +5020,7 @@
     {
       "id": "q_ders10_f6b23cf8",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yerli mi, ithal mi?",
+      "sentence": "Yerli mi, ithal mi?",
       "answer": "Наши ли са или вносни?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5044,7 +5044,7 @@
     {
       "id": "q_ders10_331ff452",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Има и наши и вносни – румънски, полски, италиански.)",
+      "sentence": "Има и наши и вносни – румънски, полски, италиански.",
       "answer": "Hem yerli hem ithal var: Rumen, Polonya ve İtalyan ürünleri.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5052,7 +5052,7 @@
     {
       "id": "q_ders10_3e91eaba",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hem yerli hem ithal var: Rumen, Polonya ve İtalyan ürünleri.)",
+      "sentence": "Hem yerli hem ithal var: Rumen, Polonya ve İtalyan ürünleri.",
       "answer": "Има и наши и вносни – румънски, полски, италиански.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10",
@@ -5061,7 +5061,7 @@
     {
       "id": "q_ders10_c0583031",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hem yerli hem ithal var: Rumen, Polonya ve İtalyan ürünleri.",
+      "sentence": "Hem yerli hem ithal var: Rumen, Polonya ve İtalyan ürünleri.",
       "answer": "Има и наши и вносни – румънски, полски, италиански.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5087,7 +5087,7 @@
     {
       "id": "q_ders10_c72195f7",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Дано не са ги продали вече!)",
+      "sentence": "Дано не са ги продали вече!",
       "answer": "Umarım çoktan satmamışlardır!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5095,7 +5095,7 @@
     {
       "id": "q_ders10_ce7a10a2",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Umarım çoktan satmamışlardır!)",
+      "sentence": "Umarım çoktan satmamışlardır!",
       "answer": "Дано не са ги продали вече!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5103,7 +5103,7 @@
     {
       "id": "q_ders10_f1da08ab",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Umarım çoktan satmamışlardır!",
+      "sentence": "Umarım çoktan satmamışlardır!",
       "answer": "Дано не са ги продали вече!",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5128,7 +5128,7 @@
     {
       "id": "q_ders10_cb6b5042",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Имаше много. Едва ли са ги продали толкова бързо.)",
+      "sentence": "Имаше много. Едва ли са ги продали толкова бързо.",
       "answer": "Çok vardı. Bu kadar hızlı satmış olmaları pek olası değil.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5136,7 +5136,7 @@
     {
       "id": "q_ders10_7dcf665c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Çok vardı. Bu kadar hızlı satmış olmaları pek olası değil.)",
+      "sentence": "Çok vardı. Bu kadar hızlı satmış olmaları pek olası değil.",
       "answer": "Имаше много. Едва ли са ги продали толкова бързо.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5144,7 +5144,7 @@
     {
       "id": "q_ders10_8d3e6794",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Çok vardı. Bu kadar hızlı satmış olmaları pek olası değil.",
+      "sentence": "Çok vardı. Bu kadar hızlı satmış olmaları pek olası değil.",
       "answer": "Имаше много. Едва ли са ги продали толкова бързо.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5172,7 +5172,7 @@
     {
       "id": "q_ders10_dad97241",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Нека видим първо какво има в универсалния магазин.)",
+      "sentence": "Нека видим първо какво има в универсалния магазин.",
       "answer": "Önce büyük mağazada ne olduğuna bakalım.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5180,7 +5180,7 @@
     {
       "id": "q_ders10_369bc1df",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Önce büyük mağazada ne olduğuna bakalım.)",
+      "sentence": "Önce büyük mağazada ne olduğuna bakalım.",
       "answer": "Нека видим първо какво има в универсалния магазин.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5188,7 +5188,7 @@
     {
       "id": "q_ders10_6459b349",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Önce büyük mağazada ne olduğuna bakalım.",
+      "sentence": "Önce büyük mağazada ne olduğuna bakalım.",
       "answer": "Нека видим първо какво има в универсалния магазин.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5215,7 +5215,7 @@
     {
       "id": "q_ders10_5fb241e3",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Този стол ми харесва, но е много голям, а моето бюро е малко.)",
+      "sentence": "Този стол ми харесва, но е много голям, а моето бюро е малко.",
       "answer": "Bu sandalye hoşuma gidiyor; fakat çok büyük, masam ise küçük.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5232,7 +5232,7 @@
     {
       "id": "q_ders10_92bd1f51",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: А този с по-малката облегалка не ти ли харесва?)",
+      "sentence": "А този с по-малката облегалка не ти ли харесва?",
       "answer": "Daha küçük sırtlıklı olanı beğenmiyor musun?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5240,7 +5240,7 @@
     {
       "id": "q_ders10_3260757c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Daha küçük sırtlıklı olanı beğenmiyor musun?)",
+      "sentence": "Daha küçük sırtlıklı olanı beğenmiyor musun?",
       "answer": "А този с по-малката облегалка не ти ли харесва?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5248,7 +5248,7 @@
     {
       "id": "q_ders10_147c2ec4",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Daha küçük sırtlıklı olanı beğenmiyor musun?",
+      "sentence": "Daha küçük sırtlıklı olanı beğenmiyor musun?",
       "answer": "А този с по-малката облегалка не ти ли харесва?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5276,7 +5276,7 @@
     {
       "id": "q_ders10_a1d84197",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да, този е по-подходящ. Пък е и кожен.)",
+      "sentence": "Да, този е по-подходящ. Пък е и кожен.",
       "answer": "Evet, bu daha uygun. Üstelik deridir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5284,7 +5284,7 @@
     {
       "id": "q_ders10_cc794aae",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Evet, bu daha uygun. Üstelik deridir.)",
+      "sentence": "Evet, bu daha uygun. Üstelik deridir.",
       "answer": "Да, този е по-подходящ. Пък е и кожен.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5292,7 +5292,7 @@
     {
       "id": "q_ders10_2f309750",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Evet, bu daha uygun. Üstelik deridir.",
+      "sentence": "Evet, bu daha uygun. Üstelik deridir.",
       "answer": "Да, този е по-подходящ. Пък е и кожен.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5318,7 +5318,7 @@
     {
       "id": "q_ders10_2ae5ad12",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Тогава да попитаме колко струва. Ето, продавачката е там.)",
+      "sentence": "Тогава да попитаме колко струва. Ето, продавачката е там.",
       "answer": "O hâlde fiyatını soralım. Satış görevlisi orada.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5326,7 +5326,7 @@
     {
       "id": "q_ders10_89f3e6c5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: O hâlde fiyatını soralım. Satış görevlisi orada.)",
+      "sentence": "O hâlde fiyatını soralım. Satış görevlisi orada.",
       "answer": "Тогава да попитаме колко струва. Ето, продавачката е там.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5334,7 +5334,7 @@
     {
       "id": "q_ders10_93c09a36",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: O hâlde fiyatını soralım. Satış görevlisi orada.",
+      "sentence": "O hâlde fiyatını soralım. Satış görevlisi orada.",
       "answer": "Тогава да попитаме колко струва. Ето, продавачката е там.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5362,7 +5362,7 @@
     {
       "id": "q_ders10_326e1cb6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Извинете, колко струва този стол?)",
+      "sentence": "Извинете, колко струва този стол?",
       "answer": "Affedersiniz, bu sandalye ne kadar?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5370,7 +5370,7 @@
     {
       "id": "q_ders10_fd97911a",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Affedersiniz, bu sandalye ne kadar?)",
+      "sentence": "Affedersiniz, bu sandalye ne kadar?",
       "answer": "Извинете, колко струва този стол?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5378,7 +5378,7 @@
     {
       "id": "q_ders10_ec5cbc82",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Affedersiniz, bu sandalye ne kadar?",
+      "sentence": "Affedersiniz, bu sandalye ne kadar?",
       "answer": "Извинете, колко струва този стол?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5402,7 +5402,7 @@
     {
       "id": "q_ders10_27997b26",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Сто и тридесет лева.)",
+      "sentence": "Сто и тридесет лева.",
       "answer": "Yüz otuz leva.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5410,7 +5410,7 @@
     {
       "id": "q_ders10_6b8cfc32",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yüz otuz leva.)",
+      "sentence": "Yüz otuz leva.",
       "answer": "Сто и тридесет лева.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5418,7 +5418,7 @@
     {
       "id": "q_ders10_b96aff22",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yüz otuz leva.",
+      "sentence": "Yüz otuz leva.",
       "answer": "Сто и тридесет лева.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5441,7 +5441,7 @@
     {
       "id": "q_ders10_31f4bcaa",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: А той български ли е, или е вносен?)",
+      "sentence": "А той български ли е, или е вносен?",
       "answer": "Bulgar malı mı, yoksa ithal mi?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5449,7 +5449,7 @@
     {
       "id": "q_ders10_72191cff",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bulgar malı mı, yoksa ithal mi?)",
+      "sentence": "Bulgar malı mı, yoksa ithal mi?",
       "answer": "А той български ли е, или е вносен?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5457,7 +5457,7 @@
     {
       "id": "q_ders10_34f49fc8",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bulgar malı mı, yoksa ithal mi?",
+      "sentence": "Bulgar malı mı, yoksa ithal mi?",
       "answer": "А той български ли е, или е вносен?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5483,7 +5483,7 @@
     {
       "id": "q_ders10_16481aad",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Този е румънски, а онзи – полски.)",
+      "sentence": "Този е румънски, а онзи – полски.",
       "answer": "Bu Rumen, şu ise Polonya malıdır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5491,7 +5491,7 @@
     {
       "id": "q_ders10_65e2593e",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bu Rumen, şu ise Polonya malıdır.)",
+      "sentence": "Bu Rumen, şu ise Polonya malıdır.",
       "answer": "Този е румънски, а онзи – полски.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10",
@@ -5500,7 +5500,7 @@
     {
       "id": "q_ders10_ac6d7ca0",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bu Rumen, şu ise Polonya malıdır.",
+      "sentence": "Bu Rumen, şu ise Polonya malıdır.",
       "answer": "Този е румънски, а онзи – полски.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5525,7 +5525,7 @@
     {
       "id": "q_ders10_795e1c02",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: А бихте ли го запазили до утре?)",
+      "sentence": "А бихте ли го запазили до утре?",
       "answer": "Yarına kadar ayırabilir misiniz?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5533,7 +5533,7 @@
     {
       "id": "q_ders10_45055c4b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Yarına kadar ayırabilir misiniz?)",
+      "sentence": "Yarına kadar ayırabilir misiniz?",
       "answer": "А бихте ли го запазили до утре?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5541,7 +5541,7 @@
     {
       "id": "q_ders10_0da2ebf0",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Yarına kadar ayırabilir misiniz?",
+      "sentence": "Yarına kadar ayırabilir misiniz?",
       "answer": "А бихте ли го запазили до утре?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5567,7 +5567,7 @@
     {
       "id": "q_ders10_6b82f366",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Не, това не е редно.)",
+      "sentence": "Не, това не е редно.",
       "answer": "Hayır, bu uygun/kurallara uygun değil.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5575,7 +5575,7 @@
     {
       "id": "q_ders10_deeb1f92",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hayır, bu uygun/kurallara uygun değil.)",
+      "sentence": "Hayır, bu uygun/kurallara uygun değil.",
       "answer": "Не, това не е редно.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5583,7 +5583,7 @@
     {
       "id": "q_ders10_88ef3b1e",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hayır, bu uygun/kurallara uygun değil.",
+      "sentence": "Hayır, bu uygun/kurallara uygun değil.",
       "answer": "Не, това не е редно.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5607,7 +5607,7 @@
     {
       "id": "q_ders10_4f59fa53",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: А може ли да го платя и по-късно да дойда да го взема? Сега не разполагам с превоз.)",
+      "sentence": "А може ли да го платя и по-късно да дойда да го взема? Сега не разполагам с превоз.",
       "answer": "Parasını şimdi ödeyip daha sonra almaya gelebilir miyim? Şu anda taşıma aracım yok.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5624,7 +5624,7 @@
     {
       "id": "q_ders10_988e68a0",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Да. Така може. Платете на касата и до довечера трябва да дойдете да го вземете.)",
+      "sentence": "Да. Така може. Платете на касата и до довечера трябва да дойдете да го вземете.",
       "answer": "Evet, bu şekilde olabilir. Kasada ödeyin ve bu akşama kadar gelip alın.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5641,7 +5641,7 @@
     {
       "id": "q_ders10_5156cb15",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Благодаря Ви!)",
+      "sentence": "Благодаря Ви!",
       "answer": "Teşekkür ederim!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5649,7 +5649,7 @@
     {
       "id": "q_ders10_f73bb043",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Teşekkür ederim!)",
+      "sentence": "Teşekkür ederim!",
       "answer": "Благодаря Ви!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5657,7 +5657,7 @@
     {
       "id": "q_ders10_790fbebe",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: А защо не вземеш едно такси? Аз ще ти помогна. Няма смисъл да отлагаш и да идваш отново.)",
+      "sentence": "А защо не вземеш едно такси? Аз ще ти помогна. Няма смисъл да отлагаш и да идваш отново.",
       "answer": "Neden bir taksi tutmuyorsun? Sana yardım ederim. Erteleyip yeniden gelmenin anlamı yok.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5674,7 +5674,7 @@
     {
       "id": "q_ders10_7a8572d2",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: О, това е чудесно! Ще ти бъда много благодарна, ако ми помогнеш. Сама няма да се справя.)",
+      "sentence": "О, това е чудесно! Ще ти бъда много благодарна, ако ми помогнеш. Сама няма да се справя.",
       "answer": "Bu harika! Bana yardım edersen çok minnettar olurum. Tek başıma başaramam.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5691,7 +5691,7 @@
     {
       "id": "q_ders10_4119dcda",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Тогава плати и да тръгваме. През това време аз ще видя какви перални има. Моята е развалена и не може да се поправи. Затова трябва да си купя нова.)",
+      "sentence": "Тогава плати и да тръгваме. През това време аз ще видя какви перални има. Моята е развалена и не може да се поправи. Затова трябва да си купя нова.",
       "answer": "O hâlde öde ve gidelim. Bu sırada ben de hangi çamaşır makinelerinin bulunduğuna bakacağım. Benimki bozuk ve tamir edilemiyor. Bu yüzden yeni bir tane almam gerekiyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5708,7 +5708,7 @@
     {
       "id": "q_ders10_d9192f18",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Добре, ще те чакам тук.)",
+      "sentence": "Добре, ще те чакам тук.",
       "answer": "Tamam, seni burada bekleyeceğim.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5716,7 +5716,7 @@
     {
       "id": "q_ders10_0c58d34c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Tamam, seni burada bekleyeceğim.)",
+      "sentence": "Tamam, seni burada bekleyeceğim.",
       "answer": "Добре, ще те чакам тук.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5724,7 +5724,7 @@
     {
       "id": "q_ders10_7e4d9638",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Tamam, seni burada bekleyeceğim.",
+      "sentence": "Tamam, seni burada bekleyeceğim.",
       "answer": "Добре, ще те чакам тук.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5748,7 +5748,7 @@
     {
       "id": "q_ders10_bebcbdf7",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Готово. Можем вече да тръгваме.)",
+      "sentence": "Готово. Можем вече да тръгваме.",
       "answer": "Tamamdır. Artık gidebiliriz.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5756,7 +5756,7 @@
     {
       "id": "q_ders10_d929411c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Tamamdır. Artık gidebiliriz.)",
+      "sentence": "Tamamdır. Artık gidebiliriz.",
       "answer": "Готово. Можем вече да тръгваме.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5764,7 +5764,7 @@
     {
       "id": "q_ders10_f7180571",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Tamamdır. Artık gidebiliriz.",
+      "sentence": "Tamamdır. Artık gidebiliriz.",
       "answer": "Готово. Можем вече да тръгваме.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5788,7 +5788,7 @@
     {
       "id": "q_ders10_3cc5d418",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Честито! Направи прекрасна покупка.)",
+      "sentence": "Честито! Направи прекрасна покупка.",
       "answer": "Hayırlı olsun! Harika bir alışveriş yaptın.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5796,7 +5796,7 @@
     {
       "id": "q_ders10_fe226385",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Hayırlı olsun! Harika bir alışveriş yaptın.)",
+      "sentence": "Hayırlı olsun! Harika bir alışveriş yaptın.",
       "answer": "Честито! Направи прекрасна покупка.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5804,7 +5804,7 @@
     {
       "id": "q_ders10_c9cdb714",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Hayırlı olsun! Harika bir alışveriş yaptın.",
+      "sentence": "Hayırlı olsun! Harika bir alışveriş yaptın.",
       "answer": "Честито! Направи прекрасна покупка.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",
@@ -5827,7 +5827,7 @@
     {
       "id": "q_ders10_57407d01",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Благодаря! Да ти се върне!)",
+      "sentence": "Благодаря! Да ти се върне!",
       "answer": "Teşekkür ederim! Darısı sana / iyiliğin sana geri dönsün!",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5835,7 +5835,7 @@
     {
       "id": "q_ders10_69e2aa53",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Teşekkür ederim! Darısı sana / iyiliğin sana geri dönsün!)",
+      "sentence": "Teşekkür ederim! Darısı sana / iyiliğin sana geri dönsün!",
       "answer": "Благодаря! Да ти се върне!",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 10"
@@ -5843,7 +5843,7 @@
     {
       "id": "q_ders10_22fb9da3",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Teşekkür ederim! Darısı sana / iyiliğin sana geri dönsün!",
+      "sentence": "Teşekkür ederim! Darısı sana / iyiliğin sana geri dönsün!",
       "answer": "Благодаря! Да ти се върне!",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 10",

@@ -6,7 +6,7 @@
     {
       "id": "q_ders5_e8d1fc1e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Милка и Коста имат едно момиче и едно момче.)",
+      "sentence": "Милка и Коста имат едно момиче и едно момче.",
       "answer": "Milka ve Kosta’nın bir kız çocukları ve bir erkek çocukları vardır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -14,7 +14,7 @@
     {
       "id": "q_ders5_71867b7c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Milka ve Kosta’nın bir kız çocukları ve bir erkek çocukları vardır.)",
+      "sentence": "Milka ve Kosta’nın bir kız çocukları ve bir erkek çocukları vardır.",
       "answer": "Милка и Коста имат едно момиче и едно момче.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -22,7 +22,7 @@
     {
       "id": "q_ders5_b2637ebb",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Milka ve Kosta’nın bir kız çocukları ve bir erkek çocukları vardır.",
+      "sentence": "Milka ve Kosta’nın bir kız çocukları ve bir erkek çocukları vardır.",
       "answer": "Милка и Коста имат едно момиче и едно момче.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -48,7 +48,7 @@
     {
       "id": "q_ders5_e066dbaf",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Тази есен синът им ще бъде в първи клас.)",
+      "sentence": "Тази есен синът им ще бъде в първи клас.",
       "answer": "Bu sonbahar oğulları birinci sınıfta olacak.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -56,7 +56,7 @@
     {
       "id": "q_ders5_b80368d5",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bu sonbahar oğulları birinci sınıfta olacak.)",
+      "sentence": "Bu sonbahar oğulları birinci sınıfta olacak.",
       "answer": "Тази есен синът им ще бъде в първи клас.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -64,7 +64,7 @@
     {
       "id": "q_ders5_54e6fbab",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bu sonbahar oğulları birinci sınıfta olacak.",
+      "sentence": "Bu sonbahar oğulları birinci sınıfta olacak.",
       "answer": "Тази есен синът им ще бъде в първи клас.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -92,7 +92,7 @@
     {
       "id": "q_ders5_57093dfa",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Затова трябва да го подготвят.)",
+      "sentence": "Затова трябва да го подготвят.",
       "answer": "Bu yüzden onu hazırlamaları gerekir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -100,7 +100,7 @@
     {
       "id": "q_ders5_58704544",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bu yüzden onu hazırlamaları gerekir.)",
+      "sentence": "Bu yüzden onu hazırlamaları gerekir.",
       "answer": "Затова трябва да го подготвят.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -108,7 +108,7 @@
     {
       "id": "q_ders5_ecf079af",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bu yüzden onu hazırlamaları gerekir.",
+      "sentence": "Bu yüzden onu hazırlamaları gerekir.",
       "answer": "Затова трябва да го подготвят.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -132,7 +132,7 @@
     {
       "id": "q_ders5_6cae6e8f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Те искат да му купят нови дрехи и обувки.)",
+      "sentence": "Те искат да му купят нови дрехи и обувки.",
       "answer": "Ona yeni kıyafetler ve ayakkabılar almak istiyorlar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -140,7 +140,7 @@
     {
       "id": "q_ders5_ea80db05",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ona yeni kıyafetler ve ayakkabılar almak istiyorlar.)",
+      "sentence": "Ona yeni kıyafetler ve ayakkabılar almak istiyorlar.",
       "answer": "Те искат да му купят нови дрехи и обувки.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -148,7 +148,7 @@
     {
       "id": "q_ders5_85f204c2",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ona yeni kıyafetler ve ayakkabılar almak istiyorlar.",
+      "sentence": "Ona yeni kıyafetler ve ayakkabılar almak istiyorlar.",
       "answer": "Те искат да му купят нови дрехи и обувки.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -176,7 +176,7 @@
     {
       "id": "q_ders5_ea17657e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: До първия учебен ден остават само няколко дни.)",
+      "sentence": "До първия учебен ден остават само няколко дни.",
       "answer": "İlk okul gününe yalnızca birkaç gün kalıyor.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -184,7 +184,7 @@
     {
       "id": "q_ders5_25eafa56",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: İlk okul gününe yalnızca birkaç gün kalıyor.)",
+      "sentence": "İlk okul gününe yalnızca birkaç gün kalıyor.",
       "answer": "До първия учебен ден остават само няколко дни.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -192,7 +192,7 @@
     {
       "id": "q_ders5_2015f443",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: İlk okul gününe yalnızca birkaç gün kalıyor.",
+      "sentence": "İlk okul gününe yalnızca birkaç gün kalıyor.",
       "answer": "До първия учебен ден остават само няколко дни.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -219,7 +219,7 @@
     {
       "id": "q_ders5_a69d3421",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Няма за кога повече да се отлага.)",
+      "sentence": "Няма за кога повече да се отлага.",
       "answer": "Artık daha fazla ertelemek için zaman yok.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -227,7 +227,7 @@
     {
       "id": "q_ders5_36398a35",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Artık daha fazla ertelemek için zaman yok.)",
+      "sentence": "Artık daha fazla ertelemek için zaman yok.",
       "answer": "Няма за кога повече да се отлага.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -235,7 +235,7 @@
     {
       "id": "q_ders5_c32b5339",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Artık daha fazla ertelemek için zaman yok.",
+      "sentence": "Artık daha fazla ertelemek için zaman yok.",
       "answer": "Няма за кога повече да се отлага.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -261,7 +261,7 @@
     {
       "id": "q_ders5_0d4ba444",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Сутринта се уговориха в 18 часа да се срещнат пред новия детски магазин в София.)",
+      "sentence": "Сутринта се уговориха в 18 часа да се срещнат пред новия детски магазин в София.",
       "answer": "Sabahleyin saat 18.00’de Sofya’daki yeni çocuk mağazasının önünde buluşmak üzere anlaştılar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -278,7 +278,7 @@
     {
       "id": "q_ders5_060db5f8",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Там има всичко за децата – дрехи, обувки, различни играчки.)",
+      "sentence": "Там има всичко за децата – дрехи, обувки, различни играчки.",
       "answer": "Orada çocuklar için her şey vardır: kıyafetler, ayakkabılar, çeşitli oyuncaklar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -286,7 +286,7 @@
     {
       "id": "q_ders5_f6989d86",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Orada çocuklar için her şey vardır: kıyafetler, ayakkabılar, çeşitli oyuncaklar.)",
+      "sentence": "Orada çocuklar için her şey vardır: kıyafetler, ayakkabılar, çeşitli oyuncaklar.",
       "answer": "Там има всичко за децата – дрехи, обувки, различни играчки.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5",
@@ -295,7 +295,7 @@
     {
       "id": "q_ders5_0931eea8",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Orada çocuklar için her şey vardır: kıyafetler, ayakkabılar, çeşitli oyuncaklar.",
+      "sentence": "Orada çocuklar için her şey vardır: kıyafetler, ayakkabılar, çeşitli oyuncaklar.",
       "answer": "Там има всичко за децата – дрехи, обувки, различни играчки.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -323,7 +323,7 @@
     {
       "id": "q_ders5_16ef3902",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Милка и Коста отидоха първо на щанда за детска конфекция.)",
+      "sentence": "Милка и Коста отидоха първо на щанда за детска конфекция.",
       "answer": "Milka ve Kosta önce çocuk hazır giyim reyonuna gittiler.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -331,7 +331,7 @@
     {
       "id": "q_ders5_a661ae7d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Milka ve Kosta önce çocuk hazır giyim reyonuna gittiler.)",
+      "sentence": "Milka ve Kosta önce çocuk hazır giyim reyonuna gittiler.",
       "answer": "Милка и Коста отидоха първо на щанда за детска конфекция.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -339,7 +339,7 @@
     {
       "id": "q_ders5_00c227db",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Milka ve Kosta önce çocuk hazır giyim reyonuna gittiler.",
+      "sentence": "Milka ve Kosta önce çocuk hazır giyim reyonuna gittiler.",
       "answer": "Милка и Коста отидоха първо на щанда за детска конфекция.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -368,7 +368,7 @@
     {
       "id": "q_ders5_8b538a4d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Там имаше много хубави детски дрехи.)",
+      "sentence": "Там имаше много хубави детски дрехи.",
       "answer": "Orada çok güzel çocuk kıyafetleri vardı.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -376,7 +376,7 @@
     {
       "id": "q_ders5_5a5b7f35",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Orada çok güzel çocuk kıyafetleri vardı.)",
+      "sentence": "Orada çok güzel çocuk kıyafetleri vardı.",
       "answer": "Там имаше много хубави детски дрехи.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -384,7 +384,7 @@
     {
       "id": "q_ders5_0ec6c662",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Orada çok güzel çocuk kıyafetleri vardı.",
+      "sentence": "Orada çok güzel çocuk kıyafetleri vardı.",
       "answer": "Там имаше много хубави детски дрехи.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -409,7 +409,7 @@
     {
       "id": "q_ders5_641ea7d4",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Те избраха един чифт дънки, една ризка и шушляково яке.)",
+      "sentence": "Те избраха един чифт дънки, една ризка и шушляково яке.",
       "answer": "Bir çift kot pantolon, küçük bir gömlek ve naylon/yağmurluk tarzı bir ceket seçtiler.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -417,7 +417,7 @@
     {
       "id": "q_ders5_e4816deb",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bir çift kot pantolon, küçük bir gömlek ve naylon/yağmurluk tarzı bir ceket seçtiler.)",
+      "sentence": "Bir çift kot pantolon, küçük bir gömlek ve naylon/yağmurluk tarzı bir ceket seçtiler.",
       "answer": "Те избраха един чифт дънки, една ризка и шушляково яке.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -425,7 +425,7 @@
     {
       "id": "q_ders5_0c360b47",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bir çift kot pantolon, küçük bir gömlek ve naylon/yağmurluk tarzı bir ceket seçtiler.",
+      "sentence": "Bir çift kot pantolon, küçük bir gömlek ve naylon/yağmurluk tarzı bir ceket seçtiler.",
       "answer": "Те избраха един чифт дънки, една ризка и шушляково яке.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -454,7 +454,7 @@
     {
       "id": "q_ders5_9e80326c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: След като платиха, отидоха на щанда за обувки.)",
+      "sentence": "След като платиха, отидоха на щанда за обувки.",
       "answer": "Ödedikten sonra ayakkabı reyonuna gittiler.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -462,7 +462,7 @@
     {
       "id": "q_ders5_a72b659f",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Ödedikten sonra ayakkabı reyonuna gittiler.)",
+      "sentence": "Ödedikten sonra ayakkabı reyonuna gittiler.",
       "answer": "След като платиха, отидоха на щанда за обувки.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -470,7 +470,7 @@
     {
       "id": "q_ders5_ff48436d",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Ödedikten sonra ayakkabı reyonuna gittiler.",
+      "sentence": "Ödedikten sonra ayakkabı reyonuna gittiler.",
       "answer": "След като платиха, отидоха на щанда за обувки.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -497,7 +497,7 @@
     {
       "id": "q_ders5_57a41588",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Купиха един чифт маратонки.)",
+      "sentence": "Купиха един чифт маратонки.",
       "answer": "Bir çift spor ayakkabı satın aldılar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -505,7 +505,7 @@
     {
       "id": "q_ders5_47738f27",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bir çift spor ayakkabı satın aldılar.)",
+      "sentence": "Bir çift spor ayakkabı satın aldılar.",
       "answer": "Купиха един чифт маратонки.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -513,7 +513,7 @@
     {
       "id": "q_ders5_1d29a4c4",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bir çift spor ayakkabı satın aldılar.",
+      "sentence": "Bir çift spor ayakkabı satın aldılar.",
       "answer": "Купиха един чифт маратонки.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -536,7 +536,7 @@
     {
       "id": "q_ders5_c3b4e09d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Минавайки покрай щандовете, те се спряха при пуловерите.)",
+      "sentence": "Минавайки покрай щандовете, те се спряха при пуловерите.",
       "answer": "Reyonların yanından geçerken kazakların yanında durdular.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -544,7 +544,7 @@
     {
       "id": "q_ders5_dfce39bd",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Reyonların yanından geçerken kazakların yanında durdular.)",
+      "sentence": "Reyonların yanından geçerken kazakların yanında durdular.",
       "answer": "Минавайки покрай щандовете, те се спряха при пуловерите.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -552,7 +552,7 @@
     {
       "id": "q_ders5_9dbb3f5c",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Reyonların yanından geçerken kazakların yanında durdular.",
+      "sentence": "Reyonların yanından geçerken kazakların yanında durdular.",
       "answer": "Минавайки покрай щандовете, те се спряха при пуловерите.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -579,7 +579,7 @@
     {
       "id": "q_ders5_d2b1becf",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Сред тях имаше един, който много им хареса и им се искаше да го купят.)",
+      "sentence": "Сред тях имаше един, който много им хареса и им се искаше да го купят.",
       "answer": "Onların arasında çok beğendikleri ve satın almak istedikleri bir tane vardı.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -596,7 +596,7 @@
     {
       "id": "q_ders5_5d8b59ce",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Но синът им няма нужда сега от това.)",
+      "sentence": "Но синът им няма нужда сега от това.",
       "answer": "Fakat oğullarının şu anda buna ihtiyacı yoktur.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -604,7 +604,7 @@
     {
       "id": "q_ders5_536af113",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Fakat oğullarının şu anda buna ihtiyacı yoktur.)",
+      "sentence": "Fakat oğullarının şu anda buna ihtiyacı yoktur.",
       "answer": "Но синът им няма нужда сега от това.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -612,7 +612,7 @@
     {
       "id": "q_ders5_99f1f1fa",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Fakat oğullarının şu anda buna ihtiyacı yoktur.",
+      "sentence": "Fakat oğullarının şu anda buna ihtiyacı yoktur.",
       "answer": "Но синът им няма нужда сега от това.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -639,7 +639,7 @@
     {
       "id": "q_ders5_d440f82d",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: В момента той има няколко пуловера, и затова те се колебаеха дали да го купят.)",
+      "sentence": "В момента той има няколко пуловера, и затова те се колебаеха дали да го купят.",
       "answer": "Şu anda onun birkaç kazağı vardır; bu nedenle onu satın alıp almama konusunda kararsız kaldılar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -656,7 +656,7 @@
     {
       "id": "q_ders5_9bf1585a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Накрая решиха, че е по-добре да му вземат нова пижама.)",
+      "sentence": "Накрая решиха, че е по-добре да му вземат нова пижама.",
       "answer": "Sonunda ona yeni bir pijama almalarının daha iyi olduğuna karar verdiler.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -664,7 +664,7 @@
     {
       "id": "q_ders5_981f4f14",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Sonunda ona yeni bir pijama almalarının daha iyi olduğuna karar verdiler.)",
+      "sentence": "Sonunda ona yeni bir pijama almalarının daha iyi olduğuna karar verdiler.",
       "answer": "Накрая решиха, че е по-добре да му вземат нова пижама.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -672,7 +672,7 @@
     {
       "id": "q_ders5_04a524f9",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Sonunda ona yeni bir pijama almalarının daha iyi olduğuna karar verdiler.",
+      "sentence": "Sonunda ona yeni bir pijama almalarının daha iyi olduğuna karar verdiler.",
       "answer": "Накрая решиха, че е по-добре да му вземат нова пижама.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -701,7 +701,7 @@
     {
       "id": "q_ders5_9c811705",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Старата вече му е малка.)",
+      "sentence": "Старата вече му е малка.",
       "answer": "Eskisi artık ona küçük gelmektedir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -709,7 +709,7 @@
     {
       "id": "q_ders5_7787eedf",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Eskisi artık ona küçük gelmektedir.)",
+      "sentence": "Eskisi artık ona küçük gelmektedir.",
       "answer": "Старата вече му е малка.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -717,7 +717,7 @@
     {
       "id": "q_ders5_bb556eae",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Eskisi artık ona küçük gelmektedir.",
+      "sentence": "Eskisi artık ona küçük gelmektedir.",
       "answer": "Старата вече му е малка.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -741,7 +741,7 @@
     {
       "id": "q_ders5_f4f97eb2",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Той много бързо расте и не може да си износи дрехите.)",
+      "sentence": "Той много бързо расте и не може да си износи дрехите.",
       "answer": "O çok hızlı büyümektedir ve kıyafetlerini eskitemeden küçük gelmektedir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -758,7 +758,7 @@
     {
       "id": "q_ders5_8ceef1a1",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: А дъщеричката им е с четири години по-голяма, затова дават запазените дрешки на/от сина си на един свой племенник, който е по-малък от него.)",
+      "sentence": "А дъщеричката им е с четири години по-голяма, затова дават запазените дрешки на/от сина си на един свой племенник, който е по-малък от него.",
       "answer": "Kızları ise ondan dört yaş büyüktür; bu yüzden oğullarından kalan iyi durumdaki küçük kıyafetleri, ondan daha küçük olan yeğenlerinden birine verirler.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -775,7 +775,7 @@
     {
       "id": "q_ders5_c210c0c1",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: На същия щанд обаче видяха и много хубава нощница за дъщеря си.)",
+      "sentence": "На същия щанд обаче видяха и много хубава нощница за дъщеря си.",
       "answer": "Ancak aynı reyonda kızları için çok güzel bir gecelik de gördüler.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -792,7 +792,7 @@
     {
       "id": "q_ders5_ee225e44",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Купиха и нея, а после им взеха чорапи и по един чифт долно бельо.)",
+      "sentence": "Купиха и нея, а после им взеха чорапи и по един чифт долно бельо.",
       "answer": "Onu da satın aldılar; sonra onlara çorap ve her birine birer takım iç çamaşırı aldılar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -809,7 +809,7 @@
     {
       "id": "q_ders5_c7bc0f56",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: На щанда за играчки изобщо не спряха, защото бързаха.)",
+      "sentence": "На щанда за играчки изобщо не спряха, защото бързаха.",
       "answer": "Oyuncak reyonunda hiç durmadılar, çünkü aceleleri vardı.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -817,7 +817,7 @@
     {
       "id": "q_ders5_2b3916fe",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Oyuncak reyonunda hiç durmadılar, çünkü aceleleri vardı.)",
+      "sentence": "Oyuncak reyonunda hiç durmadılar, çünkü aceleleri vardı.",
       "answer": "На щанда за играчки изобщо не спряха, защото бързаха.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -825,7 +825,7 @@
     {
       "id": "q_ders5_6acdc042",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Oyuncak reyonunda hiç durmadılar, çünkü aceleleri vardı.",
+      "sentence": "Oyuncak reyonunda hiç durmadılar, çünkü aceleleri vardı.",
       "answer": "На щанда за играчки изобщо не спряха, защото бързаха.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -853,7 +853,7 @@
     {
       "id": "q_ders5_77c549af",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: От магазина отидоха в една книжарница.)",
+      "sentence": "От магазина отидоха в една книжарница.",
       "answer": "Mağazadan bir kitapçıya/kırtasiyeye gittiler.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -861,7 +861,7 @@
     {
       "id": "q_ders5_fd74bd04",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Mağazadan bir kitapçıya/kırtasiyeye gittiler.)",
+      "sentence": "Mağazadan bir kitapçıya/kırtasiyeye gittiler.",
       "answer": "От магазина отидоха в една книжарница.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -869,7 +869,7 @@
     {
       "id": "q_ders5_1a27d4bc",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Mağazadan bir kitapçıya/kırtasiyeye gittiler.",
+      "sentence": "Mağazadan bir kitapçıya/kırtasiyeye gittiler.",
       "answer": "От магазина отидоха в една книжарница.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -894,7 +894,7 @@
     {
       "id": "q_ders5_1b14e4d9",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Трябваше да купят тетрадки и други учебни пособия за децата – химикалки, моливи, линии, гуми, блокове за рисуване и водни бои.)",
+      "sentence": "Трябваше да купят тетрадки и други учебни пособия за децата – химикалки, моливи, линии, гуми, блокове за рисуване и водни бои.",
       "answer": "Çocuklar için defterler ve başka okul gereçleri satın almaları gerekiyordu: tükenmez kalemler, kurşun kalemler, cetveller, silgiler, resim blokları ve sulu boyalar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -911,7 +911,7 @@
     {
       "id": "q_ders5_a2227049",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Но там видяха и луксозно издание на приказките на Ангел Каралийчев в два тома.)",
+      "sentence": "Но там видяха и луксозно издание на приказките на Ангел Каралийчев в два тома.",
       "answer": "Fakat orada Angel Karaliyçev’in masallarının iki ciltlik lüks baskısını da gördüler.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -928,7 +928,7 @@
     {
       "id": "q_ders5_b5c3bad1",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Те нямаха това издание и решиха да го купят.)",
+      "sentence": "Те нямаха това издание и решиха да го купят.",
       "answer": "Bu baskı onlarda yoktu ve onu almaya karar verdiler.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -936,7 +936,7 @@
     {
       "id": "q_ders5_91bea27d",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bu baskı onlarda yoktu ve onu almaya karar verdiler.)",
+      "sentence": "Bu baskı onlarda yoktu ve onu almaya karar verdiler.",
       "answer": "Те нямаха това издание и решиха да го купят.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -944,7 +944,7 @@
     {
       "id": "q_ders5_a982ba07",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bu baskı onlarda yoktu ve onu almaya karar verdiler.",
+      "sentence": "Bu baskı onlarda yoktu ve onu almaya karar verdiler.",
       "answer": "Те нямаха това издание и решиха да го купят.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -972,7 +972,7 @@
     {
       "id": "q_ders5_62c32867",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Децата им много обичат приказки.)",
+      "sentence": "Децата им много обичат приказки.",
       "answer": "Çocukları masalları çok sever.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -980,7 +980,7 @@
     {
       "id": "q_ders5_fd523946",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Çocukları masalları çok sever.)",
+      "sentence": "Çocukları masalları çok sever.",
       "answer": "Децата им много обичат приказки.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -988,7 +988,7 @@
     {
       "id": "q_ders5_d05a744d",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Çocukları masalları çok sever.",
+      "sentence": "Çocukları masalları çok sever.",
       "answer": "Децата им много обичат приказки.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -1012,7 +1012,7 @@
     {
       "id": "q_ders5_368a0398",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Представяха си как ще се зарадват, като ги видят.)",
+      "sentence": "Представяха си как ще се зарадват, като ги видят.",
       "answer": "Onları gördüklerinde nasıl sevineceklerini hayal ediyorlardı.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1020,7 +1020,7 @@
     {
       "id": "q_ders5_2a7ad408",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Onları gördüklerinde nasıl sevineceklerini hayal ediyorlardı.)",
+      "sentence": "Onları gördüklerinde nasıl sevineceklerini hayal ediyorlardı.",
       "answer": "Представяха си как ще се зарадват, като ги видят.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1028,7 +1028,7 @@
     {
       "id": "q_ders5_7e33d0ab",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Onları gördüklerinde nasıl sevineceklerini hayal ediyorlardı.",
+      "sentence": "Onları gördüklerinde nasıl sevineceklerini hayal ediyorlardı.",
       "answer": "Представяха си как ще се зарадват, като ги видят.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -1056,7 +1056,7 @@
     {
       "id": "q_ders5_4fbd54b4",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: След това те се прибраха уморени вкъщи.)",
+      "sentence": "След това те се прибраха уморени вкъщи.",
       "answer": "Bundan sonra eve yorgun döndüler.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1064,7 +1064,7 @@
     {
       "id": "q_ders5_1f87e68b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bundan sonra eve yorgun döndüler.)",
+      "sentence": "Bundan sonra eve yorgun döndüler.",
       "answer": "След това те се прибраха уморени вкъщи.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1072,7 +1072,7 @@
     {
       "id": "q_ders5_e3488796",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bundan sonra eve yorgun döndüler.",
+      "sentence": "Bundan sonra eve yorgun döndüler.",
       "answer": "След това те се прибраха уморени вкъщи.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -1098,7 +1098,7 @@
     {
       "id": "q_ders5_4a1302a9",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Но умората им скоро премина, когато видяха щастливите усмивки по детските лица.)",
+      "sentence": "Но умората им скоро премина, когато видяха щастливите усмивки по детските лица.",
       "answer": "Fakat çocukların yüzlerindeki mutlu gülümsemeleri görünce yorgunlukları kısa sürede geçti.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1115,7 +1115,7 @@
     {
       "id": "q_ders5_06422af7",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Те/Децата набързо премериха дрехите.)",
+      "sentence": "Те/Децата набързо премериха дрехите.",
       "answer": "Onlar/Çocuklar kıyafetleri hemen hızlıca denediler.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1123,7 +1123,7 @@
     {
       "id": "q_ders5_6d144348",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Onlar/Çocuklar kıyafetleri hemen hızlıca denediler.)",
+      "sentence": "Onlar/Çocuklar kıyafetleri hemen hızlıca denediler.",
       "answer": "Те/Децата набързо премериха дрехите.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1131,7 +1131,7 @@
     {
       "id": "q_ders5_a9e96ae2",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Onlar/Çocuklar kıyafetleri hemen hızlıca denediler.",
+      "sentence": "Onlar/Çocuklar kıyafetleri hemen hızlıca denediler.",
       "answer": "Те/Децата набързо премериха дрехите.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -1154,7 +1154,7 @@
     {
       "id": "q_ders5_f4fd14ff",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Много им харесаха покупките, но най-много се зарадваха на приказките.)",
+      "sentence": "Много им харесаха покупките, но най-много се зарадваха на приказките.",
       "answer": "Alışverişten alınan şeyleri çok beğendiler; ama en çok masallara sevindiler.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1162,7 +1162,7 @@
     {
       "id": "q_ders5_e5768a71",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Alışverişten alınan şeyleri çok beğendiler; ama en çok masallara sevindiler.)",
+      "sentence": "Alışverişten alınan şeyleri çok beğendiler; ama en çok masallara sevindiler.",
       "answer": "Много им харесаха покупките, но най-много се зарадваха на приказките.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1170,7 +1170,7 @@
     {
       "id": "q_ders5_bfc9194c",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Alışverişten alınan şeyleri çok beğendiler; ama en çok masallara sevindiler.",
+      "sentence": "Alışverişten alınan şeyleri çok beğendiler; ama en çok masallara sevindiler.",
       "answer": "Много им харесаха покупките, но най-много се зарадваха на приказките.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -1199,7 +1199,7 @@
     {
       "id": "q_ders5_6735b8c6",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: После Милка започна да приготвя вечерята, а Коста през това време се занимаваше с децата.)",
+      "sentence": "После Милка започна да приготвя вечерята, а Коста през това време се занимаваше с децата.",
       "answer": "Sonra Milka akşam yemeğini hazırlamaya başladı; Kosta ise bu sırada çocuklarla ilgileniyordu.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1216,7 +1216,7 @@
     {
       "id": "q_ders5_01ef8eed",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Весел детски смях заливаше цялата къща.)",
+      "sentence": "Весел детски смях заливаше цялата къща.",
       "answer": "Neşeli çocuk kahkahası bütün evi dolduruyordu.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1224,7 +1224,7 @@
     {
       "id": "q_ders5_5f01180e",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Neşeli çocuk kahkahası bütün evi dolduruyordu.)",
+      "sentence": "Neşeli çocuk kahkahası bütün evi dolduruyordu.",
       "answer": "Весел детски смях заливаше цялата къща.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1232,7 +1232,7 @@
     {
       "id": "q_ders5_fa07c766",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Neşeli çocuk kahkahası bütün evi dolduruyordu.",
+      "sentence": "Neşeli çocuk kahkahası bütün evi dolduruyordu.",
       "answer": "Весел детски смях заливаше цялата къща.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -1257,7 +1257,7 @@
     {
       "id": "q_ders5_f6a86e80",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Какво са правили Милка и Коста в детския магазин?)",
+      "sentence": "Какво са правили Милка и Коста в детския магазин?",
       "answer": "Milka ve Kosta çocuk mağazasında ne yaptılar?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1265,7 +1265,7 @@
     {
       "id": "q_ders5_15130a70",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Milka ve Kosta çocuk mağazasında ne yaptılar?)",
+      "sentence": "Milka ve Kosta çocuk mağazasında ne yaptılar?",
       "answer": "Какво са правили Милка и Коста в детския магазин?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1273,7 +1273,7 @@
     {
       "id": "q_ders5_0a5f5bf4",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Milka ve Kosta çocuk mağazasında ne yaptılar?",
+      "sentence": "Milka ve Kosta çocuk mağazasında ne yaptılar?",
       "answer": "Какво са правили Милка и Коста в детския магазин?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -1301,7 +1301,7 @@
     {
       "id": "q_ders5_6c95e39a",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Какво са купили от книжарницата?)",
+      "sentence": "Какво са купили от книжарницата?",
       "answer": "Kitapçıdan/kırtasiyeden ne satın aldılar?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1309,7 +1309,7 @@
     {
       "id": "q_ders5_46aee2ed",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Kitapçıdan/kırtasiyeden ne satın aldılar?)",
+      "sentence": "Kitapçıdan/kırtasiyeden ne satın aldılar?",
       "answer": "Какво са купили от книжарницата?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1317,7 +1317,7 @@
     {
       "id": "q_ders5_c11136e1",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Kitapçıdan/kırtasiyeden ne satın aldılar?",
+      "sentence": "Kitapçıdan/kırtasiyeden ne satın aldılar?",
       "answer": "Какво са купили от книжарницата?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -1341,7 +1341,7 @@
     {
       "id": "q_ders5_d160a523",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Как са ги посрещнали децата в къщи?)",
+      "sentence": "Как са ги посрещнали децата в къщи?",
       "answer": "Çocuklar onları evde nasıl karşıladılar?",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1349,7 +1349,7 @@
     {
       "id": "q_ders5_056565e2",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Çocuklar onları evde nasıl karşıladılar?)",
+      "sentence": "Çocuklar onları evde nasıl karşıladılar?",
       "answer": "Как са ги посрещнали децата в къщи?",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1357,7 +1357,7 @@
     {
       "id": "q_ders5_ff93153a",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Çocuklar onları evde nasıl karşıladılar?",
+      "sentence": "Çocuklar onları evde nasıl karşıladılar?",
       "answer": "Как са ги посрещнали децата в къщи?",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -1383,7 +1383,7 @@
     {
       "id": "q_ders5_dfeb1b7f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Разкажете за семейството на Милка и Коста.)",
+      "sentence": "Разкажете за семейството на Милка и Коста.",
       "answer": "Milka ve Kosta’nın ailesini anlatınız.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1391,7 +1391,7 @@
     {
       "id": "q_ders5_543424ae",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Milka ve Kosta’nın ailesini anlatınız.)",
+      "sentence": "Milka ve Kosta’nın ailesini anlatınız.",
       "answer": "Разкажете за семейството на Милка и Коста.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1399,7 +1399,7 @@
     {
       "id": "q_ders5_c7919757",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Milka ve Kosta’nın ailesini anlatınız.",
+      "sentence": "Milka ve Kosta’nın ailesini anlatınız.",
       "answer": "Разкажете за семейството на Милка и Коста.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -1425,7 +1425,7 @@
     {
       "id": "q_ders5_41efda7f",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Бройни числителни – едно, две, пет, петнадесет, тридесет и пет.)",
+      "sentence": "Бройни числителни – едно, две, пет, петнадесет, тридесет и пет.",
       "answer": "Asıl sayılar: bir, iki, beş, on beş, otuz beş.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1433,7 +1433,7 @@
     {
       "id": "q_ders5_38f2762b",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Asıl sayılar: bir, iki, beş, on beş, otuz beş.)",
+      "sentence": "Asıl sayılar: bir, iki, beş, on beş, otuz beş.",
       "answer": "Бройни числителни – едно, две, пет, петнадесет, тридесет и пет.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5",
@@ -1442,7 +1442,7 @@
     {
       "id": "q_ders5_ada0a224",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Asıl sayılar: bir, iki, beş, on beş, otuz beş.",
+      "sentence": "Asıl sayılar: bir, iki, beş, on beş, otuz beş.",
       "answer": "Бройни числителни – едно, две, пет, петнадесет, тридесет и пет.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -1469,7 +1469,7 @@
     {
       "id": "q_ders5_86a5891b",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Бройните числителни не се изменят по род и число.)",
+      "sentence": "Бройните числителни не се изменят по род и число.",
       "answer": "Asıl sayılar genellikle cinsiyet ve tekil/çoğula göre değişmez.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1477,7 +1477,7 @@
     {
       "id": "q_ders5_630860dc",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Asıl sayılar genellikle cinsiyet ve tekil/çoğula göre değişmez.)",
+      "sentence": "Asıl sayılar genellikle cinsiyet ve tekil/çoğula göre değişmez.",
       "answer": "Бройните числителни не се изменят по род и число.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1485,7 +1485,7 @@
     {
       "id": "q_ders5_195757e3",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Asıl sayılar genellikle cinsiyet ve tekil/çoğula göre değişmez.",
+      "sentence": "Asıl sayılar genellikle cinsiyet ve tekil/çoğula göre değişmez.",
       "answer": "Бройните числителни не се изменят по род и число.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -1513,7 +1513,7 @@
     {
       "id": "q_ders5_32fc541e",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Пет деца – петте деца)",
+      "sentence": "Пет деца – петте деца",
       "answer": "Beş çocuk - söz konusu/belirli beş çocuk.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5",
@@ -1522,7 +1522,7 @@
     {
       "id": "q_ders5_a5b7b2f9",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Beş çocuk - söz konusu/belirli beş çocuk.)",
+      "sentence": "Beş çocuk - söz konusu/belirli beş çocuk.",
       "answer": "Пет деца – петте деца",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5",
@@ -1531,7 +1531,7 @@
     {
       "id": "q_ders5_0ac2af6c",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Beş çocuk - söz konusu/belirli beş çocuk.",
+      "sentence": "Beş çocuk - söz konusu/belirli beş çocuk.",
       "answer": "Пет деца – петте деца",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -1553,7 +1553,7 @@
     {
       "id": "q_ders5_bf6ef431",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Шест момичета – шестте момичета)",
+      "sentence": "Шест момичета – шестте момичета",
       "answer": "Altı kız - söz konusu/belirli altı kız.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5",
@@ -1562,7 +1562,7 @@
     {
       "id": "q_ders5_d42ade1c",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Altı kız - söz konusu/belirli altı kız.)",
+      "sentence": "Altı kız - söz konusu/belirli altı kız.",
       "answer": "Шест момичета – шестте момичета",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5",
@@ -1571,7 +1571,7 @@
     {
       "id": "q_ders5_aaff638c",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Altı kız - söz konusu/belirli altı kız.",
+      "sentence": "Altı kız - söz konusu/belirli altı kız.",
       "answer": "Шест момичета – шестте момичета",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -1593,7 +1593,7 @@
     {
       "id": "q_ders5_699c46ef",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: ДИКТОВКА на думите от презентацията виж в Приложение 1 (под всеки предмет, на всеки слайд има по една дума).)",
+      "sentence": "ДИКТОВКА на думите от презентацията виж в Приложение 1 (под всеки предмет, на всеки слайд има по една дума.)",
       "answer": "Sunumdaki kelimelerin diktesi için Ek 1’e bakınız; her nesnenin altında, her slaytta bir kelime vardır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1610,7 +1610,7 @@
     {
       "id": "q_ders5_4f4996ed",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Препоръчително е тези думи да се оформят като диктовка.)",
+      "sentence": "Препоръчително е тези думи да се оформят като диктовка.",
       "answer": "Bu kelimelerin dikte çalışması olarak düzenlenmesi önerilir.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1618,7 +1618,7 @@
     {
       "id": "q_ders5_4e65d83e",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Bu kelimelerin dikte çalışması olarak düzenlenmesi önerilir.)",
+      "sentence": "Bu kelimelerin dikte çalışması olarak düzenlenmesi önerilir.",
       "answer": "Препоръчително е тези думи да се оформят като диктовка.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1626,7 +1626,7 @@
     {
       "id": "q_ders5_9e049349",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Bu kelimelerin dikte çalışması olarak düzenlenmesi önerilir.",
+      "sentence": "Bu kelimelerin dikte çalışması olarak düzenlenmesi önerilir.",
       "answer": "Препоръчително е тези думи да се оформят като диктовка.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -1654,7 +1654,7 @@
     {
       "id": "q_ders5_0cea19ec",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: В практиката ни диктовките съпътстват всеки урок.)",
+      "sentence": "В практиката ни диктовките съпътстват всеки урок.",
       "answer": "Uygulamamızda dikteler her derse eşlik eder.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1662,7 +1662,7 @@
     {
       "id": "q_ders5_9184cdbe",
       "type": "translation",
-      "sentence": "Çeviriniz (Türkçesi: Uygulamamızda dikteler her derse eşlik eder.)",
+      "sentence": "Uygulamamızda dikteler her derse eşlik eder.",
       "answer": "В практиката ни диктовките съпътстват всеки урок.",
       "hint": "Bulgarca karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1670,7 +1670,7 @@
     {
       "id": "q_ders5_53d4dfbf",
       "type": "scramble",
-      "sentence": "Kelimeleri sıraya dizerek cümleyi kurunuz: Uygulamamızda dikteler her derse eşlik eder.",
+      "sentence": "Uygulamamızda dikteler her derse eşlik eder.",
       "answer": "В практиката ни диктовките съпътстват всеки урок.",
       "hint": "Doğru sıralamayı bul",
       "lesson": "Ders 5",
@@ -1696,7 +1696,7 @@
     {
       "id": "q_ders5_2e7cf4d3",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Те способстват за развитието на слуховата и зрителна памет на обучаемите.)",
+      "sentence": "Те способстват за развитието на слуховата и зрителна памет на обучаемите.",
       "answer": "Bunlar öğrencilerin işitsel ve görsel hafızasının gelişmesine katkı sağlar.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
@@ -1713,7 +1713,7 @@
     {
       "id": "q_ders5_0f7a889c",
       "type": "translation",
-      "sentence": "Çeviriniz (Bulgarcası: Подборът на думите или текстовете, които се диктуват, както и големината им, са по преценка на обучаващите.)",
+      "sentence": "Подборът на думите или текстовете, които се диктуват, както и големината им, са по преценка на обучаващите.",
       "answer": "Dikte edilen kelime veya metinlerin seçimi ve uzunluğu öğreticilerin değerlendirmesine bağlıdır.",
       "hint": "Türkçe karşılığını yazınız",
       "lesson": "Ders 5"
