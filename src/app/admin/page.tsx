@@ -111,6 +111,9 @@ export default function AdminPage() {
             <Wand2 size={16} />
             Sınav Üret
           </Link>
+          <Link href="/dashboard" className="p-2 bg-indigo-100 text-indigo-700 hover:bg-indigo-200 rounded-lg transition-colors flex items-center gap-2 text-sm font-bold">
+            Öğrenci Paneli
+          </Link>
           <Link href="/training" className="p-2 bg-indigo-600 text-white hover:bg-indigo-700 rounded-lg transition-colors flex items-center gap-2 text-sm font-bold">
             🚀 Antrenman
           </Link>
