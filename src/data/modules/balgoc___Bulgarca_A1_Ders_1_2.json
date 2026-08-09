@@ -733,14 +733,6 @@
       ]
     },
     {
-      "id": "q_auto_371b2049",
-      "type": "translation",
-      "sentence": "Benzer kelimeler yardımıyla öğrenciler Türkçe kelimeleri Bulgarca el yazısıyla yazmayı öğrenir.",
-      "answer": "С помощта на сходните думи, обучаемите се учат да пишат ръкописно турски думи на български език.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır. Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır. Ü bazı alıntılarda У ile yazılır.\n\n📘 Kural: Fiil Çekimi - Уча (Öğrenmek)\nаз уча (ben öğrenirim)       ние учим (biz öğreniriz)\nти учиш (sen öğrenirsin)     вие учите (siz öğrenirsiniz)\nтой/тя/то учи (o öğrenir)    те учат (onlar öğrenirler)"
-    },
-    {
       "id": "q_auto_70b86ece",
       "type": "translation",
       "sentence": "С помощта на сходните думи, обучаемите се учат да пишат ръкописно турски думи на български език.",
