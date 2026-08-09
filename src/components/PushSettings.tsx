@@ -71,7 +71,13 @@ export default function PushSettings({ studentId }: { studentId: string }) {
         return;
       }
 
-      const registration = await navigator.serviceWorker.ready;
+      const registration = await navigator.serviceWorker.getRegistration();
+      if (!registration) {
+         alert("Service Worker bulunamadı. Lütfen sayfayı yenileyip tekrar deneyin.");
+         setLoading(false);
+         return;
+      }
+      
       const subscription = await registration.pushManager.subscribe({
         userVisibleOnly: true,
         applicationServerKey: urlBase64ToUint8Array(process.env.NEXT_PUBLIC_VAPID_PUBLIC_KEY as string),
@@ -82,7 +88,7 @@ export default function PushSettings({ studentId }: { studentId: string }) {
       setIsSubscribed(true);
     } catch (error) {
       console.error("Subscription failed:", error);
-      alert("Abonelik başarısız oldu. Cihazınız desteklemiyor olabilir.");
+      alert("Abonelik başarısız oldu. Cihazınız desteklemiyor olabilir veya VAPID anahtarı eksik.");
     }
     setLoading(false);
   };
@@ -92,8 +98,10 @@ export default function PushSettings({ studentId }: { studentId: string }) {
     try {
       let currentSub = subs;
       if (!currentSub) {
-         const registration = await navigator.serviceWorker.ready;
-         currentSub = await registration.pushManager.getSubscription();
+         const registration = await navigator.serviceWorker.getRegistration();
+         if (registration) {
+            currentSub = await registration.pushManager.getSubscription();
+         }
       }
       
       if (!currentSub) {
@@ -124,11 +132,13 @@ export default function PushSettings({ studentId }: { studentId: string }) {
   const unsubscribe = async () => {
     setLoading(true);
     try {
-      const registration = await navigator.serviceWorker.ready;
-      const subscription = await registration.pushManager.getSubscription();
-      if (subscription) {
-        await subscription.unsubscribe();
-        await fetch(`/api/push/settings?studentId=${studentId}`, { method: 'DELETE' });
+      const registration = await navigator.serviceWorker.getRegistration();
+      if (registration) {
+        const subscription = await registration.pushManager.getSubscription();
+        if (subscription) {
+          await subscription.unsubscribe();
+          await fetch(`/api/push/settings?studentId=${studentId}`, { method: 'DELETE' });
+        }
       }
       setIsSubscribed(false);
     } catch (error) {
