@@ -152,6 +152,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     if (!selectedWord || !student?.id) return;
     const word = selectedWord.word;
     
+    // Clear the selection natively so the button disappears
+    window.getSelection()?.removeAllRanges();
+    
     if (unknownWords.includes(word)) {
       setSelectedWord(null);
       return;
@@ -820,8 +823,11 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         <div className="fixed bottom-24 sm:bottom-12 left-1/2 -translate-x-1/2 z-50 bg-slate-900 text-white px-4 py-3 rounded-2xl shadow-2xl flex items-center gap-4 animate-in slide-in-from-bottom-5">
           <span className="font-bold text-lg">"{selectedWord.word}"</span>
           <button 
-            onClick={handleAddUnknownWord}
-            className="bg-indigo-500 hover:bg-indigo-400 px-4 py-2 rounded-xl font-bold text-sm transition-colors whitespace-nowrap shadow-sm"
+            onPointerDown={(e) => {
+              e.preventDefault(); // Prevent selection from clearing before click
+              handleAddUnknownWord();
+            }}
+            className="bg-indigo-500 hover:bg-indigo-400 px-4 py-2 rounded-xl font-bold text-sm transition-colors whitespace-nowrap shadow-sm cursor-pointer"
           >
             ➕ Listeme Ekle
           </button>
