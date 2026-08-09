@@ -18,7 +18,7 @@ export default function LoginPage() {
     if (session) {
       const user = JSON.parse(session);
       if (user.role === 'admin') router.push("/admin");
-      else router.push("/dashboard");
+      else window.location.href = `/dashboard?t=${Date.now()}`;
     }
   }, [router]);
 
@@ -43,7 +43,8 @@ export default function LoginPage() {
         if (data.user.role === 'admin') {
           router.push("/admin");
         } else {
-          router.push("/dashboard");
+          // Use hard navigation with a timestamp to completely bypass old Safari/PWA caches
+          window.location.href = `/dashboard?t=${Date.now()}`;
         }
       } else {
         setError(data.error || "Giriş başarısız.");
