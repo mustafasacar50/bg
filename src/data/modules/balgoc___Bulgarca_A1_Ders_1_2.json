@@ -361,14 +361,6 @@
       ]
     },
     {
-      "id": "q_auto_563acab9",
-      "type": "translation",
-      "sentence": "Alfabe ünlü ve ünsüz harflerden oluşur.",
-      "answer": "Азбуката се състои от гласни и съгласни букви.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Ü bazı alıntılarda У ile yazılır."
-    },
-    {
       "id": "q_auto_d92f3fc4",
       "type": "translation",
       "sentence": "Азбуката се състои от гласни и съгласни букви.",
