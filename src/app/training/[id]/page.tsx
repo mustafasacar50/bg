@@ -101,8 +101,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [useCursiveBg, setUseCursiveBg] = useState(false);
 
   // Swipe Refs
-  const touchStartRef = useRef<number | null>(null);
-  const touchEndRef = useRef<number | null>(null);
+  const touchStartRef = useRef<{ x: number, y: number } | null>(null);
 
   // 1. Initialize Student & Score
   useEffect(() => {
@@ -566,30 +565,32 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   };
 
   const onTouchStart = (e: React.TouchEvent) => {
-    touchEndRef.current = null;
-    touchStartRef.current = e.targetTouches[0].clientX;
+    touchStartRef.current = { x: e.targetTouches[0].clientX, y: e.targetTouches[0].clientY };
   };
 
-  const onTouchMove = (e: React.TouchEvent) => {
-    touchEndRef.current = e.targetTouches[0].clientX;
-  };
-
-  const onTouchEnd = () => {
-    if (touchStartRef.current === null || touchEndRef.current === null) return;
-    const distance = touchStartRef.current - touchEndRef.current;
-    const isLeftSwipe = distance > 50;
-    const isRightSwipe = distance < -50;
+  const onTouchEnd = (e: React.TouchEvent) => {
+    if (!touchStartRef.current) return;
     
-    if (isLeftSwipe) {
-      if (currentIndex < filteredQuestions.length - 1) {
-        setCurrentIndex(currentIndex + 1);
+    const touchEndX = e.changedTouches[0].clientX;
+    const touchEndY = e.changedTouches[0].clientY;
+    
+    const dx = touchStartRef.current.x - touchEndX;
+    const dy = touchStartRef.current.y - touchEndY;
+    
+    // Check if the swipe is mostly horizontal and long enough
+    if (Math.abs(dx) > Math.abs(dy) && Math.abs(dx) > 40) {
+      if (dx > 0) {
+        // Swipe left
+        if (currentIndex < filteredQuestions.length - 1) {
+          setCurrentIndex(currentIndex + 1);
+        }
+      } else {
+        // Swipe right
+        handlePrev();
       }
-    } else if (isRightSwipe) {
-      handlePrev();
     }
     
     touchStartRef.current = null;
-    touchEndRef.current = null;
   };
 
   const handleNext = () => {
@@ -745,7 +746,6 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       className="min-h-screen bg-slate-50 flex flex-col pb-36 sm:pb-24 overflow-x-hidden"
       style={{ touchAction: 'pan-y' }}
       onTouchStart={onTouchStart}
-      onTouchMove={onTouchMove}
       onTouchEnd={onTouchEnd}
     >
       {/* Header */}
