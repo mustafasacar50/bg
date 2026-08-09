@@ -7,8 +7,7 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  // Pass through all requests to network
-  event.respondWith(fetch(event.request));
+  // Safari PWA workaround: Do not intercept fetches
 });
 
 self.addEventListener('push', (event) => {

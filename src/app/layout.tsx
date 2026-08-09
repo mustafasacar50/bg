@@ -39,7 +39,18 @@ export default function RootLayout({
             __html: `
               if ('serviceWorker' in navigator) {
                 window.addEventListener('load', function() {
-                  navigator.serviceWorker.register('/sw.js');
+                  navigator.serviceWorker.register('/sw.js').then(function(reg) {
+                    reg.update(); // Force update SW
+                  });
+                  
+                  // Clear old next-pwa caches to prevent Safari offline issues
+                  if (window.caches) {
+                    caches.keys().then(function(names) {
+                      for (let name of names) {
+                        caches.delete(name);
+                      }
+                    });
+                  }
                 });
               }
             `,
