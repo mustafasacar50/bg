@@ -215,9 +215,14 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
           hint = q.sentence.includes('Türkçesi:') ? 'Bulgarca karşılığını yazınız' : 'Türkçe karşılığını yazınız';
         }
       } else {
-         // Fallback if no match
-         rawSentence = q.answer;
-         expected = q.sentence;
+         if (q.sentence.includes('Kelimeleri sıraya dizerek cümleyi kurunuz:')) {
+            rawSentence = q.answer;
+            expected = q.sentence.replace(/Kelimeleri sıraya dizerek cümleyi kurunuz:\s*/i, '').trim();
+         } else {
+            // Fallback if no match
+            rawSentence = q.answer;
+            expected = q.sentence;
+         }
       }
     }
 
