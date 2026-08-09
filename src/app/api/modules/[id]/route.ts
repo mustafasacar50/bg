@@ -18,11 +18,13 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
       }
 
       // 1. Get unknown words for student
-      const progPath = path.join(process.cwd(), 'src', 'data', 'training_progress.json');
+      const fileData = await getGitHubFile('src/data/training_progress.json').catch(() => ({ content: "{}" }));
       let unknownWords: string[] = [];
-      if (fs.existsSync(progPath)) {
-        const progData = JSON.parse(fs.readFileSync(progPath, 'utf8'));
+      try {
+        const progData = JSON.parse(fileData.content);
         unknownWords = progData[studentId]?.unknownWords || [];
+      } catch (e) {
+        unknownWords = [];
       }
 
       if (unknownWords.length === 0) {
