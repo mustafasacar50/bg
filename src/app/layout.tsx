@@ -3,7 +3,7 @@ import { Inter, Caveat } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
-const caveat = Caveat({ subsets: ["cyrillic", "latin"], variable: "--font-cursive", weight: ["400", "700"] });
+const caveat = Caveat({ subsets: ["cyrillic", "latin"], variable: "--font-cursive" });
 
 export const metadata: Metadata = {
   title: "Bulgarca Sınav Modülü",

@@ -286,7 +286,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       expected, 
       fitbTarget, 
       hint: '', // User requested to remove the hint row entirely from display
-      explanation: (q as any).explanation 
+      explanation: (q as any).explanation,
+      originalHint: hint
     });
     
     setFeedback('none');
@@ -1099,7 +1100,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                     onFocus={() => { 
                       if (!preferNativeKeyboard && !adminMode) {
                         setKeyboardOpen(true);
-                        const isExpectedBg = activeQuestion?.hint.toLowerCase().includes('bulgarca');
+                        const isExpectedBg = (activeQuestion?.originalHint || activeQuestion?.hint || '').toLowerCase().includes('bulgarca');
                         setLayout(isExpectedBg ? 'bg' : 'tr');
                       } 
                     }}
