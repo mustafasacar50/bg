@@ -173,10 +173,8 @@ export default function VocabularyPage() {
                         return (
                           <div key={i} className="py-3 flex flex-col gap-1">
                             <div className="text-slate-800 font-medium text-lg leading-relaxed">{highlightedBg}</div>
-                            <div className="mt-1">
-                              <span className="bg-emerald-100/60 text-emerald-800 text-sm px-2 py-1 rounded border border-emerald-200/50 inline-block leading-relaxed">
-                                {trText}
-                              </span>
+                            <div className="mt-1 text-slate-500 text-sm">
+                              {trText}
                             </div>
                           </div>
                         );
