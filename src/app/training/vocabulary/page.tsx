@@ -16,7 +16,12 @@ export default function VocabularyPage() {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState(true);
   const [editingWord, setEditingWord] = useState<{old: string, new: string} | null>(null);
+  const [expandedWords, setExpandedWords] = useState<Record<string, boolean>>({});
   const router = useRouter();
+
+  const toggleExpand = (word: string) => {
+    setExpandedWords(prev => ({ ...prev, [word]: !prev[word] }));
+  };
 
   useEffect(() => {
     const session = localStorage.getItem('student_session');
@@ -108,13 +113,19 @@ export default function VocabularyPage() {
               // Find matching questions for this specific word
               const examples = questions.filter(q => (q.sentence + ' ' + q.answer).toLowerCase().includes(word));
               const isEditing = editingWord?.old === word;
+              const isExpanded = !!expandedWords[word];
 
               return (
                 <div key={idx} className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
-                  <div className="p-4 sm:p-5 border-b border-slate-100 bg-slate-50 flex flex-wrap justify-between items-center gap-4">
+                  <div 
+                    className="p-4 sm:p-5 border-b border-slate-100 bg-slate-50 flex flex-wrap justify-between items-center gap-4 cursor-pointer hover:bg-slate-100 transition-colors"
+                    onClick={(e) => {
+                      if (!isEditing) toggleExpand(word);
+                    }}
+                  >
                     
                     {isEditing ? (
-                      <div className="flex items-center gap-2 w-full sm:w-auto flex-1">
+                      <div className="flex items-center gap-2 w-full sm:w-auto flex-1" onClick={e => e.stopPropagation()}>
                         <input 
                           type="text" 
                           value={editingWord.new} 
@@ -129,11 +140,12 @@ export default function VocabularyPage() {
                       <div className="flex items-center gap-3">
                         <span className="text-xl sm:text-2xl font-black text-indigo-700">"{word}"</span>
                         <span className="text-xs font-bold bg-indigo-100 text-indigo-600 px-2 py-1 rounded-md">{examples.length} Örnek</span>
+                        <span className="text-slate-400 text-sm ml-2">{isExpanded ? '▲' : '▼'}</span>
                       </div>
                     )}
 
                     {!isEditing && (
-                      <div className="flex items-center gap-2">
+                      <div className="flex items-center gap-2" onClick={e => e.stopPropagation()}>
                         {student.role === 'admin' && (
                           <button onClick={() => setEditingWord({ old: word, new: word })} className="px-3 py-1.5 bg-amber-50 text-amber-600 font-bold rounded-lg hover:bg-amber-100 text-sm">
                             ✏️ Düzenle
@@ -146,8 +158,8 @@ export default function VocabularyPage() {
                     )}
                   </div>
                   
-                  {examples.length > 0 && (
-                    <div className="p-4 sm:p-5 divide-y divide-slate-100">
+                  {isExpanded && examples.length > 0 && (
+                    <div className="p-4 sm:p-5 divide-y divide-slate-100 animate-in slide-in-from-top-2 duration-200">
                       <p className="text-xs font-bold text-slate-400 mb-3 uppercase tracking-wider">İçinde Geçtiği Cümleler</p>
                       {examples.map((ex, i) => {
                         const bgText = ex.sentence.includes('Türkçesi:') ? ex.answer : ex.sentence;
@@ -160,8 +172,12 @@ export default function VocabularyPage() {
 
                         return (
                           <div key={i} className="py-3 flex flex-col gap-1">
-                            <div className="text-slate-800 font-medium">{highlightedBg}</div>
-                            <div className="text-slate-500 text-sm">{trText}</div>
+                            <div className="text-slate-800 font-medium text-lg leading-relaxed">{highlightedBg}</div>
+                            <div className="mt-1">
+                              <span className="bg-emerald-100/60 text-emerald-800 text-sm px-2 py-1 rounded border border-emerald-200/50 inline-block leading-relaxed">
+                                {trText}
+                              </span>
+                            </div>
                           </div>
                         );
                       })}
