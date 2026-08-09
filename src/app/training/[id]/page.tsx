@@ -86,7 +86,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [selectedWord, setSelectedWord] = useState<{word: string} | null>(null);
   const [isSwapped, setIsSwapped] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
-  const [langFilter, setLangFilter] = useState<'all' | 'bg' | 'tr'>('all');
+  const [langFilter, setLangFilter] = useState<'all' | 'bg' | 'tr'>('bg');
   
   // Keyboard State
   const [keyboardOpen, setKeyboardOpen] = useState(false);
