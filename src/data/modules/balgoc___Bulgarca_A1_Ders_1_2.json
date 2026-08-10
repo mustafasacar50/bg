@@ -5965,14 +5965,6 @@
       ]
     },
     {
-      "id": "q_auto_53ed0d59",
-      "type": "translation",
-      "sentence": "Benim adım Simeon Dimitrov.",
-      "answer": "Аз се казвам Симеон Димитров.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Dil Notu: 'се' dönüşlülük unsurudur. 'Казвам се' kelime kelime 'kendime ... denir' gibi düşünülebilir ama Türkçede 'Benim adım ...' diye çevrilir.\n\n📘 Kural: Resmiyet ve Hitap\n- Как се казвате? resmi/kibar biçimdir (Siz).\n- Как се казваш? samimi tekil biçimdir (Sen).\n- “Казвам се ...” kelime kelime “kendime ... denir” gibi düşünülse de Türkçede “Benim adım ...” diye çevrilir."
-    },
-    {
       "id": "q_auto_f3f0d803",
       "type": "translation",
       "sentence": "Аз се казвам Симеон Димитров.",
