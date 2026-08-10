@@ -109,7 +109,25 @@
       }
     },
     "lastActiveTraining": "",
-    "lastVisitedModule": ""
+    "lastVisitedModule": "",
+    "balgoc___Bulgarca_A1_Ders_4": {
+      "mistakes": [],
+      "allProgress": 0,
+      "mistakesProgress": 0,
+      "score": 0,
+      "lastUpdated": "2026-08-10T18:53:20.577Z",
+      "uiState": {
+        "currentIndex": 3,
+        "score": 22.3,
+        "searchQuery": "",
+        "langFilter": "bg",
+        "isSwapped": false,
+        "layout": "bg",
+        "useCursiveBg": false,
+        "mistakes": [],
+        "timestamp": 1786388000237
+      }
+    }
   },
   "u4": {
     "balgoc___Bulgarca_A1_Ders_8": {
