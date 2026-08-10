@@ -99,7 +99,6 @@ export default function TrainingListPage() {
         const mods = modData.modules || [];
         setModules(mods);
 
-        const progress = progData.progress || {};
         const counts: Record<string, number> = {};
         
         mods.forEach((mod: Module) => {
