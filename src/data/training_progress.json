@@ -159,6 +159,24 @@
         "mistakes": [],
         "timestamp": 1786388346340
       }
+    },
+    "balgoc___Bulgarca_A1_Ders_11": {
+      "mistakes": [],
+      "allProgress": 0,
+      "mistakesProgress": 0,
+      "score": 0,
+      "lastUpdated": "2026-08-10T19:51:19.898Z",
+      "uiState": {
+        "currentIndex": 0,
+        "score": 6.1,
+        "searchQuery": "",
+        "langFilter": "bg",
+        "isSwapped": false,
+        "layout": "bg",
+        "useCursiveBg": false,
+        "mistakes": [],
+        "timestamp": 1786391479559
+      }
     }
   },
   "u4": {
