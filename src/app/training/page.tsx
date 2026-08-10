@@ -56,7 +56,9 @@ export default function TrainingListPage() {
         }
 
         let activeModId = localStorage.getItem('last_visited_module');
-        if (!activeModId && cloudActiveTraining) {
+        if (!activeModId && progData.progress?.lastVisitedModule) {
+          activeModId = progData.progress.lastVisitedModule;
+        } else if (!activeModId && cloudActiveTraining) {
           try {
             activeModId = cloudActiveTraining.split('/training/')[1].split('?')[0];
           } catch(e) {}

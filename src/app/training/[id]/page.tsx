@@ -500,6 +500,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       moduleId,
       uiState: state,
       lastActiveTraining: clearActive ? "" : `/training/${moduleId}?mode=${mode}`,
+      lastVisitedModule: clearActive ? "" : moduleId,
       ...pendingUpdates.current
     };
 

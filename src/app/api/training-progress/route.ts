@@ -58,6 +58,12 @@ export async function POST(request: Request) {
     if (data.unknownWords !== undefined) {
       progressData[data.studentId].unknownWords = data.unknownWords;
     }
+    if (data.lastActiveTraining !== undefined) {
+      progressData[data.studentId].lastActiveTraining = data.lastActiveTraining;
+    }
+    if (data.lastVisitedModule !== undefined) {
+      progressData[data.studentId].lastVisitedModule = data.lastVisitedModule;
+    }
 
     let modProgress = null;
     if (data.moduleId) {
