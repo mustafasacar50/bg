@@ -4293,9 +4293,10 @@
     {
       "id": "q_auto_d2f76100",
       "type": "translation",
-      "sentence": "novella/uzun hikaye kelimesinin Bulgarca yazılışı:",
+      "sentence": "uzun hikaye kelimesinin Bulgarca yazılışı:",
       "answer": "Новела",
-      "hint": "Bulgarca karşılığını yazınız"
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": ""
     },
     {
       "id": "q_auto_c7468a9e",
