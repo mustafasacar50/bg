@@ -17,6 +17,7 @@ export default function TrainingListPage() {
 
   const [student, setStudent] = useState<any>(null);
   const [mistakeCounts, setMistakeCounts] = useState<Record<string, number>>({});
+  const [activeModuleId, setActiveModuleId] = useState<string | null>(null);
 
   useEffect(() => {
     const session = localStorage.getItem('student_session');
@@ -53,6 +54,14 @@ export default function TrainingListPage() {
            window.location.href = cloudActiveTraining;
            return;
         }
+
+        let activeModId = null;
+        if (cloudActiveTraining) {
+          try {
+            activeModId = cloudActiveTraining.split('/training/')[1].split('?')[0];
+          } catch(e) {}
+        }
+        setActiveModuleId(activeModId);
 
         const mods = modData.modules || [];
         setModules(mods);
@@ -128,11 +137,18 @@ export default function TrainingListPage() {
             <div className="p-12 text-center text-slate-500">Henüz modül bulunmamaktadır.</div>
           ) : (
             <ul className="divide-y divide-slate-100">
-              {modules.map((mod) => (
-                <li key={mod.id} className="p-4 sm:p-6 hover:bg-slate-50 transition-colors flex flex-col md:flex-row md:items-center justify-between gap-4">
+              {modules.map((mod) => {
+                const isActive = activeModuleId === mod.id;
+                return (
+                <li key={mod.id} className={`p-4 sm:p-6 transition-colors flex flex-col md:flex-row md:items-center justify-between gap-4 relative ${isActive ? 'bg-indigo-50/70 hover:bg-indigo-50 border-l-4 border-indigo-600' : 'hover:bg-slate-50'}`}>
+                  {isActive && (
+                    <div className="absolute top-0 right-0 bg-indigo-600 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg rounded-tr-lg shadow-sm">
+                      📍 Kaldığınız Yer
+                    </div>
+                  )}
                   <div className="flex-1">
-                    <h3 className="text-lg font-bold text-slate-800">{mod.title}</h3>
-                    <p className="text-sm text-slate-500 mt-1 font-medium">{mod.questionCount} soru içeriyor</p>
+                    <h3 className={`text-lg font-bold ${isActive ? 'text-indigo-900' : 'text-slate-800'}`}>{mod.title}</h3>
+                    <p className={`text-sm mt-1 font-medium ${isActive ? 'text-indigo-600/80' : 'text-slate-500'}`}>{mod.questionCount} soru içeriyor</p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-2">
                     <button
@@ -150,7 +166,8 @@ export default function TrainingListPage() {
                     </button>
                   </div>
                 </li>
-              ))}
+                );
+              })}
             </ul>
           )}
         </div>
