@@ -5493,14 +5493,6 @@
       ]
     },
     {
-      "id": "q_auto_e12727e8",
-      "type": "translation",
-      "sentence": "Yani bu not sadece ilgili ses kuralının gerçekten uygulandığı kelimeler için yazılır.",
-      "answer": "Тоест, отнася се само за думите, към които е приложен съответния звуков закон.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
-    },
-    {
       "id": "q_auto_b9636b62",
       "type": "translation",
       "sentence": "Тоест, отнася се само за думите, към които е приложен съответния звуков закон.",
