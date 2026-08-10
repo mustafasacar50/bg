@@ -39,10 +39,10 @@
       "allProgress": 0,
       "mistakesProgress": 0,
       "score": 22.5,
-      "lastUpdated": "2026-08-10T18:44:35.192Z",
+      "lastUpdated": "2026-08-10T18:44:42.439Z",
       "uiState": {
-        "currentIndex": 435,
-        "score": 22.3,
+        "currentIndex": 359,
+        "score": 22.5,
         "searchQuery": "",
         "langFilter": "bg",
         "isSwapped": false,
@@ -54,7 +54,20 @@
           "q_auto_6d762dad",
           "q_auto_1eb9cb06",
           "q_auto_75df6711",
-          "q_auto_68da5826"
+          "q_auto_68da5826",
+          "q_auto_2039a7fc",
+          "q_auto_c2d678b1",
+          "q_auto_e53ce6ec",
+          "q_auto_6fcf3eab",
+          "q_auto_a3e0a80e",
+          "q_auto_d2f76100",
+          "q_auto_85c9516d",
+          "q_auto_dcf375d1",
+          "q_auto_8532540f",
+          "q_auto_5896e2fe",
+          "q_auto_b8d12740",
+          "q_auto_620d04eb",
+          "q_auto_9e6b64dc"
         ]
       }
     },
