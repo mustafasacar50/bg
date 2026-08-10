@@ -32,7 +32,7 @@ export default function TrainingListPage() {
     if (lastActiveStr && !sessionStorage.getItem('has_auto_redirected')) {
        sessionStorage.setItem('has_auto_redirected', 'true');
        const parsedLast = JSON.parse(lastActiveStr);
-       router.push(parsedLast.url);
+       window.location.href = parsedLast.url;
        return;
     }
 
