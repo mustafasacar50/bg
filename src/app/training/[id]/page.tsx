@@ -315,6 +315,11 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       useCursiveBg
     };
     localStorage.setItem(`training_state_${student.id}_${moduleId}_${mode}`, JSON.stringify(state));
+    
+    // Also store globally for PWA auto-resume
+    localStorage.setItem('last_active_training', JSON.stringify({
+      url: `/training/${moduleId}?mode=${mode}`
+    }));
   }, [student?.id, moduleId, mode, currentIndex, score, searchQuery, langFilter, isSwapped, layout, useCursiveBg, loading]);
 
   // Derived Filtered Questions
@@ -1030,7 +1035,10 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       {/* Header (Compact Duolingo Style) */}
       <header className="bg-white border-b border-slate-200 px-3 py-3 flex items-center sticky top-0 z-10 gap-3">
         {/* Close Button */}
-        <button onClick={() => router.push('/training')} className="w-10 h-10 flex items-center justify-center rounded-full bg-slate-100 text-slate-500 hover:bg-slate-200 flex-shrink-0 transition-colors">
+        <button onClick={() => {
+          localStorage.removeItem('last_active_training');
+          router.push('/training');
+        }} className="w-10 h-10 flex items-center justify-center rounded-full bg-slate-100 text-slate-500 hover:bg-slate-200 flex-shrink-0 transition-colors">
           <span className="text-xl font-bold">✕</span>
         </button>
 
@@ -1114,16 +1122,18 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               {mode === 'mistakes' ? (
                  <button onClick={() => {
                    localStorage.removeItem(`training_state_${student?.id}_${moduleId}_mistakes`);
+                   localStorage.removeItem('last_active_training');
                    router.push(`/training/${moduleId}?mode=all`);
                  }} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Tüm Havuza Geç</button>
               ) : (
                  <button onClick={() => { 
                    syncProgress({ allProgress: 0 }); 
                    localStorage.removeItem(`training_state_${student?.id}_${moduleId}_all`);
+                   localStorage.removeItem('last_active_training');
                    window.location.reload(); 
                  }} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Baştan Başla</button>
               )}
-              <Link href="/training" className="px-6 py-3 bg-slate-200 text-slate-700 font-bold rounded-xl hover:bg-slate-300 transition-colors">Modül Seçimine Dön</Link>
+              <Link onClick={() => localStorage.removeItem('last_active_training')} href="/training" className="px-6 py-3 bg-slate-200 text-slate-700 font-bold rounded-xl hover:bg-slate-300 transition-colors">Modül Seçimine Dön</Link>
             </div>
           </div>
         ) : (

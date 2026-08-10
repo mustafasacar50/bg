@@ -28,6 +28,14 @@ export default function TrainingListPage() {
     const parsedStudent = JSON.parse(session);
     setStudent(parsedStudent);
 
+    const lastActiveStr = localStorage.getItem("last_active_training");
+    if (lastActiveStr && !sessionStorage.getItem('has_auto_redirected')) {
+       sessionStorage.setItem('has_auto_redirected', 'true');
+       const parsedLast = JSON.parse(lastActiveStr);
+       router.push(parsedLast.url);
+       return;
+    }
+
     const fetchModulesAndProgress = async () => {
       try {
         const [modRes, progRes] = await Promise.all([

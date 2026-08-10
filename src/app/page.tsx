@@ -13,12 +13,26 @@ export default function LoginPage() {
   const router = useRouter();
 
   useEffect(() => {
-    // If already logged in, redirect to dashboard
+    // If already logged in, redirect to dashboard or active training
     const session = localStorage.getItem("student_session");
     if (session) {
-      const user = JSON.parse(session);
-      if (user.role === 'admin') router.push("/admin");
-      else window.location.href = `/dashboard?t=${Date.now()}`;
+      try {
+        const user = JSON.parse(session);
+        if (user.role === 'admin') {
+          router.push("/admin");
+        } else {
+          const lastActiveStr = localStorage.getItem("last_active_training");
+          if (lastActiveStr && !sessionStorage.getItem('has_auto_redirected')) {
+             sessionStorage.setItem('has_auto_redirected', 'true');
+             const parsed = JSON.parse(lastActiveStr);
+             window.location.href = parsed.url;
+          } else {
+             window.location.href = `/dashboard?t=${Date.now()}`;
+          }
+        }
+      } catch(e) {
+        window.location.href = `/dashboard?t=${Date.now()}`;
+      }
     }
   }, [router]);
 
