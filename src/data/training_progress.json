@@ -107,9 +107,9 @@
       "allProgress": 0,
       "mistakesProgress": 0,
       "score": 0,
-      "lastUpdated": "2026-08-10T18:53:08.293Z",
+      "lastUpdated": "2026-08-10T19:41:12.102Z",
       "uiState": {
-        "currentIndex": 51,
+        "currentIndex": 0,
         "score": 22.3,
         "searchQuery": "",
         "langFilter": "bg",
@@ -119,7 +119,7 @@
         "mistakes": [
           "q_ders3_b8fe48c8"
         ],
-        "timestamp": 1786387988009
+        "timestamp": 1786390871808
       }
     },
     "lastActiveTraining": "",
