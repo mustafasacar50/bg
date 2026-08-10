@@ -5466,14 +5466,6 @@
       "hint": "Türkçe karşılığını yazınız"
     },
     {
-      "id": "q_auto_5d035d6f",
-      "type": "translation",
-      "sentence": "“Diğer özellikler” sütununa uygulanan ses yasası yazılır.",
-      "answer": "В графа „Други особености“ се пише приложеният звуков закон.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır. Ü bazı alıntılarda У ile yazılır."
-    },
-    {
       "id": "q_auto_6a001d11",
       "type": "translation",
       "sentence": "В графа „Други особености“ се пише приложеният звуков закон.",
