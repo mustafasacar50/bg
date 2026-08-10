@@ -316,6 +316,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       }
     };
 
+    if (moduleId) {
+      localStorage.setItem('last_visited_module', moduleId as string);
+    }
     fetchAll();
   }, [moduleId, mode, student?.id]);
 
@@ -1172,6 +1175,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                    await handleCloudSync(true);
                    localStorage.removeItem(`training_state_${student?.id}_${moduleId}_mistakes`);
                    localStorage.removeItem('last_active_training');
+                   localStorage.removeItem('last_visited_module');
                    router.push(`/training/${moduleId}?mode=all`);
                  }} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Tüm Havuza Geç</button>
               ) : (
@@ -1180,6 +1184,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                    await handleCloudSync(true);
                    localStorage.removeItem(`training_state_${student?.id}_${moduleId}_all`);
                    localStorage.removeItem('last_active_training');
+                   localStorage.removeItem('last_visited_module');
                    window.location.reload(); 
                  }} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Baştan Başla</button>
               )}
