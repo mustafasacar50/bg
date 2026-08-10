@@ -55,14 +55,45 @@ export default function TrainingListPage() {
            return;
         }
 
-        let activeModId = localStorage.getItem('last_visited_module');
-        if (!activeModId && progData.progress?.lastVisitedModule) {
-          activeModId = progData.progress.lastVisitedModule;
+        const progress = progData.progress || {};
+        
+        // 1. Get local visited module and its timestamp
+        let localModData = null;
+        try {
+          const str = localStorage.getItem('last_visited_module_data');
+          if (str) localModData = JSON.parse(str);
+        } catch(e) {}
+
+        let activeModId = localModData?.id || localStorage.getItem('last_visited_module');
+        let localTs = localModData?.ts || 0;
+
+        // 2. Find the most recently updated module in the cloud
+        let latestCloudModId = null;
+        let latestCloudTs = 0;
+        
+        for (const [mId, mData] of Object.entries(progress)) {
+          if (mId === 'unknownWords' || mId === 'lastActiveTraining' || mId === 'lastVisitedModule') continue;
+          const data = mData as any;
+          if (data.lastUpdated) {
+            const ts = new Date(data.lastUpdated).getTime();
+            if (ts > latestCloudTs) {
+              latestCloudTs = ts;
+              latestCloudModId = mId;
+            }
+          }
+        }
+
+        // 3. Compare and select the newest one
+        if (latestCloudTs > localTs && latestCloudModId) {
+          activeModId = latestCloudModId;
+        } else if (!activeModId && progress.lastVisitedModule) {
+          activeModId = progress.lastVisitedModule;
         } else if (!activeModId && cloudActiveTraining) {
           try {
             activeModId = cloudActiveTraining.split('/training/')[1].split('?')[0];
           } catch(e) {}
         }
+        
         setActiveModuleId(activeModId);
 
         const mods = modData.modules || [];

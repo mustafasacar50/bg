@@ -325,7 +325,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     };
 
     if (moduleId) {
-      localStorage.setItem('last_visited_module', moduleId as string);
+      localStorage.setItem('last_visited_module', moduleId as string); // keep for backward compatibility
+      localStorage.setItem('last_visited_module_data', JSON.stringify({ id: moduleId, ts: Date.now() }));
     }
     fetchAll();
   }, [moduleId, mode, student?.id]);
