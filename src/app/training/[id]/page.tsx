@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, Suspense, use, useMemo } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
-import { Keyboard } from '@/components/Keyboard';
+
 import { HighlightableText } from '@/components/HighlightableText';
 import { DictionaryModal } from '@/components/DictionaryModal';
 import { RefreshCw } from 'lucide-react';
@@ -73,7 +73,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [loading, setLoading] = useState(true);
   
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [activeQuestion, setActiveQuestion] = useState<{ id: string, type?: string, display: string, displayParts?: { trText: string | null, bgText: string | null }, expected: string, fitbTarget: string | null, hint: string, explanation?: string, originalHint: string, pairs?: any } | null>(null);
+  const [activeQuestion, setActiveQuestion] = useState<{ id: string, type?: string, display: string, displayParts?: { trText: string | null, bgText: string | null }, expected: string, fitbTarget: string | null, hint: string, explanation?: string, originalHint: string, pairs?: any, answer?: string } | null>(null);
   const [userAnswer, setUserAnswer] = useState('');
   
   // Scramble states
@@ -98,7 +98,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [layout, setLayout] = useState<LayoutType>('bg');
   const [isCaps, setIsCaps] = useState(false);
   const [preferNativeKeyboard, setPreferNativeKeyboard] = useState(false);
-  const inputRef = useRef<HTMLInputElement>(null);
+  const inputRef = useRef<HTMLTextAreaElement>(null);
   const router = useRouter();
   
   // Admin Mode State
