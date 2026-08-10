@@ -264,24 +264,41 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
         // Try to load from localStorage first
         const localStateStr = localStorage.getItem(`training_state_${student.id}_${moduleId}_${mode}`);
+        let stateToApply = null;
+        
         if (localStateStr) {
           try {
-            const localState = JSON.parse(localStateStr);
-            if (typeof localState.currentIndex === 'number' && localState.currentIndex >= 0 && localState.currentIndex < activePool.length) {
-              setCurrentIndex(localState.currentIndex);
-            } else {
-              const savedIndex = mode === 'mistakes' ? modProgress.mistakesProgress : modProgress.allProgress;
-              if (savedIndex >= 0 && savedIndex < activePool.length) setCurrentIndex(savedIndex);
-            }
-            if (typeof localState.score === 'number') setScore(localState.score);
-            else if (modProgress.score) setScore(modProgress.score);
-            
-            if (localState.searchQuery !== undefined) setSearchQuery(localState.searchQuery);
-            if (localState.langFilter !== undefined) setLangFilter(localState.langFilter);
-            if (localState.isSwapped !== undefined) setIsSwapped(localState.isSwapped);
-            if (localState.layout !== undefined) setLayout(localState.layout);
-            if (localState.useCursiveBg !== undefined) setUseCursiveBg(localState.useCursiveBg);
+            stateToApply = JSON.parse(localStateStr);
           } catch(e) {}
+        } else if (modProgress.uiState) {
+          // Fallback to server state if no local state (e.g. new device)
+          stateToApply = modProgress.uiState;
+        }
+
+        if (stateToApply) {
+          if (typeof stateToApply.currentIndex === 'number' && stateToApply.currentIndex >= 0 && stateToApply.currentIndex < activePool.length) {
+            setCurrentIndex(stateToApply.currentIndex);
+          } else {
+            const savedIndex = mode === 'mistakes' ? modProgress.mistakesProgress : modProgress.allProgress;
+            if (savedIndex >= 0 && savedIndex < activePool.length) setCurrentIndex(savedIndex);
+          }
+          if (typeof stateToApply.score === 'number') setScore(stateToApply.score);
+          else if (modProgress.score) setScore(modProgress.score);
+          
+          if (stateToApply.searchQuery !== undefined) setSearchQuery(stateToApply.searchQuery);
+          if (stateToApply.langFilter !== undefined) setLangFilter(stateToApply.langFilter);
+          if (stateToApply.isSwapped !== undefined) setIsSwapped(stateToApply.isSwapped);
+          if (stateToApply.layout !== undefined) setLayout(stateToApply.layout);
+          if (stateToApply.useCursiveBg !== undefined) setUseCursiveBg(stateToApply.useCursiveBg);
+          
+          // Also load mistakes if they were saved in uiState (for manual cloud sync)
+          if (stateToApply.mistakes && Array.isArray(stateToApply.mistakes)) {
+            setMistakesPool(stateToApply.mistakes);
+            if (mode === 'mistakes') {
+              activePool = modData.questions.filter((q: Question) => stateToApply.mistakes.includes(q.id));
+              setSessionQuestions(activePool);
+            }
+          }
         } else {
           const savedIndex = mode === 'mistakes' ? modProgress.mistakesProgress : modProgress.allProgress;
           if (savedIndex >= 0 && savedIndex < activePool.length) {
@@ -312,7 +329,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       langFilter,
       isSwapped,
       layout,
-      useCursiveBg
+      useCursiveBg,
+      mistakes: mistakesPool
     };
     localStorage.setItem(`training_state_${student.id}_${moduleId}_${mode}`, JSON.stringify(state));
     
@@ -320,7 +338,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     localStorage.setItem('last_active_training', JSON.stringify({
       url: `/training/${moduleId}?mode=${mode}`
     }));
-  }, [student?.id, moduleId, mode, currentIndex, score, searchQuery, langFilter, isSwapped, layout, useCursiveBg, loading]);
+  }, [student?.id, moduleId, mode, currentIndex, score, searchQuery, langFilter, isSwapped, layout, useCursiveBg, mistakesPool, loading]);
 
   // Derived Filtered Questions
   const filteredQuestions = useMemo(() => {
@@ -451,29 +469,48 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
 
   const pendingUpdates = useRef<any>({});
-  const syncTimeout = useRef<NodeJS.Timeout | null>(null);
+  const [isCloudSaving, setIsCloudSaving] = useState(false);
 
   const syncProgress = (updates: any) => {
     if (!student) return;
-    
     pendingUpdates.current = { ...pendingUpdates.current, ...updates };
+  };
+
+  const handleCloudSync = async (clearActive: boolean = false) => {
+    if (!student || !moduleId) return;
+    setIsCloudSaving(true);
     
-    if (syncTimeout.current) clearTimeout(syncTimeout.current);
-    
-    syncTimeout.current = setTimeout(() => {
-      const mergedUpdates = { ...pendingUpdates.current };
-      pendingUpdates.current = {};
-      
-      fetch('/api/training-progress', {
+    // Gather full state
+    const state = {
+      currentIndex,
+      score,
+      searchQuery,
+      langFilter,
+      isSwapped,
+      layout,
+      useCursiveBg,
+      mistakes: mistakesPool
+    };
+
+    const payload = {
+      studentId: student.id,
+      moduleId,
+      uiState: state,
+      lastActiveTraining: clearActive ? "" : `/training/${moduleId}?mode=${mode}`,
+      ...pendingUpdates.current
+    };
+
+    try {
+      await fetch('/api/training-progress', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          studentId: student.id,
-          moduleId,
-          ...mergedUpdates
-        })
-      }).catch(e => console.error('Failed to sync training progress', e));
-    }, 500);
+        body: JSON.stringify(payload)
+      });
+      pendingUpdates.current = {};
+    } catch(e) {
+      console.error('Failed to sync to cloud', e);
+    }
+    setIsCloudSaving(false);
   };
 
   const handleMatchSelect = (type: 'bg' | 'tr', idx: number, id: number) => {
@@ -1035,9 +1072,12 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       {/* Header (Compact Duolingo Style) */}
       <header className="bg-white border-b border-slate-200 px-3 py-3 flex items-center sticky top-0 z-10 gap-3">
         {/* Close Button */}
-        <button onClick={() => {
-          localStorage.removeItem('last_active_training');
-          router.push('/training');
+        <button onClick={async () => {
+          if (window.confirm('Kaydedip çıkmak istediğinize emin misiniz? (İlerlemeniz buluta yüklenecek)')) {
+            await handleCloudSync(true);
+            localStorage.removeItem('last_active_training');
+            router.push('/training');
+          }
         }} className="w-10 h-10 flex items-center justify-center rounded-full bg-slate-100 text-slate-500 hover:bg-slate-200 flex-shrink-0 transition-colors">
           <span className="text-xl font-bold">✕</span>
         </button>
@@ -1087,11 +1127,19 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
           )}
         </div>
 
-        {/* Score & Settings */}
+        {/* Score, Cloud Save & Settings */}
         <div className="flex items-center gap-2 flex-shrink-0">
-          <div className="flex items-center justify-center px-3 py-2 bg-amber-50 text-amber-600 rounded-xl font-black text-sm border border-amber-100 shadow-sm">
+          <div className="flex items-center justify-center px-3 py-2 bg-amber-50 text-amber-600 rounded-xl font-black text-sm border border-amber-100 shadow-sm hidden sm:flex">
              ⭐ {score.toFixed(0)}
           </div>
+          <button 
+            onClick={() => handleCloudSync(false)} 
+            disabled={isCloudSaving}
+            className={`w-10 h-10 flex items-center justify-center rounded-xl transition-colors border shadow-sm relative ${isCloudSaving ? 'bg-indigo-50 text-indigo-400 border-indigo-200' : 'bg-indigo-100 text-indigo-700 hover:bg-indigo-200 border-indigo-200'}`}
+            title="Buluta Kaydet"
+          >
+            <span className="text-xl">{isCloudSaving ? '⏳' : '☁️'}</span>
+          </button>
           <button 
             onClick={() => setShowSettingsModal(true)} 
             className="w-10 h-10 flex items-center justify-center rounded-xl bg-slate-100 text-slate-600 hover:bg-slate-200 transition-colors border border-slate-200 shadow-sm relative"
@@ -1120,20 +1168,26 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
             <p className="text-slate-600 mb-8">Havuzdaki tüm soruları tamamladınız.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               {mode === 'mistakes' ? (
-                 <button onClick={() => {
+                 <button onClick={async () => {
+                   await handleCloudSync(true);
                    localStorage.removeItem(`training_state_${student?.id}_${moduleId}_mistakes`);
                    localStorage.removeItem('last_active_training');
                    router.push(`/training/${moduleId}?mode=all`);
                  }} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Tüm Havuza Geç</button>
               ) : (
-                 <button onClick={() => { 
-                   syncProgress({ allProgress: 0 }); 
+                 <button onClick={async () => { 
+                   syncProgress({ [mode === 'mistakes' ? 'mistakesProgress' : 'allProgress']: 0 });
+                   await handleCloudSync(true);
                    localStorage.removeItem(`training_state_${student?.id}_${moduleId}_all`);
                    localStorage.removeItem('last_active_training');
                    window.location.reload(); 
                  }} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Baştan Başla</button>
               )}
-              <Link onClick={() => localStorage.removeItem('last_active_training')} href="/training" className="px-6 py-3 bg-slate-200 text-slate-700 font-bold rounded-xl hover:bg-slate-300 transition-colors">Modül Seçimine Dön</Link>
+              <button onClick={async () => {
+                await handleCloudSync(true);
+                localStorage.removeItem('last_active_training');
+                router.push('/training');
+              }} className="px-6 py-3 bg-slate-200 text-slate-700 font-bold rounded-xl hover:bg-slate-300 transition-colors">Modül Seçimine Dön</button>
             </div>
           </div>
         ) : (

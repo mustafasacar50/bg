@@ -46,6 +46,14 @@ export default function TrainingListPage() {
         const modData = await modRes.json();
         const progData = await progRes.json();
         
+        // Check for cloud sync auto-resume
+        const cloudActiveTraining = progData.progress?.lastActiveTraining;
+        if (cloudActiveTraining && !sessionStorage.getItem('has_auto_redirected')) {
+           sessionStorage.setItem('has_auto_redirected', 'true');
+           window.location.href = cloudActiveTraining;
+           return;
+        }
+
         const mods = modData.modules || [];
         setModules(mods);
 

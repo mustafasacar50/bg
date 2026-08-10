@@ -48,16 +48,26 @@ export default function DashboardPage() {
     const fetchData = async () => {
       setLoading(true);
       try {
-        const [examsRes, scoresRes, mistakesRes, lbRes] = await Promise.all([
+        const [examsRes, scoresRes, mistakesRes, lbRes, progRes] = await Promise.all([
           fetch('/api/manage-exams'),
           fetch('/api/scores'),
           fetch(`/api/mistakes?studentId=${student.id}`),
-          fetch(`/api/leaderboard?studentId=${student.id}`)
+          fetch(`/api/leaderboard?studentId=${student.id}`),
+          fetch(`/api/training-progress?studentId=${student.id}`)
         ]);
         
         const examsData = await examsRes.json();
         const scoresData = await scoresRes.json();
         const mistakesData = await mistakesRes.json();
+        const progData = await progRes.json();
+
+        // Check for cloud sync auto-resume
+        const cloudActiveTraining = progData.progress?.lastActiveTraining;
+        if (cloudActiveTraining && !sessionStorage.getItem('has_auto_redirected')) {
+           sessionStorage.setItem('has_auto_redirected', 'true');
+           window.location.href = cloudActiveTraining;
+           return;
+        }
         const lbData = await lbRes.json();
         
         if (examsData.exams) {
