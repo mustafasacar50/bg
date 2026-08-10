@@ -5606,8 +5606,9 @@
       "id": "q_auto_182f9bd0",
       "type": "translation",
       "sentence": "ANATOMİK (sıfat) kelimesinin Bulgarca yazılışı:",
-      "answer": "анатомичен,-чна,-о;-и",
-      "hint": "Bulgarca karşılığını yazınız"
+      "answer": "анатомичен",
+      "hint": "Bulgarca karşılığını yazınız",
+      "explanation": "анатомичен,-чна,-о;-и"
     },
     {
       "id": "q_auto_f9b4a3e3",
