@@ -3,6 +3,9 @@
 import { useState, useEffect, useRef, Suspense, use, useMemo } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
+import { Keyboard } from '@/components/Keyboard';
+import { HighlightableText } from '@/components/HighlightableText';
+import { DictionaryModal } from '@/components/DictionaryModal';
 import { RefreshCw } from 'lucide-react';
 
 interface Question {
@@ -12,6 +15,7 @@ interface Question {
   answer: string;
   hint: string;
   explanation?: string;
+  pairs?: any;
 }
 
 interface ModuleData {
@@ -69,7 +73,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [loading, setLoading] = useState(true);
   
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [activeQuestion, setActiveQuestion] = useState<{ id: string, type?: string, display: string, displayParts?: { trText: string | null, bgText: string | null }, expected: string, fitbTarget: string | null, hint: string, explanation?: string } | null>(null);
+  const [activeQuestion, setActiveQuestion] = useState<{ id: string, type?: string, display: string, displayParts?: { trText: string | null, bgText: string | null }, expected: string, fitbTarget: string | null, hint: string, explanation?: string, originalHint: string, pairs?: any } | null>(null);
   const [userAnswer, setUserAnswer] = useState('');
   
   // Scramble states
@@ -87,6 +91,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [isSwapped, setIsSwapped] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [langFilter, setLangFilter] = useState<'all' | 'bg' | 'tr'>('bg');
+  const [dictionaryWord, setDictionaryWord] = useState<string | null>(null);
   
   // Keyboard State
   const [keyboardOpen, setKeyboardOpen] = useState(false);
@@ -192,6 +197,23 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       setIsWordAdded(false);
     }, 1000);
   };
+
+  const handleRemoveUnknownWord = async (wordToRemove: string) => {
+    if (!student?.id) return;
+    const newWords = unknownWords.filter(w => w.toLowerCase() !== wordToRemove.toLowerCase());
+    setUnknownWords(newWords);
+    try {
+      await fetch('/api/training-progress', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          studentId: student.id,
+          unknownWords: newWords
+        })
+      });
+    } catch(e) { console.error(e); }
+  };
+
 
   // 2. Fetch Module & Set Questions
   useEffect(() => {
@@ -376,7 +398,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       fitbTarget, 
       hint: '', // User requested to remove the hint row entirely from display
       explanation: (q as any).explanation,
-      originalHint: hint
+      originalHint: hint,
+      pairs: q.pairs
     });
     
     setFeedback('none');
@@ -425,7 +448,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
            const newMatchedIds = [...matchedIds, id];
            setMatchedIds(newMatchedIds);
            setSelectedMatch(null);
-           if (newMatchedIds.length === activeQuestion.pairs.length) {
+           if (newMatchedIds.length === activeQuestion?.pairs?.length) {
               setFeedback('correct');
            }
         } else {
@@ -831,33 +854,55 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   if (!data) return <div className="min-h-screen flex items-center justify-center text-red-500">Modül bulunamadı.</div>;
 
   return (
-    <div 
-      className="min-h-screen bg-slate-50 flex flex-col pb-36 sm:pb-24 overflow-x-hidden relative"
-      style={{ touchAction: 'pan-y' }}
-      onTouchStart={onTouchStart}
-      onTouchEnd={onTouchEnd}
-    >
-      {selectedWord && (
-        <div className="fixed bottom-24 sm:bottom-12 left-1/2 -translate-x-1/2 z-50 bg-slate-900 text-white px-4 py-3 rounded-2xl shadow-2xl flex items-center gap-4 animate-in slide-in-from-bottom-5">
-          <span className="font-bold text-lg">"{selectedWord.word}"</span>
-          <button 
-            onPointerDown={(e) => {
-              e.preventDefault(); // Prevent selection from clearing before click
-              handleAddUnknownWord();
-            }}
-            disabled={isWordAdded}
-            className={`px-4 py-2 rounded-xl font-bold text-sm transition-colors whitespace-nowrap shadow-sm cursor-pointer ${
-              isWordAdded ? 'bg-emerald-500 hover:bg-emerald-500' : 'bg-indigo-500 hover:bg-indigo-400'
-            }`}
-          >
-            {isWordAdded ? '✅ Eklendi' : '➕ Listeme Ekle'}
-          </button>
-        </div>
+    <>
+      <div 
+        className="min-h-screen bg-slate-50 flex flex-col pb-36 sm:pb-24 overflow-x-hidden relative"
+        style={{ touchAction: 'pan-y' }}
+        onTouchStart={onTouchStart}
+        onTouchEnd={onTouchEnd}
+      >
+
+      {/* Dictionary Modal */}
+      {dictionaryWord && (
+        <DictionaryModal 
+          word={dictionaryWord}
+          examples={
+            Array.from(new Set(
+              sessionQuestions
+                .filter(q => 
+                  (q.sentence && q.sentence.toLowerCase().includes(dictionaryWord.toLowerCase())) || 
+                  (q.answer && q.answer.toLowerCase().includes(dictionaryWord.toLowerCase()))
+                )
+                .map(q => {
+                  let bg = '';
+                  let tr = '';
+                  
+                  if (q.sentence?.match(/[А-Яа-я]/)) {
+                    bg = q.sentence;
+                    tr = q.answer?.match(/[А-Яа-я]/) ? (q.hint || '') : (q.answer || '');
+                  } else if (q.answer?.match(/[А-Яа-я]/)) {
+                    bg = q.answer;
+                    tr = q.sentence || q.hint || '';
+                  } else {
+                    bg = q.sentence || q.answer || '';
+                  }
+                  
+                  if (tr.startsWith('Türkçesi: ')) tr = tr.replace('Türkçesi: ', '');
+                  if (tr.startsWith('Bulgarcası: ')) tr = tr.replace('Bulgarcası: ', '');
+                  if (tr === bg) tr = '';
+                  
+                  return JSON.stringify({ bg, tr });
+                })
+            )).map(str => JSON.parse(str))
+          }
+          onClose={() => setDictionaryWord(null)}
+          onRemove={() => handleRemoveUnknownWord(dictionaryWord)}
+        />
       )}
 
       {/* Settings Modal */}
       {showSettingsModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm p-4">
+        <div className="fixed inset-0 z-[99999] flex items-center justify-center bg-black/50 backdrop-blur-sm p-4">
           <div className="bg-white rounded-2xl w-full max-w-sm overflow-hidden shadow-2xl animate-in zoom-in-95">
             <div className="bg-slate-50 border-b border-slate-100 p-4 flex justify-between items-center">
               <h3 className="font-bold text-slate-800 text-lg">⚙️ Ayarlar</h3>
@@ -953,15 +998,49 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
           <span className="text-xl font-bold">✕</span>
         </button>
 
-        {/* Progress Bar */}
-        <div className="flex-1 relative h-4 bg-slate-100 rounded-full overflow-hidden border border-slate-200 flex items-center">
+        {/* Progress Slider */}
+        <div className="flex-1 relative h-7">
+          {/* Track Background */}
+          <div className="absolute top-1/2 left-0 right-0 h-3 -mt-1.5 bg-slate-100 rounded-full border border-slate-200"></div>
+          
+          {/* Active Track */}
           <div 
-            className="absolute top-0 left-0 bottom-0 bg-green-500 transition-all duration-500 ease-out rounded-full"
-            style={{ width: `${filteredQuestions.length > 0 ? ((currentIndex + 1) / filteredQuestions.length) * 100 : 0}%` }}
+            className="absolute top-1/2 left-0 h-3 -mt-1.5 bg-green-500 rounded-full transition-all duration-150"
+            style={{ width: `calc(${filteredQuestions.length > 1 ? (currentIndex / (filteredQuestions.length - 1)) * 100 : 100}% + ${filteredQuestions.length > 1 ? (0.5 - (currentIndex / (filteredQuestions.length - 1))) * 28 : 0}px)` }}
           >
-            {/* Glossy shine effect */}
-            <div className="absolute top-0 left-0 right-0 h-1.5 bg-white/30 rounded-t-full"></div>
+            <div className="absolute top-0 left-0 right-0 h-1 bg-white/30 rounded-t-full"></div>
           </div>
+          
+          {/* Draggable Thumb / Ball */}
+          <div 
+            className="absolute top-1/2 w-7 h-7 -mt-3.5 bg-white rounded-full shadow-[0_2px_8px_rgba(0,0,0,0.15)] border-[2.5px] border-green-500 flex items-center justify-center text-[11px] font-black text-green-600 transition-all duration-150 pointer-events-none z-10"
+            style={{ 
+              left: `calc(${filteredQuestions.length > 1 ? (currentIndex / (filteredQuestions.length - 1)) * 100 : 100}% + ${filteredQuestions.length > 1 ? (0.5 - (currentIndex / (filteredQuestions.length - 1))) * 28 : 0}px)`,
+              transform: 'translateX(-50%)'
+            }}
+          >
+            {currentIndex + 1}
+          </div>
+
+          {/* Invisible Native Slider for Interaction */}
+          {filteredQuestions.length > 0 && (
+            <input 
+              type="range"
+              min={0}
+              max={Math.max(0, filteredQuestions.length - 1)}
+              value={currentIndex}
+              onChange={(e) => {
+                const val = Number(e.target.value);
+                if (val !== currentIndex) {
+                  setCurrentIndex(val);
+                  setFeedback('none');
+                  setUserAnswer('');
+                  setKeyboardOpen(false);
+                }
+              }}
+              className="absolute top-1/2 -mt-3.5 left-0 w-full h-7 opacity-0 cursor-pointer z-20 touch-none"
+            />
+          )}
         </div>
 
         {/* Score & Settings */}
@@ -1006,8 +1085,6 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
           </div>
         ) : (
           <div className="flex-1 flex flex-col mt-2 sm:mt-4">
-            {/* Space recovered from removed button row */}
-
             {isEditingQuestion ? (
               <div className="bg-white rounded-xl shadow-sm border-2 border-indigo-100 p-4 sm:p-6 mb-4 sm:mb-8 flex flex-col gap-3 sm:gap-4">
                 <div>
@@ -1048,14 +1125,14 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                     <div className="flex-1 flex flex-col gap-2 min-w-0">
                       {activeQuestion?.displayParts?.trText && (
                         <div className="text-lg sm:text-xl font-bold text-indigo-700 leading-relaxed">
-                          {activeQuestion.displayParts.trText}
+                          <HighlightableText text={activeQuestion.displayParts.trText} unknownWords={unknownWords} onWordClick={setDictionaryWord} />
                         </div>
                       )}
                       {activeQuestion?.displayParts?.bgText && (
                         <div className={`text-lg sm:text-xl font-bold text-slate-900 leading-relaxed ${useCursiveBg ? 'bg-cursive' : ''}`}>
                           {activeQuestion.displayParts.bgText.split('_____').map((part, i, arr) => (
                             <span key={i}>
-                              {part}
+                              <HighlightableText text={part} unknownWords={unknownWords} onWordClick={setDictionaryWord} />
                               {i < arr.length - 1 && <span className="text-red-500 mx-1 tracking-widest">_______</span>}
                             </span>
                           ))}
@@ -1063,7 +1140,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                       )}
                       {(!activeQuestion?.displayParts?.trText && !activeQuestion?.displayParts?.bgText) && (
                         <div className="text-lg sm:text-xl font-bold text-slate-800 leading-relaxed whitespace-pre-wrap break-words">
-                          {activeQuestion?.display}
+                          <HighlightableText text={activeQuestion?.display || ''} unknownWords={unknownWords} onWordClick={setDictionaryWord} />
                         </div>
                       )}
                     </div>
@@ -1119,7 +1196,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                     </button>
                   ) : (
                     <div className="flex flex-col items-center gap-6 w-full animate-in zoom-in-95 duration-300">
-                      <div className={`text-2xl sm:text-3xl font-black text-indigo-700 text-center ${useCursiveBg && isExpectedBg ? 'bg-cursive' : ''}`}>
+                      <div className={`text-2xl sm:text-3xl font-black text-indigo-700 text-center ${useCursiveBg ? 'bg-cursive' : ''}`}>
                         {activeQuestion?.answer || activeQuestion?.expected}
                       </div>
                       <div className="flex w-full gap-2 sm:gap-4 mt-4">
@@ -1187,7 +1264,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                           setSelectedWords(newSel);
                           setScrambleWords([...scrambleWords, word]);
                         }}
-                        className={`px-3 sm:px-4 py-1.5 sm:py-2 font-bold text-sm sm:text-base rounded-lg border shadow-sm transition-colors ${feedback === 'wrong' ? 'bg-red-100 text-red-900 border-red-200' : feedback === 'correct' ? 'bg-green-100 text-green-900 border-green-200' : 'bg-indigo-50 text-indigo-700 border-indigo-200 hover:bg-indigo-100'} ${useCursiveBg && isExpectedBg ? 'bg-cursive text-xl' : ''}`}
+                        className={`px-3 sm:px-4 py-1.5 sm:py-2 font-bold text-sm sm:text-base rounded-lg border shadow-sm transition-colors ${feedback === 'wrong' ? 'bg-red-100 text-red-900 border-red-200' : feedback === 'correct' ? 'bg-green-100 text-green-900 border-green-200' : 'bg-indigo-50 text-indigo-700 border-indigo-200 hover:bg-indigo-100'} ${useCursiveBg ? 'bg-cursive text-xl' : ''}`}
                       >
                         {word}
                       </button>
@@ -1207,7 +1284,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                           setScrambleWords(newPool);
                           setSelectedWords([...selectedWords, word]);
                         }}
-                        className={`px-3 sm:px-5 py-2 sm:py-3 bg-white text-slate-700 font-extrabold text-base sm:text-lg rounded-xl shadow-sm border-2 border-slate-200 hover:border-indigo-400 hover:text-indigo-600 hover:shadow-md transition-all active:scale-95 disabled:opacity-50 ${useCursiveBg && isExpectedBg ? 'bg-cursive text-2xl' : ''}`}
+                        className={`px-3 sm:px-5 py-2 sm:py-3 bg-white text-slate-700 font-extrabold text-base sm:text-lg rounded-xl shadow-sm border-2 border-slate-200 hover:border-indigo-400 hover:text-indigo-600 hover:shadow-md transition-all active:scale-95 disabled:opacity-50 ${useCursiveBg ? 'bg-cursive text-2xl' : ''}`}
                       >
                         {word}
                       </button>
@@ -1230,8 +1307,6 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                     onFocus={() => { 
                       if (!preferNativeKeyboard && !adminMode) {
                         setKeyboardOpen(true);
-                        const isExpectedBg = (activeQuestion?.originalHint || activeQuestion?.hint || '').toLowerCase().includes('bulgarca');
-                        setLayout(isExpectedBg ? 'bg' : 'tr');
                       } 
                     }}
                     onKeyDown={(e) => {
@@ -1246,18 +1321,13 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                 </div>
               )}
 
-
-
               {/* Açıklama / Kural Kutusu */}
               {(feedback !== 'none' || adminMode) && activeQuestion?.explanation && (
-                <div className="bg-indigo-50 border border-indigo-100 rounded-xl p-5 mt-8 flex items-start gap-4">
-                  <div className="bg-indigo-100 p-2 rounded-lg mt-1 shrink-0">
-                    <svg className="w-5 h-5 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
-                  </div>
-                  <div>
-                    <h4 className="font-bold text-indigo-900 mb-1 text-sm uppercase tracking-wider">BİLGİ NOTU & KURAL</h4>
-                    <p className="text-indigo-900 text-[15px] font-medium leading-relaxed whitespace-pre-wrap">
-                      {activeQuestion.explanation}
+                <div className="mt-4 p-4 bg-indigo-50/50 rounded-2xl border border-indigo-100 shadow-sm">
+                  <div className="flex gap-2 items-start">
+                    <span className="text-indigo-400 text-lg">💡</span>
+                    <p className="text-indigo-900 text-sm sm:text-base leading-relaxed">
+                      <HighlightableText text={activeQuestion.explanation} unknownWords={unknownWords} onWordClick={setDictionaryWord} />
                     </p>
                   </div>
                 </div>
@@ -1418,7 +1488,26 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
           </div>
         </div>
       )}
-    </div>
+      </div>
+
+      {selectedWord && (
+        <div className="fixed top-28 left-1/2 -translate-x-1/2 z-[99999] bg-slate-900 text-white px-5 py-4 rounded-2xl shadow-2xl flex items-center gap-4 animate-in slide-in-from-top-5 pointer-events-auto border border-slate-700">
+          <span className="font-bold text-lg truncate max-w-[150px]">"{selectedWord.word}"</span>
+          <button 
+            onPointerDown={(e) => {
+              e.preventDefault(); // Prevent selection from clearing before click
+              handleAddUnknownWord();
+            }}
+            disabled={isWordAdded}
+            className={`px-4 py-2.5 rounded-xl font-bold text-sm transition-colors whitespace-nowrap shadow-sm cursor-pointer ${
+              isWordAdded ? 'bg-emerald-500 text-white' : 'bg-indigo-500 hover:bg-indigo-400 text-white'
+            }`}
+          >
+            {isWordAdded ? '✅ Eklendi' : '➕ Listeme Ekle'}
+          </button>
+        </div>
+      )}
+    </>
   );
 }
 
