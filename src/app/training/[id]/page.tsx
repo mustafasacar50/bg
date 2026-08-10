@@ -262,17 +262,25 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         
         setSessionQuestions(activePool);
 
-        // Try to load from localStorage first
+        // Load from localStorage or cloud based on timestamp
         const localStateStr = localStorage.getItem(`training_state_${student.id}_${moduleId}_${mode}`);
-        let stateToApply = null;
+        let localStateToApply = null;
         
         if (localStateStr) {
           try {
-            stateToApply = JSON.parse(localStateStr);
+            localStateToApply = JSON.parse(localStateStr);
           } catch(e) {}
+        }
+        
+        let stateToApply = null;
+        if (localStateToApply && modProgress.uiState) {
+           const localTs = localStateToApply.timestamp || 0;
+           const cloudTs = modProgress.uiState.timestamp || 0;
+           stateToApply = cloudTs > localTs ? modProgress.uiState : localStateToApply;
+        } else if (localStateToApply) {
+           stateToApply = localStateToApply;
         } else if (modProgress.uiState) {
-          // Fallback to server state if no local state (e.g. new device)
-          stateToApply = modProgress.uiState;
+           stateToApply = modProgress.uiState;
         }
 
         if (stateToApply) {
@@ -333,7 +341,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       isSwapped,
       layout,
       useCursiveBg,
-      mistakes: mistakesPool
+      mistakes: mistakesPool,
+      timestamp: Date.now()
     };
     localStorage.setItem(`training_state_${student.id}_${moduleId}_${mode}`, JSON.stringify(state));
     
@@ -492,7 +501,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       isSwapped,
       layout,
       useCursiveBg,
-      mistakes: mistakesPool
+      mistakes: mistakesPool,
+      timestamp: Date.now()
     };
 
     const payload = {
