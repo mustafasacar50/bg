@@ -6233,14 +6233,6 @@
       ]
     },
     {
-      "id": "q_auto_5866af88",
-      "type": "translation",
-      "sentence": "Evet. Ben Elena Ivanova’yım.",
-      "answer": "Да. Аз съм Елена Иванова.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Bulgarcada 'olmak' fiili (съм) çok önemlidir: аз съм, ти си, той/тя/то е, ние сме, вие сте, те са.\n\n📘 Kural: \"Съм\" (Olmak) Fiili\nA1 düzeyinde en önemli fiil “съм” (olmak) fiilidir. Durum, meslek ve milliyet bildirirken kullanılır.\nаз съм (ben ...'im)        ние сме (biz ...'iz)\nти си (sen ...'sin)        вие сте (siz ...'siniz)\nтой/тя/то е (o ...'dir)    те са (onlar ...'dir)"
-    },
-    {
       "id": "q_auto_f6b92d47",
       "type": "translation",
       "sentence": "Да. Аз съм Елена Иванова.",
