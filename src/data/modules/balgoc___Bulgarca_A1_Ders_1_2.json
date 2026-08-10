@@ -6112,14 +6112,6 @@
       "explanation": "📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
     },
     {
-      "id": "q_auto_b344e83b",
-      "type": "translation",
-      "sentence": "Rumen Vasilev. kelimesinin Bulgarca yazılışı:",
-      "answer": "Румен Василев.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Resmi ve kibar konuşmada 'Вие' (Siz) kullanılır."
-    },
-    {
       "id": "q_auto_ee7919b2",
       "type": "translation",
       "sentence": "Румен Василев. kelimesinin Türkçe anlamı:",
