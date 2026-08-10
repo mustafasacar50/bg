@@ -93,7 +93,7 @@
       "allProgress": 0,
       "mistakesProgress": 0,
       "score": 0,
-      "lastUpdated": "2026-08-10T18:52:42.192Z",
+      "lastUpdated": "2026-08-10T18:53:08.293Z",
       "uiState": {
         "currentIndex": 51,
         "score": 22.3,
@@ -105,7 +105,7 @@
         "mistakes": [
           "q_ders3_b8fe48c8"
         ],
-        "timestamp": 1786387961923
+        "timestamp": 1786387988009
       }
     },
     "lastActiveTraining": "",
