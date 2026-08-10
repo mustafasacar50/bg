@@ -108,8 +108,8 @@
         "timestamp": 1786387988009
       }
     },
-    "lastActiveTraining": "/training/balgoc___Bulgarca_A1_Ders_5?mode=all",
-    "lastVisitedModule": "balgoc___Bulgarca_A1_Ders_5",
+    "lastActiveTraining": "",
+    "lastVisitedModule": "",
     "balgoc___Bulgarca_A1_Ders_4": {
       "mistakes": [],
       "allProgress": 0,
@@ -133,7 +133,7 @@
       "allProgress": 0,
       "mistakesProgress": 0,
       "score": 0,
-      "lastUpdated": "2026-08-10T18:59:03.321Z",
+      "lastUpdated": "2026-08-10T18:59:06.625Z",
       "uiState": {
         "currentIndex": 9,
         "score": 22.3,
@@ -143,7 +143,7 @@
         "layout": "bg",
         "useCursiveBg": false,
         "mistakes": [],
-        "timestamp": 1786388343049
+        "timestamp": 1786388346340
       }
     }
   },
