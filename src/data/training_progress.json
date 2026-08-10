@@ -67,6 +67,23 @@
       "mistakesProgress": 0,
       "score": 0,
       "lastUpdated": "2026-08-09T21:14:08.992Z"
+    },
+    "balgoc___Bulgarca_A1_Ders_10": {
+      "mistakes": [],
+      "allProgress": 0,
+      "mistakesProgress": 0,
+      "score": 0,
+      "lastUpdated": "2026-08-10T16:27:59.894Z",
+      "uiState": {
+        "currentIndex": 123,
+        "score": 22.3,
+        "searchQuery": "",
+        "langFilter": "bg",
+        "isSwapped": false,
+        "layout": "bg",
+        "useCursiveBg": false,
+        "mistakes": []
+      }
     }
   },
   "u4": {
