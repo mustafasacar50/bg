@@ -14,10 +14,18 @@ export default function AdminPage() {
   const router = useRouter();
 
   useEffect(() => {
-    const session = localStorage.getItem("student_session");
-    if (!session) {
+    const sessionStr = localStorage.getItem("student_session");
+    if (!sessionStr) {
       router.push("/");
+      return;
     }
+    try {
+      const session = JSON.parse(sessionStr);
+      if (session.role === 'admin') {
+        setIsAuthenticated(true);
+        fetchResults();
+      }
+    } catch(e) {}
   }, [router]);
 
   // In a real app, use NextAuth or similar. For this static-like setup, simple protection.

@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { Users, Search, RefreshCw, UserPlus, Trash2, Edit2, X, Check } from "lucide-react";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
+import { useRouter } from "next/navigation";
 
 export default function UsersAdminPage() {
   const [users, setUsers] = useState<any[]>([]);
@@ -12,6 +13,22 @@ export default function UsersAdminPage() {
   const [password, setPassword] = useState("");
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const [groups, setGroups] = useState<any[]>([]);
+  const router = useRouter();
+
+  useEffect(() => {
+    const sessionStr = localStorage.getItem("student_session");
+    if (!sessionStr) {
+      router.push("/");
+      return;
+    }
+    try {
+      const session = JSON.parse(sessionStr);
+      if (session.role === 'admin') {
+        setIsAuthenticated(true);
+        fetchUsers();
+      }
+    } catch(e) {}
+  }, [router]);
 
   // Modal states
   const [isModalOpen, setIsModalOpen] = useState(false);

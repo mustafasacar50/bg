@@ -17,6 +17,21 @@ export default function ManageExamsPage() {
 
   const router = useRouter();
 
+  useEffect(() => {
+    const sessionStr = localStorage.getItem("student_session");
+    if (!sessionStr) {
+      router.push("/");
+      return;
+    }
+    try {
+      const session = JSON.parse(sessionStr);
+      if (session.role === 'admin') {
+        setIsAuthenticated(true);
+        fetchExams();
+      }
+    } catch(e) {}
+  }, [router]);
+
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
     if (password === "admin123") {

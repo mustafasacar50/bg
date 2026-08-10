@@ -262,13 +262,34 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         
         setSessionQuestions(activePool);
 
-        const savedIndex = mode === 'mistakes' ? modProgress.mistakesProgress : modProgress.allProgress;
-        if (savedIndex >= 0 && savedIndex < activePool.length) {
-          setCurrentIndex(savedIndex);
-        }
-        
-        if (modProgress.score) {
-           setScore(modProgress.score);
+        // Try to load from localStorage first
+        const localStateStr = localStorage.getItem(`training_state_${student.id}_${moduleId}_${mode}`);
+        if (localStateStr) {
+          try {
+            const localState = JSON.parse(localStateStr);
+            if (typeof localState.currentIndex === 'number' && localState.currentIndex >= 0 && localState.currentIndex < activePool.length) {
+              setCurrentIndex(localState.currentIndex);
+            } else {
+              const savedIndex = mode === 'mistakes' ? modProgress.mistakesProgress : modProgress.allProgress;
+              if (savedIndex >= 0 && savedIndex < activePool.length) setCurrentIndex(savedIndex);
+            }
+            if (typeof localState.score === 'number') setScore(localState.score);
+            else if (modProgress.score) setScore(modProgress.score);
+            
+            if (localState.searchQuery !== undefined) setSearchQuery(localState.searchQuery);
+            if (localState.langFilter !== undefined) setLangFilter(localState.langFilter);
+            if (localState.isSwapped !== undefined) setIsSwapped(localState.isSwapped);
+            if (localState.layout !== undefined) setLayout(localState.layout);
+            if (localState.useCursiveBg !== undefined) setUseCursiveBg(localState.useCursiveBg);
+          } catch(e) {}
+        } else {
+          const savedIndex = mode === 'mistakes' ? modProgress.mistakesProgress : modProgress.allProgress;
+          if (savedIndex >= 0 && savedIndex < activePool.length) {
+            setCurrentIndex(savedIndex);
+          }
+          if (modProgress.score) {
+             setScore(modProgress.score);
+          }
         }
 
         setLoading(false);
@@ -280,6 +301,21 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
     fetchAll();
   }, [moduleId, mode, student?.id]);
+
+  // Persist UI state to localStorage
+  useEffect(() => {
+    if (!student?.id || !moduleId || loading) return;
+    const state = {
+      currentIndex,
+      score,
+      searchQuery,
+      langFilter,
+      isSwapped,
+      layout,
+      useCursiveBg
+    };
+    localStorage.setItem(`training_state_${student.id}_${moduleId}_${mode}`, JSON.stringify(state));
+  }, [student?.id, moduleId, mode, currentIndex, score, searchQuery, langFilter, isSwapped, layout, useCursiveBg, loading]);
 
   // Derived Filtered Questions
   const filteredQuestions = useMemo(() => {
@@ -1076,9 +1112,16 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
             <p className="text-slate-600 mb-8">Havuzdaki tüm soruları tamamladınız.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               {mode === 'mistakes' ? (
-                 <button onClick={() => router.push(`/training/${moduleId}?mode=all`)} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Tüm Havuza Geç</button>
+                 <button onClick={() => {
+                   localStorage.removeItem(`training_state_${student?.id}_${moduleId}_mistakes`);
+                   router.push(`/training/${moduleId}?mode=all`);
+                 }} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Tüm Havuza Geç</button>
               ) : (
-                 <button onClick={() => { syncProgress({ allProgress: 0 }); window.location.reload(); }} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Baştan Başla</button>
+                 <button onClick={() => { 
+                   syncProgress({ allProgress: 0 }); 
+                   localStorage.removeItem(`training_state_${student?.id}_${moduleId}_all`);
+                   window.location.reload(); 
+                 }} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Baştan Başla</button>
               )}
               <Link href="/training" className="px-6 py-3 bg-slate-200 text-slate-700 font-bold rounded-xl hover:bg-slate-300 transition-colors">Modül Seçimine Dön</Link>
             </div>

@@ -13,6 +13,21 @@ export default function GroupsAdminPage() {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
   const router = useRouter();
 
+  useEffect(() => {
+    const sessionStr = localStorage.getItem("student_session");
+    if (!sessionStr) {
+      router.push("/");
+      return;
+    }
+    try {
+      const session = JSON.parse(sessionStr);
+      if (session.role === 'admin') {
+        setIsAuthenticated(true);
+        fetchGroups();
+      }
+    } catch(e) {}
+  }, [router]);
+
   // Modal states
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalMode, setModalMode] = useState<"add" | "edit">("add");
