@@ -106,7 +106,8 @@ export default function TrainingListPage() {
         mods.forEach((mod: Module) => {
           if (progress[mod.id]) {
             counts[mod.id] = progress[mod.id].mistakes ? progress[mod.id].mistakes.length : 0;
-            allCounts[mod.id] = progress[mod.id].allProgress || 0;
+            const stateIdx = progress[mod.id].uiState?.currentIndex;
+            allCounts[mod.id] = stateIdx !== undefined ? stateIdx : (progress[mod.id].allProgress || 0);
           } else {
             counts[mod.id] = 0;
             allCounts[mod.id] = 0;
@@ -130,93 +131,98 @@ export default function TrainingListPage() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-slate-50 py-6 px-3 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-        <div className="flex justify-between items-center mb-8">
-          <h1 className="text-3xl font-extrabold text-slate-900 tracking-tight">Antrenman Modu</h1>
-          <div className="flex items-center gap-4">
-            <span className="text-sm font-medium text-slate-500 bg-white px-3 py-1 rounded-full shadow-sm">👤 {student.name}</span>
+        <div className="flex justify-between items-center mb-6">
+          <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">Antrenman Modu</h1>
+          <div className="flex items-center gap-2">
+            <Link href="/dashboard" className="flex items-center gap-1.5 text-sm font-medium text-slate-700 bg-white hover:bg-slate-50 border border-slate-200 px-3 py-1.5 rounded-full shadow-sm transition-colors">
+              <span>👤</span> {student.name.split(' ')[0]}
+            </Link>
+            <Link href="/settings" className="flex items-center justify-center w-8 h-8 text-slate-500 hover:text-indigo-600 bg-white border border-slate-200 rounded-full shadow-sm transition-colors" title="Ayarlar">
+              ⚙️
+            </Link>
             {student.role === 'admin' && (
-              <Link href="/admin" className="text-emerald-600 hover:text-emerald-800 font-medium">
-                Admin Paneli
+              <Link href="/admin" className="text-emerald-600 hover:text-emerald-800 text-sm font-medium ml-1">
+                Admin
               </Link>
             )}
-            <Link href="/dashboard" className="text-indigo-600 hover:text-indigo-800 font-medium">
-              Öğrenci Paneli
-            </Link>
           </div>
         </div>
 
-        <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-8">
-          <div className="p-4 border-b border-slate-100 bg-indigo-50/50 flex justify-between items-center">
-            <div>
-              <h2 className="text-lg font-semibold text-slate-800">📚 Kelime Sepetim</h2>
-              <p className="text-slate-500 text-sm mt-1">Antrenmanlarda işaretlediğiniz bilmediğiniz kelimeleri ve örnek cümleleri çalışın.</p>
-            </div>
-            <Link href="/training/vocabulary" className="bg-indigo-600 text-white px-5 py-2.5 rounded-xl font-bold shadow-sm hover:bg-indigo-700 transition-colors whitespace-nowrap">
-              Kelimelere Çalış ➔
+        <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6">
+          <div className="p-4 bg-indigo-50/50 flex flex-col items-center gap-2">
+            <Link href="/training/vocabulary" className="w-full sm:w-auto text-center bg-indigo-600 text-white px-6 py-2 rounded-xl text-sm font-bold shadow-sm hover:bg-indigo-700 transition-colors">
+              📚 Bilinmeyen Kelimeler ➔
             </Link>
+            <p className="text-slate-500 text-[11px] text-center max-w-sm">
+              Antrenmanlarda işaretlediğiniz bilmediğiniz kelimeleri ve örnek cümleleri çalışın.
+            </p>
           </div>
         </div>
 
-        <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
-          <div className="p-6 border-b border-slate-100 bg-slate-50/50">
-            <h2 className="text-lg font-semibold text-slate-800">Eğitim Modülleri</h2>
-            <p className="text-slate-500 text-sm mt-1">Çalışmak istediğiniz dersi seçin ve interaktif olarak kelime/çeviri pratiği yapın.</p>
+        {loading ? (
+          <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-12 text-center text-slate-500 flex justify-center items-center gap-2">
+            <span className="w-5 h-5 border-2 border-indigo-600 border-t-transparent rounded-full animate-spin"></span>
+            Veriler yükleniyor...
           </div>
-
-          {loading ? (
-            <div className="p-12 text-center text-slate-500 flex justify-center items-center gap-2">
-              <span className="w-5 h-5 border-2 border-indigo-600 border-t-transparent rounded-full animate-spin"></span>
-              Veriler yükleniyor...
-            </div>
-          ) : modules.length === 0 ? (
-            <div className="p-12 text-center text-slate-500">Henüz modül bulunmamaktadır.</div>
-          ) : (
-            <ul className="divide-y divide-slate-100">
-              {modules.map((mod) => {
-                const isActive = activeModuleId === mod.id;
-                const progressCount = allProgressCounts[mod.id] || 0;
-                const totalQuestions = mod.questionCount || 0;
-                const progressPercent = totalQuestions > 0 ? Math.min(100, Math.round((progressCount / totalQuestions) * 100)) : 0;
-                
-                return (
-                <li key={mod.id} className={`p-4 sm:p-6 transition-colors flex flex-col md:flex-row md:items-center justify-between gap-4 relative ${isActive ? 'bg-indigo-50/70 hover:bg-indigo-50 border-l-4 border-indigo-600' : 'hover:bg-slate-50'}`}>
-                  {isActive && (
-                    <div className="absolute top-0 right-0 bg-indigo-600 text-white text-[10px] font-bold px-2 py-1 rounded-bl-lg rounded-tr-lg shadow-sm">
-                      📍 Kaldığınız Yer
-                    </div>
-                  )}
-                  <div className="flex-1">
-                    <h3 className={`text-lg font-bold ${isActive ? 'text-indigo-900' : 'text-slate-800'}`}>{mod.title}</h3>
-                    <p className={`text-sm mt-1 font-medium ${isActive ? 'text-indigo-600/80' : 'text-slate-500'}`}>
-                      {progressCount > 0 ? `${progressCount} / ${totalQuestions} soru çözüldü` : `${totalQuestions} soru içeriyor`}
-                    </p>
+        ) : modules.length === 0 ? (
+          <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-12 text-center text-slate-500">Henüz modül bulunmamaktadır.</div>
+        ) : (
+          <div className="flex flex-col gap-4">
+            {modules.map((mod) => {
+              const isActive = activeModuleId === mod.id;
+              const progressCount = allProgressCounts[mod.id] || 0;
+              const totalQuestions = mod.questionCount || 0;
+              const progressPercent = totalQuestions > 0 ? Math.min(100, Math.round((progressCount / totalQuestions) * 100)) : 0;
+              
+              return (
+              <div key={mod.id} className={`bg-white rounded-2xl shadow-sm border p-4 sm:p-5 transition-all relative ${isActive ? 'border-indigo-500 ring-4 ring-indigo-50/50' : 'border-slate-200 hover:border-indigo-300 hover:shadow-md'}`}>
+                {isActive && (
+                  <div className="absolute top-0 right-4 bg-indigo-600 text-white text-[10px] font-bold px-3 py-1 rounded-b-lg shadow-sm z-20">
+                    📍 Kaldığınız Yer
                   </div>
-                  <div className="flex flex-col sm:flex-row gap-2">
-                    <button
-                      onClick={() => router.push(`/training/${mod.id}?mode=all`)}
-                      className="relative inline-flex justify-center items-center px-4 py-2 border-2 border-indigo-600 text-sm font-bold rounded-lg shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 focus:outline-none overflow-hidden transition-colors"
-                    >
-                      <div className="absolute inset-0 bg-indigo-100 transition-all duration-300" style={{ width: `${progressPercent}%` }}></div>
-                      <span className="relative z-10 flex items-center">
-                        📚 Tüm Havuz
+                )}
+                <div className="flex flex-col gap-3">
+                  <h3 className={`text-base font-bold ${isActive ? 'text-indigo-900' : 'text-slate-800'} pr-24 leading-tight`}>{mod.title}</h3>
+                  
+                  {/* Row 1: Progress (Left) & Mistakes (Right) */}
+                  <div className="flex items-center justify-between">
+                    <span className={`text-xs font-bold px-2.5 py-1 rounded-md border ${isActive ? 'bg-indigo-100/50 text-indigo-700 border-indigo-200' : 'bg-slate-100 text-slate-600 border-slate-200'}`}>
+                      {progressCount > 0 ? `${progressCount} / ${totalQuestions}` : `${totalQuestions} soru`}
+                    </span>
+                    
+                    {mistakeCounts[mod.id] > 0 && (
+                      <button
+                        onClick={() => router.push(`/training/${mod.id}?mode=mistakes`)}
+                        className="inline-flex items-center px-3 py-1 bg-amber-100 text-amber-700 hover:bg-amber-200 border border-amber-200 text-[11px] font-bold rounded-lg shadow-sm transition-colors"
+                      >
+                        ⚠️ Bilemediklerim ({mistakeCounts[mod.id]})
+                      </button>
+                    )}
+                  </div>
+                  
+                  {/* Row 2: Tüm Havuz Button (Slider) */}
+                  <button
+                    onClick={() => router.push(`/training/${mod.id}?mode=all`)}
+                    className="relative w-full inline-flex justify-center items-center py-2.5 border border-indigo-200 text-sm font-extrabold rounded-xl shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 focus:outline-none overflow-hidden transition-colors mt-1"
+                  >
+                    <div className="absolute inset-0 bg-indigo-100/80 transition-all duration-300" style={{ width: `${progressPercent}%` }}></div>
+                    {progressPercent > 0 && (
+                      <span className="absolute left-3 text-indigo-500 font-black text-xs drop-shadow-sm">
+                        %{progressPercent}
                       </span>
-                    </button>
-                    <button
-                      onClick={() => router.push(`/training/${mod.id}?mode=mistakes`)}
-                      disabled={!mistakeCounts[mod.id]}
-                      className={`inline-flex justify-center items-center px-4 py-2 border border-transparent text-sm font-bold rounded-lg shadow-sm transition-colors ${mistakeCounts[mod.id] ? 'text-white bg-amber-500 hover:bg-amber-600' : 'text-slate-400 bg-slate-100 cursor-not-allowed'}`}
-                    >
-                      ⚠️ Bilemediklerim ({mistakeCounts[mod.id] || 0})
-                    </button>
-                  </div>
-                </li>
-                );
-              })}
-            </ul>
-          )}
-        </div>
+                    )}
+                    <span className="relative z-10 flex items-center">
+                      📚 Tüm Havuz
+                    </span>
+                  </button>
+                </div>
+              </div>
+              );
+            })}
+          </div>
+        )}
       </div>
     </div>
   );

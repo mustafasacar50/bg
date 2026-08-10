@@ -1151,9 +1151,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
             onClick={() => handleCloudSync(false)} 
             disabled={isCloudSaving}
             className={`w-10 h-10 flex items-center justify-center rounded-xl transition-colors border shadow-sm relative ${isCloudSaving ? 'bg-indigo-50 text-indigo-400 border-indigo-200' : 'bg-indigo-100 text-indigo-700 hover:bg-indigo-200 border-indigo-200'}`}
-            title="Buluta Kaydet"
+            title="Kaydet"
           >
-            <span className="text-xl">{isCloudSaving ? '⏳' : '☁️'}</span>
+            <span className="text-xl">{isCloudSaving ? '⏳' : '💾'}</span>
           </button>
           <button 
             onClick={() => setShowSettingsModal(true)} 
@@ -1465,117 +1465,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       {/* Footer Area (Check Button & Feedback) */}
       {!isFinished && (
         <div className={`fixed bottom-0 left-0 right-0 z-50 transition-colors duration-300 ${isEditingQuestion ? 'bg-indigo-50 border-t-2 border-indigo-200' : feedback === 'correct' ? 'bg-green-100 border-t-2 border-green-200' : feedback === 'typo' ? 'bg-amber-100 border-t-2 border-amber-200' : feedback === 'wrong' ? 'bg-red-100 border-t-2 border-red-200' : 'bg-white border-t border-slate-200 shadow-[0_-10px_40px_-15px_rgba(0,0,0,0.1)]'}`}>
-          {!isEditingQuestion && (
-            <div className="max-w-3xl mx-auto px-4 py-4 sm:py-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-              
-              {/* Feedback Text (Left Side) */}
-              <div className="w-full sm:flex-1 flex flex-col justify-center">
-                {feedback === 'correct' && (
-                  <div className="text-green-700 animate-in slide-in-from-bottom-2">
-                    <div className="font-black text-xl sm:text-2xl flex items-center gap-2">
-                      <div className="w-8 h-8 rounded-full bg-green-200 flex items-center justify-center text-green-700">✓</div>
-                      Harika!
-                    </div>
-                  </div>
-                )}
-                {feedback === 'typo' && (
-                  <div className="text-amber-800 animate-in slide-in-from-bottom-2">
-                    <div className="font-black text-xl sm:text-2xl flex items-center gap-2">
-                      <div className="w-8 h-8 rounded-full bg-amber-200 flex items-center justify-center text-amber-700">!</div>
-                      Harf hatası!
-                    </div>
-                    <div className="text-sm sm:text-base font-bold mt-1 opacity-90">
-                      Doğrusu: <span className="font-black">{activeQuestion?.fitbTarget || activeQuestion?.expected}</span>
-                    </div>
-                  </div>
-                )}
-                {feedback === 'wrong' && (
-                  <div className="text-red-700 animate-in slide-in-from-bottom-2">
-                    <div className="font-black text-xl sm:text-2xl flex items-center gap-2">
-                      <div className="w-8 h-8 rounded-full bg-red-200 flex items-center justify-center text-red-700">✕</div>
-                      {userAnswer.trim() ? "Yanlış" : "Pas geçtiniz"}
-                    </div>
-                    <div className="text-sm sm:text-base font-bold mt-1 opacity-90">
-                      Doğrusu: <span className="font-black">{activeQuestion?.fitbTarget || activeQuestion?.expected}</span>
-                    </div>
-                  </div>
-                )}
-                {feedback === 'none' && !flashcardMode && (
-                  <div className="flex items-center">
-                    <button 
-                      className="text-slate-400 font-bold hover:text-slate-600 px-4 py-2 rounded-xl text-sm bg-slate-50 border border-slate-200 transition-colors flex items-center gap-2"
-                      onClick={() => setKeyboardOpen(!keyboardOpen)}
-                      title="Klavyeyi Aç/Kapat"
-                    >
-                      <span className="text-lg">⌨️</span> <span>Klavye</span>
-                    </button>
-                  </div>
-                )}
-              </div>
-
-              {/* Action Buttons (Right Side) */}
-              <div className="w-full sm:w-auto flex flex-row gap-2 sm:gap-3 shrink-0">
-                {adminMode ? (
-                  <button
-                    onClick={() => setCurrentIndex(p => Math.min(filteredQuestions.length - 1, p + 1))}
-                    disabled={currentIndex >= filteredQuestions.length - 1}
-                    className="flex-1 sm:w-48 px-6 py-3.5 rounded-2xl font-black text-base sm:text-lg transition-all bg-indigo-600 text-white hover:bg-indigo-700 shadow-[0_4px_0_0_rgb(67,56,202)] active:translate-y-1 active:shadow-none disabled:opacity-30 disabled:shadow-none disabled:translate-y-1 flex items-center justify-center gap-2"
-                  >
-                    <span>SONRAKİ</span>
-                  </button>
-                ) : flashcardMode ? (
-                  <button
-                    onClick={() => setFlashcardMode(false)}
-                    className="flex-1 sm:w-48 px-6 py-3.5 rounded-2xl font-black text-sm sm:text-base transition-all bg-slate-100 text-slate-500 hover:bg-slate-200 hover:text-slate-700 border-2 border-slate-200 shadow-[0_4px_0_0_rgb(226,232,240)] active:translate-y-1 active:shadow-none flex items-center justify-center"
-                  >
-                    Yazma Moduna Geç
-                  </button>
-                ) : (
-                  <>
-                    {feedback === 'none' && (
-                      <button
-                         onClick={handleSkip}
-                         className="px-4 py-3.5 rounded-2xl font-black text-sm transition-all bg-slate-100 text-slate-500 hover:bg-slate-200 border-2 border-slate-200 shadow-[0_4px_0_0_rgb(226,232,240)] active:translate-y-1 active:shadow-none flex items-center justify-center"
-                      >
-                         PAS GEÇ
-                      </button>
-                    )}
-                    {activeQuestion?.type !== 'matching' && (
-                      <button
-                        onClick={feedback === 'none' ? handleCheck : handleNext}
-                        disabled={feedback === 'none' && (activeQuestion?.type === 'scramble' ? selectedWords.length === 0 : !userAnswer.trim())}
-                        className={`flex-1 sm:w-48 px-6 py-3.5 rounded-2xl font-black text-base sm:text-lg transition-all flex items-center justify-center gap-2 ${
-                          feedback === 'none' 
-                            ? ((activeQuestion?.type === 'scramble' ? selectedWords.length > 0 : userAnswer.trim()) 
-                                ? 'bg-indigo-600 text-white hover:bg-indigo-700 shadow-[0_4px_0_0_rgb(67,56,202)] active:translate-y-1 active:shadow-none' 
-                                : 'bg-slate-200 text-slate-400 cursor-not-allowed') 
-                            : feedback === 'correct' 
-                                ? 'bg-green-600 text-white hover:bg-green-700 shadow-[0_4px_0_0_rgb(21,128,61)] active:translate-y-1 active:shadow-none' 
-                                : feedback === 'typo' 
-                                    ? 'bg-amber-600 text-white hover:bg-amber-700 shadow-[0_4px_0_0_rgb(180,83,9)] active:translate-y-1 active:shadow-none' 
-                                    : 'bg-red-600 text-white hover:bg-red-700 shadow-[0_4px_0_0_rgb(185,28,28)] active:translate-y-1 active:shadow-none'
-                        }`}
-                      >
-                        {feedback === 'none' ? 'KONTROL ET' : 'DEVAM ET'}
-                      </button>
-                    )}
-                    {activeQuestion?.type === 'matching' && feedback !== 'none' && (
-                       <button
-                         onClick={handleNext}
-                         className="flex-1 sm:w-48 px-6 py-3.5 rounded-2xl font-black text-base sm:text-lg transition-all bg-green-600 text-white hover:bg-green-700 shadow-[0_4px_0_0_rgb(21,128,61)] active:translate-y-1 active:shadow-none flex items-center justify-center"
-                       >
-                          DEVAM ET
-                       </button>
-                    )}
-                  </>
-                )}
-              </div>
-            </div>
-          )}
-
-          {/* Virtual Keyboard */}
+          {/* Virtual Keyboard (Moved ABOVE the Action Buttons) */}
           <div 
-            className={`bg-white border-t border-slate-200 p-2 sm:p-4 transition-all duration-300 ${(keyboardOpen && !preferNativeKeyboard && feedback === 'none') || (isEditingQuestion && keyboardOpen) ? 'h-auto opacity-100' : 'h-0 opacity-0 overflow-hidden py-0 border-transparent'}`}
+            className={`bg-white border-b border-slate-200 p-2 sm:p-4 transition-all duration-300 ${(keyboardOpen && !preferNativeKeyboard && feedback === 'none') || (isEditingQuestion && keyboardOpen) ? 'h-auto opacity-100' : 'h-0 opacity-0 overflow-hidden py-0 border-transparent'}`}
             onPointerDown={(e) => e.preventDefault()}
           >
             <div className="max-w-3xl mx-auto pb-2">
@@ -1610,6 +1502,121 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               </div>
             </div>
           </div>
+
+          {/* Buttons & Feedback (Moved BELOW the Keyboard) */}
+          {!isEditingQuestion && (
+            <div className="max-w-3xl mx-auto px-3 py-3 sm:py-5 flex flex-row items-center justify-between gap-2">
+              
+              {/* Feedback Text (Left Side) */}
+              {feedback !== 'none' && (
+                <div className="flex-1 flex flex-col justify-center">
+                  {feedback === 'correct' && (
+                    <div className="text-green-700 animate-in slide-in-from-bottom-2">
+                      <div className="font-black text-lg sm:text-2xl flex items-center gap-1.5">
+                        <div className="w-6 h-6 rounded-full bg-green-200 flex items-center justify-center text-green-700 text-sm">✓</div>
+                        Harika!
+                      </div>
+                    </div>
+                  )}
+                  {feedback === 'typo' && (
+                    <div className="text-amber-800 animate-in slide-in-from-bottom-2">
+                      <div className="font-black text-lg sm:text-2xl flex items-center gap-1.5">
+                        <div className="w-6 h-6 rounded-full bg-amber-200 flex items-center justify-center text-amber-700 text-sm">!</div>
+                        Harf hatası!
+                      </div>
+                      <div className="text-xs sm:text-base font-bold mt-0.5 opacity-90 truncate max-w-[180px] sm:max-w-none">
+                        Doğrusu: <span className="font-black">{activeQuestion?.fitbTarget || activeQuestion?.expected}</span>
+                      </div>
+                    </div>
+                  )}
+                  {feedback === 'wrong' && (
+                    <div className="text-red-700 animate-in slide-in-from-bottom-2">
+                      <div className="font-black text-lg sm:text-2xl flex items-center gap-1.5">
+                        <div className="w-6 h-6 rounded-full bg-red-200 flex items-center justify-center text-red-700 text-sm">✕</div>
+                        {userAnswer.trim() ? "Yanlış" : "Pas geçildi"}
+                      </div>
+                      <div className="text-xs sm:text-base font-bold mt-0.5 opacity-90 truncate max-w-[180px] sm:max-w-none">
+                        Doğrusu: <span className="font-black">{activeQuestion?.fitbTarget || activeQuestion?.expected}</span>
+                      </div>
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {/* Action Buttons (Right Side or Full Row) */}
+              <div className={`flex flex-row gap-2 shrink-0 ${feedback === 'none' ? 'w-full' : 'w-auto'}`}>
+                {feedback === 'none' && !flashcardMode && (
+                  <button 
+                    className="flex-1 min-w-[80px] bg-sky-500 text-white font-black hover:bg-sky-400 py-3 rounded-xl text-xs sm:text-sm shadow-[0_4px_0_0_rgb(2,132,199)] active:translate-y-1 active:shadow-none transition-all flex items-center justify-center gap-1.5 uppercase"
+                    onClick={() => {
+                      if (!keyboardOpen) {
+                        setPreferNativeKeyboard(false);
+                        setKeyboardOpen(true);
+                      } else {
+                        setKeyboardOpen(false);
+                      }
+                    }}
+                  >
+                    <span>KLAVYE</span>
+                  </button>
+                )}
+                {adminMode ? (
+                  <button
+                    onClick={() => setCurrentIndex(p => Math.min(filteredQuestions.length - 1, p + 1))}
+                    disabled={currentIndex >= filteredQuestions.length - 1}
+                    className="flex-1 px-4 py-3 rounded-xl font-black text-xs sm:text-sm transition-all bg-indigo-600 text-white hover:bg-indigo-500 shadow-[0_4px_0_0_rgb(67,56,202)] active:translate-y-1 active:shadow-none flex items-center justify-center gap-2 uppercase"
+                  >
+                    <span>SONRAKİ</span>
+                  </button>
+                ) : flashcardMode ? (
+                  <button
+                    onClick={() => setFlashcardMode(false)}
+                    className="flex-1 px-4 py-3 rounded-xl font-black text-xs sm:text-sm transition-all bg-slate-100 text-slate-500 hover:bg-slate-200 border border-slate-200 shadow-[0_4px_0_0_rgb(226,232,240)] active:translate-y-1 active:shadow-none flex items-center justify-center uppercase"
+                  >
+                    YAZMA MODU
+                  </button>
+                ) : (
+                  <>
+                    {feedback === 'none' && (
+                      <button
+                         onClick={handleSkip}
+                         className="flex-1 min-w-[80px] px-2 py-3 rounded-xl font-black text-xs sm:text-sm transition-all bg-slate-500 text-white hover:bg-slate-400 shadow-[0_4px_0_0_rgb(71,85,105)] active:translate-y-1 active:shadow-none flex items-center justify-center whitespace-nowrap uppercase"
+                      >
+                         PAS GEÇ
+                      </button>
+                    )}
+                    {activeQuestion?.type !== 'matching' && (
+                      <button
+                        onClick={feedback === 'none' ? handleCheck : handleNext}
+                        disabled={feedback === 'none' && (activeQuestion?.type === 'scramble' ? selectedWords.length === 0 : !userAnswer.trim())}
+                        className={`flex-[1.5] min-w-[100px] px-3 py-3 rounded-xl font-black text-xs sm:text-sm transition-all flex items-center justify-center gap-1.5 whitespace-nowrap uppercase ${
+                          feedback === 'none' 
+                            ? ((activeQuestion?.type === 'scramble' ? selectedWords.length > 0 : userAnswer.trim()) 
+                                ? 'bg-indigo-600 text-white hover:bg-indigo-500 shadow-[0_4px_0_0_rgb(67,56,202)] active:translate-y-1 active:shadow-none' 
+                                : 'bg-indigo-100 text-indigo-400 shadow-[0_4px_0_0_rgb(224,231,255)] cursor-not-allowed') 
+                            : feedback === 'correct' 
+                                ? 'bg-green-500 text-white hover:bg-green-400 shadow-[0_4px_0_0_rgb(22,163,74)] active:translate-y-1 active:shadow-none' 
+                                : feedback === 'typo' 
+                                    ? 'bg-amber-500 text-white hover:bg-amber-400 shadow-[0_4px_0_0_rgb(217,119,6)] active:translate-y-1 active:shadow-none' 
+                                    : 'bg-red-500 text-white hover:bg-red-400 shadow-[0_4px_0_0_rgb(220,38,38)] active:translate-y-1 active:shadow-none'
+                        }`}
+                      >
+                        {feedback === 'none' ? 'KONTROL ET' : 'DEVAM ET'}
+                      </button>
+                    )}
+                    {activeQuestion?.type === 'matching' && feedback !== 'none' && (
+                       <button
+                         onClick={handleNext}
+                         className="flex-[2] px-6 py-3 rounded-xl font-bold text-sm transition-all bg-green-600 text-white hover:bg-green-700 shadow-[0_3px_0_0_rgb(21,128,61)] active:translate-y-1 active:shadow-none flex items-center justify-center"
+                       >
+                          DEVAM ET
+                       </button>
+                    )}
+                  </>
+                )}
+              </div>
+            </div>
+          )}
         </div>
       )}
       </div>
