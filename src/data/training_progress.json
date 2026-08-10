@@ -39,7 +39,7 @@
       "allProgress": 0,
       "mistakesProgress": 0,
       "score": 22.5,
-      "lastUpdated": "2026-08-10T16:27:01.326Z",
+      "lastUpdated": "2026-08-10T18:44:35.192Z",
       "uiState": {
         "currentIndex": 435,
         "score": 22.3,
@@ -101,7 +101,9 @@
         "useCursiveBg": false,
         "mistakes": []
       }
-    }
+    },
+    "lastActiveTraining": "",
+    "lastVisitedModule": ""
   },
   "u4": {
     "balgoc___Bulgarca_A1_Ders_8": {
