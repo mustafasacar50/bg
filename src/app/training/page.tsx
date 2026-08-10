@@ -17,6 +17,7 @@ export default function TrainingListPage() {
 
   const [student, setStudent] = useState<any>(null);
   const [mistakeCounts, setMistakeCounts] = useState<Record<string, number>>({});
+  const [allProgressCounts, setAllProgressCounts] = useState<Record<string, number>>({});
   const [activeModuleId, setActiveModuleId] = useState<string | null>(null);
 
   useEffect(() => {
@@ -100,16 +101,20 @@ export default function TrainingListPage() {
         setModules(mods);
 
         const counts: Record<string, number> = {};
+        const allCounts: Record<string, number> = {};
         
         mods.forEach((mod: Module) => {
-          if (progress[mod.id] && progress[mod.id].mistakes) {
-            counts[mod.id] = progress[mod.id].mistakes.length;
+          if (progress[mod.id]) {
+            counts[mod.id] = progress[mod.id].mistakes ? progress[mod.id].mistakes.length : 0;
+            allCounts[mod.id] = progress[mod.id].allProgress || 0;
           } else {
             counts[mod.id] = 0;
+            allCounts[mod.id] = 0;
           }
         });
         
         setMistakeCounts(counts);
+        setAllProgressCounts(allCounts);
         setLoading(false);
       } catch (err) {
         console.error('Error fetching data:', err);
@@ -171,6 +176,10 @@ export default function TrainingListPage() {
             <ul className="divide-y divide-slate-100">
               {modules.map((mod) => {
                 const isActive = activeModuleId === mod.id;
+                const progressCount = allProgressCounts[mod.id] || 0;
+                const totalQuestions = mod.questionCount || 0;
+                const progressPercent = totalQuestions > 0 ? Math.min(100, Math.round((progressCount / totalQuestions) * 100)) : 0;
+                
                 return (
                 <li key={mod.id} className={`p-4 sm:p-6 transition-colors flex flex-col md:flex-row md:items-center justify-between gap-4 relative ${isActive ? 'bg-indigo-50/70 hover:bg-indigo-50 border-l-4 border-indigo-600' : 'hover:bg-slate-50'}`}>
                   {isActive && (
@@ -180,14 +189,19 @@ export default function TrainingListPage() {
                   )}
                   <div className="flex-1">
                     <h3 className={`text-lg font-bold ${isActive ? 'text-indigo-900' : 'text-slate-800'}`}>{mod.title}</h3>
-                    <p className={`text-sm mt-1 font-medium ${isActive ? 'text-indigo-600/80' : 'text-slate-500'}`}>{mod.questionCount} soru içeriyor</p>
+                    <p className={`text-sm mt-1 font-medium ${isActive ? 'text-indigo-600/80' : 'text-slate-500'}`}>
+                      {progressCount > 0 ? `${progressCount} / ${totalQuestions} soru çözüldü` : `${totalQuestions} soru içeriyor`}
+                    </p>
                   </div>
                   <div className="flex flex-col sm:flex-row gap-2">
                     <button
                       onClick={() => router.push(`/training/${mod.id}?mode=all`)}
-                      className="inline-flex justify-center items-center px-4 py-2 border-2 border-indigo-600 text-sm font-bold rounded-lg shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 focus:outline-none transition-colors"
+                      className="relative inline-flex justify-center items-center px-4 py-2 border-2 border-indigo-600 text-sm font-bold rounded-lg shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 focus:outline-none overflow-hidden transition-colors"
                     >
-                      📚 Tüm Havuz
+                      <div className="absolute inset-0 bg-indigo-100 transition-all duration-300" style={{ width: `${progressPercent}%` }}></div>
+                      <span className="relative z-10 flex items-center">
+                        📚 Tüm Havuz
+                      </span>
                     </button>
                     <button
                       onClick={() => router.push(`/training/${mod.id}?mode=mistakes`)}
