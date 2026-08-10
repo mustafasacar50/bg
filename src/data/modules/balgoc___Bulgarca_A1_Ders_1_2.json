@@ -6163,14 +6163,6 @@
       "explanation": "'ли' parçacığı evet/hayır sorusu yapar (Örn: Студент ли си? = Öğrenci misin?).\n\n📘 Kural: \"Ли\" Soru Eki\nBulgarcada \"ли\" parçacığı Türkçedeki \"mı/mi\" gibi evet/hayır sorusu yapar ve genellikle vurgulanan kelimeden/yüklemden hemen sonra gelir.\nÖrnek: Учиш ли? = Okuyor musun? / Студент ли си? = Öğrenci misin?"
     },
     {
-      "id": "q_auto_90ef4ed0",
-      "type": "translation",
-      "sentence": "Evet. Rumen Vasilev.",
-      "answer": "Да. Румен Василев.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Resmi ve kibar konuşmada 'Вие' (Siz) kullanılır."
-    },
-    {
       "id": "q_auto_0c95ed0e",
       "type": "translation",
       "sentence": "Да. Румен Василев.",
