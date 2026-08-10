@@ -3,12 +3,13 @@ import React, { useEffect, useState } from 'react';
 
 interface DictionaryModalProps {
   word: string;
+  customMeaning?: string;
   examples: { bg: string, tr: string }[];
   onClose: () => void;
   onRemove: () => void;
 }
 
-export function DictionaryModal({ word, examples, onClose, onRemove }: DictionaryModalProps) {
+export function DictionaryModal({ word, customMeaning, examples, onClose, onRemove }: DictionaryModalProps) {
   const [dict, setDict] = useState<Record<string, string>>({});
   const [loading, setLoading] = useState(true);
 
@@ -68,7 +69,9 @@ export function DictionaryModal({ word, examples, onClose, onRemove }: Dictionar
           
           <div className="bg-white p-5 rounded-2xl shadow-sm border border-slate-100">
             <h3 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Sözlük Anlamı</h3>
-            {loading ? (
+            {customMeaning ? (
+              <p className="text-lg font-bold text-emerald-600">{customMeaning} <span className="text-xs text-emerald-500 font-normal ml-2">(Kişisel Havuz)</span></p>
+            ) : loading ? (
               <div className="animate-pulse flex h-6 bg-slate-200 rounded w-1/2"></div>
             ) : meaning ? (
               <p className="text-lg font-bold text-indigo-700">{meaning}</p>
@@ -105,7 +108,7 @@ export function DictionaryModal({ word, examples, onClose, onRemove }: Dictionar
                 })}
                 {examples.length > 5 && (
                   <div className="text-center text-sm font-semibold text-slate-400 pt-2">
-                    + {examples.length - 5} örnek daha var
+                    (+ {examples.length - 5})
                   </div>
                 )}
               </div>
@@ -118,15 +121,16 @@ export function DictionaryModal({ word, examples, onClose, onRemove }: Dictionar
 
         </div>
         
-        <div className="p-4 sm:p-6 bg-white border-t border-slate-100 flex gap-3 sticky bottom-0">
+        <div className="p-4 sm:p-6 bg-white border-t border-slate-100 flex justify-end sticky bottom-0">
           <button 
             onClick={() => {
               onRemove();
               onClose();
             }}
-            className="flex-1 py-3.5 bg-emerald-50 text-emerald-600 font-bold rounded-xl hover:bg-emerald-100 transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
+            title="Öğrendim (Sepetten Çıkar)"
+            className="w-12 h-12 bg-red-50 text-red-600 rounded-xl hover:bg-red-100 flex items-center justify-center transition-colors"
           >
-            ✅ Öğrendim (Sepetten Çıkar)
+            🗑️
           </button>
         </div>
 

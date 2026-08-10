@@ -87,7 +87,18 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [sessionQuestions, setSessionQuestions] = useState<Question[]>([]);
   const [mistakesPool, setMistakesPool] = useState<string[]>([]);
   const [unknownWords, setUnknownWords] = useState<string[]>([]);
+  const [customDictionary, setCustomDictionary] = useState<Record<string, string>>({});
+  const [customMeaning, setCustomMeaning] = useState<string>('');
+
   const [selectedWord, setSelectedWord] = useState<{word: string} | null>(null);
+
+  useEffect(() => {
+    if (selectedWord && customDictionary[selectedWord.word.toLowerCase()]) {
+      setCustomMeaning(customDictionary[selectedWord.word.toLowerCase()]);
+    } else {
+      setCustomMeaning('');
+    }
+  }, [selectedWord, customDictionary]);
   const [isSwapped, setIsSwapped] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [langFilter, setLangFilter] = useState<'all' | 'bg' | 'tr'>('bg');
@@ -137,6 +148,11 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   useEffect(() => {
     const handleSelection = () => {
       setTimeout(() => {
+        // Don't close the modal if the user is interacting with the custom meaning input
+        if (document.activeElement?.id === 'custom-meaning-input') {
+          return;
+        }
+
         const selection = window.getSelection();
         if (selection && selection.toString().trim()) {
           const raw = selection.toString().trim();
@@ -161,11 +177,22 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const handleAddUnknownWord = async () => {
     if (!selectedWord || !student?.id) return;
     const word = selectedWord.word;
+    const wordLower = word.toLowerCase();
     
     // Show success state
     setIsWordAdded(true);
     
-    if (unknownWords.includes(word)) {
+    const newDict = { ...customDictionary };
+    let dictChanged = false;
+    if (customMeaning.trim() !== "" && newDict[wordLower] !== customMeaning.trim()) {
+      newDict[wordLower] = customMeaning.trim();
+      dictChanged = true;
+      setCustomDictionary(newDict);
+    }
+    
+    const wordAlreadyInList = unknownWords.includes(word);
+    
+    if (wordAlreadyInList && !dictChanged) {
       setTimeout(() => {
         window.getSelection()?.removeAllRanges();
         setSelectedWord(null);
@@ -174,8 +201,10 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       return;
     }
     
-    const newWords = [...unknownWords, word];
-    setUnknownWords(newWords);
+    const newWords = wordAlreadyInList ? unknownWords : [...unknownWords, word];
+    if (!wordAlreadyInList) {
+      setUnknownWords(newWords);
+    }
     
     try {
       await fetch('/api/training-progress', {
@@ -183,7 +212,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           studentId: student.id,
-          unknownWords: newWords
+          unknownWords: newWords,
+          ...(dictChanged ? { customDictionary: newDict } : {})
         })
       });
     } catch(e) {
@@ -236,6 +266,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         
         const globalUnknownWords = progress.unknownWords || [];
         setUnknownWords(globalUnknownWords);
+        const globalCustomDict = progress.customDictionary || {};
+        setCustomDictionary(globalCustomDict);
 
         const mistakes = modProgress.mistakes || [];
         setMistakesPool(mistakes);
@@ -959,6 +991,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       {dictionaryWord && (
         <DictionaryModal 
           word={dictionaryWord}
+          customMeaning={customDictionary[dictionaryWord.toLowerCase()]}
           examples={
             Array.from(new Set(
               sessionQuestions
@@ -1622,15 +1655,31 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       </div>
 
       {selectedWord && (
-        <div className="fixed top-28 left-1/2 -translate-x-1/2 z-[99999] bg-slate-900 text-white px-5 py-4 rounded-2xl shadow-2xl flex items-center gap-4 animate-in slide-in-from-top-5 pointer-events-auto border border-slate-700">
-          <span className="font-bold text-lg truncate max-w-[150px]">"{selectedWord.word}"</span>
+        <div className="fixed top-28 left-1/2 -translate-x-1/2 z-[99999] bg-slate-900 text-white px-5 py-4 rounded-2xl shadow-2xl flex flex-col sm:flex-row items-center gap-3 animate-in slide-in-from-top-5 pointer-events-auto border border-slate-700">
+          <div className="flex items-center gap-3 w-full sm:w-auto">
+            <span className="font-bold text-lg truncate max-w-[150px]">"{selectedWord.word}"</span>
+            <input 
+              id="custom-meaning-input"
+              type="text" 
+              placeholder="Kelimenin anlamı..." 
+              value={customMeaning} 
+              onChange={(e) => setCustomMeaning(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter') {
+                   e.preventDefault();
+                   handleAddUnknownWord();
+                }
+              }}
+              className="flex-1 sm:w-40 px-3 py-2 bg-slate-800 border border-slate-600 rounded-lg text-sm text-white focus:outline-none focus:border-indigo-500 placeholder:text-slate-500"
+            />
+          </div>
           <button 
             onPointerDown={(e) => {
               e.preventDefault(); // Prevent selection from clearing before click
               handleAddUnknownWord();
             }}
             disabled={isWordAdded}
-            className={`px-4 py-2.5 rounded-xl font-bold text-sm transition-colors whitespace-nowrap shadow-sm cursor-pointer ${
+            className={`w-full sm:w-auto px-4 py-2.5 rounded-xl font-bold text-sm transition-colors whitespace-nowrap shadow-sm cursor-pointer ${
               isWordAdded ? 'bg-emerald-500 text-white' : 'bg-indigo-500 hover:bg-indigo-400 text-white'
             }`}
           >

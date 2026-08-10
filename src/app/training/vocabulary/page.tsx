@@ -13,6 +13,7 @@ interface Question {
 export default function VocabularyPage() {
   const [student, setStudent] = useState<any>(null);
   const [unknownWords, setUnknownWords] = useState<string[]>([]);
+  const [customDictionary, setCustomDictionary] = useState<Record<string, string>>({});
   const [questions, setQuestions] = useState<Question[]>([]);
   const [dictionary, setDictionary] = useState<Record<string, string>>({});
   const [loading, setLoading] = useState(true);
@@ -55,6 +56,7 @@ export default function VocabularyPage() {
         
         setDictionary(cleanDict);
         setUnknownWords(progData.progress?.unknownWords || []);
+        setCustomDictionary(progData.progress?.customDictionary || {});
         setQuestions(modData.questions || []);
         setLoading(false);
       } catch (err) {
@@ -150,7 +152,9 @@ export default function VocabularyPage() {
                       </div>
                     ) : (
                       <div className="flex items-center gap-3">
-                        <span className="text-xl sm:text-2xl font-black text-indigo-700">"{word}"</span>
+                        <span className="text-xl sm:text-2xl font-black text-indigo-700">
+                          "{word}" {customDictionary[word.toLowerCase()] && <span className="text-slate-500 font-medium text-lg ml-2 uppercase">: {customDictionary[word.toLowerCase()]}</span>}
+                        </span>
                         <span className="text-xs font-bold bg-indigo-100 text-indigo-600 px-2 py-1 rounded-md">{examples.length} Örnek</span>
                         <span className="text-slate-400 text-sm ml-2">{isExpanded ? '▲' : '▼'}</span>
                       </div>
@@ -163,8 +167,8 @@ export default function VocabularyPage() {
                             ✏️ Düzenle
                           </button>
                         )}
-                        <button onClick={() => handleRemoveWord(word)} className="px-3 py-1.5 bg-emerald-50 text-emerald-600 font-bold rounded-lg hover:bg-emerald-100 text-sm transition-colors">
-                          ✓ Öğrendim (Sil)
+                        <button onClick={() => handleRemoveWord(word)} title="Öğrendim (Sil)" className="w-10 h-10 bg-red-50 text-red-600 rounded-xl hover:bg-red-100 flex items-center justify-center transition-colors">
+                          🗑️
                         </button>
                       </div>
                     )}

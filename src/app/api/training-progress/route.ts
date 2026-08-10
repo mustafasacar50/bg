@@ -58,6 +58,9 @@ export async function POST(request: Request) {
     if (data.unknownWords !== undefined) {
       progressData[data.studentId].unknownWords = data.unknownWords;
     }
+    if (data.customDictionary !== undefined) {
+      progressData[data.studentId].customDictionary = data.customDictionary;
+    }
     if (data.lastActiveTraining !== undefined) {
       progressData[data.studentId].lastActiveTraining = data.lastActiveTraining;
     }
@@ -96,7 +99,7 @@ export async function POST(request: Request) {
       `Update training progress for ${data.studentId}${data.moduleId ? ' on ' + data.moduleId : ''}`
     );
 
-    return NextResponse.json({ success: true, data: modProgress, unknownWords: progressData[data.studentId].unknownWords || [] });
+    return NextResponse.json({ success: true, data: modProgress, unknownWords: progressData[data.studentId].unknownWords || [], customDictionary: progressData[data.studentId].customDictionary || {} });
   } catch (error: any) {
     console.error("Error saving training progress:", error);
     return NextResponse.json({ error: error.message }, { status: 500 });
