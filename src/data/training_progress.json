@@ -91,20 +91,21 @@
       "allProgress": 0,
       "mistakesProgress": 0,
       "score": 0,
-      "lastUpdated": "2026-08-10T16:28:15.870Z",
+      "lastUpdated": "2026-08-10T18:50:41.366Z",
       "uiState": {
-        "currentIndex": 44,
+        "currentIndex": 47,
         "score": 22.3,
         "searchQuery": "",
         "langFilter": "bg",
         "isSwapped": false,
         "layout": "bg",
         "useCursiveBg": false,
-        "mistakes": []
+        "mistakes": [],
+        "timestamp": 1786387840982
       }
     },
-    "lastActiveTraining": "",
-    "lastVisitedModule": ""
+    "lastActiveTraining": "/training/balgoc___Bulgarca_A1_Ders_3?mode=all",
+    "lastVisitedModule": "balgoc___Bulgarca_A1_Ders_3"
   },
   "u4": {
     "balgoc___Bulgarca_A1_Ders_8": {
