@@ -671,14 +671,6 @@
       ]
     },
     {
-      "id": "q_auto_917c3637",
-      "type": "translation",
-      "sentence": "Kelime ne kadar uzunsa genellikle o kadar çok hece içerir.",
-      "answer": "Колкото е по-голяма думата, толкова повече срички има.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır.\n\n📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)\n\n📘 Kural: İmam (Sahibim) vs İma (Var)\n- имам (sahip olmak): Özneye bağlıdır. \"Benim arabam var\" derken şahsa göre çekimlenir.\n  (имам, имаш, има, имаме, имате, имат)\n- има / няма (var / yok): Türkçedeki gibi genel \"var/yok\" anlamı taşır, şahsa göre çekimlenmez. \"Odada yatak var\" (В стаята има легло) gibi durumları belirtir."
-    },
-    {
       "id": "q_auto_71f4a871",
       "type": "translation",
       "sentence": "Колкото е по-голяма думата, толкова повече срички има.",
