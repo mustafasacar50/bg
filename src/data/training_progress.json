@@ -86,11 +86,13 @@
       }
     },
     "balgoc___Bulgarca_A1_Ders_10": {
-      "mistakes": [],
+      "mistakes": [
+        "q_ders10_65e2593e"
+      ],
       "allProgress": 0,
       "mistakesProgress": 0,
       "score": 0,
-      "lastUpdated": "2026-08-10T16:27:59.894Z",
+      "lastUpdated": "2026-08-11T06:51:31.662Z",
       "uiState": {
         "currentIndex": 123,
         "score": 22.3,
@@ -99,7 +101,10 @@
         "isSwapped": false,
         "layout": "bg",
         "useCursiveBg": false,
-        "mistakes": []
+        "mistakes": [
+          "q_ders10_65e2593e"
+        ],
+        "timestamp": 1786431090941
       }
     },
     "balgoc___Bulgarca_A1_Ders_3": {
