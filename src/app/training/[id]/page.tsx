@@ -562,12 +562,15 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       timestamp: Date.now()
     };
 
+    const progKey = mode === 'mistakes' ? 'mistakesProgress' : (langFilter === 'bg' ? 'bgProgress' : langFilter === 'tr' ? 'trProgress' : 'allProgress');
+
     const payload = {
       studentId: student.id,
       moduleId,
       uiState: state,
       lastActiveTraining: clearActive ? "" : `/training/${moduleId}?mode=${mode}`,
       lastVisitedModule: clearActive ? "" : moduleId,
+      [progKey]: currentIndex,
       ...pendingUpdates.current
     };
 
