@@ -122,6 +122,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
   // Settings Modal State
   const [showSettingsModal, setShowSettingsModal] = useState(false);
+  const [showExitModal, setShowExitModal] = useState(false);
 
   // Swipe Refs
   const touchStartRef = useRef<{ x: number, y: number } | null>(null);
@@ -1185,16 +1186,53 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         </div>
       )}
 
+      {/* Exit Confirmation Modal */}
+      {showExitModal && (
+        <div className="fixed inset-0 z-[99999] flex items-center justify-center bg-black/60 backdrop-blur-sm p-4">
+          <div className="bg-white rounded-2xl w-full max-w-sm shadow-2xl overflow-hidden">
+            <div className="p-6 text-center">
+              <div className="text-4xl mb-3">💾</div>
+              <h3 className="text-lg font-bold text-slate-800 mb-2">Çıkmak istediğinizden emin misiniz?</h3>
+              <p className="text-sm text-slate-500 mb-6">İlerlemenizi kaydetmek ister misiniz?</p>
+              <div className="flex flex-col gap-3">
+                <button
+                  onClick={async () => {
+                    setShowExitModal(false);
+                    await handleCloudSync(true);
+                    localStorage.removeItem('last_active_training');
+                    router.push('/training');
+                  }}
+                  className="w-full py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors"
+                >
+                  💾 Kaydedip Çık
+                </button>
+                <button
+                  onClick={() => {
+                    setShowExitModal(false);
+                    localStorage.removeItem('last_active_training');
+                    localStorage.removeItem(`training_state_${student?.id}_${moduleId}_${mode}`);
+                    router.push('/training');
+                  }}
+                  className="w-full py-3 bg-slate-100 text-slate-700 font-bold rounded-xl hover:bg-slate-200 transition-colors"
+                >
+                  🚪 Kaydetmeden Çık
+                </button>
+                <button
+                  onClick={() => setShowExitModal(false)}
+                  className="w-full py-2 text-slate-400 hover:text-slate-600 text-sm font-medium transition-colors"
+                >
+                  İptal
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Header (Compact Duolingo Style) */}
       <header className="bg-white border-b border-slate-200 px-3 py-3 flex items-center sticky top-0 z-10 gap-3">
         {/* Close Button */}
-        <button onClick={async () => {
-          if (window.confirm('Kaydedip çıkmak istediğinize emin misiniz? (İlerlemeniz buluta yüklenecek)')) {
-            await handleCloudSync(true);
-            localStorage.removeItem('last_active_training');
-            router.push('/training');
-          }
-        }} className="w-10 h-10 flex items-center justify-center rounded-full bg-slate-100 text-slate-500 hover:bg-slate-200 flex-shrink-0 transition-colors">
+        <button onClick={() => setShowExitModal(true)} className="w-10 h-10 flex items-center justify-center rounded-full bg-slate-100 text-slate-500 hover:bg-slate-200 flex-shrink-0 transition-colors">
           <span className="text-xl font-bold">✕</span>
         </button>
 
