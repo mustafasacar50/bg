@@ -33,9 +33,9 @@
       "allProgress": 0,
       "mistakesProgress": 0,
       "score": 22.5,
-      "lastUpdated": "2026-08-11T08:25:24.671Z",
+      "lastUpdated": "2026-08-11T15:43:21.607Z",
       "uiState": {
-        "currentIndex": 531,
+        "currentIndex": 550,
         "score": 22.3,
         "searchQuery": "",
         "langFilter": "bg",
@@ -51,7 +51,7 @@
           "q_auto_68da5826",
           "q_auto_03fd61ea"
         ],
-        "timestamp": 1786436724127
+        "timestamp": 1786462997791
       }
     },
     "balgoc___Bulgarca_A1_Ders_7": {
@@ -122,8 +122,8 @@
         "timestamp": 1786390871808
       }
     },
-    "lastActiveTraining": "",
-    "lastVisitedModule": "",
+    "lastActiveTraining": "/training/balgoc___Bulgarca_A1_Ders_1_2?mode=all",
+    "lastVisitedModule": "balgoc___Bulgarca_A1_Ders_1_2",
     "balgoc___Bulgarca_A1_Ders_4": {
       "mistakes": [],
       "allProgress": 0,
