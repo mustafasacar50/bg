@@ -77,6 +77,12 @@ export async function PUT(request: Request) {
       return NextResponse.json({ error: 'Kullanıcı bulunamadı.' }, { status: 404 });
     }
 
+    if (data.isUserSelfUpdate) {
+      if (users[userIndex].password !== data.currentPassword) {
+        return NextResponse.json({ error: 'Mevcut şifreniz yanlış.' }, { status: 401 });
+      }
+    }
+
     // Check if new username exists
     if (username && username !== users[userIndex].username && users.find((u: any) => u.username === username)) {
       return NextResponse.json({ error: 'Bu kullanıcı adı zaten alınmış.' }, { status: 400 });
