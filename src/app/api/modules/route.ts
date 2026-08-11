@@ -18,10 +18,23 @@ export async function GET() {
         const content = fs.readFileSync(filePath, 'utf8');
         const data = JSON.parse(content);
         
+        let bgCount = 0;
+        let trCount = 0;
+        
+        if (data.questions) {
+          data.questions.forEach((q: any) => {
+            const hint = (q.hint || '').toLowerCase();
+            if (hint.includes('bulgarca')) bgCount++;
+            else if (hint.includes('türkçe')) trCount++;
+          });
+        }
+        
         modules.push({
           id: file.replace('.json', ''),
           title: data.title || file,
-          questionCount: data.questions ? data.questions.length : 0
+          questionCount: data.questions ? data.questions.length : 0,
+          bgCount,
+          trCount
         });
       }
     }

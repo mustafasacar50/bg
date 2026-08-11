@@ -66,7 +66,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [matchedIds, setMatchedIds] = useState<number[]>([]);
   const [selectedMatch, setSelectedMatch] = useState<{type: 'bg'|'tr', idx: number, id: number} | null>(null);
 
-  const mode = searchParams.get('mode') || 'all'; 
+  const mode = searchParams.get('mode') || 'all';
+  const langParam = searchParams.get('lang') as 'all' | 'bg' | 'tr' | null;
 
   const [student, setStudent] = useState<any>(null);
   const [data, setData] = useState<ModuleData | null>(null);
@@ -101,7 +102,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   }, [selectedWord, customDictionary]);
   const [isSwapped, setIsSwapped] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
-  const [langFilter, setLangFilter] = useState<'all' | 'bg' | 'tr'>('bg');
+  const [langFilter, setLangFilter] = useState<'all' | 'bg' | 'tr'>(langParam || 'bg');
   const [dictionaryWord, setDictionaryWord] = useState<string | null>(null);
   
   // Keyboard State
@@ -111,6 +112,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [preferNativeKeyboard, setPreferNativeKeyboard] = useState(false);
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const router = useRouter();
+  const modProgressRef = useRef<any>(null);
   
   // Admin Mode State
   const [adminMode, setAdminMode] = useState(false);
@@ -258,11 +260,12 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
         const modData = await modRes.json();
         const progData = await progRes.json();
+        const modProgress = progData.progress?.[moduleId] || { mistakes: [], allProgress: 0, mistakesProgress: 0, score: 0 };
+        modProgressRef.current = modProgress;
         
         setData(modData);
 
         const progress = progData.progress || {};
-        const modProgress = progress[moduleId] || { mistakes: [], allProgress: 0, mistakesProgress: 0, score: 0 };
         
         const globalUnknownWords = progress.unknownWords || [];
         setUnknownWords(globalUnknownWords);
@@ -316,17 +319,33 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         }
 
         if (stateToApply) {
-          if (typeof stateToApply.currentIndex === 'number' && stateToApply.currentIndex >= 0 && stateToApply.currentIndex < activePool.length) {
+          // If lang param explicitly set from module list, use that lang's progress index
+          if (langParam && mode !== 'mistakes') {
+            const savedIdx = langParam === 'bg'
+              ? (modProgress.bgProgress ?? Math.min(modProgress.allProgress || 0, activePool.length))
+              : langParam === 'tr' ? (modProgress.trProgress || 0)
+              : modProgress.allProgress || 0;
+            if (savedIdx >= 0 && savedIdx < activePool.length) setCurrentIndex(savedIdx);
+          } else if (typeof stateToApply.currentIndex === 'number' && stateToApply.currentIndex >= 0 && stateToApply.currentIndex < activePool.length) {
             setCurrentIndex(stateToApply.currentIndex);
           } else {
-            const savedIndex = mode === 'mistakes' ? modProgress.mistakesProgress : modProgress.allProgress;
+            const currentLang = stateToApply.langFilter || 'bg';
+            const savedIndex = mode === 'mistakes' ? modProgress.mistakesProgress : 
+              (currentLang === 'bg' ? (modProgress.bgProgress ?? Math.min(modProgress.allProgress || 0, modData.questions?.length || 0)) : 
+               currentLang === 'tr' ? (modProgress.trProgress || 0) : 
+               modProgress.allProgress);
             if (savedIndex >= 0 && savedIndex < activePool.length) setCurrentIndex(savedIndex);
           }
           if (typeof stateToApply.score === 'number') setScore(stateToApply.score);
           else if (modProgress.score) setScore(modProgress.score);
           
           if (stateToApply.searchQuery !== undefined) setSearchQuery(stateToApply.searchQuery);
-          if (stateToApply.langFilter !== undefined) setLangFilter(stateToApply.langFilter);
+          // If lang param is explicitly set in URL (from module list), use that; otherwise restore saved lang
+          if (langParam) {
+            setLangFilter(langParam);
+          } else if (stateToApply.langFilter !== undefined) {
+            setLangFilter(stateToApply.langFilter);
+          }
           if (stateToApply.isSwapped !== undefined) setIsSwapped(stateToApply.isSwapped);
           if (stateToApply.layout !== undefined) setLayout(stateToApply.layout);
           if (stateToApply.useCursiveBg !== undefined) setUseCursiveBg(stateToApply.useCursiveBg);
@@ -340,7 +359,11 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
             }
           }
         } else {
-          const savedIndex = mode === 'mistakes' ? modProgress.mistakesProgress : modProgress.allProgress;
+          const currentLang = langParam || 'bg';
+          const savedIndex = mode === 'mistakes' ? modProgress.mistakesProgress 
+            : (currentLang === 'bg' ? (modProgress.bgProgress ?? Math.min(modProgress.allProgress || 0, modData.questions?.length || 0))
+            : currentLang === 'tr' ? (modProgress.trProgress || 0)
+            : modProgress.allProgress || 0);
           if (savedIndex >= 0 && savedIndex < activePool.length) {
             setCurrentIndex(savedIndex);
           }
@@ -861,12 +884,14 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     if (nextIdx < filteredQuestions.length || (mode === 'mistakes' && feedback === 'correct')) {
        setCurrentIndex(nextIdx);
        if (!searchQuery.trim()) {
-           syncProgress({ [mode === 'mistakes' ? 'mistakesProgress' : 'allProgress']: nextIdx });
+           const progKey = mode === 'mistakes' ? 'mistakesProgress' : (langFilter === 'bg' ? 'bgProgress' : langFilter === 'tr' ? 'trProgress' : 'allProgress');
+           syncProgress({ [progKey]: nextIdx });
        }
     } else {
        setCurrentIndex(filteredQuestions.length);
        if (!searchQuery.trim()) {
-           syncProgress({ [mode === 'mistakes' ? 'mistakesProgress' : 'allProgress']: filteredQuestions.length });
+           const progKey = mode === 'mistakes' ? 'mistakesProgress' : (langFilter === 'bg' ? 'bgProgress' : langFilter === 'tr' ? 'trProgress' : 'allProgress');
+           syncProgress({ [progKey]: filteredQuestions.length });
        }
     }
   };
@@ -1040,6 +1065,26 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               <div>
                 <label className="block text-xs font-bold text-slate-500 mb-2 uppercase">Arama</label>
                 <div className="relative w-full">
+                  <select
+                    value={langFilter}
+                    onChange={(e) => {
+                      const newLang = e.target.value as any;
+                      setLangFilter(newLang);
+                      if (modProgressRef.current && mode !== 'mistakes') {
+                        const savedIdx = newLang === 'bg' 
+                            ? (modProgressRef.current.bgProgress ?? Math.min(modProgressRef.current.allProgress || 0, filteredQuestions.length))
+                            : (modProgressRef.current.trProgress || 0);
+                        setCurrentIndex(savedIdx);
+                      } else {
+                        setCurrentIndex(0);
+                      }
+                    }}
+                    className="text-input py-1 px-2 text-xs font-medium w-full sm:w-auto mt-2 sm:mt-0"
+                  >
+                    <option value="all">Tümü</option>
+                    <option value="bg">BG</option>
+                    <option value="tr">TR</option>
+                  </select>
                   <input 
                     type="text" 
                     placeholder="🔍 Sorularda Ara..." 
@@ -1057,9 +1102,32 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               <div>
                 <label className="block text-xs font-bold text-slate-500 mb-2 uppercase">Dil Filtresi</label>
                 <div className="flex bg-slate-100 rounded-xl p-1 border border-slate-200 w-full justify-between">
-                  <button onClick={() => { setLangFilter('all'); setCurrentIndex(0); }} className={`flex-1 py-2 text-sm rounded-lg transition-colors font-bold ${langFilter === 'all' ? 'bg-white shadow-sm text-indigo-600' : 'text-slate-500 hover:bg-slate-200'}`}>Tümü 🌐</button>
-                  <button onClick={() => { setLangFilter('bg'); setCurrentIndex(0); }} className={`flex-1 py-2 text-sm rounded-lg transition-colors font-bold ${langFilter === 'bg' ? 'bg-white shadow-sm text-indigo-600' : 'text-slate-500 hover:bg-slate-200'}`}>BG 🇧🇬</button>
-                  <button onClick={() => { setLangFilter('tr'); setCurrentIndex(0); }} className={`flex-1 py-2 text-sm rounded-lg transition-colors font-bold ${langFilter === 'tr' ? 'bg-white shadow-sm text-indigo-600' : 'text-slate-500 hover:bg-slate-200'}`}>TR 🇹🇷</button>
+                  <button onClick={() => { 
+                    setLangFilter('all'); 
+                    if (modProgressRef.current && mode !== 'mistakes') {
+                      setCurrentIndex(modProgressRef.current.allProgress || 0);
+                    } else {
+                      setCurrentIndex(0);
+                    }
+                  }} className={`flex-1 py-2 text-sm rounded-lg transition-colors font-bold ${langFilter === 'all' ? 'bg-white shadow-sm text-indigo-600' : 'text-slate-500 hover:bg-slate-200'}`}>Tümü 🌐</button>
+                  
+                  <button onClick={() => { 
+                    setLangFilter('bg'); 
+                    if (modProgressRef.current && mode !== 'mistakes') {
+                      setCurrentIndex(modProgressRef.current.bgProgress ?? Math.min(modProgressRef.current.allProgress || 0, filteredQuestions.length));
+                    } else {
+                      setCurrentIndex(0);
+                    }
+                  }} className={`flex-1 py-2 text-sm rounded-lg transition-colors font-bold ${langFilter === 'bg' ? 'bg-white shadow-sm text-indigo-600' : 'text-slate-500 hover:bg-slate-200'}`}>BG 🇧🇬</button>
+                  
+                  <button onClick={() => { 
+                    setLangFilter('tr'); 
+                    if (modProgressRef.current && mode !== 'mistakes') {
+                      setCurrentIndex(modProgressRef.current.trProgress || 0);
+                    } else {
+                      setCurrentIndex(0);
+                    }
+                  }} className={`flex-1 py-2 text-sm rounded-lg transition-colors font-bold ${langFilter === 'tr' ? 'bg-white shadow-sm text-indigo-600' : 'text-slate-500 hover:bg-slate-200'}`}>TR 🇹🇷</button>
                 </div>
               </div>
 
@@ -1225,8 +1293,10 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                  }} className="px-6 py-3 bg-indigo-600 text-white font-bold rounded-xl hover:bg-indigo-700 transition-colors">Tüm Havuza Geç</button>
               ) : (
                  <button onClick={async () => { 
-                   syncProgress({ [mode === 'mistakes' ? 'mistakesProgress' : 'allProgress']: 0 });
-                   await handleCloudSync(true);
+                  setCurrentIndex(0);
+                  const progKey = mode === 'mistakes' ? 'mistakesProgress' : (langFilter === 'bg' ? 'bgProgress' : langFilter === 'tr' ? 'trProgress' : 'allProgress');
+                  syncProgress({ [progKey]: 0 });
+                  await handleCloudSync(true);
                    localStorage.removeItem(`training_state_${student?.id}_${moduleId}_all`);
                    localStorage.removeItem('last_active_training');
                    localStorage.removeItem('last_visited_module');

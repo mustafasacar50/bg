@@ -194,8 +194,12 @@ export default function DashboardPage() {
             <Wand2 size={20} className="group-hover:scale-110 transition-transform duration-300" />
             <span className="text-[10px] font-bold">Antrenman</span>
           </Link>
+          <Link href="/settings" className="p-2 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors flex flex-col items-center gap-1 group">
+            <Settings size={20} className="group-hover:rotate-45 transition-transform duration-300" />
+            <span className="text-[10px] font-bold">Ayarlar</span>
+          </Link>
           {student?.role === 'admin' && (
-            <Link href="/admin" className="p-2 text-slate-400 hover:text-indigo-600 hover:bg-indigo-50 rounded-lg transition-colors flex flex-col items-center gap-1 group">
+            <Link href="/admin" className="p-2 text-emerald-600 hover:text-emerald-800 hover:bg-emerald-50 rounded-lg transition-colors flex flex-col items-center gap-1 group">
               <Settings size={20} className="group-hover:rotate-45 transition-transform duration-300" />
               <span className="text-[10px] font-bold">Yönetim</span>
             </Link>

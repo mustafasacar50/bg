@@ -86,8 +86,11 @@ export async function POST(request: Request) {
       
       if (data.mistakes !== undefined) modProgress.mistakes = data.mistakes;
       if (data.allProgress !== undefined) modProgress.allProgress = data.allProgress;
+      if (data.bgProgress !== undefined) modProgress.bgProgress = data.bgProgress;
+      if (data.trProgress !== undefined) modProgress.trProgress = data.trProgress;
       if (data.mistakesProgress !== undefined) modProgress.mistakesProgress = data.mistakesProgress;
       if (data.score !== undefined) modProgress.score = data.score;
+      if (data.uiState !== undefined) modProgress.uiState = data.uiState;
       if (data.uiState !== undefined) modProgress.uiState = data.uiState;
       
       modProgress.lastUpdated = new Date().toISOString();

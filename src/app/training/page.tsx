@@ -18,7 +18,11 @@ export default function TrainingListPage() {
   const [student, setStudent] = useState<any>(null);
   const [mistakeCounts, setMistakeCounts] = useState<Record<string, number>>({});
   const [allProgressCounts, setAllProgressCounts] = useState<Record<string, number>>({});
+  const [bgProgressCounts, setBgProgressCounts] = useState<Record<string, number>>({});
+  const [trProgressCounts, setTrProgressCounts] = useState<Record<string, number>>({});
   const [activeModuleId, setActiveModuleId] = useState<string | null>(null);
+  
+  const [activeLangFilter, setActiveLangFilter] = useState<'bg' | 'tr'>('bg');
 
   useEffect(() => {
     const session = localStorage.getItem('student_session');
@@ -73,7 +77,7 @@ export default function TrainingListPage() {
         let latestCloudTs = 0;
         
         for (const [mId, mData] of Object.entries(progress)) {
-          if (mId === 'unknownWords' || mId === 'lastActiveTraining' || mId === 'lastVisitedModule') continue;
+          if (mId === 'unknownWords' || mId === 'lastActiveTraining' || mId === 'lastVisitedModule' || mId === 'customDictionary') continue;
           const data = mData as any;
           if (data.lastUpdated) {
             const ts = new Date(data.lastUpdated).getTime();
@@ -102,20 +106,31 @@ export default function TrainingListPage() {
 
         const counts: Record<string, number> = {};
         const allCounts: Record<string, number> = {};
+        const bgCounts: Record<string, number> = {};
+        const trCounts: Record<string, number> = {};
         
-        mods.forEach((mod: Module) => {
+        mods.forEach((mod: any) => {
           if (progress[mod.id]) {
             counts[mod.id] = progress[mod.id].mistakes ? progress[mod.id].mistakes.length : 0;
             const stateIdx = progress[mod.id].uiState?.currentIndex;
-            allCounts[mod.id] = stateIdx !== undefined ? stateIdx : (progress[mod.id].allProgress || 0);
+            const fallbackAll = progress[mod.id].allProgress || 0;
+            allCounts[mod.id] = stateIdx !== undefined ? stateIdx : fallbackAll;
+            
+            // Migrate bgProgress if missing but allProgress exists (since bg was default)
+            bgCounts[mod.id] = progress[mod.id].bgProgress ?? Math.min(fallbackAll, mod.bgCount || 0);
+            trCounts[mod.id] = progress[mod.id].trProgress || 0;
           } else {
             counts[mod.id] = 0;
             allCounts[mod.id] = 0;
+            bgCounts[mod.id] = 0;
+            trCounts[mod.id] = 0;
           }
         });
         
         setMistakeCounts(counts);
         setAllProgressCounts(allCounts);
+        setBgProgressCounts(bgCounts);
+        setTrProgressCounts(trCounts);
         setLoading(false);
       } catch (err) {
         console.error('Error fetching data:', err);
@@ -160,6 +175,24 @@ export default function TrainingListPage() {
             </p>
           </div>
         </div>
+        
+        {/* Language Filter Toggle */}
+        <div className="flex justify-center mb-6">
+          <div className="bg-white border border-slate-200 rounded-xl p-1 inline-flex shadow-sm">
+            <button
+              onClick={() => setActiveLangFilter('bg')}
+              className={`px-4 py-2 rounded-lg text-sm font-bold transition-colors ${activeLangFilter === 'bg' ? 'bg-indigo-600 text-white shadow-sm' : 'text-slate-500 hover:bg-slate-50 hover:text-slate-800'}`}
+            >
+              🇧🇬 Bulgarca
+            </button>
+            <button
+              onClick={() => setActiveLangFilter('tr')}
+              className={`px-4 py-2 rounded-lg text-sm font-bold transition-colors ${activeLangFilter === 'tr' ? 'bg-indigo-600 text-white shadow-sm' : 'text-slate-500 hover:bg-slate-50 hover:text-slate-800'}`}
+            >
+              🇹🇷 Türkçe
+            </button>
+          </div>
+        </div>
 
         {loading ? (
           <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-12 text-center text-slate-500 flex justify-center items-center gap-2">
@@ -170,10 +203,15 @@ export default function TrainingListPage() {
           <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-12 text-center text-slate-500">Henüz modül bulunmamaktadır.</div>
         ) : (
           <div className="flex flex-col gap-4">
-            {modules.map((mod) => {
+            {modules.map((mod: any) => {
               const isActive = activeModuleId === mod.id;
-              const progressCount = allProgressCounts[mod.id] || 0;
-              const totalQuestions = mod.questionCount || 0;
+              
+              const totalQuestions = activeLangFilter === 'bg' ? mod.bgCount : mod.trCount;
+              const progressCount = activeLangFilter === 'bg' ? bgProgressCounts[mod.id] || 0 : trProgressCounts[mod.id] || 0;
+              
+              // Only show module if it has questions for the selected language
+              if (totalQuestions === 0) return null;
+              
               const progressPercent = totalQuestions > 0 ? Math.min(100, Math.round((progressCount / totalQuestions) * 100)) : 0;
               
               return (
@@ -194,7 +232,7 @@ export default function TrainingListPage() {
                     
                     {mistakeCounts[mod.id] > 0 && (
                       <button
-                        onClick={() => router.push(`/training/${mod.id}?mode=mistakes`)}
+                        onClick={() => router.push(`/training/${mod.id}?mode=mistakes&lang=${activeLangFilter}`)}
                         className="inline-flex items-center px-3 py-1 bg-amber-100 text-amber-700 hover:bg-amber-200 border border-amber-200 text-[11px] font-bold rounded-lg shadow-sm transition-colors"
                       >
                         ⚠️ Bilemediklerim ({mistakeCounts[mod.id]})
@@ -204,7 +242,7 @@ export default function TrainingListPage() {
                   
                   {/* Row 2: Tüm Havuz Button (Slider) */}
                   <button
-                    onClick={() => router.push(`/training/${mod.id}?mode=all`)}
+                    onClick={() => router.push(`/training/${mod.id}?mode=all&lang=${activeLangFilter}`)}
                     className="relative w-full inline-flex justify-center items-center py-2.5 border border-indigo-200 text-sm font-extrabold rounded-xl shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 focus:outline-none overflow-hidden transition-colors mt-1"
                   >
                     <div className="absolute inset-0 bg-indigo-100/80 transition-all duration-300" style={{ width: `${progressPercent}%` }}></div>
