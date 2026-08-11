@@ -42,14 +42,14 @@
       "allProgress": 552,
       "mistakesProgress": 0,
       "score": 22.5,
-      "lastUpdated": "2026-08-11T19:12:26.000Z",
+      "lastUpdated": "2026-08-11T19:20:07.236Z",
       "uiState": {
-        "currentIndex": 0,
+        "currentIndex": 552,
         "score": 22.3,
         "searchQuery": "",
-        "langFilter": "tr",
+        "langFilter": "bg",
         "isSwapped": false,
-        "layout": "tr",
+        "layout": "bg",
         "useCursiveBg": false,
         "mistakes": [
           "q_auto_a2140032",
@@ -69,7 +69,7 @@
           "q_auto_9aa43a91",
           "q_auto_d527d14b"
         ],
-        "timestamp": 1786475545290
+        "timestamp": 1786476006459
       }
     },
     "balgoc___Bulgarca_A1_Ders_7": {
@@ -140,8 +140,8 @@
         "timestamp": 1786390871808
       }
     },
-    "lastActiveTraining": "",
-    "lastVisitedModule": "",
+    "lastActiveTraining": "/training/balgoc___Bulgarca_A1_Ders_1_2?mode=all",
+    "lastVisitedModule": "balgoc___Bulgarca_A1_Ders_1_2",
     "balgoc___Bulgarca_A1_Ders_4": {
       "mistakes": [],
       "allProgress": 0,
