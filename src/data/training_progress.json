@@ -33,7 +33,7 @@
       "allProgress": 0,
       "mistakesProgress": 0,
       "score": 22.5,
-      "lastUpdated": "2026-08-11T08:24:59.691Z",
+      "lastUpdated": "2026-08-11T08:25:24.671Z",
       "uiState": {
         "currentIndex": 531,
         "score": 22.3,
@@ -51,7 +51,7 @@
           "q_auto_68da5826",
           "q_auto_03fd61ea"
         ],
-        "timestamp": 1786436699119
+        "timestamp": 1786436724127
       }
     },
     "balgoc___Bulgarca_A1_Ders_7": {
@@ -122,8 +122,8 @@
         "timestamp": 1786390871808
       }
     },
-    "lastActiveTraining": "/training/balgoc___Bulgarca_A1_Ders_1_2?mode=all",
-    "lastVisitedModule": "balgoc___Bulgarca_A1_Ders_1_2",
+    "lastActiveTraining": "",
+    "lastVisitedModule": "",
     "balgoc___Bulgarca_A1_Ders_4": {
       "mistakes": [],
       "allProgress": 0,
