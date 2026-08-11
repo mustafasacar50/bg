@@ -1230,78 +1230,106 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       )}
 
       {/* Header (Compact Duolingo Style) */}
-      <header className="bg-white border-b border-slate-200 px-3 py-3 flex items-center sticky top-0 z-10 gap-3">
-        {/* Close Button */}
-        <button onClick={() => setShowExitModal(true)} className="w-10 h-10 flex items-center justify-center rounded-full bg-slate-100 text-slate-500 hover:bg-slate-200 flex-shrink-0 transition-colors">
-          <span className="text-xl font-bold">✕</span>
-        </button>
+      <header className="bg-white border-b border-slate-200 px-3 pt-2 pb-1.5 sticky top-0 z-10 flex flex-col gap-1.5">
+        {/* Top Row: X | Slider | Lang Flag | Save | Settings */}
+        <div className="flex items-center gap-2">
+          {/* Close Button */}
+          <button onClick={() => setShowExitModal(true)} className="w-9 h-9 flex items-center justify-center rounded-full bg-slate-100 text-slate-500 hover:bg-slate-200 flex-shrink-0 transition-colors">
+            <span className="text-lg font-bold">✕</span>
+          </button>
 
-        {/* Progress Slider */}
-        <div className="flex-1 relative h-7">
-          {/* Track Background */}
-          <div className="absolute top-1/2 left-0 right-0 h-3 -mt-1.5 bg-slate-100 rounded-full border border-slate-200"></div>
-          
-          {/* Active Track */}
-          <div 
-            className="absolute top-1/2 left-0 h-3 -mt-1.5 bg-green-500 rounded-full transition-all duration-150"
-            style={{ width: `calc(${filteredQuestions.length > 1 ? (currentIndex / (filteredQuestions.length - 1)) * 100 : 100}% + ${filteredQuestions.length > 1 ? (0.5 - (currentIndex / (filteredQuestions.length - 1))) * 28 : 0}px)` }}
-          >
-            <div className="absolute top-0 left-0 right-0 h-1 bg-white/30 rounded-t-full"></div>
-          </div>
-          
-          {/* Draggable Thumb / Ball */}
-          <div 
-            className="absolute top-1/2 w-7 h-7 -mt-3.5 bg-white rounded-full shadow-[0_2px_8px_rgba(0,0,0,0.15)] border-[2.5px] border-green-500 flex items-center justify-center text-[11px] font-black text-green-600 transition-all duration-150 pointer-events-none z-10"
-            style={{ 
-              left: `calc(${filteredQuestions.length > 1 ? (currentIndex / (filteredQuestions.length - 1)) * 100 : 100}% + ${filteredQuestions.length > 1 ? (0.5 - (currentIndex / (filteredQuestions.length - 1))) * 28 : 0}px)`,
-              transform: 'translateX(-50%)'
-            }}
-          >
-            {currentIndex + 1}
+          {/* Progress Slider */}
+          <div className="flex-1 relative h-7">
+            {/* Track Background */}
+            <div className="absolute top-1/2 left-0 right-0 h-3 -mt-1.5 bg-slate-100 rounded-full border border-slate-200"></div>
+            
+            {/* Active Track */}
+            <div 
+              className="absolute top-1/2 left-0 h-3 -mt-1.5 bg-green-500 rounded-full transition-all duration-150"
+              style={{ width: `calc(${filteredQuestions.length > 1 ? (currentIndex / (filteredQuestions.length - 1)) * 100 : 100}% + ${filteredQuestions.length > 1 ? (0.5 - (currentIndex / (filteredQuestions.length - 1))) * 28 : 0}px)` }}
+            >
+              <div className="absolute top-0 left-0 right-0 h-1 bg-white/30 rounded-t-full"></div>
+            </div>
+            
+            {/* Draggable Thumb / Ball */}
+            <div 
+              className="absolute top-1/2 w-7 h-7 -mt-3.5 bg-white rounded-full shadow-[0_2px_8px_rgba(0,0,0,0.15)] border-[2.5px] border-green-500 flex items-center justify-center text-[11px] font-black text-green-600 transition-all duration-150 pointer-events-none z-10"
+              style={{ 
+                left: `calc(${filteredQuestions.length > 1 ? (currentIndex / (filteredQuestions.length - 1)) * 100 : 100}% + ${filteredQuestions.length > 1 ? (0.5 - (currentIndex / (filteredQuestions.length - 1))) * 28 : 0}px)`,
+                transform: 'translateX(-50%)'
+              }}
+            >
+              {currentIndex + 1}
+            </div>
+
+            {/* Invisible Native Slider for Interaction */}
+            {filteredQuestions.length > 0 && (
+              <input 
+                type="range"
+                min={0}
+                max={Math.max(0, filteredQuestions.length - 1)}
+                value={currentIndex}
+                onChange={(e) => {
+                  const val = Number(e.target.value);
+                  if (val !== currentIndex) {
+                    setCurrentIndex(val);
+                    setFeedback('none');
+                    setUserAnswer('');
+                    setKeyboardOpen(false);
+                  }
+                }}
+                className="absolute top-1/2 -mt-3.5 left-0 w-full h-7 opacity-0 cursor-pointer z-20 touch-none"
+              />
+            )}
           </div>
 
-          {/* Invisible Native Slider for Interaction */}
-          {filteredQuestions.length > 0 && (
-            <input 
-              type="range"
-              min={0}
-              max={Math.max(0, filteredQuestions.length - 1)}
-              value={currentIndex}
-              onChange={(e) => {
-                const val = Number(e.target.value);
-                if (val !== currentIndex) {
-                  setCurrentIndex(val);
-                  setFeedback('none');
-                  setUserAnswer('');
-                  setKeyboardOpen(false);
+          {/* Right Controls: Lang flag | Save | Settings */}
+          <div className="flex items-center gap-1.5 flex-shrink-0">
+            {/* Language Toggle Flag */}
+            <button
+              onClick={() => {
+                const newLang = langFilter === 'bg' ? 'tr' : 'bg';
+                setLangFilter(newLang);
+                if (modProgressRef.current && mode !== 'mistakes') {
+                  const savedIdx = newLang === 'bg'
+                    ? (modProgressRef.current.bgProgress ?? Math.min(modProgressRef.current.allProgress || 0, filteredQuestions.length))
+                    : (modProgressRef.current.trProgress || 0);
+                  setCurrentIndex(savedIdx);
+                } else {
+                  setCurrentIndex(0);
                 }
               }}
-              className="absolute top-1/2 -mt-3.5 left-0 w-full h-7 opacity-0 cursor-pointer z-20 touch-none"
-            />
-          )}
+              className="w-10 h-10 flex items-center justify-center rounded-xl bg-slate-100 hover:bg-slate-200 border border-slate-200 shadow-sm transition-colors text-lg"
+              title={`Dil: ${langFilter === 'bg' ? 'Bulgarca' : 'Türkçe'} — değiştirmek için tıkla`}
+            >
+              {langFilter === 'bg' ? '🇧🇬' : '🇹🇷'}
+            </button>
+            <button 
+              onClick={() => handleCloudSync(false)} 
+              disabled={isCloudSaving}
+              className={`w-10 h-10 flex items-center justify-center rounded-xl transition-colors border shadow-sm relative ${isCloudSaving ? 'bg-indigo-50 text-indigo-400 border-indigo-200' : 'bg-indigo-100 text-indigo-700 hover:bg-indigo-200 border-indigo-200'}`}
+              title="Kaydet"
+            >
+              <span className="text-xl">{isCloudSaving ? '⏳' : '💾'}</span>
+            </button>
+            <button 
+              onClick={() => setShowSettingsModal(true)} 
+              className="w-10 h-10 flex items-center justify-center rounded-xl bg-slate-100 text-slate-600 hover:bg-slate-200 transition-colors border border-slate-200 shadow-sm relative"
+            >
+              <span className="text-xl">⚙️</span>
+              {searchQuery && <span className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full border-2 border-white"></span>}
+            </button>
+          </div>
         </div>
 
-        {/* Score, Cloud Save & Settings */}
-        <div className="flex items-center gap-2 flex-shrink-0">
-          <div className="flex items-center justify-center px-3 py-2 bg-amber-50 text-amber-600 rounded-xl font-black text-sm border border-amber-100 shadow-sm hidden sm:flex">
-             ⭐ {score.toFixed(0)}
+        {/* Module Title Row */}
+        {data?.title && (
+          <div className="flex items-center gap-1.5 px-1 pb-0.5">
+            <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wide flex-shrink-0">Ders:</span>
+            <span className="text-[11px] font-semibold text-slate-600 truncate">{data.title}</span>
+            <span className="flex-shrink-0 text-xs ml-auto">{langFilter === 'bg' ? '🇧🇬 BG' : '🇹🇷 TR'}</span>
           </div>
-          <button 
-            onClick={() => handleCloudSync(false)} 
-            disabled={isCloudSaving}
-            className={`w-10 h-10 flex items-center justify-center rounded-xl transition-colors border shadow-sm relative ${isCloudSaving ? 'bg-indigo-50 text-indigo-400 border-indigo-200' : 'bg-indigo-100 text-indigo-700 hover:bg-indigo-200 border-indigo-200'}`}
-            title="Kaydet"
-          >
-            <span className="text-xl">{isCloudSaving ? '⏳' : '💾'}</span>
-          </button>
-          <button 
-            onClick={() => setShowSettingsModal(true)} 
-            className="w-10 h-10 flex items-center justify-center rounded-xl bg-slate-100 text-slate-600 hover:bg-slate-200 transition-colors border border-slate-200 shadow-sm relative"
-          >
-            <span className="text-xl">⚙️</span>
-            {searchQuery && <span className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full border-2 border-white"></span>}
-          </button>
-        </div>
+        )}
       </header>
 
       {/* Main Content */}
