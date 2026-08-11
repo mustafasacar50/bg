@@ -10215,14 +10215,6 @@
       ]
     },
     {
-      "id": "q_auto_99822932",
-      "type": "translation",
-      "sentence": "Zamirlerle çeşitli nesneler, onların özellikleri gösterilebilir veya onlar hakkında soru sorulabilir.",
-      "answer": "С тях могат да се посочват различни обекти и техни признаци или да се пита за тях.",
-      "hint": "Bulgarca karşılığını yazınız",
-      "explanation": "Türkçedeki Ç sesi Bulgarcada genellikle Ч ile yazılır. Bazı alıntı kelimelerde Ç/ts benzeri ses Ц ile yazılır. Ö sesi birçok uluslararası alıntı kelimede O ile karşılanır.\n\n📘 Kural: Cinsiyet Uyumu\nBulgarcada \"O\" zamiri ve işaret sıfatları bile ismin cinsiyetine göre değişir:\n- Той (Eril - O), Тя (Dişil - O), То (Nötr - O)\n- Студент (Erkek öğrenci), Студентка (Kadın öğrenci)\n- Тази (Bu - dişil isimler için), Онзи (Şu/Öteki - eril isimler için)\n- Какъв? (Nasıl/Hangi - eril), Каква? (Nasıl/Hangi - dişil)"
-    },
-    {
       "id": "q_auto_f346ff80",
       "type": "translation",
       "sentence": "С тях могат да се посочват различни обекти и техни признаци или да се пита за тях.",
