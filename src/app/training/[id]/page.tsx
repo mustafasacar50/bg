@@ -92,6 +92,10 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [customMeaning, setCustomMeaning] = useState<string>('');
 
   const [selectedWord, setSelectedWord] = useState<{word: string} | null>(null);
+  const [activeGrammarCards, setActiveGrammarCards] = useState<any[]>([]);
+  const [openTenses, setOpenTenses] = useState<Record<string, boolean>>({});
+  const [openGrammarCards, setOpenGrammarCards] = useState<Record<number, boolean>>({});
+  const [wordTooltip, setWordTooltip] = useState<{word: string, meaning: string, x: number, y: number} | null>(null);
 
   useEffect(() => {
     if (selectedWord && customDictionary[selectedWord.word.toLowerCase()]) {
@@ -427,6 +431,40 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     });
   }, [sessionQuestions, searchQuery, langFilter]);
 
+  // Determine Active Grammar Cards for current question via API
+  useEffect(() => {
+    if (activeQuestion && moduleId) {
+      // ONLY send the actual sentence + answer — NOT explanation/hint
+      const sentence = activeQuestion.sentence || activeQuestion.display || '';
+      const answer = activeQuestion.expected || '';
+      
+      if (!sentence.trim() && !answer.trim()) {
+        setActiveGrammarCards([]);
+        return;
+      }
+
+      fetch('/api/grammar-analysis', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ sentence, answer, moduleId })
+      })
+      .then(res => res.json())
+      .then(data => {
+        if (data.cards) {
+          setActiveGrammarCards(data.cards);
+        } else {
+          setActiveGrammarCards([]);
+        }
+      })
+      .catch(err => {
+        console.error("Error fetching grammar analysis:", err);
+        setActiveGrammarCards([]);
+      });
+    } else {
+      setActiveGrammarCards([]);
+    }
+  }, [activeQuestion?.sentence, moduleId]);
+
   // Set Active Question and Generate Fill-In-The-Blank (if applicable)
   useEffect(() => {
     const q = filteredQuestions[currentIndex];
@@ -521,6 +559,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       id: q.id, 
       type: q.type, 
       display: cleanSentence, // fallback for scrambling
+      sentence: q.sentence, // original sentence for grammar analysis
       displayParts,
       expected, 
       fitbTarget, 
@@ -1650,6 +1689,241 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                       <HighlightableText text={activeQuestion.explanation} unknownWords={unknownWords} onWordClick={setDictionaryWord} />
                     </p>
                   </div>
+                </div>
+              )}
+
+              {/* Dinamik Gramer Paneli v3 */}
+              {(feedback !== 'none' || adminMode) && activeGrammarCards.length > 0 && (
+                <div className="mt-4 flex flex-col gap-3">
+                  <div className="flex items-center gap-2 px-1">
+                    <span className="text-sm font-bold text-slate-400 uppercase tracking-widest">📖 Bu Cümledeki Kelimeler</span>
+                    <div className="flex-1 h-px bg-slate-200"></div>
+                  </div>
+                  {activeGrammarCards.map((card, idx) => {
+                    // Type-based colors
+                    const themes: Record<string, {color: string, badge: string, highlight: string, icon: string, tableHeader: string}> = {
+                      fiil: { color: "bg-purple-50/80 border-purple-200 text-purple-900", badge: "bg-purple-200 text-purple-800", highlight: "bg-purple-100 text-purple-900", icon: "🏃‍♂️", tableHeader: "bg-purple-100/80" },
+                      isim: { color: "bg-teal-50/80 border-teal-200 text-teal-900", badge: "bg-teal-200 text-teal-800", highlight: "bg-teal-100 text-teal-900", icon: "🏷️", tableHeader: "bg-teal-100/80" },
+                      'sıfat': { color: "bg-amber-50/80 border-amber-200 text-amber-900", badge: "bg-amber-200 text-amber-800", highlight: "bg-amber-100 text-amber-900", icon: "✨", tableHeader: "bg-amber-100/80" },
+                      zamir: { color: "bg-blue-50/80 border-blue-200 text-blue-900", badge: "bg-blue-200 text-blue-800", highlight: "bg-blue-100 text-blue-900", icon: "👤", tableHeader: "bg-blue-100/80" },
+                      'parçacık': { color: "bg-rose-50/80 border-rose-200 text-rose-900", badge: "bg-rose-200 text-rose-800", highlight: "bg-rose-100 text-rose-900", icon: "⚙️", tableHeader: "bg-rose-100/80" },
+                      edat: { color: "bg-cyan-50/80 border-cyan-200 text-cyan-900", badge: "bg-cyan-200 text-cyan-800", highlight: "bg-cyan-100 text-cyan-900", icon: "🔗", tableHeader: "bg-cyan-100/80" },
+                      'bağlaç': { color: "bg-sky-50/80 border-sky-200 text-sky-900", badge: "bg-sky-200 text-sky-800", highlight: "bg-sky-100 text-sky-900", icon: "🔀", tableHeader: "bg-sky-100/80" },
+                      zarf: { color: "bg-lime-50/80 border-lime-200 text-lime-900", badge: "bg-lime-200 text-lime-800", highlight: "bg-lime-100 text-lime-900", icon: "⏱️", tableHeader: "bg-lime-100/80" },
+                      'ünlem': { color: "bg-orange-50/80 border-orange-200 text-orange-900", badge: "bg-orange-200 text-orange-800", highlight: "bg-orange-100 text-orange-900", icon: "💬", tableHeader: "bg-orange-100/80" },
+                    };
+                    const t = themes[card.type] || { color: "bg-slate-50 border-slate-200 text-slate-800", badge: "bg-slate-200 text-slate-700", highlight: "bg-slate-100 text-slate-800", icon: "📌", tableHeader: "bg-slate-100" };
+
+                    const tenseNames: Record<string, string> = { present: 'Şimdiki Zaman', past: 'Geçmiş Zaman', future: 'Gelecek Zaman' };
+
+                    const toggleTense = (key: string) => {
+                      setOpenTenses(prev => ({ ...prev, [key]: !prev[key] }));
+                    };
+
+                    const hasContent = (card.matchedForm && card.matchedForm !== card.bg) || 
+                                       card.notes || 
+                                       (card.type === 'isim' && card.gender) || 
+                                       card.nounForms || 
+                                       card.pronounForms || 
+                                       card.conjugation || 
+                                       card.forms || 
+                                       (card.examples && card.examples.length > 0);
+
+                    const isOpen = (openGrammarCards[idx] || false) && hasContent;
+                    const toggleCard = () => {
+                      if (hasContent) {
+                        setOpenGrammarCards(prev => ({ ...prev, [idx]: !prev[idx] }));
+                      }
+                    };
+
+                    return (
+                      <div key={idx} className={`rounded-2xl border shadow-sm transition-all overflow-hidden ${t.color}`}>
+                        
+                        {/* Header (Clickable if hasContent) */}
+                        <button 
+                          onClick={toggleCard}
+                          disabled={!hasContent}
+                          className={`w-full p-4 flex items-center gap-2 flex-wrap text-left transition-colors ${hasContent ? 'hover:bg-black/5 cursor-pointer' : 'cursor-default'}`}
+                        >
+                          <span className="text-lg">{t.icon}</span>
+                          <span className="font-black text-xl">{card.bg}</span>
+                          <span className="opacity-75 text-sm font-medium">({card.tr})</span>
+                          {card.pronunciation && <span className="opacity-50 text-xs italic">[{card.pronunciation}]</span>}
+                          
+                          <div className="ml-auto flex items-center gap-2">
+                            <span className={`px-2.5 py-1 text-[10px] font-black rounded-lg uppercase tracking-wider ${t.badge}`}>
+                              {card.type}
+                            </span>
+                            {hasContent && (
+                              <span className={`transform transition-transform opacity-50 ${isOpen ? 'rotate-180' : ''}`}>
+                                ▼
+                              </span>
+                            )}
+                          </div>
+                        </button>
+
+                        {/* Collapsible Content */}
+                        {isOpen && (
+                          <div className="px-4 pb-4 pt-1 border-t border-black/5">
+
+                        {/* Context Match Highlight */}
+                        {card.matchedForm && card.matchedForm !== card.bg && (
+                          <div className={`mb-3 px-3 py-2 rounded-xl text-sm font-medium border border-white/40 flex items-center gap-2 flex-wrap ${t.highlight}`}>
+                            <span>💡 Bu cümlede:</span>
+                            <span className="font-bold underline decoration-2 underline-offset-2">{card.matchedForm}</span>
+                            <span className="opacity-75 text-xs">({card.matchedReason})</span>
+                          </div>
+                        )}
+                        
+                        {/* Notes */}
+                        {card.notes && (
+                          <p className="text-sm font-medium opacity-80 mb-3 px-1 leading-relaxed">{card.notes}</p>
+                        )}
+
+                        {/* Gender for Nouns */}
+                        {card.type === 'isim' && card.gender && (
+                          <div className="mb-2 text-sm font-bold opacity-80 px-1 flex items-center gap-2">
+                            <span>Cinsiyet:</span>
+                            <span className={`capitalize px-2 py-0.5 rounded-md text-xs font-black ${card.gender === 'eril' ? 'bg-blue-200 text-blue-800' : card.gender === 'dişil' ? 'bg-pink-200 text-pink-800' : 'bg-gray-200 text-gray-700'}`}>{card.gender}</span>
+                          </div>
+                        )}
+
+                        {/* Noun Forms Table */}
+                        {card.nounForms && (
+                          <div className="mt-2 bg-white/60 rounded-xl overflow-hidden shadow-sm backdrop-blur-sm">
+                            <div className={`px-3 py-2 text-xs font-black uppercase tracking-widest border-b border-black/5 ${t.tableHeader}`}>
+                              İsim Formları
+                            </div>
+                            <div className="grid grid-cols-2 text-sm">
+                              {Object.entries(card.nounForms).map(([formName, form], i) => {
+                                const isMatched = form === card.matchedForm;
+                                const labels: Record<string, string> = { tekil: 'Tekil', tekil_belirli: 'Tekil (Belirli)', 'çoğul': 'Çoğul', 'çoğul_belirli': 'Çoğul (Belirli)' };
+                                return (
+                                  <div key={formName} className={`flex justify-between items-center px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
+                                    <span className="opacity-60 text-xs font-bold">{labels[formName] || formName}</span>
+                                    <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form as string}</span>
+                                  </div>
+                                );
+                              })}
+                            </div>
+                          </div>
+                        )}
+
+                        {/* Pronoun Forms Table */}
+                        {card.pronounForms && (
+                          <div className="mt-2 bg-white/60 rounded-xl overflow-hidden shadow-sm backdrop-blur-sm">
+                            <div className={`px-3 py-2 text-xs font-black uppercase tracking-widest border-b border-black/5 ${t.tableHeader}`}>
+                              Zamir Formları
+                            </div>
+                            <div className="grid grid-cols-2 text-sm">
+                              {Object.entries(card.pronounForms).map(([caseName, form], i) => {
+                                const isMatched = form === card.matchedForm;
+                                return (
+                                  <div key={caseName} className={`flex justify-between items-center px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < Object.entries(card.pronounForms).length - 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
+                                    <span className="opacity-60 text-xs font-bold capitalize">{caseName}</span>
+                                    <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form as string}</span>
+                                  </div>
+                                );
+                              })}
+                            </div>
+                          </div>
+                        )}
+
+                        {/* Verb Conjugation — Tab Tense Tables */}
+                        {card.conjugation && (() => {
+                          const tenses = Object.entries(card.conjugation);
+                          const tenseLabels: Record<string, string> = { present: 'Şimdiki Z.', past: 'Geçmiş Z.', future: 'Gelecek Z.' };
+                          const tenseColors: Record<string, string> = { present: 'bg-purple-200/80 text-purple-800', past: 'bg-indigo-200/80 text-indigo-800', future: 'bg-fuchsia-200/80 text-fuchsia-800' };
+                          const tenseActiveColors: Record<string, string> = { present: 'bg-purple-500 text-white shadow-md', past: 'bg-indigo-500 text-white shadow-md', future: 'bg-fuchsia-500 text-white shadow-md' };
+                          
+                          // Find which tense has the matched form — that's the default tab
+                          let defaultTense = 'present';
+                          for (const [tense, forms] of tenses) {
+                            if (Object.values(forms as any).some((f: any) => f === card.matchedForm)) {
+                              defaultTense = tense;
+                              break;
+                            }
+                          }
+                          
+                          const tabKey = `tab-${idx}`;
+                          const activeTense = openTenses[tabKey] as unknown as string || defaultTense;
+                          const activeFormsEntry = tenses.find(([t]) => t === activeTense);
+                          const activeForms = activeFormsEntry ? activeFormsEntry[1] as Record<string, string> : {};
+
+                          return (
+                            <div className="mt-3">
+                              {/* Tab Buttons */}
+                              <div className="flex gap-1.5 mb-0">
+                                {tenses.map(([tense]) => {
+                                  const isActive = tense === activeTense;
+                                  const hasMatch = Object.values(card.conjugation[tense] as any).some((f: any) => f === card.matchedForm);
+                                  return (
+                                    <button
+                                      key={tense}
+                                      onClick={() => setOpenTenses(prev => ({ ...prev, [tabKey]: tense as any }))}
+                                      className={`flex-1 px-2 py-2 text-[11px] font-black uppercase tracking-wider rounded-t-xl transition-all duration-200 cursor-pointer relative ${isActive ? tenseActiveColors[tense] || 'bg-purple-500 text-white' : tenseColors[tense] || 'bg-purple-100 text-purple-700'} ${isActive ? 'scale-[1.02] z-10' : 'hover:brightness-95'}`}
+                                    >
+                                      {tenseLabels[tense] || tense}
+                                      {hasMatch && !isActive && <span className="ml-1 inline-block w-1.5 h-1.5 bg-white rounded-full animate-pulse"></span>}
+                                    </button>
+                                  );
+                                })}
+                              </div>
+                              {/* Active Tense Table */}
+                              <div className="bg-white/60 rounded-b-xl rounded-tr-none overflow-hidden shadow-sm backdrop-blur-sm border-t-2 border-purple-300/30">
+                                <div className="grid grid-cols-2 text-sm">
+                                  {Object.entries(activeForms).map(([person, form], i) => {
+                                    const isMatched = form === card.matchedForm;
+                                    return (
+                                      <div key={person} className={`flex justify-between items-center px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < 4 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-purple-50 ring-1 ring-inset ring-purple-200' : ''}`}>
+                                        <span className="opacity-60 text-xs font-bold">{person}</span>
+                                        <span className={`font-black ${isMatched ? 'text-purple-700' : 'opacity-80'}`}>{form}</span>
+                                      </div>
+                                    );
+                                  })}
+                                </div>
+                              </div>
+                            </div>
+                          );
+                        })()}
+
+                        {/* Adjective Forms */}
+                        {card.forms && (
+                          <div className="mt-3 bg-white/60 rounded-xl overflow-hidden shadow-sm backdrop-blur-sm">
+                            <div className={`px-3 py-2 text-xs font-black uppercase tracking-widest border-b border-black/5 ${t.tableHeader}`}>
+                              Cinsiyet Formları
+                            </div>
+                            <div className="grid grid-cols-2 text-sm">
+                              {Object.entries(card.forms).map(([gender, form], i) => {
+                                const isMatched = form === card.matchedForm;
+                                return (
+                                  <div key={gender} className={`flex justify-between items-center px-3 py-2 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
+                                    <span className="opacity-60 text-xs font-bold capitalize">{gender}</span>
+                                    <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form as string}</span>
+                                  </div>
+                                );
+                              })}
+                            </div>
+                          </div>
+                        )}
+
+                        {/* Examples */}
+                        {card.examples && card.examples.length > 0 && (
+                          <div className="mt-3 space-y-1.5">
+                            <div className="text-[10px] font-black uppercase tracking-widest opacity-50 px-1">Örnekler</div>
+                            {card.examples.map((ex: any, ei: number) => (
+                              <div key={ei} className="bg-white/40 rounded-lg px-3 py-2 text-sm border border-white/30">
+                                <div className="font-bold opacity-90">{ex.bg}</div>
+                                <div className="text-xs opacity-60 italic mt-0.5">{ex.tr}</div>
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
                 </div>
               )}
               </>

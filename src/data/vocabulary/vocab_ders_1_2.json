@@ -1,0 +1,876 @@
+{
+  "moduleId": "balgoc___Bulgarca_A1_Ders_1_2",
+  "level": "A1",
+  "lessonTitle": "Ders 1-2: Alfabeye Giriş ve Tanışma",
+  "topics": [
+    {
+      "id": "topic_alphabet",
+      "title": "Kiril Alfabesi ve Fonetik",
+      "description": "Bulgarca Kiril harfleri ve Türkçe ses karşılıkları"
+    },
+    {
+      "id": "topic_greetings",
+      "title": "Selamlaşma",
+      "description": "Temel selamlaşma ifadeleri"
+    },
+    {
+      "id": "topic_introduction",
+      "title": "Tanışma",
+      "description": "Kendini tanıtma ve başkalarıyla tanışma"
+    },
+    {
+      "id": "topic_pronouns",
+      "title": "Zamirler",
+      "description": "Kişi ve işaret zamirleri"
+    },
+    {
+      "id": "topic_verbs",
+      "title": "Temel Fiiller",
+      "description": "A1 seviyesi temel fiiller ve çekimleri"
+    },
+    {
+      "id": "topic_questions",
+      "title": "Soru Kelimeleri",
+      "description": "Bilgi almak için kullanılan soru ifadeleri"
+    },
+    {
+      "id": "topic_nouns",
+      "title": "İsimler",
+      "description": "Günlük isimler ve cinsiyetleri"
+    },
+    {
+      "id": "topic_demonstratives",
+      "title": "İşaret Sözcükleri",
+      "description": "Bu, şu, o gibi gösterme sözcükleri"
+    },
+    {
+      "id": "topic_particles",
+      "title": "Bağlaç ve Edatlar",
+      "description": "Cümle kurmaya yardımcı küçük kelimeler"
+    },
+    {
+      "id": "topic_phrases",
+      "title": "Faydalı Kalıplar",
+      "description": "Günlük konuşma kalıpları"
+    }
+  ],
+  "words": [
+    {
+      "bg": "здравейте",
+      "tr": "merhaba (resmi/çoğul)",
+      "pronunciation": "zdraveyte",
+      "type": "ünlem",
+      "gender": null,
+      "topic": "topic_greetings",
+      "notes": "Resmi ve çoğul selamlama. Tekil samimi form: здравей.",
+      "examples": [
+        { "bg": "Здравейте, как сте?", "tr": "Merhaba, nasılsınız?" },
+        { "bg": "Здравейте, господин Иванов.", "tr": "Merhaba, İvanov bey." }
+      ]
+    },
+    {
+      "bg": "здравей",
+      "tr": "merhaba (samimi)",
+      "pronunciation": "zdravey",
+      "type": "ünlem",
+      "gender": null,
+      "topic": "topic_greetings",
+      "notes": "Samimi ve tekil selamlama.",
+      "examples": [
+        { "bg": "Здравей, Мария!", "tr": "Merhaba, Maria!" },
+        { "bg": "Здравей, как си?", "tr": "Merhaba, nasılsın?" }
+      ]
+    },
+    {
+      "bg": "добър",
+      "tr": "iyi",
+      "pronunciation": "dobır",
+      "type": "sıfat",
+      "topic": "topic_greetings",
+      "forms": { "eril": "добър", "dişil": "добра", "nötr": "добро", "çoğul": "добри" },
+      "formExamples": [
+        { "form": "eril", "bg": "Добър ден!", "tr": "İyi günler!" },
+        { "form": "dişil", "bg": "Добра вечер!", "tr": "İyi akşamlar!" },
+        { "form": "nötr", "bg": "Добро утро!", "tr": "Günaydın! (İyi sabahlar)" },
+        { "form": "çoğul", "bg": "Те са добри студенти.", "tr": "Onlar iyi öğrenciler." }
+      ],
+      "examples": [
+        { "bg": "Той е добър човек.", "tr": "O iyi bir insandır." },
+        { "bg": "Добър ден, как сте?", "tr": "İyi günler, nasılsınız?" }
+      ]
+    },
+    {
+      "bg": "приятно ми е",
+      "tr": "memnun oldum",
+      "pronunciation": "priyatno mi e",
+      "type": "ifade",
+      "gender": null,
+      "topic": "topic_greetings",
+      "examples": [
+        { "bg": "Приятно ми е да се запознаем.", "tr": "Tanıştığımıza memnun oldum." },
+        { "bg": "- Аз съм Анна. - Приятно ми е.", "tr": "- Ben Anna. - Memnun oldum." }
+      ]
+    },
+    {
+      "bg": "довиждане",
+      "tr": "hoşçakal / görüşmek üzere",
+      "pronunciation": "dovijdane",
+      "type": "ünlem",
+      "gender": null,
+      "topic": "topic_greetings",
+      "examples": [
+        { "bg": "Довиждане, приятен ден!", "tr": "Hoşçakal, iyi günler!" },
+        { "bg": "Довиждане до утре.", "tr": "Yarına kadar hoşçakal (yarın görüşürüz)." }
+      ]
+    },
+    {
+      "bg": "благодаря",
+      "tr": "teşekkür ederim",
+      "pronunciation": "blagodarya",
+      "type": "fiil",
+      "gender": null,
+      "topic": "topic_greetings",
+      "examples": [
+        { "bg": "Много благодаря!", "tr": "Çok teşekkür ederim!" },
+        { "bg": "Благодаря за помощта.", "tr": "Yardım için teşekkür ederim." }
+      ]
+    },
+    {
+      "bg": "моля",
+      "tr": "rica ederim / lütfen",
+      "pronunciation": "molya",
+      "type": "ünlem",
+      "gender": null,
+      "topic": "topic_greetings",
+      "examples": [
+        { "bg": "- Благодаря! - Моля.", "tr": "- Teşekkür ederim! - Rica ederim." },
+        { "bg": "Едно кафе, моля.", "tr": "Bir kahve, lütfen." }
+      ]
+    },
+    {
+      "bg": "извинете",
+      "tr": "affedersiniz",
+      "pronunciation": "izvinete",
+      "type": "ünlem",
+      "gender": null,
+      "topic": "topic_greetings",
+      "notes": "Çoğul ve saygı (Siz) formu.",
+      "examples": [
+        { "bg": "Извинете, къде е банката?", "tr": "Affedersiniz, banka nerede?" },
+        { "bg": "Извинете ме за закъснението.", "tr": "Geciktiğim için beni affedin." }
+      ]
+    },
+    {
+      "bg": "пожелавам",
+      "tr": "diliyorum",
+      "pronunciation": "pojelavam",
+      "type": "fiil",
+      "topic": "topic_greetings",
+      "conjugation": {
+        "present": { "аз": "пожелавам", "ти": "пожелаваш", "той/тя/то": "пожелава", "ние": "пожелаваме", "вие": "пожелавате", "те": "пожелават" }
+      },
+      "examples": [
+        { "bg": "Пожелавам ви приятен ден!", "tr": "Size iyi günler diliyorum!" },
+        { "bg": "Пожелавам ти успех.", "tr": "Sana başarı diliyorum." }
+      ]
+    },
+    {
+      "bg": "казвам се",
+      "tr": "adım ...dır / benim adım",
+      "pronunciation": "kazvam se",
+      "type": "fiil",
+      "topic": "topic_introduction",
+      "conjugation": {
+        "present": { "аз": "казвам се", "ти": "казваш се", "той/тя/то": "казва се", "ние": "казваме се", "вие": "казвате се", "те": "казват се" },
+        "past": { "аз": "казвах се", "ти": "казваше се", "той/тя/то": "казваше се", "ние": "казвахме се", "вие": "казвахте се", "те": "казваха се" },
+        "future": { "аз": "ще се казвам", "ти": "ще се казваш", "той/тя/то": "ще се казва", "ние": "ще се казваме", "вие": "ще се казвате", "те": "ще се казват" }
+      },
+      "conjugationExamples": [
+        { "tense": "present", "bg": "Аз се казвам Иван.", "tr": "Benim adım İvan." }
+      ],
+      "examples": [
+        { "bg": "Как се казвате?", "tr": "Sizin adınız ne?" },
+        { "bg": "Тя се казва Мария.", "tr": "Onun (kadın) adı Maria." }
+      ]
+    },
+    {
+      "bg": "представям",
+      "tr": "tanıştırmak / sunmak",
+      "pronunciation": "predstavyam",
+      "type": "fiil",
+      "topic": "topic_introduction",
+      "conjugation": {
+        "present": { "аз": "представям", "ти": "представяш", "той/тя/то": "представя", "ние": "представяме", "вие": "представяте", "те": "представят" }
+      },
+      "examples": [
+        { "bg": "Представям Ви господин Иванов.", "tr": "Sizi İvanov bey ile tanıştırayım." },
+        { "bg": "Искам да ви представя моя приятел.", "tr": "Sizi arkadaşımla tanıştırmak istiyorum." }
+      ]
+    },
+    {
+      "bg": "запознаем се",
+      "tr": "tanışalım (tanışmak)",
+      "pronunciation": "zapoznaem se",
+      "type": "fiil",
+      "topic": "topic_introduction",
+      "examples": [
+        { "bg": "Нека да се запознаем.", "tr": "Hadi tanışalım." },
+        { "bg": "Ние се запознахме вчера.", "tr": "Biz dün tanıştık." }
+      ]
+    },
+    {
+      "bg": "господин",
+      "tr": "bey / bay",
+      "pronunciation": "gospodin",
+      "type": "isim",
+      "gender": "eril",
+      "topic": "topic_introduction",
+      "examples": [
+        { "bg": "Здравейте, господин Иванов.", "tr": "Merhaba, İvanov bey." },
+        { "bg": "Това е господин Петров.", "tr": "Bu Petrov beydir." }
+      ]
+    },
+    {
+      "bg": "госпожа",
+      "tr": "bayan (evli)",
+      "pronunciation": "gospoja",
+      "type": "isim",
+      "gender": "dişil",
+      "topic": "topic_introduction",
+      "examples": [
+        { "bg": "Добър ден, госпожо.", "tr": "İyi günler, hanımefendi." },
+        { "bg": "Госпожа Иванова е учителка.", "tr": "Bayan İvanova öğretmendir." }
+      ]
+    },
+    {
+      "bg": "госпожица",
+      "tr": "bayan (bekar)",
+      "pronunciation": "gospojitsa",
+      "type": "isim",
+      "gender": "dişil",
+      "topic": "topic_introduction",
+      "examples": [
+        { "bg": "Извинете, госпожице.", "tr": "Affedersiniz, küçük hanım." }
+      ]
+    },
+    {
+      "bg": "аз",
+      "tr": "ben",
+      "pronunciation": "az",
+      "type": "zamir",
+      "topic": "topic_pronouns",
+      "examples": [
+        { "bg": "Аз съм студент.", "tr": "Ben öğrenciyim." },
+        { "bg": "Аз живея в София.", "tr": "Ben Sofya'da yaşıyorum." }
+      ]
+    },
+    {
+      "bg": "ти",
+      "tr": "sen",
+      "pronunciation": "ti",
+      "type": "zamir",
+      "topic": "topic_pronouns",
+      "examples": [
+        { "bg": "Ти от Турция ли си?", "tr": "Sen Türkiye'den misin?" }
+      ]
+    },
+    {
+      "bg": "той",
+      "tr": "o (eril)",
+      "pronunciation": "toy",
+      "type": "zamir",
+      "topic": "topic_pronouns",
+      "examples": [
+        { "bg": "Той е от България.", "tr": "O Bulgaristan'dandır." }
+      ]
+    },
+    {
+      "bg": "тя",
+      "tr": "o (dişil)",
+      "pronunciation": "tya",
+      "type": "zamir",
+      "topic": "topic_pronouns",
+      "examples": [
+        { "bg": "Тя е моя приятелка.", "tr": "O benim (kız) arkadaşımdır." }
+      ]
+    },
+    {
+      "bg": "то",
+      "tr": "o (nötr)",
+      "pronunciation": "to",
+      "type": "zamir",
+      "topic": "topic_pronouns",
+      "examples": [
+        { "bg": "То е много хубаво дете.", "tr": "O çok güzel bir çocuktur." }
+      ]
+    },
+    {
+      "bg": "ние",
+      "tr": "biz",
+      "pronunciation": "nie",
+      "type": "zamir",
+      "topic": "topic_pronouns",
+      "examples": [
+        { "bg": "Ние сме в София.", "tr": "Biz Sofya'dayız." }
+      ]
+    },
+    {
+      "bg": "вие",
+      "tr": "siz",
+      "pronunciation": "vie",
+      "type": "zamir",
+      "topic": "topic_pronouns",
+      "examples": [
+        { "bg": "Вие как сте?", "tr": "Siz nasılsınız?" }
+      ]
+    },
+    {
+      "bg": "те",
+      "tr": "onlar",
+      "pronunciation": "te",
+      "type": "zamir",
+      "topic": "topic_pronouns",
+      "examples": [
+        { "bg": "Те са колеги.", "tr": "Onlar meslektaş." }
+      ]
+    },
+    {
+      "bg": "съм",
+      "tr": "olmak, ...dır/dir",
+      "pronunciation": "sım",
+      "type": "fiil",
+      "topic": "topic_verbs",
+      "conjugation": {
+        "present": { "аз": "съм", "ти": "си", "той/тя/то": "е", "ние": "сме", "вие": "сте", "те": "са" },
+        "past": { "аз": "бях", "ти": "беше", "той/тя/то": "беше", "ние": "бяхме", "вие": "бяхте", "те": "бяха" },
+        "future": { "аз": "ще бъда", "ти": "ще бъдеш", "той/тя/то": "ще бъде", "ние": "ще бъдем", "вие": "ще бъдете", "те": "ще бъдат" }
+      },
+      "conjugationExamples": [
+        { "tense": "present", "bg": "Аз съм студент.", "tr": "Ben öğrenciyim." },
+        { "tense": "past", "bg": "Аз бях в Турция.", "tr": "Ben Türkiye'deydim." },
+        { "tense": "future", "bg": "Ще бъда тук утре.", "tr": "Yarın burada olacağım." }
+      ],
+      "examples": [
+        { "bg": "Ти си много добър.", "tr": "Sen çok iyisin." },
+        { "bg": "Тя е учителка.", "tr": "O (kadın) öğretmendir." }
+      ]
+    },
+    {
+      "bg": "уча",
+      "tr": "öğrenmek / okumak",
+      "pronunciation": "uça",
+      "type": "fiil",
+      "topic": "topic_verbs",
+      "conjugation": {
+        "present": { "аз": "уча", "ти": "учиш", "той/тя/то": "учи", "ние": "учим", "вие": "учите", "те": "учат" },
+        "past": { "аз": "учих", "ти": "учи", "той/тя/то": "учи", "ние": "учихме", "вие": "учихте", "те": "учиха" },
+        "future": { "аз": "ще уча", "ти": "ще учиш", "той/тя/то": "ще учи", "ние": "ще учим", "вие": "ще учите", "те": "ще учат" }
+      },
+      "conjugationExamples": [
+        { "tense": "present", "bg": "Аз уча български език.", "tr": "Ben Bulgarca dili öğreniyorum." }
+      ],
+      "examples": [
+        { "bg": "Какво учиш?", "tr": "Ne okuyorsun/öğreniyorsun?" },
+        { "bg": "Те учат в университета.", "tr": "Onlar üniversitede okuyorlar." }
+      ]
+    },
+    {
+      "bg": "знам",
+      "tr": "bilmek",
+      "pronunciation": "znam",
+      "type": "fiil",
+      "topic": "topic_verbs",
+      "notes": "Diğer formu 'зная' (znaya) olarak da kullanılır.",
+      "conjugation": {
+        "present": { "аз": "знам", "ти": "знаеш", "той/тя/то": "знае", "ние": "знаем", "вие": "знаете", "те": "знаят" },
+        "past": { "аз": "знаех", "ти": "знаеше", "той/тя/то": "знаеше", "ние": "знаехме", "вие": "знаехте", "те": "знаеха" },
+        "future": { "аз": "ще знам", "ти": "ще знаеш", "той/тя/то": "ще знае", "ние": "ще знаем", "вие": "ще знаете", "те": "ще знаят" }
+      },
+      "conjugationExamples": [
+        { "tense": "present", "bg": "Аз не знам.", "tr": "Ben bilmiyorum." }
+      ],
+      "examples": [
+        { "bg": "Ти знаеш ли къде е банката?", "tr": "Bankanın nerede olduğunu biliyor musun?" },
+        { "bg": "Аз знам български език.", "tr": "Ben Bulgarca biliyorum." }
+      ]
+    },
+    {
+      "bg": "имам",
+      "tr": "sahip olmak, var",
+      "pronunciation": "imam",
+      "type": "fiil",
+      "topic": "topic_verbs",
+      "conjugation": {
+        "present": { "аз": "имам", "ти": "имаш", "той/тя/то": "има", "ние": "имаме", "вие": "имате", "те": "имат" },
+        "past": { "аз": "имах", "ти": "имаше", "той/тя/то": "имаше", "ние": "имахме", "вие": "имахте", "те": "имаха" },
+        "future": { "аз": "ще имам", "ти": "ще имаш", "той/тя/то": "ще има", "ние": "ще имаме", "вие": "ще имате", "те": "ще имат" }
+      },
+      "conjugationExamples": [
+        { "tense": "present", "bg": "Аз имам въпрос.", "tr": "Benim bir sorum var. (Bir soruya sahibim)" }
+      ],
+      "examples": [
+        { "bg": "Имаш ли време?", "tr": "Zamanın var mı?" },
+        { "bg": "Тя има нова кола.", "tr": "Onun yeni bir arabası var." }
+      ]
+    },
+    {
+      "bg": "живея",
+      "tr": "yaşamak",
+      "pronunciation": "jiveya",
+      "type": "fiil",
+      "topic": "topic_verbs",
+      "conjugation": {
+        "present": { "аз": "живея", "ти": "живееш", "той/тя/то": "живее", "ние": "живеем", "вие": "живеете", "те": "живеят" },
+        "past": { "аз": "живях", "ти": "живя", "той/тя/то": "живя", "ние": "живяхме", "вие": "живяхте", "те": "живяха" },
+        "future": { "аз": "ще живея", "ти": "ще живееш", "той/тя/то": "ще живее", "ние": "ще живеем", "вие": "ще живеете", "те": "ще живеят" }
+      },
+      "conjugationExamples": [
+        { "tense": "present", "bg": "Аз живея в Истанбул.", "tr": "Ben İstanbul'da yaşıyorum." }
+      ],
+      "examples": [
+        { "bg": "Къде живееш?", "tr": "Nerede yaşıyorsun?" },
+        { "bg": "Ние живеем в Турция.", "tr": "Biz Türkiye'de yaşıyoruz." }
+      ]
+    },
+    {
+      "bg": "говоря",
+      "tr": "konuşmak",
+      "pronunciation": "govorya",
+      "type": "fiil",
+      "topic": "topic_verbs",
+      "conjugation": {
+        "present": { "аз": "говоря", "ти": "говориш", "той/тя/то": "говори", "ние": "говорим", "вие": "говорите", "те": "говорят" },
+        "past": { "аз": "говорих", "ти": "говори", "той/тя/то": "говори", "ние": "говорихме", "вие": "говорихте", "те": "говориха" },
+        "future": { "аз": "ще говоря", "ти": "ще говориш", "той/тя/то": "ще говори", "ние": "ще говорим", "вие": "ще говорите", "те": "ще говорят" }
+      },
+      "conjugationExamples": [
+        { "tense": "present", "bg": "Аз говоря български.", "tr": "Ben Bulgarca konuşuyorum." }
+      ],
+      "examples": [
+        { "bg": "Вие говорите ли английски?", "tr": "Siz İngilizce konuşuyor musunuz?" },
+        { "bg": "Тя говори много бързо.", "tr": "O çok hızlı konuşuyor." }
+      ]
+    },
+    {
+      "bg": "работя",
+      "tr": "çalışmak",
+      "pronunciation": "rabotya",
+      "type": "fiil",
+      "topic": "topic_verbs",
+      "conjugation": {
+        "present": { "аз": "работя", "ти": "работиш", "той/тя/то": "работи", "ние": "работим", "вие": "работите", "те": "работят" },
+        "past": { "аз": "работих", "ти": "работи", "той/тя/то": "работи", "ние": "работихме", "вие": "работихте", "те": "работиха" },
+        "future": { "аз": "ще работя", "ти": "ще работиш", "той/тя/то": "ще работи", "ние": "ще работим", "вие": "ще работите", "те": "ще работят" }
+      },
+      "conjugationExamples": [
+        { "tense": "present", "bg": "Аз работя в банка.", "tr": "Ben bankada çalışıyorum." }
+      ],
+      "examples": [
+        { "bg": "Къде работиш?", "tr": "Nerede çalışıyorsun?" },
+        { "bg": "Ние работим всеки ден.", "tr": "Biz her gün çalışıyoruz." }
+      ]
+    },
+    {
+      "bg": "радвам се",
+      "tr": "memnun olmak / sevinmek",
+      "pronunciation": "radvam se",
+      "type": "fiil",
+      "topic": "topic_verbs",
+      "conjugation": {
+        "present": { "аз": "радвам се", "ти": "радваш се", "той/тя/то": "радва се", "ние": "радваме се", "вие": "радвате се", "те": "радват се" },
+        "past": { "аз": "радвах се", "ти": "радваше се", "той/тя/то": "радваше се", "ние": "радвахме се", "вие": "радвахте се", "те": "радваха се" },
+        "future": { "аз": "ще се радвам", "ти": "ще се радваш", "той/тя/то": "ще се радва", "ние": "ще се радваме", "вие": "ще се радвате", "те": "ще се радват" }
+      },
+      "conjugationExamples": [
+        { "tense": "present", "bg": "Много се радвам.", "tr": "Çok sevindim / memnum oldum." }
+      ],
+      "examples": [
+        { "bg": "Радвам се да те видя.", "tr": "Seni gördüğüme sevindim." },
+        { "bg": "Радвам се да се запознаем.", "tr": "Tanıştığımıza memnun oldum." }
+      ]
+    },
+    {
+      "bg": "как",
+      "tr": "nasıl",
+      "pronunciation": "kak",
+      "type": "zarf",
+      "topic": "topic_questions",
+      "examples": [
+        { "bg": "Как сте днес?", "tr": "Bugün nasılsınız?" },
+        { "bg": "Как се казваш?", "tr": "Adın ne? (Nasıl adlandırılıyorsun?)" }
+      ]
+    },
+    {
+      "bg": "кой",
+      "tr": "kim",
+      "pronunciation": "koy",
+      "type": "zamir",
+      "topic": "topic_questions",
+      "examples": [
+        { "bg": "Кой е този човек?", "tr": "Bu adam kim?" },
+        { "bg": "Коя е тя?", "tr": "O (kadın) kim?" },
+        { "bg": "Кое е това дете?", "tr": "Bu çocuk kim?" }
+      ]
+    },
+    {
+      "bg": "какъв",
+      "tr": "ne tür / nasıl",
+      "pronunciation": "kakıv",
+      "type": "sıfat",
+      "topic": "topic_questions",
+      "forms": { "eril": "какъв", "dişil": "каква", "nötr": "какво", "çoğul": "какви" },
+      "examples": [
+        { "bg": "Какъв е по професия?", "tr": "O meslek olarak nedir?" },
+        { "bg": "Какво е това?", "tr": "Bu nedir?" }
+      ]
+    },
+    {
+      "bg": "къде",
+      "tr": "nerede",
+      "pronunciation": "kıde",
+      "type": "zarf",
+      "topic": "topic_questions",
+      "examples": [
+        { "bg": "Къде е банката?", "tr": "Banka nerede?" },
+        { "bg": "Къде живееш?", "tr": "Nerede yaşıyorsun?" }
+      ]
+    },
+    {
+      "bg": "откъде",
+      "tr": "nereden",
+      "pronunciation": "otkıde",
+      "type": "zarf",
+      "topic": "topic_questions",
+      "examples": [
+        { "bg": "Откъде сте?", "tr": "Nerelisiniz? (Neredensiniz?)" },
+        { "bg": "Откъде идваш?", "tr": "Nereden geliyorsun?" }
+      ]
+    },
+    {
+      "bg": "студент",
+      "tr": "öğrenci (erkek) / üniversite öğrencisi",
+      "pronunciation": "student",
+      "type": "isim",
+      "gender": "eril",
+      "topic": "topic_nouns",
+      "examples": [
+        { "bg": "Аз съм студент.", "tr": "Ben öğrenciyim." }
+      ]
+    },
+    {
+      "bg": "студентка",
+      "tr": "öğrenci (kadın)",
+      "pronunciation": "studentka",
+      "type": "isim",
+      "gender": "dişil",
+      "topic": "topic_nouns",
+      "examples": [
+        { "bg": "Тя е добра студентка.", "tr": "O iyi bir öğrencidir." }
+      ]
+    },
+    {
+      "bg": "ден",
+      "tr": "gün",
+      "pronunciation": "den",
+      "type": "isim",
+      "gender": "eril",
+      "topic": "topic_nouns",
+      "examples": [
+        { "bg": "Хубав ден!", "tr": "Güzel bir gün!" },
+        { "bg": "Днес е хубав ден.", "tr": "Bugün güzel bir gündür." }
+      ]
+    },
+    {
+      "bg": "ферибот",
+      "tr": "feribot",
+      "pronunciation": "feribot",
+      "type": "isim",
+      "gender": "eril",
+      "topic": "topic_nouns",
+      "examples": [
+        { "bg": "Пътувам с ферибот.", "tr": "Feribotla seyahat ediyorum." }
+      ]
+    },
+    {
+      "bg": "България",
+      "tr": "Bulgaristan",
+      "pronunciation": "Bılgariya",
+      "type": "isim",
+      "gender": "dişil",
+      "topic": "topic_nouns",
+      "examples": [
+        { "bg": "Аз съм от България.", "tr": "Ben Bulgaristanlıyım." },
+        { "bg": "София е столицата на България.", "tr": "Sofya, Bulgaristan'ın başkentidir." }
+      ]
+    },
+    {
+      "bg": "Турция",
+      "tr": "Türkiye",
+      "pronunciation": "Turtsiya",
+      "type": "isim",
+      "gender": "dişil",
+      "topic": "topic_nouns",
+      "examples": [
+        { "bg": "Тя живее в Турция.", "tr": "O Türkiye'de yaşıyor." }
+      ]
+    },
+    {
+      "bg": "този",
+      "tr": "bu (eril)",
+      "pronunciation": "tozi",
+      "type": "zamir",
+      "topic": "topic_demonstratives",
+      "forms": { "eril": "този", "dişil": "тази", "nötr": "това", "çoğul": "тези" },
+      "examples": [
+        { "bg": "Този телефон е нов.", "tr": "Bu telefon yenidir." },
+        { "bg": "Какво е това?", "tr": "Bu nedir?" }
+      ]
+    },
+    {
+      "bg": "онзи",
+      "tr": "şu / o / öteki (eril)",
+      "pronunciation": "onzi",
+      "type": "zamir",
+      "topic": "topic_demonstratives",
+      "forms": { "eril": "онзи", "dişil": "онази", "nötr": "онова", "çoğul": "онези" },
+      "examples": [
+        { "bg": "Онзи човек е от Турция.", "tr": "Şu adam Türkiye'dendir." },
+        { "bg": "Онази книга е интересна.", "tr": "O kitap ilginçtir." }
+      ]
+    },
+    {
+      "bg": "да",
+      "tr": "evet / -mek için, -ması (dilek ve mastar yapısı)",
+      "pronunciation": "da",
+      "type": "edat",
+      "topic": "topic_particles",
+      "examples": [
+        { "bg": "- Ти студент ли си? - Да.", "tr": "- Sen öğrenci misin? - Evet." },
+        { "bg": "Искам да уча.", "tr": "Öğrenmek istiyorum." }
+      ]
+    },
+    {
+      "bg": "не",
+      "tr": "hayır / değil",
+      "pronunciation": "ne",
+      "type": "edat",
+      "topic": "topic_particles",
+      "examples": [
+        { "bg": "- Ти от София ли си? - Не.", "tr": "- Sen Sofyalı mısın? - Hayır." },
+        { "bg": "Не знам.", "tr": "Bilmiyorum." }
+      ]
+    },
+    {
+      "bg": "ли",
+      "tr": "mı / mi (soru eki)",
+      "pronunciation": "li",
+      "type": "edat",
+      "topic": "topic_particles",
+      "examples": [
+        { "bg": "Това ли е хотелът?", "tr": "Otel bu mu?" },
+        { "bg": "Говорите ли български?", "tr": "Bulgarca konuşuyor musunuz?" }
+      ]
+    },
+    {
+      "bg": "и",
+      "tr": "ve",
+      "pronunciation": "i",
+      "type": "bağlaç",
+      "topic": "topic_particles",
+      "examples": [
+        { "bg": "Аз и ти.", "tr": "Ben ve sen." },
+        { "bg": "Майка ми и баща ми са тук.", "tr": "Annem ve babam buradalar." }
+      ]
+    },
+    {
+      "bg": "а",
+      "tr": "ama / peki",
+      "pronunciation": "a",
+      "type": "bağlaç",
+      "topic": "topic_particles",
+      "examples": [
+        { "bg": "Аз съм студент, а ти?", "tr": "Ben öğrenciyim, peki sen?" }
+      ]
+    },
+    {
+      "bg": "от",
+      "tr": "...den, ...dan",
+      "pronunciation": "ot",
+      "type": "edat",
+      "topic": "topic_particles",
+      "examples": [
+        { "bg": "Аз съм от Турция.", "tr": "Ben Türkiye'denim." },
+        { "bg": "Писмо от приятел.", "tr": "Arkadaştan bir mektup." }
+      ]
+    },
+    {
+      "bg": "в",
+      "tr": "...de, ...da / içine",
+      "pronunciation": "v",
+      "type": "edat",
+      "topic": "topic_particles",
+      "examples": [
+        { "bg": "Живея в София.", "tr": "Sofya'da yaşıyorum." },
+        { "bg": "Влизам в стаята.", "tr": "Odaya giriyorum." }
+      ]
+    },
+    {
+      "bg": "за",
+      "tr": "için",
+      "pronunciation": "za",
+      "type": "edat",
+      "topic": "topic_particles",
+      "examples": [
+        { "bg": "Това е за теб.", "tr": "Bu senin için." }
+      ]
+    },
+    {
+      "bg": "с",
+      "tr": "ile",
+      "pronunciation": "s",
+      "type": "edat",
+      "topic": "topic_particles",
+      "examples": [
+        { "bg": "Кафе с мляко.", "tr": "Sütlü (süt ile) kahve." }
+      ]
+    },
+    {
+      "bg": "на",
+      "tr": "üzerinde / ...ın (iyelik)",
+      "pronunciation": "na",
+      "type": "edat",
+      "topic": "topic_particles",
+      "examples": [
+        { "bg": "Книгата е на масата.", "tr": "Kitap masanın üzerindedir." },
+        { "bg": "Колата на Иван.", "tr": "İvan'ın arabası." }
+      ]
+    },
+    {
+      "bg": "ще",
+      "tr": "gelecek zaman yardımcı fiili (ecek, acak)",
+      "pronunciation": "şte",
+      "type": "edat",
+      "topic": "topic_particles",
+      "examples": [
+        { "bg": "Ще отида до магазина.", "tr": "Mağazaya gideceğim." }
+      ]
+    },
+    {
+      "bg": "че",
+      "tr": "ki / ...dığını",
+      "pronunciation": "çe",
+      "type": "bağlaç",
+      "topic": "topic_particles",
+      "examples": [
+        { "bg": "Мислех, че си тук.", "tr": "Burada olduğunu sanıyordum." }
+      ]
+    },
+    {
+      "bg": "Как се казвате?",
+      "tr": "Adınız nedir?",
+      "pronunciation": "Kak se kazvate?",
+      "type": "ifade",
+      "topic": "topic_phrases",
+      "examples": [
+        { "bg": "- Как се казвате? - Казвам се Мустафа.", "tr": "- Adınız ne? - Adım Mustafa." }
+      ]
+    },
+    {
+      "bg": "Откъде сте?",
+      "tr": "Nerelisiniz?",
+      "pronunciation": "Otkıde ste?",
+      "type": "ifade",
+      "topic": "topic_phrases",
+      "examples": [
+        { "bg": "- Откъде сте? - От Турция съм.", "tr": "- Nerelisiniz? - Türkiyeliyim." }
+      ]
+    },
+    {
+      "bg": "Какъв сте по националност?",
+      "tr": "Milliyetiniz nedir?",
+      "pronunciation": "Kakıv ste po natsionalnost?",
+      "type": "ifade",
+      "topic": "topic_phrases",
+      "examples": [
+        { "bg": "Какъв сте по националност? Аз съм турчин.", "tr": "Milliyetiniz nedir? Ben Türk'üm." }
+      ]
+    },
+    {
+      "bg": "Радвам се да се запознаем.",
+      "tr": "Tanıştığımıza memnun oldum.",
+      "pronunciation": "Radvam se da se zapoznaem.",
+      "type": "ifade",
+      "topic": "topic_phrases",
+      "examples": [
+        { "bg": "- Казвам се Иван. - Радвам се да се запознаем.", "tr": "- Adım İvan. - Tanıştığımıza memnun oldum." }
+      ]
+    },
+    {
+      "bg": "ходя",
+      "tr": "gitmek, yürümek",
+      "pronunciation": "hodya",
+      "type": "fiil",
+      "topic": "topic_verbs",
+      "notes": "II. çekim grubu fiil. Düzenli yürüyüş/gitme anlamında kullanılır.",
+      "conjugation": {
+        "present": { "аз": "ходя", "ти": "ходиш", "той/тя/то": "ходи", "ние": "ходим", "вие": "ходите", "те": "ходят" },
+        "past": { "аз": "ходих", "ти": "ходи", "той/тя/то": "ходи", "ние": "ходихме", "вие": "ходихте", "те": "ходиха" },
+        "future": { "аз": "ще ходя", "ти": "ще ходиш", "той/тя/то": "ще ходи", "ние": "ще ходим", "вие": "ще ходите", "те": "ще ходят" }
+      },
+      "examples": [
+        { "bg": "Ти ходиш на разходка.", "tr": "Sen yürüyüşe gidiyorsun." },
+        { "bg": "Вчера ходих на кино.", "tr": "Dün sinemaya gittim." },
+        { "bg": "Ще ходим на море.", "tr": "Denize gideceğiz." }
+      ]
+    },
+    {
+      "bg": "разходка",
+      "tr": "yürüyüş, gezinti",
+      "pronunciation": "razhodka",
+      "type": "isim",
+      "gender": "dişil",
+      "topic": "topic_nouns",
+      "nounForms": {
+        "tekil": "разходка",
+        "tekil_belirli": "разходката",
+        "çoğul": "разходки",
+        "çoğul_belirli": "разходките"
+      },
+      "examples": [
+        { "bg": "Отивам на разходка.", "tr": "Yürüyüşe gidiyorum." },
+        { "bg": "Разходката беше хубава.", "tr": "Yürüyüş güzeldi." }
+      ]
+    },
+    {
+      "bg": "кой",
+      "tr": "kim",
+      "pronunciation": "koy",
+      "type": "zamir",
+      "topic": "topic_pronouns",
+      "notes": "Soru zamiri. 'Кого' = kimi (belirtme hali), 'С кого' = kiminle.",
+      "pronounForms": {
+        "eril": "кой",
+        "dişil": "коя",
+        "nötr": "кое",
+        "çoğul": "кои",
+        "belirtme": "кого"
+      },
+      "examples": [
+        { "bg": "Кой е той?", "tr": "O kim?" },
+        { "bg": "С кого ще ходиш?", "tr": "Kiminle gideceksin?" }
+      ]
+    },
+    {
+      "bg": "ще",
+      "tr": "gelecek zaman parçacığı (-ecek/-acak)",
+      "pronunciation": "şte",
+      "type": "parçacık",
+      "topic": "topic_grammar",
+      "notes": "Fiilden önce gelir ve cümleyi gelecek zamana çevirir. Türkçedeki '-ecek/-acak' ekine karşılık gelir.",
+      "examples": [
+        { "bg": "Ще ходя на кино.", "tr": "Sinemaya gideceğim." },
+        { "bg": "Ще се запознаем.", "tr": "Tanışacağız." }
+      ]
+    }
+  ]
+}
