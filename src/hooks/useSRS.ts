@@ -38,7 +38,7 @@ export function useSRS() {
   const getNextReviewInterval = useCallback((level: SRSLevel): number => {
     const now = Date.now();
     switch (level) {
-      case 0: return now;
+      case 0: return now + 1000 * 60; // 1 dakika (Hemen tekrar etmesini önlemek için)
       case 1: return now + 1000 * 60 * 10;
       case 2: return now + 1000 * 60 * 60 * 24;
       case 3: return now + 1000 * 60 * 60 * 24 * 3;
