@@ -39,17 +39,17 @@
         "q_auto_9aa43a91",
         "q_auto_d527d14b"
       ],
-      "allProgress": 552,
+      "allProgress": 26,
       "mistakesProgress": 0,
       "score": 22.5,
-      "lastUpdated": "2026-08-11T19:20:07.236Z",
+      "lastUpdated": "2026-08-12T08:49:26.746Z",
       "uiState": {
-        "currentIndex": 552,
-        "score": 22.3,
+        "currentIndex": 23,
+        "score": 29.8,
         "searchQuery": "",
-        "langFilter": "bg",
+        "langFilter": "all",
         "isSwapped": false,
-        "layout": "bg",
+        "layout": "tr",
         "useCursiveBg": false,
         "mistakes": [
           "q_auto_a2140032",
@@ -67,9 +67,19 @@
           "q_auto_e9803cdb",
           "q_auto_ff322f97",
           "q_auto_9aa43a91",
-          "q_auto_d527d14b"
+          "q_auto_d527d14b",
+          "q_auto_23c522b9",
+          "q_auto_5ce488bc",
+          "q_auto_b6ad9fe2",
+          "q_auto_eda658be",
+          "q_auto_84c86c3e",
+          "q_auto_af6dc3d8",
+          "q_auto_16ce7d48",
+          "q_auto_4fdd71d5",
+          "q_auto_b3ed05d3",
+          "q_auto_add52fbf"
         ],
-        "timestamp": 1786476006459
+        "timestamp": 1786524566368
       }
     },
     "balgoc___Bulgarca_A1_Ders_7": {
