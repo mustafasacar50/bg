@@ -415,7 +415,14 @@
           "bg": "Аз живея в София.",
           "tr": "Ben Sofya'da yaşıyorum."
         }
-      ]
+      ],
+      "pronounForms": {
+        "yalın (ben)": "аз",
+        "belirtme kısa (beni)": "ме",
+        "belirtme uzun (beni)": "мене",
+        "yönelme kısa (bana)": "ми",
+        "yönelme uzun (bana)": "на мене"
+      }
     },
     {
       "bg": "ти",
@@ -428,7 +435,14 @@
           "bg": "Ти от Турция ли си?",
           "tr": "Sen Türkiye'den misin?"
         }
-      ]
+      ],
+      "pronounForms": {
+        "yalın (sen)": "ти",
+        "belirtme kısa (seni)": "те",
+        "belirtme uzun (seni)": "тебе",
+        "yönelme kısa (sana)": "ти",
+        "yönelme uzun (sana)": "на тебе"
+      }
     },
     {
       "bg": "той",
@@ -441,7 +455,14 @@
           "bg": "Той е от България.",
           "tr": "O Bulgaristan'dandır."
         }
-      ]
+      ],
+      "pronounForms": {
+        "yalın (o)": "той",
+        "belirtme kısa (onu)": "го",
+        "belirtme uzun (onu)": "него",
+        "yönelme kısa (ona)": "му",
+        "yönelme uzun (ona)": "на него"
+      }
     },
     {
       "bg": "тя",
@@ -454,7 +475,14 @@
           "bg": "Тя е моя приятелка.",
           "tr": "O benim (kız) arkadaşımdır."
         }
-      ]
+      ],
+      "pronounForms": {
+        "yalın (o)": "тя",
+        "belirtme kısa (onu)": "я",
+        "belirtme uzun (onu)": "нея",
+        "yönelme kısa (ona)": "ѝ",
+        "yönelme uzun (ona)": "на нея"
+      }
     },
     {
       "bg": "то",
@@ -467,7 +495,14 @@
           "bg": "То е много хубаво дете.",
           "tr": "O çok güzel bir çocuktur."
         }
-      ]
+      ],
+      "pronounForms": {
+        "yalın (o)": "то",
+        "belirtme kısa (onu)": "го",
+        "belirtme uzun (onu)": "него",
+        "yönelme kısa (ona)": "му",
+        "yönelme uzun (ona)": "на него"
+      }
     },
     {
       "bg": "ние",
@@ -480,7 +515,14 @@
           "bg": "Ние сме в София.",
           "tr": "Biz Sofya'dayız."
         }
-      ]
+      ],
+      "pronounForms": {
+        "yalın (biz)": "ние",
+        "belirtme kısa (bizi)": "ни",
+        "belirtme uzun (bizi)": "нас",
+        "yönelme kısa (bize)": "ни",
+        "yönelme uzun (bize)": "на нас"
+      }
     },
     {
       "bg": "вие",
@@ -493,7 +535,14 @@
           "bg": "Вие как сте?",
           "tr": "Siz nasılsınız?"
         }
-      ]
+      ],
+      "pronounForms": {
+        "yalın (siz)": "вие",
+        "belirtme kısa (sizi)": "ви",
+        "belirtme uzun (sizi)": "вас",
+        "yönelme kısa (size)": "ви",
+        "yönelme uzun (size)": "на вас"
+      }
     },
     {
       "bg": "те",
@@ -506,7 +555,14 @@
           "bg": "Те са колеги.",
           "tr": "Onlar meslektaş."
         }
-      ]
+      ],
+      "pronounForms": {
+        "yalın (onlar)": "те",
+        "belirtme kısa (onları)": "ги",
+        "belirtme uzun (onları)": "тях",
+        "yönelme kısa (onlara)": "им",
+        "yönelme uzun (onlara)": "на тях"
+      }
     },
     {
       "bg": "съм",
@@ -1034,25 +1090,6 @@
       }
     },
     {
-      "bg": "студентка",
-      "tr": "öğrenci (kadın)",
-      "pronunciation": "studentka",
-      "type": "isim",
-      "gender": "dişil",
-      "topic": "topic_nouns",
-      "examples": [
-        {
-          "bg": "Тя е добра студентка.",
-          "tr": "O iyi bir öğrencidir."
-        }
-      ],
-      "forms": {
-        "eril": "студент",
-        "dişil": "студентка",
-        "çoğul": "студенти"
-      }
-    },
-    {
       "bg": "ден",
       "tr": "gün",
       "pronunciation": "den",
@@ -1514,186 +1551,25 @@
       ]
     },
     {
-      "bg": "него",
-      "tr": "onu / ona (eril/nötr, uzun form)",
-      "pronunciation": "nego",
-      "type": "zamir",
-      "topic": "topic_pronouns",
-      "pronounForms": {
-        "yalın (o)": "той / то",
-        "belirtme kısa (onu)": "го",
-        "belirtme uzun (onu)": "него",
-        "yönelme kısa (ona)": "му",
-        "yönelme uzun (ona)": "на него"
+      "bg": "роден",
+      "tr": "doğmuş (sıfat)",
+      "pronunciation": "roden",
+      "type": "sıfat",
+      "topic": "topic_adjectives",
+      "forms": {
+        "eril": "роден",
+        "dişil": "родена",
+        "nötr": "родено",
+        "çoğul": "родени"
       },
       "examples": [
         {
-          "bg": "Виждам него.",
-          "tr": "Onu görüyorum."
+          "bg": "Аз съм родена в Турция.",
+          "tr": "Ben Türkiye'de doğdum. (kadın söyler)"
         },
         {
-          "bg": "Давам на него.",
-          "tr": "Ona veriyorum."
-        }
-      ]
-    },
-    {
-      "bg": "го",
-      "tr": "onu (eril/nötr, kısa form)",
-      "pronunciation": "go",
-      "type": "zamir",
-      "topic": "topic_pronouns",
-      "pronounForms": {
-        "yalın (o)": "той / то",
-        "belirtme kısa (onu)": "го",
-        "belirtme uzun (onu)": "него",
-        "yönelme kısa (ona)": "му",
-        "yönelme uzun (ona)": "на него"
-      },
-      "examples": [
-        {
-          "bg": "Аз го виждам.",
-          "tr": "Ben onu görüyorum."
-        }
-      ]
-    },
-    {
-      "bg": "нея",
-      "tr": "onu / ona (dişil, uzun form)",
-      "pronunciation": "neya",
-      "type": "zamir",
-      "topic": "topic_pronouns",
-      "pronounForms": {
-        "yalın (o)": "тя",
-        "belirtme kısa (onu)": "я",
-        "belirtme uzun (onu)": "нея",
-        "yönelme kısa (ona)": "ѝ",
-        "yönelme uzun (ona)": "на нея"
-      },
-      "examples": [
-        {
-          "bg": "Познавам нея.",
-          "tr": "Onu tanıyorum."
-        }
-      ]
-    },
-    {
-      "bg": "я",
-      "tr": "onu (dişil, kısa form)",
-      "pronunciation": "ya",
-      "type": "zamir",
-      "topic": "topic_pronouns",
-      "pronounForms": {
-        "yalın (o)": "тя",
-        "belirtme kısa (onu)": "я",
-        "belirtme uzun (onu)": "нея",
-        "yönelme kısa (ona)": "ѝ",
-        "yönelme uzun (ona)": "на нея"
-      },
-      "examples": [
-        {
-          "bg": "Аз я познавам.",
-          "tr": "Ben onu tanıyorum."
-        }
-      ]
-    },
-    {
-      "bg": "им",
-      "tr": "onlara (çoğul, kısa form)",
-      "pronunciation": "im",
-      "type": "zamir",
-      "topic": "topic_pronouns",
-      "pronounForms": {
-        "yalın (onlar)": "те",
-        "belirtme kısa (onları)": "ги",
-        "belirtme uzun (onları)": "тях",
-        "yönelme kısa (onlara)": "им",
-        "yönelme uzun (onlara)": "на тях"
-      },
-      "examples": [
-        {
-          "bg": "Казвам им истината.",
-          "tr": "Onlara gerçeği söylüyorum."
-        }
-      ]
-    },
-    {
-      "bg": "ги",
-      "tr": "onları (çoğul, kısa form)",
-      "pronunciation": "gi",
-      "type": "zamir",
-      "topic": "topic_pronouns",
-      "pronounForms": {
-        "yalın (onlar)": "те",
-        "belirtme kısa (onları)": "ги",
-        "belirtme uzun (onları)": "тях",
-        "yönelme kısa (onlara)": "им",
-        "yönelme uzun (onlara)": "на тях"
-      },
-      "examples": [
-        {
-          "bg": "Виждам ги.",
-          "tr": "Onları görüyorum."
-        }
-      ]
-    },
-    {
-      "bg": "му",
-      "tr": "ona (eril/nötr, kısa form)",
-      "pronunciation": "mu",
-      "type": "zamir",
-      "topic": "topic_pronouns",
-      "pronounForms": {
-        "yalın (o)": "той / то",
-        "belirtme kısa (onu)": "го",
-        "belirtme uzun (onu)": "него",
-        "yönelme kısa (ona)": "му",
-        "yönelme uzun (ona)": "на него"
-      },
-      "examples": [
-        {
-          "bg": "Казвам му.",
-          "tr": "Ona söylüyorum."
-        }
-      ]
-    },
-    {
-      "bg": "ѝ",
-      "tr": "ona (dişil, kısa form)",
-      "pronunciation": "i",
-      "type": "zamir",
-      "topic": "topic_pronouns",
-      "pronounForms": {
-        "yalın (o)": "тя",
-        "belirtme kısa (onu)": "я",
-        "belirtme uzun (onu)": "нея",
-        "yönelme kısa (ona)": "ѝ",
-        "yönelme uzun (ona)": "на нея"
-      },
-      "examples": [
-        {
-          "bg": "Давам ѝ книгата.",
-          "tr": "Ona kitabı veriyorum."
-        }
-      ]
-    },
-    {
-      "bg": "тях",
-      "tr": "onları / onlara (çoğul, uzun form)",
-      "pronunciation": "tyah",
-      "type": "zamir",
-      "topic": "topic_pronouns",
-      "pronounForms": {
-        "yalın (onlar)": "те",
-        "belirtme kısa (onları)": "ги",
-        "belirtme uzun (onları)": "тях",
-        "yönelme kısa (onlara)": "им",
-        "yönelme uzun (onlara)": "на тях"
-      },
-      "examples": [
-        {
-          "bg": "Обичам тях.",
-          "tr": "Onları seviyorum."
+          "bg": "Той е роден в България.",
+          "tr": "O, Bulgaristan'da doğdu."
         }
       ]
     }

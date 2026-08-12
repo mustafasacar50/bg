@@ -1849,21 +1849,75 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
                         {/* Pronoun Forms Table */}
                         {card.pronounForms && (
-                          <div className="mt-2 bg-white/60 rounded-xl overflow-hidden shadow-sm backdrop-blur-sm">
-                            <div className={`px-3 py-2 text-xs font-black uppercase tracking-widest border-b border-black/5 ${t.tableHeader}`}>
-                              Zamir Formları
+                          <div className="mt-2 space-y-3">
+                            <div className="bg-white/60 rounded-xl overflow-hidden shadow-sm backdrop-blur-sm">
+                              <div className={`px-3 py-2 text-xs font-black uppercase tracking-widest border-b border-black/5 ${t.tableHeader}`}>
+                                {card.bg} İçin Zamir Formları
+                              </div>
+                              <div className="grid grid-cols-2 text-sm">
+                                {Object.entries(card.pronounForms).map(([caseName, form], i) => {
+                                  const isMatched = form === card.matchedForm;
+                                  return (
+                                    <div key={caseName} className={`flex justify-between items-center px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < Object.entries(card.pronounForms).length - 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
+                                      <span className="opacity-60 text-xs font-bold capitalize">{caseName}</span>
+                                      <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form as string}</span>
+                                    </div>
+                                  );
+                                })}
+                              </div>
                             </div>
-                            <div className="grid grid-cols-2 text-sm">
-                              {Object.entries(card.pronounForms).map(([caseName, form], i) => {
-                                const isMatched = form === card.matchedForm;
-                                return (
-                                  <div key={caseName} className={`flex justify-between items-center px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < Object.entries(card.pronounForms).length - 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
-                                    <span className="opacity-60 text-xs font-bold capitalize">{caseName}</span>
-                                    <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form as string}</span>
+                            
+                            {/* Secondary Case Matrix (All Persons for the matched case) */}
+                            {(() => {
+                              if (!card.matchedReason) return null;
+                              const matchedCaseBase = card.matchedReason.split('(')[0].trim().toLowerCase();
+                              
+                              const fullPronounMatrix: Record<string, {p: string, f: string}[]> = {
+                                "yalın": [
+                                  { p: "Ben", f: "аз" }, { p: "Sen", f: "ти" }, { p: "O (Eril/Nötr)", f: "той / то" }, { p: "O (Dişil)", f: "тя" },
+                                  { p: "Biz", f: "ние" }, { p: "Siz", f: "вие" }, { p: "Onlar", f: "те" }
+                                ],
+                                "belirtme kısa": [
+                                  { p: "Beni", f: "ме" }, { p: "Seni", f: "те" }, { p: "Onu (Eril/Nötr)", f: "го" }, { p: "Onu (Dişil)", f: "я" },
+                                  { p: "Bizi", f: "ни" }, { p: "Sizi", f: "ви" }, { p: "Onları", f: "ги" }
+                                ],
+                                "belirtme uzun": [
+                                  { p: "Beni", f: "мене" }, { p: "Seni", f: "тебе" }, { p: "Onu (Eril/Nötr)", f: "него" }, { p: "Onu (Dişil)", f: "нея" },
+                                  { p: "Bizi", f: "нас" }, { p: "Sizi", f: "вас" }, { p: "Onları", f: "тях" }
+                                ],
+                                "yönelme kısa": [
+                                  { p: "Bana", f: "ми" }, { p: "Sana", f: "ти" }, { p: "Ona (Eril/Nötr)", f: "му" }, { p: "Ona (Dişil)", f: "ѝ" },
+                                  { p: "Bize", f: "ни" }, { p: "Size", f: "ви" }, { p: "Onlara", f: "им" }
+                                ],
+                                "yönelme uzun": [
+                                  { p: "Bana", f: "на мене" }, { p: "Sana", f: "на тебе" }, { p: "Ona (Eril/Nötr)", f: "на него" }, { p: "Ona (Dişil)", f: "на нея" },
+                                  { p: "Bize", f: "на нас" }, { p: "Size", f: "на вас" }, { p: "Onlara", f: "на тях" }
+                                ]
+                              };
+
+                              const caseTable = fullPronounMatrix[matchedCaseBase];
+                              if (!caseTable) return null;
+
+                              return (
+                                <div className="bg-white/60 rounded-xl overflow-hidden shadow-sm backdrop-blur-sm border-t-2 border-indigo-300/30 mt-2">
+                                  <div className={`px-3 py-2 text-xs font-black uppercase tracking-widest border-b border-black/5 ${t.tableHeader}`}>
+                                    Tüm Şahıslarda: <span className="text-indigo-600 ml-1">{matchedCaseBase}</span>
                                   </div>
-                                );
-                              })}
-                            </div>
+                                  <div className="grid grid-cols-2 text-sm">
+                                    {caseTable.map((item, i) => {
+                                      // Extract actual matched word (which might be in 'той / то')
+                                      const isMatched = item.f.split('/').map(s => s.trim()).includes(card.matchedForm);
+                                      return (
+                                        <div key={item.p} className={`flex justify-between items-center px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < caseTable.length - (caseTable.length % 2 === 0 ? 2 : 1) ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-indigo-50 ring-1 ring-inset ring-indigo-200' : ''}`}>
+                                          <span className="opacity-60 text-xs font-bold">{item.p}</span>
+                                          <span className={`font-black ${isMatched ? 'text-indigo-700' : 'opacity-80'}`}>{item.f}</span>
+                                        </div>
+                                      );
+                                    })}
+                                  </div>
+                                </div>
+                              );
+                            })()}
                           </div>
                         )}
 
