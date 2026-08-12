@@ -15,7 +15,7 @@ const addWord = (inflected, baseBg) => {
         return;
     }
     // Only map single words or multi-words cleanly
-    index[clean] = baseBg;
+    if(index[clean] && index[clean] !== baseBg) { if(Array.isArray(index[clean])) { if(!index[clean].includes(baseBg)) index[clean].push(baseBg); } else { index[clean] = [index[clean], baseBg]; } } else { index[clean] = baseBg; }
 };
 
 data.words.forEach(w => {

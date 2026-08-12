@@ -2805,6 +2805,24 @@
         "dişil": "чужденка",
         "çoğul": "чужденци"
       }
+    },
+    {
+      "bg": "се",
+      "tr": "kendi kendini (belirtme dönüşlü zamir)",
+      "type": "zamir",
+      "pronounForms": {
+        "belirtme": "се"
+      },
+      "notes": "Dönüşlü fiillerle birlikte kullanılır (örn. радвам се, казвам се). Eylemin özneye geri döndüğünü belirtir."
+    },
+    {
+      "bg": "си",
+      "tr": "kendine / kendi (yönelme/iyelik dönüşlü zamir)",
+      "type": "zamir",
+      "pronounForms": {
+        "yönelme": "си"
+      },
+      "notes": "Öznenin kendisine ait olan nesneleri belirtirken kullanılır. Örn: 'съпруга си' (kendi eşimi), 'колата си' (kendi arabamı)."
     }
   ]
 }

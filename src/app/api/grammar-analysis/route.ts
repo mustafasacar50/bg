@@ -58,7 +58,11 @@ export async function POST(request: Request) {
           sentenceTokens.forEach(t => {
             const clean = t.toLowerCase();
             if (index[clean]) {
-              matchedBaseIds.add(index[clean]);
+              if (Array.isArray(index[clean])) {
+                index[clean].forEach((id: string) => matchedBaseIds.add(id));
+              } else {
+                matchedBaseIds.add(index[clean]);
+              }
               matchedBaseWords.add(clean);
             }
           });
@@ -67,7 +71,11 @@ export async function POST(request: Request) {
           for(let i = 0; i < sentenceTokens.length - 1; i++) {
             const bi = (sentenceTokens[i] + " " + sentenceTokens[i+1]).toLowerCase();
             if (index[bi]) {
-              matchedBaseIds.add(index[bi]);
+              if (Array.isArray(index[bi])) {
+                index[bi].forEach((id: string) => matchedBaseIds.add(id));
+              } else {
+                matchedBaseIds.add(index[bi]);
+              }
               matchedBaseWords.add(sentenceTokens[i].toLowerCase());
               matchedBaseWords.add(sentenceTokens[i+1].toLowerCase());
             }
@@ -117,7 +125,8 @@ export async function POST(request: Request) {
             for (const [tense, forms] of Object.entries(card.conjugation)) {
               for (const [person, form] of Object.entries(forms as any)) {
                 const formWords = String(form).toLowerCase().split(/\s+/);
-                if (formWords.some(fw => hasWholeWord(fw, focusText) && fw.length > 2)) {
+                // All words in the multi-word form must exist in the sentence
+                if (formWords.every(fw => hasWholeWord(fw, focusText))) {
                   matchedForm = form;
                   matchedReason = `${tenseNames[tense] || tense} - ${person}`;
                 }
