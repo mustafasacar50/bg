@@ -221,12 +221,28 @@ export async function POST(request: Request) {
       }
     }
 
-    // Combine: rich cards first, then mini cards. Dedup by bg word.
-    const seen = new Set<string>();
-    let allCards = [...richCards, ...miniCards].filter(card => {
-      const key = card.bg.toLowerCase();
-      if (seen.has(key)) return false;
-      seen.add(key);
+    // Combine: rich cards first, then mini cards.
+    let allCards = [...richCards, ...miniCards];
+    
+    // Sort so that exact matches (base word == matched form) come first.
+    // This ensures that if a word is matched directly (e.g. "тях"), it wins over a paradigm match (e.g. "мен" producing "тях").
+    allCards.sort((a, b) => {
+      const aExact = a.bg.toLowerCase() === a.matchedForm.toLowerCase() ? 0 : 1;
+      const bExact = b.bg.toLowerCase() === b.matchedForm.toLowerCase() ? 0 : 1;
+      return aExact - bExact;
+    });
+
+    // Dedup by matched form (we don't want to show multiple cards for the exact same word in the sentence)
+    const seenMatched = new Set<string>();
+    // Also dedup by bg word just in case multiple forms mapped to the same base word
+    const seenBg = new Set<string>();
+    
+    allCards = allCards.filter(card => {
+      const formKey = card.matchedForm.toLowerCase();
+      const bgKey = card.bg.toLowerCase();
+      if (seenMatched.has(formKey) || seenBg.has(bgKey)) return false;
+      seenMatched.add(formKey);
+      seenBg.add(bgKey);
       return true;
     });
 
