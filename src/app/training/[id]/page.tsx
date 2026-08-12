@@ -2052,7 +2052,6 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                     );
                   })}
                 </div>
-                </div>
               )}
 
               {/* Açıklama / Kural Kutusu (Öğrenilmişse altta ve soluk) */}
