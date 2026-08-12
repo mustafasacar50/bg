@@ -393,15 +393,36 @@
     {
       "id": "word_auto_d3_1786542386814_4661",
       "bg": "онзи",
-      "tr": "şu/o (eril, uzaktaki)",
-      "type": "sıfat",
-      "notes": "Uzaktaki eril bir isme işaret eder. Örn: онзи господин (şu/o beyefendi).",
-      "examples": [],
+      "tr": "o / şu (eril, uzak)",
+      "type": "zamir",
+      "notes": "Bulgarca işaret zamirleri KONUM'a göre değişir: Yakın (bu/bunlar) ve Uzak (o/şu/onlar). Her iki grupta da CİNSİYET (eril/dişil/nötr) farkı vardır.",
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Онзи</mark> мъж е непознат.",
+          "tr": "<u>O / Şu</u> adam yabancıdır."
+        },
+        {
+          "bg": "Виждаш ли <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">онзи</mark> магазин?",
+          "tr": "<u>Şu</u> mağazayı görüyor musun?"
+        }
+      ],
       "forms": {
-        "eril": "онзи",
-        "dişil": "онази",
-        "nötr": "онова",
-        "çoğul": "онези"
+        "Eril": {
+          "yakın": "този",
+          "uzak": "онзи"
+        },
+        "Dişil": {
+          "yakın": "тази",
+          "uzak": "онази"
+        },
+        "Nötr": {
+          "yakın": "това",
+          "uzak": "онова"
+        },
+        "Çoğul": {
+          "yakın": "тези",
+          "uzak": "онези"
+        }
       }
     },
     {
@@ -2680,8 +2701,12 @@
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
       "examples": [
         {
-          "bg": "Няма пари, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">затова</mark> не купи нищо.",
-          "tr": "Parası yoktu, <u>bu yüzden</u> hiçbir şey almadı."
+          "bg": "Езикът е труден, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">затова</mark> трябва да учим.",
+          "tr": "Dil zor, <u>bu yüzden</u> çalışmamız gerekiyor."
+        },
+        {
+          "bg": "Тя е болна, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">затова</mark> не дойде.",
+          "tr": "O hasta, <u>bu yüzden</u> gelmedi."
         }
       ]
     },
@@ -2746,8 +2771,8 @@
           "tr": "Dil öğrenmek <u>zordur</u>."
         },
         {
-          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Трудно</mark> намирам думата.",
-          "tr": "Kelimeyi bulmak <u>güç</u>."
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Трудно</mark> се намират думи.",
+          "tr": "Kelimeler <u>güçlükle</u> bulunuyor."
         }
       ]
     },
@@ -6753,6 +6778,202 @@
         {
           "bg": "Кучето <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">следва</mark> стопанина си.",
           "tr": "Köpek sahibini <u>takip ediyor</u>."
+        }
+      ]
+    },
+    {
+      "bg": "тази",
+      "type": "zamir",
+      "tr": "bu (dişil)",
+      "forms": {
+        "Eril": {
+          "yakın": "този",
+          "uzak": "онзи"
+        },
+        "Dişil": {
+          "yakın": "тази",
+          "uzak": "онази"
+        },
+        "Nötr": {
+          "yakın": "това",
+          "uzak": "онова"
+        },
+        "Çoğul": {
+          "yakın": "тези",
+          "uzak": "онези"
+        }
+      },
+      "notes": "Bulgarca işaret zamirleri KONUM'a göre değişir: Yakın (bu/bunlar) ve Uzak (o/şu/onlar). Her iki grupta da CİNSİYET (eril/dişil/nötr) farkı vardır.",
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Тази</mark> жена е лекарка.",
+          "tr": "<u>Bu</u> kadın doktordur."
+        },
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Тази</mark> книга е интересна.",
+          "tr": "<u>Bu</u> kitap ilginçtir."
+        }
+      ]
+    },
+    {
+      "bg": "това",
+      "type": "zamir",
+      "tr": "bu (nötr) / bu (genel)",
+      "forms": {
+        "Eril": {
+          "yakın": "този",
+          "uzak": "онзи"
+        },
+        "Dişil": {
+          "yakın": "тази",
+          "uzak": "онази"
+        },
+        "Nötr": {
+          "yakın": "това",
+          "uzak": "онова"
+        },
+        "Çoğul": {
+          "yakın": "тези",
+          "uzak": "онези"
+        }
+      },
+      "notes": "Bulgarca işaret zamirleri KONUM'a göre değişir: Yakın (bu/bunlar) ve Uzak (o/şu/onlar). Her iki grupta da CİNSİYET (eril/dişil/nötr) farkı vardır.\n\n'Това е...' kalıbı Bulgarca'nın en temel cümle yapısıdır: 'Това е книга' = 'Bu bir kitaptır'. Cinsiyet fark etmez!",
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Това</mark> е трудно.",
+          "tr": "<u>Bu</u> zordur."
+        },
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Това</mark> е моят брат.",
+          "tr": "<u>Bu</u> benim erkek kardeşimdir."
+        },
+        {
+          "bg": "Какво е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">това</mark>?",
+          "tr": "<u>Bu</u> nedir?"
+        }
+      ]
+    },
+    {
+      "bg": "тези",
+      "type": "zamir",
+      "tr": "bunlar (çoğul, yakın)",
+      "forms": {
+        "Eril": {
+          "yakın": "този",
+          "uzak": "онзи"
+        },
+        "Dişil": {
+          "yakın": "тази",
+          "uzak": "онази"
+        },
+        "Nötr": {
+          "yakın": "това",
+          "uzak": "онова"
+        },
+        "Çoğul": {
+          "yakın": "тези",
+          "uzak": "онези"
+        }
+      },
+      "notes": "Bulgarca işaret zamirleri KONUM'a göre değişir: Yakın (bu/bunlar) ve Uzak (o/şu/onlar). Her iki grupta da CİNSİYET (eril/dişil/nötr) farkı vardır.",
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Тези</mark> студенти са от Турция.",
+          "tr": "<u>Bu</u> öğrenciler Türkiye'dendir."
+        },
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Тези</mark> книги са мои.",
+          "tr": "<u>Bunlar</u> benim kitaplarımdır."
+        }
+      ]
+    },
+    {
+      "bg": "онази",
+      "type": "zamir",
+      "tr": "o / şu (dişil, uzak)",
+      "forms": {
+        "Eril": {
+          "yakın": "този",
+          "uzak": "онзи"
+        },
+        "Dişil": {
+          "yakın": "тази",
+          "uzak": "онази"
+        },
+        "Nötr": {
+          "yakın": "това",
+          "uzak": "онова"
+        },
+        "Çoğul": {
+          "yakın": "тези",
+          "uzak": "онези"
+        }
+      },
+      "notes": "Bulgarca işaret zamirleri KONUM'a göre değişir: Yakın (bu/bunlar) ve Uzak (o/şu/onlar). Her iki grupta da CİNSİYET (eril/dişil/nötr) farkı vardır.",
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Онази</mark> жена е много красива.",
+          "tr": "<u>O / Şu</u> kadın çok güzeldir."
+        }
+      ]
+    },
+    {
+      "bg": "онова",
+      "type": "zamir",
+      "tr": "o / şu (nötr, uzak)",
+      "forms": {
+        "Eril": {
+          "yakın": "този",
+          "uzak": "онзи"
+        },
+        "Dişil": {
+          "yakın": "тази",
+          "uzak": "онази"
+        },
+        "Nötr": {
+          "yakın": "това",
+          "uzak": "онова"
+        },
+        "Çoğul": {
+          "yakın": "тези",
+          "uzak": "онези"
+        }
+      },
+      "notes": "Bulgarca işaret zamirleri KONUM'a göre değişir: Yakın (bu/bunlar) ve Uzak (o/şu/onlar). Her iki grupta da CİNSİYET (eril/dişil/nötr) farkı vardır.",
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Онова</mark> е важно.",
+          "tr": "<u>O / Şu</u> önemlidir."
+        }
+      ]
+    },
+    {
+      "bg": "онези",
+      "type": "zamir",
+      "tr": "onlar / şunlar (çoğul, uzak)",
+      "forms": {
+        "Eril": {
+          "yakın": "този",
+          "uzak": "онзи"
+        },
+        "Dişil": {
+          "yakın": "тази",
+          "uzak": "онази"
+        },
+        "Nötr": {
+          "yakın": "това",
+          "uzak": "онова"
+        },
+        "Çoğul": {
+          "yakın": "тези",
+          "uzak": "онези"
+        }
+      },
+      "notes": "Bulgarca işaret zamirleri KONUM'a göre değişir: Yakın (bu/bunlar) ve Uzak (o/şu/onlar). Her iki grupta da CİNSİYET (eril/dişil/nötr) farkı vardır.",
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Онези</mark> студенти не са тук.",
+          "tr": "<u>O / Şu</u> öğrenciler burada değil."
         }
       ]
     }

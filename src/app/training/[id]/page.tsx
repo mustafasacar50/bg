@@ -2014,25 +2014,55 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                           );
                         })()}
 
-                        {/* Adjective Forms */}
-                        {card.forms && (
-                          <div className="mt-3 bg-white/60 rounded-xl overflow-hidden shadow-sm backdrop-blur-sm">
-                            <div className={`px-3 py-2 text-xs font-black uppercase tracking-widest border-b border-black/5 ${t.tableHeader}`}>
-                              Cinsiyet Formları
+                        {/* Forms Table (Adjective / Demonstrative Pronoun) */}
+                        {card.forms && (() => {
+                          const entries = Object.entries(card.forms);
+                          const isDemonstrative = entries.length > 0 && typeof entries[0][1] === 'object';
+                          if (isDemonstrative) {
+                            return (
+                              <div className="mt-3 bg-white/60 rounded-xl overflow-hidden shadow-sm backdrop-blur-sm">
+                                <div className={`px-3 py-2 text-xs font-black uppercase tracking-widest border-b border-black/5 ${t.tableHeader}`}>
+                                  İşaret Zamirleri — Yakın (bu) / Uzak (o/şu)
+                                </div>
+                                <div className="grid grid-cols-3 text-xs">
+                                  <div className="px-2 py-2 opacity-40 font-bold border-b border-r border-black/5"></div>
+                                  <div className="px-2 py-2 opacity-60 font-bold border-b border-r border-black/5 text-center">Yakın (Bu)</div>
+                                  <div className="px-2 py-2 opacity-60 font-bold border-b border-black/5 text-center">Uzak (O/Şu)</div>
+                                  {entries.map(([gender, forms]: [string, any], i) => {
+                                    const isMatchedYakin = forms['yakın'] === card.matchedForm || forms['yakın'] === card.bg;
+                                    const isMatchedUzak = forms['uzak'] === card.matchedForm || forms['uzak'] === card.bg;
+                                    const isLast = i === entries.length - 1;
+                                    return (
+                                      <React.Fragment key={gender}>
+                                        <div className={`px-2 py-2 opacity-60 font-bold ${!isLast ? 'border-b' : ''} border-r border-black/5`}>{gender}</div>
+                                        <div className={`px-2 py-2.5 font-black text-center text-sm ${!isLast ? 'border-b' : ''} border-r border-black/5 ${isMatchedYakin ? 'bg-indigo-50 text-indigo-700' : 'opacity-80'}`}>{forms['yak\u0131n']}</div>
+                                        <div className={`px-2 py-2.5 font-black text-center text-sm ${!isLast ? 'border-b' : ''} border-black/5 ${isMatchedUzak ? 'bg-amber-50 text-amber-700' : 'opacity-70'}`}>{forms['uzak']}</div>
+                                      </React.Fragment>
+                                    );
+                                  })}
+                                </div>
+                              </div>
+                            );
+                          }
+                          return (
+                            <div className="mt-3 bg-white/60 rounded-xl overflow-hidden shadow-sm backdrop-blur-sm">
+                              <div className={`px-3 py-2 text-xs font-black uppercase tracking-widest border-b border-black/5 ${t.tableHeader}`}>
+                                Cinsiyet Formları
+                              </div>
+                              <div className="grid grid-cols-2 text-sm">
+                                {entries.map(([gender, form], i) => {
+                                  const isMatched = form === card.matchedForm;
+                                  return (
+                                    <div key={gender} className={`flex justify-between items-center px-3 py-2 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
+                                      <span className="opacity-60 text-xs font-bold capitalize">{gender}</span>
+                                      <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form as string}</span>
+                                    </div>
+                                  );
+                                })}
+                              </div>
                             </div>
-                            <div className="grid grid-cols-2 text-sm">
-                              {Object.entries(card.forms).map(([gender, form], i) => {
-                                const isMatched = form === card.matchedForm;
-                                return (
-                                  <div key={gender} className={`flex justify-between items-center px-3 py-2 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
-                                    <span className="opacity-60 text-xs font-bold capitalize">{gender}</span>
-                                    <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form as string}</span>
-                                  </div>
-                                );
-                              })}
-                            </div>
-                          </div>
-                        )}
+                          );
+                        })()}
 
                         {/* Examples */}
                         {card.examples && card.examples.length > 0 && (
@@ -2040,8 +2070,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                             <div className="text-[10px] font-black uppercase tracking-widest opacity-50 px-1">Örnekler</div>
                             {card.examples.map((ex: any, ei: number) => (
                               <div key={ei} className="bg-white/40 rounded-lg px-3 py-2 text-sm border border-white/30">
-                                <div className="font-bold opacity-90">{ex.bg}</div>
-                                <div className="text-xs opacity-60 italic mt-0.5">{ex.tr}</div>
+                                <div className="font-bold opacity-90" dangerouslySetInnerHTML={{ __html: ex.bg }} />
+                                <div className="text-xs opacity-60 italic mt-0.5" dangerouslySetInnerHTML={{ __html: ex.tr }} />
                               </div>
                             ))}
                           </div>
