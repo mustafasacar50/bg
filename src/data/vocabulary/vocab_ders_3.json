@@ -362,9 +362,18 @@
       "id": "word_auto_d3_1786542386818_9924",
       "bg": "и",
       "tr": "ve",
-      "type": "zamir",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "type": "bağlaç",
+      "notes": "Bulgarca en temel bağlaçtır. 'Ve' anlamına gelir. Dikkat: 'Тя (и) ona ait' bağlamında 'и' kısa dişil zamir de olabilir; ama bağlaç olarak sıklıkla kullanılır.",
+      "examples": [
+        {
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">и</mark> ти сме приятели.",
+          "tr": "Ben <u>ve</u> sen arkadaşız."
+        },
+        {
+          "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">и</mark> тя учат заедно.",
+          "tr": "O <u>ve</u> o (kadın) beraber okuyorlar."
+        }
+      ]
     },
     {
       "id": "word_auto_d3_1786542386828_7587",
@@ -528,24 +537,28 @@
     {
       "id": "word_auto_d3_1786542388630_2660",
       "bg": "ни",
-      "tr": "biz",
+      "tr": "bize / bizim (kısa form)",
       "type": "zamir",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "notes": "Kısa dative/iyelik zamiridir. Ние'nin (biz) kısa halidir: 'bize', 'bizi', 'bizim' anlamlarını taşır.",
       "examples": [
         {
-          "bg": "Това е къщата <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ни</mark>.",
-          "tr": "Bu <u>bizim</u> evimizdir."
+          "bg": "Дай <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ни</mark> малко вода.",
+          "tr": "<u>Bize</u> biraz su ver."
+        },
+        {
+          "bg": "Помогни <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ни</mark>!",
+          "tr": "<u>Bize</u> yardım et!"
         }
       ],
       "pronounForms": {
-        "аз": "ми",
-        "ти": "ти",
-        "той": "му",
-        "тя": "ѝ / и",
-        "то": "му",
-        "ние": "ни",
-        "вие": "ви",
-        "те": "им"
+        "Аз (ben) → ": "ми",
+        "Ти (sen) → ": "ти",
+        "Той (o/erkek) → ": "му",
+        "Тя (o/kadın) → ": "ѝ / и",
+        "То (o/nötr) → ": "му",
+        "Ние (biz) → ": "ни",
+        "Вие (siz) → ": "ви",
+        "Те (onlar) → ": "им"
       }
     },
     {
@@ -594,10 +607,23 @@
     {
       "id": "word_auto_d3_1786542389285_4594",
       "bg": "до",
-      "tr": "ile",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "-a kadar / -e kadar / yanına / ile",
+      "type": "edat",
+      "notes": "Bulgarcanın en çok kullanılan edatlarından biridir. Birden fazla anlamı vardır:\n• Zaman: '-a kadar' (до утре = yarına kadar)\n• Mekan: 'yanına / -e kadar' (до училище = okula kadar)\n• Birliktelik: 'ile, yanında' (Ела до мен = Yanıma gel)",
+      "examples": [
+        {
+          "bg": "Ще чакам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">до</mark> утре.",
+          "tr": "Yarın<u>a kadar</u> bekleyeceğim."
+        },
+        {
+          "bg": "Живея <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">до</mark> морето.",
+          "tr": "Deniz<u>in yanında (yakınında)</u> yaşıyorum."
+        },
+        {
+          "bg": "Ела <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">до</mark> мен.",
+          "tr": "Yanım<u>a</u> gel."
+        }
+      ]
     },
     {
       "id": "word_auto_d3_1786542389450_662",
@@ -1358,10 +1384,23 @@
     {
       "id": "word_auto_d3_1786542397310_5515",
       "bg": "сърбия",
-      "tr": "sırbistan",
-      "type": "otomatik",
+      "tr": "Sırbistan",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Сърбия</mark> е съседна на България.",
+          "tr": "<u>Sırbistan</u>, Bulgaristan'a komşudur."
+        },
+        {
+          "bg": "Аз съм от <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Сърбия</mark>.",
+          "tr": "Ben <u>Sırbistan</u>'danım."
+        }
+      ],
+      "nounForms": {
+        "tekil": "Сърбия"
+      },
+      "gender": "dişil"
     },
     {
       "id": "word_auto_d3_1786542397634_5689",
@@ -1450,10 +1489,19 @@
     {
       "id": "word_auto_d3_1786542398545_3681",
       "bg": "македония",
-      "tr": "makedonya",
-      "type": "otomatik",
+      "tr": "Kuzey Makedonya",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Македония</mark> граничи с България.",
+          "tr": "<u>Makedonya</u>, Bulgaristan ile sınır komşusudur."
+        }
+      ],
+      "nounForms": {
+        "tekil": "Македония"
+      },
+      "gender": "dişil"
     },
     {
       "id": "word_auto_d3_1786542398546_8772",
@@ -3135,24 +3183,28 @@
     {
       "id": "word_auto_d3_1786542414509_9038",
       "bg": "ви",
-      "tr": "sen",
+      "tr": "size / sizin (kısa form)",
       "type": "zamir",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "notes": "Kısa dative/iyelik zamiridir. Вие'nin (siz) kısa halidir: 'size', 'sizi', 'sizin' anlamlarını taşır.",
       "examples": [
         {
           "bg": "Как <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ви</mark> е името?",
-          "tr": "<u>Sizin</u> adınız nedir?"
+          "tr": "Adınız <u>ne (sizin)</u>?"
+        },
+        {
+          "bg": "Изпратих <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ви</mark> имейл.",
+          "tr": "<u>Size</u> e-posta gönderdim."
         }
       ],
       "pronounForms": {
-        "аз": "ми",
-        "ти": "ти",
-        "той": "му",
-        "тя": "ѝ / и",
-        "то": "му",
-        "ние": "ни",
-        "вие": "ви",
-        "те": "им"
+        "Аз (ben) → ": "ми",
+        "Ти (sen) → ": "ти",
+        "Той (o/erkek) → ": "му",
+        "Тя (o/kadın) → ": "ѝ / и",
+        "То (o/nötr) → ": "му",
+        "Ние (biz) → ": "ни",
+        "Вие (siz) → ": "ви",
+        "Те (onlar) → ": "им"
       }
     },
     {
@@ -5065,10 +5117,19 @@
     {
       "id": "word_auto_d3_1786542428349_8136",
       "bg": "скоро",
-      "tr": "yakında",
-      "type": "otomatik",
+      "tr": "yakında, kısa süre içinde",
+      "type": "zarf",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Скоро</mark> ще се видим.",
+          "tr": "<u>Yakında</u> görüşeceğiz."
+        },
+        {
+          "bg": "Тя <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">скоро</mark> ще дойде.",
+          "tr": "O <u>yakında</u> gelecek."
+        }
+      ]
     },
     {
       "id": "word_auto_d3_1786542428354_7189",
@@ -5089,10 +5150,27 @@
     {
       "id": "word_auto_d3_1786542428369_5654",
       "bg": "би",
-      "tr": "istemek",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "-(e)rdi / -se olurdu (koşul kipi yardımcısı)",
+      "type": "fiil",
+      "notes": "Bulgarcada şart/koşul kipi (условно наклонение) oluşturmak için kullanılan yardımcı kelimedir. Tüm şahıslar için DEĞİŞMEZ — tek bir form olan 'би' kullanılır. Fiil ile birlikte kullanılır: 'Аз би дошел' (Gelebilirdim/Gelsezdim).",
+      "examples": [
+        {
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">би</mark> дошъл, ако имах время.",
+          "tr": "Zamanım olsaydı <u>gelirdim</u>."
+        },
+        {
+          "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">би</mark> искал да те види.",
+          "tr": "O seni <u>görmek isterdi</u>."
+        }
+      ],
+      "forms": {
+        "Аз би + [fiil]": "Аз би дошел (Gelebilirdim)",
+        "Ти би + [fiil]": "Ти би отишъл (Gidebilirdin)",
+        "Той/Тя/То би + [fiil]": "Той би учил (Okuyabilirdi)",
+        "Ние би + [fiil]": "Ние би дошли (Gelebilirdik)",
+        "Вие би + [fiil]": "Вие би помогнали (Yardım edebilirdiniz)",
+        "Те би + [fiil]": "Те би знали (Bilmişlerdi)"
+      }
     },
     {
       "id": "word_auto_d3_1786542428371_1572",
@@ -5114,17 +5192,51 @@
       "id": "word_auto_d3_1786542428951_4623",
       "bg": "малък",
       "tr": "küçük",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "type": "sıfat",
+      "notes": "Sıfatı belirli ekiyle kullanmak için: eril → малкият, dişil → малката, nötr → малкото, çoğul → малките",
+      "examples": [
+        {
+          "bg": "Той е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">малък</mark> за тази работа.",
+          "tr": "Bu iş için <u>küçük</u>tür."
+        },
+        {
+          "bg": "Имам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">малка</mark> стая.",
+          "tr": "Küçük bir odam var."
+        },
+        {
+          "bg": "Тя има <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">малко</mark> куче.",
+          "tr": "Onun <u>küçük</u> bir köpeği var."
+        }
+      ],
+      "forms": {
+        "eril": "малък",
+        "dişil": "малка",
+        "nötr": "малко",
+        "çoğul": "малки"
+      }
     },
     {
       "id": "word_auto_d3_1786542428952_7872",
       "bg": "светът",
-      "tr": "dünya",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "dünya (belirli)",
+      "type": "isim",
+      "notes": "Temel form 'свят' (dünya). 'Светът' belirli halidir (определен член). İçindeki 'т' harfi kaybolabilir: 'света' (от света = dünyadan).",
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Светът</mark> е голям.",
+          "tr": "<u>Dünya</u> büyüktür."
+        },
+        {
+          "bg": "Той иска да обиколи целия <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">свят</mark>.",
+          "tr": "O tüm <u>dünyayı</u> gezmek istiyor."
+        }
+      ],
+      "nounForms": {
+        "tekil": "свят",
+        "belirli": "светът",
+        "çoğul": "светове"
+      },
+      "gender": "eril"
     },
     {
       "id": "word_auto_d3_1786542429548_8132",

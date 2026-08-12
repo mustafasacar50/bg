@@ -1296,19 +1296,19 @@
       "bg": "и",
       "tr": "ve",
       "pronunciation": "i",
-      "type": "zamir",
+      "type": "bağlaç",
       "topic": "topic_particles",
       "examples": [
         {
-          "bg": "Аз и ти.",
-          "tr": "Ben ve sen."
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">и</mark> ти сме приятели.",
+          "tr": "Ben <u>ve</u> sen arkadaşız."
         },
         {
-          "bg": "Майка ми и баща ми са тук.",
-          "tr": "Annem ve babam buradalar."
+          "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">и</mark> тя учат заедно.",
+          "tr": "O <u>ve</u> o (kadın) beraber okuyorlar."
         }
       ],
-      "notes": "Hem 've' bağlacı hem de 'ona (dişil)' kısa zamiri olarak kullanılabilir."
+      "notes": "Bulgarca en temel bağlaçtır. 'Ve' anlamına gelir. Dikkat: 'Тя (и) ona ait' bağlamında 'и' kısa dişil zamir de olabilir; ama bağlaç olarak sıklıkla kullanılır."
     },
     {
       "bg": "а",
@@ -6951,10 +6951,19 @@
     {
       "id": "word_auto_1786540683033_697",
       "bg": "скоро",
-      "tr": "yakında",
-      "type": "otomatik",
+      "tr": "yakında, kısa süre içinde",
+      "type": "zarf",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Скоро</mark> ще се видим.",
+          "tr": "<u>Yakında</u> görüşeceğiz."
+        },
+        {
+          "bg": "Тя <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">скоро</mark> ще дойде.",
+          "tr": "O <u>yakında</u> gelecek."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540683315_9640",
@@ -7522,10 +7531,23 @@
     {
       "id": "word_auto_1786540691951_5232",
       "bg": "до",
-      "tr": "ile",
-      "type": "otomatik",
-      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "tr": "-a kadar / -e kadar / yanına / ile",
+      "type": "edat",
+      "notes": "Bulgarcanın en çok kullanılan edatlarından biridir. Birden fazla anlamı vardır:\n• Zaman: '-a kadar' (до утре = yarına kadar)\n• Mekan: 'yanına / -e kadar' (до училище = okula kadar)\n• Birliktelik: 'ile, yanında' (Ела до мен = Yanıma gel)",
+      "examples": [
+        {
+          "bg": "Ще чакам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">до</mark> утре.",
+          "tr": "Yarın<u>a kadar</u> bekleyeceğim."
+        },
+        {
+          "bg": "Живея <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">до</mark> морето.",
+          "tr": "Deniz<u>in yanında (yakınında)</u> yaşıyorum."
+        },
+        {
+          "bg": "Ела <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">до</mark> мен.",
+          "tr": "Yanım<u>a</u> gel."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540691955_7838",
