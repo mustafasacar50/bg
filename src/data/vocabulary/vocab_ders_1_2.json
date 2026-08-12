@@ -359,12 +359,8 @@
       "topic": "topic_introduction",
       "examples": [
         {
-          "bg": "Здравейте, господин Иванов.",
-          "tr": "Merhaba, İvanov bey."
-        },
-        {
-          "bg": "Това е господин Петров.",
-          "tr": "Bu Petrov beydir."
+          "bg": "Той е много учтив господин.",
+          "tr": "O çok kibar bir beyefendi."
         }
       ]
     },
@@ -377,12 +373,8 @@
       "topic": "topic_introduction",
       "examples": [
         {
-          "bg": "Добър ден, госпожо.",
-          "tr": "İyi günler, hanımefendi."
-        },
-        {
-          "bg": "Госпожа Иванова е учителка.",
-          "tr": "Bayan İvanova öğretmendir."
+          "bg": "Госпожа Иванова е нашата учителка.",
+          "tr": "Bayan Ivanova bizim öğretmenimizdir."
         }
       ]
     },
@@ -395,8 +387,8 @@
       "topic": "topic_introduction",
       "examples": [
         {
-          "bg": "Извинете, госпожице.",
-          "tr": "Affedersiniz, küçük hanım."
+          "bg": "Госпожица, можете ли да ми помогнете?",
+          "tr": "Hanımefendi, bana yardım edebilir misiniz?"
         }
       ]
     },
@@ -1079,8 +1071,8 @@
       "topic": "topic_nouns",
       "examples": [
         {
-          "bg": "Аз съм студент.",
-          "tr": "Ben öğrenciyim."
+          "bg": "Той е студент по медицина.",
+          "tr": "O, tıp öğrencisidir."
         }
       ],
       "forms": {
@@ -1098,12 +1090,8 @@
       "topic": "topic_nouns",
       "examples": [
         {
-          "bg": "Хубав ден!",
-          "tr": "Güzel bir gün!"
-        },
-        {
           "bg": "Днес е хубав ден.",
-          "tr": "Bugün güzel bir gündür."
+          "tr": "Bugün güzel bir gün."
         }
       ]
     },
@@ -1116,8 +1104,8 @@
       "topic": "topic_nouns",
       "examples": [
         {
-          "bg": "Пътувам с ферибот.",
-          "tr": "Feribotla seyahat ediyorum."
+          "bg": "Пътуваме с ферибот до острова.",
+          "tr": "Adaya feribotla seyahat ediyoruz."
         }
       ]
     },
@@ -1130,12 +1118,8 @@
       "topic": "topic_nouns",
       "examples": [
         {
-          "bg": "Аз съм от България.",
-          "tr": "Ben Bulgaristanlıyım."
-        },
-        {
-          "bg": "София е столицата на България.",
-          "tr": "Sofya, Bulgaristan'ın başkentidir."
+          "bg": "България е красива страна.",
+          "tr": "Bulgaristan güzel bir ülkedir."
         }
       ]
     },
@@ -1148,8 +1132,8 @@
       "topic": "topic_nouns",
       "examples": [
         {
-          "bg": "Тя живее в Турция.",
-          "tr": "O Türkiye'de yaşıyor."
+          "bg": "Турция има голямо население.",
+          "tr": "Türkiye'nin büyük bir nüfusu var."
         }
       ]
     },
@@ -1514,12 +1498,8 @@
       },
       "examples": [
         {
-          "bg": "Отивам на разходка.",
-          "tr": "Yürüyüşe gidiyorum."
-        },
-        {
-          "bg": "Разходката беше хубава.",
-          "tr": "Yürüyüş güzeldi."
+          "bg": "Отиваме на разходка в парка.",
+          "tr": "Parkta yürüyüşe gidiyoruz."
         }
       ]
     },
@@ -1801,12 +1781,8 @@
       },
       "examples": [
         {
-          "bg": "Това момиче е умно.",
-          "tr": "Bu kız zeki."
-        },
-        {
-          "bg": "Момичетата играят в парка.",
-          "tr": "Kızlar parkta oynuyor."
+          "bg": "Това момиче е много умно.",
+          "tr": "Bu kız çok akıllı."
         }
       ]
     },
@@ -1824,8 +1800,8 @@
       },
       "examples": [
         {
-          "bg": "Искам такава рокля.",
-          "tr": "Böyle bir elbise istiyorum."
+          "bg": "Тя носи червена рокля.",
+          "tr": "O kırmızı bir elbise giyiyor."
         }
       ]
     },
@@ -1990,7 +1966,13 @@
         "eril": "колега",
         "dişil": "колежка",
         "çoğul": "колеги"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Моят колега е в отпуск.",
+          "tr": "Meslektaşım izinde."
+        }
+      ]
     },
     {
       "bg": "приятел",
@@ -2002,7 +1984,13 @@
         "eril": "приятел",
         "dişil": "приятелка",
         "çoğul": "приятели"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Имам добър приятел в София.",
+          "tr": "Sofya'da iyi bir arkadaşım var."
+        }
+      ]
     },
     {
       "bg": "обичам",
@@ -2394,7 +2382,13 @@
         "tekil_belirli": "работата",
         "çoğul": "работи",
         "çoğul_belirli": "работите"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Търся нова работа.",
+          "tr": "Yeni bir iş arıyorum."
+        }
+      ]
     },
     {
       "bg": "държава",
@@ -2405,7 +2399,13 @@
         "tekil_belirli": "държавата",
         "çoğul": "държави",
         "çoğul_belirli": "държавите"
-      }
+      },
+      "examples": [
+        {
+          "bg": "В коя държава живееш?",
+          "tr": "Hangi devlette/ülkede yaşıyorsun?"
+        }
+      ]
     },
     {
       "bg": "страна",
@@ -2416,7 +2416,13 @@
         "tekil_belirli": "страната",
         "çoğul": "страни",
         "çoğul_belirli": "страните"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Това е чужда страна.",
+          "tr": "Bu yabancı bir ülke."
+        }
+      ]
     },
     {
       "bg": "университет",
@@ -2427,7 +2433,13 @@
         "tekil_belirli": "университетът",
         "çoğul": "университети",
         "çoğul_belirli": "университетите"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Уча в Софийския университет.",
+          "tr": "Sofya Üniversitesi'nde okuyorum."
+        }
+      ]
     },
     {
       "bg": "празник",
@@ -2438,7 +2450,13 @@
         "tekil_belirli": "празникът",
         "çoğul": "празници",
         "çoğul_belirli": "празниците"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Утре е национален празник.",
+          "tr": "Yarın ulusal bayram."
+        }
+      ]
     },
     {
       "bg": "успех",
@@ -2449,7 +2467,13 @@
         "tekil_belirli": "успехът",
         "çoğul": "успехи",
         "çoğul_belirli": "успехите"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Пожелавам ти голям успех!",
+          "tr": "Sana büyük başarı dilerim!"
+        }
+      ]
     },
     {
       "bg": "център",
@@ -2460,7 +2484,13 @@
         "tekil_belirli": "центърът",
         "çoğul": "центрове",
         "çoğul_belirli": "центровете"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Хотелът се намира в центъра.",
+          "tr": "Otel merkezde bulunuyor."
+        }
+      ]
     },
     {
       "bg": "хотел",
@@ -2471,7 +2501,13 @@
         "tekil_belirli": "хотелът",
         "çoğul": "хотели",
         "çoğul_belirli": "хотелите"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Този хотел е много скъп.",
+          "tr": "Bu otel çok pahalı."
+        }
+      ]
     },
     {
       "bg": "телефон",
@@ -2482,7 +2518,13 @@
         "tekil_belirli": "телефонът",
         "çoğul": "телефони",
         "çoğul_belirli": "телефоните"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Мога ли да използвам твоя телефон?",
+          "tr": "Telefonunu kullanabilir miyim?"
+        }
+      ]
     },
     {
       "bg": "националност",
@@ -2493,7 +2535,13 @@
         "tekil_belirli": "националността",
         "çoğul": "националности",
         "çoğul_belirli": "националностите"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Каква е твоята националност?",
+          "tr": "Senin milliyetin nedir?"
+        }
+      ]
     },
     {
       "bg": "почивка",
@@ -2504,7 +2552,13 @@
         "tekil_belirli": "почивката",
         "çoğul": "почивки",
         "çoğul_belirli": "почивките"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Имам нужда от дълга почивка.",
+          "tr": "Uzun bir tatile/molaya ihtiyacım var."
+        }
+      ]
     },
     {
       "bg": "звук",
@@ -2515,7 +2569,13 @@
         "tekil_belirli": "звукът",
         "çoğul": "звукове",
         "çoğul_belirli": "звуковете"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Чувам странен звук.",
+          "tr": "Tuhaf bir ses duyuyorum."
+        }
+      ]
     },
     {
       "bg": "буква",
@@ -2526,7 +2586,13 @@
         "tekil_belirli": "буквата",
         "çoğul": "букви",
         "çoğul_belirli": "буквите"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Първата буква е 'А'.",
+          "tr": "İlk harf 'A'dır."
+        }
+      ]
     },
     {
       "bg": "помощ",
@@ -2537,7 +2603,13 @@
         "tekil_belirli": "помощта",
         "çoğul": "помощи",
         "çoğul_belirli": "помощите"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Имам нужда от твоята помощ.",
+          "tr": "Senin yardımına ihtiyacım var."
+        }
+      ]
     },
     {
       "bg": "чувам",
@@ -2602,7 +2674,13 @@
         "tekil_belirli": "името",
         "çoğul": "имена",
         "çoğul_belirli": "имената"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Какво е твоето име?",
+          "tr": "Senin adın ne?"
+        }
+      ]
     },
     {
       "bg": "дума",
@@ -2613,7 +2691,13 @@
         "tekil_belirli": "думата",
         "çoğul": "думи",
         "çoğul_belirli": "думите"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Не разбирам тази дума.",
+          "tr": "Bu kelimeyi anlamıyorum."
+        }
+      ]
     },
     {
       "bg": "език",
@@ -2624,7 +2708,13 @@
         "tekil_belirli": "езикът",
         "çoğul": "езици",
         "çoğul_belirli": "езиците"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Уча български език.",
+          "tr": "Bulgar dili öğreniyorum."
+        }
+      ]
     },
     {
       "bg": "колеж",
@@ -2635,7 +2725,13 @@
         "tekil_belirli": "колежът",
         "çoğul": "колежи",
         "çoğul_belirli": "колежите"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Тя учи в колеж.",
+          "tr": "O kolejde okuyor."
+        }
+      ]
     },
     {
       "bg": "факултет",
@@ -2646,7 +2742,13 @@
         "tekil_belirli": "факултетът",
         "çoğul": "факултети",
         "çoğul_belirli": "факултетите"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Студент съм в медицинския факултет.",
+          "tr": "Tıp fakültesinde öğrenciyim."
+        }
+      ]
     },
     {
       "bg": "утро",
@@ -2657,7 +2759,13 @@
         "tekil_belirli": "утрото",
         "çoğul": "утрини",
         "çoğul_belirli": "утрините"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Добро утро!",
+          "tr": "Günaydın! (İyi sabahlar)"
+        }
+      ]
     },
     {
       "bg": "нощ",
@@ -2668,7 +2776,13 @@
         "tekil_belirli": "нощта",
         "çoğul": "нощи",
         "çoğul_belirli": "нощите"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Лека нощ!",
+          "tr": "İyi geceler!"
+        }
+      ]
     },
     {
       "bg": "пожелание",
@@ -2679,7 +2793,13 @@
         "tekil_belirli": "пожеланието",
         "çoğul": "пожелания",
         "çoğul_belirli": "пожеланията"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Имам едно пожелание за теб.",
+          "tr": "Senin için bir dileğim var."
+        }
+      ]
     },
     {
       "bg": "сричка",
@@ -2690,7 +2810,13 @@
         "tekil_belirli": "сричката",
         "çoğul": "срички",
         "çoğul_belirli": "сричките"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Тази дума има три срички.",
+          "tr": "Bu kelimenin üç hecesi var."
+        }
+      ]
     },
     {
       "bg": "нация",
@@ -2701,7 +2827,13 @@
         "tekil_belirli": "нацията",
         "çoğul": "нации",
         "çoğul_belirli": "нациите"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Ние сме една нация.",
+          "tr": "Biz bir ulusuz."
+        }
+      ]
     },
     {
       "bg": "позволя",
@@ -2784,7 +2916,13 @@
         "eril": "българин",
         "dişil": "българка",
         "çoğul": "българи"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Той е българин.",
+          "tr": "O (erkek) Bulgar'dır."
+        }
+      ]
     },
     {
       "bg": "турчин",
@@ -2794,7 +2932,13 @@
         "eril": "турчин",
         "dişil": "туркиня",
         "çoğul": "турци"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Моят приятел е турчин.",
+          "tr": "Benim arkadaşım (erkek) Türk'tür."
+        }
+      ]
     },
     {
       "bg": "чужденец",
@@ -2804,7 +2948,13 @@
         "eril": "чужденец",
         "dişil": "чужденка",
         "çoğul": "чужденци"
-      }
+      },
+      "examples": [
+        {
+          "bg": "Той е чужденец в този град.",
+          "tr": "O bu şehirde bir yabancıdır."
+        }
+      ]
     },
     {
       "bg": "се",

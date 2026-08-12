@@ -12,7 +12,12 @@
       "tr": "hanımefendi (hitap hali / vokatif)",
       "type": "isim",
       "notes": "Bulgarcada isimlerin seslenme (vokatif) hali vardır. 'госпожица' ismine seslenirken sonundaki 'а' düşer ve 'е' gelir: Госпожице! (Hanımefendi!)",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Госпожице, моля, седнете.",
+          "tr": "Hanımefendi, lütfen oturun."
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "госпожица",
@@ -65,7 +70,12 @@
       "tr": "gün",
       "type": "isim",
       "notes": "Çoğulu düzensizdir (дни).",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Днес е хубав ден.",
+          "tr": "Bugün güzel bir gün."
+        }
+      ],
       "gender": "eril",
       "nounForms": {
         "tekil": "ден",
@@ -208,7 +218,12 @@
       "tr": "üniversite öğrencisi (kadın)",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Тя е отлична студентка.",
+          "tr": "O (kadın) mükemmel bir öğrencidir."
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "студентка",
@@ -289,7 +304,12 @@
       "tr": "üniversite öğrencisi (erkek)",
       "type": "isim",
       "notes": "Sadece üniversite öğrencileri için kullanılır. Okul öğrencisi için 'ученик' denir.",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Той е студент по медицина.",
+          "tr": "O, tıp öğrencisidir."
+        }
+      ],
       "gender": "eril",
       "nounForms": {
         "tekil": "студент",
@@ -356,7 +376,12 @@
       "tr": "öğretim görevlisi / hoca (belirli)",
       "type": "isim",
       "notes": "Sonundaki '-ят' eki belirli (the) artikelidir.",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Преподавателят обяснява урока.",
+          "tr": "Öğretim görevlisi (belirli) dersi açıklıyor."
+        }
+      ],
       "gender": "eril",
       "nounForms": {
         "tekil": "преподавател",
@@ -386,7 +411,12 @@
       "tr": "Yunanistan",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Гърция е съседна държава.",
+          "tr": "Yunanistan komşu bir devlettir."
+        }
+      ],
       "gender": "dişil"
     },
     {
@@ -411,7 +441,12 @@
       "tr": "Arnavutluk",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Столицата на Албания е Тирана.",
+          "tr": "Arnavutluk'un başkenti Tiran'dır."
+        }
+      ],
       "gender": "dişil"
     },
     {
@@ -436,7 +471,12 @@
       "tr": "beyefendi (belirli)",
       "type": "isim",
       "notes": "Belirli artikel (-ът) almış hali.",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Господинът ви чака отвън.",
+          "tr": "Beyefendi (belirli) sizi dışarıda bekliyor."
+        }
+      ],
       "gender": "eril",
       "nounForms": {
         "tekil": "господин",
@@ -482,7 +522,12 @@
       "tr": "diller",
       "type": "isim",
       "notes": "език (dil) isminin çoğuludur.",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Тя говори три чужди езици.",
+          "tr": "O üç yabancı dil (çoğul) konuşuyor."
+        }
+      ],
       "gender": "eril",
       "nounForms": {
         "tekil": "език",
@@ -509,7 +554,12 @@
       "tr": "profesörler (belirli)",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Професорите имат събрание.",
+          "tr": "Profesörlerin (belirli) toplantısı var."
+        }
+      ],
       "gender": "eril",
       "nounForms": {
         "tekil": "професор",
@@ -523,7 +573,12 @@
       "tr": "kürsü, bölüm (belirli)",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Катедрата по история е на втория етаж.",
+          "tr": "Tarih kürsüsü (bölümü) ikinci kattadır."
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "катедра",
@@ -561,7 +616,12 @@
       "tr": "Yunan (erkek)",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Той е грък от Атина.",
+          "tr": "O, Atinalı bir Yunan'dır."
+        }
+      ],
       "gender": "eril",
       "nounForms": {
         "tekil": "грък",
@@ -574,7 +634,12 @@
       "tr": "üniversite",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Уча в Софийския университет.",
+          "tr": "Sofya Üniversitesi'nde okuyorum."
+        }
+      ],
       "gender": "eril",
       "nounForms": {
         "tekil": "университет",
@@ -629,7 +694,12 @@
       "tr": "Arnavut (erkek)",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Моят колега е албанец.",
+          "tr": "Meslektaşım bir Arnavut'tur."
+        }
+      ],
       "gender": "eril",
       "nounForms": {
         "tekil": "албанец",
@@ -642,7 +712,12 @@
       "tr": "Bulgar (kadın)",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Жена му е българка.",
+          "tr": "Onun eşi bir Bulgar kadındır."
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "българка",
@@ -655,7 +730,12 @@
       "tr": "Yunan (kadın)",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Тя е гъркиня.",
+          "tr": "O bir Yunan kadındır."
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "гъркиня",
@@ -724,7 +804,12 @@
       "tr": "milliyet, uyruk",
       "type": "isim",
       "notes": "Sonu sessiz harfle biten istisnai dişil isimlerdendir.",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Каква е твоята националност?",
+          "tr": "Senin milliyetin nedir?"
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "националност",
@@ -751,7 +836,12 @@
       "tr": "bilgi (belirli)",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Информацията е много полезна.",
+          "tr": "Bilgi (belirli) çok faydalıdır."
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "информация",
@@ -773,7 +863,12 @@
       "tr": "devlet, ülke",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "В коя държава живееш?",
+          "tr": "Hangi devlette/ülkede yaşıyorsun?"
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "държава",
@@ -820,7 +915,12 @@
       "tr": "Türk (kadın)",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Тя е туркиня.",
+          "tr": "O bir Türk kadındır."
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "туркиня",
@@ -833,7 +933,12 @@
       "tr": "Türk (erkek)",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Моят приятел е турчин.",
+          "tr": "Benim arkadaşım (erkek) Türk'tür."
+        }
+      ],
       "gender": "eril",
       "nounForms": {
         "tekil": "турчин",
@@ -846,7 +951,12 @@
       "tr": "filoloji (dil ve edebiyat bilimi)",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Уча английска филология.",
+          "tr": "İngiliz filolojisi okuyorum."
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "филология",
@@ -953,7 +1063,12 @@
       "tr": "Rus (kadın)",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Тя е рускиня от Москва.",
+          "tr": "O Moskovalı bir Rus kadındır."
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "рускиня",
@@ -982,7 +1097,12 @@
       "tr": "Rumen (erkek)",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Той е румънец.",
+          "tr": "O (erkek) bir Rumen'dir."
+        }
+      ],
       "gender": "eril",
       "nounForms": {
         "tekil": "румънец",
@@ -1035,7 +1155,12 @@
       "tr": "meslektaşlar / iş arkadaşları",
       "type": "isim",
       "notes": "'колега' kelimesi 'a' ile bitmesine rağmen çoğunlukla eril kabul edilir (eğer bir erkekten bahsediliyorsa). Ancak hem erkek hem kadın için ortak kullanılabilir.",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Уважаеми колеги, започваме.",
+          "tr": "Saygıdeğer meslektaşlarım (çoğul), başlıyoruz."
+        }
+      ],
       "gender": "eril",
       "nounForms": {
         "tekil": "колега",
@@ -1122,7 +1247,12 @@
       "tr": "milliyet, halk, etnik köken",
       "type": "isim",
       "notes": "Sonu sessiz harfle biten istisnai dişil isimlerdendir.",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Каква е неговата народност?",
+          "tr": "Onun milliyeti/etnik kökeni nedir?"
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "народност",
@@ -1203,7 +1333,12 @@
       "tr": "yabancılar (belirli)",
       "type": "isim",
       "notes": "Yabancı (yabancı ülke vatandaşı) anlamına gelir.",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Чужденците харесват нашето море.",
+          "tr": "Yabancılar (belirli) denizimizi beğeniyor."
+        }
+      ],
       "gender": "eril",
       "nounForms": {
         "tekil": "чужденец",
@@ -1233,7 +1368,12 @@
       "tr": "atalar, büyük ebeveynler",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Нашите прародители са живели тук.",
+          "tr": "Atalarımız burada yaşamıştır."
+        }
+      ],
       "gender": "eril",
       "nounForms": {
         "tekil": "прародител",
@@ -1254,7 +1394,12 @@
       "tr": "yıllar",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Минаха много години.",
+          "tr": "Birçok yıl geçti."
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "година",
@@ -1305,7 +1450,12 @@
       "tr": "yüzyıllar, asırlar",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Този град съществува от векове.",
+          "tr": "Bu şehir asırlardır var."
+        }
+      ],
       "gender": "eril",
       "nounForms": {
         "tekil": "век",
@@ -1350,7 +1500,12 @@
       "tr": "bağlantı / bağ",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Имаме силна връзка.",
+          "tr": "Güçlü bir bağımız var."
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "връзка",
@@ -1377,7 +1532,12 @@
       "tr": "ülkeler",
       "type": "isim",
       "notes": "страна (ülke) isminin çoğuludur.",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Посетих много европейски страни.",
+          "tr": "Birçok Avrupa ülkesini ziyaret ettim."
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "страна",
@@ -1390,7 +1550,12 @@
       "tr": "vatandaşlar, yurttaşlar (aynı milletten olanlar)",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Срещнах сънародници в чужбина.",
+          "tr": "Yurtdışında yurttaşlarla karşılaştım."
+        }
+      ],
       "gender": "eril",
       "nounForms": {
         "tekil": "сънародник",
@@ -1483,7 +1648,12 @@
       "tr": "yerler, mekanlar",
       "type": "isim",
       "notes": "място (yer) isminin düzensiz çoğuludur.",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Това са красиви места.",
+          "tr": "Buralar güzel yerlerdir."
+        }
+      ],
       "gender": "nötr",
       "nounForms": {
         "tekil": "място",
@@ -1546,7 +1716,12 @@
       "tr": "meslek",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Лекар е благородна професия.",
+          "tr": "Doktorluk asil bir meslektir."
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "професия",
@@ -1601,7 +1776,12 @@
       "tr": "diş hekimi",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Трябва да отида на зъболекар.",
+          "tr": "Diş hekimine gitmeliyim."
+        }
+      ],
       "gender": "eril",
       "nounForms": {
         "tekil": "зъболекар",
@@ -1664,7 +1844,12 @@
       "tr": "dersler (üniversitede)",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Днес нямаме лекции.",
+          "tr": "Bugün derslerimiz (üniversite) yok."
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "лекция",
@@ -1821,7 +2006,12 @@
       "tr": "kafe (belirli)",
       "type": "isim",
       "notes": "Hem içecek olan 'kahve' hem de mekan olan 'kafe' anlamına gelir.",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Кафето е горещо.",
+          "tr": "Kahve (belirli) sıcaktır."
+        }
+      ],
       "gender": "nötr",
       "nounForms": {
         "tekil": "кафе",
@@ -1834,7 +2024,12 @@
       "tr": "molalar (belirli)",
       "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": [],
+      "examples": [
+        {
+          "bg": "Почивките са кратки.",
+          "tr": "Molalar kısadır."
+        }
+      ],
       "gender": "dişil",
       "nounForms": {
         "tekil": "почивка",
