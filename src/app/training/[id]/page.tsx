@@ -136,15 +136,6 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [isAdminSearchOpen, setIsAdminSearchOpen] = useState(false);
   const [adminSearchQuery, setAdminSearchQuery] = useState('');
 
-  const adminSearchResults = useMemo(() => {
-    if (!adminSearchQuery.trim()) return [];
-    const terms = adminSearchQuery.toLowerCase().split(' ').filter(t => t);
-    return filteredQuestions.map((q, idx) => ({ q, idx })).filter(({ q }) => {
-      const sentence = (q.sentence || q.display || '').toLowerCase();
-      const translation = (q.translation || q.displayParts?.trText || '').toLowerCase();
-      return terms.every(term => sentence.includes(term) || translation.includes(term));
-    });
-  }, [adminSearchQuery, filteredQuestions]);
 
 
   // Swipe Refs
@@ -462,6 +453,17 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       return terms.every(term => text.includes(term));
     });
   }, [sessionQuestions, searchQuery, langFilter]);
+
+  const adminSearchResults = useMemo(() => {
+    if (!adminSearchQuery.trim()) return [];
+    const terms = adminSearchQuery.toLowerCase().split(' ').filter(t => t);
+    return filteredQuestions.map((q, idx) => ({ q, idx })).filter(({ q }) => {
+      const sentence = (q.sentence || q.display || '').toLowerCase();
+      const translation = (q.translation || q.displayParts?.trText || '').toLowerCase();
+      return terms.every(term => sentence.includes(term) || translation.includes(term));
+    });
+  }, [adminSearchQuery, filteredQuestions]);
+
 
   // Determine Active Grammar Cards for current question via API
   useEffect(() => {
