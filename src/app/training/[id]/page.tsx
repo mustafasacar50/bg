@@ -1372,21 +1372,22 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                 const progKey = mode === 'mistakes' ? 'mistakesProgress' : (langFilter === 'bg' ? 'bgProgress' : langFilter === 'tr' ? 'trProgress' : 'allProgress');
                 syncProgress({ [progKey]: currentIndex });
                 
-                const newLang = langFilter === 'bg' ? 'tr' : 'bg';
+                const newLang = langFilter === 'bg' ? 'tr' : langFilter === 'tr' ? 'all' : 'bg';
                 setLangFilter(newLang);
                 if (modProgressRef.current && mode !== 'mistakes') {
                   const savedIdx = newLang === 'bg'
                     ? (modProgressRef.current.bgProgress ?? Math.min(modProgressRef.current.allProgress || 0, filteredQuestions.length))
-                    : (modProgressRef.current.trProgress || 0);
+                    : newLang === 'tr' ? (modProgressRef.current.trProgress || 0)
+                    : (modProgressRef.current.allProgress || 0);
                   setCurrentIndex(savedIdx);
                 } else {
                   setCurrentIndex(0);
                 }
               }}
               className="w-10 h-10 flex items-center justify-center rounded-xl bg-slate-100 hover:bg-slate-200 border border-slate-200 shadow-sm transition-colors text-lg"
-              title={`Dil: ${langFilter === 'bg' ? 'Bulgarca' : 'Türkçe'} — değiştirmek için tıkla`}
+              title={`Dil: ${langFilter === 'bg' ? 'Bulgarca' : langFilter === 'tr' ? 'Türkçe' : 'Karma'} — değiştirmek için tıkla`}
             >
-              {langFilter === 'bg' ? '🇧🇬' : '🇹🇷'}
+              {langFilter === 'bg' ? '🇧🇬' : langFilter === 'tr' ? '🇹🇷' : '🌍'}
             </button>
             <button 
               onClick={() => handleCloudSync(false)} 
@@ -1411,7 +1412,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
           <div className="flex items-center gap-1.5 px-1 pb-0.5">
             <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wide flex-shrink-0">Ders:</span>
             <span className="text-[11px] font-semibold text-slate-600 truncate">{data.title}</span>
-            <span className="flex-shrink-0 text-xs ml-auto">{langFilter === 'bg' ? '🇧🇬 BG' : '🇹🇷 TR'}</span>
+            <span className="flex-shrink-0 text-xs ml-auto">{langFilter === 'bg' ? '🇧🇬 BG' : langFilter === 'tr' ? '🇹🇷 TR' : '🌍 Karma'}</span>
           </div>
         )}
       </header>

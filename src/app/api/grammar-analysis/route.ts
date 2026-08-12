@@ -135,11 +135,30 @@ export async function POST(request: Request) {
 
     // Combine: rich cards first, then mini cards. Dedup by bg word.
     const seen = new Set<string>();
-    const allCards = [...richCards, ...miniCards].filter(card => {
+    let allCards = [...richCards, ...miniCards].filter(card => {
       const key = card.bg.toLowerCase();
       if (seen.has(key)) return false;
       seen.add(key);
       return true;
+    });
+
+    // Sort cards: Fiil > İsim > Sıfat > Zamir > Diğerleri
+    const typePriority: Record<string, number> = {
+      'fiil': 1,
+      'isim': 2,
+      'sıfat': 3,
+      'zamir': 4,
+      'zarf': 5,
+      'edat': 6,
+      'bağlaç': 7,
+      'parçacık': 8,
+      'ünlem': 9
+    };
+
+    allCards.sort((a, b) => {
+      const pA = typePriority[a.type] || 99;
+      const pB = typePriority[b.type] || 99;
+      return pA - pB;
     });
 
     return NextResponse.json({ cards: allCards.slice(0, 8) });

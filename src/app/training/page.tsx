@@ -22,7 +22,7 @@ export default function TrainingListPage() {
   const [trProgressCounts, setTrProgressCounts] = useState<Record<string, number>>({});
   const [activeModuleId, setActiveModuleId] = useState<string | null>(null);
   
-  const [activeLangFilter, setActiveLangFilter] = useState<'bg' | 'tr'>('bg');
+  const [activeLangFilter, setActiveLangFilter] = useState<'bg' | 'tr' | 'all'>('bg');
 
   useEffect(() => {
     const session = localStorage.getItem('student_session');
@@ -186,6 +186,12 @@ export default function TrainingListPage() {
               🇧🇬 Bulgarca
             </button>
             <button
+              onClick={() => setActiveLangFilter('all')}
+              className={`px-4 py-2 rounded-lg text-sm font-bold transition-colors ${activeLangFilter === 'all' ? 'bg-indigo-600 text-white shadow-sm' : 'text-slate-500 hover:bg-slate-50 hover:text-slate-800'}`}
+            >
+              🌍 Karma
+            </button>
+            <button
               onClick={() => setActiveLangFilter('tr')}
               className={`px-4 py-2 rounded-lg text-sm font-bold transition-colors ${activeLangFilter === 'tr' ? 'bg-indigo-600 text-white shadow-sm' : 'text-slate-500 hover:bg-slate-50 hover:text-slate-800'}`}
             >
@@ -206,8 +212,8 @@ export default function TrainingListPage() {
             {modules.map((mod: any) => {
               const isActive = activeModuleId === mod.id;
               
-              const totalQuestions = activeLangFilter === 'bg' ? mod.bgCount : mod.trCount;
-              const progressCount = activeLangFilter === 'bg' ? bgProgressCounts[mod.id] || 0 : trProgressCounts[mod.id] || 0;
+              const totalQuestions = activeLangFilter === 'bg' ? mod.bgCount : activeLangFilter === 'tr' ? mod.trCount : mod.questionCount;
+              const progressCount = activeLangFilter === 'bg' ? bgProgressCounts[mod.id] || 0 : activeLangFilter === 'tr' ? trProgressCounts[mod.id] || 0 : allProgressCounts[mod.id] || 0;
               
               // Only show module if it has questions for the selected language
               if (totalQuestions === 0) return null;
