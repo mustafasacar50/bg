@@ -1,3 +1,5 @@
+interface User { id: string; username: string; name?: string; role?: string; group?: string; createdAt?: number; [key: string]: unknown; }
+interface Group { id: string; name: string; }
 "use client";
 
 import { useState, useEffect } from "react";
@@ -7,12 +9,12 @@ import { ArrowLeft } from "lucide-react";
 import { useRouter } from "next/navigation";
 
 export default function UsersAdminPage() {
-  const [users, setUsers] = useState<any[]>([]);
+  const [users, setUsers] = useState<Record<string, any>[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [password, setPassword] = useState("");
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [groups, setGroups] = useState<any[]>([]);
+  const [groups, setGroups] = useState<Record<string, any>[]>([]);
   const router = useRouter();
 
   useEffect(() => {
@@ -96,7 +98,7 @@ export default function UsersAdminPage() {
     setIsModalOpen(true);
   };
 
-  const openEditModal = (user: any) => {
+  const openEditModal = (user: Record<string, any>) => {
     setModalMode("edit");
     setEditingUserId(user.id);
     setFormData({
@@ -304,7 +306,7 @@ export default function UsersAdminPage() {
                   onChange={e => setFormData({...formData, group: e.target.value})}
                 >
                   <option value="">-- Grup Seçin (Yok) --</option>
-                  {groups.map((g: any) => (
+                  {groups.map((g: Record<string, any>) => (
                     <option key={g.id} value={g.name}>{g.name}</option>
                   ))}
                 </select>

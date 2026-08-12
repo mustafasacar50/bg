@@ -12,7 +12,7 @@ export async function GET(request: Request) {
     const exams = JSON.parse(fileData.content);
 
     if (id) {
-      const exam = exams.find((e: any) => e.id === id);
+      const exam = exams.find((e: { id: string }) => e.id === id);
       if (!exam) return NextResponse.json({ error: 'Sınav bulunamadı' }, { status: 404 });
       return NextResponse.json({ exam });
     }
@@ -35,7 +35,7 @@ export async function PUT(request: Request) {
     const fileData = await getGitHubFile(FILE_PATH);
     let exams = JSON.parse(fileData.content);
 
-    const index = exams.findIndex((e: any) => e.id === updatedExam.id);
+    const index = exams.findIndex((e: { id: string }) => e.id === updatedExam.id);
     if (index === -1) {
       return NextResponse.json({ error: 'Sınav bulunamadı.' }, { status: 404 });
     }
@@ -68,7 +68,7 @@ export async function DELETE(request: Request) {
     let exams = JSON.parse(fileData.content);
 
     const initialLength = exams.length;
-    exams = exams.filter((exam: any) => exam.id !== id);
+    exams = exams.filter((exam: { id: string }) => exam.id !== id);
 
     if (exams.length === initialLength) {
       return NextResponse.json({ error: 'Sınav bulunamadı.' }, { status: 404 });

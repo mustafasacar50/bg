@@ -38,7 +38,7 @@ export async function POST(request: Request) {
     const acceptedTypes = ['fiil', 'sıfat', 'isim', 'zamir', 'parçacık', 'edat', 'bağlaç', 'zarf', 'ünlem'];
 
     // --- PHASE 1: Rich vocab lookup (search ALL vocab files, not just active module) ---
-    const richCards: any[] = [];
+    const richCards: GrammarWord[] = [];
     const matchedBaseWords = new Set<string>();
 
     // Always search ALL vocab files so D1-2 words show up in D3 sentences and vice versa
@@ -57,7 +57,7 @@ export async function POST(request: Request) {
       if (!fs.existsSync(filePath)) continue;
       const content = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
-      let filtered: any[] = [];
+      let filtered: GrammarWord[] = [];
       const indexFilePath = filePath.replace('.json', '_index.json');
 
       if (fs.existsSync(indexFilePath)) {
@@ -92,7 +92,7 @@ export async function POST(request: Request) {
           }
         }
 
-        filtered = content.words.filter((w: any) =>
+        filtered = content.words.filter((w: GrammarWord) =>
           matchedBaseIds.has(w.bg.toLowerCase()) &&
           (acceptedTypes.includes(w.type) || w.notes) &&
           !seenWordBg.has(w.bg.toLowerCase())
@@ -101,14 +101,14 @@ export async function POST(request: Request) {
 
         } else {
           // Fallback to old linear scan if index doesn't exist
-          filtered = content.words.filter((w: any) => {
+          filtered = content.words.filter((w: GrammarWord) => {
             if (!acceptedTypes.includes(w.type) && !w.notes) return false;
             
             const baseWord = w.bg.toLowerCase();
             if (hasWholeWord(baseWord, focusText)) { matchedBaseWords.add(baseWord); return true; }
             
             if (w.conjugation) {
-              for (const tense of Object.values(w.conjugation) as any[]) {
+              for (const tense of Object.values(w.conjugation) as GrammarWord[]) {
                 for (const form of Object.values(tense)) {
                   const formStr = String(form).toLowerCase();
                   const formWords = formStr.split(/\s+/);
@@ -121,7 +121,7 @@ export async function POST(request: Request) {
             }
             
             if (w.forms) {
-              const formsMatch = Object.values(w.forms).some((f: any) => {
+              const formsMatch = Object.values(w.forms).some((f: string) => {
                 if (typeof f === 'object' && f !== null) {
                   return Object.values(f).some(subForm => {
                     const v = hasWholeWord(String(subForm), focusText);
@@ -135,7 +135,7 @@ export async function POST(request: Request) {
               });
               if (formsMatch) return true;
             }
-            if (w.nounForms && Object.values(w.nounForms).some((f: any) => { const v = hasWholeWord(f, focusText); if(v) matchedBaseWords.add(f.toLowerCase()); return v; })) return true;
+            if (w.nounForms && Object.values(w.nounForms).some((f: string) => { const v = hasWholeWord(f, focusText); if(v) matchedBaseWords.add(f.toLowerCase()); return v; })) return true;
             
             // We intentionally SKIP w.pronounForms here to prevent reverse-matching (e.g. 'те' triggering 'ги')
             return false;
@@ -151,7 +151,7 @@ export async function POST(request: Request) {
 
           if (card.conjugation) {
             for (const [tense, forms] of Object.entries(card.conjugation)) {
-              for (const [person, form] of Object.entries(forms as any)) {
+              for (const [person, form] of Object.entries(forms as Record<string, string>)) {
                 const formWords = String(form).toLowerCase().split(/\s+/);
                 // All words in the multi-word form must exist in the sentence
                 if (formWords.every(fw => hasWholeWord(fw, focusText))) {
@@ -201,7 +201,7 @@ export async function POST(request: Request) {
       }
 
     // --- PHASE 2: Mini dict lookup for remaining unmatched words ---
-    const miniCards: any[] = [];
+    const miniCards: GrammarWord[] = [];
     for (const word of uniqueWords) {
       if (matchedBaseWords.has(word)) continue; // Already covered by rich vocab
       if (word.length <= 1) continue; // Skip single letters
@@ -232,7 +232,7 @@ export async function POST(request: Request) {
     });
 
     // Merge cards sharing the same matched form, and dedup by base word
-    const mergedMap = new Map<string, any>();
+    const mergedMap = new Map<string, GrammarWord>();
     const seenBg = new Set<string>();
     
     for (const card of allCards) {

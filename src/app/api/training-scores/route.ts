@@ -15,7 +15,7 @@ export async function POST(request: Request) {
     const fileData = await getGitHubFile(FILE_PATH);
     let users = JSON.parse(fileData.content);
 
-    const userIndex = users.findIndex((u: any) => u.id === studentId);
+    const userIndex = users.findIndex((u: { id: string; trainingScore?: number }) => u.id === studentId);
     if (userIndex === -1) {
       return NextResponse.json({ error: 'Kullanıcı bulunamadı.' }, { status: 404 });
     }

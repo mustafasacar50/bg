@@ -35,7 +35,7 @@ export async function GET(request: Request, context: { params: Promise<{ id: str
       const modulesDir = path.join(process.cwd(), 'src', 'data', 'modules');
       const files = fs.existsSync(modulesDir) ? fs.readdirSync(modulesDir).filter(f => f.endsWith('.json')) : [];
       
-      const allMatchingQuestions: any[] = [];
+      const allMatchingQuestions: Array<{ id: string; [key: string]: unknown }> = [];
       const seenIds = new Set();
 
       for (const file of files) {
@@ -105,7 +105,7 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
       return NextResponse.json({ error: 'Module has no questions' }, { status: 400 });
     }
 
-    const qIndex = data.questions.findIndex((q: any) => q.id === questionId);
+    const qIndex = data.questions.findIndex((q: { id: string }) => q.id === questionId);
     if (qIndex === -1) {
       return NextResponse.json({ error: 'Question not found' }, { status: 404 });
     }

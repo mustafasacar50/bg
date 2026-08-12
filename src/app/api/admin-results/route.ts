@@ -35,7 +35,7 @@ export async function GET(request: Request) {
 
     // Fetch contents of each file
     const results = await Promise.all(
-      files.map(async (file: any) => {
+      files.map(async (file: { path: string }) => {
         const fileData = await octokit.rest.repos.getContent({
           owner,
           repo,

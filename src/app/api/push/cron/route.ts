@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { NextResponse } from 'next/server';
 import { kv } from '@vercel/kv';
 import webpush from 'web-push';
@@ -36,7 +37,7 @@ export async function GET(request: Request) {
     let pushedCount = 0;
 
     for (const studentId of subscribers) {
-      const data: any = await kv.get(`push_${studentId}`);
+      const data: { subscription: any } = await kv.get(`push_${studentId}`);
       if (!data) continue;
 
       const { subscription, settings, lastPushedAt } = data;

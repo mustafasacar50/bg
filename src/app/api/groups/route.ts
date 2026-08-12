@@ -28,7 +28,7 @@ export async function POST(request: Request) {
     let groups = JSON.parse(fileData.content);
 
     // Check if group name exists
-    if (groups.find((g: any) => g.name.toLowerCase() === name.toLowerCase())) {
+    if (groups.find((g: { id: string; name: string }) => g.name.toLowerCase() === name.toLowerCase())) {
       return NextResponse.json({ error: 'Bu isimde bir grup zaten var.' }, { status: 400 });
     }
 
@@ -64,13 +64,13 @@ export async function PUT(request: Request) {
     const fileData = await getGitHubFile(FILE_PATH);
     let groups = JSON.parse(fileData.content);
 
-    const index = groups.findIndex((g: any) => g.id === id);
+    const index = groups.findIndex((g: { id: string; name: string }) => g.id === id);
     if (index === -1) {
       return NextResponse.json({ error: 'Grup bulunamadı.' }, { status: 404 });
     }
 
     // Check name collision
-    if (groups.find((g: any) => g.id !== id && g.name.toLowerCase() === name.toLowerCase())) {
+    if (groups.find((g: { id: string; name: string }) => g.id !== id && g.name.toLowerCase() === name.toLowerCase())) {
       return NextResponse.json({ error: 'Bu isimde başka bir grup zaten var.' }, { status: 400 });
     }
 
@@ -102,7 +102,7 @@ export async function DELETE(request: Request) {
     let groups = JSON.parse(fileData.content);
 
     const initialLength = groups.length;
-    groups = groups.filter((g: any) => g.id !== id);
+    groups = groups.filter((g: { id: string; name: string }) => g.id !== id);
 
     if (groups.length === initialLength) {
       return NextResponse.json({ error: 'Grup bulunamadı.' }, { status: 404 });

@@ -46,7 +46,7 @@ export async function GET(request: Request) {
 
     if (word) {
       // Search for a specific word (fuzzy match on bg field)
-      const matches = content.words.filter((w: any) => 
+      const matches = content.words.filter((w: { bg: string; tr?: string; meaning?: string; topic?: string }) => 
         w.bg.toLowerCase().includes(word) || 
         w.tr.toLowerCase().includes(word)
       );
@@ -54,8 +54,8 @@ export async function GET(request: Request) {
     }
 
     if (topic) {
-      const filtered = content.words.filter((w: any) => w.topic === topic);
-      return NextResponse.json({ words: filtered, topic: content.topics.find((t: any) => t.id === topic) });
+      const filtered = content.words.filter((w: { bg: string; tr?: string; meaning?: string; topic?: string }) => w.topic === topic);
+      return NextResponse.json({ words: filtered, topic: content.topics.find((t: { id: string }) => t.id === topic) });
     }
 
     return NextResponse.json({ vocabulary: content });

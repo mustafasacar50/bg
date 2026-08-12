@@ -9,7 +9,7 @@ export async function POST(request: Request) {
     const usersFile = await getGitHubFile('src/data/users.json');
     const users = JSON.parse(usersFile.content);
 
-    const user = users.find((u: any) => u.username === username && u.password === password);
+    const user = users.find((u: { username: string; password?: string; id: string }) => u.username === username && u.password === password);
 
     if (user) {
       // Don't send password back to client

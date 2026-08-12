@@ -17,7 +17,7 @@ export async function GET(request: Request) {
       users = JSON.parse(usersFile.content);
     } catch(e) {}
 
-    const currentStudent = users.find((u: any) => u.id === studentId);
+    const currentStudent = users.find((u: { id: string; role: string; group?: string }) => u.id === studentId);
     if (!currentStudent || !currentStudent.group) {
       return NextResponse.json({ 
         success: true, 
@@ -30,7 +30,7 @@ export async function GET(request: Request) {
     const studentGroup = currentStudent.group;
     
     // Find all students in this group
-    const groupStudents = users.filter((u: any) => u.group === studentGroup && u.role === 'student');
+    const groupStudents = users.filter((u: { id: string; role: string; group?: string }) => u.group === studentGroup && u.role === 'student');
 
     // Fetch scores
     const scoresFile = await getGitHubFile('src/data/scores.json').catch(() => ({ content: "[]" }));
@@ -42,12 +42,12 @@ export async function GET(request: Request) {
     // Calculate total points for each student in the group
     const studentPoints: Record<string, number> = {};
     
-    groupStudents.forEach((student: any) => {
+    groupStudents.forEach((student: { id: string; username?: string; name?: string }) => {
       // Include their training score as the base
       studentPoints[student.id] = student.trainingScore || 0;
     });
 
-    scores.forEach((scoreRecord: any) => {
+    scores.forEach((scoreRecord: { score: number }) => {
       if (studentPoints[scoreRecord.studentId] !== undefined && scoreRecord.score && typeof scoreRecord.score.total === 'number') {
         studentPoints[scoreRecord.studentId] += scoreRecord.score.total;
       }

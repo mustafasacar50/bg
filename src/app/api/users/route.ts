@@ -29,7 +29,7 @@ export async function POST(request: Request) {
     let users = JSON.parse(fileData.content);
 
     // Check if username exists
-    if (users.find((u: any) => u.username === username)) {
+    if (users.find((u: { id: string; username: string }) => u.username === username)) {
       return NextResponse.json({ error: 'Bu kullanıcı adı zaten alınmış.' }, { status: 400 });
     }
 
@@ -72,7 +72,7 @@ export async function PUT(request: Request) {
     const fileData = await getGitHubFile(FILE_PATH);
     let users = JSON.parse(fileData.content);
 
-    const userIndex = users.findIndex((u: any) => u.id === id);
+    const userIndex = users.findIndex((u: { id: string; username: string }) => u.id === id);
     if (userIndex === -1) {
       return NextResponse.json({ error: 'Kullanıcı bulunamadı.' }, { status: 404 });
     }
@@ -84,7 +84,7 @@ export async function PUT(request: Request) {
     }
 
     // Check if new username exists
-    if (username && username !== users[userIndex].username && users.find((u: any) => u.username === username)) {
+    if (username && username !== users[userIndex].username && users.find((u: { id: string; username: string }) => u.username === username)) {
       return NextResponse.json({ error: 'Bu kullanıcı adı zaten alınmış.' }, { status: 400 });
     }
 
@@ -122,7 +122,7 @@ export async function DELETE(request: Request) {
     let users = JSON.parse(fileData.content);
 
     const initialLength = users.length;
-    users = users.filter((u: any) => u.id !== id);
+    users = users.filter((u: { id: string; username: string }) => u.id !== id);
 
     if (users.length === initialLength) {
       return NextResponse.json({ error: 'Kullanıcı bulunamadı.' }, { status: 404 });

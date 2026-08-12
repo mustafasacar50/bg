@@ -34,7 +34,7 @@ export async function GET(request: NextRequest) {
 
       if (baseId) {
         // Find the full rich card
-        const card = vocab.words.find((w: any) => w.bg.toLowerCase() === baseId.toLowerCase());
+        const card = vocab.words.find((w: { bg: string }) => w.bg.toLowerCase() === baseId.toLowerCase());
         if (card) {
           return NextResponse.json({ found: true, card });
         }

@@ -22,7 +22,7 @@ export async function GET() {
         let trCount = 0;
         
         if (data.questions) {
-          data.questions.forEach((q: any) => {
+          data.questions.forEach((q: { type: string; module: string; id: string }) => {
             const hint = (q.hint || '').toLowerCase();
             if (hint.includes('bulgarca')) bgCount++;
             else if (hint.includes('türkçe')) trCount++;

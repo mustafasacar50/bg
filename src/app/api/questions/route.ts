@@ -21,7 +21,7 @@ export async function PUT(request: Request) {
     const fileData = await getGitHubFile(FILE_PATH);
     const questions = JSON.parse(fileData.content);
 
-    const qIndex = questions.findIndex((q: any) => q.id === updatedQuestion.id);
+    const qIndex = questions.findIndex((q: { id: string }) => q.id === updatedQuestion.id);
     if (qIndex === -1) {
       return NextResponse.json({ error: 'Soru bulunamadı' }, { status: 404 });
     }

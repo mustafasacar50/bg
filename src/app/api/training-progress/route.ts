@@ -14,7 +14,7 @@ export async function GET(request: Request) {
 
     const fileData = await getGitHubFile(FILE_PATH).catch(() => ({ content: "{}" }));
     
-    let progressData: any = {};
+    let progressData: Record<string, unknown> = {};
     try {
       progressData = JSON.parse(fileData.content);
     } catch(e) {
@@ -37,7 +37,7 @@ export async function POST(request: Request) {
     }
 
     const fileData = await getGitHubFile(FILE_PATH).catch(() => ({ content: "{}" }));
-    let progressData: any = {};
+    let progressData: Record<string, unknown> = {};
     try {
       const parsed = JSON.parse(fileData.content);
       if (Array.isArray(parsed)) {
