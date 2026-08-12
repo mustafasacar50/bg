@@ -1468,7 +1468,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       {/* Admin Jump Search Overlay */}
       {isAdminSearchOpen && adminMode && (
         <div className="absolute top-16 right-4 z-[60] w-80 bg-white border border-slate-200 rounded-2xl shadow-xl overflow-hidden flex flex-col max-h-[70vh]">
-          <div className="p-3 border-b border-slate-100 bg-slate-50">
+          <div className="p-3 border-b border-slate-100 bg-slate-50 flex gap-2 items-center">
             <input 
               ref={adminSearchInputRef}
               autoFocus
@@ -1478,6 +1478,13 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               value={adminSearchQuery}
               onChange={e => setAdminSearchQuery(e.target.value)}
             />
+            <button 
+              onClick={() => setIsAdminSearchOpen(false)}
+              className="w-8 h-8 flex-shrink-0 flex items-center justify-center rounded-lg bg-slate-200 text-slate-500 hover:bg-slate-300 hover:text-slate-700 transition-colors"
+              title="Kapat"
+            >
+              ✕
+            </button>
           </div>
           <div className="overflow-y-auto flex-1 p-2 space-y-1">
             {adminSearchResults.length === 0 ? (
