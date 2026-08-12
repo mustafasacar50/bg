@@ -46,40 +46,72 @@ export async function POST(request: Request) {
       if (fs.existsSync(filePath)) {
         const content = JSON.parse(fs.readFileSync(filePath, "utf8"));
         
-        const filtered = content.words.filter((w: any) => {
-          if (!acceptedTypes.includes(w.type) && !w.notes) return false;
-          
-          const baseWord = w.bg.toLowerCase();
-          
-          if (hasWholeWord(baseWord, focusText)) { matchedBaseWords.add(baseWord); return true; }
-          
-          if (w.conjugation) {
-            for (const tense of Object.values(w.conjugation) as any[]) {
-              for (const form of Object.values(tense)) {
-                // Handle multi-word forms like "ще ходя"
-                const formStr = String(form).toLowerCase();
-                const formWords = formStr.split(/\s+/);
-                if (formWords.some(fw => hasWholeWord(fw, focusText) && fw.length > 2)) {
-                  formWords.forEach(fw => matchedBaseWords.add(fw));
-                  return true;
+        let filtered: any[] = [];
+        const indexFilePath = filePath.replace('.json', '_index.json');
+        
+        if (fs.existsSync(indexFilePath)) {
+          const index = JSON.parse(fs.readFileSync(indexFilePath, "utf8"));
+          const sentenceTokens = focusText.match(/[а-яА-ЯёЁa-zA-Z]+/gi) || [];
+          const matchedBaseIds = new Set<string>();
+
+          // 1-gram check
+          sentenceTokens.forEach(t => {
+            const clean = t.toLowerCase();
+            if (index[clean]) {
+              matchedBaseIds.add(index[clean]);
+              matchedBaseWords.add(clean);
+            }
+          });
+
+          // 2-gram check (for things like "запознайте се")
+          for(let i = 0; i < sentenceTokens.length - 1; i++) {
+            const bi = (sentenceTokens[i] + " " + sentenceTokens[i+1]).toLowerCase();
+            if (index[bi]) {
+              matchedBaseIds.add(index[bi]);
+              matchedBaseWords.add(sentenceTokens[i].toLowerCase());
+              matchedBaseWords.add(sentenceTokens[i+1].toLowerCase());
+            }
+          }
+
+          filtered = content.words.filter((w: any) => 
+            matchedBaseIds.has(w.bg.toLowerCase()) && 
+            (acceptedTypes.includes(w.type) || w.notes)
+          );
+        } else {
+          // Fallback to old linear scan if index doesn't exist
+          filtered = content.words.filter((w: any) => {
+            if (!acceptedTypes.includes(w.type) && !w.notes) return false;
+            
+            const baseWord = w.bg.toLowerCase();
+            if (hasWholeWord(baseWord, focusText)) { matchedBaseWords.add(baseWord); return true; }
+            
+            if (w.conjugation) {
+              for (const tense of Object.values(w.conjugation) as any[]) {
+                for (const form of Object.values(tense)) {
+                  const formStr = String(form).toLowerCase();
+                  const formWords = formStr.split(/\s+/);
+                  if (formWords.some(fw => hasWholeWord(fw, focusText) && fw.length > 2)) {
+                    formWords.forEach(fw => matchedBaseWords.add(fw));
+                    return true;
+                  }
                 }
               }
             }
-          }
-          
-          if (w.forms && Object.values(w.forms).some((f: any) => { const v = hasWholeWord(f, focusText); if(v) matchedBaseWords.add(f.toLowerCase()); return v; })) return true;
-          if (w.nounForms && Object.values(w.nounForms).some((f: any) => { const v = hasWholeWord(f, focusText); if(v) matchedBaseWords.add(f.toLowerCase()); return v; })) return true;
-          if (w.pronounForms && Object.values(w.pronounForms).some((f: any) => { const v = hasWholeWord(f, focusText); if(v) matchedBaseWords.add(f.toLowerCase()); return v; })) return true;
-
-          return false;
-        });
+            
+            if (w.forms && Object.values(w.forms).some((f: any) => { const v = hasWholeWord(f, focusText); if(v) matchedBaseWords.add(f.toLowerCase()); return v; })) return true;
+            if (w.nounForms && Object.values(w.nounForms).some((f: any) => { const v = hasWholeWord(f, focusText); if(v) matchedBaseWords.add(f.toLowerCase()); return v; })) return true;
+            if (w.pronounForms && Object.values(w.pronounForms).some((f: any) => { const v = hasWholeWord(f, focusText); if(v) matchedBaseWords.add(f.toLowerCase()); return v; })) return true;
+  
+            return false;
+          });
+        }
 
         // Enrich with matched form
         for (const card of filtered) {
           let matchedForm = card.bg;
           let matchedReason = 'Kök form';
 
-          const tenseNames: Record<string, string> = { present: 'Şimdiki Zaman', past: 'Geçmiş Zaman', future: 'Gelecek Zaman' };
+          const tenseNames: Record<string, string> = { present: 'Şimdiki Zaman', past: 'Geçmiş Zaman', future: 'Gelecek Zaman', imperative: 'Emir Kipi' };
 
           if (card.conjugation) {
             for (const [tense, forms] of Object.entries(card.conjugation)) {

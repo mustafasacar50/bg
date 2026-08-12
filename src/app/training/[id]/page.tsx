@@ -1924,9 +1924,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                         {/* Verb Conjugation — Tab Tense Tables */}
                         {card.conjugation && (() => {
                           const tenses = Object.entries(card.conjugation);
-                          const tenseLabels: Record<string, string> = { present: 'Şimdiki Z.', past: 'Geçmiş Z.', future: 'Gelecek Z.' };
-                          const tenseColors: Record<string, string> = { present: 'bg-purple-200/80 text-purple-800', past: 'bg-indigo-200/80 text-indigo-800', future: 'bg-fuchsia-200/80 text-fuchsia-800' };
-                          const tenseActiveColors: Record<string, string> = { present: 'bg-purple-500 text-white shadow-md', past: 'bg-indigo-500 text-white shadow-md', future: 'bg-fuchsia-500 text-white shadow-md' };
+                          const tenseLabels: Record<string, string> = { present: 'Şimdiki Z.', past: 'Geçmiş Z.', future: 'Gelecek Z.', imperative: 'Emir Kipi' };
+                          const tenseColors: Record<string, string> = { present: 'bg-purple-200/80 text-purple-800', past: 'bg-indigo-200/80 text-indigo-800', future: 'bg-fuchsia-200/80 text-fuchsia-800', imperative: 'bg-amber-200/80 text-amber-800' };
+                          const tenseActiveColors: Record<string, string> = { present: 'bg-purple-500 text-white shadow-md', past: 'bg-indigo-500 text-white shadow-md', future: 'bg-fuchsia-500 text-white shadow-md', imperative: 'bg-amber-500 text-white shadow-md' };
                           
                           // Find which tense has the matched form — that's the default tab
                           let defaultTense = 'present';
