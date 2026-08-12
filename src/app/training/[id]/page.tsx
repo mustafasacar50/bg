@@ -1710,17 +1710,34 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                 </div>
               )}
 
-              {/* Açıklama / Kural Kutusu */}
-              {(feedback !== 'none' || adminMode) && activeQuestion?.explanation && (
-                <div className="mt-4 p-4 bg-indigo-50/50 rounded-2xl border border-indigo-100 shadow-sm">
-                  <div className="flex gap-2 items-start">
-                    <span className="text-indigo-400 text-lg">💡</span>
-                    <p className="text-indigo-900 text-sm sm:text-base leading-relaxed">
-                      <HighlightableText text={activeQuestion.explanation} unknownWords={unknownWords} onWordClick={setDictionaryWord} />
-                    </p>
-                  </div>
-                </div>
-              )}
+              {/* Açıklama / Kural Kutusu (Öğrenilmemişse üstte) */}
+              {(() => {
+                const baseQuestionId = activeQuestion ? activeQuestion.id.split('_retry_')[0] : '';
+                const isExplanationLearned = baseQuestionId ? (srsData[`tip_${baseQuestionId}`]?.level || 0) >= 5 : false;
+                if ((feedback !== 'none' || adminMode) && activeQuestion?.explanation && !isExplanationLearned) {
+                  return (
+                    <div className="mt-4 p-4 bg-indigo-50/50 rounded-2xl border border-indigo-100 shadow-sm relative group">
+                      <div className="flex gap-2 items-start pr-8">
+                        <span className="text-indigo-400 text-lg">💡</span>
+                        <p className="text-indigo-900 text-sm sm:text-base leading-relaxed">
+                          <HighlightableText text={activeQuestion.explanation} unknownWords={unknownWords} onWordClick={setDictionaryWord} />
+                        </p>
+                      </div>
+                      <button 
+                        onClick={(e) => { 
+                          e.stopPropagation(); 
+                          processReview(baseQuestionId, 'tip', true, 5); 
+                        }}
+                        className="absolute top-4 right-4 w-7 h-7 flex items-center justify-center rounded-full transition-all hover:bg-indigo-100 text-indigo-400 border border-indigo-200"
+                        title="Öğrenildi olarak işaretle (Alta taşı)"
+                      >
+                        ✔
+                      </button>
+                    </div>
+                  );
+                }
+                return null;
+              })()}
 
               {/* Dinamik Gramer Paneli v3 */}
               {(feedback !== 'none' || adminMode) && activeGrammarCards.length > 0 && (
@@ -2035,7 +2052,37 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                     );
                   })}
                 </div>
+                </div>
               )}
+
+              {/* Açıklama / Kural Kutusu (Öğrenilmişse altta ve soluk) */}
+              {(() => {
+                const baseQuestionId = activeQuestion ? activeQuestion.id.split('_retry_')[0] : '';
+                const isExplanationLearned = baseQuestionId ? (srsData[`tip_${baseQuestionId}`]?.level || 0) >= 5 : false;
+                if ((feedback !== 'none' || adminMode) && activeQuestion?.explanation && isExplanationLearned) {
+                  return (
+                    <div className="mt-4 p-3 bg-slate-50/50 rounded-2xl border border-slate-200 shadow-sm opacity-50 grayscale transition-all hover:opacity-80 hover:grayscale-0 relative group">
+                      <div className="flex gap-2 items-start pr-8">
+                        <span className="text-slate-400 text-lg">💡</span>
+                        <p className="text-slate-700 text-sm leading-relaxed">
+                          <HighlightableText text={activeQuestion.explanation} unknownWords={unknownWords} onWordClick={setDictionaryWord} />
+                        </p>
+                      </div>
+                      <button 
+                        onClick={(e) => { 
+                          e.stopPropagation(); 
+                          processReview(baseQuestionId, 'tip', false, 0); // Un-learn
+                        }}
+                        className="absolute top-3 right-3 w-6 h-6 flex items-center justify-center rounded-full bg-green-500 text-white shadow-inner transition-all hover:bg-slate-300 hover:text-slate-600"
+                        title="Öğrenildi (Geri Al)"
+                      >
+                        ✓
+                      </button>
+                    </div>
+                  );
+                }
+                return null;
+              })()}
               </>
             )}
             </div>

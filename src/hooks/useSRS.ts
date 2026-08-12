@@ -6,7 +6,7 @@ export type SRSLevel = 0 | 1 | 2 | 3 | 4 | 5;
 
 export interface SRSItem {
   id: string;
-  type: 'question' | 'word';
+  type: 'question' | 'word' | 'tip';
   level: SRSLevel;
   nextReviewDate: number;
   correctCount: number;
@@ -48,7 +48,7 @@ export function useSRS() {
     }
   }, []);
 
-  const processReview = useCallback((id: string, type: 'question' | 'word', isCorrect: boolean, forceLevel?: number) => {
+  const processReview = useCallback((id: string, type: 'question' | 'word' | 'tip', isCorrect: boolean, forceLevel?: number) => {
     setSrsData(prev => {
       const key = `${type}_${id}`;
       const now = Date.now();
@@ -93,7 +93,7 @@ export function useSRS() {
     });
   }, [getNextReviewInterval]);
 
-  const getDueItems = useCallback((type: 'question' | 'word', allIds: string[]): string[] => {
+  const getDueItems = useCallback((type: 'question' | 'word' | 'tip', allIds: string[]): string[] => {
     const now = Date.now();
     
     const unseen = allIds.filter(id => !srsData[`${type}_${id}`]);
