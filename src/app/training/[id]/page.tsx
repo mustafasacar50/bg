@@ -131,6 +131,21 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   // Settings Modal State
   const [showSettingsModal, setShowSettingsModal] = useState(false);
   const [showExitModal, setShowExitModal] = useState(false);
+  
+  // Admin Search feature
+  const [isAdminSearchOpen, setIsAdminSearchOpen] = useState(false);
+  const [adminSearchQuery, setAdminSearchQuery] = useState('');
+
+  const adminSearchResults = useMemo(() => {
+    if (!adminSearchQuery.trim()) return [];
+    const terms = adminSearchQuery.toLowerCase().split(' ').filter(t => t);
+    return sessionQuestions.map((q, idx) => ({ q, idx })).filter(({ q }) => {
+      const sentence = (q.sentence || q.display || '').toLowerCase();
+      const translation = (q.translation || q.displayParts?.trText || '').toLowerCase();
+      return terms.every(term => sentence.includes(term) || translation.includes(term));
+    });
+  }, [adminSearchQuery, sessionQuestions]);
+
 
   // Swipe Refs
   const touchStartRef = useRef<{ x: number, y: number } | null>(null);
@@ -1408,6 +1423,15 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
             >
               <span className="text-xl">{isCloudSaving ? '⏳' : '💾'}</span>
             </button>
+            {adminMode && (
+              <button 
+                onClick={() => setIsAdminSearchOpen(prev => !prev)} 
+                className={`w-10 h-10 flex items-center justify-center rounded-xl transition-colors border shadow-sm relative ${isAdminSearchOpen ? 'bg-blue-100 text-blue-700 border-blue-200' : 'bg-slate-100 text-slate-600 hover:bg-slate-200 border-slate-200'}`}
+                title="Soru Ara (Admin)"
+              >
+                <span className="text-xl">🔍</span>
+              </button>
+            )}
             <button 
               onClick={() => setShowSettingsModal(true)} 
               className="w-10 h-10 flex items-center justify-center rounded-xl bg-slate-100 text-slate-600 hover:bg-slate-200 transition-colors border border-slate-200 shadow-sm relative"
@@ -1427,6 +1451,41 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
           </div>
         )}
       </header>
+
+      {/* Admin Jump Search Overlay */}
+      {isAdminSearchOpen && adminMode && (
+        <div className="absolute top-16 right-4 z-[60] w-80 bg-white border border-slate-200 rounded-2xl shadow-xl overflow-hidden flex flex-col max-h-[70vh]">
+          <div className="p-3 border-b border-slate-100 bg-slate-50">
+            <input 
+              autoFocus
+              type="text" 
+              placeholder="Soru Ara (örn: yüzden çalış)"
+              className="w-full px-3 py-2 bg-white border border-slate-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              value={adminSearchQuery}
+              onChange={e => setAdminSearchQuery(e.target.value)}
+            />
+          </div>
+          <div className="overflow-y-auto flex-1 p-2 space-y-1">
+            {adminSearchResults.length === 0 ? (
+              <div className="text-center py-4 text-slate-400 text-xs">Sonuç bulunamadı</div>
+            ) : (
+              adminSearchResults.map(res => (
+                <button
+                  key={res.idx}
+                  onClick={() => {
+                    setCurrentIndex(res.idx);
+                    setIsAdminSearchOpen(false);
+                  }}
+                  className="w-full text-left p-2 hover:bg-slate-50 rounded-lg text-xs border border-transparent hover:border-slate-100 transition-colors"
+                >
+                  <div className="font-bold text-slate-700 truncate">{res.q.sentence || res.q.display}</div>
+                  <div className="text-slate-500 truncate mt-0.5">{res.q.translation || res.q.displayParts?.trText}</div>
+                </button>
+              ))
+            )}
+          </div>
+        </div>
+      )}
 
       {/* Main Content */}
       <main className="flex-1 max-w-3xl w-full mx-auto px-4 py-6 sm:py-8 pb-48 flex flex-col relative z-0">
