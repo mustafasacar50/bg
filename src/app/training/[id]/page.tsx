@@ -1963,7 +1963,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                         )}
                       </div>
                     );
-                  })}
+                  })()}
                 </div>
               )}
               </>
