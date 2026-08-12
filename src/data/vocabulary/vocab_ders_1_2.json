@@ -183,12 +183,12 @@
       "topic": "topic_greetings",
       "examples": [
         {
-          "bg": "Много благодаря!",
-          "tr": "Çok teşekkür ederim!"
+          "bg": "Много <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">благодаря</mark> за помощта!",
+          "tr": "Yardımın için çok <u>teşekkür ederim</u>!"
         },
         {
-          "bg": "Благодаря за помощта.",
-          "tr": "Yardım için teşekkür ederim."
+          "bg": "Аз му <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">благодаря</mark> за подаръка.",
+          "tr": "Ben hediyesi için ona <u>teşekkür ediyorum</u>."
         }
       ]
     },
@@ -297,12 +297,12 @@
       ],
       "examples": [
         {
-          "bg": "Как се казвате?",
-          "tr": "Sizin adınız ne?"
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">се казвам</mark> Иван.",
+          "tr": "Benim <u>adım</u> Ivan'dır."
         },
         {
-          "bg": "Тя се казва Мария.",
-          "tr": "Onun (kadın) adı Maria."
+          "bg": "Тя <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">се казва</mark> Мария.",
+          "tr": "Onun <u>adı</u> Maria'dır."
         }
       ]
     },
@@ -359,8 +359,12 @@
       "topic": "topic_introduction",
       "examples": [
         {
-          "bg": "Той е много учтив господин.",
-          "tr": "O çok kibar bir beyefendi."
+          "bg": "Той е много учтив <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">господин</mark>.",
+          "tr": "O çok kibar bir <u>beyefendi</u>."
+        },
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Господин</mark> Иванов е в офиса си.",
+          "tr": "<u>Bay</u> Ivanov ofisindedir."
         }
       ]
     },
@@ -373,8 +377,12 @@
       "topic": "topic_introduction",
       "examples": [
         {
-          "bg": "Госпожа Иванова е нашата учителка.",
-          "tr": "Bayan Ivanova bizim öğretmenimizdir."
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Госпожа</mark> Петрова е нашата учителка.",
+          "tr": "<u>Bayan</u> Petrova bizim öğretmenimizdir."
+        },
+        {
+          "bg": "Тя е изключителна <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">госпожа</mark>.",
+          "tr": "O olağanüstü bir <u>hanımefendi</u>."
         }
       ]
     },
@@ -387,8 +395,12 @@
       "topic": "topic_introduction",
       "examples": [
         {
-          "bg": "Госпожица, можете ли да ми помогнете?",
-          "tr": "Hanımefendi, bana yardım edebilir misiniz?"
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Госпожица</mark>, можете ли да ми помогнете?",
+          "tr": "<u>Hanımefendi (bekar)</u>, bana yardım edebilir misiniz?"
+        },
+        {
+          "bg": "Една млада <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">госпожица</mark> чака пред вратата.",
+          "tr": "Genç bir <u>hanımefendi</u> kapının önünde bekliyor."
         }
       ]
     },
@@ -400,12 +412,12 @@
       "topic": "topic_pronouns",
       "examples": [
         {
-          "bg": "Аз съм студент.",
-          "tr": "Ben öğrenciyim."
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Аз</mark> съм от България.",
+          "tr": "<u>Ben</u> Bulgaristan'danım."
         },
         {
-          "bg": "Аз живея в София.",
-          "tr": "Ben Sofya'da yaşıyorum."
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Аз</mark> уча всеки ден.",
+          "tr": "<u>Ben</u> her gün çalışıyorum/okuyorum."
         }
       ],
       "pronounForms": {
@@ -424,8 +436,12 @@
       "topic": "topic_pronouns",
       "examples": [
         {
-          "bg": "Ти от Турция ли си?",
-          "tr": "Sen Türkiye'den misin?"
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Ти</mark> говориш ли български?",
+          "tr": "<u>Sen</u> Bulgarca konuşuyor musun?"
+        },
+        {
+          "bg": "Къде живееш <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ти</mark>?",
+          "tr": "<u>Sen</u> nerede yaşıyorsun?"
         }
       ],
       "pronounForms": {
@@ -444,8 +460,12 @@
       "topic": "topic_pronouns",
       "examples": [
         {
-          "bg": "Той е от България.",
-          "tr": "O Bulgaristan'dandır."
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Той</mark> е мой приятел.",
+          "tr": "<u>O (erkek)</u> benim arkadaşımdır."
+        },
+        {
+          "bg": "Какво прави <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">той</mark>?",
+          "tr": "<u>O</u> ne yapıyor?"
         }
       ],
       "pronounForms": {
@@ -464,8 +484,12 @@
       "topic": "topic_pronouns",
       "examples": [
         {
-          "bg": "Тя е моя приятелка.",
-          "tr": "O benim (kız) arkadaşımdır."
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Тя</mark> е много красива.",
+          "tr": "<u>O (kadın)</u> çok güzeldir."
+        },
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Тя</mark> работи в банка.",
+          "tr": "<u>O</u> bankada çalışıyor."
         }
       ],
       "pronounForms": {
@@ -484,8 +508,12 @@
       "topic": "topic_pronouns",
       "examples": [
         {
-          "bg": "То е много хубаво дете.",
-          "tr": "O çok güzel bir çocuktur."
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">То</mark> е малко дете.",
+          "tr": "<u>O (nötr)</u> küçük bir çocuktur."
+        },
+        {
+          "bg": "Къде е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">то</mark>?",
+          "tr": "<u>O</u> nerede?"
         }
       ],
       "pronounForms": {
@@ -504,8 +532,12 @@
       "topic": "topic_pronouns",
       "examples": [
         {
-          "bg": "Ние сме в София.",
-          "tr": "Biz Sofya'dayız."
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Ние</mark> сме студенти.",
+          "tr": "<u>Biz</u> öğrenciyiz."
+        },
+        {
+          "bg": "Къде отиваме <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ние</mark>?",
+          "tr": "<u>Biz</u> nereye gidiyoruz?"
         }
       ],
       "pronounForms": {
@@ -524,8 +556,12 @@
       "topic": "topic_pronouns",
       "examples": [
         {
-          "bg": "Вие как сте?",
-          "tr": "Siz nasılsınız?"
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Вие</mark> сте много любезни.",
+          "tr": "<u>Siz</u> çok kibarsınız."
+        },
+        {
+          "bg": "Какво искате <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">вие</mark>?",
+          "tr": "<u>Siz</u> ne istiyorsunuz?"
         }
       ],
       "pronounForms": {
@@ -544,8 +580,12 @@
       "topic": "topic_pronouns",
       "examples": [
         {
-          "bg": "Те са колеги.",
-          "tr": "Onlar meslektaş."
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Те</mark> са от Турция.",
+          "tr": "<u>Onlar</u> Türkiye'dendir."
+        },
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Те</mark> четат книги.",
+          "tr": "<u>Onlar</u> kitap okuyorlar."
         }
       ],
       "pronounForms": {
@@ -607,12 +647,12 @@
       ],
       "examples": [
         {
-          "bg": "Ти си много добър.",
-          "tr": "Sen çok iyisin."
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">съм</mark> от България.",
+          "tr": "Ben Bulgaristan'dan<u>ım</u>."
         },
         {
-          "bg": "Тя е учителка.",
-          "tr": "O (kadın) öğretmendir."
+          "bg": "Ние <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">сме</mark> студенти.",
+          "tr": "Biz öğrenci<u>yiz</u>."
         }
       ]
     },
@@ -657,12 +697,12 @@
       ],
       "examples": [
         {
-          "bg": "Какво учиш?",
-          "tr": "Ne okuyorsun/öğreniyorsun?"
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">уча</mark> български език.",
+          "tr": "Ben Bulgar dili <u>öğreniyorum</u>."
         },
         {
-          "bg": "Те учат в университета.",
-          "tr": "Onlar üniversitede okuyorlar."
+          "bg": "Тя <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">учи</mark> в университет.",
+          "tr": "O üniversitede <u>okuyor (tahsil görüyor)</u>."
         }
       ]
     },
@@ -758,12 +798,12 @@
       ],
       "examples": [
         {
-          "bg": "Имаш ли време?",
-          "tr": "Zamanın var mı?"
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">имам</mark> един въпрос.",
+          "tr": "Benim bir sorum <u>var</u>."
         },
         {
-          "bg": "Тя има нова кола.",
-          "tr": "Onun yeni bir arabası var."
+          "bg": "Ти <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">имаш</mark> ли кола?",
+          "tr": "Senin araban <u>var</u> mı?"
         }
       ]
     },
@@ -804,12 +844,12 @@
       ],
       "examples": [
         {
-          "bg": "Къде живееш?",
-          "tr": "Nerede yaşıyorsun?"
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">живея</mark> в София.",
+          "tr": "Ben Sofya'da <u>yaşıyorum</u>."
         },
         {
-          "bg": "Ние живеем в Турция.",
-          "tr": "Biz Türkiye'de yaşıyoruz."
+          "bg": "Те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">живеят</mark> близо до центъра.",
+          "tr": "Onlar merkeze yakın <u>yaşıyorlar</u>."
         }
       ]
     },
@@ -854,12 +894,12 @@
       ],
       "examples": [
         {
-          "bg": "Вие говорите ли английски?",
-          "tr": "Siz İngilizce konuşuyor musunuz?"
+          "bg": "Ние <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">говорим</mark> на английски.",
+          "tr": "Biz İngilizce <u>konuşuyoruz</u>."
         },
         {
-          "bg": "Тя говори много бързо.",
-          "tr": "O çok hızlı konuşuyor."
+          "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">говори</mark> много добре.",
+          "tr": "O çok iyi <u>konuşuyor</u>."
         }
       ]
     },
@@ -904,12 +944,12 @@
       ],
       "examples": [
         {
-          "bg": "Къде работиш?",
-          "tr": "Nerede çalışıyorsun?"
+          "bg": "Къде <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">работиш</mark>?",
+          "tr": "Nerede <u>çalışıyorsun</u>?"
         },
         {
-          "bg": "Ние работим всеки ден.",
-          "tr": "Biz her gün çalışıyoruz."
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">работя</mark> в международна фирма.",
+          "tr": "Ben uluslararası bir şirkette <u>çalışıyorum</u>."
         }
       ]
     },
@@ -984,16 +1024,12 @@
       "topic": "topic_questions",
       "examples": [
         {
-          "bg": "Кой е този човек?",
-          "tr": "Bu adam kim?"
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Кой</mark> е този господин?",
+          "tr": "Bu beyefendi <u>kim</u>?"
         },
         {
-          "bg": "Коя е тя?",
-          "tr": "O (kadın) kim?"
-        },
-        {
-          "bg": "Кое е това дете?",
-          "tr": "Bu çocuk kim?"
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Кой</mark> иска кафе?",
+          "tr": "<u>Kim</u> kahve istiyor?"
         }
       ]
     },
@@ -1011,20 +1047,12 @@
       },
       "examples": [
         {
-          "bg": "Какъв е този човек?",
-          "tr": "Bu nasıl bir adam? (eril)"
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Какъв</mark> е твоят проблем?",
+          "tr": "Senin sorunun <u>ne(dir)</u>?"
         },
         {
-          "bg": "Каква е тази книга?",
-          "tr": "Bu nasıl bir kitap? (dişil)"
-        },
-        {
-          "bg": "Какво е това?",
-          "tr": "Bu nedir/nasıl bir şey? (nötr)"
-        },
-        {
-          "bg": "Какви са тези хора?",
-          "tr": "Bunlar nasıl insanlar? (çoğul)"
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Какъв</mark> е този шум?",
+          "tr": "Bu <u>ne (nasıl bir)</u> gürültü?"
         }
       ]
     },
@@ -1071,8 +1099,12 @@
       "topic": "topic_nouns",
       "examples": [
         {
-          "bg": "Той е студент по медицина.",
-          "tr": "O, tıp öğrencisidir."
+          "bg": "Той е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">студент</mark> по медицина.",
+          "tr": "O, tıp <u>öğrencisidir</u>."
+        },
+        {
+          "bg": "Всеки <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">студент</mark> трябва да учи много.",
+          "tr": "Her <u>öğrenci</u> çok çalışmalıdır."
         }
       ],
       "forms": {
@@ -1090,8 +1122,12 @@
       "topic": "topic_nouns",
       "examples": [
         {
-          "bg": "Днес е хубав ден.",
-          "tr": "Bugün güzel bir gün."
+          "bg": "Днес е хубав <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ден</mark>.",
+          "tr": "Bugün güzel bir <u>gün</u>."
+        },
+        {
+          "bg": "Работя всеки <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ден</mark> от седмицата.",
+          "tr": "Haftanın her <u>günü</u> çalışıyorum."
         }
       ]
     },
@@ -1104,8 +1140,12 @@
       "topic": "topic_nouns",
       "examples": [
         {
-          "bg": "Пътуваме с ферибот до острова.",
-          "tr": "Adaya feribotla seyahat ediyoruz."
+          "bg": "Пътуваме с <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ферибот</mark> до острова.",
+          "tr": "Adaya <u>feribotla</u> seyahat ediyoruz."
+        },
+        {
+          "bg": "Този <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ферибот</mark> е много голям.",
+          "tr": "Bu <u>feribot</u> çok büyüktür."
         }
       ]
     },
@@ -1118,8 +1158,12 @@
       "topic": "topic_nouns",
       "examples": [
         {
-          "bg": "България е красива страна.",
-          "tr": "Bulgaristan güzel bir ülkedir."
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">България</mark> е красива страна.",
+          "tr": "<u>Bulgaristan</u> güzel bir ülkedir."
+        },
+        {
+          "bg": "Живея в <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">България</mark> от две години.",
+          "tr": "İki yıldır <u>Bulgaristan'da</u> yaşıyorum."
         }
       ]
     },
@@ -1132,8 +1176,12 @@
       "topic": "topic_nouns",
       "examples": [
         {
-          "bg": "Турция има голямо население.",
-          "tr": "Türkiye'nin büyük bir nüfusu var."
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Турция</mark> има голямо население.",
+          "tr": "<u>Türkiye'nin</u> büyük bir nüfusu var."
+        },
+        {
+          "bg": "Той е от <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Турция</mark>.",
+          "tr": "O <u>Türkiye'dendir</u>."
         }
       ]
     },
@@ -1151,20 +1199,8 @@
       },
       "examples": [
         {
-          "bg": "Този мъж е уморен.",
-          "tr": "Bu adam yorgun. (eril)"
-        },
-        {
-          "bg": "Тази жена е красива.",
-          "tr": "Bu kadın güzel. (dişil)"
-        },
-        {
-          "bg": "Това дете играе.",
-          "tr": "Bu çocuk oynuyor. (nötr)"
-        },
-        {
-          "bg": "Тези хора са тук.",
-          "tr": "Bu insanlar burada. (çoğul)"
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Този</mark> човек е мой приятел.",
+          "tr": "<u>Bu</u> adam benim arkadaşımdır."
         }
       ]
     },
@@ -1498,8 +1534,12 @@
       },
       "examples": [
         {
-          "bg": "Отиваме на разходка в парка.",
-          "tr": "Parkta yürüyüşe gidiyoruz."
+          "bg": "Отиваме на <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">разходка</mark> в парка.",
+          "tr": "Parkta <u>yürüyüşe</u> gidiyoruz."
+        },
+        {
+          "bg": "Тази <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">разходка</mark> беше много дълга.",
+          "tr": "Bu <u>gezinti/yürüyüş</u> çok uzundu."
         }
       ]
     },
@@ -1519,12 +1559,12 @@
       },
       "examples": [
         {
-          "bg": "Кой е той?",
-          "tr": "O kim?"
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Кой</mark> е този господин?",
+          "tr": "Bu beyefendi <u>kim</u>?"
         },
         {
-          "bg": "С кого ще ходиш?",
-          "tr": "Kiminle gideceksin?"
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Кой</mark> иска кафе?",
+          "tr": "<u>Kim</u> kahve istiyor?"
         }
       ]
     },
@@ -1692,12 +1732,12 @@
       },
       "examples": [
         {
-          "bg": "Искам кафе.",
-          "tr": "Kahve istiyorum."
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">искам</mark> кафе, моля.",
+          "tr": "Ben kahve <u>istiyorum</u>, lütfen."
         },
         {
-          "bg": "Тя не иска да дойде.",
-          "tr": "O gelmek istemiyor."
+          "bg": "Те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">искат</mark> да пътуват.",
+          "tr": "Onlar seyahat etmek <u>istiyorlar</u>."
         }
       ]
     },
@@ -1727,12 +1767,12 @@
       },
       "examples": [
         {
-          "bg": "Харесвам тази книга.",
-          "tr": "Bu kitabı beğeniyorum."
+          "bg": "Аз много <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">харесвам</mark> тази музика.",
+          "tr": "Ben bu müziği çok <u>beğeniyorum</u>."
         },
         {
-          "bg": "Ние много я харесваме.",
-          "tr": "Biz onu çok beğeniyoruz."
+          "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">харесва</mark> българската храна.",
+          "tr": "O Bulgar yemeklerini <u>beğeniyor</u>."
         }
       ]
     },
@@ -1750,20 +1790,8 @@
       },
       "examples": [
         {
-          "bg": "Искам такъв телефон.",
-          "tr": "Böyle bir telefon istiyorum. (eril)"
-        },
-        {
-          "bg": "Тя има такава рокля.",
-          "tr": "Onun böyle bir elbisesi var. (dişil)"
-        },
-        {
-          "bg": "Това е такова нещо.",
-          "tr": "Bu böyle bir şey. (nötr)"
-        },
-        {
-          "bg": "Обичам такива филми.",
-          "tr": "Böyle filmleri severim. (çoğul)"
+          "bg": "Не искам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">такъв</mark> телефон.",
+          "tr": "<u>Böyle (bir)</u> telefon istemiyorum."
         }
       ]
     },
@@ -1781,8 +1809,12 @@
       },
       "examples": [
         {
-          "bg": "Това момиче е много умно.",
-          "tr": "Bu kız çok akıllı."
+          "bg": "Това <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">момиче</mark> е много умно.",
+          "tr": "Bu <u>kız</u> çok akıllı."
+        },
+        {
+          "bg": "Малкото <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">момиче</mark> играе с кучето.",
+          "tr": "Küçük <u>kız</u> köpekle oynuyor."
         }
       ]
     },
@@ -1800,8 +1832,12 @@
       },
       "examples": [
         {
-          "bg": "Тя носи червена рокля.",
-          "tr": "O kırmızı bir elbise giyiyor."
+          "bg": "Тя носи червена <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">рокля</mark>.",
+          "tr": "O kırmızı bir <u>elbise</u> giyiyor."
+        },
+        {
+          "bg": "Купих си нова <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">рокля</mark> за партито.",
+          "tr": "Parti için kendime yeni bir <u>elbise</u> satın aldım."
         }
       ]
     },
@@ -1969,8 +2005,12 @@
       },
       "examples": [
         {
-          "bg": "Моят колега е в отпуск.",
-          "tr": "Meslektaşım izinde."
+          "bg": "Моят <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">колега</mark> е в отпуск.",
+          "tr": "<u>Meslektaşım</u> izinde."
+        },
+        {
+          "bg": "Работя с нов <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">колега</mark>.",
+          "tr": "Yeni bir <u>iş arkadaşıyla</u> çalışıyorum."
         }
       ]
     },
@@ -1987,8 +2027,12 @@
       },
       "examples": [
         {
-          "bg": "Имам добър приятел в София.",
-          "tr": "Sofya'da iyi bir arkadaşım var."
+          "bg": "Имам добър <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">приятел</mark> в София.",
+          "tr": "Sofya'da iyi bir <u>arkadaşım</u> var."
+        },
+        {
+          "bg": "Той е мой стар <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">приятел</mark>.",
+          "tr": "O benim eski bir <u>arkadaşımdır</u>."
         }
       ]
     },
@@ -2017,7 +2061,17 @@
           "ти (sen)": "обичай",
           "вие (siz)": "обичайте"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Аз те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">обичам</mark>.",
+          "tr": "Ben seni <u>seviyorum</u>."
+        },
+        {
+          "bg": "Ние <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">обичаме</mark> да пътуваме.",
+          "tr": "Biz seyahat etmeyi <u>severiz</u>."
+        }
+      ]
     },
     {
       "bg": "срещна",
@@ -2094,7 +2148,13 @@
           "вие": "можехте",
           "те": "можеха"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Това <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">може</mark> да е истина.",
+          "tr": "Bu gerçek ola<u>bilir</u>."
+        }
+      ]
     },
     {
       "bg": "пиша",
@@ -2121,7 +2181,17 @@
           "ти (sen)": "пиши",
           "вие (siz)": "пишете"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">пиша</mark> писмо до моя приятел.",
+          "tr": "Ben arkadaşıma mektup <u>yazıyorum</u>."
+        },
+        {
+          "bg": "Тя <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">пише</mark> много бързо.",
+          "tr": "O çok hızlı <u>yazıyor</u>."
+        }
+      ]
     },
     {
       "bg": "казвам",
@@ -2385,8 +2455,12 @@
       },
       "examples": [
         {
-          "bg": "Търся нова работа.",
-          "tr": "Yeni bir iş arıyorum."
+          "bg": "Търся нова <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">работа</mark>.",
+          "tr": "Yeni bir <u>iş</u> arıyorum."
+        },
+        {
+          "bg": "Имам много <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">работа</mark> днес.",
+          "tr": "Bugün çok <u>işim</u> var."
         }
       ]
     },
@@ -2402,8 +2476,12 @@
       },
       "examples": [
         {
-          "bg": "В коя държава живееш?",
-          "tr": "Hangi devlette/ülkede yaşıyorsun?"
+          "bg": "В коя <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">държава</mark> живееш?",
+          "tr": "Hangi <u>devlette/ülkede</u> yaşıyorsun?"
+        },
+        {
+          "bg": "Това е независима <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">държава</mark>.",
+          "tr": "Bu bağımsız bir <u>devlettir</u>."
         }
       ]
     },
@@ -2419,8 +2497,12 @@
       },
       "examples": [
         {
-          "bg": "Това е чужда страна.",
-          "tr": "Bu yabancı bir ülke."
+          "bg": "Това е чужда <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">страна</mark>.",
+          "tr": "Bu yabancı bir <u>ülke</u>."
+        },
+        {
+          "bg": "Пътувам из цялата <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">страна</mark>.",
+          "tr": "Tüm <u>ülkeyi</u> geziyorum."
         }
       ]
     },
@@ -2436,8 +2518,12 @@
       },
       "examples": [
         {
-          "bg": "Уча в Софийския университет.",
-          "tr": "Sofya Üniversitesi'nde okuyorum."
+          "bg": "Уча в Софийския <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">университет</mark>.",
+          "tr": "Sofya <u>Üniversitesi'nde</u> okuyorum."
+        },
+        {
+          "bg": "Този <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">университет</mark> е много престижен.",
+          "tr": "Bu <u>üniversite</u> çok prestijlidir."
         }
       ]
     },
@@ -2453,8 +2539,12 @@
       },
       "examples": [
         {
-          "bg": "Утре е национален празник.",
-          "tr": "Yarın ulusal bayram."
+          "bg": "Утре е национален <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">празник</mark>.",
+          "tr": "Yarın ulusal <u>bayram</u>."
+        },
+        {
+          "bg": "Честит <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">празник</mark>!",
+          "tr": "İyi <u>bayramlar</u>!"
         }
       ]
     },
@@ -2470,8 +2560,12 @@
       },
       "examples": [
         {
-          "bg": "Пожелавам ти голям успех!",
-          "tr": "Sana büyük başarı dilerim!"
+          "bg": "Пожелавам ти голям <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">успех</mark>!",
+          "tr": "Sana büyük <u>başarı</u> dilerim!"
+        },
+        {
+          "bg": "Този проект е пълен <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">успех</mark>.",
+          "tr": "Bu proje tam bir <u>başarıdır</u>."
         }
       ]
     },
@@ -2487,8 +2581,12 @@
       },
       "examples": [
         {
-          "bg": "Хотелът се намира в центъра.",
-          "tr": "Otel merkezde bulunuyor."
+          "bg": "Хотелът се намира в <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">центъра</mark>.",
+          "tr": "Otel <u>merkezde</u> bulunuyor."
+        },
+        {
+          "bg": "Разхождаме се в <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">центъра</mark> на града.",
+          "tr": "Şehrin <u>merkezinde</u> yürüyoruz."
         }
       ]
     },
@@ -2504,8 +2602,12 @@
       },
       "examples": [
         {
-          "bg": "Този хотел е много скъп.",
-          "tr": "Bu otel çok pahalı."
+          "bg": "Този <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">хотел</mark> е много скъп.",
+          "tr": "Bu <u>otel</u> çok pahalı."
+        },
+        {
+          "bg": "Ние сме отседнали в <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">хотел</mark> на плажа.",
+          "tr": "Plajdaki bir <u>otelde</u> kalıyoruz."
         }
       ]
     },
@@ -2521,8 +2623,12 @@
       },
       "examples": [
         {
-          "bg": "Мога ли да използвам твоя телефон?",
-          "tr": "Telefonunu kullanabilir miyim?"
+          "bg": "Мога ли да използвам твоя <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">телефон</mark>?",
+          "tr": "<u>Telefonunu</u> kullanabilir miyim?"
+        },
+        {
+          "bg": "Моят <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">телефон</mark> звъни.",
+          "tr": "Benim <u>telefonum</u> çalıyor."
         }
       ]
     },
@@ -2538,8 +2644,12 @@
       },
       "examples": [
         {
-          "bg": "Каква е твоята националност?",
-          "tr": "Senin milliyetin nedir?"
+          "bg": "Каква е твоята <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">националност</mark>?",
+          "tr": "Senin <u>milliyetin</u> nedir?"
+        },
+        {
+          "bg": "Тя е с френска <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">националност</mark>.",
+          "tr": "O Fransız <u>uyrukludur</u>."
         }
       ]
     },
@@ -2555,8 +2665,12 @@
       },
       "examples": [
         {
-          "bg": "Имам нужда от дълга почивка.",
-          "tr": "Uzun bir tatile/molaya ihtiyacım var."
+          "bg": "Имам нужда от дълга <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">почивка</mark>.",
+          "tr": "Uzun bir <u>tatile/molaya</u> ihtiyacım var."
+        },
+        {
+          "bg": "След работа отивам на <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">почивка</mark> в планината.",
+          "tr": "İşten sonra dağda <u>tatile</u> gidiyorum."
         }
       ]
     },
@@ -2572,8 +2686,12 @@
       },
       "examples": [
         {
-          "bg": "Чувам странен звук.",
-          "tr": "Tuhaf bir ses duyuyorum."
+          "bg": "Чувам странен <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">звук</mark>.",
+          "tr": "Tuhaf bir <u>ses</u> duyuyorum."
+        },
+        {
+          "bg": "Този <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">звук</mark> ме плаши.",
+          "tr": "Bu <u>ses</u> beni korkutuyor."
         }
       ]
     },
@@ -2589,8 +2707,12 @@
       },
       "examples": [
         {
-          "bg": "Първата буква е 'А'.",
-          "tr": "İlk harf 'A'dır."
+          "bg": "Първата <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">буква</mark> е 'А'.",
+          "tr": "İlk <u>harf</u> 'A'dır."
+        },
+        {
+          "bg": "Напишете името си с главна <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">буква</mark>.",
+          "tr": "Adınızı büyük <u>harfle</u> yazın."
         }
       ]
     },
@@ -2606,8 +2728,12 @@
       },
       "examples": [
         {
-          "bg": "Имам нужда от твоята помощ.",
-          "tr": "Senin yardımına ihtiyacım var."
+          "bg": "Имам нужда от твоята <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">помощ</mark>.",
+          "tr": "Senin <u>yardımına</u> ihtiyacım var."
+        },
+        {
+          "bg": "Благодаря за бързата <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">помощ</mark>.",
+          "tr": "Hızlı <u>yardımın</u> için teşekkürler."
         }
       ]
     },
@@ -2677,8 +2803,12 @@
       },
       "examples": [
         {
-          "bg": "Какво е твоето име?",
-          "tr": "Senin adın ne?"
+          "bg": "Какво е твоето <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">име</mark>?",
+          "tr": "Senin <u>adın</u> ne?"
+        },
+        {
+          "bg": "Моето <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">име</mark> е Иван.",
+          "tr": "Benim <u>adım</u> İvan'dır."
         }
       ]
     },
@@ -2694,8 +2824,12 @@
       },
       "examples": [
         {
-          "bg": "Не разбирам тази дума.",
-          "tr": "Bu kelimeyi anlamıyorum."
+          "bg": "Не разбирам тази <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">дума</mark>.",
+          "tr": "Bu <u>kelimeyi</u> anlamıyorum."
+        },
+        {
+          "bg": "Как се превежда тази <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">дума</mark>?",
+          "tr": "Bu <u>sözcük</u> nasıl çevrilir?"
         }
       ]
     },
@@ -2711,8 +2845,12 @@
       },
       "examples": [
         {
-          "bg": "Уча български език.",
-          "tr": "Bulgar dili öğreniyorum."
+          "bg": "Уча български <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">език</mark>.",
+          "tr": "Bulgar <u>dili</u> öğreniyorum."
+        },
+        {
+          "bg": "Тя говори чужд <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">език</mark> перфектно.",
+          "tr": "Yabancı <u>dili</u> kusursuz konuşuyor."
         }
       ]
     },
@@ -2728,8 +2866,12 @@
       },
       "examples": [
         {
-          "bg": "Тя учи в колеж.",
-          "tr": "O kolejde okuyor."
+          "bg": "Тя учи в <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">колеж</mark>.",
+          "tr": "O <u>kolejde</u> okuyor."
+        },
+        {
+          "bg": "Това е най-добрият <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">колеж</mark> в града.",
+          "tr": "Bu şehirdeki en iyi <u>kolejdir</u>."
         }
       ]
     },
@@ -2745,8 +2887,12 @@
       },
       "examples": [
         {
-          "bg": "Студент съм в медицинския факултет.",
-          "tr": "Tıp fakültesinde öğrenciyim."
+          "bg": "Студент съм в медицинския <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">факултет</mark>.",
+          "tr": "Tıp <u>fakültesinde</u> öğrenciyim."
+        },
+        {
+          "bg": "Нашият <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">факултет</mark> е много голям.",
+          "tr": "Bizim <u>fakültemiz</u> çok büyüktür."
         }
       ]
     },
@@ -2762,8 +2908,12 @@
       },
       "examples": [
         {
-          "bg": "Добро утро!",
-          "tr": "Günaydın! (İyi sabahlar)"
+          "bg": "Добро <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">утро</mark>!",
+          "tr": "Günaydın! (İyi <u>sabahlar</u>)"
+        },
+        {
+          "bg": "Това <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">утро</mark> е много студено.",
+          "tr": "Bu <u>sabah</u> çok soğuk."
         }
       ]
     },
@@ -2779,8 +2929,12 @@
       },
       "examples": [
         {
-          "bg": "Лека нощ!",
-          "tr": "İyi geceler!"
+          "bg": "Лека <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">нощ</mark>!",
+          "tr": "İyi <u>geceler</u>!"
+        },
+        {
+          "bg": "Снощи имаше буря през <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">нощта</mark>.",
+          "tr": "Dün gece <u>geceleyin</u> fırtına vardı."
         }
       ]
     },
@@ -2796,8 +2950,12 @@
       },
       "examples": [
         {
-          "bg": "Имам едно пожелание за теб.",
-          "tr": "Senin için bir dileğim var."
+          "bg": "Имам едно <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">пожелание</mark> за теб.",
+          "tr": "Senin için bir <u>dileğim</u> var."
+        },
+        {
+          "bg": "Най-добри <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">пожелания</mark> за рождения ден!",
+          "tr": "Doğum günün için en iyi <u>dilekler</u>!"
         }
       ]
     },
@@ -2813,8 +2971,12 @@
       },
       "examples": [
         {
-          "bg": "Тази дума има три срички.",
-          "tr": "Bu kelimenin üç hecesi var."
+          "bg": "Тази дума има три <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">срички</mark>.",
+          "tr": "Bu kelimenin üç <u>hecesi</u> var."
+        },
+        {
+          "bg": "Прочети го <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">сричка</mark> по <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">сричка</mark>.",
+          "tr": "Bunu <u>hece</u> <u>hece</u> oku."
         }
       ]
     },
@@ -2830,8 +2992,12 @@
       },
       "examples": [
         {
-          "bg": "Ние сме една нация.",
-          "tr": "Biz bir ulusuz."
+          "bg": "Ние сме една <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">нация</mark>.",
+          "tr": "Biz bir <u>ulusuz</u>."
+        },
+        {
+          "bg": "Гордея се с моята <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">нация</mark>.",
+          "tr": "Benim <u>milletimle</u> gurur duyuyorum."
         }
       ]
     },
@@ -2919,8 +3085,12 @@
       },
       "examples": [
         {
-          "bg": "Той е българин.",
-          "tr": "O (erkek) Bulgar'dır."
+          "bg": "Той е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">българин</mark>.",
+          "tr": "O (erkek) <u>Bulgar'dır</u>."
+        },
+        {
+          "bg": "Всеки <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">българин</mark> знае тази песен.",
+          "tr": "Her <u>Bulgar</u> bu şarkıyı bilir."
         }
       ]
     },
@@ -2935,8 +3105,12 @@
       },
       "examples": [
         {
-          "bg": "Моят приятел е турчин.",
-          "tr": "Benim arkadaşım (erkek) Türk'tür."
+          "bg": "Моят приятел е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">турчин</mark>.",
+          "tr": "Benim arkadaşım (erkek) <u>Türk'tür</u>."
+        },
+        {
+          "bg": "Този <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">турчин</mark> говори добре български.",
+          "tr": "Bu <u>Türk</u> iyi Bulgarca konuşuyor."
         }
       ]
     },
@@ -2951,8 +3125,12 @@
       },
       "examples": [
         {
-          "bg": "Той е чужденец в този град.",
-          "tr": "O bu şehirde bir yabancıdır."
+          "bg": "Той е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">чужденец</mark> в този град.",
+          "tr": "O bu şehirde bir <u>yabancıdır</u>."
+        },
+        {
+          "bg": "Всеки <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">чужденец</mark> трябва да има виза.",
+          "tr": "Her <u>yabancı</u> vizeye sahip olmalıdır."
         }
       ]
     },
@@ -5906,7 +6084,16 @@
       "tr": "filoloji",
       "type": "otomatik",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Уча английска <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">филология</mark>.",
+          "tr": "İngiliz <u>filolojisi</u> okuyorum."
+        },
+        {
+          "bg": "Тя завърши <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">филология</mark>.",
+          "tr": "O <u>filolojiden</u> mezun oldu."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540668461_7228",
@@ -6626,7 +6813,12 @@
       "tr": "bana ait",
       "type": "otomatik",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Тя е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">моя</mark> сестра.",
+          "tr": "O <u>benim</u> kız kardeşimdir."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540681787_4690",
@@ -6786,7 +6978,16 @@
       "tr": "yok",
       "type": "otomatik",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Тук <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">няма</mark> вода.",
+          "tr": "Burada su <u>yoktur</u>."
+        },
+        {
+          "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">няма</mark> пари.",
+          "tr": "Onun parası <u>yok</u> (sahip değil)."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540684166_3956",
@@ -7018,7 +7219,12 @@
       "tr": "kayıp",
       "type": "otomatik",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Госпожице</mark>, моля, седнете.",
+          "tr": "<u>Hanımefendi</u>, lütfen oturun."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540688204_1079",
@@ -7250,7 +7456,12 @@
       "tr": "milliyet",
       "type": "otomatik",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Каква е неговата <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">народност</mark>?",
+          "tr": "Onun <u>milliyeti/etnik kökeni</u> nedir?"
+        }
+      ]
     },
     {
       "id": "word_auto_1786540691937_4605",
@@ -7738,7 +7949,16 @@
       "tr": "yıllar",
       "type": "otomatik",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Минаха много <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">години</mark>.",
+          "tr": "Birçok <u>yıl</u> geçti."
+        },
+        {
+          "bg": "Тя е на двадесет <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">години</mark>.",
+          "tr": "O yirmi <u>yaşında</u> (yıllarındadır)."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540699255_9278",

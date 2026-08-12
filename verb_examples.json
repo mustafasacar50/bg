@@ -1,0 +1,147 @@
+{
+  "съм": [
+    { "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">съм</mark> от България.", "tr": "Ben Bulgaristan'dan<u>ım</u>." },
+    { "bg": "Ние <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">сме</mark> студенти.", "tr": "Biz öğrenci<u>yiz</u>." }
+  ],
+  "имам": [
+    { "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">имам</mark> един въпрос.", "tr": "Benim bir sorum <u>var</u>." },
+    { "bg": "Ти <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">имаш</mark> ли кола?", "tr": "Senin araban <u>var</u> mı?" }
+  ],
+  "казвам се": [
+    { "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">се казвам</mark> Иван.", "tr": "Benim <u>adım</u> Ivan'dır." },
+    { "bg": "Тя <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">се казва</mark> Мария.", "tr": "Onun <u>adı</u> Maria'dır." }
+  ],
+  "разбирам": [
+    { "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">разбирам</mark> български малко.", "tr": "Ben biraz Bulgarca <u>anlıyorum</u>." },
+    { "bg": "Ти <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">разбираш</mark> ли ме?", "tr": "Sen beni <u>anlıyor musun</u>?" }
+  ],
+  "означава": [
+    { "bg": "Какво <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">означава</mark> тази дума?", "tr": "Bu kelime ne <u>anlama geliyor</u>?" }
+  ],
+  "пиша": [
+    { "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">пиша</mark> писмо до моя приятел.", "tr": "Ben arkadaşıma mektup <u>yazıyorum</u>." },
+    { "bg": "Тя <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">пише</mark> много бързо.", "tr": "O çok hızlı <u>yazıyor</u>." }
+  ],
+  "чета": [
+    { "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">чета</mark> интересна книга.", "tr": "Ben ilginç bir kitap <u>okuyorum</u>." },
+    { "bg": "Вие <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">четете</mark> ли вестник?", "tr": "Siz gazete <u>okuyor musunuz</u>?" }
+  ],
+  "говоря": [
+    { "bg": "Ние <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">говорим</mark> на английски.", "tr": "Biz İngilizce <u>konuşuyoruz</u>." },
+    { "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">говори</mark> много добре.", "tr": "O çok iyi <u>konuşuyor</u>." }
+  ],
+  "уча": [
+    { "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">уча</mark> български език.", "tr": "Ben Bulgar dili <u>öğreniyorum</u>." },
+    { "bg": "Тя <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">учи</mark> в университет.", "tr": "O üniversitede <u>okuyor (tahsil görüyor)</u>." }
+  ],
+  "мога": [
+    { "bg": "Аз не <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">мога</mark> да дойда днес.", "tr": "Ben bugün gele<u>mem</u>." },
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Можете</mark> ли да ми помогнете?", "tr": "Bana yardım ede<u>bilir misiniz</u>?" }
+  ],
+  "искам": [
+    { "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">искам</mark> кафе, моля.", "tr": "Ben kahve <u>istiyorum</u>, lütfen." },
+    { "bg": "Те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">искат</mark> да пътуват.", "tr": "Onlar seyahat etmek <u>istiyorlar</u>." }
+  ],
+  "правя": [
+    { "bg": "Какво <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">правиш</mark> в момента?", "tr": "Şu anda ne <u>yapıyorsun</u>?" },
+    { "bg": "Ние <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">правим</mark> закуска.", "tr": "Biz kahvaltı <u>yapıyoruz</u>." }
+  ],
+  "отивам": [
+    { "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">отивам</mark> на работа.", "tr": "Ben işe <u>gidiyorum</u>." },
+    { "bg": "Къде <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">отиваш</mark>?", "tr": "Nereye <u>gidiyorsun</u>?" }
+  ],
+  "идвам": [
+    { "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">идвам</mark> от Турция.", "tr": "Ben Türkiye'den <u>geliyorum</u>." },
+    { "bg": "Кога <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">идваш</mark> тук?", "tr": "Ne zaman buraya <u>geliyorsun</u>?" }
+  ],
+  "харесвам": [
+    { "bg": "Аз много <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">харесвам</mark> тази музика.", "tr": "Ben bu müziği çok <u>beğeniyorum</u>." },
+    { "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">харесва</mark> българската храна.", "tr": "O Bulgar yemeklerini <u>beğeniyor</u>." }
+  ],
+  "обичам": [
+    { "bg": "Аз те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">обичам</mark>.", "tr": "Ben seni <u>seviyorum</u>." },
+    { "bg": "Ние <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">обичаме</mark> да пътуваме.", "tr": "Biz seyahat etmeyi <u>severiz</u>." }
+  ],
+  "работя": [
+    { "bg": "Къде <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">работиш</mark>?", "tr": "Nerede <u>çalışıyorsun</u>?" },
+    { "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">работя</mark> в международна фирма.", "tr": "Ben uluslararası bir şirkette <u>çalışıyorum</u>." }
+  ],
+  "живея": [
+    { "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">живея</mark> в София.", "tr": "Ben Sofya'da <u>yaşıyorum</u>." },
+    { "bg": "Те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">живеят</mark> близо до центъра.", "tr": "Onlar merkeze yakın <u>yaşıyorlar</u>." }
+  ],
+  "пътувам": [
+    { "bg": "Аз често <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">пътувам</mark> по работа.", "tr": "Ben sık sık iş için <u>seyahat ederim</u>." },
+    { "bg": "Утре <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">пътуваме</mark> за морето.", "tr": "Yarın deniz için <u>yola çıkıyoruz</u>." }
+  ],
+  "казва": [
+    { "bg": "Тя ми <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">казва</mark> истината.", "tr": "O bana gerçeği <u>söylüyor</u>." },
+    { "bg": "Той се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">казва</mark> Петър.", "tr": "Onun <u>adı</u> (adlandırılıyor) Petır'dır." }
+  ],
+  "запознаем": [
+    { "bg": "Искам да ви <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">запозная</mark> с моя колега.", "tr": "Sizi meslektaşımla <u>tanıştırmak</u> istiyorum." },
+    { "bg": "Нека се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">запознаем</mark>.", "tr": "Hadi <u>tanışalım</u>." }
+  ],
+  "благодаря": [
+    { "bg": "Много <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">благодаря</mark> за помощта!", "tr": "Yardımın için çok <u>teşekkür ederim</u>!" },
+    { "bg": "Аз му <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">благодаря</mark> за подаръка.", "tr": "Ben hediyesi için ona <u>teşekkür ediyorum</u>." }
+  ],
+  "следват": [
+    { "bg": "Те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">следват</mark> медицина.", "tr": "Onlar tıp <u>okuyorlar (tahsil görüyorlar)</u>." },
+    { "bg": "Учениците <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">следват</mark> учителя.", "tr": "Öğrenciler öğretmeni <u>takip ediyorlar</u>." }
+  ],
+  "познавате": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Познавате</mark> ли този господин?", "tr": "Bu beyefendiyi <u>tanıyor musunuz</u>?" },
+    { "bg": "Ние се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">познаваме</mark> от университета.", "tr": "Biz üniversiteden <u>tanışıyoruz</u>." }
+  ],
+  "разбира": [
+    { "bg": "Той не ме <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">разбира</mark>.", "tr": "O beni <u>anlamıyor</u>." }
+  ],
+  "учат": [
+    { "bg": "Децата <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">учат</mark> в училище.", "tr": "Çocuklar okulda <u>okuyorlar/öğreniyorlar</u>." }
+  ],
+  "имат": [
+    { "bg": "Те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">имат</mark> голяма къща.", "tr": "Onların büyük bir evi <u>var</u>." }
+  ],
+  "говори": [
+    { "bg": "Тя <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">говори</mark> с майка си по телефона.", "tr": "O telefonda annesiyle <u>konuşuyor</u>." }
+  ],
+  "иска": [
+    { "bg": "Детето <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">иска</mark> сладолед.", "tr": "Çocuk dondurma <u>istiyor</u>." }
+  ],
+  "стане": [
+    { "bg": "Тя иска да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">стане</mark> лекар.", "tr": "O doktor <u>olmak (haline gelmek)</u> istiyor." },
+    { "bg": "Какво ще <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">стане</mark> сега?", "tr": "Şimdi ne <u>olacak</u>?" }
+  ],
+  "обича": [
+    { "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">обича</mark> да гледа филми.", "tr": "O film izlemeyi <u>sever</u>." }
+  ],
+  "отива": [
+    { "bg": "Тя <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">отива</mark> на училище.", "tr": "O okula <u>gidiyor</u>." }
+  ],
+  "гледа": [
+    { "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">гледа</mark> телевизия всяка вечер.", "tr": "O her akşam televizyon <u>izliyor</u>." }
+  ],
+  "слуша": [
+    { "bg": "Дядо <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">слуша</mark> радио.", "tr": "Dede radyo <u>dinliyor</u>." }
+  ],
+  "няма": [
+    { "bg": "Тук <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">няма</mark> вода.", "tr": "Burada su <u>yoktur</u>." },
+    { "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">няма</mark> пари.", "tr": "Onun parası <u>yok</u> (sahip değil)." }
+  ],
+  "може": [
+    { "bg": "Това <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">може</mark> да е истина.", "tr": "Bu gerçek ola<u>bilir</u>." }
+  ],
+  "прочете": [
+    { "bg": "Трябва да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">прочетеш</mark> този текст.", "tr": "Bu metni <u>okumalısın (okuyup bitirmelisin)</u>." }
+  ],
+  "представя": [
+    { "bg": "Нека ви <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">представя</mark> новия колега.", "tr": "Sizi yeni meslektaşımla <u>tanıştırayım (takdim edeyim)</u>." }
+  ],
+  "разрешете": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Разрешете</mark> ми да вляза.", "tr": "İçeri girmeme <u>izin verin</u>." }
+  ],
+  "четат": [
+    { "bg": "Студентите <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">четат</mark> много.", "tr": "Öğrenciler çok <u>okuyorlar</u>." }
+  ]
+}

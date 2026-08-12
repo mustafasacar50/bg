@@ -1,0 +1,108 @@
+{
+  "аз": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Аз</mark> съм от България.", "tr": "<u>Ben</u> Bulgaristan'danım." },
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Аз</mark> уча всеки ден.", "tr": "<u>Ben</u> her gün çalışıyorum/okuyorum." }
+  ],
+  "ти": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Ти</mark> говориш ли български?", "tr": "<u>Sen</u> Bulgarca konuşuyor musun?" },
+    { "bg": "Къде живееш <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ти</mark>?", "tr": "<u>Sen</u> nerede yaşıyorsun?" }
+  ],
+  "той": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Той</mark> е мой приятел.", "tr": "<u>O (erkek)</u> benim arkadaşımdır." },
+    { "bg": "Какво прави <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">той</mark>?", "tr": "<u>O</u> ne yapıyor?" }
+  ],
+  "тя": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Тя</mark> е много красива.", "tr": "<u>O (kadın)</u> çok güzeldir." },
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Тя</mark> работи в банка.", "tr": "<u>O</u> bankada çalışıyor." }
+  ],
+  "то": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">То</mark> е малко дете.", "tr": "<u>O (nötr)</u> küçük bir çocuktur." },
+    { "bg": "Къде е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">то</mark>?", "tr": "<u>O</u> nerede?" }
+  ],
+  "ние": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Ние</mark> сме студенти.", "tr": "<u>Biz</u> öğrenciyiz." },
+    { "bg": "Къде отиваме <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ние</mark>?", "tr": "<u>Biz</u> nereye gidiyoruz?" }
+  ],
+  "вие": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Вие</mark> сте много любезни.", "tr": "<u>Siz</u> çok kibarsınız." },
+    { "bg": "Какво искате <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">вие</mark>?", "tr": "<u>Siz</u> ne istiyorsunuz?" }
+  ],
+  "те": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Те</mark> са от Турция.", "tr": "<u>Onlar</u> Türkiye'dendir." },
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Те</mark> четат книги.", "tr": "<u>Onlar</u> kitap okuyorlar." }
+  ],
+  "него": [
+    { "bg": "Аз седя до <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">него</mark>.", "tr": "Ben <u>onun (erkek)</u> yanına oturuyorum." },
+    { "bg": "Това е за <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">него</mark>.", "tr": "Bu <u>onun</u> içindir." }
+  ],
+  "тях": [
+    { "bg": "Отивам на кино с <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">тях</mark>.", "tr": "<u>Onlarla</u> sinemaya gidiyorum." },
+    { "bg": "Някои от <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">тях</mark> са тук.", "tr": "<u>Onlardan</u> bazıları buradadır." }
+  ],
+  "кой": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Кой</mark> е този господин?", "tr": "Bu beyefendi <u>kim</u>?" },
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Кой</mark> иска кафе?", "tr": "<u>Kim</u> kahve istiyor?" }
+  ],
+  "коя": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Коя</mark> е тази жена?", "tr": "Bu kadın <u>kim</u>?" },
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Коя</mark> книга четеш?", "tr": "<u>Hangi</u> kitabı okuyorsun?" }
+  ],
+  "кое": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Кое</mark> е твоето дете?", "tr": "Senin çocuğun <u>hangisi</u>?" }
+  ],
+  "кои": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Кои</mark> са тези хора?", "tr": "Bu insanlar <u>kimler</u>?" }
+  ],
+  "какъв": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Какъв</mark> е твоят проблем?", "tr": "Senin sorunun <u>ne(dir)</u>?" },
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Какъв</mark> е този шум?", "tr": "Bu <u>ne (nasıl bir)</u> gürültü?" }
+  ],
+  "каква": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Каква</mark> е нейната професия?", "tr": "Onun mesleği <u>ne</u>?" }
+  ],
+  "какво": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Какво</mark> правиш сега?", "tr": "Şimdi <u>ne</u> yapıyorsun?" },
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Какво</mark> е това?", "tr": "Bu <u>nedir</u>?" }
+  ],
+  "какви": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Какви</mark> езици говориш?", "tr": "<u>Ne (hangi tür)</u> diller konuşuyorsun?" }
+  ],
+  "този": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Този</mark> човек е мой приятел.", "tr": "<u>Bu</u> adam benim arkadaşımdır." }
+  ],
+  "тази": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Тази</mark> книга е много интересна.", "tr": "<u>Bu</u> kitap çok ilginçtir." }
+  ],
+  "това": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Това</mark> е ново място.", "tr": "<u>Bu</u> yeni bir yerdir." },
+    { "bg": "Не знам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">това</mark>.", "tr": "<u>Bunu</u> bilmiyorum." }
+  ],
+  "тези": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Тези</mark> хора са българи.", "tr": "<u>Bu</u> insanlar Bulgar'dır." }
+  ],
+  "някой": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Някой</mark> чука на вратата.", "tr": "<u>Biri</u> kapıya vuruyor." }
+  ],
+  "някои": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Някои</mark> студенти не са тук.", "tr": "<u>Bazı</u> öğrenciler burada değil." },
+    { "bg": "Познавам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">някои</mark> от тях.", "tr": "Onlardan <u>bazılarını</u> tanıyorum." }
+  ],
+  "такъв": [
+    { "bg": "Не искам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">такъв</mark> телефон.", "tr": "<u>Böyle (bir)</u> telefon istemiyorum." }
+  ],
+  "такива": [
+    { "bg": "Харесвам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">такива</mark> места.", "tr": "<u>Böyle</u> yerleri severim." }
+  ],
+  "тяхната": [
+    { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Тяхната</mark> къща е много голяма.", "tr": "<u>Onların</u> evi çok büyüktür." }
+  ],
+  "техните": [
+    { "bg": "Това са <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">техните</mark> деца.", "tr": "Bunlar <u>onların</u> çocuklarıdır." }
+  ],
+  "мой": [
+    { "bg": "Той е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">мой</mark> брат.", "tr": "O <u>benim</u> erkek kardeşimdir." }
+  ],
+  "моя": [
+    { "bg": "Тя е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">моя</mark> сестра.", "tr": "O <u>benim</u> kız kardeşimdir." }
+  ]
+}
