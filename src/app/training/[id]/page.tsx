@@ -1717,16 +1717,13 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                     <span className="text-sm font-bold text-slate-400 uppercase tracking-widest">📖 Bu Cümledeki Kelimeler</span>
                     <div className="flex-1 h-px bg-slate-200"></div>
                   </div>
-                  {(() => {
-                    const sortedGrammarCards = [...activeGrammarCards].sort((a, b) => {
-                      const isALearned = learnedGrammarWords.includes(a.bg);
-                      const isBLearned = learnedGrammarWords.includes(b.bg);
-                      if (isALearned && !isBLearned) return 1;
-                      if (!isALearned && isBLearned) return -1;
-                      return 0;
-                    });
-                    
-                    return sortedGrammarCards.map((card, idx) => {
+                  {[...activeGrammarCards].sort((a, b) => {
+                    const isALearned = learnedGrammarWords.includes(a.bg);
+                    const isBLearned = learnedGrammarWords.includes(b.bg);
+                    if (isALearned && !isBLearned) return 1;
+                    if (!isALearned && isBLearned) return -1;
+                    return 0;
+                  }).map((card, idx) => {
                     // Type-based colors
                     const themes: Record<string, {color: string, badge: string, highlight: string, icon: string, tableHeader: string}> = {
                       fiil: { color: "bg-purple-50/80 border-purple-200 text-purple-900", badge: "bg-purple-200 text-purple-800", highlight: "bg-purple-100 text-purple-900", icon: "🏃‍♂️", tableHeader: "bg-purple-100/80" },
@@ -1963,7 +1960,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                         )}
                       </div>
                     );
-                  })()}
+                  })}
                 </div>
               )}
               </>
