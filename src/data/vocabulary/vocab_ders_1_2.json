@@ -158,19 +158,15 @@
     },
     {
       "bg": "довиждане",
-      "tr": "hoşçakal / görüşmek üzere",
+      "tr": "hoşça kalın, güle güle",
       "pronunciation": "dovijdane",
-      "type": "ünlem",
+      "type": "zarf",
       "gender": null,
       "topic": "topic_greetings",
       "examples": [
         {
-          "bg": "Довиждане, приятен ден!",
-          "tr": "Hoşçakal, iyi günler!"
-        },
-        {
-          "bg": "Довиждане до утре.",
-          "tr": "Yarına kadar hoşçakal (yarın görüşürüz)."
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Довиждане</mark>! До утре!",
+          "tr": "<u>Güle güle!</u> Yarına kadar!"
         }
       ]
     },
@@ -765,7 +761,7 @@
     },
     {
       "bg": "имам",
-      "tr": "sahip olmak, var",
+      "tr": "var (bende), sahip olmak",
       "pronunciation": "imam",
       "type": "fiil",
       "topic": "topic_verbs",
@@ -777,22 +773,6 @@
           "ние": "имаме",
           "вие": "имате",
           "те": "имат"
-        },
-        "past": {
-          "аз": "имах",
-          "ти": "имаше",
-          "той/тя/то": "имаше",
-          "ние": "имахме",
-          "вие": "имахте",
-          "те": "имаха"
-        },
-        "future": {
-          "аз": "ще имам",
-          "ти": "ще имаш",
-          "той/тя/то": "ще има",
-          "ние": "ще имаме",
-          "вие": "ще имате",
-          "те": "ще имат"
         }
       },
       "conjugationExamples": [
@@ -804,12 +784,8 @@
       ],
       "examples": [
         {
-          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">имам</mark> един въпрос.",
-          "tr": "Benim bir sorum <u>var</u>."
-        },
-        {
-          "bg": "Ти <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">имаш</mark> ли кола?",
-          "tr": "Senin araban <u>var</u> mı?"
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">имам</mark> много приятели.",
+          "tr": "Benim çok arkadaşım <u>var</u>."
         }
       ]
     },
@@ -911,7 +887,7 @@
     },
     {
       "bg": "работя",
-      "tr": "çalışmak",
+      "tr": "çalışıyorum",
       "pronunciation": "rabotya",
       "type": "fiil",
       "topic": "topic_verbs",
@@ -923,22 +899,6 @@
           "ние": "работим",
           "вие": "работите",
           "те": "работят"
-        },
-        "past": {
-          "аз": "работих",
-          "ти": "работи",
-          "той/тя/то": "работи",
-          "ние": "работихме",
-          "вие": "работихте",
-          "те": "работиха"
-        },
-        "future": {
-          "аз": "ще работя",
-          "ти": "ще работиш",
-          "той/тя/то": "ще работи",
-          "ние": "ще работим",
-          "вие": "ще работите",
-          "те": "ще работят"
         }
       },
       "conjugationExamples": [
@@ -950,12 +910,8 @@
       ],
       "examples": [
         {
-          "bg": "Къде <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">работиш</mark>?",
-          "tr": "Nerede <u>çalışıyorsun</u>?"
-        },
-        {
-          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">работя</mark> в международна фирма.",
-          "tr": "Ben uluslararası bir şirkette <u>çalışıyorum</u>."
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">работя</mark> всеки ден.",
+          "tr": "Ben her gün <u>çalışıyorum</u>."
         }
       ]
     },
@@ -1009,16 +965,16 @@
       "bg": "как",
       "tr": "nasıl",
       "pronunciation": "kak",
-      "type": "zarf",
+      "type": "soru",
       "topic": "topic_questions",
       "examples": [
         {
-          "bg": "Как сте днес?",
-          "tr": "Bugün nasılsınız?"
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Как</mark> се казваш?",
+          "tr": "<u>Nasıl</u> adın? / Adın ne?"
         },
         {
-          "bg": "Как се казваш?",
-          "tr": "Adın ne? (Nasıl adlandırılıyorsun?)"
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Как</mark> си?",
+          "tr": "<u>Nasılsın</u>?"
         }
       ]
     },
@@ -1243,54 +1199,56 @@
     },
     {
       "bg": "да",
-      "tr": "evet / -mek için, -ması (dilek ve mastar yapısı)",
+      "tr": "evet / -mek için (fiil bağlacı)",
       "pronunciation": "da",
-      "type": "edat",
+      "type": "bağlaç",
       "topic": "topic_particles",
       "examples": [
         {
-          "bg": "- Ти студент ли си? - Да.",
-          "tr": "- Sen öğrenci misin? - Evet."
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Да</mark>! Разбирам.",
+          "tr": "<u>Evet!</u> Anlıyorum."
         },
         {
-          "bg": "Искам да уча.",
-          "tr": "Öğrenmek istiyorum."
+          "bg": "Искам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">да</mark> уча.",
+          "tr": "Çalış<u>mak</u> istiyorum."
         }
-      ]
+      ],
+      "notes": "İki temel kullanımı var: 1) Evet anlamında onay bildirmek. 2) Fiilden önce gelip 'mastar' işlevi gören bağlaç (Турски еквивалент: -mek/-mak)."
     },
     {
       "bg": "не",
-      "tr": "hayır / değil",
+      "tr": "değil, hayır (olumsuzluk)",
       "pronunciation": "ne",
-      "type": "edat",
+      "type": "bağlaç",
       "topic": "topic_particles",
       "examples": [
         {
-          "bg": "- Ти от София ли си? - Не.",
-          "tr": "- Sen Sofyalı mısın? - Hayır."
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">не</mark> разбирам.",
+          "tr": "Ben <u>anlamıyorum</u> (anlamıyorum = не)."
         },
         {
-          "bg": "Не знам.",
-          "tr": "Bilmiyorum."
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Не</mark>! Не е вярно.",
+          "tr": "<u>Hayır!</u> Bu doğru değil."
         }
       ]
     },
     {
       "bg": "ли",
-      "tr": "mı / mi (soru eki)",
+      "tr": "mi / mı (soru partikeli)",
       "pronunciation": "li",
-      "type": "edat",
+      "type": "partikel",
       "topic": "topic_particles",
       "examples": [
         {
-          "bg": "Това ли е хотелът?",
-          "tr": "Otel bu mu?"
+          "bg": "Говориш <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ли</mark> английски?",
+          "tr": "İngilizce konuşuyor <u>musun</u>?"
         },
         {
-          "bg": "Говорите ли български?",
-          "tr": "Bulgarca konuşuyor musunuz?"
+          "bg": "Имате <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ли</mark> деца?",
+          "tr": "Çocuğunuz var <u>mı</u>?"
         }
-      ]
+      ],
+      "notes": "Bulgarcada evet/hayır sorularını oluşturan değişmez partikeldir. Türkçedeki 'mi/mı' ekine benzer, ama ayrı yazılır ve vurgulu fiilden sonra gelir."
     },
     {
       "bg": "и",
@@ -1312,16 +1270,21 @@
     },
     {
       "bg": "а",
-      "tr": "ama / peki",
+      "tr": "ama, oysa, ve, ya (karşıtlık/ekleme)",
       "pronunciation": "a",
       "type": "bağlaç",
       "topic": "topic_particles",
       "examples": [
         {
-          "bg": "Аз съм студент, а ти?",
-          "tr": "Ben öğrenciyim, peki sen?"
+          "bg": "Аз съм от България, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">а</mark> ти откъде си?",
+          "tr": "Ben Bulgaristanlıyım, <u>ya</u> sen nerelisin?"
+        },
+        {
+          "bg": "Той учи, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">а</mark> тя работи.",
+          "tr": "O okuyor, <u>oysa</u> o çalışıyor."
         }
-      ]
+      ],
+      "notes": "Hem hafif karşıtlık ('oysa, ama') hem de ekleme ('ve') bildiren çok yönlü bağlaçtır. 'Но'dan daha hafif bir karşıtlık ifade eder."
     },
     {
       "bg": "от",
@@ -1412,29 +1375,39 @@
     },
     {
       "bg": "ще",
-      "tr": "gelecek zaman yardımcı fiili (ecek, acak)",
+      "tr": "-(e)cek/-acak (gelecek zaman yardımcısı)",
       "pronunciation": "şte",
-      "type": "edat",
+      "type": "fiil",
       "topic": "topic_particles",
       "examples": [
         {
-          "bg": "Ще отида до магазина.",
-          "tr": "Mağazaya gideceğim."
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ще</mark> дойда утре.",
+          "tr": "Ben yarın <u>geleceğim</u>."
+        },
+        {
+          "bg": "Те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ще</mark> учат.",
+          "tr": "Onlar <u>çalışacaklar</u>."
         }
-      ]
+      ],
+      "notes": "Bulgarcada gelecek zamanı oluşturan yardımcı kelimedir. Değişmez formda tüm şahıslar için aynı kullanılır: ще + fiil."
     },
     {
       "bg": "че",
-      "tr": "ki / ...dığını",
+      "tr": "ki, -diğini",
       "pronunciation": "çe",
       "type": "bağlaç",
       "topic": "topic_particles",
       "examples": [
         {
-          "bg": "Мислех, че си тук.",
-          "tr": "Burada olduğunu sanıyordum."
+          "bg": "Знам, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">че</mark> си добър студент.",
+          "tr": "İyi bir öğrenci olduğunu biliyorum — <u>ki</u> iyi bir öğrenci."
+        },
+        {
+          "bg": "Мисля, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">че</mark> е вярно.",
+          "tr": "Bunun doğru olduğunu düşünüyorum."
         }
-      ]
+      ],
+      "notes": "Dolaylı anlatım kuran en temel bağlaçtır. Türkçede '-diğini/-eceğini' çevrilir."
     },
     {
       "bg": "Как се казвате?",
@@ -1587,19 +1560,19 @@
     },
     {
       "bg": "ще",
-      "tr": "gelecek zaman parçacığı (-ecek/-acak)",
+      "tr": "-(e)cek/-acak (gelecek zaman yardımcısı)",
       "pronunciation": "şte",
-      "type": "parçacık",
+      "type": "fiil",
       "topic": "topic_grammar",
-      "notes": "Fiilden önce gelir ve cümleyi gelecek zamana çevirir. Türkçedeki '-ecek/-acak' ekine karşılık gelir.",
+      "notes": "Bulgarcada gelecek zamanı oluşturan yardımcı kelimedir. Değişmez formda tüm şahıslar için aynı kullanılır: ще + fiil.",
       "examples": [
         {
-          "bg": "Ще ходя на кино.",
-          "tr": "Sinemaya gideceğim."
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ще</mark> дойда утре.",
+          "tr": "Ben yarın <u>geleceğim</u>."
         },
         {
-          "bg": "Ще се запознаем.",
-          "tr": "Tanışacağız."
+          "bg": "Те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ще</mark> учат.",
+          "tr": "Onlar <u>çalışacaklar</u>."
         }
       ]
     },
@@ -3218,10 +3191,19 @@
     {
       "id": "word_auto_1786540626646_8548",
       "bg": "при",
-      "tr": "en",
-      "type": "otomatik",
-      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "tr": "yanında / nezdinde / şartında",
+      "type": "edat",
+      "notes": "1) Konum: 'yanında, katında' (при мен = bende, benim yanımda), 2) Koşul: '-diğinde' (при необходимост = gerektiğinde).",
+      "examples": [
+        {
+          "bg": "Елате <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">при</mark> мен.",
+          "tr": "<u>Yanıma</u> gelin."
+        },
+        {
+          "bg": "Работя <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">при</mark> него.",
+          "tr": "Onun <u>yanında</u> çalışıyorum."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540626656_9962",
@@ -3266,10 +3248,20 @@
     {
       "id": "word_auto_1786540626779_7260",
       "bg": "кирилицата",
-      "tr": "kiril",
-      "type": "otomatik",
+      "tr": "kiril alfabesi (belirli)",
+      "type": "isim",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Кирилицата</mark> е използвана в България.",
+          "tr": "<u>Kiril alfabesi</u> Bulgaristan'da kullanılmaktadır."
+        }
+      ],
+      "nounForms": {
+        "tekil": "кирилица",
+        "belirli": "кирилицата"
+      },
+      "gender": "dişil"
     },
     {
       "id": "word_auto_1786540626779_8166",
@@ -3306,10 +3298,21 @@
     {
       "id": "word_auto_1786540627389_5610",
       "bg": "синьо",
-      "tr": "mavi",
-      "type": "otomatik",
+      "tr": "mavi (nötr)",
+      "type": "sıfat",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Небето е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">синьо</mark>.",
+          "tr": "Gökyüzü <u>mavidir</u>."
+        }
+      ],
+      "forms": {
+        "eril": "син",
+        "dişil": "синя",
+        "nötr": "синьо",
+        "çoğul": "сини"
+      }
     },
     {
       "id": "word_auto_1786540627407_3297",
@@ -3346,10 +3349,20 @@
     {
       "id": "word_auto_1786540627796_5096",
       "bg": "гласни",
-      "tr": "ünlüler",
-      "type": "otomatik",
+      "tr": "ünlüler (sesli harfler)",
+      "type": "isim",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "В bulgarian има 6 <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">гласни</mark> звука.",
+          "tr": "Bulgarcada 6 <u>ünlü</u> ses vardır."
+        }
+      ],
+      "nounForms": {
+        "tekil": "гласна",
+        "çoğul": "гласни"
+      },
+      "gender": "dişil"
     },
     {
       "id": "word_auto_1786540627799_2925",
@@ -3370,26 +3383,45 @@
     {
       "id": "word_auto_1786540628397_848",
       "bg": "над",
-      "tr": "üzerinde",
-      "type": "otomatik",
+      "tr": "üstünde, üzerinde",
+      "type": "edat",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Лампата е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">над</mark> масата.",
+          "tr": "Lamba masanın <u>üstündedir</u>."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540628397_7719",
       "bg": "по",
-      "tr": "ile",
-      "type": "otomatik",
-      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "tr": "üzerinde / boyunca / konusunda / göre",
+      "type": "edat",
+      "notes": "Çok anlamlı edattır: 1) Alan/dal belirtir (по медицина = tıp alanında), 2) Dağılım (по един = teker teker), 3) Yol boyunca/üzerinden. Türkçede tek bir ekle çevrilmez.",
+      "examples": [
+        {
+          "bg": "Специалист <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">по</mark> компютри.",
+          "tr": "Bilgisayar <u>konusunda</u> uzman."
+        },
+        {
+          "bg": "Вървим <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">по</mark> улицата.",
+          "tr": "Cadde <u>boyunca</u> yürüyoruz."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540628398_1020",
       "bg": "у",
-      "tr": "sen",
-      "type": "otomatik",
-      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "tr": "yanında (eski form, bizdeki var)",
+      "type": "edat",
+      "notes": "Eski Bulgarca edat. Günümüzde çoğunlukla 'у нас' (bizde, ülkemizde) ifadesinde kullanılır.",
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">У</mark> нас е много топло.",
+          "tr": "<u>Bizde (ülkemizde)</u> çok sıcak."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540628402_4629",
@@ -3402,18 +3434,36 @@
     {
       "id": "word_auto_1786540628411_4543",
       "bg": "като",
-      "tr": "beğenmek",
-      "type": "otomatik",
+      "tr": "gibi, olarak",
+      "type": "edat",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Работи <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">като</mark> учител.",
+          "tr": "Öğretmen <u>olarak</u> çalışıyor."
+        },
+        {
+          "bg": "Тя пее <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">като</mark> ангел.",
+          "tr": "O bir melek <u>gibi</u> şarkı söylüyor."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540628420_5924",
       "bg": "но",
-      "tr": "ancak",
-      "type": "otomatik",
+      "tr": "ama, fakat",
+      "type": "bağlaç",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Обичам да уча, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">но</mark> времето е малко.",
+          "tr": "Çalışmayı seviyorum <u>ama</u> zaman az."
+        },
+        {
+          "bg": "Той е умен, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">но</mark> мързелив.",
+          "tr": "O akıllı <u>fakat</u> tembel."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540628426_8461",
@@ -3426,10 +3476,15 @@
     {
       "id": "word_auto_1786540628486_9640",
       "bg": "два",
-      "tr": "iki",
-      "type": "otomatik",
+      "tr": "iki (eril)",
+      "type": "sayı",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Имам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">два</mark> брата.",
+          "tr": "<u>İki</u> erkek kardeşim var."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540628706_940",
@@ -3466,10 +3521,20 @@
     {
       "id": "word_auto_1786540629592_4924",
       "bg": "сграда",
-      "tr": "bina",
-      "type": "otomatik",
+      "tr": "bina, yapı",
+      "type": "isim",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Тази <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">сграда</mark> е много стара.",
+          "tr": "Bu <u>bina</u> çok eskidir."
+        }
+      ],
+      "nounForms": {
+        "tekil": "сграда",
+        "çoğul": "сгради"
+      },
+      "gender": "dişil"
     },
     {
       "id": "word_auto_1786540629938_931",
@@ -3530,26 +3595,46 @@
     {
       "id": "word_auto_1786540630704_5958",
       "bg": "вид",
-      "tr": "türler",
-      "type": "otomatik",
+      "tr": "tür, çeşit, görünüş",
+      "type": "isim",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Има различни <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">видове</mark> птици.",
+          "tr": "Farklı kuş <u>türleri</u> vardır."
+        }
+      ],
+      "nounForms": {
+        "tekil": "вид",
+        "çoğul": "видове"
+      },
+      "gender": "eril"
     },
     {
       "id": "word_auto_1786540630789_758",
       "bg": "три",
       "tr": "üç",
-      "type": "otomatik",
+      "type": "sayı",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Тя говори <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">три</mark> езика.",
+          "tr": "<u>Üç</u> dil konuşuyor."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540630857_5041",
       "bg": "втори",
       "tr": "ikinci",
-      "type": "otomatik",
+      "type": "sayı",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Той е на <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">втори</mark> курс.",
+          "tr": "O <u>ikinci</u> sınıftadır."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540630911_3826",
@@ -3594,10 +3679,21 @@
     {
       "id": "word_auto_1786540631520_8335",
       "bg": "азбуката",
-      "tr": "alfabe",
-      "type": "otomatik",
+      "tr": "alfabe (belirli)",
+      "type": "isim",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Българската <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">азбука</mark> има 30 букви.",
+          "tr": "Bulgar <u>alfabesi</u> 30 harften oluşur."
+        }
+      ],
+      "nounForms": {
+        "tekil": "азбука",
+        "belirli": "азбуката",
+        "çoğul": "азбуки"
+      },
+      "gender": "dişil"
     },
     {
       "id": "word_auto_1786540631573_5552",
@@ -3690,10 +3786,19 @@
     {
       "id": "word_auto_1786540633505_5101",
       "bg": "малко",
-      "tr": "biraz",
-      "type": "otomatik",
+      "tr": "biraz, az miktarda",
+      "type": "zarf",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Дай ми <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">малко</mark> вода.",
+          "tr": "Bana <u>biraz</u> su ver."
+        },
+        {
+          "bg": "Говоря <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">малко</mark> български.",
+          "tr": "<u>Biraz</u> Bulgarca konuşuyorum."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540633510_1890",
@@ -3706,10 +3811,21 @@
     {
       "id": "word_auto_1786540633511_567",
       "bg": "голяма",
-      "tr": "büyük",
-      "type": "otomatik",
+      "tr": "büyük (dişil)",
+      "type": "sıfat",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Имам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">голяма</mark> стая.",
+          "tr": "Büyük bir odam var."
+        }
+      ],
+      "forms": {
+        "eril": "голям",
+        "dişil": "голяма",
+        "nötr": "голямо",
+        "çoğul": "големи"
+      }
     },
     {
       "id": "word_auto_1786540633521_7334",
@@ -3730,10 +3846,19 @@
     {
       "id": "word_auto_1786540633541_3177",
       "bg": "ако",
-      "tr": "eğer",
-      "type": "otomatik",
+      "tr": "eğer, şayet",
+      "type": "bağlaç",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Ако</mark> имаш въпрос, питай.",
+          "tr": "Sorun varsa — <u>eğer</u> sorun varsa — sor."
+        },
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Ако</mark> дойдеш, ще те видя.",
+          "tr": "<u>Eğer</u> gelirsen, seni görürüm."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540633542_622",
@@ -3882,10 +4007,21 @@
     {
       "id": "word_auto_1786540636014_9207",
       "bg": "турски",
-      "tr": "türkçe",
-      "type": "otomatik",
+      "tr": "Türk (eril/çoğul)",
+      "type": "sıfat",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Говоря <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">турски</mark> език.",
+          "tr": "<u>Türkçe</u> konuşuyorum."
+        }
+      ],
+      "forms": {
+        "eril": "турски",
+        "dişil": "турска",
+        "nötr": "турско",
+        "çoğul": "турски"
+      }
     },
     {
       "id": "word_auto_1786540636111_9866",
@@ -4338,10 +4474,19 @@
     {
       "id": "word_auto_1786540641892_4725",
       "bg": "италия",
-      "tr": "i̇talya",
-      "type": "otomatik",
+      "tr": "İtalya",
+      "type": "isim",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Италия</mark> е красива страна.",
+          "tr": "<u>İtalya</u> güzel bir ülkedir."
+        }
+      ],
+      "nounForms": {
+        "tekil": "Италия"
+      },
+      "gender": "dişil"
     },
     {
       "id": "word_auto_1786540641895_4942",
@@ -5250,10 +5395,19 @@
     {
       "id": "word_auto_1786540655050_7556",
       "bg": "австралия",
-      "tr": "avustralya",
-      "type": "otomatik",
+      "tr": "Avustralya",
+      "type": "isim",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Австралия</mark> е голям континент.",
+          "tr": "<u>Avustralya</u> büyük bir kıtadır."
+        }
+      ],
+      "nounForms": {
+        "tekil": "Австралия"
+      },
+      "gender": "dişil"
     },
     {
       "id": "word_auto_1786540655380_9011",
@@ -5794,10 +5948,19 @@
     {
       "id": "word_auto_1786540664212_4775",
       "bg": "одрин",
-      "tr": "bir gün",
-      "type": "otomatik",
+      "tr": "Edirne",
+      "type": "isim",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Одрин</mark> е близо до границата.",
+          "tr": "<u>Edirne</u> sınıra yakındır."
+        }
+      ],
+      "nounForms": {
+        "tekil": "Одрин"
+      },
+      "gender": "eril"
     },
     {
       "id": "word_auto_1786540664212_5169",
@@ -6035,9 +6198,19 @@
       "id": "word_auto_1786540667472_5881",
       "bg": "телевизия",
       "tr": "televizyon",
-      "type": "otomatik",
+      "type": "isim",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Гледам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">телевизия</mark> вечер.",
+          "tr": "Akşamları <u>televizyon</u> izlerim."
+        }
+      ],
+      "nounForms": {
+        "tekil": "телевизия",
+        "çoğul": "телевизии"
+      },
+      "gender": "dişil"
     },
     {
       "id": "word_auto_1786540667474_1760",
@@ -6659,10 +6832,19 @@
     {
       "id": "word_auto_1786540679215_2295",
       "bg": "добре",
-      "tr": "iyi",
-      "type": "otomatik",
+      "tr": "iyi, güzel, tamam",
+      "type": "zarf",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Тя говори <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">добре</mark> български.",
+          "tr": "O Bulgarca'yı <u>iyi</u> konuşuyor."
+        },
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Добре</mark>, разбрах.",
+          "tr": "<u>Tamam</u>, anladım."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540679216_8358",
@@ -6683,10 +6865,19 @@
     {
       "id": "word_auto_1786540679223_5993",
       "bg": "вече",
-      "tr": "çoktan",
-      "type": "otomatik",
+      "tr": "artık, zaten",
+      "type": "zarf",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">вече</mark> не живее тук.",
+          "tr": "O artık burada <u>yaşamıyor</u>."
+        },
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Вече</mark> съм готов.",
+          "tr": "<u>Artık</u> hazırım."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540679238_7526",
@@ -6747,10 +6938,19 @@
     {
       "id": "word_auto_1786540680547_132",
       "bg": "също",
-      "tr": "fazla",
-      "type": "otomatik",
+      "tr": "da, de, ayrıca",
+      "type": "zarf",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">също</mark> съм студент.",
+          "tr": "Ben <u>de</u> öğrenciyim."
+        },
+        {
+          "bg": "Тя <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">също</mark> говори немски.",
+          "tr": "O <u>ayrıca</u> Almanca konuşuyor."
+        }
+      ]
     },
     {
       "id": "word_auto_1786540680563_4158",
@@ -6763,10 +6963,19 @@
     {
       "id": "word_auto_1786540680570_1334",
       "bg": "сега",
-      "tr": "şimdi",
-      "type": "otomatik",
+      "tr": "şimdi, şu an",
+      "type": "zarf",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">сега</mark> уча.",
+          "tr": "Şu an <u>şimdi</u> çalışıyorum."
+        },
+        {
+          "bg": "Какво правиш <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">сега</mark>?",
+          "tr": "<u>Şimdi</u> ne yapıyorsun?"
+        }
+      ]
     },
     {
       "id": "word_auto_1786540680991_5479",
@@ -6780,9 +6989,24 @@
       "id": "word_auto_1786540681141_9105",
       "bg": "запознахме",
       "tr": "tanıştık",
-      "type": "otomatik",
+      "type": "fiil",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Приятно ни беше, че се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">запознахме</mark>.",
+          "tr": "<u>Tanıştığımıza</u> sevindik."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "запознавам се",
+          "ти": "запознаваш се",
+          "той/тя/то": "запознава се",
+          "ние": "запознаваме се",
+          "вие": "запознавате се",
+          "те": "запознават се"
+        }
+      }
     },
     {
       "id": "word_auto_1786540681143_9471",
@@ -6863,18 +7087,48 @@
     {
       "id": "word_auto_1786540681837_9142",
       "bg": "радвам",
-      "tr": "memnun oldum",
-      "type": "otomatik",
-      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "tr": "sevinmek (- се: sevinirim)",
+      "type": "fiil",
+      "notes": "Dönüşlü fiildir. Daima 'се' zamiriyle kullanılır.",
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Радвам се</mark> да се запозная.",
+          "tr": "Tanıştığımıza <u>sevindim</u>."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "радвам се",
+          "ти": "радваш се",
+          "той/тя/то": "радва се",
+          "ние": "радваме се",
+          "вие": "радвате се",
+          "те": "радват се"
+        }
+      }
     },
     {
       "id": "word_auto_1786540681849_9509",
       "bg": "надявам",
-      "tr": "umarım",
-      "type": "otomatik",
-      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "tr": "umut etmek (-се: umuyorum)",
+      "type": "fiil",
+      "notes": "Dönüşlü fiildir. Daima 'се' zamiriyle kullanılır.",
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Надявам се</mark> да се видим скоро.",
+          "tr": "Yakında görüşeceğimizi <u>umuyorum</u>."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "надявам се",
+          "ти": "надяваш се",
+          "той/тя/то": "надява се",
+          "ние": "надяваме се",
+          "вие": "надявате се",
+          "те": "надяват се"
+        }
+      }
     },
     {
       "id": "word_auto_1786540681901_2632",
@@ -6984,10 +7238,25 @@
     {
       "id": "word_auto_1786540683551_665",
       "bg": "запишете",
-      "tr": "yaz",
-      "type": "otomatik",
+      "tr": "yazın (not alın, kaydedin) - emir",
+      "type": "fiil",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Моля, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">запишете</mark> домашното.",
+          "tr": "Lütfen ödevi <u>yazın</u>."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "запиша",
+          "ти": "запишеш",
+          "той/тя/то": "запише",
+          "ние": "запишем",
+          "вие": "запишете",
+          "те": "запишат"
+        }
+      }
     },
     {
       "id": "word_auto_1786540683552_6473",
@@ -7033,10 +7302,19 @@
     {
       "id": "word_auto_1786540684166_3956",
       "bg": "много",
-      "tr": "çok fazla",
-      "type": "otomatik",
+      "tr": "çok, çok fazla",
+      "type": "zarf",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Тя е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">много</mark> умна.",
+          "tr": "O <u>çok</u> akıllı."
+        },
+        {
+          "bg": "Благодаря <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">много</mark>!",
+          "tr": "Çok <u>teşekkürler</u>!"
+        }
+      ]
     },
     {
       "id": "word_auto_1786540684166_5523",
@@ -7233,10 +7511,15 @@
     {
       "id": "word_auto_1786540686899_2950",
       "bg": "госпожо",
-      "tr": "majesteleri",
-      "type": "otomatik",
-      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "tr": "Bayan... (seslenme hali)",
+      "type": "isim",
+      "notes": "Госпожа kelimesinin seslenme (vocative) halidir. Birisine seslenmek için kullanılır: Госпожо Иванова! = Sayın Bayan Ivanova!",
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Госпожо</mark> Николова, добре дошла!",
+          "tr": "Sayın <u>Bayan</u> Nikolova, hoş geldiniz!"
+        }
+      ]
     },
     {
       "id": "word_auto_1786540686946_8655",
@@ -7270,10 +7553,20 @@
     {
       "id": "word_auto_1786540688204_1079",
       "bg": "гости",
-      "tr": "misafirler",
-      "type": "otomatik",
+      "tr": "misafirler, konuklar",
+      "type": "isim",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Ще дойдат <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">гости</mark>.",
+          "tr": "<u>Misafirler</u> gelecek."
+        }
+      ],
+      "nounForms": {
+        "tekil": "гост",
+        "çoğul": "гости"
+      },
+      "gender": "eril"
     },
     {
       "id": "word_auto_1786540688205_2506",
@@ -7454,10 +7747,20 @@
     {
       "id": "word_auto_1786540690347_3645",
       "bg": "татко",
-      "tr": "baba",
-      "type": "otomatik",
-      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "tr": "baba (hitap)",
+      "type": "isim",
+      "notes": "Баща (baba) kelimesinin daha samimi, gündelik kullanımıdır.",
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Татко</mark>, кога ще дойдеш?",
+          "tr": "<u>Baba</u>, ne zaman geleceksin?"
+        }
+      ],
+      "nounForms": {
+        "tekil": "татко",
+        "çoğul": "татковци"
+      },
+      "gender": "eril"
     },
     {
       "id": "word_auto_1786540690348_6976",
@@ -7616,10 +7919,21 @@
     {
       "id": "word_auto_1786540693351_767",
       "bg": "хубаво",
-      "tr": "güzel",
-      "type": "otomatik",
+      "tr": "güzel, iyi (nötr)",
+      "type": "sıfat",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Времето е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">хубаво</mark>.",
+          "tr": "Hava <u>güzel</u>."
+        }
+      ],
+      "forms": {
+        "eril": "хубав",
+        "dişil": "хубава",
+        "nötr": "хубаво",
+        "çoğul": "хубави"
+      }
     },
     {
       "id": "word_auto_1786540693351_1398",
@@ -8233,10 +8547,21 @@
     {
       "id": "word_auto_1786540701801_9476",
       "bg": "различни",
-      "tr": "farklı",
-      "type": "otomatik",
+      "tr": "farklı, çeşitli (çoğul)",
+      "type": "sıfat",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Имаме <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">различни</mark> интереси.",
+          "tr": "<u>Farklı</u> ilgi alanlarımız var."
+        }
+      ],
+      "forms": {
+        "eril": "различен",
+        "dişil": "различна",
+        "nötr": "различно",
+        "çoğul": "различни"
+      }
     },
     {
       "id": "word_auto_1786540701821_2480",
