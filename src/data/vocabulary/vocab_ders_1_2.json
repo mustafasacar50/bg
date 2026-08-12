@@ -2823,6 +2823,44 @@
         "yönelme": "си"
       },
       "notes": "Öznenin kendisine ait olan nesneleri belirtirken kullanılır. Örn: 'съпруга си' (kendi eşimi), 'колата си' (kendi arabamı)."
+    },
+    {
+      "id": "word_1786532192369_1",
+      "bg": "отново",
+      "tr": "tekrar, yeniden",
+      "type": "zarf",
+      "pronunciation": "otnovo",
+      "notes": "Bir eylemin tekrar yapıldığını belirtir.",
+      "examples": [
+        {
+          "bg": "Ще се радвам да се видим отново!",
+          "tr": "Tekrar görüşürsek memnun olurum!"
+        }
+      ]
+    },
+    {
+      "id": "word_1786532192370_2",
+      "bg": "видя",
+      "tr": "görmek (perfective)",
+      "type": "fiil",
+      "pronunciation": "vidya",
+      "conjugation": {
+        "present": {
+          "аз": "видя",
+          "ти": "видиш",
+          "той/тя/то": "види",
+          "ние": "видим",
+          "вие": "видите",
+          "те": "видят"
+        }
+      },
+      "notes": "видим, biz görelim / biz görürüz demektir (1. çoğul şahıs).",
+      "examples": [
+        {
+          "bg": "Искам да те видя.",
+          "tr": "Seni görmek istiyorum."
+        }
+      ]
     }
   ]
 }
