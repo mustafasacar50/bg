@@ -199,7 +199,6 @@ export async function POST(request: Request) {
           richCards.push({ ...card, matchedForm, matchedReason, source: 'rich' });
         }
       }
-    }
 
     // --- PHASE 2: Mini dict lookup for remaining unmatched words ---
     const miniCards: any[] = [];
