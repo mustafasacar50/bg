@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { HighlightableText } from '@/components/HighlightableText';
 import { DictionaryModal } from '@/components/DictionaryModal';
 import { RefreshCw } from 'lucide-react';
+import { useSRS } from '@/hooks/useSRS';
 
 interface Question {
   id: string;
@@ -69,6 +70,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const mode = searchParams.get('mode') || 'all';
   const langParam = searchParams.get('lang') as 'all' | 'bg' | 'tr' | null;
 
+  const { srsData, processReview, getDueItems } = useSRS();
+
   const [student, setStudent] = useState<any>(null);
   const [data, setData] = useState<ModuleData | null>(null);
   const [loading, setLoading] = useState(true);
@@ -96,24 +99,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [openTenses, setOpenTenses] = useState<Record<string, boolean>>({});
   const [openGrammarCards, setOpenGrammarCards] = useState<Record<number, boolean>>({});
   const [wordTooltip, setWordTooltip] = useState<{word: string, meaning: string, x: number, y: number} | null>(null);
-  const [learnedGrammarWords, setLearnedGrammarWords] = useState<string[]>([]);
-
-  useEffect(() => {
-    const savedLearned = localStorage.getItem('learnedGrammarWords');
-    if (savedLearned) {
-      try {
-        setLearnedGrammarWords(JSON.parse(savedLearned));
-      } catch (e) {}
-    }
-  }, []);
-
-  const toggleLearnedGrammar = (bgWord: string) => {
-    setLearnedGrammarWords(prev => {
-      const next = prev.includes(bgWord) ? prev.filter(w => w !== bgWord) : [...prev, bgWord];
-      localStorage.setItem('learnedGrammarWords', JSON.stringify(next));
-      return next;
-    });
-  };
+  // Legacy learnedGrammarWords state removed in favor of SRS
 
   useEffect(() => {
     if (selectedWord && customDictionary[selectedWord.word.toLowerCase()]) {
@@ -305,9 +291,22 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
           activePool = modData.questions;
         }
 
-        // Prioritize questions containing unknown words
+        // Prioritize questions using SRS logic
+        if (mode === 'all') {
+          const allIds = activePool.map((q: any) => q.id);
+          const dueIds = getDueItems('question', allIds);
+          
+          // Sort activePool based on dueIds array order
+          activePool = [...activePool].sort((a: any, b: any) => {
+             const indexA = dueIds.indexOf(a.id);
+             const indexB = dueIds.indexOf(b.id);
+             return (indexA === -1 ? 99999 : indexA) - (indexB === -1 ? 99999 : indexB);
+          });
+        }
+        
+        // Prioritize questions containing unknown words (Overrides SRS slightly)
         if (globalUnknownWords.length > 0 && mode !== 'mistakes') {
-          activePool = [...activePool].sort((a, b) => {
+          activePool = [...activePool].sort((a: any, b: any) => {
             const aText = (a.sentence + ' ' + a.answer).toLowerCase();
             const bText = (b.sentence + ' ' + b.answer).toLowerCase();
             const aHas = globalUnknownWords.some((w: string) => aText.includes(w));
@@ -790,6 +789,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     
     if (normalizedUser === normalizedAnswer) {
       setFeedback('correct');
+      const baseId = activeQuestion.id.split('_retry_')[0];
+      processReview(baseId, 'question', true);
+      
       if (mistakesPool.includes(activeQuestion.id)) {
         pendingMistakeRemove.current = activeQuestion.id;
         syncScore(1); 
@@ -812,6 +814,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       
       if (isTypo) {
         setFeedback('typo');
+        const baseId = activeQuestion.id.split('_retry_')[0];
+        processReview(baseId, 'question', false);
+        
         if (mistakesPool.includes(activeQuestion.id)) {
            syncScore(0.5); // reduced points for typo
         } else if (mode === 'all') {
@@ -819,8 +824,11 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         }
       } else {
         setFeedback('wrong');
+        const baseId = activeQuestion.id.split('_retry_')[0];
+        processReview(baseId, 'question', false);
         
-        // SRS: Insert question again 3 steps later
+        // SRS natively handles pushing to the back of the queue by adjusting nextReviewDate.
+        // We still add to mistakes pool for 'mistakes' mode to work.
         const qOriginal = filteredQuestions[currentIndex];
         if (qOriginal && mode === 'all') {
            setSessionQuestions(prev => {
@@ -856,8 +864,11 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const handleSkip = () => {
     if (!activeQuestion) return;
     setFeedback('wrong');
+    const baseId = activeQuestion.id.split('_retry_')[0];
+    processReview(baseId, 'question', false);
     
-    // SRS: Insert question again 3 steps later
+    // SRS natively handles pushing to the back of the queue by adjusting nextReviewDate.
+    // We still add to mistakes pool for 'mistakes' mode to work.
     const qOriginal = filteredQuestions[currentIndex];
     if (qOriginal && mode === 'all') {
        setSessionQuestions(prev => {
@@ -1719,8 +1730,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                     <div className="flex-1 h-px bg-slate-200"></div>
                   </div>
                   {[...activeGrammarCards].sort((a, b) => {
-                    const isALearned = learnedGrammarWords.includes(a.bg);
-                    const isBLearned = learnedGrammarWords.includes(b.bg);
+                    const isALearned = (srsData[`word_${a.bg}`]?.level || 0) >= 5;
+                    const isBLearned = (srsData[`word_${b.bg}`]?.level || 0) >= 5;
                     if (isALearned && !isBLearned) return 1;
                     if (!isALearned && isBLearned) return -1;
                     return 0;
@@ -1761,7 +1772,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                       }
                     };
 
-                    const isLearned = learnedGrammarWords.includes(card.bg);
+                    const isLearned = (srsData[`word_${card.bg}`]?.level || 0) >= 5;
 
                     return (
                       <div key={idx} className={`rounded-2xl border shadow-sm transition-all overflow-hidden ${t.color} ${isLearned ? 'opacity-50 grayscale hover:opacity-75' : ''}`}>
@@ -1783,7 +1794,14 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                               {card.type}
                             </span>
                             <button 
-                              onClick={(e) => { e.stopPropagation(); toggleLearnedGrammar(card.bg); }}
+                              onClick={(e) => { 
+                                e.stopPropagation(); 
+                                if (isLearned) {
+                                  processReview(card.bg, 'word', false, 0); // Unlearn (level 0)
+                                } else {
+                                  processReview(card.bg, 'word', true, 5); // Force learn (level 5)
+                                }
+                              }}
                               className={`w-7 h-7 flex items-center justify-center rounded-full transition-all ${isLearned ? 'bg-green-500 text-white shadow-inner' : 'hover:bg-black/10 text-slate-400 border border-slate-300'}`}
                               title={isLearned ? "Öğrenildi olarak işaretlendi (Geri al)" : "Öğrenildi olarak işaretle"}
                             >
@@ -2100,6 +2118,20 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                       <div className="text-xs sm:text-base font-bold mt-0.5 opacity-90 truncate max-w-[180px] sm:max-w-none">
                         Doğrusu: <span className="font-black">{activeQuestion?.fitbTarget || activeQuestion?.expected}</span>
                       </div>
+                    </div>
+                  )}
+                  
+                  {activeQuestion && (
+                    <div className="flex items-center gap-0.5 mt-1.5 animate-in fade-in duration-500 delay-150">
+                      {[1, 2, 3, 4, 5].map(lvl => {
+                        const qLevel = srsData[`question_${activeQuestion.id}`]?.level || 0;
+                        return (
+                          <div key={lvl} className={`w-4 h-1.5 rounded-sm ${lvl <= qLevel ? (qLevel === 5 ? 'bg-emerald-500' : 'bg-indigo-500') : 'bg-slate-300/50'}`} />
+                        );
+                      })}
+                      <span className="text-[9px] font-black ml-1.5 text-slate-500 uppercase tracking-widest">
+                        {srsData[`question_${activeQuestion.id}`]?.level === 5 ? 'Öğrenildi' : `Seviye ${srsData[`question_${activeQuestion.id}`]?.level || 0}`}
+                      </span>
                     </div>
                   )}
                 </div>
