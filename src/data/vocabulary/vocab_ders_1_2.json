@@ -165,8 +165,12 @@
       "topic": "topic_greetings",
       "examples": [
         {
-          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Довиждане</mark>! До утре!",
-          "tr": "<u>Güle güle!</u> Yarına kadar!"
+          "bg": "Благодаря, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">довиждане</mark>!",
+          "tr": "Teşekkürler, <u>hoşça kalın</u>!"
+        },
+        {
+          "bg": "Ще се видим утре, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">довиждане</mark>.",
+          "tr": "Yarın görüşürüz, <u>görüşmek üzere</u>."
         }
       ]
     },
@@ -784,8 +788,12 @@
       ],
       "examples": [
         {
-          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">имам</mark> много приятели.",
-          "tr": "Benim çok arkadaşım <u>var</u>."
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">имам</mark> един въпрос.",
+          "tr": "Benim bir sorum <u>var</u>."
+        },
+        {
+          "bg": "Тя няма време, но аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">имам</mark>.",
+          "tr": "Onun vakti yok, ama benim <u>var</u>."
         }
       ]
     },
@@ -912,6 +920,10 @@
         {
           "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">работя</mark> всеки ден.",
           "tr": "Ben her gün <u>çalışıyorum</u>."
+        },
+        {
+          "bg": "Къде <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">работиш</mark>?",
+          "tr": "Nerede <u>çalışıyorsun</u>?"
         }
       ]
     },
@@ -1682,8 +1694,12 @@
       },
       "examples": [
         {
-          "bg": "Не успяхме да го направим.",
-          "tr": "Bunu yapmayı başaramadık."
+          "bg": "Надявам се да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">успея</mark>.",
+          "tr": "<u>Başaracağımı (Yetişeceğimi)</u> umuyorum."
+        },
+        {
+          "bg": "Той ще <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">успее</mark> на изпита.",
+          "tr": "O sınavda <u>başarılı olacak</u>."
         }
       ]
     },
@@ -1713,8 +1729,12 @@
       },
       "examples": [
         {
-          "bg": "Трябва да изкачим върха.",
-          "tr": "Tepeye tırmanmalıyız."
+          "bg": "Искам да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">изкача</mark> върха.",
+          "tr": "Zirveye <u>çıkmak/tırmanmak</u> istiyorum."
+        },
+        {
+          "bg": "Тя ще <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">изкачи</mark> стълбите.",
+          "tr": "O merdivenleri <u>çıkacak</u>."
         }
       ]
     },
@@ -1802,10 +1822,20 @@
       },
       "examples": [
         {
-          "bg": "Не искам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">такъв</mark> телефон.",
-          "tr": "<u>Böyle (bir)</u> telefon istemiyorum."
+          "bg": "Искам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">такъв</mark> телефон.",
+          "tr": "<u>Böyle (bunun gibi)</u> bir telefon istiyorum."
+        },
+        {
+          "bg": "Той е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">такъв</mark> човек.",
+          "tr": "O <u>böyle</u> bir insandır."
         }
-      ]
+      ],
+      "pronounForms": {
+        "Eril": "такъв",
+        "Dişil": "такава",
+        "Nötr": "такова",
+        "Çoğul": "такива"
+      }
     },
     {
       "bg": "момиче",
@@ -1883,10 +1913,15 @@
       },
       "examples": [
         {
-          "bg": "Запознайте се!",
-          "tr": "Tanışın!"
+          "bg": "Искам да се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">запозная</mark> с вас.",
+          "tr": "Sizinle <u>tanışmak</u> istiyorum."
+        },
+        {
+          "bg": "Ще се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">запознаем</mark> утре.",
+          "tr": "Yarın <u>tanışacağız</u>."
         }
-      ]
+      ],
+      "notes": "Dönüşlü bir fiildir (-се). Birisiyle tanışmak anlamında \"с\" (ile) edatı alır."
     },
     {
       "bg": "обадя се",
@@ -1915,7 +1950,17 @@
           "ти (sen)": "обади се",
           "вие (siz)": "обадете се"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Ще ти се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">обадя</mark> довечера.",
+          "tr": "Bu akşam seni <u>arayacağım (telefonla)</u>."
+        },
+        {
+          "bg": "Може ли да се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">обадя</mark>?",
+          "tr": "<u>Arayabilir</u> miyim?"
+        }
+      ]
     },
     {
       "bg": "извиня се",
@@ -1944,7 +1989,18 @@
           "ти (sen)": "извини се",
           "вие (siz)": "извинете се / извинявайте"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Искам да се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">извиня</mark>.",
+          "tr": "<u>Özür dilemek</u> istiyorum."
+        },
+        {
+          "bg": "Той трябва да се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">извини</mark>.",
+          "tr": "O <u>özür dilemeli</u>."
+        }
+      ],
+      "notes": "\"На\" (kime) edatıyla kullanılır: извиня се на някого (birinden özür dilemek)."
     },
     {
       "bg": "разреша",
@@ -1973,7 +2029,18 @@
           "ти (sen)": "разреши",
           "вие (siz)": "разрешете"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Няма да ти <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">разреша</mark>.",
+          "tr": "Sana <u>izin vermeyeceğim</u>."
+        },
+        {
+          "bg": "Трябва да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">разрешим</mark> проблема.",
+          "tr": "Problemi <u>çözmeliyiz</u>."
+        }
+      ],
+      "notes": "Bağlama göre \"izin vermek\" veya bir sorunu \"çözmek\" anlamlarına gelir."
     },
     {
       "bg": "представя се",
@@ -2002,7 +2069,17 @@
           "ти (sen)": "представи се",
           "вие (siz)": "представете се"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Нека да се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">представя</mark>.",
+          "tr": "Kendimi <u>tanıtayım (takdim edeyim)</u>."
+        },
+        {
+          "bg": "Тя се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">представи</mark> отлично.",
+          "tr": "O kendini harika <u>tanıttı (sundu)</u>."
+        }
+      ]
     },
     {
       "bg": "колега",
@@ -2110,7 +2187,18 @@
           "ти (sen)": "срещни",
           "вие (siz)": "срещнете"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Ще го <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">срещна</mark> на гарата.",
+          "tr": "Onu garda <u>karşılayacağım (buluşacağım)</u>."
+        },
+        {
+          "bg": "Искам да те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">срещна</mark>.",
+          "tr": "Seninle <u>buluşmak</u> istiyorum."
+        }
+      ],
+      "notes": "Kusursuz (perfective) fiildir. Bir defalık karşılaşma veya buluşmayı ifade eder."
     },
     {
       "bg": "срещам",
@@ -2137,7 +2225,18 @@
           "ти (sen)": "срещай",
           "вие (siz)": "срещайте"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Често го <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">срещам</mark> тук.",
+          "tr": "Onunla sık sık burada <u>karşılaşıyorum</u>."
+        },
+        {
+          "bg": "Аз се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">срещам</mark> с приятели.",
+          "tr": "Ben arkadaşlarımla <u>buluşuyorum</u>."
+        }
+      ],
+      "notes": "Kusurlu (imperfective) fiildir. Süreklilik arz eden veya tekrarlanan karşılaşmaları ifade eder."
     },
     {
       "bg": "може",
@@ -2163,8 +2262,12 @@
       },
       "examples": [
         {
-          "bg": "Това <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">може</mark> да е истина.",
-          "tr": "Bu gerçek ola<u>bilir</u>."
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Може</mark> ли да седна?",
+          "tr": "Otur<u>abilir</u> miyim?"
+        },
+        {
+          "bg": "Тя не <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">може</mark> да дойде.",
+          "tr": "O gele<u>mez</u>."
         }
       ]
     },
@@ -2230,7 +2333,17 @@
           "ти (sen)": "казвай",
           "вие (siz)": "казвайте"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">казвам</mark> истината.",
+          "tr": "Ben gerçeği <u>söylüyorum</u>."
+        },
+        {
+          "bg": "Какво <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">казваш</mark>?",
+          "tr": "Ne <u>diyorsun</u>?"
+        }
+      ]
     },
     {
       "bg": "кажа",
@@ -2257,7 +2370,18 @@
           "ти (sen)": "кажи",
           "вие (siz)": "кажете"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Искам да ти <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">кажа</mark> нещо.",
+          "tr": "Sana bir şey <u>söylemek</u> istiyorum."
+        },
+        {
+          "bg": "Ще му <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">кажа</mark> утре.",
+          "tr": "Ona yarın <u>söyleyeceğim</u>."
+        }
+      ],
+      "notes": "Kusursuz (perfective) fiildir. \"Казвам\" (söylemek) fiilinin bir kerede biten halidir."
     },
     {
       "bg": "чакам",
@@ -2284,7 +2408,17 @@
           "ти (sen)": "чакай",
           "вие (siz)": "чакайте"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Аз те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">чакам</mark> пред вратата.",
+          "tr": "Seni kapının önünde <u>bekliyorum</u>."
+        },
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Чакам</mark> автобуса.",
+          "tr": "Otobüsü <u>bekliyorum</u>."
+        }
+      ]
     },
     {
       "bg": "надявам се",
@@ -2307,7 +2441,17 @@
           "вие": "надявахте се",
           "те": "надяваха се"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Аз се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">надявам</mark> да спечелим.",
+          "tr": "Kazanacağımızı <u>umuyorum</u>."
+        },
+        {
+          "bg": "Тя се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">надява</mark> на чудо.",
+          "tr": "O bir mucize <u>umuyor</u>."
+        }
+      ]
     },
     {
       "bg": "познавам",
@@ -2334,7 +2478,17 @@
           "ти (sen)": "познавай",
           "вие (siz)": "познавайте"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Аз го <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">познавам</mark> много добре.",
+          "tr": "Ben onu çok iyi <u>tanıyorum</u>."
+        },
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Познавате</mark> ли се?",
+          "tr": "Birbirinizi <u>tanıyor musunuz</u>?"
+        }
+      ]
     },
     {
       "bg": "започвам",
@@ -2361,7 +2515,17 @@
           "ти (sen)": "започвай",
           "вие (siz)": "започвайте"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">започвам</mark> работа в осем.",
+          "tr": "Ben saat sekizde işe <u>başlıyorum</u>."
+        },
+        {
+          "bg": "Филмът <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">започва</mark> сега.",
+          "tr": "Film şimdi <u>başlıyor</u>."
+        }
+      ]
     },
     {
       "bg": "поздравявам",
@@ -2388,7 +2552,18 @@
           "ти (sen)": "поздравявай",
           "вие (siz)": "поздравявайте"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Аз ви <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">поздравявам</mark> за успеха.",
+          "tr": "Başarınızdan dolayı sizi <u>tebrik ediyorum</u>."
+        },
+        {
+          "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">поздравява</mark> всички.",
+          "tr": "O herkesi <u>selamlıyor</u>."
+        }
+      ],
+      "notes": "Bağlama göre \"selamlamak\" veya \"tebrik etmek\" anlamına gelir."
     },
     {
       "bg": "ела",
@@ -2399,7 +2574,18 @@
           "ти (sen)": "ела",
           "вие (siz)": "елате"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Ела</mark> тук!",
+          "tr": "Buraya <u>gel</u>!"
+        },
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Ела</mark> с мен.",
+          "tr": "Benimle <u>gel</u>."
+        }
+      ],
+      "notes": "\"Идвам\" (gelmek) fiilinin emir kipidir (Sen gel)."
     },
     {
       "bg": "простя",
@@ -2426,7 +2612,17 @@
           "ти (sen)": "прости",
           "вие (siz)": "простете"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Моля те да ми <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">простиш</mark>.",
+          "tr": "Beni <u>affetmeni</u> rica ediyorum."
+        },
+        {
+          "bg": "Няма да ти <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">простя</mark>.",
+          "tr": "Seni <u>affetmeyeceğim</u>."
+        }
+      ]
     },
     {
       "bg": "предам",
@@ -2453,7 +2649,17 @@
           "ти (sen)": "предай",
           "вие (siz)": "предайте"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Ще ти <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">предам</mark> съобщението.",
+          "tr": "Mesajı sana <u>ileteceğim (vereceğim)</u>."
+        },
+        {
+          "bg": "Искам да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">предам</mark> поздрави.",
+          "tr": "Selam <u>iletmek</u> istiyorum."
+        }
+      ]
     },
     {
       "bg": "работа",
@@ -2774,7 +2980,18 @@
           "ти (sen)": "чувай",
           "вие (siz)": "чувайте"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Аз не те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">чувам</mark>.",
+          "tr": "Ben seni <u>duymuyorum</u>."
+        },
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Чуваш</mark> ли ме?",
+          "tr": "Beni <u>duyuyor musun</u>?"
+        }
+      ],
+      "notes": "Kusurlu (imperfective) fiildir. Sürekli olarak \"duymak, işitmek\" anlamındadır."
     },
     {
       "bg": "чуя",
@@ -2801,7 +3018,18 @@
           "ти (sen)": "чуй",
           "вие (siz)": "чуйте"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Искам да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">чуя</mark> гласа ти.",
+          "tr": "Sesini <u>duymak</u> istiyorum."
+        },
+        {
+          "bg": "Дано да те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">чуе</mark>.",
+          "tr": "Umarım seni <u>duyar</u>."
+        }
+      ],
+      "notes": "Kusursuz (perfective) fiildir. Bir defaya mahsus \"duyup algılamak\" anlamındadır."
     },
     {
       "bg": "име",
@@ -3038,7 +3266,17 @@
           "ти (sen)": "позволи",
           "вие (siz)": "позволете"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Няма да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">позволя</mark> това.",
+          "tr": "Buna <u>izin vermeyeceğim</u>."
+        },
+        {
+          "bg": "Ще ми <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">позволиш</mark> ли?",
+          "tr": "Bana <u>müsaade edecek misin</u>?"
+        }
+      ]
     },
     {
       "bg": "бъда",
@@ -3057,7 +3295,18 @@
           "ти (sen)": "бъди",
           "вие (siz)": "бъдете"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Искам да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">бъда</mark> с теб.",
+          "tr": "Seninle <u>olmak</u> istiyorum."
+        },
+        {
+          "bg": "Ще <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">бъда</mark> там утре.",
+          "tr": "Yarın orada <u>olacağım</u>."
+        }
+      ],
+      "notes": "\"Съм\" (olmak) fiilinin gelecek zaman ve istek kiplerinde kullanılan (mükemmel/kusursuz) köküdür."
     },
     {
       "bg": "напиша",
@@ -3084,7 +3333,18 @@
           "ти (sen)": "напиши",
           "вие (siz)": "напишете"
         }
-      }
+      },
+      "examples": [
+        {
+          "bg": "Трябва да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">напиша</mark> писмо.",
+          "tr": "Bir mektup <u>yazmalıyım (yazıp bitirmeliyim)</u>."
+        },
+        {
+          "bg": "Ще <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">напиша</mark> домашното.",
+          "tr": "Ödevi <u>yazacağım</u>."
+        }
+      ],
+      "notes": "Kusursuz (perfective) fiildir. Başlayıp bitirilen yazma eylemini ifade eder."
     },
     {
       "bg": "българин",
@@ -3153,7 +3413,17 @@
       "pronounForms": {
         "belirtme": "се"
       },
-      "notes": "Dönüşlü fiillerle birlikte kullanılır (örn. радвам се, казвам се). Eylemin özneye geri döndüğünü belirtir."
+      "notes": "Dönüşlü fiillerle birlikte kullanılır (örn. радвам се, казвам се). Eylemin özneye geri döndüğünü belirtir.",
+      "examples": [
+        {
+          "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">се</mark> казва Иван.",
+          "tr": "Onun adı İvan (Kendini İvan adlandırıyor)."
+        },
+        {
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">се</mark> радвам.",
+          "tr": "Ben seviniyorum."
+        }
+      ]
     },
     {
       "bg": "си",
@@ -3162,7 +3432,17 @@
       "pronounForms": {
         "yönelme": "си"
       },
-      "notes": "Öznenin kendisine ait olan nesneleri belirtirken kullanılır. Örn: 'съпруга си' (kendi eşimi), 'колата си' (kendi arabamı)."
+      "notes": "Hem kısa dönüşlü mülkiyet zamiri (kendime ait) hem de 2. tekil şahıs \"olmak\" fiili (sın) olarak kullanılır.",
+      "examples": [
+        {
+          "bg": "Взех <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">си</mark> чантата.",
+          "tr": "<u>Kendi</u> çantamı aldım."
+        },
+        {
+          "bg": "Как <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">си</mark>?",
+          "tr": "Nasıl<u>sın</u>?"
+        }
+      ]
     },
     {
       "id": "word_1786532192369_1",
@@ -3173,8 +3453,12 @@
       "notes": "Bir eylemin tekrar yapıldığını belirtir.",
       "examples": [
         {
-          "bg": "Ще се радвам да се видим отново!",
-          "tr": "Tekrar görüşürsek memnun olurum!"
+          "bg": "Ще опитаме <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">отново</mark>.",
+          "tr": "<u>Yeniden (tekrar)</u> deneyeceğiz."
+        },
+        {
+          "bg": "Той дойде <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">отново</mark>.",
+          "tr": "O <u>tekrar</u> geldi."
         }
       ]
     },
@@ -3197,8 +3481,12 @@
       "notes": "видим, biz görelim / biz görürüz demektir (1. çoğul şahıs).",
       "examples": [
         {
-          "bg": "Искам да те видя.",
-          "tr": "Seni görmek istiyorum."
+          "bg": "Искам да те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">видя</mark>.",
+          "tr": "Seni <u>görmek</u> istiyorum."
+        },
+        {
+          "bg": "Ще <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">видя</mark> какво мога да направя.",
+          "tr": "Ne yapabileceğimi <u>göreceğim (bakacağım)</u>."
         }
       ]
     },
@@ -3327,6 +3615,10 @@
         {
           "bg": "Небето е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">синьо</mark>.",
           "tr": "Gökyüzü <u>mavidir</u>."
+        },
+        {
+          "bg": "Искам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">синьо</mark> яке.",
+          "tr": "<u>Mavi</u> bir ceket istiyorum."
         }
       ],
       "forms": {
@@ -3334,6 +3626,12 @@
         "dişil": "синя",
         "nötr": "синьо",
         "çoğul": "сини"
+      },
+      "nounForms": {
+        "Eril (m)": "син",
+        "Dişil (f)": "синя",
+        "Nötr (n)": "синьо",
+        "Çoğul (pl)": "сини"
       }
     },
     {
@@ -3410,8 +3708,12 @@
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
       "examples": [
         {
+          "bg": "Самолетът лети <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">над</mark> града.",
+          "tr": "Uçak şehrin <u>üzerinde (yukarısında)</u> uçuyor."
+        },
+        {
           "bg": "Лампата е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">над</mark> масата.",
-          "tr": "Lamba masanın <u>üstündedir</u>."
+          "tr": "Lamba masanın <u>üzerindedir</u>."
         }
       ]
     },
@@ -3440,8 +3742,12 @@
       "notes": "Eski Bulgarca edat. Günümüzde çoğunlukla 'у нас' (bizde, ülkemizde) ifadesinde kullanılır.",
       "examples": [
         {
-          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">У</mark> нас е много топло.",
-          "tr": "<u>Bizde (ülkemizde)</u> çok sıcak."
+          "bg": "Ключовете са <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">у</mark> мен.",
+          "tr": "Anahtarlar <u>benim yanımda (bende)</u>."
+        },
+        {
+          "bg": "Ще отидем <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">у</mark> дома.",
+          "tr": "Eve (yuvamıza) gideceğiz."
         }
       ]
     },
@@ -3838,8 +4144,12 @@
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
       "examples": [
         {
-          "bg": "Имам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">голяма</mark> стая.",
-          "tr": "Büyük bir odam var."
+          "bg": "Това е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">голяма</mark> къща.",
+          "tr": "Bu <u>büyük</u> bir evdir."
+        },
+        {
+          "bg": "Имаме <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">голяма</mark> отговорност.",
+          "tr": "<u>Büyük</u> bir sorumluluğumuz var."
         }
       ],
       "forms": {
@@ -3847,6 +4157,12 @@
         "dişil": "голяма",
         "nötr": "голямо",
         "çoğul": "големи"
+      },
+      "nounForms": {
+        "Eril (m)": "голям",
+        "Dişil (f)": "голяма",
+        "Nötr (n)": "голямо",
+        "Çoğul (pl)": "големи"
       }
     },
     {
@@ -4034,8 +4350,12 @@
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
       "examples": [
         {
-          "bg": "Говоря <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">турски</mark> език.",
-          "tr": "<u>Türkçe</u> konuşuyorum."
+          "bg": "Уча <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">турски</mark> език.",
+          "tr": "<u>Türk</u> dili öğreniyorum."
+        },
+        {
+          "bg": "Обичам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">турски</mark> чай.",
+          "tr": "<u>Türk</u> çayını severim."
         }
       ],
       "forms": {
@@ -4043,6 +4363,12 @@
         "dişil": "турска",
         "nötr": "турско",
         "çoğul": "турски"
+      },
+      "nounForms": {
+        "Eril (m)": "турски",
+        "Dişil (f)": "турска",
+        "Nötr (n)": "турско",
+        "Çoğul (pl)": "турски"
       }
     },
     {
@@ -7015,8 +7341,12 @@
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
       "examples": [
         {
-          "bg": "Приятно ни беше, че се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">запознахме</mark>.",
-          "tr": "<u>Tanıştığımıza</u> sevindik."
+          "bg": "Ние се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">запознахме</mark> вчера.",
+          "tr": "Biz dün <u>tanıştık</u>."
+        },
+        {
+          "bg": "Къде се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">запознахте</mark>?",
+          "tr": "Nerede <u>tanıştınız</u>?"
         }
       ],
       "conjugation": {
@@ -7091,19 +7421,18 @@
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
       "examples": [
         {
-          "bg": "Това е за <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">мен</mark>.",
-          "tr": "Bu <u>benim</u> içindir."
+          "bg": "Ела с <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">мен</mark>!",
+          "tr": "<u>Benimle</u> gel!"
+        },
+        {
+          "bg": "За <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">мен</mark> това е важно.",
+          "tr": "<u>Benim için</u> bu önemlidir."
         }
       ],
       "pronounForms": {
-        "аз": "мен / мене",
-        "ти": "теб / тебе",
-        "той": "него",
-        "тя": "нея",
-        "то": "него",
-        "ние": "нас",
-        "вие": "вас",
-        "те": "тях"
+        "Yalın Hâl (Ben)": "аз",
+        "İsmin -i Hâli (Beni) - Kısa": "ме",
+        "İsmin -i Hâli (Beni) - Uzun": "мен / мене"
       }
     },
     {
@@ -7114,8 +7443,12 @@
       "notes": "Dönüşlü fiildir. Daima 'се' zamiriyle kullanılır.",
       "examples": [
         {
-          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Радвам се</mark> да се запозная.",
-          "tr": "Tanıştığımıza <u>sevindim</u>."
+          "bg": "Това ме <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">радва</mark>.",
+          "tr": "Bu beni <u>sevindiriyor</u>."
+        },
+        {
+          "bg": "Много се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">радвам</mark>.",
+          "tr": "Çok <u>seviniyorum</u>."
         }
       ],
       "conjugation": {
@@ -7137,8 +7470,8 @@
       "notes": "Dönüşlü fiildir. Daima 'се' zamiriyle kullanılır.",
       "examples": [
         {
-          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Надявам се</mark> да се видим скоро.",
-          "tr": "Yakında görüşeceğimizi <u>umuyorum</u>."
+          "bg": "Аз се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">надявам</mark> на успех.",
+          "tr": "Ben başarı <u>umuyorum</u>."
         }
       ],
       "conjugation": {
@@ -7265,8 +7598,8 @@
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
       "examples": [
         {
-          "bg": "Моля, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">запишете</mark> домашното.",
-          "tr": "Lütfen ödevi <u>yazın</u>."
+          "bg": "Моля, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">запишете</mark> адреса.",
+          "tr": "Lütfen adresi <u>not alın</u>."
         }
       ],
       "conjugation": {
@@ -7946,8 +8279,12 @@
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
       "examples": [
         {
-          "bg": "Времето е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">хубаво</mark>.",
-          "tr": "Hava <u>güzel</u>."
+          "bg": "Тук е много <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">хубаво</mark>.",
+          "tr": "Burası çok <u>güzeldir</u>."
+        },
+        {
+          "bg": "Това е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">хубаво</mark> време.",
+          "tr": "Bu <u>güzel</u> bir havadır."
         }
       ],
       "forms": {
@@ -7955,6 +8292,12 @@
         "dişil": "хубава",
         "nötr": "хубаво",
         "çoğul": "хубави"
+      },
+      "nounForms": {
+        "Eril (m)": "хубав",
+        "Dişil (f)": "хубава",
+        "Nötr (n)": "хубаво",
+        "Çoğul (pl)": "хубави"
       }
     },
     {
@@ -8574,8 +8917,12 @@
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
       "examples": [
         {
-          "bg": "Имаме <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">различни</mark> интереси.",
-          "tr": "<u>Farklı</u> ilgi alanlarımız var."
+          "bg": "Ние сме <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">различни</mark>.",
+          "tr": "Biz <u>farklıyız</u>."
+        },
+        {
+          "bg": "Имаме <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">различни</mark> мнения.",
+          "tr": "<u>Farklı</u> görüşlerimiz var."
         }
       ],
       "forms": {
@@ -8583,6 +8930,12 @@
         "dişil": "различна",
         "nötr": "различно",
         "çoğul": "различни"
+      },
+      "nounForms": {
+        "Eril (m)": "различен",
+        "Dişil (f)": "различна",
+        "Nötr (n)": "различно",
+        "Çoğul (pl)": "различни"
       }
     },
     {
@@ -8764,10 +9117,16 @@
       "notes": "Bulgarca işaret zamirleri KONUM'a göre değişir: Yakın (bu/bunlar) ve Uzak (o/şu/onlar). Her iki grupta da CİNSİYET (eril/dişil/nötr) farkı vardır.",
       "examples": [
         {
-          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Онази</mark> жена е много красива.",
-          "tr": "<u>O / Şu</u> kadın çok güzeldir."
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Онази</mark> сграда е нова.",
+          "tr": "<u>Şu/O (uzak/dişil)</u> bina yenidir."
         }
-      ]
+      ],
+      "pronounForms": {
+        "Eril (uzak)": "онзи",
+        "Dişil (uzak)": "онази",
+        "Nötr (uzak)": "онова",
+        "Çoğul (uzak)": "онези"
+      }
     },
     {
       "bg": "онова",
@@ -8794,10 +9153,16 @@
       "notes": "Bulgarca işaret zamirleri KONUM'a göre değişir: Yakın (bu/bunlar) ve Uzak (o/şu/onlar). Her iki grupta da CİNSİYET (eril/dişil/nötr) farkı vardır.",
       "examples": [
         {
-          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Онова</mark> е важно.",
-          "tr": "<u>O / Şu</u> önemlidir."
+          "bg": "Какво е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">онова</mark> дърво?",
+          "tr": "<u>Şu/O (uzak/nötr)</u> ağaç nedir?"
         }
-      ]
+      ],
+      "pronounForms": {
+        "Eril (uzak)": "онзи",
+        "Dişil (uzak)": "онази",
+        "Nötr (uzak)": "онова",
+        "Çoğul (uzak)": "онези"
+      }
     },
     {
       "bg": "онези",
@@ -8824,10 +9189,16 @@
       "notes": "Bulgarca işaret zamirleri KONUM'a göre değişir: Yakın (bu/bunlar) ve Uzak (o/şu/onlar). Her iki grupta da CİNSİYET (eril/dişil/nötr) farkı vardır.",
       "examples": [
         {
-          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Онези</mark> студенти не са тук.",
-          "tr": "<u>O / Şu</u> öğrenciler burada değil."
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Онези</mark> хора са туристи.",
+          "tr": "<u>Şu/O (uzak/çoğul)</u> insanlar turisttir."
         }
-      ]
+      ],
+      "pronounForms": {
+        "Eril (uzak)": "онзи",
+        "Dişil (uzak)": "онази",
+        "Nötr (uzak)": "онова",
+        "Çoğul (uzak)": "онези"
+      }
     },
     {
       "bg": "трудно",
