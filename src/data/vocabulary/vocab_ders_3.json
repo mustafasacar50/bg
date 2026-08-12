@@ -843,34 +843,51 @@
     {
       "id": "word_auto_d3_1786542396077_2687",
       "bg": "филология",
-      "tr": "filoloji",
-      "type": "otomatik",
+      "tr": "filoloji (dil ve edebiyat bilimi)",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "филология",
+        "çoğul": "филологии"
+      }
     },
     {
       "id": "word_auto_d3_1786542396078_1022",
       "bg": "в",
-      "tr": "c",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "tr": "içinde, -de/-da",
+      "type": "edat",
+      "notes": "Bulunma (lokatif) hali veya yönelme belirtir. 'в София' (Sofya'da), 'в университета' (üniversitede).",
       "examples": []
     },
     {
       "id": "word_auto_d3_1786542396088_5431",
       "bg": "тяхната",
-      "tr": "onlarınki",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "onların (dişil, belirli)",
+      "type": "zamir",
+      "notes": "техен (onların) iyelik zamirinin dişil ve belirli (the) halidir. Örn: тяхната катедра (onların kürsüsü/bölümü).",
+      "examples": [],
+      "forms": {
+        "eril": "техен",
+        "dişil": "тяхна",
+        "nötr": "тяхно",
+        "çoğul": "техни"
+      }
     },
     {
       "id": "word_auto_d3_1786542396089_2493",
       "bg": "различни",
-      "tr": "farklı",
-      "type": "otomatik",
+      "tr": "farklı, çeşitli (çoğul)",
+      "type": "sıfat",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "forms": {
+        "eril": "различен",
+        "dişil": "различна",
+        "nötr": "различно",
+        "çoğul": "различни"
+      }
     },
     {
       "id": "word_auto_d3_1786542396090_60",
@@ -891,10 +908,20 @@
     {
       "id": "word_auto_d3_1786542396524_5536",
       "bg": "учат",
-      "tr": "çalışıyorlar",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "öğreniyorlar / okuyorlar",
+      "type": "fiil",
+      "notes": "уча fiili hem 'öğrenmek' (ör: учи български език) hem de 'üniversitede okumak/tahsil görmek' (ör: учи в университета) anlamında kullanılır.",
+      "examples": [],
+      "conjugation": {
+        "present": {
+          "аз": "уча",
+          "ти": "учиш",
+          "той/тя/то": "учи",
+          "ние": "учим",
+          "вие": "учите",
+          "те": "учат"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542396724_4561",
@@ -923,10 +950,15 @@
     {
       "id": "word_auto_d3_1786542397634_5689",
       "bg": "рускиня",
-      "tr": "rus kadın",
-      "type": "otomatik",
+      "tr": "Rus (kadın)",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "рускиня",
+        "çoğul": "рускини"
+      }
     },
     {
       "id": "word_auto_d3_1786542397698_1465",
@@ -947,10 +979,15 @@
     {
       "id": "word_auto_d3_1786542397701_9831",
       "bg": "румънец",
-      "tr": "romen",
-      "type": "otomatik",
+      "tr": "Rumen (erkek)",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "румънец",
+        "çoğul": "румънци"
+      }
     },
     {
       "id": "word_auto_d3_1786542397702_3616",
@@ -979,9 +1016,9 @@
     {
       "id": "word_auto_d3_1786542398545_5698",
       "bg": "но",
-      "tr": "ancak",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "tr": "ama, fakat",
+      "type": "bağlaç",
+      "notes": "Zıtlık bildiren temel bağlaçtır.",
       "examples": []
     },
     {
@@ -995,18 +1032,33 @@
     {
       "id": "word_auto_d3_1786542398546_8772",
       "bg": "колеги",
-      "tr": "iş arkadaşları",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "meslektaşlar / iş arkadaşları",
+      "type": "isim",
+      "notes": "'колега' kelimesi 'a' ile bitmesine rağmen çoğunlukla eril kabul edilir (eğer bir erkekten bahsediliyorsa). Ancak hem erkek hem kadın için ortak kullanılabilir.",
+      "examples": [],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "колега",
+        "çoğul": "колеги"
+      }
     },
     {
       "id": "word_auto_d3_1786542398546_3529",
       "bg": "имат",
-      "tr": "onlar sahip",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "sahiptirler (var)",
+      "type": "fiil",
+      "notes": "имам fiilinin 3. çoğul (onlar) çekimi.",
+      "examples": [],
+      "conjugation": {
+        "present": {
+          "аз": "имам",
+          "ти": "имаш",
+          "той/тя/то": "има",
+          "ние": "имаме",
+          "вие": "имате",
+          "те": "имат"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542398548_6522",
@@ -1067,10 +1119,15 @@
     {
       "id": "word_auto_d3_1786542399865_8739",
       "bg": "народност",
-      "tr": "milliyet",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "milliyet, halk, etnik köken",
+      "type": "isim",
+      "notes": "Sonu sessiz harfle biten istisnai dişil isimlerdendir.",
+      "examples": [],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "народност",
+        "çoğul": "народности"
+      }
     },
     {
       "id": "word_auto_d3_1786542399868_9454",
@@ -1083,10 +1140,16 @@
     {
       "id": "word_auto_d3_1786542399868_519",
       "bg": "такива",
-      "tr": "çok",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "böyleleri, öylesi (çoğul)",
+      "type": "zamir",
+      "notes": "İşaret sıfatıdır. 'Böylesi, öylesi' anlamı katar.",
+      "examples": [],
+      "forms": {
+        "eril": "такъв",
+        "dişil": "такава",
+        "nötr": "такова",
+        "çoğul": "такива"
+      }
     },
     {
       "id": "word_auto_d3_1786542399868_2887",
@@ -1115,10 +1178,16 @@
     {
       "id": "word_auto_d3_1786542399881_5757",
       "bg": "някои",
-      "tr": "bazı",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "bazıları / birtakım (çoğul)",
+      "type": "zamir",
+      "notes": "Belgisiz zamir ve sıfat.",
+      "examples": [],
+      "forms": {
+        "eril": "някой",
+        "dişil": "някоя",
+        "nötr": "някое",
+        "çoğul": "някои"
+      }
     },
     {
       "id": "word_auto_d3_1786542400198_9722",
@@ -1131,10 +1200,16 @@
     {
       "id": "word_auto_d3_1786542400201_5158",
       "bg": "чужденците",
-      "tr": "yabancılar",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "yabancılar (belirli)",
+      "type": "isim",
+      "notes": "Yabancı (yabancı ülke vatandaşı) anlamına gelir.",
+      "examples": [],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "чужденец",
+        "çoğul": "чужденци",
+        "çoğul_belirli": "чужденците"
+      }
     },
     {
       "id": "word_auto_d3_1786542400799_6316",
@@ -1148,49 +1223,65 @@
       "id": "word_auto_d3_1786542400801_8679",
       "bg": "преди",
       "tr": "önce",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "type": "edat",
+      "notes": "Zaman belirtir. Örn: преди много години (yıllar önce).",
       "examples": []
     },
     {
       "id": "word_auto_d3_1786542400802_9863",
       "bg": "прародители",
-      "tr": "atalar",
-      "type": "otomatik",
+      "tr": "atalar, büyük ebeveynler",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "прародител",
+        "çoğul": "прародители"
+      }
     },
     {
       "id": "word_auto_d3_1786542400804_2353",
       "bg": "много",
-      "tr": "çok fazla",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "tr": "çok",
+      "type": "zarf",
+      "notes": "Miktar veya derece belirtir.",
       "examples": []
     },
     {
       "id": "word_auto_d3_1786542400808_5219",
       "bg": "години",
       "tr": "yıllar",
-      "type": "otomatik",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "година",
+        "çoğul": "години"
+      }
     },
     {
       "id": "word_auto_d3_1786542400812_9417",
       "bg": "дори",
-      "tr": "eşit",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "tr": "hatta, bile",
+      "type": "zarf",
+      "notes": "Vurgu katar. Örn: дори векове (hatta yüzyıllar).",
       "examples": []
     },
     {
       "id": "word_auto_d3_1786542400841_4602",
       "bg": "техните",
-      "tr": "onlarınki",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "onların (çoğul, belirli)",
+      "type": "zamir",
+      "notes": "техен (onların) iyelik zamirinin çoğul belirli (the) formudur. Örn: техните прародители (onların ataları).",
+      "examples": [],
+      "forms": {
+        "eril": "техен",
+        "dişil": "тяхна",
+        "nötr": "тяхно",
+        "çoğul": "техни"
+      }
     },
     {
       "id": "word_auto_d3_1786542401010_8922",
@@ -1211,10 +1302,15 @@
     {
       "id": "word_auto_d3_1786542401012_9589",
       "bg": "векове",
-      "tr": "yüzyıllar",
-      "type": "otomatik",
+      "tr": "yüzyıllar, asırlar",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "век",
+        "çoğul": "векове"
+      }
     },
     {
       "id": "word_auto_d3_1786542401609_8517",
@@ -1227,58 +1323,79 @@
     {
       "id": "word_auto_d3_1786542401610_5354",
       "bg": "там",
-      "tr": "orası",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "tr": "orada / oraya",
+      "type": "zarf",
+      "notes": "Yer veya yön belirtir.",
       "examples": []
     },
     {
       "id": "word_auto_d3_1786542401610_4895",
       "bg": "ние",
       "tr": "biz",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "type": "zamir",
+      "notes": "1. Çoğul şahıs zamiri.",
       "examples": []
     },
     {
       "id": "word_auto_d3_1786542401610_1718",
       "bg": "още",
-      "tr": "daha",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "tr": "henüz, hala, daha",
+      "type": "zarf",
+      "notes": "Zaman veya miktar (biraz daha) belirtebilir.",
       "examples": []
     },
     {
       "id": "word_auto_d3_1786542401615_6773",
       "bg": "връзка",
-      "tr": "bağlantı",
-      "type": "otomatik",
+      "tr": "bağlantı / bağ",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "връзка",
+        "çoğul": "връзки"
+      }
     },
     {
       "id": "word_auto_d3_1786542401619_7",
       "bg": "други",
-      "tr": "diğerleri",
-      "type": "otomatik",
+      "tr": "diğer (çoğul)",
+      "type": "sıfat",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "forms": {
+        "eril": "друг",
+        "dişil": "друга",
+        "nötr": "друго",
+        "çoğul": "други"
+      }
     },
     {
       "id": "word_auto_d3_1786542401623_2150",
       "bg": "страни",
       "tr": "ülkeler",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "type": "isim",
+      "notes": "страна (ülke) isminin çoğuludur.",
+      "examples": [],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "страна",
+        "çoğul": "страни"
+      }
     },
     {
       "id": "word_auto_d3_1786542401782_994",
       "bg": "сънародници",
-      "tr": "yurttaşlar",
-      "type": "otomatik",
+      "tr": "vatandaşlar, yurttaşlar (aynı milletten olanlar)",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "сънародник",
+        "çoğul": "сънародници"
+      }
     },
     {
       "id": "word_auto_d3_1786542402127_4964",
@@ -1299,10 +1416,20 @@
     {
       "id": "word_auto_d3_1786542402718_6305",
       "bg": "говори",
-      "tr": "konuşmak",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "konuşuyor",
+      "type": "fiil",
+      "notes": "говоря fiilinin 3. tekil şahıs (o) çekimidir.",
+      "examples": [],
+      "conjugation": {
+        "present": {
+          "аз": "говоря",
+          "ти": "говориш",
+          "той/тя/то": "говори",
+          "ние": "говорим",
+          "вие": "говорите",
+          "те": "говорят"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542402718_5211",
@@ -1331,10 +1458,16 @@
     {
       "id": "word_auto_d3_1786542402724_7445",
       "bg": "родена",
-      "tr": "doğmak",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "doğmuş (dişil)",
+      "type": "sıfat",
+      "notes": "Dişil bir kişi için 'doğumlu/doğmuş' anlamında kullanılır.",
+      "examples": [],
+      "forms": {
+        "eril": "роден",
+        "dişil": "родена",
+        "nötr": "родено",
+        "çoğul": "родени"
+      }
     },
     {
       "id": "word_auto_d3_1786542402795_4647",
@@ -1347,10 +1480,15 @@
     {
       "id": "word_auto_d3_1786542403429_8556",
       "bg": "места",
-      "tr": "yer",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "yerler, mekanlar",
+      "type": "isim",
+      "notes": "място (yer) isminin düzensiz çoğuludur.",
+      "examples": [],
+      "gender": "nötr",
+      "nounForms": {
+        "tekil": "място",
+        "çoğul": "места"
+      }
     },
     {
       "id": "word_auto_d3_1786542403430_4971",
@@ -1380,9 +1518,19 @@
       "id": "word_auto_d3_1786542404029_9537",
       "bg": "иска",
       "tr": "istiyor",
-      "type": "otomatik",
+      "type": "fiil",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "conjugation": {
+        "present": {
+          "аз": "искам",
+          "ти": "искаш",
+          "той/тя/то": "иска",
+          "ние": "искаме",
+          "вие": "искате",
+          "те": "искат"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542404031_749",
@@ -1396,32 +1544,47 @@
       "id": "word_auto_d3_1786542404033_3986",
       "bg": "професия",
       "tr": "meslek",
-      "type": "otomatik",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "професия",
+        "çoğul": "професии"
+      }
     },
     {
       "id": "word_auto_d3_1786542404035_8662",
       "bg": "учи",
-      "tr": "çalışmak",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "okuyor / çalışıyor",
+      "type": "fiil",
+      "notes": "уча fiilinin 3. tekil (o) çekimidir.",
+      "examples": [],
+      "conjugation": {
+        "present": {
+          "аз": "уча",
+          "ти": "учиш",
+          "той/тя/то": "учи",
+          "ние": "учим",
+          "вие": "учите",
+          "те": "учат"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542404038_5703",
       "bg": "като",
-      "tr": "beğenmek",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "tr": "gibi / olarak",
+      "type": "edat",
+      "notes": "Örn: като мама (anne gibi).",
       "examples": []
     },
     {
       "id": "word_auto_d3_1786542404038_1134",
       "bg": "сега",
       "tr": "şimdi",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "type": "zarf",
+      "notes": "Zaman zarfıdır.",
       "examples": []
     },
     {
@@ -1435,18 +1598,33 @@
     {
       "id": "word_auto_d3_1786542404504_5688",
       "bg": "зъболекар",
-      "tr": "dişçi",
-      "type": "otomatik",
+      "tr": "diş hekimi",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "зъболекар",
+        "çoğul": "зъболекари"
+      }
     },
     {
       "id": "word_auto_d3_1786542404832_7051",
       "bg": "стане",
-      "tr": "uyanmak",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "olmak / haline gelmek (become)",
+      "type": "fiil",
+      "notes": "'да' edatıyla birlikte sıklıkla 'olmak istemek' anlamında kullanılır (иска да стане - olmak istiyor).",
+      "examples": [],
+      "conjugation": {
+        "present": {
+          "аз": "стана",
+          "ти": "станеш",
+          "той/тя/то": "стане",
+          "ние": "станем",
+          "вие": "станете",
+          "те": "станат"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542405454_1322",
@@ -1475,18 +1653,23 @@
     {
       "id": "word_auto_d3_1786542405461_7408",
       "bg": "затова",
-      "tr": "öyleyse",
-      "type": "otomatik",
+      "tr": "bu yüzden, onun için",
+      "type": "bağlaç",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
       "examples": []
     },
     {
       "id": "word_auto_d3_1786542405465_8685",
       "bg": "лекции",
-      "tr": "dersler",
-      "type": "otomatik",
+      "tr": "dersler (üniversitede)",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "лекция",
+        "çoğul": "лекции"
+      }
     },
     {
       "id": "word_auto_d3_1786542405466_5878",
@@ -1500,8 +1683,8 @@
       "id": "word_auto_d3_1786542405474_643",
       "bg": "трудно",
       "tr": "zor",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "type": "zarf",
+      "notes": "Durum belirtir.",
       "examples": []
     },
     {
@@ -1516,9 +1699,19 @@
       "id": "word_auto_d3_1786542405497_3884",
       "bg": "обича",
       "tr": "seviyor",
-      "type": "otomatik",
+      "type": "fiil",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "conjugation": {
+        "present": {
+          "аз": "обичам",
+          "ти": "обичаш",
+          "той/тя/то": "обича",
+          "ние": "обичаме",
+          "вие": "обичате",
+          "те": "обичат"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542406100_4923",
@@ -1532,17 +1725,27 @@
       "id": "word_auto_d3_1786542406692_7804",
       "bg": "защото",
       "tr": "çünkü",
-      "type": "otomatik",
+      "type": "bağlaç",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
       "examples": []
     },
     {
       "id": "word_auto_d3_1786542406698_3997",
       "bg": "слуша",
-      "tr": "dinler",
-      "type": "otomatik",
+      "tr": "dinliyor",
+      "type": "fiil",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "conjugation": {
+        "present": {
+          "аз": "слушам",
+          "ти": "слушаш",
+          "той/тя/то": "слуша",
+          "ние": "слушаме",
+          "вие": "слушате",
+          "те": "слушат"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542406700_3232",
@@ -1556,17 +1759,27 @@
       "id": "word_auto_d3_1786542406700_2921",
       "bg": "между",
       "tr": "arasında",
-      "type": "otomatik",
+      "type": "edat",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
       "examples": []
     },
     {
       "id": "word_auto_d3_1786542406700_8267",
       "bg": "отива",
-      "tr": "gitmek",
-      "type": "otomatik",
+      "tr": "gidiyor",
+      "type": "fiil",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "conjugation": {
+        "present": {
+          "аз": "отивам",
+          "ти": "отиваш",
+          "той/тя/то": "отива",
+          "ние": "отиваме",
+          "вие": "отивате",
+          "те": "отиват"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542406712_8304",
@@ -1579,10 +1792,20 @@
     {
       "id": "word_auto_d3_1786542406771_9843",
       "bg": "гледа",
-      "tr": "görünüyor",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "bakıyor / izliyor",
+      "type": "fiil",
+      "notes": "Televizyon izlemek (гледам телевизия) veya bir şeye bakmak anlamındadır.",
+      "examples": [],
+      "conjugation": {
+        "present": {
+          "аз": "гледам",
+          "ти": "гледаш",
+          "той/тя/то": "гледа",
+          "ние": "гледаме",
+          "вие": "гледате",
+          "те": "гледат"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542407072_4649",
@@ -1595,18 +1818,29 @@
     {
       "id": "word_auto_d3_1786542407162_8669",
       "bg": "кафето",
-      "tr": "kahve",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "kafe (belirli)",
+      "type": "isim",
+      "notes": "Hem içecek olan 'kahve' hem de mekan olan 'kafe' anlamına gelir.",
+      "examples": [],
+      "gender": "nötr",
+      "nounForms": {
+        "tekil": "кафе",
+        "tekil_belirli": "кафето"
+      }
     },
     {
       "id": "word_auto_d3_1786542407543_9812",
       "bg": "почивките",
-      "tr": "tatiller",
-      "type": "otomatik",
+      "tr": "molalar (belirli)",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "почивка",
+        "çoğul": "почивки",
+        "çoğul_belirli": "почивките"
+      }
     },
     {
       "id": "word_auto_d3_1786542408135_9533",
