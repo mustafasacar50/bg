@@ -107,6 +107,13 @@ export async function POST(request: Request) {
             }
           }
 
+          if (card.forms) {
+            const formNames: Record<string, string> = { eril: 'Eril Form', 'dişil': 'Dişil Form', 'nötr': 'Nötr Form', 'çoğul': 'Çoğul Form' };
+            for (const [formName, form] of Object.entries(card.forms)) {
+              if (hasWholeWord(form as string, focusText)) { matchedForm = form; matchedReason = formNames[formName] || formName; }
+            }
+          }
+
           richCards.push({ ...card, matchedForm, matchedReason, source: 'rich' });
         }
       }
