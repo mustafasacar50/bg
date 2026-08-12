@@ -1,0 +1,3250 @@
+{
+  "moduleId": "balgoc___Bulgarca_A1_Ders_3",
+  "level": "A1",
+  "lessonTitle": "Ders 3",
+  "topics": [
+    "Genel"
+  ],
+  "words": [
+    {
+      "id": "word_auto_d3_1786542382624_2511",
+      "bg": "приятно",
+      "tr": "güzel",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542382625_7890",
+      "bg": "госпожице",
+      "tr": "kayıp",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542382625_9328",
+      "bg": "съм",
+      "tr": "ben",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542382630_9271",
+      "bg": "аз",
+      "tr": "ben",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542382631_1618",
+      "bg": "е",
+      "tr": "öyle",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542382639_1560",
+      "bg": "добър",
+      "tr": "iyi",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542382649_6046",
+      "bg": "ден",
+      "tr": "gün",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542382670_9857",
+      "bg": "ми",
+      "tr": "mi",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542383287_2523",
+      "bg": "севил",
+      "tr": "sevilla",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542383633_8893",
+      "bg": "бюлент",
+      "tr": "sert",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542384223_1008",
+      "bg": "от",
+      "tr": "itibaren",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542384225_4834",
+      "bg": "казвам",
+      "tr": "diyorum ki",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542384225_8238",
+      "bg": "се",
+      "tr": "her şey",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542384227_1776",
+      "bg": "как",
+      "tr": "nasıl",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542384228_8264",
+      "bg": "вие",
+      "tr": "sen",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542384229_264",
+      "bg": "турция",
+      "tr": "türkiye",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542384229_4726",
+      "bg": "казвате",
+      "tr": "diyorsun",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542384230_5312",
+      "bg": "откъде",
+      "tr": "nereden",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542384240_5467",
+      "bg": "а",
+      "tr": "a",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542384943_8218",
+      "bg": "сте",
+      "tr": "sen",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542385539_5454",
+      "bg": "тя",
+      "tr": "o",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542385539_3663",
+      "bg": "това",
+      "tr": "bu",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542385539_34",
+      "bg": "истанбул",
+      "tr": "i̇stanbul",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542385539_6548",
+      "bg": "тази",
+      "tr": "bu",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542385541_5767",
+      "bg": "коя",
+      "tr": "hangisi",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542385544_9369",
+      "bg": "одрин",
+      "tr": "bir gün",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542385548_6018",
+      "bg": "госпожица",
+      "tr": "kayıp",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542386205_9100",
+      "bg": "джеврие",
+      "tr": "simit",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542386207_5309",
+      "bg": "студентка",
+      "tr": "öğrenci",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542386214_1917",
+      "bg": "измир",
+      "tr": "barış",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542386813_6603",
+      "bg": "ли",
+      "tr": "yapmak",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542386814_4661",
+      "bg": "онзи",
+      "tr": "şu",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542386815_6387",
+      "bg": "също",
+      "tr": "fazla",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542386818_9924",
+      "bg": "и",
+      "tr": "ve",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542386828_7587",
+      "bg": "го",
+      "tr": "bt",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542386834_9503",
+      "bg": "кой",
+      "tr": "dsö",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542386836_648",
+      "bg": "професор",
+      "tr": "profesör",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542386842_6400",
+      "bg": "познавате",
+      "tr": "biliyorsun",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542386908_2666",
+      "bg": "студент",
+      "tr": "bir öğrenci",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542387373_7761",
+      "bg": "господин",
+      "tr": "sayın",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542387959_771",
+      "bg": "той",
+      "tr": "o",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542387960_7713",
+      "bg": "български",
+      "tr": "bulgarca",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542387962_7467",
+      "bg": "софия",
+      "tr": "sofya",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542387971_7036",
+      "bg": "българия",
+      "tr": "bulgaristan",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542387971_9338",
+      "bg": "по",
+      "tr": "ile",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542387976_9003",
+      "bg": "език",
+      "tr": "dil",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542388098_1682",
+      "bg": "райнов",
+      "tr": "rainov",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542388409_7775",
+      "bg": "преподавателят",
+      "tr": "öğretmen",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542388630_2660",
+      "bg": "ни",
+      "tr": "biz",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542388631_396",
+      "bg": "разбира",
+      "tr": "anlaşıldı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542389223_758",
+      "bg": "него",
+      "tr": "o",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542389223_6493",
+      "bg": "гърция",
+      "tr": "yunanistan",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542389224_931",
+      "bg": "петрова",
+      "tr": "petrova",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542389226_2541",
+      "bg": "са",
+      "tr": "öyle",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542389228_2274",
+      "bg": "казва",
+      "tr": "diyor",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542389285_4594",
+      "bg": "до",
+      "tr": "ile",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542389450_662",
+      "bg": "албания",
+      "tr": "arnavutluk",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542389788_3106",
+      "bg": "йоргос",
+      "tr": "civanperçemi",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542390386_6556",
+      "bg": "лакай",
+      "tr": "uşak",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542390404_635",
+      "bg": "господинът",
+      "tr": "beyefendi",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542391006_6871",
+      "bg": "не",
+      "tr": "hayir",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542391007_8998",
+      "bg": "иванов",
+      "tr": "i̇vanov",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542391012_5568",
+      "bg": "на",
+      "tr": "açık",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542391403_2190",
+      "bg": "българи",
+      "tr": "bulgarlar",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542391667_4494",
+      "bg": "езици",
+      "tr": "diller",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542391673_9588",
+      "bg": "балкански",
+      "tr": "balkan",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542391703_3765",
+      "bg": "професорите",
+      "tr": "profesörler",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542391703_2142",
+      "bg": "катедрата",
+      "tr": "departman",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542391704_5577",
+      "bg": "илиеску",
+      "tr": "iliescu",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542391706_4427",
+      "bg": "василиду",
+      "tr": "vasilidou",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542392292_9192",
+      "bg": "с",
+      "tr": "ile",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542392297_7778",
+      "bg": "грък",
+      "tr": "yunan",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542392298_7705",
+      "bg": "университет",
+      "tr": "üniversite",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542392301_1092",
+      "bg": "ще",
+      "tr": "irade",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542392305_3782",
+      "bg": "тракийския",
+      "tr": "trakya",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542392307_7452",
+      "bg": "запознаем",
+      "tr": "hadi buluşalım",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542392308_2557",
+      "bg": "тях",
+      "tr": "onlara",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542392904_8972",
+      "bg": "албанец",
+      "tr": "arnavut",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542393325_8955",
+      "bg": "българка",
+      "tr": "bulgar kadın",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542393326_2973",
+      "bg": "гъркиня",
+      "tr": "yunan kadın",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542393927_7383",
+      "bg": "да",
+      "tr": "evet",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542393928_5198",
+      "bg": "благодаря",
+      "tr": "teşekkürler",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542393929_9173",
+      "bg": "за",
+      "tr": "için",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542393929_8637",
+      "bg": "довиждане",
+      "tr": "güle güle",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542393934_5828",
+      "bg": "приятен",
+      "tr": "güzel",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542393935_2906",
+      "bg": "беше",
+      "tr": "oldu",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542393935_4217",
+      "bg": "каква",
+      "tr": "ne tür",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542393935_8726",
+      "bg": "националност",
+      "tr": "milliyet",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542393935_5453",
+      "bg": "какъв",
+      "tr": "ne tür",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542393935_1324",
+      "bg": "информацията",
+      "tr": "bilgi",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542394540_7782",
+      "bg": "студенти",
+      "tr": "öğrenciler",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542394543_9407",
+      "bg": "иван",
+      "tr": "ivan",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542394544_3449",
+      "bg": "си",
+      "tr": "sen",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542394545_3491",
+      "bg": "държава",
+      "tr": "ülke",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542394549_9842",
+      "bg": "българска",
+      "tr": "bulgarca",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542394557_5169",
+      "bg": "те",
+      "tr": "onlara",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542394872_9338",
+      "bg": "райна",
+      "tr": "yağmur",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542394945_281",
+      "bg": "следват",
+      "tr": "takip etmek",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542395469_6071",
+      "bg": "туркиня",
+      "tr": "türk kadını",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542395488_2997",
+      "bg": "турчин",
+      "tr": "bir türk",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542396077_2687",
+      "bg": "филология",
+      "tr": "filoloji",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542396078_1022",
+      "bg": "в",
+      "tr": "c",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542396088_5431",
+      "bg": "тяхната",
+      "tr": "onlarınki",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542396089_2493",
+      "bg": "различни",
+      "tr": "farklı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542396090_60",
+      "bg": "софийски",
+      "tr": "sofya",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542396093_9423",
+      "bg": "климент",
+      "tr": "element",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542396507_3966",
+      "bg": "катедра",
+      "tr": "departman",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542396524_5536",
+      "bg": "учат",
+      "tr": "çalışıyorlar",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542396724_4561",
+      "bg": "охридски“",
+      "tr": "ohri\"",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542396726_2476",
+      "bg": "„свети",
+      "tr": "\"yaktı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542397310_5515",
+      "bg": "сърбия",
+      "tr": "sırbistan",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542397311_8275",
+      "bg": "държави",
+      "tr": "ülkeler",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542397634_5689",
+      "bg": "рускиня",
+      "tr": "rus kadın",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542397698_1465",
+      "bg": "никос",
+      "tr": "nikos",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542397701_5145",
+      "bg": "оля",
+      "tr": "yağ",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542397701_9831",
+      "bg": "румънец",
+      "tr": "romen",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542397702_3616",
+      "bg": "емине",
+      "tr": "emin",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542397908_1591",
+      "bg": "милица",
+      "tr": "milika",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542397908_4566",
+      "bg": "мирча",
+      "tr": "mircha",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542397943_4538",
+      "bg": "националности",
+      "tr": "milliyetler",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542398545_5698",
+      "bg": "но",
+      "tr": "ancak",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542398545_3681",
+      "bg": "македония",
+      "tr": "makedonya",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542398546_8772",
+      "bg": "колеги",
+      "tr": "iş arkadaşları",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542398546_3529",
+      "bg": "имат",
+      "tr": "onlar sahip",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542398548_6522",
+      "bg": "гора",
+      "tr": "orman",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542398549_4025",
+      "bg": "черна",
+      "tr": "siyah",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542399042_9143",
+      "bg": "херцеговина",
+      "tr": "hersek",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542399042_6364",
+      "bg": "деян",
+      "tr": "senet",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542399043_2430",
+      "bg": "словения",
+      "tr": "slovenya",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542399265_1903",
+      "bg": "босна",
+      "tr": "boşnakça",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542399863_6650",
+      "bg": "марина",
+      "tr": "marina",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542399865_8739",
+      "bg": "народност",
+      "tr": "milliyet",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542399868_9454",
+      "bg": "аржентина",
+      "tr": "arjantin",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542399868_519",
+      "bg": "такива",
+      "tr": "çok",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542399868_2887",
+      "bg": "украйна",
+      "tr": "ukrayna",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542399869_217",
+      "bg": "сащ",
+      "tr": "amerika",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542399870_5421",
+      "bg": "мария",
+      "tr": "maria",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542399881_5757",
+      "bg": "някои",
+      "tr": "bazı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542400198_9722",
+      "bg": "джон",
+      "tr": "john",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542400201_5158",
+      "bg": "чужденците",
+      "tr": "yabancılar",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542400799_6316",
+      "bg": "унгария",
+      "tr": "macaristan",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542400801_8679",
+      "bg": "преди",
+      "tr": "önce",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542400802_9863",
+      "bg": "прародители",
+      "tr": "atalar",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542400804_2353",
+      "bg": "много",
+      "tr": "çok fazla",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542400808_5219",
+      "bg": "години",
+      "tr": "yıllar",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542400812_9417",
+      "bg": "дори",
+      "tr": "eşit",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542400841_4602",
+      "bg": "техните",
+      "tr": "onlarınki",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542401010_8922",
+      "bg": "ищван",
+      "tr": "aranan",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542401012_5097",
+      "bg": "емигрирали",
+      "tr": "göç etmiş",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542401012_9589",
+      "bg": "векове",
+      "tr": "yüzyıllar",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542401609_8517",
+      "bg": "останали",
+      "tr": "kaldı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542401610_5354",
+      "bg": "там",
+      "tr": "orası",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542401610_4895",
+      "bg": "ние",
+      "tr": "biz",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542401610_1718",
+      "bg": "още",
+      "tr": "daha",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542401612_7175",
+      "bg": "тези",
+      "tr": "bunlar",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542401615_6773",
+      "bg": "връзка",
+      "tr": "bağlantı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542401619_7",
+      "bg": "други",
+      "tr": "diğerleri",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542401623_2150",
+      "bg": "страни",
+      "tr": "ülkeler",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542401782_994",
+      "bg": "сънародници",
+      "tr": "yurttaşlar",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542402127_4964",
+      "bg": "имаме",
+      "tr": "sahibiz",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542402715_9982",
+      "bg": "париж",
+      "tr": "paris",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542402718_6305",
+      "bg": "говори",
+      "tr": "konuşmak",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542402718_5211",
+      "bg": "германия",
+      "tr": "almanya",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542402721_2840",
+      "bg": "турски",
+      "tr": "türkçe",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542402722_2814",
+      "bg": "австралия",
+      "tr": "avustralya",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542402724_7445",
+      "bg": "родена",
+      "tr": "doğmak",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542402795_4647",
+      "bg": "френски",
+      "tr": "fransızca",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542403429_8556",
+      "bg": "места",
+      "tr": "yer",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542403430_4971",
+      "bg": "канада",
+      "tr": "kanada",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542403434_5139",
+      "bg": "гьозде",
+      "tr": "fındık",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542404028_1847",
+      "bg": "татко",
+      "tr": "baba",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542404029_9537",
+      "bg": "иска",
+      "tr": "istiyor",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542404031_749",
+      "bg": "английски",
+      "tr": "i̇ngilizce",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542404033_3986",
+      "bg": "професия",
+      "tr": "meslek",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542404035_8662",
+      "bg": "учи",
+      "tr": "çalışmak",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542404038_5703",
+      "bg": "като",
+      "tr": "beğenmek",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542404038_1134",
+      "bg": "сега",
+      "tr": "şimdi",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542404040_9721",
+      "bg": "мама",
+      "tr": "anne",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542404504_5688",
+      "bg": "зъболекар",
+      "tr": "dişçi",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542404832_7051",
+      "bg": "стане",
+      "tr": "uyanmak",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542405454_1322",
+      "bg": "добре",
+      "tr": "iyi",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542405458_8208",
+      "bg": "часа",
+      "tr": "saat",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542405459_8349",
+      "bg": "сутрин",
+      "tr": "sabah",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542405461_7408",
+      "bg": "затова",
+      "tr": "öyleyse",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542405465_8685",
+      "bg": "лекции",
+      "tr": "dersler",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542405466_5878",
+      "bg": "има",
+      "tr": "orada",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542405474_643",
+      "bg": "трудно",
+      "tr": "zor",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542405475_654",
+      "bg": "пет",
+      "tr": "beş",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542405497_3884",
+      "bg": "обича",
+      "tr": "seviyor",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542406100_4923",
+      "bg": "стоматология",
+      "tr": "diş hekimliği",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542406692_7804",
+      "bg": "защото",
+      "tr": "çünkü",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542406698_3997",
+      "bg": "слуша",
+      "tr": "dinler",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542406700_3232",
+      "bg": "телевизия",
+      "tr": "televizyon",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542406700_2921",
+      "bg": "между",
+      "tr": "arasında",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542406700_8267",
+      "bg": "отива",
+      "tr": "gitmek",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542406712_8304",
+      "bg": "колегите",
+      "tr": "iş arkadaşları",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542406771_9843",
+      "bg": "гледа",
+      "tr": "görünüyor",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542407072_4649",
+      "bg": "лекциите",
+      "tr": "dersler",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542407162_8669",
+      "bg": "кафето",
+      "tr": "kahve",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542407543_9812",
+      "bg": "почивките",
+      "tr": "tatiller",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542408135_9533",
+      "bg": "град",
+      "tr": "şehir",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542408137_8836",
+      "bg": "бурса",
+      "tr": "bursa",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542408138_3056",
+      "bg": "хората",
+      "tr": "insanlar",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542408141_3198",
+      "bg": "неща",
+      "tr": "şeyler",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542408184_2731",
+      "bg": "момента",
+      "tr": "an",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542408300_1497",
+      "bg": "малко",
+      "tr": "biraz",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542408609_9840",
+      "bg": "четат",
+      "tr": "okudular",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542408919_5978",
+      "bg": "любезни",
+      "tr": "tür",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542408920_6937",
+      "bg": "мурат",
+      "tr": "murat",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542409477_4910",
+      "bg": "радиостанции",
+      "tr": "radyo istasyonları",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542410084_7673",
+      "bg": "може",
+      "tr": "olabilmek",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542410085_9778",
+      "bg": "няма",
+      "tr": "yok",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542410086_838",
+      "bg": "всеки",
+      "tr": "herkes",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542410087_4556",
+      "bg": "книги",
+      "tr": "kitaplar",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542410090_8347",
+      "bg": "време",
+      "tr": "zaman",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542410091_1560",
+      "bg": "следобед",
+      "tr": "öğleden sonra",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542410092_2377",
+      "bg": "ги",
+      "tr": "onlara",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542410093_6592",
+      "bg": "зает",
+      "tr": "meşgul",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542410805_5288",
+      "bg": "такирдаг",
+      "tr": "takırdağ",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542410814_5059",
+      "bg": "антакия",
+      "tr": "antakya",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542411419_6830",
+      "bg": "прочете",
+      "tr": "okumak",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542411428_5369",
+      "bg": "мари",
+      "tr": "mary",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542411428_406",
+      "bg": "италия",
+      "tr": "i̇talya",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542411428_6850",
+      "bg": "приятели",
+      "tr": "arkadaşlar",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542411430_9268",
+      "bg": "русия",
+      "tr": "rusya",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542411638_6319",
+      "bg": "франция",
+      "tr": "fransa",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542411930_1617",
+      "bg": "интензивно",
+      "tr": "yoğun bir şekilde",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542412080_2433",
+      "bg": "французойка",
+      "tr": "fransız kadın",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542412267_8920",
+      "bg": "лучия",
+      "tr": "lucia",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542412268_9994",
+      "bg": "ана",
+      "tr": "anna",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542412858_4338",
+      "bg": "фирма",
+      "tr": "şirket",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542412858_9080",
+      "bg": "компютърен",
+      "tr": "bilgisayarlı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542412859_8890",
+      "bg": "специалист",
+      "tr": "bir uzman",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542412865_6869",
+      "bg": "професии",
+      "tr": "meslekler",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542412865_1161",
+      "bg": "семейство",
+      "tr": "aile",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542412866_4073",
+      "bg": "американец",
+      "tr": "bir amerikalı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542413430_3504",
+      "bg": "секретарка",
+      "tr": "sekreter",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542413908_4399",
+      "bg": "преводачка",
+      "tr": "bir çevirmen",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542413909_5576",
+      "bg": "италианка",
+      "tr": "i̇talyan kadın",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542413910_8403",
+      "bg": "моделиерка",
+      "tr": "modelci",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542414506_4091",
+      "bg": "бизнесмен",
+      "tr": "işadamı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542414506_8753",
+      "bg": "представя",
+      "tr": "hediyeler",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542414506_2910",
+      "bg": "хубаво",
+      "tr": "güzel",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542414507_5530",
+      "bg": "попов",
+      "tr": "popov",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542414509_9038",
+      "bg": "ви",
+      "tr": "sen",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542414526_694",
+      "bg": "госпожо",
+      "tr": "majesteleri",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542414988_5949",
+      "bg": "разрешете",
+      "tr": "izin vermek",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542415052_625",
+      "bg": "преподавателка",
+      "tr": "öğretmen",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542415178_2682",
+      "bg": "инженер",
+      "tr": "bir mühendis",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542415323_2276",
+      "bg": "николова",
+      "tr": "nikolova",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542415922_2613",
+      "bg": "майка",
+      "tr": "anne",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542415939_5717",
+      "bg": "първи",
+      "tr": "birinci",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542415939_1727",
+      "bg": "курс",
+      "tr": "kurs",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542415940_6686",
+      "bg": "екскурзия",
+      "tr": "gezi",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542415940_9945",
+      "bg": "правите",
+      "tr": "yapmalısın",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542415960_3389",
+      "bg": "какво",
+      "tr": "ne",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542416091_1458",
+      "bg": "говорите",
+      "tr": "sen konuş",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542416420_6097",
+      "bg": "следвам",
+      "tr": "takip ederim",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542416732_4652",
+      "bg": "„св",
+      "tr": "\"aziz",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542416733_7935",
+      "bg": "софийския",
+      "tr": "sofya olan",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542417322_8864",
+      "bg": "значи",
+      "tr": "bu yüzden",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542417328_2472",
+      "bg": "станете",
+      "tr": "uyanmak",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542417329_421",
+      "bg": "искате",
+      "tr": "istiyorsun",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542417334_395",
+      "bg": "всъщност",
+      "tr": "aslında",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542417350_1771",
+      "bg": "бъда",
+      "tr": "olmak",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542417355_7492",
+      "bg": "архитект",
+      "tr": "bir mimar",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542417969_8808",
+      "bg": "строителния",
+      "tr": "yapı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542417969_1149",
+      "bg": "институт",
+      "tr": "enstitü",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542417969_644",
+      "bg": "строителен",
+      "tr": "yapı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542417970_9689",
+      "bg": "инженерно",
+      "tr": "mühendislik",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542418560_8054",
+      "bg": "лекарка",
+      "tr": "doktor",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542418563_6450",
+      "bg": "лекар",
+      "tr": "doktor",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542418564_200",
+      "bg": "какви",
+      "tr": "ne",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542418564_3750",
+      "bg": "дядо",
+      "tr": "büyükbaba",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542418567_7553",
+      "bg": "баща",
+      "tr": "baba",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542418568_690",
+      "bg": "моят",
+      "tr": "bana ait",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542418568_6136",
+      "bg": "строител",
+      "tr": "inşaatçı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542418569_5191",
+      "bg": "архитектура",
+      "tr": "mimari",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542418570_4952",
+      "bg": "родителите",
+      "tr": "ebeveynler",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542418576_5514",
+      "bg": "учител",
+      "tr": "bir öğretmen",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542419161_569",
+      "bg": "сестра",
+      "tr": "kız kardeş",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542419164_3995",
+      "bg": "една",
+      "tr": "bir",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542419167_2765",
+      "bg": "учителка",
+      "tr": "bir öğretmen",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542419168_5908",
+      "bg": "искам",
+      "tr": "i̇stiyorum",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542419168_5800",
+      "bg": "стана",
+      "tr": "kalktı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542419168_9924",
+      "bg": "хубава",
+      "tr": "tatlı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542419170_5782",
+      "bg": "литература",
+      "tr": "edebiyat",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542419205_1437",
+      "bg": "болница",
+      "tr": "hastane",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542419430_1467",
+      "bg": "работят",
+      "tr": "çalışıyorlar",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542419430_2116",
+      "bg": "медицинска",
+      "tr": "tıbbi",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542420026_8594",
+      "bg": "счетоводство",
+      "tr": "muhasebe",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542420029_7523",
+      "bg": "бъде",
+      "tr": "olmak",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542420031_4350",
+      "bg": "обаче",
+      "tr": "yine de",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542420033_6933",
+      "bg": "счетоводител",
+      "tr": "muhasebeci",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542420034_8658",
+      "bg": "брат",
+      "tr": "erkek kardeş",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542420036_5417",
+      "bg": "следва",
+      "tr": "takip ediyor",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542420038_3227",
+      "bg": "особено",
+      "tr": "özellikle",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542420075_9092",
+      "bg": "жена",
+      "tr": "bir kadın",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542420487_7567",
+      "bg": "специалност",
+      "tr": "uzmanlık",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542421132_2594",
+      "bg": "икономическия",
+      "tr": "ekonomik",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542421733_6350",
+      "bg": "банкер",
+      "tr": "bankacı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542421735_3267",
+      "bg": "работи",
+      "tr": "çalışır",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542421742_246",
+      "bg": "моята",
+      "tr": "bana ait",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542421743_8235",
+      "bg": "къща",
+      "tr": "bir ev",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542421761_5060",
+      "bg": "или",
+      "tr": "veya",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542422569_7881",
+      "bg": "аранжьор",
+      "tr": "aranjör",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542422570_9135",
+      "bg": "моделиер",
+      "tr": "modelci",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542422570_6824",
+      "bg": "художничка",
+      "tr": "bir sanatçı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542422570_8742",
+      "bg": "мечтае",
+      "tr": "rüyalar",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542422628_6471",
+      "bg": "модна",
+      "tr": "moda",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542423223_4767",
+      "bg": "колежка",
+      "tr": "iş arkadaşı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542423227_1173",
+      "bg": "дизайнер",
+      "tr": "tasarımcı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542423229_6762",
+      "bg": "работя",
+      "tr": "çalışıyorum",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542423235_6171",
+      "bg": "която",
+      "tr": "hangi",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542423237_2137",
+      "bg": "имам",
+      "tr": "bende",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542423246_8484",
+      "bg": "един",
+      "tr": "bir",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542423268_5466",
+      "bg": "после",
+      "tr": "sonrasında",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542423768_8441",
+      "bg": "шивачка",
+      "tr": "terzi",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542424025_8153",
+      "bg": "продавачка",
+      "tr": "bir pazarlamacı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542424026_356",
+      "bg": "свободното",
+      "tr": "ücretsiz",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542424615_766",
+      "bg": "магазин",
+      "tr": "mağaza",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542424616_6277",
+      "bg": "сервитьор",
+      "tr": "garson",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542424616_9537",
+      "bg": "мои",
+      "tr": "bana ait",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542424621_6058",
+      "bg": "облекло",
+      "tr": "giyim",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542424621_5460",
+      "bg": "книжар",
+      "tr": "kitapçı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542424621_4524",
+      "bg": "друг",
+      "tr": "bir diğer",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542424621_8748",
+      "bg": "нощен",
+      "tr": "geceleyin",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542424621_3386",
+      "bg": "пък",
+      "tr": "evet",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542424623_1666",
+      "bg": "ресторант",
+      "tr": "bir restoran",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542424859_1229",
+      "bg": "вестникар",
+      "tr": "gazeteci",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542425460_4090",
+      "bg": "ватман",
+      "tr": "ne adam",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542425460_5758",
+      "bg": "трети",
+      "tr": "üçüncü",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542425468_5498",
+      "bg": "печатница",
+      "tr": "matbaa",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542425474_2329",
+      "bg": "сред",
+      "tr": "arasında",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542425482_2966",
+      "bg": "шофьор",
+      "tr": "sürücü",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542425493_3210",
+      "bg": "две",
+      "tr": "iki",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542425504_1623",
+      "bg": "редактор",
+      "tr": "editör",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542425937_6220",
+      "bg": "таксиметров",
+      "tr": "taksi",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542425939_1091",
+      "bg": "колежките",
+      "tr": "iş arkadaşları",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542425943_5900",
+      "bg": "печатар",
+      "tr": "yazıcı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542426532_436",
+      "bg": "във",
+      "tr": "içinde",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542426532_4261",
+      "bg": "салон",
+      "tr": "salon",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542426536_9784",
+      "bg": "позната",
+      "tr": "aşina",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542426538_3927",
+      "bg": "едната",
+      "tr": "bir",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542426539_8927",
+      "bg": "санитарка",
+      "tr": "hemşire",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542426558_7677",
+      "bg": "другата",
+      "tr": "diğeri",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542426894_2615",
+      "bg": "академия",
+      "tr": "akademi",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542426895_1832",
+      "bg": "фризьорка",
+      "tr": "kuaför",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542426895_4442",
+      "bg": "маникюристка",
+      "tr": "manikürcü",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542426895_6444",
+      "bg": "фризьорски",
+      "tr": "kuaför",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542427483_868",
+      "bg": "вестник",
+      "tr": "gazete",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542427485_8686",
+      "bg": "могат",
+      "tr": "yapabilirler",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542427487_1147",
+      "bg": "градове",
+      "tr": "şehirler",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542427488_8282",
+      "bg": "вече",
+      "tr": "çoktan",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542427492_7233",
+      "bg": "приятелка",
+      "tr": "kız arkadaş",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542427494_9012",
+      "bg": "срещнат",
+      "tr": "tanıştım",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542427743_8006",
+      "bg": "столичен",
+      "tr": "büyükşehir",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542427743_3709",
+      "bg": "големите",
+      "tr": "büyük olanlar",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542427744_8179",
+      "bg": "репортер",
+      "tr": "muhabir",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542427746_8185",
+      "bg": "журналистика",
+      "tr": "gazetecilik",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542428345_6269",
+      "bg": "хора",
+      "tr": "insanlar",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542428348_1166",
+      "bg": "радвам",
+      "tr": "memnun oldum",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542428349_8136",
+      "bg": "скоро",
+      "tr": "yakında",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542428354_7189",
+      "bg": "надявам",
+      "tr": "umarım",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542428355_6869",
+      "bg": "че",
+      "tr": "o",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542428369_5654",
+      "bg": "би",
+      "tr": "istemek",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542428371_1572",
+      "bg": "видим",
+      "tr": "görünür",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542428371_3291",
+      "bg": "запознахме",
+      "tr": "tanıştık",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542428951_4623",
+      "bg": "малък",
+      "tr": "küçük",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542428952_7872",
+      "bg": "светът",
+      "tr": "dünya",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542429548_8132",
+      "bg": "възможност",
+      "tr": "fırsat",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542429550_3977",
+      "bg": "запишете",
+      "tr": "yaz",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542429555_8307",
+      "bg": "ако",
+      "tr": "eğer",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542429555_4777",
+      "bg": "когато",
+      "tr": "ne zaman",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542429558_368",
+      "bg": "елате",
+      "tr": "hadi",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542429560_7292",
+      "bg": "имате",
+      "tr": "var",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542429569_7072",
+      "bg": "гости",
+      "tr": "misafirler",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542429924_180",
+      "bg": "телефона",
+      "tr": "telefon",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542429968_7282",
+      "bg": "обичате",
+      "tr": "seviyorsun",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542429969_6116",
+      "bg": "обадете",
+      "tr": "arama",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542430566_2375",
+      "bg": "грузия",
+      "tr": "georgia",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542430566_7168",
+      "bg": "сирия",
+      "tr": "suriye",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542430566_4227",
+      "bg": "югоизток",
+      "tr": "güneydoğu",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542430568_3647",
+      "bg": "армения",
+      "tr": "ermenistan",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542430569_4442",
+      "bg": "изток",
+      "tr": "doğu",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542430584_523",
+      "bg": "североизток",
+      "tr": "kuzeydoğu",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542430947_7",
+      "bg": "ирак",
+      "tr": "irak",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542430947_6485",
+      "bg": "иран",
+      "tr": "i̇ran",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542430949_5067",
+      "bg": "граничи",
+      "tr": "sınırlar",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542431130_4364",
+      "bg": "северозапад",
+      "tr": "kuzeybatı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542431722_7237",
+      "bg": "север",
+      "tr": "kuzey",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542431723_7307",
+      "bg": "със",
+      "tr": "ile",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542431723_4979",
+      "bg": "черно",
+      "tr": "siyah",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542431727_1449",
+      "bg": "юг",
+      "tr": "güney",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542431733_8688",
+      "bg": "запад",
+      "tr": "batı",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542431743_6284",
+      "bg": "море",
+      "tr": "deniz",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542432365_8313",
+      "bg": "егейско",
+      "tr": "ege",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542432367_4078",
+      "bg": "обградена",
+      "tr": "çevrili",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542432367_8082",
+      "bg": "средиземно",
+      "tr": "akdeniz",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542432367_8983",
+      "bg": "мраморно",
+      "tr": "mermer",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542432952_6824",
+      "bg": "съседи",
+      "tr": "komşular",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542432955_6546",
+      "bg": "нейни",
+      "tr": "onunki",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542432955_2179",
+      "bg": "граница",
+      "tr": "sınır",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542432969_999",
+      "bg": "обща",
+      "tr": "yaygın",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    },
+    {
+      "id": "word_auto_d3_1786542434103_9527",
+      "bg": "румъния",
+      "tr": "romanya",
+      "type": "otomatik",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": []
+    }
+  ]
+}

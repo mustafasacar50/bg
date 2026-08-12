@@ -1,8 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
-const vocabFile = 'src/data/vocabulary/vocab_ders_1_2.json';
-const indexFile = 'src/data/vocabulary/vocab_ders_1_2_index.json';
+const argFile = process.argv[2] || 'vocab_ders_1_2.json';
+const vocabFile = path.join('src/data/vocabulary', argFile);
+const indexFile = path.join('src/data/vocabulary', argFile.replace('.json', '_index.json'));
 
 const data = JSON.parse(fs.readFileSync(vocabFile, 'utf8'));
 const index = {};

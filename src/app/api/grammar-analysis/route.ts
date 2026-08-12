@@ -16,6 +16,7 @@ export async function POST(request: Request) {
     
     const moduleMap: Record<string, string> = {
       "balgoc___Bulgarca_A1_Ders_1_2": "vocab_ders_1_2.json",
+      "balgoc___Bulgarca_A1_Ders_3": "vocab_ders_3.json",
     };
 
     // ONLY analyze words from the actual sentence + answer
