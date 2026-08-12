@@ -445,11 +445,14 @@
         }
       ],
       "pronounForms": {
-        "yalın (sen)": "ти",
-        "belirtme kısa (seni)": "те",
-        "belirtme uzun (seni)": "тебе",
-        "yönelme kısa (sana)": "ти",
-        "yönelme uzun (sana)": "на тебе"
+        "аз": "ми",
+        "ти": "ти",
+        "той": "му",
+        "тя": "ѝ / и",
+        "то": "му",
+        "ние": "ни",
+        "вие": "ви",
+        "те": "им"
       }
     },
     {
@@ -589,11 +592,14 @@
         }
       ],
       "pronounForms": {
-        "yalın (onlar)": "те",
-        "belirtme kısa (onları)": "ги",
-        "belirtme uzun (onları)": "тях",
-        "yönelme kısa (onlara)": "им",
-        "yönelme uzun (onlara)": "на тях"
+        "аз": "ме",
+        "ти": "те",
+        "той": "го",
+        "тя": "я",
+        "то": "го",
+        "ние": "ни",
+        "вие": "ви",
+        "те": "ги"
       }
     },
     {
@@ -1077,16 +1083,16 @@
       "bg": "откъде",
       "tr": "nereden",
       "pronunciation": "otkıde",
-      "type": "zarf",
+      "type": "soru",
       "topic": "topic_questions",
       "examples": [
         {
-          "bg": "Откъде сте?",
-          "tr": "Nerelisiniz? (Neredensiniz?)"
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Откъде</mark> сте?",
+          "tr": "<u>Nereden</u>siniz?"
         },
         {
-          "bg": "Откъде идваш?",
-          "tr": "Nereden geliyorsun?"
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Откъде</mark> идваш?",
+          "tr": "<u>Nereden</u> geliyorsun?"
         }
       ]
     },
@@ -1290,7 +1296,7 @@
       "bg": "и",
       "tr": "ve",
       "pronunciation": "i",
-      "type": "bağlaç",
+      "type": "zamir",
       "topic": "topic_particles",
       "examples": [
         {
@@ -1301,7 +1307,8 @@
           "bg": "Майка ми и баща ми са тук.",
           "tr": "Annem ve babam buradalar."
         }
-      ]
+      ],
+      "notes": "Hem 've' bağlacı hem de 'ona (dişil)' kısa zamiri olarak kullanılabilir."
     },
     {
       "bg": "а",
@@ -1324,14 +1331,15 @@
       "topic": "topic_particles",
       "examples": [
         {
-          "bg": "Аз съм от Турция.",
-          "tr": "Ben Türkiye'denim."
+          "bg": "Аз съм <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">от</mark> България.",
+          "tr": "Ben Bulgaristan'<u>danım</u>."
         },
         {
-          "bg": "Писмо от приятел.",
-          "tr": "Arkadaştan bir mektup."
+          "bg": "Това е писмо <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">от</mark> брат ми.",
+          "tr": "Bu kardeşim<u>den</u> bir mektup."
         }
-      ]
+      ],
+      "notes": "-den / -dan ayrılma hali veya aidiyet bildirir."
     },
     {
       "bg": "в",
@@ -1341,12 +1349,12 @@
       "topic": "topic_particles",
       "examples": [
         {
-          "bg": "Живея в София.",
-          "tr": "Sofya'da yaşıyorum."
+          "bg": "Живея <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">в</mark> София.",
+          "tr": "Sofya'<u>da</u> yaşıyorum."
         },
         {
-          "bg": "Влизам в стаята.",
-          "tr": "Odaya giriyorum."
+          "bg": "Влизам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">в</mark> стаята.",
+          "tr": "Oda<u>ya</u> giriyorum."
         }
       ]
     },
@@ -1358,8 +1366,12 @@
       "topic": "topic_particles",
       "examples": [
         {
-          "bg": "Това е за теб.",
-          "tr": "Bu senin için."
+          "bg": "Това е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">за</mark> теб.",
+          "tr": "Bu senin <u>için</u>."
+        },
+        {
+          "bg": "Заминавам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">за</mark> морето.",
+          "tr": "Deniz<u>e (deniz için)</u> yola çıkıyorum."
         }
       ]
     },
@@ -1371,8 +1383,12 @@
       "topic": "topic_particles",
       "examples": [
         {
-          "bg": "Кафе с мляко.",
-          "tr": "Sütlü (süt ile) kahve."
+          "bg": "Пия кафе <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">с</mark> мляко.",
+          "tr": "Süt<u>lü (süt ile)</u> kahve içiyorum."
+        },
+        {
+          "bg": "Говоря <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">с</mark> приятел.",
+          "tr": "Arkadaşım<u>la</u> konuşuyorum."
         }
       ]
     },
@@ -1384,14 +1400,15 @@
       "topic": "topic_particles",
       "examples": [
         {
-          "bg": "Книгата е на масата.",
-          "tr": "Kitap masanın üzerindedir."
+          "bg": "Отивам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">на</mark> работа.",
+          "tr": "İş<u>e</u> gidiyorum."
         },
         {
-          "bg": "Колата на Иван.",
-          "tr": "İvan'ın arabası."
+          "bg": "Колата <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">на</mark> Иван е нова.",
+          "tr": "İvan'<u>ın</u> arabası yenidir."
         }
-      ]
+      ],
+      "notes": "Yönelme (a/e) veya aidiyet (ın/in) bildirir."
     },
     {
       "bg": "ще",
@@ -6824,9 +6841,24 @@
       "id": "word_auto_1786540681787_4690",
       "bg": "мен",
       "tr": "ben",
-      "type": "otomatik",
+      "type": "zamir",
       "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Това е за <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">мен</mark>.",
+          "tr": "Bu <u>benim</u> içindir."
+        }
+      ],
+      "pronounForms": {
+        "аз": "мен / мене",
+        "ти": "теб / тебе",
+        "той": "него",
+        "тя": "нея",
+        "то": "него",
+        "ние": "нас",
+        "вие": "вас",
+        "те": "тях"
+      }
     },
     {
       "id": "word_auto_1786540681837_9142",

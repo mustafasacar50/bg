@@ -110,7 +110,26 @@
       "tr": "bana / benim",
       "type": "zamir",
       "notes": "1. Tekil şahıs kısa yönelme/iyelik zamiridir. 'Приятно ми е' (Bana hoştur = Memnun oldum).",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Приятно <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ми</mark> е.",
+          "tr": "<u>Bana</u> hoştur (Memnun oldum)."
+        },
+        {
+          "bg": "Дай <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ми</mark> книгата.",
+          "tr": "Kitabı <u>bana</u> ver."
+        }
+      ],
+      "pronounForms": {
+        "аз": "ми",
+        "ти": "ти",
+        "той": "му",
+        "тя": "ѝ / и",
+        "то": "му",
+        "ние": "ни",
+        "вие": "ви",
+        "те": "им"
+      }
     },
     {
       "id": "word_auto_d3_1786542383287_2523",
@@ -132,9 +151,18 @@
       "id": "word_auto_d3_1786542384223_1008",
       "bg": "от",
       "tr": "itibaren",
-      "type": "otomatik",
+      "type": "edat",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Аз съм <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">от</mark> България.",
+          "tr": "Ben Bulgaristan'<u>danım</u>."
+        },
+        {
+          "bg": "Това е писмо <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">от</mark> брат ми.",
+          "tr": "Bu kardeşim<u>den</u> bir mektup."
+        }
+      ]
     },
     {
       "id": "word_auto_d3_1786542384225_4834",
@@ -208,9 +236,18 @@
       "id": "word_auto_d3_1786542384230_5312",
       "bg": "откъде",
       "tr": "nereden",
-      "type": "otomatik",
+      "type": "soru",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Откъде</mark> сте?",
+          "tr": "<u>Nereden</u>siniz?"
+        },
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Откъде</mark> идваш?",
+          "tr": "<u>Nereden</u> geliyorsun?"
+        }
+      ]
     },
     {
       "id": "word_auto_d3_1786542384240_5467",
@@ -325,7 +362,7 @@
       "id": "word_auto_d3_1786542386818_9924",
       "bg": "и",
       "tr": "ve",
-      "type": "otomatik",
+      "type": "zamir",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
       "examples": []
     },
@@ -335,7 +372,22 @@
       "tr": "onu (eril/nötr)",
       "type": "zamir",
       "notes": "3. Tekil şahıs (той/то) için kısa form belirtme halidir (akuzatif). Örn: Познавате ли го? (Onu tanıyor musunuz?)",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Видях <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">го</mark> вчера.",
+          "tr": "Dün <u>onu (erkek)</u> gördüm."
+        }
+      ],
+      "pronounForms": {
+        "аз": "ме",
+        "ти": "те",
+        "той": "го",
+        "тя": "я",
+        "то": "го",
+        "ние": "ни",
+        "вие": "ви",
+        "те": "ги"
+      }
     },
     {
       "id": "word_auto_d3_1786542386834_9503",
@@ -477,9 +529,24 @@
       "id": "word_auto_d3_1786542388630_2660",
       "bg": "ни",
       "tr": "biz",
-      "type": "otomatik",
+      "type": "zamir",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Това е къщата <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ни</mark>.",
+          "tr": "Bu <u>bizim</u> evimizdir."
+        }
+      ],
+      "pronounForms": {
+        "аз": "ми",
+        "ти": "ти",
+        "той": "му",
+        "тя": "ѝ / и",
+        "то": "му",
+        "ние": "ни",
+        "вие": "ви",
+        "те": "им"
+      }
     },
     {
       "id": "word_auto_d3_1786542389223_758",
@@ -603,7 +670,16 @@
       "tr": "üzerinde / -in (tamlayan)",
       "type": "edat",
       "notes": "Bulgarcada ismin halleri olmadığı için iyelik (tamlayan) eki yerine 'на' edatı kullanılır. (örn: катедрата на университета - üniversitenin bölümü).",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Отивам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">на</mark> работа.",
+          "tr": "İş<u>e</u> gidiyorum."
+        },
+        {
+          "bg": "Колата <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">на</mark> Иван е нова.",
+          "tr": "İvan'<u>ın</u> arabası yenidir."
+        }
+      ]
     },
     {
       "id": "word_auto_d3_1786542391403_2190",
@@ -709,7 +785,16 @@
       "tr": "ile",
       "type": "edat",
       "notes": "Birliktelik veya araç bildirir. 'с тях' (onlarla).",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Пия кафе <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">с</mark> мляко.",
+          "tr": "Süt<u>lü (süt ile)</u> kahve içiyorum."
+        },
+        {
+          "bg": "Говоря <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">с</mark> приятел.",
+          "tr": "Arkadaşım<u>la</u> konuşuyorum."
+        }
+      ]
     },
     {
       "id": "word_auto_d3_1786542392297_7778",
@@ -908,9 +993,18 @@
       "id": "word_auto_d3_1786542393929_9173",
       "bg": "за",
       "tr": "için",
-      "type": "otomatik",
+      "type": "edat",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Това е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">за</mark> теб.",
+          "tr": "Bu senin <u>için</u>."
+        },
+        {
+          "bg": "Заминавам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">за</mark> морето.",
+          "tr": "Deniz<u>e (deniz için)</u> yola çıkıyorum."
+        }
+      ]
     },
     {
       "id": "word_auto_d3_1786542393929_8637",
@@ -1036,7 +1130,7 @@
       "id": "word_auto_d3_1786542394557_5169",
       "bg": "те",
       "tr": "onlara",
-      "type": "otomatik",
+      "type": "zamir",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
       "examples": [
         {
@@ -1047,7 +1141,17 @@
           "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Те</mark> четат книги.",
           "tr": "<u>Onlar</u> kitap okuyorlar."
         }
-      ]
+      ],
+      "pronounForms": {
+        "аз": "ме",
+        "ти": "те",
+        "той": "го",
+        "тя": "я",
+        "то": "го",
+        "ние": "ни",
+        "вие": "ви",
+        "те": "ги"
+      }
     },
     {
       "id": "word_auto_d3_1786542394872_9338",
@@ -1152,7 +1256,16 @@
       "tr": "içinde, -de/-da",
       "type": "edat",
       "notes": "Bulunma (lokatif) hali veya yönelme belirtir. 'в София' (Sofya'da), 'в университета' (üniversitede).",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Живея <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">в</mark> София.",
+          "tr": "Sofya'<u>da</u> yaşıyorum."
+        },
+        {
+          "bg": "Влизам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">в</mark> стаята.",
+          "tr": "Oda<u>ya</u> giriyorum."
+        }
+      ]
     },
     {
       "id": "word_auto_d3_1786542396088_5431",
@@ -2619,9 +2732,24 @@
       "id": "word_auto_d3_1786542410092_2377",
       "bg": "ги",
       "tr": "onlara",
-      "type": "otomatik",
+      "type": "zamir",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Чувам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ги</mark>.",
+          "tr": "<u>Onları</u> duyuyorum."
+        }
+      ],
+      "pronounForms": {
+        "аз": "ме",
+        "ти": "те",
+        "той": "го",
+        "тя": "я",
+        "то": "го",
+        "ние": "ни",
+        "вие": "ви",
+        "те": "ги"
+      }
     },
     {
       "id": "word_auto_d3_1786542410093_6592",
@@ -3008,9 +3136,24 @@
       "id": "word_auto_d3_1786542414509_9038",
       "bg": "ви",
       "tr": "sen",
-      "type": "otomatik",
+      "type": "zamir",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Как <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">ви</mark> е името?",
+          "tr": "<u>Sizin</u> adınız nedir?"
+        }
+      ],
+      "pronounForms": {
+        "аз": "ми",
+        "ти": "ти",
+        "той": "му",
+        "тя": "ѝ / и",
+        "то": "му",
+        "ние": "ни",
+        "вие": "ви",
+        "те": "им"
+      }
     },
     {
       "id": "word_auto_d3_1786542414526_694",
