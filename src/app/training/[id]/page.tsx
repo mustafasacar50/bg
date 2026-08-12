@@ -139,12 +139,12 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const adminSearchResults = useMemo(() => {
     if (!adminSearchQuery.trim()) return [];
     const terms = adminSearchQuery.toLowerCase().split(' ').filter(t => t);
-    return sessionQuestions.map((q, idx) => ({ q, idx })).filter(({ q }) => {
+    return filteredQuestions.map((q, idx) => ({ q, idx })).filter(({ q }) => {
       const sentence = (q.sentence || q.display || '').toLowerCase();
       const translation = (q.translation || q.displayParts?.trText || '').toLowerCase();
       return terms.every(term => sentence.includes(term) || translation.includes(term));
     });
-  }, [adminSearchQuery, sessionQuestions]);
+  }, [adminSearchQuery, filteredQuestions]);
 
 
   // Swipe Refs
@@ -1469,19 +1469,29 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
             {adminSearchResults.length === 0 ? (
               <div className="text-center py-4 text-slate-400 text-xs">Sonuç bulunamadı</div>
             ) : (
-              adminSearchResults.map(res => (
-                <button
-                  key={res.idx}
-                  onClick={() => {
-                    setCurrentIndex(res.idx);
-                    setIsAdminSearchOpen(false);
-                  }}
-                  className="w-full text-left p-2 hover:bg-slate-50 rounded-lg text-xs border border-transparent hover:border-slate-100 transition-colors"
-                >
-                  <div className="font-bold text-slate-700 truncate">{res.q.sentence || res.q.display}</div>
-                  <div className="text-slate-500 truncate mt-0.5">{res.q.translation || res.q.displayParts?.trText}</div>
-                </button>
-              ))
+              adminSearchResults.map(res => {
+                let typeLabel = 'Çeviri';
+                if (res.q.type === 'scramble') typeLabel = 'Sıralama';
+                if (res.q.type === 'fitb') typeLabel = 'Boşluk';
+                if (res.q.type === 'matching') typeLabel = 'Eşleştirme';
+                
+                return (
+                  <button
+                    key={res.idx}
+                    onClick={() => {
+                      setCurrentIndex(res.idx);
+                      setIsAdminSearchOpen(false);
+                    }}
+                    className="w-full text-left p-2 hover:bg-slate-50 rounded-lg text-xs border border-transparent hover:border-slate-100 transition-colors"
+                  >
+                    <div className="font-bold text-slate-700 truncate flex items-center gap-1.5">
+                      <span className="bg-slate-200 text-slate-600 px-1.5 py-0.5 rounded text-[9px] font-bold tracking-wider">{typeLabel}</span>
+                      <span>{res.q.sentence || res.q.display}</span>
+                    </div>
+                    <div className="text-slate-500 truncate mt-0.5 pl-[42px]">{res.q.translation || res.q.displayParts?.trText}</div>
+                  </button>
+                );
+              })
             )}
           </div>
         </div>
