@@ -28,8 +28,8 @@ data.words.forEach(w => {
         else if (typeof f === 'object' && f !== null) Object.values(f).forEach(v => addWord(v, base));
     });
     if (w.nounForms) Object.values(w.nounForms).forEach(f => addWord(f, base));
-    if (w.pronounForms) Object.values(w.pronounForms).forEach(f => addWord(f, base));
-    
+    // We intentionally DO NOT index w.pronounForms. 
+    // Short pronouns should only be matched if they appear directly, not reverse-matched from their roots.
     if (w.conjugation) {
         Object.values(w.conjugation).forEach(tense => {
             Object.values(tense).forEach(form => addWord(form, base));

@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const examples = JSON.parse(fs.readFileSync('noun_examples.json', 'utf8'));
+const examples = JSON.parse(fs.readFileSync('noun_examples_v2.json', 'utf8'));
 
 function applyExamplesToFile(filename) {
   const vocab = JSON.parse(fs.readFileSync(filename, 'utf8'));

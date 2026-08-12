@@ -1,0 +1,234 @@
+const fs = require('fs');
+
+const updates = [
+  {
+    bg: "казвам", type: "fiil",
+    examples: [
+      { bg: 'Аз се <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">казвам</mark> Мустафа.', tr: 'Benim adım Mustafa.' },
+      { bg: 'Какво искаш да <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">кажеш</mark>?', tr: 'Ne söylemek istiyorsun?' }
+    ],
+    notes: '"-се" ile kullanıldığında "adım ...", tek başına kullanıldığında "söylemek" anlamına gelir.'
+  },
+  {
+    bg: "учат", type: "fiil",
+    examples: [
+      { bg: 'Те <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">учат</mark> в университета.', tr: 'Onlar üniversitede <u>okuyorlar</u>.' },
+      { bg: 'Децата <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">учат</mark> нов език.', tr: 'Çocuklar yeni bir dil <u>öğreniyorlar</u>.' }
+    ],
+    notes: 'Hem bir okulda "okumak" hem de bir konuyu "öğrenmek" (ders çalışmak) anlamındadır.'
+  },
+  {
+    bg: "имат", type: "fiil",
+    examples: [
+      { bg: 'Те <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">имат</mark> две деца.', tr: 'Onların iki çocuğu <u>var</u> (sahiptirler).' },
+      { bg: 'Студентите <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">имат</mark> изпит утре.', tr: 'Öğrencilerin yarın sınavı <u>var</u>.' }
+    ]
+  },
+  {
+    bg: "емигрирали", type: "fiil",
+    examples: [
+      { bg: 'Те са <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">емигрирали</mark> в Турция.', tr: 'Onlar Türkiye\'ye <u>göç etmişlerdir</u>.' },
+      { bg: 'Много хора са <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">емигрирали</mark> през 1989 година.', tr: '1989 yılında birçok insan <u>göç etmiştir</u>.' }
+    ]
+  },
+  {
+    bg: "останали", type: "fiil",
+    examples: [
+      { bg: 'Някои българи са <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">останали</mark> там.', tr: 'Bazı Bulgarlar orada <u>kalmışlardır</u>.' },
+      { bg: 'Къде са <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">останалите</mark> пари?', tr: '<u>Geriye kalan</u> para nerede?' }
+    ]
+  },
+  {
+    bg: "имаме", type: "fiil",
+    examples: [
+      { bg: 'Ние <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">имаме</mark> нова кола.', tr: 'Yeni bir arabamız <u>var</u>.' },
+      { bg: 'Днес <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">имаме</mark> много работа.', tr: 'Bugün çok işimiz <u>var</u>.' }
+    ]
+  },
+  {
+    bg: "говори", type: "fiil",
+    examples: [
+      { bg: 'Той <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">говори</mark> много бързо.', tr: 'O çok hızlı <u>konuşuyor</u>.' },
+      { bg: 'Тя не <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">говори</mark> български.', tr: 'O Bulgarca <u>konuşmuyor</u>.' }
+    ]
+  },
+  {
+    bg: "иска", type: "fiil",
+    examples: [
+      { bg: 'Той <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">иска</mark> да пие вода.', tr: 'O su içmek <u>istiyor</u>.' },
+      { bg: 'Тя <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">иска</mark> нова чанта.', tr: 'O yeni bir çanta <u>istiyor</u>.' }
+    ]
+  },
+  {
+    bg: "обича", type: "fiil",
+    examples: [
+      { bg: 'Той <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">обича</mark> да чете книги.', tr: 'O kitap okumayı <u>seviyor</u>.' },
+      { bg: 'Тя много <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">обича</mark> котки.', tr: 'O kedileri çok <u>seviyor</u>.' }
+    ]
+  },
+  {
+    bg: "слуша", type: "fiil",
+    examples: [
+      { bg: 'Тя <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">слуша</mark> музика всеки ден.', tr: 'O her gün müzik <u>dinliyor</u>.' },
+      { bg: 'Ученикът не <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">слуша</mark> учителя.', tr: 'Öğrenci öğretmeni <u>dinlemiyor</u>.' }
+    ]
+  },
+  {
+    bg: "отива", type: "fiil",
+    examples: [
+      { bg: 'Той <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">отива</mark> на работа.', tr: 'O işe <u>gidiyor</u>.' },
+      { bg: 'Влакът <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">отива</mark> в София.', tr: 'Tren Sofya\'ya <u>gidiyor</u>.' }
+    ]
+  },
+  {
+    bg: "гледа", type: "fiil",
+    examples: [
+      { bg: 'Тя <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">гледа</mark> телевизия.', tr: 'O televizyon <u>izliyor</u>.' },
+      { bg: 'Моля, <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">гледай</mark> напред!', tr: 'Lütfen önüne <u>bak</u>!' }
+    ]
+  },
+  {
+    bg: "четат", type: "fiil",
+    examples: [
+      { bg: 'Децата <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">четат</mark> приказка.', tr: 'Çocuklar masal <u>okuyorlar</u>.' },
+      { bg: 'Те <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">четат</mark> вестник сутрин.', tr: 'Onlar sabahları gazete <u>okuyorlar</u>.' }
+    ]
+  },
+  {
+    bg: "може", type: "fiil",
+    examples: [
+      { bg: 'Тя <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">може</mark> да плува.', tr: 'O yüz<u>ebilir</u>.' },
+      { bg: '<mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">Може</mark> ли да вляза?', tr: 'Girmem <u>mümkün mü</u>? (Girebilir miyim?)' }
+    ],
+    notes: '"Да" bağlacı ile kullanılarak bir eylemi yapabilme yeteneğini veya ihtimali belirtir.'
+  },
+  {
+    bg: "прочете", type: "fiil",
+    examples: [
+      { bg: 'Искам той да <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">прочете</mark> тази книга.', tr: 'Bu kitabı (tamamen) <u>okumasını</u> istiyorum.' },
+      { bg: 'Кой ще <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">прочете</mark> текста?', tr: 'Metni kim <u>okuyacak</u>?' }
+    ],
+    notes: 'Kusursuz (perfective) fiildir. Bir şeyi baştan sona okuyup bitirme anlamı taşır.'
+  },
+  {
+    bg: "представя", type: "fiil",
+    examples: [
+      { bg: 'Разрешете да ви <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">представя</mark> господин Попов.', tr: 'Size Bay Popov\'u <u>tanıtmama (takdim etmeme)</u> izin verin.' },
+      { bg: 'Тя <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">представя</mark> новия проект.', tr: 'O yeni projeyi <u>sunuyor</u>.' }
+    ]
+  },
+  {
+    bg: "разрешете", type: "fiil",
+    examples: [
+      { bg: '<mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">Разрешете</mark> да мина.', tr: 'Geçmeme <u>izin verin</u>.' },
+      { bg: '<mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">Разрешете</mark> ми да ви помогна.', tr: 'Size yardım etmeme <u>müsaade edin</u>.' }
+    ]
+  },
+  {
+    bg: "стана", type: "fiil",
+    examples: [
+      { bg: 'Искам да <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">стана</mark> лекар.', tr: 'Ben doktor <u>olmak</u> istiyorum.' },
+      { bg: 'Време е да <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">стана</mark>.', tr: '<u>Kalkma (uyanma)</u> zamanı.' }
+    ],
+    notes: 'Bağlama göre meslek sahibi "olmak" veya yataktan/sandalyeden "kalkmak" anlamına gelir.'
+  },
+  {
+    bg: "работя", type: "fiil",
+    examples: [
+      { bg: 'Аз <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">работя</mark> в банка.', tr: 'Ben bankada <u>çalışıyorum</u>.' },
+      { bg: 'От сутрин до вечер <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">работя</mark>.', tr: 'Sabahtan akşama kadar <u>çalışıyorum</u>.' }
+    ]
+  },
+  {
+    bg: "имам", type: "fiil",
+    examples: [
+      { bg: 'Аз <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">имам</mark> един брат.', tr: 'Benim bir erkek kardeşim <u>var</u>.' },
+      { bg: '<mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">Имам</mark> нужда от почивка.', tr: 'Dinlenmeye ihtiyacım <u>var</u>.' }
+    ]
+  },
+  {
+    bg: "могат", type: "fiil",
+    examples: [
+      { bg: 'Те <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">могат</mark> да говорят турски.', tr: 'Onlar Türkçe konuş<u>abilirler</u>.' },
+      { bg: 'Птиците <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">могат</mark> да летят.', tr: 'Kuşlar uç<u>abilir</u>.' }
+    ]
+  },
+  {
+    bg: "срещнат", type: "fiil",
+    examples: [
+      { bg: 'Те може да се <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">срещнат</mark> утре.', tr: 'Onlar yarın <u>karşılaşabilirler</u> (görüşebilirler).' }
+    ]
+  },
+  {
+    bg: "радвам", type: "fiil",
+    examples: [
+      { bg: 'Много се <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">радвам</mark> да те видя.', tr: 'Seni gördüğüme çok <u>seviniyorum</u>.' },
+      { bg: 'Това дете ме <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">радва</mark>.', tr: 'Bu çocuk beni <u>mutlu ediyor (sevindiriyor)</u>.' }
+    ]
+  },
+  {
+    bg: "надявам", type: "fiil",
+    examples: [
+      { bg: '<mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">Надявам</mark> се, че си добре.', tr: 'Umarım iyisindir (İyi olduğunu <u>umuyorum</u>).' },
+      { bg: '<mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">Надяваме</mark> се на хубаво време.', tr: 'Güzel bir hava <u>umut ediyoruz</u>.' }
+    ]
+  },
+  {
+    bg: "видим", type: "fiil",
+    examples: [
+      { bg: 'Нека да <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">видим</mark> какво ще стане.', tr: 'Ne olacağını <u>görelim</u>.' },
+      { bg: 'Ще се <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">видим</mark> ли утре?', tr: 'Yarın <u>görüşecek miyiz (görüşelim mi)</u>?' }
+    ]
+  },
+  {
+    bg: "запознахме", type: "fiil",
+    examples: [
+      { bg: 'Ние се <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">запознахме</mark> в университета.', tr: 'Biz üniversitede <u>tanıştık</u>.' },
+      { bg: 'Приятно ми е, че се <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">запознахме</mark>.', tr: '<u>Tanıştığımıza</u> memnun oldum.' }
+    ]
+  },
+  {
+    bg: "запишете", type: "fiil",
+    examples: [
+      { bg: 'Моля, <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">запишете</mark> си този номер.', tr: 'Lütfen bu numarayı (kendinize) <u>not alın</u>.' },
+      { bg: '<mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">Запишете</mark> адреса на листа.', tr: 'Adresi kağıda <u>yazın</u>.' }
+    ]
+  },
+  {
+    bg: "елате", type: "fiil",
+    examples: [
+      { bg: '<mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">Елате</mark> с нас на кино.', tr: 'Bizimle sinemaya <u>gelin</u>.' },
+      { bg: '<mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">Елате</mark> тук, моля.', tr: 'Lütfen buraya <u>gelin</u>.' }
+    ]
+  },
+  {
+    bg: "имате", type: "fiil",
+    examples: [
+      { bg: 'Вие <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">имате</mark> ли време?', tr: 'Sizin vaktiniz <u>var</u> mı?' },
+      { bg: '<mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">Имате</mark> хубав дом.', tr: 'Güzel bir eviniz <u>var</u>.' }
+    ]
+  },
+  {
+    bg: "обичате", type: "fiil",
+    examples: [
+      { bg: 'Вие <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">обичате</mark> ли кафе?', tr: 'Kahve <u>sever misiniz</u>?' },
+      { bg: 'Знам, че <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">обичате</mark> природата.', tr: 'Doğayı <u>sevdiğinizi</u> biliyorum.' }
+    ]
+  },
+  {
+    bg: "обадете", type: "fiil",
+    examples: [
+      { bg: '<mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">Обадете</mark> ми се утре.', tr: 'Beni yarın <u>arayın (telefonla)</u>.' },
+      { bg: 'Ако имате нужда, <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">обадете</mark> се.', tr: 'İhtiyacınız olursa <u>haber verin / arayın</u>.' }
+    ]
+  },
+  {
+    bg: "граничи", type: "fiil",
+    examples: [
+      { bg: 'България <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">граничи</mark> с Турция.', tr: 'Bulgaristan Türkiye ile <u>sınır komşusudur</u>.' }
+    ],
+    notes: 'Sınır komşusu olmak. "С" (ile) edatıyla kullanılır.'
+  }
+];
+
+fs.writeFileSync('updates_d3_verbs.json', JSON.stringify(updates, null, 2));

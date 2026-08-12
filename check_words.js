@@ -1,0 +1,11 @@
+const fs = require('fs');
+const mini = fs.readFileSync('src/data/vocabulary/mini_dict.ts', 'utf8');
+const v = JSON.parse(fs.readFileSync('src/data/vocabulary/vocab_ders_1_2.json', 'utf8'));
+const vVerbs = v.words.filter(w => w.type === 'fiil' && !w.conjugation);
+const vNouns = v.words.filter(w => w.type === 'isim' && !w.nounForms);
+const mVerbs = [...mini.matchAll(/\"([^\"]+)\":\s*\{\s*tr:[^\}]*type:\s*\"fiil\"/g)].map(m => m[1]);
+const mNouns = [...mini.matchAll(/\"([^\"]+)\":\s*\{\s*tr:[^\}]*type:\s*\"isim\"/g)].map(m => m[1]);
+console.log('Vocab missing verbs:', vVerbs.length, vVerbs.map(v=>v.bg));
+console.log('Vocab missing nouns:', vNouns.length, vNouns.map(v=>v.bg));
+console.log('Mini verbs:', mVerbs.length, mVerbs);
+console.log('Mini nouns:', mNouns.length, mNouns);

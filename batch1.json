@@ -1,0 +1,293 @@
+{
+  "съм": {
+    "type": "fiil",
+    "tr": "olmak (to be)",
+    "conjugation": {
+      "present": {
+        "аз": "съм",
+        "ти": "си",
+        "той/тя/то": "е",
+        "ние": "сме",
+        "вие": "сте",
+        "те": "са"
+      }
+    },
+    "notes": "Bulgarcada isim cümleleri kurarken zorunlu olan 'to be' yardımcı fiilidir."
+  },
+  "е": {
+    "type": "fiil",
+    "tr": "dır/dir (olmak fiili, 3. tekil şahıs)",
+    "conjugation": {
+      "present": {
+        "аз": "съм",
+        "ти": "си",
+        "той/тя/то": "е",
+        "ние": "сме",
+        "вие": "сте",
+        "те": "са"
+      }
+    },
+    "notes": "'съм' (olmak) fiilinin 3. tekil şahıs (o) çekimidir."
+  },
+  "сте": {
+    "type": "fiil",
+    "tr": "sınız/siniz (olmak fiili, 2. çoğul/kibar şahıs)",
+    "conjugation": {
+      "present": {
+        "аз": "съм",
+        "ти": "си",
+        "той/тя/то": "е",
+        "ние": "сме",
+        "вие": "сте",
+        "те": "са"
+      }
+    },
+    "notes": "'съм' (olmak) fiilinin 2. çoğul şahıs (siz) çekimidir."
+  },
+  "казвам": {
+    "type": "fiil",
+    "tr": "demek, söylemek",
+    "conjugation": {
+      "present": {
+        "аз": "казвам",
+        "ти": "казваш",
+        "той/тя/то": "казва",
+        "ние": "казваме",
+        "вие": "казвате",
+        "те": "казват"
+      }
+    },
+    "notes": "'се' dönüşlülük zamiri ile kullanıldığında 'adım ...dır' (kendimi adlandırıyorum) anlamına gelir. Örn: Казвам се Мустафа."
+  },
+  "казвате": {
+    "type": "fiil",
+    "tr": "diyorsunuz, söylüyorsunuz",
+    "conjugation": {
+      "present": {
+        "аз": "казвам",
+        "ти": "казваш",
+        "той/тя/то": "казва",
+        "ние": "казваме",
+        "вие": "казвате",
+        "те": "казват"
+      }
+    },
+    "notes": "казвам fiilinin 2. çoğul (siz) çekimi. 'Как се казвате?' (Adınız nedir/Nasıl adlandırılıyorsunuz?)"
+  },
+  "познавате": {
+    "type": "fiil",
+    "tr": "tanıyorsunuz, biliyorsunuz",
+    "conjugation": {
+      "present": {
+        "аз": "познавам",
+        "ти": "познаваш",
+        "той/тя/то": "познава",
+        "ние": "познаваме",
+        "вие": "познавате",
+        "те": "познават"
+      }
+    },
+    "notes": "познавам (tanımak) fiilinin 2. çoğul (siz) çekimi."
+  },
+  "разбира": {
+    "type": "fiil",
+    "tr": "anlıyor",
+    "conjugation": {
+      "present": {
+        "аз": "разбирам",
+        "ти": "разбираш",
+        "той/тя/то": "разбира",
+        "ние": "разбираме",
+        "вие": "разбирате",
+        "те": "разбират"
+      }
+    },
+    "notes": "разбирам (anlamak) fiilinin 3. tekil (o) çekimi."
+  },
+  "аз": {
+    "type": "zamir",
+    "tr": "ben",
+    "notes": "1. Tekil Şahıs Zamiri (Ben)"
+  },
+  "вие": {
+    "type": "zamir",
+    "tr": "siz",
+    "notes": "2. Çoğul Şahıs Zamiri (Siz). Aynı zamanda kibarlık (formalite) bildirmek için tekil kişilere karşı da kullanılır."
+  },
+  "тя": {
+    "type": "zamir",
+    "tr": "o (dişil)",
+    "notes": "3. Tekil Şahıs Zamiri (Dişil varlıklar veya dişil isimler için kullanılır)"
+  },
+  "той": {
+    "type": "zamir",
+    "tr": "o (eril)",
+    "notes": "3. Tekil Şahıs Zamiri (Eril varlıklar veya eril isimler için kullanılır)"
+  },
+  "го": {
+    "type": "zamir",
+    "tr": "onu (eril/nötr)",
+    "notes": "3. Tekil şahıs (той/то) için kısa form belirtme halidir (akuzatif). Örn: Познавате ли го? (Onu tanıyor musunuz?)"
+  },
+  "ми": {
+    "type": "zamir",
+    "tr": "bana / benim",
+    "notes": "1. Tekil şahıs kısa yönelme/iyelik zamiridir. 'Приятно ми е' (Bana hoştur = Memnun oldum)."
+  },
+  "се": {
+    "type": "zamir",
+    "tr": "kendi kendini (dönüşlülük zamiri)",
+    "notes": "Fiili dönüşlü yapar. 'казвам' (söylüyorum) -> 'казвам се' (kendime söylüyorum = adım şudur)."
+  },
+  "тази": {
+    "type": "sıfat",
+    "tr": "bu (dişil)",
+    "forms": {
+      "eril": "този",
+      "dişil": "тази",
+      "nötr": "това",
+      "çoğul": "тези"
+    },
+    "notes": "Yakındaki dişil bir isme işaret eder. Örn: тази госпожица (bu hanımefendi)."
+  },
+  "това": {
+    "type": "sıfat",
+    "tr": "bu (nötr) / bu şey",
+    "forms": {
+      "eril": "този",
+      "dişil": "тази",
+      "nötr": "това",
+      "çoğul": "тези"
+    },
+    "notes": "Nötr isimleri işaret eder veya genel olarak 'Bu' (This) anlamında bir şeyi işaret etmek için kullanılır. Örn: Това е Джеврие (Bu Cevriye)."
+  },
+  "онзи": {
+    "type": "sıfat",
+    "tr": "şu/o (eril, uzaktaki)",
+    "forms": {
+      "eril": "онзи",
+      "dişil": "онази",
+      "nötr": "онова",
+      "çoğul": "онези"
+    },
+    "notes": "Uzaktaki eril bir isme işaret eder. Örn: онзи господин (şu/o beyefendi)."
+  },
+  "кой": {
+    "type": "zamir",
+    "tr": "kim / hangi (eril)",
+    "forms": {
+      "eril": "кой",
+      "dişil": "коя",
+      "nötr": "кое",
+      "çoğul": "кои"
+    },
+    "notes": "Soru kelimesi. Hem 'Kim' anlamına gelir, hem de 'Hangi (eril)' anlamında kullanılır."
+  },
+  "коя": {
+    "type": "zamir",
+    "tr": "kim / hangi (dişil)",
+    "forms": {
+      "eril": "кой",
+      "dişil": "коя",
+      "nötr": "кое",
+      "çoğul": "кои"
+    },
+    "notes": "Dişil soru kelimesi."
+  },
+  "студент": {
+    "type": "isim",
+    "tr": "üniversite öğrencisi (erkek)",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "студент",
+      "çoğul": "студенти"
+    },
+    "notes": "Sadece üniversite öğrencileri için kullanılır. Okul öğrencisi için 'ученик' denir."
+  },
+  "студентка": {
+    "type": "isim",
+    "tr": "üniversite öğrencisi (kadın)",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "студентка",
+      "çoğul": "студентки"
+    }
+  },
+  "господин": {
+    "type": "isim",
+    "tr": "bey, beyefendi",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "господин",
+      "çoğul": "господа"
+    },
+    "notes": "Çoğulu düzensizdir (господа)."
+  },
+  "госпожица": {
+    "type": "isim",
+    "tr": "hanımefendi (evlenmemiş kadınlar için)",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "госпожица",
+      "çoğul": "госпожици"
+    }
+  },
+  "госпожице": {
+    "type": "isim",
+    "tr": "hanımefendi (hitap hali / vokatif)",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "госпожица",
+      "çoğul": "госпожици"
+    },
+    "notes": "Bulgarcada isimlerin seslenme (vokatif) hali vardır. 'госпожица' ismine seslenirken sonundaki 'а' düşer ve 'е' gelir: Госпожице! (Hanımefendi!)"
+  },
+  "преподавателят": {
+    "type": "isim",
+    "tr": "öğretim görevlisi / hoca (belirli)",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "преподавател",
+      "tekil_belirli": "преподавателят",
+      "çoğul": "преподаватели"
+    },
+    "notes": "Sonundaki '-ят' eki belirli (the) artikelidir."
+  },
+  "добър": {
+    "type": "sıfat",
+    "tr": "iyi",
+    "forms": {
+      "eril": "добър",
+      "dişil": "добра",
+      "nötr": "добро",
+      "çoğul": "добри"
+    },
+    "notes": "Sıfatlar ismin cinsiyetine göre çekimlenir. Örn: добър ден (eril), добра вечер (dişil)."
+  },
+  "български": {
+    "type": "sıfat",
+    "tr": "Bulgar, Bulgarca",
+    "forms": {
+      "eril": "български",
+      "dişil": "българска",
+      "nötr": "българско",
+      "çoğul": "български"
+    },
+    "notes": "Eril ve çoğul formu aynıdır."
+  },
+  "ден": {
+    "type": "isim",
+    "tr": "gün",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "ден",
+      "çoğul": "дни"
+    },
+    "notes": "Çoğulu düzensizdir (дни)."
+  },
+  "приятно": {
+    "type": "zarf",
+    "tr": "hoş, zevkli",
+    "notes": "Приятно ми е (Bana hoştur = Tanıştığıma memnun oldum)."
+  }
+}

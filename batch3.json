@@ -1,0 +1,196 @@
+{
+  "учат": {
+    "type": "fiil",
+    "tr": "öğreniyorlar / okuyorlar",
+    "conjugation": {
+      "present": {
+        "аз": "уча",
+        "ти": "учиш",
+        "той/тя/то": "учи",
+        "ние": "учим",
+        "вие": "учите",
+        "те": "учат"
+      }
+    },
+    "notes": "уча fiili hem 'öğrenmek' (ör: учи български език) hem de 'üniversitede okumak/tahsil görmek' (ör: учи в университета) anlamında kullanılır."
+  },
+  "имат": {
+    "type": "fiil",
+    "tr": "sahiptirler (var)",
+    "conjugation": {
+      "present": {
+        "аз": "имам",
+        "ти": "имаш",
+        "той/тя/то": "има",
+        "ние": "имаме",
+        "вие": "имате",
+        "те": "имат"
+      }
+    },
+    "notes": "имам fiilinin 3. çoğul (onlar) çekimi."
+  },
+  "филология": {
+    "type": "isim",
+    "tr": "filoloji (dil ve edebiyat bilimi)",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "филология",
+      "çoğul": "филологии"
+    }
+  },
+  "в": {
+    "type": "edat",
+    "tr": "içinde, -de/-da",
+    "notes": "Bulunma (lokatif) hali veya yönelme belirtir. 'в София' (Sofya'da), 'в университета' (üniversitede)."
+  },
+  "тяхната": {
+    "type": "zamir",
+    "tr": "onların (dişil, belirli)",
+    "forms": {
+      "eril": "техен",
+      "dişil": "тяхна",
+      "nötr": "тяхно",
+      "çoğul": "техни"
+    },
+    "notes": "техен (onların) iyelik zamirinin dişil ve belirli (the) halidir. Örn: тяхната катедра (onların kürsüsü/bölümü)."
+  },
+  "техните": {
+    "type": "zamir",
+    "tr": "onların (çoğul, belirli)",
+    "forms": {
+      "eril": "техен",
+      "dişil": "тяхна",
+      "nötr": "тяхно",
+      "çoğul": "техни"
+    },
+    "notes": "техен (onların) iyelik zamirinin çoğul belirli (the) formudur. Örn: техните прародители (onların ataları)."
+  },
+  "различни": {
+    "type": "sıfat",
+    "tr": "farklı, çeşitli (çoğul)",
+    "forms": {
+      "eril": "различен",
+      "dişil": "различна",
+      "nötr": "различно",
+      "çoğul": "различни"
+    }
+  },
+  "румънец": {
+    "type": "isim",
+    "tr": "Rumen (erkek)",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "румънец",
+      "çoğul": "румънци"
+    }
+  },
+  "рускиня": {
+    "type": "isim",
+    "tr": "Rus (kadın)",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "рускиня",
+      "çoğul": "рускини"
+    }
+  },
+  "колеги": {
+    "type": "isim",
+    "tr": "meslektaşlar / iş arkadaşları",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "колега",
+      "çoğul": "колеги"
+    },
+    "notes": "'колега' kelimesi 'a' ile bitmesine rağmen çoğunlukla eril kabul edilir (eğer bir erkekten bahsediliyorsa). Ancak hem erkek hem kadın için ortak kullanılabilir."
+  },
+  "но": {
+    "type": "bağlaç",
+    "tr": "ama, fakat",
+    "notes": "Zıtlık bildiren temel bağlaçtır."
+  },
+  "някои": {
+    "type": "zamir",
+    "tr": "bazıları / birtakım (çoğul)",
+    "forms": {
+      "eril": "някой",
+      "dişil": "някоя",
+      "nötr": "някое",
+      "çoğul": "някои"
+    },
+    "notes": "Belgisiz zamir ve sıfat."
+  },
+  "чужденците": {
+    "type": "isim",
+    "tr": "yabancılar (belirli)",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "чужденец",
+      "çoğul": "чужденци",
+      "çoğul_belirli": "чужденците"
+    },
+    "notes": "Yabancı (yabancı ülke vatandaşı) anlamına gelir."
+  },
+  "народност": {
+    "type": "isim",
+    "tr": "milliyet, halk, etnik köken",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "народност",
+      "çoğul": "народности"
+    },
+    "notes": "Sonu sessiz harfle biten istisnai dişil isimlerdendir."
+  },
+  "такива": {
+    "type": "zamir",
+    "tr": "böyleleri, öylesi (çoğul)",
+    "forms": {
+      "eril": "такъв",
+      "dişil": "такава",
+      "nötr": "такова",
+      "çoğul": "такива"
+    },
+    "notes": "İşaret sıfatıdır. 'Böylesi, öylesi' anlamı katar."
+  },
+  "преди": {
+    "type": "edat",
+    "tr": "önce",
+    "notes": "Zaman belirtir. Örn: преди много години (yıllar önce)."
+  },
+  "много": {
+    "type": "zarf",
+    "tr": "çok",
+    "notes": "Miktar veya derece belirtir."
+  },
+  "години": {
+    "type": "isim",
+    "tr": "yıllar",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "година",
+      "çoğul": "години"
+    }
+  },
+  "дори": {
+    "type": "zarf",
+    "tr": "hatta, bile",
+    "notes": "Vurgu katar. Örn: дори векове (hatta yüzyıllar)."
+  },
+  "векове": {
+    "type": "isim",
+    "tr": "yüzyıllar, asırlar",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "век",
+      "çoğul": "векове"
+    }
+  },
+  "прародители": {
+    "type": "isim",
+    "tr": "atalar, büyük ebeveynler",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "прародител",
+      "çoğul": "прародители"
+    }
+  }
+}

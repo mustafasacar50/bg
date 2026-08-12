@@ -1,0 +1,266 @@
+{
+  "говори": {
+    "type": "fiil",
+    "tr": "konuşuyor",
+    "conjugation": {
+      "present": {
+        "аз": "говоря",
+        "ти": "говориш",
+        "той/тя/то": "говори",
+        "ние": "говорим",
+        "вие": "говорите",
+        "те": "говорят"
+      }
+    },
+    "notes": "говоря fiilinin 3. tekil şahıs (o) çekimidir."
+  },
+  "иска": {
+    "type": "fiil",
+    "tr": "istiyor",
+    "conjugation": {
+      "present": {
+        "аз": "искам",
+        "ти": "искаш",
+        "той/тя/то": "иска",
+        "ние": "искаме",
+        "вие": "искате",
+        "те": "искат"
+      }
+    }
+  },
+  "стане": {
+    "type": "fiil",
+    "tr": "olmak / haline gelmek (become)",
+    "conjugation": {
+      "present": {
+        "аз": "стана",
+        "ти": "станеш",
+        "той/тя/то": "стане",
+        "ние": "станем",
+        "вие": "станете",
+        "те": "станат"
+      }
+    },
+    "notes": "'да' edatıyla birlikte sıklıkla 'olmak istemek' anlamında kullanılır (иска да стане - olmak istiyor)."
+  },
+  "учи": {
+    "type": "fiil",
+    "tr": "okuyor / çalışıyor",
+    "conjugation": {
+      "present": {
+        "аз": "уча",
+        "ти": "учиш",
+        "той/тя/то": "учи",
+        "ние": "учим",
+        "вие": "учите",
+        "те": "учат"
+      }
+    },
+    "notes": "уча fiilinin 3. tekil (o) çekimidir."
+  },
+  "обича": {
+    "type": "fiil",
+    "tr": "seviyor",
+    "conjugation": {
+      "present": {
+        "аз": "обичам",
+        "ти": "обичаш",
+        "той/тя/то": "обича",
+        "ние": "обичаме",
+        "вие": "обичате",
+        "те": "обичат"
+      }
+    }
+  },
+  "отива": {
+    "type": "fiil",
+    "tr": "gidiyor",
+    "conjugation": {
+      "present": {
+        "аз": "отивам",
+        "ти": "отиваш",
+        "той/тя/то": "отива",
+        "ние": "отиваме",
+        "вие": "отивате",
+        "те": "отиват"
+      }
+    }
+  },
+  "гледа": {
+    "type": "fiil",
+    "tr": "bakıyor / izliyor",
+    "conjugation": {
+      "present": {
+        "аз": "гледам",
+        "ти": "гледаш",
+        "той/тя/то": "гледа",
+        "ние": "гледаме",
+        "вие": "гледате",
+        "те": "гледат"
+      }
+    },
+    "notes": "Televizyon izlemek (гледам телевизия) veya bir şeye bakmak anlamındadır."
+  },
+  "слуша": {
+    "type": "fiil",
+    "tr": "dinliyor",
+    "conjugation": {
+      "present": {
+        "аз": "слушам",
+        "ти": "слушаш",
+        "той/тя/то": "слуша",
+        "ние": "слушаме",
+        "вие": "слушате",
+        "те": "слушат"
+      }
+    }
+  },
+  "страни": {
+    "type": "isim",
+    "tr": "ülkeler",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "страна",
+      "çoğul": "страни"
+    },
+    "notes": "страна (ülke) isminin çoğuludur."
+  },
+  "връзка": {
+    "type": "isim",
+    "tr": "bağlantı / bağ",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "връзка",
+      "çoğul": "връзки"
+    }
+  },
+  "сънародници": {
+    "type": "isim",
+    "tr": "vatandaşlar, yurttaşlar (aynı milletten olanlar)",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "сънародник",
+      "çoğul": "сънародници"
+    }
+  },
+  "места": {
+    "type": "isim",
+    "tr": "yerler, mekanlar",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "място",
+      "çoğul": "места"
+    },
+    "notes": "място (yer) isminin düzensiz çoğuludur."
+  },
+  "професия": {
+    "type": "isim",
+    "tr": "meslek",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "професия",
+      "çoğul": "професии"
+    }
+  },
+  "зъболекар": {
+    "type": "isim",
+    "tr": "diş hekimi",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "зъболекар",
+      "çoğul": "зъболекари"
+    }
+  },
+  "лекции": {
+    "type": "isim",
+    "tr": "dersler (üniversitede)",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "лекция",
+      "çoğul": "лекции"
+    }
+  },
+  "почивките": {
+    "type": "isim",
+    "tr": "molalar (belirli)",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "почивка",
+      "çoğul": "почивки",
+      "çoğul_belirli": "почивките"
+    }
+  },
+  "кафето": {
+    "type": "isim",
+    "tr": "kafe (belirli)",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "кафе",
+      "tekil_belirli": "кафето"
+    },
+    "notes": "Hem içecek olan 'kahve' hem de mekan olan 'kafe' anlamına gelir."
+  },
+  "други": {
+    "type": "sıfat",
+    "tr": "diğer (çoğul)",
+    "forms": {
+      "eril": "друг",
+      "dişil": "друга",
+      "nötr": "друго",
+      "çoğul": "други"
+    }
+  },
+  "родена": {
+    "type": "sıfat",
+    "tr": "doğmuş (dişil)",
+    "forms": {
+      "eril": "роден",
+      "dişil": "родена",
+      "nötr": "родено",
+      "çoğul": "родени"
+    },
+    "notes": "Dişil bir kişi için 'doğumlu/doğmuş' anlamında kullanılır."
+  },
+  "ние": {
+    "type": "zamir",
+    "tr": "biz",
+    "notes": "1. Çoğul şahıs zamiri."
+  },
+  "там": {
+    "type": "zarf",
+    "tr": "orada / oraya",
+    "notes": "Yer veya yön belirtir."
+  },
+  "още": {
+    "type": "zarf",
+    "tr": "henüz, hala, daha",
+    "notes": "Zaman veya miktar (biraz daha) belirtebilir."
+  },
+  "като": {
+    "type": "edat",
+    "tr": "gibi / olarak",
+    "notes": "Örn: като мама (anne gibi)."
+  },
+  "сега": {
+    "type": "zarf",
+    "tr": "şimdi",
+    "notes": "Zaman zarfıdır."
+  },
+  "трудно": {
+    "type": "zarf",
+    "tr": "zor",
+    "notes": "Durum belirtir."
+  },
+  "затова": {
+    "type": "bağlaç",
+    "tr": "bu yüzden, onun için"
+  },
+  "между": {
+    "type": "edat",
+    "tr": "arasında"
+  },
+  "защото": {
+    "type": "bağlaç",
+    "tr": "çünkü"
+  }
+}

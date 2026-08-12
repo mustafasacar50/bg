@@ -136,8 +136,8 @@ export async function POST(request: Request) {
               if (formsMatch) return true;
             }
             if (w.nounForms && Object.values(w.nounForms).some((f: any) => { const v = hasWholeWord(f, focusText); if(v) matchedBaseWords.add(f.toLowerCase()); return v; })) return true;
-            if (w.pronounForms && Object.values(w.pronounForms).some((f: any) => { const v = hasWholeWord(f, focusText); if(v) matchedBaseWords.add(f.toLowerCase()); return v; })) return true;
-  
+            
+            // We intentionally SKIP w.pronounForms here to prevent reverse-matching (e.g. 'те' triggering 'ги')
             return false;
           });
         }

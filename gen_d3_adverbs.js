@@ -1,0 +1,22 @@
+const fs = require('fs');
+
+const updates = [
+  {
+    bg: "довиждане", type: "zarf",
+    examples: [
+      { bg: 'Благодаря, <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">довиждане</mark>!', tr: 'Teşekkürler, <u>hoşça kalın</u>!' },
+      { bg: 'Ще се видим утре, <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">довиждане</mark>.', tr: 'Yarın görüşürüz, <u>görüşmek üzere</u>.' }
+    ],
+    notes: 'Harfiyen "görüşene kadar" (до виждане) anlamına gelir ve Bulgarcada en yaygın vedalaşma sözcüğüdür.'
+  },
+  {
+    bg: "интензивно", type: "zarf",
+    examples: [
+      { bg: 'Той работи много <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">интензивно</mark>.', tr: 'O çok <u>yoğun (tempolu)</u> çalışıyor.' },
+      { bg: 'Тя учи <mark class="bg-indigo-100/80 text-indigo-700 px-1 rounded">интензивно</mark> за изпита.', tr: 'O, sınav için <u>yoğun bir şekilde</u> ders çalışıyor.' }
+    ],
+    notes: 'Sıfat hali "интензивен" dir.'
+  }
+];
+
+fs.writeFileSync('updates_d3_adverbs.json', JSON.stringify(updates, null, 2));

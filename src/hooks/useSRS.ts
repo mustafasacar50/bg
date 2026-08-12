@@ -19,20 +19,17 @@ export function useSRS() {
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
-    try {
-      const stored = localStorage.getItem('bg_srs_data');
-      if (stored) {
-        setSrsData(JSON.parse(stored));
+    setTimeout(() => {
+      try {
+        const stored = localStorage.getItem('bg_srs_data');
+        if (stored) {
+          setSrsData(JSON.parse(stored));
+        }
+      } catch (e) {
+        console.error('Failed to load SRS data', e);
       }
-    } catch (e) {
-      console.error('Failed to load SRS data', e);
-    }
-    setIsLoaded(true);
-  }, []);
-
-  const saveSrsData = useCallback((newData: Record<string, SRSItem>) => {
-    setSrsData(newData);
-    localStorage.setItem('bg_srs_data', JSON.stringify(newData));
+      setIsLoaded(true);
+    }, 0);
   }, []);
 
   const getNextReviewInterval = useCallback((level: SRSLevel): number => {

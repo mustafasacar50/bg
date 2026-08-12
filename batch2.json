@@ -1,0 +1,312 @@
+{
+  "казва": {
+    "type": "fiil",
+    "tr": "diyor, söylüyor",
+    "conjugation": {
+      "present": {
+        "аз": "казвам",
+        "ти": "казваш",
+        "той/тя/то": "казва",
+        "ние": "казваме",
+        "вие": "казвате",
+        "те": "казват"
+      }
+    },
+    "notes": "казвам fiilinin 3. tekil şahıs (o) çekimi. 'Той се казва...' (Onun adı...)"
+  },
+  "са": {
+    "type": "fiil",
+    "tr": "dırlar/dirler (olmak fiili, 3. çoğul)",
+    "conjugation": {
+      "present": {
+        "аз": "съм",
+        "ти": "си",
+        "той/тя/то": "е",
+        "ние": "сме",
+        "вие": "сте",
+        "те": "са"
+      }
+    },
+    "notes": "съм (olmak) fiilinin 3. çoğul (onlar) çekimi."
+  },
+  "си": {
+    "type": "fiil",
+    "tr": "sın/sin (olmak fiili, 2. tekil)",
+    "conjugation": {
+      "present": {
+        "аз": "съм",
+        "ти": "си",
+        "той/тя/то": "е",
+        "ние": "сме",
+        "вие": "сте",
+        "те": "са"
+      }
+    },
+    "notes": "съм (olmak) fiilinin 2. tekil (sen) çekimi. Ayrıca dönüşlülük iyelik zamiri olarak da kullanılır (kendinin)."
+  },
+  "беше": {
+    "type": "fiil",
+    "tr": "idi (olmak fiili, geçmiş zaman)",
+    "conjugation": {
+      "past_imperfect": {
+        "аз": "бях",
+        "ти": "беше",
+        "той/тя/то": "беше",
+        "ние": "бяхме",
+        "вие": "бяхте",
+        "те": "бяха"
+      }
+    },
+    "notes": "съм (olmak) fiilinin 2. ve 3. tekil şahıs (sen/o) geçmiş zaman (hikaye) çekimi. 'Приятно ми беше' (Benim için zevkti)."
+  },
+  "благодаря": {
+    "type": "fiil",
+    "tr": "teşekkür ederim",
+    "conjugation": {
+      "present": {
+        "аз": "благодаря",
+        "ти": "благодариш",
+        "той/тя/то": "благодари",
+        "ние": "благодарим",
+        "вие": "благодарите",
+        "те": "благодарят"
+      }
+    },
+    "notes": "Genellikle tek başına 'Teşekkürler' anlamında kullanılır."
+  },
+  "запознаем": {
+    "type": "fiil",
+    "tr": "tanıştıralım / tanışalım",
+    "conjugation": {
+      "present": {
+        "аз": "запозная",
+        "ти": "запознаеш",
+        "той/тя/то": "запознае",
+        "ние": "запознаем",
+        "вие": "запознаете",
+        "те": "запознаят"
+      }
+    },
+    "notes": "запозная (tanıştırmak) fiilinin 1. çoğul (biz) çekimi."
+  },
+  "следват": {
+    "type": "fiil",
+    "tr": "üniversite okuyorlar, takip ediyorlar",
+    "conjugation": {
+      "present": {
+        "аз": "следвам",
+        "ти": "следваш",
+        "той/тя/то": "следва",
+        "ние": "следваме",
+        "вие": "следвате",
+        "те": "следват"
+      }
+    },
+    "notes": "следвам fiili hem 'takip etmek' hem de 'üniversitede bir bölüm okumak/tahsil görmek' anlamına gelir."
+  },
+  "господинът": {
+    "type": "isim",
+    "tr": "beyefendi (belirli)",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "господин",
+      "tekil_belirli": "господинът",
+      "çoğul": "господа"
+    },
+    "notes": "Belirli artikel (-ът) almış hali."
+  },
+  "гърция": {
+    "type": "isim",
+    "tr": "Yunanistan",
+    "gender": "dişil"
+  },
+  "албания": {
+    "type": "isim",
+    "tr": "Arnavutluk",
+    "gender": "dişil"
+  },
+  "грък": {
+    "type": "isim",
+    "tr": "Yunan (erkek)",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "грък",
+      "çoğul": "гърци"
+    }
+  },
+  "гъркиня": {
+    "type": "isim",
+    "tr": "Yunan (kadın)",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "гъркиня",
+      "çoğul": "гъркини"
+    }
+  },
+  "албанец": {
+    "type": "isim",
+    "tr": "Arnavut (erkek)",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "албанец",
+      "çoğul": "албанци"
+    }
+  },
+  "българка": {
+    "type": "isim",
+    "tr": "Bulgar (kadın)",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "българка",
+      "çoğul": "българки"
+    }
+  },
+  "турчин": {
+    "type": "isim",
+    "tr": "Türk (erkek)",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "турчин",
+      "çoğul": "турци"
+    }
+  },
+  "туркиня": {
+    "type": "isim",
+    "tr": "Türk (kadın)",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "туркиня",
+      "çoğul": "туркини"
+    }
+  },
+  "националност": {
+    "type": "isim",
+    "tr": "milliyet, uyruk",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "националност",
+      "çoğul": "националности"
+    },
+    "notes": "Sonu sessiz harfle biten istisnai dişil isimlerdendir."
+  },
+  "държава": {
+    "type": "isim",
+    "tr": "devlet, ülke",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "държава",
+      "çoğul": "държави"
+    }
+  },
+  "професорите": {
+    "type": "isim",
+    "tr": "profesörler (belirli)",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "професор",
+      "çoğul": "професори",
+      "çoğul_belirli": "професорите"
+    }
+  },
+  "катедрата": {
+    "type": "isim",
+    "tr": "kürsü, bölüm (belirli)",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "катедра",
+      "tekil_belirli": "катедрата",
+      "çoğul": "катедри"
+    }
+  },
+  "езици": {
+    "type": "isim",
+    "tr": "diller",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "език",
+      "çoğul": "езици"
+    },
+    "notes": "език (dil) isminin çoğuludur."
+  },
+  "университет": {
+    "type": "isim",
+    "tr": "üniversite",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "университет",
+      "çoğul": "университети"
+    }
+  },
+  "информацията": {
+    "type": "isim",
+    "tr": "bilgi (belirli)",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "информация",
+      "tekil_belirli": "информацията",
+      "çoğul": "информации"
+    }
+  },
+  "какъв": {
+    "type": "sıfat",
+    "tr": "nasıl bir, ne (eril)",
+    "forms": {
+      "eril": "какъв",
+      "dişil": "каква",
+      "nötr": "какво",
+      "çoğul": "какви"
+    },
+    "notes": "Soru sıfatıdır. İsmin cinsiyetine göre çekimlenir."
+  },
+  "каква": {
+    "type": "sıfat",
+    "tr": "nasıl bir, ne (dişil)",
+    "forms": {
+      "eril": "какъв",
+      "dişil": "каква",
+      "nötr": "какво",
+      "çoğul": "какви"
+    },
+    "notes": "Dişil soru sıfatı."
+  },
+  "балкански": {
+    "type": "sıfat",
+    "tr": "Balkan",
+    "forms": {
+      "eril": "балкански",
+      "dişil": "балканска",
+      "nötr": "балканско",
+      "çoğul": "балкански"
+    }
+  },
+  "приятен": {
+    "type": "sıfat",
+    "tr": "hoş, keyifli",
+    "forms": {
+      "eril": "приятен",
+      "dişil": "приятна",
+      "nötr": "приятно",
+      "çoğul": "приятни"
+    }
+  },
+  "него": {
+    "type": "zamir",
+    "tr": "onu / ona (eril/nötr uzun form)",
+    "notes": "3. tekil şahıs (той/то) uzun (vurgulu) belirtme zamiridir. Genellikle edatlardan sonra kullanılır (до него - onun yanına)."
+  },
+  "тях": {
+    "type": "zamir",
+    "tr": "onları / onlara (uzun form)",
+    "notes": "3. çoğul şahıs (те) uzun belirtme zamiridir. Edatlardan sonra kullanılır (с тях - onlarla)."
+  },
+  "на": {
+    "type": "edat",
+    "tr": "üzerinde / -in (tamlayan)",
+    "notes": "Bulgarcada ismin halleri olmadığı için iyelik (tamlayan) eki yerine 'на' edatı kullanılır. (örn: катедрата на университета - üniversitenin bölümü)."
+  },
+  "с": {
+    "type": "edat",
+    "tr": "ile",
+    "notes": "Birliktelik veya araç bildirir. 'с тях' (onlarla)."
+  }
+}

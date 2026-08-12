@@ -1,0 +1,454 @@
+[
+  {
+    "bg": "имам",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">имам</mark> един въпрос.",
+        "tr": "Benim bir sorum <u>var</u>."
+      },
+      {
+        "bg": "Тя няма време, но аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">имам</mark>.",
+        "tr": "Onun vakti yok, ama benim <u>var</u>."
+      }
+    ]
+  },
+  {
+    "bg": "работя",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">работя</mark> всеки ден.",
+        "tr": "Ben her gün <u>çalışıyorum</u>."
+      },
+      {
+        "bg": "Къде <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">работиш</mark>?",
+        "tr": "Nerede <u>çalışıyorsun</u>?"
+      }
+    ]
+  },
+  {
+    "bg": "успея",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Надявам се да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">успея</mark>.",
+        "tr": "<u>Başaracağımı (Yetişeceğimi)</u> umuyorum."
+      },
+      {
+        "bg": "Той ще <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">успее</mark> на изпита.",
+        "tr": "O sınavda <u>başarılı olacak</u>."
+      }
+    ]
+  },
+  {
+    "bg": "изкача",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Искам да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">изкача</mark> върха.",
+        "tr": "Zirveye <u>çıkmak/tırmanmak</u> istiyorum."
+      },
+      {
+        "bg": "Тя ще <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">изкачи</mark> стълбите.",
+        "tr": "O merdivenleri <u>çıkacak</u>."
+      }
+    ]
+  },
+  {
+    "bg": "запозная се",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Искам да се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">запозная</mark> с вас.",
+        "tr": "Sizinle <u>tanışmak</u> istiyorum."
+      },
+      {
+        "bg": "Ще се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">запознаем</mark> утре.",
+        "tr": "Yarın <u>tanışacağız</u>."
+      }
+    ],
+    "notes": "Dönüşlü bir fiildir (-се). Birisiyle tanışmak anlamında \"с\" (ile) edatı alır."
+  },
+  {
+    "bg": "обадя се",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Ще ти се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">обадя</mark> довечера.",
+        "tr": "Bu akşam seni <u>arayacağım (telefonla)</u>."
+      },
+      {
+        "bg": "Може ли да се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">обадя</mark>?",
+        "tr": "<u>Arayabilir</u> miyim?"
+      }
+    ]
+  },
+  {
+    "bg": "извиня се",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Искам да се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">извиня</mark>.",
+        "tr": "<u>Özür dilemek</u> istiyorum."
+      },
+      {
+        "bg": "Той трябва да се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">извини</mark>.",
+        "tr": "O <u>özür dilemeli</u>."
+      }
+    ],
+    "notes": "\"На\" (kime) edatıyla kullanılır: извиня се на някого (birinden özür dilemek)."
+  },
+  {
+    "bg": "разреша",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Няма да ти <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">разреша</mark>.",
+        "tr": "Sana <u>izin vermeyeceğim</u>."
+      },
+      {
+        "bg": "Трябва да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">разрешим</mark> проблема.",
+        "tr": "Problemi <u>çözmeliyiz</u>."
+      }
+    ],
+    "notes": "Bağlama göre \"izin vermek\" veya bir sorunu \"çözmek\" anlamlarına gelir."
+  },
+  {
+    "bg": "представя се",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Нека да се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">представя</mark>.",
+        "tr": "Kendimi <u>tanıtayım (takdim edeyim)</u>."
+      },
+      {
+        "bg": "Тя се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">представи</mark> отлично.",
+        "tr": "O kendini harika <u>tanıttı (sundu)</u>."
+      }
+    ]
+  },
+  {
+    "bg": "срещна",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Ще го <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">срещна</mark> на гарата.",
+        "tr": "Onu garda <u>karşılayacağım (buluşacağım)</u>."
+      },
+      {
+        "bg": "Искам да те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">срещна</mark>.",
+        "tr": "Seninle <u>buluşmak</u> istiyorum."
+      }
+    ],
+    "notes": "Kusursuz (perfective) fiildir. Bir defalık karşılaşma veya buluşmayı ifade eder."
+  },
+  {
+    "bg": "срещам",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Често го <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">срещам</mark> тук.",
+        "tr": "Onunla sık sık burada <u>karşılaşıyorum</u>."
+      },
+      {
+        "bg": "Аз се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">срещам</mark> с приятели.",
+        "tr": "Ben arkadaşlarımla <u>buluşuyorum</u>."
+      }
+    ],
+    "notes": "Kusurlu (imperfective) fiildir. Süreklilik arz eden veya tekrarlanan karşılaşmaları ifade eder."
+  },
+  {
+    "bg": "може",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Може</mark> ли да седна?",
+        "tr": "Otur<u>abilir</u> miyim?"
+      },
+      {
+        "bg": "Тя не <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">може</mark> да дойде.",
+        "tr": "O gele<u>mez</u>."
+      }
+    ]
+  },
+  {
+    "bg": "казвам",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">казвам</mark> истината.",
+        "tr": "Ben gerçeği <u>söylüyorum</u>."
+      },
+      {
+        "bg": "Какво <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">казваш</mark>?",
+        "tr": "Ne <u>diyorsun</u>?"
+      }
+    ]
+  },
+  {
+    "bg": "кажа",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Искам да ти <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">кажа</mark> нещо.",
+        "tr": "Sana bir şey <u>söylemek</u> istiyorum."
+      },
+      {
+        "bg": "Ще му <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">кажа</mark> утре.",
+        "tr": "Ona yarın <u>söyleyeceğim</u>."
+      }
+    ],
+    "notes": "Kusursuz (perfective) fiildir. \"Казвам\" (söylemek) fiilinin bir kerede biten halidir."
+  },
+  {
+    "bg": "чакам",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Аз те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">чакам</mark> пред вратата.",
+        "tr": "Seni kapının önünde <u>bekliyorum</u>."
+      },
+      {
+        "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Чакам</mark> автобуса.",
+        "tr": "Otobüsü <u>bekliyorum</u>."
+      }
+    ]
+  },
+  {
+    "bg": "надявам се",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Аз се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">надявам</mark> да спечелим.",
+        "tr": "Kazanacağımızı <u>umuyorum</u>."
+      },
+      {
+        "bg": "Тя се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">надява</mark> на чудо.",
+        "tr": "O bir mucize <u>umuyor</u>."
+      }
+    ]
+  },
+  {
+    "bg": "познавам",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Аз го <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">познавам</mark> много добре.",
+        "tr": "Ben onu çok iyi <u>tanıyorum</u>."
+      },
+      {
+        "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Познавате</mark> ли се?",
+        "tr": "Birbirinizi <u>tanıyor musunuz</u>?"
+      }
+    ]
+  },
+  {
+    "bg": "започвам",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">започвам</mark> работа в осем.",
+        "tr": "Ben saat sekizde işe <u>başlıyorum</u>."
+      },
+      {
+        "bg": "Филмът <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">започва</mark> сега.",
+        "tr": "Film şimdi <u>başlıyor</u>."
+      }
+    ]
+  },
+  {
+    "bg": "поздравявам",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Аз ви <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">поздравявам</mark> за успеха.",
+        "tr": "Başarınızdan dolayı sizi <u>tebrik ediyorum</u>."
+      },
+      {
+        "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">поздравява</mark> всички.",
+        "tr": "O herkesi <u>selamlıyor</u>."
+      }
+    ],
+    "notes": "Bağlama göre \"selamlamak\" veya \"tebrik etmek\" anlamına gelir."
+  },
+  {
+    "bg": "ела",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Ела</mark> тук!",
+        "tr": "Buraya <u>gel</u>!"
+      },
+      {
+        "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Ела</mark> с мен.",
+        "tr": "Benimle <u>gel</u>."
+      }
+    ],
+    "notes": "\"Идвам\" (gelmek) fiilinin emir kipidir (Sen gel)."
+  },
+  {
+    "bg": "простя",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Моля те да ми <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">простиш</mark>.",
+        "tr": "Beni <u>affetmeni</u> rica ediyorum."
+      },
+      {
+        "bg": "Няма да ти <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">простя</mark>.",
+        "tr": "Seni <u>affetmeyeceğim</u>."
+      }
+    ]
+  },
+  {
+    "bg": "предам",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Ще ти <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">предам</mark> съобщението.",
+        "tr": "Mesajı sana <u>ileteceğim (vereceğim)</u>."
+      },
+      {
+        "bg": "Искам да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">предам</mark> поздрави.",
+        "tr": "Selam <u>iletmek</u> istiyorum."
+      }
+    ]
+  },
+  {
+    "bg": "чувам",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Аз не те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">чувам</mark>.",
+        "tr": "Ben seni <u>duymuyorum</u>."
+      },
+      {
+        "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Чуваш</mark> ли ме?",
+        "tr": "Beni <u>duyuyor musun</u>?"
+      }
+    ],
+    "notes": "Kusurlu (imperfective) fiildir. Sürekli olarak \"duymak, işitmek\" anlamındadır."
+  },
+  {
+    "bg": "чуя",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Искам да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">чуя</mark> гласа ти.",
+        "tr": "Sesini <u>duymak</u> istiyorum."
+      },
+      {
+        "bg": "Дано да те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">чуе</mark>.",
+        "tr": "Umarım seni <u>duyar</u>."
+      }
+    ],
+    "notes": "Kusursuz (perfective) fiildir. Bir defaya mahsus \"duyup algılamak\" anlamındadır."
+  },
+  {
+    "bg": "позволя",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Няма да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">позволя</mark> това.",
+        "tr": "Buna <u>izin vermeyeceğim</u>."
+      },
+      {
+        "bg": "Ще ми <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">позволиш</mark> ли?",
+        "tr": "Bana <u>müsaade edecek misin</u>?"
+      }
+    ]
+  },
+  {
+    "bg": "бъда",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Искам да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">бъда</mark> с теб.",
+        "tr": "Seninle <u>olmak</u> istiyorum."
+      },
+      {
+        "bg": "Ще <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">бъда</mark> там утре.",
+        "tr": "Yarın orada <u>olacağım</u>."
+      }
+    ],
+    "notes": "\"Съм\" (olmak) fiilinin gelecek zaman ve istek kiplerinde kullanılan (mükemmel/kusursuz) köküdür."
+  },
+  {
+    "bg": "напиша",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Трябва да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">напиша</mark> писмо.",
+        "tr": "Bir mektup <u>yazmalıyım (yazıp bitirmeliyim)</u>."
+      },
+      {
+        "bg": "Ще <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">напиша</mark> домашното.",
+        "tr": "Ödevi <u>yazacağım</u>."
+      }
+    ],
+    "notes": "Kusursuz (perfective) fiildir. Başlayıp bitirilen yazma eylemini ifade eder."
+  },
+  {
+    "bg": "видя",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Искам да те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">видя</mark>.",
+        "tr": "Seni <u>görmek</u> istiyorum."
+      },
+      {
+        "bg": "Ще <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">видя</mark> какво мога да направя.",
+        "tr": "Ne yapabileceğimi <u>göreceğim (bakacağım)</u>."
+      }
+    ]
+  },
+  {
+    "bg": "запознахме",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Ние се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">запознахме</mark> вчера.",
+        "tr": "Biz dün <u>tanıştık</u>."
+      },
+      {
+        "bg": "Къде се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">запознахте</mark>?",
+        "tr": "Nerede <u>tanıştınız</u>?"
+      }
+    ]
+  },
+  {
+    "bg": "радвам",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Това ме <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">радва</mark>.",
+        "tr": "Bu beni <u>sevindiriyor</u>."
+      },
+      {
+        "bg": "Много се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">радвам</mark>.",
+        "tr": "Çok <u>seviniyorum</u>."
+      }
+    ]
+  },
+  {
+    "bg": "надявам",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Аз се <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">надявам</mark> на успех.",
+        "tr": "Ben başarı <u>umuyorum</u>."
+      }
+    ]
+  },
+  {
+    "bg": "запишете",
+    "type": "fiil",
+    "examples": [
+      {
+        "bg": "Моля, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">запишете</mark> адреса.",
+        "tr": "Lütfen adresi <u>not alın</u>."
+      }
+    ]
+  }
+]

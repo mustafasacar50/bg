@@ -1,0 +1,560 @@
+{
+  "говорите": {
+    "type": "fiil",
+    "tr": "konuşuyorsunuz",
+    "conjugation": {
+      "present": {
+        "аз": "говоря",
+        "ти": "говориш",
+        "той/тя/то": "говори",
+        "ние": "говорим",
+        "вие": "говорите",
+        "те": "говорят"
+      }
+    },
+    "examples": [
+      { "bg": "Вие <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">говорите</mark> ли английски?", "tr": "Siz İngilizce <u>konuşuyor musunuz</u>?" },
+      { "bg": "Защо <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">говорите</mark> толкова бързо?", "tr": "Neden bu kadar hızlı <u>konuşuyorsunuz</u>?" }
+    ]
+  },
+  "правите": {
+    "type": "fiil",
+    "tr": "yapıyorsunuz",
+    "conjugation": {
+      "present": {
+        "аз": "правя",
+        "ти": "правиш",
+        "той/тя/то": "прави",
+        "ние": "правим",
+        "вие": "правите",
+        "те": "правят"
+      }
+    },
+    "examples": [
+      { "bg": "Какво <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">правите</mark> тук?", "tr": "Burada ne <u>yapıyorsunuz</u>?" },
+      { "bg": "Вие <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">правите</mark> страхотно кафе.", "tr": "Siz harika kahve <u>yapıyorsunuz</u>." }
+    ]
+  },
+  "майка": {
+    "type": "isim",
+    "tr": "anne",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "майка",
+      "çoğul": "майки"
+    },
+    "examples": [
+      { "bg": "Моята <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">майка</mark> е учителка.", "tr": "Benim <u>annem</u> öğretmendir." },
+      { "bg": "Тя е добра <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">майка</mark>.", "tr": "O iyi bir <u>annedir</u>." }
+    ]
+  },
+  "екскурзия": {
+    "type": "isim",
+    "tr": "gezi, tur",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "екскурзия",
+      "çoğul": "екскурзии"
+    },
+    "examples": [
+      { "bg": "Отиваме на <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">екскурзия</mark> в планината.", "tr": "Dağa <u>geziye</u> gidiyoruz." },
+      { "bg": "Тази <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">екскурзия</mark> беше много интересна.", "tr": "Bu <u>tur/gezi</u> çok ilginçti." }
+    ]
+  },
+  "следвам": {
+    "type": "fiil",
+    "tr": "tahsil görmek (üniversite), takip etmek",
+    "conjugation": {
+      "present": {
+        "аз": "следвам",
+        "ти": "следваш",
+        "той/тя/то": "следва",
+        "ние": "следваме",
+        "вие": "следвате",
+        "те": "следват"
+      }
+    },
+    "notes": "Hem birini/bir şeyi fiziksel olarak 'takip etmek' hem de üniversitede bir bölüm 'okumak/tahsil görmek' anlamında kullanılır.",
+    "examples": [
+      { "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">следвам</mark> медицина.", "tr": "Ben tıp <u>okuyorum/tahsil ediyorum</u>." },
+      { "bg": "Моля, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">следвайте</mark> ме.", "tr": "Lütfen beni <u>takip edin</u>." }
+    ]
+  },
+  "курс": {
+    "type": "isim",
+    "tr": "kurs, sınıf, üniversitedeki yıl (sınıf)",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "курс",
+      "çoğul": "курсове"
+    },
+    "examples": [
+      { "bg": "Аз съм студент в първи <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">курс</mark>.", "tr": "Ben birinci <u>sınıfta/yılda</u> öğrenciyim." },
+      { "bg": "Ходя на <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">курс</mark> по английски.", "tr": "İngilizce <u>kursuna</u> gidiyorum." }
+    ]
+  },
+  "първи": {
+    "type": "sıfat",
+    "tr": "birinci (eril, çoğul)",
+    "forms": {
+      "eril": "първи",
+      "dişil": "първа",
+      "nötr": "първо",
+      "çoğul": "първи"
+    },
+    "examples": [
+      { "bg": "Това е моят <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">първи</mark> ден тук.", "tr": "Bu benim buradaki <u>birinci (ilk)</u> günüm." },
+      { "bg": "Ние сме на <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">първия</mark> етаж.", "tr": "Biz <u>birinci</u> kattayız." }
+    ]
+  },
+  "институт": {
+    "type": "isim",
+    "tr": "enstitü",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "институт",
+      "çoğul": "институти"
+    },
+    "examples": [
+      { "bg": "Тя работи в изследователски <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">институт</mark>.", "tr": "O araştırma <u>enstitüsünde</u> çalışıyor." }
+    ]
+  },
+  "значи": {
+    "type": "zarf",
+    "tr": "demek ki, yani",
+    "examples": [
+      { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Значи</mark> ти си новият студент?", "tr": "<u>Demek ki</u> sen yeni öğrencisin?" },
+      { "bg": "Това <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">значи</mark> много за мен.", "tr": "Bu benim için çok şey <u>ifade ediyor / anlama geliyor</u>." }
+    ]
+  },
+  "искате": {
+    "type": "fiil",
+    "tr": "istiyorsunuz",
+    "conjugation": {
+      "present": {
+        "аз": "искам",
+        "ти": "искаш",
+        "той/тя/то": "иска",
+        "ние": "искаме",
+        "вие": "искате",
+        "те": "искат"
+      }
+    },
+    "examples": [
+      { "bg": "Какво <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">искате</mark> да пиете?", "tr": "Ne içmek <u>istiyorsunuz</u>?" },
+      { "bg": "Вие <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">искате</mark> ли почивка?", "tr": "Siz mola <u>istiyor musunuz</u>?" }
+    ]
+  },
+  "станете": {
+    "type": "fiil",
+    "tr": "olursunuz (haline gelmek), kalkarsınız",
+    "conjugation": {
+      "present": {
+        "аз": "стана",
+        "ти": "станеш",
+        "той/тя/то": "стане",
+        "ние": "станем",
+        "вие": "станете",
+        "те": "станат"
+      }
+    },
+    "examples": [
+      { "bg": "Искате да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">станете</mark> лекар?", "tr": "Doktor <u>olmak</u> mı istiyorsunuz?" },
+      { "bg": "Моля, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">станете</mark>.", "tr": "Lütfen <u>ayağa kalkın</u>." }
+    ]
+  },
+  "бъда": {
+    "type": "fiil",
+    "tr": "olmak (to be - gelecek/dilek kipi formu)",
+    "conjugation": {
+      "present": {
+        "аз": "бъда",
+        "ти": "бъдеш",
+        "той/тя/то": "бъде",
+        "ние": "бъдем",
+        "вие": "бъдете",
+        "те": "бъдат"
+      }
+    },
+    "notes": "съм (olmak) fiilinin gelecek zaman ve dilek kipinde (da-cümleciklerinde) kullanılan şeklidir.",
+    "examples": [
+      { "bg": "Искам да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">бъда</mark> архитект.", "tr": "Mimar <u>olmak</u> istiyorum." },
+      { "bg": "Ще <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">бъда</mark> там в 5 часа.", "tr": "Saat 5'te orada <u>olacağım</u>." }
+    ]
+  },
+  "архитект": {
+    "type": "isim",
+    "tr": "mimar",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "архитект",
+      "çoğul": "архитекти"
+    },
+    "examples": [
+      { "bg": "Моят баща е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">архитект</mark>.", "tr": "Benim babam bir <u>mimardır</u>." }
+    ]
+  },
+  "всъщност": {
+    "type": "zarf",
+    "tr": "aslında",
+    "examples": [
+      { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Всъщност</mark>, аз не знам.", "tr": "<u>Aslında</u>, ben bilmiyorum." },
+      { "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">всъщност</mark> е много добър човек.", "tr": "O <u>aslında</u> çok iyi bir insandır." }
+    ]
+  },
+  "архитектура": {
+    "type": "isim",
+    "tr": "mimarlık, mimari",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "архитектура",
+      "çoğul": "архитектури"
+    },
+    "examples": [
+      { "bg": "Уча <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">архитектура</mark> в университета.", "tr": "Üniversitede <u>mimarlık</u> okuyorum." }
+    ]
+  },
+  "родителите": {
+    "type": "isim",
+    "tr": "ebeveynler (belirli)",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "родител",
+      "çoğul": "родители",
+      "çoğul_belirli": "родителите"
+    },
+    "examples": [
+      { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Родителите</mark> ми живеят в Пловдив.", "tr": "<u>Ebeveynlerim</u> (annem ve babam) Filibe'de yaşıyor." }
+    ]
+  },
+  "баща": {
+    "type": "isim",
+    "tr": "baba",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "баща",
+      "çoğul": "бащи"
+    },
+    "notes": "Sonu 'а' veya 'я' ile biten eril isimlerden biridir (tıpkı съдия, дядо gibi düzensiz görünse de eril kabul edilir).",
+    "examples": [
+      { "bg": "Неговият <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">баща</mark> е лекар.", "tr": "Onun <u>babası</u> doktordur." },
+      { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Баща</mark> ми работи в болница.", "tr": "Benim <u>babam</u> hastanede çalışıyor." }
+    ]
+  },
+  "учител": {
+    "type": "isim",
+    "tr": "öğretmen (erkek)",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "учител",
+      "çoğul": "учители"
+    },
+    "examples": [
+      { "bg": "Той е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">учител</mark> по математика.", "tr": "O matematik <u>öğretmenidir</u>." }
+    ]
+  },
+  "лекарка": {
+    "type": "isim",
+    "tr": "doktor (kadın)",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "лекарка",
+      "çoğul": "лекарки"
+    },
+    "examples": [
+      { "bg": "Майка ми е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">лекарка</mark>.", "tr": "Annem <u>kadın doktordur</u>." }
+    ]
+  },
+  "дядо": {
+    "type": "isim",
+    "tr": "dede",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "дядо",
+      "çoğul": "дядовци"
+    },
+    "examples": [
+      { "bg": "Моят <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">дядо</mark> е на 80 години.", "tr": "Benim <u>dedem</u> 80 yaşındadır." }
+    ]
+  },
+  "строител": {
+    "type": "isim",
+    "tr": "inşaatçı",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "строител",
+      "çoğul": "строители"
+    },
+    "examples": [
+      { "bg": "Той работи като <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">строител</mark>.", "tr": "O <u>inşaatçı</u> olarak çalışıyor." }
+    ]
+  },
+  "моят": {
+    "type": "zamir",
+    "tr": "benim (eril, belirli)",
+    "examples": [
+      { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Моят</mark> брат е тук.", "tr": "<u>Benim</u> erkek kardeşim buradadır." }
+    ]
+  },
+  "лекар": {
+    "type": "isim",
+    "tr": "doktor (erkek)",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "лекар",
+      "çoğul": "лекари"
+    },
+    "examples": [
+      { "bg": "Трябва да повикаме <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">лекар</mark>.", "tr": "Bir <u>doktor</u> çağırmalıyız." }
+    ]
+  },
+  "медицинска": {
+    "type": "sıfat",
+    "tr": "tıbbi, sağlık (dişil)",
+    "forms": {
+      "eril": "медицински",
+      "dişil": "медицинска",
+      "nötr": "медицинско",
+      "çoğul": "медицински"
+    },
+    "examples": [
+      { "bg": "Тя е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">медицинска</mark> сестра.", "tr": "O bir <u>sağlık</u> hemşiresidir." }
+    ]
+  },
+  "сестра": {
+    "type": "isim",
+    "tr": "kız kardeş, hemşire",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "сестра",
+      "çoğul": "сестри"
+    },
+    "examples": [
+      { "bg": "Моята <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">сестра</mark> живее в Германия.", "tr": "Benim <u>kız kardeşim</u> Almanya'da yaşıyor." },
+      { "bg": "Тя работи като медицинска <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">сестра</mark>.", "tr": "O <u>hemşire</u> olarak çalışıyor." }
+    ]
+  },
+  "работят": {
+    "type": "fiil",
+    "tr": "çalışıyorlar",
+    "conjugation": {
+      "present": {
+        "аз": "работя",
+        "ти": "работиш",
+        "той/тя/то": "работи",
+        "ние": "работим",
+        "вие": "работите",
+        "те": "работят"
+      }
+    },
+    "examples": [
+      { "bg": "Родителите ми <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">работят</mark> в болница.", "tr": "Ebeveynlerim hastanede <u>çalışıyorlar</u>." },
+      { "bg": "Те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">работят</mark> много.", "tr": "Onlar çok <u>çalışıyorlar</u>." }
+    ]
+  },
+  "една": {
+    "type": "sayı",
+    "tr": "bir (dişil)",
+    "examples": [
+      { "bg": "Имам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">една</mark> сестра.", "tr": "<u>Bir</u> kız kardeşim var." }
+    ]
+  },
+  "болница": {
+    "type": "isim",
+    "tr": "hastane",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "болница",
+      "çoğul": "болници"
+    },
+    "examples": [
+      { "bg": "Тази <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">болница</mark> е много голяма.", "tr": "Bu <u>hastane</u> çok büyüktür." },
+      { "bg": "Той е в <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">болницата</mark>.", "tr": "O <u>hastanededi</u>." }
+    ]
+  },
+  "искам": {
+    "type": "fiil",
+    "tr": "istiyorum",
+    "conjugation": {
+      "present": {
+        "аз": "искам",
+        "ти": "искаш",
+        "той/тя/то": "иска",
+        "ние": "искаме",
+        "вие": "искате",
+        "те": "искат"
+      }
+    },
+    "examples": [
+      { "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">искам</mark> да пътувам.", "tr": "Ben seyahat etmek <u>istiyorum</u>." },
+      { "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Искам</mark> чаша вода.", "tr": "Bir bardak su <u>istiyorum</u>." }
+    ]
+  },
+  "стана": {
+    "type": "fiil",
+    "tr": "olayım, kalkayım",
+    "conjugation": {
+      "present": {
+        "аз": "стана",
+        "ти": "станеш",
+        "той/тя/то": "стане",
+        "ние": "станем",
+        "вие": "станете",
+        "те": "станат"
+      }
+    },
+    "examples": [
+      { "bg": "Искам да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">стана</mark> учител.", "tr": "Öğretmen <u>olmak</u> istiyorum." }
+    ]
+  },
+  "учителка": {
+    "type": "isim",
+    "tr": "öğretmen (kadın)",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "учителка",
+      "çoğul": "учителки"
+    },
+    "examples": [
+      { "bg": "Тя е отлична <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">учителка</mark>.", "tr": "O mükemmel bir <u>kadın öğretmendir</u>." }
+    ]
+  },
+  "литература": {
+    "type": "isim",
+    "tr": "edebiyat",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "литература",
+      "çoğul": "литератури"
+    },
+    "examples": [
+      { "bg": "Аз уча българска <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">литература</mark>.", "tr": "Ben Bulgar <u>edebiyatı</u> öğreniyorum." }
+    ]
+  },
+  "хубава": {
+    "type": "sıfat",
+    "tr": "güzel, iyi (dişil)",
+    "forms": {
+      "eril": "хубав",
+      "dişil": "хубава",
+      "nötr": "хубаво",
+      "çoğul": "хубави"
+    },
+    "examples": [
+      { "bg": "Това е много <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">хубава</mark> книга.", "tr": "Bu çok <u>güzel</u> bir kitap." }
+    ]
+  },
+  "особено": {
+    "type": "zarf",
+    "tr": "özellikle",
+    "examples": [
+      { "bg": "Харесвам музика, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">особено</mark> рок.", "tr": "Müzik severim, <u>özellikle</u> rock." },
+      { "bg": "Това е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">особено</mark> важно.", "tr": "Bu <u>özellikle</u> önemlidir." }
+    ]
+  },
+  "жена": {
+    "type": "isim",
+    "tr": "kadın, eş (karı)",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "жена",
+      "çoğul": "жени"
+    },
+    "examples": [
+      { "bg": "Тази <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">жена</mark> е моя колежка.", "tr": "Bu <u>kadın</u> benim meslektaşımdır." },
+      { "bg": "Неговата <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">жена</mark> е лекарка.", "tr": "Onun <u>eşi (karısı)</u> doktordur." }
+    ]
+  },
+  "брат": {
+    "type": "isim",
+    "tr": "erkek kardeş",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "брат",
+      "çoğul": "братя"
+    },
+    "examples": [
+      { "bg": "Имам един <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">брат</mark>.", "tr": "Bir <u>erkek kardeşim</u> var." },
+      { "bg": "Моят <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">брат</mark> е по-голям от мен.", "tr": "Benim <u>erkek kardeşim</u> benden büyüktür." }
+    ]
+  },
+  "следва": {
+    "type": "fiil",
+    "tr": "tahsil görüyor (okuyor), takip ediyor",
+    "conjugation": {
+      "present": {
+        "аз": "следвам",
+        "ти": "следваш",
+        "той/тя/то": "следва",
+        "ние": "следваме",
+        "вие": "следвате",
+        "те": "следват"
+      }
+    },
+    "examples": [
+      { "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">следва</mark> икономика.", "tr": "O ekonomi <u>tahsil ediyor (okuyor)</u>." },
+      { "bg": "Кучето <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">следва</mark> стопанина си.", "tr": "Köpek sahibini <u>takip ediyor</u>." }
+    ]
+  },
+  "специалност": {
+    "type": "isim",
+    "tr": "uzmanlık alanı, bölüm",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "специалност",
+      "çoğul": "специалности"
+    },
+    "examples": [
+      { "bg": "Каква е твоята <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">специалност</mark>?", "tr": "Senin <u>uzmanlık alanın / bölümün</u> nedir?" }
+    ]
+  },
+  "счетоводство": {
+    "type": "isim",
+    "tr": "muhasebe",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "счетоводство"
+    },
+    "examples": [
+      { "bg": "Аз уча <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">счетоводство</mark>.", "tr": "Ben <u>muhasebe</u> okuyorum." }
+    ]
+  },
+  "обаче": {
+    "type": "bağlaç",
+    "tr": "ancak, fakat, yine de",
+    "examples": [
+      { "bg": "Искам да дойда, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">обаче</mark> нямам време.", "tr": "Gelmek istiyorum <u>ancak</u> zamanım yok." },
+      { "bg": "Той, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">обаче</mark>, не се съгласи.", "tr": "O, <u>buna rağmen (fakat)</u>, kabul etmedi." }
+    ]
+  },
+  "бъде": {
+    "type": "fiil",
+    "tr": "olacak (gelecek zaman 3. tekil şahıs)",
+    "conjugation": {
+      "present": {
+        "аз": "бъда",
+        "ти": "бъдеш",
+        "той/тя/то": "бъде",
+        "ние": "бъдем",
+        "вие": "бъдете",
+        "те": "бъдат"
+      }
+    },
+    "examples": [
+      { "bg": "Всичко ще <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">бъде</mark> наред.", "tr": "Her şey yolunda <u>olacak</u>." },
+      { "bg": "Тя иска да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">бъде</mark> щастлива.", "tr": "O mutlu <u>olmak</u> istiyor." }
+    ]
+  },
+  "счетоводител": {
+    "type": "isim",
+    "tr": "muhasebeci (erkek)",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "счетоводител",
+      "çoğul": "счетоводители"
+    },
+    "examples": [
+      { "bg": "Моят брат е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">счетоводител</mark>.", "tr": "Erkek kardeşim bir <u>muhasebecidir</u>." }
+    ]
+  }
+}

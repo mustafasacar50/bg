@@ -6,20 +6,11 @@ import { Bell, BellOff, Loader2 } from "lucide-react";
 export default function PushSettings({ studentId }: { studentId: string }) {
   const [isSubscribed, setIsSubscribed] = useState(false);
   const [loading, setLoading] = useState(true);
-  const [permission, setPermission] = useState<NotificationPermission>("default");
-  
   const [startTime, setStartTime] = useState("09:00");
   const [endTime, setEndTime] = useState("21:00");
   const [interval, setIntervalVal] = useState("60");
 
-  useEffect(() => {
-    if (typeof window !== 'undefined' && 'Notification' in window) {
-      setPermission(Notification.permission);
-    }
-    checkSubscription();
-  }, []);
-
-  const checkSubscription = async () => {
+  const checkSubscription = useCallback(async () => {
     try {
       if (typeof navigator === 'undefined' || !("serviceWorker" in navigator) || typeof window === 'undefined' || !("PushManager" in window)) {
         setLoading(false);
@@ -49,7 +40,13 @@ export default function PushSettings({ studentId }: { studentId: string }) {
       console.error(e);
     }
     setLoading(false);
-  };
+  }, [studentId]);
+
+  useEffect(() => {
+    setTimeout(() => {
+      checkSubscription();
+    }, 0);
+  }, [checkSubscription]);
 
   const urlBase64ToUint8Array = (base64String: string) => {
     const padding = "=".repeat((4 - (base64String.length % 4)) % 4);
@@ -153,10 +150,12 @@ export default function PushSettings({ studentId }: { studentId: string }) {
   const [isSupported, setIsSupported] = useState(true);
 
   useEffect(() => {
-    if (typeof navigator !== 'undefined' && !("serviceWorker" in navigator)) {
-      setIsSupported(false);
-    }
-    setMounted(true);
+    setTimeout(() => {
+      if (typeof navigator !== 'undefined' && !("serviceWorker" in navigator)) {
+        setIsSupported(false);
+      }
+      setMounted(true);
+    }, 0);
   }, []);
   
   if (!mounted) return <div className="card p-5 mb-6 h-32 animate-pulse bg-slate-100"></div>;
@@ -165,7 +164,7 @@ export default function PushSettings({ studentId }: { studentId: string }) {
     return (
       <div className="card p-5 mb-6 opacity-75">
         <h3 className="font-bold text-slate-700 flex items-center gap-2 mb-2"><BellOff size={18} /> Otomatik Soru Bildirimleri</h3>
-        <p className="text-sm text-slate-500">Cihazınız veya tarayıcınız bu özelliği desteklemiyor. (iOS'da uygulamayı 'Ana Ekrana Ekle' yaparak açmanız gerekebilir).</p>
+        <p className="text-sm text-slate-500">Cihazınız veya tarayıcınız bu özelliği desteklemiyor. (iOS&apos;da uygulamayı &apos;Ana Ekrana Ekle&apos; yaparak açmanız gerekebilir).</p>
       </div>
     );
   }
