@@ -3089,49 +3089,144 @@
       "id": "word_auto_d3_1786542415922_2613",
       "bg": "майка",
       "tr": "anne",
-      "type": "otomatik",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Моята <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">майка</mark> е учителка.",
+          "tr": "Benim <u>annem</u> öğretmendir."
+        },
+        {
+          "bg": "Тя е добра <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">майка</mark>.",
+          "tr": "O iyi bir <u>annedir</u>."
+        }
+      ],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "майка",
+        "çoğul": "майки"
+      }
     },
     {
       "id": "word_auto_d3_1786542415939_5717",
       "bg": "първи",
-      "tr": "birinci",
-      "type": "otomatik",
+      "tr": "birinci (eril, çoğul)",
+      "type": "sıfat",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Това е моят <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">първи</mark> ден тук.",
+          "tr": "Bu benim buradaki <u>birinci (ilk)</u> günüm."
+        },
+        {
+          "bg": "Ние сме на <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">първия</mark> етаж.",
+          "tr": "Biz <u>birinci</u> kattayız."
+        }
+      ],
+      "forms": {
+        "eril": "първи",
+        "dişil": "първа",
+        "nötr": "първо",
+        "çoğul": "първи"
+      }
     },
     {
       "id": "word_auto_d3_1786542415939_1727",
       "bg": "курс",
-      "tr": "kurs",
-      "type": "otomatik",
+      "tr": "kurs, sınıf, üniversitedeki yıl (sınıf)",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Аз съм студент в първи <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">курс</mark>.",
+          "tr": "Ben birinci <u>sınıfta/yılda</u> öğrenciyim."
+        },
+        {
+          "bg": "Ходя на <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">курс</mark> по английски.",
+          "tr": "İngilizce <u>kursuna</u> gidiyorum."
+        }
+      ],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "курс",
+        "çoğul": "курсове"
+      }
     },
     {
       "id": "word_auto_d3_1786542415940_6686",
       "bg": "екскурзия",
-      "tr": "gezi",
-      "type": "otomatik",
+      "tr": "gezi, tur",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Отиваме на <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">екскурзия</mark> в планината.",
+          "tr": "Dağa <u>geziye</u> gidiyoruz."
+        },
+        {
+          "bg": "Тази <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">екскурзия</mark> беше много интересна.",
+          "tr": "Bu <u>tur/gezi</u> çok ilginçti."
+        }
+      ],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "екскурзия",
+        "çoğul": "екскурзии"
+      }
     },
     {
       "id": "word_auto_d3_1786542415940_9945",
       "bg": "правите",
-      "tr": "yapmalısın",
-      "type": "otomatik",
+      "tr": "yapıyorsunuz",
+      "type": "fiil",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Какво <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">правите</mark> тук?",
+          "tr": "Burada ne <u>yapıyorsunuz</u>?"
+        },
+        {
+          "bg": "Вие <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">правите</mark> страхотно кафе.",
+          "tr": "Siz harika kahve <u>yapıyorsunuz</u>."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "правя",
+          "ти": "правиш",
+          "той/тя/то": "прави",
+          "ние": "правим",
+          "вие": "правите",
+          "те": "правят"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542416091_1458",
       "bg": "говорите",
-      "tr": "sen konuş",
-      "type": "otomatik",
+      "tr": "konuşuyorsunuz",
+      "type": "fiil",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Вие <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">говорите</mark> ли английски?",
+          "tr": "Siz İngilizce <u>konuşuyor musunuz</u>?"
+        },
+        {
+          "bg": "Защо <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">говорите</mark> толкова бързо?",
+          "tr": "Neden bu kadar hızlı <u>konuşuyorsunuz</u>?"
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "говоря",
+          "ти": "говориш",
+          "той/тя/то": "говори",
+          "ние": "говорим",
+          "вие": "говорите",
+          "те": "говорят"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542416732_4652",
@@ -3152,50 +3247,135 @@
     {
       "id": "word_auto_d3_1786542417322_8864",
       "bg": "значи",
-      "tr": "bu yüzden",
-      "type": "otomatik",
+      "tr": "demek ki, yani",
+      "type": "zarf",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Значи</mark> ти си новият студент?",
+          "tr": "<u>Demek ki</u> sen yeni öğrencisin?"
+        },
+        {
+          "bg": "Това <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">значи</mark> много за мен.",
+          "tr": "Bu benim için çok şey <u>ifade ediyor / anlama geliyor</u>."
+        }
+      ]
     },
     {
       "id": "word_auto_d3_1786542417328_2472",
       "bg": "станете",
-      "tr": "uyanmak",
-      "type": "otomatik",
+      "tr": "olursunuz (haline gelmek), kalkarsınız",
+      "type": "fiil",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Искате да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">станете</mark> лекар?",
+          "tr": "Doktor <u>olmak</u> mı istiyorsunuz?"
+        },
+        {
+          "bg": "Моля, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">станете</mark>.",
+          "tr": "Lütfen <u>ayağa kalkın</u>."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "стана",
+          "ти": "станеш",
+          "той/тя/то": "стане",
+          "ние": "станем",
+          "вие": "станете",
+          "те": "станат"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542417329_421",
       "bg": "искате",
-      "tr": "istiyorsun",
-      "type": "otomatik",
+      "tr": "istiyorsunuz",
+      "type": "fiil",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Какво <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">искате</mark> да пиете?",
+          "tr": "Ne içmek <u>istiyorsunuz</u>?"
+        },
+        {
+          "bg": "Вие <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">искате</mark> ли почивка?",
+          "tr": "Siz mola <u>istiyor musunuz</u>?"
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "искам",
+          "ти": "искаш",
+          "той/тя/то": "иска",
+          "ние": "искаме",
+          "вие": "искате",
+          "те": "искат"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542417334_395",
       "bg": "всъщност",
       "tr": "aslında",
-      "type": "otomatik",
+      "type": "zarf",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Всъщност</mark>, аз не знам.",
+          "tr": "<u>Aslında</u>, ben bilmiyorum."
+        },
+        {
+          "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">всъщност</mark> е много добър човек.",
+          "tr": "O <u>aslında</u> çok iyi bir insandır."
+        }
+      ]
     },
     {
       "id": "word_auto_d3_1786542417350_1771",
       "bg": "бъда",
-      "tr": "olmak",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "tr": "olmak (to be - gelecek/dilek kipi formu)",
+      "type": "fiil",
+      "notes": "съм (olmak) fiilinin gelecek zaman ve dilek kipinde (da-cümleciklerinde) kullanılan şeklidir.",
+      "examples": [
+        {
+          "bg": "Искам да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">бъда</mark> архитект.",
+          "tr": "Mimar <u>olmak</u> istiyorum."
+        },
+        {
+          "bg": "Ще <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">бъда</mark> там в 5 часа.",
+          "tr": "Saat 5'te orada <u>olacağım</u>."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "бъда",
+          "ти": "бъдеш",
+          "той/тя/то": "бъде",
+          "ние": "бъдем",
+          "вие": "бъдете",
+          "те": "бъдат"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542417355_7492",
       "bg": "архитект",
-      "tr": "bir mimar",
-      "type": "otomatik",
+      "tr": "mimar",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Моят баща е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">архитект</mark>.",
+          "tr": "Benim babam bir <u>mimardır</u>."
+        }
+      ],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "архитект",
+        "çoğul": "архитекти"
+      }
     },
     {
       "id": "word_auto_d3_1786542417969_8808",
@@ -3209,9 +3389,19 @@
       "id": "word_auto_d3_1786542417969_1149",
       "bg": "институт",
       "tr": "enstitü",
-      "type": "otomatik",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Тя работи в изследователски <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">институт</mark>.",
+          "tr": "O araştırma <u>enstitüsünde</u> çalışıyor."
+        }
+      ],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "институт",
+        "çoğul": "институти"
+      }
     },
     {
       "id": "word_auto_d3_1786542417969_644",
@@ -3232,227 +3422,530 @@
     {
       "id": "word_auto_d3_1786542418560_8054",
       "bg": "лекарка",
-      "tr": "doktor",
-      "type": "otomatik",
+      "tr": "doktor (kadın)",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Майка ми е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">лекарка</mark>.",
+          "tr": "Annem <u>kadın doktordur</u>."
+        }
+      ],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "лекарка",
+        "çoğul": "лекарки"
+      }
     },
     {
       "id": "word_auto_d3_1786542418563_6450",
       "bg": "лекар",
-      "tr": "doktor",
-      "type": "otomatik",
+      "tr": "doktor (erkek)",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Трябва да повикаме <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">лекар</mark>.",
+          "tr": "Bir <u>doktor</u> çağırmalıyız."
+        }
+      ],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "лекар",
+        "çoğul": "лекари"
+      }
     },
     {
       "id": "word_auto_d3_1786542418564_3750",
       "bg": "дядо",
-      "tr": "büyükbaba",
-      "type": "otomatik",
+      "tr": "dede",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Моят <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">дядо</mark> е на 80 години.",
+          "tr": "Benim <u>dedem</u> 80 yaşındadır."
+        }
+      ],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "дядо",
+        "çoğul": "дядовци"
+      }
     },
     {
       "id": "word_auto_d3_1786542418567_7553",
       "bg": "баща",
       "tr": "baba",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "type": "isim",
+      "notes": "Sonu 'а' veya 'я' ile biten eril isimlerden biridir (tıpkı съдия, дядо gibi düzensiz görünse de eril kabul edilir).",
+      "examples": [
+        {
+          "bg": "Неговият <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">баща</mark> е лекар.",
+          "tr": "Onun <u>babası</u> doktordur."
+        },
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Баща</mark> ми работи в болница.",
+          "tr": "Benim <u>babam</u> hastanede çalışıyor."
+        }
+      ],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "баща",
+        "çoğul": "бащи"
+      }
     },
     {
       "id": "word_auto_d3_1786542418568_690",
       "bg": "моят",
-      "tr": "bana ait",
-      "type": "otomatik",
+      "tr": "benim (eril, belirli)",
+      "type": "zamir",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Моят</mark> брат е тук.",
+          "tr": "<u>Benim</u> erkek kardeşim buradadır."
+        }
+      ]
     },
     {
       "id": "word_auto_d3_1786542418568_6136",
       "bg": "строител",
       "tr": "inşaatçı",
-      "type": "otomatik",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Той работи като <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">строител</mark>.",
+          "tr": "O <u>inşaatçı</u> olarak çalışıyor."
+        }
+      ],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "строител",
+        "çoğul": "строители"
+      }
     },
     {
       "id": "word_auto_d3_1786542418569_5191",
       "bg": "архитектура",
-      "tr": "mimari",
-      "type": "otomatik",
+      "tr": "mimarlık, mimari",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Уча <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">архитектура</mark> в университета.",
+          "tr": "Üniversitede <u>mimarlık</u> okuyorum."
+        }
+      ],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "архитектура",
+        "çoğul": "архитектури"
+      }
     },
     {
       "id": "word_auto_d3_1786542418570_4952",
       "bg": "родителите",
-      "tr": "ebeveynler",
-      "type": "otomatik",
+      "tr": "ebeveynler (belirli)",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Родителите</mark> ми живеят в Пловдив.",
+          "tr": "<u>Ebeveynlerim</u> (annem ve babam) Filibe'de yaşıyor."
+        }
+      ],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "родител",
+        "çoğul": "родители",
+        "çoğul_belirli": "родителите"
+      }
     },
     {
       "id": "word_auto_d3_1786542418576_5514",
       "bg": "учител",
-      "tr": "bir öğretmen",
-      "type": "otomatik",
+      "tr": "öğretmen (erkek)",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Той е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">учител</mark> по математика.",
+          "tr": "O matematik <u>öğretmenidir</u>."
+        }
+      ],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "учител",
+        "çoğul": "учители"
+      }
     },
     {
       "id": "word_auto_d3_1786542419161_569",
       "bg": "сестра",
-      "tr": "kız kardeş",
-      "type": "otomatik",
+      "tr": "kız kardeş, hemşire",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Моята <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">сестра</mark> живее в Германия.",
+          "tr": "Benim <u>kız kardeşim</u> Almanya'da yaşıyor."
+        },
+        {
+          "bg": "Тя работи като медицинска <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">сестра</mark>.",
+          "tr": "O <u>hemşire</u> olarak çalışıyor."
+        }
+      ],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "сестра",
+        "çoğul": "сестри"
+      }
     },
     {
       "id": "word_auto_d3_1786542419164_3995",
       "bg": "една",
-      "tr": "bir",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
-    },
-    {
-      "id": "word_auto_d3_1786542419167_2765",
-      "bg": "учителка",
-      "tr": "bir öğretmen",
-      "type": "otomatik",
-      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
-    },
-    {
-      "id": "word_auto_d3_1786542419168_5908",
-      "bg": "искам",
-      "tr": "i̇stiyorum",
-      "type": "otomatik",
+      "tr": "bir (dişil)",
+      "type": "sayı",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
       "examples": [
         {
-          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">искам</mark> кафе, моля.",
-          "tr": "Ben kahve <u>istiyorum</u>, lütfen."
-        },
-        {
-          "bg": "Те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">искат</mark> да пътуват.",
-          "tr": "Onlar seyahat etmek <u>istiyorlar</u>."
+          "bg": "Имам <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">една</mark> сестра.",
+          "tr": "<u>Bir</u> kız kardeşim var."
         }
       ]
     },
     {
+      "id": "word_auto_d3_1786542419167_2765",
+      "bg": "учителка",
+      "tr": "öğretmen (kadın)",
+      "type": "isim",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": [
+        {
+          "bg": "Тя е отлична <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">учителка</mark>.",
+          "tr": "O mükemmel bir <u>kadın öğretmendir</u>."
+        }
+      ],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "учителка",
+        "çoğul": "учителки"
+      }
+    },
+    {
+      "id": "word_auto_d3_1786542419168_5908",
+      "bg": "искам",
+      "tr": "istiyorum",
+      "type": "fiil",
+      "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
+      "examples": [
+        {
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">искам</mark> да пътувам.",
+          "tr": "Ben seyahat etmek <u>istiyorum</u>."
+        },
+        {
+          "bg": "<mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">Искам</mark> чаша вода.",
+          "tr": "Bir bardak su <u>istiyorum</u>."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "искам",
+          "ти": "искаш",
+          "той/тя/то": "иска",
+          "ние": "искаме",
+          "вие": "искате",
+          "те": "искат"
+        }
+      }
+    },
+    {
       "id": "word_auto_d3_1786542419168_5800",
       "bg": "стана",
-      "tr": "kalktı",
-      "type": "otomatik",
+      "tr": "olayım, kalkayım",
+      "type": "fiil",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Искам да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">стана</mark> учител.",
+          "tr": "Öğretmen <u>olmak</u> istiyorum."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "стана",
+          "ти": "станеш",
+          "той/тя/то": "стане",
+          "ние": "станем",
+          "вие": "станете",
+          "те": "станат"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542419168_9924",
       "bg": "хубава",
-      "tr": "tatlı",
-      "type": "otomatik",
+      "tr": "güzel, iyi (dişil)",
+      "type": "sıfat",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Това е много <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">хубава</mark> книга.",
+          "tr": "Bu çok <u>güzel</u> bir kitap."
+        }
+      ],
+      "forms": {
+        "eril": "хубав",
+        "dişil": "хубава",
+        "nötr": "хубаво",
+        "çoğul": "хубави"
+      }
     },
     {
       "id": "word_auto_d3_1786542419170_5782",
       "bg": "литература",
       "tr": "edebiyat",
-      "type": "otomatik",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Аз уча българска <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">литература</mark>.",
+          "tr": "Ben Bulgar <u>edebiyatı</u> öğreniyorum."
+        }
+      ],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "литература",
+        "çoğul": "литератури"
+      }
     },
     {
       "id": "word_auto_d3_1786542419205_1437",
       "bg": "болница",
       "tr": "hastane",
-      "type": "otomatik",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Тази <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">болница</mark> е много голяма.",
+          "tr": "Bu <u>hastane</u> çok büyüktür."
+        },
+        {
+          "bg": "Той е в <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">болницата</mark>.",
+          "tr": "O <u>hastanededi</u>."
+        }
+      ],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "болница",
+        "çoğul": "болници"
+      }
     },
     {
       "id": "word_auto_d3_1786542419430_1467",
       "bg": "работят",
       "tr": "çalışıyorlar",
-      "type": "otomatik",
+      "type": "fiil",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Родителите ми <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">работят</mark> в болница.",
+          "tr": "Ebeveynlerim hastanede <u>çalışıyorlar</u>."
+        },
+        {
+          "bg": "Те <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">работят</mark> много.",
+          "tr": "Onlar çok <u>çalışıyorlar</u>."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "работя",
+          "ти": "работиш",
+          "той/тя/то": "работи",
+          "ние": "работим",
+          "вие": "работите",
+          "те": "работят"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542419430_2116",
       "bg": "медицинска",
-      "tr": "tıbbi",
-      "type": "otomatik",
+      "tr": "tıbbi, sağlık (dişil)",
+      "type": "sıfat",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Тя е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">медицинска</mark> сестра.",
+          "tr": "O bir <u>sağlık</u> hemşiresidir."
+        }
+      ],
+      "forms": {
+        "eril": "медицински",
+        "dişil": "медицинска",
+        "nötr": "медицинско",
+        "çoğul": "медицински"
+      }
     },
     {
       "id": "word_auto_d3_1786542420026_8594",
       "bg": "счетоводство",
       "tr": "muhasebe",
-      "type": "otomatik",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Аз уча <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">счетоводство</mark>.",
+          "tr": "Ben <u>muhasebe</u> okuyorum."
+        }
+      ],
+      "gender": "nötr",
+      "nounForms": {
+        "tekil": "счетоводство"
+      }
     },
     {
       "id": "word_auto_d3_1786542420029_7523",
       "bg": "бъде",
-      "tr": "olmak",
-      "type": "otomatik",
+      "tr": "olacak (gelecek zaman 3. tekil şahıs)",
+      "type": "fiil",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Всичко ще <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">бъде</mark> наред.",
+          "tr": "Her şey yolunda <u>olacak</u>."
+        },
+        {
+          "bg": "Тя иска да <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">бъде</mark> щастлива.",
+          "tr": "O mutlu <u>olmak</u> istiyor."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "бъда",
+          "ти": "бъдеш",
+          "той/тя/то": "бъде",
+          "ние": "бъдем",
+          "вие": "бъдете",
+          "те": "бъдат"
+        }
+      }
     },
     {
       "id": "word_auto_d3_1786542420031_4350",
       "bg": "обаче",
-      "tr": "yine de",
-      "type": "otomatik",
+      "tr": "ancak, fakat, yine de",
+      "type": "bağlaç",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Искам да дойда, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">обаче</mark> нямам време.",
+          "tr": "Gelmek istiyorum <u>ancak</u> zamanım yok."
+        },
+        {
+          "bg": "Той, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">обаче</mark>, не се съгласи.",
+          "tr": "O, <u>buna rağmen (fakat)</u>, kabul etmedi."
+        }
+      ]
     },
     {
       "id": "word_auto_d3_1786542420033_6933",
       "bg": "счетоводител",
-      "tr": "muhasebeci",
-      "type": "otomatik",
+      "tr": "muhasebeci (erkek)",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Моят брат е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">счетоводител</mark>.",
+          "tr": "Erkek kardeşim bir <u>muhasebecidir</u>."
+        }
+      ],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "счетоводител",
+        "çoğul": "счетоводители"
+      }
     },
     {
       "id": "word_auto_d3_1786542420034_8658",
       "bg": "брат",
       "tr": "erkek kardeş",
-      "type": "otomatik",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Имам един <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">брат</mark>.",
+          "tr": "Bir <u>erkek kardeşim</u> var."
+        },
+        {
+          "bg": "Моят <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">брат</mark> е по-голям от мен.",
+          "tr": "Benim <u>erkek kardeşim</u> benden büyüktür."
+        }
+      ],
+      "gender": "eril",
+      "nounForms": {
+        "tekil": "брат",
+        "çoğul": "братя"
+      }
     },
     {
       "id": "word_auto_d3_1786542420038_3227",
       "bg": "особено",
       "tr": "özellikle",
-      "type": "otomatik",
+      "type": "zarf",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Харесвам музика, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">особено</mark> рок.",
+          "tr": "Müzik severim, <u>özellikle</u> rock."
+        },
+        {
+          "bg": "Това е <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">особено</mark> важно.",
+          "tr": "Bu <u>özellikle</u> önemlidir."
+        }
+      ]
     },
     {
       "id": "word_auto_d3_1786542420075_9092",
       "bg": "жена",
-      "tr": "bir kadın",
-      "type": "otomatik",
+      "tr": "kadın, eş (karı)",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Тази <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">жена</mark> е моя колежка.",
+          "tr": "Bu <u>kadın</u> benim meslektaşımdır."
+        },
+        {
+          "bg": "Неговата <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">жена</mark> е лекарка.",
+          "tr": "Onun <u>eşi (karısı)</u> doktordur."
+        }
+      ],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "жена",
+        "çoğul": "жени"
+      }
     },
     {
       "id": "word_auto_d3_1786542420487_7567",
       "bg": "специалност",
-      "tr": "uzmanlık",
-      "type": "otomatik",
+      "tr": "uzmanlık alanı, bölüm",
+      "type": "isim",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
-      "examples": []
+      "examples": [
+        {
+          "bg": "Каква е твоята <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">специалност</mark>?",
+          "tr": "Senin <u>uzmanlık alanın / bölümün</u> nedir?"
+        }
+      ],
+      "gender": "dişil",
+      "nounForms": {
+        "tekil": "специалност",
+        "çoğul": "специалности"
+      }
     },
     {
       "id": "word_auto_d3_1786542421132_2594",
@@ -4319,6 +4812,59 @@
       "type": "otomatik",
       "notes": "💡 Öğrenme İpucu: Bu kelimenin cümle içindeki kullanımına ve eklerine dikkat et. En iyi öğrenme yolu bu kelimeyi kendi kurduğun yeni bir cümlede kullanmaktır!",
       "examples": []
+    },
+    {
+      "id": "word_enriched_17865591487455611",
+      "bg": "следвам",
+      "type": "fiil",
+      "tr": "tahsil görmek (üniversite), takip etmek",
+      "conjugation": {
+        "present": {
+          "аз": "следвам",
+          "ти": "следваш",
+          "той/тя/то": "следва",
+          "ние": "следваме",
+          "вие": "следвате",
+          "те": "следват"
+        }
+      },
+      "notes": "Hem birini/bir şeyi fiziksel olarak 'takip etmek' hem de üniversitede bir bölüm 'okumak/tahsil görmek' anlamında kullanılır.",
+      "examples": [
+        {
+          "bg": "Аз <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">следвам</mark> медицина.",
+          "tr": "Ben tıp <u>okuyorum/tahsil ediyorum</u>."
+        },
+        {
+          "bg": "Моля, <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">следвайте</mark> ме.",
+          "tr": "Lütfen beni <u>takip edin</u>."
+        }
+      ]
+    },
+    {
+      "id": "word_enriched_17865591487481193",
+      "bg": "следва",
+      "type": "fiil",
+      "tr": "tahsil görüyor (okuyor), takip ediyor",
+      "conjugation": {
+        "present": {
+          "аз": "следвам",
+          "ти": "следваш",
+          "той/тя/то": "следва",
+          "ние": "следваме",
+          "вие": "следвате",
+          "те": "следват"
+        }
+      },
+      "examples": [
+        {
+          "bg": "Той <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">следва</mark> икономика.",
+          "tr": "O ekonomi <u>tahsil ediyor (okuyor)</u>."
+        },
+        {
+          "bg": "Кучето <mark class=\"bg-indigo-100/80 text-indigo-700 px-1 rounded\">следва</mark> стопанина си.",
+          "tr": "Köpek sahibini <u>takip ediyor</u>."
+        }
+      ]
     }
   ]
 }
