@@ -217,7 +217,7 @@ export default function GenerateExamPage() {
         setCreatedExamId(result.exam.id);
       }
       setSuccess(true);
-    } catch (err: any) {
+    } catch (err: unknown) {
       setError(err.message);
     } finally {
       setLoading(false);

@@ -74,7 +74,7 @@ export async function GET(request: Request) {
       groupName: studentGroup
     });
 
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("Leaderboard error:", error);
     return NextResponse.json({ error: error.message }, { status: 500 });
   }

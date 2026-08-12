@@ -26,7 +26,7 @@ export async function GET(request: Request) {
         path: "data/results",
       });
       files = Array.isArray(response.data) ? response.data : [response.data];
-    } catch (e: any) {
+    } catch (e: unknown) {
       if (e.status === 404) {
         return NextResponse.json({ results: [] }); // No results yet
       }
@@ -51,7 +51,7 @@ export async function GET(request: Request) {
     );
 
     return NextResponse.json({ results: results.filter(Boolean) });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("Error fetching results:", error);
     return NextResponse.json({ error: error.message }, { status: 500 });
   }

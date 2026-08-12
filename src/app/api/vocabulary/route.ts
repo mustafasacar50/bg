@@ -59,7 +59,7 @@ export async function GET(request: Request) {
     }
 
     return NextResponse.json({ vocabulary: content });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("Error fetching vocabulary:", error);
     return NextResponse.json({ error: error.message }, { status: 500 });
   }

@@ -13,7 +13,7 @@ interface DictionaryModalProps {
 export function DictionaryModal({ word, customMeaning, examples, onClose, onRemove }: DictionaryModalProps) {
   const [dict, setDict] = useState<Record<string, string>>({});
   const [loading, setLoading] = useState(true);
-  const [richCard, setRichCard] = useState<any>(null);
+  const [richCard, setRichCard] = useState<Record<string, unknown> | null>(null);
 
   useEffect(() => {
     // First, try the rich vocabulary lookup

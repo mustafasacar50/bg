@@ -21,7 +21,7 @@ export async function GET(request: Request) {
     const mistakeIds = userMistakes[studentId] || [];
 
     return NextResponse.json({ success: true, mistakes: mistakeIds });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("Error fetching mistakes:", error);
     return NextResponse.json({ error: error.message }, { status: 500 });
   }

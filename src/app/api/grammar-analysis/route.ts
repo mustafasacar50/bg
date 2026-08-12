@@ -279,7 +279,7 @@ export async function POST(request: Request) {
     });
 
     return NextResponse.json({ cards: allCards.slice(0, 8) });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("Error in grammar analysis:", error);
     return NextResponse.json({ error: error.message }, { status: 500 });
   }

@@ -22,7 +22,7 @@ export async function GET(request: Request) {
     }
 
     return NextResponse.json({ progress: progressData[studentId] || {} });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("Error fetching training progress:", error);
     return NextResponse.json({ error: error.message }, { status: 500 });
   }
@@ -103,7 +103,7 @@ export async function POST(request: Request) {
     );
 
     return NextResponse.json({ success: true, data: modProgress, unknownWords: progressData[data.studentId].unknownWords || [], customDictionary: progressData[data.studentId].customDictionary || {} });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error("Error saving training progress:", error);
     return NextResponse.json({ error: error.message }, { status: 500 });
   }

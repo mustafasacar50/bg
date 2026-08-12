@@ -16,7 +16,33 @@ interface Question {
   answer: string;
   hint: string;
   explanation?: string;
-  pairs?: any;
+  pairs?: Array<{ bg: string; tr: string }>;
+}
+
+interface Student {
+  id: string;
+  username?: string;
+  role?: string;
+  isAdminMode?: boolean;
+  trainingScore?: number;
+  [key: string]: unknown;
+}
+
+interface GrammarCardData {
+  bg: string;
+  tr: string;
+  matchedForm?: string;
+  type?: string;
+  pos?: string;
+  conjugation?: Record<string, Record<string, string>>;
+  examples?: Array<{ bg: string; tr: string }>;
+  gender?: string;
+  forms?: Record<string, string> | Record<string, Record<string, string>>;
+  tabs?: Record<string, Array<{ p: string; kisa?: string; uzun?: string; f?: string }>>;
+  pronounForms?: Record<string, string>;
+  nounForms?: Record<string, string>;
+  notes?: string;
+  [key: string]: unknown;
 }
 
 interface ModuleData {
@@ -63,7 +89,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   // New features state
   const [flashcardMode, setFlashcardMode] = useState(false);
   const [isFlipped, setIsFlipped] = useState(false);
-  const [matchingPairs, setMatchingPairs] = useState<{bg: any[], tr: any[]}>({bg: [], tr: []});
+  const [matchingPairs, setMatchingPairs] = useState<{bg: Array<{id: number, text: string}>, tr: Array<{id: number, text: string}>}>({bg: [], tr: []});
   const [matchedIds, setMatchedIds] = useState<number[]>([]);
   const [selectedMatch, setSelectedMatch] = useState<{type: 'bg'|'tr', idx: number, id: number} | null>(null);
 
@@ -72,12 +98,12 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
   const { srsData, processReview, getDueItems } = useSRS();
 
-  const [student, setStudent] = useState<any>(null);
+  const [student, setStudent] = useState<Student | null>(null);
   const [data, setData] = useState<ModuleData | null>(null);
   const [loading, setLoading] = useState(true);
   
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [activeQuestion, setActiveQuestion] = useState<{ id: string, type?: string, display: string, displayParts?: { trText: string | null, bgText: string | null }, expected: string, fitbTarget: string | null, hint: string, explanation?: string, originalHint: string, pairs?: any, answer?: string } | null>(null);
+  const [activeQuestion, setActiveQuestion] = useState<{ id: string, type?: string, display: string, displayParts?: { trText: string | null, bgText: string | null }, expected: string, fitbTarget: string | null, hint: string, explanation?: string, originalHint: string, pairs?: Array<{ bg: string; tr: string }>, answer?: string } | null>(null);
   const [userAnswer, setUserAnswer] = useState('');
   
   // Scramble states
@@ -95,7 +121,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [customMeaning, setCustomMeaning] = useState<string>('');
 
   const [selectedWord, setSelectedWord] = useState<{word: string} | null>(null);
-  const [activeGrammarCards, setActiveGrammarCards] = useState<any[]>([]);
+  const [activeGrammarCards, setActiveGrammarCards] = useState<GrammarCardData[]>([]);
   const [openTenses, setOpenTenses] = useState<Record<string, boolean>>({});
   const [openPronounTabs, setOpenPronounTabs] = useState<Record<string, string>>({});
   const [openGrammarCards, setOpenGrammarCards] = useState<Record<number, boolean>>({});
@@ -122,7 +148,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const inputRef = useRef<HTMLTextAreaElement>(null);
   const adminSearchInputRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
-  const modProgressRef = useRef<any>(null);
+  const modProgressRef = useRef<HTMLElement | null>(null);
   
   // Admin Mode State
   const [adminMode, setAdminMode] = useState(false);
@@ -301,11 +327,11 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
         // Prioritize questions using SRS logic
         if (mode === 'all') {
-          const allIds = activePool.map((q: any) => q.id);
+          const allIds = activePool.map((q: Question) => q.id);
           const dueIds = getDueItems('question', allIds);
           
           // Sort activePool based on dueIds array order
-          activePool = [...activePool].sort((a: any, b: any) => {
+          activePool = [...activePool].sort((a: Question, b: Question) => {
              const indexA = dueIds.indexOf(a.id);
              const indexB = dueIds.indexOf(b.id);
              return (indexA === -1 ? 99999 : indexA) - (indexB === -1 ? 99999 : indexB);
@@ -314,7 +340,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         
         // Prioritize questions containing unknown words (Overrides SRS slightly)
         if (globalUnknownWords.length > 0 && mode !== 'mistakes') {
-          activePool = [...activePool].sort((a: any, b: any) => {
+          activePool = [...activePool].sort((a: Question, b: Question) => {
             const aText = (a.sentence + ' ' + a.answer).toLowerCase();
             const bText = (b.sentence + ' ' + b.answer).toLowerCase();
             const aHas = globalUnknownWords.some((w: string) => aText.includes(w));
@@ -549,7 +575,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     const trMatch = cleanSentence.match(/Çeviriniz\s*\(Türkçesi:\s*(.*)\)/i);
     const bgMatch = cleanSentence.match(/Çeviriniz\s*\(Bulgarcası:\s*(.*)\)/i);
     if (trMatch) cleanSentence = trMatch[1];
-    else if (bgMatch) cleanSentence = bgMatch[1];
+    else if (bgMatch) cleanSentence = cleanSentence[1];
     else {
        cleanSentence = cleanSentence.replace(/^\(Türkçesi:\s*/i, '').replace(/^\(Bulgarcası:\s*/i, '').replace(/\)$/, '');
     }
@@ -558,9 +584,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     let fitbTarget = null;
     const words = expected.split(' ').filter(w => w.trim());
     let maskedWords: string[] | null = null;
-    if (q.type === 'matching') {
-      const bgItems = q.pairs.map((p: any, i: number) => ({ id: i, text: p.bg })).sort(() => Math.random() - 0.5);
-      const trItems = q.pairs.map((p: any, i: number) => ({ id: i, text: p.tr })).sort(() => Math.random() - 0.5);
+    if (q.type === 'matching' && q.pairs) {
+      const bgItems = q.pairs.map((p: {bg: string, tr: string}, i: number) => ({ id: i, text: p.bg })).sort(() => Math.random() - 0.5);
+      const trItems = q.pairs.map((p: {bg: string, tr: string}, i: number) => ({ id: i, text: p.tr })).sort(() => Math.random() - 0.5);
       setMatchingPairs({ bg: bgItems, tr: trItems });
       setMatchedIds([]);
       setSelectedMatch(null);
@@ -602,7 +628,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       expected, 
       fitbTarget, 
       hint: '', // User requested to remove the hint row entirely from display
-      explanation: (q as any).explanation,
+      explanation: q.explanation,
       originalHint: hint,
       pairs: q.pairs
     });
@@ -614,10 +640,10 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   }, [currentIndex, isSwapped, filteredQuestions]);
 
 
-  const pendingUpdates = useRef<any>({});
+  const pendingUpdates = useRef<Record<string, unknown>>({});
   const [isCloudSaving, setIsCloudSaving] = useState(false);
 
-  const syncProgress = (updates: any) => {
+  const syncProgress = (updates: Record<string, unknown>) => {
     if (!student) return;
     pendingUpdates.current = { ...pendingUpdates.current, ...updates };
     if (modProgressRef.current) {
@@ -1053,7 +1079,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       const nextValue = current.slice(0, start) + text + current.slice(end);
       setAdminSearchQuery(nextValue);
     } else if (isEditingQuestion && focusedEditField) {
-      const current = (editForm as any)[focusedEditField] || '';
+      const current = editForm[focusedEditField as keyof typeof editForm] || '';
       const nextValue = current.slice(0, start) + text + current.slice(end);
       setEditForm(prev => ({ ...prev, [focusedEditField]: nextValue }));
     } else {
@@ -1075,7 +1101,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     const start = input.selectionStart ?? 0;
     const end = input.selectionEnd ?? 0;
     
-    const current = isAdminSearchOpen ? adminSearchQuery : (isEditingQuestion && focusedEditField) ? ((editForm as any)[focusedEditField] || '') : userAnswer;
+    const current = isAdminSearchOpen ? adminSearchQuery : (isEditingQuestion && focusedEditField) ? (editForm[focusedEditField as keyof typeof editForm] || '') : userAnswer;
     
     if (start === end && start > 0) {
       const nextValue = current.slice(0, start - 1) + current.slice(end);
@@ -1171,7 +1197,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                   <select
                     value={langFilter}
                     onChange={(e) => {
-                      const newLang = e.target.value as any;
+                      const newLang = e.target.value as 'all' | 'bg' | 'tr';
                       
                       // Save current language's progress before switching
                       const progKey = mode === 'mistakes' ? 'mistakesProgress' : (langFilter === 'bg' ? 'bgProgress' : langFilter === 'tr' ? 'trProgress' : 'allProgress');
@@ -1775,7 +1801,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
               ) : (
                 <div className="relative">
                   <textarea
-                    ref={inputRef as any}
+                    ref={inputRef as React.RefObject<HTMLTextAreaElement>}
                     inputMode={preferNativeKeyboard ? "text" : "none"}
                     className={`w-full bg-white border-2 rounded-xl px-4 py-4 text-base sm:text-xl outline-none transition-colors resize-none overflow-hidden min-h-[70px] ${(feedback === 'wrong' || adminMode) ? 'border-red-400 bg-red-50 text-red-900 font-bold' : feedback === 'typo' ? 'border-amber-400 bg-amber-50 text-amber-900 font-bold' : feedback === 'correct' ? 'border-green-400 bg-green-50 text-green-900 font-bold' : 'border-slate-200 focus:border-indigo-400'}`}
                     placeholder={adminMode ? "Admin Modu Aktif" : "Cevabınızı buraya yazın..."}
@@ -1864,10 +1890,6 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                       const t = themes[card.type] || { color: "bg-slate-50 border-slate-200 text-slate-800", badge: "bg-slate-200 text-slate-700", highlight: "bg-slate-100 text-slate-800", icon: "📌", tableHeader: "bg-slate-100" };
 
                       const tenseNames: Record<string, string> = { present: 'Şimdiki Zaman', past: 'Geçmiş Zaman', future: 'Gelecek Zaman' };
-
-                      const toggleTense = (key: string) => {
-                        setOpenTenses(prev => ({ ...prev, [key]: !prev[key] }));
-                      };
 
                       const hasContent = (card.matchedForm && card.matchedForm !== card.bg) || 
                                          card.notes || 
@@ -1958,7 +1980,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
                         {/* Noun Forms Table */}
                         {card.nounForms && (() => {
-                          const entries = Object.entries(card.nounForms);
+                          const entries = Object.entries(card.nounForms as Record<string, string>);
                           const n = entries.length;
                           const gridClass = n === 3 ? 'grid-cols-3' : n === 4 ? 'grid-cols-4' : n === 5 ? 'grid-cols-5' : 'grid-cols-2';
                           const useCrossTable = n >= 3 && n <= 5;
@@ -1987,7 +2009,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                                       const isMatched = form === card.matchedForm || form === card.bg;
                                       return (
                                         <div key={formName} className={`px-2 py-3 font-black text-center text-sm flex items-center justify-center ${isMatched ? 'bg-black/5' : 'opacity-80'} ${i < n - 1 ? 'border-r border-black/5' : ''}`}>
-                                          {form as string}
+                                          {form}
                                         </div>
                                       );
                                     })}
@@ -2009,7 +2031,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                                   return (
                                     <div key={formName} className={`flex justify-between items-center px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < n - 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
                                       <span className="opacity-60 text-xs font-bold">{labels[formName] || formName}</span>
-                                      <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form as string}</span>
+                                      <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form}</span>
                                     </div>
                                   );
                                 })}
@@ -2020,211 +2042,70 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
                         {/* Pronoun Forms Table or Master Tabbed UI */}
                         {(() => {
-                          const isPersonal = card.type === 'zamir' && personalPronounList.includes(card.bg.toLowerCase());
+                          const isPersonal = card.type === 'zamir' && card.tabs;
 
                           if (isPersonal) {
-                            const isFirstPersonal = idx === firstPersonalPronounIdx;
-
-                            if (!isFirstPersonal) {
-                              return (
-                                <div className="mt-4 p-3 bg-indigo-50/50 rounded-xl border border-indigo-100/50 flex items-center gap-2 justify-center text-indigo-700/60">
-                                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                  </svg>
-                                  <span className="text-[11px] font-medium italic">Tüm Şahıs Zamirleri tablosu, bu listedeki ilk zamir kartında verilmiştir.</span>
-                                </div>
-                              );
-                            }
-
-                            const pTabs = {
-                              "Yalın (Kim)": [
-                                { p: "1. Tekil (Ben)", f: "аз" }, { p: "2. Tekil (Sen)", f: "ти" }, { p: "3. Tekil (Eril/Nötr)", f: "той / то" }, { p: "3. Tekil (Dişil)", f: "тя" },
-                                { p: "1. Çoğul (Biz)", f: "ние" }, { p: "2. Çoğul (Siz)", f: "вие" }, { p: "3. Çoğul (Onlar)", f: "те" }
-                              ],
-                              "Belirtme -i (Kimi)": [
-                                { p: "1. Tekil (Beni)", kisa: "ме", uzun: "мен / мене" }, { p: "2. Tekil (Seni)", kisa: "те", uzun: "теб / тебе" }, { p: "3. Tekil (Onu E/N)", kisa: "го", uzun: "него" }, { p: "3. Tekil (Onu D)", kisa: "я", uzun: "нея" },
-                                { p: "1. Çoğul (Bizi)", kisa: "ни", uzun: "нас" }, { p: "2. Çoğul (Sizi)", kisa: "ви", uzun: "вас" }, { p: "3. Çoğul (Onları)", kisa: "ги", uzun: "тях" }
-                              ],
-                              "Yönelme -e (Kime)": [
-                                { p: "1. Tekil (Bana)", kisa: "ми", uzun: "на мен" }, { p: "2. Tekil (Sana)", kisa: "ти", uzun: "на теб" }, { p: "3. Tekil (Ona E/N)", kisa: "му", uzun: "на него" }, { p: "3. Tekil (Ona D)", kisa: "ѝ", uzun: "на нея" },
-                                { p: "1. Çoğul (Bize)", kisa: "ни", uzun: "на нас" }, { p: "2. Çoğul (Size)", kisa: "ви", uzun: "на вас" }, { p: "3. Çoğul (Onlara)", kisa: "им", uzun: "на тях" }
-                              ]
-                            };
-
                             const tabKey = `ptab-${idx}`;
-                            let defaultTab = "Yalın (Kim)";
-                            if (['ме','го','я','ни','ви','ги','мен','мене','теб','тебе','него','нея','нас','вас','тях'].includes(card.bg.toLowerCase())) defaultTab = "Belirtme -i (Kimi)";
-                            if (['ми','му','ѝ','им'].includes(card.bg.toLowerCase())) defaultTab = "Yönelme -e (Kime)";
-
-                            const activeTab = openPronounTabs[tabKey] || defaultTab;
-                            const activeData = (pTabs as any)[activeTab];
-
+                            const pTabs = card.tabs || {};
+                            const tabNames = Object.keys(pTabs);
+                            const activeTab = openPronounTabs[tabKey] || tabNames[0];
+                            const activeData = pTabs[activeTab] || [];
+                            
                             return (
-                              <div className="mt-3">
-                                {/* Tab Buttons */}
-                                <div className="flex gap-1.5 mb-0">
-                                  {Object.keys(pTabs).map((tabName) => {
-                                    const isActive = tabName === activeTab;
-                                    const hasMatch = (pTabs as any)[tabName].some((row: any) => 
-                                      [row.f, row.kisa, row.uzun].some(val => val && val.includes(card.bg.toLowerCase()))
+                              <div className="mt-4 border border-slate-200 rounded-xl overflow-hidden shadow-sm bg-white">
+                                <div className="flex bg-slate-50 border-b border-slate-200 overflow-x-auto snap-x hide-scrollbar">
+                                  {tabNames.map((tabName) => {
+                                    const isActive = activeTab === tabName;
+                                    const hasMatch = pTabs[tabName]?.some(row => 
+                                      Object.values(row).some(val => val === card.matchedForm || val === card.bg)
                                     );
-                                    
                                     return (
                                       <button
                                         key={tabName}
                                         onClick={() => setOpenPronounTabs(prev => ({ ...prev, [tabKey]: tabName }))}
-                                        className={`flex-1 px-1 py-2 text-[10px] sm:text-[11px] font-black uppercase tracking-wider rounded-t-xl transition-all duration-200 cursor-pointer relative ${isActive ? 'bg-sky-500 text-white shadow-md scale-[1.02] z-10' : 'bg-sky-100 text-sky-700 hover:brightness-95'}`}
+                                        className={`px-4 py-2 text-xs font-bold whitespace-nowrap snap-center transition-all ${
+                                          isActive 
+                                            ? 'bg-white text-indigo-600 border-b-2 border-indigo-600 shadow-sm' 
+                                            : 'text-slate-500 hover:text-slate-700 hover:bg-slate-100'
+                                        } ${hasMatch ? 'relative after:content-[""] after:absolute after:top-1 after:right-1 after:w-1.5 after:h-1.5 after:bg-indigo-500 after:rounded-full' : ''}`}
                                       >
                                         {tabName}
-                                        {hasMatch && !isActive && <span className="ml-1 inline-block w-1.5 h-1.5 bg-white rounded-full animate-pulse"></span>}
                                       </button>
                                     );
                                   })}
                                 </div>
-                                {/* Active Tab Content */}
-                                <div className="bg-white/60 rounded-b-xl rounded-tr-none overflow-hidden shadow-sm backdrop-blur-sm border-t-2 border-sky-300/30">
-                                  {activeTab === "Yalın (Kim)" ? (
-                                    <div className="flex flex-col text-sm">
-                                      <div className="grid grid-cols-2 border-b border-black/5 bg-black/5">
-                                        <div className="px-2 py-1.5 opacity-60 font-bold text-center text-xs border-r border-black/5">Şahıs</div>
-                                        <div className="px-2 py-1.5 opacity-60 font-bold text-center text-xs">Zamir</div>
+                                <div className="p-3 grid grid-cols-2 gap-2 sm:grid-cols-3 sm:gap-3 bg-white">
+                                  {activeData.map((item, i) => {
+                                    const match = (item.f || item.kisa || item.uzun)?.split('/').map(s => s.trim()).includes(card.bg.toLowerCase());
+                                    return (
+                                      <div key={i} className={`p-2 rounded-lg border ${match ? 'bg-indigo-50 border-indigo-200' : 'bg-slate-50 border-slate-100'}`}>
+                                        <div className="text-[10px] font-bold text-slate-400 uppercase">{item.p}</div>
+                                        <div className="text-sm font-black text-slate-700">{item.f || `${item.kisa} / ${item.uzun}`}</div>
                                       </div>
-                                      {activeData.map((item: any, i: number) => {
-                                        const isMatched = item.f.split('/').map((s: string) => s.trim()).includes(card.bg.toLowerCase());
-                                        return (
-                                          <div key={item.p} className={`grid grid-cols-2 ${i < activeData.length - 1 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-sky-50 ring-1 ring-inset ring-sky-200' : ''}`}>
-                                            <div className="px-2 py-2 opacity-60 text-xs font-bold border-r border-black/5 flex items-center">{item.p}</div>
-                                            <div className={`px-2 py-2 font-black text-center flex items-center justify-center ${isMatched ? 'text-sky-700' : 'opacity-80'}`}>{item.f}</div>
-                                          </div>
-                                        );
-                                      })}
-                                    </div>
-                                  ) : (
-                                    <div className="flex flex-col text-sm">
-                                      <div className="grid grid-cols-3 border-b border-black/5 bg-black/5">
-                                        <div className="px-2 py-1.5 opacity-60 font-bold text-center text-xs border-r border-black/5">Şahıs</div>
-                                        <div className="px-2 py-1.5 opacity-60 font-bold text-center text-xs border-r border-black/5">Kısa Hâl</div>
-                                        <div className="px-2 py-1.5 opacity-60 font-bold text-center text-xs">Uzun Hâl</div>
-                                      </div>
-                                      {activeData.map((item: any, i: number) => {
-                                        const kisaMatch = item.kisa.split('/').map((s: string) => s.trim()).includes(card.bg.toLowerCase());
-                                        const uzunMatch = item.uzun.split('/').map((s: string) => s.trim()).includes(card.bg.toLowerCase());
-                                        const isMatched = kisaMatch || uzunMatch;
-                                        return (
-                                          <div key={item.p} className={`grid grid-cols-3 ${i < activeData.length - 1 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-sky-50 ring-1 ring-inset ring-sky-200' : ''}`}>
-                                            <div className="px-2 py-2 opacity-60 text-[11px] font-bold border-r border-black/5 flex items-center">{item.p}</div>
-                                            <div className={`px-2 py-2 font-black text-center border-r border-black/5 flex items-center justify-center ${kisaMatch ? 'text-sky-700 bg-white/50 rounded shadow-sm' : 'opacity-80'}`}>{item.kisa}</div>
-                                            <div className={`px-2 py-2 font-black text-center flex items-center justify-center ${uzunMatch ? 'text-sky-700 bg-white/50 rounded shadow-sm' : 'opacity-80'}`}>{item.uzun}</div>
-                                          </div>
-                                        );
-                                      })}
-                                    </div>
-                                  )}
+                                    )
+                                  })}
                                 </div>
                               </div>
                             );
                           }
                           
-                          // Generic Pronoun Forms Table (for non-personal pronouns like demonstratives, possessives)
+                          // Generic Pronoun Forms Table
                           if (!card.pronounForms) return null;
                           const entries = Object.entries(card.pronounForms);
-                          const n = entries.length;
-                          const gridClass = n === 3 ? 'grid-cols-3' : n === 4 ? 'grid-cols-4' : n === 5 ? 'grid-cols-5' : 'grid-cols-2';
-                          const useCrossTable = n >= 3 && n <= 5;
-
+                          
                           return (
                             <div className="mt-2 space-y-3">
                               <div className="bg-white/60 rounded-xl overflow-hidden shadow-sm backdrop-blur-sm">
                                 <div className={`px-3 py-2 text-xs font-black uppercase tracking-widest border-b border-black/5 ${t.tableHeader}`}>
                                   {card.bg} İçin Zamir Formları
                                 </div>
-                                {useCrossTable ? (
-                                  <div className="flex flex-col text-sm">
-                                    <div className={`grid ${gridClass} border-b border-black/5`}>
-                                      {entries.map(([caseName], i) => (
-                                        <div key={caseName} className={`px-2 py-2 opacity-60 font-bold text-center text-[11px] flex items-center justify-center ${i < n - 1 ? 'border-r border-black/5' : ''}`}>
-                                          {caseName}
-                                        </div>
-                                      ))}
-                                    </div>
-                                    <div className={`grid ${gridClass}`}>
-                                      {entries.map(([caseName, form], i) => {
-                                        const isMatched = form === card.matchedForm || form === card.bg;
-                                        return (
-                                          <div key={caseName} className={`px-2 py-3 font-black text-center text-sm flex items-center justify-center ${isMatched ? 'bg-black/5 text-indigo-700' : 'opacity-80'} ${i < n - 1 ? 'border-r border-black/5' : ''}`}>
-                                            {form as string}
-                                          </div>
-                                        );
-                                      })}
-                                    </div>
-                                  </div>
-                                ) : (
-                                  <div className="grid grid-cols-2 text-sm">
-                                    {entries.map(([caseName, form], i) => {
-                                      const isMatched = form === card.matchedForm;
-                                      return (
-                                        <div key={caseName} className={`flex justify-between items-center px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < n - 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
-                                          <span className="opacity-60 text-[11px] font-bold capitalize">{caseName}</span>
-                                          <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form as string}</span>
-                                        </div>
-                                      );
-                                    })}
-                                  </div>
-                                )}
-                              </div>
-                            </div>
-                          );
-                        })()}
-
-                        {/* Verb Conjugation — Tab Tense Tables */}
-                        {card.conjugation && (() => {
-                          const tenses = Object.entries(card.conjugation);
-                          const tenseLabels: Record<string, string> = { present: 'Şimdiki Z.', past: 'Geçmiş Z.', future: 'Gelecek Z.', imperative: 'Emir Kipi' };
-                          const tenseColors: Record<string, string> = { present: 'bg-purple-200/80 text-purple-800', past: 'bg-indigo-200/80 text-indigo-800', future: 'bg-fuchsia-200/80 text-fuchsia-800', imperative: 'bg-amber-200/80 text-amber-800' };
-                          const tenseActiveColors: Record<string, string> = { present: 'bg-purple-500 text-white shadow-md', past: 'bg-indigo-500 text-white shadow-md', future: 'bg-fuchsia-500 text-white shadow-md', imperative: 'bg-amber-500 text-white shadow-md' };
-                          
-                          // Find which tense has the matched form — that's the default tab
-                          let defaultTense = 'present';
-                          for (const [tense, forms] of tenses) {
-                            if (Object.values(forms as any).some((f: any) => f === card.matchedForm)) {
-                              defaultTense = tense;
-                              break;
-                            }
-                          }
-                          
-                          const tabKey = `tab-${idx}`;
-                          const activeTense = openTenses[tabKey] as unknown as string || defaultTense;
-                          const activeFormsEntry = tenses.find(([t]) => t === activeTense);
-                          const activeForms = activeFormsEntry ? activeFormsEntry[1] as Record<string, string> : {};
-
-                          return (
-                            <div className="mt-3">
-                              {/* Tab Buttons */}
-                              <div className="flex gap-1.5 mb-0">
-                                {tenses.map(([tense]) => {
-                                  const isActive = tense === activeTense;
-                                  const hasMatch = Object.values(card.conjugation[tense] as any).some((f: any) => f === card.matchedForm);
-                                  return (
-                                    <button
-                                      key={tense}
-                                      onClick={() => setOpenTenses(prev => ({ ...prev, [tabKey]: tense as any }))}
-                                      className={`flex-1 px-2 py-2 text-[11px] font-black uppercase tracking-wider rounded-t-xl transition-all duration-200 cursor-pointer relative ${isActive ? tenseActiveColors[tense] || 'bg-purple-500 text-white' : tenseColors[tense] || 'bg-purple-100 text-purple-700'} ${isActive ? 'scale-[1.02] z-10' : 'hover:brightness-95'}`}
-                                    >
-                                      {tenseLabels[tense] || tense}
-                                      {hasMatch && !isActive && <span className="ml-1 inline-block w-1.5 h-1.5 bg-white rounded-full animate-pulse"></span>}
-                                    </button>
-                                  );
-                                })}
-                              </div>
-                              {/* Active Tense Table */}
-                              <div className="bg-white/60 rounded-b-xl rounded-tr-none overflow-hidden shadow-sm backdrop-blur-sm border-t-2 border-purple-300/30">
                                 <div className="grid grid-cols-2 text-sm">
-                                  {Object.entries(activeForms).map(([person, form], i) => {
+                                  {entries.map(([caseName, form], i) => {
                                     const isMatched = form === card.matchedForm;
                                     return (
-                                      <div key={person} className={`flex justify-between items-center px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < 4 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-purple-50 ring-1 ring-inset ring-purple-200' : ''}`}>
-                                        <span className="opacity-60 text-xs font-bold">{person}</span>
-                                        <span className={`font-black ${isMatched ? 'text-purple-700' : 'opacity-80'}`}>{form}</span>
+                                      <div key={caseName} className={`flex justify-between items-center px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < entries.length - 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
+                                        <span className="opacity-60 text-[11px] font-bold capitalize">{caseName}</span>
+                                        <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form}</span>
                                       </div>
                                     );
                                   })}
@@ -2234,36 +2115,59 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                           );
                         })()}
 
-                        {/* Forms Table (Adjective / Demonstrative Pronoun) */}
-                        {card.forms && (() => {
-                          const entries = Object.entries(card.forms);
-                          const isDemonstrative = entries.length > 0 && typeof entries[0][1] === 'object';
-                          if (isDemonstrative) {
-                            return (
-                              <div className="mt-3 bg-white/60 rounded-xl overflow-hidden shadow-sm backdrop-blur-sm">
-                                <div className={`px-3 py-2 text-xs font-black uppercase tracking-widest border-b border-black/5 ${t.tableHeader}`}>
-                                  İşaret Zamirleri — Yakın (bu) / Uzak (o/şu)
-                                </div>
-                                <div className="grid grid-cols-3 text-xs">
-                                  <div className="px-2 py-2 opacity-40 font-bold border-b border-r border-black/5"></div>
-                                  <div className="px-2 py-2 opacity-60 font-bold border-b border-r border-black/5 text-center">Yakın (Bu)</div>
-                                  <div className="px-2 py-2 opacity-60 font-bold border-b border-black/5 text-center">Uzak (O/Şu)</div>
-                                  {entries.map(([gender, forms]: [string, any], i) => {
-                                    const isMatchedYakin = forms['yakın'] === card.matchedForm || forms['yakın'] === card.bg;
-                                    const isMatchedUzak = forms['uzak'] === card.matchedForm || forms['uzak'] === card.bg;
-                                    const isLast = i === entries.length - 1;
+                        {/* Verb Conjugation */}
+                        {card.conjugation && (() => {
+                          const tenses = Object.entries(card.conjugation || {});
+                          const tenseLabels: Record<string, string> = { present: 'Şimdiki Z.', past: 'Geçmiş Z.', future: 'Gelecek Z.', imperative: 'Emir Kipi' };
+                          
+                          let defaultTense = 'present';
+                          for (const [tense, forms] of tenses) {
+                            if (Object.values(forms).some(f => f === card.matchedForm)) {
+                              defaultTense = tense;
+                              break;
+                            }
+                          }
+                          
+                          const tabKey = `tab-${idx}`;
+                          const activeTense = openTenses[tabKey] as string || defaultTense;
+                          const activeForms = tenses.find(([t]) => t === activeTense)?.[1] || {};
+
+                          return (
+                            <div className="mt-3">
+                              <div className="flex gap-1.5 mb-0">
+                                {tenses.map(([tense]) => {
+                                  const isActive = tense === activeTense;
+                                  return (
+                                    <button
+                                      key={tense}
+                                      onClick={() => setOpenTenses(prev => ({ ...prev, [tabKey]: tense }))}
+                                      className={`flex-1 px-2 py-2 text-[11px] font-black uppercase tracking-wider rounded-t-xl transition-all ${isActive ? 'bg-indigo-500 text-white shadow-md' : 'bg-indigo-100 text-indigo-700'}`}
+                                    >
+                                      {tenseLabels[tense] || tense}
+                                    </button>
+                                  );
+                                })}
+                              </div>
+                              <div className="bg-white/60 rounded-b-xl rounded-tr-none overflow-hidden shadow-sm backdrop-blur-sm border-t-2 border-indigo-300/30">
+                                <div className="grid grid-cols-2 text-sm">
+                                  {Object.entries(activeForms).map(([person, form], i) => {
+                                    const isMatched = form === card.matchedForm;
                                     return (
-                                      <Fragment key={gender}>
-                                        <div className={`px-2 py-2 opacity-60 font-bold ${!isLast ? 'border-b' : ''} border-r border-black/5`}>{gender}</div>
-                                        <div className={`px-2 py-2.5 font-black text-center text-sm ${!isLast ? 'border-b' : ''} border-r border-black/5 ${isMatchedYakin ? 'bg-indigo-50 text-indigo-700' : 'opacity-80'}`}>{forms['yak\u0131n']}</div>
-                                        <div className={`px-2 py-2.5 font-black text-center text-sm ${!isLast ? 'border-b' : ''} border-black/5 ${isMatchedUzak ? 'bg-amber-50 text-amber-700' : 'opacity-70'}`}>{forms['uzak']}</div>
-                                      </Fragment>
+                                      <div key={person} className={`flex justify-between items-center px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < 4 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-indigo-50' : ''}`}>
+                                        <span className="opacity-60 text-xs font-bold">{person}</span>
+                                        <span className={`font-black ${isMatched ? 'text-indigo-700' : 'opacity-80'}`}>{form}</span>
+                                      </div>
                                     );
                                   })}
                                 </div>
                               </div>
-                            );
-                          }
+                            </div>
+                          );
+                        })()}
+
+                        {/* Forms Table */}
+                        {card.forms && (() => {
+                          const entries = Object.entries(card.forms || {});
                           return (
                             <div className="mt-3 bg-white/60 rounded-xl overflow-hidden shadow-sm backdrop-blur-sm">
                               <div className={`px-3 py-2 text-xs font-black uppercase tracking-widest border-b border-black/5 ${t.tableHeader}`}>
@@ -2275,7 +2179,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                                   return (
                                     <div key={gender} className={`flex justify-between items-center px-3 py-2 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
                                       <span className="opacity-60 text-xs font-bold capitalize">{gender}</span>
-                                      <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form as string}</span>
+                                      <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form}</span>
                                     </div>
                                   );
                                 })}
@@ -2288,7 +2192,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                         {card.examples && card.examples.length > 0 && (
                           <div className="mt-3 space-y-1.5">
                             <div className="text-[10px] font-black uppercase tracking-widest opacity-50 px-1">Örnekler</div>
-                            {card.examples.map((ex: any, ei: number) => (
+                            {card.examples?.map((ex, ei) => (
                               <div key={ei} className="bg-white/40 rounded-lg px-3 py-2 text-sm border border-white/30">
                                 <div className="font-bold opacity-90" dangerouslySetInnerHTML={{ __html: ex.bg }} />
                                 <div className="text-xs opacity-60 italic mt-0.5" dangerouslySetInnerHTML={{ __html: ex.tr }} />

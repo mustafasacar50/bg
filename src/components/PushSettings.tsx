@@ -122,7 +122,7 @@ export default function PushSettings({ studentId }: { studentId: string }) {
         })
       });
       alert("Ayarlar kaydedildi!");
-    } catch (e) {
+    } catch {
       alert("Hata oluştu");
     }
     setLoading(false);

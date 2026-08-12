@@ -108,7 +108,7 @@ export async function updateGitHubFile(filePath: string, content: string, messag
       }
       
       return await res.json();
-    } catch (error: any) {
+    } catch (error: unknown) {
       if (attempt === retries || !error.message?.includes('GitHub API error on write')) {
         console.error(`Error writing ${filePath} to GitHub on attempt ${attempt}:`, error);
         throw error;

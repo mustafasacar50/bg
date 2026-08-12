@@ -127,7 +127,7 @@ export async function POST(request: Request, context: { params: Promise<{ id: st
     );
 
     return NextResponse.json({ success: true, updatedQuestion: action === 'update' ? data.questions[qIndex] : null });
-  } catch (error: any) {
+  } catch (error: unknown) {
     console.error('Error modifying question:', error);
     return NextResponse.json({ error: error.message }, { status: 500 });
   }

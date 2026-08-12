@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 
 export interface GrammarCardProps {
-  card: any;
+  card: Record<string, unknown>;
   isLearned?: boolean;
   onToggleLearned?: (bg: string) => void;
   defaultOpen?: boolean;
@@ -114,13 +114,13 @@ export function GrammarCard({ card, isLearned = false, onToggleLearned, defaultO
             İsim Formları
           </div>
           <div className="grid grid-cols-2 text-sm">
-            {Object.entries(card.nounForms).map(([formName, form]: any, i) => {
+            {Object.entries(card.nounForms as Record<string, string>).map(([formName, form], i) => {
               const isMatched = form === card.matchedForm;
               const labels: Record<string, string> = { tekil: 'Tekil', tekil_belirli: 'Tekil (Belirli)', 'çoğul': 'Çoğul', 'çoğul_belirli': 'Çoğul (Belirli)' };
               return (
                 <div key={formName} className={`flex justify-between items-center px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
                   <span className="opacity-60 text-xs font-bold">{labels[formName] || formName}</span>
-                  <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form as string}</span>
+                  <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form}</span>
                 </div>
               );
             })}
@@ -133,15 +133,15 @@ export function GrammarCard({ card, isLearned = false, onToggleLearned, defaultO
         <div className="mt-2 space-y-3">
           <div className="bg-white/60 rounded-xl overflow-hidden shadow-sm backdrop-blur-sm">
             <div className={`px-3 py-2 text-xs font-black uppercase tracking-widest border-b border-black/5 ${t.tableHeader}`}>
-              {card.bg} İçin Zamir Formları
+              {card.bg as string} İçin Zamir Formları
             </div>
             <div className="grid grid-cols-2 text-sm">
-              {Object.entries(card.pronounForms).map(([caseName, form]: any, i) => {
+              {Object.entries(card.pronounForms as Record<string, string>).map(([caseName, form], i) => {
                 const isMatched = form === card.matchedForm;
                 return (
-                  <div key={caseName} className={`flex justify-between items-center px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < Object.entries(card.pronounForms).length - 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
+                  <div key={caseName} className={`flex justify-between items-center px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < Object.entries(card.pronounForms as Record<string, string>).length - 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
                     <span className="opacity-60 text-xs font-bold capitalize">{caseName}</span>
-                    <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form as string}</span>
+                    <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form}</span>
                   </div>
                 );
               })}
@@ -151,7 +151,7 @@ export function GrammarCard({ card, isLearned = false, onToggleLearned, defaultO
           {/* Secondary Case Matrix (All Persons for the matched case) */}
           {(() => {
             if (!card.matchedReason) return null;
-            const matchedCaseBase = card.matchedReason.split('(')[0].trim().toLowerCase();
+            const matchedCaseBase = (card.matchedReason as string).split('(')[0].trim().toLowerCase();
             
             const fullPronounMatrix: Record<string, {p: string, f: string}[]> = {
               "yalın": [
@@ -187,7 +187,7 @@ export function GrammarCard({ card, isLearned = false, onToggleLearned, defaultO
                 <div className="grid grid-cols-2 text-sm">
                   {caseTable.map((item, i) => {
                     // Extract actual matched word (which might be in 'той / то')
-                    const isMatched = item.f.split('/').map(s => s.trim()).includes(card.matchedForm);
+                    const isMatched = item.f.split('/').map(s => s.trim()).includes(card.matchedForm as string);
                     return (
                       <div key={item.p} className={`flex justify-between items-center px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < caseTable.length - (caseTable.length % 2 === 0 ? 2 : 1) ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-indigo-50 ring-1 ring-inset ring-indigo-200' : ''}`}>
                         <span className="opacity-60 text-xs font-bold">{item.p}</span>
@@ -204,7 +204,7 @@ export function GrammarCard({ card, isLearned = false, onToggleLearned, defaultO
 
       {/* Verb Conjugation — Tab Tense Tables */}
       {card.conjugation && (() => {
-        const tenses = Object.entries(card.conjugation);
+        const tenses = Object.entries(card.conjugation as Record<string, unknown>);
         const tenseLabels: Record<string, string> = { present: 'Şimdiki Z.', past: 'Geçmiş Z.', future: 'Gelecek Z.', imperative: 'Emir Kipi' };
         const tenseColors: Record<string, string> = { present: 'bg-purple-200/80 text-purple-800', past: 'bg-indigo-200/80 text-indigo-800', future: 'bg-fuchsia-200/80 text-fuchsia-800', imperative: 'bg-amber-200/80 text-amber-800' };
         const tenseActiveColors: Record<string, string> = { present: 'bg-purple-500 text-white shadow-md', past: 'bg-indigo-500 text-white shadow-md', future: 'bg-fuchsia-500 text-white shadow-md', imperative: 'bg-amber-500 text-white shadow-md' };
@@ -212,14 +212,14 @@ export function GrammarCard({ card, isLearned = false, onToggleLearned, defaultO
         // Find which tense has the matched form — that's the default tab
         let defaultTense = 'present';
         for (const [tense, forms] of tenses) {
-          if (Object.values(forms as any).some((f: any) => f === card.matchedForm)) {
+          if (Object.values(forms as Record<string, string>).some(f => f === card.matchedForm)) {
             defaultTense = tense;
             break;
           }
         }
         
         const tabKey = `tab-conjugation`;
-        const activeTense = openTenses[tabKey] as unknown as string || defaultTense;
+        const activeTense = openTenses[tabKey] || defaultTense;
         const activeFormsEntry = tenses.find(([t]) => t === activeTense);
         const activeForms = activeFormsEntry ? activeFormsEntry[1] as Record<string, string> : {};
 
@@ -229,11 +229,11 @@ export function GrammarCard({ card, isLearned = false, onToggleLearned, defaultO
             <div className="flex gap-1.5 mb-0">
               {tenses.map(([tense]) => {
                 const isActive = tense === activeTense;
-                const hasMatch = Object.values(card.conjugation[tense] as any).some((f: any) => f === card.matchedForm);
+                const hasMatch = Object.values(card.conjugation?.[tense as keyof typeof card.conjugation] as Record<string, string> || {}).some(f => f === card.matchedForm);
                 return (
                   <button
                     key={tense}
-                    onClick={() => setOpenTenses(prev => ({ ...prev, [tabKey]: tense as any }))}
+                    onClick={() => setOpenTenses(prev => ({ ...prev, [tabKey]: tense }))}
                     className={`flex-1 px-2 py-2 text-[11px] font-black uppercase tracking-wider rounded-t-xl transition-all duration-200 cursor-pointer relative ${isActive ? tenseActiveColors[tense] || 'bg-purple-500 text-white' : tenseColors[tense] || 'bg-purple-100 text-purple-700'} ${isActive ? 'scale-[1.02] z-10' : 'hover:brightness-95'}`}
                   >
                     {tenseLabels[tense] || tense}
@@ -245,7 +245,7 @@ export function GrammarCard({ card, isLearned = false, onToggleLearned, defaultO
             {/* Active Tense Table */}
             <div className="bg-white/60 rounded-b-xl rounded-tr-none overflow-hidden shadow-sm backdrop-blur-sm border-t-2 border-purple-300/30">
               <div className="grid grid-cols-2 text-sm">
-                {Object.entries(activeForms).map(([person, form]: any, i) => {
+                {Object.entries(activeForms as Record<string, string>).map(([person, form], i) => {
                   const isMatched = form === card.matchedForm;
                   return (
                     <div key={person} className={`flex justify-between items-center px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < 4 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-purple-50 ring-1 ring-inset ring-purple-200' : ''}`}>
@@ -267,12 +267,12 @@ export function GrammarCard({ card, isLearned = false, onToggleLearned, defaultO
             Cinsiyet Formları
           </div>
           <div className="grid grid-cols-2 text-sm">
-            {Object.entries(card.forms).map(([gender, form]: any, i) => {
+            {Object.entries(card.forms as Record<string, string>).map(([gender, form], i) => {
               const isMatched = form === card.matchedForm;
               return (
                 <div key={gender} className={`flex justify-between items-center px-3 py-2 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
                   <span className="opacity-60 text-xs font-bold capitalize">{gender}</span>
-                  <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form as string}</span>
+                  <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form}</span>
                 </div>
               );
             })}
@@ -281,10 +281,10 @@ export function GrammarCard({ card, isLearned = false, onToggleLearned, defaultO
       )}
 
       {/* Examples */}
-      {card.examples && card.examples.length > 0 && (
+      {card.examples && (card.examples as unknown[]).length > 0 && (
         <div className="mt-3 space-y-1.5">
           <div className="text-[10px] font-black uppercase tracking-widest opacity-50 px-1">Örnekler</div>
-          {card.examples.map((ex: any, ei: number) => (
+          {Array.isArray(card.examples) && card.examples.map((ex: {bg?: string, tr?: string}, ei: number) => (
             <div key={ei} className="bg-white/40 rounded-lg px-3 py-2 text-sm border border-white/30">
               <div className="font-bold opacity-90">{ex.bg}</div>
               <div className="text-xs opacity-60 italic mt-0.5">{ex.tr}</div>

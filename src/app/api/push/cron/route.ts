@@ -74,7 +74,7 @@ export async function GET(request: Request) {
             });
 
             pushedCount++;
-          } catch (e: any) {
+          } catch (e: unknown) {
             console.error(`Error sending push to ${studentId}:`, e);
             if (e.statusCode === 410 || e.statusCode === 404) {
               // Subscription expired or unsubscribed
