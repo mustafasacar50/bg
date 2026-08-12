@@ -225,26 +225,39 @@ export async function POST(request: Request) {
     let allCards = [...richCards, ...miniCards];
     
     // Sort so that exact matches (base word == matched form) come first.
-    // This ensures that if a word is matched directly (e.g. "тях"), it wins over a paradigm match (e.g. "мен" producing "тях").
     allCards.sort((a, b) => {
       const aExact = a.bg.toLowerCase() === a.matchedForm.toLowerCase() ? 0 : 1;
       const bExact = b.bg.toLowerCase() === b.matchedForm.toLowerCase() ? 0 : 1;
       return aExact - bExact;
     });
 
-    // Dedup by matched form (we don't want to show multiple cards for the exact same word in the sentence)
-    const seenMatched = new Set<string>();
-    // Also dedup by bg word just in case multiple forms mapped to the same base word
+    // Merge cards sharing the same matched form, and dedup by base word
+    const mergedMap = new Map<string, any>();
     const seenBg = new Set<string>();
     
-    allCards = allCards.filter(card => {
+    for (const card of allCards) {
       const formKey = card.matchedForm.toLowerCase();
       const bgKey = card.bg.toLowerCase();
-      if (seenMatched.has(formKey) || seenBg.has(bgKey)) return false;
-      seenMatched.add(formKey);
-      seenBg.add(bgKey);
-      return true;
-    });
+
+      if (mergedMap.has(formKey)) {
+        // Form already exists, merge missing paradigms/data into it (Union Set approach)
+        const existing = mergedMap.get(formKey);
+        if (!existing.pronounForms && card.pronounForms) existing.pronounForms = card.pronounForms;
+        if (!existing.nounForms && card.nounForms) existing.nounForms = card.nounForms;
+        if (!existing.forms && card.forms) existing.forms = card.forms;
+        if (!existing.conjugation && card.conjugation) existing.conjugation = card.conjugation;
+        if ((!existing.examples || existing.examples.length === 0) && card.examples) existing.examples = card.examples;
+        if (!existing.notes && card.notes) existing.notes = card.notes;
+        
+        seenBg.add(bgKey);
+      } else if (!seenBg.has(bgKey)) {
+        // First time seeing this matched form, and first time seeing this base word
+        mergedMap.set(formKey, { ...card });
+        seenBg.add(bgKey);
+      }
+    }
+    
+    allCards = Array.from(mergedMap.values());
 
     // Sort cards: Fiil > İsim > Sıfat > Zamir > Diğerleri
     const typePriority: Record<string, number> = {
