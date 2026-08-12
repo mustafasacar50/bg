@@ -37,55 +37,68 @@ export async function POST(request: Request) {
 
     const acceptedTypes = ['fiil', 'sıfat', 'isim', 'zamir', 'parçacık', 'edat', 'bağlaç', 'zarf', 'ünlem'];
 
-    // --- PHASE 1: Rich vocab lookup ---
+    // --- PHASE 1: Rich vocab lookup (search ALL vocab files, not just active module) ---
     const richCards: any[] = [];
-    const matchedBaseWords = new Set<string>(); // Track which sentence words were matched by rich vocab
+    const matchedBaseWords = new Set<string>();
 
-    const vocabFile = moduleMap[moduleId];
-    if (vocabFile) {
+    // Always search ALL vocab files so D1-2 words show up in D3 sentences and vice versa
+    const allVocabFiles = Object.values(moduleMap) as string[];
+    // Put the active module's file first (priority)
+    const activeVocabFile = moduleMap[moduleId];
+    const orderedFiles = activeVocabFile
+      ? [activeVocabFile, ...allVocabFiles.filter(f => f !== activeVocabFile)]
+      : allVocabFiles;
+
+    const globalMatchedBaseIds = new Set<string>();
+    const seenWordBg = new Set<string>(); // deduplicate across files
+
+    for (const vocabFile of orderedFiles) {
       const filePath = path.join(vocabDir, vocabFile);
-      if (fs.existsSync(filePath)) {
-        const content = JSON.parse(fs.readFileSync(filePath, "utf8"));
-        
-        let filtered: any[] = [];
-        const indexFilePath = filePath.replace('.json', '_index.json');
-        
-        if (fs.existsSync(indexFilePath)) {
-          const index = JSON.parse(fs.readFileSync(indexFilePath, "utf8"));
-          const sentenceTokens = focusText.match(/[а-яА-ЯёЁa-zA-Z]+/gi) || [];
-          const matchedBaseIds = new Set<string>();
+      if (!fs.existsSync(filePath)) continue;
+      const content = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
-          // 1-gram check
-          sentenceTokens.forEach(t => {
-            const clean = t.toLowerCase();
-            if (index[clean]) {
-              if (Array.isArray(index[clean])) {
-                index[clean].forEach((id: string) => matchedBaseIds.add(id));
-              } else {
-                matchedBaseIds.add(index[clean]);
-              }
-              matchedBaseWords.add(clean);
-            }
-          });
+      let filtered: any[] = [];
+      const indexFilePath = filePath.replace('.json', '_index.json');
 
-          // 2-gram check (for things like "запознайте се")
-          for(let i = 0; i < sentenceTokens.length - 1; i++) {
-            const bi = (sentenceTokens[i] + " " + sentenceTokens[i+1]).toLowerCase();
-            if (index[bi]) {
-              if (Array.isArray(index[bi])) {
-                index[bi].forEach((id: string) => matchedBaseIds.add(id));
-              } else {
-                matchedBaseIds.add(index[bi]);
-              }
-              matchedBaseWords.add(sentenceTokens[i].toLowerCase());
-              matchedBaseWords.add(sentenceTokens[i+1].toLowerCase());
+      if (fs.existsSync(indexFilePath)) {
+        const index = JSON.parse(fs.readFileSync(indexFilePath, "utf8"));
+        const sentenceTokens = focusText.match(/[а-яА-ЯёЁa-zA-Z]+/gi) || [];
+        const matchedBaseIds = new Set<string>();
+
+        // 1-gram check
+        sentenceTokens.forEach(t => {
+          const clean = t.toLowerCase();
+          if (index[clean]) {
+            if (Array.isArray(index[clean])) {
+              index[clean].forEach((id: string) => matchedBaseIds.add(id));
+            } else {
+              matchedBaseIds.add(index[clean]);
             }
+            matchedBaseWords.add(clean);
           }
+        });
 
-          filtered = content.words.filter((w: any) => 
-            matchedBaseIds.has(w.bg.toLowerCase()) && 
-            (acceptedTypes.includes(w.type) || w.notes)
-          );
+        // 2-gram check
+        for(let i = 0; i < sentenceTokens.length - 1; i++) {
+          const bi = (sentenceTokens[i] + " " + sentenceTokens[i+1]).toLowerCase();
+          if (index[bi]) {
+            if (Array.isArray(index[bi])) {
+              index[bi].forEach((id: string) => matchedBaseIds.add(id));
+            } else {
+              matchedBaseIds.add(index[bi]);
+            }
+            matchedBaseWords.add(sentenceTokens[i].toLowerCase());
+            matchedBaseWords.add(sentenceTokens[i+1].toLowerCase());
+          }
+        }
+
+        filtered = content.words.filter((w: any) =>
+          matchedBaseIds.has(w.bg.toLowerCase()) &&
+          (acceptedTypes.includes(w.type) || w.notes) &&
+          !seenWordBg.has(w.bg.toLowerCase())
+        );
+        filtered.forEach(w => seenWordBg.add(w.bg.toLowerCase()));
+
         } else {
           // Fallback to old linear scan if index doesn't exist
           filtered = content.words.filter((w: any) => {
@@ -107,7 +120,21 @@ export async function POST(request: Request) {
               }
             }
             
-            if (w.forms && Object.values(w.forms).some((f: any) => { const v = hasWholeWord(f, focusText); if(v) matchedBaseWords.add(f.toLowerCase()); return v; })) return true;
+            if (w.forms) {
+              const formsMatch = Object.values(w.forms).some((f: any) => {
+                if (typeof f === 'object' && f !== null) {
+                  return Object.values(f).some(subForm => {
+                    const v = hasWholeWord(String(subForm), focusText);
+                    if (v) matchedBaseWords.add(String(subForm).toLowerCase());
+                    return v;
+                  });
+                }
+                const v = hasWholeWord(String(f), focusText);
+                if (v) matchedBaseWords.add(String(f).toLowerCase());
+                return v;
+              });
+              if (formsMatch) return true;
+            }
             if (w.nounForms && Object.values(w.nounForms).some((f: any) => { const v = hasWholeWord(f, focusText); if(v) matchedBaseWords.add(f.toLowerCase()); return v; })) return true;
             if (w.pronounForms && Object.values(w.pronounForms).some((f: any) => { const v = hasWholeWord(f, focusText); if(v) matchedBaseWords.add(f.toLowerCase()); return v; })) return true;
   
@@ -152,7 +179,20 @@ export async function POST(request: Request) {
           if (card.forms) {
             const formNames: Record<string, string> = { eril: 'Eril Form', 'dişil': 'Dişil Form', 'nötr': 'Nötr Form', 'çoğul': 'Çoğul Form' };
             for (const [formName, form] of Object.entries(card.forms)) {
-              if (hasWholeWord(form as string, focusText)) { matchedForm = form; matchedReason = formNames[formName] || formName; }
+              if (typeof form === 'object' && form !== null) {
+                // Handle nested forms like demonstrative pronouns { yakın: 'този', uzak: 'онзи' }
+                for (const [subName, subForm] of Object.entries(form)) {
+                   if (hasWholeWord(String(subForm), focusText)) {
+                     matchedForm = subForm;
+                     matchedReason = `${formNames[formName] || formName} (${subName})`;
+                   }
+                }
+              } else {
+                if (hasWholeWord(String(form), focusText)) { 
+                  matchedForm = form; 
+                  matchedReason = formNames[formName] || formName; 
+                }
+              }
             }
           }
 
