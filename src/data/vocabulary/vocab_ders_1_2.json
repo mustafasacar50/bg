@@ -2861,6 +2861,5006 @@
           "tr": "Seni görmek istiyorum."
         }
       ]
+    },
+    {
+      "id": "word_auto_1786540626628_9774",
+      "bg": "разлики",
+      "tr": "farklılıklar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540626646_8548",
+      "bg": "при",
+      "tr": "en",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540626656_9962",
+      "bg": "печатни",
+      "tr": "baskılı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540626659_4091",
+      "bg": "писане",
+      "tr": "yazma",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540626775_3372",
+      "bg": "фонетични",
+      "tr": "fonetik",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540626775_5869",
+      "bg": "запомнете",
+      "tr": "unutma",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540626775_1499",
+      "bg": "особености",
+      "tr": "özellikler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540626779_7260",
+      "bg": "кирилицата",
+      "tr": "kiril",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540626779_8166",
+      "bg": "контаминация",
+      "tr": "kirlenme",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540626784_7713",
+      "bg": "ръкописни",
+      "tr": "el yazısı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540627379_4265",
+      "bg": "изброяване",
+      "tr": "listeleme",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540627389_3120",
+      "bg": "софия",
+      "tr": "sofya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540627389_5610",
+      "bg": "синьо",
+      "tr": "mavi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540627407_3297",
+      "bg": "съгласни",
+      "tr": "kabul etmek",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540627743_9901",
+      "bg": "ия",
+      "tr": "evet",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540627791_2774",
+      "bg": "изговаряне",
+      "tr": "konuşuyorum",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540627794_180",
+      "bg": "съдържат",
+      "tr": "içermek",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540627796_5096",
+      "bg": "гласни",
+      "tr": "ünlüler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540627799_2925",
+      "bg": "йо",
+      "tr": "sen",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540627800_2279",
+      "bg": "ьо",
+      "tr": "sen",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540628397_848",
+      "bg": "над",
+      "tr": "üzerinde",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540628397_7719",
+      "bg": "по",
+      "tr": "ile",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540628398_1020",
+      "bg": "у",
+      "tr": "sen",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540628402_4629",
+      "bg": "о",
+      "tr": "fr",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540628411_4543",
+      "bg": "като",
+      "tr": "beğenmek",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540628420_5924",
+      "bg": "но",
+      "tr": "ancak",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540628426_8461",
+      "bg": "суджук",
+      "tr": "sucuk",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540628486_9640",
+      "bg": "два",
+      "tr": "iki",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540628706_940",
+      "bg": "звука",
+      "tr": "ses",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540628949_5173",
+      "bg": "дж",
+      "tr": "j",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540629554_1675",
+      "bg": "дзифт",
+      "tr": "çift",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540629566_1838",
+      "bg": "български",
+      "tr": "bulgarca",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540629592_4924",
+      "bg": "сграда",
+      "tr": "bina",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540629938_931",
+      "bg": "дз",
+      "tr": "dz",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540629940_7532",
+      "bg": "съвременния",
+      "tr": "modern olan",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540630092_1950",
+      "bg": "зграда",
+      "tr": "bina",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540630092_1748",
+      "bg": "“зграда”",
+      "tr": "\"bina\"",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540630099_853",
+      "bg": "книжовен",
+      "tr": "edebi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540630105_4901",
+      "bg": "зъртам",
+      "tr": "bakıyorum",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540630110_2892",
+      "bg": "дзън",
+      "tr": "zen",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540630704_5958",
+      "bg": "вид",
+      "tr": "türler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540630789_758",
+      "bg": "три",
+      "tr": "üç",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540630857_5041",
+      "bg": "втори",
+      "tr": "ikinci",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540630911_3826",
+      "bg": "първи",
+      "tr": "birinci",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540631162_3146",
+      "bg": "вида",
+      "tr": "türler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540631519_6137",
+      "bg": "състои",
+      "tr": "oluşur",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540631519_1076",
+      "bg": "звучни",
+      "tr": "sesli",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540631519_8087",
+      "bg": "съгласните",
+      "tr": "kabul etmek",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540631520_8335",
+      "bg": "азбуката",
+      "tr": "alfabe",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540631573_5552",
+      "bg": "беззвучни",
+      "tr": "sessiz",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540632170_8729",
+      "bg": "определя",
+      "tr": "belirler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540632171_9207",
+      "bg": "които",
+      "tr": "hangi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540632171_7186",
+      "bg": "трети",
+      "tr": "üçüncü",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540632177_6546",
+      "bg": "раздели",
+      "tr": "bölümler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540632187_1933",
+      "bg": "наричат",
+      "tr": "aradılar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540632437_8544",
+      "bg": "броят",
+      "tr": "sayım",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540632718_8428",
+      "bg": "сонорни",
+      "tr": "sesli",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540632720_3048",
+      "bg": "изговор",
+      "tr": "bir bahane",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540632730_1708",
+      "bg": "частите",
+      "tr": "parçalar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540632913_5053",
+      "bg": "гласните",
+      "tr": "sesli harfler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540633505_5101",
+      "bg": "малко",
+      "tr": "biraz",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540633510_1890",
+      "bg": "колкото",
+      "tr": "şu kadar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540633511_567",
+      "bg": "голяма",
+      "tr": "büyük",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540633521_7334",
+      "bg": "броя",
+      "tr": "saymak",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540633522_3238",
+      "bg": "всяка",
+      "tr": "her biri",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540633541_3177",
+      "bg": "ако",
+      "tr": "eğer",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540633542_622",
+      "bg": "повече",
+      "tr": "daha",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540633550_4011",
+      "bg": "почти",
+      "tr": "neredeyse",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540633554_813",
+      "bg": "част",
+      "tr": "parça",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540634168_7251",
+      "bg": "малка",
+      "tr": "küçük",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540634761_7354",
+      "bg": "табла",
+      "tr": "pano",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540634764_4134",
+      "bg": "изписват",
+      "tr": "hecelemek",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540634772_9757",
+      "bg": "толкова",
+      "tr": "bu kadar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540635041_1054",
+      "bg": "дъската",
+      "tr": "tahta",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540635042_306",
+      "bg": "ръкописно",
+      "tr": "el yazısı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540635042_6707",
+      "bg": "сричкуват",
+      "tr": "hece",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540635400_4523",
+      "bg": "тетрадките",
+      "tr": "defterler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540635400_974",
+      "bg": "сходните",
+      "tr": "benzer olanlar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540635400_2060",
+      "bg": "цветните",
+      "tr": "renkli olanlar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540635409_5309",
+      "bg": "обучаемите",
+      "tr": "stajyerler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540636007_5131",
+      "bg": "поне",
+      "tr": "en azından",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540636013_6645",
+      "bg": "марш",
+      "tr": "mart",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540636013_8957",
+      "bg": "пъти",
+      "tr": "kez",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540636014_2375",
+      "bg": "душ",
+      "tr": "duş",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540636014_9207",
+      "bg": "турски",
+      "tr": "türkçe",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540636111_9866",
+      "bg": "писането",
+      "tr": "yazı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540636124_6440",
+      "bg": "кирилица",
+      "tr": "kiril alfabesi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540636351_9837",
+      "bg": "упражняване",
+      "tr": "egzersiz yapmak",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540636356_1741",
+      "bg": "афиш",
+      "tr": "poster",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540636391_5854",
+      "bg": "желателно",
+      "tr": "arzu edilir",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540636980_4742",
+      "bg": "монтаж",
+      "tr": "toplantı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540636982_1192",
+      "bg": "дренаж",
+      "tr": "drenaj",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540636988_7011",
+      "bg": "масаж",
+      "tr": "masaj",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540636990_6907",
+      "bg": "гише",
+      "tr": "tezgah",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540636992_9762",
+      "bg": "камуфлаж",
+      "tr": "kamuflaj",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540636995_6052",
+      "bg": "стаж",
+      "tr": "staj",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540637035_8388",
+      "bg": "ажур",
+      "tr": "ajur",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540637125_398",
+      "bg": "бандаж",
+      "tr": "bandaj",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540637126_4315",
+      "bg": "волтаж",
+      "tr": "gerilim",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540637136_7494",
+      "bg": "амбалаж",
+      "tr": "ambalajlama",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540637728_7575",
+      "bg": "енергия",
+      "tr": "enerji",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540637729_6115",
+      "bg": "морфология",
+      "tr": "morfoloji",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540637737_8655",
+      "bg": "стратегия",
+      "tr": "strateji",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540637738_5515",
+      "bg": "сандвич",
+      "tr": "bir sandviç",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540637745_765",
+      "bg": "каучук",
+      "tr": "lastik",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540637748_9866",
+      "bg": "антология",
+      "tr": "antoloji",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540637770_8816",
+      "bg": "зоология",
+      "tr": "zooloji",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540637883_2470",
+      "bg": "легионер",
+      "tr": "lejyoner",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540637979_88",
+      "bg": "кортеж",
+      "tr": "konvoy",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540638339_8640",
+      "bg": "хидрология",
+      "tr": "hidroloji",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540638942_9499",
+      "bg": "чорба",
+      "tr": "çorba",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540638944_2832",
+      "bg": "декоратор",
+      "tr": "dekoratör",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540638953_2365",
+      "bg": "чорап",
+      "tr": "çorap",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540638959_3580",
+      "bg": "цар",
+      "tr": "kral",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540639089_6547",
+      "bg": "гьон",
+      "tr": "bay",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540639090_1096",
+      "bg": "гьол",
+      "tr": "amaç",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540639097_5719",
+      "bg": "класьор",
+      "tr": "dosya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540639100_967",
+      "bg": "доцент",
+      "tr": "doçent",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540639105_3350",
+      "bg": "чироз",
+      "tr": "siroz",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540639340_4853",
+      "bg": "дубльор",
+      "tr": "yedek öğrenci",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540639938_7709",
+      "bg": "невролог",
+      "tr": "nörolog",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540639938_8842",
+      "bg": "консерватор",
+      "tr": "tutucu",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540639939_5075",
+      "bg": "професор",
+      "tr": "profesör",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540639945_9917",
+      "bg": "директор",
+      "tr": "müdür",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540639948_1066",
+      "bg": "неврология",
+      "tr": "nöroloji",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540639973_4620",
+      "bg": "меню",
+      "tr": "menü",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540640170_8519",
+      "bg": "терор",
+      "tr": "terör",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540640175_6109",
+      "bg": "тенор",
+      "tr": "tenor",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540640175_7604",
+      "bg": "неутрон",
+      "tr": "nötron",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540640178_794",
+      "bg": "монитор",
+      "tr": "monitör",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540640773_1027",
+      "bg": "бюст",
+      "tr": "baskın yapmak",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540640775_8341",
+      "bg": "бюро",
+      "tr": "çalışma masası",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540640780_1214",
+      "bg": "волейбол",
+      "tr": "voleybol",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540640804_8239",
+      "bg": "йон",
+      "tr": "iyon",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540640823_6524",
+      "bg": "хей",
+      "tr": "hey",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540640917_2990",
+      "bg": "хайде",
+      "tr": "hadi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540640917_4290",
+      "bg": "калай",
+      "tr": "kalay",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540640926_2951",
+      "bg": "тайга",
+      "tr": "tayga",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540640927_2753",
+      "bg": "гайда",
+      "tr": "gayda",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540641302_4243",
+      "bg": "бюрократ",
+      "tr": "bir bürokrat",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540641892_2975",
+      "bg": "испания",
+      "tr": "i̇spanya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540641892_4725",
+      "bg": "италия",
+      "tr": "i̇talya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540641895_4942",
+      "bg": "камелия",
+      "tr": "kamelya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540641900_7501",
+      "bg": "мая",
+      "tr": "maya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540641902_5477",
+      "bg": "боя",
+      "tr": "boyamak",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540641902_3867",
+      "bg": "литография",
+      "tr": "litografi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540641907_2925",
+      "bg": "амоняк",
+      "tr": "amonyak",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540641921_1632",
+      "bg": "тения",
+      "tr": "tenya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540642312_1832",
+      "bg": "малария",
+      "tr": "sıtma",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540642319_5690",
+      "bg": "азия",
+      "tr": "asya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540642900_1864",
+      "bg": "радиатор",
+      "tr": "radyatör",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540642900_4023",
+      "bg": "диагноза",
+      "tr": "tanı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540642906_4245",
+      "bg": "диалог",
+      "tr": "diyalog",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540642909_2099",
+      "bg": "маниак",
+      "tr": "manyak",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540642911_8237",
+      "bg": "диапазон",
+      "tr": "menzil",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540642922_1103",
+      "bg": "гладиатор",
+      "tr": "gladyatör",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540643130_482",
+      "bg": "соя",
+      "tr": "soya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540643130_2404",
+      "bg": "ателие",
+      "tr": "atölye",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540643134_4055",
+      "bg": "диез",
+      "tr": "keskin",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540643138_9998",
+      "bg": "диалект",
+      "tr": "lehçe",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540643726_2288",
+      "bg": "диоптър",
+      "tr": "diyoptri",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540643727_5298",
+      "bg": "аквариум",
+      "tr": "akvaryum",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540643743_7795",
+      "bg": "камион",
+      "tr": "kamyon",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540643744_6908",
+      "bg": "биология",
+      "tr": "biyoloji",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540643753_3695",
+      "bg": "радио",
+      "tr": "radyo",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540643758_235",
+      "bg": "биолог",
+      "tr": "biyolog",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540644071_2694",
+      "bg": "милион",
+      "tr": "milyon",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540644261_9443",
+      "bg": "цигара",
+      "tr": "bir sigara",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540644261_7226",
+      "bg": "агробиология",
+      "tr": "tarım biyolojisi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540644261_6623",
+      "bg": "дециграм",
+      "tr": "desigram",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540644847_6207",
+      "bg": "декорация",
+      "tr": "dekorasyon",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540644858_1884",
+      "bg": "акумулатор",
+      "tr": "akümülatör",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540644865_6180",
+      "bg": "навигация",
+      "tr": "navigasyon",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540644874_9544",
+      "bg": "акация",
+      "tr": "akasya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540645595_2528",
+      "bg": "цирк",
+      "tr": "sirk",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540645598_7379",
+      "bg": "цивилен",
+      "tr": "sivil",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540645598_3889",
+      "bg": "делегация",
+      "tr": "heyet",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540645606_4157",
+      "bg": "ацетон",
+      "tr": "aseton",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540645607_1076",
+      "bg": "ацетилен",
+      "tr": "asetilen",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540645775_320",
+      "bg": "цивил",
+      "tr": "bir sivil",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540646364_827",
+      "bg": "сатурн",
+      "tr": "satürn",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540646381_3411",
+      "bg": "лукс",
+      "tr": "lüks",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540646385_2063",
+      "bg": "аперитив",
+      "tr": "aperatif",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540646395_5183",
+      "bg": "дует",
+      "tr": "bir düet",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540647038_7384",
+      "bg": "колектив",
+      "tr": "kolektif",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540647038_4050",
+      "bg": "албум",
+      "tr": "albüm",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540647039_8802",
+      "bg": "кактус",
+      "tr": "kaktüs",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540647044_7314",
+      "bg": "хуманист",
+      "tr": "hümanist",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540647060_5020",
+      "bg": "капсула",
+      "tr": "kapsül",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540647319_3069",
+      "bg": "джудже",
+      "tr": "bir cüce",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540647922_2188",
+      "bg": "лимонада",
+      "tr": "limonata",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540647924_8581",
+      "bg": "хлор",
+      "tr": "klor",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540647924_7847",
+      "bg": "химия",
+      "tr": "kimya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540647941_4115",
+      "bg": "йод",
+      "tr": "iyot",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540648167_9047",
+      "bg": "биохимия",
+      "tr": "biyokimya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540648448_1954",
+      "bg": "електрод",
+      "tr": "elektrot",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540648448_6043",
+      "bg": "локомотив",
+      "tr": "lokomotif",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540648448_866",
+      "bg": "хаос",
+      "tr": "kaos",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540648469_8467",
+      "bg": "характеристика",
+      "tr": "karakteristik",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540648595_4108",
+      "bg": "алманах",
+      "tr": "almanak",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540649206_4161",
+      "bg": "психология",
+      "tr": "psikoloji",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540649210_8075",
+      "bg": "хлорофил",
+      "tr": "klorofil",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540649212_8124",
+      "bg": "анархия",
+      "tr": "anarşi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540649335_6284",
+      "bg": "техника",
+      "tr": "teknik",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540649335_759",
+      "bg": "хлороформ",
+      "tr": "kloroform",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540649335_3910",
+      "bg": "хронология",
+      "tr": "kronoloji",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540649336_3055",
+      "bg": "зехтин",
+      "tr": "zeytinyağı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540649336_2070",
+      "bg": "механика",
+      "tr": "mekanik",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540649917_8489",
+      "bg": "монархия",
+      "tr": "monarşi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540649989_4626",
+      "bg": "хамбар",
+      "tr": "ahır",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540650614_4019",
+      "bg": "ентусиазъм",
+      "tr": "heves",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540650654_709",
+      "bg": "атеизъм",
+      "tr": "ateizm",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540650879_21",
+      "bg": "хуманизъм",
+      "tr": "hümanizm",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540650940_6129",
+      "bg": "фурма",
+      "tr": "bir tarih",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540650971_5204",
+      "bg": "хастар",
+      "tr": "zar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540650971_4528",
+      "bg": "далтонизъм",
+      "tr": "renk körlüğü",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540650971_1093",
+      "bg": "дарвинизъм",
+      "tr": "darwinizm",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540650972_2375",
+      "bg": "будизъм",
+      "tr": "budizm",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540650981_6553",
+      "bg": "динамизъм",
+      "tr": "dinamizm",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540651117_2687",
+      "bg": "драматизъм",
+      "tr": "dramatizm",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540651713_8245",
+      "bg": "километър",
+      "tr": "kilometre",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540651718_3925",
+      "bg": "хронометър",
+      "tr": "kronometre",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540651718_1681",
+      "bg": "егоизъм",
+      "tr": "bencillik",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540651718_4179",
+      "bg": "пържола",
+      "tr": "biftek",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540651726_6721",
+      "bg": "манастир",
+      "tr": "manastır",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540651861_584",
+      "bg": "кайсия",
+      "tr": "kayısı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540651861_1506",
+      "bg": "катър",
+      "tr": "mancınık",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540651868_2933",
+      "bg": "пиранга",
+      "tr": "pirana",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540651869_7134",
+      "bg": "фуркета",
+      "tr": "çatal",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540652099_666",
+      "bg": "кадастър",
+      "tr": "kadastro",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540652697_68",
+      "bg": "бразилия",
+      "tr": "brezilya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540652702_2423",
+      "bg": "автобус",
+      "tr": "otobüs",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540653112_8038",
+      "bg": "автомат",
+      "tr": "otomat",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540653186_5032",
+      "bg": "децилитър",
+      "tr": "desilitre",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540653187_8763",
+      "bg": "автоматичен",
+      "tr": "otomatik",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540653190_6797",
+      "bg": "аташе",
+      "tr": "ataşe",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540653192_8323",
+      "bg": "аргат",
+      "tr": "argot",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540653192_9868",
+      "bg": "хектолитър",
+      "tr": "hektolitre",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540653199_4100",
+      "bg": "дециметър",
+      "tr": "desimetre",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540653377_5567",
+      "bg": "автобиография",
+      "tr": "otobiyografi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540653978_3562",
+      "bg": "енциклопедия",
+      "tr": "ansiklopedi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540653982_3763",
+      "bg": "тарифа",
+      "tr": "tarife",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540653983_2130",
+      "bg": "дизентерия",
+      "tr": "dizanteri",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540653993_3592",
+      "bg": "досие",
+      "tr": "dosya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540654003_9614",
+      "bg": "борсук",
+      "tr": "porsuk",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540654021_2123",
+      "bg": "император",
+      "tr": "imparator",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540654425_2214",
+      "bg": "вентилатор",
+      "tr": "vantilatör",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540654428_2178",
+      "bg": "халва",
+      "tr": "helva",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540654430_7465",
+      "bg": "микроб",
+      "tr": "mikrop",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540654442_1406",
+      "bg": "изолатор",
+      "tr": "yalıtkan",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540655028_7256",
+      "bg": "адвокат",
+      "tr": "avukat",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540655031_6893",
+      "bg": "австрия",
+      "tr": "avusturya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540655038_4863",
+      "bg": "балсам",
+      "tr": "saç kremi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540655040_8436",
+      "bg": "бамбук",
+      "tr": "bambu",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540655040_5224",
+      "bg": "август",
+      "tr": "ağustos",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540655050_7556",
+      "bg": "австралия",
+      "tr": "avustralya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540655380_9011",
+      "bg": "авария",
+      "tr": "bir kaza",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540655597_6914",
+      "bg": "балон",
+      "tr": "balon",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540655600_6546",
+      "bg": "абанос",
+      "tr": "abanoz",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540655601_6628",
+      "bg": "ботинка",
+      "tr": "bot",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540656195_9964",
+      "bg": "бебе",
+      "tr": "bebek",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540656199_1077",
+      "bg": "банка",
+      "tr": "banka",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540656199_7424",
+      "bg": "веранда",
+      "tr": "sundurma",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540656201_5085",
+      "bg": "велур",
+      "tr": "süet",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540656201_8239",
+      "bg": "бира",
+      "tr": "bira",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540656227_1703",
+      "bg": "белгия",
+      "tr": "belçika",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540656358_2424",
+      "bg": "вампир",
+      "tr": "bir vampir",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540656367_9681",
+      "bg": "ватман",
+      "tr": "ne adam",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540656551_8185",
+      "bg": "вагон",
+      "tr": "vagon",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540657400_7103",
+      "bg": "ваза",
+      "tr": "bir vazo",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540657988_7041",
+      "bg": "геометрия",
+      "tr": "geometri",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540657995_7304",
+      "bg": "гангстер",
+      "tr": "gangster",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540657997_5078",
+      "bg": "гарга",
+      "tr": "gargara",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540657998_3335",
+      "bg": "екстра",
+      "tr": "ekstra",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540658048_6803",
+      "bg": "депозит",
+      "tr": "mevduat",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540658749_7178",
+      "bg": "декан",
+      "tr": "dekan",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540658750_1210",
+      "bg": "газопровод",
+      "tr": "gaz boru hattı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540658752_8430",
+      "bg": "геврек",
+      "tr": "pretzel",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540658758_3569",
+      "bg": "елеватор",
+      "tr": "asansör",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540658759_9985",
+      "bg": "география",
+      "tr": "coğrafya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540659361_7699",
+      "bg": "зала",
+      "tr": "salon",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540659365_6769",
+      "bg": "жираф",
+      "tr": "zürafa",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540659366_4288",
+      "bg": "захар",
+      "tr": "şeker",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540659367_8874",
+      "bg": "естетика",
+      "tr": "estetik",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540659369_7245",
+      "bg": "етикет",
+      "tr": "etiket",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540659960_9634",
+      "bg": "журнал",
+      "tr": "günlük",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540659962_10",
+      "bg": "звънец",
+      "tr": "zil",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540659968_8775",
+      "bg": "жетон",
+      "tr": "jeton",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540660086_6551",
+      "bg": "завеса",
+      "tr": "bir perde",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540660093_5953",
+      "bg": "етнография",
+      "tr": "etnografya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540660682_6825",
+      "bg": "зебра",
+      "tr": "zebra",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540660687_1391",
+      "bg": "икономика",
+      "tr": "ekonomi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540660687_5731",
+      "bg": "интернет",
+      "tr": "internet",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540660694_8289",
+      "bg": "кабина",
+      "tr": "kabin",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540660700_6662",
+      "bg": "изложба",
+      "tr": "sergi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540660703_1613",
+      "bg": "индиго",
+      "tr": "çivit rengi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540661101_3305",
+      "bg": "извор",
+      "tr": "kaynak",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540661101_5001",
+      "bg": "йероглиф",
+      "tr": "hiyeroglif",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540661106_4034",
+      "bg": "йерархия",
+      "tr": "hiyerarşi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540661109_7647",
+      "bg": "кабел",
+      "tr": "kablo",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540661698_8210",
+      "bg": "лаптоп",
+      "tr": "dizüstü bilgisayar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540661698_4565",
+      "bg": "калиграфия",
+      "tr": "kaligrafi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540661700_1263",
+      "bg": "ластик",
+      "tr": "lastik bant",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540661703_9435",
+      "bg": "компютър",
+      "tr": "bilgisayar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540661708_2116",
+      "bg": "лимон",
+      "tr": "limon",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540661708_5343",
+      "bg": "лабиринт",
+      "tr": "labirent",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540661715_6801",
+      "bg": "лидер",
+      "tr": "lider",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540661989_6427",
+      "bg": "кавал",
+      "tr": "süvari",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540662219_7563",
+      "bg": "левент",
+      "tr": "levant",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540662225_647",
+      "bg": "кехлибар",
+      "tr": "kehribar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540662828_1992",
+      "bg": "ноември",
+      "tr": "kasım",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540662829_7560",
+      "bg": "норма",
+      "tr": "norm",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540662833_9654",
+      "bg": "нотариус",
+      "tr": "noter",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540662841_14",
+      "bg": "мода",
+      "tr": "moda",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540662909_8687",
+      "bg": "маса",
+      "tr": "masa",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540663468_5949",
+      "bg": "метафора",
+      "tr": "metafor",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540663468_6286",
+      "bg": "новела",
+      "tr": "kısa roman",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540663469_9748",
+      "bg": "математика",
+      "tr": "matematik",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540663469_425",
+      "bg": "нота",
+      "tr": "not",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540663469_2879",
+      "bg": "март",
+      "tr": "mart",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540664161_1663",
+      "bg": "обелиск",
+      "tr": "dikilitaş",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540664161_1978",
+      "bg": "общежитие",
+      "tr": "yatakhane",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540664212_7741",
+      "bg": "опера",
+      "tr": "opera",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540664212_4775",
+      "bg": "одрин",
+      "tr": "bir gün",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540664212_5169",
+      "bg": "организъм",
+      "tr": "organizma",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540664213_482",
+      "bg": "октопод",
+      "tr": "ahtapot",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540664214_7697",
+      "bg": "октомври",
+      "tr": "ekim",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540664214_3530",
+      "bg": "оперета",
+      "tr": "operet",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540664214_9568",
+      "bg": "океан",
+      "tr": "okyanus",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540664745_9614",
+      "bg": "одеколон",
+      "tr": "kolonya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540665347_2887",
+      "bg": "парфюм",
+      "tr": "parfüm",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540665349_1387",
+      "bg": "пансион",
+      "tr": "pansiyon",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540665355_365",
+      "bg": "ракия",
+      "tr": "brendi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540665355_3711",
+      "bg": "парафин",
+      "tr": "parafin",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540665363_8877",
+      "bg": "рафт",
+      "tr": "raf",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540665406_5793",
+      "bg": "партер",
+      "tr": "zemin kat",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540665673_3007",
+      "bg": "павиан",
+      "tr": "maymun",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540665673_9838",
+      "bg": "перде",
+      "tr": "bir perde",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540665683_1930",
+      "bg": "панорама",
+      "tr": "panorama",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540665685_8475",
+      "bg": "паваж",
+      "tr": "kaldırım",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540666282_6174",
+      "bg": "режисьор",
+      "tr": "müdür",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540666287_5697",
+      "bg": "сезон",
+      "tr": "mevsim",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540666287_1167",
+      "bg": "серум",
+      "tr": "serum",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540666290_9125",
+      "bg": "сергия",
+      "tr": "durak",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540666292_2783",
+      "bg": "салон",
+      "tr": "salon",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540666300_9186",
+      "bg": "сода",
+      "tr": "soda",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540666875_7544",
+      "bg": "ректор",
+      "tr": "rektör",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540666879_8840",
+      "bg": "скарида",
+      "tr": "karides",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540666879_5467",
+      "bg": "спанак",
+      "tr": "ıspanak",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540666881_6829",
+      "bg": "ринг",
+      "tr": "yüzük",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540667464_8018",
+      "bg": "уиски",
+      "tr": "viski",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540667471_3656",
+      "bg": "табло",
+      "tr": "gösterge paneli",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540667471_8013",
+      "bg": "тенис",
+      "tr": "tenis",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540667472_5881",
+      "bg": "телевизия",
+      "tr": "televizyon",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540667474_1760",
+      "bg": "фасул",
+      "tr": "fasulye",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540667485_6108",
+      "bg": "тапа",
+      "tr": "fiş",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540667486_5083",
+      "bg": "фабрика",
+      "tr": "fabrika",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540667490_1100",
+      "bg": "фамилия",
+      "tr": "soyadı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540667493_531",
+      "bg": "табела",
+      "tr": "plaka",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540667865_5243",
+      "bg": "увертюра",
+      "tr": "uvertür",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540668457_4029",
+      "bg": "ферма",
+      "tr": "çiftlik",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540668460_8329",
+      "bg": "филология",
+      "tr": "filoloji",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540668461_7228",
+      "bg": "цвете",
+      "tr": "bir çiçek",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540668465_5347",
+      "bg": "цимент",
+      "tr": "çimento",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540668469_7063",
+      "bg": "церемония",
+      "tr": "tören",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540668470_602",
+      "bg": "циклон",
+      "tr": "siklon",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540668474_7515",
+      "bg": "характер",
+      "tr": "karakter",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540668480_2651",
+      "bg": "физика",
+      "tr": "fizik",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540668854_6533",
+      "bg": "цветарство",
+      "tr": "çiçekçilik",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540668857_354",
+      "bg": "фаянс",
+      "tr": "fayans",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540669444_7877",
+      "bg": "шут",
+      "tr": "soytarı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540669446_7194",
+      "bg": "чай",
+      "tr": "çay",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540669448_9523",
+      "bg": "футбол",
+      "tr": "futbol",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540669450_9416",
+      "bg": "шеф",
+      "tr": "patron",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540669455_2633",
+      "bg": "чифлик",
+      "tr": "çiftlik evi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540669456_7361",
+      "bg": "юли",
+      "tr": "temmuz",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540669459_818",
+      "bg": "юни",
+      "tr": "haziran",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540670025_3300",
+      "bg": "шоколад",
+      "tr": "çikolata",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540670031_513",
+      "bg": "шише",
+      "tr": "bir şişe",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540670818_6286",
+      "bg": "шалвари",
+      "tr": "şalvarlar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540671413_2220",
+      "bg": "ютия",
+      "tr": "ütü",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540671417_886",
+      "bg": "януари",
+      "tr": "ocak",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540671788_126",
+      "bg": "графа",
+      "tr": "saymak",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540671802_4145",
+      "bg": "закони",
+      "tr": "kanunlar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540672029_1198",
+      "bg": "яхър",
+      "tr": "evet",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540672181_4886",
+      "bg": "звуков",
+      "tr": "ses",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540672186_3332",
+      "bg": "звукови",
+      "tr": "ses",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540672188_789",
+      "bg": "особености“",
+      "tr": "özellikler'",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540672193_229",
+      "bg": "приложеният",
+      "tr": "ek",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540672586_518",
+      "bg": "„други",
+      "tr": "\"diğerleri",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540673185_686",
+      "bg": "към",
+      "tr": "ile",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540673192_9876",
+      "bg": "приложен",
+      "tr": "ekli",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540673194_9750",
+      "bg": "анархист",
+      "tr": "anarşist",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540673197_138",
+      "bg": "тоест",
+      "tr": "yani",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540673586_3095",
+      "bg": "анамнеза",
+      "tr": "tıbbi geçmiş",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540673591_7853",
+      "bg": "отнася",
+      "tr": "ilgilidir",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540673690_8843",
+      "bg": "закон",
+      "tr": "kanun",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540673692_496",
+      "bg": "само",
+      "tr": "sadece",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540674046_6389",
+      "bg": "съответния",
+      "tr": "ilgili",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540674051_6827",
+      "bg": "анархизъм",
+      "tr": "anarşizm",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540674666_7073",
+      "bg": "амин",
+      "tr": "amin",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540674691_8167",
+      "bg": "анатомия",
+      "tr": "anatomi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540674910_2295",
+      "bg": "амазонка",
+      "tr": "bir amazon",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540674916_8928",
+      "bg": "американец",
+      "tr": "bir amerikalı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540675006_38",
+      "bg": "антарктика",
+      "tr": "antarktika",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540675023_6723",
+      "bg": "ангария",
+      "tr": "angarya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540675448_576",
+      "bg": "анасонов",
+      "tr": "anason",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540675450_3112",
+      "bg": "чна",
+      "tr": "chna",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540675491_2346",
+      "bg": "анатомичен",
+      "tr": "anatomik",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540675619_8327",
+      "bg": "антарктичен",
+      "tr": "antarktika",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540676211_2351",
+      "bg": "ампула",
+      "tr": "ampul",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540676215_3933",
+      "bg": "зоолог",
+      "tr": "zoolog",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540676225_827",
+      "bg": "аналитик",
+      "tr": "analist",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540676708_7629",
+      "bg": "ампер",
+      "tr": "amfi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540676709_2069",
+      "bg": "зоотехника",
+      "tr": "zootekni",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540676709_1597",
+      "bg": "адмирал",
+      "tr": "amiral",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540676709_432",
+      "bg": "цюрих",
+      "tr": "zürih",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540676722_5165",
+      "bg": "станка",
+      "tr": "tezgâh",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540677151_441",
+      "bg": "зоотехник",
+      "tr": "hayvanat bahçesi teknisyeni",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540677159_2099",
+      "bg": "донева",
+      "tr": "doneva",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540677750_2587",
+      "bg": "симеон",
+      "tr": "simeon",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540677752_1130",
+      "bg": "василев",
+      "tr": "vasilyev",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540677768_1914",
+      "bg": "румен",
+      "tr": "kırmızı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540677777_8024",
+      "bg": "петров",
+      "tr": "petrov",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540678182_5027",
+      "bg": "донка",
+      "tr": "donka",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540678263_1972",
+      "bg": "вашето",
+      "tr": "senin",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540678269_9358",
+      "bg": "колежке",
+      "tr": "iş arkadaşı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540678270_5731",
+      "bg": "димитър",
+      "tr": "dimitar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540678628_9620",
+      "bg": "димитров",
+      "tr": "dimitrov",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540678629_9021",
+      "bg": "асенова",
+      "tr": "asenova",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540679215_2295",
+      "bg": "добре",
+      "tr": "iyi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540679216_8358",
+      "bg": "нали",
+      "tr": "sağ",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540679220_3055",
+      "bg": "елена",
+      "tr": "geyik",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540679223_5993",
+      "bg": "вече",
+      "tr": "çoktan",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540679238_7526",
+      "bg": "приятелката",
+      "tr": "kız arkadaş",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540679249_1040",
+      "bg": "иванова",
+      "tr": "ivanova",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540679290_1493",
+      "bg": "бихте",
+      "tr": "yapardın",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540679590_1350",
+      "bg": "боряна",
+      "tr": "boriana",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540679611_1849",
+      "bg": "повторили",
+      "tr": "tekrarlandı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540679951_3463",
+      "bg": "госпожицата",
+      "tr": "hanımefendi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540680542_6245",
+      "bg": "приятно",
+      "tr": "güzel",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540680547_132",
+      "bg": "също",
+      "tr": "fazla",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540680563_4158",
+      "bg": "започнем",
+      "tr": "hadi başlayalım",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540680570_1334",
+      "bg": "сега",
+      "tr": "şimdi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540680991_5479",
+      "bg": "тодорова",
+      "tr": "todorova",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540681141_9105",
+      "bg": "запознахме",
+      "tr": "tanıştık",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540681143_9471",
+      "bg": "запозная",
+      "tr": "tanıdık",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540681144_1487",
+      "bg": "елка",
+      "tr": "noel ağacı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540681188_5319",
+      "bg": "боянова",
+      "tr": "boyanova",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540681196_6201",
+      "bg": "радваме",
+      "tr": "seviniyoruz",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540681783_4103",
+      "bg": "сигурно",
+      "tr": "kesinlikle",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540681783_1654",
+      "bg": "моя",
+      "tr": "bana ait",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540681787_4690",
+      "bg": "мен",
+      "tr": "ben",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540681837_9142",
+      "bg": "радвам",
+      "tr": "memnun oldum",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540681849_9509",
+      "bg": "надявам",
+      "tr": "umarım",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540681901_2632",
+      "bg": "галя",
+      "tr": "okşayarak",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540682121_5155",
+      "bg": "запознайте",
+      "tr": "tanıtmak",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540682142_2599",
+      "bg": "росица",
+      "tr": "çiy",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540682286_6298",
+      "bg": "стоянова",
+      "tr": "stoyanova",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540682435_134",
+      "bg": "милева",
+      "tr": "mileva",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540683019_3563",
+      "bg": "пак",
+      "tr": "tekrar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540683019_8268",
+      "bg": "обадя",
+      "tr": "aradım",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540683028_8838",
+      "bg": "ирина",
+      "tr": "irina",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540683029_1458",
+      "bg": "марта",
+      "tr": "mart",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540683033_697",
+      "bg": "скоро",
+      "tr": "yakında",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540683315_9640",
+      "bg": "обадите",
+      "tr": "çağrılar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540683542_5945",
+      "bg": "радой",
+      "tr": "mutlu",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540683551_665",
+      "bg": "запишете",
+      "tr": "yaz",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540683552_6473",
+      "bg": "антонов",
+      "tr": "antonov",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540683561_2770",
+      "bg": "непременно",
+      "tr": "kesinlikle",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540684160_7373",
+      "bg": "защо",
+      "tr": "neden",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540684166_8697",
+      "bg": "няма",
+      "tr": "yok",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540684166_3956",
+      "bg": "много",
+      "tr": "çok fazla",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540684166_5523",
+      "bg": "шофьорът",
+      "tr": "sürücü",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540684170_8931",
+      "bg": "нашият",
+      "tr": "bizim",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540684176_9023",
+      "bg": "запознай",
+      "tr": "tanışmak",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540684867_2382",
+      "bg": "иванов",
+      "tr": "i̇vanov",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540684867_9275",
+      "bg": "любезна",
+      "tr": "tür",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540684870_3826",
+      "bg": "василева",
+      "tr": "vasilyev",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540684878_7874",
+      "bg": "екскурзовод",
+      "tr": "tur rehberi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540685462_1355",
+      "bg": "моите",
+      "tr": "bana ait",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540685468_2895",
+      "bg": "казали",
+      "tr": "dediler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540685476_7237",
+      "bg": "искал",
+      "tr": "aranan",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540685476_1152",
+      "bg": "съпруг",
+      "tr": "koca",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540685481_8133",
+      "bg": "моята",
+      "tr": "bana ait",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540685481_2665",
+      "bg": "представете",
+      "tr": "hayal etmek",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540685488_7672",
+      "bg": "съпруга",
+      "tr": "eş",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540685501_8097",
+      "bg": "искала",
+      "tr": "aranan",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540685803_2137",
+      "bg": "вашите",
+      "tr": "senin",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540685806_8800",
+      "bg": "бих",
+      "tr": "i̇sterim",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540686399_2392",
+      "bg": "полицай",
+      "tr": "bir polis",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540686400_90",
+      "bg": "ето",
+      "tr": "burada",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540686408_6895",
+      "bg": "петрова",
+      "tr": "petrova",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540686414_9225",
+      "bg": "господине",
+      "tr": "sayın",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540686416_4014",
+      "bg": "картичка",
+      "tr": "kart",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540686891_7199",
+      "bg": "господа",
+      "tr": "beyler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540686892_8454",
+      "bg": "уважаеми",
+      "tr": "saygı duyulan",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540686899_2950",
+      "bg": "госпожо",
+      "tr": "majesteleri",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540686946_8655",
+      "bg": "визитна",
+      "tr": "kartvizit",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540687581_716",
+      "bg": "бащиното",
+      "tr": "babanın",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540688197_6060",
+      "bg": "госпожице",
+      "tr": "kayıp",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540688204_1079",
+      "bg": "гости",
+      "tr": "misafirler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540688205_2506",
+      "bg": "скъпа",
+      "tr": "sayın",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540688205_7056",
+      "bg": "дами",
+      "tr": "bayanlar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540688213_6119",
+      "bg": "скъпи",
+      "tr": "sayın",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540688213_1048",
+      "bg": "граждани",
+      "tr": "vatandaşlar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540688213_7264",
+      "bg": "приятелю",
+      "tr": "arkadaşım",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540688901_7404",
+      "bg": "гражданино",
+      "tr": "vatandaş",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540688902_2968",
+      "bg": "госпожи",
+      "tr": "bayanlar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540688903_7841",
+      "bg": "гражданко",
+      "tr": "vatandaş",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540689486_5427",
+      "bg": "ей",
+      "tr": "hey",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540689494_2700",
+      "bg": "булка",
+      "tr": "gelin",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540689496_388",
+      "bg": "мъжо",
+      "tr": "adam",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540689498_4016",
+      "bg": "мамо",
+      "tr": "anne",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540689554_7632",
+      "bg": "тук",
+      "tr": "burada",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540689599_738",
+      "bg": "майко",
+      "tr": "anne",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540689738_7835",
+      "bg": "младеж",
+      "tr": "genç adam",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540689743_8637",
+      "bg": "синко",
+      "tr": "oğul",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540689746_3995",
+      "bg": "жено",
+      "tr": "bir kadın",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540689746_4490",
+      "bg": "приятелко",
+      "tr": "kız arkadaş",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540690331_8617",
+      "bg": "бабо",
+      "tr": "büyükanne",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540690334_8664",
+      "bg": "дъще",
+      "tr": "kız çocuğu",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540690337_8339",
+      "bg": "сине",
+      "tr": "oğul",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540690347_5897",
+      "bg": "чедо",
+      "tr": "çocuk",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540690347_3645",
+      "bg": "татко",
+      "tr": "baba",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540690348_6976",
+      "bg": "тате",
+      "tr": "baba",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540690348_8360",
+      "bg": "вашата",
+      "tr": "senin",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540690361_9388",
+      "bg": "дядо",
+      "tr": "büyükbaba",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540691347_1225",
+      "bg": "щерко",
+      "tr": "kız çocuğu",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540691347_7563",
+      "bg": "народност",
+      "tr": "milliyet",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540691937_4605",
+      "bg": "здрасти",
+      "tr": "merhaba",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540691945_6134",
+      "bg": "вечер",
+      "tr": "akşam",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540691950_9771",
+      "bg": "ходил",
+      "tr": "yürüdü",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540691951_5232",
+      "bg": "до",
+      "tr": "ile",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540691955_7838",
+      "bg": "чао",
+      "tr": "güle güle",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540691967_8848",
+      "bg": "била",
+      "tr": "öyleydi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540691970_7143",
+      "bg": "лека",
+      "tr": "hafif",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540691974_763",
+      "bg": "ходила",
+      "tr": "yürüdü",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540691976_5876",
+      "bg": "били",
+      "tr": "vardı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540692756_2035",
+      "bg": "бил",
+      "tr": "öyleydi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540693341_8359",
+      "bg": "срещи",
+      "tr": "toplantılar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540693347_1518",
+      "bg": "успешен",
+      "tr": "başarılı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540693351_767",
+      "bg": "хубаво",
+      "tr": "güzel",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540693351_1398",
+      "bg": "всичко",
+      "tr": "her şey",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540693352_6975",
+      "bg": "сбогом",
+      "tr": "güle güle",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540693352_4926",
+      "bg": "лек",
+      "tr": "tedavi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540693358_2883",
+      "bg": "нови",
+      "tr": "yeniler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540693359_401",
+      "bg": "късмет",
+      "tr": "şans",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540693418_3299",
+      "bg": "приятна",
+      "tr": "güzel",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540693418_5973",
+      "bg": "весели",
+      "tr": "neşeli",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540694009_7320",
+      "bg": "прием",
+      "tr": "resepsiyon",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540694015_9107",
+      "bg": "любезен",
+      "tr": "tür",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540694025_2444",
+      "bg": "поканата",
+      "tr": "davet",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540694038_7041",
+      "bg": "ваша",
+      "tr": "senin",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540694392_4068",
+      "bg": "мило",
+      "tr": "güzel",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540694394_9733",
+      "bg": "съчувствието",
+      "tr": "sempati",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540694394_9179",
+      "bg": "сърдечно",
+      "tr": "içtenlikle",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540694620_5515",
+      "bg": "приема",
+      "tr": "kabul eder",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540694628_9351",
+      "bg": "топлия",
+      "tr": "sıcak olan",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540694865_7273",
+      "bg": "гостоприемството",
+      "tr": "misafirperverlik",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540695458_2147",
+      "bg": "признателен",
+      "tr": "minnettar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540695461_3400",
+      "bg": "разбрах",
+      "tr": "anladım",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540695465_5616",
+      "bg": "благодарен",
+      "tr": "minnettar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540695470_4038",
+      "bg": "нищо",
+      "tr": "hiçbir şey",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540695695_8394",
+      "bg": "признателна",
+      "tr": "minnettar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540695702_649",
+      "bg": "благодарна",
+      "tr": "minnettar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540695704_4718",
+      "bg": "безкрайно",
+      "tr": "sonsuza kadar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540695704_1645",
+      "bg": "закъснението",
+      "tr": "gecikme",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540695713_4093",
+      "bg": "отблагодаря",
+      "tr": "teşekkürler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540695966_4047",
+      "bg": "безпокойствието",
+      "tr": "endişe",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540696559_4837",
+      "bg": "значение",
+      "tr": "anlam",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540696559_4536",
+      "bg": "новата",
+      "tr": "yeni olan",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540696562_1167",
+      "bg": "честит",
+      "tr": "tebrikler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540696562_2786",
+      "bg": "нова",
+      "tr": "yeni",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540696564_1597",
+      "bg": "година",
+      "tr": "yıl",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540696567_6895",
+      "bg": "коледа",
+      "tr": "noel",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540696571_5905",
+      "bg": "баба",
+      "tr": "büyükanne",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540696760_9909",
+      "bg": "честита",
+      "tr": "tebrikler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540696760_4610",
+      "bg": "най",
+      "tr": "en çok",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540697018_5149",
+      "bg": "чнг",
+      "tr": "çng",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540697612_3394",
+      "bg": "осми",
+      "tr": "sekizinci",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540697614_7835",
+      "bg": "щастливи",
+      "tr": "mutlu",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540697615_6560",
+      "bg": "здраве",
+      "tr": "sağlık",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540697619_2163",
+      "bg": "щастие",
+      "tr": "mutluluk",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540697628_3765",
+      "bg": "рожден",
+      "tr": "doğmak",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540697631_2209",
+      "bg": "имен",
+      "tr": "isim",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540698050_727",
+      "bg": "чрд",
+      "tr": "akor",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540698151_8966",
+      "bg": "радвайте",
+      "tr": "sevinmek",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540698153_4937",
+      "bg": "юбилей",
+      "tr": "jübile",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540698658_4514",
+      "bg": "учението",
+      "tr": "öğretim",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540699253_2704",
+      "bg": "години",
+      "tr": "yıllar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540699255_9278",
+      "bg": "успеха",
+      "tr": "başarı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540699255_5912",
+      "bg": "ползотворна",
+      "tr": "verimli",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540699259_2565",
+      "bg": "поздравления",
+      "tr": "tebrikler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540699259_8765",
+      "bg": "поздрави",
+      "tr": "selamlar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540699260_7185",
+      "bg": "път",
+      "tr": "yol",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540699262_4322",
+      "bg": "забавления",
+      "tr": "eğlence",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540699993_4370",
+      "bg": "поздравете",
+      "tr": "merhaba de",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540699997_2276",
+      "bg": "спорна",
+      "tr": "tartışmalı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540700007_7225",
+      "bg": "приятни",
+      "tr": "güzel",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540700603_5610",
+      "bg": "час",
+      "tr": "saat",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540700607_3674",
+      "bg": "заменят",
+      "tr": "yer değiştirmek",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540700609_4070",
+      "bg": "съществителни",
+      "tr": "isimler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540700610_8868",
+      "bg": "честито",
+      "tr": "tebrikler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540700610_133",
+      "bg": "връща",
+      "tr": "geri döner",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540700617_542",
+      "bg": "пътуване",
+      "tr": "seyahat",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540701187_3829",
+      "bg": "прилагателни",
+      "tr": "sıfatlar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540701189_4195",
+      "bg": "посочват",
+      "tr": "belirtmek",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540701189_117",
+      "bg": "числителни",
+      "tr": "sayısal",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540701191_8712",
+      "bg": "местоимения",
+      "tr": "zamirler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540701781_8491",
+      "bg": "пита",
+      "tr": "sorar",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540701782_1840",
+      "bg": "обекти",
+      "tr": "nesneler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540701782_9845",
+      "bg": "дълго",
+      "tr": "uzun",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540701786_3003",
+      "bg": "признаци",
+      "tr": "işaretler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540701786_3154",
+      "bg": "техни",
+      "tr": "onlarınki",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540701788_7173",
+      "bg": "някого",
+      "tr": "birisi",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540701798_8381",
+      "bg": "върха",
+      "tr": "üst",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540701801_1857",
+      "bg": "или",
+      "tr": "veya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540701801_9476",
+      "bg": "различни",
+      "tr": "farklı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540701821_2480",
+      "bg": "лица",
+      "tr": "kişiler",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540702427_3880",
+      "bg": "стана",
+      "tr": "kalktı",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540702604_5049",
+      "bg": "фери",
+      "tr": "feribot",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540702606_1870",
+      "bg": "емин",
+      "tr": "emin",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540702613_2422",
+      "bg": "тракийския",
+      "tr": "trakya",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
+    },
+    {
+      "id": "word_auto_1786540702618_575",
+      "bg": "град",
+      "tr": "şehir",
+      "type": "otomatik",
+      "notes": "Otomatik çeviri sistemi tarafından eklendi. Gözden geçirilmesi önerilir.",
+      "examples": []
     }
   ]
 }
