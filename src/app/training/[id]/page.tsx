@@ -546,7 +546,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       setSelectedMatch(null);
     }
 
-    if (words.length > 1 && q.type !== 'scramble' && q.type !== 'error_correction' && q.type !== 'matching') {
+    if (q.type === 'fill-in' && words.length > 1) {
        const targetIdx = Math.floor(Math.random() * words.length);
        const targetWordRaw = words[targetIdx];
        
