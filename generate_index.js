@@ -23,7 +23,10 @@ data.words.forEach(w => {
     const base = w.bg.toLowerCase();
     addWord(base, base);
 
-    if (w.forms) Object.values(w.forms).forEach(f => addWord(f, base));
+    if (w.forms) Object.values(w.forms).forEach(f => {
+        if (typeof f === 'string') addWord(f, base);
+        else if (typeof f === 'object' && f !== null) Object.values(f).forEach(v => addWord(v, base));
+    });
     if (w.nounForms) Object.values(w.nounForms).forEach(f => addWord(f, base));
     if (w.pronounForms) Object.values(w.pronounForms).forEach(f => addWord(f, base));
     
