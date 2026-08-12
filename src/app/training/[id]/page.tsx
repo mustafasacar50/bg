@@ -96,6 +96,24 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [openTenses, setOpenTenses] = useState<Record<string, boolean>>({});
   const [openGrammarCards, setOpenGrammarCards] = useState<Record<number, boolean>>({});
   const [wordTooltip, setWordTooltip] = useState<{word: string, meaning: string, x: number, y: number} | null>(null);
+  const [learnedGrammarWords, setLearnedGrammarWords] = useState<string[]>([]);
+
+  useEffect(() => {
+    const savedLearned = localStorage.getItem('learnedGrammarWords');
+    if (savedLearned) {
+      try {
+        setLearnedGrammarWords(JSON.parse(savedLearned));
+      } catch (e) {}
+    }
+  }, []);
+
+  const toggleLearnedGrammar = (bgWord: string) => {
+    setLearnedGrammarWords(prev => {
+      const next = prev.includes(bgWord) ? prev.filter(w => w !== bgWord) : [...prev, bgWord];
+      localStorage.setItem('learnedGrammarWords', JSON.stringify(next));
+      return next;
+    });
+  };
 
   useEffect(() => {
     if (selectedWord && customDictionary[selectedWord.word.toLowerCase()]) {
@@ -1699,7 +1717,16 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                     <span className="text-sm font-bold text-slate-400 uppercase tracking-widest">📖 Bu Cümledeki Kelimeler</span>
                     <div className="flex-1 h-px bg-slate-200"></div>
                   </div>
-                  {activeGrammarCards.map((card, idx) => {
+                  {(() => {
+                    const sortedGrammarCards = [...activeGrammarCards].sort((a, b) => {
+                      const isALearned = learnedGrammarWords.includes(a.bg);
+                      const isBLearned = learnedGrammarWords.includes(b.bg);
+                      if (isALearned && !isBLearned) return 1;
+                      if (!isALearned && isBLearned) return -1;
+                      return 0;
+                    });
+                    
+                    return sortedGrammarCards.map((card, idx) => {
                     // Type-based colors
                     const themes: Record<string, {color: string, badge: string, highlight: string, icon: string, tableHeader: string}> = {
                       fiil: { color: "bg-purple-50/80 border-purple-200 text-purple-900", badge: "bg-purple-200 text-purple-800", highlight: "bg-purple-100 text-purple-900", icon: "🏃‍♂️", tableHeader: "bg-purple-100/80" },
@@ -1736,31 +1763,44 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                       }
                     };
 
+                    const isLearned = learnedGrammarWords.includes(card.bg);
+
                     return (
-                      <div key={idx} className={`rounded-2xl border shadow-sm transition-all overflow-hidden ${t.color}`}>
+                      <div key={idx} className={`rounded-2xl border shadow-sm transition-all overflow-hidden ${t.color} ${isLearned ? 'opacity-50 grayscale hover:opacity-75' : ''}`}>
                         
-                        {/* Header (Clickable if hasContent) */}
-                        <button 
-                          onClick={toggleCard}
-                          disabled={!hasContent}
-                          className={`w-full p-4 flex items-center gap-2 flex-wrap text-left transition-colors ${hasContent ? 'hover:bg-black/5 cursor-pointer' : 'cursor-default'}`}
-                        >
-                          <span className="text-lg">{t.icon}</span>
-                          <span className="font-black text-xl">{card.bg}</span>
-                          <span className="opacity-75 text-sm font-medium">({card.tr})</span>
-                          {card.pronunciation && <span className="opacity-50 text-xs italic">[{card.pronunciation}]</span>}
+                        {/* Header */}
+                        <div className="w-full p-4 flex items-center gap-2 flex-wrap transition-colors">
+                          <div 
+                            onClick={toggleCard}
+                            className={`flex-1 flex items-center gap-2 flex-wrap ${hasContent ? 'cursor-pointer' : 'cursor-default'}`}
+                          >
+                            <span className="text-lg">{t.icon}</span>
+                            <span className={`font-black text-xl ${isLearned ? 'line-through decoration-2' : ''}`}>{card.bg}</span>
+                            <span className="opacity-75 text-sm font-medium">({card.tr})</span>
+                            {card.pronunciation && <span className="opacity-50 text-xs italic">[{card.pronunciation}]</span>}
+                          </div>
                           
-                          <div className="ml-auto flex items-center gap-2">
-                            <span className={`px-2.5 py-1 text-[10px] font-black rounded-lg uppercase tracking-wider ${t.badge}`}>
+                          <div className="ml-auto flex items-center gap-1 z-10">
+                            <span className={`px-2.5 py-1 text-[10px] font-black rounded-lg uppercase tracking-wider mr-1 ${t.badge}`}>
                               {card.type}
                             </span>
+                            <button 
+                              onClick={(e) => { e.stopPropagation(); toggleLearnedGrammar(card.bg); }}
+                              className={`w-7 h-7 flex items-center justify-center rounded-full transition-all ${isLearned ? 'bg-green-500 text-white shadow-inner' : 'hover:bg-black/10 text-slate-400 border border-slate-300'}`}
+                              title={isLearned ? "Öğrenildi olarak işaretlendi (Geri al)" : "Öğrenildi olarak işaretle"}
+                            >
+                              {isLearned ? '✓' : '✔'}
+                            </button>
                             {hasContent && (
-                              <span className={`transform transition-transform opacity-50 ${isOpen ? 'rotate-180' : ''}`}>
+                              <button 
+                                onClick={toggleCard}
+                                className={`w-7 h-7 flex items-center justify-center transform transition-transform opacity-60 hover:bg-black/10 hover:opacity-100 rounded-full ${isOpen ? 'rotate-180' : ''}`}
+                              >
                                 ▼
-                              </span>
+                              </button>
                             )}
                           </div>
-                        </button>
+                        </div>
 
                         {/* Collapsible Content */}
                         {isOpen && (
