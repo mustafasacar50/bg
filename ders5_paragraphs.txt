@@ -1,0 +1,351 @@
+Bulgarca A1 - Ders 5
+“В детския магазин”
+Türkçe Açıklamalı Tam Eğitim Notu
+
+Yeni başlayan öğrenci için satır satır çeviri, kelime açıklaması, gramer anlatımı ve çözümlü alıştırmalar
+Kaynak notu: Bu Word dosyası, yüklenen A1-V-5(1).pdf belgesindeki Ders 5 içeriği temel alınarak eğitim materyali formatında yeniden düzenlenmiştir. PDF’de bazı bölümler tekrar ettiği için aynı metin ilk geçtiği yerde satır satır çevrilmiş ve detaylı açıklanmıştır; tekrar eden sayfaların aynı içeriği ayrıca “tekrar notu” olarak belirtilmiştir.
+Renk rehberi: Mavi kutular Bulgarca orijinal cümleleri, yeşil kutular Türkçe çevirileri, sarı kutular öğretmen notlarını, mor kutular önemli dilbilgisi uyarılarını gösterir.
+İçindekiler
+1. Kullanım kılavuzu
+2. Okuma metni: В детския магазин - satır satır çeviri
+3. Metin içi kelime ve yapı açıklamaları
+4. Okuma soruları ve örnek cevaplar
+5. Ana gramer: Eril isimlerde adetli biçim (бройна форма)
+6. 100-2.000.000 arası sayılar ve belirli sayı biçimi
+7. Çözümlü alıştırmalar: cümle doğruluğu
+8. Çözümlü alıştırmalar: çoktan seçmeli gramer
+9. Dikte bölümü ve öğretmen notları
+10. Mini sözlük ve hızlı tekrar
+1. Kullanım kılavuzu
+Bu ders yeni başlayan öğrenci için hazırlanmıştır. Bu nedenle her Bulgarca cümle önce aynen verilmiş, hemen altında Türkçe karşılığı yazılmıştır.
+Bulgarcada Türkçeden farklı olarak isimlerin cinsiyeti vardır: eril, dişil ve nötr. Bu dersin ana konusu özellikle eril cansız isimlerde sayıdan sonra gelen özel biçimdir.
+Çalışırken önce mavi Bulgarca cümleyi yüksek sesle okuyun, sonra yeşil Türkçe çeviriyi okuyun. Ardından kelime kutularına bakın.
+Alıştırmalarda yalnız doğru cevap verilmemiş, yanlış seçeneklerin neden yanlış olduğu da açıklanmıştır.
+Öğrenci notu: Bu derste “çokluk” ile “sayıdan sonra gelen biçim” aynı şey değildir. Örneğin стол “sandalye”, много столове “çok sandalye”, ama три стола “üç sandalye” şeklindedir. Bu farkı ders boyunca özellikle takip edin.
+2. Okuma metni: “В детския магазин” - satır satır tam çeviri
+Aşağıdaki bölümde kaynak metindeki cümleler sırası korunarak verilmiştir. Her Bulgarca cümlenin altında Türkçe karşılığı vardır.
+BG: Урок № 5. „В детския магазин“. ЧБД, с. 197-198
+TR: Ders No 5. “Çocuk mağazasında”. ÇBD, s. 197-198
+BG: Прочетете текста и отговорете на въпросите.
+TR: Metni okuyunuz ve soruları cevaplayınız.
+BG: Милка и Коста имат едно момиче и едно момче.
+TR: Milka ve Kosta’nın bir kız çocukları ve bir erkek çocukları vardır.
+BG: Тази есен синът им ще бъде в първи клас.
+TR: Bu sonbahar oğulları birinci sınıfta olacak.
+BG: Затова трябва да го подготвят.
+TR: Bu yüzden onu hazırlamaları gerekir.
+BG: Те искат да му купят нови дрехи и обувки.
+TR: Ona yeni kıyafetler ve ayakkabılar almak istiyorlar.
+BG: До първия учебен ден остават само няколко дни.
+TR: İlk okul gününe yalnızca birkaç gün kalıyor.
+BG: Няма за кога повече да се отлага.
+TR: Artık daha fazla ertelemek için zaman yok.
+BG: Сутринта се уговориха в 18 часа да се срещнат пред новия детски магазин в София.
+TR: Sabahleyin saat 18.00’de Sofya’daki yeni çocuk mağazasının önünde buluşmak üzere anlaştılar.
+BG: Там има всичко за децата – дрехи, обувки, различни играчки.
+TR: Orada çocuklar için her şey vardır: kıyafetler, ayakkabılar, çeşitli oyuncaklar.
+BG: Милка и Коста отидоха първо на щанда за детска конфекция.
+TR: Milka ve Kosta önce çocuk hazır giyim reyonuna gittiler.
+BG: Там имаше много хубави детски дрехи.
+TR: Orada çok güzel çocuk kıyafetleri vardı.
+BG: Те избраха един чифт дънки, една ризка и шушляково яке.
+TR: Bir çift kot pantolon, küçük bir gömlek ve naylon/yağmurluk tarzı bir ceket seçtiler.
+BG: След като платиха, отидоха на щанда за обувки.
+TR: Ödedikten sonra ayakkabı reyonuna gittiler.
+BG: Купиха един чифт маратонки.
+TR: Bir çift spor ayakkabı satın aldılar.
+BG: Минавайки покрай щандовете, те се спряха при пуловерите.
+TR: Reyonların yanından geçerken kazakların yanında durdular.
+BG: Сред тях имаше един, който много им хареса и им се искаше да го купят.
+TR: Onların arasında çok beğendikleri ve satın almak istedikleri bir tane vardı.
+BG: Но синът им няма нужда сега от това.
+TR: Fakat oğullarının şu anda buna ihtiyacı yoktur.
+BG: В момента той има няколко пуловера, и затова те се колебаеха дали да го купят.
+TR: Şu anda onun birkaç kazağı vardır; bu nedenle onu satın alıp almama konusunda kararsız kaldılar.
+BG: Накрая решиха, че е по-добре да му вземат нова пижама.
+TR: Sonunda ona yeni bir pijama almalarının daha iyi olduğuna karar verdiler.
+BG: Старата вече му е малка.
+TR: Eskisi artık ona küçük gelmektedir.
+BG: Той много бързо расте и не може да си износи дрехите.
+TR: O çok hızlı büyümektedir ve kıyafetlerini eskitemeden küçük gelmektedir.
+BG: А дъщеричката им е с четири години по-голяма, затова дават запазените дрешки на/от сина си на един свой племенник, който е по-малък от него.
+TR: Kızları ise ondan dört yaş büyüktür; bu yüzden oğullarından kalan iyi durumdaki küçük kıyafetleri, ondan daha küçük olan yeğenlerinden birine verirler.
+BG: На същия щанд обаче видяха и много хубава нощница за дъщеря си.
+TR: Ancak aynı reyonda kızları için çok güzel bir gecelik de gördüler.
+BG: Купиха и нея, а после им взеха чорапи и по един чифт долно бельо.
+TR: Onu da satın aldılar; sonra onlara çorap ve her birine birer takım iç çamaşırı aldılar.
+BG: На щанда за играчки изобщо не спряха, защото бързаха.
+TR: Oyuncak reyonunda hiç durmadılar, çünkü aceleleri vardı.
+BG: От магазина отидоха в една книжарница.
+TR: Mağazadan bir kitapçıya/kırtasiyeye gittiler.
+BG: Трябваше да купят тетрадки и други учебни пособия за децата – химикалки, моливи, линии, гуми, блокове за рисуване и водни бои.
+TR: Çocuklar için defterler ve başka okul gereçleri satın almaları gerekiyordu: tükenmez kalemler, kurşun kalemler, cetveller, silgiler, resim blokları ve sulu boyalar.
+BG: Но там видяха и луксозно издание на приказките на Ангел Каралийчев в два тома.
+TR: Fakat orada Angel Karaliyçev’in masallarının iki ciltlik lüks baskısını da gördüler.
+BG: Те нямаха това издание и решиха да го купят.
+TR: Bu baskı onlarda yoktu ve onu almaya karar verdiler.
+BG: Децата им много обичат приказки.
+TR: Çocukları masalları çok sever.
+BG: Представяха си как ще се зарадват, като ги видят.
+TR: Onları gördüklerinde nasıl sevineceklerini hayal ediyorlardı.
+BG: След това те се прибраха уморени вкъщи.
+TR: Bundan sonra eve yorgun döndüler.
+BG: Но умората им скоро премина, когато видяха щастливите усмивки по детските лица.
+TR: Fakat çocukların yüzlerindeki mutlu gülümsemeleri görünce yorgunlukları kısa sürede geçti.
+BG: Те/Децата набързо премериха дрехите.
+TR: Onlar/Çocuklar kıyafetleri hemen hızlıca denediler.
+BG: Много им харесаха покупките, но най-много се зарадваха на приказките.
+TR: Alışverişten alınan şeyleri çok beğendiler; ama en çok masallara sevindiler.
+BG: После Милка започна да приготвя вечерята, а Коста през това време се занимаваше с децата.
+TR: Sonra Milka akşam yemeğini hazırlamaya başladı; Kosta ise bu sırada çocuklarla ilgileniyordu.
+BG: Весел детски смях заливаше цялата къща.
+TR: Neşeli çocuk kahkahası bütün evi dolduruyordu.
+BG: Отговорете на въпросите:
+TR: Soruları cevaplayınız:
+BG: Какво са правили Милка и Коста в детския магазин?
+TR: Milka ve Kosta çocuk mağazasında ne yaptılar?
+BG: Какво са купили от книжарницата?
+TR: Kitapçıdan/kırtasiyeden ne satın aldılar?
+BG: Как са ги посрещнали децата в къщи?
+TR: Çocuklar onları evde nasıl karşıladılar?
+BG: Разкажете за семейството на Милка и Коста.
+TR: Milka ve Kosta’nın ailesini anlatınız.
+3. Metin içi kelime ve yapı açıklamaları
+Bu bölümde metindeki önemli kelimeler ve kalıplar açıklanmıştır. Yeni başlayanlar için özellikle cinsiyet, çoğul ve sayıdan sonra gelen biçim notlarına dikkat edilmelidir.
+Metindeki önemli yapılar
+имат: “Onların var” anlamı verir. Bulgarcada sahiplik çoğu zaman “имам” fiiliyle anlatılır: Аз имам = benim var, Те имат = onların var.
+ще бъде: Gelecek zaman yapısıdır. ще + fiil: ще бъде = olacak.
+трябва да: “-meli/-malı, gerekir” anlamı verir. трябва да го подготвят = onu hazırlamaları gerekir.
+се уговориха: Geçmiş zamanda “anlaştılar” demektir. Buradaki се, fiilin dönüşlü/refleksif yapısının parçasıdır.
+имаше: “vardı” anlamında kullanılmıştır. има = var; имаше = vardı.
+се колебаеха: “kararsız kalıyorlardı” anlamındadır. -еха eki geçmişte devam eden çoğul eylemi gösterir.
+да му вземат: “ona alsınlar / ona almak” anlamındadır. му = ona; вземат = alsınlar/almaları.
+се занимаваше с: “ile ilgileniyordu / meşgul oluyordu” anlamında kalıptır. с edatı “ile” demektir.
+4. Okuma soruları ve örnek cevaplar
+Soru BG: Какво са правили Милка и Коста в детския магазин?
+Soru TR: Milka ve Kosta çocuk mağazasında ne yaptılar?
+Örnek cevap BG: Те купиха нови дрехи и обувки за децата.
+Örnek cevap TR: Çocukları için yeni kıyafetler ve ayakkabılar satın aldılar.
+Soru BG: Какво са купили от книжарницата?
+Soru TR: Kitapçıdan/kırtasiyeden ne aldılar?
+Örnek cevap BG: Купиха тетрадки, учебни пособия и луксозно издание на приказките на Ангел Каралийчев.
+Örnek cevap TR: Defterler, okul gereçleri ve Angel Karaliyçev’in masallarının lüks baskısını satın aldılar.
+Soru BG: Как са ги посрещнали децата в къщи?
+Soru TR: Çocuklar onları evde nasıl karşıladılar?
+Örnek cevap BG: Децата ги посрещнаха с щастливи усмивки и бързо премериха дрехите.
+Örnek cevap TR: Çocuklar onları mutlu gülümsemelerle karşıladı ve kıyafetleri hızlıca denediler.
+Soru BG: Разкажете за семейството на Милка и Коста.
+Soru TR: Milka ve Kosta’nın ailesini anlatınız.
+Örnek cevap BG: Милка и Коста имат две деца - едно момиче и едно момче. Синът им ще бъде в първи клас, а дъщеричката им е с четири години по-голяма.
+Örnek cevap TR: Milka ve Kosta’nın iki çocuğu vardır: bir kız ve bir erkek. Oğulları birinci sınıfa başlayacaktır; kızları ise ondan dört yaş büyüktür.
+5. Ana gramer: Eril isimlerde adetli biçim - бройна форма
+Bu dersin en önemli konusu: Bulgarcada bazı eril isimler sayıdan sonra normal çoğul biçimini değil, özel bir “adetli biçim” alır. Bu yapı Türkçede yoktur; bu yüzden Türk öğrenciler için özellikle dikkat gerektirir.
+5.1. Temel tanım
+Бройна форма, kelime anlamıyla “sayma biçimi / adet biçimi” demektir.
+Genellikle eril cins, canlı kişi olmayan isimlerde sayı veya колко/няколко gibi miktar bildiren kelimelerden sonra görülür.
+Normal çoğul ile karıştırılmamalıdır. много varsa genellikle normal çoğul gelir; tam sayı varsa veya birkaç/kaç anlamı varsa adetli biçim gelebilir.
+Kısa formül: eril nesne + много -> normal çoğul; eril nesne + sayı/колко/няколко -> adetli biçim.
+5.2. Neden “много столове” ama “десет стола”?
+много столове
+çok sandalye
+Açıklama: Belirsiz çokluk vardır. Sayı tam belirtilmediği için normal çoğul kullanılır.
+десет стола
+on sandalye
+Açıklama: Tam sayı vardır. стол eril cansız isim olduğu için adetli biçim стола olur.
+няколко стола
+birkaç sandalye
+Açıklama: няколко tam sayı gibi kesin olmasa da sayma/miktar alanı oluşturur; adetli biçim kullanılır.
+Вземете тези столове.
+Bu sandalyeleri alınız.
+Açıklama: Burada belirli bir sayı yoktur; gösterilen sandalyeler normal çoğul olarak gelir.
+Вземете десет стола.
+On sandalye alınız.
+Açıklama: десет + стол -> стола.
+5.3. Kişilerde neden farklı?
+Çok önemli uyarı: Adetli biçim, kişi bildiren eril isimlerde genellikle kullanılmaz. Öğrenci, öğretmen, lektör gibi insanları anlatan isimlerde normal çoğul kullanılır.
+5.4. Bir kelimenin kişi mi nesne mi olduğuna bakın
+• студент = kişi; bu yüzden sayıdan sonra студенти kullanılır: пет студенти.
+• стол = nesne; bu yüzden sayıdan sonra стола kullanılır: пет стола.
+• лектор = kişi; 120 лектори doğru olur.
+• компютър = nesne; 20 компютъра doğru olur.
+5.5. “човек” kelimesi özel ve düzensizdir
+един човек - няколко души - много хора
+Bu yapı ezberlenmelidir. Türkçe karşılığı: bir insan - birkaç kişi - çok insan. Burada човек, души ve хора farklı köklerden gelen biçimler gibi düşünülmelidir.
+5.6. Dişil ve nötr isimlerde durum
+Adetli biçim esas olarak eril isimlerde önemlidir. Dişil ve nötr isimlerde sayıdan sonra çoğul biçim kullanımı daha doğaldır:
+6. 100-2.000.000 arası sayılar ve belirli sayı biçimi
+Kaynak bölümün ana fikri: Asıl sayılar normalde cinsiyet ve sayı bakımından değişmez; ancak 1 ve 2 bazı durumlarda değişir. Sayılar ayrıca belirli artikel alabilir: пет деца -> петте деца.
+BG: Бройни числителни – едно, две, пет, петнадесет, тридесет и пет.
+TR: Asıl sayılar: bir, iki, beş, on beş, otuz beş.
+BG: Бройните числителни не се изменят по род и число.
+TR: Asıl sayılar genellikle cinsiyet ve tekil/çoğula göre değişmez.
+BG: Изключение – едно, един, една, едни; две, два.
+TR: İstisna: bir için едно/един/една/едни; iki için две/два.
+BG: Пет деца – петте деца
+TR: Beş çocuk - söz konusu/belirli beş çocuk.
+BG: Шест момичета – шестте момичета
+TR: Altı kız - söz konusu/belirli altı kız.
+Öğretmen notu: пет деца sadece “beş çocuk” demektir. петте деца ise “o beş çocuk / söz konusu beş çocuk” demektir. -те burada belirli artikel görevi görür.
+7. Çözümlü alıştırma: “Hangi cümlede hata yok?”
+Her satırda seçeneklerin tamamı Türkçeye çevrilmiş, doğru cevap ve açıklama verilmiştir.
+Soru 1
+Cevap: б. Doğru yapı: Коя сте Вие? Resmi hitapta Вие kullanılır; fiil сте olur.
+Soru 2
+Cevap: в. Bulgarcada soru kelimesi genellikle fiilden önce doğru konumda gelir: какъв е по професия.
+Soru 3
+Cevap: а. ли soru edatı sorgulanan öğeden sonra gelir: преподавател ли е.
+Soru 4
+Cevap: в. Olumsuzluk не yardımcı fiilin/fiilin önünde doğru kullanılmıştır: Не съм.
+Soru 5
+Cevap: а. Olumsuz soru: Не сте ли ...?
+Soru 6
+Cevap: в. Eril kişi için какъв; fiil е doğru yerdedir.
+Soru 7
+Cevap: б. Откъде сте? standarttır; вие vurgu için sona gelebilir.
+Soru 8
+Cevap: в. ли vurgulanan özel isimden sonra gelir: Хатидже ли е ...
+Soru 9
+Cevap: б / в. б ve в dilbilgisel olarak mümkündür; ders bağlamında en beklenen cevap б olabilir. Her ikisi de doğru yapı örneğidir.
+Soru 10
+Cevap: б. Birinci tekil şahıs: уча. Nesne: български език.
+Soru 11
+Cevap: а. госпожица genç/bekar kadın için; cümle yapısı doğru.
+Soru 12
+Cevap: в. Çoğul özne için са; какви çoğula uygundur.
+Soru 13
+Cevap: в. г-н = господин; tekil kişi ile е kullanılır.
+Soru 14
+Cevap: б / в. б ve в doğru kurulmuştur. колко sonrasında çoğul kullanılır: книги, вестници.
+Soru 15
+Cevap: в. фурма dişil: пет фурми. пъпеш eril cansız/nesne: два пъпеша adetli biçim.
+Soru 16
+Cevap: а. Kişi isimlerinde birkaç + normal çoğul: няколко студенти.
+Soru 17
+Cevap: а. Казва се ... ve Студент е ... doğru yapılardır.
+Soru 18
+Cevap: а / в. а ve в doğru olabilir. три стола: стол için sayıdan sonra adetli biçim.
+Soru 19
+Cevap: б. Колко + çoğul: стаи.
+Soru 20
+Cevap: а. речник eril cansız/nesne; два речника adetli biçim.
+8. Çözümlü alıştırma: çoktan seçmeli gramer
+Soru 1 BG: Сега Гьозде ........... български език.
+TR: Şimdi Gözde Bulgarca ............
+Cevap ve açıklama: б. Гьозде üçüncü tekil şahıstır; fiil учи olur.
+Soru 2 BG: Мурат е ................ от Одрин.
+TR: Murat Edirne’den ............
+Cevap ve açıklama: в. Мурат erkek adıdır; студент kullanılır.
+Soru 3 BG: В стаята има много .........
+TR: Odada çok .......... var.
+Cevap ve açıklama: в. много sonrasında normal çoğul gerekir: столове.
+Soru 4 BG: Дайте ми два ........., моля!
+TR: Bana iki .......... veriniz, lütfen!
+Cevap ve açıklama: а. два + eril nesne için adetli biçim: листа.
+Soru 5 BG: ............ е Хатидже? Българка ли е?
+TR: Hatice ............? Bulgar mı?
+Cevap ve açıklama: г. Хатидже kadın; soru sıfatı dişil: каква.
+Soru 6 BG: Вие ли сте .................. Захариева?
+TR: Zaharieva ............ siz misiniz?
+Cevap ve açıklama: б. Zaharieva kadın soyadı; resmi hitapta г-жа uygundur.
+Soru 7 BG: Колко ............... има в групата по български език?
+TR: Bulgarca grubunda kaç .......... var?
+Cevap ve açıklama: а. Kişi adı olduğu için kolko sonrasında нормал çoğul beklenir. Eğer cinsiyet belirtilmiyorsa студенти daha genel olur; seçenekler içinde студентки dilbilgisel olarak uygundur.
+Soru 8 BG: В университета има много ............
+TR: Üniversitede çok .......... var.
+Cevap ve açıklama: в. много хора çok yaygın ve doğru ifadedir.
+Soru 9 BG: Мехмед има ........... речник.
+TR: Mehmed’in .......... sözlüğü var.
+Cevap ve açıklama: а. речник eril isimdir; sıfat eril olmalıdır: български-турски речник.
+Soru 10 BG: ........................... много книги, но нямате време за четене.
+TR: Çok kitabınız var, ama okumaya vaktiniz yok.
+Cevap ve açıklama: б. Cümlenin devamında нямате geçtiği için aynı kişi: имате.
+Soru 11 BG: Това е г-жа Иванова. ................ е лекарка.
+TR: Bu Bayan İvanova. O doktordur.
+Cevap ve açıklama: в. Kadın için üçüncü tekil zamir тя kullanılır.
+Soru 12 BG: Българският език е .......................... език.
+TR: Bulgar dili .......... bir dildir.
+Cevap ve açıklama: а. език eril isimdir; sıfat славянски olur.
+Soru 13 BG: На бюрото има много ......
+TR: Çalışma masasının üzerinde çok .......... var.
+Cevap ve açıklama: в. много + normal çoğul: учебници.
+Soru 14 BG: Колко .................... искате?
+TR: Kaç .......... istiyorsunuz?
+Cevap ve açıklama: в. колко + eril nesne için adetli biçim kullanılabilir: колко речника.
+Soru 15 BG: Вижте числото 12. Това число е ..............
+TR: 12 sayısına bakın. Bu sayı ..........
+Cevap ve açıklama: б. 12 = дванайсет / дванадесет.
+Soru 16 BG: Какъв сте ............ професия?
+TR: Meslek olarak nesiniz?
+Cevap ve açıklama: а. Sabit kalıp: Какъв/Каква сте по професия?
+Soru 17 BG: Какво е ............. Учебник ли е?
+TR: Bu nedir? Ders kitabı mı?
+Cevap ve açıklama: б. Genel nesne sorusunda това kullanılır.
+Soru 18 BG: В стаята има .............. бюро.
+TR: Odada .......... çalışma masası var.
+Cevap ve açıklama: б. бюро nötr isimdir; едно бюро.
+Soru 19 BG: В офиса има много ...................
+TR: Ofiste çok .......... var.
+Cevap ve açıklama: в. много + normal çoğul: прозорци.
+9. Çözümlü alıştırma: gramatik olarak doğru ifadeler
+Soru 1: В аудиторията са поставени ...
+а) 20 нови и удобни чина  -> 20 yeni ve rahat sıra
+б) 20 нови и удобни чинове  -> 20 yeni ve rahat sıralar
+Doğru cevap: а. чин eril nesne; sayıdan sonra adetli biçim: 20 чина.
+Soru 2: Имам ...
+а) 5 часа лекции  -> 5 saat dersim var
+б) 5 часове лекции  -> 5 saatler dersim var
+Doğru cevap: а. час için sayıdan sonra часа kullanılır; normal çoğul часове burada olmaz.
+Soru 3: В чантата нося ...
+а) 3 химикалки и 2 молива  -> 3 tükenmez kalem ve 2 kurşun kalem taşıyorum
+б) 3 химикалки и 2 моливи  -> 3 tükenmez kalem ve 2 kurşun kalemler taşıyorum
+Doğru cevap: а. химикалка dişil: 3 химикалки normal çoğul. молив eril nesne: 2 молива adetli biçim.
+Soru 4: В университета има ...
+а) 120 лектори  -> 120 öğretim görevlisi
+б) 120 лектора  -> 120 öğretim görevlisi - yanlış kişi biçimi
+Doğru cevap: а. Kişilerde sayıdan sonra adetli biçim kullanılmaz; normal çoğul: лектори.
+Soru 5: В стаята има ...
+а) три дивани  -> üç kanepeler
+б) три диван  -> üç kanepe tekil
+в) три дивана  -> üç kanepe
+Doğru cevap: в. диван eril nesne; три дивана.
+Soru 6: В хотела има ...
+а) топло вода  -> sıcak su - nötr sıfat
+б) топла вода  -> sıcak su
+в) топъл вода  -> sıcak su - eril sıfat
+Doğru cevap: б. вода dişil isimdir; sıfat топла olur.
+Soru 7: Серкан знае английски, руски и турски ...
+а) езици  -> diller
+б) език  -> dil
+Doğru cevap: б. Diller sayılır gibi sıralansa da Bulgarcada “ingilizce, Rusça ve Türkçe dil” anlamında tekil език doğal kabul edilir.
+10. BDK s. 393 - Boşluk doldurma
+Bu bölüm adetli biçimi pekiştirir. Her satırda tekil, normal çoğul veya sayıdan sonra gelen biçim karşılaştırılmıştır.
+11. BDK s. 398 - Ek doğru cümleler
+Soru 1: В аудиторията са поставени ...
+а) 20 нови компютъра -> 20 yeni bilgisayar
+б) 20 нови компютри -> 20 yeni bilgisayarlar
+Doğru cevap: а. компютър eril nesne; sayıdan sonra компютъра.
+Soru 2: Имам ...
+а) 5 свободни часа -> 5 boş saatim var
+б) 5 свободни часове -> 5 boş saatlerim var
+Doğru cevap: а. час için sayıdan sonra часа.
+12. Dikte bölümü ve öğretmen notları
+BG: ДИКТОВКА на думите от презентацията виж в Приложение 1 (под всеки предмет, на всеки слайд има по една дума).
+TR: Sunumdaki kelimelerin diktesi için Ek 1’e bakınız; her nesnenin altında, her slaytta bir kelime vardır.
+BG: Препоръчително е тези думи да се оформят като диктовка.
+TR: Bu kelimelerin dikte çalışması olarak düzenlenmesi önerilir.
+BG: В практиката ни диктовките съпътстват всеки урок.
+TR: Uygulamamızda dikteler her derse eşlik eder.
+BG: Те способстват за развитието на слуховата и зрителна памет на обучаемите.
+TR: Bunlar öğrencilerin işitsel ve görsel hafızasının gelişmesine katkı sağlar.
+BG: Подборът на думите или текстовете, които се диктуват, както и големината им, са по преценка на обучаващите.
+TR: Dikte edilen kelime veya metinlerin seçimi ve uzunluğu öğreticilerin değerlendirmesine bağlıdır.
+Yeni öğrenci için dikte önerisi: Önce kelimeyi dinleyin, sonra harf harf yazın, ardından çoğul ve varsa adetli biçimini söyleyin. Örneğin: стол - столове - три стола.
+13. Kaynak PDF’de tekrar eden sayfalar hakkında not
+Önemli: Yüklenen PDF’de Ders 5 okuma metni ve “бройна форма” gramer bölümü sonraki sayfalarda tekrar görünmektedir. Bu eğitim notunda tekrar eden metinler ilk geçtiği yerde eksiksiz çevrilmiş ve açıklanmıştır. Böylece hiçbir içerik dışarıda bırakılmadan tekrarlar öğrenci için daha okunabilir şekilde tek kapsamlı anlatımda birleştirilmiştir.
+14. Mini sözlük - hızlı tekrar
+15. Ders sonu hızlı özet
+✓ Bu derste alışveriş, çocuk kıyafetleri, okul hazırlığı ve kitapçı/kırtasiye kelimeleri öğrenildi.
+✓ “имам / има / имаше” yapıları sahiplik ve varlık anlamlarıyla tekrar edildi.
+✓ Eril cansız isimlerde sayıdan sonra gelen бройна форма ayrıntılı işlendi: много столове ama три стола.
+✓ Kişi bildiren isimlerde genellikle adetli biçim kullanılmadığı vurgulandı: пет студенти, 120 лектори.
+✓ “човек - души - хора” özel yapısı ezberlenmesi gereken düzensiz bir yapı olarak anlatıldı.

@@ -1,0 +1,1739 @@
+[
+  {
+    "table_index": 0,
+    "rows": [
+      [
+        "Bulgarca / Kalıp",
+        "Türkçe",
+        "Açıklama"
+      ],
+      [
+        "детски магазин",
+        "çocuk mağazası",
+        "детски = çocuklarla ilgili; магазин = mağaza"
+      ],
+      [
+        "едно момиче",
+        "bir kız çocuğu",
+        "момиче nötr cinstir; bu yüzden едно kullanılır"
+      ],
+      [
+        "едно момче",
+        "bir erkek çocuğu",
+        "момче de nötr cinstir"
+      ],
+      [
+        "синът им",
+        "onların oğlu",
+        "-ът belirli artikel; им = onların"
+      ],
+      [
+        "първи клас",
+        "birinci sınıf",
+        "редно числително: sıra sayısı"
+      ],
+      [
+        "да го подготвят",
+        "onu hazırlamak",
+        "го = onu; подготвят = hazırlasınlar/hazırlamaları"
+      ],
+      [
+        "дрехи",
+        "kıyafetler",
+        "çoğul form; tekili дреха"
+      ],
+      [
+        "обувки",
+        "ayakkabılar",
+        "çoğul form; tekili обувка"
+      ],
+      [
+        "се уговориха",
+        "anlaştılar",
+        "refleksif fiil; geçmiş zaman"
+      ],
+      [
+        "в 18 часа",
+        "saat 18.00’de",
+        "часа burada sayıdan sonra adetli biçimdir"
+      ],
+      [
+        "щанд",
+        "reyon / tezgah",
+        "alışveriş bağlamında çok kullanılır"
+      ],
+      [
+        "детска конфекция",
+        "çocuk hazır giyim",
+        "конфекция = hazır giyim"
+      ],
+      [
+        "един чифт",
+        "bir çift",
+        "ayakkabı, çorap, pantolon gibi çiftli/ikili şeyler için"
+      ],
+      [
+        "дънки",
+        "kot pantolon",
+        "Bulgarcada çoğul gibi kullanılır"
+      ],
+      [
+        "ризка",
+        "küçük gömlek",
+        "риза = gömlek; -ка küçültme/şirinleştirme eki"
+      ],
+      [
+        "шушляково яке",
+        "naylon/yağmurluk kumaşından ceket",
+        "шушляк = hışırtılı sentetik kumaş"
+      ],
+      [
+        "маратонки",
+        "spor ayakkabı",
+        "çoğul form; bir çift denir"
+      ],
+      [
+        "пуловер",
+        "kazak",
+        "eril isim; sayıdan sonra пуловера"
+      ],
+      [
+        "няколко пуловера",
+        "birkaç kazak",
+        "пуловер için adetli biçim"
+      ],
+      [
+        "се колебаеха",
+        "kararsız kalıyorlardı",
+        "geçmişte devam eden durum"
+      ],
+      [
+        "пижама",
+        "pijama",
+        "dişil isim"
+      ],
+      [
+        "нощница",
+        "gecelik",
+        "dişil isim"
+      ],
+      [
+        "чорапи",
+        "çoraplar",
+        "tekil чорап"
+      ],
+      [
+        "долно бельо",
+        "iç çamaşırı",
+        "бельо nötr isim"
+      ],
+      [
+        "книжарница",
+        "kitapçı / kırtasiye",
+        "Bulgarcada kitap-kırtasiye mağazası"
+      ],
+      [
+        "учебни пособия",
+        "okul/öğretim araç gereçleri",
+        "учебен = öğrenimle ilgili"
+      ],
+      [
+        "линии",
+        "cetveller",
+        "линия = çizgi/cetvel; burada cetvel"
+      ],
+      [
+        "гуми",
+        "silgiler",
+        "гума = lastik/silgi"
+      ],
+      [
+        "блокове за рисуване",
+        "resim blokları",
+        "sayı yoksa normal çoğul: блокове"
+      ],
+      [
+        "водни бои",
+        "sulu boyalar",
+        "воден = suyla ilgili"
+      ],
+      [
+        "луксозно издание",
+        "lüks baskı",
+        "издание = yayın/baskı"
+      ],
+      [
+        "приказки",
+        "masallar",
+        "приказка = masal"
+      ],
+      [
+        "два тома",
+        "iki cilt",
+        "том için sayıdan sonra adetli biçim: тома"
+      ],
+      [
+        "се прибраха",
+        "eve döndüler",
+        "прибера се = eve dönmek/toparlanmak"
+      ],
+      [
+        "премериха дрехите",
+        "kıyafetleri denediler",
+        "премеря = denemek/ölçmek"
+      ],
+      [
+        "покупките",
+        "satın alınan şeyler",
+        "покупка = alışveriş ürünü"
+      ],
+      [
+        "вечерята",
+        "akşam yemeği",
+        "belirli form; вечеря = akşam yemeği"
+      ],
+      [
+        "се занимаваше с децата",
+        "çocuklarla ilgileniyordu",
+        "занимавам се с = ile meşgul olmak"
+      ]
+    ]
+  },
+  {
+    "table_index": 1,
+    "rows": [
+      [
+        "Tekil",
+        "Normal çoğul",
+        "Sayıdan sonra adetli biçim",
+        "Türkçe"
+      ],
+      [
+        "един сезон",
+        "много сезони",
+        "два сезона / четири сезона",
+        "mevsim"
+      ],
+      [
+        "един лъч",
+        "много лъчи / много лъчове",
+        "два лъча / десет лъча",
+        "ışın / hat"
+      ],
+      [
+        "един час",
+        "много часове",
+        "пет часа / 125 часа",
+        "saat"
+      ],
+      [
+        "един стол",
+        "много столове",
+        "десет стола / няколко стола",
+        "sandalye"
+      ],
+      [
+        "един водопад",
+        "много водопади",
+        "пет водопада / няколко водопада",
+        "şelale"
+      ],
+      [
+        "един чин",
+        "много чинове",
+        "20 чина",
+        "okul sırası"
+      ],
+      [
+        "един молив",
+        "много моливи",
+        "2 молива",
+        "kurşun kalem"
+      ],
+      [
+        "един университет",
+        "много университети",
+        "2 университета",
+        "üniversite"
+      ],
+      [
+        "един компютър",
+        "много компютри",
+        "20 компютъра",
+        "bilgisayar"
+      ]
+    ]
+  },
+  {
+    "table_index": 2,
+    "rows": [
+      [
+        "Doğru ifade",
+        "Türkçe",
+        "Neden?"
+      ],
+      [
+        "много ученици",
+        "çok öğrenci",
+        "normal çoğul"
+      ],
+      [
+        "няколко ученици",
+        "birkaç öğrenci",
+        "kişi olduğu için normal çoğul"
+      ],
+      [
+        "пет ученици",
+        "beş öğrenci",
+        "kişi olduğu için normal çoğul"
+      ],
+      [
+        "двама студенти",
+        "iki erkek/karma öğrenci",
+        "kişi sayarken двама gibi özel sayı sözcüğü kullanılabilir"
+      ],
+      [
+        "няколко студенти",
+        "birkaç öğrenci",
+        "normal çoğul"
+      ],
+      [
+        "120 лектори",
+        "120 öğretim görevlisi",
+        "kişi olduğu için лектори"
+      ]
+    ]
+  },
+  {
+    "table_index": 3,
+    "rows": [
+      [
+        "Tekil",
+        "Sayı ile",
+        "Türkçe"
+      ],
+      [
+        "една кола",
+        "три коли",
+        "bir araba - üç araba"
+      ],
+      [
+        "една стая",
+        "две стаи",
+        "bir oda - iki oda"
+      ],
+      [
+        "едно дете",
+        "четири деца",
+        "bir çocuk - dört çocuk"
+      ],
+      [
+        "едно бюро",
+        "две бюра",
+        "bir çalışma masası - iki çalışma masası"
+      ]
+    ]
+  },
+  {
+    "table_index": 4,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "Кой човек този е?",
+        "Bu kişi kimdir? (yanlış söz dizimi)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "б",
+        "Коя сте Вие?",
+        "Siz kimsiniz? (kadın için resmi ifade)",
+        "Doğru"
+      ],
+      [
+        "в",
+        "Кои те са?",
+        "Onlar kimdir? (yanlış söz dizimi)",
+        "Yanlış / bağlama göre zayıf"
+      ]
+    ]
+  },
+  {
+    "table_index": 5,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "Какви по професия вие сте?",
+        "Meslek olarak nesiniz? (yanlış sıra)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "б",
+        "По народност каква Фатма е?",
+        "Milliyet olarak Fatma nedir? (yanlış sıra)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "в",
+        "Г-н Гюнеш какъв е по професия?",
+        "Bay Güneş meslek olarak nedir?",
+        "Doğru"
+      ]
+    ]
+  },
+  {
+    "table_index": 6,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "Той преподавател ли е?",
+        "O öğretmen/öğretim görevlisi midir?",
+        "Doğru"
+      ],
+      [
+        "б",
+        "Вие ли студенти сте?",
+        "Öğrenci olan siz misiniz? (yanlış sıra)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "в",
+        "Те от Турция са ли?",
+        "Onlar Türkiye’den mi? (yanlış sıra)",
+        "Yanlış / bağlama göre zayıf"
+      ]
+    ]
+  },
+  {
+    "table_index": 7,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "Не по професия българи сме.",
+        "Meslek olarak Bulgar değiliz. (anlamsız/yanlış sıra)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "б",
+        "Не той господин Гюнеш е.",
+        "O Bay Güneş değildir. (yanlış sıra)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "в",
+        "Не съм банкер по професия.",
+        "Meslek olarak bankacı değilim.",
+        "Doğru"
+      ]
+    ]
+  },
+  {
+    "table_index": 8,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "Не сте ли от Сирия?",
+        "Siz Suriye’den değil misiniz?",
+        "Doğru"
+      ],
+      [
+        "б",
+        "От Одрин не ли са?",
+        "Onlar Edirne’den değil mi? (yanlış soru dizilişi)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "в",
+        "От Турция ли са не?",
+        "Onlar Türkiye’den mi değil? (yanlış)",
+        "Yanlış / bağlama göre zayıf"
+      ]
+    ]
+  },
+  {
+    "table_index": 9,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "Бахатин и Фатма са какви?",
+        "Bahattin ve Fatma nedirler? (sıra kaba/alışılmamış)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "б",
+        "Каква госпожица Гьозде е?",
+        "Gözde nasıl bir hanımefendidir? (eksik yapı)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "в",
+        "Какъв е господин Мурат?",
+        "Bay Murat nedir/nasıl biridir?",
+        "Doğru"
+      ]
+    ]
+  },
+  {
+    "table_index": 10,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "Какво това е?",
+        "Bu nedir? (yanlış sıra)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "б",
+        "Откъде сте вие?",
+        "Siz nerelisiniz?",
+        "Doğru"
+      ],
+      [
+        "в",
+        "Гьозде и Ахмед са къде?",
+        "Gözde ve Ahmet neredeler? (yanlış sıra)",
+        "Yanlış / bağlama göre zayıf"
+      ]
+    ]
+  },
+  {
+    "table_index": 11,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "Г-н Мурат учи български ли език?",
+        "Bay Murat Bulgarca mı öğreniyor? (yanlış yerleşim)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "б",
+        "Гьозде се казва ли тази студентка?",
+        "Bu öğrencinin adı Gözde mi? (sıra uygun değil)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "в",
+        "Хатидже ли е от Турция?",
+        "Türkiye’den olan Hatice mi?",
+        "Doğru"
+      ]
+    ]
+  },
+  {
+    "table_index": 12,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "Вие ли студенти, моля?",
+        "Siz mi öğrenciler, lütfen? (eksik fiil)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "б",
+        "Преподавател сте ли, моля?",
+        "Öğretim görevlisi misiniz, lütfen?",
+        "Doğru"
+      ],
+      [
+        "в",
+        "Банкери ли са?",
+        "Onlar bankacı mı?",
+        "Doğru"
+      ]
+    ]
+  },
+  {
+    "table_index": 13,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "Студент е той език български.",
+        "O Bulgar dili öğrencisidir. (kelime sırası yanlış)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "б",
+        "Сега уча български език.",
+        "Şimdi Bulgarca öğreniyorum.",
+        "Doğru"
+      ],
+      [
+        "в",
+        "Не, това не турски речник е.",
+        "Hayır, bu Türkçe sözlük değildir. (yanlış sıra)",
+        "Yanlış / bağlama göre zayıf"
+      ]
+    ]
+  },
+  {
+    "table_index": 14,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "Това е госпожица Ебру.",
+        "Bu Bayan Ebru’dur.",
+        "Doğru"
+      ],
+      [
+        "б",
+        "Това е господа Мурат.",
+        "Bu Bay Murat’tır. (господа çoğuldur, yanlış)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "в",
+        "Това госпожа е Захариева.",
+        "Bu Bayan Zaharieva’dır. (yanlış sıra)",
+        "Yanlış / bağlama göre zayıf"
+      ]
+    ]
+  },
+  {
+    "table_index": 15,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "Какви е по професия Мария и Фатма?",
+        "Maria ve Fatma meslek olarak nedir? (fiil ve sıra yanlış)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "б",
+        "Какви сте Мария и Фатма по професия?",
+        "Maria ve Fatma, meslek olarak nesiniz? (hitap karmaşık)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "в",
+        "По професия какви са Мария и Фатма?",
+        "Maria ve Fatma meslek olarak nedirler?",
+        "Doğru"
+      ]
+    ]
+  },
+  {
+    "table_index": 16,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "Откъде е господа?",
+        "Beyler nerelidir? (tekil fiil yanlış)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "б",
+        "Откъде са г-да Мурат?",
+        "Bay Muratlar nerelidir? (kısaltma/kullanım sorunlu)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "в",
+        "Откъде е г-н Мурат?",
+        "Bay Murat nerelidir?",
+        "Doğru"
+      ]
+    ]
+  },
+  {
+    "table_index": 17,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "Колко тетрадка имаш в чантата?",
+        "Çantanda kaç defter var? (çoğul gerek)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "б",
+        "Колко книги четеш на ден?",
+        "Günde kaç kitap okuyorsun?",
+        "Doğru"
+      ],
+      [
+        "в",
+        "Колко вестници четеш?",
+        "Kaç gazete okuyorsun?",
+        "Doğru"
+      ]
+    ]
+  },
+  {
+    "table_index": 18,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "Фатма купува няколко книга.",
+        "Fatma birkaç kitap satın alıyor. (книги olmalı)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "б",
+        "Имам две химикалка и един молив.",
+        "İki tükenmez kalemim ve bir kurşun kalemim var. (химикалки olmalı)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "в",
+        "Имам пет фурми и два пъпеша.",
+        "Beş hurmam ve iki kavunum var.",
+        "Doğru"
+      ]
+    ]
+  },
+  {
+    "table_index": 19,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "В стаята влизат няколко студенти.",
+        "Odaya birkaç öğrenci giriyor.",
+        "Doğru"
+      ],
+      [
+        "б",
+        "Пет студента чакат в салона.",
+        "Salonda beş öğrenci bekliyor. (kişilerde sayı biçimi tartışmalı; standartta пет студенти)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "в",
+        "Виждам три студент на двора.",
+        "Bahçede üç öğrenci görüyorum. (студенти olmalı)",
+        "Yanlış / bağlama göre zayıf"
+      ]
+    ]
+  },
+  {
+    "table_index": 20,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "Казва се Мурат. Студент е по български език.",
+        "Adı Murat. Bulgar dili öğrencisidir.",
+        "Doğru"
+      ],
+      [
+        "б",
+        "Казвам се Илкам. Приятно ми съм!",
+        "Adım İlkan. Memnun oldum. (съм yanlış; Приятно ми е)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "в",
+        "Откъде сте, приятно ми е, госпожице?",
+        "Nerelisiniz, memnun oldum, hanımefendi? (anlam/sıra uygunsuz)",
+        "Yanlış / bağlama göre zayıf"
+      ]
+    ]
+  },
+  {
+    "table_index": 21,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "В стая има три стола и две маси.",
+        "Bir odada üç sandalye ve iki masa var.",
+        "Doğru"
+      ],
+      [
+        "б",
+        "В магазина за мебели има един дивана и много легло.",
+        "Mobilya mağazasında bir kanepe ve çok yatak var. (диван, легла olmalı)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "в",
+        "В ресторанта има две свободни маси и три стола.",
+        "Restoranda iki boş masa ve üç sandalye var.",
+        "Doğru"
+      ]
+    ]
+  },
+  {
+    "table_index": 22,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "В хотела няма пет свободни стая.",
+        "Otelde beş boş oda yok. (стаи olmalı)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "б",
+        "Колко стаи има в хотела?",
+        "Otelde kaç oda var?",
+        "Doğru"
+      ],
+      [
+        "в",
+        "Има две стаи и три легло.",
+        "İki oda ve üç yatak var. (легла olmalı)",
+        "Yanlış / bağlama göre zayıf"
+      ]
+    ]
+  },
+  {
+    "table_index": 23,
+    "rows": [
+      [
+        "Seçenek",
+        "Bulgarca",
+        "Türkçe / Not",
+        "Durum"
+      ],
+      [
+        "а",
+        "Фатма има два речника.",
+        "Fatma’nın iki sözlüğü var.",
+        "Doğru"
+      ],
+      [
+        "б",
+        "Гьозе има три чанта.",
+        "Gözde’nin üç çantası var. (чанти olmalı)",
+        "Yanlış / bağlama göre zayıf"
+      ],
+      [
+        "в",
+        "Мурат има две раница.",
+        "Murat’ın iki sırt çantası var. (раници olmalı)",
+        "Yanlış / bağlama göre zayıf"
+      ]
+    ]
+  },
+  {
+    "table_index": 24,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) учим",
+        "biz öğreniyoruz",
+        "Yanlış"
+      ],
+      [
+        "б) учи",
+        "o öğreniyor",
+        "Doğru"
+      ],
+      [
+        "в) учат",
+        "onlar öğreniyor",
+        "Yanlış"
+      ],
+      [
+        "г) уча",
+        "ben öğreniyorum",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 25,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) студентка",
+        "kadın öğrenci",
+        "Yanlış"
+      ],
+      [
+        "б) студенти",
+        "öğrenciler",
+        "Yanlış"
+      ],
+      [
+        "в) студент",
+        "erkek öğrenci",
+        "Doğru"
+      ],
+      [
+        "г) студентки",
+        "kadın öğrenciler",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 26,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) столът",
+        "belirli tekil sandalye",
+        "Yanlış"
+      ],
+      [
+        "б) стола",
+        "adetli biçim",
+        "Yanlış"
+      ],
+      [
+        "в) столове",
+        "sandalyeler",
+        "Doğru"
+      ],
+      [
+        "г) столова",
+        "yemekhane",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 27,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) листа",
+        "sayfa/yaprak - adetli biçim",
+        "Doğru"
+      ],
+      [
+        "б) листове",
+        "sayfalar/yapraklar",
+        "Yanlış"
+      ],
+      [
+        "в) лист",
+        "sayfa/yaprak tekil",
+        "Yanlış"
+      ],
+      [
+        "г) листи",
+        "liste/sayfa türü çoğul",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 28,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) какви",
+        "nasıl/neler - çoğul",
+        "Yanlış"
+      ],
+      [
+        "б) какво",
+        "ne - nötr",
+        "Yanlış"
+      ],
+      [
+        "в) какъв",
+        "nasıl/ne - eril",
+        "Yanlış"
+      ],
+      [
+        "г) каква",
+        "nasıl/ne - dişil",
+        "Doğru"
+      ]
+    ]
+  },
+  {
+    "table_index": 29,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) г-н",
+        "Bay",
+        "Yanlış"
+      ],
+      [
+        "б) г-жа",
+        "Bayan/Hanım",
+        "Doğru"
+      ],
+      [
+        "в) г-ца",
+        "Genç/Bekar Bayan",
+        "Yanlış"
+      ],
+      [
+        "г) г-да",
+        "Beyler",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 30,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) студентки",
+        "kadın öğrenciler",
+        "Doğru"
+      ],
+      [
+        "б) баби",
+        "nineler",
+        "Yanlış"
+      ],
+      [
+        "в) дядовци",
+        "dedeler",
+        "Yanlış"
+      ],
+      [
+        "г) студента",
+        "öğrenci - adetli biçim",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 31,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) души",
+        "kişi/insanlar",
+        "Yanlış"
+      ],
+      [
+        "б) човек",
+        "insan tekil",
+        "Yanlış"
+      ],
+      [
+        "в) хора",
+        "insanlar",
+        "Doğru"
+      ],
+      [
+        "г) хората",
+        "insanlar - belirli",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 32,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) български-турски",
+        "Bulgarca-Türkçe - eril",
+        "Doğru"
+      ],
+      [
+        "б) българско-турски",
+        "Bulgarca-Türkçe - yanlış/nötr görünümlü",
+        "Yanlış"
+      ],
+      [
+        "в) българско-турска",
+        "dişil",
+        "Yanlış"
+      ],
+      [
+        "г) българскотурско",
+        "bitişik ve nötr",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 33,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) имаш",
+        "senin var",
+        "Yanlış"
+      ],
+      [
+        "б) имате",
+        "sizin var",
+        "Doğru"
+      ],
+      [
+        "в) имам",
+        "benim var",
+        "Yanlış"
+      ],
+      [
+        "г) има",
+        "var/o var",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 34,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) той",
+        "o - erkek",
+        "Yanlış"
+      ],
+      [
+        "б) то",
+        "o - nötr",
+        "Yanlış"
+      ],
+      [
+        "в) тя",
+        "o - kadın",
+        "Doğru"
+      ],
+      [
+        "г) г-жа",
+        "Bayan",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 35,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) славянски",
+        "Slav - eril",
+        "Doğru"
+      ],
+      [
+        "б) славянска",
+        "Slav - dişil",
+        "Yanlış"
+      ],
+      [
+        "в) славянско",
+        "Slav - nötr",
+        "Yanlış"
+      ],
+      [
+        "г) тюркски",
+        "Türkî",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 36,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) учебник",
+        "ders kitabı tekil",
+        "Yanlış"
+      ],
+      [
+        "б) учебника",
+        "adetli biçim",
+        "Yanlış"
+      ],
+      [
+        "в) учебници",
+        "ders kitapları",
+        "Doğru"
+      ],
+      [
+        "г) учебникът",
+        "belirli tekil",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 37,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) речник",
+        "sözlük tekil",
+        "Yanlış"
+      ],
+      [
+        "б) речници",
+        "sözlükler",
+        "Yanlış"
+      ],
+      [
+        "в) речника",
+        "sözlük - adetli biçim",
+        "Doğru"
+      ],
+      [
+        "г) речникът",
+        "belirli sözlük",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 38,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) деветнайсет",
+        "19",
+        "Yanlış"
+      ],
+      [
+        "б) дванайсет",
+        "12",
+        "Doğru"
+      ],
+      [
+        "в) двайсет",
+        "20",
+        "Yanlış"
+      ],
+      [
+        "г) единайсет",
+        "11",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 39,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) по",
+        "olarak/mesleğe göre",
+        "Doğru"
+      ],
+      [
+        "б) за",
+        "için",
+        "Yanlış"
+      ],
+      [
+        "в) от",
+        "-den/-dan",
+        "Yanlış"
+      ],
+      [
+        "г) във",
+        "içinde",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 40,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) тази",
+        "bu - dişil",
+        "Yanlış"
+      ],
+      [
+        "б) това",
+        "bu - nötr",
+        "Doğru"
+      ],
+      [
+        "в) този",
+        "bu - eril",
+        "Yanlış"
+      ],
+      [
+        "г) то",
+        "o - nötr",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 41,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) едни",
+        "bir - çoğul",
+        "Yanlış"
+      ],
+      [
+        "б) едно",
+        "bir - nötr",
+        "Doğru"
+      ],
+      [
+        "в) една",
+        "bir - dişil",
+        "Yanlış"
+      ],
+      [
+        "г) много",
+        "çok",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 42,
+    "rows": [
+      [
+        "Seçenek",
+        "Anlam",
+        "Durum"
+      ],
+      [
+        "а) прозореца",
+        "pencere - adetli",
+        "Yanlış"
+      ],
+      [
+        "б) прозореци",
+        "pencereler - varyant",
+        "Yanlış"
+      ],
+      [
+        "в) прозорци",
+        "pencereler",
+        "Doğru"
+      ],
+      [
+        "г) прозорца",
+        "adetli/telaffuz varyantı",
+        "Yanlış"
+      ]
+    ]
+  },
+  {
+    "table_index": 43,
+    "rows": [
+      [
+        "Verilen",
+        "Çokluk / ara biçim",
+        "Sayı/kolko sonrası",
+        "Açıklama"
+      ],
+      [
+        "1 човек",
+        "много хора",
+        "колко души",
+        "човек çok düzensizdir: един човек, много хора, няколко/колко души."
+      ],
+      [
+        "1 чин",
+        "много чинове",
+        "5 чина",
+        "чин nesne olduğu için sayıdan sonra adetli biçim kullanılır."
+      ],
+      [
+        "1 студент",
+        "много студенти",
+        "10 студенти",
+        "студент kişi olduğu için sayıdan sonra normal çoğul kullanılır."
+      ],
+      [
+        "1 кола",
+        "няколко коли",
+        "3 коли",
+        "кола dişil isimdir; sayıdan sonra normal çoğul kullanılır."
+      ],
+      [
+        "1 университет",
+        "2 университета",
+        "няколко университета",
+        "университет eril cansız isimdir; sayıdan sonra adetli biçim."
+      ],
+      [
+        "1 дете",
+        "4 деца",
+        "колко деца",
+        "дете düzensiz çoğul: деца."
+      ]
+    ]
+  },
+  {
+    "table_index": 44,
+    "rows": [
+      [
+        "Bulgarca",
+        "Türkçe"
+      ],
+      [
+        "блокове за рисуване",
+        "resim blokları"
+      ],
+      [
+        "бройна форма",
+        "adetli biçim / sayma biçimi"
+      ],
+      [
+        "в 18 часа",
+        "saat 18.00’de"
+      ],
+      [
+        "вечерята",
+        "akşam yemeği"
+      ],
+      [
+        "водни бои",
+        "sulu boyalar"
+      ],
+      [
+        "гуми",
+        "silgiler"
+      ],
+      [
+        "да го подготвят",
+        "onu hazırlamak"
+      ],
+      [
+        "два тома",
+        "iki cilt"
+      ],
+      [
+        "детска конфекция",
+        "çocuk hazır giyim"
+      ],
+      [
+        "детски магазин",
+        "çocuk mağazası"
+      ],
+      [
+        "деца",
+        "çocuklar"
+      ],
+      [
+        "долно бельо",
+        "iç çamaşırı"
+      ],
+      [
+        "дрехи",
+        "kıyafetler"
+      ],
+      [
+        "души",
+        "kişiler"
+      ],
+      [
+        "дънки",
+        "kot pantolon"
+      ],
+      [
+        "един чифт",
+        "bir çift"
+      ],
+      [
+        "единствено число",
+        "tekil"
+      ],
+      [
+        "едно момиче",
+        "bir kız çocuğu"
+      ],
+      [
+        "едно момче",
+        "bir erkek çocuğu"
+      ],
+      [
+        "книжарница",
+        "kitapçı / kırtasiye"
+      ],
+      [
+        "колко",
+        "kaç"
+      ],
+      [
+        "линии",
+        "cetveller"
+      ],
+      [
+        "луксозно издание",
+        "lüks baskı"
+      ],
+      [
+        "маратонки",
+        "spor ayakkabı"
+      ],
+      [
+        "много",
+        "çok"
+      ],
+      [
+        "множествено число",
+        "çoğul"
+      ],
+      [
+        "мъжки род",
+        "eril cins"
+      ],
+      [
+        "нощница",
+        "gecelik"
+      ],
+      [
+        "няколко",
+        "birkaç"
+      ],
+      [
+        "няколко пуловера",
+        "birkaç kazak"
+      ],
+      [
+        "обувки",
+        "ayakkabılar"
+      ],
+      [
+        "пижама",
+        "pijama"
+      ],
+      [
+        "покупките",
+        "satın alınan şeyler"
+      ],
+      [
+        "премериха дрехите",
+        "kıyafetleri denediler"
+      ],
+      [
+        "приказки",
+        "masallar"
+      ],
+      [
+        "пуловер",
+        "kazak"
+      ],
+      [
+        "първи клас",
+        "birinci sınıf"
+      ],
+      [
+        "ризка",
+        "küçük gömlek"
+      ],
+      [
+        "се занимаваше с децата",
+        "çocuklarla ilgileniyordu"
+      ],
+      [
+        "се колебаеха",
+        "kararsız kalıyorlardı"
+      ],
+      [
+        "се прибраха",
+        "eve döndüler"
+      ],
+      [
+        "се уговориха",
+        "anlaştılar"
+      ],
+      [
+        "синът им",
+        "onların oğlu"
+      ],
+      [
+        "учебни пособия",
+        "okul/öğretim araç gereçleri"
+      ],
+      [
+        "хора",
+        "insanlar"
+      ],
+      [
+        "числително име",
+        "sayı sözcüğü"
+      ],
+      [
+        "чорапи",
+        "çoraplar"
+      ],
+      [
+        "шушляково яке",
+        "naylon/yağmurluk kumaşından ceket"
+      ],
+      [
+        "щанд",
+        "reyon / tezgah"
+      ]
+    ]
+  }
+]

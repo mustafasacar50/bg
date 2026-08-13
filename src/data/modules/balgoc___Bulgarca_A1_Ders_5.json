@@ -1726,6 +1726,2005 @@
       "hint": "Boşluğa uygun kelimeyi yazınız",
       "lesson": "Ders 5",
       "fitbTarget": "обучаващите"
+    },
+    {
+      "id": "q_d5_vcb_1eeb6c04",
+      "type": "translation",
+      "sentence": "детски магазин",
+      "answer": "çocuk mağazası",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "детски = çocuklarla ilgili; магазин = mağaza"
+    },
+    {
+      "id": "q_d5_vcb_aa1c6a53",
+      "type": "translation",
+      "sentence": "çocuk mağazası",
+      "answer": "детски магазин",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "детски = çocuklarla ilgili; магазин = mağaza"
+    },
+    {
+      "id": "q_d5_vcb_943347ce",
+      "type": "translation",
+      "sentence": "едно момиче",
+      "answer": "bir kız çocuğu",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "момиче nötr cinstir; bu yüzden едно kullanılır"
+    },
+    {
+      "id": "q_d5_vcb_5d72b86c",
+      "type": "translation",
+      "sentence": "bir kız çocuğu",
+      "answer": "едно момиче",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "момиче nötr cinstir; bu yüzden едно kullanılır"
+    },
+    {
+      "id": "q_d5_vcb_d4625f7c",
+      "type": "translation",
+      "sentence": "едно момче",
+      "answer": "bir erkek çocuğu",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "момче de nötr cinstir"
+    },
+    {
+      "id": "q_d5_vcb_2e0ef6c3",
+      "type": "translation",
+      "sentence": "bir erkek çocuğu",
+      "answer": "едно момче",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "момче de nötr cinstir"
+    },
+    {
+      "id": "q_d5_vcb_84e88507",
+      "type": "translation",
+      "sentence": "синът им",
+      "answer": "onların oğlu",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "-ът belirli artikel; им = onların"
+    },
+    {
+      "id": "q_d5_vcb_0baeb2bf",
+      "type": "translation",
+      "sentence": "onların oğlu",
+      "answer": "синът им",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "-ът belirli artikel; им = onların"
+    },
+    {
+      "id": "q_d5_vcb_ecdcad41",
+      "type": "translation",
+      "sentence": "първи клас",
+      "answer": "birinci sınıf",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "редно числително: sıra sayısı"
+    },
+    {
+      "id": "q_d5_vcb_6987f51e",
+      "type": "translation",
+      "sentence": "birinci sınıf",
+      "answer": "първи клас",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "редно числително: sıra sayısı"
+    },
+    {
+      "id": "q_d5_vcb_5cdded2b",
+      "type": "translation",
+      "sentence": "да го подготвят",
+      "answer": "onu hazırlamak",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "го = onu; подготвят = hazırlasınlar/hazırlamaları"
+    },
+    {
+      "id": "q_d5_vcb_bac66c22",
+      "type": "translation",
+      "sentence": "onu hazırlamak",
+      "answer": "да го подготвят",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "го = onu; подготвят = hazırlasınlar/hazırlamaları"
+    },
+    {
+      "id": "q_d5_vcb_28620ae5",
+      "type": "translation",
+      "sentence": "дрехи",
+      "answer": "kıyafetler",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "çoğul form; tekili дреха"
+    },
+    {
+      "id": "q_d5_vcb_590406b3",
+      "type": "translation",
+      "sentence": "kıyafetler",
+      "answer": "дрехи",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "çoğul form; tekili дреха"
+    },
+    {
+      "id": "q_d5_vcb_ae7eb3c0",
+      "type": "translation",
+      "sentence": "обувки",
+      "answer": "ayakkabılar",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "çoğul form; tekili обувка"
+    },
+    {
+      "id": "q_d5_vcb_bde47c2a",
+      "type": "translation",
+      "sentence": "ayakkabılar",
+      "answer": "обувки",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "çoğul form; tekili обувка"
+    },
+    {
+      "id": "q_d5_vcb_e19379db",
+      "type": "translation",
+      "sentence": "се уговориха",
+      "answer": "anlaştılar",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "refleksif fiil; geçmiş zaman"
+    },
+    {
+      "id": "q_d5_vcb_ca17b4df",
+      "type": "translation",
+      "sentence": "anlaştılar",
+      "answer": "се уговориха",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "refleksif fiil; geçmiş zaman"
+    },
+    {
+      "id": "q_d5_vcb_53ffa7e9",
+      "type": "translation",
+      "sentence": "в 18 часа",
+      "answer": "saat 18.00’de",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "часа burada sayıdan sonra adetli biçimdir"
+    },
+    {
+      "id": "q_d5_vcb_af9151ac",
+      "type": "translation",
+      "sentence": "saat 18.00’de",
+      "answer": "в 18 часа",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "часа burada sayıdan sonra adetli biçimdir"
+    },
+    {
+      "id": "q_d5_vcb_6292395a",
+      "type": "translation",
+      "sentence": "щанд",
+      "answer": "reyon / tezgah",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "alışveriş bağlamında çok kullanılır"
+    },
+    {
+      "id": "q_d5_vcb_e022d8f4",
+      "type": "translation",
+      "sentence": "reyon / tezgah",
+      "answer": "щанд",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "alışveriş bağlamında çok kullanılır"
+    },
+    {
+      "id": "q_d5_vcb_29de7836",
+      "type": "translation",
+      "sentence": "детска конфекция",
+      "answer": "çocuk hazır giyim",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "конфекция = hazır giyim"
+    },
+    {
+      "id": "q_d5_vcb_4e4d80b5",
+      "type": "translation",
+      "sentence": "çocuk hazır giyim",
+      "answer": "детска конфекция",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "конфекция = hazır giyim"
+    },
+    {
+      "id": "q_d5_vcb_ee24bfd5",
+      "type": "translation",
+      "sentence": "един чифт",
+      "answer": "bir çift",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "ayakkabı, çorap, pantolon gibi çiftli/ikili şeyler için"
+    },
+    {
+      "id": "q_d5_vcb_1c16c486",
+      "type": "translation",
+      "sentence": "bir çift",
+      "answer": "един чифт",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "ayakkabı, çorap, pantolon gibi çiftli/ikili şeyler için"
+    },
+    {
+      "id": "q_d5_vcb_103cce7d",
+      "type": "translation",
+      "sentence": "дънки",
+      "answer": "kot pantolon",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Bulgarcada çoğul gibi kullanılır"
+    },
+    {
+      "id": "q_d5_vcb_3151bd74",
+      "type": "translation",
+      "sentence": "kot pantolon",
+      "answer": "дънки",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Bulgarcada çoğul gibi kullanılır"
+    },
+    {
+      "id": "q_d5_vcb_7c3fcb2a",
+      "type": "translation",
+      "sentence": "ризка",
+      "answer": "küçük gömlek",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "риза = gömlek; -ка küçültme/şirinleştirme eki"
+    },
+    {
+      "id": "q_d5_vcb_01604762",
+      "type": "translation",
+      "sentence": "küçük gömlek",
+      "answer": "ризка",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "риза = gömlek; -ка küçültme/şirinleştirme eki"
+    },
+    {
+      "id": "q_d5_vcb_9c755fdc",
+      "type": "translation",
+      "sentence": "шушляково яке",
+      "answer": "naylon/yağmurluk kumaşından ceket",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "шушляк = hışırtılı sentetik kumaş"
+    },
+    {
+      "id": "q_d5_vcb_4716062e",
+      "type": "translation",
+      "sentence": "naylon/yağmurluk kumaşından ceket",
+      "answer": "шушляково яке",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "шушляк = hışırtılı sentetik kumaş"
+    },
+    {
+      "id": "q_d5_vcb_ddb319f1",
+      "type": "translation",
+      "sentence": "маратонки",
+      "answer": "spor ayakkabı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "çoğul form; bir çift denir"
+    },
+    {
+      "id": "q_d5_vcb_20ea3a5a",
+      "type": "translation",
+      "sentence": "spor ayakkabı",
+      "answer": "маратонки",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "çoğul form; bir çift denir"
+    },
+    {
+      "id": "q_d5_vcb_3feafe0e",
+      "type": "translation",
+      "sentence": "пуловер",
+      "answer": "kazak",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "eril isim; sayıdan sonra пуловера"
+    },
+    {
+      "id": "q_d5_vcb_362c51cb",
+      "type": "translation",
+      "sentence": "kazak",
+      "answer": "пуловер",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "eril isim; sayıdan sonra пуловера"
+    },
+    {
+      "id": "q_d5_vcb_d7d4e68f",
+      "type": "translation",
+      "sentence": "няколко пуловера",
+      "answer": "birkaç kazak",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "пуловер için adetli biçim"
+    },
+    {
+      "id": "q_d5_vcb_0f3938e9",
+      "type": "translation",
+      "sentence": "birkaç kazak",
+      "answer": "няколко пуловера",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "пуловер için adetli biçim"
+    },
+    {
+      "id": "q_d5_vcb_74ea45ed",
+      "type": "translation",
+      "sentence": "се колебаеха",
+      "answer": "kararsız kalıyorlardı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "geçmişte devam eden durum"
+    },
+    {
+      "id": "q_d5_vcb_8afff4fe",
+      "type": "translation",
+      "sentence": "kararsız kalıyorlardı",
+      "answer": "се колебаеха",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "geçmişte devam eden durum"
+    },
+    {
+      "id": "q_d5_vcb_32516458",
+      "type": "translation",
+      "sentence": "пижама",
+      "answer": "pijama",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "dişil isim"
+    },
+    {
+      "id": "q_d5_vcb_18842452",
+      "type": "translation",
+      "sentence": "pijama",
+      "answer": "пижама",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "dişil isim"
+    },
+    {
+      "id": "q_d5_vcb_52df8a63",
+      "type": "translation",
+      "sentence": "нощница",
+      "answer": "gecelik",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "dişil isim"
+    },
+    {
+      "id": "q_d5_vcb_cd901b14",
+      "type": "translation",
+      "sentence": "gecelik",
+      "answer": "нощница",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "dişil isim"
+    },
+    {
+      "id": "q_d5_vcb_a05d7f95",
+      "type": "translation",
+      "sentence": "чорапи",
+      "answer": "çoraplar",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "tekil чорап"
+    },
+    {
+      "id": "q_d5_vcb_845f2ea6",
+      "type": "translation",
+      "sentence": "çoraplar",
+      "answer": "чорапи",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "tekil чорап"
+    },
+    {
+      "id": "q_d5_vcb_1f3d96a3",
+      "type": "translation",
+      "sentence": "долно бельо",
+      "answer": "iç çamaşırı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "бельо nötr isim"
+    },
+    {
+      "id": "q_d5_vcb_5dbe8e53",
+      "type": "translation",
+      "sentence": "iç çamaşırı",
+      "answer": "долно бельо",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "бельо nötr isim"
+    },
+    {
+      "id": "q_d5_vcb_f62193bd",
+      "type": "translation",
+      "sentence": "книжарница",
+      "answer": "kitapçı / kırtasiye",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Bulgarcada kitap-kırtasiye mağazası"
+    },
+    {
+      "id": "q_d5_vcb_37ce2adb",
+      "type": "translation",
+      "sentence": "kitapçı / kırtasiye",
+      "answer": "книжарница",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Bulgarcada kitap-kırtasiye mağazası"
+    },
+    {
+      "id": "q_d5_vcb_dce6d2ef",
+      "type": "translation",
+      "sentence": "учебни пособия",
+      "answer": "okul/öğretim araç gereçleri",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "учебен = öğrenimle ilgili"
+    },
+    {
+      "id": "q_d5_vcb_bbe78fc5",
+      "type": "translation",
+      "sentence": "okul/öğretim araç gereçleri",
+      "answer": "учебни пособия",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "учебен = öğrenimle ilgili"
+    },
+    {
+      "id": "q_d5_vcb_162eb197",
+      "type": "translation",
+      "sentence": "линии",
+      "answer": "cetveller",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "линия = çizgi/cetvel; burada cetvel"
+    },
+    {
+      "id": "q_d5_vcb_7c5f680c",
+      "type": "translation",
+      "sentence": "cetveller",
+      "answer": "линии",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "линия = çizgi/cetvel; burada cetvel"
+    },
+    {
+      "id": "q_d5_vcb_5cac8b5d",
+      "type": "translation",
+      "sentence": "гуми",
+      "answer": "silgiler",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "гума = lastik/silgi"
+    },
+    {
+      "id": "q_d5_vcb_643964fc",
+      "type": "translation",
+      "sentence": "silgiler",
+      "answer": "гуми",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "гума = lastik/silgi"
+    },
+    {
+      "id": "q_d5_vcb_48a514d3",
+      "type": "translation",
+      "sentence": "блокове за рисуване",
+      "answer": "resim blokları",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "sayı yoksa normal çoğul: блокове"
+    },
+    {
+      "id": "q_d5_vcb_fae3017d",
+      "type": "translation",
+      "sentence": "resim blokları",
+      "answer": "блокове за рисуване",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "sayı yoksa normal çoğul: блокове"
+    },
+    {
+      "id": "q_d5_vcb_ad28ccab",
+      "type": "translation",
+      "sentence": "водни бои",
+      "answer": "sulu boyalar",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "воден = suyla ilgili"
+    },
+    {
+      "id": "q_d5_vcb_97c49b2f",
+      "type": "translation",
+      "sentence": "sulu boyalar",
+      "answer": "водни бои",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "воден = suyla ilgili"
+    },
+    {
+      "id": "q_d5_vcb_8dd20681",
+      "type": "translation",
+      "sentence": "луксозно издание",
+      "answer": "lüks baskı",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "издание = yayın/baskı"
+    },
+    {
+      "id": "q_d5_vcb_82e73c05",
+      "type": "translation",
+      "sentence": "lüks baskı",
+      "answer": "луксозно издание",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "издание = yayın/baskı"
+    },
+    {
+      "id": "q_d5_vcb_fe724c47",
+      "type": "translation",
+      "sentence": "приказки",
+      "answer": "masallar",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "приказка = masal"
+    },
+    {
+      "id": "q_d5_vcb_679f9f25",
+      "type": "translation",
+      "sentence": "masallar",
+      "answer": "приказки",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "приказка = masal"
+    },
+    {
+      "id": "q_d5_vcb_6b71c86e",
+      "type": "translation",
+      "sentence": "два тома",
+      "answer": "iki cilt",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "том için sayıdan sonra adetli biçim: тома"
+    },
+    {
+      "id": "q_d5_vcb_b46074ba",
+      "type": "translation",
+      "sentence": "iki cilt",
+      "answer": "два тома",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "том için sayıdan sonra adetli biçim: тома"
+    },
+    {
+      "id": "q_d5_vcb_dc36b203",
+      "type": "translation",
+      "sentence": "се прибраха",
+      "answer": "eve döndüler",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "прибера се = eve dönmek/toparlanmak"
+    },
+    {
+      "id": "q_d5_vcb_5817914b",
+      "type": "translation",
+      "sentence": "eve döndüler",
+      "answer": "се прибраха",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "прибера се = eve dönmek/toparlanmak"
+    },
+    {
+      "id": "q_d5_vcb_40cc6f19",
+      "type": "translation",
+      "sentence": "премериха дрехите",
+      "answer": "kıyafetleri denediler",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "премеря = denemek/ölçmek"
+    },
+    {
+      "id": "q_d5_vcb_2efb56b6",
+      "type": "translation",
+      "sentence": "kıyafetleri denediler",
+      "answer": "премериха дрехите",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "премеря = denemek/ölçmek"
+    },
+    {
+      "id": "q_d5_vcb_e81f90ac",
+      "type": "translation",
+      "sentence": "покупките",
+      "answer": "satın alınan şeyler",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "покупка = alışveriş ürünü"
+    },
+    {
+      "id": "q_d5_vcb_ff082faa",
+      "type": "translation",
+      "sentence": "satın alınan şeyler",
+      "answer": "покупките",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "покупка = alışveriş ürünü"
+    },
+    {
+      "id": "q_d5_vcb_2a31b116",
+      "type": "translation",
+      "sentence": "вечерята",
+      "answer": "akşam yemeği",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "belirli form; вечеря = akşam yemeği"
+    },
+    {
+      "id": "q_d5_vcb_521e619e",
+      "type": "translation",
+      "sentence": "akşam yemeği",
+      "answer": "вечерята",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "belirli form; вечеря = akşam yemeği"
+    },
+    {
+      "id": "q_d5_vcb_7efea638",
+      "type": "translation",
+      "sentence": "се занимаваше с децата",
+      "answer": "çocuklarla ilgileniyordu",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "занимавам се с = ile meşgul olmak"
+    },
+    {
+      "id": "q_d5_vcb_7ccd2846",
+      "type": "translation",
+      "sentence": "çocuklarla ilgileniyordu",
+      "answer": "се занимаваше с децата",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "занимавам се с = ile meşgul olmak"
+    },
+    {
+      "id": "q_d5_vcb_7c9a7935",
+      "type": "translation",
+      "sentence": "бройна форма",
+      "answer": "adetli biçim / sayma biçimi",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_e920d3af",
+      "type": "translation",
+      "sentence": "adetli biçim / sayma biçimi",
+      "answer": "бройна форма",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_32a9bac1",
+      "type": "translation",
+      "sentence": "деца",
+      "answer": "çocuklar",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_76b58334",
+      "type": "translation",
+      "sentence": "çocuklar",
+      "answer": "деца",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_00cf4b0a",
+      "type": "translation",
+      "sentence": "души",
+      "answer": "kişiler",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_4174e14c",
+      "type": "translation",
+      "sentence": "kişiler",
+      "answer": "души",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_a8e7c5d7",
+      "type": "translation",
+      "sentence": "единствено число",
+      "answer": "tekil",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_f6c31a92",
+      "type": "translation",
+      "sentence": "tekil",
+      "answer": "единствено число",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_3c7adb4e",
+      "type": "translation",
+      "sentence": "колко",
+      "answer": "kaç",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_40c6273f",
+      "type": "translation",
+      "sentence": "kaç",
+      "answer": "колко",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_4f20e99e",
+      "type": "translation",
+      "sentence": "много",
+      "answer": "çok",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_6045e72e",
+      "type": "translation",
+      "sentence": "çok",
+      "answer": "много",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_f2e7f3df",
+      "type": "translation",
+      "sentence": "множествено число",
+      "answer": "çoğul",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_4780a14c",
+      "type": "translation",
+      "sentence": "çoğul",
+      "answer": "множествено число",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_4482a7c6",
+      "type": "translation",
+      "sentence": "мъжки род",
+      "answer": "eril cins",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_d030149e",
+      "type": "translation",
+      "sentence": "eril cins",
+      "answer": "мъжки род",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_53fbea0c",
+      "type": "translation",
+      "sentence": "няколко",
+      "answer": "birkaç",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_19912dd4",
+      "type": "translation",
+      "sentence": "birkaç",
+      "answer": "няколко",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_4c191a13",
+      "type": "translation",
+      "sentence": "хора",
+      "answer": "insanlar",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_d41e5a36",
+      "type": "translation",
+      "sentence": "insanlar",
+      "answer": "хора",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_8e406997",
+      "type": "translation",
+      "sentence": "числително име",
+      "answer": "sayı sözcüğü",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_vcb_22237769",
+      "type": "translation",
+      "sentence": "sayı sözcüğü",
+      "answer": "числително име",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_pl_db9b13a5",
+      "type": "translation",
+      "sentence": "Sayıdan sonra kullanım (Örn: 2 adet) -> един сезон (mevsim)",
+      "answer": "два сезона / четири сезона",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един сезон\nNormal Çoğul: много сезони\nSayıdan Sonra (Adetli): два сезона / четири сезона"
+    },
+    {
+      "id": "q_d5_pl_b909ee5f",
+      "type": "translation",
+      "sentence": "Çoğul hali -> един сезон (mevsim)",
+      "answer": "много сезони",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един сезон\nNormal Çoğul: много сезони\nSayıdan Sonra (Adetli): два сезона / четири сезона"
+    },
+    {
+      "id": "q_d5_pl_55c6a115",
+      "type": "translation",
+      "sentence": "Sayıdan sonra kullanım (Örn: 2 adet) -> един лъч (ışın / hat)",
+      "answer": "два лъча / десет лъча",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един лъч\nNormal Çoğul: много лъчи / много лъчове\nSayıdan Sonra (Adetli): два лъча / десет лъча"
+    },
+    {
+      "id": "q_d5_pl_78555bc5",
+      "type": "translation",
+      "sentence": "Çoğul hali -> един лъч (ışın / hat)",
+      "answer": "много лъчи / много лъчове",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един лъч\nNormal Çoğul: много лъчи / много лъчове\nSayıdan Sonra (Adetli): два лъча / десет лъча"
+    },
+    {
+      "id": "q_d5_pl_fdf52d84",
+      "type": "translation",
+      "sentence": "Sayıdan sonra kullanım (Örn: 2 adet) -> един час (saat)",
+      "answer": "пет часа / 125 часа",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един час\nNormal Çoğul: много часове\nSayıdan Sonra (Adetli): пет часа / 125 часа"
+    },
+    {
+      "id": "q_d5_pl_e50944f5",
+      "type": "translation",
+      "sentence": "Çoğul hali -> един час (saat)",
+      "answer": "много часове",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един час\nNormal Çoğul: много часове\nSayıdan Sonra (Adetli): пет часа / 125 часа"
+    },
+    {
+      "id": "q_d5_pl_21eaca28",
+      "type": "translation",
+      "sentence": "Sayıdan sonra kullanım (Örn: 2 adet) -> един стол (sandalye)",
+      "answer": "десет стола / няколко стола",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един стол\nNormal Çoğul: много столове\nSayıdan Sonra (Adetli): десет стола / няколко стола"
+    },
+    {
+      "id": "q_d5_pl_7a39896d",
+      "type": "translation",
+      "sentence": "Çoğul hali -> един стол (sandalye)",
+      "answer": "много столове",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един стол\nNormal Çoğul: много столове\nSayıdan Sonra (Adetli): десет стола / няколко стола"
+    },
+    {
+      "id": "q_d5_pl_f655f466",
+      "type": "translation",
+      "sentence": "Sayıdan sonra kullanım (Örn: 2 adet) -> един водопад (şelale)",
+      "answer": "пет водопада / няколко водопада",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един водопад\nNormal Çoğul: много водопади\nSayıdan Sonra (Adetli): пет водопада / няколко водопада"
+    },
+    {
+      "id": "q_d5_pl_fcab48a5",
+      "type": "translation",
+      "sentence": "Çoğul hali -> един водопад (şelale)",
+      "answer": "много водопади",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един водопад\nNormal Çoğul: много водопади\nSayıdan Sonra (Adetli): пет водопада / няколко водопада"
+    },
+    {
+      "id": "q_d5_pl_f9e7aea7",
+      "type": "translation",
+      "sentence": "Sayıdan sonra kullanım (Örn: 2 adet) -> един чин (okul sırası)",
+      "answer": "20 чина",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един чин\nNormal Çoğul: много чинове\nSayıdan Sonra (Adetli): 20 чина"
+    },
+    {
+      "id": "q_d5_pl_683c51e1",
+      "type": "translation",
+      "sentence": "Çoğul hali -> един чин (okul sırası)",
+      "answer": "много чинове",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един чин\nNormal Çoğul: много чинове\nSayıdan Sonra (Adetli): 20 чина"
+    },
+    {
+      "id": "q_d5_pl_65e84c82",
+      "type": "translation",
+      "sentence": "Sayıdan sonra kullanım (Örn: 2 adet) -> един молив (kurşun kalem)",
+      "answer": "2 молива",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един молив\nNormal Çoğul: много моливи\nSayıdan Sonra (Adetli): 2 молива"
+    },
+    {
+      "id": "q_d5_pl_4ca97f8c",
+      "type": "translation",
+      "sentence": "Çoğul hali -> един молив (kurşun kalem)",
+      "answer": "много моливи",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един молив\nNormal Çoğul: много моливи\nSayıdan Sonra (Adetli): 2 молива"
+    },
+    {
+      "id": "q_d5_pl_03bc7b03",
+      "type": "translation",
+      "sentence": "Sayıdan sonra kullanım (Örn: 2 adet) -> един университет (üniversite)",
+      "answer": "2 университета",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един университет\nNormal Çoğul: много университети\nSayıdan Sonra (Adetli): 2 университета"
+    },
+    {
+      "id": "q_d5_pl_ac57675d",
+      "type": "translation",
+      "sentence": "Çoğul hali -> един университет (üniversite)",
+      "answer": "много университети",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един университет\nNormal Çoğul: много университети\nSayıdan Sonra (Adetli): 2 университета"
+    },
+    {
+      "id": "q_d5_pl_2072de74",
+      "type": "translation",
+      "sentence": "Sayıdan sonra kullanım (Örn: 2 adet) -> един компютър (bilgisayar)",
+      "answer": "20 компютъра",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един компютър\nNormal Çoğul: много компютри\nSayıdan Sonra (Adetli): 20 компютъра"
+    },
+    {
+      "id": "q_d5_pl_c6af49db",
+      "type": "translation",
+      "sentence": "Çoğul hali -> един компютър (bilgisayar)",
+      "answer": "много компютри",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: един компютър\nNormal Çoğul: много компютри\nSayıdan Sonra (Adetli): 20 компютъра"
+    },
+    {
+      "id": "q_d5_pl_d84e4c78",
+      "type": "translation",
+      "sentence": "Sayıdan sonra kullanım (Örn: 2 adet) -> една кола (bir araba - üç araba)",
+      "answer": "три коли",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: една кола\nNormal Çoğul: три коли\nSayıdan Sonra (Adetli): три коли"
+    },
+    {
+      "id": "q_d5_pl_27cfa8ce",
+      "type": "translation",
+      "sentence": "Sayıdan sonra kullanım (Örn: 2 adet) -> една стая (bir oda - iki oda)",
+      "answer": "две стаи",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: една стая\nNormal Çoğul: две стаи\nSayıdan Sonra (Adetli): две стаи"
+    },
+    {
+      "id": "q_d5_pl_5df88dfa",
+      "type": "translation",
+      "sentence": "Sayıdan sonra kullanım (Örn: 2 adet) -> едно дете (bir çocuk - dört çocuk)",
+      "answer": "четири деца",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: едно дете\nNormal Çoğul: четири деца\nSayıdan Sonra (Adetli): четири деца"
+    },
+    {
+      "id": "q_d5_pl_fdfa25ed",
+      "type": "translation",
+      "sentence": "Sayıdan sonra kullanım (Örn: 2 adet) -> едно бюро (bir çalışma masası - iki çalışma masası)",
+      "answer": "две бюра",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: едно бюро\nNormal Çoğul: две бюра\nSayıdan Sonra (Adetli): две бюра"
+    },
+    {
+      "id": "q_d5_irr_facf195f",
+      "type": "translation",
+      "sentence": "Çoğul (genel) -> 1 човек",
+      "answer": "много хора",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: 1 човек\nÇokluk: много хора\nSayı sonrası: колко души\nNot: човек çok düzensizdir: един човек, много хора, няколко/колко души."
+    },
+    {
+      "id": "q_d5_irr_1c9ced64",
+      "type": "translation",
+      "sentence": "Sayıdan sonra -> 1 човек",
+      "answer": "колко души",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: 1 човек\nÇokluk: много хора\nSayı sonrası: колко души\nNot: човек çok düzensizdir: един човек, много хора, няколко/колко души."
+    },
+    {
+      "id": "q_d5_irr_3209cbf4",
+      "type": "translation",
+      "sentence": "Çoğul (genel) -> 1 чин",
+      "answer": "много чинове",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: 1 чин\nÇokluk: много чинове\nSayı sonrası: 5 чина\nNot: чин nesne olduğu için sayıdan sonra adetli biçim kullanılır."
+    },
+    {
+      "id": "q_d5_irr_0986409b",
+      "type": "translation",
+      "sentence": "Sayıdan sonra -> 1 чин",
+      "answer": "5 чина",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: 1 чин\nÇokluk: много чинове\nSayı sonrası: 5 чина\nNot: чин nesne olduğu için sayıdan sonra adetli biçim kullanılır."
+    },
+    {
+      "id": "q_d5_irr_14a23a0c",
+      "type": "translation",
+      "sentence": "Çoğul (genel) -> 1 студент",
+      "answer": "много студенти",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: 1 студент\nÇokluk: много студенти\nSayı sonrası: 10 студенти\nNot: студент kişi olduğu için sayıdan sonra normal çoğul kullanılır."
+    },
+    {
+      "id": "q_d5_irr_9a458658",
+      "type": "translation",
+      "sentence": "Sayıdan sonra -> 1 студент",
+      "answer": "10 студенти",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: 1 студент\nÇokluk: много студенти\nSayı sonrası: 10 студенти\nNot: студент kişi olduğu için sayıdan sonra normal çoğul kullanılır."
+    },
+    {
+      "id": "q_d5_irr_fc573eaa",
+      "type": "translation",
+      "sentence": "Çoğul (genel) -> 1 кола",
+      "answer": "няколко коли",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: 1 кола\nÇokluk: няколко коли\nSayı sonrası: 3 коли\nNot: кола dişil isimdir; sayıdan sonra normal çoğul kullanılır."
+    },
+    {
+      "id": "q_d5_irr_48d89fd0",
+      "type": "translation",
+      "sentence": "Sayıdan sonra -> 1 кола",
+      "answer": "3 коли",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: 1 кола\nÇokluk: няколко коли\nSayı sonrası: 3 коли\nNot: кола dişil isimdir; sayıdan sonra normal çoğul kullanılır."
+    },
+    {
+      "id": "q_d5_irr_5cab1fc8",
+      "type": "translation",
+      "sentence": "Çoğul (genel) -> 1 университет",
+      "answer": "2 университета",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: 1 университет\nÇokluk: 2 университета\nSayı sonrası: няколко университета\nNot: университет eril cansız isimdir; sayıdan sonra adetli biçim."
+    },
+    {
+      "id": "q_d5_irr_aaa8dca6",
+      "type": "translation",
+      "sentence": "Sayıdan sonra -> 1 университет",
+      "answer": "няколко университета",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: 1 университет\nÇokluk: 2 университета\nSayı sonrası: няколко университета\nNot: университет eril cansız isimdir; sayıdan sonra adetli biçim."
+    },
+    {
+      "id": "q_d5_irr_0179ec3c",
+      "type": "translation",
+      "sentence": "Çoğul (genel) -> 1 дете",
+      "answer": "4 деца",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: 1 дете\nÇokluk: 4 деца\nSayı sonrası: колко деца\nNot: дете düzensiz çoğul: деца."
+    },
+    {
+      "id": "q_d5_irr_eeef6f52",
+      "type": "translation",
+      "sentence": "Sayıdan sonra -> 1 дете",
+      "answer": "колко деца",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "Tekil: 1 дете\nÇokluk: 4 деца\nSayı sonrası: колко деца\nNot: дете düzensiz çoğul: деца."
+    },
+    {
+      "id": "q_d5_expr_32d63d84",
+      "type": "translation",
+      "sentence": "много ученици",
+      "answer": "çok öğrenci",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "normal çoğul"
+    },
+    {
+      "id": "q_d5_expr_ee0be54d",
+      "type": "translation",
+      "sentence": "çok öğrenci",
+      "answer": "много ученици",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "normal çoğul"
+    },
+    {
+      "id": "q_d5_expr_f693b9c7",
+      "type": "translation",
+      "sentence": "няколко ученици",
+      "answer": "birkaç öğrenci",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "kişi olduğu için normal çoğul"
+    },
+    {
+      "id": "q_d5_expr_52a4a416",
+      "type": "translation",
+      "sentence": "birkaç öğrenci",
+      "answer": "няколко ученици",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "kişi olduğu için normal çoğul"
+    },
+    {
+      "id": "q_d5_expr_b80a92f0",
+      "type": "translation",
+      "sentence": "пет ученици",
+      "answer": "beş öğrenci",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "kişi olduğu için normal çoğul"
+    },
+    {
+      "id": "q_d5_expr_445ddd4c",
+      "type": "translation",
+      "sentence": "beş öğrenci",
+      "answer": "пет ученици",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "kişi olduğu için normal çoğul"
+    },
+    {
+      "id": "q_d5_expr_e78b05e2",
+      "type": "translation",
+      "sentence": "двама студенти",
+      "answer": "iki erkek/karma öğrenci",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "kişi sayarken двама gibi özel sayı sözcüğü kullanılabilir"
+    },
+    {
+      "id": "q_d5_expr_f64e4e38",
+      "type": "translation",
+      "sentence": "iki erkek/karma öğrenci",
+      "answer": "двама студенти",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "kişi sayarken двама gibi özel sayı sözcüğü kullanılabilir"
+    },
+    {
+      "id": "q_d5_expr_9b5b8b42",
+      "type": "translation",
+      "sentence": "няколко студенти",
+      "answer": "birkaç öğrenci",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "normal çoğul"
+    },
+    {
+      "id": "q_d5_expr_596a3420",
+      "type": "translation",
+      "sentence": "birkaç öğrenci",
+      "answer": "няколко студенти",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "normal çoğul"
+    },
+    {
+      "id": "q_d5_expr_d8dfac4a",
+      "type": "translation",
+      "sentence": "120 лектори",
+      "answer": "120 öğretim görevlisi",
+      "hint": "Türkçe karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "kişi olduğu için лектори"
+    },
+    {
+      "id": "q_d5_expr_2d804283",
+      "type": "translation",
+      "sentence": "120 öğretim görevlisi",
+      "answer": "120 лектори",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5",
+      "explanation": "kişi olduğu için лектори"
+    },
+    {
+      "id": "q_d5_mc_9a137ed6",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "Кой човек този е?",
+        "Коя сте Вие?",
+        "Кои те са?"
+      ],
+      "answer": "Коя сте Вие?",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) Кой човек този е? -> Bu kişi kimdir? (yanlış söz dizimi) [Yanlış / bağlama göre zayıf]\nб) Коя сте Вие? -> Siz kimsiniz? (kadın için resmi ifade) [Doğru]\nв) Кои те са? -> Onlar kimdir? (yanlış söz dizimi) [Yanlış / bağlama göre zayıf]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_c53a5df8",
+      "type": "translation",
+      "sentence": "Siz kimsiniz?",
+      "answer": "Коя сте Вие?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_13a91dbe",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "Какви по професия вие сте?",
+        "По народност каква Фатма е?",
+        "Г-н Гюнеш какъв е по професия?"
+      ],
+      "answer": "Г-н Гюнеш какъв е по професия?",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) Какви по професия вие сте? -> Meslek olarak nesiniz? (yanlış sıra) [Yanlış / bağlama göre zayıf]\nб) По народност каква Фатма е? -> Milliyet olarak Fatma nedir? (yanlış sıra) [Yanlış / bağlama göre zayıf]\nв) Г-н Гюнеш какъв е по професия? -> Bay Güneş meslek olarak nedir? [Doğru]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_c0fc0537",
+      "type": "translation",
+      "sentence": "Bay Güneş meslek olarak nedir?",
+      "answer": "Г-н Гюнеш какъв е по професия?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_9ba29e21",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "Той преподавател ли е?",
+        "Вие ли студенти сте?",
+        "Те от Турция са ли?"
+      ],
+      "answer": "Той преподавател ли е?",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) Той преподавател ли е? -> O öğretmen/öğretim görevlisi midir? [Doğru]\nб) Вие ли студенти сте? -> Öğrenci olan siz misiniz? (yanlış sıra) [Yanlış / bağlama göre zayıf]\nв) Те от Турция са ли? -> Onlar Türkiye’den mi? (yanlış sıra) [Yanlış / bağlama göre zayıf]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_520fd237",
+      "type": "translation",
+      "sentence": "O öğretmen/öğretim görevlisi midir?",
+      "answer": "Той преподавател ли е?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_3a86b83a",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "Не по професия българи сме.",
+        "Не той господин Гюнеш е.",
+        "Не съм банкер по професия."
+      ],
+      "answer": "Не съм банкер по професия.",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) Не по професия българи сме. -> Meslek olarak Bulgar değiliz. (anlamsız/yanlış sıra) [Yanlış / bağlama göre zayıf]\nб) Не той господин Гюнеш е. -> O Bay Güneş değildir. (yanlış sıra) [Yanlış / bağlama göre zayıf]\nв) Не съм банкер по професия. -> Meslek olarak bankacı değilim. [Doğru]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_b62c6df0",
+      "type": "translation",
+      "sentence": "Meslek olarak bankacı değilim.",
+      "answer": "Не съм банкер по професия.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_8c95db68",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "Не сте ли от Сирия?",
+        "От Одрин не ли са?",
+        "От Турция ли са не?"
+      ],
+      "answer": "Не сте ли от Сирия?",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) Не сте ли от Сирия? -> Siz Suriye’den değil misiniz? [Doğru]\nб) От Одрин не ли са? -> Onlar Edirne’den değil mi? (yanlış soru dizilişi) [Yanlış / bağlama göre zayıf]\nв) От Турция ли са не? -> Onlar Türkiye’den mi değil? (yanlış) [Yanlış / bağlama göre zayıf]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_e2fd2a5b",
+      "type": "translation",
+      "sentence": "Siz Suriye’den değil misiniz?",
+      "answer": "Не сте ли от Сирия?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_20635a18",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "Бахатин и Фатма са какви?",
+        "Каква госпожица Гьозде е?",
+        "Какъв е господин Мурат?"
+      ],
+      "answer": "Какъв е господин Мурат?",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) Бахатин и Фатма са какви? -> Bahattin ve Fatma nedirler? (sıra kaba/alışılmamış) [Yanlış / bağlama göre zayıf]\nб) Каква госпожица Гьозде е? -> Gözde nasıl bir hanımefendidir? (eksik yapı) [Yanlış / bağlama göre zayıf]\nв) Какъв е господин Мурат? -> Bay Murat nedir/nasıl biridir? [Doğru]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_1ed84aae",
+      "type": "translation",
+      "sentence": "Bay Murat nedir/nasıl biridir?",
+      "answer": "Какъв е господин Мурат?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_63cbb92d",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "Какво това е?",
+        "Откъде сте вие?",
+        "Гьозде и Ахмед са къде?"
+      ],
+      "answer": "Откъде сте вие?",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) Какво това е? -> Bu nedir? (yanlış sıra) [Yanlış / bağlama göre zayıf]\nб) Откъде сте вие? -> Siz nerelisiniz? [Doğru]\nв) Гьозде и Ахмед са къде? -> Gözde ve Ahmet neredeler? (yanlış sıra) [Yanlış / bağlama göre zayıf]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_5c39ce89",
+      "type": "translation",
+      "sentence": "Siz nerelisiniz?",
+      "answer": "Откъде сте вие?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_b9993180",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "Г-н Мурат учи български ли език?",
+        "Гьозде се казва ли тази студентка?",
+        "Хатидже ли е от Турция?"
+      ],
+      "answer": "Хатидже ли е от Турция?",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) Г-н Мурат учи български ли език? -> Bay Murat Bulgarca mı öğreniyor? (yanlış yerleşim) [Yanlış / bağlama göre zayıf]\nб) Гьозде се казва ли тази студентка? -> Bu öğrencinin adı Gözde mi? (sıra uygun değil) [Yanlış / bağlama göre zayıf]\nв) Хатидже ли е от Турция? -> Türkiye’den olan Hatice mi? [Doğru]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_fc2ae1cf",
+      "type": "translation",
+      "sentence": "Türkiye’den olan Hatice mi?",
+      "answer": "Хатидже ли е от Турция?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_2c56ca8a",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "Вие ли студенти, моля?",
+        "Преподавател сте ли, моля?",
+        "Банкери ли са?"
+      ],
+      "answer": "Банкери ли са?",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) Вие ли студенти, моля? -> Siz mi öğrenciler, lütfen? (eksik fiil) [Yanlış / bağlama göre zayıf]\nб) Преподавател сте ли, моля? -> Öğretim görevlisi misiniz, lütfen? [Doğru]\nв) Банкери ли са? -> Onlar bankacı mı? [Doğru]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_4ab8bf39",
+      "type": "translation",
+      "sentence": "Öğretim görevlisi misiniz, lütfen?",
+      "answer": "Банкери ли са?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_4aa9f745",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "Студент е той език български.",
+        "Сега уча български език.",
+        "Не, това не турски речник е."
+      ],
+      "answer": "Сега уча български език.",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) Студент е той език български. -> O Bulgar dili öğrencisidir. (kelime sırası yanlış) [Yanlış / bağlama göre zayıf]\nб) Сега уча български език. -> Şimdi Bulgarca öğreniyorum. [Doğru]\nв) Не, това не турски речник е. -> Hayır, bu Türkçe sözlük değildir. (yanlış sıra) [Yanlış / bağlama göre zayıf]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_1c6fe421",
+      "type": "translation",
+      "sentence": "Şimdi Bulgarca öğreniyorum.",
+      "answer": "Сега уча български език.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_4cd520d3",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "Това е госпожица Ебру.",
+        "Това е господа Мурат.",
+        "Това госпожа е Захариева."
+      ],
+      "answer": "Това е госпожица Ебру.",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) Това е госпожица Ебру. -> Bu Bayan Ebru’dur. [Doğru]\nб) Това е господа Мурат. -> Bu Bay Murat’tır. (господа çoğuldur, yanlış) [Yanlış / bağlama göre zayıf]\nв) Това госпожа е Захариева. -> Bu Bayan Zaharieva’dır. (yanlış sıra) [Yanlış / bağlama göre zayıf]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_35114992",
+      "type": "translation",
+      "sentence": "Bu Bayan Ebru’dur.",
+      "answer": "Това е госпожица Ебру.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_48da93c7",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "Какви е по професия Мария и Фатма?",
+        "Какви сте Мария и Фатма по професия?",
+        "По професия какви са Мария и Фатма?"
+      ],
+      "answer": "По професия какви са Мария и Фатма?",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) Какви е по професия Мария и Фатма? -> Maria ve Fatma meslek olarak nedir? (fiil ve sıra yanlış) [Yanlış / bağlama göre zayıf]\nб) Какви сте Мария и Фатма по професия? -> Maria ve Fatma, meslek olarak nesiniz? (hitap karmaşık) [Yanlış / bağlama göre zayıf]\nв) По професия какви са Мария и Фатма? -> Maria ve Fatma meslek olarak nedirler? [Doğru]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_e57a57ca",
+      "type": "translation",
+      "sentence": "Maria ve Fatma meslek olarak nedirler?",
+      "answer": "По професия какви са Мария и Фатма?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_d342bcec",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "Откъде е господа?",
+        "Откъде са г-да Мурат?",
+        "Откъде е г-н Мурат?"
+      ],
+      "answer": "Откъде е г-н Мурат?",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) Откъде е господа? -> Beyler nerelidir? (tekil fiil yanlış) [Yanlış / bağlama göre zayıf]\nб) Откъде са г-да Мурат? -> Bay Muratlar nerelidir? (kısaltma/kullanım sorunlu) [Yanlış / bağlama göre zayıf]\nв) Откъде е г-н Мурат? -> Bay Murat nerelidir? [Doğru]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_b6418000",
+      "type": "translation",
+      "sentence": "Bay Murat nerelidir?",
+      "answer": "Откъде е г-н Мурат?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_cd27a5de",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "Колко тетрадка имаш в чантата?",
+        "Колко книги четеш на ден?",
+        "Колко вестници четеш?"
+      ],
+      "answer": "Колко вестници четеш?",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) Колко тетрадка имаш в чантата? -> Çantanda kaç defter var? (çoğul gerek) [Yanlış / bağlama göre zayıf]\nб) Колко книги четеш на ден? -> Günde kaç kitap okuyorsun? [Doğru]\nв) Колко вестници четеш? -> Kaç gazete okuyorsun? [Doğru]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_a46b2d9a",
+      "type": "translation",
+      "sentence": "Günde kaç kitap okuyorsun?",
+      "answer": "Колко вестници четеш?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_9a927f1e",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "Фатма купува няколко книга.",
+        "Имам две химикалка и един молив.",
+        "Имам пет фурми и два пъпеша."
+      ],
+      "answer": "Имам пет фурми и два пъпеша.",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) Фатма купува няколко книга. -> Fatma birkaç kitap satın alıyor. (книги olmalı) [Yanlış / bağlama göre zayıf]\nб) Имам две химикалка и един молив. -> İki tükenmez kalemim ve bir kurşun kalemim var. (химикалки olmalı) [Yanlış / bağlama göre zayıf]\nв) Имам пет фурми и два пъпеша. -> Beş hurmam ve iki kavunum var. [Doğru]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_f2a2a65a",
+      "type": "translation",
+      "sentence": "Beş hurmam ve iki kavunum var.",
+      "answer": "Имам пет фурми и два пъпеша.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_603d9408",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "В стаята влизат няколко студенти.",
+        "Пет студента чакат в салона.",
+        "Виждам три студент на двора."
+      ],
+      "answer": "В стаята влизат няколко студенти.",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) В стаята влизат няколко студенти. -> Odaya birkaç öğrenci giriyor. [Doğru]\nб) Пет студента чакат в салона. -> Salonda beş öğrenci bekliyor. (kişilerde sayı biçimi tartışmalı; standartta пет студенти) [Yanlış / bağlama göre zayıf]\nв) Виждам три студент на двора. -> Bahçede üç öğrenci görüyorum. (студенти olmalı) [Yanlış / bağlama göre zayıf]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_9a75dc08",
+      "type": "translation",
+      "sentence": "Odaya birkaç öğrenci giriyor.",
+      "answer": "В стаята влизат няколко студенти.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_f381cadd",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "Казва се Мурат. Студент е по български език.",
+        "Казвам се Илкам. Приятно ми съм!",
+        "Откъде сте, приятно ми е, госпожице?"
+      ],
+      "answer": "Казва се Мурат. Студент е по български език.",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) Казва се Мурат. Студент е по български език. -> Adı Murat. Bulgar dili öğrencisidir. [Doğru]\nб) Казвам се Илкам. Приятно ми съм! -> Adım İlkan. Memnun oldum. (съм yanlış; Приятно ми е) [Yanlış / bağlama göre zayıf]\nв) Откъде сте, приятно ми е, госпожице? -> Nerelisiniz, memnun oldum, hanımefendi? (anlam/sıra uygunsuz) [Yanlış / bağlama göre zayıf]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_17690e2e",
+      "type": "translation",
+      "sentence": "Adı Murat. Bulgar dili öğrencisidir.",
+      "answer": "Казва се Мурат. Студент е по български език.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_3db855af",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "В стая има три стола и две маси.",
+        "В магазина за мебели има един дивана и много легло.",
+        "В ресторанта има две свободни маси и три стола."
+      ],
+      "answer": "В ресторанта има две свободни маси и три стола.",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) В стая има три стола и две маси. -> Bir odada üç sandalye ve iki masa var. [Doğru]\nб) В магазина за мебели има един дивана и много легло. -> Mobilya mağazasında bir kanepe ve çok yatak var. (диван, легла olmalı) [Yanlış / bağlama göre zayıf]\nв) В ресторанта има две свободни маси и три стола. -> Restoranda iki boş masa ve üç sandalye var. [Doğru]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_57859108",
+      "type": "translation",
+      "sentence": "Bir odada üç sandalye ve iki masa var.",
+      "answer": "В ресторанта има две свободни маси и три стола.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_165f58b7",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "В хотела няма пет свободни стая.",
+        "Колко стаи има в хотела?",
+        "Има две стаи и три легло."
+      ],
+      "answer": "Колко стаи има в хотела?",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) В хотела няма пет свободни стая. -> Otelde beş boş oda yok. (стаи olmalı) [Yanlış / bağlama göre zayıf]\nб) Колко стаи има в хотела? -> Otelde kaç oda var? [Doğru]\nв) Има две стаи и три легло. -> İki oda ve üç yatak var. (легла olmalı) [Yanlış / bağlama göre zayıf]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_7de053be",
+      "type": "translation",
+      "sentence": "Otelde kaç oda var?",
+      "answer": "Колко стаи има в хотела?",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_d65a0248",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "Фатма има два речника.",
+        "Гьозе има три чанта.",
+        "Мурат има две раница."
+      ],
+      "answer": "Фатма има два речника.",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) Фатма има два речника. -> Fatma’nın iki sözlüğü var. [Doğru]\nб) Гьозе има три чанта. -> Gözde’nin üç çantası var. (чанти olmalı) [Yanlış / bağlama göre zayıf]\nв) Мурат има две раница. -> Murat’ın iki sırt çantası var. (раници olmalı) [Yanlış / bağlama göre zayıf]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_tr_4735ed2f",
+      "type": "translation",
+      "sentence": "Fatma’nın iki sözlüğü var.",
+      "answer": "Фатма има два речника.",
+      "hint": "Bulgarca karşılığını yazınız",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_b7427bba",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "учим",
+        "учи",
+        "учат",
+        "уча"
+      ],
+      "answer": "учи",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) учим -> biz öğreniyoruz [Yanlış]\nб) учи -> o öğreniyor [Doğru]\nв) учат -> onlar öğreniyor [Yanlış]\nг) уча -> ben öğreniyorum [Yanlış]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_f086eda7",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "студентка",
+        "студенти",
+        "студент",
+        "студентки"
+      ],
+      "answer": "студент",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) студентка -> kadın öğrenci [Yanlış]\nб) студенти -> öğrenciler [Yanlış]\nв) студент -> erkek öğrenci [Doğru]\nг) студентки -> kadın öğrenciler [Yanlış]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_6f88ee1e",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "столът",
+        "стола",
+        "столове",
+        "столова"
+      ],
+      "answer": "столове",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) столът -> belirli tekil sandalye [Yanlış]\nб) стола -> adetli biçim [Yanlış]\nв) столове -> sandalyeler [Doğru]\nг) столова -> yemekhane [Yanlış]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_9718473b",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "листа",
+        "листове",
+        "лист",
+        "листи"
+      ],
+      "answer": "листа",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) листа -> sayfa/yaprak - adetli biçim [Doğru]\nб) листове -> sayfalar/yapraklar [Yanlış]\nв) лист -> sayfa/yaprak tekil [Yanlış]\nг) листи -> liste/sayfa türü çoğul [Yanlış]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_c9eca19b",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "какви",
+        "какво",
+        "какъв",
+        "каква"
+      ],
+      "answer": "каква",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) какви -> nasıl/neler - çoğul [Yanlış]\nб) какво -> ne - nötr [Yanlış]\nв) какъв -> nasıl/ne - eril [Yanlış]\nг) каква -> nasıl/ne - dişil [Doğru]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_e87bb301",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "г-н",
+        "г-жа",
+        "г-ца",
+        "г-да"
+      ],
+      "answer": "г-жа",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) г-н -> Bay [Yanlış]\nб) г-жа -> Bayan/Hanım [Doğru]\nв) г-ца -> Genç/Bekar Bayan [Yanlış]\nг) г-да -> Beyler [Yanlış]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_e796b00b",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "студентки",
+        "баби",
+        "дядовци",
+        "студента"
+      ],
+      "answer": "студентки",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) студентки -> kadın öğrenciler [Doğru]\nб) баби -> nineler [Yanlış]\nв) дядовци -> dedeler [Yanlış]\nг) студента -> öğrenci - adetli biçim [Yanlış]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_c4f736c0",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "души",
+        "човек",
+        "хора",
+        "хората"
+      ],
+      "answer": "хора",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) души -> kişi/insanlar [Yanlış]\nб) човек -> insan tekil [Yanlış]\nв) хора -> insanlar [Doğru]\nг) хората -> insanlar - belirli [Yanlış]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_96a02142",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "български-турски",
+        "българско-турски",
+        "българско-турска",
+        "българскотурско"
+      ],
+      "answer": "български-турски",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) български-турски -> Bulgarca-Türkçe - eril [Doğru]\nб) българско-турски -> Bulgarca-Türkçe - yanlış/nötr görünümlü [Yanlış]\nв) българско-турска -> dişil [Yanlış]\nг) българскотурско -> bitişik ve nötr [Yanlış]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_a634f4ba",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "имаш",
+        "имате",
+        "имам",
+        "има"
+      ],
+      "answer": "имате",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) имаш -> senin var [Yanlış]\nб) имате -> sizin var [Doğru]\nв) имам -> benim var [Yanlış]\nг) има -> var/o var [Yanlış]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_620c6447",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "той",
+        "то",
+        "тя",
+        "г-жа"
+      ],
+      "answer": "тя",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) той -> o - erkek [Yanlış]\nб) то -> o - nötr [Yanlış]\nв) тя -> o - kadın [Doğru]\nг) г-жа -> Bayan [Yanlış]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_799dfaa7",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "славянски",
+        "славянска",
+        "славянско",
+        "тюркски"
+      ],
+      "answer": "славянски",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) славянски -> Slav - eril [Doğru]\nб) славянска -> Slav - dişil [Yanlış]\nв) славянско -> Slav - nötr [Yanlış]\nг) тюркски -> Türkî [Yanlış]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_ea6c3881",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "учебник",
+        "учебника",
+        "учебници",
+        "учебникът"
+      ],
+      "answer": "учебници",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) учебник -> ders kitabı tekil [Yanlış]\nб) учебника -> adetli biçim [Yanlış]\nв) учебници -> ders kitapları [Doğru]\nг) учебникът -> belirli tekil [Yanlış]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_1bf025e6",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "речник",
+        "речници",
+        "речника",
+        "речникът"
+      ],
+      "answer": "речника",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) речник -> sözlük tekil [Yanlış]\nб) речници -> sözlükler [Yanlış]\nв) речника -> sözlük - adetli biçim [Doğru]\nг) речникът -> belirli sözlük [Yanlış]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_0d7b60c9",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "деветнайсет",
+        "дванайсет",
+        "двайсет",
+        "единайсет"
+      ],
+      "answer": "дванайсет",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) деветнайсет -> 19 [Yanlış]\nб) дванайсет -> 12 [Doğru]\nв) двайсет -> 20 [Yanlış]\nг) единайсет -> 11 [Yanlış]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_2135a67e",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "по",
+        "за",
+        "от",
+        "във"
+      ],
+      "answer": "по",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) по -> olarak/mesleğe göre [Doğru]\nб) за -> için [Yanlış]\nв) от -> -den/-dan [Yanlış]\nг) във -> içinde [Yanlış]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_25a61875",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "тази",
+        "това",
+        "този",
+        "то"
+      ],
+      "answer": "това",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) тази -> bu - dişil [Yanlış]\nб) това -> bu - nötr [Doğru]\nв) този -> bu - eril [Yanlış]\nг) то -> o - nötr [Yanlış]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_bdb123a4",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "едни",
+        "едно",
+        "една",
+        "много"
+      ],
+      "answer": "едно",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) едни -> bir - çoğul [Yanlış]\nб) едно -> bir - nötr [Doğru]\nв) една -> bir - dişil [Yanlış]\nг) много -> çok [Yanlış]",
+      "lesson": "Ders 5"
+    },
+    {
+      "id": "q_d5_mc_35f60c2a",
+      "type": "multiple_choice",
+      "sentence": "Aşağıdakilerden hangisi gramer olarak doğrudur?",
+      "options": [
+        "прозореца",
+        "прозореци",
+        "прозорци",
+        "прозорца"
+      ],
+      "answer": "прозорци",
+      "hint": "Bulgarca dilbilgisi kurallarına uygun olanı seçiniz.",
+      "explanation": "а) прозореца -> pencere - adetli [Yanlış]\nб) прозореци -> pencereler - varyant [Yanlış]\nв) прозорци -> pencereler [Doğru]\nг) прозорца -> adetli/telaffuz varyantı [Yanlış]",
+      "lesson": "Ders 5"
     }
   ]
 }
