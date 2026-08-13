@@ -7485,6 +7485,918 @@
         "Nötr (uzak)": "онова",
         "Çoğul (uzak)": "онези"
       }
+    },
+    {
+      "id": "d3_word_1786603526399_0",
+      "bg": "Добър ден",
+      "tr": "İyi günler",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_1",
+      "bg": "Приятно ми е",
+      "tr": "Memnun oldum",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_2",
+      "bg": "Как се казвате?",
+      "tr": "Adınız nedir? / Nasıl adlandırılıyorsunuz?",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_3",
+      "bg": "Казвам се ...",
+      "tr": "Adım ... / Ben ... olarak adlandırılırım",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_4",
+      "bg": "Откъде сте?",
+      "tr": "Nerelisiniz?",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_5",
+      "bg": "Откъде си?",
+      "tr": "Nerelisin?",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_6",
+      "bg": "Откъде е?",
+      "tr": "O nereli?",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_7",
+      "bg": "Разбира се",
+      "tr": "Elbette / Tabii ki",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_8",
+      "bg": "Благодаря",
+      "tr": "Teşekkür ederim",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_9",
+      "bg": "Благодаря за информацията",
+      "tr": "Bilgi için teşekkür ederim",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_10",
+      "bg": "Довиждане",
+      "tr": "Hoşça kalın / Görüşürüz",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_11",
+      "bg": "Приятен ден",
+      "tr": "İyi günler (veda)",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_12",
+      "bg": "До скоро",
+      "tr": "Yakında görüşürüz / Yakında",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_13",
+      "bg": "Беше ми приятно",
+      "tr": "Keyifli geçti / Memnun oldum",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_14",
+      "bg": "Радвам се, че се запознахме",
+      "tr": "Tanıştığımıza sevindim",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_15",
+      "bg": "Надявам се скоро да се видим",
+      "tr": "Umarım yakında görüşürüz",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_16",
+      "bg": "Може би",
+      "tr": "Belki",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_17",
+      "bg": "Светът е малък",
+      "tr": "Dünya küçüktür",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_18",
+      "bg": "Елате ми на гости",
+      "tr": "Bana misafirliğe gelin",
+      "category": "selamlasma",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_19",
+      "bg": "господин",
+      "tr": "bay / bey",
+      "category": "hitap",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_20",
+      "bg": "професор",
+      "tr": "profesör",
+      "category": "hitap",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_21",
+      "bg": "ти",
+      "tr": "sen",
+      "category": "zamir",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_22",
+      "bg": "то",
+      "tr": "o (nötr)",
+      "category": "zamir",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_23",
+      "bg": "Вие",
+      "tr": "Siz (saygı)",
+      "category": "zamir",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_24",
+      "bg": "Това са",
+      "tr": "Bunlar ...dır",
+      "category": "zamir",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_25",
+      "bg": "коя",
+      "tr": "kim? (dişil)",
+      "category": "zamir",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_26",
+      "bg": "Аз съм",
+      "tr": "Ben ... im / var",
+      "category": "fiil_olmak",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_27",
+      "bg": "Ти си",
+      "tr": "Sen ... sin",
+      "category": "fiil_olmak",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_28",
+      "bg": "Той/тя/то е",
+      "tr": "O ... dir",
+      "category": "fiil_olmak",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_29",
+      "bg": "Ние сме",
+      "tr": "Biz ... iz",
+      "category": "fiil_olmak",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_30",
+      "bg": "Вие сте",
+      "tr": "Siz ... siniz",
+      "category": "fiil_olmak",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_31",
+      "bg": "Те са",
+      "tr": "Onlar ... dir",
+      "category": "fiil_olmak",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_32",
+      "bg": "България",
+      "tr": "Bulgaristan",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_33",
+      "bg": "Турция",
+      "tr": "Türkiye",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_34",
+      "bg": "Гърция",
+      "tr": "Yunanistan",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_35",
+      "bg": "Албания",
+      "tr": "Arnavutluk",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_36",
+      "bg": "Румъния",
+      "tr": "Romanya",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_37",
+      "bg": "Сърбия",
+      "tr": "Sırbistan",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_38",
+      "bg": "Македония",
+      "tr": "Makedonya",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_39",
+      "bg": "Словения",
+      "tr": "Slovenya",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_40",
+      "bg": "Босна",
+      "tr": "Bosna",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_41",
+      "bg": "Херцеговина",
+      "tr": "Hersek",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_42",
+      "bg": "Черна гора",
+      "tr": "Karadağ",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_43",
+      "bg": "Украйна",
+      "tr": "Ukrayna",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_44",
+      "bg": "Аржентина",
+      "tr": "Arjantin",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_45",
+      "bg": "Унгария",
+      "tr": "Macaristan",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_46",
+      "bg": "Канада",
+      "tr": "Kanada",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_47",
+      "bg": "Австралия",
+      "tr": "Avustralya",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_48",
+      "bg": "Германия",
+      "tr": "Almanya",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_49",
+      "bg": "Франция",
+      "tr": "Fransa",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_50",
+      "bg": "Италия",
+      "tr": "İtalya",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_51",
+      "bg": "Русия",
+      "tr": "Rusya",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_52",
+      "bg": "САЩ",
+      "tr": "ABD",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_53",
+      "bg": "Иран",
+      "tr": "İran",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_54",
+      "bg": "Ирак",
+      "tr": "Irak",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_55",
+      "bg": "Сирия",
+      "tr": "Suriye",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_56",
+      "bg": "Грузия",
+      "tr": "Gürcistan",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_57",
+      "bg": "Армения",
+      "tr": "Ermenistan",
+      "category": "ulke",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_58",
+      "bg": "София",
+      "tr": "Sofya",
+      "category": "sehir",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_59",
+      "bg": "Истанбул",
+      "tr": "İstanbul",
+      "category": "sehir",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_60",
+      "bg": "Измир",
+      "tr": "İzmir",
+      "category": "sehir",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_61",
+      "bg": "Одрин",
+      "tr": "Edirne",
+      "category": "sehir",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_62",
+      "bg": "Бурса",
+      "tr": "Bursa",
+      "category": "sehir",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_63",
+      "bg": "Антакия",
+      "tr": "Antakya",
+      "category": "sehir",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_64",
+      "bg": "Такирдаг",
+      "tr": "Tekirdağ",
+      "category": "sehir",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_65",
+      "bg": "Париж",
+      "tr": "Paris",
+      "category": "sehir",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_66",
+      "bg": "българин",
+      "tr": "Bulgar (erkek)",
+      "category": "milliyet",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_67",
+      "bg": "руснак",
+      "tr": "Rus (erkek)",
+      "category": "milliyet",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_68",
+      "bg": "французин",
+      "tr": "Fransız (erkek)",
+      "category": "milliyet",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_69",
+      "bg": "италианец",
+      "tr": "İtalyan (erkek)",
+      "category": "milliyet",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_70",
+      "bg": "германец",
+      "tr": "Alman (erkek)",
+      "category": "milliyet",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_71",
+      "bg": "американка",
+      "tr": "Amerikalı (kadın)",
+      "category": "milliyet",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_72",
+      "bg": "преподавател",
+      "tr": "öğretim görevlisi (erkek)",
+      "category": "meslek",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_73",
+      "bg": "медицинска сестра",
+      "tr": "hemşire",
+      "category": "meslek",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_74",
+      "bg": "строителен инженер",
+      "tr": "inşaat mühendisi",
+      "category": "meslek",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_75",
+      "bg": "таксиметров шофьор",
+      "tr": "taksi şoförü",
+      "category": "meslek",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_76",
+      "bg": "журналист",
+      "tr": "gazeteci",
+      "category": "meslek",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_77",
+      "bg": "компютърен специалист",
+      "tr": "bilgisayar uzmanı",
+      "category": "meslek",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_78",
+      "bg": "майка ми",
+      "tr": "annem",
+      "category": "aile",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_79",
+      "bg": "баща ми",
+      "tr": "babam",
+      "category": "aile",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_80",
+      "bg": "дядо ми",
+      "tr": "dedem",
+      "category": "aile",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_81",
+      "bg": "брат ми",
+      "tr": "erkek kardeşim",
+      "category": "aile",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_82",
+      "bg": "катедра",
+      "tr": "bölüm / anabilim dalı",
+      "category": "kurum",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_83",
+      "bg": "магазин за облекло",
+      "tr": "giyim mağazası",
+      "category": "kurum",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_84",
+      "bg": "нощен ресторант",
+      "tr": "gece restoranı",
+      "category": "kurum",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_85",
+      "bg": "фризьорски салон",
+      "tr": "kuaför salonu",
+      "category": "kurum",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_86",
+      "bg": "модна къща",
+      "tr": "moda evi",
+      "category": "kurum",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_87",
+      "bg": "Медицинска академия",
+      "tr": "Tıp Akademisi",
+      "category": "kurum",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_88",
+      "bg": "Икономическия институт",
+      "tr": "İktisat Enstitüsü",
+      "category": "kurum",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_89",
+      "bg": "Инженерно-строителния институт",
+      "tr": "Mühendislik-İnşaat Enstitüsü",
+      "category": "kurum",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_90",
+      "bg": "югозапад",
+      "tr": "güneybatı",
+      "category": "yonler",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_91",
+      "bg": "граничи с",
+      "tr": "ile sınır komşusudur",
+      "category": "yonler",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_92",
+      "bg": "съсед",
+      "tr": "komşu",
+      "category": "yonler",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_93",
+      "bg": "Черно море",
+      "tr": "Karadeniz",
+      "category": "yonler",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_94",
+      "bg": "Мраморно море",
+      "tr": "Marmara Denizi",
+      "category": "yonler",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_95",
+      "bg": "Егейско море",
+      "tr": "Ege Denizi",
+      "category": "yonler",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_96",
+      "bg": "Средиземно море",
+      "tr": "Akdeniz",
+      "category": "yonler",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_97",
+      "bg": "говоря",
+      "tr": "konuşurum",
+      "category": "fiil",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_98",
+      "bg": "искам да стана",
+      "tr": "... olmak istiyorum",
+      "category": "fiil",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_99",
+      "bg": "ще бъда",
+      "tr": "... olacağım (gelecek)",
+      "category": "fiil",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_100",
+      "bg": "мечтае да стане",
+      "tr": "... olmayı hayal ediyor",
+      "category": "fiil",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_101",
+      "bg": "познавате ли го?",
+      "tr": "Onu tanıyor musunuz?",
+      "category": "fiil",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_102",
+      "bg": "запознаем се",
+      "tr": "tanışacağız",
+      "category": "fiil",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_103",
+      "bg": "много хубаво",
+      "tr": "çok güzel",
+      "category": "sifat",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_104",
+      "bg": "труден/трудно",
+      "tr": "zor",
+      "category": "sifat",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_105",
+      "bg": "любезен",
+      "tr": "nazik / kibar",
+      "category": "sifat",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_106",
+      "bg": "Какъв/каква сте по националност?",
+      "tr": "Milliyetiniz nedir?",
+      "category": "soru",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_107",
+      "bg": "Турчин ли сте?",
+      "tr": "Türk erkek misiniz?",
+      "category": "soru",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_108",
+      "bg": "Туркиня ли сте?",
+      "tr": "Türk kadın mısınız?",
+      "category": "soru",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_109",
+      "bg": "От коя държава си?",
+      "tr": "Hangi ülkedensin?",
+      "category": "soru",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_110",
+      "bg": "Какво правите в София?",
+      "tr": "Sofya'da ne yapıyorsunuz?",
+      "category": "soru",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_111",
+      "bg": "В кой курс сте?",
+      "tr": "Hangi sınıftasınız?",
+      "category": "soru",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_112",
+      "bg": "Каква специалност?",
+      "tr": "Hangi bölüm?",
+      "category": "soru",
+      "lesson": 3,
+      "difficulty": "easy"
+    },
+    {
+      "id": "d3_word_1786603526399_113",
+      "bg": "А родителите Ви какви са?",
+      "tr": "Peki anne babanız ne iş yapıyor?",
+      "category": "soru",
+      "lesson": 3,
+      "difficulty": "easy"
     }
   ]
 }

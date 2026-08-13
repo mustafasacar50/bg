@@ -44652,5 +44652,1500 @@
       "q_reading_auto_124_4": "тревата"
     },
     "points": 20
+  },
+  {
+    "id": "d3_qxy20vb5",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "diyalog",
+      "anlama",
+      "ders3"
+    ],
+    "question": "Diyalogda Bülent nerelidir?",
+    "options": [
+      "Sofya'dan",
+      "İzmir'den",
+      "İstanbul'dan",
+      "Edirne'den"
+    ],
+    "answer": "İstanbul'dan",
+    "points": 1
+  },
+  {
+    "id": "d3_xbdhm9d1",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "diyalog",
+      "anlama",
+      "ders3"
+    ],
+    "question": "Diyalogda Sevil nerelidir?",
+    "options": [
+      "İstanbul'dan",
+      "Edirne'den",
+      "Sofya'dan",
+      "İzmir'den"
+    ],
+    "answer": "İzmir'den",
+    "points": 1
+  },
+  {
+    "id": "d3_syluqcvu",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "diyalog",
+      "anlama",
+      "ders3"
+    ],
+    "question": "Diyalogda Cevriye nereden gelmiştir?",
+    "options": [
+      "İstanbul'dan",
+      "Sofya'dan",
+      "İzmir'den",
+      "Edirne'den"
+    ],
+    "answer": "Edirne'den",
+    "points": 1
+  },
+  {
+    "id": "d3_132zk4cf",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "diyalog",
+      "anlama",
+      "ders3"
+    ],
+    "question": "Profesör Raynov hangi ülkedendir?",
+    "options": [
+      "Yunanistan'dan",
+      "Türkiye'den",
+      "Arnavutluk'tan",
+      "Bulgaristan'dan"
+    ],
+    "answer": "Bulgaristan'dan",
+    "points": 1
+  },
+  {
+    "id": "d3_f7236hfz",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "diyalog",
+      "anlama",
+      "ders3"
+    ],
+    "question": "Diyalogda Profesör Petrovа'nın milliyeti nedir?",
+    "options": [
+      "Yunan kadın",
+      "Arnavut erkek",
+      "Bulgar kadın",
+      "Rus kadın"
+    ],
+    "answer": "Bulgar kadın",
+    "points": 1
+  },
+  {
+    "id": "d3_7w49khzc",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "diyalog",
+      "anlama",
+      "ders3"
+    ],
+    "question": "\"Беше ми приятно да се запознаем\" ne anlama gelir?",
+    "options": [
+      "Tanışmak istiyorum",
+      "Tanıştığımıza memnun oldum",
+      "Nerelisiniz?",
+      "İyi günler"
+    ],
+    "answer": "Tanıştığımıza memnun oldum",
+    "points": 1
+  },
+  {
+    "id": "d3_rjh2zgmc",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "ceviri",
+      "selamlasma",
+      "ders3"
+    ],
+    "question": "\"Откъде сте?\" ne anlama gelir?",
+    "options": [
+      "Kim misiniz?",
+      "Nerelisiniz?",
+      "Adınız ne?",
+      "Nereye gidiyorsunuz?"
+    ],
+    "answer": "Nerelisiniz?",
+    "points": 1
+  },
+  {
+    "id": "d3_fmw2b5be",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "ceviri",
+      "selamlasma",
+      "ders3"
+    ],
+    "question": "\"Приятно ми е\" ne anlama gelir?",
+    "options": [
+      "İyi günler",
+      "Hoşça kalın",
+      "Memnun oldum",
+      "Teşekkür ederim"
+    ],
+    "answer": "Memnun oldum",
+    "points": 1
+  },
+  {
+    "id": "d3_azz7l86h",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "ceviri",
+      "selamlasma",
+      "ders3"
+    ],
+    "question": "\"Разбира се\" ne anlama gelir?",
+    "options": [
+      "Belki",
+      "Elbette / Tabii ki",
+      "Hayır",
+      "Umarım"
+    ],
+    "answer": "Elbette / Tabii ki",
+    "points": 1
+  },
+  {
+    "id": "d3_jcu0b9v8",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "ceviri",
+      "selamlasma",
+      "ders3"
+    ],
+    "question": "\"Довиждане\" ne anlama gelir?",
+    "options": [
+      "İyi günler",
+      "Memnun oldum",
+      "Teşekkürler",
+      "Hoşça kalın / Görüşürüz"
+    ],
+    "answer": "Hoşça kalın / Görüşürüz",
+    "points": 1
+  },
+  {
+    "id": "d3_bq4eqt94",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "ceviri",
+      "selamlasma",
+      "ders3"
+    ],
+    "question": "\"Благодаря за информацията\" ne anlama gelir?",
+    "options": [
+      "Bilgi için teşekkür ederim",
+      "Memnun oldum",
+      "Bunu anlıyorum",
+      "Elbette"
+    ],
+    "answer": "Bilgi için teşekkür ederim",
+    "points": 1
+  },
+  {
+    "id": "d3_osoi51cd",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "ceviri",
+      "selamlasma",
+      "ders3"
+    ],
+    "question": "\"Казвам се Севил\" ne anlama gelir?",
+    "options": [
+      "Sevil'i arıyorum",
+      "Adım Sevil",
+      "Ben Sevil değilim",
+      "Sevil buraya gel"
+    ],
+    "answer": "Adım Sevil",
+    "points": 1
+  },
+  {
+    "id": "d3_ieod4odh",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "ceviri",
+      "ders3"
+    ],
+    "question": "\"Ще се запознаем с тях\" ne anlama gelir?",
+    "options": [
+      "Onlarla görüştük",
+      "Onları tanıyorum",
+      "Onlarla tanışacağız",
+      "Onları görmeyiz"
+    ],
+    "answer": "Onlarla tanışacağız",
+    "points": 1
+  },
+  {
+    "id": "d3_1kcn0jei",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "ceviri",
+      "ders3"
+    ],
+    "question": "\"Светът е малък\" ne anlama gelir?",
+    "options": [
+      "Dünya büyüktür",
+      "Dünya küçüktür",
+      "Şehir küçüktür",
+      "Bu küçük bir şey"
+    ],
+    "answer": "Dünya küçüktür",
+    "points": 1
+  },
+  {
+    "id": "d3_qdun9i1n",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "ceviri",
+      "tr_bg",
+      "ders3"
+    ],
+    "question": "\"Nerelisiniz?\" Bulgarcası nedir?",
+    "options": [
+      "Как се казвате?",
+      "Откъде сте?",
+      "Коя е?",
+      "Откъде е?"
+    ],
+    "answer": "Откъде сте?",
+    "points": 1
+  },
+  {
+    "id": "d3_47m45k10",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "ceviri",
+      "tr_bg",
+      "ders3"
+    ],
+    "question": "\"İyi günler\" Bulgarcası nedir?",
+    "options": [
+      "Довиждане",
+      "Благодаря",
+      "Добър ден",
+      "Приятно ми е"
+    ],
+    "answer": "Добър ден",
+    "points": 1
+  },
+  {
+    "id": "d3_swflijn8",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "ceviri",
+      "tr_bg",
+      "ders3"
+    ],
+    "question": "\"Teşekkür ederim\" Bulgarcası nedir?",
+    "options": [
+      "Разбира се",
+      "Приятно ми е",
+      "Довиждане",
+      "Благодаря"
+    ],
+    "answer": "Благодаря",
+    "points": 1
+  },
+  {
+    "id": "d3_63wcfepu",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "ceviri",
+      "tr_bg",
+      "ders3"
+    ],
+    "question": "\"Adım Sevil\" Bulgarcası nedir?",
+    "options": [
+      "Аз съм Севил",
+      "Казвам се Севил",
+      "Тя е Севил",
+      "Меня зовут Севил"
+    ],
+    "answer": "Казвам се Севил",
+    "points": 1
+  },
+  {
+    "id": "d3_lc6qki4j",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "tags": [
+      "gramer",
+      "olmak_fiili",
+      "ders3"
+    ],
+    "question": "\"Аз ____ от Турция.\" cümlesini tamamlayın.",
+    "options": [
+      "си",
+      "е",
+      "съм",
+      "сме"
+    ],
+    "answer": "съм",
+    "points": 1
+  },
+  {
+    "id": "d3_pt5zeb5j",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "tags": [
+      "gramer",
+      "olmak_fiili",
+      "ders3"
+    ],
+    "question": "\"Той ____ студент.\" cümlesini tamamlayın.",
+    "options": [
+      "съм",
+      "си",
+      "е",
+      "са"
+    ],
+    "answer": "е",
+    "points": 1
+  },
+  {
+    "id": "d3_0944jsc2",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "tags": [
+      "gramer",
+      "olmak_fiili",
+      "ders3"
+    ],
+    "question": "\"Те ____ студенти.\" cümlesini tamamlayın.",
+    "options": [
+      "е",
+      "си",
+      "съм",
+      "са"
+    ],
+    "answer": "са",
+    "points": 1
+  },
+  {
+    "id": "d3_m0bakwtb",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "tags": [
+      "gramer",
+      "olmak_fiili",
+      "ders3"
+    ],
+    "question": "\"Вие ____ от България.\" cümlesini tamamlayın.",
+    "options": [
+      "съм",
+      "са",
+      "е",
+      "сте"
+    ],
+    "answer": "сте",
+    "points": 1
+  },
+  {
+    "id": "d3_q4rss5j3",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "fill_blank",
+    "difficulty": "easy",
+    "tags": [
+      "gramer",
+      "olmak_fiili",
+      "ders3"
+    ],
+    "question": "\"Ние ____ студенти.\" cümlesini tamamlayın.",
+    "options": [
+      "сте",
+      "е",
+      "сме",
+      "са"
+    ],
+    "answer": "сме",
+    "points": 1
+  },
+  {
+    "id": "d3_mcy15nib",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "gramer",
+      "olmak_fiili",
+      "ders3"
+    ],
+    "question": "\"Ти\" (sen) için doğru olmak fiili biçimi hangisidir?",
+    "options": [
+      "съм",
+      "е",
+      "си",
+      "сте"
+    ],
+    "answer": "си",
+    "points": 1
+  },
+  {
+    "id": "d3_tnc7cm2e",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "milliyet",
+      "ders3"
+    ],
+    "question": "\"Türk erkek\" Bulgarcası nedir?",
+    "options": [
+      "туркиня",
+      "турчин",
+      "турски",
+      "турка"
+    ],
+    "answer": "турчин",
+    "points": 1
+  },
+  {
+    "id": "d3_ht2j3zof",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "milliyet",
+      "ders3"
+    ],
+    "question": "\"Türk kadın\" Bulgarcası nedir?",
+    "options": [
+      "туркиня",
+      "турчин",
+      "турска жена",
+      "туркинята"
+    ],
+    "answer": "туркиня",
+    "points": 1
+  },
+  {
+    "id": "d3_inpmaib5",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "milliyet",
+      "ders3"
+    ],
+    "question": "\"Bulgar erkek\" Bulgarcası nedir?",
+    "options": [
+      "българка",
+      "България",
+      "български",
+      "българин"
+    ],
+    "answer": "българин",
+    "points": 1
+  },
+  {
+    "id": "d3_gvzv86cc",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "milliyet",
+      "ders3"
+    ],
+    "question": "\"Yunan erkek\" Bulgarcası nedir?",
+    "options": [
+      "гъркиня",
+      "гърция",
+      "грък",
+      "гръцки"
+    ],
+    "answer": "грък",
+    "points": 1
+  },
+  {
+    "id": "d3_0ukwwaed",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "milliyet",
+      "ders3"
+    ],
+    "question": "\"Yunan kadın\" Bulgarcası nedir?",
+    "options": [
+      "грък",
+      "гъркиня",
+      "гърция",
+      "гъркин"
+    ],
+    "answer": "гъркиня",
+    "points": 1
+  },
+  {
+    "id": "d3_anv5cjxg",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "milliyet",
+      "ders3"
+    ],
+    "question": "\"Romen erkek\" Bulgarcası nedir?",
+    "options": [
+      "рускиня",
+      "română",
+      "румък",
+      "румънец"
+    ],
+    "answer": "румънец",
+    "points": 1
+  },
+  {
+    "id": "d3_g119bcq3",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "milliyet",
+      "ders3"
+    ],
+    "question": "\"Arnavut erkek\" Bulgarcası nedir?",
+    "options": [
+      "albaneci",
+      "алтайски",
+      "албанка",
+      "албанец"
+    ],
+    "answer": "албанец",
+    "points": 1
+  },
+  {
+    "id": "d3_mmssjbxa",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "tags": [
+      "milliyet",
+      "ders3"
+    ],
+    "question": "Окума metnine göre \"Нikos е ____.\"",
+    "options": [
+      "рускиня",
+      "туркиня",
+      "грък",
+      "румънец"
+    ],
+    "answer": "грък",
+    "points": 2
+  },
+  {
+    "id": "d3_x0jqs54n",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "tags": [
+      "milliyet",
+      "ders3"
+    ],
+    "question": "Окuma metnine göre \"Мирча е ____.\"",
+    "options": [
+      "грък",
+      "румънец",
+      "рускиня",
+      "туркиня"
+    ],
+    "answer": "румънец",
+    "points": 2
+  },
+  {
+    "id": "d3_lzdijk9x",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "ulke",
+      "ders3"
+    ],
+    "question": "\"Bulgaristan\" Bulgarcası nedir?",
+    "options": [
+      "Бурса",
+      "Буgaristan",
+      "Балкан",
+      "България"
+    ],
+    "answer": "България",
+    "points": 1
+  },
+  {
+    "id": "d3_tz7ug91e",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "ulke",
+      "ders3"
+    ],
+    "question": "\"Yunanistan\" Bulgarcası nedir?",
+    "options": [
+      "Гърция",
+      "Румъния",
+      "Германия",
+      "Грузия"
+    ],
+    "answer": "Гърция",
+    "points": 1
+  },
+  {
+    "id": "d3_tg0mryia",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "ulke",
+      "ders3"
+    ],
+    "question": "\"Arnavutluk\" Bulgarcası nedir?",
+    "options": [
+      "Армения",
+      "Австрия",
+      "Аржентина",
+      "Албания"
+    ],
+    "answer": "Албания",
+    "points": 1
+  },
+  {
+    "id": "d3_5dts5dn3",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "ulke",
+      "ders3"
+    ],
+    "question": "\"Romanya\" Bulgarcası nedir?",
+    "options": [
+      "Русия",
+      "Румъния",
+      "Сърбия",
+      "Македония"
+    ],
+    "answer": "Румъния",
+    "points": 1
+  },
+  {
+    "id": "d3_7nib9pqm",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "ulke",
+      "ders3"
+    ],
+    "question": "\"ABD\" Bulgarcası nedir?",
+    "options": [
+      "АДС",
+      "США",
+      "САЩ",
+      "СШЩ"
+    ],
+    "answer": "САЩ",
+    "points": 1
+  },
+  {
+    "id": "d3_ak9xqc3e",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "meslek",
+      "ders3"
+    ],
+    "question": "\"Öğrenci (erkek)\" Bulgarcası nedir?",
+    "options": [
+      "студентка",
+      "учител",
+      "студент",
+      "ученик"
+    ],
+    "answer": "студент",
+    "points": 1
+  },
+  {
+    "id": "d3_8mgmv0bj",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "meslek",
+      "ders3"
+    ],
+    "question": "\"Öğrenci (kadın)\" Bulgarcası nedir?",
+    "options": [
+      "студент",
+      "учителка",
+      "студентка",
+      "ученичка"
+    ],
+    "answer": "студентка",
+    "points": 1
+  },
+  {
+    "id": "d3_oaxt3e0a",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "meslek",
+      "ders3"
+    ],
+    "question": "\"Лекар\" ne anlama gelir?",
+    "options": [
+      "hemşire",
+      "diş hekimi",
+      "doktor",
+      "öğretmen"
+    ],
+    "answer": "doktor",
+    "points": 1
+  },
+  {
+    "id": "d3_80z2bzvh",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "meslek",
+      "ders3"
+    ],
+    "question": "\"Учител\" ne anlama gelir?",
+    "options": [
+      "öğrenci",
+      "doktor",
+      "mühendis",
+      "öğretmen"
+    ],
+    "answer": "öğretmen",
+    "points": 1
+  },
+  {
+    "id": "d3_adp6thyn",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "meslek",
+      "ders3"
+    ],
+    "question": "\"Архитект\" ne anlama gelir?",
+    "options": [
+      "mühendis",
+      "inşaatçı",
+      "tasarımcı",
+      "mimar"
+    ],
+    "answer": "mimar",
+    "points": 1
+  },
+  {
+    "id": "d3_siy52c7h",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "meslek",
+      "ders3"
+    ],
+    "question": "\"Зъболекар\" ne anlama gelir?",
+    "options": [
+      "doktor",
+      "hemşire",
+      "diş hekimi",
+      "eczacı"
+    ],
+    "answer": "diş hekimi",
+    "points": 1
+  },
+  {
+    "id": "d3_jymv271q",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "meslek",
+      "ders3"
+    ],
+    "question": "\"Медицинска сестра\" ne anlama gelir?",
+    "options": [
+      "doktor",
+      "hemşire",
+      "hasta bakıcı",
+      "ebe"
+    ],
+    "answer": "hemşire",
+    "points": 1
+  },
+  {
+    "id": "d3_ap9cjxoh",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "meslek",
+      "ders3"
+    ],
+    "question": "\"Сервитьор\" ne anlama gelir?",
+    "options": [
+      "aşçı",
+      "garson",
+      "kasiyer",
+      "satıcı"
+    ],
+    "answer": "garson",
+    "points": 1
+  },
+  {
+    "id": "d3_pd35dlpn",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "meslek",
+      "ders3"
+    ],
+    "question": "\"Ватман\" ne anlama gelir?",
+    "options": [
+      "taksi şoförü",
+      "pilot",
+      "tramvay sürücüsü",
+      "otobüs sürücüsü"
+    ],
+    "answer": "tramvay sürücüsü",
+    "points": 1
+  },
+  {
+    "id": "d3_4aztqokz",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "meslek",
+      "ders3"
+    ],
+    "question": "\"Фризьорка\" ne anlama gelir?",
+    "options": [
+      "manikürcü",
+      "kuaför",
+      "terzi",
+      "satıcı"
+    ],
+    "answer": "kuaför",
+    "points": 1
+  },
+  {
+    "id": "d3_bnvry51e",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "tags": [
+      "meslek",
+      "ders3"
+    ],
+    "question": "\"Счетоводител\" ne anlama gelir?",
+    "options": [
+      "muhasebeci",
+      "bankacı",
+      "iş insanı",
+      "editör"
+    ],
+    "answer": "muhasebeci",
+    "points": 2
+  },
+  {
+    "id": "d3_moinigvm",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "tags": [
+      "meslek",
+      "ders3"
+    ],
+    "question": "\"Репортер\" ne anlama gelir?",
+    "options": [
+      "editör",
+      "gazeteci",
+      "muhabir/röportajcı",
+      "yazar"
+    ],
+    "answer": "muhabir/röportajcı",
+    "points": 2
+  },
+  {
+    "id": "d3_9fj61ipv",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "tags": [
+      "meslek",
+      "ders3"
+    ],
+    "question": "Diyalogda kız kardeş mesleki olarak ressam iken, nerede çalışmaktadır?",
+    "options": [
+      "hastanede",
+      "okulda",
+      "moda evinde",
+      "matbaada"
+    ],
+    "answer": "moda evinde",
+    "points": 2
+  },
+  {
+    "id": "d3_gy9ayb68",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "aile",
+      "ders3"
+    ],
+    "question": "\"Майка ми\" ne anlama gelir?",
+    "options": [
+      "babam",
+      "kardeşim",
+      "annem",
+      "dedem"
+    ],
+    "answer": "annem",
+    "points": 1
+  },
+  {
+    "id": "d3_u4s81mti",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "aile",
+      "ders3"
+    ],
+    "question": "\"Баща ми\" ne anlama gelir?",
+    "options": [
+      "dedem",
+      "babam",
+      "amcam",
+      "kardeşim"
+    ],
+    "answer": "babam",
+    "points": 1
+  },
+  {
+    "id": "d3_ag5776ld",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "aile",
+      "ders3"
+    ],
+    "question": "\"Брат ми\" ne anlama gelir?",
+    "options": [
+      "kız kardeşim",
+      "babam",
+      "erkek kardeşim",
+      "amcam"
+    ],
+    "answer": "erkek kardeşim",
+    "points": 1
+  },
+  {
+    "id": "d3_et286liu",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "aile",
+      "ders3"
+    ],
+    "question": "Diyalogda konuşan kişinin babası hangi meslektedir?",
+    "options": [
+      "mühendis",
+      "öğretmen",
+      "doktor",
+      "inşaatçı"
+    ],
+    "answer": "öğretmen",
+    "points": 1
+  },
+  {
+    "id": "d3_ee2c4h5l",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "aile",
+      "ders3"
+    ],
+    "question": "Diyalogda konuşan kişinin annesi hangi meslektedir?",
+    "options": [
+      "öğretmen",
+      "hemşire",
+      "sekreter",
+      "doktor"
+    ],
+    "answer": "doktor",
+    "points": 1
+  },
+  {
+    "id": "d3_k42np6dr",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "cografi",
+      "yonler",
+      "ders3"
+    ],
+    "question": "\"Север\" ne anlama gelir?",
+    "options": [
+      "güney",
+      "doğu",
+      "batı",
+      "kuzey"
+    ],
+    "answer": "kuzey",
+    "points": 1
+  },
+  {
+    "id": "d3_b3ugeasf",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "cografi",
+      "yonler",
+      "ders3"
+    ],
+    "question": "\"Юг\" ne anlama gelir?",
+    "options": [
+      "kuzey",
+      "doğu",
+      "güney",
+      "batı"
+    ],
+    "answer": "güney",
+    "points": 1
+  },
+  {
+    "id": "d3_ztxjkuqf",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "cografi",
+      "yonler",
+      "ders3"
+    ],
+    "question": "\"Изток\" ne anlama gelir?",
+    "options": [
+      "batı",
+      "kuzey",
+      "güney",
+      "doğu"
+    ],
+    "answer": "doğu",
+    "points": 1
+  },
+  {
+    "id": "d3_iwyf7rl3",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "easy",
+    "tags": [
+      "cografi",
+      "yonler",
+      "ders3"
+    ],
+    "question": "\"Запад\" ne anlama gelir?",
+    "options": [
+      "doğu",
+      "batı",
+      "kuzey",
+      "güney"
+    ],
+    "answer": "batı",
+    "points": 1
+  },
+  {
+    "id": "d3_ezqhrfll",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "cografi",
+      "yonler",
+      "ders3"
+    ],
+    "question": "\"Северозапад\" ne anlama gelir?",
+    "options": [
+      "kuzeydoğu",
+      "güneybatı",
+      "kuzeybatı",
+      "güneydoğu"
+    ],
+    "answer": "kuzeybatı",
+    "points": 1
+  },
+  {
+    "id": "d3_tsynfgxo",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "cografi",
+      "ders3"
+    ],
+    "question": "Metne göre Türkiye kuzeybatıda hangi ülkelerle sınır komşusudur?",
+    "options": [
+      "İran ve Irak",
+      "Gürcistan ve Ermenistan",
+      "Bulgaristan ve Yunanistan",
+      "Sırbistan ve Makedonya"
+    ],
+    "answer": "Bulgaristan ve Yunanistan",
+    "points": 1
+  },
+  {
+    "id": "d3_oajbco42",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "cografi",
+      "ders3"
+    ],
+    "question": "\"Черно море\" ne anlama gelir?",
+    "options": [
+      "Ege Denizi",
+      "Akdeniz",
+      "Marmara Denizi",
+      "Karadeniz"
+    ],
+    "answer": "Karadeniz",
+    "points": 1
+  },
+  {
+    "id": "d3_bde19546",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "tags": [
+      "cografi",
+      "ders3"
+    ],
+    "question": "Metne göre Bulgaristan'ın güneyinde hangi ülkeler bulunmaktadır?",
+    "options": [
+      "Romanya ve Sırbistan",
+      "Türkiye ve Yunanistan",
+      "Makedonya ve Arnavutluk",
+      "Sırbistan ve Makedonya"
+    ],
+    "answer": "Türkiye ve Yunanistan",
+    "points": 2
+  },
+  {
+    "id": "d3_on2jkvv0",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "okuma",
+      "ders3"
+    ],
+    "question": "Okuma metnine göre Rayna ve İvan ne okumaktadır?",
+    "options": [
+      "Hukuk",
+      "Tıp",
+      "İnşaat Mühendisliği",
+      "Bulgar Filolojisi"
+    ],
+    "answer": "Bulgar Filolojisi",
+    "points": 1
+  },
+  {
+    "id": "d3_okzbc61o",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "okuma",
+      "ders3"
+    ],
+    "question": "Okuma metnine göre Emine'nin milliyeti nedir?",
+    "options": [
+      "Rus kadın",
+      "Romen erkek",
+      "Bulgar kadın",
+      "Türk kadın"
+    ],
+    "answer": "Türk kadın",
+    "points": 1
+  },
+  {
+    "id": "d3_on2bdt9v",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "tags": [
+      "okuma",
+      "ders3"
+    ],
+    "question": "Okuma metnine göre ABD'den John hangi kökenlidir?",
+    "options": [
+      "Arnavut kökenli",
+      "Bulgar kökenli",
+      "Rus kökenli",
+      "Yunan kökenli"
+    ],
+    "answer": "Bulgar kökenli",
+    "points": 2
+  },
+  {
+    "id": "d3_f0253r03",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "tags": [
+      "okuma",
+      "ders3"
+    ],
+    "question": "\"Те следват българска филология\" ne anlama gelir?",
+    "options": [
+      "Bulgar Filolojisi okuyorlar",
+      "Bulgarca konuşuyorlar",
+      "Bulgaristan'da yaşıyorlar",
+      "Bulgarca öğreniyorlar"
+    ],
+    "answer": "Bulgar Filolojisi okuyorlar",
+    "points": 2
+  },
+  {
+    "id": "d3_76jjifjk",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "diyalog2",
+      "ders3"
+    ],
+    "question": "\"Искам да стана учителка по литература.\" ne anlama gelir?",
+    "options": [
+      "Edebiyat öğretmeni olarak çalışıyorum",
+      "Edebiyat öğretmeni olmak istiyorum",
+      "Edebiyatçı olmak zorundayım",
+      "Edebiyat okuyorum"
+    ],
+    "answer": "Edebiyat öğretmeni olmak istiyorum",
+    "points": 1
+  },
+  {
+    "id": "d3_mypy1c6u",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "diyalog2",
+      "ders3"
+    ],
+    "question": "\"Не, ще бъда архитект.\" ne anlama gelir?",
+    "options": [
+      "Hayır, mühendis olmak istiyorum",
+      "Hayır, inşaatçı olacağım",
+      "Hayır, mimar olacağım",
+      "Hayır, mimar olmak istemiyorum"
+    ],
+    "answer": "Hayır, mimar olacağım",
+    "points": 1
+  },
+  {
+    "id": "d3_g0oapv4n",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "tags": [
+      "diyalog2",
+      "ders3"
+    ],
+    "question": "\"Мечтае да стане бизнесмен или банкер.\" ne anlama gelir?",
+    "options": [
+      "İş insanı veya bankacı olarak çalışıyor",
+      "İş insanı ya da bankacı olmayı hayal ediyor",
+      "İş insanı olmak istemiyor",
+      "Bankacı olma hayali kurmuyor"
+    ],
+    "answer": "İş insanı ya da bankacı olmayı hayal ediyor",
+    "points": 2
+  },
+  {
+    "id": "d3_9771mt77",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "tags": [
+      "diyalog2",
+      "ders3"
+    ],
+    "question": "Diyalog 2'de kız arkadaşın mesleği nedir?",
+    "options": [
+      "öğretim görevlisi",
+      "muhabir / gazeteci",
+      "hemşire",
+      "terzi"
+    ],
+    "answer": "muhabir / gazeteci",
+    "points": 2
+  },
+  {
+    "id": "d3_vygru11p",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "gramer",
+      "zamir",
+      "ders3"
+    ],
+    "question": "\"Тази\" hangi cins isimler için kullanılır?",
+    "options": [
+      "eril isimler için",
+      "çoğul isimler için",
+      "nötr isimler için",
+      "dişil isimler için"
+    ],
+    "answer": "dişil isimler için",
+    "points": 1
+  },
+  {
+    "id": "d3_50y7lngx",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "gramer",
+      "zamir",
+      "ders3"
+    ],
+    "question": "\"Онзи\" ne anlama gelir?",
+    "options": [
+      "bu (eril)",
+      "o (dişil)",
+      "şu / öteki (eril)",
+      "şu (dişil)"
+    ],
+    "answer": "şu / öteki (eril)",
+    "points": 1
+  },
+  {
+    "id": "d3_eizulx3r",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "gramer",
+      "zamir",
+      "ders3"
+    ],
+    "question": "\"Го\" ne işlevi görür?",
+    "options": [
+      "dişil nesne zamiri",
+      "eril özne zamiri",
+      "eril nesne zamiri",
+      "çoğul nesne zamiri"
+    ],
+    "answer": "eril nesne zamiri",
+    "points": 1
+  },
+  {
+    "id": "d3_ne3bvybr",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "medium",
+    "tags": [
+      "gramer",
+      "zamir",
+      "ders3"
+    ],
+    "question": "\"Ли\" ne işlevi görür?",
+    "options": [
+      "olumlu cümle eki",
+      "olumsuz cümle eki",
+      "soru edatı",
+      "zaman eki"
+    ],
+    "answer": "soru edatı",
+    "points": 1
+  },
+  {
+    "id": "d3_i2nnc223",
+    "lesson": "Ders 3: Откъде сте?",
+    "type": "multiple_choice",
+    "difficulty": "hard",
+    "tags": [
+      "gramer",
+      "zamir",
+      "ders3"
+    ],
+    "question": "\"Ще + fiil\" yapısı ne anlatır?",
+    "options": [
+      "geçmiş zaman",
+      "şimdiki zaman",
+      "dilek kipi",
+      "gelecek zaman"
+    ],
+    "answer": "gelecek zaman",
+    "points": 2
   }
 ]
