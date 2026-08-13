@@ -609,5 +609,20 @@
     },
     "answers": {},
     "date": "2026-08-13T08:56:18.706Z"
+  },
+  {
+    "id": "score-1786611402853",
+    "examId": "exam-1786029161193",
+    "studentId": "u3",
+    "studentName": "Mustafa SAÇAR",
+    "score": {
+      "total": 0,
+      "mcq": "0/0",
+      "match": "0/0",
+      "blank": "0/0",
+      "reading": "0/0"
+    },
+    "answers": {},
+    "date": "2026-08-13T08:56:42.556Z"
   }
 ]
