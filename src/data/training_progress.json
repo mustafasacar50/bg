@@ -276,6 +276,25 @@
         ],
         "timestamp": 1786827882027
       }
+    },
+    "simulations_l2_market": {
+      "mistakes": [],
+      "allProgress": 0,
+      "mistakesProgress": 0,
+      "score": 50.6,
+      "lastUpdated": "2026-08-15T21:36:42.581Z",
+      "bgProgress": 0,
+      "uiState": {
+        "currentIndex": 4,
+        "score": 50.6,
+        "searchQuery": "",
+        "langFilter": "bg",
+        "isSwapped": false,
+        "layout": "bg",
+        "useCursiveBg": false,
+        "mistakes": [],
+        "timestamp": 1786829802200
+      }
     }
   },
   "u4": {
