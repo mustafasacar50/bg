@@ -150,8 +150,8 @@
         "timestamp": 1786390871808
       }
     },
-    "lastActiveTraining": "/training/balgoc___Bulgarca_A1_Ders_1_2?mode=all",
-    "lastVisitedModule": "balgoc___Bulgarca_A1_Ders_1_2",
+    "lastActiveTraining": "",
+    "lastVisitedModule": "",
     "balgoc___Bulgarca_A1_Ders_4": {
       "mistakes": [],
       "allProgress": 0,
@@ -213,6 +213,25 @@
       "бил": "bulunmak",
       "безкрайно": "son derece",
       "щастие": "mutluluk"
+    },
+    "simulations_roleplay_1": {
+      "mistakes": [],
+      "allProgress": 0,
+      "mistakesProgress": 0,
+      "score": 0,
+      "lastUpdated": "2026-08-15T03:32:12.970Z",
+      "bgProgress": 0,
+      "uiState": {
+        "currentIndex": 0,
+        "score": 32.6,
+        "searchQuery": "",
+        "langFilter": "bg",
+        "isSwapped": false,
+        "layout": "bg",
+        "useCursiveBg": false,
+        "mistakes": [],
+        "timestamp": 1786764732674
+      }
     }
   },
   "u4": {
