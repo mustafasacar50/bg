@@ -260,7 +260,7 @@
       "allProgress": 0,
       "mistakesProgress": 0,
       "score": 0,
-      "lastUpdated": "2026-08-15T21:03:04.355Z",
+      "lastUpdated": "2026-08-15T21:04:42.499Z",
       "bgProgress": 0,
       "uiState": {
         "currentIndex": 2,
@@ -274,7 +274,7 @@
           "sim_ders3_dialogue_1",
           "sim_ders3_reading_1"
         ],
-        "timestamp": 1786827783845
+        "timestamp": 1786827882027
       }
     }
   },
