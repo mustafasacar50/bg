@@ -232,6 +232,25 @@
         "mistakes": [],
         "timestamp": 1786764733852
       }
+    },
+    "simulations_ders1_2": {
+      "mistakes": [],
+      "allProgress": 0,
+      "mistakesProgress": 0,
+      "score": 41.6,
+      "lastUpdated": "2026-08-15T20:28:41.816Z",
+      "bgProgress": 2,
+      "uiState": {
+        "currentIndex": 2,
+        "score": 41.6,
+        "searchQuery": "",
+        "langFilter": "bg",
+        "isSwapped": false,
+        "layout": "bg",
+        "useCursiveBg": false,
+        "mistakes": [],
+        "timestamp": 1786825721469
+      }
     }
   },
   "u4": {
