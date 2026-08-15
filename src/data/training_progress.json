@@ -218,19 +218,19 @@
       "mistakes": [],
       "allProgress": 0,
       "mistakesProgress": 0,
-      "score": 0,
-      "lastUpdated": "2026-08-15T03:32:14.167Z",
-      "bgProgress": 0,
+      "score": 34.6,
+      "lastUpdated": "2026-08-15T20:30:42.031Z",
+      "bgProgress": 2,
       "uiState": {
-        "currentIndex": 0,
-        "score": 32.6,
+        "currentIndex": 2,
+        "score": 34.6,
         "searchQuery": "",
         "langFilter": "bg",
         "isSwapped": false,
         "layout": "bg",
         "useCursiveBg": false,
         "mistakes": [],
-        "timestamp": 1786764733852
+        "timestamp": 1786825841476
       }
     },
     "simulations_ders1_2": {
