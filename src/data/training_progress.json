@@ -295,6 +295,25 @@
         "mistakes": [],
         "timestamp": 1786829802200
       }
+    },
+    "simulations_l1_bakery": {
+      "mistakes": [],
+      "allProgress": 0,
+      "mistakesProgress": 0,
+      "score": 56.399999999999984,
+      "lastUpdated": "2026-08-17T18:42:37.875Z",
+      "bgProgress": 0,
+      "uiState": {
+        "currentIndex": 4,
+        "score": 56.399999999999984,
+        "searchQuery": "",
+        "langFilter": "bg",
+        "isSwapped": false,
+        "layout": "bg",
+        "useCursiveBg": false,
+        "mistakes": [],
+        "timestamp": 1786992157193
+      }
     }
   },
   "u4": {
