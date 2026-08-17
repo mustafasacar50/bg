@@ -352,6 +352,25 @@
         "mistakes": [],
         "timestamp": 1786993103246
       }
+    },
+    "simulations_l1_new_neighbor": {
+      "mistakes": [],
+      "allProgress": 0,
+      "mistakesProgress": 0,
+      "score": 71.99999999999997,
+      "lastUpdated": "2026-08-17T19:05:48.716Z",
+      "bgProgress": 4,
+      "uiState": {
+        "currentIndex": 4,
+        "score": 71.99999999999997,
+        "searchQuery": "",
+        "langFilter": "bg",
+        "isSwapped": false,
+        "layout": "bg",
+        "useCursiveBg": false,
+        "mistakes": [],
+        "timestamp": 1786993548103
+      }
     }
   },
   "u4": {
