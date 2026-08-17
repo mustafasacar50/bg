@@ -1,0 +1,2074 @@
+{
+  "id": "vocab_ders_10",
+  "title": "Ders 10 - Tanışma ve Sosyal Hayat",
+  "description": "Tanışma kalıpları, resmi/gayri resmi hitap, meslekler, aile ilişkileri",
+  "words": [
+    {
+      "word": "запознавам се",
+      "translation": "tanışmak",
+      "type": "fiil",
+      "notes": "",
+      "conjugation": {
+        "present": [
+          "запознавам се",
+          "запознаваш се",
+          "запознава се",
+          "запознаваме се",
+          "запознавате се",
+          "запознават се"
+        ],
+        "past": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "future": [
+          "ще запознавам се",
+          "ще запознаваш се",
+          "ще запознава се",
+          "ще запознаваме се",
+          "ще запознавате се",
+          "ще запознават се"
+        ],
+        "imperative": [
+          "",
+          ""
+        ]
+      },
+      "examples": [
+        "Аз запознавам се.",
+        "Ти запознаваш се ли?"
+      ],
+      "bg": "запознавам се",
+      "tr": "tanışmak"
+    },
+    {
+      "word": "виждам",
+      "translation": "görmek",
+      "type": "fiil",
+      "notes": "",
+      "conjugation": {
+        "present": [
+          "виждам",
+          "виждаш",
+          "вижда",
+          "виждаме",
+          "виждате",
+          "виждат"
+        ],
+        "past": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "future": [
+          "ще виждам",
+          "ще виждаш",
+          "ще вижда",
+          "ще виждаме",
+          "ще виждате",
+          "ще виждат"
+        ],
+        "imperative": [
+          "",
+          ""
+        ]
+      },
+      "examples": [
+        "Аз виждам.",
+        "Ти виждаш ли?"
+      ],
+      "bg": "виждам",
+      "tr": "görmek"
+    },
+    {
+      "word": "познавам",
+      "translation": "tanımak",
+      "type": "fiil",
+      "notes": "",
+      "conjugation": {
+        "present": [
+          "познавам",
+          "познаваш",
+          "познава",
+          "познаваме",
+          "познавате",
+          "познават"
+        ],
+        "past": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "future": [
+          "ще познавам",
+          "ще познаваш",
+          "ще познава",
+          "ще познаваме",
+          "ще познавате",
+          "ще познават"
+        ],
+        "imperative": [
+          "",
+          ""
+        ]
+      },
+      "examples": [
+        "Аз познавам.",
+        "Ти познаваш ли?"
+      ],
+      "bg": "познавам",
+      "tr": "tanımak"
+    },
+    {
+      "word": "радвам се",
+      "translation": "sevinmek/memnun olmak",
+      "type": "fiil",
+      "notes": "",
+      "conjugation": {
+        "present": [
+          "радвам се",
+          "радваш се",
+          "радва се",
+          "радваме се",
+          "радвате се",
+          "радват се"
+        ],
+        "past": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "future": [
+          "ще радвам се",
+          "ще радваш се",
+          "ще радва се",
+          "ще радваме се",
+          "ще радвате се",
+          "ще радват се"
+        ],
+        "imperative": [
+          "",
+          ""
+        ]
+      },
+      "examples": [
+        "Аз радвам се.",
+        "Ти радваш се ли?"
+      ],
+      "bg": "радвам се",
+      "tr": "sevinmek/memnun olmak"
+    },
+    {
+      "word": "представям",
+      "translation": "tanıtmak",
+      "type": "fiil",
+      "notes": "",
+      "conjugation": {
+        "present": [
+          "представям",
+          "представяш",
+          "представя",
+          "представяме",
+          "представяте",
+          "представят"
+        ],
+        "past": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "future": [
+          "ще представям",
+          "ще представяш",
+          "ще представя",
+          "ще представяме",
+          "ще представяте",
+          "ще представят"
+        ],
+        "imperative": [
+          "",
+          ""
+        ]
+      },
+      "examples": [
+        "Аз представям.",
+        "Ти представяш ли?"
+      ],
+      "bg": "представям",
+      "tr": "tanıtmak"
+    },
+    {
+      "word": "уча",
+      "translation": "okumak/öğrenmek",
+      "type": "fiil",
+      "notes": "",
+      "conjugation": {
+        "present": [
+          "уча",
+          "учиш",
+          "учи",
+          "учим",
+          "учите",
+          "учат"
+        ],
+        "past": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "future": [
+          "ще уча",
+          "ще учиш",
+          "ще учи",
+          "ще учим",
+          "ще учите",
+          "ще учат"
+        ],
+        "imperative": [
+          "",
+          ""
+        ]
+      },
+      "examples": [
+        "Аз уча.",
+        "Ти учиш ли?"
+      ],
+      "bg": "уча",
+      "tr": "okumak/öğrenmek"
+    },
+    {
+      "word": "работя",
+      "translation": "çalışmak",
+      "type": "fiil",
+      "notes": "",
+      "conjugation": {
+        "present": [
+          "работя",
+          "работиш",
+          "работи",
+          "работим",
+          "работите",
+          "работят"
+        ],
+        "past": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "future": [
+          "ще работя",
+          "ще работиш",
+          "ще работи",
+          "ще работим",
+          "ще работите",
+          "ще работят"
+        ],
+        "imperative": [
+          "",
+          ""
+        ]
+      },
+      "examples": [
+        "Аз работя.",
+        "Ти работиш ли?"
+      ],
+      "bg": "работя",
+      "tr": "çalışmak"
+    },
+    {
+      "word": "живея",
+      "translation": "yaşamak",
+      "type": "fiil",
+      "notes": "",
+      "conjugation": {
+        "present": [
+          "живея",
+          "живееш",
+          "живее",
+          "живеем",
+          "живеете",
+          "живеят"
+        ],
+        "past": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "future": [
+          "ще живея",
+          "ще живееш",
+          "ще живее",
+          "ще живеем",
+          "ще живеете",
+          "ще живеят"
+        ],
+        "imperative": [
+          "",
+          ""
+        ]
+      },
+      "examples": [
+        "Аз живея.",
+        "Ти живееш ли?"
+      ],
+      "bg": "живея",
+      "tr": "yaşamak"
+    },
+    {
+      "word": "идвам",
+      "translation": "gelmek",
+      "type": "fiil",
+      "notes": "",
+      "conjugation": {
+        "present": [
+          "идвам",
+          "идваш",
+          "идва",
+          "идваме",
+          "идвате",
+          "идват"
+        ],
+        "past": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "future": [
+          "ще идвам",
+          "ще идваш",
+          "ще идва",
+          "ще идваме",
+          "ще идвате",
+          "ще идват"
+        ],
+        "imperative": [
+          "",
+          ""
+        ]
+      },
+      "examples": [
+        "Аз идвам.",
+        "Ти идваш ли?"
+      ],
+      "bg": "идвам",
+      "tr": "gelmek"
+    },
+    {
+      "word": "срещам се",
+      "translation": "buluşmak",
+      "type": "fiil",
+      "notes": "",
+      "conjugation": {
+        "present": [
+          "срещам се",
+          "срещаш се",
+          "среща се",
+          "срещаме се",
+          "срещате се",
+          "срещат се"
+        ],
+        "past": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ],
+        "future": [
+          "ще срещам се",
+          "ще срещаш се",
+          "ще среща се",
+          "ще срещаме се",
+          "ще срещате се",
+          "ще срещат се"
+        ],
+        "imperative": [
+          "",
+          ""
+        ]
+      },
+      "examples": [
+        "Аз срещам се.",
+        "Ти срещаш се ли?"
+      ],
+      "bg": "срещам се",
+      "tr": "buluşmak"
+    },
+    {
+      "word": "Приятно ми е!",
+      "translation": "Memnun oldum",
+      "type": "kalıp",
+      "notes": "",
+      "examples": [
+        "Приятно ми е!",
+        "Приятно ми е! - Memnun oldum"
+      ],
+      "bg": "Приятно ми е!",
+      "tr": "Memnun oldum"
+    },
+    {
+      "word": "Радвам се, че се запознахме!",
+      "translation": "Tanıştığımıza sevindim",
+      "type": "kalıp",
+      "notes": "",
+      "examples": [
+        "Радвам се, че се запознахме!",
+        "Радвам се, че се запознахме! - Tanıştığımıza sevindim"
+      ],
+      "bg": "Радвам се, че се запознахме!",
+      "tr": "Tanıştığımıza sevindim"
+    },
+    {
+      "word": "На мен също",
+      "translation": "Ben de",
+      "type": "kalıp",
+      "notes": "",
+      "examples": [
+        "На мен също",
+        "На мен също - Ben de"
+      ],
+      "bg": "На мен също",
+      "tr": "Ben de"
+    },
+    {
+      "word": "Много ми е приятно",
+      "translation": "Çok memnun oldum",
+      "type": "kalıp",
+      "notes": "",
+      "examples": [
+        "Много ми е приятно",
+        "Много ми е приятно - Çok memnun oldum"
+      ],
+      "bg": "Много ми е приятно",
+      "tr": "Çok memnun oldum"
+    },
+    {
+      "word": "Запознайте се!",
+      "translation": "Tanışın!",
+      "type": "kalıp",
+      "notes": "",
+      "examples": [
+        "Запознайте се!",
+        "Запознайте се! - Tanışın!"
+      ],
+      "bg": "Запознайте се!",
+      "tr": "Tanışın!"
+    },
+    {
+      "word": "Много ми е приятно, че пак Ви виждам",
+      "translation": "Sizi tekrar gördüğüme çok memnun oldum",
+      "type": "kalıp",
+      "notes": "",
+      "examples": [
+        "Много ми е приятно, че пак Ви виждам",
+        "Много ми е приятно, че пак Ви виждам - Sizi tekrar gördüğüme çok memnun oldum"
+      ],
+      "bg": "Много ми е приятно, че пак Ви виждам",
+      "tr": "Sizi tekrar gördüğüme çok memnun oldum"
+    },
+    {
+      "word": "Ние вече се познаваме",
+      "translation": "Biz zaten birbirimizi tanıyoruz",
+      "type": "kalıp",
+      "notes": "",
+      "examples": [
+        "Ние вече се познаваме",
+        "Ние вече се познаваме - Biz zaten birbirimizi tanıyoruz"
+      ],
+      "bg": "Ние вече се познаваме",
+      "tr": "Biz zaten birbirimizi tanıyoruz"
+    },
+    {
+      "word": "Желая Ви успех!",
+      "translation": "Size başarılar dilerim!",
+      "type": "kalıp",
+      "notes": "",
+      "examples": [
+        "Желая Ви успех!",
+        "Желая Ви успех! - Size başarılar dilerim!"
+      ],
+      "bg": "Желая Ви успех!",
+      "tr": "Size başarılar dilerim!"
+    },
+    {
+      "word": "Светът е малък!",
+      "translation": "Dünya küçük!",
+      "type": "kalıp",
+      "notes": "",
+      "examples": [
+        "Светът е малък!",
+        "Светът е малък! - Dünya küçük!"
+      ],
+      "bg": "Светът е малък!",
+      "tr": "Dünya küçük!"
+    },
+    {
+      "word": "колега",
+      "translation": "erkek meslektaş",
+      "type": "isim",
+      "nounForms": {
+        "singular": "колега",
+        "plural": "колеги"
+      },
+      "notes": "",
+      "examples": [
+        "Той е колега.",
+        "Тя е колега."
+      ],
+      "bg": "колега",
+      "tr": "erkek meslektaş"
+    },
+    {
+      "word": "колежка",
+      "translation": "kadın meslektaş",
+      "type": "isim",
+      "nounForms": {
+        "singular": "колежка",
+        "plural": "колежки"
+      },
+      "notes": "",
+      "examples": [
+        "Той е колежка.",
+        "Тя е колежка."
+      ],
+      "bg": "колежка",
+      "tr": "kadın meslektaş"
+    },
+    {
+      "word": "познат",
+      "translation": "tanıdık erkek",
+      "type": "isim",
+      "nounForms": {
+        "singular": "познат",
+        "plural": "познати"
+      },
+      "notes": "",
+      "examples": [
+        "Той е познат.",
+        "Тя е познат."
+      ],
+      "bg": "познат",
+      "tr": "tanıdık erkek"
+    },
+    {
+      "word": "позната",
+      "translation": "tanıdık kadın",
+      "type": "isim",
+      "nounForms": {
+        "singular": "позната",
+        "plural": "познати"
+      },
+      "notes": "",
+      "examples": [
+        "Той е позната.",
+        "Тя е позната."
+      ],
+      "bg": "позната",
+      "tr": "tanıdık kadın"
+    },
+    {
+      "word": "приятел",
+      "translation": "erkek arkadaş",
+      "type": "isim",
+      "nounForms": {
+        "singular": "приятел",
+        "plural": "приятели"
+      },
+      "notes": "",
+      "examples": [
+        "Той е приятел.",
+        "Тя е приятел."
+      ],
+      "bg": "приятел",
+      "tr": "erkek arkadaş"
+    },
+    {
+      "word": "приятелка",
+      "translation": "kadın arkadaş",
+      "type": "isim",
+      "nounForms": {
+        "singular": "приятелка",
+        "plural": "приятелки"
+      },
+      "notes": "",
+      "examples": [
+        "Той е приятелка.",
+        "Тя е приятелка."
+      ],
+      "bg": "приятелка",
+      "tr": "kadın arkadaş"
+    },
+    {
+      "word": "съсед",
+      "translation": "erkek komşu",
+      "type": "isim",
+      "nounForms": {
+        "singular": "съсед",
+        "plural": "съседи"
+      },
+      "notes": "",
+      "examples": [
+        "Той е съсед.",
+        "Тя е съсед."
+      ],
+      "bg": "съсед",
+      "tr": "erkek komşu"
+    },
+    {
+      "word": "съседка",
+      "translation": "kadın komşu",
+      "type": "isim",
+      "nounForms": {
+        "singular": "съседка",
+        "plural": "съседки"
+      },
+      "notes": "",
+      "examples": [
+        "Той е съседка.",
+        "Тя е съседка."
+      ],
+      "bg": "съседка",
+      "tr": "kadın komşu"
+    },
+    {
+      "word": "брат",
+      "translation": "erkek kardeş",
+      "type": "isim",
+      "nounForms": {
+        "singular": "брат",
+        "plural": "братя"
+      },
+      "notes": "",
+      "examples": [
+        "Той е брат.",
+        "Тя е брат."
+      ],
+      "bg": "брат",
+      "tr": "erkek kardeş"
+    },
+    {
+      "word": "сестра",
+      "translation": "kız kardeş",
+      "type": "isim",
+      "nounForms": {
+        "singular": "сестра",
+        "plural": "сестри"
+      },
+      "notes": "",
+      "examples": [
+        "Той е сестра.",
+        "Тя е сестра."
+      ],
+      "bg": "сестра",
+      "tr": "kız kardeş"
+    },
+    {
+      "word": "мъж",
+      "translation": "koca/erkek",
+      "type": "isim",
+      "nounForms": {
+        "singular": "мъж",
+        "plural": "мъже"
+      },
+      "notes": "",
+      "examples": [
+        "Той е мъж.",
+        "Тя е мъж."
+      ],
+      "bg": "мъж",
+      "tr": "koca/erkek"
+    },
+    {
+      "word": "съпруга",
+      "translation": "eş/karı",
+      "type": "isim",
+      "nounForms": {
+        "singular": "съпруга",
+        "plural": "съпруги"
+      },
+      "notes": "",
+      "examples": [
+        "Той е съпруга.",
+        "Тя е съпруга."
+      ],
+      "bg": "съпруга",
+      "tr": "eş/karı"
+    },
+    {
+      "word": "жена",
+      "translation": "kadın/eş",
+      "type": "isim",
+      "nounForms": {
+        "singular": "жена",
+        "plural": "жени"
+      },
+      "notes": "",
+      "examples": [
+        "Той е жена.",
+        "Тя е жена."
+      ],
+      "bg": "жена",
+      "tr": "kadın/eş"
+    },
+    {
+      "word": "деца",
+      "translation": "çocuklar",
+      "type": "isim",
+      "nounForms": {
+        "singular": "дете",
+        "plural": "деца"
+      },
+      "notes": "",
+      "examples": [
+        "Той е деца.",
+        "Тя е деца."
+      ],
+      "bg": "деца",
+      "tr": "çocuklar"
+    },
+    {
+      "word": "лекар",
+      "translation": "doktor",
+      "type": "isim",
+      "nounForms": {
+        "singular": "лекар",
+        "plural": "лекари"
+      },
+      "notes": "",
+      "examples": [
+        "Той е лекар.",
+        "Тя е лекар."
+      ],
+      "bg": "лекар",
+      "tr": "doktor"
+    },
+    {
+      "word": "инженер",
+      "translation": "mühendis",
+      "type": "isim",
+      "nounForms": {
+        "singular": "инженер",
+        "plural": "инженери"
+      },
+      "notes": "",
+      "examples": [
+        "Той е инженер.",
+        "Тя е инженер."
+      ],
+      "bg": "инженер",
+      "tr": "mühendis"
+    },
+    {
+      "word": "учител",
+      "translation": "öğretmen",
+      "type": "isim",
+      "nounForms": {
+        "singular": "учител",
+        "plural": "учители"
+      },
+      "notes": "",
+      "examples": [
+        "Той е учител.",
+        "Тя е учител."
+      ],
+      "bg": "учител",
+      "tr": "öğretmen"
+    },
+    {
+      "word": "студент",
+      "translation": "öğrenci",
+      "type": "isim",
+      "nounForms": {
+        "singular": "студент",
+        "plural": "студенти"
+      },
+      "notes": "",
+      "examples": [
+        "Той е студент.",
+        "Тя е студент."
+      ],
+      "bg": "студент",
+      "tr": "öğrenci"
+    },
+    {
+      "word": "адвокат",
+      "translation": "avukat",
+      "type": "isim",
+      "nounForms": {
+        "singular": "адвокат",
+        "plural": "адвокати"
+      },
+      "notes": "",
+      "examples": [
+        "Той е адвокат.",
+        "Тя е адвокат."
+      ],
+      "bg": "адвокат",
+      "tr": "avukat"
+    },
+    {
+      "word": "строител",
+      "translation": "inşaat işçisi",
+      "type": "isim",
+      "nounForms": {
+        "singular": "строител",
+        "plural": "строители"
+      },
+      "notes": "",
+      "examples": [
+        "Той е строител.",
+        "Тя е строител."
+      ],
+      "bg": "строител",
+      "tr": "inşaat işçisi"
+    },
+    {
+      "word": "счетоводител",
+      "translation": "muhasebeci",
+      "type": "isim",
+      "nounForms": {
+        "singular": "счетоводител",
+        "plural": "счетоводители"
+      },
+      "notes": "",
+      "examples": [
+        "Той е счетоводител.",
+        "Тя е счетоводител."
+      ],
+      "bg": "счетоводител",
+      "tr": "muhasebeci"
+    },
+    {
+      "word": "бизнесмен",
+      "translation": "iş adamı",
+      "type": "isim",
+      "nounForms": {
+        "singular": "бизнесмен",
+        "plural": "бизнесмени"
+      },
+      "notes": "",
+      "examples": [
+        "Той е бизнесмен.",
+        "Тя е бизнесмен."
+      ],
+      "bg": "бизнесмен",
+      "tr": "iş adamı"
+    },
+    {
+      "word": "банкер",
+      "translation": "bankacı",
+      "type": "isim",
+      "nounForms": {
+        "singular": "банкер",
+        "plural": "банкери"
+      },
+      "notes": "",
+      "examples": [
+        "Той е банкер.",
+        "Тя е банкер."
+      ],
+      "bg": "банкер",
+      "tr": "bankacı"
+    },
+    {
+      "word": "художник",
+      "translation": "ressam",
+      "type": "isim",
+      "nounForms": {
+        "singular": "художник",
+        "plural": "художници"
+      },
+      "notes": "",
+      "examples": [
+        "Той е художник.",
+        "Тя е художник."
+      ],
+      "bg": "художник",
+      "tr": "ressam"
+    },
+    {
+      "word": "моделиер",
+      "translation": "modelist",
+      "type": "isim",
+      "nounForms": {
+        "singular": "моделиер",
+        "plural": "моделиери"
+      },
+      "notes": "",
+      "examples": [
+        "Той е моделиер.",
+        "Тя е моделиер."
+      ],
+      "bg": "моделиер",
+      "tr": "modelist"
+    },
+    {
+      "word": "дизайнер",
+      "translation": "tasarımcı",
+      "type": "isim",
+      "nounForms": {
+        "singular": "дизайнер",
+        "plural": "дизайнери"
+      },
+      "notes": "",
+      "examples": [
+        "Той е дизайнер.",
+        "Тя е дизайнер."
+      ],
+      "bg": "дизайнер",
+      "tr": "tasarımcı"
+    },
+    {
+      "word": "шивачка",
+      "translation": "terzi",
+      "type": "isim",
+      "nounForms": {
+        "singular": "шивачка",
+        "plural": "шивачки"
+      },
+      "notes": "",
+      "examples": [
+        "Той е шивачка.",
+        "Тя е шивачка."
+      ],
+      "bg": "шивачка",
+      "tr": "terzi"
+    },
+    {
+      "word": "продавач",
+      "translation": "satıcı",
+      "type": "isim",
+      "nounForms": {
+        "singular": "продавач",
+        "plural": "продавачи"
+      },
+      "notes": "",
+      "examples": [
+        "Той е продавач.",
+        "Тя е продавач."
+      ],
+      "bg": "продавач",
+      "tr": "satıcı"
+    },
+    {
+      "word": "сервитьор",
+      "translation": "garson",
+      "type": "isim",
+      "nounForms": {
+        "singular": "сервитьор",
+        "plural": "сервитьори"
+      },
+      "notes": "",
+      "examples": [
+        "Той е сервитьор.",
+        "Тя е сервитьор."
+      ],
+      "bg": "сервитьор",
+      "tr": "garson"
+    },
+    {
+      "word": "книжар",
+      "translation": "kitapçı",
+      "type": "isim",
+      "nounForms": {
+        "singular": "книжар",
+        "plural": "книжари"
+      },
+      "notes": "",
+      "examples": [
+        "Той е книжар.",
+        "Тя е книжар."
+      ],
+      "bg": "книжар",
+      "tr": "kitapçı"
+    },
+    {
+      "word": "вестникар",
+      "translation": "gazeteci",
+      "type": "isim",
+      "nounForms": {
+        "singular": "вестникар",
+        "plural": "вестникари"
+      },
+      "notes": "",
+      "examples": [
+        "Той е вестникар.",
+        "Тя е вестникар."
+      ],
+      "bg": "вестникар",
+      "tr": "gazeteci"
+    },
+    {
+      "word": "печатар",
+      "translation": "matbaacı",
+      "type": "isim",
+      "nounForms": {
+        "singular": "печатар",
+        "plural": "печатари"
+      },
+      "notes": "",
+      "examples": [
+        "Той е печатар.",
+        "Тя е печатар."
+      ],
+      "bg": "печатар",
+      "tr": "matbaacı"
+    },
+    {
+      "word": "шофьор",
+      "translation": "şoför",
+      "type": "isim",
+      "nounForms": {
+        "singular": "шофьор",
+        "plural": "шофьори"
+      },
+      "notes": "",
+      "examples": [
+        "Той е шофьор.",
+        "Тя е шофьор."
+      ],
+      "bg": "шофьор",
+      "tr": "şoför"
+    },
+    {
+      "word": "ватман",
+      "translation": "vatman",
+      "type": "isim",
+      "nounForms": {
+        "singular": "ватман",
+        "plural": "ватмани"
+      },
+      "notes": "",
+      "examples": [
+        "Той е ватман.",
+        "Тя е ватман."
+      ],
+      "bg": "ватман",
+      "tr": "vatman"
+    },
+    {
+      "word": "редактор",
+      "translation": "editör",
+      "type": "isim",
+      "nounForms": {
+        "singular": "редактор",
+        "plural": "редактори"
+      },
+      "notes": "",
+      "examples": [
+        "Той е редактор.",
+        "Тя е редактор."
+      ],
+      "bg": "редактор",
+      "tr": "editör"
+    },
+    {
+      "word": "маникюристка",
+      "translation": "manikürcü",
+      "type": "isim",
+      "nounForms": {
+        "singular": "маникюристка",
+        "plural": "маникюристки"
+      },
+      "notes": "",
+      "examples": [
+        "Той е маникюристка.",
+        "Тя е маникюристка."
+      ],
+      "bg": "маникюристка",
+      "tr": "manikürcü"
+    },
+    {
+      "word": "фризьорка",
+      "translation": "kuaför",
+      "type": "isim",
+      "nounForms": {
+        "singular": "фризьорка",
+        "plural": "фризьорки"
+      },
+      "notes": "",
+      "examples": [
+        "Той е фризьорка.",
+        "Тя е фризьорка."
+      ],
+      "bg": "фризьорка",
+      "tr": "kuaför"
+    },
+    {
+      "word": "санитарка",
+      "translation": "hasta bakıcı",
+      "type": "isim",
+      "nounForms": {
+        "singular": "санитарка",
+        "plural": "санитарки"
+      },
+      "notes": "",
+      "examples": [
+        "Той е санитарка.",
+        "Тя е санитарка."
+      ],
+      "bg": "санитарка",
+      "tr": "hasta bakıcı"
+    },
+    {
+      "word": "камериерка",
+      "translation": "kat görevlisi",
+      "type": "isim",
+      "nounForms": {
+        "singular": "камериерка",
+        "plural": "камериерки"
+      },
+      "notes": "",
+      "examples": [
+        "Той е камериерка.",
+        "Тя е камериерка."
+      ],
+      "bg": "камериерка",
+      "tr": "kat görevlisi"
+    },
+    {
+      "word": "репортер",
+      "translation": "muhabir",
+      "type": "isim",
+      "nounForms": {
+        "singular": "репортер",
+        "plural": "репортери"
+      },
+      "notes": "",
+      "examples": [
+        "Той е репортер.",
+        "Тя е репортер."
+      ],
+      "bg": "репортер",
+      "tr": "muhabir"
+    },
+    {
+      "word": "писател",
+      "translation": "yazar",
+      "type": "isim",
+      "nounForms": {
+        "singular": "писател",
+        "plural": "писатели"
+      },
+      "notes": "",
+      "examples": [
+        "Той е писател.",
+        "Тя е писател."
+      ],
+      "bg": "писател",
+      "tr": "yazar"
+    },
+    {
+      "word": "артист",
+      "translation": "sanatçı",
+      "type": "isim",
+      "nounForms": {
+        "singular": "артист",
+        "plural": "артисти"
+      },
+      "notes": "",
+      "examples": [
+        "Той е артист.",
+        "Тя е артист."
+      ],
+      "bg": "артист",
+      "tr": "sanatçı"
+    },
+    {
+      "word": "поет",
+      "translation": "şair",
+      "type": "isim",
+      "nounForms": {
+        "singular": "поет",
+        "plural": "поети"
+      },
+      "notes": "",
+      "examples": [
+        "Той е поет.",
+        "Тя е поет."
+      ],
+      "bg": "поет",
+      "tr": "şair"
+    },
+    {
+      "word": "учен",
+      "translation": "bilim adamı",
+      "type": "isim",
+      "nounForms": {
+        "singular": "учен",
+        "plural": "учени"
+      },
+      "notes": "",
+      "examples": [
+        "Той е учен.",
+        "Тя е учен."
+      ],
+      "bg": "учен",
+      "tr": "bilim adamı"
+    },
+    {
+      "word": "издател",
+      "translation": "yayıncı",
+      "type": "isim",
+      "nounForms": {
+        "singular": "издател",
+        "plural": "издатели"
+      },
+      "notes": "",
+      "examples": [
+        "Той е издател.",
+        "Тя е издател."
+      ],
+      "bg": "издател",
+      "tr": "yayıncı"
+    },
+    {
+      "word": "проектант",
+      "translation": "projeci",
+      "type": "isim",
+      "nounForms": {
+        "singular": "проектант",
+        "plural": "проектанти"
+      },
+      "notes": "",
+      "examples": [
+        "Той е проектант.",
+        "Тя е проектант."
+      ],
+      "bg": "проектант",
+      "tr": "projeci"
+    },
+    {
+      "word": "програмист",
+      "translation": "programcı",
+      "type": "isim",
+      "nounForms": {
+        "singular": "програмист",
+        "plural": "програмисти"
+      },
+      "notes": "",
+      "examples": [
+        "Той е програмист.",
+        "Тя е програмист."
+      ],
+      "bg": "програмист",
+      "tr": "programcı"
+    },
+    {
+      "word": "археолог",
+      "translation": "arkeolog",
+      "type": "isim",
+      "nounForms": {
+        "singular": "археолог",
+        "plural": "археолози"
+      },
+      "notes": "",
+      "examples": [
+        "Той е археолог.",
+        "Тя е археолог."
+      ],
+      "bg": "археолог",
+      "tr": "arkeolog"
+    },
+    {
+      "word": "чиновник",
+      "translation": "memur",
+      "type": "isim",
+      "nounForms": {
+        "singular": "чиновник",
+        "plural": "чиновници"
+      },
+      "notes": "",
+      "examples": [
+        "Той е чиновник.",
+        "Тя е чиновник."
+      ],
+      "bg": "чиновник",
+      "tr": "memur"
+    },
+    {
+      "word": "работник",
+      "translation": "işçi",
+      "type": "isim",
+      "nounForms": {
+        "singular": "работник",
+        "plural": "работници"
+      },
+      "notes": "",
+      "examples": [
+        "Той е работник.",
+        "Тя е работник."
+      ],
+      "bg": "работник",
+      "tr": "işçi"
+    },
+    {
+      "word": "лекарка",
+      "translation": "kadın doktor",
+      "type": "isim",
+      "nounForms": {
+        "singular": "лекарка",
+        "plural": "лекарки"
+      },
+      "notes": "",
+      "examples": [
+        "Той е лекарка.",
+        "Тя е лекарка."
+      ],
+      "bg": "лекарка",
+      "tr": "kadın doktor"
+    },
+    {
+      "word": "журналистка",
+      "translation": "kadın gazeteci",
+      "type": "isim",
+      "nounForms": {
+        "singular": "журналистка",
+        "plural": "журналистки"
+      },
+      "notes": "",
+      "examples": [
+        "Той е журналистка.",
+        "Тя е журналистка."
+      ],
+      "bg": "журналистка",
+      "tr": "kadın gazeteci"
+    },
+    {
+      "word": "ти",
+      "translation": "sen-samimi",
+      "type": "zamir",
+      "notes": "Samimi hitap",
+      "examples": [
+        "Това е ти."
+      ],
+      "bg": "ти",
+      "tr": "sen-samimi"
+    },
+    {
+      "word": "Вие",
+      "translation": "Siz-resmi",
+      "type": "zamir",
+      "notes": "Resmi hitap",
+      "examples": [
+        "Това е Вие."
+      ],
+      "bg": "Вие",
+      "tr": "Siz-resmi"
+    },
+    {
+      "word": "вече",
+      "translation": "artık/şimdiden",
+      "type": "zarf",
+      "notes": "",
+      "examples": [
+        "Това е вече."
+      ],
+      "bg": "вече",
+      "tr": "artık/şimdiden"
+    },
+    {
+      "word": "отново",
+      "translation": "yeniden",
+      "type": "zarf",
+      "notes": "",
+      "examples": [
+        "Това е отново."
+      ],
+      "bg": "отново",
+      "tr": "yeniden"
+    },
+    {
+      "word": "пак",
+      "translation": "yine/yeniden",
+      "type": "zarf",
+      "notes": "",
+      "examples": [
+        "Това е пак."
+      ],
+      "bg": "пак",
+      "tr": "yine/yeniden"
+    },
+    {
+      "word": "скоро",
+      "translation": "yakında",
+      "type": "zarf",
+      "notes": "",
+      "examples": [
+        "Това е скоро."
+      ],
+      "bg": "скоро",
+      "tr": "yakında"
+    },
+    {
+      "word": "наскоро",
+      "translation": "kısa süre önce",
+      "type": "zarf",
+      "notes": "",
+      "examples": [
+        "Това е наскоро."
+      ],
+      "bg": "наскоро",
+      "tr": "kısa süre önce"
+    },
+    {
+      "word": "магазин",
+      "translation": "mağaza",
+      "type": "isim",
+      "nounForms": {
+        "singular": "магазин",
+        "plural": "магазини"
+      },
+      "notes": "",
+      "examples": [
+        "Това е магазин."
+      ],
+      "bg": "магазин",
+      "tr": "mağaza"
+    },
+    {
+      "word": "обувки",
+      "translation": "ayakkabılar",
+      "type": "isim",
+      "nounForms": {
+        "singular": "обувки",
+        "plural": "обувкии"
+      },
+      "notes": "",
+      "examples": [
+        "Това е обувки."
+      ],
+      "bg": "обувки",
+      "tr": "ayakkabılar"
+    },
+    {
+      "word": "костюм",
+      "translation": "takım elbise",
+      "type": "isim",
+      "nounForms": {
+        "singular": "костюм",
+        "plural": "костюми"
+      },
+      "notes": "",
+      "examples": [
+        "Това е костюм."
+      ],
+      "bg": "костюм",
+      "tr": "takım elbise"
+    },
+    {
+      "word": "цвят",
+      "translation": "renk",
+      "type": "isim",
+      "nounForms": {
+        "singular": "цвят",
+        "plural": "цвяти"
+      },
+      "notes": "",
+      "examples": [
+        "Това е цвят."
+      ],
+      "bg": "цвят",
+      "tr": "renk"
+    },
+    {
+      "word": "размер",
+      "translation": "beden",
+      "type": "isim",
+      "nounForms": {
+        "singular": "размер",
+        "plural": "размери"
+      },
+      "notes": "",
+      "examples": [
+        "Това е размер."
+      ],
+      "bg": "размер",
+      "tr": "beden"
+    },
+    {
+      "word": "панталон",
+      "translation": "pantolon",
+      "type": "isim",
+      "nounForms": {
+        "singular": "панталон",
+        "plural": "панталони"
+      },
+      "notes": "",
+      "examples": [
+        "Това е панталон."
+      ],
+      "bg": "панталон",
+      "tr": "pantolon"
+    },
+    {
+      "word": "пола",
+      "translation": "etek",
+      "type": "isim",
+      "nounForms": {
+        "singular": "пола",
+        "plural": "полаи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е пола."
+      ],
+      "bg": "пола",
+      "tr": "etek"
+    },
+    {
+      "word": "блуза",
+      "translation": "bluz",
+      "type": "isim",
+      "nounForms": {
+        "singular": "блуза",
+        "plural": "блузаи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е блуза."
+      ],
+      "bg": "блуза",
+      "tr": "bluz"
+    },
+    {
+      "word": "пуловер",
+      "translation": "kazak",
+      "type": "isim",
+      "nounForms": {
+        "singular": "пуловер",
+        "plural": "пуловери"
+      },
+      "notes": "",
+      "examples": [
+        "Това е пуловер."
+      ],
+      "bg": "пуловер",
+      "tr": "kazak"
+    },
+    {
+      "word": "лято",
+      "translation": "yaz",
+      "type": "isim",
+      "nounForms": {
+        "singular": "лято",
+        "plural": "лятои"
+      },
+      "notes": "",
+      "examples": [
+        "Това е лято."
+      ],
+      "bg": "лято",
+      "tr": "yaz"
+    },
+    {
+      "word": "зима",
+      "translation": "kış",
+      "type": "isim",
+      "nounForms": {
+        "singular": "зима",
+        "plural": "зимаи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е зима."
+      ],
+      "bg": "зима",
+      "tr": "kış"
+    },
+    {
+      "word": "есен",
+      "translation": "sonbahar",
+      "type": "isim",
+      "nounForms": {
+        "singular": "есен",
+        "plural": "есени"
+      },
+      "notes": "",
+      "examples": [
+        "Това е есен."
+      ],
+      "bg": "есен",
+      "tr": "sonbahar"
+    },
+    {
+      "word": "пари",
+      "translation": "para",
+      "type": "isim",
+      "nounForms": {
+        "singular": "пари",
+        "plural": "парии"
+      },
+      "notes": "",
+      "examples": [
+        "Това е пари."
+      ],
+      "bg": "пари",
+      "tr": "para"
+    },
+    {
+      "word": "работа",
+      "translation": "iş",
+      "type": "isim",
+      "nounForms": {
+        "singular": "работа",
+        "plural": "работаи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е работа."
+      ],
+      "bg": "работа",
+      "tr": "iş"
+    },
+    {
+      "word": "сандали",
+      "translation": "sandalet",
+      "type": "isim",
+      "nounForms": {
+        "singular": "сандали",
+        "plural": "сандалии"
+      },
+      "notes": "",
+      "examples": [
+        "Това е сандали."
+      ],
+      "bg": "сандали",
+      "tr": "sandalet"
+    },
+    {
+      "word": "кожа",
+      "translation": "deri",
+      "type": "isim",
+      "nounForms": {
+        "singular": "кожа",
+        "plural": "кожаи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е кожа."
+      ],
+      "bg": "кожа",
+      "tr": "deri"
+    },
+    {
+      "word": "каса",
+      "translation": "kasa",
+      "type": "isim",
+      "nounForms": {
+        "singular": "каса",
+        "plural": "касаи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е каса."
+      ],
+      "bg": "каса",
+      "tr": "kasa"
+    },
+    {
+      "word": "чифт",
+      "translation": "çift",
+      "type": "isim",
+      "nounForms": {
+        "singular": "чифт",
+        "plural": "чифти"
+      },
+      "notes": "",
+      "examples": [
+        "Това е чифт."
+      ],
+      "bg": "чифт",
+      "tr": "çift"
+    },
+    {
+      "word": "апартамент",
+      "translation": "daire",
+      "type": "isim",
+      "nounForms": {
+        "singular": "апартамент",
+        "plural": "апартаменти"
+      },
+      "notes": "",
+      "examples": [
+        "Това е апартамент."
+      ],
+      "bg": "апартамент",
+      "tr": "daire"
+    },
+    {
+      "word": "мебели",
+      "translation": "mobilyalar",
+      "type": "isim",
+      "nounForms": {
+        "singular": "мебели",
+        "plural": "мебелии"
+      },
+      "notes": "",
+      "examples": [
+        "Това е мебели."
+      ],
+      "bg": "мебели",
+      "tr": "mobilyalar"
+    },
+    {
+      "word": "вила",
+      "translation": "yazlık",
+      "type": "isim",
+      "nounForms": {
+        "singular": "вила",
+        "plural": "вилаи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е вила."
+      ],
+      "bg": "вила",
+      "tr": "yazlık"
+    },
+    {
+      "word": "стол",
+      "translation": "sandalye",
+      "type": "isim",
+      "nounForms": {
+        "singular": "стол",
+        "plural": "столи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е стол."
+      ],
+      "bg": "стол",
+      "tr": "sandalye"
+    },
+    {
+      "word": "бюро",
+      "translation": "çalışma masası",
+      "type": "isim",
+      "nounForms": {
+        "singular": "бюро",
+        "plural": "бюрои"
+      },
+      "notes": "",
+      "examples": [
+        "Това е бюро."
+      ],
+      "bg": "бюро",
+      "tr": "çalışma masası"
+    },
+    {
+      "word": "такси",
+      "translation": "taksi",
+      "type": "isim",
+      "nounForms": {
+        "singular": "такси",
+        "plural": "таксии"
+      },
+      "notes": "",
+      "examples": [
+        "Това е такси."
+      ],
+      "bg": "такси",
+      "tr": "taksi"
+    },
+    {
+      "word": "пералня",
+      "translation": "çamaşır makinesi",
+      "type": "isim",
+      "nounForms": {
+        "singular": "пералня",
+        "plural": "пералняи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е пералня."
+      ],
+      "bg": "пералня",
+      "tr": "çamaşır makinesi"
+    },
+    {
+      "word": "майка",
+      "translation": "anne",
+      "type": "isim",
+      "nounForms": {
+        "singular": "майка",
+        "plural": "майкаи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е майка."
+      ],
+      "bg": "майка",
+      "tr": "anne"
+    },
+    {
+      "word": "баща",
+      "translation": "baba",
+      "type": "isim",
+      "nounForms": {
+        "singular": "баща",
+        "plural": "бащаи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е баща."
+      ],
+      "bg": "баща",
+      "tr": "baba"
+    },
+    {
+      "word": "дядо",
+      "translation": "dede",
+      "type": "isim",
+      "nounForms": {
+        "singular": "дядо",
+        "plural": "дядои"
+      },
+      "notes": "",
+      "examples": [
+        "Това е дядо."
+      ],
+      "bg": "дядо",
+      "tr": "dede"
+    },
+    {
+      "word": "момиче",
+      "translation": "kız çocuğu",
+      "type": "isim",
+      "nounForms": {
+        "singular": "момиче",
+        "plural": "момичеи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е момиче."
+      ],
+      "bg": "момиче",
+      "tr": "kız çocuğu"
+    },
+    {
+      "word": "момче",
+      "translation": "erkek çocuğu",
+      "type": "isim",
+      "nounForms": {
+        "singular": "момче",
+        "plural": "момчеи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е момче."
+      ],
+      "bg": "момче",
+      "tr": "erkek çocuğu"
+    },
+    {
+      "word": "племенница",
+      "translation": "kız yeğen",
+      "type": "isim",
+      "nounForms": {
+        "singular": "племенница",
+        "plural": "племенницаи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е племенница."
+      ],
+      "bg": "племенница",
+      "tr": "kız yeğen"
+    },
+    {
+      "word": "болница",
+      "translation": "hastane",
+      "type": "isim",
+      "nounForms": {
+        "singular": "болница",
+        "plural": "болницаи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е болница."
+      ],
+      "bg": "болница",
+      "tr": "hastane"
+    },
+    {
+      "word": "университет",
+      "translation": "üniversite",
+      "type": "isim",
+      "nounForms": {
+        "singular": "университет",
+        "plural": "университети"
+      },
+      "notes": "",
+      "examples": [
+        "Това е университет."
+      ],
+      "bg": "университет",
+      "tr": "üniversite"
+    },
+    {
+      "word": "филология",
+      "translation": "filoloji",
+      "type": "isim",
+      "nounForms": {
+        "singular": "филология",
+        "plural": "филологияи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е филология."
+      ],
+      "bg": "филология",
+      "tr": "filoloji"
+    },
+    {
+      "word": "медицина",
+      "translation": "tıp",
+      "type": "isim",
+      "nounForms": {
+        "singular": "медицина",
+        "plural": "медицинаи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е медицина."
+      ],
+      "bg": "медицина",
+      "tr": "tıp"
+    },
+    {
+      "word": "право",
+      "translation": "hukuk",
+      "type": "isim",
+      "nounForms": {
+        "singular": "право",
+        "plural": "правои"
+      },
+      "notes": "",
+      "examples": [
+        "Това е право."
+      ],
+      "bg": "право",
+      "tr": "hukuk"
+    },
+    {
+      "word": "година",
+      "translation": "yıl",
+      "type": "isim",
+      "nounForms": {
+        "singular": "година",
+        "plural": "годинаи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е година."
+      ],
+      "bg": "година",
+      "tr": "yıl"
+    },
+    {
+      "word": "курс",
+      "translation": "sınıf",
+      "type": "isim",
+      "nounForms": {
+        "singular": "курс",
+        "plural": "курси"
+      },
+      "notes": "",
+      "examples": [
+        "Това е курс."
+      ],
+      "bg": "курс",
+      "tr": "sınıf"
+    },
+    {
+      "word": "екскурзия",
+      "translation": "gezi",
+      "type": "isim",
+      "nounForms": {
+        "singular": "екскурзия",
+        "plural": "екскурзияи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е екскурзия."
+      ],
+      "bg": "екскурзия",
+      "tr": "gezi"
+    },
+    {
+      "word": "свободно време",
+      "translation": "boş zaman",
+      "type": "isim",
+      "nounForms": {
+        "singular": "свободно време",
+        "plural": "свободно времеи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е свободно време."
+      ],
+      "bg": "свободно време",
+      "tr": "boş zaman"
+    },
+    {
+      "word": "фабрика",
+      "translation": "fabrika",
+      "type": "isim",
+      "nounForms": {
+        "singular": "фабрика",
+        "plural": "фабрикаи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е фабрика."
+      ],
+      "bg": "фабрика",
+      "tr": "fabrika"
+    },
+    {
+      "word": "завод",
+      "translation": "tesis",
+      "type": "isim",
+      "nounForms": {
+        "singular": "завод",
+        "plural": "заводи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е завод."
+      ],
+      "bg": "завод",
+      "tr": "tesis"
+    }
+  ]
+}

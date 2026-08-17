@@ -1,0 +1,240 @@
+{
+  "id": "balgoc___Bulgarca_A1_Ders_6",
+  "title": "Bulgarca A1 - Ders 6",
+  "description": "Derslik ortamı, emir kipi, belirli artikel, günler-aylar-mevsimler, saat okuma ve günlük program",
+  "level": "A1",
+  "language": "bg",
+  "questions": [
+    {
+      "id": "q_d6_mc_00000001",
+      "type": "multiple_choice",
+      "topic": "Derslik Kelime Hazinesi",
+      "question": "Aşağıdaki kelimelerden hangisi 'amfi / derslik' anlamına gelir?",
+      "options": [
+        "A) лекция",
+        "B) аудитория",
+        "C) покривка",
+        "D) редица"
+      ],
+      "answer": "B) аудитория",
+      "explanation": "a) A) лекция → ders anlamına gelir [Yanlış]\nb) B) аудитория → amfi/derslik anlamına gelir [Doğru]\nc) C) покривка → masa örtüsü [Yanlış]\nd) D) редица → sıra [Yanlış]\n\n📚 **Gramer Notu: Kelime Hazinesi**\nBulgarcada 'аудитория' (auditoriya) üniversitelerdeki büyük derslik veya amfi için kullanılır. Dişil (женски род) bir kelimedir."
+    },
+    {
+      "id": "q_d6_mc_00000002",
+      "type": "multiple_choice",
+      "topic": "Derslik Kelime Hazinesi",
+      "question": "Bulgarca 'Derslik ikinci katta soldadır.' cümlesinin doğru çevirisi hangisidir?",
+      "options": [
+        "A) Аудиторията е на първи етаж вдясно.",
+        "B) Аудиторията не е голяма, но е висока.",
+        "C) Аудиторията е на втори етаж вляво.",
+        "D) Аудиторията е на задната стена."
+      ],
+      "answer": "C) Аудиторията е на втори етаж вляво.",
+      "explanation": "a) A) birinci katta sağda [Yanlış]\nb) B) büyük değil ama yüksek [Yanlış]\nc) C) ikinci katta solda (на втори етаж вляво) [Doğru]\nd) D) arka duvarda [Yanlış]\n\n📚 **Gramer Notu: Yönler ve Konum**\nВляво = solda, вдясно = sağda demektir. 'На' edatı bulunma durumu (-de/-da) verir."
+    },
+    {
+      "id": "q_d6_fb_00000003",
+      "type": "fill_in_the_blank",
+      "topic": "Derslik Kelime Hazinesi",
+      "question": "На предната стена има бяла ___.",
+      "answer": "дъска",
+      "hint": "tahta",
+      "explanation": "📚 **Gramer Notu: Sınıf Eşyaları**\n'Дъска' tahta anlamına gelir ve dişil bir kelimedir. 'Бяла дъска' = beyaz tahta."
+    },
+    {
+      "id": "q_d6_tr_00000004",
+      "type": "translation",
+      "topic": "Derslik Kelime Hazinesi",
+      "question": "Türkçe: Masanın üzerinde örtü yoktur.",
+      "answer": "На масата няма покривка.",
+      "explanation": "📚 **Gramer Notu: Yokluk (Няма)**\nBulgarcada var/yok ifadeleri 'има/няма' ile yapılır. 'На масата' (masanın üzerinde) belirli artikel alır."
+    },
+    {
+      "id": "q_d6_mc_00000005",
+      "type": "multiple_choice",
+      "topic": "Emir Kipi",
+      "question": "'Четете!' (Okuyun!) fiilinin 2. tekil (Sen oku!) hali nedir?",
+      "options": [
+        "A) Чета!",
+        "B) Чети!",
+        "C) Четем!",
+        "D) Чете!"
+      ],
+      "answer": "B) Чети!",
+      "explanation": "a) A) Чета → Ben okuyorum (1. tekil) [Yanlış]\nb) B) Чети → Oku! (2. tekil emir) [Doğru]\nc) C) Четем → Biz okuyoruz (1. çoğul) [Yanlış]\nd) D) Чете → O okuyor (3. tekil) [Yanlış]\n\n📚 **Gramer Notu: Emir Kipi (Императив)**\n2. tekil şahıs emir kipi genellikle fiil tabanına -и veya -й eklenerek oluşturulur. 'Чет-' tabanına '-и' eklenir: Чети! (Oku!)"
+    },
+    {
+      "id": "q_d6_mc_00000006",
+      "type": "multiple_choice",
+      "topic": "Emir Kipi",
+      "question": "Aşağıdaki emir kiplerinden hangisi düzensizdir?",
+      "options": [
+        "A) Говори!",
+        "B) Пиши!",
+        "C) Елате!",
+        "D) Кажете!"
+      ],
+      "answer": "C) Елате!",
+      "explanation": "a) A) Говори! (Konuş!) → düzenli [Yanlış]\nb) B) Пиши! (Yaz!) → düzenli [Yanlış]\nc) C) Елате! (Gelin!) → düzensiz ('дойде' fiilinden) [Doğru]\nd) D) Кажете! (Söyleyin!) → düzenli [Yanlış]\n\n📚 **Gramer Notu: Düzensiz Emir Kipi**\n'Gelmek' (идвам/дойда) fiilinin emir kipi düzensizdir. 2. tekil: Ела! (veya Дойди!), 2. çoğul: Елате! şeklindedir."
+    },
+    {
+      "id": "q_d6_fb_00000007",
+      "type": "fill_in_the_blank",
+      "topic": "Emir Kipi",
+      "question": "Иван, ___ (al) тази книга!",
+      "answer": "вземи",
+      "hint": "al",
+      "explanation": "📚 **Gramer Notu: Emir Kipi**\n'Взема' fiilinin tabanı 'взем-', 2. tekil emir hali 'вземи' olur."
+    },
+    {
+      "id": "q_d6_tf_00000008",
+      "type": "true_false",
+      "topic": "Emir Kipi",
+      "question": "Bulgarcada birleşik emir kipi 'нека да' yapısı ile kurulabilir.",
+      "answer": "true",
+      "explanation": "📚 **Gramer Notu: Birleşik Emir Kipi**\nDoğru. 'Нека да' (varsın, bırak) kalıbı, şahıs zamiri ve çekimli fiille kullanılarak dilek/emir kipi oluşturur. Örnek: Нека да играя! (Varsın oynayayım!)"
+    },
+    {
+      "id": "q_d6_mc_00000009",
+      "type": "multiple_choice",
+      "topic": "Belirli Biçim (Членуване)",
+      "question": "Eril isimlerde (мъжки род) özne konumunda bulunan kelimelere hangi belirli artikel (çlen) eklenir?",
+      "options": [
+        "A) -а / -я",
+        "B) -та",
+        "C) -то",
+        "D) -ът / -ят"
+      ],
+      "answer": "D) -ът / -ят",
+      "explanation": "a) A) -а / -я → Kısa form, nesne veya edat sonrası kullanılır [Yanlış]\nb) B) -та → Dişil artikel [Yanlış]\nc) C) -то → Nötr artikel [Yanlış]\nd) D) -ът / -ят → Tam form, özne konumunda kullanılır [Doğru]\n\n📚 **Gramer Notu: Eril İsimlerde Belirli Artikel**\nEril isimlerde iki çeşit belirli artikel vardır. Cümlenin ÖZNESİ olan eril kelimeler TAM FORM (-ът / -ят) alır (örn: Студентът чете). Nesne veya edattan sonra gelenler KISA FORM (-а / -я) alır (örn: Виждам студента)."
+    },
+    {
+      "id": "q_d6_mc_00000010",
+      "type": "multiple_choice",
+      "topic": "Belirli Biçim (Членуване)",
+      "question": "Hangi kelimenin belirli biçimi YANLIŞ eşleştirilmiştir?",
+      "options": [
+        "A) маса → масата",
+        "B) бюро → бюрото",
+        "C) стол → столта",
+        "D) книги → книгите"
+      ],
+      "answer": "C) стол → столта",
+      "explanation": "a) A) маса (dişil) → масата [Doğru eşleştirme]\nb) B) бюро (nötr) → бюрото [Doğru eşleştirme]\nc) C) стол (eril) → столта [Yanlış eşleştirme, 'столът/стола' olmalı]\nd) D) книги (çoğul) → книгите [Doğru eşleştirme]\n\n📚 **Gramer Notu: Belirli Artikel (Çlen)**\n'Стол' (sandalye) eril bir kelimedir ve -ът/-а eki alır. -та eki dişil isimler (örn: масата) içindir."
+    },
+    {
+      "id": "q_d6_fb_00000011",
+      "type": "fill_in_the_blank",
+      "topic": "Belirli Biçim (Членуване)",
+      "question": "Виждам ___ (öğrenciyi).",
+      "answer": "студента",
+      "hint": "öğrenciyi (kısa çlen)",
+      "explanation": "📚 **Gramer Notu: Kısa Artikel**\nBurada öğrenci nesne konumundadır. Bu yüzden eril isim kısa çlen (-а) alır: студент -> студента."
+    },
+    {
+      "id": "q_d6_mc_00000012",
+      "type": "multiple_choice",
+      "topic": "Günler, Aylar, Mevsimler",
+      "question": "'Кой ден сме днес?' (Bugün günlerden ne?) sorusunun cevabı aşağıdakilerden hangisi olabilir?",
+      "options": [
+        "A) Днес сме понеделник.",
+        "B) Утре е вторник.",
+        "C) Вчера беше неделя.",
+        "D) През зимата е студено."
+      ],
+      "answer": "A) Днес сме понеделник.",
+      "explanation": "a) A) Днес сме понеделник. (Bugün pazartesi.) [Doğru]\nb) B) Утре е вторник. (Yarın salı.) [Yanlış, soru bugünü soruyor]\nc) C) Вчера беше неделя. (Dün pazardı.) [Yanlış, soru bugünü soruyor]\nd) D) През зимата... (Kışın...) [Yanlış, konu dışı]\n\n📚 **Gramer Notu: Günleri Sormak**\nBulgarcada günü sorarken 'Кой ден сме днес?' (Bugün hangi gündeyiz?) denir. Cevap 'Днес сме [gün].' şeklinde verilir."
+    },
+    {
+      "id": "q_d6_mc_00000013",
+      "type": "multiple_choice",
+      "topic": "Günler, Aylar, Mevsimler",
+      "question": "Aşağıdaki aylardan hangisi yaz mevsimine (лято) ait değildir?",
+      "options": [
+        "A) юни",
+        "B) юли",
+        "C) октомври",
+        "D) август"
+      ],
+      "answer": "C) октомври",
+      "explanation": "a) A) юни → Haziran (Yaz) [Yanlış]\nb) B) юли → Temmuz (Yaz) [Yanlış]\nc) C) октомври → Ekim (Sonbahar/есен) [Doğru]\nd) D) август → Ağustos (Yaz) [Yanlış]\n\n📚 **Gramer Notu: Aylar ve Mevsimler**\nОктомври sonbahar (есен) ayıdır. Yaz ayları юни, юли, август'tur."
+    },
+    {
+      "id": "q_d6_fb_00000014",
+      "type": "fill_in_the_blank",
+      "topic": "Günler, Aylar, Mevsimler",
+      "question": "___ зимата обичам да пия чай. (Kışın çay içmeyi severim.)",
+      "answer": "през",
+      "hint": "Mevsimlerden önce gelen edat (P...z)",
+      "explanation": "📚 **Gramer Notu: Mevsim Edatları**\nMevsimlerle '...ın / ...in' anlamı katmak için 'През' edatı kullanılır ve mevsim kelimesi belirli artikel alır: През зимата, През лятото."
+    },
+    {
+      "id": "q_d6_mc_00000015",
+      "type": "multiple_choice",
+      "topic": "Saat Okuma",
+      "question": "Saat 09:45 (Ona çeyrek var) Bulgarcada nasıl söylenir?",
+      "options": [
+        "A) Десет и четвърт.",
+        "B) Девет и половина.",
+        "C) Десет без четвърт.",
+        "D) Девет без десет."
+      ],
+      "answer": "C) Десет без четвърт.",
+      "explanation": "a) A) Десет и четвърт. (Onu çeyrek geçe/on on beş) [Yanlış]\nb) B) Девет и половина. (Dokuz buçuk) [Yanlış]\nc) C) Десет без четвърт. (Ona çeyrek var / Onsuz çeyrek) [Doğru]\nd) D) Девет без десет. (Dokuza on var) [Yanlış]\n\n📚 **Gramer Notu: Saat Okuma - Var / Kala**\nBulgarcada 'kala/var' demek için 'без' (olmadan/haricinde) kelimesi kullanılır. 9:45 için 'Ona çeyrek var' mantığıyla bir sonraki saat söylenir: Десет без четвърт."
+    },
+    {
+      "id": "q_d6_tr_00000016",
+      "type": "translation",
+      "topic": "Saat Okuma",
+      "question": "Türkçe: Saat kaç?",
+      "answer": "Колко е часът?",
+      "explanation": "📚 **Gramer Notu: Saat Sormak**\n'Колко е часът?' veya 'Колко часа е?' saati sormanın en yaygın yollarıdır."
+    },
+    {
+      "id": "q_d6_mc_00000017",
+      "type": "multiple_choice",
+      "topic": "Zaman Birimleri ve İfadeleri",
+      "question": "Aşağıdaki zaman birimlerinden hangisi en uzundur?",
+      "options": [
+        "A) денонощие",
+        "B) хилядолетие",
+        "C) век",
+        "D) месец"
+      ],
+      "answer": "B) хилядолетие",
+      "explanation": "a) A) денонощие (24 saat / tam gün) [Yanlış]\nb) B) хилядолетие (binyıl / milenyum) [Doğru]\nc) C) век (yüzyıl / asır) [Yanlış]\nd) D) месец (ay) [Yanlış]\n\n📚 **Gramer Notu: Zaman Birimleri**\nХиляда = bin, хилядолетие = binyıl. Век = yüzyıl."
+    },
+    {
+      "id": "q_d6_fb_00000018",
+      "type": "fill_in_the_blank",
+      "topic": "Zaman Birimleri ve İfadeleri",
+      "question": "Днес е вторник, значи ___ беше понеделник.",
+      "answer": "вчера",
+      "hint": "dün",
+      "explanation": "📚 **Gramer Notu: Zaman Zarfları**\nBugün salıysa, dün pazartesi idi. Вчера = dün, Утре = yarın."
+    },
+    {
+      "id": "q_d6_mc_00000019",
+      "type": "multiple_choice",
+      "topic": "Günlük Program",
+      "question": "'Какво правите през деня?' sorusuna verilebilecek uygun bir cevap hangisidir?",
+      "options": [
+        "A) Сутрин ставам в шест часа.",
+        "B) Следобед почивам и вечер ходя на кино.",
+        "C) Вчера беше неделя.",
+        "D) Дванадесет и половина."
+      ],
+      "answer": "B) Следобед почивам и вечер ходя на кино.",
+      "explanation": "a) A) Sabah altıda kalkarım (Soru 'Kaçta kalkarsın?' olsaydı uygun olurdu) [Yanlış]\nb) B) Öğleden sonra dinlenir, akşam sinemaya giderim (Gün içindeki aktiviteleri anlatır) [Doğru]\nc) C) Dün pazardı [Yanlış]\nd) D) On iki buçuk (Saat cevabı) [Yanlış]\n\n📚 **Gramer Notu: Günlük Rutin**\n'Какво правите през деня?' (Gün boyunca / gün içinde ne yaparsınız?) sorusu rutin aktiviteleri sorar. Cevap geniş zamanlı fiillerle verilir."
+    },
+    {
+      "id": "q_d6_tf_00000020",
+      "type": "true_false",
+      "topic": "Günlük Program",
+      "question": "Bulgarcada 'Сутрин ставам в шест часа.' cümlesi 'Akşam altıda uyurum' demektir.",
+      "answer": "false",
+      "explanation": "📚 **Gramer Notu: Günlük Rutin Kelimeleri**\nYanlış. 'Сутрин' sabah, 'ставам' kalkmak demektir. Cümle 'Sabah altıda kalkarım.' anlamına gelir."
+    }
+  ]
+}

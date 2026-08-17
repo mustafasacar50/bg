@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 4: Emlakçı ile Ev Gezme",
+  "difficulty": 4,
+  "description": "Kiralık bir ev bakıyorsunuz, emlakçıyla detayları konuşuyorsunuz.",
+  "questions": [
+    {
+      "id": "l4r_1",
+      "type": "dialogue",
+      "speaker": "Emlakçı",
+      "sentence": "Това е апартаментът. Както виждате, холът е много просторен и светъл.",
+      "answer": "Да, харесва ми. Изложението южно ли е?",
+      "options": [
+        "Не ми харесва.",
+        "Да, харесва ми. Изложението южно ли е?",
+        "Много е малък.",
+        "Искам да си тръгвам."
+      ],
+      "hint": "Evet, beğendim. Cephesi güney mi?",
+      "explanation": "Evin cephesini soruyorsunuz (Güney cephe sıcak olur).",
+      "optionsTr": [
+        "Bundan hoşlanmıyorum.",
+        "Evet hoşuma gitti. Maruziyet güneyde mi?",
+        "Çok küçük.",
+        "Ben ayrılmak istiyorum."
+      ]
+    },
+    {
+      "id": "l4r_2",
+      "type": "dialogue",
+      "speaker": "Emlakçı",
+      "sentence": "Да, изцяло южен. Сметките за отопление през зимата са много ниски.",
+      "answer": "А как е решен въпросът с паркирането? Има ли гараж?",
+      "options": [
+        "Колко струва?",
+        "А как е решен въпросът с паркирането? Има ли гараж?",
+        "Искам да купя.",
+        "Не ме интересува."
+      ],
+      "hint": "Peki park sorunu nasıl çözülmüş? Garaj var mı?",
+      "explanation": "Park yeri olup olmadığını sorun.",
+      "optionsTr": [
+        "Fiyatı ne kadar?",
+        "Peki park sorunu nasıl çözüldü? Garaj var mı?",
+        "Satın almak istiyorum.",
+        "Umurumda değil."
+      ]
+    },
+    {
+      "id": "l4r_3",
+      "type": "dialogue",
+      "speaker": "Emlakçı",
+      "sentence": "Гараж няма, но зад блока има голям безплатен паркинг.",
+      "answer": "Разбирам. А съседите шумни ли са?",
+      "options": [
+        "Разбирам. А съседите шумни ли са?",
+        "Това е проблем.",
+        "Ще го наема.",
+        "Мразя паркинги."
+      ],
+      "hint": "Anlıyorum. Peki komşular gürültülü mü?",
+      "explanation": "Komşuların durumunu sorun.",
+      "optionsTr": [
+        "Anladım. Peki komşular gürültülü mü?",
+        "Bu bir sorun.",
+        "Kiralayacağım.",
+        "Otoparklardan nefret ediyorum."
+      ]
+    },
+    {
+      "id": "l4r_4",
+      "type": "dialogue",
+      "speaker": "Emlakçı",
+      "sentence": "Не, сградата е много спокойна, предимно млади семейства живеят тук.",
+      "answer": "Добре, мисля, че ще го наема. Какви са условията за договора?",
+      "options": [
+        "Не го искам.",
+        "Добре, мисля, че ще го наема. Какви са условията за договора?",
+        "Твърде скъпо.",
+        "Трябва да помисля."
+      ],
+      "hint": "Tamam, sanırım kiralayacağım. Sözleşme şartları neler?",
+      "explanation": "Evi tutmaya karar verdiniz, sözleşmeyi sorun.",
+      "optionsTr": [
+        "Bunu istemiyorum.",
+        "Tamam, sanırım onu ​​işe alacağım. Sözleşmenin şartları nelerdir?",
+        "Çok pahalı.",
+        "Düşünmem lazım."
+      ]
+    }
+  ]
+}

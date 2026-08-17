@@ -14,14 +14,26 @@ export async function POST(request: Request) {
 
     const vocabDir = path.join(process.cwd(), "src/data/vocabulary");
     
-    const moduleMap: Record<string, string> = {
-      "balgoc___Bulgarca_A1_Ders_1_2": "vocab_ders_1_2.json",
-      "balgoc___Bulgarca_A1_Ders_3": "vocab_ders_3.json",
-    };
+    // Dynamically find all vocab files
+    const allFiles = fs.existsSync(vocabDir) ? fs.readdirSync(vocabDir) : [];
+    const allVocabFiles = allFiles.filter(f => f.startsWith('vocab_') && f.endsWith('.json') && !f.endsWith('_index.json'));
+    
+    let activeVocabFile = null;
+    if (moduleId.includes("Ders_1_2")) activeVocabFile = "vocab_ders_1_2.json";
+    else if (moduleId.includes("Ders_3")) activeVocabFile = "vocab_ders_3.json";
+    else if (moduleId.includes("Ders_4")) activeVocabFile = "vocab_ders_4.json";
+    else if (moduleId.includes("Ders_5")) activeVocabFile = "vocab_ders_5.json";
+    else if (moduleId.includes("Ders_6")) activeVocabFile = "vocab_ders_6.json";
+    else if (moduleId.includes("Ders_7")) activeVocabFile = "vocab_ders_7.json";
+    else if (moduleId.includes("Ders_8")) activeVocabFile = "vocab_ders_8.json";
+    else if (moduleId.includes("Ders_9")) activeVocabFile = "vocab_ders_9.json";
+    else if (moduleId.includes("Ders_10")) activeVocabFile = "vocab_ders_10.json";
+    else if (moduleId.includes("Ders_11")) activeVocabFile = "vocab_ders_11.json";
 
-    // ONLY analyze words from the actual sentence + answer
-    const sentenceText = (sentence || '').toLowerCase();
-    const answerText = (answer || '').toLowerCase();
+    // Normalize accents to avoid mismatch during analysis
+    const normalizeString = (str: string) => str ? str.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase() : '';
+    const sentenceText = normalizeString(sentence);
+    const answerText = normalizeString(answer);
     const focusText = `${sentenceText} ${answerText}`;
 
     // Extract individual Cyrillic words from the sentence
@@ -30,8 +42,14 @@ export async function POST(request: Request) {
 
     // Helper to check exact word match
     const hasWholeWord = (searchWord: string, inText: string) => {
-      const escaped = searchWord.toLowerCase().replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-      const regex = new RegExp(`(?:^|[^а-яА-ЯёЁa-zA-Z])(${escaped})(?:[^а-яА-ЯёЁa-zA-Z]|$)`, 'i');
+      if (!searchWord || searchWord.trim().length === 0) return false;
+      const escaped = searchWord.trim().toLowerCase().replace(/[.*+?^${}()|[\\]\\\\]/g, '\\\\$&');
+      if (searchWord.length <= 2) {
+        const regexExact = new RegExp(`(?:^|[^а-яА-ЯёЁa-zA-Z])(${escaped})(?:[^а-яА-ЯёЁa-zA-Z]|$)`, 'i');
+        return regexExact.test(inText);
+      }
+      // Strict suffix tolerance for Bulgarian articles and common endings (-та, -то, -ът, -те, -я, -ят, -че, -и)
+      const regex = new RegExp(`(?:^|[^а-яА-ЯёЁa-zA-Z])(${escaped}(?:та|то|ът|те|я|ят|че|и)?)(?:[^а-яА-ЯёЁa-zA-Z]|$)`, 'i');
       return regex.test(inText);
     };
 
@@ -42,9 +60,7 @@ export async function POST(request: Request) {
     const matchedBaseWords = new Set<string>();
 
     // Always search ALL vocab files so D1-2 words show up in D3 sentences and vice versa
-    const allVocabFiles = Object.values(moduleMap) as string[];
-    // Put the active module's file first (priority)
-    const activeVocabFile = moduleMap[moduleId];
+    // allVocabFiles and activeVocabFile are already defined above
     const orderedFiles = activeVocabFile
       ? [activeVocabFile, ...allVocabFiles.filter(f => f !== activeVocabFile)]
       : allVocabFiles;
@@ -57,90 +73,58 @@ export async function POST(request: Request) {
       if (!fs.existsSync(filePath)) continue;
       const content = JSON.parse(fs.readFileSync(filePath, "utf8"));
 
-      let filtered: GrammarWord[] = [];
-      const indexFilePath = filePath.replace('.json', '_index.json');
+      // Always fallback to linear scan instead of using index files because index files get out of sync.
+      let wordsArray = [];
+      if (Array.isArray(content)) wordsArray = content;
+      else if (content.words && Array.isArray(content.words)) wordsArray = content.words;
+      else wordsArray = Object.values(content);
 
-      if (fs.existsSync(indexFilePath)) {
-        const index = JSON.parse(fs.readFileSync(indexFilePath, "utf8"));
-        const sentenceTokens = focusText.match(/[а-яА-ЯёЁa-zA-Z]+/gi) || [];
-        const matchedBaseIds = new Set<string>();
-
-        // 1-gram check
-        sentenceTokens.forEach(t => {
-          const clean = t.toLowerCase();
-          if (index[clean]) {
-            if (Array.isArray(index[clean])) {
-              index[clean].forEach((id: string) => matchedBaseIds.add(id));
-            } else {
-              matchedBaseIds.add(index[clean]);
-            }
-            matchedBaseWords.add(clean);
-          }
-        });
-
-        // 2-gram check
-        for(let i = 0; i < sentenceTokens.length - 1; i++) {
-          const bi = (sentenceTokens[i] + " " + sentenceTokens[i+1]).toLowerCase();
-          if (index[bi]) {
-            if (Array.isArray(index[bi])) {
-              index[bi].forEach((id: string) => matchedBaseIds.add(id));
-            } else {
-              matchedBaseIds.add(index[bi]);
-            }
-            matchedBaseWords.add(sentenceTokens[i].toLowerCase());
-            matchedBaseWords.add(sentenceTokens[i+1].toLowerCase());
-          }
-        }
-
-        filtered = content.words.filter((w: GrammarWord) =>
-          matchedBaseIds.has(w.bg.toLowerCase()) &&
-          (acceptedTypes.includes(w.type) || w.notes) &&
-          !seenWordBg.has(w.bg.toLowerCase())
-        );
-        filtered.forEach(w => seenWordBg.add(w.bg.toLowerCase()));
-
-        } else {
-          // Fallback to old linear scan if index doesn't exist
-          filtered = content.words.filter((w: GrammarWord) => {
-            if (!acceptedTypes.includes(w.type) && !w.notes) return false;
-            
-            const baseWord = w.bg.toLowerCase();
-            if (hasWholeWord(baseWord, focusText)) { matchedBaseWords.add(baseWord); return true; }
-            
-            if (w.conjugation) {
-              for (const tense of Object.values(w.conjugation) as GrammarWord[]) {
-                for (const form of Object.values(tense)) {
-                  const formStr = String(form).toLowerCase();
-                  const formWords = formStr.split(/\s+/);
-                  if (formWords.some(fw => hasWholeWord(fw, focusText) && fw.length > 2)) {
-                    formWords.forEach(fw => matchedBaseWords.add(fw));
-                    return true;
-                  }
-                }
+      let filtered: GrammarWord[] = wordsArray.filter((w: GrammarWord) => {
+        if (!w || typeof w !== 'object') return false;
+        if (!acceptedTypes.includes(w.type) && !w.notes) return false;
+        
+        const baseWord = normalizeString(w.bg || '');
+        if (!baseWord) return false;
+        if (hasWholeWord(baseWord, focusText)) { matchedBaseWords.add(baseWord); return true; }
+        
+        if (w.conjugation) {
+          for (const tense of Object.values(w.conjugation) as any[]) {
+            for (const form of Object.values(tense)) {
+              const formStr = normalizeString(String(form));
+              const formWords = formStr.split(/\\s+/);
+              if (formWords.some(fw => hasWholeWord(fw, focusText) && fw.length > 2)) {
+                formWords.forEach(fw => matchedBaseWords.add(fw));
+                return true;
               }
             }
-            
-            if (w.forms) {
-              const formsMatch = Object.values(w.forms).some((f: string) => {
-                if (typeof f === 'object' && f !== null) {
-                  return Object.values(f).some(subForm => {
-                    const v = hasWholeWord(String(subForm), focusText);
-                    if (v) matchedBaseWords.add(String(subForm).toLowerCase());
-                    return v;
-                  });
-                }
-                const v = hasWholeWord(String(f), focusText);
-                if (v) matchedBaseWords.add(String(f).toLowerCase());
+          }
+        }
+        
+        if (w.forms) {
+          const formsMatch = Object.values(w.forms).some((f: any) => {
+            if (typeof f === 'object' && f !== null) {
+              return Object.values(f).some(subForm => {
+                const v = hasWholeWord(String(subForm), focusText);
+                if (v) matchedBaseWords.add(String(subForm).toLowerCase());
                 return v;
               });
-              if (formsMatch) return true;
             }
-            if (w.nounForms && Object.values(w.nounForms).some((f: string) => { const v = hasWholeWord(f, focusText); if(v) matchedBaseWords.add(f.toLowerCase()); return v; })) return true;
-            
-            // We intentionally SKIP w.pronounForms here to prevent reverse-matching (e.g. 'те' triggering 'ги')
-            return false;
+            const v = hasWholeWord(String(f), focusText);
+            if (v) matchedBaseWords.add(String(f).toLowerCase());
+            return v;
           });
+          if (formsMatch) return true;
         }
+        if (w.nounForms && Object.values(w.nounForms).some((f: any) => { 
+          if (f === null || f === undefined) return false;
+          const v = hasWholeWord(String(f), focusText); 
+          if(v) matchedBaseWords.add(String(f).toLowerCase()); 
+          return v; 
+        })) return true;
+        
+        // We intentionally SKIP w.pronounForms here to prevent reverse-matching
+        return false;
+      });
 
         // Enrich with matched form
         for (const card of filtered) {
@@ -172,7 +156,10 @@ export async function POST(request: Request) {
           if (card.nounForms) {
             const formNames: Record<string, string> = { tekil: 'Tekil', tekil_belirli: 'Tekil (Belirli)', 'çoğul': 'Çoğul', 'çoğul_belirli': 'Çoğul (Belirli)' };
             for (const [formName, form] of Object.entries(card.nounForms)) {
-              if (hasWholeWord(form as string, focusText)) { matchedForm = form; matchedReason = formNames[formName] || formName; }
+              if (form !== null && form !== undefined && hasWholeWord(String(form), focusText)) { 
+                matchedForm = String(form); 
+                matchedReason = formNames[formName] || formName; 
+              }
             }
           }
 
@@ -226,8 +213,8 @@ export async function POST(request: Request) {
     
     // Sort so that exact matches (base word == matched form) come first.
     allCards.sort((a, b) => {
-      const aExact = a.bg.toLowerCase() === a.matchedForm.toLowerCase() ? 0 : 1;
-      const bExact = b.bg.toLowerCase() === b.matchedForm.toLowerCase() ? 0 : 1;
+      const aExact = (a.bg || '').toLowerCase() === (a.matchedForm || '').toLowerCase() ? 0 : 1;
+      const bExact = (b.bg || '').toLowerCase() === (b.matchedForm || '').toLowerCase() ? 0 : 1;
       return aExact - bExact;
     });
 
@@ -236,8 +223,9 @@ export async function POST(request: Request) {
     const seenBg = new Set<string>();
     
     for (const card of allCards) {
-      const formKey = card.matchedForm.toLowerCase();
-      const bgKey = card.bg.toLowerCase();
+      const formKey = (card.matchedForm || '').toLowerCase();
+      const bgKey = (card.bg || '').toLowerCase();
+      if (!bgKey) continue;
 
       if (mergedMap.has(formKey)) {
         // Form already exists, merge missing paradigms/data into it (Union Set approach)

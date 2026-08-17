@@ -1,0 +1,251 @@
+{
+  "id": "simulations_ders3",
+  "title": "Hayat Simülasyonları: Tanışma 2 (Ders 3)",
+  "questions": [
+    {
+      "id": "sim_ders3_dialogue_1",
+      "type": "dialogue",
+      "context": "Uluslararası bir etkinliktesiniz. Yanınıza biri geliyor ve sohbete başlıyor.",
+      "characters": {
+        "bot": {
+          "name": "Мария (Maria)",
+          "avatar": "👩‍🦰"
+        },
+        "player": {
+          "name": "Sen",
+          "avatar": "👤"
+        }
+      },
+      "dialogue": [
+        {
+          "speaker": "bot",
+          "text": "Добър ден! Свободно ли е тук?",
+          "translation": "İyi günler! Burası boş mu?"
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Да, заповядайте.",
+              "translation": "Evet, buyurun.",
+              "isCorrect": true,
+              "botReply": "Благодаря! Аз съм Мария. А вие как се казвате?",
+              "hint": ""
+            },
+            {
+              "text": "Аз съм студент.",
+              "translation": "Ben öğrenciyim.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Size 'Burası boş mu?' diye sordu, mesleğinizi değil."
+            },
+            {
+              "text": "Не знам.",
+              "translation": "Bilmiyorum.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Yanınızdaki koltuğun boş olup olmadığını sordu, daha kibar bir cevap verin."
+            }
+          ],
+          "optionsTr": [
+            "Evet, hoş geldiniz.",
+            "Ben bir öğrenciyim.",
+            "Bilmiyorum."
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Казвам се Али. Много ми е приятно.",
+              "translation": "Adım Ali. Çok memnun oldum.",
+              "isCorrect": true,
+              "botReply": "И на мен ми е приятно, Али. Откъде сте?",
+              "hint": ""
+            },
+            {
+              "text": "Добре съм.",
+              "translation": "İyiyim.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Adınızı sordu ('Как се казвате?'), halinizi değil."
+            },
+            {
+              "text": "Аз съм от България.",
+              "translation": "Ben Bulgaristan'danım.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Önce adınızı söylemelisiniz, henüz 'Nerelisiniz?' demedi."
+            }
+          ],
+          "optionsTr": [
+            "Benim adım Ali. Çok memnunum.",
+            "Ben iyiyim.",
+            "Ben Bulgaristanlıyım."
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Аз съм от Турция.",
+              "translation": "Ben Türkiye'denim.",
+              "isCorrect": true,
+              "botReply": "О, чудесно! Аз съм от Испания. Какво работите?",
+              "hint": ""
+            },
+            {
+              "text": "Аз съм инженер.",
+              "translation": "Ben mühendisim.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Şu an nereli olduğunuzu soruyor ('Откъде сте?'), mesleğinizi değil."
+            },
+            {
+              "text": "Да, разбира се.",
+              "translation": "Evet, elbette.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Bu bir Evet/Hayır sorusu değildi."
+            }
+          ],
+          "optionsTr": [
+            "Ben Türkiyeliyim.",
+            "Mühendisim.",
+            "Evet elbette."
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Аз съм инженер. А вие?",
+              "translation": "Ben mühendisim. Ya siz?",
+              "isCorrect": true,
+              "botReply": "Аз съм учителка. Говорите ли добре български?",
+              "hint": ""
+            },
+            {
+              "text": "Живея в София.",
+              "translation": "Sofya'da yaşıyorum.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Mesleğinizi sordu ('Какво работите?'), nerede yaşadığınızı değil."
+            },
+            {
+              "text": "Аз съм добре.",
+              "translation": "Ben iyiyim.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Meslek sordu."
+            }
+          ],
+          "optionsTr": [
+            "Mühendisim. Ve sen?",
+            "Sofya'da yaşıyorum.",
+            "Ben iyiyim."
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Не, говоря малко. Сега уча.",
+              "translation": "Hayır, biraz konuşuyorum. Şu an öğreniyorum.",
+              "isCorrect": true,
+              "botReply": "Браво! Българският език е интересен. Довиждане и приятен ден!",
+              "hint": ""
+            },
+            {
+              "text": "Да, аз съм от Турция.",
+              "translation": "Evet, ben Türkiye'denim.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Bulgarca konuşup konuşmadığınızı ('Говорите ли български?') sordu."
+            },
+            {
+              "text": "Искам кафе.",
+              "translation": "Kahve istiyorum.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Bağlam dışı bir cevap."
+            }
+          ],
+          "optionsTr": [
+            "Hayır, biraz konuşuyorum. Şimdi çalışıyorum.",
+            "Evet, Türkiyeliyim.",
+            "Kahve istiyorum."
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Довиждане! Всичко хубаво!",
+              "translation": "Görüşmek üzere! Her şey gönlünüzce olsun!",
+              "isCorrect": true,
+              "botReply": "Чао!",
+              "hint": ""
+            },
+            {
+              "text": "Здравей!",
+              "translation": "Merhaba!",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Vedalaşıyorsunuz, 'Merhaba' denmez."
+            },
+            {
+              "text": "Какво е това?",
+              "translation": "Bu nedir?",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Bağlam dışı."
+            }
+          ],
+          "optionsTr": [
+            "Güle güle! Her şey yolunda!",
+            "Merhaba!",
+            "Bu nedir?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sim_ders3_reading_1",
+      "type": "reading",
+      "context": "Maria'nın günlüğü",
+      "readingText": "Днес на събитието се запознах с Али. Той е от Турция и е инженер. Той не говори много добре български, но сега учи. Той е много приятен човек.",
+      "readingTranslation": "Bugün etkinlikte Ali ile tanıştım. O Türkiye'den ve mühendis. Çok iyi Bulgarca konuşmuyor ama şu an öğreniyor. O çok hoş bir insan.",
+      "readingQuestions": [
+        {
+          "questionText": "Какво работи Али?",
+          "correctAnswer": "Той е инженер",
+          "options": [
+            "Той е учител",
+            "Той е инженер",
+            "Той е студент"
+          ],
+          "optionsTr": [
+            "O bir öğretmen",
+            "O bir mühendis",
+            "O bir öğrenci"
+          ]
+        },
+        {
+          "questionText": "Али говори ли перфектно български?",
+          "correctAnswer": "Не, той учи сега",
+          "options": [
+            "Да, говори много добре",
+            "Не, той учи сега",
+            "Той говори само английски"
+          ],
+          "optionsTr": [
+            "Evet çok iyi konuşuyor",
+            "Hayır, o şu anda çalışıyor",
+            "O sadece İngilizce konuşuyor"
+          ]
+        }
+      ]
+    }
+  ]
+}

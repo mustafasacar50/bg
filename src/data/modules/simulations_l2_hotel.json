@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 2: Otel Rezervasyonu",
+  "difficulty": 2,
+  "description": "Otele vardınız ve resepsiyonda check-in yapıyorsunuz.",
+  "questions": [
+    {
+      "id": "l2h_1",
+      "type": "dialogue",
+      "speaker": "Resepsiyon",
+      "sentence": "Добър ден! Добре дошли в нашия хотел. С какво мога да ви помогна?",
+      "answer": "Добър ден! Имам резервация за една стая.",
+      "options": [
+        "Искам да купя хляб.",
+        "Добър ден! Имам резервация за една стая.",
+        "Къде е гарата?",
+        "Аз съм от София."
+      ],
+      "hint": "İyi günler! Bir oda için rezervasyonum var.",
+      "explanation": "Otelde olduğunuzu ve rezervasyonunuz olduğunu belirtiyorsunuz.",
+      "optionsTr": [
+        "Ekmek satın almak istiyorum.",
+        "İyi günler! Bir oda için rezervasyonum var.",
+        "tren istasyonu nerede",
+        "Ben Sofyalıyım."
+      ]
+    },
+    {
+      "id": "l2h_2",
+      "type": "dialogue",
+      "speaker": "Resepsiyon",
+      "sentence": "На кое име е резервацията, моля?",
+      "answer": "На името на Иван Иванов.",
+      "options": [
+        "На името на Иван Иванов.",
+        "Аз съм на 30 години.",
+        "Това е моят багаж.",
+        "Много благодаря."
+      ],
+      "hint": "İvan İvanov adına.",
+      "explanation": "Adınızı soruyor.",
+      "optionsTr": [
+        "Ivan Ivanov adına.",
+        "30 yaşındayım.",
+        "Bu benim bagajım.",
+        "Çok teşekkür ederim."
+      ]
+    },
+    {
+      "id": "l2h_3",
+      "type": "dialogue",
+      "speaker": "Resepsiyon",
+      "sentence": "Да, виждам я. За три нощувки, нали?",
+      "answer": "Точно така. Закуската включена ли е?",
+      "options": [
+        "Не, не знам.",
+        "Точно така. Закуската включена ли е?",
+        "Къде мога да паркирам?",
+        "Чао."
+      ],
+      "hint": "Kesinlikle öyle. Kahvaltı dahil mi?",
+      "explanation": "3 gece olduğunu doğrulayıp kahvaltıyı sorun.",
+      "optionsTr": [
+        "Hayır, bilmiyorum.",
+        "Bu doğru. Kahvaltı dahil mi?",
+        "Nereye park edebilirim?",
+        "Hoşçakal."
+      ]
+    },
+    {
+      "id": "l2h_4",
+      "type": "dialogue",
+      "speaker": "Resepsiyon",
+      "sentence": "Да, закуската е от 7 до 10 часа. Ето вашия ключ. Стая 205.",
+      "answer": "Благодаря ви много. Хубав ден!",
+      "options": [
+        "Къде е банята?",
+        "Благодаря ви много. Хубав ден!",
+        "Колко струва?",
+        "Не искам ключ."
+      ],
+      "hint": "Çok teşekkür ederim. İyi günler!",
+      "explanation": "Anahtarı aldınız.",
+      "optionsTr": [
+        "Banyo nerede",
+        "Çok teşekkür ederim. İyi günler!",
+        "Fiyatı ne kadar?",
+        "Anahtar istemiyorum."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "id": "simulations_ders4",
+  "title": "Hayat Simülasyonları: Aile ve İş (Ders 4)",
+  "questions": [
+    {
+      "id": "sim_ders4_dialogue_1",
+      "type": "dialogue",
+      "context": "Yeni apartmanınıza taşındınız. Asansörde komşunuzla karşılaştınız.",
+      "characters": {
+        "bot": {
+          "name": "Съседът (Komşu)",
+          "avatar": "👨‍🦳"
+        },
+        "player": {
+          "name": "Sen",
+          "avatar": "👤"
+        }
+      },
+      "dialogue": [
+        {
+          "speaker": "bot",
+          "text": "Здравейте! Вие сте новият съсед, нали?",
+          "translation": "Merhaba! Siz yeni komşusunuz, değil mi?"
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Да, точно така. Аз съм Али. Приятно ми е.",
+              "translation": "Evet, aynen öyle. Ben Ali. Memnun oldum.",
+              "isCorrect": true,
+              "botReply": "И на мен. Аз съм Георги. Живея на третия етаж. Вие сам ли живеете?",
+              "hint": ""
+            },
+            {
+              "text": "Не, аз съм инженер.",
+              "translation": "Hayır, ben mühendisim.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Size yeni komşu olup olmadığınızı sordu, mesleğinizi değil."
+            },
+            {
+              "text": "Аз съм от Турция.",
+              "translation": "Ben Türkiye'denim.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Şu an nereli olduğunuzu sormuyor."
+            }
+          ],
+          "optionsTr": [
+            "Evet, doğru. Ben Ali'yim. Bana göre hoş.",
+            "Hayır, ben bir mühendisim.",
+            "Ben Türkiyeliyim."
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Не, живея със съпругата си и сина си.",
+              "translation": "Hayır, eşim ve oğlumla yaşıyorum.",
+              "isCorrect": true,
+              "botReply": "Чудесно! На колко години е синът ви?",
+              "hint": ""
+            },
+            {
+              "text": "Да, имам брат.",
+              "translation": "Evet, erkek kardeşim var.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Yalnız yaşayıp yaşamadığınızı sordu, erkek kardeşinizi değil."
+            },
+            {
+              "text": "Той е лекар.",
+              "translation": "O doktordur.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Yalnız mısınız sorusuna uygun bir cevap değil."
+            }
+          ],
+          "optionsTr": [
+            "Hayır, eşim ve oğlumla yaşıyorum.",
+            "Evet, bir erkek kardeşim var.",
+            "O bir doktor."
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Той е на пет години.",
+              "translation": "O beş yaşında.",
+              "isCorrect": true,
+              "botReply": "Малък е още. А съпругата ви какво работи?",
+              "hint": ""
+            },
+            {
+              "text": "Тя е на тридесет години.",
+              "translation": "O (kadın) otuz yaşında.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Oğlunuzun ('синът ви') yaşını sordu, eşinizin değil."
+            },
+            {
+              "text": "Аз съм на тридесет.",
+              "translation": "Ben otuz yaşındayım.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Kendi yaşınızı değil, oğlunuzun yaşını söylemelisiniz."
+            }
+          ],
+          "optionsTr": [
+            "O beş yaşında.",
+            "Otuz yaşındadır.",
+            "Otuz yaşındayım."
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Тя е медицинска сестра в една болница. А вие?",
+              "translation": "O bir hastanede hemşire. Ya siz?",
+              "isCorrect": true,
+              "botReply": "Аз съм пенсионер. Преди бях учител.",
+              "hint": ""
+            },
+            {
+              "text": "Тя е от България.",
+              "translation": "O Bulgaristan'dan.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Eşinizin ne iş yaptığını sordu, nereli olduğunu değil."
+            },
+            {
+              "text": "Тя е на работа.",
+              "translation": "O işte.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Mesleğini sordu, şu an nerede olduğunu değil."
+            }
+          ],
+          "optionsTr": [
+            "Kendisi bir hastanede hemşiredir. Ve sen?",
+            "Bulgaristan'dan.",
+            "O işte."
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Много хубаво. Трябва да тръгвам за офиса. До скоро!",
+              "translation": "Çok güzel. Ofise gitmeliyim. Görüşmek üzere!",
+              "isCorrect": true,
+              "botReply": "Лек ден и успешна работа!",
+              "hint": ""
+            },
+            {
+              "text": "Искам да спя.",
+              "translation": "Uyumak istiyorum.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Bunu bir yabancıya söylemek pek kibar olmaz."
+            },
+            {
+              "text": "Аз съм студент.",
+              "translation": "Ben öğrenciyim.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Bağlam dışı."
+            }
+          ],
+          "optionsTr": [
+            "Çok güzel. Ofise gitmem gerekiyor. Yakında görüşürüz!",
+            "Uyumak istiyorum.",
+            "Ben bir öğrenciyim."
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Мерси! Лек ден и на вас!",
+              "translation": "Teşekkürler! Size de iyi günler!",
+              "isCorrect": true,
+              "botReply": "",
+              "hint": ""
+            },
+            {
+              "text": "Добър вечер!",
+              "translation": "İyi akşamlar!",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Adam size iyi günler ve iyi çalışmalar diledi, şu an gündüz."
+            },
+            {
+              "text": "Няма проблем.",
+              "translation": "Sorun yok.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Bağlam dışı."
+            }
+          ],
+          "optionsTr": [
+            "Teşekkür ederim! Size de iyi günler!",
+            "İyi akşamlar!",
+            "Sorun değil."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sim_ders4_reading_1",
+      "type": "reading",
+      "context": "Георги (Komşu) eşine yeni komşuyu anlatıyor.",
+      "readingText": "Днес в асансьора видях новия съсед. Той се казва Али и не живее сам. Той има съпруга и малък син. Синът му е на пет години. Съпругата му е медицинска сестра в болницата.",
+      "readingTranslation": "Bugün asansörde yeni komşuyu gördüm. Adı Ali ve yalnız yaşamıyor. Bir eşi ve küçük bir oğlu var. Oğlu beş yaşında. Eşi hastanede hemşire.",
+      "readingQuestions": [
+        {
+          "questionText": "С кого живее Али?",
+          "correctAnswer": "Със съпругата си и сина си",
+          "options": [
+            "Сам",
+            "Със съпругата си и сина си",
+            "С брат си"
+          ],
+          "optionsTr": [
+            "Yalnız",
+            "Eşi ve oğluyla birlikte",
+            "Kardeşinle"
+          ]
+        },
+        {
+          "questionText": "Каква е професията на съпругата му?",
+          "correctAnswer": "Тя е медицинска сестра",
+          "options": [
+            "Тя е учителка",
+            "Тя е медицинска сестра",
+            "Тя е лекарка"
+          ],
+          "optionsTr": [
+            "O bir öğretmen",
+            "O bir hemşire",
+            "O bir doktor"
+          ]
+        }
+      ]
+    }
+  ]
+}

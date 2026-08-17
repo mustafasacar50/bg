@@ -13,6 +13,7 @@ interface Module {
 
 export default function TrainingListPage() {
   const [modules, setModules] = useState<Module[]>([]);
+  const [simModules, setSimModules] = useState<Module[]>([]);
   const [loading, setLoading] = useState(true);
   const router = useRouter();
 
@@ -63,7 +64,6 @@ export default function TrainingListPage() {
 
         const progress = progData.progress || {};
         
-        // 1. Get local visited module and its timestamp
         let localModData = null;
         try {
           const str = localStorage.getItem('last_visited_module_data');
@@ -73,7 +73,6 @@ export default function TrainingListPage() {
         let activeModId = localModData?.id || localStorage.getItem('last_visited_module');
         let localTs = localModData?.ts || 0;
 
-        // 2. Find the most recently updated module in the cloud
         let latestCloudModId = null;
         let latestCloudTs = 0;
         
@@ -89,7 +88,6 @@ export default function TrainingListPage() {
           }
         }
 
-        // 3. Compare and select the newest one
         if (latestCloudTs > localTs && latestCloudModId) {
           activeModId = latestCloudModId;
         } else if (!activeModId && progress.lastVisitedModule) {
@@ -102,22 +100,26 @@ export default function TrainingListPage() {
         
         setActiveModuleId(activeModId);
 
-        const mods = modData.modules || [];
+        // Ana ders modülleri
+        const mods = (modData.modules || []).filter((m: any) => !m.id.startsWith('simulations_'));
         setModules(mods);
+
+        // Simülasyon modülleri (Rol Yapma)
+        const sMods = (modData.modules || []).filter((m: any) => m.id.startsWith('simulations_'));
+        setSimModules(sMods);
 
         const counts: Record<string, number> = {};
         const allCounts: Record<string, number> = {};
         const bgCounts: Record<string, number> = {};
         const trCounts: Record<string, number> = {};
         
-        mods.forEach((mod: any) => {
+        [...mods, ...sMods].forEach((mod: any) => {
           if (progress[mod.id]) {
             counts[mod.id] = progress[mod.id].mistakes ? progress[mod.id].mistakes.length : 0;
             const stateIdx = progress[mod.id].uiState?.currentIndex;
             const fallbackAll = progress[mod.id].allProgress || 0;
             allCounts[mod.id] = stateIdx !== undefined ? stateIdx : fallbackAll;
             
-            // Migrate bgProgress if missing but allProgress exists (since bg was default)
             bgCounts[mod.id] = progress[mod.id].bgProgress ?? Math.min(fallbackAll, mod.bgCount || 0);
             trCounts[mod.id] = progress[mod.id].trProgress || 0;
           } else {
@@ -166,15 +168,34 @@ export default function TrainingListPage() {
           </div>
         </div>
 
-        <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden mb-6">
-          <div className="p-4 bg-indigo-50/50 flex flex-col items-center gap-2">
-            <Link href="/training/vocabulary" className="w-full sm:w-auto text-center bg-indigo-600 text-white px-6 py-2 rounded-xl text-sm font-bold shadow-sm hover:bg-indigo-700 transition-colors">
-              📚 Bilinmeyen Kelimeler ➔
-            </Link>
-            <p className="text-slate-500 text-[11px] text-center max-w-sm">
-              Antrenmanlarda işaretlediğiniz bilmediğiniz kelimeleri ve örnek cümleleri çalışın.
-            </p>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+          <Link href="/training/vocabulary" className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col h-full hover:border-indigo-300 transition-colors group">
+            <div className="p-4 bg-indigo-50/50 flex-1 flex items-center justify-center">
+              <div className="w-full text-center bg-indigo-600 text-white px-4 py-3 rounded-xl text-sm font-bold shadow-sm group-hover:bg-indigo-700 transition-colors">
+                📚 Bilinmeyen Kelimeler
+              </div>
+            </div>
+          </Link>
+          
+          <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col h-full hover:border-amber-300 transition-colors cursor-default">
+            <div className="p-4 bg-amber-50/50 flex-1 flex items-center justify-center relative group">
+              <div className="w-full text-center bg-amber-500 text-white px-4 py-3 rounded-xl text-sm font-bold shadow-sm">
+                ⭐ İstatistikler
+              </div>
+              {/* Tooltip for stats on hover instead of permanent description */}
+              <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-max px-3 py-1.5 bg-slate-800 text-white text-[10px] font-medium rounded-lg opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none z-50">
+                Toplam {modules.length + simModules.length} modül, {Object.values(allProgressCounts).reduce((a, b) => a + b, 0)} soru çözüldü
+              </div>
+            </div>
           </div>
+
+          <Link href="/training/simulations" className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden flex flex-col h-full hover:border-rose-300 transition-colors group">
+            <div className="p-4 bg-rose-50/50 flex-1 flex items-center justify-center">
+              <div className="w-full text-center bg-rose-500 text-white px-4 py-3 rounded-xl text-sm font-bold shadow-sm group-hover:bg-rose-600 transition-colors">
+                🎭 Simülasyon Merkezi
+              </div>
+            </div>
+          </Link>
         </div>
         
         {/* Language Filter Toggle */}
@@ -206,67 +227,64 @@ export default function TrainingListPage() {
             <span className="w-5 h-5 border-2 border-indigo-600 border-t-transparent rounded-full animate-spin"></span>
             Veriler yükleniyor...
           </div>
-        ) : modules.length === 0 ? (
-          <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-12 text-center text-slate-500">Henüz modül bulunmamaktadır.</div>
         ) : (
-          <div className="flex flex-col gap-4">
-            {modules.map((mod: any) => {
-              const isActive = activeModuleId === mod.id;
-              
-              const totalQuestions = activeLangFilter === 'bg' ? mod.bgCount : activeLangFilter === 'tr' ? mod.trCount : mod.questionCount;
-              const progressCount = activeLangFilter === 'bg' ? bgProgressCounts[mod.id] || 0 : activeLangFilter === 'tr' ? trProgressCounts[mod.id] || 0 : allProgressCounts[mod.id] || 0;
-              
-              // Only show module if it has questions for the selected language
-              if (totalQuestions === 0) return null;
-              
-              const progressPercent = totalQuestions > 0 ? Math.min(100, Math.round((progressCount / totalQuestions) * 100)) : 0;
-              
-              return (
-              <div key={mod.id} className={`bg-white rounded-2xl shadow-sm border p-4 sm:p-5 transition-all relative ${isActive ? 'border-indigo-500 ring-4 ring-indigo-50/50' : 'border-slate-200 hover:border-indigo-300 hover:shadow-md'}`}>
-                {isActive && (
-                  <div className="absolute top-0 right-4 bg-indigo-600 text-white text-[10px] font-bold px-3 py-1 rounded-b-lg shadow-sm z-20">
-                    📍 Kaldığınız Yer
-                  </div>
-                )}
-                <div className="flex flex-col gap-3">
-                  <h3 className={`text-base font-bold ${isActive ? 'text-indigo-900' : 'text-slate-800'} pr-24 leading-tight`}>{mod.title}</h3>
+          <>
+            <h2 className="text-xl font-bold text-slate-800 mb-4 ml-1">📖 Ders Modülleri</h2>
+            {modules.length === 0 ? (
+              <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-12 text-center text-slate-500 mb-8">Henüz ders modülü bulunmamaktadır.</div>
+            ) : (
+              <div className="flex flex-col gap-4 mb-10">
+                {modules.map((mod: any) => {
+                  const isActive = activeModuleId === mod.id;
+                  const totalQuestions = activeLangFilter === 'bg' ? mod.bgCount : activeLangFilter === 'tr' ? mod.trCount : mod.questionCount;
+                  const progressCount = activeLangFilter === 'bg' ? bgProgressCounts[mod.id] || 0 : activeLangFilter === 'tr' ? trProgressCounts[mod.id] || 0 : allProgressCounts[mod.id] || 0;
+                  if (totalQuestions === 0) return null;
+                  const progressPercent = totalQuestions > 0 ? Math.min(100, Math.round((progressCount / totalQuestions) * 100)) : 0;
                   
-                  {/* Row 1: Progress (Left) & Mistakes (Right) */}
-                  <div className="flex items-center justify-between">
-                    <span className={`text-xs font-bold px-2.5 py-1 rounded-md border ${isActive ? 'bg-indigo-100/50 text-indigo-700 border-indigo-200' : 'bg-slate-100 text-slate-600 border-slate-200'}`}>
-                      {progressCount > 0 ? `${progressCount} / ${totalQuestions}` : `${totalQuestions} soru`}
-                    </span>
-                    
-                    {mistakeCounts[mod.id] > 0 && (
+                  return (
+                  <div key={mod.id} className={`bg-white rounded-2xl shadow-sm border p-4 sm:p-5 transition-all relative ${isActive ? 'border-indigo-500 ring-4 ring-indigo-50/50' : 'border-slate-200 hover:border-indigo-300 hover:shadow-md'}`}>
+                    {isActive && (
+                      <div className="absolute top-0 right-4 bg-indigo-600 text-white text-[10px] font-bold px-3 py-1 rounded-b-lg shadow-sm z-20">
+                        📍 Kaldığınız Yer
+                      </div>
+                    )}
+                    <div className="flex flex-col gap-3">
+                      <h3 className={`text-base font-bold ${isActive ? 'text-indigo-900' : 'text-slate-800'} pr-24 leading-tight`}>{mod.title}</h3>
+                      <div className="flex items-center justify-between">
+                        <span className={`text-xs font-bold px-2.5 py-1 rounded-md border ${isActive ? 'bg-indigo-100/50 text-indigo-700 border-indigo-200' : 'bg-slate-100 text-slate-600 border-slate-200'}`}>
+                          {progressCount > 0 ? `${progressCount} / ${totalQuestions}` : `${totalQuestions} soru`}
+                        </span>
+                        {mistakeCounts[mod.id] > 0 && (
+                          <button
+                            onClick={() => router.push(`/training/${mod.id}?mode=mistakes&lang=${activeLangFilter}`)}
+                            className="inline-flex items-center px-3 py-1 bg-amber-100 text-amber-700 hover:bg-amber-200 border border-amber-200 text-[11px] font-bold rounded-lg shadow-sm transition-colors"
+                          >
+                            ⚠️ Bilemediklerim ({mistakeCounts[mod.id]})
+                          </button>
+                        )}
+                      </div>
                       <button
-                        onClick={() => router.push(`/training/${mod.id}?mode=mistakes&lang=${activeLangFilter}`)}
-                        className="inline-flex items-center px-3 py-1 bg-amber-100 text-amber-700 hover:bg-amber-200 border border-amber-200 text-[11px] font-bold rounded-lg shadow-sm transition-colors"
+                        onClick={() => router.push(`/training/${mod.id}?mode=all&lang=${activeLangFilter}`)}
+                        className="relative w-full inline-flex justify-center items-center py-2.5 border border-indigo-200 text-sm font-extrabold rounded-xl shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 focus:outline-none overflow-hidden transition-colors mt-1"
                       >
-                        ⚠️ Bilemediklerim ({mistakeCounts[mod.id]})
+                        <div className="absolute inset-0 bg-indigo-100/80 transition-all duration-300" style={{ width: `${progressPercent}%` }}></div>
+                        {progressPercent > 0 && (
+                          <span className="absolute left-3 text-indigo-500 font-black text-xs drop-shadow-sm">
+                            %{progressPercent}
+                          </span>
+                        )}
+                        <span className="relative z-10 flex items-center">
+                          📚 Tüm Havuz
+                        </span>
                       </button>
-                    )}
+                    </div>
                   </div>
-                  
-                  {/* Row 2: Tüm Havuz Button (Slider) */}
-                  <button
-                    onClick={() => router.push(`/training/${mod.id}?mode=all&lang=${activeLangFilter}`)}
-                    className="relative w-full inline-flex justify-center items-center py-2.5 border border-indigo-200 text-sm font-extrabold rounded-xl shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 focus:outline-none overflow-hidden transition-colors mt-1"
-                  >
-                    <div className="absolute inset-0 bg-indigo-100/80 transition-all duration-300" style={{ width: `${progressPercent}%` }}></div>
-                    {progressPercent > 0 && (
-                      <span className="absolute left-3 text-indigo-500 font-black text-xs drop-shadow-sm">
-                        %{progressPercent}
-                      </span>
-                    )}
-                    <span className="relative z-10 flex items-center">
-                      📚 Tüm Havuz
-                    </span>
-                  </button>
-                </div>
+                  );
+                })}
               </div>
-              );
-            })}
-          </div>
+            )}
+
+          </>
         )}
       </div>
     </div>

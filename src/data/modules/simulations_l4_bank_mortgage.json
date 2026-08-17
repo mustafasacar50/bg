@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 4: Kredi Şartlarının Müzakeresi",
+  "difficulty": 4,
+  "description": "Bir bankada ev kredisi faiz oranlarını tartışıyorsunuz. Finansal terimler içerir.",
+  "questions": [
+    {
+      "id": "l4_bm_1",
+      "type": "dialogue",
+      "speaker": "Banka Müdürü",
+      "sentence": "Здравейте. Разгледахме документите ви за ипотечен кредит. Можем да ви предложим лихва от 4.5% на годишна база.",
+      "answer": "Благодаря. Въпреки това, лихвеният процент ми се струва малко висок. Има ли възможност за предоговаряне?",
+      "options": [
+        "Съгласен съм, давайте парите.",
+        "Това е ужасно!",
+        "Благодаря. Въпреки това, лихвеният процент ми се струва малко висок. Има ли възможност за предоговаряне?",
+        "Какво е лихва?"
+      ],
+      "hint": "Teşekkürler. Buna rağmen faiz oranı bana biraz yüksek geliyor. Yeniden müzakere etme imkanı var mı?",
+      "explanation": "\"Въпреки това\" (Buna rağmen/Yine de) ve \"Предоговаряне\" (Yeniden müzakere) C1 seviyesi profesyonel ifadelerdir.",
+      "optionsTr": [
+        "Kabul ediyorum, parayı bana ver.",
+        "Bu çok korkunç!",
+        "Teşekkür ederim. Ancak faiz oranı bana biraz yüksek geliyor. Yeniden müzakere olasılığı var mı?",
+        "Faiz nedir?"
+      ]
+    },
+    {
+      "id": "l4_bm_2",
+      "type": "dialogue",
+      "speaker": "Banka Müdürü",
+      "sentence": "Разбирам позицията ви. Ако прехвърлите работната си заплата в нашата банка, можем да свалим лихвата на 3.9%.",
+      "answer": "Това звучи доста по-приемливо. А какви са таксите за предсрочно погасяване?",
+      "options": [
+        "Не искам да прехвърлям нищо.",
+        "Това звучи доста по-приемливо. А какви са таксите за предсрочно погасяване?",
+        "Ще си помисля.",
+        "Какво е заплата?"
+      ],
+      "hint": "Bu kulağa çok daha kabul edilebilir geliyor. Peki erken ödeme ücretleri (cezaları) nelerdir?",
+      "explanation": "\"Приемливо\" (Kabul edilebilir) ve \"Предсрочно погасяване\" (Krediyi erken kapatma/ödeme) finansal dilde esastır.",
+      "optionsTr": [
+        "Hiçbir şeyi aktarmak istemiyorum.",
+        "Bu çok daha kabul edilebilir geliyor. Peki erken geri ödeme ücretleri nelerdir?",
+        "Bunu düşüneceğim.",
+        "Maaş nedir?"
+      ]
+    },
+    {
+      "id": "l4_bm_3",
+      "type": "dialogue",
+      "speaker": "Banka Müdürü",
+      "sentence": "Според новия закон, след първата година няма наказателна такса за предсрочно погасяване.",
+      "answer": "Отлично. Тогава бих искал да стартираме процедурата по одобрение.",
+      "options": [
+        "Не ми пука за закона.",
+        "Отлично. Тогава бих искал да стартираме процедурата по одобрение.",
+        "Искам да говоря с адвокат.",
+        "Защо първата година?"
+      ],
+      "hint": "Harika. O halde onay prosedürünü başlatmak isterim.",
+      "explanation": "\"Процедура по одобрение\" (Onay süreci) resmi işlemlerde kullanılan doğru sözcüktür.",
+      "optionsTr": [
+        "Kanun umurumda değil.",
+        "Harika. Daha sonra onay sürecini başlatmak istiyorum.",
+        "Bir avukatla konuşmak istiyorum.",
+        "Neden ilk yıl?"
+      ]
+    },
+    {
+      "id": "l4_bm_4",
+      "type": "dialogue",
+      "speaker": "Banka Müdürü",
+      "sentence": "Ще подготвя предварителния договор. Ще ви трябва и оценка на имота от независим лицензиран оценител.",
+      "answer": "Имате ли списък с препоръчани оценители, с които банката работи?",
+      "options": [
+        "Аз ще го оценя сам.",
+        "Какво е оценител?",
+        "Имате ли списък с препоръчани оценители, с които банката работи?",
+        "Не искам договор."
+      ],
+      "hint": "Bankanın çalıştığı önerilen değerleme uzmanlarının bir listesi var mı?",
+      "explanation": "\"Оценител\" (Değerleme uzmanı/Eksper) kelimesi konut kredisinde kilit bir rol oynar.",
+      "optionsTr": [
+        "Bunu kendim değerlendireceğim.",
+        "Değerleme uzmanı nedir?",
+        "Bankanın birlikte çalıştığı tavsiye edilen değerleme uzmanlarının bir listesi var mı?",
+        "Sözleşme istemiyorum."
+      ]
+    }
+  ]
+}

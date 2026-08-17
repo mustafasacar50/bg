@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 5: Banka Kredi Başvurusu",
+  "difficulty": 5,
+  "description": "Ev almak için bankadan ipotekli konut кредити çekmek istiyorsunuz.",
+  "questions": [
+    {
+      "id": "l5b_1",
+      "type": "dialogue",
+      "speaker": "Banka Memuru",
+      "sentence": "Добър ден. Как мога да ви бъда полезен днес?",
+      "answer": "Интересувам се от условията за отпускане на ипотечен кредит за покупка на жилище.",
+      "options": [
+        "Искам пари.",
+        "Интересувам се от условията за отпускане на ипотечен кредит за покупка на жилище.",
+        "Къде е банкоматът?",
+        "Искам да закрия сметката си."
+      ],
+      "hint": "Konut satın almak için ipotek kredisi verilme şartlarıyla ilgileniyorum.",
+      "explanation": "İpotekli konut kredisi şartlarını sormak istiyorsunuz.",
+      "optionsTr": [
+        "Para istiyorum.",
+        "Ev satın almak için ipotek kredisi verme koşullarıyla ilgileniyorum.",
+        "ATM nerede?",
+        "Hesabımı kapatmak istiyorum."
+      ]
+    },
+    {
+      "id": "l5b_2",
+      "type": "dialogue",
+      "speaker": "Banka Memuru",
+      "sentence": "Разбирам. Имате ли вече избран имот и на каква стойност е той?",
+      "answer": "Да, избрал съм апартамент на стойност 100 хиляди евро.",
+      "options": [
+        "Не.",
+        "Да, избрал съм апартамент на стойност 100 хиляди евро.",
+        "Много е скъпо.",
+        "Какво значение има?"
+      ],
+      "hint": "Evet, 100 bin Euro değerinde bir daire seçtim.",
+      "explanation": "Seçtiğiniz gayrimenkulün değerini belirtin.",
+      "optionsTr": [
+        "HAYIR.",
+        "Evet 100 bin euroluk bir daire seçtim.",
+        "Çok pahalı.",
+        "Ne önemi var?"
+      ]
+    },
+    {
+      "id": "l5b_3",
+      "type": "dialogue",
+      "speaker": "Banka Memuru",
+      "sentence": "Какъв процент самоучастие можете да осигурите?",
+      "answer": "Мога да осигуря 20 процента от сумата като първоначална вноска.",
+      "options": [
+        "Нямам пари.",
+        "Мога да осигуря 20 процента от сумата като първоначална вноска.",
+        "Всичко.",
+        "Не разбирам."
+      ],
+      "hint": "Peşinat olarak tutarın yüzde 20'sini sağlayabilirim.",
+      "explanation": "Peşinat miktarınızı belirtin.",
+      "optionsTr": [
+        "Hiç param yok.",
+        "Tutarın yüzde 20'sini peşinat olarak verebilirim.",
+        "Her şey.",
+        "Anlamıyorum."
+      ]
+    },
+    {
+      "id": "l5b_4",
+      "type": "dialogue",
+      "speaker": "Banka Memuru",
+      "sentence": "Това е напълно достатъчно. Ще трябва да попълните тези формуляри и да донесете удостоверение за доходите.",
+      "answer": "Благодаря за информацията. Ще подготвя документите и ще дойда отново.",
+      "options": [
+        "Не искам формуляри.",
+        "Благодаря за информацията. Ще подготвя документите и ще дойда отново.",
+        "Кога ще получа парите?",
+        "Чао."
+      ],
+      "hint": "Bilgi için teşekkürler. Belgeleri hazırlayıp tekrar geleceğim.",
+      "explanation": "Belgeleri hazırlayıp geleceğinizi söyleyin.",
+      "optionsTr": [
+        "Form istemiyorum.",
+        "Bilgi için teşekkürler. Evrakları hazırlayıp tekrar geleceğim.",
+        "Parayı ne zaman alacağım?",
+        "Hoşçakal."
+      ]
+    }
+  ]
+}

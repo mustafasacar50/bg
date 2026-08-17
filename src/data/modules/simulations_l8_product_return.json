@@ -1,0 +1,176 @@
+{
+  "title": "Seviye 8: Mağazada Ürün İadesi (Gergin)",
+  "difficulty": 8,
+  "description": "Bozuk çıkan bir ürünü iade etmek için mağaza yetkilisiyle zorlu ve hakkınızı aradığınız bir tartışma.",
+  "questionCount": 8,
+  "questions": [
+    {
+      "id": "l8_return_1",
+      "type": "dialogue",
+      "speaker": "Müşteri Hizmetleri",
+      "sentence": "Добър ден. Отдел 'Рекламации', с какво мога да помогна?",
+      "answer": "Добър ден. Вчера купих този лаптоп от вашия магазин, но той изобщо не се включва.",
+      "options": [
+        "Добър ден. Вчера купих този лаптоп от вашия магазин, но той изобщо не се включва.",
+        "Искам да купя хладилник.",
+        "Обичам да играя видео игри.",
+        "Къде е тоалетната?"
+      ],
+      "optionsTr": [
+        "İyi günler. Dün mağazanızdan bu dizüstü bilgisayarı aldım ama hiç açılmıyor.",
+        "Buzdolabı almak istiyorum.",
+        "Video oyunları oynamayı severim.",
+        "Tuvalet nerede?"
+      ],
+      "hint": "İyi günler. Dün mağazanızdan bu dizüstü bilgisayarı aldım ama hiç açılmıyor.",
+      "explanation": "Şikayet (рекламация) bölümündesiniz. Cihazın açılmadığını (не се включва) belirterek sorunu açıklamalisiniz."
+    },
+    {
+      "id": "l8_return_2",
+      "type": "dialogue",
+      "speaker": "Müşteri Hizmetleri",
+      "sentence": "Разбирам. Носите ли касовата бележка и оригиналната опаковка? Трябва да ги прегледам.",
+      "answer": "Да, заповядайте. Всичко е тук, заедно с гаранционната карта.",
+      "options": [
+        "Не, изхвърлих ги.",
+        "Да, заповядайте. Всичко е тук, заедно с гаранционната карта.",
+        "Може ли една чаша вода?",
+        "Часът е три."
+      ],
+      "optionsTr": [
+        "Hayır, onları attım.",
+        "Evet, buyrun. Garanti belgesiyle birlikte hepsi burada.",
+        "Bir bardak su alabilir miyim?",
+        "Saat üç."
+      ],
+      "hint": "Evet, buyrun. Garanti belgesiyle birlikte hepsi burada.",
+      "explanation": "Memur fiş (касова бележка) ve kutu (опаковка) istiyor. İade işlemlerinde garanti (гаранционна карта) şarttır."
+    },
+    {
+      "id": "l8_return_3",
+      "type": "dialogue",
+      "speaker": "Müşteri Hizmetleri",
+      "sentence": "(Оглежда лаптопа) Виждам една малка драскотина тук отстрани. Сигурни ли сте, че не сте го изпуснали?",
+      "answer": "Абсолютно сигурен съм! Отворих го внимателно вкъщи и той вече беше в това състояние.",
+      "options": [
+        "Може би кучето ми го е бутнало.",
+        "Абсолютно сигурен съм! Отворих го внимателно вкъщи и той вече беше в това състояние.",
+        "Да, падна ми от ръцете.",
+        "Обичам черния цвят."
+      ],
+      "optionsTr": [
+        "Belki köpeğim çarpmıştır.",
+        "Kesinlikle eminim! Evde dikkatlice açtım ve o zaten bu durumdaydı.",
+        "Evet, ellerimden düştü.",
+        "Siyah rengi severim."
+      ],
+      "hint": "Kesinlikle eminim! Evde dikkatlice açtım ve o zaten bu durumdaydı.",
+      "explanation": "Memur sizi suçluyor (kullanıcı hatası arıyor). Suçlamayı kesin bir dille (абсолютно сигурен) reddetmelisiniz."
+    },
+    {
+      "id": "l8_return_4",
+      "type": "dialogue",
+      "speaker": "Müşteri Hizmetleri",
+      "sentence": "Според нашата политика, при физически дефекти трябва да го изпратим в сервиз. Проверката отнема до 30 дни.",
+      "answer": "Това е недопустимо! Купих го вчера. По закон имам право на замяна или връщане на парите в 14-дневен срок.",
+      "options": [
+        "Добре, ще чакам 30 дни.",
+        "Това е недопустимо! Купих го вчера. По закон имам право на замяна или връщане на парите в 14-дневен срок.",
+        "Искам да купя друг лаптоп.",
+        "Къде е сервизът?"
+      ],
+      "optionsTr": [
+        "Tamam, 30 gün beklerim.",
+        "Bu kabul edilemez! Onu dün aldım. Kanunen 14 gün içinde değişim veya para iadesi hakkım var.",
+        "Başka bir dizüstü bilgisayar almak istiyorum.",
+        "Servis nerede?"
+      ],
+      "hint": "Bu kabul edilemez! Onu dün aldım. Kanunen 14 gün içinde değişim veya para iadesi hakkım var.",
+      "explanation": "30 gün bekletme taktiği. Tüketici haklarınızı savunmalısınız (закон, замяна, връщане на парите)."
+    },
+    {
+      "id": "l8_return_5",
+      "type": "dialogue",
+      "speaker": "Müşteri Hizmetleri",
+      "sentence": "Господине/Госпожо, успокойте се. 14-дневният срок важи само за онлайн покупки. Вие сте го купили от физически магазин.",
+      "answer": "Законът за защита на потребителите предвижда връщане при фабричен дефект. Искам да говоря с управителя!",
+      "options": [
+        "А, извинете, моя грешка.",
+        "Законът за защита на потребителите предвижда връщане при фабричен дефект. Искам да говоря с управителя!",
+        "Аз обичам да пазарувам онлайн.",
+        "Добре, ще се прибера вкъщи."
+      ],
+      "optionsTr": [
+        "Ah, affedersiniz, benim hatam.",
+        "Tüketici koruma kanunu üretim hatasında iade öngörür. Müdürle konuşmak istiyorum!",
+        "İnternetten alışveriş yapmayı severim.",
+        "Tamam, eve döneceğim."
+      ],
+      "hint": "Tüketici koruma kanunu üretim hatasında iade öngörür. Müdürle konuşmak istiyorum!",
+      "explanation": "Memur direnince daha üst bir merci (управител - müdür) talep edip fabrika hatasını (фабричен дефект) vurguluyorsunuz."
+    },
+    {
+      "id": "l8_return_6",
+      "type": "dialogue",
+      "speaker": "Mağaza Müdürü",
+      "sentence": "Добър ден, аз съм управителят. Колегата ми обясни ситуацията. Нека направим компромис.",
+      "answer": "Добър ден. Единственият компромис, който приемам, е нов, работещ лаптоп от същия модел.",
+      "options": [
+        "Добър ден. Единственият компромис, който приемам, е нов, работещ лаптоп от същия модел.",
+        "Искам безплатна мишка.",
+        "Не ме интересува, искам само кафе.",
+        "Вие сте много груби."
+      ],
+      "optionsTr": [
+        "İyi günler. Kabul edeceğim tek uzlaşma, aynı modelden yeni ve çalışan bir dizüstü bilgisayardır.",
+        "Bedava bir fare istiyorum.",
+        "Umurumda değil, sadece kahve istiyorum.",
+        "Siz çok kabasınız."
+      ],
+      "hint": "İyi günler. Kabul edeceğim tek uzlaşma, aynı modelden yeni ve çalışan bir dizüstü bilgisayardır.",
+      "explanation": "Müdür geldi. Kararlı durmalı ve tamir (сервиз) değil, doğrudan değişim (нов лаптоп) talep etmelisiniz."
+    },
+    {
+      "id": "l8_return_7",
+      "type": "dialogue",
+      "speaker": "Mağaza Müdürü",
+      "sentence": "Добре, тъй като сте наш редовен клиент, ще направя изключение. Ще ви го заменим с нов още сега.",
+      "answer": "Благодаря. Искам обаче да го отворим и тестваме пред вас, за да няма нови изненади.",
+      "options": [
+        "Благодаря. Искам обаче да го отворим и тестваме пред вас, за да няма нови изненади.",
+        "Не, искам парите си веднага.",
+        "Обичам да чета книги вечер.",
+        "Къде е касата?"
+      ],
+      "optionsTr": [
+        "Teşekkürler. Ancak yeni sürprizler olmaması için burada önünüzde açıp test etmek istiyorum.",
+        "Hayır, paramı hemen istiyorum.",
+        "Akşamları kitap okumayı severim.",
+        "Kasa nerede?"
+      ],
+      "hint": "Teşekkürler. Ancak yeni sürprizler olmaması için burada önünüzde açıp test etmek istiyorum.",
+      "explanation": "Müdür kabul etti ancak güven sarsıldı. Ürünün orada test edilmesini (тестваме) istemek akıllıca bir tüketici hareketidir."
+    },
+    {
+      "id": "l8_return_8",
+      "type": "dialogue",
+      "speaker": "Mağaza Müdürü",
+      "sentence": "Разбира се, това е добра идея. Заповядайте на щанда за тестове. Извиняваме се за причиненото неудобство.",
+      "answer": "Приемам извиненията ви. Радвам се, че решихме проблема професионално.",
+      "options": [
+        "Няма да пазарувам повече тук.",
+        "Приемам извиненията ви. Радвам се, че решихме проблема професионално.",
+        "Кога затваряте магазина?",
+        "Искам да говоря с шефа ви."
+      ],
+      "optionsTr": [
+        "Buradan bir daha alışveriş yapmayacağım.",
+        "Özürlerinizi kabul ediyorum. Sorunu profesyonelce çözdüğümüz için memnunum.",
+        "Mağazayı ne zaman kapatıyorsunuz?",
+        "Patronunuzla konuşmak istiyorum."
+      ],
+      "hint": "Özürlerinizi kabul ediyorum. Sorunu profesyonelce çözdüğümüz için memnunum.",
+      "explanation": "Kriz çözüldü. Özrü profesyonel bir şekilde kabul edip (приемам извиненията) diyaloğu nazikçe sonlandırıyorsunuz."
+    }
+  ]
+}

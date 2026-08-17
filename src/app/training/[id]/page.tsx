@@ -5,9 +5,12 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 
 import { HighlightableText } from '@/components/HighlightableText';
+import { AccentText } from '@/components/AccentText';
 import { DictionaryModal } from '@/components/DictionaryModal';
 import { RefreshCw } from 'lucide-react';
 import { useSRS } from '@/hooks/useSRS';
+import DialogueSimulator from '@/components/DialogueSimulator';
+import ReadingSimulator from '@/components/ReadingSimulator';
 
 interface Question {
   id: string;
@@ -17,6 +20,7 @@ interface Question {
   hint: string;
   explanation?: string;
   pairs?: Array<{ bg: string; tr: string }>;
+  options?: string[];
 }
 
 interface Student {
@@ -103,7 +107,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const [loading, setLoading] = useState(true);
   
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [activeQuestion, setActiveQuestion] = useState<{ id: string, type?: string, display: string, displayParts?: { trText: string | null, bgText: string | null }, expected: string, fitbTarget: string | null, hint: string, explanation?: string, originalHint: string, pairs?: Array<{ bg: string; tr: string }>, answer?: string } | null>(null);
+  const [activeQuestion, setActiveQuestion] = useState<{ id: string, type?: string, display: string, displayParts?: { trText: string | null, bgText: string | null }, expected: string, fitbTarget: string | null, hint: string, explanation?: string, originalHint: string, pairs?: Array<{ bg: string; tr: string }>, answer?: string, options?: string[] } | null>(null);
   const [userAnswer, setUserAnswer] = useState('');
   
   // Scramble states
@@ -149,6 +153,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   const adminSearchInputRef = useRef<HTMLInputElement>(null);
   const router = useRouter();
   const modProgressRef = useRef<HTMLElement | null>(null);
+  const prevQuestionRef = useRef<string | null>(null);
   
   // Admin Mode State
   const [adminMode, setAdminMode] = useState(false);
@@ -296,9 +301,10 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
     const fetchAll = async () => {
       try {
+        const ts = Date.now();
         const [modRes, progRes] = await Promise.all([
-          fetch(`/api/modules/${moduleId}?studentId=${student.id}`),
-          fetch(`/api/training-progress?studentId=${student.id}`)
+          fetch(`/api/modules/${moduleId}?studentId=${student.id}&_t=${ts}`),
+          fetch(`/api/training-progress?studentId=${student.id}&_t=${ts}`)
         ]);
 
         const modData = await modRes.json();
@@ -469,9 +475,9 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     let base = sessionQuestions;
 
     if (langFilter === 'bg') {
-      base = base.filter(q => q.hint.toLowerCase().includes('bulgarca'));
+      base = base.filter(q => q.type === 'dialogue' || q.type === 'reading' || (q.hint || q.explanation || '').toLowerCase().includes('bulgarca'));
     } else if (langFilter === 'tr') {
-      base = base.filter(q => q.hint.toLowerCase().includes('türkçe'));
+      base = base.filter(q => q.type === 'dialogue' || q.type === 'reading' || (q.hint || q.explanation || '').toLowerCase().includes('türkçe'));
     }
 
     if (!searchQuery.trim()) return base;
@@ -497,13 +503,15 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
 
   // Determine Active Grammar Cards for current question via API
   useEffect(() => {
+    let isSubscribed = true;
+    setActiveGrammarCards([]);
+
     if (activeQuestion && moduleId) {
       // ONLY send the actual sentence + answer — NOT explanation/hint
       const sentence = activeQuestion.sentence || activeQuestion.display || '';
       const answer = activeQuestion.expected || '';
       
       if (!sentence.trim() && !answer.trim()) {
-        setActiveGrammarCards([]);
         return;
       }
 
@@ -514,32 +522,45 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       })
       .then(res => res.json())
       .then(data => {
+        if (!isSubscribed) return;
         if (data.cards) {
           setActiveGrammarCards(data.cards);
-        } else {
-          setActiveGrammarCards([]);
         }
       })
       .catch(err => {
-        console.error("Error fetching grammar analysis:", err);
-        setActiveGrammarCards([]);
+        console.error('Failed to fetch grammar analysis', err);
+        if (isSubscribed) setActiveGrammarCards([]);
       });
-    } else {
-      setActiveGrammarCards([]);
     }
-  }, [activeQuestion?.sentence, moduleId]);
+
+    return () => {
+      isSubscribed = false;
+    };
+  }, [activeQuestion?.id, activeQuestion?.sentence, activeQuestion?.expected, moduleId]);
+
+  // Stable key for the current question — avoids depending on the entire filteredQuestions array
+  const currentQuestionId = filteredQuestions[currentIndex]?.id ?? null;
 
   // Set Active Question and Generate Fill-In-The-Blank (if applicable)
   useEffect(() => {
     const q = filteredQuestions[currentIndex];
     if (!q) {
       setActiveQuestion(null);
+      prevQuestionRef.current = null;
       return;
     }
     
-    // Sadece soru değiştiyse veya swap yapıldıysa state'i sıfırla
-    if (activeQuestion && activeQuestion.id === q.id && !isSwapped) {
+    // Build a composite key so the effect only re-processes when the question
+    // identity or the swap state actually changes.
+    const compositeKey = `${q.id}__${isSwapped}`;
+    if (prevQuestionRef.current === compositeKey) {
        return;
+    }
+    prevQuestionRef.current = compositeKey;
+    
+    if (q.type === 'dialogue' || q.type === 'reading') {
+      setActiveQuestion({ ...q });
+      return;
     }
     
     let expected = q.answer;
@@ -575,14 +596,14 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     const trMatch = cleanSentence.match(/Çeviriniz\s*\(Türkçesi:\s*(.*)\)/i);
     const bgMatch = cleanSentence.match(/Çeviriniz\s*\(Bulgarcası:\s*(.*)\)/i);
     if (trMatch) cleanSentence = trMatch[1];
-    else if (bgMatch) cleanSentence = cleanSentence[1];
+    else if (bgMatch) cleanSentence = bgMatch[1];
     else {
        cleanSentence = cleanSentence.replace(/^\(Türkçesi:\s*/i, '').replace(/^\(Bulgarcası:\s*/i, '').replace(/\)$/, '');
     }
     cleanSentence = cleanSentence.replace(/Kelimeleri sıraya dizerek cümleyi kurunuz:\s*/i, '');
 
     let fitbTarget = null;
-    const words = expected.split(' ').filter(w => w.trim());
+    const words = (expected || '').split(' ').filter(w => w.trim());
     let maskedWords: string[] | null = null;
     if (q.type === 'matching' && q.pairs) {
       const bgItems = q.pairs.map((p: {bg: string, tr: string}, i: number) => ({ id: i, text: p.bg })).sort(() => Math.random() - 0.5);
@@ -610,16 +631,35 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       setSelectedWords([]);
     }
     
-    const isExpectedBg = hint.toLowerCase().includes('bulgarca');
+    const isExpectedBg = (hint || '').toLowerCase().includes('bulgarca');
     setLayout(isExpectedBg ? 'bg' : 'tr');
     
+    let finalDisplaySentence = cleanSentence;
+    
+    // Eğer şıklı bir soruysa ve cevap cümlenin içindeyse (Boşluk doldurma mantığı)
+    if ((q.type === 'multiple_choice' || (q.options && q.options.length > 1)) && q.answer && cleanSentence.includes(q.answer) && q.answer.trim().length > 0) {
+       const escapeRegExp = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+       const regex = new RegExp(`\\b${escapeRegExp(q.answer)}\\b`, 'i');
+       if (regex.test(cleanSentence)) {
+          finalDisplaySentence = cleanSentence.replace(regex, '_____');
+       } else {
+          finalDisplaySentence = cleanSentence.replace(q.answer, '_____');
+       }
+       finalDisplaySentence = "Eksik kelimeyi seçiniz: " + finalDisplaySentence;
+    }
+    // Cümlede boşluk doldurma yoksa ve zaten 'çeviriniz' vb bir komut içermiyorsa başına "Çeviriniz: " ekle
+    else if (!maskedWords && q.type !== 'matching' && q.type !== 'scramble' && q.type !== 'dialogue' && q.type !== 'reading' && !cleanSentence.toLowerCase().includes('çevir') && !cleanSentence.toLowerCase().includes('kurunuz')) {
+       finalDisplaySentence = "Çeviriniz: " + cleanSentence;
+    }
+
     // Build displayParts for rendering colored parts
     const displayParts = {
-      trText: isExpectedBg ? cleanSentence : (maskedWords ? maskedWords.join(' ') : null),
-      bgText: isExpectedBg ? (maskedWords ? maskedWords.join(' ') : null) : cleanSentence,
+      trText: isExpectedBg ? finalDisplaySentence : (maskedWords ? maskedWords.join(' ') : null),
+      bgText: isExpectedBg ? (maskedWords ? maskedWords.join(' ') : null) : finalDisplaySentence,
     };
     
     setActiveQuestion({ 
+      ...q,
       id: q.id, 
       type: q.type, 
       display: cleanSentence, // fallback for scrambling
@@ -630,14 +670,16 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
       hint: '', // User requested to remove the hint row entirely from display
       explanation: q.explanation,
       originalHint: hint,
-      pairs: q.pairs
+      pairs: q.pairs,
+      options: q.options,
+      answer: q.answer
     });
     
     setFeedback('none');
     setUserAnswer('');
     
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [currentIndex, isSwapped, filteredQuestions]);
+  }, [currentQuestionId, isSwapped]);
 
 
   const pendingUpdates = useRef<Record<string, unknown>>({});
@@ -812,11 +854,40 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     }
   };
 
+  const handleSimulationCheck = (isCorrect: boolean, feedType: 'correct' | 'wrong' | 'typo', userInput: string) => {
+    if (!activeQuestion) return;
+    lastCheckTime.current = Date.now();
+    setUserAnswer(userInput);
+    setFeedback(feedType);
+    
+    const baseId = activeQuestion.id.split('_retry_')[0];
+
+    if (isCorrect) {
+      if (mode !== 'mistakes') {
+        const progKey = langFilter === 'bg' ? 'bgProgress' : langFilter === 'tr' ? 'trProgress' : 'allProgress';
+        syncProgress({ [progKey]: currentIndex + 1 });
+      }
+      processReview(baseId, 'question', true);
+      syncScore(1);
+    } else {
+      processReview(baseId, 'question', false);
+      syncScore(-0.2);
+      
+      const sessionMistakes = JSON.parse(localStorage.getItem(`session_mistakes_${moduleId}`) || '[]');
+      if (!sessionMistakes.includes(baseId)) {
+        sessionMistakes.push(baseId);
+        localStorage.setItem(`session_mistakes_${moduleId}`, JSON.stringify(sessionMistakes));
+      }
+      
+      // SRS Handles mistake pool through processReview
+    }
+  };
+
   const handleCheck = () => {
     if (!activeQuestion) return;
     lastCheckTime.current = Date.now();
     
-    const expectedStr = activeQuestion.fitbTarget || activeQuestion.expected;
+    const expectedStr = activeQuestion.fitbTarget || activeQuestion.expected || activeQuestion.answer;
     
     let currentAnswer = userAnswer;
     if (activeQuestion.type === 'scramble') {
@@ -825,6 +896,8 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     
     const normalizeString = (str: string) => {
       return str.trim()
+        .normalize('NFD') // Decompose combined characters
+        .replace(/[\u0300-\u036f]/g, '') // Remove all combining diacritical marks (like accents)
         .replace(/I/g, 'ı')
         .replace(/İ/g, 'i')
         .toLowerCase()
@@ -877,18 +950,6 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         // SRS natively handles pushing to the back of the queue by adjusting nextReviewDate.
         // We still add to mistakes pool for 'mistakes' mode to work.
         const qOriginal = filteredQuestions[currentIndex];
-        if (qOriginal && mode === 'all') {
-           setSessionQuestions(prev => {
-             const next = [...prev];
-             const originalIndex = next.findIndex(q => q.id === qOriginal.id);
-             if (originalIndex !== -1) {
-                const insertIdx = Math.min(originalIndex + 4, next.length);
-                // Duplicate it for spaced repetition
-                next.splice(insertIdx, 0, { ...qOriginal, id: qOriginal.id + '_retry_' + Date.now() });
-             }
-             return next;
-           });
-        }
         
         if (!mistakesPool.includes(activeQuestion.id) && !activeQuestion.id.includes('_retry_')) {
           saveMistakes([...mistakesPool, activeQuestion.id]);
@@ -917,17 +978,6 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
     // SRS natively handles pushing to the back of the queue by adjusting nextReviewDate.
     // We still add to mistakes pool for 'mistakes' mode to work.
     const qOriginal = filteredQuestions[currentIndex];
-    if (qOriginal && mode === 'all') {
-       setSessionQuestions(prev => {
-         const next = [...prev];
-         const originalIndex = next.findIndex(q => q.id === qOriginal.id);
-         if (originalIndex !== -1) {
-            const insertIdx = Math.min(originalIndex + 4, next.length);
-            next.splice(insertIdx, 0, { ...qOriginal, id: qOriginal.id + '_retry_' + Date.now() });
-         }
-         return next;
-       });
-    }
     
     if (!mistakesPool.includes(activeQuestion.id) && !activeQuestion.id.includes('_retry_')) {
       saveMistakes([...mistakesPool, activeQuestion.id]);
@@ -1031,8 +1081,10 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
   };
 
   // Global Keyboard Shortcuts
+  const handleGlobalKeyDownRef = useRef<(e: KeyboardEvent) => void>();
+
   useEffect(() => {
-    const handleGlobalKeyDown = (e: KeyboardEvent) => {
+    handleGlobalKeyDownRef.current = (e: KeyboardEvent) => {
       if (document.activeElement?.tagName === 'INPUT' || document.activeElement?.tagName === 'TEXTAREA') return;
 
       if (e.key === 'ArrowLeft') {
@@ -1048,19 +1100,17 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         } else {
           handleNext();
         }
-      } else if (e.key === ' ') {
-        e.preventDefault();
-        if (feedback === 'none') {
-          handleSkip();
-        } else {
-          handleNext();
-        }
       }
     };
+  });
 
-    window.addEventListener('keydown', handleGlobalKeyDown);
-    return () => window.removeEventListener('keydown', handleGlobalKeyDown);
-  }, [filteredQuestions.length, feedback, activeQuestion, mistakesPool, mode, searchQuery, sessionQuestions]);
+  useEffect(() => {
+    const listener = (e: KeyboardEvent) => {
+      if (handleGlobalKeyDownRef.current) handleGlobalKeyDownRef.current(e);
+    };
+    window.addEventListener('keydown', listener);
+    return () => window.removeEventListener('keydown', listener);
+  }, []);
 
   const editRefs = useRef<Record<string, HTMLTextAreaElement | null>>({
     sentence: null, answer: null, hint: null, explanation: null
@@ -1624,6 +1674,10 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                   </button>
                 </div>
               </div>
+            ) : activeQuestion?.type === 'dialogue' ? (
+              <DialogueSimulator question={activeQuestion} moduleDescription={data?.description} onCheck={handleSimulationCheck} onNext={handleNext} />
+            ) : activeQuestion?.type === 'reading' ? (
+              <ReadingSimulator question={activeQuestion} onCheck={handleSimulationCheck} onNext={handleNext} />
             ) : (
               <>
                 <div className="bg-white rounded-2xl shadow-sm border border-slate-200 p-5 mb-6 flex flex-col gap-3">
@@ -1757,6 +1811,36 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                     </div>
                   </div>
                 </div>
+              ) : activeQuestion?.type === 'multiple_choice' && !adminMode ? (
+                <div className="flex flex-col gap-3 sm:gap-4">
+                  {activeQuestion.options?.map((opt: string, idx: number) => {
+                    const isSelected = userAnswer === opt;
+                    const isCorrectOption = opt === activeQuestion.answer;
+                    
+                    let btnClass = "bg-white border-slate-200 text-slate-700 hover:border-indigo-200 hover:bg-slate-50";
+                    if (feedback === 'none') {
+                      if (isSelected) btnClass = "bg-indigo-100 border-indigo-400 text-indigo-700 scale-[1.02] ring-2 ring-indigo-200";
+                    } else if (feedback === 'correct') {
+                      if (isSelected) btnClass = "bg-green-100 border-green-500 text-green-800 scale-[1.02] ring-2 ring-green-200";
+                      else btnClass = "bg-white border-slate-200 text-slate-400 opacity-50";
+                    } else {
+                      if (isCorrectOption) btnClass = "bg-green-100 border-green-500 text-green-800 scale-[1.02] ring-2 ring-green-200";
+                      else if (isSelected) btnClass = "bg-red-100 border-red-400 text-red-800 scale-[1.02] ring-2 ring-red-200";
+                      else btnClass = "bg-white border-slate-200 text-slate-400 opacity-50";
+                    }
+
+                    return (
+                      <button
+                        key={idx}
+                        disabled={feedback !== 'none'}
+                        onClick={() => setUserAnswer(opt)}
+                        className={`w-full text-left px-5 py-4 rounded-2xl font-bold transition-all duration-200 border-2 shadow-sm ${btnClass} ${useCursiveBg ? 'bg-cursive text-xl' : 'text-base sm:text-lg'}`}
+                      >
+                        {opt}
+                      </button>
+                    );
+                  })}
+                </div>
               ) : activeQuestion?.type === 'scramble' && !adminMode ? (
                 <div className="flex flex-col gap-3 sm:gap-4">
                   {/* Selected Words Area (The Sentence) */}
@@ -1837,7 +1921,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                     <div className="mt-4 p-4 bg-indigo-50/50 rounded-2xl border border-indigo-100 shadow-sm relative group">
                       <div className="flex gap-2 items-start pr-8">
                         <span className="text-indigo-400 text-lg">💡</span>
-                        <p className="text-indigo-900 text-sm sm:text-base leading-relaxed">
+                        <p className="text-indigo-900 text-sm sm:text-base leading-relaxed whitespace-pre-line">
                           <HighlightableText text={activeQuestion.explanation} unknownWords={unknownWords} onWordClick={setDictionaryWord} />
                         </p>
                       </div>
@@ -1919,7 +2003,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                               className={`flex-1 flex items-center gap-2 flex-wrap ${hasContent ? 'cursor-pointer' : 'cursor-default'}`}
                             >
                               <span className="text-lg">{t.icon}</span>
-                              <span className={`font-black text-xl ${isLearned ? 'line-through decoration-2' : ''}`}>{card.bg}</span>
+                              <span className={`font-black text-xl ${isLearned ? 'line-through decoration-2' : ''}`}><AccentText text={card.bg} /></span>
                               <span className="opacity-75 text-sm font-medium">({card.tr})</span>
                               {card.pronunciation && <span className="opacity-50 text-xs italic">[{card.pronunciation}]</span>}
                             </div>
@@ -2101,11 +2185,28 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                                 </div>
                                 <div className="grid grid-cols-2 text-sm">
                                   {entries.map(([caseName, form], i) => {
+                                    if (typeof form === 'object' && form !== null) {
+                                      return (
+                                        <div key={caseName} className={`flex flex-col px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < entries.length - 2 ? 'border-b border-black/5' : ''}`}>
+                                          <span className="opacity-60 text-[11px] font-bold capitalize mb-1 border-b border-black/5 pb-1">{caseName}</span>
+                                          {Object.entries(form).map(([subKey, subVal]) => {
+                                            const isMatched = subVal === card.matchedForm;
+                                            return (
+                                              <div key={subKey} className="flex justify-between items-center text-xs mt-1">
+                                                <span className="opacity-50">{subKey}</span>
+                                                <span className={`font-black ${isMatched ? 'bg-black/10 rounded px-1' : ''}`}>{subVal as React.ReactNode}</span>
+                                              </div>
+                                            );
+                                          })}
+                                        </div>
+                                      );
+                                    }
+
                                     const isMatched = form === card.matchedForm;
                                     return (
                                       <div key={caseName} className={`flex justify-between items-center px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < entries.length - 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
                                         <span className="opacity-60 text-[11px] font-bold capitalize">{caseName}</span>
-                                        <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form}</span>
+                                        <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form as React.ReactNode}</span>
                                       </div>
                                     );
                                   })}
@@ -2175,11 +2276,28 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
                               </div>
                               <div className="grid grid-cols-2 text-sm">
                                 {entries.map(([gender, form], i) => {
+                                  if (typeof form === 'object' && form !== null) {
+                                    return (
+                                      <div key={gender} className={`flex flex-col px-3 py-2.5 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < entries.length - 2 ? 'border-b border-black/5' : ''}`}>
+                                        <span className="opacity-60 text-[11px] font-bold capitalize mb-1 border-b border-black/5 pb-1">{gender}</span>
+                                        {Object.entries(form).map(([subKey, subVal]) => {
+                                          const isMatched = subVal === card.matchedForm;
+                                          return (
+                                            <div key={subKey} className="flex justify-between items-center text-xs mt-1">
+                                              <span className="opacity-50">{subKey}</span>
+                                              <span className={`font-black ${isMatched ? 'bg-black/10 rounded px-1' : ''}`}>{subVal as React.ReactNode}</span>
+                                            </div>
+                                          );
+                                        })}
+                                      </div>
+                                    );
+                                  }
+
                                   const isMatched = form === card.matchedForm;
                                   return (
-                                    <div key={gender} className={`flex justify-between items-center px-3 py-2 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
+                                    <div key={gender} className={`flex justify-between items-center px-3 py-2 ${i % 2 === 0 ? 'border-r border-black/5' : ''} ${i < entries.length - 2 ? 'border-b border-black/5' : ''} ${isMatched ? 'bg-black/5' : ''}`}>
                                       <span className="opacity-60 text-xs font-bold capitalize">{gender}</span>
-                                      <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form}</span>
+                                      <span className={`font-black ${isMatched ? '' : 'opacity-80'}`}>{form as React.ReactNode}</span>
                                     </div>
                                   );
                                 })}
@@ -2244,7 +2362,7 @@ function TrainingContent({ moduleId }: { moduleId: string }) {
         </main>
 
       {/* Footer Area (Check Button & Feedback) */}
-      {!isFinished && (
+      {!isFinished && activeQuestion?.type !== 'dialogue' && activeQuestion?.type !== 'reading' && (
         <div className={`fixed bottom-0 left-0 right-0 z-[70] transition-colors duration-300 ${isEditingQuestion ? 'bg-indigo-50 border-t-2 border-indigo-200' : feedback === 'correct' ? 'bg-green-100 border-t-2 border-green-200' : feedback === 'typo' ? 'bg-amber-100 border-t-2 border-amber-200' : feedback === 'wrong' ? 'bg-red-100 border-t-2 border-red-200' : 'bg-white border-t border-slate-200 shadow-[0_-10px_40px_-15px_rgba(0,0,0,0.1)]'}`}>
           {/* Virtual Keyboard (Moved ABOVE the Action Buttons) */}
           <div 

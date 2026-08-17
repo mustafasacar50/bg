@@ -1,0 +1,5081 @@
+{
+  "id": "vocab_ders_8",
+  "title": "Ders 8 - Kyde zhiveyesh? (Nerede Yasiyorsun?)",
+  "description": "Ev, yurt, odalar, esyalar, fiil cekim gruplari, edatlar ve Albena + Diana metinleri.",
+  "words": [
+    {
+      "word": "отивам",
+      "translation": "gitmek",
+      "type": "fiil",
+      "notes": "Bir yöne doğru hareket etmek.",
+      "conjugation": {
+        "present": {
+          "аз": "отивам",
+          "ти": "отиваш",
+          "той/тя/то": "отива",
+          "ние": "отиваме",
+          "вие": "отивате",
+          "те": "отиват"
+        },
+        "past": {
+          "аз": "отидох",
+          "ти": "отиде",
+          "той/тя/то": "отиде",
+          "ние": "отидохме",
+          "вие": "отидохте",
+          "те": "отидоха"
+        },
+        "future": {
+          "аз": "ще отида",
+          "ти": "ще отидеш",
+          "той/тя/то": "ще отиде",
+          "ние": "ще отидем",
+          "вие": "ще отидете",
+          "те": "ще отидат"
+        },
+        "imperative": {
+          "ти": "отиди",
+          "вие": "отидете"
+        }
+      },
+      "examples": [
+        {
+          "bg": "Къде отиваш?",
+          "tr": "Nereye gidiyorsun?"
+        },
+        {
+          "bg": "Отивам на лекция.",
+          "tr": "Derse gidiyorum."
+        }
+      ],
+      "bg": "отивам",
+      "tr": "gitmek"
+    },
+    {
+      "word": "живея",
+      "translation": "yaşamak, ikamet etmek",
+      "type": "fiil",
+      "notes": "Bir yerde oturmak anlamında kullanılır.",
+      "conjugation": {
+        "present": {
+          "аз": "живея",
+          "ти": "живееш",
+          "той/тя/то": "живее",
+          "ние": "живеем",
+          "вие": "живеете",
+          "те": "живеят"
+        },
+        "past": {
+          "аз": "живях",
+          "ти": "живя",
+          "той/тя/то": "живя",
+          "ние": "живяхме",
+          "вие": "живяхте",
+          "те": "живяха"
+        },
+        "future": {
+          "аз": "ще живея",
+          "ти": "ще живееш",
+          "той/тя/то": "ще живее",
+          "ние": "ще живеем",
+          "вие": "ще живеете",
+          "те": "ще живеят"
+        },
+        "imperative": {
+          "ти": "живей",
+          "вие": "живейте"
+        }
+      },
+      "examples": [
+        {
+          "bg": "Къде живееш?",
+          "tr": "Nerede yaşıyorsun?"
+        },
+        {
+          "bg": "Аз живея в България.",
+          "tr": "Ben Bulgaristan'da yaşıyorum."
+        }
+      ],
+      "bg": "живея",
+      "tr": "yaşamak, ikamet etmek"
+    },
+    {
+      "word": "прибирам се",
+      "translation": "eve dönmek",
+      "type": "fiil",
+      "notes": "Dönüşlü fiildir (се ile kullanılır).",
+      "conjugation": {
+        "present": {
+          "аз": "се прибирам",
+          "ти": "се прибираш",
+          "той/тя/то": "се прибира",
+          "ние": "се прибираме",
+          "вие": "се прибирате",
+          "те": "се прибират"
+        },
+        "past": {
+          "аз": "се прибрах",
+          "ти": "се прибра",
+          "той/тя/то": "се прибра",
+          "ние": "се прибрахме",
+          "вие": "се прибрахте",
+          "те": "се прибраха"
+        },
+        "future": {
+          "аз": "ще се прибера",
+          "ти": "ще се прибереш",
+          "той/тя/то": "ще се прибере",
+          "ние": "ще се приберем",
+          "вие": "ще се приберете",
+          "те": "ще се приберат"
+        },
+        "imperative": {
+          "ти": "прибери се",
+          "вие": "приберете се"
+        }
+      },
+      "examples": [
+        {
+          "bg": "Прибирам се в общежитието.",
+          "tr": "Yurda dönüyorum."
+        },
+        {
+          "bg": "Той се прибира късно.",
+          "tr": "O eve geç dönüyor."
+        }
+      ],
+      "bg": "прибирам се",
+      "tr": "eve dönmek"
+    },
+    {
+      "word": "нямам",
+      "translation": "sahip olmamak, yok",
+      "type": "fiil",
+      "notes": "Olumsuz sahiplik bildirir.",
+      "conjugation": {
+        "present": {
+          "аз": "нямам",
+          "ти": "нямаш",
+          "той/тя/то": "няма",
+          "ние": "нямаме",
+          "вие": "нямате",
+          "те": "нямат"
+        },
+        "past": {
+          "аз": "нямах",
+          "ти": "нямаше",
+          "той/тя/то": "нямаше",
+          "ние": "нямахме",
+          "вие": "нямахте",
+          "те": "нямаха"
+        },
+        "future": {
+          "аз": "няма да имам",
+          "ти": "няма да имаш",
+          "той/тя/то": "няма да има",
+          "ние": "няма да имаме",
+          "вие": "няма да имате",
+          "те": "няма да имат"
+        },
+        "imperative": {
+          "ти": "-",
+          "вие": "-"
+        }
+      },
+      "examples": [
+        {
+          "bg": "Днес нямаме лекция.",
+          "tr": "Bugün dersimiz yok."
+        },
+        {
+          "bg": "Аз още нямам жилище.",
+          "tr": "Henüz kendi evim yok."
+        }
+      ],
+      "bg": "нямам",
+      "tr": "sahip olmamak, yok"
+    },
+    {
+      "word": "имам",
+      "translation": "sahip olmak, var",
+      "type": "fiil",
+      "notes": "Sahiplik veya varlık bildirir.",
+      "conjugation": {
+        "present": {
+          "аз": "имам",
+          "ти": "имаш",
+          "той/тя/то": "има",
+          "ние": "имаме",
+          "вие": "имате",
+          "те": "имат"
+        },
+        "past": {
+          "аз": "имах",
+          "ти": "имаше",
+          "той/тя/то": "имаше",
+          "ние": "имахме",
+          "вие": "имахте",
+          "те": "имаха"
+        },
+        "future": {
+          "аз": "ще имам",
+          "ти": "ще имаш",
+          "той/тя/то": "ще има",
+          "ние": "ще имаме",
+          "вие": "ще имате",
+          "те": "ще имат"
+        },
+        "imperative": {
+          "ти": "имай",
+          "вие": "имайте"
+        }
+      },
+      "examples": [
+        {
+          "bg": "Имам две съквартирантки.",
+          "tr": "İki oda arkadaşım var."
+        },
+        {
+          "bg": "Имаме голяма къща.",
+          "tr": "Büyük bir evimiz var."
+        }
+      ],
+      "bg": "имам",
+      "tr": "sahip olmak, var"
+    },
+    {
+      "word": "пера",
+      "translation": "yıkamak (çamaşır)",
+      "type": "fiil",
+      "notes": "Kıyafet veya çamaşır yıkamak için kullanılır.",
+      "conjugation": {
+        "present": {
+          "аз": "пера",
+          "ти": "переш",
+          "той/тя/то": "пере",
+          "ние": "перем",
+          "вие": "перете",
+          "те": "перат"
+        },
+        "past": {
+          "аз": "прах",
+          "ти": "пра",
+          "той/тя/то": "пра",
+          "ние": "прахме",
+          "вие": "прахте",
+          "те": "праха"
+        },
+        "future": {
+          "аз": "ще изпера",
+          "ти": "ще изпереш",
+          "той/тя/то": "ще изпере",
+          "ние": "ще изперем",
+          "вие": "ще изперете",
+          "те": "ще изперат"
+        },
+        "imperative": {
+          "ти": "пери",
+          "вие": "перете"
+        }
+      },
+      "examples": [
+        {
+          "bg": "Сами ли си го перете?",
+          "tr": "Kendiniz mi yıkıyorsunuz?"
+        },
+        {
+          "bg": "Тя пере дрехите.",
+          "tr": "O kıyafetleri yıkıyor."
+        }
+      ],
+      "bg": "пера",
+      "tr": "yıkamak (çamaşır)"
+    },
+    {
+      "word": "сменям",
+      "translation": "değiştirmek",
+      "type": "fiil",
+      "notes": "Bir şeyi yenisiyle veya başkasıyla değiştirmek.",
+      "conjugation": {
+        "present": {
+          "аз": "сменям",
+          "ти": "сменяш",
+          "той/тя/то": "сменя",
+          "ние": "сменяме",
+          "вие": "сменяте",
+          "те": "сменят"
+        },
+        "past": {
+          "аз": "смених",
+          "ти": "смени",
+          "той/тя/то": "смени",
+          "ние": "сменихме",
+          "вие": "сменихте",
+          "те": "смениха"
+        },
+        "future": {
+          "аз": "ще сменя",
+          "ти": "ще смениш",
+          "той/тя/то": "ще смени",
+          "ние": "ще сменим",
+          "вие": "ще смените",
+          "те": "ще сменят"
+        },
+        "imperative": {
+          "ти": "смени",
+          "вие": "сменете"
+        }
+      },
+      "examples": [
+        {
+          "bg": "Всяка седмица го сменяме.",
+          "tr": "Her hafta onu değiştiriyoruz."
+        },
+        {
+          "bg": "Трябва да сменя батерията.",
+          "tr": "Pili değiştirmeliyim."
+        }
+      ],
+      "bg": "сменям",
+      "tr": "değiştirmek"
+    },
+    {
+      "word": "давам",
+      "translation": "vermek",
+      "type": "fiil",
+      "notes": "Birine bir şey vermek.",
+      "conjugation": {
+        "present": {
+          "аз": "давам",
+          "ти": "даваш",
+          "той/тя/то": "дава",
+          "ние": "даваме",
+          "вие": "давате",
+          "те": "дават"
+        },
+        "past": {
+          "аз": "дадох",
+          "ти": "даде",
+          "той/тя/то": "даде",
+          "ние": "дадохме",
+          "вие": "дадохте",
+          "те": "дадоха"
+        },
+        "future": {
+          "аз": "ще дам",
+          "ти": "ще дадеш",
+          "той/тя/то": "ще даде",
+          "ние": "ще дадем",
+          "вие": "ще дадете",
+          "те": "ще дадат"
+        },
+        "imperative": {
+          "ти": "дай",
+          "вие": "дайте"
+        }
+      },
+      "examples": [
+        {
+          "bg": "Даваме мръсното бельо.",
+          "tr": "Kirli çamaşırı veriyoruz."
+        },
+        {
+          "bg": "Дай ми книгата.",
+          "tr": "Kitabı bana ver."
+        }
+      ],
+      "bg": "давам",
+      "tr": "vermek"
+    },
+    {
+      "word": "вземам",
+      "translation": "almak",
+      "type": "fiil",
+      "notes": "Bir şeyi almak.",
+      "conjugation": {
+        "present": {
+          "аз": "вземам",
+          "ти": "вземаш",
+          "той/тя/то": "взема",
+          "ние": "вземаме",
+          "вие": "вземате",
+          "те": "вземат"
+        },
+        "past": {
+          "аз": "взех",
+          "ти": "взе",
+          "той/тя/то": "взе",
+          "ние": "взехме",
+          "вие": "взехте",
+          "те": "взеха"
+        },
+        "future": {
+          "аз": "ще взема",
+          "ти": "ще вземеш",
+          "той/тя/то": "ще вземе",
+          "ние": "ще вземем",
+          "вие": "ще вземете",
+          "те": "ще вземат"
+        },
+        "imperative": {
+          "ти": "вземи",
+          "вие": "вземете"
+        }
+      },
+      "examples": [
+        {
+          "bg": "Вземаме чисто.",
+          "tr": "Temizini alıyoruz."
+        },
+        {
+          "bg": "Тя взема чантата.",
+          "tr": "O çantayı alıyor."
+        }
+      ],
+      "bg": "вземам",
+      "tr": "almak"
+    },
+    {
+      "word": "искам",
+      "translation": "istemek",
+      "type": "fiil",
+      "notes": "Arzu etmek.",
+      "conjugation": {
+        "present": {
+          "аз": "искам",
+          "ти": "искаш",
+          "той/тя/то": "иска",
+          "ние": "искаме",
+          "вие": "искате",
+          "те": "искат"
+        },
+        "past": {
+          "аз": "исках",
+          "ти": "искаше",
+          "той/тя/то": "искаше",
+          "ние": "искахме",
+          "вие": "искахте",
+          "те": "искаха"
+        },
+        "future": {
+          "аз": "ще искам",
+          "ти": "ще искаш",
+          "той/тя/то": "ще иска",
+          "ние": "ще искаме",
+          "вие": "ще искате",
+          "те": "ще искат"
+        },
+        "imperative": {
+          "ти": "искай",
+          "вие": "искайте"
+        }
+      },
+      "examples": [
+        {
+          "bg": "Искам да купя нова покривка.",
+          "tr": "Yeni bir örtü almak istiyorum."
+        },
+        {
+          "bg": "Искаш ли вода?",
+          "tr": "Su ister misin?"
+        }
+      ],
+      "bg": "искам",
+      "tr": "istemek"
+    },
+    {
+      "word": "купя",
+      "translation": "satın almak",
+      "type": "fiil",
+      "notes": "Bitmişlik (perfective) fiilidir.",
+      "conjugation": {
+        "present": {
+          "аз": "купя",
+          "ти": "купиш",
+          "той/тя/то": "купи",
+          "ние": "купим",
+          "вие": "купите",
+          "те": "купят"
+        },
+        "past": {
+          "аз": "купих",
+          "ти": "купи",
+          "той/тя/то": "купи",
+          "ние": "купихме",
+          "вие": "купихте",
+          "те": "купиха"
+        },
+        "future": {
+          "аз": "ще купя",
+          "ти": "ще купиш",
+          "той/тя/то": "ще купи",
+          "ние": "ще купим",
+          "вие": "ще купите",
+          "те": "ще купят"
+        },
+        "imperative": {
+          "ти": "купи",
+          "вие": "купете"
+        }
+      },
+      "examples": [
+        {
+          "bg": "Искам да купя нова покривка.",
+          "tr": "Yeni bir örtü almak istiyorum."
+        },
+        {
+          "bg": "Ще купя хляб.",
+          "tr": "Ekmek alacağım."
+        }
+      ],
+      "bg": "купя",
+      "tr": "satın almak"
+    },
+    {
+      "word": "харесвам",
+      "translation": "beğenmek, hoşlanmak",
+      "type": "fiil",
+      "notes": "Beğeni belirtir.",
+      "conjugation": {
+        "present": {
+          "аз": "харесвам",
+          "ти": "харесваш",
+          "той/тя/то": "харесва",
+          "ние": "харесваме",
+          "вие": "харесвате",
+          "те": "харесват"
+        },
+        "past": {
+          "аз": "харесах",
+          "ти": "хареса",
+          "той/тя/то": "хареса",
+          "ние": "харесахме",
+          "вие": "харесахте",
+          "те": "харесаха"
+        },
+        "future": {
+          "аз": "ще харесам",
+          "ти": "ще харесаш",
+          "той/тя/то": "ще хареса",
+          "ние": "ще харесаме",
+          "вие": "ще харесате",
+          "те": "ще харесат"
+        },
+        "imperative": {
+          "ти": "харесай",
+          "вие": "харесайте"
+        }
+      },
+      "examples": [
+        {
+          "bg": "Това не ми харесва.",
+          "tr": "Bu hoşuma gitmiyor."
+        },
+        {
+          "bg": "Харесвам тази стая.",
+          "tr": "Bu odayı beğeniyorum."
+        }
+      ],
+      "bg": "харесвам",
+      "tr": "beğenmek, hoşlanmak"
+    },
+    {
+      "word": "обзавеждам",
+      "translation": "döşemek (eşya ile)",
+      "type": "fiil",
+      "notes": "Bir odayı mobilyalarla donatmak.",
+      "conjugation": {
+        "present": {
+          "аз": "обзавеждам",
+          "ти": "обзавеждаш",
+          "той/тя/то": "обзавежда",
+          "ние": "обзавеждаме",
+          "вие": "обзавеждате",
+          "те": "обзавеждат"
+        },
+        "past": {
+          "аз": "обзаведох",
+          "ти": "обзаведе",
+          "той/тя/то": "обзаведе",
+          "ние": "обзаведохме",
+          "вие": "обзаведохте",
+          "те": "обзаведоха"
+        },
+        "future": {
+          "аз": "ще обзаведа",
+          "ти": "ще обзаведеш",
+          "той/тя/то": "ще обзаведе",
+          "ние": "ще обзаведем",
+          "вие": "ще обзаведете",
+          "те": "ще обзаведат"
+        },
+        "imperative": {
+          "ти": "обзаведи",
+          "вие": "обзаведете"
+        }
+      },
+      "examples": [
+        {
+          "bg": "Обзавеждам стаята си.",
+          "tr": "Odamı döşüyorum."
+        },
+        {
+          "bg": "Те обзавеждат апартамента.",
+          "tr": "Onlar daireyi döşüyorlar."
+        }
+      ],
+      "bg": "обзавеждам",
+      "tr": "döşemek (eşya ile)"
+    },
+    {
+      "word": "общежитие",
+      "translation": "yurt (öğrenci)",
+      "type": "isim",
+      "notes": "Orta cins isimdir.",
+      "nounForms": {
+        "tekil": "общежитие",
+        "çoğul": "общежития"
+      },
+      "examples": [
+        {
+          "bg": "Живея в общежитие.",
+          "tr": "Yurtta yaşıyorum."
+        },
+        {
+          "bg": "Общежитието е чисто.",
+          "tr": "Yurt temizdir."
+        }
+      ],
+      "bg": "общежитие",
+      "tr": "yurt (öğrenci)"
+    },
+    {
+      "word": "лекция",
+      "translation": "ders (üniversite)",
+      "type": "isim",
+      "notes": "Dişil isimdir.",
+      "nounForms": {
+        "tekil": "лекция",
+        "çoğul": "лекции"
+      },
+      "examples": [
+        {
+          "bg": "Днес нямаме лекция.",
+          "tr": "Bugün dersimiz yok."
+        },
+        {
+          "bg": "Лекцията е дълга.",
+          "tr": "Ders uzundur."
+        }
+      ],
+      "bg": "лекция",
+      "tr": "ders (üniversite)"
+    },
+    {
+      "word": "блок",
+      "translation": "bina bloğu",
+      "type": "isim",
+      "notes": "Eril isimdir.",
+      "nounForms": {
+        "tekil": "блок",
+        "çoğul": "блокове"
+      },
+      "examples": [
+        {
+          "bg": "В кой блок си?",
+          "tr": "Hangi bloktasın?"
+        },
+        {
+          "bg": "Блокът е нов.",
+          "tr": "Blok yenidir."
+        }
+      ],
+      "bg": "блок",
+      "tr": "bina bloğu"
+    },
+    {
+      "word": "етаж",
+      "translation": "kat",
+      "type": "isim",
+      "notes": "Eril isimdir.",
+      "nounForms": {
+        "tekil": "етаж",
+        "çoğul": "етажи"
+      },
+      "examples": [
+        {
+          "bg": "Стаята ти на кой етаж е?",
+          "tr": "Odan kaçıncı katta?"
+        },
+        {
+          "bg": "На петия етаж.",
+          "tr": "Beşinci katta."
+        }
+      ],
+      "bg": "етаж",
+      "tr": "kat"
+    },
+    {
+      "word": "стая",
+      "translation": "oda",
+      "type": "isim",
+      "notes": "Dişil isimdir.",
+      "nounForms": {
+        "tekil": "стая",
+        "çoğul": "стаи"
+      },
+      "examples": [
+        {
+          "bg": "Стаята е много хубава.",
+          "tr": "Oda çok güzel."
+        },
+        {
+          "bg": "Всяка стая има баня.",
+          "tr": "Her odanın banyosu var."
+        }
+      ],
+      "bg": "стая",
+      "tr": "oda"
+    },
+    {
+      "word": "мебели",
+      "translation": "mobilyalar",
+      "type": "isim",
+      "notes": "Çoğul kullanılır, tekili мебел (dişil).",
+      "nounForms": {
+        "tekil": "мебел",
+        "çoğul": "мебели"
+      },
+      "examples": [
+        {
+          "bg": "Има най-необходимите мебели.",
+          "tr": "En gerekli mobilyalar var."
+        },
+        {
+          "bg": "Мебелите са нови.",
+          "tr": "Mobilyalar yenidir."
+        }
+      ],
+      "bg": "мебели",
+      "tr": "mobilyalar"
+    },
+    {
+      "word": "легло",
+      "translation": "yatak",
+      "type": "isim",
+      "notes": "Orta cins isimdir.",
+      "nounForms": {
+        "tekil": "легло",
+        "çoğul": "легла"
+      },
+      "examples": [
+        {
+          "bg": "В стаята има легло.",
+          "tr": "Odada yatak var."
+        },
+        {
+          "bg": "Леглото е удобно.",
+          "tr": "Yatak rahattır."
+        }
+      ],
+      "bg": "легло",
+      "tr": "yatak"
+    },
+    {
+      "word": "нощно шкафче",
+      "translation": "komodin",
+      "type": "isim",
+      "notes": "Orta cins isim tamlamasıdır.",
+      "nounForms": {
+        "tekil": "нощно шкафче",
+        "çoğul": "нощни шкафчета"
+      },
+      "examples": [
+        {
+          "bg": "До леглото има нощно шкафче.",
+          "tr": "Yatağın yanında komodin var."
+        },
+        {
+          "bg": "Нощното шкафче е малко.",
+          "tr": "Komodin küçüktür."
+        }
+      ],
+      "bg": "нощно шкафче",
+      "tr": "komodin"
+    },
+    {
+      "word": "бюро",
+      "translation": "çalışma masası",
+      "type": "isim",
+      "notes": "Orta cins isimdir.",
+      "nounForms": {
+        "tekil": "бюро",
+        "çoğul": "бюра"
+      },
+      "examples": [
+        {
+          "bg": "Аз уча на бюрото.",
+          "tr": "Çalışma masasında ders çalışıyorum."
+        },
+        {
+          "bg": "Бюрото е голямо.",
+          "tr": "Masa büyüktür."
+        }
+      ],
+      "bg": "бюро",
+      "tr": "çalışma masası"
+    },
+    {
+      "word": "гардероб",
+      "translation": "gardırop",
+      "type": "isim",
+      "notes": "Eril isimdir.",
+      "nounForms": {
+        "tekil": "гардероб",
+        "çoğul": "гардероби"
+      },
+      "examples": [
+        {
+          "bg": "Дрехите са в гардероба.",
+          "tr": "Kıyafetler gardıroptadır."
+        },
+        {
+          "bg": "Гардеробът е пълен.",
+          "tr": "Gardırop doludur."
+        }
+      ],
+      "bg": "гардероб",
+      "tr": "gardırop"
+    },
+    {
+      "word": "етажерка",
+      "translation": "kitaplık rafı",
+      "type": "isim",
+      "notes": "Dişil isimdir.",
+      "nounForms": {
+        "tekil": "етажерка",
+        "çoğul": "етажерки"
+      },
+      "examples": [
+        {
+          "bg": "Книгите са на етажерката.",
+          "tr": "Kitaplar raftadır."
+        },
+        {
+          "bg": "Купих нова етажерка.",
+          "tr": "Yeni bir raf aldım."
+        }
+      ],
+      "bg": "етажерка",
+      "tr": "kitaplık rafı"
+    },
+    {
+      "word": "хладилник",
+      "translation": "buzdolabı",
+      "type": "isim",
+      "notes": "Eril isimdir.",
+      "nounForms": {
+        "tekil": "хладилник",
+        "çoğul": "хладилници"
+      },
+      "examples": [
+        {
+          "bg": "В стаята има хладилник.",
+          "tr": "Odada buzdolabı var."
+        },
+        {
+          "bg": "Хладилникът е празен.",
+          "tr": "Buzdolabı boştur."
+        }
+      ],
+      "bg": "хладилник",
+      "tr": "buzdolabı"
+    },
+    {
+      "word": "баня",
+      "translation": "banyo",
+      "type": "isim",
+      "notes": "Dişil isimdir.",
+      "nounForms": {
+        "tekil": "баня",
+        "çoğul": "бани"
+      },
+      "examples": [
+        {
+          "bg": "Към всяка стая има баня.",
+          "tr": "Her odaya ait banyo var."
+        },
+        {
+          "bg": "Банята е чиста.",
+          "tr": "Banyo temizdir."
+        }
+      ],
+      "bg": "баня",
+      "tr": "banyo"
+    },
+    {
+      "word": "тоалетна",
+      "translation": "tuvalet",
+      "type": "isim",
+      "notes": "Dişil isimdir.",
+      "nounForms": {
+        "tekil": "тоалетна",
+        "çoğul": "тоалетни"
+      },
+      "examples": [
+        {
+          "bg": "Обща тоалетна ли имате?",
+          "tr": "Ortak tuvaletiniz mi var?"
+        },
+        {
+          "bg": "Тоалетната е там.",
+          "tr": "Tuvalet oradadır."
+        }
+      ],
+      "bg": "тоалетна",
+      "tr": "tuvalet"
+    },
+    {
+      "word": "съквартирантка",
+      "translation": "oda arkadaşı (kadın)",
+      "type": "isim",
+      "notes": "Canlı, meslek/kişi ismidir.",
+      "nounForms": {
+        "eril": "съквартирант",
+        "диşil": "съквартирантка",
+        "çoğul": "съквартиранти/съквартирантки"
+      },
+      "examples": [
+        {
+          "bg": "Имам две съквартирантки.",
+          "tr": "İki oda arkadaşım var."
+        },
+        {
+          "bg": "Съквартирантката ми е мила.",
+          "tr": "Oda arkadaşım naziktir."
+        }
+      ],
+      "bg": "съквартирантка",
+      "tr": "oda arkadaşı (kadın)"
+    },
+    {
+      "word": "домакинка",
+      "translation": "görevli kadın / ev hanımı",
+      "type": "isim",
+      "notes": "Canlı, kişi ismidir.",
+      "nounForms": {
+        "eril": "домакин",
+        "диşil": "домакинка",
+        "çoğul": "домакини/домакинки"
+      },
+      "examples": [
+        {
+          "bg": "Сменяме го при домакинката.",
+          "tr": "Görevli kadında değiştiriyoruz."
+        },
+        {
+          "bg": "Домакинката е заета.",
+          "tr": "Görevli kadın meşguldür."
+        }
+      ],
+      "bg": "домакинка",
+      "tr": "görevli kadın / ev hanımı"
+    },
+    {
+      "word": "спално бельо",
+      "translation": "nevresim takımı",
+      "type": "isim",
+      "notes": "Orta cins isim tamlamasıdır.",
+      "nounForms": {
+        "tekil": "спално бельо",
+        "çoğul": "спални беля"
+      },
+      "examples": [
+        {
+          "bg": "Даваме мръсното спално бельо.",
+          "tr": "Kirli nevresimi veriyoruz."
+        },
+        {
+          "bg": "Трябва ново спално бельо.",
+          "tr": "Yeni nevresim lazım."
+        }
+      ],
+      "bg": "спално бельо",
+      "tr": "nevresim takımı"
+    },
+    {
+      "word": "покривка",
+      "translation": "örtü",
+      "type": "isim",
+      "notes": "Dişil isimdir.",
+      "nounForms": {
+        "tekil": "покривка",
+        "çoğul": "покривки"
+      },
+      "examples": [
+        {
+          "bg": "Искам нова покривка за масата.",
+          "tr": "Masa için yeni örtü istiyorum."
+        },
+        {
+          "bg": "Покривката е бяла.",
+          "tr": "Örtü beyazdır."
+        }
+      ],
+      "bg": "покривка",
+      "tr": "örtü"
+    },
+    {
+      "word": "комплект",
+      "translation": "takım",
+      "type": "isim",
+      "notes": "Eril isimdir.",
+      "nounForms": {
+        "tekil": "комплект",
+        "çoğul": "комплекти"
+      },
+      "examples": [
+        {
+          "bg": "Купих един комплект спално бельо.",
+          "tr": "Bir nevresim takımı aldım."
+        },
+        {
+          "bg": "Комплектът е скъп.",
+          "tr": "Takım pahalıdır."
+        }
+      ],
+      "bg": "комплект",
+      "tr": "takım"
+    },
+    {
+      "word": "трапезария",
+      "translation": "yemek odası",
+      "type": "isim",
+      "notes": "Dişil isimdir.",
+      "nounForms": {
+        "tekil": "трапезария",
+        "çoğul": "трапезарии"
+      },
+      "examples": [
+        {
+          "bg": "Ядем в трапезарията.",
+          "tr": "Yemek odasında yiyoruz."
+        },
+        {
+          "bg": "Има трапезария на първия етаж.",
+          "tr": "Birinci katta yemek odası var."
+        }
+      ],
+      "bg": "трапезария",
+      "tr": "yemek odası"
+    },
+    {
+      "word": "жилище",
+      "translation": "mesken, konut",
+      "type": "isim",
+      "notes": "Orta cins isimdir.",
+      "nounForms": {
+        "tekil": "жилище",
+        "çoğul": "жилища"
+      },
+      "examples": [
+        {
+          "bg": "Аз още нямам мое жилище.",
+          "tr": "Henüz kendi evim yok."
+        },
+        {
+          "bg": "Жилището е голямо.",
+          "tr": "Konut büyüktür."
+        }
+      ],
+      "bg": "жилище",
+      "tr": "mesken, konut"
+    },
+    {
+      "word": "апартамент",
+      "translation": "daire",
+      "type": "isim",
+      "notes": "Eril isimdir.",
+      "nounForms": {
+        "tekil": "апартамент",
+        "çoğul": "апартаменти"
+      },
+      "examples": [
+        {
+          "bg": "В апартамент или в къща живеете?",
+          "tr": "Dairede mi evde mi yaşıyorsunuz?"
+        },
+        {
+          "bg": "Апартаментът е светъл.",
+          "tr": "Daire aydınlıktır."
+        }
+      ],
+      "bg": "апартамент",
+      "tr": "daire"
+    },
+    {
+      "word": "къща",
+      "translation": "ev (müstakil)",
+      "type": "isim",
+      "notes": "Dişil isimdir.",
+      "nounForms": {
+        "tekil": "къща",
+        "çoğul": "къщи"
+      },
+      "examples": [
+        {
+          "bg": "Къщата е на два етажа.",
+          "tr": "Ev iki katlıdır."
+        },
+        {
+          "bg": "Живеем в къща.",
+          "tr": "Evde yaşıyoruz."
+        }
+      ],
+      "bg": "къща",
+      "tr": "ev (müstakil)"
+    },
+    {
+      "word": "дете",
+      "translation": "çocuk",
+      "type": "isim",
+      "notes": "Orta cins isimdir. Çoğulu düzensizdir.",
+      "nounForms": {
+        "tekil": "дете",
+        "çoğul": "деца"
+      },
+      "examples": [
+        {
+          "bg": "Той има и дете.",
+          "tr": "Onun çocuğu da var."
+        },
+        {
+          "bg": "Детето играе.",
+          "tr": "Çocuk oynuyor."
+        }
+      ],
+      "bg": "дете",
+      "tr": "çocuk"
+    },
+    {
+      "word": "ремонт",
+      "translation": "tadilat",
+      "type": "isim",
+      "notes": "Eril isimdir.",
+      "nounForms": {
+        "tekil": "ремонт",
+        "çoğul": "ремонти"
+      },
+      "examples": [
+        {
+          "bg": "Правиха ремонт на общежитието.",
+          "tr": "Yurtta tadilat yaptılar."
+        },
+        {
+          "bg": "Ремонтът свърши.",
+          "tr": "Tadilat bitti."
+        }
+      ],
+      "bg": "ремонт",
+      "tr": "tadilat"
+    },
+    {
+      "word": "квартал",
+      "translation": "mahalle, semt",
+      "type": "isim",
+      "notes": "Eril isimdir.",
+      "nounForms": {
+        "tekil": "квартал",
+        "çoğul": "квартали"
+      },
+      "examples": [
+        {
+          "bg": "Има магазини в нашия квартал.",
+          "tr": "Mahallemizde mağazalar var."
+        },
+        {
+          "bg": "Кварталът е тих.",
+          "tr": "Semt sessizdir."
+        }
+      ],
+      "bg": "квартал",
+      "tr": "mahalle, semt"
+    },
+    {
+      "word": "магазин",
+      "translation": "mağaza, dükkan",
+      "type": "isim",
+      "notes": "Eril isimdir.",
+      "nounForms": {
+        "tekil": "магазин",
+        "çoğul": "магазини"
+      },
+      "examples": [
+        {
+          "bg": "Отивам до магазина.",
+          "tr": "Mağazaya gidiyorum."
+        },
+        {
+          "bg": "Магазините са отворени.",
+          "tr": "Mağazalar açıktır."
+        }
+      ],
+      "bg": "магазин",
+      "tr": "mağaza, dükkan"
+    },
+    {
+      "word": "уютен",
+      "translation": "sıcak, huzurlu",
+      "type": "sıfat",
+      "notes": "Ortam için kullanılır.",
+      "forms": {
+        "Eril": "уютен",
+        "Dişil": "уютна",
+        "Nötr": "уютно",
+        "Çoğul": "уютни"
+      },
+      "examples": [
+        {
+          "bg": "Стаята е много уютна.",
+          "tr": "Oda çok sıcak/huzurlu."
+        },
+        {
+          "bg": "Домът е уютен.",
+          "tr": "Ev huzurludur."
+        }
+      ],
+      "bg": "уютен",
+      "tr": "sıcak, huzurlu"
+    },
+    {
+      "word": "удобен",
+      "translation": "rahat, kullanışlı",
+      "type": "sıfat",
+      "notes": "Eşyalar ve yerler için kullanılır.",
+      "forms": {
+        "Eril": "удобен",
+        "Dişil": "удобна",
+        "Nötr": "удобно",
+        "Çoğul": "удобни"
+      },
+      "examples": [
+        {
+          "bg": "Стаята е удобна.",
+          "tr": "Oda rahattır."
+        },
+        {
+          "bg": "Леглото е удобно.",
+          "tr": "Yatak rahattır."
+        }
+      ],
+      "bg": "удобен",
+      "tr": "rahat, kullanışlı"
+    },
+    {
+      "word": "скромен",
+      "translation": "sade, mütevazı",
+      "type": "sıfat",
+      "notes": "Gösterişsiz anlamındadır.",
+      "forms": {
+        "Eril": "скромен",
+        "Dişil": "скромна",
+        "Nötr": "скромно",
+        "Çoğul": "скромни"
+      },
+      "examples": [
+        {
+          "bg": "Обзавеждането е скромно.",
+          "tr": "Döşeme sadedir."
+        },
+        {
+          "bg": "Той е скромен човек.",
+          "tr": "O mütevazı bir insandır."
+        }
+      ],
+      "bg": "скромен",
+      "tr": "sade, mütevazı"
+    },
+    {
+      "word": "хубав",
+      "translation": "güzel, iyi",
+      "type": "sıfat",
+      "notes": "Genel beğeni sıfatıdır.",
+      "forms": {
+        "Eril": "хубав",
+        "Dişil": "хубава",
+        "Nötr": "хубаво",
+        "Çoğul": "хубави"
+      },
+      "examples": [
+        {
+          "bg": "Стаята е много хубава.",
+          "tr": "Oda çok güzeldir."
+        },
+        {
+          "bg": "Днес е хубав ден.",
+          "tr": "Bugün güzel bir gündür."
+        }
+      ],
+      "bg": "хубав",
+      "tr": "güzel, iyi"
+    },
+    {
+      "word": "чист",
+      "translation": "temiz",
+      "type": "sıfat",
+      "notes": "Kirden arınmış.",
+      "forms": {
+        "Eril": "чист",
+        "Dişil": "чиста",
+        "Nötr": "чисто",
+        "Çoğul": "чисти"
+      },
+      "examples": [
+        {
+          "bg": "Сега е много чисто.",
+          "tr": "Şimdi çok temizdir."
+        },
+        {
+          "bg": "Вземаме чисто бельо.",
+          "tr": "Temiz çamaşır alıyoruz."
+        }
+      ],
+      "bg": "чист",
+      "tr": "temiz"
+    },
+    {
+      "word": "приветлив",
+      "translation": "hoş, sevimli",
+      "type": "sıfat",
+      "notes": "Davetkar anlamındadır.",
+      "forms": {
+        "Eril": "приветлив",
+        "Dişil": "приветлива",
+        "Nötr": "приветливо",
+        "Çoğul": "приветливи"
+      },
+      "examples": [
+        {
+          "bg": "Общежитието е приветливо.",
+          "tr": "Yurt hoş/sevimlidir."
+        },
+        {
+          "bg": "Тя има приветлива усмивка.",
+          "tr": "Onun sevimli bir gülümsemesi var."
+        }
+      ],
+      "bg": "приветлив",
+      "tr": "hoş, sevimli"
+    },
+    {
+      "word": "общ",
+      "translation": "ortak, genel",
+      "type": "sıfat",
+      "notes": "Paylaşılan anlamındadır.",
+      "forms": {
+        "Eril": "общ",
+        "Dişil": "обща",
+        "Nötr": "общо",
+        "Çoğul": "общи"
+      },
+      "examples": [
+        {
+          "bg": "Обща баня ли имате?",
+          "tr": "Ortak banyonuz mu var?"
+        },
+        {
+          "bg": "Имаме обща цел.",
+          "tr": "Ortak amacımız var."
+        }
+      ],
+      "bg": "общ",
+      "tr": "ortak, genel"
+    },
+    {
+      "word": "мръсен",
+      "translation": "kirli",
+      "type": "sıfat",
+      "notes": "Temiz olmayan.",
+      "forms": {
+        "Eril": "мръсен",
+        "Dişil": "мръсна",
+        "Nötr": "мръсно",
+        "Çoğul": "мръсни"
+      },
+      "examples": [
+        {
+          "bg": "Даваме мръсното бельо.",
+          "tr": "Kirli çamaşırı veriyoruz."
+        },
+        {
+          "bg": "Подът е мръсен.",
+          "tr": "Zemin kirlidir."
+        }
+      ],
+      "bg": "мръсен",
+      "tr": "kirli"
+    },
+    {
+      "word": "собствен",
+      "translation": "kendi, şahsi",
+      "type": "sıfat",
+      "notes": "Kişiye ait olan.",
+      "forms": {
+        "Eril": "собствен",
+        "Dişil": "собствена",
+        "Nötr": "собствено",
+        "Çoğul": "собствени"
+      },
+      "examples": [
+        {
+          "bg": "В собствено жилище ли живееш?",
+          "tr": "Kendi evinde mi yaşıyorsun?"
+        },
+        {
+          "bg": "Това е собствената ми кола.",
+          "tr": "Bu benim kendi arabam."
+        }
+      ],
+      "bg": "собствен",
+      "tr": "kendi, şahsi"
+    },
+    {
+      "word": "тесен",
+      "translation": "dar",
+      "type": "sıfat",
+      "notes": "Geniş olmayan, sıkışık.",
+      "forms": {
+        "Eril": "тесен",
+        "Dişil": "тясна",
+        "Nötr": "тясно",
+        "Çoğul": "тесни"
+      },
+      "examples": [
+        {
+          "bg": "Не ви ли е тясно?",
+          "tr": "Size dar/sıkışık gelmiyor mu?"
+        },
+        {
+          "bg": "Коридорът е тесен.",
+          "tr": "Koridor dardır."
+        }
+      ],
+      "bg": "тесен",
+      "tr": "dar"
+    },
+    {
+      "word": "женен / омъжена",
+      "translation": "evli",
+      "type": "sıfat",
+      "notes": "Erkekler için женен, kadınlar için омъжена kullanılır.",
+      "forms": {
+        "Eril": "женен",
+        "Dişil": "омъжена",
+        "Nötr": "-",
+        "Çoğul": "женени"
+      },
+      "examples": [
+        {
+          "bg": "Брат ми вече е женен.",
+          "tr": "Erkek kardeşim artık evlidir."
+        },
+        {
+          "bg": "Сестра ми е омъжена.",
+          "tr": "Kız kardeşim evlidir."
+        }
+      ],
+      "bg": "женен / омъжена",
+      "tr": "evli"
+    },
+    {
+      "word": "затова",
+      "translation": "bu yüzden",
+      "type": "bağlaç",
+      "notes": "Neden-sonuç bağlar.",
+      "examples": [
+        {
+          "bg": "Нямаме лекция и затова се прибирам.",
+          "tr": "Dersimiz yok ve bu yüzden dönüyorum."
+        },
+        {
+          "bg": "Вали, затова съм тук.",
+          "tr": "Yağmur yağıyor, bu yüzden buradayım."
+        }
+      ],
+      "bg": "затова",
+      "tr": "bu yüzden"
+    },
+    {
+      "word": "сам",
+      "translation": "tek başına, yalnız",
+      "type": "zamir",
+      "notes": "Eril сам, dişil сама.",
+      "examples": [
+        {
+          "bg": "Но аз не живея сама.",
+          "tr": "Ama ben yalnız yaşamıyorum."
+        },
+        {
+          "bg": "Той е сам.",
+          "tr": "O yalnızdır."
+        }
+      ],
+      "bg": "сам",
+      "tr": "tek başına, yalnız"
+    },
+    {
+      "word": "към",
+      "translation": "ait, -e doğru, -e bağlı",
+      "type": "edat",
+      "notes": "Bir yere ait olmayı veya yönü belirtir.",
+      "examples": [
+        {
+          "bg": "Към всяка стая има баня.",
+          "tr": "Her odaya ait banyo var."
+        },
+        {
+          "bg": "Отивам към магазина.",
+          "tr": "Mağazaya doğru gidiyorum."
+        }
+      ],
+      "bg": "към",
+      "tr": "ait, -e doğru, -e bağlı"
+    },
+    {
+      "word": "два / две",
+      "translation": "iki",
+      "type": "sayı",
+      "notes": "Eril için два, dişil/nötr için две.",
+      "examples": [
+        {
+          "bg": "Имам две съквартирантки.",
+          "tr": "İki oda arkadaşım var."
+        },
+        {
+          "bg": "Къщата е на два етажа.",
+          "tr": "Ev iki katlıdır."
+        }
+      ],
+      "bg": "два / две",
+      "tr": "iki"
+    },
+    {
+      "word": "по три",
+      "translation": "üçer",
+      "type": "kalıp",
+      "notes": "Paylaştırma sayı sıfatı.",
+      "examples": [
+        {
+          "bg": "На всеки етаж има по три стаи.",
+          "tr": "Her katta üçer oda var."
+        },
+        {
+          "bg": "Дадох им по три ябълки.",
+          "tr": "Onlara üçer elma verdim."
+        }
+      ],
+      "bg": "по три",
+      "tr": "üçer"
+    },
+    {
+      "word": "вече",
+      "translation": "artık, zaten",
+      "type": "zarf",
+      "notes": "Zaman zarfıdır.",
+      "examples": [
+        {
+          "bg": "Брат ми вече е женен.",
+          "tr": "Erkek kardeşim artık evli."
+        },
+        {
+          "bg": "Аз вече знам.",
+          "tr": "Ben zaten biliyorum."
+        }
+      ],
+      "bg": "вече",
+      "tr": "artık, zaten"
+    },
+    {
+      "word": "впрочем",
+      "translation": "aslında, bu arada",
+      "type": "bağlaç",
+      "notes": "Konuyu açmak için kullanılır.",
+      "examples": [
+        {
+          "bg": "Впрочем, то е на родителите ми.",
+          "tr": "Aslında, o aileme ait."
+        },
+        {
+          "bg": "Впрочем, какво правиш?",
+          "tr": "Bu arada, ne yapıyorsun?"
+        }
+      ],
+      "bg": "впрочем",
+      "tr": "aslında, bu arada"
+    },
+    {
+      "word": "още нямам",
+      "translation": "henüz yok",
+      "type": "kalıp",
+      "notes": "Henüz sahip olmama durumu.",
+      "examples": [
+        {
+          "bg": "Аз още нямам мое жилище.",
+          "tr": "Benim henüz evim yok."
+        },
+        {
+          "bg": "Още нямам кола.",
+          "tr": "Henüz arabam yok."
+        }
+      ],
+      "bg": "още нямам",
+      "tr": "henüz yok"
+    },
+    {
+      "word": "не ми харесва",
+      "translation": "hoşuma gitmiyor",
+      "type": "kalıp",
+      "notes": "Beğenmeme ifadesi.",
+      "examples": [
+        {
+          "bg": "Това не ми харесва.",
+          "tr": "Bu hoşuma gitmiyor."
+        },
+        {
+          "bg": "Филмът не ми харесва.",
+          "tr": "Film hoşuma gitmiyor."
+        }
+      ],
+      "bg": "не ми харесва",
+      "tr": "hoşuma gitmiyor"
+    },
+    {
+      "word": "на два етажа",
+      "translation": "iki katlı",
+      "type": "kalıp",
+      "notes": "Bina kat sayısını ifade eder.",
+      "examples": [
+        {
+          "bg": "Къщата е на два етажа.",
+          "tr": "Ev iki katlıdır."
+        },
+        {
+          "bg": "Искам къща на два етажа.",
+          "tr": "İki katlı bir ev istiyorum."
+        }
+      ],
+      "bg": "на два етажа",
+      "tr": "iki katlı"
+    },
+    {
+      "word": "по три стаи",
+      "translation": "üçer oda",
+      "type": "kalıp",
+      "notes": "Her birine üç oda düştüğünü belirtir.",
+      "examples": [
+        {
+          "bg": "Има по три стаи на етаж.",
+          "tr": "Katta üçer oda var."
+        },
+        {
+          "bg": "Апартаментите имат по три стаи.",
+          "tr": "Dairelerin üçer odası var."
+        }
+      ],
+      "bg": "по три стаи",
+      "tr": "üçer oda"
+    },
+    {
+      "id": "v8b_1",
+      "word": "намирам се",
+      "type": "fiil",
+      "translation": "bulunmak",
+      "examples": [
+        {
+          "bg": "Къде се намира хотелът?",
+          "tr": "Otel nerede bulunuyor?"
+        },
+        {
+          "bg": "Ние се намираме в центъра.",
+          "tr": "Biz merkezde bulunuyoruz."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "намирам се",
+          "ти": "намираш се",
+          "той/тя/то": "намира се",
+          "ние": "намираме се",
+          "вие": "намирате се",
+          "те": "намират се"
+        },
+        "past": {
+          "аз": "намирах се",
+          "ти": "намираше се",
+          "той/тя/то": "намираше се",
+          "ние": "намирахме се",
+          "вие": "намирахте се",
+          "те": "намираха се"
+        },
+        "future": {
+          "аз": "ще се намирам",
+          "ти": "ще се намираш",
+          "той/тя/то": "ще се намира",
+          "ние": "ще се намираме",
+          "вие": "ще се намирате",
+          "те": "ще се намират"
+        },
+        "imperative": {
+          "ти": "намирай се",
+          "вие": "намирайте се"
+        }
+      },
+      "bg": "намирам се",
+      "tr": "bulunmak"
+    },
+    {
+      "id": "v8b_2",
+      "word": "уговарям се",
+      "type": "fiil",
+      "translation": "anlaşmak / sözleşmek",
+      "examples": [
+        {
+          "bg": "Трябва да се уговорим за утре.",
+          "tr": "Yarın için sözleşmemiz lazım."
+        },
+        {
+          "bg": "Те се уговарят за среща.",
+          "tr": "Onlar bir buluşma için sözleşiyorlar."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "уговарям се",
+          "ти": "уговаряш се",
+          "той/тя/то": "уговаря се",
+          "ние": "уговаряме се",
+          "вие": "уговаряте се",
+          "те": "уговарят се"
+        },
+        "past": {
+          "аз": "уговарях се",
+          "ти": "уговаряше се",
+          "той/тя/то": "уговаряше се",
+          "ние": "уговаряхме се",
+          "вие": "уговаряхте се",
+          "те": "уговаряха се"
+        },
+        "future": {
+          "аз": "ще се уговарям",
+          "ти": "ще се уговаряш",
+          "той/тя/то": "ще се уговаря",
+          "ние": "ще се уговаряме",
+          "вие": "ще се уговаряте",
+          "те": "ще се уговарят"
+        },
+        "imperative": {
+          "ти": "уговаряй се",
+          "вие": "уговаряйте се"
+        }
+      },
+      "bg": "уговарям се",
+      "tr": "anlaşmak / sözleşmek"
+    },
+    {
+      "id": "v8b_3",
+      "word": "дойда",
+      "type": "fiil",
+      "translation": "gelmek (perfektif)",
+      "examples": [
+        {
+          "bg": "Искам да дойда с теб.",
+          "tr": "Seninle gelmek istiyorum."
+        },
+        {
+          "bg": "Тя ще дойде утре.",
+          "tr": "O yarın gelecek."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "дойда",
+          "ти": "дойдеш",
+          "той/тя/то": "дойде",
+          "ние": "дойдем",
+          "вие": "дойдете",
+          "те": "дойдат"
+        },
+        "past": {
+          "аз": "дойдох",
+          "ти": "дойде",
+          "той/тя/то": "дойде",
+          "ние": "дойдохме",
+          "вие": "дойдохте",
+          "те": "дойдоха"
+        },
+        "future": {
+          "аз": "ще дойда",
+          "ти": "ще дойдеш",
+          "той/тя/то": "ще дойде",
+          "ние": "ще дойдем",
+          "вие": "ще дойдете",
+          "те": "ще дойдат"
+        },
+        "imperative": {
+          "ти": "ела",
+          "вие": "елате"
+        }
+      },
+      "bg": "дойда",
+      "tr": "gelmek (perfektif)"
+    },
+    {
+      "id": "v8b_4",
+      "word": "гостувам",
+      "type": "fiil",
+      "translation": "birine misafir olmak",
+      "examples": [
+        {
+          "bg": "Ще гостувам на приятели.",
+          "tr": "Arkadaşlara misafir olacağım."
+        },
+        {
+          "bg": "Често им гостуваме.",
+          "tr": "Onlara sık sık misafir oluruz."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "гостувам",
+          "ти": "гостуваш",
+          "той/тя/то": "гостува",
+          "ние": "гостуваме",
+          "вие": "гостувате",
+          "те": "гостуват"
+        },
+        "past": {
+          "аз": "гостувах",
+          "ти": "гостуваше",
+          "той/тя/то": "гостуваше",
+          "ние": "гостувахме",
+          "вие": "гостувахте",
+          "те": "гостуваха"
+        },
+        "future": {
+          "аз": "ще гостувам",
+          "ти": "ще гостуваш",
+          "той/тя/то": "ще гостува",
+          "ние": "ще гостуваме",
+          "вие": "ще гостувате",
+          "те": "ще гостуват"
+        },
+        "imperative": {
+          "ти": "гостувай",
+          "вие": "гостувайте"
+        }
+      },
+      "bg": "гостувам",
+      "tr": "birine misafir olmak"
+    },
+    {
+      "id": "v8b_5",
+      "word": "изглеждам",
+      "type": "fiil",
+      "translation": "görünmek",
+      "examples": [
+        {
+          "bg": "Тя изглежда много добре.",
+          "tr": "O çok iyi görünüyor."
+        },
+        {
+          "bg": "Изглеждаш уморен.",
+          "tr": "Yorgun görünüyorsun."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "изглеждам",
+          "ти": "изглеждаш",
+          "той/тя/то": "изглежда",
+          "ние": "изглеждаме",
+          "вие": "изглеждате",
+          "те": "изглеждат"
+        },
+        "past": {
+          "аз": "изглеждах",
+          "ти": "изглеждаше",
+          "той/тя/то": "изглеждаше",
+          "ние": "изглеждахме",
+          "вие": "изглеждахте",
+          "те": "изглеждаха"
+        },
+        "future": {
+          "аз": "ще изглеждам",
+          "ти": "ще изглеждаш",
+          "той/тя/то": "ще изглежда",
+          "ние": "ще изглеждаме",
+          "вие": "ще изглеждате",
+          "те": "ще изглеждат"
+        },
+        "imperative": {
+          "ти": "изглеждай",
+          "вие": "изглеждайте"
+        }
+      },
+      "bg": "изглеждам",
+      "tr": "görünmek"
+    },
+    {
+      "id": "v8b_6",
+      "word": "разбирам се",
+      "type": "fiil",
+      "translation": "anlaşmak (dönüşlü)",
+      "examples": [
+        {
+          "bg": "Ние се разбираме отлично.",
+          "tr": "Biz harika anlaşıyoruz."
+        },
+        {
+          "bg": "Те не се разбират добре.",
+          "tr": "Onlar iyi anlaşamıyorlar."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "разбирам се",
+          "ти": "разбираш се",
+          "той/тя/то": "разбира се",
+          "ние": "разбираме се",
+          "вие": "разбирате се",
+          "те": "разбират се"
+        },
+        "past": {
+          "аз": "разбирах се",
+          "ти": "разбираше се",
+          "той/тя/то": "разбираше се",
+          "ние": "разбирахме се",
+          "вие": "разбирахте се",
+          "те": "разбираха се"
+        },
+        "future": {
+          "аз": "ще се разбирам",
+          "ти": "ще се разбираш",
+          "той/тя/то": "ще се разбира",
+          "ние": "ще се разбираме",
+          "вие": "ще се разбирате",
+          "те": "ще се разбират"
+        },
+        "imperative": {
+          "ти": "разбирай се",
+          "вие": "разбирайте се"
+        }
+      },
+      "bg": "разбирам се",
+      "tr": "anlaşmak (dönüşlü)"
+    },
+    {
+      "id": "v8b_7",
+      "word": "скучая",
+      "type": "fiil",
+      "translation": "sıkılmak",
+      "examples": [
+        {
+          "bg": "Там никога не скучаем.",
+          "tr": "Orada asla sıkılmıyoruz."
+        },
+        {
+          "bg": "Аз скучая вкъщи.",
+          "tr": "Ben evde sıkılıyorum."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "скучая",
+          "ти": "скучаеш",
+          "той/тя/то": "скучае",
+          "ние": "скучаем",
+          "вие": "скучаете",
+          "те": "скучаят"
+        },
+        "past": {
+          "аз": "скучах",
+          "ти": "скучаеше",
+          "той/тя/то": "скучаеше",
+          "ние": "скучахме",
+          "вие": "скучахте",
+          "те": "скучаха"
+        },
+        "future": {
+          "аз": "ще скучая",
+          "ти": "ще скучаеш",
+          "той/тя/то": "ще скучае",
+          "ние": "ще скучаем",
+          "вие": "ще скучаете",
+          "те": "ще скучаят"
+        },
+        "imperative": {
+          "ти": "скучай",
+          "вие": "скучайте"
+        }
+      },
+      "bg": "скучая",
+      "tr": "sıkılmak"
+    },
+    {
+      "id": "v8b_8",
+      "word": "уча",
+      "type": "fiil",
+      "translation": "ders çalışmak / öğrenmek / okumak",
+      "examples": [
+        {
+          "bg": "Заедно учим в библиотеката.",
+          "tr": "Kütüphanede birlikte ders çalışıyoruz."
+        },
+        {
+          "bg": "Той учи медицина.",
+          "tr": "O tıp okuyor."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "уча",
+          "ти": "учиш",
+          "той/тя/то": "учи",
+          "ние": "учим",
+          "вие": "учите",
+          "те": "учат"
+        },
+        "past": {
+          "аз": "учех",
+          "ти": "учеше",
+          "той/тя/то": "учеше",
+          "ние": "учехме",
+          "вие": "учехте",
+          "те": "учеха"
+        },
+        "future": {
+          "аз": "ще уча",
+          "ти": "ще учиш",
+          "той/тя/то": "ще учи",
+          "ние": "ще учим",
+          "вие": "ще учите",
+          "те": "ще учат"
+        },
+        "imperative": {
+          "ти": "учи",
+          "вие": "учете"
+        }
+      },
+      "bg": "уча",
+      "tr": "ders çalışmak / öğrenmek / okumak"
+    },
+    {
+      "id": "v8b_9",
+      "word": "ходя",
+      "type": "fiil",
+      "translation": "gitmek / yürümek",
+      "examples": [
+        {
+          "bg": "Често ходим на кино.",
+          "tr": "Sık sık sinemaya gideriz."
+        },
+        {
+          "bg": "Тя ходи пеша.",
+          "tr": "O yürüyerek gidiyor."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "ходя",
+          "ти": "ходиш",
+          "той/тя/то": "ходи",
+          "ние": "ходим",
+          "вие": "ходите",
+          "те": "ходят"
+        },
+        "past": {
+          "аз": "ходех",
+          "ти": "ходеше",
+          "той/тя/то": "ходеше",
+          "ние": "ходехме",
+          "вие": "ходехте",
+          "те": "ходеха"
+        },
+        "future": {
+          "аз": "ще ходя",
+          "ти": "ще ходиш",
+          "той/тя/то": "ще ходи",
+          "ние": "ще ходим",
+          "вие": "ще ходите",
+          "те": "ще ходят"
+        },
+        "imperative": {
+          "ти": "ходи",
+          "вие": "ходете"
+        }
+      },
+      "bg": "ходя",
+      "tr": "gitmek / yürümek"
+    },
+    {
+      "id": "v8b_10",
+      "word": "пея",
+      "type": "fiil",
+      "translation": "şarkı söylemek",
+      "examples": [
+        {
+          "bg": "Аз обичам да пея.",
+          "tr": "Şarkı söylemeyi severim."
+        },
+        {
+          "bg": "Те пеят много хубаво.",
+          "tr": "Çok güzel şarkı söylüyorlar."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "пея",
+          "ти": "пееш",
+          "той/тя/то": "пее",
+          "ние": "пеем",
+          "вие": "пеете",
+          "те": "пеят"
+        },
+        "past": {
+          "аз": "пеех",
+          "ти": "пееше",
+          "той/тя/то": "пееше",
+          "ние": "пеехме",
+          "вие": "пеехте",
+          "те": "пееха"
+        },
+        "future": {
+          "аз": "ще пея",
+          "ти": "ще пееш",
+          "той/тя/то": "ще пее",
+          "ние": "ще пеем",
+          "вие": "ще пеете",
+          "те": "ще пеят"
+        },
+        "imperative": {
+          "ти": "пей",
+          "вие": "пейте"
+        }
+      },
+      "bg": "пея",
+      "tr": "şarkı söylemek"
+    },
+    {
+      "id": "v8b_11",
+      "word": "чета",
+      "type": "fiil",
+      "translation": "okumak",
+      "examples": [
+        {
+          "bg": "Чета интересна книга.",
+          "tr": "İlginç bir kitap okuyorum."
+        },
+        {
+          "bg": "Тя чете вестник.",
+          "tr": "O gazete okuyor."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "чета",
+          "ти": "четеш",
+          "той/тя/то": "чете",
+          "ние": "четем",
+          "вие": "четете",
+          "те": "четат"
+        },
+        "past": {
+          "аз": "четях",
+          "ти": "четеше",
+          "той/тя/то": "четеше",
+          "ние": "четяхме",
+          "вие": "четяхте",
+          "те": "четяха"
+        },
+        "future": {
+          "аз": "ще чета",
+          "ти": "ще четеш",
+          "той/тя/то": "ще чете",
+          "ние": "ще четем",
+          "вие": "ще четете",
+          "те": "ще четат"
+        },
+        "imperative": {
+          "ти": "чети",
+          "вие": "четете"
+        }
+      },
+      "bg": "чета",
+      "tr": "okumak"
+    },
+    {
+      "id": "v8b_12",
+      "word": "свиря",
+      "type": "fiil",
+      "translation": "çalmak (müzik aleti)",
+      "examples": [
+        {
+          "bg": "Свиря на китара.",
+          "tr": "Gitar çalıyorum."
+        },
+        {
+          "bg": "Той свири много добре.",
+          "tr": "O çok iyi çalıyor."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "свиря",
+          "ти": "свириш",
+          "той/тя/то": "свири",
+          "ние": "свирим",
+          "вие": "свирите",
+          "те": "свирят"
+        },
+        "past": {
+          "аз": "свирех",
+          "ти": "свиреше",
+          "той/тя/то": "свиреше",
+          "ние": "свирехме",
+          "вие": "свирехте",
+          "те": "свиреха"
+        },
+        "future": {
+          "аз": "ще свиря",
+          "ти": "ще свириш",
+          "той/тя/то": "ще свири",
+          "ние": "ще свирим",
+          "вие": "ще свирите",
+          "те": "ще свирят"
+        },
+        "imperative": {
+          "ти": "свири",
+          "вие": "свирете"
+        }
+      },
+      "bg": "свиря",
+      "tr": "çalmak (müzik aleti)"
+    },
+    {
+      "id": "v8b_13",
+      "word": "летя",
+      "type": "fiil",
+      "translation": "uçmak",
+      "examples": [
+        {
+          "bg": "Птицата лети високо.",
+          "tr": "Kuş yüksekte uçuyor."
+        },
+        {
+          "bg": "Ние летим за Лондон.",
+          "tr": "Biz Londra'ya uçuyoruz."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "летя",
+          "ти": "летиш",
+          "той/тя/то": "лети",
+          "ние": "летим",
+          "вие": "летите",
+          "те": "летят"
+        },
+        "past": {
+          "аз": "летях",
+          "ти": "летеше",
+          "той/тя/то": "летеше",
+          "ние": "летяхме",
+          "вие": "летяхте",
+          "те": "летяха"
+        },
+        "future": {
+          "аз": "ще летя",
+          "ти": "ще летиш",
+          "той/тя/то": "ще лети",
+          "ние": "ще летим",
+          "вие": "ще летите",
+          "те": "ще летят"
+        },
+        "imperative": {
+          "ти": "лети",
+          "вие": "летете"
+        }
+      },
+      "bg": "летя",
+      "tr": "uçmak"
+    },
+    {
+      "id": "v8b_14",
+      "word": "рисувам",
+      "type": "fiil",
+      "translation": "resim yapmak",
+      "examples": [
+        {
+          "bg": "Тя обича да рисува.",
+          "tr": "O resim yapmayı sever."
+        },
+        {
+          "bg": "Детето рисува къща.",
+          "tr": "Çocuk bir ev çiziyor."
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "рисувам",
+          "ти": "рисуваш",
+          "той/тя/то": "рисува",
+          "ние": "рисуваме",
+          "вие": "рисувате",
+          "те": "рисуват"
+        },
+        "past": {
+          "аз": "рисувах",
+          "ти": "рисуваше",
+          "той/тя/то": "рисуваше",
+          "ние": "рисувахме",
+          "вие": "рисувахте",
+          "те": "рисуваха"
+        },
+        "future": {
+          "аз": "ще рисувам",
+          "ти": "ще рисуваш",
+          "той/тя/то": "ще рисува",
+          "ние": "ще рисуваме",
+          "вие": "ще рисувате",
+          "те": "ще рисуват"
+        },
+        "imperative": {
+          "ти": "рисувай",
+          "вие": "рисувайте"
+        }
+      },
+      "bg": "рисувам",
+      "tr": "resim yapmak"
+    },
+    {
+      "id": "v8b_15",
+      "word": "чувам",
+      "type": "fiil",
+      "translation": "duymak",
+      "examples": [
+        {
+          "bg": "Не те чувам добре.",
+          "tr": "Seni iyi duyamıyorum."
+        },
+        {
+          "bg": "Чувате ли музиката?",
+          "tr": "Müziği duyuyor musunuz?"
+        }
+      ],
+      "conjugation": {
+        "present": {
+          "аз": "чувам",
+          "ти": "чуваш",
+          "той/тя/то": "чува",
+          "ние": "чуваме",
+          "вие": "чувате",
+          "те": "чуват"
+        },
+        "past": {
+          "аз": "чувах",
+          "ти": "чуваше",
+          "той/тя/то": "чуваше",
+          "ние": "чувахме",
+          "вие": "чувахте",
+          "те": "чуваха"
+        },
+        "future": {
+          "аз": "ще чувам",
+          "ти": "ще чуваш",
+          "той/тя/то": "ще чува",
+          "ние": "ще чуваме",
+          "вие": "ще чувате",
+          "те": "ще чуват"
+        },
+        "imperative": {
+          "ти": "чувай",
+          "вие": "чувайте"
+        }
+      },
+      "bg": "чувам",
+      "tr": "duymak"
+    },
+    {
+      "id": "v8b_17",
+      "word": "улица",
+      "type": "isim",
+      "translation": "sokak / cadde",
+      "examples": [
+        {
+          "bg": "Магазинът е на тази улица.",
+          "tr": "Mağaza bu sokakta."
+        },
+        {
+          "bg": "Улицата е дълга.",
+          "tr": "Sokak uzun."
+        }
+      ],
+      "nounForms": {
+        "tekil": "улица",
+        "чоğul": "улици"
+      },
+      "bg": "улица",
+      "tr": "sokak / cadde"
+    },
+    {
+      "id": "v8b_18",
+      "word": "кино",
+      "type": "isim",
+      "translation": "sinema",
+      "examples": [
+        {
+          "bg": "Отиваме на кино.",
+          "tr": "Sinemaya gidiyoruz."
+        },
+        {
+          "bg": "Киното е затворено.",
+          "tr": "Sinema kapalı."
+        }
+      ],
+      "nounForms": {
+        "tekil": "кино",
+        "чоğul": "кина"
+      },
+      "bg": "кино",
+      "tr": "sinema"
+    },
+    {
+      "id": "v8b_19",
+      "word": "парк",
+      "type": "isim",
+      "translation": "park",
+      "examples": [
+        {
+          "bg": "Разхождаме се в парка.",
+          "tr": "Parkta yürüyoruz."
+        },
+        {
+          "bg": "Паркът е голям.",
+          "tr": "Park büyük."
+        }
+      ],
+      "nounForms": {
+        "tekil": "парк",
+        "чоğul": "паркове"
+      },
+      "bg": "парк",
+      "tr": "park"
+    },
+    {
+      "id": "v8b_20",
+      "word": "колежка",
+      "type": "isim",
+      "translation": "sınıf arkadaşı (kadın)",
+      "examples": [
+        {
+          "bg": "Тя е моя колежка.",
+          "tr": "O benim sınıf arkadaşım."
+        },
+        {
+          "bg": "Двете ми колежки са тук.",
+          "tr": "İki kız sınıf arkadaşım burada."
+        }
+      ],
+      "nounForms": {
+        "eril": "колега",
+        "dişil": "колежка",
+        "çoğul": "колежки"
+      },
+      "bg": "колежка",
+      "tr": "sınıf arkadaşı (kadın)"
+    },
+    {
+      "id": "v8b_21",
+      "word": "момиче",
+      "type": "isim",
+      "translation": "kız",
+      "examples": [
+        {
+          "bg": "Това момиче е умно.",
+          "tr": "Bu kız akıllı."
+        },
+        {
+          "bg": "Двете момичета четат.",
+          "tr": "İki kız okuyor."
+        }
+      ],
+      "nounForms": {
+        "tekil": "момиче",
+        "чоğul": "момичета"
+      },
+      "bg": "момиче",
+      "tr": "kız"
+    },
+    {
+      "id": "v8b_22",
+      "word": "стол",
+      "type": "isim",
+      "translation": "yemekhane (aynı zamanda sandalye)",
+      "examples": [
+        {
+          "bg": "Отивам в стола да обядвам.",
+          "tr": "Öğle yemeği yemek için yemekhaneye gidiyorum."
+        },
+        {
+          "bg": "Храната в стола е вкусна.",
+          "tr": "Yemekhanedeki yemek lezzetli."
+        }
+      ],
+      "nounForms": {
+        "tekil": "стол",
+        "чоğul": "столове"
+      },
+      "bg": "стол",
+      "tr": "yemekhane (aynı zamanda sandalye)"
+    },
+    {
+      "id": "v8b_23",
+      "word": "предимство",
+      "type": "isim",
+      "translation": "avantaj",
+      "examples": [
+        {
+          "bg": "Това има своите предимства.",
+          "tr": "Bunun kendi avantajları var."
+        },
+        {
+          "bg": "Какво е предимството на тази кола?",
+          "tr": "Bu arabanın avantajı nedir?"
+        }
+      ],
+      "nounForms": {
+        "tekil": "предимство",
+        "чоğul": "предимства"
+      },
+      "bg": "предимство",
+      "tr": "avantaj"
+    },
+    {
+      "id": "v8b_24",
+      "word": "съседна стая",
+      "type": "isim",
+      "translation": "komşu oda",
+      "examples": [
+        {
+          "bg": "Те живеят в съседната стая.",
+          "tr": "Onlar komşu odada yaşıyorlar."
+        },
+        {
+          "bg": "Идвам от съседната стая.",
+          "tr": "Komşu odadan geliyorum."
+        }
+      ],
+      "nounForms": {
+        "tekil": "съседна стая",
+        "чоğul": "съседни стаи"
+      },
+      "bg": "съседна стая",
+      "tr": "komşu oda"
+    },
+    {
+      "id": "v8b_25",
+      "word": "наистина",
+      "type": "zarf",
+      "translation": "gerçekten",
+      "examples": [
+        {
+          "bg": "Ти наистина си тук.",
+          "tr": "Sen gerçekten buradasın."
+        },
+        {
+          "bg": "Това наистина ли е така?",
+          "tr": "Bu gerçekten böyle mi?"
+        }
+      ],
+      "bg": "наистина",
+      "tr": "gerçekten"
+    },
+    {
+      "id": "v8b_26",
+      "word": "далече",
+      "type": "zarf",
+      "translation": "uzak",
+      "examples": [
+        {
+          "bg": "Университетът не е далече.",
+          "tr": "Üniversite uzak değil."
+        },
+        {
+          "bg": "Живеем далече от центъра.",
+          "tr": "Merkezden uzak yaşıyoruz."
+        }
+      ],
+      "bg": "далече",
+      "tr": "uzak"
+    },
+    {
+      "id": "v8b_27",
+      "word": "тихо",
+      "type": "zarf",
+      "translation": "sessiz / sakin",
+      "examples": [
+        {
+          "bg": "Тук е много тихо.",
+          "tr": "Burası çok sessiz."
+        },
+        {
+          "bg": "Тя говори тихо.",
+          "tr": "O sessizce konuşuyor."
+        }
+      ],
+      "bg": "тихо",
+      "tr": "sessiz / sakin"
+    },
+    {
+      "id": "v8b_28",
+      "word": "дори",
+      "type": "zarf",
+      "translation": "hatta",
+      "examples": [
+        {
+          "bg": "Дори паркът е близо.",
+          "tr": "Hatta park da yakın."
+        },
+        {
+          "bg": "Всички дойдоха, дори Иван.",
+          "tr": "Herkes geldi, İvan bile."
+        }
+      ],
+      "bg": "дори",
+      "tr": "hatta"
+    },
+    {
+      "id": "v8b_29",
+      "word": "навсякъде",
+      "type": "zarf",
+      "translation": "her yerde",
+      "examples": [
+        {
+          "bg": "Търсих те навсякъде.",
+          "tr": "Seni her yerde aradım."
+        },
+        {
+          "bg": "Навсякъде сме заедно.",
+          "tr": "Her yerde birlikteyiz."
+        }
+      ],
+      "bg": "навсякъде",
+      "tr": "her yerde"
+    },
+    {
+      "id": "v8b_30",
+      "word": "понякога",
+      "type": "zarf",
+      "translation": "bazen",
+      "examples": [
+        {
+          "bg": "Понякога ходим на театър.",
+          "tr": "Bazen tiyatroya gideriz."
+        },
+        {
+          "bg": "Понякога е трудно.",
+          "tr": "Bazen zordur."
+        }
+      ],
+      "bg": "понякога",
+      "tr": "bazen"
+    },
+    {
+      "id": "v8b_31",
+      "word": "никога",
+      "type": "zarf",
+      "translation": "asla / hiçbir zaman",
+      "examples": [
+        {
+          "bg": "Там никога не скучаем.",
+          "tr": "Orada asla sıkılmayız."
+        },
+        {
+          "bg": "Никога не съм бил там.",
+          "tr": "Oraya hiç gitmedim."
+        }
+      ],
+      "bg": "никога",
+      "tr": "asla / hiçbir zaman"
+    },
+    {
+      "id": "v8b_32",
+      "word": "весело",
+      "type": "zarf",
+      "translation": "neşeli / eğlenceli",
+      "examples": [
+        {
+          "bg": "Вкъщи винаги е весело.",
+          "tr": "Evde her zaman neşelidir."
+        },
+        {
+          "bg": "Децата играят весело.",
+          "tr": "Çocuklar neşeyle oynuyor."
+        }
+      ],
+      "bg": "весело",
+      "tr": "neşeli / eğlenceli"
+    },
+    {
+      "id": "v8b_33",
+      "word": "заедно",
+      "type": "zarf",
+      "translation": "birlikte",
+      "examples": [
+        {
+          "bg": "Заедно учим.",
+          "tr": "Birlikte ders çalışıyoruz."
+        },
+        {
+          "bg": "Отиваме заедно на кино.",
+          "tr": "Birlikte sinemaya gidiyoruz."
+        }
+      ],
+      "bg": "заедно",
+      "tr": "birlikte"
+    },
+    {
+      "id": "v8b_34",
+      "word": "сигурно",
+      "type": "zarf",
+      "translation": "herhalde / büyük ihtimalle",
+      "examples": [
+        {
+          "bg": "Сигурно се разбирате добре.",
+          "tr": "Herhalde iyi anlaşıyorsunuz."
+        },
+        {
+          "bg": "Сигурно ще закъснее.",
+          "tr": "Herhalde gecikecek."
+        }
+      ],
+      "bg": "сигурно",
+      "tr": "herhalde / büyük ihtimalle"
+    },
+    {
+      "id": "v8b_35",
+      "word": "трябва да",
+      "type": "kalıp",
+      "translation": "gereklilik yapısı",
+      "notes": "Bulgarca'da 'трябва да' kendisinden sonra çekimli bir fiil alarak -meli/-malı anlamı katar.",
+      "examples": [
+        {
+          "bg": "Трябва да дойдеш.",
+          "tr": "Gelmelisin."
+        },
+        {
+          "bg": "Трябва да уча.",
+          "tr": "Ders çalışmam lazım."
+        }
+      ],
+      "bg": "трябва да",
+      "tr": "gereklilik yapısı"
+    },
+    {
+      "id": "v8b_36",
+      "word": "ще бъде",
+      "type": "kalıp",
+      "translation": "olacak (gelecek zaman)",
+      "notes": "Глаголът 'съм' (olmak) gelecek zamanda 'ще бъде' formunu alır.",
+      "examples": [
+        {
+          "bg": "Ще ми бъде много приятно.",
+          "tr": "Çok hoşuma gidecek (benim için çok hoş olacak)."
+        },
+        {
+          "bg": "Времето ще бъде хубаво.",
+          "tr": "Hava güzel olacak."
+        }
+      ],
+      "bg": "ще бъде",
+      "tr": "olacak (gelecek zaman)"
+    },
+    {
+      "id": "v8b_37",
+      "word": "зад киното",
+      "type": "kalıp",
+      "translation": "sinemanın arkasında",
+      "examples": [
+        {
+          "bg": "Срещата е зад киното.",
+          "tr": "Buluşma sinemanın arkasında."
+        },
+        {
+          "bg": "Паркът е зад киното.",
+          "tr": "Park sinemanın arkasında."
+        }
+      ],
+      "bg": "зад киното",
+      "tr": "sinemanın arkasında"
+    },
+    {
+      "id": "v8b_38",
+      "word": "под ръка",
+      "type": "kalıp",
+      "translation": "el altında / yakın",
+      "examples": [
+        {
+          "bg": "Всичко ми е под ръка.",
+          "tr": "Her şey elimin altında."
+        },
+        {
+          "bg": "Дръж телефона си под ръка.",
+          "tr": "Telefonunu elinin altında tut."
+        }
+      ],
+      "bg": "под ръка",
+      "tr": "el altında / yakın"
+    },
+    {
+      "id": "v8b_39",
+      "word": "до вас",
+      "type": "kalıp",
+      "translation": "size yakın / yanınızda",
+      "examples": [
+        {
+          "bg": "Паркът е до вас.",
+          "tr": "Park size yakın."
+        },
+        {
+          "bg": "Магазинът е до вас.",
+          "tr": "Mağaza yanınızda."
+        }
+      ],
+      "bg": "до вас",
+      "tr": "size yakın / yanınızda"
+    },
+    {
+      "id": "v8b_40",
+      "word": "заповядай на гости",
+      "type": "kalıp",
+      "translation": "misafirliğe gel",
+      "examples": [
+        {
+          "bg": "Заповядай на гости утре.",
+          "tr": "Yarın misafirliğe gel."
+        },
+        {
+          "bg": "Тя ми каза: заповядай на гости.",
+          "tr": "Bana 'misafirliğe gel' dedi."
+        }
+      ],
+      "bg": "заповядай на гости",
+      "tr": "misafirliğe gel"
+    },
+    {
+      "id": "v8b_41",
+      "word": "с удоволствие",
+      "type": "kalıp",
+      "translation": "memnuniyetle",
+      "examples": [
+        {
+          "bg": "Ще дойда с удоволствие.",
+          "tr": "Memnuniyetle geleceğim."
+        },
+        {
+          "bg": "Помагам с удоволствие.",
+          "tr": "Memnuniyetle yardım ediyorum."
+        }
+      ],
+      "bg": "с удоволствие",
+      "tr": "memnuniyetle"
+    },
+    {
+      "id": "v8b_42",
+      "word": "никога не...",
+      "type": "kalıp",
+      "translation": "asla ... değil",
+      "notes": "Bulgarca'da 'никога' kullanıldığında cümlenin fiili de olumsuz (не) olmalıdır.",
+      "examples": [
+        {
+          "bg": "Никога не закъснявам.",
+          "tr": "Asla gecikmem."
+        },
+        {
+          "bg": "Тя никога не лъже.",
+          "tr": "O asla yalan söylemez."
+        }
+      ],
+      "bg": "никога не...",
+      "tr": "asla ... değil"
+    },
+    {
+      "id": "v8b_43",
+      "word": "и още как!",
+      "type": "kalıp",
+      "translation": "hem de nasıl!",
+      "notes": "Güçlü bir onay veya katılım bildiren kalıptır.",
+      "examples": [
+        {
+          "bg": "Харесва ли ти? – И още как!",
+          "tr": "Beğendin mi? – Hem de nasıl!"
+        },
+        {
+          "bg": "Ще дойдеш ли? – И още как!",
+          "tr": "Gelecek misin? – Hem de nasıl!"
+        }
+      ],
+      "bg": "и още как!",
+      "tr": "hem de nasıl!"
+    },
+    {
+      "id": "v8b_44",
+      "word": "1. Grup Fiiller",
+      "type": "kalıp",
+      "translation": "Fiil Çekimi",
+      "notes": "1. Grup fiiller: 3. tekil şahıs çekimi -Е ile biter (пея → пее, чета → чете). Hızlı kontrol formülü: 'Той ще + fiil' → ще пее.",
+      "examples": [
+        {
+          "bg": "Той пее.",
+          "tr": "O şarkı söylüyor."
+        },
+        {
+          "bg": "Той чете.",
+          "tr": "O okuyor."
+        }
+      ],
+      "bg": "1. Grup Fiiller",
+      "tr": "Fiil Çekimi"
+    },
+    {
+      "id": "v8b_45",
+      "word": "2. Grup Fiiller",
+      "type": "kalıp",
+      "translation": "Fiil Çekimi",
+      "notes": "2. Grup fiiller: 3. tekil şahıs çekimi -И ile biter (свиря → свири, летя → лети). Hızlı kontrol formülü: 'Той ще + fiil' → ще свири.",
+      "examples": [
+        {
+          "bg": "Той свири.",
+          "tr": "O çalıyor."
+        },
+        {
+          "bg": "Той лети.",
+          "tr": "O uçuyor."
+        }
+      ],
+      "bg": "2. Grup Fiiller",
+      "tr": "Fiil Çekimi"
+    },
+    {
+      "id": "v8b_46",
+      "word": "3. Grup Fiiller",
+      "type": "kalıp",
+      "translation": "Fiil Çekimi",
+      "notes": "3. Grup fiiller: 3. tekil şahıs çekimi -А/-Я ile biter (рисувам → рисува, чувам → чува). Hızlı kontrol formülü: 'Той ще + fiil' → ще рисува.",
+      "examples": [
+        {
+          "bg": "Той рисува.",
+          "tr": "O resim yapıyor."
+        },
+        {
+          "bg": "Той чува.",
+          "tr": "O duyuyor."
+        }
+      ],
+      "bg": "3. Grup Fiiller",
+      "tr": "Fiil Çekimi"
+    },
+    {
+      "word": "отсядам",
+      "translation": "konaklamak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "отсядам",
+        "past": "отседнах",
+        "future": "ще отседна",
+        "imperative": "отседни"
+      },
+      "examples": [
+        "Баба им отсяда в гостната стая.",
+        "Ние отсядаме в хотел."
+      ],
+      "bg": "отсядам",
+      "tr": "konaklamak"
+    },
+    {
+      "word": "държа",
+      "translation": "tutmak/saklamak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "държа",
+        "past": "държах",
+        "future": "ще държа",
+        "imperative": "дръж"
+      },
+      "examples": [
+        "В тях те си държат дрехите.",
+        "Държа книгата в ръка."
+      ],
+      "bg": "държа",
+      "tr": "tutmak/saklamak"
+    },
+    {
+      "word": "стоя",
+      "translation": "durmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "стоя",
+        "past": "стоях",
+        "future": "ще стоя",
+        "imperative": "стой"
+      },
+      "examples": [
+        "На нощните шкафчета стоят нощните лампи.",
+        "Пред него стои една ниска маса."
+      ],
+      "bg": "стоя",
+      "tr": "durmak"
+    },
+    {
+      "word": "вися",
+      "translation": "sarkmak/asılı olmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "вися",
+        "past": "висях",
+        "future": "ще вися",
+        "imperative": "виси"
+      },
+      "examples": [
+        "По стените висят картини.",
+        "На тавана виси полилей."
+      ],
+      "bg": "вися",
+      "tr": "sarkmak/asılı olmak"
+    },
+    {
+      "word": "събирам се",
+      "translation": "toplanmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "събирам се",
+        "past": "събрах се",
+        "future": "ще се събера",
+        "imperative": "събирай се"
+      },
+      "examples": [
+        "Семейството се събира в хола.",
+        "Ние се събираме всяка вечер."
+      ],
+      "bg": "събирам се",
+      "tr": "toplanmak"
+    },
+    {
+      "word": "гледам телевизия",
+      "translation": "TV izlemek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "гледам телевизия",
+        "past": "гледах телевизия",
+        "future": "ще гледам телевизия",
+        "imperative": "гледай телевизия"
+      },
+      "examples": [
+        "Те гледат телевизия в хола.",
+        "Всяка вечер гледам телевизия."
+      ],
+      "bg": "гледам телевизия",
+      "tr": "TV izlemek"
+    },
+    {
+      "word": "прекарвам",
+      "translation": "geçirmek (zaman)",
+      "type": "fiil",
+      "conjugation": {
+        "present": "прекарвам",
+        "past": "прекарах",
+        "future": "ще прекарам",
+        "imperative": "прекарвай"
+      },
+      "examples": [
+        "Спокойно прекарват вечерта.",
+        "Прекарвам си добре."
+      ],
+      "bg": "прекарвам",
+      "tr": "geçirmek (zaman)"
+    },
+    {
+      "word": "закачам",
+      "translation": "asmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "закачам",
+        "past": "закачих",
+        "future": "ще закача",
+        "imperative": "закачи"
+      },
+      "examples": [
+        "Закачам картината на стената.",
+        "Те закачат рисунките."
+      ],
+      "bg": "закачам",
+      "tr": "asmak"
+    },
+    {
+      "word": "покривам",
+      "translation": "kaplamak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "покривам",
+        "past": "покрих",
+        "future": "ще покрия",
+        "imperative": "покривай"
+      },
+      "examples": [
+        "Покривам пода с килим.",
+        "Подът е покрит."
+      ],
+      "bg": "покривам",
+      "tr": "kaplamak"
+    },
+    {
+      "word": "разполагам",
+      "translation": "yerleştirmek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "разполагам",
+        "past": "разположих",
+        "future": "ще разположа",
+        "imperative": "разполагай"
+      },
+      "examples": [
+        "Разполагам мебелите в стаята.",
+        "Тя е разположена до стената."
+      ],
+      "bg": "разполагам",
+      "tr": "yerleştirmek"
+    },
+    {
+      "word": "хол",
+      "translation": "salon",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "хол",
+        "çoğul": "холове"
+      },
+      "examples": [
+        "Има хол, спалня и кухня.",
+        "Холът е най-голямата стая."
+      ],
+      "bg": "хол",
+      "tr": "salon"
+    },
+    {
+      "word": "спалня",
+      "translation": "yatak odası",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "спалня",
+        "çoğul": "спални"
+      },
+      "examples": [
+        "Спалнята е на родителите им.",
+        "В апартамента има две спални."
+      ],
+      "bg": "спалня",
+      "tr": "yatak odası"
+    },
+    {
+      "word": "детска стая",
+      "translation": "çocuk odası",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "детска стая",
+        "çoğul": "детски стаи"
+      },
+      "examples": [
+        "Албена живее в детската стая.",
+        "Детската стая е западна."
+      ],
+      "bg": "детска стая",
+      "tr": "çocuk odası"
+    },
+    {
+      "word": "гостна стая",
+      "translation": "misafir odası",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "гостна стая",
+        "çoğul": "гостни стаи"
+      },
+      "examples": [
+        "В гостната стая отсядат баба им и дядо им.",
+        "Гостната стая е северна."
+      ],
+      "bg": "гостна стая",
+      "tr": "misafir odası"
+    },
+    {
+      "word": "кухня",
+      "translation": "mutfak",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "кухня",
+        "çoğul": "кухни"
+      },
+      "examples": [
+        "Кухнята и холът са общи.",
+        "В апартамента има голяма кухня."
+      ],
+      "bg": "кухня",
+      "tr": "mutfak"
+    },
+    {
+      "word": "килер",
+      "translation": "kiler",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "килер",
+        "çoğul": "килери"
+      },
+      "examples": [
+        "В техния апартамент има и килер.",
+        "Слагаме старите неща в килера."
+      ],
+      "bg": "килер",
+      "tr": "kiler"
+    },
+    {
+      "word": "мазе",
+      "translation": "bodrum",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "мазе",
+        "çoğul": "мазета"
+      },
+      "examples": [
+        "В най-долната част на блока имат мазе.",
+        "Мазето е много тъмно."
+      ],
+      "bg": "мазе",
+      "tr": "bodrum"
+    },
+    {
+      "word": "таванска стая",
+      "translation": "çatı odası",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "таванска стая",
+        "çoğul": "тавански стаи"
+      },
+      "examples": [
+        "В най-горната част имат таванска стая.",
+        "Таванската стая е малка."
+      ],
+      "bg": "таванска стая",
+      "tr": "çatı odası"
+    },
+    {
+      "word": "шкаф",
+      "translation": "dolap",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "шкаф",
+        "çoğul": "шкафове"
+      },
+      "examples": [
+        "Там има един шкаф.",
+        "Дрехите са в шкафа."
+      ],
+      "bg": "шкаф",
+      "tr": "dolap"
+    },
+    {
+      "word": "гардеробче",
+      "translation": "küçük gardırop",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "гардеробче",
+        "çoğul": "гардеробчета"
+      },
+      "examples": [
+        "Има секции с гардеробче.",
+        "Това гардеробче е за деца."
+      ],
+      "bg": "гардеробче",
+      "tr": "küçük gardırop"
+    },
+    {
+      "word": "маса",
+      "translation": "masa",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "маса",
+        "çoğul": "маси"
+      },
+      "examples": [
+        "Пред него стои една ниска маса.",
+        "Масата е в кухнята."
+      ],
+      "bg": "маса",
+      "tr": "masa"
+    },
+    {
+      "word": "масичка",
+      "translation": "küçük masa",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "масичка",
+        "çoğul": "масички"
+      },
+      "examples": [
+        "На масичката е сложена кристална ваза.",
+        "Има малка масичка с два фотьойла."
+      ],
+      "bg": "масичка",
+      "tr": "küçük masa"
+    },
+    {
+      "word": "фотьойл",
+      "translation": "koltuk",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "фотьойл",
+        "çoğul": "фотьойли"
+      },
+      "examples": [
+        "Около масата има два тежки фотьойла.",
+        "Фотьойлът е много удобен."
+      ],
+      "bg": "фотьойл",
+      "tr": "koltuk"
+    },
+    {
+      "word": "табуретка",
+      "translation": "tabure",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "табуретка",
+        "çoğul": "табуретки"
+      },
+      "examples": [
+        "Има малка масичка с два фотьойла и табуретки.",
+        "Седни на табуретката."
+      ],
+      "bg": "табуретка",
+      "tr": "tabure"
+    },
+    {
+      "word": "диван",
+      "translation": "koltuk/kanepe",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "диван",
+        "çoğul": "дивани"
+      },
+      "examples": [
+        "От двете страни на дивана има красиви лампи.",
+        "Диванът е в хола."
+      ],
+      "bg": "диван",
+      "tr": "koltuk/kanepe"
+    },
+    {
+      "word": "ъглов диван",
+      "translation": "köşe koltuk",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "ъглов диван",
+        "çoğul": "ъглови дивани"
+      },
+      "examples": [
+        "В хола има ъглов диван.",
+        "Купихме нов ъглов диван."
+      ],
+      "bg": "ъглов диван",
+      "tr": "köşe koltuk"
+    },
+    {
+      "word": "библиотека",
+      "translation": "kitaplık",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "библиотека",
+        "çoğul": "библиотеки"
+      },
+      "examples": [
+        "В хола има голяма библиотека.",
+        "До библиотеката стои лампа."
+      ],
+      "bg": "библиотека",
+      "tr": "kitaplık"
+    },
+    {
+      "word": "секция",
+      "translation": "mobilya ünitesi",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "секция",
+        "çoğul": "секции"
+      },
+      "examples": [
+        "В нея има секции с гардеробче.",
+        "Купихме нова секция за хола."
+      ],
+      "bg": "секция",
+      "tr": "mobilya ünitesi"
+    },
+    {
+      "word": "рафт",
+      "translation": "raf",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "рафт",
+        "çoğul": "рафтове"
+      },
+      "examples": [
+        "На рафта под него е CD-то.",
+        "Книгите са на рафта."
+      ],
+      "bg": "рафт",
+      "tr": "raf"
+    },
+    {
+      "word": "ъгъл",
+      "translation": "köşe",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "ъгъл",
+        "çoğul": "ъгли"
+      },
+      "examples": [
+        "В десния ъгъл стои барче.",
+        "Поставих масата в ъгъла."
+      ],
+      "bg": "ъгъл",
+      "tr": "köşe"
+    },
+    {
+      "word": "килим",
+      "translation": "halı",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "килим",
+        "çoğul": "килими"
+      },
+      "examples": [
+        "Подът е покрит с котленски килим.",
+        "На пода е прострян огромен персийски килим."
+      ],
+      "bg": "килим",
+      "tr": "halı"
+    },
+    {
+      "word": "под",
+      "translation": "zemin/yer",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "под",
+        "çoğul": "подове"
+      },
+      "examples": [
+        "Подът е покрит с килим.",
+        "На пода има играчки."
+      ],
+      "bg": "под",
+      "tr": "zemin/yer"
+    },
+    {
+      "word": "нощна лампа",
+      "translation": "gece lambası",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "нощна лампа",
+        "çoğul": "нощни лампи"
+      },
+      "examples": [
+        "На бюрото има нощна лампа.",
+        "На нощните шкафчета стоят нощните лампи."
+      ],
+      "bg": "нощна лампа",
+      "tr": "gece lambası"
+    },
+    {
+      "word": "настолна лампа",
+      "translation": "masa lambası",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "настолна лампа",
+        "çoğul": "настолни лампи"
+      },
+      "examples": [
+        "До библиотеката стои една настолна лампа.",
+        "Купих нова настолна лампа."
+      ],
+      "bg": "настолна лампа",
+      "tr": "masa lambası"
+    },
+    {
+      "word": "полилей",
+      "translation": "avize",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "полилей",
+        "çoğul": "полилеи"
+      },
+      "examples": [
+        "На тавана виси огромен полилей.",
+        "Полилеят е много красив."
+      ],
+      "bg": "полилей",
+      "tr": "avize"
+    },
+    {
+      "word": "телевизор",
+      "translation": "televizyon",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "телевизор",
+        "çoğul": "телевизори"
+      },
+      "examples": [
+        "Върху барчето е сложен телевизор.",
+        "Ние гледаме телевизор."
+      ],
+      "bg": "телевизор",
+      "tr": "televizyon"
+    },
+    {
+      "word": "радио",
+      "translation": "radyo",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "радио",
+        "çoğul": "радиа"
+      },
+      "examples": [
+        "На едно шкафче между леглата се намира радиото.",
+        "Слушам радио всяка сутрин."
+      ],
+      "bg": "радио",
+      "tr": "radyo"
+    },
+    {
+      "word": "барче",
+      "translation": "bar dolabı",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "барче",
+        "çoğul": "барчета"
+      },
+      "examples": [
+        "В десния ъгъл стои барче.",
+        "В барчето държат различни напитки."
+      ],
+      "bg": "барче",
+      "tr": "bar dolabı"
+    },
+    {
+      "word": "ваза",
+      "translation": "vazo",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "ваза",
+        "çoğul": "вази"
+      },
+      "examples": [
+        "На масичката е сложена кристална ваза.",
+        "Цветята са във вазата."
+      ],
+      "bg": "ваза",
+      "tr": "vazo"
+    },
+    {
+      "word": "картина",
+      "translation": "tablo/resim",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "картина",
+        "çoğul": "картини"
+      },
+      "examples": [
+        "По стените са закачени картини.",
+        "По стените висят оригинални картини."
+      ],
+      "bg": "картина",
+      "tr": "tablo/resim"
+    },
+    {
+      "word": "рисунка",
+      "translation": "çizim",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "рисунка",
+        "çoğul": "рисунки"
+      },
+      "examples": [
+        "Има рисунки на Албена и Бояна.",
+        "Това е красива рисунка."
+      ],
+      "bg": "рисунка",
+      "tr": "çizim"
+    },
+    {
+      "word": "тераса",
+      "translation": "teras",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "тераса",
+        "çoğul": "тераси"
+      },
+      "examples": [
+        "Холът има голяма тераса.",
+        "Излизам на терасата."
+      ],
+      "bg": "тераса",
+      "tr": "teras"
+    },
+    {
+      "word": "таван",
+      "translation": "tavan",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "таван",
+        "çoğul": "тавани"
+      },
+      "examples": [
+        "На тавана виси огромен полилей.",
+        "Таванът е бял."
+      ],
+      "bg": "таван",
+      "tr": "tavan"
+    },
+    {
+      "word": "стена",
+      "translation": "duvar",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "стена",
+        "çoğul": "стени"
+      },
+      "examples": [
+        "По стените висят оригинални картини.",
+        "Леглото е до едната стена."
+      ],
+      "bg": "стена",
+      "tr": "duvar"
+    },
+    {
+      "word": "прозорец",
+      "translation": "pencere",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "прозорец",
+        "çoğul": "прозорци"
+      },
+      "examples": [
+        "Стаята има голям прозорец.",
+        "Отвори прозореца."
+      ],
+      "bg": "прозорец",
+      "tr": "pencere"
+    },
+    {
+      "word": "огледало",
+      "translation": "ayna",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "огледало",
+        "çoğul": "огледала"
+      },
+      "examples": [
+        "В стаята има голямо огледало.",
+        "Поглеждам се в огледалото."
+      ],
+      "bg": "огледало",
+      "tr": "ayna"
+    },
+    {
+      "word": "тоалетно огледало",
+      "translation": "makyaj aynası",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "тоалетно огледало",
+        "çoğul": "тоалетни огледала"
+      },
+      "examples": [
+        "Отсреща има гардероб и тоалетно огледало.",
+        "Пред тоалетното огледало има малко столче."
+      ],
+      "bg": "тоалетно огледало",
+      "tr": "makyaj aynası"
+    },
+    {
+      "word": "дрехи",
+      "translation": "kıyafetler",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "дреха",
+        "çoğul": "дрехи"
+      },
+      "examples": [
+        "В тях те си държат дрехите.",
+        "Имам нови дрехи."
+      ],
+      "bg": "дрехи",
+      "tr": "kıyafetler"
+    },
+    {
+      "word": "завивки",
+      "translation": "yorgan/örtüler",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "завивка",
+        "çoğul": "завивки"
+      },
+      "examples": [
+        "В тях държат дрехите и завивките.",
+        "Завивките са топли."
+      ],
+      "bg": "завивки",
+      "tr": "yorgan/örtüler"
+    },
+    {
+      "word": "напитки",
+      "translation": "içecekler",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "напитка",
+        "çoğul": "напитки"
+      },
+      "examples": [
+        "В барчето държат различни напитки.",
+        "Искаш ли топли напитки?"
+      ],
+      "bg": "напитки",
+      "tr": "içecekler"
+    },
+    {
+      "word": "семейство",
+      "translation": "aile",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "семейство",
+        "çoğul": "семейства"
+      },
+      "examples": [
+        "Семейството се събира в хола.",
+        "Имам голямо семейство."
+      ],
+      "bg": "семейство",
+      "tr": "aile"
+    },
+    {
+      "word": "сестра",
+      "translation": "kız kardeş",
+      "type": "isim",
+      "nounForms": {
+        "eril": "брат",
+        "çoğul": "сестри",
+        "dişil": "сестра"
+      },
+      "examples": [
+        "Албена и сестра ѝ Бояна живеят в детската стая.",
+        "Тя има две сестри."
+      ],
+      "bg": "сестра",
+      "tr": "kız kardeş"
+    },
+    {
+      "word": "баба",
+      "translation": "büyükanne",
+      "type": "isim",
+      "nounForms": {
+        "eril": "дядо",
+        "çoğul": "баби",
+        "dişil": "баба"
+      },
+      "examples": [
+        "В гостната стая отсядат баба им и дядо им.",
+        "Моята баба живее на село."
+      ],
+      "bg": "баба",
+      "tr": "büyükanne"
+    },
+    {
+      "word": "дядо",
+      "translation": "büyükbaba",
+      "type": "isim",
+      "nounForms": {
+        "eril": "дядо",
+        "çoğul": "дядовци",
+        "dişil": "баба"
+      },
+      "examples": [
+        "Баба им и дядо им идват на гости.",
+        "Той е добър дядо."
+      ],
+      "bg": "дядо",
+      "tr": "büyükbaba"
+    },
+    {
+      "word": "западен",
+      "translation": "batı yönlü",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "западен",
+        "Dişil": "западна",
+        "Çoğul": "западни",
+        "Nötr": "западно"
+      },
+      "examples": [
+        "Детската стая е западна.",
+        "Имаме западен прозорец."
+      ],
+      "bg": "западен",
+      "tr": "batı yönlü"
+    },
+    {
+      "word": "северен",
+      "translation": "kuzey yönlü",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "северен",
+        "Dişil": "северна",
+        "Çoğul": "северни",
+        "Nötr": "северно"
+      },
+      "examples": [
+        "Гостната стая е северна.",
+        "Това е северен град."
+      ],
+      "bg": "северен",
+      "tr": "kuzey yönlü"
+    },
+    {
+      "word": "източен",
+      "translation": "doğu yönlü",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "източен",
+        "Dişil": "източна",
+        "Çoğul": "източни",
+        "Nötr": "източно"
+      },
+      "examples": [
+        "Той има източно изложение.",
+        "Източният вятър е силен."
+      ],
+      "bg": "източен",
+      "tr": "doğu yönlü"
+    },
+    {
+      "word": "южен",
+      "translation": "güney yönlü",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "южен",
+        "Dişil": "южна",
+        "Çoğul": "южни",
+        "Nötr": "южно"
+      },
+      "examples": [
+        "Това е южна стая.",
+        "Южният склон е слънчев."
+      ],
+      "bg": "южен",
+      "tr": "güney yönlü"
+    },
+    {
+      "word": "ъглов",
+      "translation": "köşe",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "ъглов",
+        "Dişil": "ъглова",
+        "Çoğul": "ъглови",
+        "Nötr": "ъглово"
+      },
+      "examples": [
+        "В хола има ъглов диван.",
+        "Това е ъглова стая."
+      ],
+      "bg": "ъглов",
+      "tr": "köşe"
+    },
+    {
+      "word": "кристален",
+      "translation": "kristal",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "кристален",
+        "Dişil": "кристална",
+        "Çoğul": "кристални",
+        "Nötr": "кристално"
+      },
+      "examples": [
+        "На масичката е сложена красива кристална ваза.",
+        "Има кристални чаши."
+      ],
+      "bg": "кристален",
+      "tr": "kristal"
+    },
+    {
+      "word": "нисък",
+      "translation": "alçak/kısa",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "нисък",
+        "Dişil": "ниска",
+        "Çoğul": "ниски",
+        "Nötr": "ниско"
+      },
+      "examples": [
+        "Пред него стои една ниска маса.",
+        "Той е нисък човек."
+      ],
+      "bg": "нисък",
+      "tr": "alçak/kısa"
+    },
+    {
+      "word": "тежък",
+      "translation": "ağır",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "тежък",
+        "Dişil": "тежка",
+        "Çoğul": "тежки",
+        "Nötr": "тежко"
+      },
+      "examples": [
+        "Около нея има два тежки фотьойла.",
+        "Това е тежка чанта."
+      ],
+      "bg": "тежък",
+      "tr": "ağır"
+    },
+    {
+      "word": "огромен",
+      "translation": "kocaman/devasa",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "огромен",
+        "Dişil": "огромна",
+        "Çoğul": "огромни",
+        "Nötr": "огромно"
+      },
+      "examples": [
+        "На тавана виси огромен полилей.",
+        "Това е огромна къща."
+      ],
+      "bg": "огромен",
+      "tr": "kocaman/devasa"
+    },
+    {
+      "word": "различни",
+      "translation": "çeşitli/farklı",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "различен",
+        "Dişil": "различна",
+        "Çoğul": "различни",
+        "Nötr": "различно"
+      },
+      "examples": [
+        "В барчето държат различни напитки.",
+        "Имаме различни идеи."
+      ],
+      "bg": "различни",
+      "tr": "çeşitli/farklı"
+    },
+    {
+      "word": "оригинален",
+      "translation": "orijinal",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "оригинален",
+        "Dişil": "оригинална",
+        "Çoğul": "оригинални",
+        "Nötr": "оригинално"
+      },
+      "examples": [
+        "По стените висят оригинални картини.",
+        "Това е оригинален подарък."
+      ],
+      "bg": "оригинален",
+      "tr": "orijinal"
+    },
+    {
+      "word": "персийски",
+      "translation": "İranlı/Fars",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "персийски",
+        "Dişil": "персийска",
+        "Çoğul": "персийски",
+        "Nötr": "персийско"
+      },
+      "examples": [
+        "На пода е прострян огромен персийски килим.",
+        "Обичам персийска храна."
+      ],
+      "bg": "персийски",
+      "tr": "İranlı/Fars"
+    },
+    {
+      "word": "спокоен",
+      "translation": "sakin/huzurlu",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "спокоен",
+        "Dişil": "спокойна",
+        "Çoğul": "спокойни",
+        "Nötr": "спокойно"
+      },
+      "examples": [
+        "Спокойно прекарват вечерта.",
+        "Той е спокоен човек."
+      ],
+      "bg": "спокоен",
+      "tr": "sakin/huzurlu"
+    },
+    {
+      "word": "около",
+      "translation": "etrafında",
+      "type": "edat",
+      "examples": [
+        "Около нея има два тежки фотьойла.",
+        "Около къщата има дървета."
+      ],
+      "bg": "около",
+      "tr": "etrafında"
+    },
+    {
+      "word": "между",
+      "translation": "arasında",
+      "type": "edat",
+      "examples": [
+        "На едно шкафче между леглата се намира радиото.",
+        "Срещата е между нас."
+      ],
+      "bg": "между",
+      "tr": "arasında"
+    },
+    {
+      "word": "до",
+      "translation": "yanında/yakınında",
+      "type": "edat",
+      "examples": [
+        "Тя е разположена до едната стена.",
+        "Ела до мен."
+      ],
+      "bg": "до",
+      "tr": "yanında/yakınında"
+    },
+    {
+      "word": "върху",
+      "translation": "üzerinde",
+      "type": "edat",
+      "examples": [
+        "Върху барчето е сложен телевизор.",
+        "Книгата е върху масата."
+      ],
+      "bg": "върху",
+      "tr": "üzerinde"
+    },
+    {
+      "word": "пред",
+      "translation": "önünde",
+      "type": "edat",
+      "examples": [
+        "Пред бюрото има два стола.",
+        "Чакам те пред киното."
+      ],
+      "bg": "пред",
+      "tr": "önünde"
+    },
+    {
+      "word": "зад",
+      "translation": "arkasında",
+      "type": "edat",
+      "examples": [
+        "Дървото е зад къщата.",
+        "Тя стои зад вратата."
+      ],
+      "bg": "зад",
+      "tr": "arkasında"
+    },
+    {
+      "word": "отсреща",
+      "translation": "karşıda/karşısında",
+      "type": "edat",
+      "examples": [
+        "Отсреща има голям гардероб.",
+        "Магазинът е отсреща."
+      ],
+      "bg": "отсреща",
+      "tr": "karşıda/karşısında"
+    },
+    {
+      "word": "освен",
+      "translation": "bunun dışında/ayrıca",
+      "type": "edat",
+      "examples": [
+        "Освен това в техния апартамент има две тоалетни.",
+        "Всички дойдоха, освен него."
+      ],
+      "bg": "освен",
+      "tr": "bunun dışında/ayrıca"
+    },
+    {
+      "word": "най-долната",
+      "translation": "en altta",
+      "type": "edat",
+      "examples": [
+        "В най-долната част на блока имат мазе.",
+        "Книгата е на най-долната полица."
+      ],
+      "bg": "най-долната",
+      "tr": "en altta"
+    },
+    {
+      "word": "най-горната",
+      "translation": "en üstte",
+      "type": "edat",
+      "examples": [
+        "В най-горната имат таванска стая.",
+        "Топката е на най-горната полица."
+      ],
+      "bg": "най-горната",
+      "tr": "en üstte"
+    },
+    {
+      "word": "средата",
+      "translation": "ortası",
+      "type": "edat",
+      "examples": [
+        "Разположена е в средата на стаята.",
+        "Масата е в средата."
+      ],
+      "bg": "средата",
+      "tr": "ortası"
+    },
+    {
+      "word": "от двете страни",
+      "translation": "iki tarafından",
+      "type": "edat",
+      "examples": [
+        "От двете ѝ страни има нощни шкафчета.",
+        "От двете страни на улицата има коли."
+      ],
+      "bg": "от двете страни",
+      "tr": "iki tarafından"
+    },
+    {
+      "word": "готвя",
+      "translation": "yemek yapmak/pişirmek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "аз готвя, ти готвиш, той/тя/то готви, ние готвим, вие готвите, те готвят",
+        "past": "аз готвих, ти готви, той/тя/то готви, ние готвихме, вие готвихте, те готвиха",
+        "future": "ще готвя, ще готвиш, ще готви, ще готвим, ще готвите, ще готвят",
+        "imperative": "готви, гответе"
+      },
+      "examples": [
+        "Майката готви в кухнята.",
+        "Аз обичам да готвя."
+      ],
+      "bg": "готвя",
+      "tr": "yemek yapmak/pişirmek"
+    },
+    {
+      "word": "закусвам",
+      "translation": "kahvaltı yapmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "аз закусвам, ти закусваш, той/тя/то закусва, ние закусваме, вие закусвате, те закусват",
+        "past": "аз закусвах, ти закусва, той закусва, ние закусвахме, вие закусвахте, те закусваха",
+        "future": "ще закусвам, ще закусваш, ще закусва, ще закусваме, ще закусвате, ще закусват",
+        "imperative": "закусвай, закусвайте"
+      },
+      "examples": [
+        "Семейството закусва тук.",
+        "Аз закусвам в 8 часа."
+      ],
+      "bg": "закусвам",
+      "tr": "kahvaltı yapmak"
+    },
+    {
+      "word": "обядвам",
+      "translation": "öğle yemeği yemek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "аз обядвам, ти обядваш, той/тя/то обядва, ние обядваме, вие обядвате, те обядват",
+        "past": "аз обядвах, ти обядва, той обядва, ние обядвахме, вие обядвахте, те обядваха",
+        "future": "ще обядвам, ще обядваш, ще обядва, ще обядваме, ще обядвате, ще обядват",
+        "imperative": "обядвай, обядвайте"
+      },
+      "examples": [
+        "Те обядват в трапезарията.",
+        "Обикновено обядвам в ресторанта."
+      ],
+      "bg": "обядвам",
+      "tr": "öğle yemeği yemek"
+    },
+    {
+      "word": "вечерям",
+      "translation": "akşam yemeği yemek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "аз вечерям, ти вечеряш, той/тя/то вечеря, ние вечеряме, вие вечеряте, те вечерят",
+        "past": "аз вечерях, ти вечеря, той вечеря, ние вечеряхме, вие вечеряхте, те вечеряха",
+        "future": "ще вечерям, ще вечеряш, ще вечеря, ще вечеряме, ще вечеряте, ще вечерят",
+        "imperative": "вечеряй, вечеряйте"
+      },
+      "examples": [
+        "Всички вечерят заедно.",
+        "Къде ще вечеряш днес?"
+      ],
+      "bg": "вечерям",
+      "tr": "akşam yemeği yemek"
+    },
+    {
+      "word": "храня се",
+      "translation": "yemek yemek (dönüşlü)",
+      "type": "fiil",
+      "conjugation": {
+        "present": "аз се храня, ти се храниш, той/тя/то се храни, ние се храним, вие се храните, те се хранят",
+        "past": "аз се храних, ти се храни, той се храни, ние се хранихме, вие се хранихте, те се храниха",
+        "future": "ще се храня, ще се храниш, ще се храни, ще се храним, ще се храните, ще се хранят",
+        "imperative": "храни се, хранете се"
+      },
+      "examples": [
+        "Тук семейството се храни.",
+        "Детето трябва да се храни добре."
+      ],
+      "bg": "храня се",
+      "tr": "yemek yemek (dönüşlü)"
+    },
+    {
+      "word": "пускам",
+      "translation": "indirmek/bırakmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "аз пускам, ти пускаш, той/тя/то пуска, ние пускаме, вие пускате, те пускат",
+        "past": "аз пусках, ти пуска, той пуска, ние пускахме, вие пускахте, те пускаха",
+        "future": "ще пускам, ще пускаш, ще пуска, ще пускаме, ще пускате, ще пускат",
+        "imperative": "пускай, пускайте"
+      },
+      "examples": [
+        "Те се пускат само през лятото.",
+        "Моля, пусни щорите."
+      ],
+      "bg": "пускам",
+      "tr": "indirmek/bırakmak"
+    },
+    {
+      "word": "предпазвам",
+      "translation": "korumak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "аз предпазвам, ти предпазваш, той/тя/то предпазва, ние предпазваме, вие предпазвате, те предпазват",
+        "past": "аз предпазвах, ти предпазва, той предпазва, ние предпазвахме, вие предпазвахте, те предпазваха",
+        "future": "ще предпазвам, ще предпазваш, ще предпазва, ще предпазваме, ще предпазвате, ще предпазват",
+        "imperative": "предпазвай, предпазвайте"
+      },
+      "examples": [
+        "Щорите предпазват завесите от слънцето.",
+        "Очилата те предпазват от прах."
+      ],
+      "bg": "предпазвам",
+      "tr": "korumak"
+    },
+    {
+      "word": "следвам",
+      "translation": "üniversitede okumak / takip etmek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "аз следвам, ти следваш, той/тя/то следва, ние следваме, вие следвате, те следват",
+        "past": "аз следвах, ти следва, той следва, ние следвахме, вие следвахте, те следваха",
+        "future": "ще следвам, ще следваш, ще следва, ще следваме, ще следвате, ще следват",
+        "imperative": "следвай, следвайте"
+      },
+      "examples": [
+        "Тя следва история в университета.",
+        "Аз следвам медицина."
+      ],
+      "bg": "следвам",
+      "tr": "üniversitede okumak / takip etmek"
+    },
+    {
+      "word": "карам се",
+      "translation": "kavga etmek (dönüşlü)",
+      "type": "fiil",
+      "conjugation": {
+        "present": "аз се карам, ти се караш, той/тя/то се кара, ние се караме, вие се карате, те се карат",
+        "past": "аз се карах, ти се кара, той се кара, ние се карахме, вие се карахте, те се караха",
+        "future": "ще се карам, ще се караш, ще се кара, ще се караме, ще се карате, ще се карат",
+        "imperative": "карай се, карайте се"
+      },
+      "examples": [
+        "Трите момичета никога не се карат.",
+        "Защо се карате толкова често?"
+      ],
+      "bg": "карам се",
+      "tr": "kavga etmek (dönüşlü)"
+    },
+    {
+      "word": "помагам",
+      "translation": "yardım etmek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "аз помагам, ти помагаш, той/тя/то помага, ние помагаме, вие помагате, те помагат",
+        "past": "аз помагах, ти помага, той помага, ние помагахме, вие помагахте, те помагаха",
+        "future": "ще помагам, ще помагаш, ще помага, ще помагаме, ще помагате, ще помагат",
+        "imperative": "помагай, помагайте"
+      },
+      "examples": [
+        "Те си помагат една на друга.",
+        "Аз помагам на майка си."
+      ],
+      "bg": "помагам",
+      "tr": "yardım etmek"
+    },
+    {
+      "word": "свързвам",
+      "translation": "bağlamak/birleştirmek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "аз свързвам, ти свързваш, той/тя/то свързва, ние свързваме, вие свързвате, те свързват",
+        "past": "аз свързвах, ти свързва, той свързва, ние свързвахме, вие свързвахте, те свързваха",
+        "future": "ще свързвам, ще свързваш, ще свързва, ще свързваме, ще свързвате, ще свързват",
+        "imperative": "свързвай, свързвайте"
+      },
+      "examples": [
+        "Балконът ги свързва.",
+        "Тази врата свързва двете стаи."
+      ],
+      "bg": "свързвам",
+      "tr": "bağlamak/birleştirmek"
+    },
+    {
+      "word": "бюфет",
+      "translation": "büfe dolabı",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "бюфет",
+        "çoğul": "бюфети"
+      },
+      "examples": [
+        "Това е бюфет.",
+        "Имаме много бюфети."
+      ],
+      "bg": "бюфет",
+      "tr": "büfe dolabı"
+    },
+    {
+      "word": "балкон",
+      "translation": "balkon",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "балкон",
+        "çoğul": "балкони"
+      },
+      "examples": [
+        "Това е балкон.",
+        "Имаме много балкони."
+      ],
+      "bg": "балкон",
+      "tr": "balkon"
+    },
+    {
+      "word": "перде",
+      "translation": "perde",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "перде",
+        "çoğul": "пердета"
+      },
+      "examples": [
+        "Това е перде.",
+        "Имаме много пердета."
+      ],
+      "bg": "перде",
+      "tr": "perde"
+    },
+    {
+      "word": "завеса",
+      "translation": "perde",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "завеса",
+        "çoğul": "завеси"
+      },
+      "examples": [
+        "Това е завеса.",
+        "Имаме много завеси."
+      ],
+      "bg": "завеса",
+      "tr": "perde"
+    },
+    {
+      "word": "щора",
+      "translation": "jaluzi/panjur",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "щора",
+        "çoğul": "щори"
+      },
+      "examples": [
+        "Това е щора.",
+        "Имаме много щори."
+      ],
+      "bg": "щора",
+      "tr": "jaluzi/panjur"
+    },
+    {
+      "word": "корниз",
+      "translation": "korniş",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "корниз",
+        "çoğul": "корнизи"
+      },
+      "examples": [
+        "Това е корниз.",
+        "Имаме много корнизи."
+      ],
+      "bg": "корниз",
+      "tr": "korniş"
+    },
+    {
+      "word": "тапет",
+      "translation": "duvar kağıdı",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "тапет",
+        "çoğul": "тапети"
+      },
+      "examples": [
+        "Това е тапет.",
+        "Имаме много тапети."
+      ],
+      "bg": "тапет",
+      "tr": "duvar kağıdı"
+    },
+    {
+      "word": "плочка",
+      "translation": "fayans",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "плочка",
+        "çoğul": "плочки"
+      },
+      "examples": [
+        "Това е плочка.",
+        "Имаме много плочки."
+      ],
+      "bg": "плочка",
+      "tr": "fayans"
+    },
+    {
+      "word": "латекс",
+      "translation": "lateks boya",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "латекс",
+        "çoğul": "-"
+      },
+      "examples": [
+        "Това е латекс.",
+        "Имаме хубав латекс."
+      ],
+      "bg": "латекс",
+      "tr": "lateks boya"
+    },
+    {
+      "word": "ламперия",
+      "translation": "lambri",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "ламперия",
+        "çoğul": "ламперии"
+      },
+      "examples": [
+        "Това е ламперия.",
+        "Имаме много ламперии."
+      ],
+      "bg": "ламперия",
+      "tr": "lambri"
+    },
+    {
+      "word": "антре",
+      "translation": "giriş holü/antre",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "антре",
+        "çoğul": "антрета"
+      },
+      "examples": [
+        "Това е антре.",
+        "Имаме много антрета."
+      ],
+      "bg": "антре",
+      "tr": "giriş holü/antre"
+    },
+    {
+      "word": "закачалка",
+      "translation": "askılık",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "закачалка",
+        "çoğul": "закачалки"
+      },
+      "examples": [
+        "Това е закачалка.",
+        "Имаме много закачалки."
+      ],
+      "bg": "закачалка",
+      "tr": "askılık"
+    },
+    {
+      "word": "чешма",
+      "translation": "musluk",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "чешма",
+        "çoğul": "чешми"
+      },
+      "examples": [
+        "Това е чешма.",
+        "Имаме много чешми."
+      ],
+      "bg": "чешма",
+      "tr": "musluk"
+    },
+    {
+      "word": "мивка",
+      "translation": "lavabo",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "мивка",
+        "çoğul": "мивки"
+      },
+      "examples": [
+        "Това е мивка.",
+        "Имаме много мивки."
+      ],
+      "bg": "мивка",
+      "tr": "lavabo"
+    },
+    {
+      "word": "абсорбатор",
+      "translation": "davlumbaz/aspiratör",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "абсорбатор",
+        "çoğul": "абсорбатори"
+      },
+      "examples": [
+        "Това е абсорбатор.",
+        "Имаме много абсорбатори."
+      ],
+      "bg": "абсорбатор",
+      "tr": "davlumbaz/aspiratör"
+    },
+    {
+      "word": "печка",
+      "translation": "ocak/fırın",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "печка",
+        "çoğul": "печки"
+      },
+      "examples": [
+        "Това е печка.",
+        "Имаме много печки."
+      ],
+      "bg": "печка",
+      "tr": "ocak/fırın"
+    },
+    {
+      "word": "съд",
+      "translation": "kap",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "съд",
+        "çoğul": "съдове"
+      },
+      "examples": [
+        "Това е съд.",
+        "Имаме много съдове."
+      ],
+      "bg": "съд",
+      "tr": "kap"
+    },
+    {
+      "word": "прибор",
+      "translation": "gereç",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "прибор",
+        "çoğul": "прибори"
+      },
+      "examples": [
+        "Това е прибор.",
+        "Имаме много прибори."
+      ],
+      "bg": "прибор",
+      "tr": "gereç"
+    },
+    {
+      "word": "кашон",
+      "translation": "karton kutu",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "кашон",
+        "çoğul": "кашони"
+      },
+      "examples": [
+        "Това е кашон.",
+        "Имаме много кашони."
+      ],
+      "bg": "кашон",
+      "tr": "karton kutu"
+    },
+    {
+      "word": "куфар",
+      "translation": "valiz",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "куфар",
+        "çoğul": "куфари"
+      },
+      "examples": [
+        "Това е куфар.",
+        "Имаме много куфари."
+      ],
+      "bg": "куфар",
+      "tr": "valiz"
+    },
+    {
+      "word": "чанта",
+      "translation": "çanta",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "чанта",
+        "çoğul": "чанти"
+      },
+      "examples": [
+        "Това е чанта.",
+        "Имаме много чанти."
+      ],
+      "bg": "чанта",
+      "tr": "çanta"
+    },
+    {
+      "word": "вещ",
+      "translation": "eşya",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "вещ",
+        "çoğul": "вещи"
+      },
+      "examples": [
+        "Това е вещ.",
+        "Имаме много вещи."
+      ],
+      "bg": "вещ",
+      "tr": "eşya"
+    },
+    {
+      "word": "гоблен",
+      "translation": "goblen/duvar halısı",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "гоблен",
+        "çoğul": "гоблени"
+      },
+      "examples": [
+        "Това е гоблен.",
+        "Имаме много гоблени."
+      ],
+      "bg": "гоблен",
+      "tr": "goblen/duvar halısı"
+    },
+    {
+      "word": "разходка",
+      "translation": "yürüyüş/gezinti",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "разходка",
+        "çoğul": "разходки"
+      },
+      "examples": [
+        "Това е разходка.",
+        "Имаме много разходки."
+      ],
+      "bg": "разходка",
+      "tr": "yürüyüş/gezinti"
+    },
+    {
+      "word": "курс",
+      "translation": "sınıf/kurs",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "курс",
+        "çoğul": "курсове"
+      },
+      "examples": [
+        "Това е курс.",
+        "Имаме много курсове."
+      ],
+      "bg": "курс",
+      "tr": "sınıf/kurs"
+    },
+    {
+      "word": "лято",
+      "translation": "yaz",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "лято",
+        "çoğul": "лета"
+      },
+      "examples": [
+        "Това е лято.",
+        "Имаме много лета."
+      ],
+      "bg": "лято",
+      "tr": "yaz"
+    },
+    {
+      "word": "слънце",
+      "translation": "güneş",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "слънце",
+        "çoğul": "слънца"
+      },
+      "examples": [
+        "Това е слънце.",
+        "Имаме много слънца."
+      ],
+      "bg": "слънце",
+      "tr": "güneş"
+    },
+    {
+      "word": "майка",
+      "translation": "anne",
+      "type": "isim",
+      "nounForms": {
+        "eril": "баща",
+        "диşil": "майка",
+        "çoğul": "майки"
+      },
+      "examples": [
+        "Това е майка.",
+        "Те са добри майки."
+      ],
+      "bg": "майка",
+      "tr": "anne"
+    },
+    {
+      "word": "старинен",
+      "translation": "antika/eski tarz",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "старинен",
+        "Dişil": "старинна",
+        "Нötr": "старинно",
+        "Çoğul": "старинни"
+      },
+      "examples": [
+        "Това е старинен цвят.",
+        "Тя има старинна рокля."
+      ],
+      "bg": "старинен",
+      "tr": "antika/eski tarz"
+    },
+    {
+      "word": "тъмен",
+      "translation": "karanlık",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "тъмен",
+        "Dişil": "тъмна",
+        "Нötr": "тъмно",
+        "Çoğul": "тъмни"
+      },
+      "examples": [
+        "Това е тъмен цвят.",
+        "Тя има тъмна рокля."
+      ],
+      "bg": "тъмен",
+      "tr": "karanlık"
+    },
+    {
+      "word": "широк",
+      "translation": "geniş",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "широк",
+        "Dişil": "широка",
+        "Нötr": "широко",
+        "Çoğul": "широки"
+      },
+      "examples": [
+        "Това е широк цвят.",
+        "Тя има широка рокля."
+      ],
+      "bg": "широк",
+      "tr": "geniş"
+    },
+    {
+      "word": "просторен",
+      "translation": "ferah/bol",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "просторен",
+        "Dişil": "просторна",
+        "Нötr": "просторно",
+        "Çoğul": "просторни"
+      },
+      "examples": [
+        "Това е просторен цвят.",
+        "Тя има просторна рокля."
+      ],
+      "bg": "просторен",
+      "tr": "ferah/bol"
+    },
+    {
+      "word": "специален",
+      "translation": "özel",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "специален",
+        "Dişil": "специална",
+        "Нötr": "специално",
+        "Çoğul": "специални"
+      },
+      "examples": [
+        "Това е специален цвят.",
+        "Тя има специална рокля."
+      ],
+      "bg": "специален",
+      "tr": "özel"
+    },
+    {
+      "word": "дантелен",
+      "translation": "dantel",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "дантелен",
+        "Dişil": "дантелена",
+        "Нötr": "дантелено",
+        "Çoğul": "дантелени"
+      },
+      "examples": [
+        "Това е дантелен цвят.",
+        "Тя има дантелена рокля."
+      ],
+      "bg": "дантелен",
+      "tr": "dantel"
+    },
+    {
+      "word": "плюшен",
+      "translation": "kadife/pelüş",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "плюшен",
+        "Dişil": "плюшена",
+        "Нötr": "плюшено",
+        "Çoğul": "плюшени"
+      },
+      "examples": [
+        "Това е плюшен цвят.",
+        "Тя има плюшена рокля."
+      ],
+      "bg": "плюшен",
+      "tr": "kadife/pelüş"
+    },
+    {
+      "word": "копринен",
+      "translation": "ipekli",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "копринен",
+        "Dişil": "копринена",
+        "Нötr": "копринено",
+        "Çoğul": "копринени"
+      },
+      "examples": [
+        "Това е копринен цвят.",
+        "Тя има копринена рокля."
+      ],
+      "bg": "копринен",
+      "tr": "ipekli"
+    },
+    {
+      "word": "дървен",
+      "translation": "ahşap",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "дървен",
+        "Dişil": "дървена",
+        "Нötr": "дървено",
+        "Çoğul": "дървени"
+      },
+      "examples": [
+        "Това е дървен цвят.",
+        "Тя има дървена рокля."
+      ],
+      "bg": "дървен",
+      "tr": "ahşap"
+    },
+    {
+      "word": "метален",
+      "translation": "metal",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "метален",
+        "Dişil": "метална",
+        "Нötr": "метално",
+        "Çoğul": "метални"
+      },
+      "examples": [
+        "Това е метален цвят.",
+        "Тя има метална рокля."
+      ],
+      "bg": "метален",
+      "tr": "metal"
+    },
+    {
+      "word": "гипсов",
+      "translation": "alçılı",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "гипсов",
+        "Dişil": "гипсова",
+        "Нötr": "гипсово",
+        "Çoğul": "гипсови"
+      },
+      "examples": [
+        "Това е гипсов цвят.",
+        "Тя има гипсова рокля."
+      ],
+      "bg": "гипсов",
+      "tr": "alçılı"
+    },
+    {
+      "word": "електрически",
+      "translation": "elektrikli",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "електрически",
+        "Dişil": "електрическа",
+        "Нötr": "електрическо",
+        "Çoğul": "електрически"
+      },
+      "examples": [
+        "Това е електрически цвят.",
+        "Тя има електрическа рокля."
+      ],
+      "bg": "електрически",
+      "tr": "elektrikli"
+    },
+    {
+      "word": "индийски",
+      "translation": "Hintli",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "индийски",
+        "Dişil": "индийска",
+        "Нötr": "индийско",
+        "Çoğul": "индийски"
+      },
+      "examples": [
+        "Това е индийски цвят.",
+        "Тя има индийска рокля."
+      ],
+      "bg": "индийски",
+      "tr": "Hintli"
+    },
+    {
+      "word": "близо до",
+      "translation": "yakın",
+      "type": "zarf",
+      "examples": [
+        "Общежитието е близо до Университета.",
+        "Аз съм близо до теб."
+      ],
+      "bg": "близо до",
+      "tr": "yakın"
+    },
+    {
+      "word": "чрез преходна врата",
+      "translation": "geçiş kapısıyla",
+      "type": "kalıp",
+      "examples": [
+        "Трапезарията е свързана с кухнята чрез преходна врата.",
+        "Влизаме чрез тази врата."
+      ],
+      "bg": "чрез преходна врата",
+      "tr": "geçiş kapısıyla"
+    },
+    {
+      "word": "от другата страна",
+      "translation": "diğer tarafından",
+      "type": "kalıp",
+      "examples": [
+        "От другата страна има радио.",
+        "Той е от другата страна."
+      ],
+      "bg": "от другата страна",
+      "tr": "diğer tarafından"
+    },
+    {
+      "word": "напротив",
+      "translation": "aksine",
+      "type": "zarf",
+      "examples": [
+        "Напротив, помагат си една на друга.",
+        "Напротив, това не е вярно."
+      ],
+      "bg": "напротив",
+      "tr": "aksine"
+    },
+    {
+      "word": "помагат си една на друга",
+      "translation": "birbirlerine yardım etmek",
+      "type": "kalıp",
+      "examples": [
+        "Те си помагат една на друга.",
+        "Добрите приятелки си помагат една на друга."
+      ],
+      "bg": "помагат си една на друга",
+      "tr": "birbirlerine yardım etmek"
+    },
+    {
+      "word": "добре се разбира с",
+      "translation": "ile iyi anlaşmak",
+      "type": "kalıp",
+      "examples": [
+        "Диана много добре се разбира с тях.",
+        "Аз добре се разбирам с брат си."
+      ],
+      "bg": "добре се разбира с",
+      "tr": "ile iyi anlaşmak"
+    },
+    {
+      "word": "никога не се карат",
+      "translation": "asla kavga etmezler",
+      "type": "kalıp",
+      "examples": [
+        "Трите добре си живеят и никога не се карат.",
+        "Ние никога не се караме."
+      ],
+      "bg": "никога не се карат",
+      "tr": "asla kavga etmezler"
+    }
+  ]
+}

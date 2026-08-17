@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 4: Restoranda Şikayet",
+  "difficulty": 4,
+  "description": "Lüks bir restoranda yemeğinizle ilgili ciddi bir sorunu şef garsona iletiyorsunuz.",
+  "questions": [
+    {
+      "id": "l4_cr_1",
+      "type": "dialogue",
+      "speaker": "Şef Garson",
+      "sentence": "Извинете, господине/госпожо. Има ли някакъв проблем? Забелязах, че не сте докоснали храната си.",
+      "answer": "Да, لسъжаление има проблем. Пържолата е напълно сурова отвътре, а аз изрично я поръчах добре изпечена.",
+      "options": [
+        "Да, لسъжаление има проблем. Пържолата е напълно сурова отвътре, а аз изрично я поръчах добре изпечена.",
+        "Не съм гладен.",
+        "Просто гледам храната.",
+        "Всичко е перфектно."
+      ],
+      "hint": "Evet, maalesef bir sorun var. Bifteğin içi tamamen çiğ, oysa ben onu açıkça (özellikle) iyi pişmiş sipariş etmiştim.",
+      "explanation": "\"Изрично\" (Açıkça, bilhassa) ve \"Добре изпечена\" (İyi pişmiş) kelimeleri spesifik memnuniyetsizliği güçlü şekilde ifade eder.",
+      "optionsTr": [
+        "Evet maalesef bir sorun var. Bifteklerin içi tamamen çiğ ve özellikle iyi pişmiş olmasını sipariş ettim.",
+        "Aç değilim.",
+        "Sadece yemeğe bakıyorum.",
+        "Her şey mükemmel."
+      ]
+    },
+    {
+      "id": "l4_cr_2",
+      "type": "dialogue",
+      "speaker": "Şef Garson",
+      "sentence": "О, поднасям най-искрените си извинения. Веднага ще я върна в кухнята. Желаете ли нещо друго междувременно?",
+      "answer": "Оценявам извинението ви. Не, благодаря, просто бих искал ястието ми да бъде приготвено правилно.",
+      "options": [
+        "Искам парите си обратно веднага!",
+        "Оценявам извинението ви. Не, благодаря, просто бих искал ястието ми да бъде приготвено правилно.",
+        "Искам безплатна бира.",
+        "Не ми пука за извиненията."
+      ],
+      "hint": "Özrünüzü takdir ediyorum. Hayır teşekkürler, sadece yemeğimin doğru şekilde hazırlanmasını isterim.",
+      "explanation": "\"Поднасям извинения\" (Özür sunmak) çok resmi bir ifadedir. \"Оценявам\" (Takdir ediyorum) kalarak profesyonelce yanıt veriyorsunuz.",
+      "optionsTr": [
+        "Artık paramı geri istiyorum!",
+        "Özrünü takdir ediyorum. Hayır teşekkürler, sadece yemeğimin doğru yapılmasını istiyorum.",
+        "Bedava bira istiyorum.",
+        "Bahaneler umurumda değil."
+      ]
+    },
+    {
+      "id": "l4_cr_3",
+      "type": "dialogue",
+      "speaker": "Şef Garson",
+      "sentence": "Разбира се, ще се погрижа лично. За сметка на заведението, ще ви предложим десерт по ваш избор след вечерята.",
+      "answer": "Много любезен жест, благодаря. Надявам се втория път всичко да е наред.",
+      "options": [
+        "Искам два десерта.",
+        "Това е подкуп!",
+        "Не ям сладко.",
+        "Много любезен жест, благодаря. Надявам се втория път всичко да е наред."
+      ],
+      "hint": "Çok nazik bir jest, teşekkürler. Umarım ikinci seferde her şey yolunda olur.",
+      "explanation": "\"За сметка на заведението\" (Müessesenin ikramı) anlamına gelir. Siz de durumu yatıştırarak kabul ediyorsunuz.",
+      "optionsTr": [
+        "İki tatlı istiyorum.",
+        "Bu bir rüşvet!",
+        "Ben tatlı yemem.",
+        "Çok nazik bir jest, teşekkür ederim. Umarım ikinci seferde her şey yolunda gider."
+      ]
+    },
+    {
+      "id": "l4_cr_4",
+      "type": "dialogue",
+      "speaker": "Şef Garson",
+      "sentence": "Обещавам ви, че няма да има повече разочарования. Главният готвач вече работи по новата порция.",
+      "answer": "Добре, ще изчакам. Благодаря за бързата и адекватна реакция.",
+      "options": [
+        "Побързайте.",
+        "Ще видим.",
+        "Добре, ще изчакам. Благодаря за бързата и адекватна реакция.",
+        "Не вярвам на готвача."
+      ],
+      "hint": "Tamam, bekleyeceğim. Hızlı ve yeterli/uygun tepkiniz için teşekkürler.",
+      "explanation": "\"Адекватна реакция\" (Uygun/yerinde tepki) kurumsal iletişimde kriz çözümünü takdir etmenin şık bir yoludur.",
+      "optionsTr": [
+        "Acele etmek.",
+        "Göreceğiz.",
+        "Tamam, bekleyeceğim. Hızlı ve yeterli yanıtınız için teşekkür ederiz.",
+        "Şefe güvenmiyorum."
+      ]
+    }
+  ]
+}

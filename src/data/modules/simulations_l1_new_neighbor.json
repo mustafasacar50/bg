@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 1: Yeni Komşu ile Tanışma",
+  "difficulty": 1,
+  "description": "Yeni taşındığınız binada komşunuzla tanışıyorsunuz. Temel selamlaşma ve \"съм\" (olmak) fiili kullanımı.",
+  "questions": [
+    {
+      "id": "l1_nn_1",
+      "type": "dialogue",
+      "speaker": "Siz",
+      "sentence": "...",
+      "answer": "Здравейте! Аз съм вашият нов съсед.",
+      "options": [
+        "Какво правите тук?",
+        "Здравейте! Аз съм вашият нов съсед.",
+        "Колко струва апартаментът?",
+        "Къде е тоалетната?"
+      ],
+      "hint": "Merhaba! Ben sizin yeni komşunuzum.",
+      "explanation": "Kendinizi tanıtarak söze giriyorsunuz. \"Аз съм\" (Ben ...-im) yapısı Bulgarcada isim cümlelerinin temelidir.",
+      "optionsTr": [
+        "Burada ne yapıyorsun?",
+        "Merhaba! Ben senin yeni komşunum.",
+        "Daire ne kadar?",
+        "Lavabo nerede?"
+      ]
+    },
+    {
+      "id": "l1_nn_2",
+      "type": "dialogue",
+      "speaker": "Komşu",
+      "sentence": "Здравейте! Добре дошли. Откъде сте?",
+      "answer": "Много благодаря! Аз съм от Турция.",
+      "options": [
+        "Много благодаря! Аз съм от Турция.",
+        "Не искам да казвам.",
+        "Отивам на пазар.",
+        "Времето е лошо."
+      ],
+      "hint": "Çok teşekkürler! Ben Türkiyeliyim.",
+      "explanation": "Nereli olduğunuzu belirtiyorsunuz. \"Откъде сте?\" (Nerelisiniz?) sorusuna \"Аз съм от [Ülke]\" şeklinde cevap verilir.",
+      "optionsTr": [
+        "Çok teşekkürler! Ben Türkiyeliyim.",
+        "Söylemek istemiyorum.",
+        "Markete gidiyorum.",
+        "Hava kötü."
+      ]
+    },
+    {
+      "id": "l1_nn_3",
+      "type": "dialogue",
+      "speaker": "Komşu",
+      "sentence": "Радвам се да се запознаем. Аз се казвам Петър.",
+      "answer": "Приятно ми е, Петър. Аз се казвам Али.",
+      "options": [
+        "Къде работиш?",
+        "Довиждане, Петър.",
+        "Приятно ми е, Петър. Аз се казвам Али.",
+        "Това е моят брат."
+      ],
+      "hint": "Memnun oldum Peter. Benim adım Ali.",
+      "explanation": "\"Приятно ми е\" (Memnun oldum) kalıbı tanışmalarda en sık kullanılan nazik ifadedir.",
+      "optionsTr": [
+        "nerede çalışıyorsun",
+        "Hoşça kal Peter.",
+        "Tanıştığımıza memnun oldum Peter. Benim adım Ali.",
+        "Bu benim kardeşim."
+      ]
+    },
+    {
+      "id": "l1_nn_4",
+      "type": "dialogue",
+      "speaker": "Komşu",
+      "sentence": "Ако имате нужда от нещо, почукайте на вратата ми.",
+      "answer": "Много сте любезен, благодаря. Хубав ден!",
+      "options": [
+        "Много сте любезен, благодаря. Хубав ден!",
+        "Ще спя сега.",
+        "Дай ми пари.",
+        "Не те разбирам."
+      ],
+      "hint": "Çok naziksiniz, teşekkürler. İyi günler!",
+      "explanation": "\"Много сте любезен\" (Çok naziksiniz) diyerek konuşmayı kibarca sonlandırıyorsunuz.",
+      "optionsTr": [
+        "Çok naziksiniz, teşekkür ederim. İyi günler!",
+        "Şimdi uyuyacağım.",
+        "Bana para ver.",
+        "Anlamıyorum."
+      ]
+    }
+  ]
+}

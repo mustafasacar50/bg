@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 2: Tren Garında",
+  "difficulty": 2,
+  "description": "Filibe (Plovdiv) için bilet alıyorsunuz ve peronu soruyorsunuz. Gelecek zaman \"Ще\".",
+  "questions": [
+    {
+      "id": "l2_ts_1",
+      "type": "dialogue",
+      "speaker": "Gişe Memuru",
+      "sentence": "Следващ, моля! Накъде ще пътувате?",
+      "answer": "Бих искал един двупосочен билет за Пловдив за утре сутрин.",
+      "options": [
+        "Аз съм от влака.",
+        "Бих искал един двупосочен билет за Пловдив за утре сутрин.",
+        "Колко тежи багажът?",
+        "Влакът закъснява."
+      ],
+      "hint": "Yarın sabah için Filibe'ye bir gidiş-dönüş bileti rica ediyorum.",
+      "explanation": "\"Бих искал\" (İsterdim / Rica ediyorum) şart kipiyle çok kibar bir isteği belirtir. \"Двупосочен\" (İki yönlü/gidiş-dönüş) demektir.",
+      "optionsTr": [
+        "Ben trendenim.",
+        "Yarın sabah için Filibe'ye gidiş dönüş bileti istiyorum.",
+        "Bagajın ağırlığı ne kadar?",
+        "Tren gecikti."
+      ]
+    },
+    {
+      "id": "l2_ts_2",
+      "type": "dialogue",
+      "speaker": "Gişe Memuru",
+      "sentence": "Има влак в 08:30 и в 10:15. Кой предпочитате?",
+      "answer": "Ще хвана този в 08:30. Първа класа, ако е възможно.",
+      "options": [
+        "Не искам влак.",
+        "Ще хвана този в 08:30. Първа класа, ако е възможно.",
+        "Часът е десет.",
+        "Влакът е бърз."
+      ],
+      "hint": "08:30'dakini yakalayacağım. Mümkünse birinci sınıf.",
+      "explanation": "\"Ще\" parçacığı Bulgarcada gelecek zaman yapar (Ще хвана = Yakalayacağım).",
+      "optionsTr": [
+        "Tren istemiyorum.",
+        "08:30'da onu yakalayacağım. Mümkünse birinci sınıf.",
+        "Saat on oldu.",
+        "Tren hızlıdır."
+      ]
+    },
+    {
+      "id": "l2_ts_3",
+      "type": "dialogue",
+      "speaker": "Gişe Memuru",
+      "sentence": "Да, има свободни места в първа класа. Цената е 32 лева.",
+      "answer": "Ето парите. От кой коловоз тръгва влакът?",
+      "options": [
+        "Ето парите. От кой коловоз тръгва влакът?",
+        "Колко е голям Пловдив?",
+        "Аз нямам 32 лева.",
+        "Обичам да пътувам."
+      ],
+      "hint": "İşte para. Tren hangi perondan kalkıyor?",
+      "explanation": "Garlarda \"peron\" için genellikle \"коловоз\" kelimesi kullanılır.",
+      "optionsTr": [
+        "İşte para. Tren hangi raydan kalkıyor?",
+        "Filibe ne kadar büyük?",
+        "32 BGN'im yok.",
+        "Seyahat etmeyi severim."
+      ]
+    },
+    {
+      "id": "l2_ts_4",
+      "type": "dialogue",
+      "speaker": "Gişe Memuru",
+      "sentence": "Влакът тръгва от трети коловоз. Приятно пътуване!",
+      "answer": "Благодаря! Желая ви спокойна смяна.",
+      "options": [
+        "Благодаря! Желая ви спокойна смяна.",
+        "Ще спя във влака.",
+        "Трети е лошо число.",
+        "Колко дълго?"
+      ],
+      "hint": "Teşekkürler! Size sakin bir vardiya dilerim.",
+      "explanation": "\"Спокойна смяна\" (Sakin vardiya / İyi çalışmalar), çalışan kişilere sıkça söylenen sıcak bir veda sözüdür.",
+      "optionsTr": [
+        "Teşekkür ederim! Size huzurlu bir geçiş diliyorum.",
+        "Ben trende uyuyacağım.",
+        "Üç kötü bir sayı.",
+        "Ne kadardır?"
+      ]
+    }
+  ]
+}

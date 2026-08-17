@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 5: Ticari Sözleşme İhtilafı",
+  "difficulty": 5,
+  "description": "İki şirket arasında tedarik gecikmesinden kaynaklanan hukuki bir anlaşmazlığı müzakere ediyorsunuz.",
+  "questions": [
+    {
+      "id": "l5_cn_1",
+      "type": "dialogue",
+      "speaker": "Tedarikçi Firma",
+      "sentence": "Разбираме недоволството ви относно забавянето на доставките, но форсмажорните обстоятелства на границата бяха извън нашия контрол.",
+      "answer": "Осъзнаваме сложността на ситуацията, но съгласно член 4 от договора, всяко забавяне над 10 дни подлежи на неустойки.",
+      "options": [
+        "Осъзнаваме сложността на ситуацията, но съгласно член 4 от договора, всяко забавяне над 10 дни подлежи на неустойки.",
+        "Ще ви съдя до дупка!",
+        "Не ме интересуват вашите оправдания, искам си стоката.",
+        "Какво е форсмажор?"
+      ],
+      "hint": "Durumun karmaşıklığının farkındayız, ancak sözleşmenin 4. maddesi uyarınca 10 günü aşan her türlü gecikme cezai şartlara tabidir.",
+      "explanation": "\"Съгласно\" (...uyarınca) ve \"Неустойка\" (Cezai şart/Tazminat) hukuki ve ticari metinlerin belkemiğidir.",
+      "optionsTr": [
+        "Durumun karmaşıklığının farkındayız ancak sözleşmenin 4. maddesine göre 10 günü aşan gecikmeler cezaya tabidir.",
+        "Seni cehenneme kadar yargılayacağım!",
+        "Bahaneleriniz umurumda değil, malları istiyorum.",
+        "Mücbir sebep nedir?"
+      ]
+    },
+    {
+      "id": "l5_cn_2",
+      "type": "dialogue",
+      "speaker": "Tedarikçi Firma",
+      "sentence": "Готови сме да предложим отстъпка от 15% за следващата поръчка, като жест на добра воля, за да избегнем съдебни спорове.",
+      "answer": "Предложението ви е стъпка в правилната посока, но претърпените от нас пропуснати ползи надвишават значително тази сума.",
+      "options": [
+        "15 процента е нищо, искам 50!",
+        "Предложението ви е стъпка в правилната посока, но претърпените от нас пропуснати ползи надвишават значително тази сума.",
+        "Съгласен съм, давайте отстъпката.",
+        "Не искам да правя повече бизнес с вас."
+      ],
+      "hint": "Teklifiniz doğru yönde atılmış bir adım, ancak uğradığımız kâr kaybı (kaçırılan faydalar) bu tutarı önemli ölçüde aşıyor.",
+      "explanation": "\"Пропуснати ползи\" (Mahrum kalınan kâr / Kaçırılan fırsatlar) Hukuk ve İşletme dilinde maddi zararı niteleyen terimdir.",
+      "optionsTr": [
+        "Yüzde 15 hiçbir şey, ben 50 istiyorum!",
+        "Teklifiniz doğru yönde atılmış bir adımdır ancak uğradığımız kar kaybı bu miktarın çok üzerindedir.",
+        "Katılıyorum, indirim yapın.",
+        "Artık seninle iş yapmak istemiyorum."
+      ]
+    },
+    {
+      "id": "l5_cn_3",
+      "type": "dialogue",
+      "speaker": "Tedarikçi Firma",
+      "sentence": "Добре, нека бъдем прагматични. Ако покрием логистичните ви разходи за този месец и задържим отстъпката, бихме ли постигнали консенсус?",
+      "answer": "Ако това споразумение бъде официализирано в анекс към текущия договор до края на деня, сме склонни да го приемем.",
+      "options": [
+        "Ако това споразумение бъде официализирано в анекс към текущия договор до края на деня, сме склонни да го приемем.",
+        "Не, искам още пари.",
+        "Трябва да питам шефа си.",
+        "Звучи добре, няма нужда от документи."
+      ],
+      "hint": "Eğer bu anlaşma gün sonuna kadar mevcut sözleşmeye bir zeyilname (ek) ile resmileştirilirse, kabul etme eğilimindeyiz.",
+      "explanation": "\"Официализирано\" (Resmileştirilmiş), \"Анекс\" (Zeyilname/Ek belge) ve \"Склонни да приемем\" (Kabul etme eğiliminde olmak) kelimeleri pürüzsüz bir kurumsal diplomasi örneğidir.",
+      "optionsTr": [
+        "Eğer bu anlaşma gün sonuna kadar mevcut sözleşmeye ek olarak resmileştirilirse, bunu kabul etme eğilimindeyiz.",
+        "Hayır, daha fazla para istiyorum.",
+        "Patronuma sormam lazım.",
+        "Kulağa hoş geliyor, evrak gerekmiyor."
+      ]
+    },
+    {
+      "id": "l5_cn_4",
+      "type": "dialogue",
+      "speaker": "Tedarikçi Firma",
+      "sentence": "Имаме сделка. Нашият юридически отдел ще изпрати черновата на анекса до един час.",
+      "answer": "Очакваме я. Радвам се, че успяхме да разрешим този казус извънсъдебно.",
+      "options": [
+        "Очакваме я. Радвам се, че успяхме да разрешим този казус извънсъдебно.",
+        "Най-накрая свърши.",
+        "Не забравяйте отстъпката.",
+        "Чао."
+      ],
+      "hint": "Bekliyoruz. Bu vakayı/sorunu mahkeme dışında (sulh yoluyla) çözebildiğimize sevindim.",
+      "explanation": "\"Казус\" (Vaka/Durum) ve \"Извънсъдебно\" (Mahkeme dışı) hukuki terimler barındıran kapanış ifadesidir.",
+      "optionsTr": [
+        "Onu bekliyoruz. Bu davayı mahkeme dışında çözebildiğimize sevindim.",
+        "Nihayet bitti.",
+        "İndirimi unutmayın.",
+        "Hoşçakal."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 3: Karakolda İfade Verme",
+  "difficulty": 3,
+  "description": "Cüzdanınızı çaldırdınız ve karakolda olayı anlatıyorsunuz. Geçmiş zaman kipleri.",
+  "questions": [
+    {
+      "id": "l3_pr_1",
+      "type": "dialogue",
+      "speaker": "Polis Memuru",
+      "sentence": "Добър ден. Какъв е проблемът? Защо искате да подадете оплакване?",
+      "answer": "Здравейте. Преди половин час ми откраднаха портфейла в центъра на града.",
+      "options": [
+        "Здравейте. Преди половин час ми откраднаха портфейла в центъра на града.",
+        "Искам да стана полицай.",
+        "Намерих пари на улицата.",
+        "Изгубих се."
+      ],
+      "hint": "Merhaba. Yarım saat önce şehir merkezinde cüzdanımı çaldılar.",
+      "explanation": "\"Откраднаха ми портфейла\" (Cüzdanımı çaldılar) geçmiş zaman (минали свършено време) cümlesidir.",
+      "optionsTr": [
+        "Merhaba. Yarım saat önce şehir merkezinde cüzdanım çalındı.",
+        "Polis memuru olmak istiyorum.",
+        "Sokakta para buldum.",
+        "Kayboldum."
+      ]
+    },
+    {
+      "id": "l3_pr_2",
+      "type": "dialogue",
+      "speaker": "Polis Memuru",
+      "sentence": "Разбирам. Можете ли да опишете как точно се случи това?",
+      "answer": "Вървях по главната улица и изведнъж някой ме блъсна. После усетих, че портфейлът ми липсва.",
+      "options": [
+        "Не помня нищо.",
+        "Вървях по главната улица и изведнъж някой ме блъсна. После усетих, че портфейлът ми липсва.",
+        "Просто падна от джоба ми.",
+        "Аз им го дадох."
+      ],
+      "hint": "Ana caddede yürüyordum ve aniden biri bana çarptı. Sonra cüzdanımın eksik olduğunu hissettim.",
+      "explanation": "\"Вървях\" (Yürüyordum - Sürekli geçmiş) ile \"Блъсна\" (Çarptı - Anlık geçmiş) fiillerinin kullanımı hikaye anlatımı için önemlidir.",
+      "optionsTr": [
+        "Hiçbir şey hatırlamıyorum.",
+        "Ana caddede yürüyordum ve aniden biri bana çarptı. Daha sonra cüzdanımın kaybolduğunu fark ettim.",
+        "Az önce cebimden düştü.",
+        "Onlara verdim."
+      ]
+    },
+    {
+      "id": "l3_pr_3",
+      "type": "dialogue",
+      "speaker": "Polis Memuru",
+      "sentence": "Успяхте ли да видите лицето на извършителя?",
+      "answer": "За съжаление не. Беше висок мъж с тъмно яке и шапка, но не видях лицето му.",
+      "options": [
+        "Беше малко дете.",
+        "Да, това беше моят приятел.",
+        "За съжаление не. Беше висок мъж с тъмно яке и шапка, но не видях лицето му.",
+        "Не знам какво е извършител."
+      ],
+      "hint": "Maalesef hayır. Koyu renk ceketli ve şapkalı uzun boylu bir adamdı ama yüzünü görmedim.",
+      "explanation": "\"За съжаление\" (Maalesef) ve fiziksel betimlemeler (\"тъмно яке\", \"шапка\") burada hedef kelimelerdir.",
+      "optionsTr": [
+        "O küçük bir çocuktu.",
+        "Evet, o benim arkadaşımdı.",
+        "Ne yazık ki hayır. Koyu renk ceketli ve şapkalı, uzun boylu bir adamdı ama yüzünü göremiyordum.",
+        "Failin ne olduğunu bilmiyorum."
+      ]
+    },
+    {
+      "id": "l3_pr_4",
+      "type": "dialogue",
+      "speaker": "Polis Memuru",
+      "sentence": "Ще съставим протокол. Какви документи имаше в портфейла ви?",
+      "answer": "Личната ми карта, шофьорската книжка и около 100 лева в брой.",
+      "options": [
+        "Нямаше нищо важно.",
+        "Личната ми карта, шофьорската книжка и около 100 лева в брой.",
+        "Само снимка на кучето ми.",
+        "Милион долара."
+      ],
+      "hint": "Kimlik kartım, ehliyetim ve yaklaşık 100 leva nakit.",
+      "explanation": "\"Лична карта\" (Kimlik) ve \"Шофьорска книжка\" (Ehliyet) resmi belgelerin Bulgarca isimleridir.",
+      "optionsTr": [
+        "Önemli bir şey yoktu.",
+        "Kimlik kartım, ehliyetim ve yaklaşık 100 BGN nakit.",
+        "Sadece köpeğimin bir resmi.",
+        "Bir milyon dolar."
+      ]
+    }
+  ]
+}

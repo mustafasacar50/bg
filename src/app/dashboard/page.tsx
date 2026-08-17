@@ -217,10 +217,15 @@ export default function DashboardPage() {
           <h1 className="text-3xl font-bold mb-2">Hoş Geldin, {student?.name}! 👋</h1>
           <p className="text-slate-600 font-medium">Bulgarca öğrenme serüveninde bugün neler yapacaksın?</p>
         </div>
-        <Link href="/training" className="flex items-center gap-2 bg-indigo-600 text-white px-5 py-3 rounded-xl font-bold hover:bg-indigo-700 transition-transform hover:-translate-y-0.5 shadow-sm whitespace-nowrap">
-          <Wand2 size={20} />
-          Antrenman Modu
-        </Link>
+        <div className="flex flex-col sm:flex-row gap-2 w-full md:w-auto">
+          <Link href="/dialogues" className="flex items-center justify-center gap-2 bg-gradient-to-r from-emerald-500 to-teal-500 text-white px-5 py-3 rounded-xl font-bold hover:shadow-md transition-all hover:-translate-y-0.5 shadow-sm whitespace-nowrap">
+            <span className="text-xl">🗺️</span> Hikaye Haritası
+          </Link>
+          <Link href="/training" className="flex items-center justify-center gap-2 bg-indigo-600 text-white px-5 py-3 rounded-xl font-bold hover:bg-indigo-700 transition-transform hover:-translate-y-0.5 shadow-sm whitespace-nowrap">
+            <Wand2 size={20} />
+            Antrenman Modu
+          </Link>
+        </div>
       </div>
 
       <div className="hero mb-6">

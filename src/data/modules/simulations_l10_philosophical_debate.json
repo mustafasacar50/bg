@@ -1,0 +1,176 @@
+{
+  "title": "Seviye 10: Felsefi ve Etik Açık Oturum",
+  "difficulty": 10,
+  "description": "Yapay zekanın geleceği, iş etiği ve insanlığın varoluşsal sorunları üzerine entelektüel bir tartışma.",
+  "questionCount": 8,
+  "questions": [
+    {
+      "id": "l10_philosophy_1",
+      "type": "dialogue",
+      "speaker": "Moderatör",
+      "sentence": "Уважаеми гости, днес обсъждаме една екзистенциална тема: Може ли изкуственият интелект някога да притежава съзнание или морал?",
+      "answer": "Това е дълбок философски въпрос. Според мен изкуственият интелект може да симулира морал, но липсата на субективен опит го лишава от истинско съзнание.",
+      "options": [
+        "Това е дълбок философски въпрос. Според мен изкуственият интелект може да симулира морал, но липсата на субективен опит го лишава от истинско съзнание.",
+        "Да, роботите ще ни убият всичките.",
+        "Не знам, не използвам компютри.",
+        "Обичам да играя видео игри с изкуствен интелект."
+      ],
+      "optionsTr": [
+        "Bu derin felsefi bir soru. Bence yapay zeka ahlakı simüle edebilir, ancak öznel deneyimin eksikliği onu gerçek bilinçten yoksun kılar.",
+        "Evet, robotlar hepimizi öldürecek.",
+        "Bilmiyorum, ben bilgisayar kullanmam.",
+        "Yapay zekalı video oyunları oynamayı severim."
+      ],
+      "hint": "Bu derin felsefi bir soru. Bence yapay zeka ahlakı simüle edebilir, ancak öznel deneyimin eksikliği onu gerçek bilinçten yoksun kılar.",
+      "explanation": "Seviye 10. Entelektüel bir seviyedesiniz. 'Субективен опит' (öznel deneyim) ve 'съзнание' (bilinç) gibi C1/C2 kavramları kullanılmalıdır."
+    },
+    {
+      "id": "l10_philosophy_2",
+      "type": "dialogue",
+      "speaker": "Katılımcı (Filozof)",
+      "sentence": "Но какво изобщо е съзнанието? Ако една машина реагира по същия емпатичен начин като човек, не я ли прави това 'съзнателна' на прагматично ниво?",
+      "answer": "Прагматично погледнато – да. Но емпатията на машината е резултат от алгоритъм, докато човешката емпатия произтича от емоционална уязвимост.",
+      "options": [
+        "Машините са направени от метал, те нямат сърце.",
+        "Прагматично погледнато – да. Но емпатията на машината е резултат от алгоритъм, докато човешката емпатия произтича от емоционална уязвимост.",
+        "Аз плача, когато гледам тъжни филми.",
+        "Съзнанието е просто една илюзия."
+      ],
+      "optionsTr": [
+        "Makineler metalden yapılmıştır, kalpleri yoktur.",
+        "Pragmatik açıdan bakıldığında evet. Ancak makinenin empatisi bir algoritmanın sonucudur, insan empatisi ise duygusal kırılganlıktan kaynaklanır.",
+        "Üzücü filmler izlediğimde ağlarım.",
+        "Bilinç sadece bir illüzyondur."
+      ],
+      "hint": "Pragmatik açıdan bakıldığında evet. Ancak makinenin empatisi bir algoritmanın sonucudur, insan empatisi ise duygusal kırılganlıktan kaynaklanır.",
+      "explanation": "Filozofun 'pragmatik' argümanına, makine ile insan arasındaki temeli vurgulayarak (емоционална уязвимост - duygusal kırılganlık) cevap veriyorsunuz."
+    },
+    {
+      "id": "l10_philosophy_3",
+      "type": "dialogue",
+      "speaker": "Katılımcı (Mühendis)",
+      "sentence": "Аз не съм съгласен. Ако невронните мрежи станат достатъчно сложни, те биха могли да развият емергентни свойства, неразличими от човешките емоции.",
+      "answer": "Концепцията за емергентност е интригуваща. Въпреки това, симулацията на емоция не е преживяване на емоцията. Това е философското зомби на Чалмърс.",
+      "options": [
+        "Компютрите стават все по-бързи всеки ден.",
+        "Концепцията за емергентност е интригуваща. Въпреки това, симулацията на емоция не е преживяване на емоцията. Това е философското зомби на Чалмърс.",
+        "Мисля, че човешкият мозък е просто компютър.",
+        "Не разбирам нищо от технологии."
+      ],
+      "optionsTr": [
+        "Bilgisayarlar her geçen gün daha da hızlanıyor.",
+        "Belirme (emergent) kavramı ilgi çekici. Bununla birlikte, bir duygunun simülasyonu, duyguyu deneyimlemek değildir. Bu, Chalmers'ın felsefi zombisidir.",
+        "İnsan beyninin sadece bir bilgisayar olduğunu düşünüyorum.",
+        "Teknolojiden hiç anlamam."
+      ],
+      "hint": "Belirme (emergent) kavramı ilgi çekici. Bununla birlikte, bir duygunun simülasyonu, duyguyu deneyimlemek değildir. Bu, Chalmers'ın felsefi zombisidir.",
+      "explanation": "Mühendise akademik bir argümanla cevap veriyorsunuz. 'Емергентност' (belirme/ortaya çıkma) ve 'философско зомби' çok üst düzey felsefi kavramlardır."
+    },
+    {
+      "id": "l10_philosophy_4",
+      "type": "dialogue",
+      "speaker": "Moderatör",
+      "sentence": "Нека изместим фокуса. Ако ИИ няма съзнание, тогава кой носи моралната отговорност, когато автономен автомобил предизвика фатален инцидент?",
+      "answer": "Това е класически правен и етичен вакуум. Отговорността трябва да бъде солидарно споделена между създателите на софтуера и регулаторните органи.",
+      "options": [
+        "Автомобилът е виновен, трябва да го унищожат.",
+        "Шофьорът винаги е виновен, дори да не кара той.",
+        "Не трябва да използваме автономни автомобили изобщо.",
+        "Това е класически правен и етичен вакуум. Отговорността трябва да бъде солидарно споделена между създателите на софтуера и регулаторните органи."
+      ],
+      "optionsTr": [
+        "Araba suçlu, onu yok etmeliler.",
+        "O sürmüyor olsa bile her zaman sürücü suçludur.",
+        "Otonom araçları hiç kullanmamalıyız.",
+        "Bu klasik bir yasal ve etik boşluktur. Sorumluluk, yazılım yaratıcıları ve düzenleyici kurumlar arasında müştereken paylaşılmalıdır."
+      ],
+      "hint": "Bu klasik bir yasal ve etik boşluktur. Sorumluluk, yazılım yaratıcıları ve düzenleyici kurumlar arasında müştereken paylaşılmalıdır.",
+      "explanation": "Sorumluluk kime ait? 'Етичен вакуум' (etik boşluk) ve 'солидарно споделена' (müştereken paylaşılan) gibi ciddi hukuksal/etik argümanlar sunulmalıdır."
+    },
+    {
+      "id": "l10_philosophy_5",
+      "type": "dialogue",
+      "speaker": "Katılımcı (Filozof)",
+      "sentence": "Но ако накажем програмистите, няма ли това да спре технологичния прогрес от страх от съдебни дела?",
+      "answer": "Технологичният прогрес не бива да се осъществява с цената на човешкия живот. Нуждаем се от нова етична парадигма, не от спиране на иновациите.",
+      "options": [
+        "Да, прогресът е по-важен от всичко.",
+        "Технологичният прогрес не бива да се осъществява с цената на човешкия живот. Нуждаем се от нова етична парадигма, не от спиране на иновациите.",
+        "Програмистите печелят много пари, могат да си платят.",
+        "Ние трябва да се върнем към природата."
+      ],
+      "optionsTr": [
+        "Evet, ilerleme her şeyden daha önemlidir.",
+        "Teknolojik ilerleme, insan hayatı pahasına gerçekleştirilmemelidir. İnovasyonu durdurmaya değil, yeni bir etik paradigmaya ihtiyacımız var.",
+        "Programcılar çok para kazanıyor, ödeyebilirler.",
+        "Doğaya geri dönmeliyiz."
+      ],
+      "hint": "Teknolojik ilerleme, insan hayatı pahasına gerçekleştirilmemelidir. İnovasyonu durdurmaya değil, yeni bir etik paradigmaya ihtiyacımız var.",
+      "explanation": "C1/C2 tartışmasında insan hayatını savunurken dengeli bir dil kullanmak gerekir. 'Етична парадигма' (etik paradigma) tam bu duruma uygun kelimedir."
+    },
+    {
+      "id": "l10_philosophy_6",
+      "type": "dialogue",
+      "speaker": "Katılımcı (Mühendis)",
+      "sentence": "Тази 'нова парадигма' звучи утопично. В реалността капитализмът диктува скоростта на иновациите, а етиката винаги изостава с години.",
+      "answer": "Това е горчивата истина. Капитализмът превръща ИИ в инструмент за максимизиране на печалбата, което прави етичната регулация още по-наложителна.",
+      "options": [
+        "Аз обичам капитализма, защото имам смартфон.",
+        "Това е горчивата истина. Капитализмът превръща ИИ в инструмент за максимизиране на печалбата, което прави етичната регулация още по-наложителна.",
+        "Не трябва да мислим за пари през цялото време.",
+        "Етиката е скучна наука."
+      ],
+      "optionsTr": [
+        "Kapitalizmi seviyorum çünkü akıllı telefonum var.",
+        "Bu acı gerçektir. Kapitalizm, yapay zekayı kar maksimizasyonu için bir araca dönüştürüyor ki bu da etik düzenlemeyi daha da zorunlu kılıyor.",
+        "Her zaman parayı düşünmemeliyiz.",
+        "Etik sıkıcı bir bilimdir."
+      ],
+      "hint": "Bu acı gerçektir. Kapitalizm, yapay zekayı kar maksimizasyonu için bir araca dönüştürüyor ki bu da etik düzenlemeyi daha da zorunlu kılıyor.",
+      "explanation": "Mühendisin sistem eleştirisine katılarak bunu güçlendiriyorsunuz. 'Максимизиране на печалбата' (karı maksimize etme) ekonomik-felsefi bir terimdir."
+    },
+    {
+      "id": "l10_philosophy_7",
+      "type": "dialogue",
+      "speaker": "Moderatör",
+      "sentence": "Като заключение: Според вас, ИИ ще възвиси ли човечеството или ще доведе до неговата маргинализация?",
+      "answer": "Всичко зависи от това как ще интегрираме човешките ценности в неговия код. Той е просто огледало, което ще отрази най-доброто или най-лошото от нас.",
+      "options": [
+        "Роботите ще станат наши роби.",
+        "Всичко зависи от това как ще интегрираме човешките ценности в неговия код. Той е просто огледало, което ще отрази най-доброто или най-лошото от нас.",
+        "Човечеството няма бъдеще така или иначе.",
+        "Надявам се ИИ да ми пише домашните."
+      ],
+      "optionsTr": [
+        "Robotlar kölemiz olacak.",
+        "Her şey insani değerleri onun koduna nasıl entegre edeceğimize bağlıdır. O, sadece bizdeki en iyiyi veya en kötüyü yansıtacak bir aynadır.",
+        "İnsanlığın zaten bir geleceği yok.",
+        "Umarım yapay zeka ödevlerimi yazar."
+      ],
+      "hint": "Her şey insani değerleri onun koduna nasıl entegre edeceğimize bağlıdır. O, sadece bizdeki en iyiyi veya en kötüyü yansıtacak bir aynadır.",
+      "explanation": "Moderatörün kapanış sorusuna etkileyici (Той е просто огледало - O sadece bir aynadır) ve derinlikli bir yanıt."
+    },
+    {
+      "id": "l10_philosophy_8",
+      "type": "dialogue",
+      "speaker": "Moderatör",
+      "sentence": "Изключително силен финал на нашата дискусия. Благодаря ви за задълбочените аргументи и критичното мислене, което демонстрирахте днес.",
+      "answer": "Удоволствието беше мое. Смятам, че подобни дискусии са жизненоважни за бъдещето на нашето общество.",
+      "options": [
+        "Къде е храната след предаването?",
+        "Искам да си тръгвам вече.",
+        "Удоволствието беше мое. Смятам, че подобни дискусии са жизненоважни за бъдещето на нашето общество.",
+        "Не бяхте лош модератор."
+      ],
+      "optionsTr": [
+        "Yayın sonrası yemek nerede?",
+        "Artık ayrılmak istiyorum.",
+        "Zevk bana aitti. Bu tür tartışmaların toplumumuzun geleceği için hayati önem taşıdığına inanıyorum.",
+        "Fena bir moderatör değildiniz."
+      ],
+      "hint": "Zevk bana aitti. Bu tür tartışmaların toplumumuzun geleceği için hayati önem taşıdığına inanıyorum.",
+      "explanation": "Tartışma bitiyor. 'Жизненоважни' (hayati önem taşıyan) kelimesi C1 seviyesi için uygun, entelektüel bir vedadır."
+    }
+  ]
+}

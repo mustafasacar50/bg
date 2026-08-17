@@ -1,0 +1,176 @@
+{
+  "title": "Seviye 9: Vize ve Göçmenlik Mülakatı",
+  "difficulty": 9,
+  "description": "Göçmenlik bürosunda memurun zorlu bürokratik sorularını yanıtlayıp vizenizi savunun.",
+  "questionCount": 8,
+  "questions": [
+    {
+      "id": "l9_visa_1",
+      "type": "dialogue",
+      "speaker": "Göçmenlik Memuru",
+      "sentence": "Добър ден. Моля, предайте ми паспорта си и формуляра за кандидатстване. Каква е целта на вашето посещение в Република България?",
+      "answer": "Добър ден. Заповядайте документите. Целта на посещението ми е дългосрочна специализация в Софийския университет.",
+      "options": [
+        "Добър ден. Заповядайте документите. Целта на посещението ми е дългосрочна специализация в Софийския университет.",
+        "Искам да отида на плаж във Варна.",
+        "Не знам, просто искам да пътувам.",
+        "Аз съм турист и обичам кебапчета."
+      ],
+      "optionsTr": [
+        "İyi günler. Buyrun belgeler. Ziyaretimin amacı Sofya Üniversitesi'nde uzun vadeli uzmanlık (ihtisas) yapmaktır.",
+        "Varna'da plaja gitmek istiyorum.",
+        "Bilmiyorum, sadece seyahat etmek istiyorum.",
+        "Ben bir turistim ve kebapçeta severim."
+      ],
+      "hint": "İyi günler. Buyrun belgeler. Ziyaretimin amacı Sofya Üniversitesi'nde uzun vadeli uzmanlık (ihtisas) yapmaktır.",
+      "explanation": "Seviye 9, ciddi bürokratik bir dil gerektirir. 'Специализация' (ihtisas/uzmanlık) ve 'дългосрочна' (uzun vadeli) gibi resmi terimler kullanmalısınız."
+    },
+    {
+      "id": "l9_visa_2",
+      "type": "dialogue",
+      "speaker": "Göçmenlik Memuru",
+      "sentence": "Виждам писмото за прием от университета. Въпреки това, имате ли доказателства за финансова стабилност, които да покрият престоя ви?",
+      "answer": "Да, приложил съм извлечение от банковата ми сметка за последните шест месеца, което доказва, че разполагам с необходимите средства.",
+      "options": [
+        "Нямам много пари, но ще си намеря работа.",
+        "Баща ми ще ми праща пари всеки месец.",
+        "Да, приложил съм извлечение от банковата ми сметка за последните шест месеца, което доказва, че разполагам с необходимите средства.",
+        "Мога ли да взема заем от българска банка?"
+      ],
+      "optionsTr": [
+        "Çok param yok ama iş bulacağım.",
+        "Babam bana her ay para gönderecek.",
+        "Evet, gerekli fonlara sahip olduğumu kanıtlayan son altı aya ait banka hesap özetimi ekledim.",
+        "Bir Bulgar bankasından kredi alabilir miyim?"
+      ],
+      "hint": "Evet, gerekli fonlara sahip olduğumu kanıtlayan son altı aya ait banka hesap özetimi ekledim.",
+      "explanation": "Finansal kanıt (доказателства) sorulduğunda en sağlam resmi cevap banka hesap özetidir (извлечение от банкова сметка)."
+    },
+    {
+      "id": "l9_visa_3",
+      "type": "dialogue",
+      "speaker": "Göçmenlik Memuru",
+      "sentence": "Банковото извлечение е на чужд език. Предоставили ли сте легализиран превод на документа на български език?",
+      "answer": "Разбира се, всички документи са преведени от заклет преводач и са нотариално заверени. Намират се в папката под извлечението.",
+      "options": [
+        "Не, мислех, че вие разбирате английски.",
+        "Разбира се, всички документи са преведени от заклет преводач и са нотариално заверени. Намират се в папката под извлечението.",
+        "Ще ги преведа утре.",
+        "Нямам превод, мога ли да ви обясня?"
+      ],
+      "optionsTr": [
+        "Hayır, sizin İngilizce anladığınızı sanıyordum.",
+        "Elbette, tüm belgeler yeminli bir tercüman tarafından çevrildi ve noter tasdiklidir. Ekstrenin altındaki klasörde yer alıyorlar.",
+        "Onları yarın çevireceğim.",
+        "Çevirim yok, size açıklayabilir miyim?"
+      ],
+      "hint": "Elbette, tüm belgeler yeminli bir tercüman tarafından çevrildi ve noter tasdiklidir. Ekstrenin altındaki klasörde yer alıyorlar.",
+      "explanation": "Resmi kurumlarda 'заклет преводач' (yeminli tercüman) ve 'нотариално заверени' (noter onaylı) belgeler şarttır."
+    },
+    {
+      "id": "l9_visa_4",
+      "type": "dialogue",
+      "speaker": "Göçmenlik Memuru",
+      "sentence": "Добре. А къде възнамерявате да живеете през този период? Разполагате ли с договор за наем или документ от общежитие?",
+      "answer": "Приложил съм официален договор за наем за период от една година, подписан със собственика на апартамента в София.",
+      "options": [
+        "Ще спя при един приятел.",
+        "Приложил съм официален договор за наем за период от една година, подписан със собственика на апартамента в София.",
+        "Още не знам, ще си търся квартира.",
+        "Ще живея в хотел за няколко месеца."
+      ],
+      "optionsTr": [
+        "Bir arkadaşımda uyuyacağım.",
+        "Sofya'daki dairenin sahibiyle imzalanmış bir yıllık resmi kira sözleşmesini ekledim.",
+        "Henüz bilmiyorum, kiralık ev arayacağım.",
+        "Birkaç ay bir otelde yaşayacağım."
+      ],
+      "hint": "Sofya'daki dairenin sahibiyle imzalanmış bir yıllık resmi kira sözleşmesini ekledim.",
+      "explanation": "Vize mülakatında ikamet (къде възнамерявате да живеете) netleşmiş olmalıdır. 'Договор за наем' (kira sözleşmesi) en geçerli kanıttır."
+    },
+    {
+      "id": "l9_visa_5",
+      "type": "dialogue",
+      "speaker": "Göçmenlik Memuru",
+      "sentence": "След приключване на вашата специализация, какви са вашите намерения? Смятате ли да останете в България?",
+      "answer": "След като завърша, възнамерявам да се завърна в родината си, тъй като имам предварителна оферта за работа там.",
+      "options": [
+        "Искам да остана тук завинаги.",
+        "Ще пътувам из Европа нелегално.",
+        "След като завърша, възнамерявам да се завърна в родината си, тъй като имам предварителна оферта за работа там.",
+        "Може би ще се оженя за българка."
+      ],
+      "optionsTr": [
+        "Sonsuza dek burada kalmak istiyorum.",
+        "Avrupa'yı kaçak olarak gezeceğim.",
+        "Mezun olduktan sonra ülkeme dönmeyi planlıyorum çünkü orada önceden yapılmış bir iş teklifim var.",
+        "Belki bir Bulgar kadınla evlenirim."
+      ],
+      "hint": "Mezun olduktan sonra ülkeme dönmeyi planlıyorum çünkü orada önceden yapılmış bir iş teklifim var.",
+      "explanation": "Bu bir tuzak sorudur. Vize görevlileri ülkenize döneceğinize ikna olmak isterler (завръщане в родината, оферта за работа)."
+    },
+    {
+      "id": "l9_visa_6",
+      "type": "dialogue",
+      "speaker": "Göçmenlik Memuru",
+      "sentence": "Разбирам. Имате ли криминално досие или предишни откази за виза от други държави от Европейския съюз?",
+      "answer": "Не, нямам никакви криминални прояви, както е видно от свидетелството ми за съдимост, и никога не ми е отказвана виза.",
+      "options": [
+        "Само няколко дребни глоби за превишена скорост.",
+        "Отказаха ми виза за Германия миналата година.",
+        "Не, нямам никакви криминални прояви, както е видно от свидетелството ми за съдимост, и никога не ми е отказвана виза.",
+        "Защо ме питате такива неща?"
+      ],
+      "optionsTr": [
+        "Sadece hız yapmaktan birkaç küçük para cezası.",
+        "Geçen yıl Almanya için vizemi reddettiler.",
+        "Hayır, sabıka kaydımda da görüldüğü üzere hiçbir suç geçmişim yok ve bana hiçbir zaman vize reddi verilmedi.",
+        "Bana neden böyle şeyler soruyorsunuz?"
+      ],
+      "hint": "Hayır, sabıka kaydımda da görüldüğü üzere hiçbir suç geçmişim yok ve bana hiçbir zaman vize reddi verilmedi.",
+      "explanation": "Sabıka kaydı (криминално досие/свидетелство за съдимост) soruluyor. Açık ve net bir dille 'Hayır' denilmeli ve belge işaret edilmelidir."
+    },
+    {
+      "id": "l9_visa_7",
+      "type": "dialogue",
+      "speaker": "Göçmenlik Memuru",
+      "sentence": "Вашата здравна застраховка покрива ли целия период на престоя ви и отговаря ли на минималните изисквания на Шенген?",
+      "answer": "Да, застраховката е с покритие от 30 000 евро, валидна е за целия Шенгенски континент и обхваща целия ми предвиден престой.",
+      "options": [
+        "Не съм сигурен, купих я от интернет.",
+        "Да, застраховката е с покритие от 30 000 евро, валидна е за целия Шенгенски континент и обхваща целия ми предвиден престой.",
+        "Аз не боледувам, не ми трябва.",
+        "Застраховката ми важи само за един месец."
+      ],
+      "optionsTr": [
+        "Emin değilim, internetten aldım.",
+        "Evet, sigorta 30.000 avro teminatlıdır, tüm Schengen kıtası için geçerlidir ve öngörülen tüm kalış süremi kapsamaktadır.",
+        "Ben hastalanmam, ihtiyacım yok.",
+        "Sigortam sadece bir ay geçerli."
+      ],
+      "hint": "Evet, sigorta 30.000 avro teminatlıdır, tüm Schengen kıtası için geçerlidir ve öngörülen tüm kalış süremi kapsamaktadır.",
+      "explanation": "Sağlık sigortası (здравна застраховка) kuralları çok katıdır. 'Покритие 30 000 евро' (30 bin euro teminat) standart bürokratik cevaptır."
+    },
+    {
+      "id": "l9_visa_8",
+      "type": "dialogue",
+      "speaker": "Göçmenlik Memuru",
+      "sentence": "Всички документи изглеждат изрядни. Процедурата по разглеждане отнема около две седмици. Ще бъдете уведомени по имейл.",
+      "answer": "Благодаря ви за отделеното време и професионалното отношение. Ще очаквам вашето решение. Довиждане.",
+      "options": [
+        "Може ли по-бързо?",
+        "Ще чакам пред посолството.",
+        "Благодаря ви за отделеното време и професионалното отношение. Ще очаквам вашето решение. Довиждане.",
+        "Дайте ми визата сега!"
+      ],
+      "optionsTr": [
+        "Daha hızlı olabilir mi?",
+        "Büyükelçiliğin önünde bekleyeceğim.",
+        "Zaman ayırdığınız ve profesyonel tavrınız için teşekkür ederim. Kararınızı bekliyor olacağım. Hoşça kalın.",
+        "Vizemi şimdi verin!"
+      ],
+      "hint": "Zaman ayırdığınız ve profesyonel tavrınız için teşekkür ederim. Kararınızı bekliyor olacağım. Hoşça kalın.",
+      "explanation": "Mülakat başarıyla bitti. 'Изрядни' kusursuz demektir. Memura saygılı bir kapanış yapmalısınız."
+    }
+  ]
+}

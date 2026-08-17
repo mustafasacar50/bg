@@ -1,0 +1,251 @@
+{
+  "id": "simulations_ders5",
+  "title": "Hayat Simülasyonları: Mağazada Alışveriş (Ders 5)",
+  "questions": [
+    {
+      "id": "sim_ders5_dialogue_1",
+      "type": "dialogue",
+      "context": "Bir giyim mağazasındasınız. Çocuğunuza/yeğeninize hediye alacaksınız.",
+      "characters": {
+        "bot": {
+          "name": "Продавачка (Tezgahtar)",
+          "avatar": "👩"
+        },
+        "player": {
+          "name": "Sen",
+          "avatar": "👤"
+        }
+      },
+      "dialogue": [
+        {
+          "speaker": "bot",
+          "text": "Здравейте! Мога ли да ви помогна?",
+          "translation": "Merhaba! Size yardımcı olabilir miyim?"
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Здравейте. Търся подарък за сина си.",
+              "translation": "Merhaba. Oğlum için hediye arıyorum.",
+              "isCorrect": true,
+              "botReply": "Разбирам. На колко години е той?",
+              "hint": ""
+            },
+            {
+              "text": "Аз съм инженер.",
+              "translation": "Ben mühendisim.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Mağazadasınız, mesleğinizin bir önemi yok."
+            },
+            {
+              "text": "Искам едно кафе.",
+              "translation": "Bir kahve istiyorum.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Burası kafe değil, giyim mağazası."
+            }
+          ],
+          "optionsTr": [
+            "Merhaba. Oğlum için hediye arıyorum.",
+            "Mühendisim.",
+            "Bir kahve istiyorum."
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Той е на седем години.",
+              "translation": "O yedi yaşında.",
+              "isCorrect": true,
+              "botReply": "Добре. Имаме много хубави тениски и панталони. Какъв цвят предпочита?",
+              "hint": ""
+            },
+            {
+              "text": "Аз съм на тридесет години.",
+              "translation": "Ben otuz yaşındayım.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Kendi yaşınızı değil, oğlunuzun yaşını soruyor."
+            },
+            {
+              "text": "Да, благодаря.",
+              "translation": "Evet, teşekkürler.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Bir soru soruldu (На колко години е той?), 'evet' ile cevaplanmaz."
+            }
+          ],
+          "optionsTr": [
+            "Kendisi yedi yaşındadır.",
+            "Otuz yaşındayım.",
+            "Evet, teşekkür ederim."
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Той харесва син цвят. Имате ли сини тениски?",
+              "translation": "O mavi rengi sever. Mavi tişörtleriniz var mı?",
+              "isCorrect": true,
+              "botReply": "Да, ето тук. Тази синя тениска е много модерна. Харесва ли ви?",
+              "hint": ""
+            },
+            {
+              "text": "Искам вода.",
+              "translation": "Su istiyorum.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Renk sordu ('какъв цвят'), su istemenin sırası değil."
+            },
+            {
+              "text": "Живея в Турция.",
+              "translation": "Türkiye'de yaşıyorum.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Bağlam dışı."
+            }
+          ],
+          "optionsTr": [
+            "Mavi rengi seviyor. Mavi tişörtlerin var mı?",
+            "Su istiyorum.",
+            "Türkiye'de yaşıyorum."
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Да, хубава е. Колко струва?",
+              "translation": "Evet, güzel. Ne kadar (fiyatı)?",
+              "isCorrect": true,
+              "botReply": "Струва двадесет лева. Ще я купите ли?",
+              "hint": ""
+            },
+            {
+              "text": "Колко е часът?",
+              "translation": "Saat kaç?",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Beğendiniz mi diye sordu, fiyatını sormalısınız, saati değil."
+            },
+            {
+              "text": "Не разбирам.",
+              "translation": "Anlamıyorum.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Alışverişe devam etmek için daha uygun bir cevap seçin."
+            }
+          ],
+          "optionsTr": [
+            "Evet, çok hoş. Ne kadar?",
+            "saat kaç",
+            "Anlamıyorum."
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Да, ще я взема. Може ли да платя с карта?",
+              "translation": "Evet, alacağım. Kartla ödeyebilir miyim?",
+              "isCorrect": true,
+              "botReply": "Разбира се. Заповядайте. Желая ви приятен ден!",
+              "hint": ""
+            },
+            {
+              "text": "Нямам пари.",
+              "translation": "Param yok.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Alışveriş yapmak için gelmiştiniz."
+            },
+            {
+              "text": "Къде е тоалетната?",
+              "translation": "Tuvalet nerede?",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Ödeme aşamasına geçtiniz, tuvaleti sormak garip kaçar."
+            }
+          ],
+          "optionsTr": [
+            "Evet, onu alacağım. Kartla ödeme yapabilir miyim?",
+            "Hiç param yok.",
+            "Lavabo nerede?"
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Мерси! И на вас!",
+              "translation": "Teşekkürler! Size de!",
+              "isCorrect": true,
+              "botReply": "",
+              "hint": ""
+            },
+            {
+              "text": "Добро утро!",
+              "translation": "Günaydın!",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Vedalaşıyorsunuz."
+            },
+            {
+              "text": "Извинете.",
+              "translation": "Affedersiniz.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Vedalaşırken 'Affedersiniz' denmez."
+            }
+          ],
+          "optionsTr": [
+            "Teşekkür ederim! Ve sana!",
+            "Günaydın!",
+            "Affedersin."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sim_ders5_reading_1",
+      "type": "reading",
+      "context": "Tezgahtar mağazadaki satışı hatırlıyor.",
+      "readingText": "Днес в магазина дойде един господин. Той търсеше подарък за своя син. Синът му е на седем години и харесва син цвят. Той купи една модерна синя тениска за двадесет лева. Той плати с карта.",
+      "readingTranslation": "Bugün mağazaya bir beyefendi geldi. Oğlu için bir hediye arıyordu. Oğlu yedi yaşında ve mavi rengi seviyor. Yirmi levaya modern, mavi bir tişört aldı. Kartla ödeme yaptı.",
+      "readingQuestions": [
+        {
+          "questionText": "Какво купи господинът?",
+          "correctAnswer": "Синя тениска",
+          "options": [
+            "Червен панталон",
+            "Синя тениска",
+            "Една книга"
+          ],
+          "optionsTr": [
+            "Kırmızı pantolon",
+            "Mavi tişört",
+            "Bir kitap"
+          ]
+        },
+        {
+          "questionText": "Как плати той?",
+          "correctAnswer": "С карта",
+          "options": [
+            "В брой",
+            "С карта",
+            "Не плати"
+          ],
+          "optionsTr": [
+            "Nakit olarak",
+            "Kartlı",
+            "Ödeme"
+          ]
+        }
+      ]
+    }
+  ]
+}

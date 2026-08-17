@@ -1,0 +1,155 @@
+{
+  "title": "Seviye 6: Ofis Toplantısı",
+  "difficulty": 6,
+  "description": "İş yerinde projenin gecikme nedenlerini savunun ve yeni teslim tarihleri belirleyin.",
+  "questionCount": 7,
+  "questions": [
+    {
+      "id": "l6_office_1",
+      "type": "dialogue",
+      "speaker": "Müdür",
+      "sentence": "Добро утро на всички. Нека започнем срещата. Искам да поговорим за новия софтуерен проект. Защо има забавяне?",
+      "answer": "Добро утро. Забавянето се дължи на неочаквани технически проблеми със сървърите през уикенда.",
+      "options": [
+        "Добро утро. Забавянето се дължи на неочаквани технически проблеми със сървърите през уикенда.",
+        "Аз искам да отида в отпуска.",
+        "Обичам да пия кафе сутрин.",
+        "Къде е моят компютър?"
+      ],
+      "optionsTr": [
+        "Günaydın. Gecikme, hafta sonu sunucularda yaşanan beklenmedik teknik sorunlardan kaynaklanıyor.",
+        "İzne çıkmak istiyorum.",
+        "Sabahları kahve içmeyi severim.",
+        "Bilgisayarım nerede?"
+      ],
+      "hint": "Günaydın. Gecikme, hafta sonu sunucularda yaşanan beklenmedik teknik sorunlardan kaynaklanıyor.",
+      "explanation": "Müdür projedeki gecikmenin (забавяне) nedenini soruyor. Profesyonel ve mantıklı bir teknik mazeret sunmalısınız."
+    },
+    {
+      "id": "l6_office_2",
+      "type": "dialogue",
+      "speaker": "Müdür",
+      "sentence": "Проблеми със сървърите? Но ИТ отделът каза, че всичко е наред. Сигурни ли сте, че това е основната причина?",
+      "answer": "Да, ИТ отделът го оправиха, но ние загубихме два дни работа и трябваше да възстановим базата данни.",
+      "options": [
+        "Да, ИТ отделът го оправиха, но ние загубихме два дни работа и трябваше да възстановим базата данни.",
+        "Не знам, питайте друг.",
+        "Аз работя тук от пет години.",
+        "Искам по-висока заплата."
+      ],
+      "optionsTr": [
+        "Evet, IT departmanı düzeltti ancak biz iki günlük iş kaybettik ve veritabanını geri yüklemek zorunda kaldık.",
+        "Bilmiyorum, başkasına sorun.",
+        "Ben beş yıldır burada çalışıyorum.",
+        "Daha yüksek maaş istiyorum."
+      ],
+      "hint": "Evet, IT departmanı düzeltti ancak biz iki günlük iş kaybettik ve veritabanını geri yüklemek zorunda kaldık.",
+      "explanation": "Müdür şüpheci yaklaşıyor. Durumu detaylandırmalı ve zaman kaybının nedenini (загубихме два дни) açıklamalsınız."
+    },
+    {
+      "id": "l6_office_3",
+      "type": "dialogue",
+      "speaker": "İş Arkadaşı (Petar)",
+      "sentence": "Извинете, че се намесвам, но ако сме загубили два дни, не трябва ли да поискаме удължаване на крайния срок от клиента?",
+      "answer": "Точно така, Петър. Предлагам да насрочим среща с клиента още днес следобед и да обясним ситуацията честно.",
+      "options": [
+        "Точно така, Петър. Предлагам да насрочим среща с клиента още днес следобед и да обясним ситуацията честно.",
+        "Кога ще обядваме?",
+        "Не харесвам този проект.",
+        "Клиентът винаги греши."
+      ],
+      "optionsTr": [
+        "Aynen öyle, Petar. Müşteriyle hemen bu öğleden sonra bir toplantı ayarlamayı ve durumu dürüstçe açıklamayı öneriyorum.",
+        "Ne zaman öğle yemeği yiyeceğiz?",
+        "Bu projeyi sevmiyorum.",
+        "Müşteri her zaman hatalıdır."
+      ],
+      "hint": "Aynen öyle, Petar. Müşteriyle hemen bu öğleden sonra bir toplantı ayarlamayı ve durumu dürüstçe açıklamayı öneriyorum.",
+      "explanation": "İş arkadaşınızın (deadline) uzatma fikrini destekliyor (Точно така) ve aksiyon (müşteriyle görüşme) öneriyorsunuz."
+    },
+    {
+      "id": "l6_office_4",
+      "type": "dialogue",
+      "speaker": "Müdür",
+      "sentence": "Не съм сигурен дали клиентът ще се зарадва. Колко време допълнително ви трябва, за да завършите проекта?",
+      "answer": "Ако целият екип работи само по това, ще ни трябват още 5 работни дни, за да го тестваме обстойно.",
+      "options": [
+        "Искам да си ходя в пет часа.",
+        "Може би един месец, ако имаме късмет.",
+        "Ако целият екип работи само по това, ще ни трябват още 5 работни дни, за да го тестваме обстойно.",
+        "Не ми пука за този проект."
+      ],
+      "optionsTr": [
+        "Saat beşte gitmek istiyorum.",
+        "Şansımız varsa belki bir ay.",
+        "Eğer tüm ekip sadece bunun üzerinde çalışırsa, kapsamlı bir şekilde test etmek için bize 5 iş günü daha gerekecek.",
+        "Bu proje umurumda değil."
+      ],
+      "hint": "Eğer tüm ekip sadece bunun üzerinde çalışırsa, kapsamlı bir şekilde test etmek için bize 5 iş günü daha gerekecek.",
+      "explanation": "Müdür ek süre istiyor. Profesyonelce, şart belirterek ve test sürecini vurgulayarak (тестваме обстойно) net bir süre (5 gün) veriyorsunuz."
+    },
+    {
+      "id": "l6_office_5",
+      "type": "dialogue",
+      "speaker": "Müdür",
+      "sentence": "Пет работни дни? Добре, аз ще говоря с клиента. Но искам от вас да ми изпратите подробен план за тези 5 дни до края на деня.",
+      "answer": "Разбрано. Ще подготвя разбивка на задачите и ще ви я изпратя по имейл преди 17:00 часа.",
+      "options": [
+        "Разбрано. Ще подготвя разбивка на задачите и ще ви я изпратя по имейл преди 17:00 часа.",
+        "Няма да мога, защото съм уморен.",
+        "Колко струва тази услуга?",
+        "Искам да пия студена вода."
+      ],
+      "optionsTr": [
+        "Anlaşıldı. Görev dağılımını hazırlayıp saat 17:00'den önce size e-posta ile göndereceğim.",
+        "Yapamayacağım çünkü yorgunum.",
+        "Bu hizmet ne kadar?",
+        "Soğuk su içmek istiyorum."
+      ],
+      "hint": "Anlaşıldı. Görev dağılımını hazırlayıp saat 17:00'den önce size e-posta ile göndereceğim.",
+      "explanation": "Müdür bir eylem planı istiyor. Bunu onaylayıp somut bir teslim saati (17:00) vermelisiniz."
+    },
+    {
+      "id": "l6_office_6",
+      "type": "dialogue",
+      "speaker": "İş Arkadaşı (Maria)",
+      "sentence": "Аз мога да помогна с частта за тестването. Свободна съм в четвъртък и петък.",
+      "answer": "Това е страхотно, Мария! Ще те включа в плана за QA тестовете в края на седмицата.",
+      "options": [
+        "Кой си ти?",
+        "Това е страхотно, Мария! Ще те включа в плана за QA тестовете в края на седмицата.",
+        "Не обичам да работя в петък.",
+        "Къде мога да паркирам колата?"
+      ],
+      "optionsTr": [
+        "Sen kimsin?",
+        "Bu harika Maria! Seni hafta sonuna doğru QA testleri planına dahil edeceğim.",
+        "Cuma günleri çalışmayı sevmem.",
+        "Arabayı nereye park edebilirim?"
+      ],
+      "hint": "Bu harika Maria! Seni hafta sonuna doğru QA testleri planına dahil edeceğim.",
+      "explanation": "İş arkadaşınız yardım teklif ediyor. Bunu minnetle kabul edip (страхотно) onu sürece dahil etmelisiniz."
+    },
+    {
+      "id": "l6_office_7",
+      "type": "dialogue",
+      "speaker": "Müdür",
+      "sentence": "Добре, радвам се да видя екипна работа. Действайте по плана. Срещата приключи.",
+      "answer": "Благодаря. Връщаме се на работа веднага. Приятен ден на всички!",
+      "options": [
+        "Аз съм гладен.",
+        "Къде е тоалетната?",
+        "Благодаря. Връщаме се на работа веднага. Приятен ден на всички!",
+        "Искам да спя."
+      ],
+      "optionsTr": [
+        "Ben açım.",
+        "Tuvalet nerede?",
+        "Teşekkürler. Hemen işe dönüyoruz. Herkese iyi günler!",
+        "Uyumak istiyorum."
+      ],
+      "hint": "Teşekkürler. Hemen işe dönüyoruz. Herkese iyi günler!",
+      "explanation": "Toplantı bitti. Profesyonelce (веднага = hemen) işe döndüğünüzü belirtip veda ediyorsunuz."
+    }
+  ]
+}

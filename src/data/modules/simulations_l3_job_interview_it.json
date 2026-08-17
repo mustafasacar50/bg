@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 3: Bilişim Sektöründe İş Mülakatı",
+  "difficulty": 3,
+  "description": "Bir yazılım firmasında İK ile becerilerinizi tartışıyorsunuz. Mesleki terminoloji.",
+  "questions": [
+    {
+      "id": "l3_it_1",
+      "type": "dialogue",
+      "speaker": "İK Müdürü",
+      "sentence": "Добре дошли. Разгледахме вашето CV. Бихте ли споделили повече за опита си с уеб разработката?",
+      "answer": "Здравейте. Имам пет години опит, главно като Front-end разработчик, използвайки React и TypeScript.",
+      "options": [
+        "Обичам да играя компютърни игри.",
+        "Не знам какво е уеб разработка.",
+        "Здравейте. Имам пет години опит, главно като Front-end разработчик, използвайки React и TypeScript.",
+        "Компютърът ми е счупен."
+      ],
+      "hint": "Merhaba. Temel olarak React ve TypeScript kullanarak Front-end geliştirici olarak beş yıllık tecrübem var.",
+      "explanation": "\"Главно\" (Esas olarak/Temel olarak) kelimesi vurgu yapar. \"Разработчик\" yazılımcı/geliştirici demektir.",
+      "optionsTr": [
+        "Bilgisayar oyunları oynamayı severim.",
+        "Web geliştirmenin ne olduğunu bilmiyorum.",
+        "Merhaba. Esas olarak React ve TypeScript kullanan bir Ön uç geliştirici olarak beş yıllık deneyimim var.",
+        "Bilgisayarım bozuldu."
+      ]
+    },
+    {
+      "id": "l3_it_2",
+      "type": "dialogue",
+      "speaker": "İK Müdürü",
+      "sentence": "Чудесно. Как се справяте с работата в екип и разрешаването на конфликти?",
+      "answer": "Вярвам, че откритата комуникация е ключът. Винаги се опитвам да разбера гледната точка на колегите си.",
+      "options": [
+        "Работя сам, мразя екипи.",
+        "Аз винаги съм прав.",
+        "Напускам, ако има конфликт.",
+        "Вярвам, че откритата комуникация е ключът. Винаги се опитвам да разбера гледната точка на колегите си."
+      ],
+      "hint": "Açık iletişimin anahtar olduğuna inanıyorum. Her zaman meslektaşlarımın bakış açısını anlamaya çalışırım.",
+      "explanation": "\"Гледна точка\" (Bakış açısı) deyimi profesyonel ortamlarda çok geçer. \"Открита комуникация\" (Açık iletişim) aranan bir özelliktir.",
+      "optionsTr": [
+        "Yalnız çalışıyorum, takımlardan nefret ediyorum.",
+        "Ben her zaman haklıyım.",
+        "Bir anlaşmazlık olursa ayrılırım.",
+        "Açık iletişimin anahtar olduğuna inanıyorum. Her zaman meslektaşlarımın bakış açısını anlamaya çalışırım."
+      ]
+    },
+    {
+      "id": "l3_it_3",
+      "type": "dialogue",
+      "speaker": "İK Müdürü",
+      "sentence": "Това е много зрял подход. Какви са вашите очаквания за заплащане?",
+      "answer": "Търся заплата, която отговаря на отговорностите на позицията и текущите стандарти в индустрията.",
+      "options": [
+        "Искам милион лева.",
+        "Търся заплата, която отговаря на отговорностите на позицията и текущите стандарти в индустрията.",
+        "Заплатата не е важна за мен.",
+        "Колкото ми дадете."
+      ],
+      "hint": "Pozisyonun sorumluluklarına ve sektördeki mevcut standartlara uygun bir maaş arıyorum.",
+      "explanation": "\"Отговаря на...\" (...'a uygun / karşılık gelen) kalıbı müzakerelerde profesyonel bir sınır çizer.",
+      "optionsTr": [
+        "Bir milyon leva istiyorum.",
+        "Pozisyonun sorumluluklarına ve mevcut endüstri standartlarına uygun bir maaş arıyorum.",
+        "Benim için maaş önemli değil.",
+        "Bana verdiğin kadar."
+      ]
+    },
+    {
+      "id": "l3_it_4",
+      "type": "dialogue",
+      "speaker": "İK Müdürü",
+      "sentence": "Разбирам. Ще се свържем с вас до края на седмицата с обратна връзка.",
+      "answer": "Очаквам обаждането ви. Благодаря за отделеното време!",
+      "options": [
+        "Очаквам обаждането ви. Благодаря за отделеното време!",
+        "Не ми се чака.",
+        "Защо толкова дълго?",
+        "Забравете за мен."
+      ],
+      "hint": "Aramanızı bekliyorum. Ayırdığınız zaman için teşekkürler!",
+      "explanation": "\"Обратна връзка\" (Geri bildirim - Feedback) ve \"Отделено време\" (Ayırılan zaman) iş dünyası terimleridir.",
+      "optionsTr": [
+        "Aramanızı bekliyorum. Zaman ayırdığınız için teşekkürler!",
+        "Beklemek istemiyorum.",
+        "Neden bu kadar uzun süre?",
+        "Beni unut."
+      ]
+    }
+  ]
+}

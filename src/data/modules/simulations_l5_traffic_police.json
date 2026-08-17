@@ -1,0 +1,176 @@
+{
+  "title": "Seviye 5: Trafik Polisi ve Tutanak",
+  "difficulty": 5,
+  "description": "Ufak bir kaza sonrası polise durumu detaylıca ve doğru zamanda (geçmiş zaman) anlatın.",
+  "questionCount": 8,
+  "questions": [
+    {
+      "id": "l5_traf_1",
+      "type": "dialogue",
+      "speaker": "Polis",
+      "sentence": "Добър ден. Пътна полиция. Какво се е случило тук? Има ли пострадали?",
+      "answer": "Добър ден. Няма пострадали, слава богу. Стана лека катастрофа.",
+      "options": [
+        "Добър ден. Няма пострадали, слава богу. Стана лека катастрофа.",
+        "Искам да си купя нова кола.",
+        "Не, не обичам да карам.",
+        "Часът е дванадесет."
+      ],
+      "optionsTr": [
+        "İyi günler. Yaralı yok, çok şükür. Ufak bir kaza oldu.",
+        "Yeni bir araba almak istiyorum.",
+        "Hayır, araba kullanmayı sevmem.",
+        "Saat on iki."
+      ],
+      "hint": "İyi günler. Yaralı yok, çok şükür. Ufak bir kaza oldu.",
+      "explanation": "Polis 'Yaralı var mı?' (пострадали) diye soruyor. Durumun ciddiyetini belirtmelisiniz."
+    },
+    {
+      "id": "l5_traf_2",
+      "type": "dialogue",
+      "speaker": "Polis",
+      "sentence": "Добре. Моля, дайте ми вашите документи – шофьорска книжка, талон и лична карта.",
+      "answer": "Заповядайте. Ето моите документи.",
+      "options": [
+        "Аз обичам да ходя пеша.",
+        "Заповядайте. Ето моите документи.",
+        "Колко струва глобата?",
+        "Искам да пия вода."
+      ],
+      "optionsTr": [
+        "Yürümeyi severim.",
+        "Buyrun. İşte belgelerim.",
+        "Ceza ne kadar?",
+        "Su içmek istiyorum."
+      ],
+      "hint": "Buyrun. İşte belgelerim.",
+      "explanation": "Polis sizden ehliyet (шофьорска книжка) ve kimlik istiyor. Vermelisiniz."
+    },
+    {
+      "id": "l5_traf_3",
+      "type": "dialogue",
+      "speaker": "Polis",
+      "sentence": "Благодаря. Разкажете ми как точно стана инцидентът. Кой е виновен според вас?",
+      "answer": "Аз карах направо по главния път, а другата кола излезе от пряката без да спре на знак 'Стоп'.",
+      "options": [
+        "Времето днес е много дъждовно.",
+        "Не разбирам въпроса ви.",
+        "Аз карах направо по главния път, а другата кола излезе от пряката без да спре на знак 'Стоп'.",
+        "Трябва да отида на работа."
+      ],
+      "optionsTr": [
+        "Bugün hava çok yağmurlu.",
+        "Sorunuzu anlamadım.",
+        "Ben ana yolda düz gidiyordum, diğer araç 'Dur' tabelasında durmadan ara sokaktan çıktı.",
+        "İşe gitmem lazım."
+      ],
+      "hint": "Ben ana yolda düz gidiyordum, diğer araç 'Dur' tabelasında durmadan ara sokaktan çıktı.",
+      "explanation": "Kazanın nasıl olduğunu anlatmalısınız (geçmiş zaman). Ana yol (главен път) ve ara sokak (пряка) kavramları önemlidir."
+    },
+    {
+      "id": "l5_traf_4",
+      "type": "dialogue",
+      "speaker": "Polis",
+      "sentence": "Разбирам. С каква скорост карахте вие?",
+      "answer": "Карах бавно, може би с около 40 километра в час. Тук има ограничение.",
+      "options": [
+        "Обичам да карам бързо.",
+        "Карах бавно, може би с около 40 километра в час. Тук има ограничение.",
+        "Искам да се прибера вкъщи.",
+        "Автобусът беше пълен."
+      ],
+      "optionsTr": [
+        "Hızlı kullanmayı severim.",
+        "Yavaş kullanıyordum, muhtemelen saatte yaklaşık 40 kilometre hızla. Burada sınır var.",
+        "Eve dönmek istiyorum.",
+        "Otobüs doluydu."
+      ],
+      "hint": "Yavaş kullanıyordum, muhtemelen saatte yaklaşık 40 kilometre hızla. Burada sınır var.",
+      "explanation": "Polis hızınızı soruyor. Yavaş ve sınır (ограничение) dahilinde kullandığınızı belirtmek en güvenlisidir."
+    },
+    {
+      "id": "l5_traf_5",
+      "type": "dialogue",
+      "speaker": "Polis",
+      "sentence": "Виждам. Другият водач твърди, че вие сте карали много бързо и не сте могли да спрете.",
+      "answer": "Това категорично не е вярно! Имам видеорегистратор в колата, мога да ви покажа записа.",
+      "options": [
+        "Може би е прав, не знам.",
+        "Аз не говоря с непознати.",
+        "Това категорично не е вярно! Имам видеорегистратор в колата, мога да ви покажа записа.",
+        "Искам да купя този автомобил."
+      ],
+      "optionsTr": [
+        "Belki de haklıdır, bilmiyorum.",
+        "Yabancılarla konuşmam.",
+        "Bu kesinlikle doğru değil! Arabada araç içi kameram var, size kaydı gösterebilirim.",
+        "Bu otomobili satın almak istiyorum."
+      ],
+      "hint": "Bu kesinlikle doğru değil! Arabada araç içi kameram var, size kaydı gösterebilirim.",
+      "explanation": "Suçlamayı reddedip (категорично не е вярно) varsa bir delil sunmalısınız (видеорегистратор - araç kamerası)."
+    },
+    {
+      "id": "l5_traf_6",
+      "type": "dialogue",
+      "speaker": "Polis",
+      "sentence": "Отлично, записът ще ни бъде много полезен. Сега ще ви направя тест за алкохол с дрегер. Моля, духайте продължително.",
+      "answer": "(Духате) Готово. Убеден съм, че резултатът е нула.",
+      "options": [
+        "Пие ми се студена вода.",
+        "(Духате) Готово. Убеден съм, че резултатът е нула.",
+        "Кога започва филмът?",
+        "Не искам да правя този тест."
+      ],
+      "optionsTr": [
+        "Soğuk su içesim var.",
+        "(Üflüyorsunuz) Tamamdır. Sonucun sıfır olduğundan eminim.",
+        "Film ne zaman başlıyor?",
+        "Bu testi yapmak istemiyorum."
+      ],
+      "hint": "(Üflüyorsunuz) Tamamdır. Sonucun sıfır olduğundan eminim.",
+      "explanation": "Alkol testi (дрегер) yapmanız isteniyor. Bunu reddetmek yasadışıdır, onaylamalısınız."
+    },
+    {
+      "id": "l5_traf_7",
+      "type": "dialogue",
+      "speaker": "Polis",
+      "sentence": "Да, тестът е отрицателен – 0.00. Сега ще напиша двустранен протокол. Трябва ли ви копие за вашата застраховка?",
+      "answer": "Да, разбира се. Имам пълно автокаско и ми трябва протоколът за щетите.",
+      "options": [
+        "Не, благодаря, нямам застраховка.",
+        "Да, разбира се. Имам пълно автокаско и ми трябва протоколът за щетите.",
+        "Искам да платя глобата сега.",
+        "Къде мога да намеря хотел?"
+      ],
+      "optionsTr": [
+        "Hayır teşekkürler, sigortam yok.",
+        "Evet, elbette. Tam kaskom var ve hasarlar için tutanağa ihtiyacım var.",
+        "Cezayı şimdi ödemek istiyorum.",
+        "Nerede otel bulabilirim?"
+      ],
+      "hint": "Evet, elbette. Tam kaskom var ve hasarlar için tutanağa ihtiyacım var.",
+      "explanation": "Tutanak (протокол) sigorta (застраховка/каско) için gereklidir."
+    },
+    {
+      "id": "l5_traf_8",
+      "type": "dialogue",
+      "speaker": "Polis",
+      "sentence": "Готово. Ето вашия протокол и документите ви. Може да преместите колата си сега. Безопасно пътуване!",
+      "answer": "Благодаря ви за съдействието. Лек ден и успешна служба!",
+      "options": [
+        "Сметката, моля.",
+        "Къде е най-близката болница?",
+        "Благодаря ви за съдействието. Лек ден и успешна служба!",
+        "Искам нова шофьорска книжка."
+      ],
+      "optionsTr": [
+        "Hesap lütfen.",
+        "En yakın hastane nerede?",
+        "İşbirliğiniz için teşekkür ederim. İyi günler ve hayırlı görevler (başarılı mesailer)!",
+        "Yeni bir ehliyet istiyorum."
+      ],
+      "hint": "İşbirliğiniz için teşekkür ederim. İyi günler ve hayırlı görevler (başarılı mesailer)!",
+      "explanation": "İşlem bitti. Polise yardımı (съдействие) için teşekkür edip iyi mesailer dilemelisiniz."
+    }
+  ]
+}

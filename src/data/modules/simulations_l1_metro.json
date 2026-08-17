@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 1: Metro Nerede?",
+  "difficulty": 1,
+  "description": "Yolda tanımadığınız birine adres soruyorsunuz.",
+  "questions": [
+    {
+      "id": "l1m_1",
+      "type": "dialogue",
+      "speaker": "Siz",
+      "sentence": "...",
+      "answer": "Извинете, говорите ли английски?",
+      "options": [
+        "Какво правите?",
+        "Извинете, говорите ли английски?",
+        "Аз съм студент.",
+        "Един хляб."
+      ],
+      "hint": "Affedersiniz, İngilizce konuşuyor musunuz?",
+      "explanation": "Söze kibarca giriyorsunuz.",
+      "optionsTr": [
+        "Ne yapıyorsun",
+        "Affedersiniz, İngilizce biliyor musunuz?",
+        "Ben bir öğrenciyim.",
+        "Bir somun ekmek."
+      ]
+    },
+    {
+      "id": "l1m_2",
+      "type": "dialogue",
+      "speaker": "Yabancı",
+      "sentence": "Не много добре. Разбирам малко.",
+      "answer": "Добре. Къде е метрото?",
+      "options": [
+        "Добре. Къде е метрото?",
+        "Колко струва?",
+        "Искам вода.",
+        "Аз съм лекар."
+      ],
+      "hint": "Tamam. Metro nerede?",
+      "explanation": "Doğrudan metronun yerini sorun.",
+      "optionsTr": [
+        "Tamam aşkım. metro nerede",
+        "Fiyatı ne kadar?",
+        "Su istiyorum.",
+        "Ben doktorum."
+      ]
+    },
+    {
+      "id": "l1m_3",
+      "type": "dialogue",
+      "speaker": "Yabancı",
+      "sentence": "Метрото е направо и после надясно.",
+      "answer": "Направо и надясно. Много благодаря!",
+      "options": [
+        "Направо и надясно. Много благодаря!",
+        "Довиждане, приятен ден.",
+        "Не искам.",
+        "Това е вкусно."
+      ],
+      "hint": "Düz ve sağa. Çok teşekkürler!",
+      "explanation": "Düz gidip sağa dönmeniz gerektiğini söyledi.",
+      "optionsTr": [
+        "Düz ve doğru. Çok teşekkürler!",
+        "Hoşça kalın, güzel bir gün geçirin.",
+        "İstemiyorum.",
+        "Bu çok lezzetli."
+      ]
+    },
+    {
+      "id": "l1m_4",
+      "type": "dialogue",
+      "speaker": "Yabancı",
+      "sentence": "Моля, приятен ден!",
+      "answer": "Приятен ден и на вас!",
+      "options": [
+        "Приятен ден и на вас!",
+        "Колко е часът?",
+        "Здравейте.",
+        "Аз съм българин."
+      ],
+      "hint": "Size de iyi günler!",
+      "explanation": "Rica edip iyi günler diledi. Karşılık verin.",
+      "optionsTr": [
+        "Size de güzel bir gün diliyorum!",
+        "saat kaç",
+        "Merhaba.",
+        "Ben Bulgarım."
+      ]
+    }
+  ]
+}

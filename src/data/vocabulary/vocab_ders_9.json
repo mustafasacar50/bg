@@ -1,0 +1,1869 @@
+{
+  "id": "vocab_ders_9",
+  "title": "Ders 9 - Yemekhane ve Yemek Rutini",
+  "description": "Yemekhane, yemek çeşitleri, günlük yeme rutini, self-servis, sıra bekleme",
+  "words": [
+    {
+      "word": "обядвам",
+      "translation": "öğle yemeği yemek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз обядвам.",
+        "Той обядвам."
+      ],
+      "bg": "обядвам",
+      "tr": "öğle yemeği yemek"
+    },
+    {
+      "word": "вечерям",
+      "translation": "akşam yemeği yemek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз вечерям.",
+        "Той вечерям."
+      ],
+      "bg": "вечерям",
+      "tr": "akşam yemeği yemek"
+    },
+    {
+      "word": "закусвам",
+      "translation": "kahvaltı yapmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз закусвам.",
+        "Той закусвам."
+      ],
+      "bg": "закусвам",
+      "tr": "kahvaltı yapmak"
+    },
+    {
+      "word": "нахраня се",
+      "translation": "yemek yemek/doymak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз нахраня се.",
+        "Той нахраня се."
+      ],
+      "bg": "нахраня се",
+      "tr": "yemek yemek/doymak"
+    },
+    {
+      "word": "слизам",
+      "translation": "aşağı inmek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз слизам.",
+        "Той слизам."
+      ],
+      "bg": "слизам",
+      "tr": "aşağı inmek"
+    },
+    {
+      "word": "храня се",
+      "translation": "yemek yemek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз храня се.",
+        "Той храня се."
+      ],
+      "bg": "храня се",
+      "tr": "yemek yemek"
+    },
+    {
+      "word": "готвя",
+      "translation": "pişirmek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз готвя.",
+        "Той готвя."
+      ],
+      "bg": "готвя",
+      "tr": "pişirmek"
+    },
+    {
+      "word": "купувам",
+      "translation": "satın almak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз купувам.",
+        "Той купувам."
+      ],
+      "bg": "купувам",
+      "tr": "satın almak"
+    },
+    {
+      "word": "нареждам се",
+      "translation": "sıraya girmek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз нареждам се.",
+        "Той нареждам се."
+      ],
+      "bg": "нареждам се",
+      "tr": "sıraya girmek"
+    },
+    {
+      "word": "чакам",
+      "translation": "beklemek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз чакам.",
+        "Той чакам."
+      ],
+      "bg": "чакам",
+      "tr": "beklemek"
+    },
+    {
+      "word": "освобождавам се",
+      "translation": "boşalmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз освобождавам се.",
+        "Той освобождавам се."
+      ],
+      "bg": "освобождавам се",
+      "tr": "boşalmak"
+    },
+    {
+      "word": "слагам",
+      "translation": "koymak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз слагам.",
+        "Той слагам."
+      ],
+      "bg": "слагам",
+      "tr": "koymak"
+    },
+    {
+      "word": "търся",
+      "translation": "aramak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз търся.",
+        "Той търся."
+      ],
+      "bg": "търся",
+      "tr": "aramak"
+    },
+    {
+      "word": "поръчвам",
+      "translation": "sipariş vermek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз поръчвам.",
+        "Той поръчвам."
+      ],
+      "bg": "поръчвам",
+      "tr": "sipariş vermek"
+    },
+    {
+      "word": "разпределям",
+      "translation": "dağıtmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз разпределям.",
+        "Той разпределям."
+      ],
+      "bg": "разпределям",
+      "tr": "dağıtmak"
+    },
+    {
+      "word": "нося",
+      "translation": "taşımak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз нося.",
+        "Той нося."
+      ],
+      "bg": "нося",
+      "tr": "taşımak"
+    },
+    {
+      "word": "сервирам",
+      "translation": "servis etmek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз сервирам.",
+        "Той сервирам."
+      ],
+      "bg": "сервирам",
+      "tr": "servis etmek"
+    },
+    {
+      "word": "плащам",
+      "translation": "ödemek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз плащам.",
+        "Той плащам."
+      ],
+      "bg": "плащам",
+      "tr": "ödemek"
+    },
+    {
+      "word": "вземам",
+      "translation": "almak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз вземам.",
+        "Той вземам."
+      ],
+      "bg": "вземам",
+      "tr": "almak"
+    },
+    {
+      "word": "сядам",
+      "translation": "oturmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз сядам.",
+        "Той сядам."
+      ],
+      "bg": "сядам",
+      "tr": "oturmak"
+    },
+    {
+      "word": "питам",
+      "translation": "sormak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз питам.",
+        "Той питам."
+      ],
+      "bg": "питам",
+      "tr": "sormak"
+    },
+    {
+      "word": "подавам",
+      "translation": "uzatmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз подавам.",
+        "Той подавам."
+      ],
+      "bg": "подавам",
+      "tr": "uzatmak"
+    },
+    {
+      "word": "дояждам",
+      "translation": "yemeğini bitirmek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз дояждам.",
+        "Той дояждам."
+      ],
+      "bg": "дояждам",
+      "tr": "yemeğini bitirmek"
+    },
+    {
+      "word": "ставам",
+      "translation": "kalkmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз ставам.",
+        "Той ставам."
+      ],
+      "bg": "ставам",
+      "tr": "kalkmak"
+    },
+    {
+      "word": "прибирам",
+      "translation": "toplamak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз прибирам.",
+        "Той прибирам."
+      ],
+      "bg": "прибирам",
+      "tr": "toplamak"
+    },
+    {
+      "word": "сбогувам се",
+      "translation": "vedalaşmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз сбогувам се.",
+        "Той сбогувам се."
+      ],
+      "bg": "сбогувам се",
+      "tr": "vedalaşmak"
+    },
+    {
+      "word": "отивам си",
+      "translation": "gitmek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз отивам си.",
+        "Той отивам си."
+      ],
+      "bg": "отивам си",
+      "tr": "gitmek"
+    },
+    {
+      "word": "идвам",
+      "translation": "gelmek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз идвам.",
+        "Той идвам."
+      ],
+      "bg": "идвам",
+      "tr": "gelmek"
+    },
+    {
+      "word": "изпивам",
+      "translation": "içip bitirmek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз изпивам.",
+        "Той изпивам."
+      ],
+      "bg": "изпивам",
+      "tr": "içip bitirmek"
+    },
+    {
+      "word": "назовавам",
+      "translation": "adlandırmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз назовавам.",
+        "Той назовавам."
+      ],
+      "bg": "назовавам",
+      "tr": "adlandırmak"
+    },
+    {
+      "word": "празнувам",
+      "translation": "kutlamak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз празнувам.",
+        "Той празнувам."
+      ],
+      "bg": "празнувам",
+      "tr": "kutlamak"
+    },
+    {
+      "word": "оженя се",
+      "translation": "evlenmek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз оженя се.",
+        "Той оженя се."
+      ],
+      "bg": "оженя се",
+      "tr": "evlenmek"
+    },
+    {
+      "word": "решавам",
+      "translation": "karar vermek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз решавам.",
+        "Той решавам."
+      ],
+      "bg": "решавам",
+      "tr": "karar vermek"
+    },
+    {
+      "word": "резервирам",
+      "translation": "rezervasyon yapmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз резервирам.",
+        "Той резервирам."
+      ],
+      "bg": "резервирам",
+      "tr": "rezervasyon yapmak"
+    },
+    {
+      "word": "позволявам си",
+      "translation": "kendine izin vermek/imkan ayırmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз позволявам си.",
+        "Той позволявам си."
+      ],
+      "bg": "позволявам си",
+      "tr": "kendine izin vermek/imkan ayırmak"
+    },
+    {
+      "word": "тръгвам",
+      "translation": "yola çıkmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз тръгвам.",
+        "Той тръгвам."
+      ],
+      "bg": "тръгвам",
+      "tr": "yola çıkmak"
+    },
+    {
+      "word": "поразходя се",
+      "translation": "biraz yürüyüş yapmak",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз поразходя се.",
+        "Той поразходя се."
+      ],
+      "bg": "поразходя се",
+      "tr": "biraz yürüyüş yapmak"
+    },
+    {
+      "word": "влизам",
+      "translation": "içeri girmek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз влизам.",
+        "Той влизам."
+      ],
+      "bg": "влизам",
+      "tr": "içeri girmek"
+    },
+    {
+      "word": "забелязвам",
+      "translation": "fark etmek",
+      "type": "fiil",
+      "conjugation": {
+        "present": "...",
+        "past": "...",
+        "future": "...",
+        "imperative": "..."
+      },
+      "notes": "",
+      "examples": [
+        "Аз забелязвам.",
+        "Той забелязвам."
+      ],
+      "bg": "забелязвам",
+      "tr": "fark etmek"
+    },
+    {
+      "word": "стол",
+      "translation": "yemekhane/sandalye",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "стол",
+        "çoğul": "столове"
+      },
+      "notes": "",
+      "examples": [
+        "Това е стол.",
+        "Виждам стол."
+      ],
+      "bg": "стол",
+      "tr": "yemekhane/sandalye"
+    },
+    {
+      "word": "сутерен",
+      "translation": "bodrum kat",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "сутерен",
+        "çoğul": "сутерени"
+      },
+      "notes": "",
+      "examples": [
+        "Това е сутерен.",
+        "Виждам сутерен."
+      ],
+      "bg": "сутерен",
+      "tr": "bodrum kat"
+    },
+    {
+      "word": "ректорат",
+      "translation": "rektörlük",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "ректорат",
+        "çoğul": "ректорати"
+      },
+      "notes": "",
+      "examples": [
+        "Това е ректорат.",
+        "Виждам ректорат."
+      ],
+      "bg": "ректорат",
+      "tr": "rektörlük"
+    },
+    {
+      "word": "гише",
+      "translation": "gişe",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "гише",
+        "çoğul": "гишета"
+      },
+      "notes": "",
+      "examples": [
+        "Това е гише.",
+        "Виждам гише."
+      ],
+      "bg": "гише",
+      "tr": "gişe"
+    },
+    {
+      "word": "опашка",
+      "translation": "sıra/kuyruk",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "опашка",
+        "çoğul": "опашки"
+      },
+      "notes": "",
+      "examples": [
+        "Това е опашка.",
+        "Виждам опашка."
+      ],
+      "bg": "опашка",
+      "tr": "sıra/kuyruk"
+    },
+    {
+      "word": "самообслужване",
+      "translation": "self-servis",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "самообслужване",
+        "çoğul": "-"
+      },
+      "notes": "",
+      "examples": [
+        "Това е самообслужване.",
+        "Виждам самообслужване."
+      ],
+      "bg": "самообслужване",
+      "tr": "self-servis"
+    },
+    {
+      "word": "тава",
+      "translation": "tepsi",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "тава",
+        "çoğul": "тави"
+      },
+      "notes": "",
+      "examples": [
+        "Това е тава.",
+        "Виждам тава."
+      ],
+      "bg": "тава",
+      "tr": "tepsi"
+    },
+    {
+      "word": "меню",
+      "translation": "menü",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "меню",
+        "çoğul": "менюта"
+      },
+      "notes": "",
+      "examples": [
+        "Това е меню.",
+        "Виждам меню."
+      ],
+      "bg": "меню",
+      "tr": "menü"
+    },
+    {
+      "word": "порция",
+      "translation": "porsiyon",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "порция",
+        "çoğul": "порции"
+      },
+      "notes": "",
+      "examples": [
+        "Това е порция.",
+        "Виждам порция."
+      ],
+      "bg": "порция",
+      "tr": "porsiyon"
+    },
+    {
+      "word": "закуска",
+      "translation": "kahvaltı",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "закуска",
+        "çoğul": "закуски"
+      },
+      "notes": "",
+      "examples": [
+        "Това е закуска.",
+        "Виждам закуска."
+      ],
+      "bg": "закуска",
+      "tr": "kahvaltı"
+    },
+    {
+      "word": "обяд",
+      "translation": "öğle yemeği",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "обяд",
+        "çoğul": "обяди"
+      },
+      "notes": "",
+      "examples": [
+        "Това е обяд.",
+        "Виждам обяд."
+      ],
+      "bg": "обяд",
+      "tr": "öğle yemeği"
+    },
+    {
+      "word": "вечеря",
+      "translation": "akşam yemeği",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "вечеря",
+        "çoğul": "вечери"
+      },
+      "notes": "",
+      "examples": [
+        "Това е вечеря.",
+        "Виждам вечеря."
+      ],
+      "bg": "вечеря",
+      "tr": "akşam yemeği"
+    },
+    {
+      "word": "супа",
+      "translation": "çorba",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "супа",
+        "çoğul": "супи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е супа.",
+        "Виждам супа."
+      ],
+      "bg": "супа",
+      "tr": "çorba"
+    },
+    {
+      "word": "салата",
+      "translation": "salata",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "салата",
+        "çoğul": "салати"
+      },
+      "notes": "",
+      "examples": [
+        "Това е салата.",
+        "Виждам салата."
+      ],
+      "bg": "салата",
+      "tr": "salata"
+    },
+    {
+      "word": "основно ястие",
+      "translation": "ana yemek",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "основно ястие",
+        "çoğul": "основни ястия"
+      },
+      "notes": "",
+      "examples": [
+        "Това е основно ястие.",
+        "Виждам основно ястие."
+      ],
+      "bg": "основно ястие",
+      "tr": "ana yemek"
+    },
+    {
+      "word": "десерт",
+      "translation": "tatlı",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "десерт",
+        "çoğul": "десерти"
+      },
+      "notes": "",
+      "examples": [
+        "Това е десерт.",
+        "Виждам десерт."
+      ],
+      "bg": "десерт",
+      "tr": "tatlı"
+    },
+    {
+      "word": "напитка",
+      "translation": "içecek",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "напитка",
+        "çoğul": "напитки"
+      },
+      "notes": "",
+      "examples": [
+        "Това е напитка.",
+        "Виждам напитка."
+      ],
+      "bg": "напитка",
+      "tr": "içecek"
+    },
+    {
+      "word": "хляб",
+      "translation": "ekmek",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "хляб",
+        "çoğul": "хлябове"
+      },
+      "notes": "",
+      "examples": [
+        "Това е хляб.",
+        "Виждам хляб."
+      ],
+      "bg": "хляб",
+      "tr": "ekmek"
+    },
+    {
+      "word": "месо",
+      "translation": "et",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "месо",
+        "çoğul": "меса"
+      },
+      "notes": "",
+      "examples": [
+        "Това е месо.",
+        "Виждам месо."
+      ],
+      "bg": "месо",
+      "tr": "et"
+    },
+    {
+      "word": "риба",
+      "translation": "balık",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "риба",
+        "çoğul": "риби"
+      },
+      "notes": "",
+      "examples": [
+        "Това е риба.",
+        "Виждам риба."
+      ],
+      "bg": "риба",
+      "tr": "balık"
+    },
+    {
+      "word": "зеленчук",
+      "translation": "sebze",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "зеленчук",
+        "çoğul": "зеленчуци"
+      },
+      "notes": "",
+      "examples": [
+        "Това е зеленчук.",
+        "Виждам зеленчук."
+      ],
+      "bg": "зеленчук",
+      "tr": "sebze"
+    },
+    {
+      "word": "масло",
+      "translation": "tereyağı",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "масло",
+        "çoğul": "масла"
+      },
+      "notes": "",
+      "examples": [
+        "Това е масло.",
+        "Виждам масло."
+      ],
+      "bg": "масло",
+      "tr": "tereyağı"
+    },
+    {
+      "word": "сол",
+      "translation": "tuz",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "сол",
+        "çoğul": "-"
+      },
+      "notes": "",
+      "examples": [
+        "Това е сол.",
+        "Виждам сол."
+      ],
+      "bg": "сол",
+      "tr": "tuz"
+    },
+    {
+      "word": "захар",
+      "translation": "şeker",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "захар",
+        "çoğul": "-"
+      },
+      "notes": "",
+      "examples": [
+        "Това е захар.",
+        "Виждам захар."
+      ],
+      "bg": "захар",
+      "tr": "şeker"
+    },
+    {
+      "word": "чай",
+      "translation": "çay",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "чай",
+        "çoğul": "чайове"
+      },
+      "notes": "",
+      "examples": [
+        "Това е чай.",
+        "Виждам чай."
+      ],
+      "bg": "чай",
+      "tr": "çay"
+    },
+    {
+      "word": "кафе",
+      "translation": "kahve",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "кафе",
+        "çoğul": "кафета"
+      },
+      "notes": "",
+      "examples": [
+        "Това е кафе.",
+        "Виждам кафе."
+      ],
+      "bg": "кафе",
+      "tr": "kahve"
+    },
+    {
+      "word": "сок",
+      "translation": "meyve suyu",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "сок",
+        "çoğul": "сокове"
+      },
+      "notes": "",
+      "examples": [
+        "Това е сок.",
+        "Виждам сок."
+      ],
+      "bg": "сок",
+      "tr": "meyve suyu"
+    },
+    {
+      "word": "вода",
+      "translation": "su",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "вода",
+        "çoğul": "води"
+      },
+      "notes": "",
+      "examples": [
+        "Това е вода.",
+        "Виждам вода."
+      ],
+      "bg": "вода",
+      "tr": "su"
+    },
+    {
+      "word": "университет",
+      "translation": "üniversite",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "университет",
+        "çoğul": "университети"
+      },
+      "notes": "",
+      "examples": [
+        "Това е университет.",
+        "Виждам университет."
+      ],
+      "bg": "университет",
+      "tr": "üniversite"
+    },
+    {
+      "word": "колега",
+      "translation": "meslektaş/arkadaş",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "колега",
+        "çoğul": "колеги"
+      },
+      "notes": "",
+      "examples": [
+        "Това е колега.",
+        "Виждам колега."
+      ],
+      "bg": "колега",
+      "tr": "meslektaş/arkadaş"
+    },
+    {
+      "word": "общежитие",
+      "translation": "yurt",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "общежитие",
+        "çoğul": "общежития"
+      },
+      "notes": "",
+      "examples": [
+        "Това е общежитие.",
+        "Виждам общежитие."
+      ],
+      "bg": "общежитие",
+      "tr": "yurt"
+    },
+    {
+      "word": "място",
+      "translation": "yer",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "място",
+        "çoğul": "места"
+      },
+      "notes": "",
+      "examples": [
+        "Това е място.",
+        "Виждам място."
+      ],
+      "bg": "място",
+      "tr": "yer"
+    },
+    {
+      "word": "чанта",
+      "translation": "çanta",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "чанта",
+        "çoğul": "чанти"
+      },
+      "notes": "",
+      "examples": [
+        "Това е чанта.",
+        "Виждам чанта."
+      ],
+      "bg": "чанта",
+      "tr": "çanta"
+    },
+    {
+      "word": "прибор",
+      "translation": "çatal-bıçak",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "прибор",
+        "çoğul": "прибори"
+      },
+      "notes": "",
+      "examples": [
+        "Това е прибор.",
+        "Виждам прибор."
+      ],
+      "bg": "прибор",
+      "tr": "çatal-bıçak"
+    },
+    {
+      "word": "кюфте",
+      "translation": "köfte",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "кюфте",
+        "çoğul": "кюфтета"
+      },
+      "notes": "",
+      "examples": [
+        "Това е кюфте.",
+        "Виждам кюфте."
+      ],
+      "bg": "кюфте",
+      "tr": "köfte"
+    },
+    {
+      "word": "гарнитура",
+      "translation": "garnitür",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "гарнитура",
+        "çoğul": "гарнитури"
+      },
+      "notes": "",
+      "examples": [
+        "Това е гарнитура.",
+        "Виждам гарнитура."
+      ],
+      "bg": "гарнитура",
+      "tr": "garnitür"
+    },
+    {
+      "word": "сос",
+      "translation": "sos",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "сос",
+        "çoğul": "сосове"
+      },
+      "notes": "",
+      "examples": [
+        "Това е сос.",
+        "Виждам сос."
+      ],
+      "bg": "сос",
+      "tr": "sos"
+    },
+    {
+      "word": "зеле",
+      "translation": "lahana",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "зеле",
+        "çoğul": "-"
+      },
+      "notes": "",
+      "examples": [
+        "Това е зеле.",
+        "Виждам зеле."
+      ],
+      "bg": "зеле",
+      "tr": "lahana"
+    },
+    {
+      "word": "картоф",
+      "translation": "patates",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "картоф",
+        "çoğul": "картофи"
+      },
+      "notes": "",
+      "examples": [
+        "Това е картоф.",
+        "Виждам картоф."
+      ],
+      "bg": "картоф",
+      "tr": "patates"
+    },
+    {
+      "word": "мусака",
+      "translation": "musakka",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "мусака",
+        "çoğul": "мусаки"
+      },
+      "notes": "",
+      "examples": [
+        "Това е мусака.",
+        "Виждам мусака."
+      ],
+      "bg": "мусака",
+      "tr": "musakka"
+    },
+    {
+      "word": "яхния",
+      "translation": "yahni",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "яхния",
+        "çoğul": "яхнии"
+      },
+      "notes": "",
+      "examples": [
+        "Това е яхния.",
+        "Виждам яхния."
+      ],
+      "bg": "яхния",
+      "tr": "yahni"
+    },
+    {
+      "word": "паста",
+      "translation": "pasta",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "паста",
+        "çoğul": "пасти"
+      },
+      "notes": "",
+      "examples": [
+        "Това е паста.",
+        "Виждам паста."
+      ],
+      "bg": "паста",
+      "tr": "pasta"
+    },
+    {
+      "word": "баклава",
+      "translation": "baklava",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "баклава",
+        "çoğul": "баклави"
+      },
+      "notes": "",
+      "examples": [
+        "Това е баклава.",
+        "Виждам баклава."
+      ],
+      "bg": "баклава",
+      "tr": "baklava"
+    },
+    {
+      "word": "мляко",
+      "translation": "süt",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "мляко",
+        "çoğul": "млека"
+      },
+      "notes": "",
+      "examples": [
+        "Това е мляко.",
+        "Виждам мляко."
+      ],
+      "bg": "мляко",
+      "tr": "süt"
+    },
+    {
+      "word": "ориз",
+      "translation": "pirinç",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "ориз",
+        "çoğul": "-"
+      },
+      "notes": "",
+      "examples": [
+        "Това е ориз.",
+        "Виждам ориз."
+      ],
+      "bg": "ориз",
+      "tr": "pirinç"
+    },
+    {
+      "word": "чиния",
+      "translation": "tabak",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "чиния",
+        "çoğul": "чинии"
+      },
+      "notes": "",
+      "examples": [
+        "Това е чиния.",
+        "Виждам чиния."
+      ],
+      "bg": "чиния",
+      "tr": "tabak"
+    },
+    {
+      "word": "вилица",
+      "translation": "çatal",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "вилица",
+        "çoğul": "вилици"
+      },
+      "notes": "",
+      "examples": [
+        "Това е вилица.",
+        "Виждам вилица."
+      ],
+      "bg": "вилица",
+      "tr": "çatal"
+    },
+    {
+      "word": "лъжица",
+      "translation": "kaşık",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "лъжица",
+        "çoğul": "лъжици"
+      },
+      "notes": "",
+      "examples": [
+        "Това е лъжица.",
+        "Виждам лъжица."
+      ],
+      "bg": "лъжица",
+      "tr": "kaşık"
+    },
+    {
+      "word": "нож",
+      "translation": "bıçak",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "нож",
+        "çoğul": "ножове"
+      },
+      "notes": "",
+      "examples": [
+        "Това е нож.",
+        "Виждам нож."
+      ],
+      "bg": "нож",
+      "tr": "bıçak"
+    },
+    {
+      "word": "момиче",
+      "translation": "kız",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "момиче",
+        "çoğul": "момичета"
+      },
+      "notes": "",
+      "examples": [
+        "Това е момиче.",
+        "Виждам момиче."
+      ],
+      "bg": "момиче",
+      "tr": "kız"
+    },
+    {
+      "word": "голям",
+      "translation": "büyük",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "голям",
+        "Dişil": "голяма",
+        "Nötr": "голямо",
+        "Çoğul": "големи"
+      },
+      "notes": "",
+      "examples": [
+        "Много голям човек.",
+        "Това е голям."
+      ],
+      "bg": "голям",
+      "tr": "büyük"
+    },
+    {
+      "word": "просторен",
+      "translation": "ferah",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "просторен",
+        "Dişil": "просторна",
+        "Nötr": "просторно",
+        "Çoğul": "просторни"
+      },
+      "notes": "",
+      "examples": [
+        "Много просторен човек.",
+        "Това е просторен."
+      ],
+      "bg": "просторен",
+      "tr": "ferah"
+    },
+    {
+      "word": "удобен",
+      "translation": "elverişli",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "удобен",
+        "Dişil": "удобна",
+        "Nötr": "удобно",
+        "Çoğul": "удобни"
+      },
+      "notes": "",
+      "examples": [
+        "Много удобен човек.",
+        "Това е удобен."
+      ],
+      "bg": "удобен",
+      "tr": "elverişli"
+    },
+    {
+      "word": "далечен",
+      "translation": "uzak",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "далечен",
+        "Dişil": "далечна",
+        "Nötr": "далечно",
+        "Çoğul": "далечни"
+      },
+      "notes": "",
+      "examples": [
+        "Много далечен човек.",
+        "Това е далечен."
+      ],
+      "bg": "далечен",
+      "tr": "uzak"
+    },
+    {
+      "word": "свободен",
+      "translation": "serbest/boş",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "свободен",
+        "Dişil": "свободна",
+        "Nötr": "свободно",
+        "Çoğul": "свободни"
+      },
+      "notes": "",
+      "examples": [
+        "Много свободен човек.",
+        "Това е свободен."
+      ],
+      "bg": "свободен",
+      "tr": "serbest/boş"
+    },
+    {
+      "word": "пресен",
+      "translation": "taze",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "пресен",
+        "Dişil": "прясна",
+        "Nötr": "прясно",
+        "Çoğul": "пресни"
+      },
+      "notes": "",
+      "examples": [
+        "Много пресен човек.",
+        "Това е пресен."
+      ],
+      "bg": "пресен",
+      "tr": "taze"
+    },
+    {
+      "word": "вкусен",
+      "translation": "lezzetli",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "вкусен",
+        "Dişil": "вкусна",
+        "Nötr": "вкусно",
+        "Çoğul": "вкусни"
+      },
+      "notes": "",
+      "examples": [
+        "Много вкусен човек.",
+        "Това е вкусен."
+      ],
+      "bg": "вкусен",
+      "tr": "lezzetli"
+    },
+    {
+      "word": "топъл",
+      "translation": "sıcak",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "топъл",
+        "Dişil": "топла",
+        "Nötr": "топло",
+        "Çoğul": "топли"
+      },
+      "notes": "",
+      "examples": [
+        "Много топъл човек.",
+        "Това е топъл."
+      ],
+      "bg": "топъл",
+      "tr": "sıcak"
+    },
+    {
+      "word": "студен",
+      "translation": "soğuk",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "студен",
+        "Dişil": "студена",
+        "Nötr": "студено",
+        "Çoğul": "студени"
+      },
+      "notes": "",
+      "examples": [
+        "Много студен човек.",
+        "Това е студен."
+      ],
+      "bg": "студен",
+      "tr": "soğuk"
+    },
+    {
+      "word": "постен",
+      "translation": "etsiz",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "постен",
+        "Dişil": "постна",
+        "Nötr": "постно",
+        "Çoğul": "постни"
+      },
+      "notes": "",
+      "examples": [
+        "Много постен човек.",
+        "Това е постен."
+      ],
+      "bg": "постен",
+      "tr": "etsiz"
+    },
+    {
+      "word": "пържен",
+      "translation": "kızartılmış",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "пържен",
+        "Dişil": "пържена",
+        "Nötr": "пържено",
+        "Çoğul": "пържени"
+      },
+      "notes": "",
+      "examples": [
+        "Много пържен човек.",
+        "Това е пържен."
+      ],
+      "bg": "пържен",
+      "tr": "kızartılmış"
+    },
+    {
+      "word": "скъп",
+      "translation": "pahalı",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "скъп",
+        "Dişil": "скъпа",
+        "Nötr": "скъпо",
+        "Çoğul": "скъпи"
+      },
+      "notes": "",
+      "examples": [
+        "Много скъп човек.",
+        "Това е скъп."
+      ],
+      "bg": "скъп",
+      "tr": "pahalı"
+    },
+    {
+      "word": "търпеливо",
+      "translation": "sabırla",
+      "type": "zarf",
+      "notes": "",
+      "examples": [
+        "търпеливо е тук.",
+        "Правя го търпеливо."
+      ],
+      "bg": "търпеливо",
+      "tr": "sabırla"
+    },
+    {
+      "word": "бързо",
+      "translation": "hızlı",
+      "type": "zarf",
+      "notes": "",
+      "examples": [
+        "бързо е тук.",
+        "Правя го бързо."
+      ],
+      "bg": "бързо",
+      "tr": "hızlı"
+    },
+    {
+      "word": "обикновено",
+      "translation": "genellikle",
+      "type": "zarf",
+      "notes": "",
+      "examples": [
+        "обикновено е тук.",
+        "Правя го обикновено."
+      ],
+      "bg": "обикновено",
+      "tr": "genellikle"
+    },
+    {
+      "word": "скоро",
+      "translation": "yakında",
+      "type": "zarf",
+      "notes": "",
+      "examples": [
+        "скоро е тук.",
+        "Правя го скоро."
+      ],
+      "bg": "скоро",
+      "tr": "yakında"
+    },
+    {
+      "word": "веднага",
+      "translation": "hemen",
+      "type": "zarf",
+      "notes": "",
+      "examples": [
+        "веднага е тук.",
+        "Правя го веднага."
+      ],
+      "bg": "веднага",
+      "tr": "hemen"
+    },
+    {
+      "word": "затова",
+      "translation": "bu yüzden",
+      "type": "bağlaç",
+      "notes": "",
+      "examples": [
+        "затова е тук.",
+        "Правя го затова."
+      ],
+      "bg": "затова",
+      "tr": "bu yüzden"
+    },
+    {
+      "word": "освен това",
+      "translation": "bunun yanı sıra",
+      "type": "kalıp",
+      "notes": "",
+      "examples": [
+        "освен това е тук.",
+        "Правя го освен това."
+      ],
+      "bg": "освен това",
+      "tr": "bunun yanı sıra"
+    },
+    {
+      "word": "има голяма опашка",
+      "translation": "uzun sıra var",
+      "type": "kalıp",
+      "notes": "",
+      "examples": [
+        "има голяма опашка е тук.",
+        "Правя го има голяма опашка."
+      ],
+      "bg": "има голяма опашка",
+      "tr": "uzun sıra var"
+    },
+    {
+      "word": "върви бързо",
+      "translation": "hızlı ilerler",
+      "type": "kalıp",
+      "notes": "",
+      "examples": [
+        "върви бързо е тук.",
+        "Правя го върви бързо."
+      ],
+      "bg": "върви бързо",
+      "tr": "hızlı ilerler"
+    },
+    {
+      "word": "самообслужване е",
+      "translation": "self servis",
+      "type": "kalıp",
+      "notes": "",
+      "examples": [
+        "самообслужване е е тук.",
+        "Правя го самообслужване е."
+      ],
+      "bg": "самообслужване е",
+      "tr": "self servis"
+    },
+    {
+      "word": "слагам чантите",
+      "translation": "çantaları koyarım",
+      "type": "kalıp",
+      "notes": "",
+      "examples": [
+        "слагам чантите е тук.",
+        "Правя го слагам чантите."
+      ],
+      "bg": "слагам чантите",
+      "tr": "çantaları koyarım"
+    },
+    {
+      "word": "на самообслужване",
+      "translation": "self-servis olarak",
+      "type": "kalıp",
+      "notes": "",
+      "examples": [
+        "на самообслужване е тук.",
+        "Правя го на самообслужване."
+      ],
+      "bg": "на самообслужване",
+      "tr": "self-servis olarak"
+    }
+  ]
+}

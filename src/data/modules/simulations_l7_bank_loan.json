@@ -1,0 +1,176 @@
+{
+  "title": "Seviye 7: Banka Kredisi",
+  "difficulty": 7,
+  "description": "Banka memuru ile kredi türleri, faiz oranları ve kefiller üzerine detaylı bir görüşme yapın.",
+  "questionCount": 8,
+  "questions": [
+    {
+      "id": "l7_bank_1",
+      "type": "dialogue",
+      "speaker": "Banka Memuru",
+      "sentence": "Добър ден! Заповядайте, седнете. С какво мога да ви бъда полезна днес?",
+      "answer": "Добър ден. Интересувам се от възможностите за потребителски кредит.",
+      "options": [
+        "Добър ден. Интересувам се от възможностите за потребителски кредит.",
+        "Искам да купя един хляб.",
+        "Не, благодаря, просто гледам.",
+        "Кога пристига влакът за Варна?"
+      ],
+      "optionsTr": [
+        "İyi günler. İhtiyaç kredisi olanaklarıyla ilgileniyorum.",
+        "Bir ekmek almak istiyorum.",
+        "Hayır teşekkürler, sadece bakıyorum.",
+        "Varna treni ne zaman varıyor?"
+      ],
+      "hint": "İyi günler. İhtiyaç kredisi olanaklarıyla ilgileniyorum.",
+      "explanation": "Banka memuruna amacınızı belirtmelisiniz. 'Потребителски кредит' ihtiyaç kredisi (tüketici kredisi) demektir."
+    },
+    {
+      "id": "l7_bank_2",
+      "type": "dialogue",
+      "speaker": "Banka Memuru",
+      "sentence": "Разбира се. За каква сума става въпрос и за какъв период от време искате да го изплатите?",
+      "answer": "Трябват ми 15 000 лева за покупка на автомобил. Искам да го изплатя за пет години.",
+      "options": [
+        "Аз обичам да карам колело.",
+        "Трябват ми 15 000 лева за покупка на автомобил. Искам да го изплатя за пет години.",
+        "Имам две котки вкъщи.",
+        "Искам да открия спестовна сметка."
+      ],
+      "optionsTr": [
+        "Bisiklete binmeyi severim.",
+        "Araba almak için 15.000 levaya ihtiyacım var. Beş yılda ödemek istiyorum.",
+        "Evde iki kedim var.",
+        "Tasarruf hesabı açmak istiyorum."
+      ],
+      "hint": "Araba almak için 15.000 levaya ihtiyacım var. Beş yılda ödemek istiyorum.",
+      "explanation": "Memur tutarı (сума) ve süreyi (период) soruyor. Net bir miktar ve vade belirterek cevap vermelisiniz."
+    },
+    {
+      "id": "l7_bank_3",
+      "type": "dialogue",
+      "speaker": "Banka Memuru",
+      "sentence": "За 15 000 лева за 60 месеца (5 години), месечната ви вноска ще бъде около 300 лева. Каква е вашата нетна месечна заплата?",
+      "answer": "Получавам чисто 1800 лева на месец, на постоянен трудов договор съм от три години.",
+      "options": [
+        "Аз съм студент и нямам доходи.",
+        "Получавам чисто 1800 лева на месец, на постоянен трудов договор съм от три години.",
+        "Обичам да ходя на кино през уикенда.",
+        "Имам много приятели в София."
+      ],
+      "optionsTr": [
+        "Ben öğrenciyim ve gelirim yok.",
+        "Ayda net 1800 leva alıyorum, üç yıldır daimi iş sözleşmesiyle çalışıyorum.",
+        "Hafta sonları sinemaya gitmeyi severim.",
+        "Sofya'da çok arkadaşım var."
+      ],
+      "hint": "Ayda net 1800 leva alıyorum, üç yıldır daimi iş sözleşmesiyle çalışıyorum.",
+      "explanation": "Memur gelirinizi soruyor. Kredi onayı için düzenli ve yeterli bir gelir (постоянен трудов договор = daimi iş sözleşmesi) sunmalısınız."
+    },
+    {
+      "id": "l7_bank_4",
+      "type": "dialogue",
+      "speaker": "Banka Memuru",
+      "sentence": "Това е отлична предпоставка. Имате ли други кредити или кредитни карти в момента?",
+      "answer": "Имам само една кредитна карта с лимит 1000 лева, но я погасявам редовно всеки месец.",
+      "options": [
+        "Не, не обичам шоколад.",
+        "Имам само една кредитна карта с лимит 1000 лева, но я погасявам редовно всеки месец.",
+        "Къде е най-близкият супермаркет?",
+        "Искам да тегля пари от банкомата."
+      ],
+      "optionsTr": [
+        "Hayır, çikolata sevmem.",
+        "Sadece 1000 leva limitli bir kredi kartım var, ancak her ay düzenli olarak ödüyorum.",
+        "En yakın süpermarket nerede?",
+        "Bankamatikten para çekmek istiyorum."
+      ],
+      "hint": "Sadece 1000 leva limitli bir kredi kartım var, ancak her ay düzenli olarak ödüyorum.",
+      "explanation": "Diğer borçlarınızı (други кредити) soruyor. Dürüstçe beyan edip düzenli ödediğinizi (погасявам редовно) belirtin."
+    },
+    {
+      "id": "l7_bank_5",
+      "type": "dialogue",
+      "speaker": "Banka Memuru",
+      "sentence": "Разбирам. Годишният процент на разходите (ГПР) за този кредит ще бъде около 7.5%. Ще ви бъде ли необходим поръчител?",
+      "answer": "Надявах се да мина без поръчител, тъй като доходите ми са достатъчни. Възможно ли е?",
+      "options": [
+        "Искам да купя нов телефон.",
+        "Надявах се да мина без поръчител, тъй като доходите ми са достатъчни. Възможно ли е?",
+        "Обичам да играя тенис.",
+        "Колко струва тази услуга?"
+      ],
+      "optionsTr": [
+        "Yeni bir telefon almak istiyorum.",
+        "Gelirim yeterli olduğu için kefilsiz halletmeyi umuyordum. Mümkün mü?",
+        "Tenis oynamayı severim.",
+        "Bu hizmet ne kadar?"
+      ],
+      "hint": "Gelirim yeterli olduğu için kefilsiz halletmeyi umuyordum. Mümkün mü?",
+      "explanation": "Memur kefil (поръчител) gerekip gerekmeyeceğini soruyor. Gelirinize güvenerek kefilsiz bir yöntem önermelisiniz."
+    },
+    {
+      "id": "l7_bank_6",
+      "type": "dialogue",
+      "speaker": "Banka Memuru",
+      "sentence": "Тъй като работите в голяма компания и доходите ви са стабилни, можем да го пуснем за одобрение без поръчител.",
+      "answer": "Това е страхотно! Какви документи трябва да подготвя за кандидатстването?",
+      "options": [
+        "Искам едно кафе.",
+        "Къде е тоалетната?",
+        "Това е страхотно! Какви документи трябва да подготвя за кандидатстването?",
+        "Утре ще вали сняг."
+      ],
+      "optionsTr": [
+        "Bir kahve istiyorum.",
+        "Tuvalet nerede?",
+        "Bu harika! Başvuru için hangi belgeleri hazırlamam gerekiyor?",
+        "Yarın kar yağacak."
+      ],
+      "hint": "Bu harika! Başvuru için hangi belgeleri hazırlamam gerekiyor?",
+      "explanation": "Memur olumlu bir sinyal verdi (одобрение). Sonraki adım olan gerekli evrakları (документи) sormanız gerekir."
+    },
+    {
+      "id": "l7_bank_7",
+      "type": "dialogue",
+      "speaker": "Banka Memuru",
+      "sentence": "Ще ми трябва само вашата лична карта, тъй като ние автоматично проверяваме доходите ви в НОИ.",
+      "answer": "Ето моята лична карта. Кога мога да очаквам отговор дали кредитът е одобрен?",
+      "options": [
+        "Ето моята лична карта. Кога мога да очаквам отговор дали кредитът е одобрен?",
+        "Не, не обичам риба.",
+        "Кога затваря банката?",
+        "Трябва ми нов паспорт."
+      ],
+      "optionsTr": [
+        "İşte kimliğim. Kredinin onaylanıp onaylanmadığına dair ne zaman cevap bekleyebilirim?",
+        "Hayır, balık sevmem.",
+        "Banka ne zaman kapanıyor?",
+        "Yeni bir pasaporta ihtiyacım var."
+      ],
+      "hint": "İşte kimliğim. Kredinin onaylanıp onaylanmadığına dair ne zaman cevap bekleyebilirim?",
+      "explanation": "Memur sadece kimlik istiyor. Kimliği verirken onay süresini (очаквам отговор) sormanız gerekiyor."
+    },
+    {
+      "id": "l7_bank_8",
+      "type": "dialogue",
+      "speaker": "Banka Memuru",
+      "sentence": "Обикновено получаваме отговор в рамките на 24 часа. Ще ви се обадя веднага щом имаме резултат.",
+      "answer": "Много ви благодаря за професионалното обслужване. Ще очаквам обаждането ви. Хубав ден!",
+      "options": [
+        "Искам да закрия сметката си.",
+        "Много ви благодаря за професионалното обслужване. Ще очаквам обаждането ви. Хубав ден!",
+        "Къде мога да паркирам?",
+        "Тази банка е много бавна."
+      ],
+      "optionsTr": [
+        "Hesabımı kapatmak istiyorum.",
+        "Profesyonel hizmetiniz için çok teşekkür ederim. Aramanızı bekleyeceğim. İyi günler!",
+        "Nereye park edebilirim?",
+        "Bu banka çok yavaş."
+      ],
+      "hint": "Profesyonel hizmetiniz için çok teşekkür ederim. Aramanızı bekleyeceğim. İyi günler!",
+      "explanation": "İşlem bitti. Teşekkür edip kibarca ayrılıyorsunuz."
+    }
+  ]
+}

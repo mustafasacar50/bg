@@ -1,0 +1,155 @@
+{
+  "title": "Seviye 2: Restoranda Şikayet",
+  "difficulty": 2,
+  "description": "Yanlış gelen siparişi kibarca düzeltmeyi ve hesap istemeyi öğrenin.",
+  "questionCount": 7,
+  "questions": [
+    {
+      "id": "l2_rest_1",
+      "type": "dialogue",
+      "speaker": "Garson",
+      "sentence": "Добър вечер! Заповядайте менюто. Готови ли сте да поръчате?",
+      "answer": "Да, бих искал една пилешка супа и шопска салата.",
+      "options": [
+        "Да, бих искал една пилешка супа и шопска салата.",
+        "Искам да си купя обувки.",
+        "Къде е най-близката спирка?",
+        "Днес е много студено."
+      ],
+      "optionsTr": [
+        "Evet, bir tavuk suyu çorbası ve Şopska salatası isterim.",
+        "Ayakkabı almak istiyorum.",
+        "En yakın durak nerede?",
+        "Bugün hava çok soğuk."
+      ],
+      "hint": "Evet, bir tavuk suyu çorbası ve Şopska salatası isterim.",
+      "explanation": "Garson menüyü verip hazır olup olmadığınızı soruyor. Bir yemek siparişi vermelisiniz."
+    },
+    {
+      "id": "l2_rest_2",
+      "type": "dialogue",
+      "speaker": "Garson",
+      "sentence": "Чудесно. Какво ще желаете за пиене?",
+      "answer": "Една голяма наливна бира, моля.",
+      "options": [
+        "Една голяма наливна бира, моля.",
+        "Имам две сестри.",
+        "Обичам да плувам.",
+        "Ще ходя на работа утре."
+      ],
+      "optionsTr": [
+        "Bir büyük fıçı bira lütfen.",
+        "İki kız kardeşim var.",
+        "Yüzmeyi severim.",
+        "Yarın işe gideceğim."
+      ],
+      "hint": "Bir büyük fıçı bira lütfen.",
+      "explanation": "İçecek (за пиене) soruyor. 'Наливна бира' fıçı bira demektir."
+    },
+    {
+      "id": "l2_rest_3",
+      "type": "dialogue",
+      "speaker": "Garson",
+      "sentence": "(След 15 минути) Ето вашата гъбена супа и бира. Приятен апетит!",
+      "answer": "Извинете, но аз поръчах пилешка супа, а не гъбена.",
+      "options": [
+        "Сметката, моля.",
+        "Извинете, но аз поръчах пилешка супа, а не гъбена.",
+        "Къде мога да паркирам?",
+        "Искам да се прибера вкъщи."
+      ],
+      "optionsTr": [
+        "Hesap lütfen.",
+        "Afedersiniz, ama ben mantar değil tavuk çorbası sipariş ettim.",
+        "Nereye park edebilirim?",
+        "Eve dönmek istiyorum."
+      ],
+      "hint": "Afedersiniz, ama ben mantar değil tavuk çorbası sipariş ettim.",
+      "explanation": "Yanlış sipariş! Mantar çorbası (гъбена) geldiğini fark edip kibarca hatayı belirtmelisiniz."
+    },
+    {
+      "id": "l2_rest_4",
+      "type": "dialogue",
+      "speaker": "Garson",
+      "sentence": "О, много се извинявам! Веднага ще я сменя с пилешка супа.",
+      "answer": "Няма проблем, случва се. Също така, бирата е малко топла.",
+      "options": [
+        "Няма проблем, случва се. Също така, бирата е малко топла.",
+        "Не, не искам нищо.",
+        "Аз работя като учител.",
+        "Къде е музеят?"
+      ],
+      "optionsTr": [
+        "Sorun değil, olur böyle. Ayrıca bira biraz sıcak.",
+        "Hayır, hiçbir şey istemiyorum.",
+        "Ben öğretmen olarak çalışıyorum.",
+        "Müze nerede?"
+      ],
+      "hint": "Sorun değil, olur böyle. Ayrıca bira biraz sıcak.",
+      "explanation": "Garson özür diliyor. Hoşgörüyle karşılayıp, içeceğinizin sıcak (топла) olduğunu da belirtmelisiniz."
+    },
+    {
+      "id": "l2_rest_5",
+      "type": "dialogue",
+      "speaker": "Garson",
+      "sentence": "Разбирам, веднага ще донеса студена бира. Искате ли нещо друго междувременно?",
+      "answer": "Може ли да донесете малко хляб, моля?",
+      "options": [
+        "Колко струва тази кола?",
+        "Може ли да донесете малко хляб, моля?",
+        "Кога пристига автобусът?",
+        "Харесвам зелената блуза."
+      ],
+      "optionsTr": [
+        "Bu araba ne kadar?",
+        "Biraz ekmek getirebilir misiniz lütfen?",
+        "Otobüs ne zaman varıyor?",
+        "Yeşil bluzu beğendim."
+      ],
+      "hint": "Biraz ekmek getirebilir misiniz lütfen?",
+      "explanation": "Yemeği beklerken ekmek (хляб) isteyebilirsiniz."
+    },
+    {
+      "id": "l2_rest_6",
+      "type": "dialogue",
+      "speaker": "Garson",
+      "sentence": "(По-късно) Ето правилната супа, студената бира и топъл хляб. Надявам се всичко да е наред сега.",
+      "answer": "Да, сега всичко е чудесно. Много благодаря!",
+      "options": [
+        "Къде е плажът?",
+        "Не обичам риба.",
+        "Да, сега всичко е чудесно. Много благодаря!",
+        "Искам да платя с карта."
+      ],
+      "optionsTr": [
+        "Plaj nerede?",
+        "Balık sevmem.",
+        "Evet, şimdi her şey harika. Çok teşekkürler!",
+        "Kartla ödemek istiyorum."
+      ],
+      "hint": "Evet, şimdi her şey harika. Çok teşekkürler!",
+      "explanation": "Siparişler düzeltildi. Teşekkür etmelisiniz."
+    },
+    {
+      "id": "l2_rest_7",
+      "type": "dialogue",
+      "speaker": "Garson",
+      "sentence": "Моля. Ако имате нужда от друго, аз съм наблизо.",
+      "answer": "Бих искал сметката, моля. Може ли да платя с карта?",
+      "options": [
+        "Кога започва мачът?",
+        "Бих искал сметката, моля. Може ли да платя с карта?",
+        "Тази супа е ужасна.",
+        "Чао, лека нощ."
+      ],
+      "optionsTr": [
+        "Maç ne zaman başlıyor?",
+        "Hesabı rica edeyim. Kartla ödeyebilir miyim?",
+        "Bu çorba berbat.",
+        "Görüşürüz, iyi geceler."
+      ],
+      "hint": "Hesabı rica edeyim. Kartla ödeyebilir miyim?",
+      "explanation": "Yemeğiniz bittikten sonra hesabı (сметката) ve kartla (с карта) ödeme seçeneğini soruyorsunuz."
+    }
+  ]
+}

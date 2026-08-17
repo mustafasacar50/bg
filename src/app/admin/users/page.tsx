@@ -1,12 +1,12 @@
-interface User { id: string; username: string; name?: string; role?: string; group?: string; createdAt?: number; [key: string]: unknown; }
-interface Group { id: string; name: string; }
 "use client";
 
 import { useState, useEffect } from "react";
-import { Users, Search, RefreshCw, UserPlus, Trash2, Edit2, X, Check } from "lucide-react";
-import Link from "next/link";
-import { ArrowLeft } from "lucide-react";
+import { Users, Search, RefreshCw, UserPlus, Trash2, Edit2, X, Check, ArrowLeft } from "lucide-react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
+
+interface User { id: string; username: string; name?: string; role?: string; group?: string; createdAt?: number; [key: string]: unknown; }
+interface Group { id: string; name: string; }
 
 export default function UsersAdminPage() {
   const [users, setUsers] = useState<Record<string, any>[]>([]);

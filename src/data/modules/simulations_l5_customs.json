@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 5: Gümrük Kontrolü",
+  "difficulty": 5,
+  "description": "Sınır kapısındasınız ve gümrük memuru sorular soruyor.",
+  "questions": [
+    {
+      "id": "l5c_1",
+      "type": "dialogue",
+      "speaker": "Gümrük Memuru",
+      "sentence": "Паспорта и документите на колата, моля.",
+      "answer": "Заповядайте. Ето паспорта ми и зелената карта на автомобила.",
+      "options": [
+        "Нямам паспорт.",
+        "Заповядайте. Ето паспорта ми и зелената карта на автомобила.",
+        "Къде отивам?",
+        "Аз съм турист."
+      ],
+      "hint": "Buyurun. İşte pasaportum ve arabanın yeşil kartı.",
+      "explanation": "Belgeleri eksiksiz teslim ediyorsunuz.",
+      "optionsTr": [
+        "Pasaportum yok.",
+        "Hoş geldin. İşte araba için pasaportum ve yeşil kartım.",
+        "Nereye gidiyorum?",
+        "Ben bir turistim."
+      ]
+    },
+    {
+      "id": "l5c_2",
+      "type": "dialogue",
+      "speaker": "Gümrük Memuru",
+      "sentence": "Каква е целта на пътуването ви в България?",
+      "answer": "Пътувам с цел туризъм. Ще посетя София и Пловдив за една седмица.",
+      "options": [
+        "Не знам.",
+        "Пътувам с цел туризъм. Ще посетя София и Пловдив за една седмица.",
+        "Отивам на работа.",
+        "Просто се разхождам."
+      ],
+      "hint": "Turizm amacıyla seyahat ediyorum. Bir haftalığına Sofya ve Filibe'yi ziyaret edeceğim.",
+      "explanation": "Amacınızı net açıklayın.",
+      "optionsTr": [
+        "Bilmiyorum.",
+        "Turizm amaçlı seyahat ediyorum. Bir haftalığına Sofya ve Filibe'yi ziyaret edeceğim.",
+        "Ben işe gidiyorum.",
+        "Sadece dolaşıyorum."
+      ]
+    },
+    {
+      "id": "l5c_3",
+      "type": "dialogue",
+      "speaker": "Gümrük Memuru",
+      "sentence": "Носите ли стоки за деклариране? Цигари, алкохол над разрешеното количество?",
+      "answer": "Не, нямам нищо за деклариране. Нося само личен багаж.",
+      "options": [
+        "Да, имам много цигари.",
+        "Не, нямам нищо за деклариране. Нося само личен багаж.",
+        "Какво е деклариране?",
+        "Мисля, че да."
+      ],
+      "hint": "Hayır, beyan edecek bir şeyim yok. Sadece kişisel bagaj taşıyorum.",
+      "explanation": "Beyan edilecek malınız olmadığını belirtin.",
+      "optionsTr": [
+        "Evet, çok fazla sigaram var.",
+        "Hayır, beyan edecek hiçbir şeyim yok. Sadece kişisel bagaj taşıyorum.",
+        "Deklarasyon nedir?",
+        "Bence de."
+      ]
+    },
+    {
+      "id": "l5c_4",
+      "type": "dialogue",
+      "speaker": "Gümrük Memuru",
+      "sentence": "Отворете багажника за проверка, моля.",
+      "answer": "Разбира се, веднага ще го отворя.",
+      "options": [
+        "Не искам.",
+        "Разбира се, веднага ще го отворя.",
+        "Защо?",
+        "Ключът е изгубен."
+      ],
+      "hint": "Tabii ki, hemen açacağım.",
+      "explanation": "Zorluk çıkarmadan bagajı açmayı kabul edin.",
+      "optionsTr": [
+        "İstemiyorum.",
+        "Elbette hemen açacağım.",
+        "Neden?",
+        "Anahtar kayıp."
+      ]
+    }
+  ]
+}

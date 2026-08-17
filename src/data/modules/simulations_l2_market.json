@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 2: Süpermarkette Kasa Sırası",
+  "difficulty": 2,
+  "description": "Markette alışverişinizi bitirdiniz, kasada ödeme yapıyorsunuz.",
+  "questions": [
+    {
+      "id": "l2m_1",
+      "type": "dialogue",
+      "speaker": "Kasiyer",
+      "sentence": "Добър вечер. Имате ли клиентска карта?",
+      "answer": "Добър вечер. Не, нямам.",
+      "options": [
+        "Добър вечер. Не, нямам.",
+        "Аз съм студент.",
+        "Да, искам хляб.",
+        "Къде е млякото?"
+      ],
+      "hint": "İyi akşamlar. Hayır, yok.",
+      "explanation": "Müşteri kartınız olup olmadığını sordu.",
+      "optionsTr": [
+        "İyi akşamlar. Hayır, yapmadım.",
+        "Ben bir öğrenciyim.",
+        "Evet ekmek istiyorum.",
+        "süt nerede"
+      ]
+    },
+    {
+      "id": "l2m_2",
+      "type": "dialogue",
+      "speaker": "Kasiyer",
+      "sentence": "Желаете ли торбичка?",
+      "answer": "Да, една малка торбичка, моля.",
+      "options": [
+        "Не, благодаря.",
+        "Да, една малка торбичка, моля.",
+        "Колко е часът?",
+        "Обичам ябълки."
+      ],
+      "hint": "Evet, küçük bir poşet lütfen.",
+      "explanation": "Poşet isteyip istemediğinizi sordu.",
+      "optionsTr": [
+        "Hayır, teşekkürler.",
+        "Evet, küçük bir çanta lütfen.",
+        "saat kaç",
+        "Elmaları severim."
+      ]
+    },
+    {
+      "id": "l2m_3",
+      "type": "dialogue",
+      "speaker": "Kasiyer",
+      "sentence": "Всичко прави 24 лева и 50 стотинки. В брой или с карта?",
+      "answer": "Ще платя с карта.",
+      "options": [
+        "В брой.",
+        "Ще платя с карта.",
+        "Това е много скъпо.",
+        "Къде мога да седна?"
+      ],
+      "hint": "Kartla ödeyeceğim.",
+      "explanation": "Nakit mi kartla mı ödeyeceğinizi soruyor.",
+      "optionsTr": [
+        "Nakit olarak.",
+        "Kartla ödeyeceğim.",
+        "Bu çok pahalı.",
+        "Nereye oturabilirim?"
+      ]
+    },
+    {
+      "id": "l2m_4",
+      "type": "dialogue",
+      "speaker": "Kasiyer",
+      "sentence": "Готово. Искате ли касовата бележка?",
+      "answer": "Да, дайте ми я. Благодаря!",
+      "options": [
+        "Да, дайте ми я. Благодаря!",
+        "Не искам.",
+        "Довиждане.",
+        "Какво е това?"
+      ],
+      "hint": "Evet, verin. Teşekkürler!",
+      "explanation": "Fişi isteyip istemediğinizi sordu.",
+      "optionsTr": [
+        "Evet, onu bana ver. Teşekkür ederim!",
+        "İstemiyorum.",
+        "Güle güle.",
+        "Bu nedir?"
+      ]
+    }
+  ]
+}

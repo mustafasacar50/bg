@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 3: Arkadaşla Hafta Sonu Planı",
+  "difficulty": 3,
+  "description": "Bir arkadaşınızla hafta sonu ne yapacağınızı konuşuyorsunuz.",
+  "questions": [
+    {
+      "id": "l3f_1",
+      "type": "dialogue",
+      "speaker": "Maria",
+      "sentence": "Здравей! Какво ще правиш този уикенд?",
+      "answer": "Здравей! Нямам планове все още. Защо питаш?",
+      "options": [
+        "Ще спя.",
+        "Здравей! Нямам планове все още. Защо питаш?",
+        "Нямам време.",
+        "Аз работя."
+      ],
+      "hint": "Selam! Henüz planım yok. Neden soruyorsun?",
+      "explanation": "Arkadaşınız hafta sonu planınızı sordu.",
+      "optionsTr": [
+        "Uyuyacağım.",
+        "Merhaba! Henüz bir planım yok. Neden sordun?",
+        "Zamanım yok.",
+        "Çalışıyorum."
+      ]
+    },
+    {
+      "id": "l3f_2",
+      "type": "dialogue",
+      "speaker": "Maria",
+      "sentence": "Мислех да отидем на планина, времето ще бъде страхотно.",
+      "answer": "Това звучи чудесно! Къде точно искаш да отидем?",
+      "options": [
+        "Не, не обичам планината.",
+        "Това звучи чудесно! Къде точно искаш да отидем?",
+        "Скъпо е.",
+        "Нямам кола."
+      ],
+      "hint": "Kulağa harika geliyor! Tam olarak nereye gitmek istiyorsun?",
+      "explanation": "Dağa gitme fikrine sıcak bakın ve yeri sorun.",
+      "optionsTr": [
+        "Hayır, dağı sevmiyorum.",
+        "Kulağa harika geliyor! Tam olarak nereye gitmemizi istiyorsun?",
+        "Pahalı.",
+        "Arabam yok."
+      ]
+    },
+    {
+      "id": "l3f_3",
+      "type": "dialogue",
+      "speaker": "Maria",
+      "sentence": "Към Витоша. Може да направим пикник и да се разходим.",
+      "answer": "Супер идея. Какво трябва да взема с мен?",
+      "options": [
+        "Само пари.",
+        "Супер идея. Какво трябва да взема с мен?",
+        "Не искам пикник.",
+        "Късно е."
+      ],
+      "hint": "Süper fikir. Yanıma ne almalıyım?",
+      "explanation": "Yanınıza ne almanız gerektiğini sorun.",
+      "optionsTr": [
+        "Sadece para.",
+        "Harika fikir. Yanıma ne almalıyım?",
+        "Piknik istemiyorum.",
+        "Çok geç."
+      ]
+    },
+    {
+      "id": "l3f_4",
+      "type": "dialogue",
+      "speaker": "Maria",
+      "sentence": "Вземи си удобни обувки и може би малко сандвичи. Аз ще взема напитки.",
+      "answer": "Разбрахме се! В колко часа ще се срещнем?",
+      "options": [
+        "Не.",
+        "Разбрахме се! В колко часа ще се срещнем?",
+        "Забравих.",
+        "Няма проблем."
+      ],
+      "hint": "Anlaştık! Saat kaçta buluşacağız?",
+      "explanation": "Buluşma saatini sorun.",
+      "optionsTr": [
+        "HAYIR.",
+        "İyi anlaştık! Saat kaçta buluşalım?",
+        "Unuttum.",
+        "Sorun değil."
+      ]
+    }
+  ]
+}

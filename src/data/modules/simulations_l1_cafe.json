@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 1: Kafede Sipariş (ЛЕСНО)",
+  "difficulty": 1,
+  "description": "Basit bir kahve siparişi verin. Temel selamlaşma и sayılar.",
+  "questions": [
+    {
+      "id": "l1c_1",
+      "type": "dialogue",
+      "speaker": "Garson",
+      "sentence": "Здравейте! Какво ще обичате?",
+      "answer": "Здравейте! Едно кафе, моля.",
+      "options": [
+        "Здравейте! Едно кафе, моля.",
+        "Чао, до скоро.",
+        "Къде е тоалетната?",
+        "Аз съм от Турция."
+      ],
+      "hint": "Merhaba! Bir kahve lütfen.",
+      "explanation": "Garson \"Merhaba! Ne arzu edersiniz?\" dedi.",
+      "optionsTr": [
+        "Merhaba! Bir kahve lütfen.",
+        "Hoşçakal, yakında görüşürüz.",
+        "Lavabo nerede?",
+        "Ben Türkiyeliyim."
+      ]
+    },
+    {
+      "id": "l1c_2",
+      "type": "dialogue",
+      "speaker": "Garson",
+      "sentence": "Какво кафе? Еспресо или капучино?",
+      "answer": "Еспресо, със захар.",
+      "options": [
+        "Две бири.",
+        "Еспресо, със захар.",
+        "Не, благодаря.",
+        "Добър вечер."
+      ],
+      "hint": "Espresso, şekerli.",
+      "explanation": "Nasıl bir kahve istediğinizi soruyor.",
+      "optionsTr": [
+        "İki bira.",
+        "Espresso, şekerli.",
+        "Hayır, teşekkürler.",
+        "İyi akşamlar."
+      ]
+    },
+    {
+      "id": "l1c_3",
+      "type": "dialogue",
+      "speaker": "Garson",
+      "sentence": "Нещо друго желаете ли? Вода?",
+      "answer": "Да, една минерална вода.",
+      "options": [
+        "Да, една минерална вода.",
+        "Не, аз съм добре.",
+        "Това е моят брат.",
+        "Как се казвате?"
+      ],
+      "hint": "Evet, bir maden suyu.",
+      "explanation": "Başka bir şey isteyip istemediğinizi soruyor.",
+      "optionsTr": [
+        "Evet, bir maden suyu.",
+        "Hayır, iyiyim.",
+        "Bu benim kardeşim.",
+        "Adın ne?"
+      ]
+    },
+    {
+      "id": "l1c_4",
+      "type": "dialogue",
+      "speaker": "Garson",
+      "sentence": "Добре, веднага ги нося. Общо е 5 лева.",
+      "answer": "Заповядайте. Благодаря!",
+      "options": [
+        "Къде е сметката?",
+        "Заповядайте. Благодаря!",
+        "Аз не разбирам.",
+        "Лека нощ."
+      ],
+      "hint": "Buyurun. Teşekkürler!",
+      "explanation": "Hesap miktarını söyledi.",
+      "optionsTr": [
+        "Fatura nerede?",
+        "Hoş geldin. Teşekkür ederim!",
+        "Anlamıyorum.",
+        "İyi geceler."
+      ]
+    }
+  ]
+}

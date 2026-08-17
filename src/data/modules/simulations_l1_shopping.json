@@ -1,0 +1,155 @@
+{
+  "title": "Seviye 1: Kıyafet Alışverişi (Pazarlık)",
+  "difficulty": 1,
+  "description": "Bir mağazadan ceket alırken beden ve renk sormayı öğrenin.",
+  "questionCount": 7,
+  "questions": [
+    {
+      "id": "l1_shop_1",
+      "type": "dialogue",
+      "speaker": "Satıcı",
+      "sentence": "Здравейте! Търсите ли нещо конкретно?",
+      "answer": "Здравейте! Търся едно яке за зимата.",
+      "options": [
+        "Здравейте! Търся едно яке за зимата.",
+        "Не, аз искам едно кафе.",
+        "Къде е тоалетната?",
+        "Много съм уморен."
+      ],
+      "optionsTr": [
+        "Merhaba! Kış için bir ceket arıyorum.",
+        "Hayır, ben bir kahve istiyorum.",
+        "Tuvalet nerede?",
+        "Çok yorgunum."
+      ],
+      "hint": "Merhaba! Kış için bir ceket arıyorum.",
+      "explanation": "Satıcı 'Merhaba! Belirli bir şey mi arıyorsunuz?' diye sordu. 'Търся' (arıyorum) fiili çok önemlidir."
+    },
+    {
+      "id": "l1_shop_2",
+      "type": "dialogue",
+      "speaker": "Satıcı",
+      "sentence": "Разбира се. Какъв размер носите?",
+      "answer": "Нося размер L, мисля.",
+      "options": [
+        "Нося размер L, мисля.",
+        "Обичам да ям пица.",
+        "Часът е пет.",
+        "Това е моят брат."
+      ],
+      "optionsTr": [
+        "L beden giyiyorum sanırım.",
+        "Pizza yemeyi severim.",
+        "Saat beş.",
+        "Bu benim erkek kardeşim."
+      ],
+      "hint": "L beden giyiyorum sanırım.",
+      "explanation": "Satıcı beden (размер) soruyor. 'Нося' fiili giymek/kullanmak anlamındadır."
+    },
+    {
+      "id": "l1_shop_3",
+      "type": "dialogue",
+      "speaker": "Satıcı",
+      "sentence": "Ето едно хубаво черно яке. Искате ли да го пробвате?",
+      "answer": "Да, къде е пробната?",
+      "options": [
+        "Колко струва един билет?",
+        "Да, къде е пробната?",
+        "Не харесвам кучета.",
+        "Аз съм от България."
+      ],
+      "optionsTr": [
+        "Bir bilet ne kadar?",
+        "Evet, deneme kabini nerede?",
+        "Köpekleri sevmem.",
+        "Ben Bulgaristanlıyım."
+      ],
+      "hint": "Evet, deneme kabini nerede?",
+      "explanation": "'Пробна' kelimesi deneme kabini demektir. Ceketi denemek için yer soruyorsunuz."
+    },
+    {
+      "id": "l1_shop_4",
+      "type": "dialogue",
+      "speaker": "Satıcı",
+      "sentence": "Пробната е точно там, вдясно. (След 2 минути) Как е якето?",
+      "answer": "Малко ми е тясно. Имате ли размер XL?",
+      "options": [
+        "Много е сладко.",
+        "Малко ми е тясно. Имате ли размер XL?",
+        "Времето е много хубаво.",
+        "Вчера ходих на кино."
+      ],
+      "optionsTr": [
+        "Çok tatlı.",
+        "Bana biraz dar geldi. XL bedeniniz var mı?",
+        "Hava çok güzel.",
+        "Dün sinemaya gittim."
+      ],
+      "hint": "Bana biraz dar geldi. XL bedeniniz var mı?",
+      "explanation": "'Тясно' dar demektir. Daha büyük bir beden istemeniz gerekiyor."
+    },
+    {
+      "id": "l1_shop_5",
+      "type": "dialogue",
+      "speaker": "Satıcı",
+      "sentence": "За съжаление нямаме XL в черно. Имаме го в тъмно синьо. Искате ли да го видите?",
+      "answer": "Добре, мога да пробвам синьото.",
+      "options": [
+        "Не обичам да чета книги.",
+        "Добре, мога да пробвам синьото.",
+        "Искам една бира.",
+        "Това е червена кола."
+      ],
+      "optionsTr": [
+        "Kitap okumayı sevmem.",
+        "Tamam, mavisini deneyebilirim.",
+        "Bir bira istiyorum.",
+        "Bu kırmızı bir araba."
+      ],
+      "hint": "Tamam, mavisini deneyebilirim.",
+      "explanation": "Siyah renk kalmamış, lacivert (тъмно синьо) öneriyor. Onu kabul etmelisiniz."
+    },
+    {
+      "id": "l1_shop_6",
+      "type": "dialogue",
+      "speaker": "Satıcı",
+      "sentence": "Ето заповядайте. Това трябва да ви е по мярка.",
+      "answer": "Да, това яке е перфектно! Колко струва?",
+      "options": [
+        "Да, това яке е перфектно! Колко струва?",
+        "Не, не говоря български.",
+        "Кога започва филмът?",
+        "Моят телефон е счупен."
+      ],
+      "optionsTr": [
+        "Evet, bu ceket mükemmel! Ne kadar?",
+        "Hayır, Bulgarca konuşmuyorum.",
+        "Film ne zaman başlıyor?",
+        "Telefonum kırık."
+      ],
+      "hint": "Evet, bu ceket mükemmel! Ne kadar?",
+      "explanation": "'По мярка' ölçüye uygun demektir. Beğendiğinizi söyleyip fiyatını sormalısınız."
+    },
+    {
+      "id": "l1_shop_7",
+      "type": "dialogue",
+      "speaker": "Satıcı",
+      "sentence": "Якето струва 120 лева. Може да платите на касата.",
+      "answer": "Има ли някакво намаление?",
+      "options": [
+        "Вземете ми чантата.",
+        "Обичам да пия чай.",
+        "Има ли някакво намаление?",
+        "Влакът закъснява."
+      ],
+      "optionsTr": [
+        "Çantamı alın.",
+        "Çay içmeyi severim.",
+        "Herhangi bir indirim var mı?",
+        "Tren gecikiyor."
+      ],
+      "hint": "Herhangi bir indirim var mı?",
+      "explanation": "Fiyatı duyduktan sonra indirim (намаление) var mı diye soruyorsunuz."
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 'use client';
 import React from 'react';
+import { AccentText } from './AccentText';
 
 interface HighlightableTextProps {
   text: string;
@@ -12,7 +13,7 @@ export function HighlightableText({ text, unknownWords, onWordClick, className =
   if (!text) return null;
   
   if (!unknownWords || unknownWords.length === 0) {
-    return <span className={className}>{text}</span>;
+    return <span className={className}><AccentText text={text} /></span>;
   }
 
   let parts: string[] = [text];
@@ -34,7 +35,7 @@ export function HighlightableText({ text, unknownWords, onWordClick, className =
   }
 
   if (hasRegexError) {
-    return <span className={className}>{text}</span>;
+    return <span className={className}><AccentText text={text} /></span>;
   }
 
   return (
@@ -52,11 +53,11 @@ export function HighlightableText({ text, unknownWords, onWordClick, className =
                 onWordClick(part);
               }}
             >
-              {part}
+              <AccentText text={part} />
             </span>
           );
         }
-        return <span key={index}>{part}</span>;
+        return <span key={index}><AccentText text={part} /></span>;
       })}
     </span>
   );

@@ -1,0 +1,119 @@
+{
+  "id": "simulations_roleplay_1",
+  "title": "Hayat Simülasyonları 1: Restoran & Mağaza",
+  "metadata": {
+    "description": "Günlük hayatta karşınıza çıkacak restoran siparişleri ve mağaza alışverişi senaryolarında rol yapın."
+  },
+  "questions": [
+    {
+      "id": "sim_restoran_1",
+      "type": "dialogue",
+      "context": "Sofya'da şık една ресторaнт. Келнерът се приближава. (Sofya'da şık bir restorandasınız ve garson size yaklaşıyor.)",
+      "characters": {
+        "bot": {
+          "name": "Келнер (Garson)",
+          "avatar": "🤵"
+        },
+        "player": {
+          "name": "Sen",
+          "avatar": "👤"
+        }
+      },
+      "dialogue": [
+        {
+          "speaker": "bot",
+          "text": "Добър ден! Избрахте ли си нещо?",
+          "translation": "İyi günler! Bir şey seçtiniz mi?"
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Да, една шопска салата, моля.",
+              "isCorrect": true,
+              "botReply": "Отличен избор. А за пиене?"
+            },
+            {
+              "text": "Аз съм маса.",
+              "isCorrect": false,
+              "hint": "Kendinizi masa olarak tanıtmayın. Sipariş verin!"
+            },
+            {
+              "text": "Къде е тоалетната?",
+              "isCorrect": false,
+              "hint": "Garson size siparişinizi soruyor, henüz erken."
+            }
+          ],
+          "optionsTr": [
+            "Evet, bir mağaza salatası lütfen.",
+            "Ben bir masayım.",
+            "Lavabo nerede?"
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Една чаша червено вино.",
+              "isCorrect": true,
+              "botReply": "Веднага ви го нося. Приятен апетит!"
+            },
+            {
+              "text": "Не искам.",
+              "isCorrect": false,
+              "hint": "Kibarca bir içecek sipariş etmeniz bekleniyor."
+            }
+          ],
+          "optionsTr": [
+            "Bir bardak kırmızı şarap.",
+            "İstemiyorum."
+          ]
+        }
+      ],
+      "sentence": "Добър ден! Избрахте ли си нещо?",
+      "translation": "İyi günler! Bir şey seçtiniz mi?"
+    },
+    {
+      "id": "sim_magaza_1",
+      "type": "reading",
+      "context": "Детски магазин - Осмисляне на текст (Çocuk Mağazasında - Okuma Anlama)",
+      "readingText": "Една жена влиза в детски магазин. Тя иска да купи подарък за сина си. Продавачката я пита:\n- Мога ли да ви помогна?\n- Да, търся играчка за момче на 5 години.\n- Имаме много хубави колички и конструктори.\n- Ще взема една червена количка.",
+      "translation": "Bir kadın çocuk mağazasına girer.",
+      "readingQuestions": [
+        {
+          "id": "sim_magaza_1_q1",
+          "questionText": "Какво търси жената?",
+          "translation": "Kadın ne arıyor?",
+          "options": [
+            "Играчка за момче на 5 години",
+            "Дрехи за момиче",
+            "Храна за куче"
+          ],
+          "correctAnswer": "Играчка за момче на 5 години",
+          "optionsTr": [
+            "5 yaşındaki çocuğa oyuncak",
+            "Bir kız için kıyafet",
+            "Köpek maması"
+          ]
+        },
+        {
+          "id": "sim_magaza_1_q2",
+          "questionText": "Какво купува жената накрая?",
+          "translation": "Kadın sonunda ne alıyor?",
+          "options": [
+            "Червена количка",
+            "Син конструктор",
+            "Бяла мечка"
+          ],
+          "correctAnswer": "Червена количка",
+          "optionsTr": [
+            "Kırmızı arabası",
+            "Mavi yapıcı",
+            "Beyaz ayı"
+          ]
+        }
+      ],
+      "sentence": "Една жена влиза в детски магазин."
+    }
+  ]
+}

@@ -56,25 +56,29 @@ export default function ExamPage() {
         const qRes = await fetch('/api/questions');
         const qData = await qRes.json();
 
-        if (examData.exam && qData.questions) {
+        if (examData?.exam && qData?.questions) {
           const fetchedExam = examData.exam;
           setExam(fetchedExam);
           
-          const examQs = fetchedExam.questions.map((qId: string) => 
-            qData.questions.find((q: any) => q.id === qId)
-          ).filter(Boolean);
+          let examQs = [];
+          if (Array.isArray(fetchedExam?.questions)) {
+            examQs = fetchedExam.questions.map((qId: any) => {
+              if (!Array.isArray(qData.questions)) return null;
+              return qData.questions.find((q: any) => q && typeof q === 'object' && q.id === qId);
+            }).filter(Boolean);
+          }
           
           setQuestions(examQs);
 
           // Check Schedule
           const now = new Date().getTime();
-          if (fetchedExam.startTime && now < new Date(fetchedExam.startTime).getTime()) {
+          if (fetchedExam?.startTime && now < new Date(fetchedExam.startTime).getTime()) {
             setStatus("WAITING");
-          } else if (fetchedExam.endTime && now > new Date(fetchedExam.endTime).getTime()) {
+          } else if (fetchedExam?.endTime && now > new Date(fetchedExam.endTime).getTime()) {
             setStatus("EXPIRED");
           } else {
             // Set Timer
-            if (fetchedExam.recommendedTimeMinutes) {
+            if (fetchedExam?.recommendedTimeMinutes) {
               setTimeLeft(fetchedExam.recommendedTimeMinutes * 60);
             }
           }

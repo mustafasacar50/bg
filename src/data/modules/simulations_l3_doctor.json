@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 3: Doktor Randevusu",
+  "difficulty": 3,
+  "description": "Kendinizi iyi hissetmiyorsunuz ve doktora gittiniz.",
+  "questions": [
+    {
+      "id": "l3d_1",
+      "type": "dialogue",
+      "speaker": "Doktor",
+      "sentence": "Влезте. От какво се оплаквате?",
+      "answer": "Здравейте, докторе. Не се чувствам добре, имам температура.",
+      "options": [
+        "Аз съм здрав.",
+        "Здравейте, докторе. Не се чувствам добре, имам температура.",
+        "Искам да ям.",
+        "Боли ме кракът."
+      ],
+      "hint": "Merhaba doktor. İyi hissetmiyorum, ateşim var.",
+      "explanation": "Şikayetinizi soruyor.",
+      "optionsTr": [
+        "Ben sağlıklıyım.",
+        "Merhaba doktor. Kendimi iyi hissetmiyorum, ateşim var.",
+        "Yemek istiyorum.",
+        "Bacağım ağrıyor."
+      ]
+    },
+    {
+      "id": "l3d_2",
+      "type": "dialogue",
+      "speaker": "Doktor",
+      "sentence": "От кога имате температура? Кашляте ли?",
+      "answer": "От вчера вечерта. Имам и лека кашлица.",
+      "options": [
+        "От една година.",
+        "От вчера вечерта. Имам и лека кашлица.",
+        "Не знам.",
+        "Нямам температура."
+      ],
+      "hint": "Dün akşamdan beri. Ve hafif bir öksürüğüm var.",
+      "explanation": "Ne zamandır sürdüğünü ve öksürük olup olmadığını sordu.",
+      "optionsTr": [
+        "Bir yıl boyunca.",
+        "Dün akşamdan beri. Ayrıca hafif bir öksürüğüm var.",
+        "Bilmiyorum.",
+        "Ateşim yok."
+      ]
+    },
+    {
+      "id": "l3d_3",
+      "type": "dialogue",
+      "speaker": "Doktor",
+      "sentence": "Да ви прегледам... Гърлото ви е зачервено. Ще ви предпиша антибиотик.",
+      "answer": "Колко често трябва да го пия?",
+      "options": [
+        "Благодаря.",
+        "Колко често трябва да го пия?",
+        "Не искам лекарства.",
+        "Къде е аптеката?"
+      ],
+      "hint": "Onu ne sıklıkla içmeliyim?",
+      "explanation": "İlacı ne sıklıkla kullanacağınızı sorun.",
+      "optionsTr": [
+        "Teşekkür ederim.",
+        "Ne sıklıkla almalıyım?",
+        "İlaç istemiyorum.",
+        "Eczane nerede?"
+      ]
+    },
+    {
+      "id": "l3d_4",
+      "type": "dialogue",
+      "speaker": "Doktor",
+      "sentence": "На всеки 12 часа, след ядене. Озздравявайте бързо!",
+      "answer": "Благодаря ви много, докторе.",
+      "options": [
+        "Добре.",
+        "Благодаря ви много, докторе.",
+        "Това е лошо.",
+        "Чао."
+      ],
+      "hint": "Çok teşekkür ederim doktor.",
+      "explanation": "Reçeteyi aldınız и teşekkür ediyorsunuz.",
+      "optionsTr": [
+        "Tamam aşkım.",
+        "Çok teşekkür ederim doktor.",
+        "Bu kötü.",
+        "Hoşçakal."
+      ]
+    }
+  ]
+}

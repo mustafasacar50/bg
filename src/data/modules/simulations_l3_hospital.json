@@ -1,0 +1,176 @@
+{
+  "title": "Seviye 3: Doktor Muayenesi",
+  "difficulty": 3,
+  "description": "Şikayetlerinizi detaylıca anlatıp, tıbbi tavsiyeleri anlamaya çalışın.",
+  "questionCount": 8,
+  "questions": [
+    {
+      "id": "l3_hosp_1",
+      "type": "dialogue",
+      "speaker": "Doktor",
+      "sentence": "Добър ден! Влезте. Какво ви води при мен днес?",
+      "answer": "Добър ден, докторе. Не се чувствам добре от няколко дни.",
+      "options": [
+        "Добър ден, докторе. Не се чувствам добре от няколко дни.",
+        "Искам да си купя билет за влака.",
+        "Обичам да гледам телевизия.",
+        "Къде се намира аптеката?"
+      ],
+      "optionsTr": [
+        "İyi günler doktor bey. Birkaç gündür kendimi iyi hissetmiyorum.",
+        "Tren bileti almak istiyorum.",
+        "Televizyon izlemeyi severim.",
+        "Eczane nerede bulunuyor?"
+      ],
+      "hint": "İyi günler doktor bey. Birkaç gündür kendimi iyi hissetmiyorum.",
+      "explanation": "Doktor 'sizi buraya ne getiriyor?' diye soruyor. Hastalığınızı ve iyi hissetmediğinizi belirtin."
+    },
+    {
+      "id": "l3_hosp_2",
+      "type": "dialogue",
+      "speaker": "Doktor",
+      "sentence": "Разбирам. Какви точно са оплакванията ви?",
+      "answer": "Имам силно главоболие, висока температура и ме боли гърлото.",
+      "options": [
+        "Имам силно главоболие, висока температура и ме боли гърлото.",
+        "Искам едно еспресо и вода.",
+        "Вчера играх футбол с приятели.",
+        "Търся си нова работа."
+      ],
+      "optionsTr": [
+        "Şiddetli baş ağrım, yüksek ateşim var ve boğazım ağrıyor.",
+        "Bir espresso ve su istiyorum.",
+        "Dün arkadaşlarımla futbol oynadım.",
+        "Yeni bir iş arıyorum."
+      ],
+      "hint": "Şiddetli baş ağrım, yüksek ateşim var ve boğazım ağrıyor.",
+      "explanation": "Şikayetlerinizi detaylandırmanız gerekiyor (главоболие, температура, гърло)."
+    },
+    {
+      "id": "l3_hosp_3",
+      "type": "dialogue",
+      "speaker": "Doktor",
+      "sentence": "Имате ли кашлица или хрема?",
+      "answer": "Да, кашлям много, особено през нощта, но нямам хрема.",
+      "options": [
+        "Живея на третия етаж.",
+        "Да, кашлям много, особено през нощта, но нямам хрема.",
+        "Моят телефон е без батерия.",
+        "Не, не обичам студено време."
+      ],
+      "optionsTr": [
+        "Üçüncü katta yaşıyorum.",
+        "Evet, özellikle geceleri çok öksürüyorum ama burnum akmıyor.",
+        "Telefonumun şarjı yok.",
+        "Hayır, soğuk havayı sevmem."
+      ],
+      "hint": "Evet, özellikle geceleri çok öksürüyorum ama burnum akmıyor.",
+      "explanation": "'Кашлица' öksürük, 'хрема' burun akıntısı demektir."
+    },
+    {
+      "id": "l3_hosp_4",
+      "type": "dialogue",
+      "speaker": "Doktor",
+      "sentence": "Нека да ви прегледам. Моля, отворете устата си и кажете 'Ааа'. Дишайте дълбоко.",
+      "answer": "Ааа... Има ли нещо сериозно, докторе?",
+      "options": [
+        "Колко е часът?",
+        "Къде е болницата?",
+        "Ааа... Има ли нещо сериозно, докторе?",
+        "Искам да отида на море."
+      ],
+      "optionsTr": [
+        "Saat kaç?",
+        "Hastane nerede?",
+        "Aaa... Ciddi bir şey var mı doktor bey?",
+        "Denize gitmek istiyorum."
+      ],
+      "hint": "Aaa... Ciddi bir şey var mı doktor bey?",
+      "explanation": "Doktor muayene ediyor (прегледам). Durumun ciddi olup olmadığını sormak en mantıklısıdır."
+    },
+    {
+      "id": "l3_hosp_5",
+      "type": "dialogue",
+      "speaker": "Doktor",
+      "sentence": "Гърлото ви е силно зачервено. Имате гнойна ангина. Алергични ли сте към някакви лекарства?",
+      "answer": "Не, доколкото знам, нямам алергии към лекарства.",
+      "options": [
+        "Аз съм вегетарианец.",
+        "Обичам да пия кафе сутрин.",
+        "Не, доколкото знам, нямам алергии към лекарства.",
+        "Сметката, моля."
+      ],
+      "optionsTr": [
+        "Ben vejetaryenim.",
+        "Sabahları kahve içmeyi severim.",
+        "Hayır, bildiğim kadarıyla ilaçlara alerjim yok.",
+        "Hesap, lütfen."
+      ],
+      "hint": "Hayır, bildiğim kadarıyla ilaçlara alerjim yok.",
+      "explanation": "Doktor alerjiniz olup olmadığını (алергични) soruyor. Buna uygun cevap vermelisiniz."
+    },
+    {
+      "id": "l3_hosp_6",
+      "type": "dialogue",
+      "speaker": "Doktor",
+      "sentence": "Добре. Ще ви предпиша антибиотик и сироп за кашлица. Трябва да пиете антибиотика на всеки 12 часа.",
+      "answer": "Разбрах. Колко дни трябва да го пия?",
+      "options": [
+        "Колко струва тази риза?",
+        "Искам да купя кола.",
+        "Може ли да резервирам маса?",
+        "Разбрах. Колко дни трябва да го пия?"
+      ],
+      "optionsTr": [
+        "Bu gömlek ne kadar?",
+        "Araba almak istiyorum.",
+        "Masa rezerve edebilir miyim?",
+        "Anladım. Kaç gün içmem gerekiyor?"
+      ],
+      "hint": "Anladım. Kaç gün içmem gerekiyor?",
+      "explanation": "Doktor ilaç kullanım sıklığını verdi. Şimdi süresini (kaç gün) sormalısınız."
+    },
+    {
+      "id": "l3_hosp_7",
+      "type": "dialogue",
+      "speaker": "Doktor",
+      "sentence": "Трябва да го пиете точно 7 дни, дори ако се почувствате по-добре преди това. Не го спирайте!",
+      "answer": "Ясно. А мога ли да ходя на работа?",
+      "options": [
+        "Ясно. А мога ли да ходя на работа?",
+        "Кога започва ваканцията?",
+        "Харесвам тази песен.",
+        "Не, аз нямам брат."
+      ],
+      "optionsTr": [
+        "Anladım. Peki işe gidebilir miyim?",
+        "Tatil ne zaman başlıyor?",
+        "Bu şarkıyı seviyorum.",
+        "Hayır, erkek kardeşim yok."
+      ],
+      "hint": "Anladım. Peki işe gidebilir miyim?",
+      "explanation": "Tedavinin önemini anladınız. Günlük yaşantınızla (işe gitmek) ilgili bir soru sormalısınız."
+    },
+    {
+      "id": "l3_hosp_8",
+      "type": "dialogue",
+      "speaker": "Doktor",
+      "sentence": "По-добре е да почивате поне 3 дни. Ще ви дам болничен лист.",
+      "answer": "Много ви благодаря, докторе. Довиждане!",
+      "options": [
+        "Търся си квартира.",
+        "Много ви благодаря, докторе. Довиждане!",
+        "Искам една голяма пица.",
+        "Къде мога да намеря такси?"
+      ],
+      "optionsTr": [
+        "Kiralık ev arıyorum.",
+        "Çok teşekkür ederim doktor. Hoşça kalın!",
+        "Büyük bir pizza istiyorum.",
+        "Nerede taksi bulabilirim?"
+      ],
+      "hint": "Çok teşekkür ederim doktor. Hoşça kalın!",
+      "explanation": "Doktor size rapor (болничен лист) veriyor. Teşekkür edip ayrılıyorsunuz."
+    }
+  ]
+}

@@ -1,0 +1,2323 @@
+{
+  "id": "vocab_ders_11",
+  "title": "Ders 11 - Mevsimler, Takvim ve Hava Durumu",
+  "description": "Dört mevsim, 12 ay, hafta günleri, hava durumu ifadeleri, sıcaklık",
+  "words": [
+    {
+      "word": "пролет",
+      "translation": "ilkbahar",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "пролет",
+        "çoğul": "пролети"
+      },
+      "examples": [
+        "Пролетта е красив сезон.",
+        "През пролетта цветята цъфтят."
+      ],
+      "bg": "пролет",
+      "tr": "ilkbahar"
+    },
+    {
+      "word": "лято",
+      "translation": "yaz",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "лято",
+        "çoğul": "лета"
+      },
+      "examples": [
+        "Лятото е горещо.",
+        "Обичам да ходя на море през лятото."
+      ],
+      "bg": "лято",
+      "tr": "yaz"
+    },
+    {
+      "word": "есен",
+      "translation": "sonbahar",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "есен",
+        "çoğul": "есени"
+      },
+      "examples": [
+        "Есента листата падат.",
+        "Есента е дъждовна."
+      ],
+      "bg": "есен",
+      "tr": "sonbahar"
+    },
+    {
+      "word": "зима",
+      "translation": "kış",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "зима",
+        "çoğul": "зими"
+      },
+      "examples": [
+        "През зимата вали сняг.",
+        "Зимата е студена."
+      ],
+      "bg": "зима",
+      "tr": "kış"
+    },
+    {
+      "word": "пролетен",
+      "translation": "ilkbahar (sıfat)",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "пролетен",
+        "Dişil": "пролетна",
+        "Nötr": "пролетно",
+        "Çoğul": "пролетни"
+      },
+      "examples": [
+        "Пролетен ден.",
+        "Пролетна умора."
+      ],
+      "bg": "пролетен",
+      "tr": "ilkbahar (sıfat)"
+    },
+    {
+      "word": "летен",
+      "translation": "yaz (sıfat)",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "летен",
+        "Dişil": "лятна",
+        "Nötr": "лятно",
+        "Çoğul": "летни"
+      },
+      "examples": [
+        "Летен дъжд.",
+        "Лятна ваканция."
+      ],
+      "bg": "летен",
+      "tr": "yaz (sıfat)"
+    },
+    {
+      "word": "есенен",
+      "translation": "sonbahar (sıfat)",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "есенен",
+        "Dişil": "есенна",
+        "Nötr": "есенно",
+        "Çoğul": "есенни"
+      },
+      "examples": [
+        "Есенен ден.",
+        "Есенни листа."
+      ],
+      "bg": "есенен",
+      "tr": "sonbahar (sıfat)"
+    },
+    {
+      "word": "зимен",
+      "translation": "kış (sıfat)",
+      "type": "sıfat",
+      "forms": {
+        "Eril": "зимен",
+        "Dişil": "зимна",
+        "Nötr": "зимно",
+        "Çoğul": "зимни"
+      },
+      "examples": [
+        "Зимен студ.",
+        "Зимни спортове."
+      ],
+      "bg": "зимен",
+      "tr": "kış (sıfat)"
+    },
+    {
+      "word": "януари",
+      "translation": "ocak",
+      "type": "isim",
+      "notes": "Първият месец на годината.",
+      "examples": [
+        "Януари е месец.",
+        "През януари времето е различно."
+      ],
+      "nounForms": {
+        "tekil": "януари",
+        "çoğul": ""
+      },
+      "bg": "януари",
+      "tr": "ocak"
+    },
+    {
+      "word": "февруари",
+      "translation": "şubat",
+      "type": "isim",
+      "notes": "Вторият месец на годината.",
+      "examples": [
+        "Февруари е месец.",
+        "През февруари времето е различно."
+      ],
+      "nounForms": {
+        "tekil": "февруари",
+        "çoğul": ""
+      },
+      "bg": "февруари",
+      "tr": "şubat"
+    },
+    {
+      "word": "март",
+      "translation": "mart",
+      "type": "isim",
+      "notes": "Третият месец на годината, начало на пролетта.",
+      "examples": [
+        "Март е месец.",
+        "През март времето е различно."
+      ],
+      "nounForms": {
+        "tekil": "март",
+        "çoğul": ""
+      },
+      "bg": "март",
+      "tr": "mart"
+    },
+    {
+      "word": "април",
+      "translation": "nisan",
+      "type": "isim",
+      "notes": "Четвъртият месец на годината.",
+      "examples": [
+        "Април е месец.",
+        "През април времето е различно."
+      ],
+      "nounForms": {
+        "tekil": "април",
+        "çoğul": ""
+      },
+      "bg": "април",
+      "tr": "nisan"
+    },
+    {
+      "word": "май",
+      "translation": "mayıs",
+      "type": "isim",
+      "notes": "Петият месец на годината.",
+      "examples": [
+        "Май е месец.",
+        "През май времето е различно."
+      ],
+      "nounForms": {
+        "tekil": "май",
+        "çoğul": ""
+      },
+      "bg": "май",
+      "tr": "mayıs"
+    },
+    {
+      "word": "юни",
+      "translation": "haziran",
+      "type": "isim",
+      "notes": "Шестият месец на годината, начало на лятото.",
+      "examples": [
+        "Юни е месец.",
+        "През юни времето е различно."
+      ],
+      "nounForms": {
+        "tekil": "юни",
+        "çoğul": ""
+      },
+      "bg": "юни",
+      "tr": "haziran"
+    },
+    {
+      "word": "юли",
+      "translation": "temmuz",
+      "type": "isim",
+      "notes": "Седмият месец на годината.",
+      "examples": [
+        "Юли е месец.",
+        "През юли времето е различно."
+      ],
+      "nounForms": {
+        "tekil": "юли",
+        "çoğul": ""
+      },
+      "bg": "юли",
+      "tr": "temmuz"
+    },
+    {
+      "word": "август",
+      "translation": "ağustos",
+      "type": "isim",
+      "notes": "Осмият месец на годината.",
+      "examples": [
+        "Август е месец.",
+        "През август времето е различно."
+      ],
+      "nounForms": {
+        "tekil": "август",
+        "çoğul": ""
+      },
+      "bg": "август",
+      "tr": "ağustos"
+    },
+    {
+      "word": "септември",
+      "translation": "eylül",
+      "type": "isim",
+      "notes": "Деветият месец на годината, начало на есента.",
+      "examples": [
+        "Септември е месец.",
+        "През септември времето е различно."
+      ],
+      "nounForms": {
+        "tekil": "септември",
+        "çoğul": ""
+      },
+      "bg": "септември",
+      "tr": "eylül"
+    },
+    {
+      "word": "октомври",
+      "translation": "ekim",
+      "type": "isim",
+      "notes": "Десетият месец на годината.",
+      "examples": [
+        "Октомври е месец.",
+        "През октомври времето е различно."
+      ],
+      "nounForms": {
+        "tekil": "октомври",
+        "çoğul": ""
+      },
+      "bg": "октомври",
+      "tr": "ekim"
+    },
+    {
+      "word": "ноември",
+      "translation": "kasım",
+      "type": "isim",
+      "notes": "Единадесетият месец на годината.",
+      "examples": [
+        "Ноември е месец.",
+        "През ноември времето е различно."
+      ],
+      "nounForms": {
+        "tekil": "ноември",
+        "çoğul": ""
+      },
+      "bg": "ноември",
+      "tr": "kasım"
+    },
+    {
+      "word": "декември",
+      "translation": "aralık",
+      "type": "isim",
+      "notes": "Дванадесетият месец на годината, начало на зимата.",
+      "examples": [
+        "Декември е месец.",
+        "През декември времето е различно."
+      ],
+      "nounForms": {
+        "tekil": "декември",
+        "çoğul": ""
+      },
+      "bg": "декември",
+      "tr": "aralık"
+    },
+    {
+      "word": "понеделник",
+      "translation": "pazartesi",
+      "type": "isim",
+      "examples": [
+        "Днес е понеделник.",
+        "В понеделник съм на работа."
+      ],
+      "nounForms": {
+        "tekil": "понеделник",
+        "çoğul": ""
+      },
+      "bg": "понеделник",
+      "tr": "pazartesi"
+    },
+    {
+      "word": "вторник",
+      "translation": "salı",
+      "type": "isim",
+      "examples": [
+        "Днес е вторник.",
+        "В вторник съм на работа."
+      ],
+      "nounForms": {
+        "tekil": "вторник",
+        "çoğul": ""
+      },
+      "bg": "вторник",
+      "tr": "salı"
+    },
+    {
+      "word": "сряда",
+      "translation": "çarşamba",
+      "type": "isim",
+      "examples": [
+        "Днес е сряда.",
+        "В сряда съм на работа."
+      ],
+      "nounForms": {
+        "tekil": "сряда",
+        "çoğul": ""
+      },
+      "bg": "сряда",
+      "tr": "çarşamba"
+    },
+    {
+      "word": "четвъртък",
+      "translation": "perşembe",
+      "type": "isim",
+      "examples": [
+        "Днес е четвъртък.",
+        "В четвъртък съм на работа."
+      ],
+      "nounForms": {
+        "tekil": "четвъртък",
+        "çoğul": ""
+      },
+      "bg": "четвъртък",
+      "tr": "perşembe"
+    },
+    {
+      "word": "петък",
+      "translation": "cuma",
+      "type": "isim",
+      "examples": [
+        "Днес е петък.",
+        "В петък съм на работа."
+      ],
+      "nounForms": {
+        "tekil": "петък",
+        "çoğul": ""
+      },
+      "bg": "петък",
+      "tr": "cuma"
+    },
+    {
+      "word": "събота",
+      "translation": "cumartesi",
+      "type": "isim",
+      "examples": [
+        "Днес е събота.",
+        "В събота съм на работа."
+      ],
+      "nounForms": {
+        "tekil": "събота",
+        "çoğul": ""
+      },
+      "bg": "събота",
+      "tr": "cumartesi"
+    },
+    {
+      "word": "неделя",
+      "translation": "pazar",
+      "type": "isim",
+      "examples": [
+        "Днес е неделя.",
+        "В неделя съм на работа."
+      ],
+      "nounForms": {
+        "tekil": "неделя",
+        "çoğul": ""
+      },
+      "bg": "неделя",
+      "tr": "pazar"
+    },
+    {
+      "word": "слънчево",
+      "translation": "güneşli",
+      "type": "adverb/adjective",
+      "examples": [
+        "Днес времето е слънчево.",
+        "Вчера беше слънчево."
+      ],
+      "bg": "слънчево",
+      "tr": "güneşli"
+    },
+    {
+      "word": "облачно",
+      "translation": "bulutlu",
+      "type": "adverb/adjective",
+      "examples": [
+        "Днес времето е облачно.",
+        "Вчера беше облачно."
+      ],
+      "bg": "облачно",
+      "tr": "bulutlu"
+    },
+    {
+      "word": "дъждовно",
+      "translation": "yağmurlu",
+      "type": "adverb/adjective",
+      "examples": [
+        "Днес времето е дъждовно.",
+        "Вчера беше дъждовно."
+      ],
+      "bg": "дъждовно",
+      "tr": "yağmurlu"
+    },
+    {
+      "word": "снежно",
+      "translation": "karlı",
+      "type": "adverb/adjective",
+      "examples": [
+        "Днес времето е снежно.",
+        "Вчера беше снежно."
+      ],
+      "bg": "снежно",
+      "tr": "karlı"
+    },
+    {
+      "word": "ветровито",
+      "translation": "rüzgarlı",
+      "type": "adverb/adjective",
+      "examples": [
+        "Днес времето е ветровито.",
+        "Вчера беше ветровито."
+      ],
+      "bg": "ветровито",
+      "tr": "rüzgarlı"
+    },
+    {
+      "word": "студено",
+      "translation": "soğuk",
+      "type": "adverb/adjective",
+      "examples": [
+        "Днес времето е студено.",
+        "Вчера беше студено."
+      ],
+      "bg": "студено",
+      "tr": "soğuk"
+    },
+    {
+      "word": "топло",
+      "translation": "sıcak",
+      "type": "adverb/adjective",
+      "examples": [
+        "Днес времето е топло.",
+        "Вчера беше топло."
+      ],
+      "bg": "топло",
+      "tr": "sıcak"
+    },
+    {
+      "word": "горещо",
+      "translation": "çok sıcak",
+      "type": "adverb/adjective",
+      "examples": [
+        "Днес времето е горещо.",
+        "Вчера беше горещо."
+      ],
+      "bg": "горещо",
+      "tr": "çok sıcak"
+    },
+    {
+      "word": "мрачно",
+      "translation": "kasvetli",
+      "type": "adverb/adjective",
+      "examples": [
+        "Днес времето е мрачно.",
+        "Вчера беше мрачно."
+      ],
+      "bg": "мрачно",
+      "tr": "kasvetli"
+    },
+    {
+      "word": "ден",
+      "translation": "gün",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "ден",
+        "çoğul": "дни"
+      },
+      "examples": [
+        "Един хубав ден.",
+        "Това е нов ден."
+      ],
+      "bg": "ден",
+      "tr": "gün"
+    },
+    {
+      "word": "седмица",
+      "translation": "hafta",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "седмица",
+        "çoğul": "седмици"
+      },
+      "examples": [
+        "Един хубав седмица.",
+        "Това е нов седмица."
+      ],
+      "bg": "седмица",
+      "tr": "hafta"
+    },
+    {
+      "word": "месец",
+      "translation": "ay",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "месец",
+        "çoğul": "месеци"
+      },
+      "examples": [
+        "Един хубав месец.",
+        "Това е нов месец."
+      ],
+      "bg": "месец",
+      "tr": "ay"
+    },
+    {
+      "word": "година",
+      "translation": "yıl",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "година",
+        "çoğul": "години"
+      },
+      "examples": [
+        "Един хубав година.",
+        "Това е нов година."
+      ],
+      "bg": "година",
+      "tr": "yıl"
+    },
+    {
+      "word": "сезон",
+      "translation": "mevsim",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "сезон",
+        "çoğul": "сезони"
+      },
+      "examples": [
+        "Един хубав сезон.",
+        "Това е нов сезон."
+      ],
+      "bg": "сезон",
+      "tr": "mevsim"
+    },
+    {
+      "word": "сутрин",
+      "translation": "sabah",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "сутрин",
+        "çoğul": "сутрини"
+      },
+      "examples": [
+        "Един хубав сутрин.",
+        "Това е нов сутрин."
+      ],
+      "bg": "сутрин",
+      "tr": "sabah"
+    },
+    {
+      "word": "обяд",
+      "translation": "öğle",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "обяд",
+        "çoğul": "обед/обяди"
+      },
+      "examples": [
+        "Един хубав обяд.",
+        "Това е нов обяд."
+      ],
+      "bg": "обяд",
+      "tr": "öğle"
+    },
+    {
+      "word": "вечер",
+      "translation": "akşam",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "вечер",
+        "çoğul": "вечери"
+      },
+      "examples": [
+        "Един хубав вечер.",
+        "Това е нов вечер."
+      ],
+      "bg": "вечер",
+      "tr": "akşam"
+    },
+    {
+      "word": "нощ",
+      "translation": "gece",
+      "type": "isim",
+      "nounForms": {
+        "tekil": "нощ",
+        "çoğul": "нощи"
+      },
+      "examples": [
+        "Един хубав нощ.",
+        "Това е нов нощ."
+      ],
+      "bg": "нощ",
+      "tr": "gece"
+    },
+    {
+      "word": "започвам / започна",
+      "translation": "başlamak",
+      "type": "fiil",
+      "conjugation": "започвам, започваш, започва...",
+      "examples": [
+        "Урокът започва.",
+        "Зимата започва през декември."
+      ],
+      "bg": "започвам / започна",
+      "tr": "başlamak"
+    },
+    {
+      "word": "завършвам / завърша",
+      "translation": "bitmek",
+      "type": "fiil",
+      "conjugation": "завършвам, завършваш...",
+      "examples": [
+        "Филмът завършва.",
+        "Пролетта завършва през юни."
+      ],
+      "bg": "завършвам / завърша",
+      "tr": "bitmek"
+    },
+    {
+      "word": "продължавам",
+      "translation": "sürmek/devam etmek",
+      "type": "fiil",
+      "conjugation": "продължавам, продължаваш...",
+      "examples": [
+        "Дъждът продължава.",
+        "Есента продължава до декември."
+      ],
+      "bg": "продължавам",
+      "tr": "sürmek/devam etmek"
+    },
+    {
+      "word": "настъпва",
+      "translation": "gelmek/başlamak (mevsim)",
+      "type": "fiil",
+      "conjugation": "настъпва",
+      "examples": [
+        "Настъпва пролетта.",
+        "Зимата настъпва."
+      ],
+      "bg": "настъпва",
+      "tr": "gelmek/başlamak (mevsim)"
+    },
+    {
+      "word": "вали дъжд",
+      "translation": "yağmur yağmak",
+      "type": "kalıp",
+      "examples": [
+        "Днес вали дъжд.",
+        "Вчера валя дъжд."
+      ],
+      "bg": "вали дъжд",
+      "tr": "yağmur yağmak"
+    },
+    {
+      "word": "вали сняг",
+      "translation": "kar yağmak",
+      "type": "kalıp",
+      "examples": [
+        "През зимата вали сняг.",
+        "Скоро ще завали сняг."
+      ],
+      "bg": "вали сняг",
+      "tr": "kar yağmak"
+    },
+    {
+      "word": "духа вятър",
+      "translation": "rüzgar esmek",
+      "type": "kalıp",
+      "examples": [
+        "Навън духа вятър.",
+        "Духа студен северен вятър."
+      ],
+      "bg": "духа вятър",
+      "tr": "rüzgar esmek"
+    },
+    {
+      "word": "грее слънце",
+      "translation": "güneş parlamak",
+      "type": "kalıp",
+      "examples": [
+        "Слънцето грее силно.",
+        "През пролетта грее слънце."
+      ],
+      "bg": "грее слънце",
+      "tr": "güneş parlamak"
+    },
+    {
+      "word": "на + ay",
+      "translation": "ayında",
+      "type": "kalıp",
+      "examples": [
+        "На 22 март.",
+        "На 21 юни."
+      ],
+      "bg": "на + ay",
+      "tr": "ayında"
+    },
+    {
+      "word": "от ... до ...",
+      "translation": "dan ...a kadar",
+      "type": "kalıp",
+      "examples": [
+        "От септември до декември.",
+        "От понеделник до петък."
+      ],
+      "bg": "от ... до ...",
+      "tr": "dan ...a kadar"
+    },
+    {
+      "word": "обхваща",
+      "translation": "kapsar",
+      "type": "fiil",
+      "examples": [
+        "Всеки сезон обхваща три месеца.",
+        "Лятото обхваща юни, юли и август."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "обхваща",
+      "tr": "kapsar"
+    },
+    {
+      "word": "дели се на",
+      "translation": "bölünür",
+      "type": "kalıp",
+      "examples": [
+        "Годината се дели на четири сезона.",
+        "Месецът се дели на седмици."
+      ],
+      "bg": "дели се на",
+      "tr": "bölünür"
+    },
+    {
+      "word": "22 март",
+      "translation": "22 Mart (İlkbahar başlangıcı)",
+      "type": "date",
+      "examples": [
+        "Пролетта започва на 22 март."
+      ],
+      "bg": "22 март",
+      "tr": "22 Mart (İlkbahar başlangıcı)"
+    },
+    {
+      "word": "22 юни",
+      "translation": "22 Haziran (Yaz başlangıcı)",
+      "type": "date",
+      "examples": [
+        "Лятото започва на 22 юни."
+      ],
+      "bg": "22 юни",
+      "tr": "22 Haziran (Yaz başlangıcı)"
+    },
+    {
+      "word": "22 септември",
+      "translation": "22 Eylül (Sonbahar başlangıcı)",
+      "type": "date",
+      "examples": [
+        "Есента започва на 22 септември."
+      ],
+      "bg": "22 септември",
+      "tr": "22 Eylül (Sonbahar başlangıcı)"
+    },
+    {
+      "word": "22 декември",
+      "translation": "22 Aralık (Kış başlangıcı)",
+      "type": "date",
+      "examples": [
+        "Зимата започва на 22 декември."
+      ],
+      "bg": "22 декември",
+      "tr": "22 Aralık (Kış başlangıcı)"
+    },
+    {
+      "word": "географски пояс",
+      "translation": "coğrafi kuşak",
+      "type": "isim",
+      "examples": [
+        "Пример с географски пояс.",
+        "Още един пример с географски пояс."
+      ],
+      "nounForms": {
+        "tekil": "географски пояс",
+        "çoğul": ""
+      },
+      "bg": "географски пояс",
+      "tr": "coğrafi kuşak"
+    },
+    {
+      "word": "според",
+      "translation": "-e göre",
+      "type": "edat",
+      "examples": [
+        "Пример с според.",
+        "Още един пример с според."
+      ],
+      "bg": "според",
+      "tr": "-e göre"
+    },
+    {
+      "word": "астроном",
+      "translation": "astronom",
+      "type": "isim",
+      "examples": [
+        "Пример с астроном.",
+        "Още един пример с астроном."
+      ],
+      "nounForms": {
+        "tekil": "астроном",
+        "çoğul": ""
+      },
+      "bg": "астроном",
+      "tr": "astronom"
+    },
+    {
+      "word": "пелена",
+      "translation": "örtü, kundak bezi",
+      "type": "isim",
+      "examples": [
+        "Пример с пелена.",
+        "Още един пример с пелена."
+      ],
+      "nounForms": {
+        "tekil": "пелена",
+        "çoğul": ""
+      },
+      "bg": "пелена",
+      "tr": "örtü, kundak bezi"
+    },
+    {
+      "word": "натежавам",
+      "translation": "ağırlaşmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с натежавам.",
+        "Още един пример с натежавам."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "натежавам",
+      "tr": "ağırlaşmak"
+    },
+    {
+      "word": "скреж",
+      "translation": "kırağı",
+      "type": "isim",
+      "examples": [
+        "Пример с скреж.",
+        "Още един пример с скреж."
+      ],
+      "nounForms": {
+        "tekil": "скреж",
+        "çoğul": ""
+      },
+      "bg": "скреж",
+      "tr": "kırağı"
+    },
+    {
+      "word": "замръзвам",
+      "translation": "donmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с замръзвам.",
+        "Още един пример с замръзвам."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "замръзвам",
+      "tr": "donmak"
+    },
+    {
+      "word": "мразовит",
+      "translation": "dondurucu, ayazlı",
+      "type": "sıfat",
+      "examples": [
+        "Пример с мразовит.",
+        "Още един пример с мразовит."
+      ],
+      "bg": "мразовит",
+      "tr": "dondurucu, ayazlı"
+    },
+    {
+      "word": "затоплям се",
+      "translation": "ısınmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с затоплям се.",
+        "Още един пример с затоплям се."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "затоплям се",
+      "tr": "ısınmak"
+    },
+    {
+      "word": "южняк",
+      "translation": "güneyden esen rüzgâr",
+      "type": "isim",
+      "examples": [
+        "Пример с южняк.",
+        "Още един пример с южняк."
+      ],
+      "nounForms": {
+        "tekil": "южняк",
+        "çoğul": ""
+      },
+      "bg": "южняк",
+      "tr": "güneyden esen rüzgâr"
+    },
+    {
+      "word": "топя се",
+      "translation": "erimek",
+      "type": "fiil",
+      "examples": [
+        "Пример с топя се.",
+        "Още един пример с топя се."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "топя се",
+      "tr": "erimek"
+    },
+    {
+      "word": "напъпвам",
+      "translation": "tomurcuklanmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с напъпвам.",
+        "Още един пример с напъпвам."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "напъпвам",
+      "tr": "tomurcuklanmak"
+    },
+    {
+      "word": "разлиствам се",
+      "translation": "yapraklanmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с разлиствам се.",
+        "Още един пример с разлиствам се."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "разлиствам се",
+      "tr": "yapraklanmak"
+    },
+    {
+      "word": "цъфтя",
+      "translation": "çiçek açmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с цъфтя.",
+        "Още един пример с цъфтя."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "цъфтя",
+      "tr": "çiçek açmak"
+    },
+    {
+      "word": "прелетна птица",
+      "translation": "göçmen kuş",
+      "type": "isim",
+      "examples": [
+        "Пример с прелетна птица.",
+        "Още един пример с прелетна птица."
+      ],
+      "nounForms": {
+        "tekil": "прелетна птица",
+        "çoğul": ""
+      },
+      "bg": "прелетна птица",
+      "tr": "göçmen kuş"
+    },
+    {
+      "word": "градушка",
+      "translation": "dolu",
+      "type": "isim",
+      "examples": [
+        "Пример с градушка.",
+        "Още един пример с градушка."
+      ],
+      "nounForms": {
+        "tekil": "градушка",
+        "çoğul": ""
+      },
+      "bg": "градушка",
+      "tr": "dolu"
+    },
+    {
+      "word": "гръмотевица",
+      "translation": "gök gürültüsü/yıldırım",
+      "type": "isim",
+      "examples": [
+        "Пример с гръмотевица.",
+        "Още един пример с гръмотевица."
+      ],
+      "nounForms": {
+        "tekil": "гръмотевица",
+        "çoğul": ""
+      },
+      "bg": "гръмотевица",
+      "tr": "gök gürültüsü/yıldırım"
+    },
+    {
+      "word": "светкавица",
+      "translation": "şimşek",
+      "type": "isim",
+      "examples": [
+        "Пример с светкавица.",
+        "Още един пример с светкавица."
+      ],
+      "nounForms": {
+        "tekil": "светкавица",
+        "çoğul": ""
+      },
+      "bg": "светкавица",
+      "tr": "şimşek"
+    },
+    {
+      "word": "потъвам в зеленина",
+      "translation": "yeşilliğe bürünmek",
+      "type": "kalıp",
+      "examples": [
+        "Пример с потъвам в зеленина.",
+        "Още един пример с потъвам в зеленина."
+      ],
+      "bg": "потъвам в зеленина",
+      "tr": "yeşilliğe bürünmek"
+    },
+    {
+      "word": "багра",
+      "translation": "renk, ton",
+      "type": "isim",
+      "examples": [
+        "Пример с багра.",
+        "Още един пример с багра."
+      ],
+      "nounForms": {
+        "tekil": "багра",
+        "çoğul": ""
+      },
+      "bg": "багра",
+      "tr": "renk, ton"
+    },
+    {
+      "word": "вия гнездо",
+      "translation": "yuva kurmak",
+      "type": "kalıp",
+      "examples": [
+        "Пример с вия гнездо.",
+        "Още един пример с вия гнездо."
+      ],
+      "bg": "вия гнездо",
+      "tr": "yuva kurmak"
+    },
+    {
+      "word": "краткотраен",
+      "translation": "kısa süreli",
+      "type": "sıfat",
+      "examples": [
+        "Пример с краткотраен.",
+        "Още един пример с краткотраен."
+      ],
+      "bg": "краткотраен",
+      "tr": "kısa süreli"
+    },
+    {
+      "word": "обсипан със звезди",
+      "translation": "yıldızlarla bezenmiş",
+      "type": "kalıp",
+      "examples": [
+        "Пример с обсипан със звезди.",
+        "Още един пример с обсипан със звезди."
+      ],
+      "bg": "обсипан със звезди",
+      "tr": "yıldızlarla bezenmiş"
+    },
+    {
+      "word": "дъга",
+      "translation": "gökkuşağı",
+      "type": "isim",
+      "examples": [
+        "Пример с дъга.",
+        "Още един пример с дъга."
+      ],
+      "nounForms": {
+        "tekil": "дъга",
+        "çoğul": ""
+      },
+      "bg": "дъга",
+      "tr": "gökkuşağı"
+    },
+    {
+      "word": "зрея",
+      "translation": "olgunlaşmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с зрея.",
+        "Още един пример с зрея."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "зрея",
+      "tr": "olgunlaşmak"
+    },
+    {
+      "word": "залез",
+      "translation": "gün batımı",
+      "type": "isim",
+      "examples": [
+        "Пример с залез.",
+        "Още един пример с залез."
+      ],
+      "nounForms": {
+        "tekil": "залез",
+        "çoğul": ""
+      },
+      "bg": "залез",
+      "tr": "gün batımı"
+    },
+    {
+      "word": "захладнявам",
+      "translation": "serinlemek",
+      "type": "fiil",
+      "examples": [
+        "Пример с захладнявам.",
+        "Още един пример с захладнявам."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "захладнявам",
+      "tr": "serinlemek"
+    },
+    {
+      "word": "слана",
+      "translation": "kırağı/don",
+      "type": "isim",
+      "examples": [
+        "Пример с слана.",
+        "Още един пример с слана."
+      ],
+      "nounForms": {
+        "tekil": "слана",
+        "çoğul": ""
+      },
+      "bg": "слана",
+      "tr": "kırağı/don"
+    },
+    {
+      "word": "проливен дъжд",
+      "translation": "sağanak yağmur",
+      "type": "kalıp",
+      "examples": [
+        "Пример с проливен дъжд.",
+        "Още един пример с проливен дъжд."
+      ],
+      "bg": "проливен дъжд",
+      "tr": "sağanak yağmur"
+    },
+    {
+      "word": "отлитам",
+      "translation": "uçup gitmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с отлитам.",
+        "Още един пример с отлитам."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "отлитам",
+      "tr": "uçup gitmek"
+    },
+    {
+      "word": "първи",
+      "translation": "birinci",
+      "type": "sıfat",
+      "examples": [
+        "Пример с първи.",
+        "Още един пример с първи."
+      ],
+      "bg": "първи",
+      "tr": "birinci"
+    },
+    {
+      "word": "втори",
+      "translation": "ikinci",
+      "type": "sıfat",
+      "examples": [
+        "Пример с втори.",
+        "Още един пример с втори."
+      ],
+      "bg": "втори",
+      "tr": "ikinci"
+    },
+    {
+      "word": "трети",
+      "translation": "üçüncü",
+      "type": "sıfat",
+      "examples": [
+        "Пример с трети.",
+        "Още един пример с трети."
+      ],
+      "bg": "трети",
+      "tr": "üçüncü"
+    },
+    {
+      "word": "четвърти",
+      "translation": "dördüncü",
+      "type": "sıfat",
+      "examples": [
+        "Пример с четвърти.",
+        "Още един пример с четвърти."
+      ],
+      "bg": "четвърти",
+      "tr": "dördüncü"
+    },
+    {
+      "word": "пети",
+      "translation": "beşinci",
+      "type": "sıfat",
+      "examples": [
+        "Пример с пети.",
+        "Още един пример с пети."
+      ],
+      "bg": "пети",
+      "tr": "beşinci"
+    },
+    {
+      "word": "шести",
+      "translation": "altıncı",
+      "type": "sıfat",
+      "examples": [
+        "Пример с шести.",
+        "Още един пример с шести."
+      ],
+      "bg": "шести",
+      "tr": "altıncı"
+    },
+    {
+      "word": "седми",
+      "translation": "yedinci",
+      "type": "sıfat",
+      "examples": [
+        "Пример с седми.",
+        "Още един пример с седми."
+      ],
+      "bg": "седми",
+      "tr": "yedinci"
+    },
+    {
+      "word": "осми",
+      "translation": "sekizinci",
+      "type": "sıfat",
+      "examples": [
+        "Пример с осми.",
+        "Още един пример с осми."
+      ],
+      "bg": "осми",
+      "tr": "sekizinci"
+    },
+    {
+      "word": "девети",
+      "translation": "dokuzuncu",
+      "type": "sıfat",
+      "examples": [
+        "Пример с девети.",
+        "Още един пример с девети."
+      ],
+      "bg": "девети",
+      "tr": "dokuzuncu"
+    },
+    {
+      "word": "десети",
+      "translation": "onuncu",
+      "type": "sıfat",
+      "examples": [
+        "Пример с десети.",
+        "Още един пример с десети."
+      ],
+      "bg": "десети",
+      "tr": "onuncu"
+    },
+    {
+      "word": "двадесет и втори",
+      "translation": "yirmi ikinci",
+      "type": "sıfat",
+      "examples": [
+        "Пример с двадесет и втори.",
+        "Още един пример с двадесет и втори."
+      ],
+      "bg": "двадесет и втори",
+      "tr": "yirmi ikinci"
+    },
+    {
+      "word": "тридесет и шести",
+      "translation": "otuz altıncı",
+      "type": "sıfat",
+      "examples": [
+        "Пример с тридесет и шести.",
+        "Още един пример с тридесет и шести."
+      ],
+      "bg": "тридесет и шести",
+      "tr": "otuz altıncı"
+    },
+    {
+      "word": "кажа",
+      "translation": "söylemek",
+      "type": "fiil",
+      "examples": [
+        "Пример с кажа.",
+        "Още един пример с кажа."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "кажа",
+      "tr": "söylemek"
+    },
+    {
+      "word": "мисля",
+      "translation": "düşünmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с мисля.",
+        "Още един пример с мисля."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "мисля",
+      "tr": "düşünmek"
+    },
+    {
+      "word": "летя",
+      "translation": "uçmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с летя.",
+        "Още един пример с летя."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "летя",
+      "tr": "uçmak"
+    },
+    {
+      "word": "дойда",
+      "translation": "gelmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с дойда.",
+        "Още един пример с дойда."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "дойда",
+      "tr": "gelmek"
+    },
+    {
+      "word": "казвам",
+      "translation": "söylemek (sürekli)",
+      "type": "fiil",
+      "examples": [
+        "Пример с казвам.",
+        "Още един пример с казвам."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "казвам",
+      "tr": "söylemek (sürekli)"
+    },
+    {
+      "word": "помисля",
+      "translation": "düşünmek (anlık)",
+      "type": "fiil",
+      "examples": [
+        "Пример с помисля.",
+        "Още един пример с помисля."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "помисля",
+      "tr": "düşünmek (anlık)"
+    },
+    {
+      "word": "прелетя",
+      "translation": "uçup geçmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с прелетя.",
+        "Още един пример с прелетя."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "прелетя",
+      "tr": "uçup geçmek"
+    },
+    {
+      "word": "река",
+      "translation": "demek/söylemek",
+      "type": "fiil",
+      "examples": [
+        "Пример с река.",
+        "Още един пример с река."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "река",
+      "tr": "demek/söylemek"
+    },
+    {
+      "word": "мога",
+      "translation": "yapabilmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с мога.",
+        "Още един пример с мога."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "мога",
+      "tr": "yapabilmek"
+    },
+    {
+      "word": "отворя",
+      "translation": "açmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с отворя.",
+        "Още един пример с отворя."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "отворя",
+      "tr": "açmak"
+    },
+    {
+      "word": "седя",
+      "translation": "oturmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с седя.",
+        "Още един пример с седя."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "седя",
+      "tr": "oturmak"
+    },
+    {
+      "word": "изляза",
+      "translation": "çıkmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с изляза.",
+        "Още един пример с изляза."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "изляза",
+      "tr": "çıkmak"
+    },
+    {
+      "word": "искам",
+      "translation": "istemek",
+      "type": "fiil",
+      "examples": [
+        "Пример с искам.",
+        "Още един пример с искам."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "искам",
+      "tr": "istemek"
+    },
+    {
+      "word": "говоря",
+      "translation": "konuşmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с говоря.",
+        "Още един пример с говоря."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "говоря",
+      "tr": "konuşmak"
+    },
+    {
+      "word": "вървя",
+      "translation": "yürümek",
+      "type": "fiil",
+      "examples": [
+        "Пример с вървя.",
+        "Още един пример с вървя."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "вървя",
+      "tr": "yürümek"
+    },
+    {
+      "word": "ям",
+      "translation": "yemek",
+      "type": "fiil",
+      "examples": [
+        "Пример с ям.",
+        "Още един пример с ям."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "ям",
+      "tr": "yemek"
+    },
+    {
+      "word": "давам",
+      "translation": "vermek",
+      "type": "fiil",
+      "examples": [
+        "Пример с давам.",
+        "Още един пример с давам."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "давам",
+      "tr": "vermek"
+    },
+    {
+      "word": "затворя",
+      "translation": "kapatmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с затворя.",
+        "Още един пример с затворя."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "затворя",
+      "tr": "kapatmak"
+    },
+    {
+      "word": "извървя",
+      "translation": "yürüyüp bitirmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с извървя.",
+        "Още един пример с извървя."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "извървя",
+      "tr": "yürüyüp bitirmek"
+    },
+    {
+      "word": "облека",
+      "translation": "giymek",
+      "type": "fiil",
+      "examples": [
+        "Пример с облека.",
+        "Още един пример с облека."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "облека",
+      "tr": "giymek"
+    },
+    {
+      "word": "питам",
+      "translation": "sormak",
+      "type": "fiil",
+      "examples": [
+        "Пример с питам.",
+        "Още един пример с питам."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "питам",
+      "tr": "sormak"
+    },
+    {
+      "word": "изсвиря",
+      "translation": "çalmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с изсвиря.",
+        "Още един пример с изсвиря."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "изсвиря",
+      "tr": "çalmak"
+    },
+    {
+      "word": "трептя",
+      "translation": "titremek",
+      "type": "fiil",
+      "examples": [
+        "Пример с трептя.",
+        "Още един пример с трептя."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "трептя",
+      "tr": "titremek"
+    },
+    {
+      "word": "отида",
+      "translation": "gitmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с отида.",
+        "Още един пример с отида."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "отида",
+      "tr": "gitmek"
+    },
+    {
+      "word": "повярвам",
+      "translation": "inanmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с повярвам.",
+        "Още един пример с повярвам."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "повярвам",
+      "tr": "inanmak"
+    },
+    {
+      "word": "правя",
+      "translation": "yapmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с правя.",
+        "Още един пример с правя."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "правя",
+      "tr": "yapmak"
+    },
+    {
+      "word": "живея",
+      "translation": "yaşamak",
+      "type": "fiil",
+      "examples": [
+        "Пример с живея.",
+        "Още един пример с живея."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "живея",
+      "tr": "yaşamak"
+    },
+    {
+      "word": "прочета",
+      "translation": "okumak",
+      "type": "fiil",
+      "examples": [
+        "Пример с прочета.",
+        "Още един пример с прочета."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "прочета",
+      "tr": "okumak"
+    },
+    {
+      "word": "идвам",
+      "translation": "gelmek (sürekli)",
+      "type": "fiil",
+      "examples": [
+        "Пример с идвам.",
+        "Още един пример с идвам."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "идвам",
+      "tr": "gelmek (sürekli)"
+    },
+    {
+      "word": "направя",
+      "translation": "yapmak (bitmiş)",
+      "type": "fiil",
+      "examples": [
+        "Пример с направя.",
+        "Още един пример с направя."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "направя",
+      "tr": "yapmak (bitmiş)"
+    },
+    {
+      "word": "изживея",
+      "translation": "yaşamak/geçirmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с изживея.",
+        "Още един пример с изживея."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "изживея",
+      "tr": "yaşamak/geçirmek"
+    },
+    {
+      "word": "внеса",
+      "translation": "içeri getirmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с внеса.",
+        "Още един пример с внеса."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "внеса",
+      "tr": "içeri getirmek"
+    },
+    {
+      "word": "имам",
+      "translation": "sahip olmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с имам.",
+        "Още един пример с имам."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "имам",
+      "tr": "sahip olmak"
+    },
+    {
+      "word": "забравя",
+      "translation": "unutmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с забравя.",
+        "Още един пример с забравя."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "забравя",
+      "tr": "unutmak"
+    },
+    {
+      "word": "остарея",
+      "translation": "yaşlanmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с остарея.",
+        "Още един пример с остарея."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "остарея",
+      "tr": "yaşlanmak"
+    },
+    {
+      "word": "донеса",
+      "translation": "getirmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с донеса.",
+        "Още един пример с донеса."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "донеса",
+      "tr": "getirmek"
+    },
+    {
+      "word": "седна",
+      "translation": "oturmak (eylem)",
+      "type": "fiil",
+      "examples": [
+        "Пример с седна.",
+        "Още един пример с седна."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "седна",
+      "tr": "oturmak (eylem)"
+    },
+    {
+      "word": "моля",
+      "translation": "rica etmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с моля.",
+        "Още един пример с моля."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "моля",
+      "tr": "rica etmek"
+    },
+    {
+      "word": "копнея",
+      "translation": "özlem duymak",
+      "type": "fiil",
+      "examples": [
+        "Пример с копнея.",
+        "Още един пример с копнея."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "копнея",
+      "tr": "özlem duymak"
+    },
+    {
+      "word": "проведа",
+      "translation": "yürütmek/geçirmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с проведа.",
+        "Още един пример с проведа."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "проведа",
+      "tr": "yürütmek/geçirmek"
+    },
+    {
+      "word": "вляза",
+      "translation": "girmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с вляза.",
+        "Още един пример с вляза."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "вляза",
+      "tr": "girmek"
+    },
+    {
+      "word": "строя",
+      "translation": "inşa etmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с строя.",
+        "Още един пример с строя."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "строя",
+      "tr": "inşa etmek"
+    },
+    {
+      "word": "заболея",
+      "translation": "hastalanmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с заболея.",
+        "Още един пример с заболея."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "заболея",
+      "tr": "hastalanmak"
+    },
+    {
+      "word": "приведа",
+      "translation": "getirmek/eğmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с приведа.",
+        "Още един пример с приведа."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "приведа",
+      "tr": "getirmek/eğmek"
+    },
+    {
+      "word": "падна",
+      "translation": "düşmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с падна.",
+        "Още един пример с падна."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "падна",
+      "tr": "düşmek"
+    },
+    {
+      "word": "построя",
+      "translation": "inşa edip bitirmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с построя.",
+        "Още един пример с построя."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "построя",
+      "tr": "inşa edip bitirmek"
+    },
+    {
+      "word": "изпея",
+      "translation": "şarkı söylemek",
+      "type": "fiil",
+      "examples": [
+        "Пример с изпея.",
+        "Още един пример с изпея."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "изпея",
+      "tr": "şarkı söylemek"
+    },
+    {
+      "word": "плета",
+      "translation": "örmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с плета.",
+        "Още един пример с плета."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "плета",
+      "tr": "örmek"
+    },
+    {
+      "word": "преведа",
+      "translation": "çevirmek",
+      "type": "fiil",
+      "examples": [
+        "Пример с преведа.",
+        "Още един пример с преведа."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "преведа",
+      "tr": "çevirmek"
+    },
+    {
+      "word": "изнеса",
+      "translation": "dışarı çıkarmак",
+      "type": "fiil",
+      "examples": [
+        "Пример с изнеса.",
+        "Още един пример с изнеса."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "изнеса",
+      "tr": "dışarı çıkarmак"
+    },
+    {
+      "word": "бия",
+      "translation": "dövmek/vurmak",
+      "type": "fiil",
+      "examples": [
+        "Пример с бия.",
+        "Още един пример с бия."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "бия",
+      "tr": "dövmek/vurmak"
+    },
+    {
+      "word": "пея",
+      "translation": "şarkı söylemek (sürekli)",
+      "type": "fiil",
+      "examples": [
+        "Пример с пея.",
+        "Още един пример с пея."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "пея",
+      "tr": "şarkı söylemek (sürekli)"
+    },
+    {
+      "word": "съхна",
+      "translation": "kurumak",
+      "type": "fiil",
+      "examples": [
+        "Пример с съхна.",
+        "Още един пример с съхна."
+      ],
+      "conjugation": {
+        "present": {},
+        "past": {},
+        "future": {},
+        "imperative": {}
+      },
+      "bg": "съхна",
+      "tr": "kurumak"
+    }
+  ]
+}

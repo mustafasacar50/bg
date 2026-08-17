@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 4: İş Görüşmesi",
+  "difficulty": 4,
+  "description": "Bir şirkette mülakata girdiniz. ИК (İK) uzmanıyla konuşuyorsunuz.",
+  "questions": [
+    {
+      "id": "l4j_1",
+      "type": "dialogue",
+      "speaker": "İK Uzmanı",
+      "sentence": "Заповядайте, седнете. Нека започнем с въпроса: защо искате да работите в нашата компания?",
+      "answer": "Защото компанията ви е лидер в сектора и предлага отлични възможности за развитие.",
+      "options": [
+        "Трябват ми пари.",
+        "Защото компанията ви е лидер в сектора и предлага отлични възможности за развитие.",
+        "Не знам.",
+        "Близо е до нас."
+      ],
+      "hint": "Çünkü şirketiniz sektörde lider ve gelişim için harika fırsatlar sunuyor.",
+      "explanation": "Neden bu şirketi istediğinize profesyonel bir cevap verin.",
+      "optionsTr": [
+        "Paraya ihtiyacım var.",
+        "Çünkü firmanız sektörde lider konumdadır ve gelişim için mükemmel fırsatlar sunmaktadır.",
+        "Bilmiyorum.",
+        "Bize yakın."
+      ]
+    },
+    {
+      "id": "l4j_2",
+      "type": "dialogue",
+      "speaker": "İK Uzmanı",
+      "sentence": "Какъв е предишният ви опит на подобна позиция?",
+      "answer": "Работил съм три години като специалист по продажбите в международна фирма.",
+      "options": [
+        "Нямам опит.",
+        "Работил съм три години като специалист по продажбите в международна фирма.",
+        "Бях сервитьор.",
+        "Това е тайна."
+      ],
+      "hint": "Uluslararası bir şirkette satış uzmanı olarak üç yıl çalıştım.",
+      "explanation": "Önceki deneyiminizden bahsedin.",
+      "optionsTr": [
+        "Hiç deneyimim yok.",
+        "Üç yıl uluslararası bir firmada satış uzmanı olarak çalıştım.",
+        "Garsondum.",
+        "Bu bir sır."
+      ]
+    },
+    {
+      "id": "l4j_3",
+      "type": "dialogue",
+      "speaker": "İK Uzmanı",
+      "sentence": "Това е чудесно. А как се справяте с работата под напрежение?",
+      "answer": "Свикнал съм със стреса. Опитвам се да приоритизирам задачите си.",
+      "options": [
+        "Паникьосвам се.",
+        "Свикнал съм със стреса. Опитвам се да приоритизирам задачите си.",
+        "Напускам.",
+        "Не обичам напрежение."
+      ],
+      "hint": "Strese alışkınım. Görevlerimi önceliklendirmeye çalışırım.",
+      "explanation": "Stresle nasıl başa çıktığınızı anlatın.",
+      "optionsTr": [
+        "Paniğe kapılıyorum.",
+        "Strese alışkınım. Görevlerime öncelik vermeye çalışıyorum.",
+        "Ayrılıyorum.",
+        "Gerginliği sevmiyorum."
+      ]
+    },
+    {
+      "id": "l4j_4",
+      "type": "dialogue",
+      "speaker": "İK Uzmanı",
+      "sentence": "Имате ли някакви въпроси към мен относно позицията?",
+      "answer": "Да, бих искал да попитам какво включва стандартният работен ден?",
+      "options": [
+        "Не, нямам.",
+        "Колко е заплатата?",
+        "Кога почивам?",
+        "Да, бих искал да попитам какво включва стандартният работен ден?"
+      ],
+      "hint": "Evet, standart bir iş gününün neleri içerdiğini sormak isterdim.",
+      "explanation": "İşin detaylarıyla ilgili bir soru sorun.",
+      "optionsTr": [
+        "Hayır, yapmadım.",
+        "Maaş ne kadar?",
+        "Ne zaman dinlenirim?",
+        "Evet, standart bir iş gününün neleri içerdiğini sormak istiyorum."
+      ]
+    }
+  ]
+}

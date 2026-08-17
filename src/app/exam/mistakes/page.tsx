@@ -46,6 +46,7 @@ export default function ExamPage() {
 
   useEffect(() => {
     const fetchData = async () => {
+      if (!student || !student.id) return;
       setLoading(true);
       try {
         

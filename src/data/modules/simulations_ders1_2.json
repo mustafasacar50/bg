@@ -1,0 +1,149 @@
+{
+  "id": "simulations_ders1_2",
+  "title": "Hayat Simülasyonları: Tanışma (Ders 1 & 2)",
+  "questions": [
+    {
+      "id": "sim_tanisma_1",
+      "type": "dialogue",
+      "context": "Sofya'da bir kafedesiniz. Yan masadaki kişi size gülümsüyor и sohbete başlıyor. (Temel selamlaşma)",
+      "characters": {
+        "bot": {
+          "name": "Иван (Ivan)",
+          "avatar": "👱‍♂️"
+        },
+        "player": {
+          "name": "Sen",
+          "avatar": "👤"
+        }
+      },
+      "dialogue": [
+        {
+          "speaker": "bot",
+          "text": "Здравейте! Как сте?",
+          "translation": "Merhaba! Nasılsınız?"
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Добре съм, благодаря! А вие?",
+              "isCorrect": true,
+              "botReply": "И аз съм добре. Аз съм Иван. Много ми е приятно.",
+              "hint": ""
+            },
+            {
+              "text": "Една вода, моля.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Şu an garsonsuz biriyle tanışıyorsunuz, su sipariş etmeyin. 'İyiyim, teşekkürler' demelisiniz."
+            },
+            {
+              "text": "Къде е тоалетната?",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Birisi size 'Nasılsınız?' dedi, tuvaletin yerini sormak tuhaf olur. 'İyiyim' deyin."
+            }
+          ],
+          "optionsTr": [
+            "İyiyim, teşekkürler! Ve sen?",
+            "Bir su lütfen.",
+            "Lavabo nerede?"
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Моето име е Али. И на мен ми е приятно.",
+              "isCorrect": true,
+              "botReply": "Откъде сте, Али?",
+              "hint": ""
+            },
+            {
+              "text": "Колко струва?",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Fiyat sormuyorsunuz, tanışıyorsunuz. Kendinizi tanıtın."
+            },
+            {
+              "text": "Не знам.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "'Bilmiyorum' dediniz. Ivan kendini tanıttı, siz de adınızı söyleyin."
+            }
+          ],
+          "optionsTr": [
+            "Benim adım Ali. Ben de bundan keyif alıyorum.",
+            "Fiyatı ne kadar?",
+            "Bilmiyorum."
+          ]
+        },
+        {
+          "speaker": "player",
+          "options": [
+            {
+              "text": "Аз съм от Турция.",
+              "isCorrect": true,
+              "botReply": "Супер! Добре дошли в България!",
+              "hint": ""
+            },
+            {
+              "text": "Аз съм на работа.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "'İşteyim' dediniz. Memleketinizi soruyor."
+            },
+            {
+              "text": "Аз съм добре.",
+              "isCorrect": false,
+              "botReply": "",
+              "hint": "Nasılsınız diye sormadı, 'Nerelisiniz?' (Откъде сте?) diye sordu."
+            }
+          ],
+          "optionsTr": [
+            "Ben Türkiyeliyim.",
+            "İşteyim.",
+            "Ben iyiyim."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sim_tanisma_reading_1",
+      "type": "reading",
+      "context": "İvan'ın sizin hakkınızda arkadaşına yazdığı kısa mesajı okuyun.",
+      "readingText": "Здравей, Петър! Днес в кафенето се запознах с Али. Той е от Турция. Много е добре. Довиждане!",
+      "readingTranslation": "Merhaba Petar! Bugün kafede Ali ile tanıştım. O Türkiye'den. Çok iyi biri. Görüşürüz!",
+      "readingQuestions": [
+        {
+          "questionText": "İvan bugün kiminle tanıştı?",
+          "correctAnswer": "С Али (Ali ile)",
+          "options": [
+            "С Петър (Petar ile)",
+            "С Али (Ali ile)",
+            "С Мария (Maria ile)"
+          ],
+          "optionsTr": [
+            "Peter ile (Petar ile)",
+            "Ali ile (Ali ile)",
+            "Maria ile (Maria ile)"
+          ]
+        },
+        {
+          "questionText": "Ali nereli?",
+          "correctAnswer": "От Турция",
+          "options": [
+            "От България",
+            "От Турция",
+            "От Англия"
+          ],
+          "optionsTr": [
+            "Bulgaristan'dan",
+            "Türkiye'den",
+            "İngiltere'den"
+          ]
+        }
+      ]
+    }
+  ]
+}

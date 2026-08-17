@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 5: Teknoloji ve Gelecek Üzerine Derin Tartışma",
+  "difficulty": 5,
+  "description": "Bir üniversite seminerinde Yapay Zekanın toplumsal etkileri üzerine tartışıyorsunuz.",
+  "questions": [
+    {
+      "id": "l5_pt_1",
+      "type": "dialogue",
+      "speaker": "Profesör",
+      "sentence": "Смятате ли, че изкуственият интелект ще доведе до масова безработица или по-скоро ще трансформира пазара на труда?",
+      "answer": "Според мен, по-вероятно е да наблюдаваме дълбока трансформация. Автоматизацията ще премахне рутинните задачи, но ще създаде нови, изискващи креативност.",
+      "options": [
+        "Роботите ще ни убият всички.",
+        "Според мен, по-вероятно е да наблюдаваме дълбока трансформация. Автоматизацията ще премахне рутинните задачи, но ще създаде нови, изискващи креативност.",
+        "Не знам, не се интересувам от технологии.",
+        "Ще си намеря работа в селото."
+      ],
+      "hint": "Bence derin bir dönüşüm gözlemlememiz daha olası. Otomasyon rutin görevleri ortadan kaldıracak, ancak yaratıcılık gerektiren yenilerini yaratacaktır.",
+      "explanation": "Gelişmiş analitik düşünce. \"Рутинни задачи\" (Rutin görevler) ve \"Дълбока трансформация\" (Derin dönüşüm) C2 seviyesi tartışma ögeleridir.",
+      "optionsTr": [
+        "Robotlar hepimizi öldürecek.",
+        "Bana göre derin bir dönüşüm görme ihtimalimiz daha yüksek. Otomasyon rutin görevleri ortadan kaldıracak ancak yaratıcılık gerektiren yeni görevler yaratacaktır.",
+        "Bilmiyorum, teknolojiyle ilgilenmiyorum.",
+        "Köyde iş bulacağım."
+      ]
+    },
+    {
+      "id": "l5_pt_2",
+      "type": "dialogue",
+      "speaker": "Profesör",
+      "sentence": "Изключително точно наблюдение. Но не се ли притеснявате от факта, че образователната система изостава от тези технологични скокове?",
+      "answer": "Абсолютно. Има остра нужда от парадигмална промяна в образованието – фокусът трябва да се измести от запаметяване към критично мислене.",
+      "options": [
+        "Училището е скучно така или иначе.",
+        "Учителите не знаят нищо.",
+        "Абсолютно. Има остра нужда от парадигмална промяна в образованието – фокусът трябва да се измести от запаметяване към критично мислене.",
+        "Децата трябва да играят навън."
+      ],
+      "hint": "Kesinlikle. Eğitimde paradigma değişimine şiddetli bir ihtiyaç var - odak ezberlemeden eleştirel düşünmeye kaymalıdır.",
+      "explanation": "\"Парадигмална промяна\" (Paradigma değişimi) ve \"Критично мислене\" (Eleştirel düşünme) akademik dilde kilit kavramlardır.",
+      "optionsTr": [
+        "Zaten okul sıkıcı.",
+        "Öğretmenler hiçbir şey bilmiyor.",
+        "Kesinlikle. Eğitimde paradigma değişikliğine ciddi bir ihtiyaç var; odak noktası ezberden eleştirel düşünceye kaymalıdır.",
+        "Çocuklar dışarıda oynamalı."
+      ]
+    },
+    {
+      "id": "l5_pt_3",
+      "type": "dialogue",
+      "speaker": "Profesör",
+      "sentence": "Съгласен съм. И все пак, кой трябва да поеме отговорността за преквалификацията на текущата работна сила? Държавата или корпорациите?",
+      "answer": "Смятам, че е необходима симбиоза между двете. Държавата трябва да създаде законодателна рамка, а корпорациите да инвестират в човешкия капитал.",
+      "options": [
+        "Всеки сам да се оправя.",
+        "Само държавата, те имат пари.",
+        "Смятам, че е необходима симбиоза между двете. Държавата трябва да създаде законодателна рамка, а корпорациите да инвестират в човешкия капитал.",
+        "Корпорациите са зли."
+      ],
+      "hint": "Bence ikisi arasında bir ortak yaşama (simbiyoza) ihtiyaç var. Devlet yasal bir çerçeve oluşturmalı ve şirketler insan sermayesine yatırım yapmalıdır.",
+      "explanation": "\"Симбиоза\" (Simbiyoz/Ortak yaşam), \"Законодателна рамка\" (Yasal çerçeve) gibi terimler soyut düşünceyi ifade etme yeteneğinizi kanıtlar.",
+      "optionsTr": [
+        "Herkes kendi başınadır.",
+        "Sadece devletin parası var.",
+        "İkisi arasında bir simbiyozun gerekli olduğunu düşünüyorum. Devletin yasal bir çerçeve oluşturması ve şirketlerin insan sermayesine yatırım yapması gerekiyor.",
+        "Şirketler kötüdür."
+      ]
+    },
+    {
+      "id": "l5_pt_4",
+      "type": "dialogue",
+      "speaker": "Profesör",
+      "sentence": "Блестяща аргументация! Беше истинско удоволствие да дебатирам с вас по тази толкова наболяла тема.",
+      "answer": "Удоволствието беше изцяло мое, професоре. Темата е необятна и изисква непрекъснат обществен диалог.",
+      "options": [
+        "Удоволствието беше изцяло мое, професоре. Темата е необятна и изисква непрекъснат обществен диалог.",
+        "Благодаря, аз съм най-умният.",
+        "Довиждане.",
+        "Стига сме говорили за това."
+      ],
+      "hint": "Zevk tamamen bana ait profesör. Konu uçsuz bucaksız ve sürekli bir kamusal diyalog gerektiriyor.",
+      "explanation": "\"Наболяла тема\" (Kanayan yara / Acil konu) deyimine, \"Необятна\" (Uçsuz bucaksız) gibi çok üst düzey edebi bir kelimeyle yanıt veriyorsunuz.",
+      "optionsTr": [
+        "O zevk tamamen bana ait, Profesör. Konu çok geniştir ve sürekli kamusal diyalog gerektirir.",
+        "Teşekkürler, en akıllısı benim.",
+        "Güle güle.",
+        "Bunun hakkında konuşmak yeterli."
+      ]
+    }
+  ]
+}

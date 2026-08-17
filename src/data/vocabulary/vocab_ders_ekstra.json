@@ -1,0 +1,4863 @@
+[
+  {
+    "word": "сте",
+    "translation": "sınız / siniz (olmak fiili 2. çoğul / saygı)",
+    "type": "fiil",
+    "notes": "съм (olmak) fiilinin 'вие' (siz) şahsı için çekimi.",
+    "bg": "сте",
+    "tr": "sınız / siniz"
+  },
+  {
+    "word": "сегашно",
+    "translation": "şimdiki",
+    "type": "sıfat",
+    "notes": "Gramer terimi: Сегашно време (Şimdiki zaman).",
+    "bg": "сегашно",
+    "tr": "şimdiki"
+  },
+  {
+    "word": "важни",
+    "translation": "önemli",
+    "type": "sıfat",
+    "forms": {
+      "eril": "важен",
+      "dişil": "важна",
+      "nötr": "важно",
+      "çoğul": "важни"
+    },
+    "bg": "важни",
+    "tr": "önemli"
+  },
+  {
+    "word": "номер",
+    "translation": "numara",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "номер",
+      "çoğul": "номера"
+    },
+    "bg": "номер",
+    "tr": "numara"
+  },
+  {
+    "word": "заповядайте",
+    "translation": "buyurun",
+    "type": "ünlem",
+    "notes": "Birine bir şey verirken veya davet ederken nezaket ifadesi.",
+    "bg": "заповядайте",
+    "tr": "buyurun"
+  },
+  {
+    "word": "минало",
+    "translation": "geçmiş",
+    "type": "sıfat",
+    "notes": "Gramer terimi: Минало време (Geçmiş zaman).",
+    "bg": "минало",
+    "tr": "geçmiş"
+  },
+  {
+    "word": "свършено",
+    "translation": "tamamlanmış / bitmiş",
+    "type": "sıfat",
+    "notes": "Gramer terimi: Минало свършено време (Di'li geçmiş zaman).",
+    "bg": "свършено",
+    "tr": "tamamlanmış"
+  },
+  {
+    "word": "какви",
+    "translation": "nasıl / hangi",
+    "type": "zamir",
+    "notes": "'Какъв' (nasıl/hangi) kelimesinin çoğul halidir.",
+    "bg": "какви",
+    "tr": "nasıl / hangi"
+  },
+  {
+    "word": "харесва",
+    "translation": "beğenmek (o beğeniyor)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "харесвам",
+        "ти": "харесваш",
+        "той/тя/то": "харесва",
+        "ние": "харесваме",
+        "вие": "харесвате",
+        "те": "харесват"
+      }
+    },
+    "bg": "харесва",
+    "tr": "beğeniyor"
+  },
+  {
+    "word": "купят",
+    "translation": "satın almak (onlar)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "купя",
+        "ти": "купиш",
+        "той/тя/то": "купи",
+        "ние": "купим",
+        "вие": "купите",
+        "те": "купят"
+      }
+    },
+    "bg": "купят",
+    "tr": "satın alırlar"
+  },
+  {
+    "word": "вносни",
+    "translation": "ithal",
+    "type": "sıfat",
+    "forms": {
+      "eril": "вносен",
+      "dişil": "вносна",
+      "nötr": "вносно",
+      "çoğul": "вносни"
+    },
+    "bg": "вносни",
+    "tr": "ithal"
+  },
+  {
+    "word": "бъдеще",
+    "translation": "gelecek",
+    "type": "isim",
+    "gender": "nötr",
+    "bg": "бъдеще",
+    "tr": "gelecek"
+  },
+  {
+    "word": "основната",
+    "translation": "temel / ana",
+    "type": "sıfat",
+    "notes": "Основен (temel) kelimesinin belirli (artikel almış) dişil formudur.",
+    "bg": "основната",
+    "tr": "temel / ana"
+  },
+  {
+    "word": "въпрос",
+    "translation": "soru",
+    "type": "isim",
+    "gender": "eril",
+    "bg": "въпрос",
+    "tr": "soru"
+  },
+  {
+    "word": "частица",
+    "translation": "parçacık / edat",
+    "type": "isim",
+    "gender": "dişil",
+    "bg": "частица",
+    "tr": "parçacık"
+  },
+  {
+    "word": "време",
+    "translation": "zaman / hava",
+    "type": "isim",
+    "gender": "nötr",
+    "bg": "време",
+    "tr": "zaman / hava"
+  },
+  {
+    "word": "сравнение",
+    "translation": "karşılaştırma",
+    "type": "isim",
+    "gender": "nötr",
+    "bg": "сравнение",
+    "tr": "karşılaştırma"
+  },
+  {
+    "word": "средноевропейското",
+    "translation": "Orta Avrupa (belirli)",
+    "type": "sıfat",
+    "notes": "Средноевропейско (Orta Avrupa'ya ait) kelimesinin belirli formudur.",
+    "bg": "средноевропейското",
+    "tr": "Orta Avrupa'nın"
+  },
+  {
+    "word": "тук",
+    "translation": "burada",
+    "type": "zarf",
+    "bg": "тук",
+    "tr": "burada"
+  },
+  {
+    "word": "колко",
+    "translation": "ne kadar / kaç",
+    "type": "zarf",
+    "bg": "колко",
+    "tr": "kaç / ne kadar"
+  },
+  {
+    "word": "часът",
+    "translation": "saat (belirli)",
+    "type": "isim",
+    "gender": "eril",
+    "notes": "Час (saat) kelimesinin tam belirli (özne) formudur. 'Колко е часът?' = Saat kaç?",
+    "bg": "часът",
+    "tr": "saat"
+  },
+  {
+    "word": "разговор",
+    "bg": "разговор",
+    "tr": "konuşma, sohbet, diyalog",
+    "translation": "konuşma, diyalog",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "разговор",
+      "çoğul": "разговори"
+    }
+  },
+  {
+    "word": "естествена",
+    "bg": "естествена",
+    "tr": "doğal, tabii (dişil)",
+    "translation": "doğal (dişil)",
+    "type": "sıfat"
+  },
+  {
+    "word": "тръгваме",
+    "bg": "тръгваме",
+    "tr": "yola çıkıyoruz, hareket ediyoruz, gidiyoruz",
+    "translation": "yola çıkıyoruz / gidiyoruz (1. çoğul)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "тръгвам",
+        "ти": "тръгваш",
+        "той/тя/то": "тръгва",
+        "ние": "тръгваме",
+        "вие": "тръгвате",
+        "те": "тръгват"
+      }
+    }
+  },
+  {
+    "word": "решиха",
+    "bg": "решиха",
+    "tr": "karar verdiler, çözdüler",
+    "translation": "karar verdiler (geçmiş zaman 3. çoğul)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "решавам",
+        "ти": "решаваш",
+        "той/тя/то": "решава",
+        "ние": "решаваме",
+        "вие": "решавате",
+        "те": "решават"
+      }
+    }
+  },
+  {
+    "word": "вас",
+    "bg": "вас",
+    "tr": "sizi, size",
+    "translation": "sizi / size (zamir nesne hali)",
+    "type": "zamir"
+  },
+  {
+    "word": "едва",
+    "bg": "едва",
+    "tr": "ancak, zar zor, henüz",
+    "translation": "zar zor / ancak",
+    "type": "zarf"
+  },
+  {
+    "word": "дъжд",
+    "bg": "дъжд",
+    "tr": "yağmur",
+    "translation": "yağmur",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "дъжд",
+      "çoğul": "дъждове"
+    }
+  },
+  {
+    "word": "урок",
+    "bg": "урок",
+    "tr": "ders",
+    "translation": "ders",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "урок",
+      "çoğul": "уроци"
+    }
+  },
+  {
+    "word": "проведете",
+    "bg": "проведете",
+    "tr": "gerçekleştirin, yapın, yürütün (emir)",
+    "translation": "gerçekleştirin / yapın (emir kipi)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "провеждам",
+        "ти": "провеждаш",
+        "той/тя/то": "провежда",
+        "ние": "провеждаме",
+        "вие": "провеждате",
+        "те": "провеждат"
+      }
+    }
+  },
+  {
+    "word": "ед",
+    "bg": "ед.",
+    "tr": "tekil (kısaltma)",
+    "translation": "tekil (единствено число kısaltması)",
+    "type": "isim"
+  },
+  {
+    "word": "изрази",
+    "bg": "изрази",
+    "tr": "ifadeler, deyimler",
+    "translation": "ifadeler / tabirler",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "израз",
+      "çoğul": "изрази"
+    }
+  },
+  {
+    "word": "темата",
+    "bg": "темата",
+    "tr": "konu, tema (belirli)",
+    "translation": "konu / tema (belirli form)",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "тема",
+      "çoğul": "теми"
+    }
+  },
+  {
+    "word": "използвайки",
+    "bg": "използвайки",
+    "tr": "kullanarak",
+    "translation": "kullanarak (ulaç / zarf-fiil)",
+    "type": "zarf"
+  },
+  {
+    "word": "предложените",
+    "bg": "предложените",
+    "tr": "önerilenler, sunulanlar (çoğul, belirli)",
+    "translation": "önerilenler / sunulanlar",
+    "type": "sıfat"
+  },
+  {
+    "word": "щанда",
+    "bg": "щанда",
+    "tr": "stant, tezgâh, reyon",
+    "translation": "reyon / stant (belirli/sayma hali)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "щанд",
+      "çoğul": "щандове"
+    }
+  },
+  {
+    "word": "държат",
+    "bg": "държат",
+    "tr": "tutuyorlar, davranıyorlar",
+    "translation": "tutuyorlar (3. çoğul)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "държа",
+        "ти": "държиш",
+        "той/тя/то": "държи",
+        "ние": "държим",
+        "вие": "държите",
+        "те": "държат"
+      }
+    }
+  },
+  {
+    "word": "хранят",
+    "bg": "хранят",
+    "tr": "besliyorlar, yediriyorlar",
+    "translation": "besliyorlar (3. çoğul)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "храня",
+        "ти": "храниш",
+        "той/тя/то": "храни",
+        "ние": "храним",
+        "вие": "храните",
+        "те": "хранят"
+      }
+    }
+  },
+  {
+    "word": "платете",
+    "bg": "платете",
+    "tr": "ödeyiniz (emir)",
+    "translation": "ödeyiniz (emir kipi)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "плащам",
+        "ти": "плащаш",
+        "той/тя/то": "плаща",
+        "ние": "плащаме",
+        "вие": "плащате",
+        "те": "плащат"
+      }
+    }
+  },
+  {
+    "word": "чбд",
+    "bg": "ЧБД",
+    "tr": "Doğum günün kutlu olsun (kısaltma)",
+    "translation": "Doğum günün kutlu olsun! (Честит рожден ден)",
+    "type": "ünlem"
+  },
+  {
+    "word": "прилагателно",
+    "bg": "прилагателно",
+    "tr": "sıfat",
+    "translation": "sıfat (dilbilgisi terimi)",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "прилагателно",
+      "çoğul": "прилагателни"
+    }
+  },
+  {
+    "word": "нужда",
+    "bg": "нужда",
+    "tr": "ihtiyaç, gereksinim",
+    "translation": "ihtiyaç",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "нужда",
+      "çoğul": "нужди"
+    }
+  },
+  {
+    "word": "боти",
+    "bg": "боти",
+    "tr": "botlar, yarım çizmeler",
+    "translation": "botlar",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "бота",
+      "çoğul": "боти"
+    }
+  },
+  {
+    "word": "глагола",
+    "bg": "глагола",
+    "tr": "fiili / fiil",
+    "translation": "fiil (belirli/sayma hali)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "глагол",
+      "çoğul": "глаголи"
+    }
+  },
+  {
+    "word": "бистра",
+    "bg": "бистра",
+    "tr": "berrak, duru (dişil)",
+    "translation": "berrak / duru (dişil)",
+    "type": "sıfat"
+  },
+  {
+    "word": "стотинки",
+    "bg": "стотинки",
+    "tr": "stotinkalar, kuruşlar",
+    "translation": "kuruşlar / stotinkalar",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "стотинка",
+      "çoğul": "стотинки"
+    }
+  },
+  {
+    "word": "глаголи",
+    "bg": "глаголи",
+    "tr": "fiiller",
+    "translation": "fiiller (çoğul)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "глагол",
+      "çoğul": "глаголи"
+    }
+  },
+  {
+    "word": "степенуване",
+    "bg": "степенуване",
+    "tr": "derecelendirme, kıyaslama",
+    "translation": "derecelendirme (dilbilgisi terimi)",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "степенуване",
+      "çoğul": "степенувания"
+    }
+  },
+  {
+    "word": "запазили",
+    "bg": "запазили",
+    "tr": "rezerve etmişler, saklamışlar",
+    "translation": "rezerve etmiş / saklamış (geçmiş zaman çoğul)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "запазвам",
+        "ти": "запазваш",
+        "той/тя/то": "запазва",
+        "ние": "запазваме",
+        "вие": "запазвате",
+        "те": "запазват"
+      }
+    }
+  },
+  {
+    "word": "готов",
+    "bg": "готов",
+    "tr": "hazır (eril)",
+    "translation": "hazır",
+    "type": "sıfat"
+  },
+  {
+    "word": "стоки",
+    "bg": "стоки",
+    "tr": "mallar, ürünler, eşyalar",
+    "translation": "mallar / ticari ürünler",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "стока",
+      "çoğul": "стоки"
+    }
+  },
+  {
+    "word": "купили",
+    "bg": "купили",
+    "tr": "satın almışlar, satın aldılar",
+    "translation": "satın almışlar / aldılar (geçmiş zaman çoğul)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "купувам",
+        "ти": "купуваш",
+        "той/тя/то": "купува",
+        "ние": "купуваме",
+        "вие": "купувате",
+        "те": "купуват"
+      }
+    }
+  },
+  {
+    "word": "наши",
+    "bg": "наши",
+    "tr": "bizim, bizimkiler (çoğul)",
+    "translation": "bizim / bizimkiler (çoğul)",
+    "type": "zamir"
+  },
+  {
+    "word": "наклонение",
+    "bg": "наклонение",
+    "tr": "kip",
+    "translation": "kip (dilbilgisi terimi)",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "наклонение",
+      "çoğul": "наклонения"
+    }
+  },
+  {
+    "word": "примерни",
+    "bg": "примерни",
+    "tr": "örnek niteliğinde, örnek teşkil eden (çoğul)",
+    "translation": "örnek / örnek niteliğindeki",
+    "type": "sıfat"
+  },
+  {
+    "word": "леща",
+    "bg": "леща",
+    "tr": "mercimek",
+    "translation": "mercimek",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "леща",
+      "çoğul": "лещи"
+    }
+  },
+  {
+    "word": "грее",
+    "bg": "грее",
+    "tr": "parlıyor, ışıldıyor, ısıtıyor",
+    "translation": "parlıyor / ışıldıyor (3. tekil)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "грея",
+        "ти": "грееш",
+        "той/тя/то": "грее",
+        "ние": "греем",
+        "вие": "греете",
+        "те": "греят"
+      }
+    }
+  },
+  {
+    "word": "килограм",
+    "bg": "килограм",
+    "tr": "kilogram, kilo",
+    "translation": "kilogram",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "килограм",
+      "çoğul": "килограми"
+    }
+  },
+  {
+    "word": "членуване",
+    "bg": "членуване",
+    "tr": "belirli artikel ekleme, harf-i tarif yapma",
+    "translation": "belirli artikel ekleme (dilbilgisi terimi)",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "членуване",
+      "çoğul": "членувания"
+    }
+  },
+  {
+    "word": "упражнение",
+    "bg": "упражнение",
+    "tr": "alıştırma, egzersiz",
+    "translation": "alıştırma / egzersiz",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "упражнение",
+      "çoğul": "упражнения"
+    }
+  },
+  {
+    "word": "пилешко",
+    "bg": "пилешко",
+    "tr": "tavuk eti, tavuklu",
+    "translation": "tavuk eti / tavuklu",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "пилешко",
+      "çoğul": "пилешки"
+    }
+  },
+  {
+    "word": "качества",
+    "bg": "качества",
+    "tr": "nitelikler, özellikler, kaliteler",
+    "translation": "nitelikler / özellikler (çoğul)",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "качество",
+      "çoğul": "качества"
+    }
+  },
+  {
+    "word": "предмета",
+    "bg": "предмета",
+    "tr": "nesneyi, konuyu, dersi",
+    "translation": "nesne / konu / ders (belirli/sayma hali)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "предмет",
+      "çoğul": "предмети"
+    }
+  },
+  {
+    "word": "определете",
+    "bg": "определете",
+    "tr": "belirleyiniz, saptayınız (emir)",
+    "translation": "belirleyiniz (emir kipi)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "определям",
+        "ти": "определяш",
+        "той/тя/то": "определя",
+        "ние": "определяме",
+        "вие": "определяте",
+        "те": "определят"
+      }
+    }
+  },
+  {
+    "word": "едни",
+    "bg": "едни",
+    "tr": "bazı / birtakım",
+    "translation": "bazı / birkaçı / birtakım",
+    "type": "zamir"
+  },
+  {
+    "word": "грама",
+    "bg": "грама",
+    "tr": "gram",
+    "translation": "gram (sayma formu)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "грам",
+      "çoğul": "грамове / грама"
+    }
+  },
+  {
+    "word": "скара",
+    "bg": "скара",
+    "tr": "ızgara",
+    "translation": "ızgara",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "скара",
+      "çoğul": "скари"
+    }
+  },
+  {
+    "word": "показва",
+    "bg": "показва",
+    "tr": "gösteriyor",
+    "translation": "gösteriyor / göstermek",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "показвам",
+        "ти": "показваш",
+        "той/тя/то": "показва",
+        "ние": "показваме",
+        "вие": "показвате",
+        "те": "показват"
+      }
+    }
+  },
+  {
+    "word": "диалозите",
+    "bg": "диалозите",
+    "tr": "diyaloglar",
+    "translation": "diyaloglar (belirli)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "диалог",
+      "çoğul": "диалози"
+    }
+  },
+  {
+    "word": "неизменяема",
+    "bg": "неизменяема",
+    "tr": "değişmez",
+    "translation": "değişmez / çekimlenemez",
+    "type": "sıfat"
+  },
+  {
+    "word": "смислови",
+    "bg": "смислови",
+    "tr": "anlamsal",
+    "translation": "anlamsal / anlama dayalı",
+    "type": "sıfat"
+  },
+  {
+    "word": "отношения",
+    "bg": "отношения",
+    "tr": "ilişkiler",
+    "translation": "ilişkiler / münasebetler",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "отношение",
+      "çoğul": "отношения"
+    }
+  },
+  {
+    "word": "изречението",
+    "bg": "изречението",
+    "tr": "cümle",
+    "translation": "cümle (belirli)",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "изречение",
+      "çoğul": "изречения"
+    }
+  },
+  {
+    "word": "етажа",
+    "bg": "етажа",
+    "tr": "kat",
+    "translation": "kat (sayma/kısa belirli formu)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "етаж",
+      "çoğul": "етажи / етажа"
+    }
+  },
+  {
+    "word": "свърже",
+    "bg": "свърже",
+    "tr": "bağlamak",
+    "translation": "bağlamak / birleştirmek (3. tekil)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "свържа",
+        "ти": "свържеш",
+        "той/тя/то": "свърже",
+        "ние": "свържем",
+        "вие": "свържете",
+        "те": "свържат"
+      }
+    }
+  },
+  {
+    "word": "глаголите",
+    "bg": "глаголите",
+    "tr": "fiiller",
+    "translation": "fiiller (belirli)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "глагол",
+      "çoğul": "глаголи"
+    }
+  },
+  {
+    "word": "обикновени",
+    "bg": "обикновени",
+    "tr": "sıradan",
+    "translation": "sıradan / normal / alışılmış",
+    "type": "sıfat"
+  },
+  {
+    "word": "необходими",
+    "bg": "необходими",
+    "tr": "gerekli",
+    "translation": "gerekli / lüzumlu (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "откажа",
+    "bg": "откажа",
+    "tr": "vazgeçmek / reddetmek",
+    "translation": "vazgeçmek / reddetmek (1. tekil)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "откажа",
+        "ти": "откажеш",
+        "той/тя/то": "откаже",
+        "ние": "откажем",
+        "вие": "откажете",
+        "те": "откажат"
+      }
+    }
+  },
+  {
+    "word": "домати",
+    "bg": "домати",
+    "tr": "domates",
+    "translation": "domatesler",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "домат",
+      "çoğul": "домати"
+    }
+  },
+  {
+    "word": "шопска",
+    "bg": "шопска",
+    "tr": "Şop (salatası türü)",
+    "translation": "Şop bölgesine ait / Şopça",
+    "type": "sıfat"
+  },
+  {
+    "word": "посрещнали",
+    "bg": "посрещнали",
+    "tr": "karşılamışlar",
+    "translation": "karşılamışlar / karşılayanlar",
+    "type": "fiil"
+  },
+  {
+    "word": "означава",
+    "bg": "означава",
+    "tr": "anlamına gelir",
+    "translation": "anlamına gelmek / ifade etmek",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "означавам",
+        "ти": "означаваш",
+        "той/тя/то": "означава",
+        "ние": "означаваме",
+        "вие": "означавате",
+        "те": "означават"
+      }
+    }
+  },
+  {
+    "word": "съквартирантки",
+    "bg": "съквартирантки",
+    "tr": "kadın ev arkadaşları",
+    "translation": "kadın ev arkadaşları / oda arkadaşları",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "съквартирантка",
+      "çoğul": "съквартирантки"
+    }
+  },
+  {
+    "word": "вафли",
+    "bg": "вафли",
+    "tr": "gofretler",
+    "translation": "gofretler / waffle'lar",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "вафла",
+      "çoğul": "вафли"
+    }
+  },
+  {
+    "word": "безкрайна",
+    "bg": "безкрайна",
+    "tr": "sonsuz",
+    "translation": "sonsuz / uçsuz bucaksız",
+    "type": "sıfat"
+  },
+  {
+    "word": "вселена",
+    "bg": "вселена",
+    "tr": "evren",
+    "translation": "evren / kainat",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "вселена",
+      "çoğul": "вселени"
+    }
+  },
+  {
+    "word": "братов",
+    "bg": "братов",
+    "tr": "kuzene/kardeşe ait",
+    "translation": "kardeşin / kuzenin",
+    "type": "sıfat"
+  },
+  {
+    "word": "признак",
+    "bg": "признак",
+    "tr": "belirti",
+    "translation": "belirti / özellik / nitelik",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "признак",
+      "çoğul": "признаци"
+    }
+  },
+  {
+    "word": "предмет",
+    "bg": "предмет",
+    "tr": "eşya / ders",
+    "translation": "nesne / eşya / konu / ders",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "предмет",
+      "çoğul": "предмети"
+    }
+  },
+  {
+    "word": "прилагателното",
+    "bg": "прилагателното",
+    "tr": "sıfat",
+    "translation": "sıfat (belirli)",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "прилагателно",
+      "çoğul": "прилагателни"
+    }
+  },
+  {
+    "word": "филийки",
+    "bg": "филийки",
+    "tr": "dilimler",
+    "translation": "ekmek dilimleri",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "филийка",
+      "çoğul": "филийки"
+    }
+  },
+  {
+    "word": "двама",
+    "bg": "двама",
+    "tr": "iki (erkek/kişi)",
+    "translation": "iki kişi (eril)",
+    "type": "zamir"
+  },
+  {
+    "word": "горещ",
+    "bg": "горещ",
+    "tr": "sıcak",
+    "translation": "sıcak / çok sıcak",
+    "type": "sıfat"
+  },
+  {
+    "word": "подходящо",
+    "bg": "подходящо",
+    "tr": "uygun",
+    "translation": "uygun / elverişli",
+    "type": "sıfat"
+  },
+  {
+    "word": "премеря",
+    "bg": "премеря",
+    "tr": "denemek / ölçmek",
+    "translation": "denemek (kıyafet vb.) / ölçmek (1. tekil)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "премеря",
+        "ти": "премериш",
+        "той/тя/то": "премери",
+        "ние": "премерим",
+        "вие": "премерите",
+        "те": "премерят"
+      }
+    }
+  },
+  {
+    "word": "продадат",
+    "bg": "продадат",
+    "tr": "satmak",
+    "translation": "satmak (3. çoğul)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "продам",
+        "ти": "продадеш",
+        "той/тя/то": "продаде",
+        "ние": "продадем",
+        "вие": "продадете",
+        "те": "продадат"
+      }
+    }
+  },
+  {
+    "word": "мебелния",
+    "bg": "мебелния",
+    "tr": "mobilya",
+    "translation": "mobilya ile ilgili (eril, kısa belirli)",
+    "type": "sıfat"
+  },
+  {
+    "word": "моето",
+    "bg": "моето",
+    "tr": "benimki",
+    "translation": "benimki (nötr)",
+    "type": "zamir"
+  },
+  {
+    "word": "платя",
+    "bg": "платя",
+    "tr": "ödemek",
+    "translation": "ödemek (1. tekil)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "платя",
+        "ти": "платиш",
+        "той/тя/то": "плати",
+        "ние": "платим",
+        "вие": "платите",
+        "те": "платят"
+      }
+    }
+  },
+  {
+    "word": "превоз",
+    "bg": "превоз",
+    "tr": "ulaşım",
+    "translation": "taşıma / ulaşım / nakliye",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "превоз",
+      "çoğul": "превози"
+    }
+  },
+  {
+    "word": "духа",
+    "bg": "духа",
+    "tr": "esiyor / üflüyor",
+    "translation": "esmek / üflemek (3. tekil)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "духам",
+        "ти": "духаш",
+        "той/тя/то": "духа",
+        "ние": "духаме",
+        "вие": "духате",
+        "те": "духат"
+      }
+    }
+  },
+  {
+    "word": "телешка",
+    "bg": "телешка",
+    "tr": "dana eti",
+    "translation": "danaya ait / dana etinden (dişil)",
+    "type": "sıfat"
+  },
+  {
+    "word": "разкажете",
+    "bg": "разкажете",
+    "tr": "anlatın",
+    "translation": "anlatmak (emir kipi / 2. çoğul)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "разкажа",
+        "ти": "разкажеш",
+        "той/тя/то": "разкаже",
+        "ние": "разкажем",
+        "вие": "разкажете",
+        "те": "разкажат"
+      }
+    }
+  },
+  {
+    "word": "шкафче",
+    "bg": "шкафче",
+    "tr": "küçük dolap",
+    "translation": "komodin / küçük dolap",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "шкафче",
+      "çoğul": "шкафчета"
+    }
+  },
+  {
+    "word": "спрежение",
+    "bg": "спрежение",
+    "tr": "fiil çekimi",
+    "translation": "çekim / fiil çekimi grubu",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "спрежение",
+      "çoğul": "спрежения"
+    }
+  },
+  {
+    "word": "спр",
+    "bg": "спр.",
+    "tr": "çekim (kısaltma)",
+    "translation": "fiil çekimi kısaltması",
+    "type": "isim"
+  },
+  {
+    "word": "гостната",
+    "bg": "гостната",
+    "tr": "misafir odası",
+    "translation": "oturma odası / misafir odası (belirli)",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "гостна",
+      "çoğul": "гостни"
+    }
+  },
+  {
+    "word": "разположена",
+    "bg": "разположена",
+    "tr": "konumlanmış",
+    "translation": "yerleşmiş / konuşlanmış (dişil)",
+    "type": "sıfat"
+  },
+  {
+    "word": "фотьойла",
+    "bg": "фотьойла",
+    "tr": "koltuk",
+    "translation": "koltuk (sayma/kısa belirli formu)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "фотьойл",
+      "çoğul": "фотьойли / фотьойла"
+    }
+  },
+  {
+    "word": "изложение",
+    "bg": "изложение",
+    "tr": "cephe / sergi",
+    "translation": "cephe (ev için) / sergi / anlatım",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "изложение",
+      "çoğul": "изложения"
+    }
+  },
+  {
+    "word": "висят",
+    "bg": "висят",
+    "tr": "asılı duruyorlar",
+    "translation": "asılı durmak / sarkmak (3. çoğul)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "вися",
+        "ти": "висиш",
+        "той/тя/то": "виси",
+        "ние": "висим",
+        "вие": "висите",
+        "те": "висят"
+      }
+    }
+  },
+  {
+    "word": "пода",
+    "bg": "пода",
+    "tr": "zemin",
+    "translation": "yer / zemin (kısa belirli/sayma formu)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "под",
+      "çoğul": "подове / пода"
+    }
+  },
+  {
+    "word": "бюфета",
+    "bg": "бюфета",
+    "tr": "büfe",
+    "translation": "büfeyi / büfe (belirli)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "бюфет",
+      "çoğul": "бюфети"
+    }
+  },
+  {
+    "word": "кухненските",
+    "bg": "кухненските",
+    "tr": "mutfak",
+    "translation": "mutfakla ilgili olanlar (belirli çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "сутерена",
+    "bg": "сутерена",
+    "tr": "bodrum katı",
+    "translation": "bodrum katını / bodrum katı (belirli)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "сутерен",
+      "çoğul": "сутерени"
+    }
+  },
+  {
+    "word": "освобождава",
+    "bg": "освобождава",
+    "tr": "serbest bırakıyor",
+    "translation": "serbest bırakıyor / boşaltıyor",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "освобождавам",
+        "ти": "освобождаваш",
+        "той/тя/то": "освобождава",
+        "ние": "освобождаваме",
+        "вие": "освобождавате",
+        "те": "освобождават"
+      }
+    }
+  },
+  {
+    "word": "интересен",
+    "bg": "интересен",
+    "tr": "ilginç",
+    "translation": "ilginç / enteresan",
+    "type": "sıfat"
+  },
+  {
+    "word": "държавните",
+    "bg": "държавните",
+    "tr": "devlet",
+    "translation": "devlete ait olanlar / kamusal (belirli çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "изпити",
+    "bg": "изпити",
+    "tr": "sınavlar",
+    "translation": "sınavlar",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "изпит",
+      "çoğul": "изпити"
+    }
+  },
+  {
+    "word": "петгодишно",
+    "bg": "петгодишно",
+    "tr": "beş yaşında",
+    "translation": "beş yaşında / beş yıllık (nötr)",
+    "type": "sıfat"
+  },
+  {
+    "word": "момиченце",
+    "bg": "момиченце",
+    "tr": "küçük kız",
+    "translation": "küçük kız çocuğu",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "момиченце",
+      "çoğul": "момиченца"
+    }
+  },
+  {
+    "word": "универсалния",
+    "bg": "универсалния",
+    "tr": "evrensel",
+    "translation": "evrensel / çok amaçlı (belirli eril)",
+    "type": "sıfat"
+  },
+  {
+    "word": "попитаме",
+    "bg": "попитаме",
+    "tr": "soralım",
+    "translation": "soralım / sorarsak",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "попитам",
+        "ти": "попиташ",
+        "той/тя/то": "попита",
+        "ние": "попитаме",
+        "вие": "попитате",
+        "те": "попитат"
+      }
+    }
+  },
+  {
+    "word": "природата",
+    "bg": "природата",
+    "tr": "doğa",
+    "translation": "doğa / doğayı (belirli)",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "природа",
+      "çoğul": "природи"
+    }
+  },
+  {
+    "word": "кара",
+    "bg": "кара",
+    "tr": "sürüyor",
+    "translation": "sürüyor / kullanıyor / yaptırıyor",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "карам",
+        "ти": "караш",
+        "той/тя/то": "кара",
+        "ние": "караме",
+        "вие": "карате",
+        "те": "карат"
+      }
+    }
+  },
+  {
+    "word": "навън",
+    "bg": "навън",
+    "tr": "dışarı",
+    "translation": "dışarı / dışarıda",
+    "type": "zarf"
+  },
+  {
+    "word": "температурата",
+    "bg": "температурата",
+    "tr": "sıcaklık",
+    "translation": "sıcaklık / sıcaklığı (belirli)",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "температура",
+      "çoğul": "температури"
+    }
+  },
+  {
+    "word": "нощес",
+    "bg": "нощес",
+    "tr": "dün gece",
+    "translation": "dün gece / bu gece",
+    "type": "zarf"
+  },
+  {
+    "word": "изобщо",
+    "bg": "изобщо",
+    "tr": "hiç",
+    "translation": "hiç / genel olarak / aslında",
+    "type": "zarf"
+  },
+  {
+    "word": "заливаше",
+    "bg": "заливаше",
+    "tr": "kaplıyordu",
+    "translation": "sular altında bırakıyordu / döküyordu",
+    "type": "fiil"
+  },
+  {
+    "word": "правили",
+    "bg": "правили",
+    "tr": "yaptılar",
+    "translation": "yapmış / yaptılar (çoğul geçmiş zaman)",
+    "type": "fiil"
+  },
+  {
+    "word": "лектори",
+    "bg": "лектори",
+    "tr": "okutmanlar",
+    "translation": "okutmanlar / eğitmenler",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "лектор",
+      "çoğul": "лектори"
+    }
+  },
+  {
+    "word": "закачени",
+    "bg": "закачени",
+    "tr": "asılmış",
+    "translation": "asılmış / iliştirilmiş (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "материал",
+    "bg": "материал",
+    "tr": "malzeme",
+    "translation": "malzeme / materyal",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "материал",
+      "çoğul": "материали"
+    }
+  },
+  {
+    "word": "изречение",
+    "bg": "изречение",
+    "tr": "cümle",
+    "translation": "cümle",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "изречение",
+      "çoğul": "изречения"
+    }
+  },
+  {
+    "word": "пълния",
+    "bg": "пълния",
+    "tr": "dolu",
+    "translation": "dolu / tam (belirli eril)",
+    "type": "sıfat"
+  },
+  {
+    "word": "превод",
+    "bg": "превод",
+    "tr": "çeviri",
+    "translation": "çeviri / tercüme",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "превод",
+      "çoğul": "преводи"
+    }
+  },
+  {
+    "word": "примери",
+    "bg": "примери",
+    "tr": "örnekler",
+    "translation": "örnekler",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "пример",
+      "çoğul": "примери"
+    }
+  },
+  {
+    "word": "зеленчукова",
+    "bg": "зеленчукова",
+    "tr": "sebzeli",
+    "translation": "sebze / sebzeli (dişil)",
+    "type": "sıfat"
+  },
+  {
+    "word": "топчета",
+    "bg": "топчета",
+    "tr": "küçük toplar",
+    "translation": "küçük toplar / misketler / köftecikler",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "топче",
+      "çoğul": "топчета"
+    }
+  },
+  {
+    "word": "университетския",
+    "bg": "университетския",
+    "tr": "üniversite",
+    "translation": "üniversiteye ait / üniversite (belirli eril)",
+    "type": "sıfat"
+  },
+  {
+    "word": "ректората",
+    "bg": "ректората",
+    "tr": "rektörlük",
+    "translation": "rektörlük / rektörlüğü (belirli)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "ректорат",
+      "çoğul": "ректорати"
+    }
+  },
+  {
+    "word": "слизат",
+    "bg": "слизат",
+    "tr": "iniyorlar",
+    "translation": "iniyorlar / aşağı iniyorlar",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "слизам",
+        "ти": "слизаш",
+        "той/тя/то": "слиза",
+        "ние": "слизаме",
+        "вие": "слизате",
+        "те": "слизат"
+      }
+    }
+  },
+  {
+    "word": "нахранят",
+    "bg": "нахранят",
+    "tr": "doyursunlar",
+    "translation": "beslesinler / doyursunlar",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "нахраня",
+        "ти": "нахраниш",
+        "той/тя/то": "нахрани",
+        "ние": "нахраним",
+        "вие": "нахраните",
+        "те": "нахранят"
+      }
+    }
+  },
+  {
+    "word": "изпиват",
+    "bg": "изпиват",
+    "tr": "içiyorlar",
+    "translation": "içip bitiriyorlar / içiyorlar",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "изпивам",
+        "ти": "изпиваш",
+        "той/тя/то": "изпива",
+        "ние": "изпиваме",
+        "вие": "изпивате",
+        "те": "изпиват"
+      }
+    }
+  },
+  {
+    "word": "ядене",
+    "bg": "ядене",
+    "tr": "yemek",
+    "translation": "yemek / yeme eylemi",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "ядене",
+      "çoğul": "ядения"
+    }
+  },
+  {
+    "word": "реда",
+    "bg": "реда",
+    "tr": "sıra",
+    "translation": "sıra / düzen / sırayı (belirli)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "ред",
+      "çoğul": "редове"
+    }
+  },
+  {
+    "word": "помогне",
+    "bg": "помогне",
+    "tr": "yardım etsin",
+    "translation": "yardım etsin / yardım eder",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "помогна",
+        "ти": "помогнеш",
+        "той/тя/то": "помогне",
+        "ние": "помогнем",
+        "вие": "помогнете",
+        "те": "помогнат"
+      }
+    }
+  },
+  {
+    "word": "яденето",
+    "bg": "яденето",
+    "tr": "yemek",
+    "translation": "yemek / yemeği (belirli)",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "ядене",
+      "çoğul": "ядения"
+    }
+  },
+  {
+    "word": "бисквити",
+    "bg": "бисквити",
+    "tr": "bisküviler",
+    "translation": "bisküviler",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "бисквита",
+      "çoğul": "бисквити"
+    }
+  },
+  {
+    "word": "физически",
+    "bg": "физически",
+    "tr": "fiziksel",
+    "translation": "fiziksel / bedensel",
+    "type": "sıfat"
+  },
+  {
+    "word": "оценка",
+    "bg": "оценка",
+    "tr": "not",
+    "translation": "not / değerlendirme / puan",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "оценка",
+      "çoğul": "оценки"
+    }
+  },
+  {
+    "word": "решите",
+    "bg": "решите",
+    "tr": "karar verirsiniz",
+    "translation": "karar verirsiniz / çözersiniz",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "реша",
+        "ти": "решиш",
+        "той/тя/то": "реши",
+        "ние": "решим",
+        "вие": "решите",
+        "те": "решат"
+      }
+    }
+  },
+  {
+    "word": "намалени",
+    "bg": "намалени",
+    "tr": "indirimli",
+    "translation": "indirimli / azaltılmış (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "съжалявайте",
+    "bg": "съжалявайте",
+    "tr": "üzülün",
+    "translation": "üzülün / pişman olun (emir kipi)",
+    "type": "fiil"
+  },
+  {
+    "word": "италиански",
+    "bg": "италиански",
+    "tr": "İtalyanca",
+    "translation": "İtalyanca / İtalyan",
+    "type": "sıfat"
+  },
+  {
+    "word": "облаци",
+    "bg": "облаци",
+    "tr": "bulutlar",
+    "translation": "bulutlar",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "облак",
+      "çoğul": "облаци"
+    }
+  },
+  {
+    "word": "духат",
+    "bg": "духат",
+    "tr": "esiyorlar",
+    "translation": "esiyorlar / üflüyorlar",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "духам",
+        "ти": "духаш",
+        "той/тя/то": "духа",
+        "ние": "духаме",
+        "вие": "духате",
+        "те": "духат"
+      }
+    }
+  },
+  {
+    "word": "ветрове",
+    "bg": "ветрове",
+    "tr": "rüzgarlar",
+    "translation": "rüzgarlar",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "вятър",
+      "çoğul": "ветрове"
+    }
+  },
+  {
+    "word": "птици",
+    "bg": "птици",
+    "tr": "kuşlar",
+    "translation": "kuşlar",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "птица",
+      "çoğul": "птици"
+    }
+  },
+  {
+    "word": "силно",
+    "bg": "силно",
+    "tr": "güçlü",
+    "translation": "güçlü bir şekilde / şiddetle",
+    "type": "zarf"
+  },
+  {
+    "word": "листа",
+    "bg": "листа",
+    "tr": "yapraklar",
+    "translation": "yapraklar / sayfalar",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "лист",
+      "çoğul": "листа"
+    }
+  },
+  {
+    "word": "учебници",
+    "bg": "учебници",
+    "tr": "ders kitapları",
+    "translation": "ders kitapları",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "учебник",
+      "çoğul": "учебници"
+    }
+  },
+  {
+    "word": "шофьорска",
+    "bg": "шофьорска",
+    "tr": "sürücü / şoför (dişil)",
+    "translation": "sürücü / şoför (örn. sürücü belgesi)",
+    "type": "sıfat"
+  },
+  {
+    "word": "премерете",
+    "bg": "премерете",
+    "tr": "ölçün / deneyin",
+    "translation": "ölçün / (kıyafet) deneyin (emir kipi, 2. çoğul)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "премеря",
+        "ти": "премериш",
+        "той/тя/то": "премери",
+        "ние": "премерим",
+        "вие": "премерите",
+        "те": "премерят"
+      }
+    }
+  },
+  {
+    "word": "медальон",
+    "bg": "медальон",
+    "tr": "madalyon",
+    "translation": "madalyon / kolye ucu",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "медальон",
+      "çoğul": "медальони"
+    }
+  },
+  {
+    "word": "жа",
+    "bg": "жа",
+    "tr": "-ecek / -acak (halk ağzı)",
+    "translation": "gelecek zaman eki (ще yerine halk ağzı)",
+    "type": "parçacık"
+  },
+  {
+    "word": "граматичните",
+    "bg": "граматичните",
+    "tr": "dilbilgisel / gramer (belirli, çoğul)",
+    "translation": "gramer ile ilgili olanlar",
+    "type": "sıfat"
+  },
+  {
+    "word": "правила",
+    "bg": "правила",
+    "tr": "kurallar",
+    "translation": "kurallar",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "правило",
+      "çoğul": "правила"
+    }
+  },
+  {
+    "word": "обяснени",
+    "bg": "обяснени",
+    "tr": "açıklanmış",
+    "translation": "açıklanmış / izah edilmiş (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "таблите",
+    "bg": "таблите",
+    "tr": "tepsiler / tavlalar (belirli)",
+    "translation": "tepsiler / tavla tahtaları",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "табла",
+      "çoğul": "табли"
+    }
+  },
+  {
+    "word": "сбогуват",
+    "bg": "сбогуват",
+    "tr": "vedalaşıyorlar",
+    "translation": "vedalaşıyorlar / hoşça kal diyorlar (3. çoğul)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "сбогувам се",
+        "ти": "сбогуваш се",
+        "той/тя/то": "сбогува се",
+        "ние": "сбогуваме се",
+        "вие": "сбогувате се",
+        "те": "сбогуват се"
+      }
+    }
+  },
+  {
+    "word": "сватбата",
+    "bg": "сватбата",
+    "tr": "düğün (belirli)",
+    "translation": "düğün",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "сватба",
+      "çoğul": "сватби"
+    }
+  },
+  {
+    "word": "навършват",
+    "bg": "навършват",
+    "tr": "dolduruyorlar (yaş/süre)",
+    "translation": "(yaşını/süreyi) dolduruyorlar, tamamlıyorlar (3. çoğul)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "навършвам",
+        "ти": "навършваш",
+        "той/тя/то": "навършва",
+        "ние": "навършваме",
+        "вие": "навършвате",
+        "те": "навършват"
+      }
+    }
+  },
+  {
+    "word": "оженили",
+    "bg": "оженили",
+    "tr": "evlenmişler",
+    "translation": "evlenmişler / evlenmiş olanlar (çoğul geçmiş zaman sıfat-fiili)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "оженя се",
+        "ти": "ожениш се",
+        "той/тя/то": "ожени се",
+        "ние": "оженим се",
+        "вие": "ожените се",
+        "те": "оженят се"
+      }
+    }
+  },
+  {
+    "word": "поздравиха",
+    "bg": "поздравиха",
+    "tr": "selamladılar / tebrik ettiler",
+    "translation": "selamladılar / tebrik ettiler (geçmiş zaman, 3. çoğul)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "поздравя",
+        "ти": "поздравиш",
+        "той/тя/то": "поздрави",
+        "ние": "поздравим",
+        "вие": "поздравите",
+        "те": "поздравят"
+      }
+    }
+  },
+  {
+    "word": "главният",
+    "bg": "главният",
+    "tr": "ana / başlıca / esas (tam belirli, eril)",
+    "translation": "ana / başlıca / baş",
+    "type": "sıfat"
+  },
+  {
+    "word": "явно",
+    "bg": "явно",
+    "tr": "belli ki / açıkça",
+    "translation": "belli ki / görünüşe göre / açıkça",
+    "type": "zarf"
+  },
+  {
+    "word": "харесваше",
+    "bg": "харесваше",
+    "tr": "beğeniyordu / hoşlanıyordu",
+    "translation": "beğeniyordu / hoşlanıyordu (şimdiki zamanın hikayesi, 3. tekil)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "харесвам",
+        "ти": "харесваш",
+        "той/тя/то": "харесва",
+        "ние": "харесваме",
+        "вие": "харесвате",
+        "те": "харесват"
+      }
+    }
+  },
+  {
+    "word": "кавалерите",
+    "bg": "кавалерите",
+    "tr": "kavalyeler / centilmenler (belirli)",
+    "translation": "kavalyeler / beyler",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "кавалер",
+      "çoğul": "кавалери"
+    }
+  },
+  {
+    "word": "салфетки",
+    "bg": "салфетки",
+    "tr": "peçeteler",
+    "translation": "peçeteler",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "салфетка",
+      "çoğul": "салфетки"
+    }
+  },
+  {
+    "word": "шампанско",
+    "bg": "шампанско",
+    "tr": "şampanya",
+    "translation": "şampanya",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "шампанско",
+      "çoğul": "шампански"
+    }
+  },
+  {
+    "word": "мелба",
+    "bg": "мелба",
+    "tr": "dondurma kupası / melba",
+    "translation": "meyveli dondurma kupası",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "мелба",
+      "çoğul": "мелби"
+    }
+  },
+  {
+    "word": "живота",
+    "bg": "живота",
+    "tr": "hayat / yaşam (kısa belirli)",
+    "translation": "hayatı / yaşamı",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "живот",
+      "çoğul": "животи"
+    }
+  },
+  {
+    "word": "смяха",
+    "bg": "смяха",
+    "tr": "gülüş / kahkaha (kısa belirli)",
+    "translation": "kahkahayı / gülüşü",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "смях",
+      "çoğul": "смехове"
+    }
+  },
+  {
+    "word": "помнят",
+    "bg": "помнят",
+    "tr": "hatırlıyorlar",
+    "translation": "hatırlıyorlar / anımsıyorlar (3. çoğul)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "помня",
+        "ти": "помниш",
+        "той/тя/то": "помни",
+        "ние": "помним",
+        "вие": "помните",
+        "те": "помнят"
+      }
+    }
+  },
+  {
+    "word": "пазаруване",
+    "bg": "пазаруване",
+    "tr": "alışveriş",
+    "translation": "alışveriş yapma / alışveriş",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "пазаруване",
+      "çoğul": "пазарувания"
+    }
+  },
+  {
+    "word": "последна",
+    "bg": "последна",
+    "tr": "son (dişil)",
+    "translation": "son / sonuncu",
+    "type": "sıfat"
+  },
+  {
+    "word": "последната",
+    "bg": "последната",
+    "tr": "son / sonuncu (belirli, dişil)",
+    "translation": "sonuncusu / son olan",
+    "type": "sıfat"
+  },
+  {
+    "word": "саламандър",
+    "bg": "саламандър",
+    "tr": "semender",
+    "translation": "semender",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "саламандър",
+      "çoğul": "саламандри"
+    }
+  },
+  {
+    "word": "подходящи",
+    "bg": "подходящи",
+    "tr": "uygun / elverişli (çoğul)",
+    "translation": "uygun / elverişli",
+    "type": "sıfat"
+  },
+  {
+    "word": "момченца",
+    "bg": "момченца",
+    "tr": "küçük erkek çocukları",
+    "translation": "küçük oğlanlar",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "момченце",
+      "çoğul": "момченца"
+    }
+  },
+  {
+    "word": "помня",
+    "bg": "помня",
+    "tr": "hatırlıyorum",
+    "translation": "hatırlıyorum / anımsıyorum (1. tekil)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "помня",
+        "ти": "помниш",
+        "той/тя/то": "помни",
+        "ние": "помним",
+        "вие": "помните",
+        "те": "помнят"
+      }
+    }
+  },
+  {
+    "word": "точно",
+    "bg": "точно",
+    "tr": "tam olarak / aynen",
+    "translation": "tam / tam olarak / kesinlikle",
+    "type": "zarf"
+  },
+  {
+    "word": "облегалка",
+    "bg": "облегалка",
+    "tr": "arkalık / sırtlık",
+    "translation": "arkalık / koltuk arkalığı",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "облегалка",
+      "çoğul": "облегалки"
+    }
+  },
+  {
+    "word": "подходящ",
+    "bg": "подходящ",
+    "tr": "uygun / münasip (eril)",
+    "translation": "uygun / elverişli",
+    "type": "sıfat"
+  },
+  {
+    "word": "кожен",
+    "bg": "кожен",
+    "tr": "deri / deriden yapılmış (eril)",
+    "translation": "deri",
+    "type": "sıfat"
+  },
+  {
+    "word": "готово",
+    "bg": "готово",
+    "tr": "hazır / tamam",
+    "translation": "hazır / tamamlandı",
+    "type": "sıfat"
+  },
+  {
+    "word": "снегът",
+    "bg": "снегът",
+    "tr": "kar (tam belirli)",
+    "translation": "kar",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "сняг",
+      "çoğul": "снегове"
+    }
+  },
+  {
+    "word": "зеленина",
+    "bg": "зеленина",
+    "tr": "yeşillik",
+    "translation": "yeşillik / yeşil bitki örtüsü",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "зеленина",
+      "çoğul": "зеленини"
+    }
+  },
+  {
+    "word": "багрите",
+    "bg": "багрите",
+    "tr": "renkler / tonlar (belirli)",
+    "translation": "renkler / boyalar",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "багра",
+      "çoğul": "багри"
+    }
+  },
+  {
+    "word": "свети",
+    "bg": "свети",
+    "tr": "parlıyor / ışık saçıyor",
+    "translation": "parlıyor / ışık veriyor (3. tekil)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "светя",
+        "ти": "светиш",
+        "той/тя/то": "свети",
+        "ние": "светим",
+        "вие": "светите",
+        "те": "светят"
+      }
+    }
+  },
+  {
+    "word": "обучавам",
+    "bg": "обучавам",
+    "tr": "eğitiyorum / öğretiyorum",
+    "translation": "eğitiyorum / yetiştiriyorum (1. tekil)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "обучавам",
+        "ти": "обучаваш",
+        "той/тя/то": "обучава",
+        "ние": "обучаваме",
+        "вие": "обучавате",
+        "те": "обучават"
+      }
+    }
+  },
+  {
+    "word": "езика",
+    "bg": "езика",
+    "tr": "dil (kısa belirli)",
+    "translation": "dili / lisanı",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "език",
+      "çoğul": "езици"
+    }
+  },
+  {
+    "word": "книжка",
+    "bg": "книжка",
+    "tr": "küçük kitap / ehliyet / cüzdan",
+    "translation": "küçük kitap / sürücü belgesi (шофьорска книжка)",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "книжка",
+      "çoğul": "книжки"
+    }
+  },
+  {
+    "word": "магданоз",
+    "bg": "магданоз",
+    "tr": "maydanoz",
+    "translation": "maydanoz",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "магданоз",
+      "çoğul": "магданози"
+    }
+  },
+  {
+    "word": "хранителни",
+    "bg": "хранителни",
+    "tr": "gıda / besin ile ilgili (çoğul)",
+    "translation": "gıda / besleyici (örn. хранителни стоки - gıda ürünleri)",
+    "type": "sıfat"
+  },
+  {
+    "word": "чушки",
+    "bg": "чушки",
+    "tr": "biberler",
+    "translation": "biberler",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "чушка",
+      "çoğul": "чушки"
+    }
+  },
+  {
+    "word": "петдесет",
+    "bg": "петдесет",
+    "tr": "elli (50)",
+    "translation": "elli",
+    "type": "sıfat"
+  },
+  {
+    "word": "предпочитан",
+    "bg": "предпочитан",
+    "tr": "tercih edilen",
+    "translation": "tercih edilen, gözde",
+    "type": "sıfat",
+    "gender": "eril"
+  },
+  {
+    "word": "мой",
+    "bg": "мой",
+    "tr": "benim",
+    "translation": "benim",
+    "type": "zamir",
+    "gender": "eril"
+  },
+  {
+    "word": "тръгнал",
+    "bg": "тръгнал",
+    "tr": "yola çıkmış",
+    "translation": "yola çıkmış, hareket etmiş",
+    "type": "sıfat",
+    "gender": "eril"
+  },
+  {
+    "word": "пазара",
+    "bg": "пазара",
+    "tr": "pazarı",
+    "translation": "pazar / pazarı (belirli)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "пазар",
+      "çoğul": "пазари"
+    }
+  },
+  {
+    "word": "цени",
+    "bg": "цени",
+    "tr": "fiyatlar",
+    "translation": "fiyatlar",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "цена",
+      "çoğul": "цени"
+    }
+  },
+  {
+    "word": "елегантни",
+    "bg": "елегантни",
+    "tr": "zarif",
+    "translation": "zarif, şık (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "моделът",
+    "bg": "моделът",
+    "tr": "model",
+    "translation": "model (belirli tam hâl)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "модел",
+      "çoğul": "модели"
+    }
+  },
+  {
+    "word": "ярък",
+    "bg": "ярък",
+    "tr": "parlak",
+    "translation": "parlak, canlı",
+    "type": "sıfat",
+    "gender": "eril"
+  },
+  {
+    "word": "касовата",
+    "bg": "касовата",
+    "tr": "kasa (belirli)",
+    "translation": "kasa ile ilgili / kasa fişi",
+    "type": "sıfat",
+    "gender": "dişil"
+  },
+  {
+    "word": "дамски",
+    "bg": "дамски",
+    "tr": "kadın",
+    "translation": "kadın, bayanlara ait",
+    "type": "sıfat",
+    "gender": "eril"
+  },
+  {
+    "word": "мерино",
+    "bg": "мерино",
+    "tr": "merinos",
+    "translation": "merinos (yünü)",
+    "type": "isim",
+    "gender": "nötr"
+  },
+  {
+    "word": "затворените",
+    "bg": "затворените",
+    "tr": "kapalılar",
+    "translation": "kapalı olanlar (belirli)",
+    "type": "sıfat"
+  },
+  {
+    "word": "висок",
+    "bg": "висок",
+    "tr": "yüksek",
+    "translation": "yüksek / uzun boylu",
+    "type": "sıfat",
+    "gender": "eril"
+  },
+  {
+    "word": "ток",
+    "bg": "ток",
+    "tr": "topuk",
+    "translation": "topuk / elektrik akımı",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "ток",
+      "çoğul": "токове"
+    }
+  },
+  {
+    "word": "стягат",
+    "bg": "стягат",
+    "tr": "sıkıyorlar",
+    "translation": "sıkıyorlar / dar geliyorlar",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "стягам",
+        "ти": "стягаш",
+        "той/тя/то": "стяга",
+        "ние": "стягаме",
+        "вие": "стягате",
+        "те": "стягат"
+      }
+    }
+  },
+  {
+    "word": "евтини",
+    "bg": "евтини",
+    "tr": "ucuz",
+    "translation": "ucuz (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "дано",
+    "bg": "дано",
+    "tr": "inşallah",
+    "translation": "inşallah / umarım / keşke",
+    "type": "parçacık"
+  },
+  {
+    "word": "сухо",
+    "bg": "сухо",
+    "tr": "kuru",
+    "translation": "kuru",
+    "type": "sıfat",
+    "gender": "nötr"
+  },
+  {
+    "word": "отпуск",
+    "bg": "отпуск",
+    "tr": "izin",
+    "translation": "izin, tatil",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "отпуск",
+      "çoğul": "отпуски"
+    }
+  },
+  {
+    "word": "студентското",
+    "bg": "студентското",
+    "tr": "öğrenci (belirli)",
+    "translation": "öğrenciye ait olan (belirli)",
+    "type": "sıfat",
+    "gender": "nötr"
+  },
+  {
+    "word": "изберете",
+    "bg": "изберете",
+    "tr": "seçin",
+    "translation": "seçin / seçersiniz (emir veya çoğul)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "избера",
+        "ти": "избереш",
+        "той/тя/то": "избере",
+        "ние": "изберем",
+        "вие": "изберете",
+        "те": "изберат"
+      }
+    }
+  },
+  {
+    "word": "говорещия",
+    "bg": "говорещия",
+    "tr": "konuşan",
+    "translation": "konuşan (belirli kısa hâl)",
+    "type": "sıfat",
+    "gender": "eril"
+  },
+  {
+    "word": "именни",
+    "bg": "именни",
+    "tr": "isim...",
+    "translation": "isimle ilgili, ad...",
+    "type": "sıfat"
+  },
+  {
+    "word": "словосъчетания",
+    "bg": "словосъчетания",
+    "tr": "sözcük öbekleri",
+    "translation": "sözcük öbekleri, kelime tamlamaları",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "словосъчетание",
+      "çoğul": "словосъчетания"
+    }
+  },
+  {
+    "word": "обзаведена",
+    "bg": "обзаведена",
+    "tr": "döşenmiş",
+    "translation": "mobilyalı, döşenmiş",
+    "type": "sıfat",
+    "gender": "dişil"
+  },
+  {
+    "word": "диалога",
+    "bg": "диалога",
+    "tr": "diyaloğu",
+    "translation": "diyalog / diyaloğu (belirli)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "диалог",
+      "çoğul": "диалози"
+    }
+  },
+  {
+    "word": "нейната",
+    "bg": "нейната",
+    "tr": "onun",
+    "translation": "onun (dişil nesne için belirli)",
+    "type": "zamir",
+    "gender": "dişil"
+  },
+  {
+    "word": "филоложка",
+    "bg": "филоложка",
+    "tr": "kadın filolog",
+    "translation": "kadın filolog, dilbilimci",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "филоложка",
+      "çoğul": "филоложки"
+    }
+  },
+  {
+    "word": "родина",
+    "bg": "родина",
+    "tr": "vatan",
+    "translation": "vatan, anavatan",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "родина",
+      "çoğul": "родини"
+    }
+  },
+  {
+    "word": "журналисти",
+    "bg": "журналисти",
+    "tr": "gazeteciler",
+    "translation": "gazeteciler",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "журналист",
+      "çoğul": "журналисти"
+    }
+  },
+  {
+    "word": "области",
+    "bg": "области",
+    "tr": "alanlar",
+    "translation": "bölgeler, alanlar, sahalar",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "област",
+      "çoğul": "области"
+    }
+  },
+  {
+    "word": "науката",
+    "bg": "науката",
+    "tr": "bilim",
+    "translation": "bilim (belirli)",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "наука",
+      "çoğul": "науки"
+    }
+  },
+  {
+    "word": "изкуствата",
+    "bg": "изкуствата",
+    "tr": "sanatlar",
+    "translation": "sanatlar (belirli)",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "изкуство",
+      "çoğul": "изкуства"
+    }
+  },
+  {
+    "word": "учреждения",
+    "bg": "учреждения",
+    "tr": "kurumlar",
+    "translation": "kurumlar, kuruluşlar, resmi daireler",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "учреждение",
+      "çoğul": "учреждения"
+    }
+  },
+  {
+    "word": "фабрики",
+    "bg": "фабрики",
+    "tr": "fabrikalar",
+    "translation": "fabrikalar",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "фабрика",
+      "çoğul": "фабрики"
+    }
+  },
+  {
+    "word": "сфери",
+    "bg": "сфери",
+    "tr": "küreler",
+    "translation": "alanlar, sektörler, küreler",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "сфера",
+      "çoğul": "сфери"
+    }
+  },
+  {
+    "word": "производството",
+    "bg": "производството",
+    "tr": "üretim",
+    "translation": "üretim, imalat (belirli)",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "производство",
+      "çoğul": "производства"
+    }
+  },
+  {
+    "word": "книжовния",
+    "bg": "книжовния",
+    "tr": "edebi",
+    "translation": "yazı diliyle ilgili, edebi (belirli)",
+    "type": "sıfat",
+    "gender": "eril"
+  },
+  {
+    "word": "намеря",
+    "bg": "намеря",
+    "tr": "bulmak",
+    "translation": "bulayım / bulmak",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "намеря",
+        "ти": "намериш",
+        "той/тя/то": "намери",
+        "ние": "намерим",
+        "вие": "намерите",
+        "те": "намерят"
+      }
+    }
+  },
+  {
+    "word": "всекидневни",
+    "bg": "всекидневни",
+    "tr": "günlük",
+    "translation": "günlük, gündelik",
+    "type": "sıfat"
+  },
+  {
+    "word": "едните",
+    "bg": "едните",
+    "tr": "birileri",
+    "translation": "birileri, bir kısmı, bazıları (belirli)",
+    "type": "zamir"
+  },
+  {
+    "word": "ревери",
+    "bg": "ревери",
+    "tr": "yakalar",
+    "translation": "ceket yakaları, klapalar",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "ревер",
+      "çoğul": "ревери"
+    }
+  },
+  {
+    "word": "двуреден",
+    "bg": "двуреден",
+    "tr": "kruvaze",
+    "translation": "çift sıra düğmeli, kruvaze",
+    "type": "sıfat",
+    "gender": "eril"
+  },
+  {
+    "word": "пробната",
+    "bg": "пробната",
+    "tr": "deneme kabini",
+    "translation": "deneme kabini (belirli)",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "пробна",
+      "çoğul": "пробни"
+    }
+  },
+  {
+    "word": "стяга",
+    "bg": "стяга",
+    "tr": "sıkıyor",
+    "translation": "sıkıyor / dar geliyor / toparlıyor",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "стягам",
+        "ти": "стягаш",
+        "той/тя/то": "стяга",
+        "ние": "стягаме",
+        "вие": "стягате",
+        "те": "стягат"
+      }
+    }
+  },
+  {
+    "word": "мачка",
+    "bg": "мачка",
+    "tr": "buruşturur",
+    "translation": "buruşturuyor, eziyor",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "мачкам",
+        "ти": "мачкаш",
+        "той/тя/то": "мачка",
+        "ние": "мачкаме",
+        "вие": "мачкате",
+        "те": "мачкат"
+      }
+    }
+  },
+  {
+    "word": "бележка",
+    "bg": "бележка",
+    "tr": "not",
+    "translation": "not, fiş, makbuz",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "бележка",
+      "çoğul": "бележки"
+    }
+  },
+  {
+    "word": "блузи",
+    "bg": "блузи",
+    "tr": "bluzlar",
+    "translation": "bluzlar",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "блуза",
+      "çoğul": "блузи"
+    }
+  },
+  {
+    "word": "получихме",
+    "bg": "получихме",
+    "tr": "aldık",
+    "translation": "aldık, teslim aldık (geçmiş zaman)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "получа",
+        "ти": "получиш",
+        "той/тя/то": "получи",
+        "ние": "получим",
+        "вие": "получите",
+        "те": "получат"
+      }
+    }
+  },
+  {
+    "word": "преоценени",
+    "bg": "преоценени",
+    "tr": "indirime girmiş / yeniden değerlendirilmiş",
+    "translation": "indirime girmiş, fiyatı düşürülmüş (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "редно",
+    "bg": "редно",
+    "tr": "uygun / yerinde",
+    "translation": "uygun, doğru, yerinde",
+    "type": "sıfat"
+  },
+  {
+    "word": "прелетните",
+    "bg": "прелетните",
+    "tr": "göçmen (belirli çoğul)",
+    "translation": "göçmen (kuşlar vb. için, belirli çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "понасям",
+    "bg": "понасям",
+    "tr": "katlanmak / dayanmak",
+    "translation": "katlanmak, tahammül etmek",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "понасям",
+        "ти": "понасяш",
+        "той/тя/то": "понася",
+        "ние": "понасяме",
+        "вие": "понасяте",
+        "те": "понасят"
+      }
+    }
+  },
+  {
+    "word": "карам",
+    "bg": "карам",
+    "tr": "sürmek / kullanmak",
+    "translation": "araç sürmek, kullanmak; zorlamak",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "карам",
+        "ти": "караш",
+        "той/тя/то": "кара",
+        "ние": "караме",
+        "вие": "карате",
+        "те": "карат"
+      }
+    }
+  },
+  {
+    "word": "наклонението",
+    "bg": "наклонението",
+    "tr": "kip (belirli)",
+    "translation": "dilbilgisinde kip (belirli biçim)",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "наклонение",
+      "çoğul": "наклонения"
+    }
+  },
+  {
+    "word": "отношението",
+    "bg": "отношението",
+    "tr": "tutum / ilişki (belirli)",
+    "translation": "tutum, ilişki, münasebet (belirli biçim)",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "отношение",
+      "çoğul": "отношения"
+    }
+  },
+  {
+    "word": "говорещото",
+    "bg": "говорещото",
+    "tr": "konuşan (nötr belirli)",
+    "translation": "konuşan (nötr belirli ortaç/sıfat)",
+    "type": "sıfat"
+  },
+  {
+    "word": "изказаното",
+    "bg": "изказаното",
+    "tr": "ifade edilen / söylenen (nötr belirli)",
+    "translation": "ifade edilen, dile getirilen (belirli nötr)",
+    "type": "sıfat"
+  },
+  {
+    "word": "говорещият",
+    "bg": "говорещият",
+    "tr": "konuşan (eril tam belirli)",
+    "translation": "konuşan kişi (eril tam belirli ortaç/sıfat)",
+    "type": "sıfat"
+  },
+  {
+    "word": "изисква",
+    "bg": "изисква",
+    "tr": "gerektirir / talep eder",
+    "translation": "gerektirmek, talep etmek (3. tekil şahıs)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "изисквам",
+        "ти": "изискваш",
+        "той/тя/то": "изисква",
+        "ние": "изискваме",
+        "вие": "изисквате",
+        "те": "изискват"
+      }
+    }
+  },
+  {
+    "word": "извършването",
+    "bg": "извършването",
+    "tr": "gerçekleştirme / yapma (belirli)",
+    "translation": "yerine getirme, icra etme (belirli biçim)",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "извършване",
+      "çoğul": "извършвания"
+    }
+  },
+  {
+    "word": "повелително",
+    "bg": "повелително",
+    "tr": "emir kipi / buyurgan (nötr)",
+    "translation": "emir şeklinde, buyurgan (nötr)",
+    "type": "sıfat"
+  },
+  {
+    "word": "повелителното",
+    "bg": "повелителното",
+    "tr": "emir kipi (nötr belirli)",
+    "translation": "emir kipi (belirli nötr)",
+    "type": "sıfat"
+  },
+  {
+    "word": "повелителна",
+    "bg": "повелителна",
+    "tr": "emir / buyurgan (dişil)",
+    "translation": "buyurgan, emir niteliğinde (dişil)",
+    "type": "sıfat"
+  },
+  {
+    "word": "глаголна",
+    "bg": "глаголна",
+    "tr": "fiilsel / fiile ait (dişil)",
+    "translation": "fiilsel, fiile ait (dişil)",
+    "type": "sıfat"
+  },
+  {
+    "word": "граматични",
+    "bg": "граматични",
+    "tr": "dilbilgisel / gramatik (çoğul)",
+    "translation": "gramatik, dilbilgisel (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "показатели",
+    "bg": "показатели",
+    "tr": "göstergeler / parametreler",
+    "translation": "göstergeler, işaretler (çoğul)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "показател",
+      "çoğul": "показатели"
+    }
+  },
+  {
+    "word": "определеност",
+    "bg": "определеност",
+    "tr": "belirlilik / kesinlik",
+    "translation": "belirlilik, netlik",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "определеност",
+      "çoğul": "определености"
+    }
+  },
+  {
+    "word": "предметът",
+    "bg": "предметът",
+    "tr": "nesne / ders / konu (tam belirli)",
+    "translation": "nesne, eşya, ders (eril tam belirli biçim)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "предмет",
+      "çoğul": "предмети"
+    }
+  },
+  {
+    "word": "студентско",
+    "bg": "студентско",
+    "tr": "öğrenciye ait (nötr)",
+    "translation": "öğrenci, üniversite öğrencisine ait (nötr)",
+    "type": "sıfat"
+  },
+  {
+    "word": "студентски",
+    "bg": "студентски",
+    "tr": "öğrenciye ait (eril/çoğul)",
+    "translation": "öğrenciye ait, öğrenci işi",
+    "type": "sıfat"
+  },
+  {
+    "word": "обзавеждането",
+    "bg": "обзавеждането",
+    "tr": "mobilya / tefrişat (belirli)",
+    "translation": "mobilya takımı, döşeme (belirli nötr)",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "обзавеждане",
+      "çoğul": "обзавеждания"
+    }
+  },
+  {
+    "word": "спално",
+    "bg": "спално",
+    "tr": "yatak / yatak odasına ait (nötr)",
+    "translation": "yatak odasına ait, uyku için (nötr)",
+    "type": "sıfat"
+  },
+  {
+    "word": "ръка",
+    "bg": "ръка",
+    "tr": "el / kol",
+    "translation": "el, kol",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "ръка",
+      "çoğul": "ръце"
+    }
+  },
+  {
+    "word": "заповядай",
+    "bg": "заповядай",
+    "tr": "buyur",
+    "translation": "buyur, emret (emir kipi 2. tekil)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "заповядвам",
+        "ти": "заповядваш",
+        "той/тя/то": "заповядва",
+        "ние": "заповядваме",
+        "вие": "заповядвате",
+        "те": "заповядват"
+      }
+    }
+  },
+  {
+    "word": "уговорим",
+    "bg": "уговорим",
+    "tr": "anlaşalım / kararlaştıralım",
+    "translation": "kararlaştırmak, anlaşmak (1. çoğul şahıs)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "уговоря",
+        "ти": "уговориш",
+        "той/тя/то": "уговори",
+        "ние": "уговорим",
+        "вие": "уговорите",
+        "те": "уговорят"
+      }
+    }
+  },
+  {
+    "word": "съседната",
+    "bg": "съседната",
+    "tr": "komşu / bitişik (dişil belirli)",
+    "translation": "komşu, bitişikteki (dişil belirli)",
+    "type": "sıfat"
+  },
+  {
+    "word": "групи",
+    "bg": "групи",
+    "tr": "gruplar",
+    "translation": "gruplar (çoğul)",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "група",
+      "çoğul": "групи"
+    }
+  },
+  {
+    "word": "химик",
+    "bg": "химик",
+    "tr": "kimyager",
+    "translation": "kimyager",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "химик",
+      "çoğul": "химици"
+    }
+  },
+  {
+    "word": "хапнал",
+    "bg": "хапнал",
+    "tr": "atıştırmış / yemiş",
+    "translation": "atıştırmış, yemek yemiş (geçmiş zaman ortacı)",
+    "type": "fiil"
+  },
+  {
+    "word": "поликлиника",
+    "bg": "поликлиника",
+    "tr": "poliklinik",
+    "translation": "poliklinik, tıp merkezi",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "поликлиника",
+      "çoğul": "поликлиники"
+    }
+  },
+  {
+    "word": "желаете",
+    "bg": "желаете",
+    "tr": "arzu ediyorsunuz / istiyorsunuz",
+    "translation": "arzu etmek, istemek (2. çoğul şahıs)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "желая",
+        "ти": "желаеш",
+        "той/тя/то": "желае",
+        "ние": "желаем",
+        "вие": "желаете",
+        "те": "желаят"
+      }
+    }
+  },
+  {
+    "word": "синтетика",
+    "bg": "синтетика",
+    "tr": "sentetik kumaş / sentetik madde",
+    "translation": "sentetik madde, sentetik kumaş",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "синтетика",
+      "çoğul": "синтетики"
+    }
+  },
+  {
+    "word": "лесно",
+    "bg": "лесно",
+    "tr": "kolayca / kolay",
+    "translation": "kolayca, zahmetsizce",
+    "type": "zarf"
+  },
+  {
+    "word": "почиства",
+    "bg": "почиства",
+    "tr": "temizler / temizliyor",
+    "translation": "temizlemek (3. tekil şahıs)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "почиствам",
+        "ти": "почистваш",
+        "той/тя/то": "почиства",
+        "ние": "почистваме",
+        "вие": "почиствате",
+        "те": "почистват"
+      }
+    }
+  },
+  {
+    "word": "пързалят",
+    "bg": "пързалят",
+    "tr": "kayıyorlar",
+    "translation": "kaymak, paten/kızak yapmak (3. çoğul şahıs)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "пързалям",
+        "ти": "пързаляш",
+        "той/тя/то": "пързаля",
+        "ние": "пързаляме",
+        "вие": "пързаляте",
+        "те": "пързалят"
+      }
+    }
+  },
+  {
+    "word": "потренирам",
+    "bg": "потренирам",
+    "tr": "biraz antrenman yapayım",
+    "translation": "biraz antrenman/idman yapmak (1. tekil şahıs)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "потренирам",
+        "ти": "потренираш",
+        "той/тя/то": "потренира",
+        "ние": "потренираме",
+        "вие": "потренирате",
+        "те": "потренират"
+      }
+    }
+  },
+  {
+    "word": "тихи",
+    "bg": "тихи",
+    "tr": "sessiz / sakin (çoğul)",
+    "translation": "sessiz, sakin (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "прохладно",
+    "bg": "прохладно",
+    "tr": "serin",
+    "translation": "serin (hava vb. için zarf/sıfat)",
+    "type": "zarf"
+  },
+  {
+    "word": "циганското",
+    "bg": "циганското",
+    "tr": "çingene (nötr belirli)",
+    "translation": "çingene (nötr belirli sıfat; örn. pastırma yazı)",
+    "type": "sıfat"
+  },
+  {
+    "word": "непрекъснато",
+    "bg": "непрекъснато",
+    "tr": "sürekli / durmaksızın",
+    "translation": "sürekli, kesintisiz olarak",
+    "type": "zarf"
+  },
+  {
+    "word": "циганско",
+    "bg": "циганско",
+    "tr": "çingene (nötr)",
+    "translation": "çingene (nötr sıfat; örn. циганско лято - pastırma yazı)",
+    "type": "sıfat"
+  },
+  {
+    "word": "включих",
+    "bg": "включих",
+    "tr": "açtım / dahil ettim",
+    "translation": "çalıştırdım, açtım, dahil ettim (geçmiş zaman 1. tekil)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "включа",
+        "ти": "включиш",
+        "той/тя/то": "включи",
+        "ние": "включим",
+        "вие": "включите",
+        "те": "включат"
+      }
+    }
+  },
+  {
+    "word": "прохладни",
+    "bg": "прохладни",
+    "tr": "serin (çoğul)",
+    "translation": "serin (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "необикновено",
+    "bg": "необикновено",
+    "tr": "olağanüstü / alışılmadık şekilde",
+    "translation": "olağanüstü, sıradışı şekilde",
+    "type": "zarf"
+  },
+  {
+    "word": "променливото",
+    "bg": "променливото",
+    "tr": "değişken (nötr belirli)",
+    "translation": "değişken, kararsız (belirli nötr)",
+    "type": "sıfat"
+  },
+  {
+    "word": "лошо",
+    "bg": "лошо",
+    "tr": "kötü / kötü bir şekilde",
+    "translation": "kötü / fena",
+    "type": "zarf"
+  },
+  {
+    "word": "ситен",
+    "bg": "ситен",
+    "tr": "ince, ufak taneli",
+    "translation": "ince, ufak taneli, minik",
+    "type": "sıfat"
+  },
+  {
+    "word": "пронизващ",
+    "bg": "пронизващ",
+    "tr": "iliklere işleyen, keskin",
+    "translation": "delici, iliklere işleyen, keskin",
+    "type": "sıfat"
+  },
+  {
+    "word": "чак",
+    "bg": "чак",
+    "tr": "ta, ta ki, ancak",
+    "translation": "ta, ta ki, ancak",
+    "type": "parçacık"
+  },
+  {
+    "word": "доста",
+    "bg": "доста",
+    "tr": "oldukça, epey",
+    "translation": "oldukça, epey, hayli",
+    "type": "zarf"
+  },
+  {
+    "word": "деветнадесет",
+    "bg": "деветнадесет",
+    "tr": "on dokuz",
+    "translation": "on dokuz",
+    "type": "isim"
+  },
+  {
+    "word": "истинско",
+    "bg": "истинско",
+    "tr": "gerçek, hakiki",
+    "translation": "gerçek, hakiki",
+    "type": "sıfat"
+  },
+  {
+    "word": "ръми",
+    "bg": "ръми",
+    "tr": "çiseliyor",
+    "translation": "çiselemek / çiseliyor",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "той/тя/то": "ръми"
+      }
+    }
+  },
+  {
+    "word": "стопли",
+    "bg": "стопли",
+    "tr": "ısıttı",
+    "translation": "ısıttı / ısıtmak",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "стопля",
+        "ти": "стоплиш",
+        "той/тя/то": "стопли",
+        "ние": "стоплим",
+        "вие": "стоплите",
+        "те": "стоплят"
+      }
+    }
+  },
+  {
+    "word": "късна",
+    "bg": "късна",
+    "tr": "geç",
+    "translation": "geç (dişil)",
+    "type": "sıfat"
+  },
+  {
+    "word": "потънало",
+    "bg": "потънало",
+    "tr": "batmış, gömülmüş",
+    "translation": "batmış, gömülmüş",
+    "type": "sıfat"
+  },
+  {
+    "word": "ранната",
+    "bg": "ранната",
+    "tr": "erken (olan)",
+    "translation": "erken olan (belirli form)",
+    "type": "sıfat"
+  },
+  {
+    "word": "лунните",
+    "bg": "лунните",
+    "tr": "ay ile ilgili olanlar",
+    "translation": "ay ışığına/aya ait olanlar (çoğul belirli)",
+    "type": "sıfat"
+  },
+  {
+    "word": "обожавам",
+    "bg": "обожавам",
+    "tr": "bayılıyorum, çok seviyorum",
+    "translation": "bayılmak, çok sevmek",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "обожавам",
+        "ти": "обожаваш",
+        "той/тя/то": "обожава",
+        "ние": "обожаваме",
+        "вие": "обожавате",
+        "те": "обожават"
+      }
+    }
+  },
+  {
+    "word": "природа",
+    "bg": "природа",
+    "tr": "doğa, tabiat",
+    "translation": "doğa, tabiat",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "природа",
+      "çoğul": "природи"
+    }
+  },
+  {
+    "word": "възражда",
+    "bg": "възражда",
+    "tr": "yeniden canlandırıyor",
+    "translation": "yeniden canlandırmak, diriltmek",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "възраждам",
+        "ти": "възраждаш",
+        "той/тя/то": "възражда",
+        "ние": "възраждаме",
+        "вие": "възраждате",
+        "те": "възраждат"
+      }
+    }
+  },
+  {
+    "word": "дъждът",
+    "bg": "дъждът",
+    "tr": "yağmur",
+    "translation": "yağmur (belirli form)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "дъжд",
+      "çoğul": "дъждове"
+    }
+  },
+  {
+    "word": "ведро",
+    "bg": "ведро",
+    "tr": "neşeli / açık, berrak",
+    "translation": "açık, berrak, neşeli",
+    "type": "sıfat"
+  },
+  {
+    "word": "идеята",
+    "bg": "идеята",
+    "tr": "fikir, düşünce",
+    "translation": "fikir, düşünce (belirli form)",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "идея",
+      "çoğul": "идеи"
+    }
+  },
+  {
+    "word": "влажно",
+    "bg": "влажно",
+    "tr": "nemli, ıslak",
+    "translation": "nemli, ıslak",
+    "type": "sıfat"
+  },
+  {
+    "word": "закъсня",
+    "bg": "закъсня",
+    "tr": "gecikti",
+    "translation": "gecikti / geç kalmak",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "закъснея",
+        "ти": "закъснееш",
+        "той/тя/то": "закъснее",
+        "ние": "закъснеем",
+        "вие": "закъснеете",
+        "те": "закъснеят"
+      }
+    }
+  },
+  {
+    "word": "подрани",
+    "bg": "подрани",
+    "tr": "erken geldi / erkenden yaptı",
+    "translation": "erken davranmak / vaktinden önce gelmek",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "подрая",
+        "ти": "подраниш",
+        "той/тя/то": "подрани",
+        "ние": "подраним",
+        "вие": "подраните",
+        "те": "подранят"
+      }
+    }
+  },
+  {
+    "word": "валя",
+    "bg": "валя",
+    "tr": "yağdı / yağıyor",
+    "translation": "yağmak (yağmur/kar)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "валя",
+        "ти": "валиш",
+        "той/тя/то": "вали",
+        "ние": "валим",
+        "вие": "валите",
+        "те": "валят"
+      }
+    }
+  },
+  {
+    "word": "паднала",
+    "bg": "паднала",
+    "tr": "düşmüş",
+    "translation": "düşmüş (dişil)",
+    "type": "sıfat"
+  },
+  {
+    "word": "стъклата",
+    "bg": "стъклата",
+    "tr": "camlar",
+    "translation": "camlar (belirli çoğul)",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "стъкло",
+      "çoğul": "стъкла"
+    }
+  },
+  {
+    "word": "едри",
+    "bg": "едри",
+    "tr": "iri, büyük",
+    "translation": "iri, büyük (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "снежинки",
+    "bg": "снежинки",
+    "tr": "kar taneleri",
+    "translation": "kar taneleri",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "снежинка",
+      "çoğul": "снежинки"
+    }
+  },
+  {
+    "word": "канапе",
+    "bg": "канапе",
+    "tr": "kanepe",
+    "translation": "kanepe, koltuk",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "канапе",
+      "çoğul": "канапета"
+    }
+  },
+  {
+    "word": "домашен",
+    "bg": "домашен",
+    "tr": "ev / evcil / ev yapımı",
+    "translation": "eve ait, evcil, ev yapımı",
+    "type": "sıfat"
+  },
+  {
+    "word": "мобилни",
+    "bg": "мобилни",
+    "tr": "mobil, taşınabilir",
+    "translation": "mobil, taşınabilir (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "полезна",
+    "bg": "полезна",
+    "tr": "faydalı, yararlı",
+    "translation": "faydalı, yararlı (dişil)",
+    "type": "sıfat"
+  },
+  {
+    "word": "домашни",
+    "bg": "домашни",
+    "tr": "ev ödevleri / evcil",
+    "translation": "ev ödevleri / eve ait (çoğul)",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "домашна",
+      "çoğul": "домашни"
+    }
+  },
+  {
+    "word": "шкафа",
+    "bg": "шкафа",
+    "tr": "dolap",
+    "translation": "dolap (belirli kısa form)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "шкаф",
+      "çoğul": "шкафове"
+    }
+  },
+  {
+    "word": "интелигентна",
+    "bg": "интелигентна",
+    "tr": "akıllı, zeki",
+    "translation": "akıllı, zeki (dişil)",
+    "type": "sıfat"
+  },
+  {
+    "word": "обясняват",
+    "bg": "обясняват",
+    "tr": "açıklıyorlar",
+    "translation": "açıklamak / açıklıyorlar",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "обяснявам",
+        "ти": "обясняваш",
+        "той/тя/то": "обяснява",
+        "ние": "обясняваме",
+        "вие": "обяснявате",
+        "те": "обясняват"
+      }
+    }
+  },
+  {
+    "word": "сувенир",
+    "bg": "сувенир",
+    "tr": "hediyelik eşya, hatıra",
+    "translation": "hediyelik eşya, hatıra",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "сувенир",
+      "çoğul": "сувенири"
+    }
+  },
+  {
+    "word": "торбичка",
+    "bg": "торбичка",
+    "tr": "poşet, torba",
+    "translation": "poşet, küçük çanta, torba",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "торбичка",
+      "çoğul": "торбички"
+    }
+  },
+  {
+    "word": "забравихте",
+    "bg": "забравихте",
+    "tr": "unuttunuz",
+    "translation": "unuttunuz / unutmak",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "забравя",
+        "ти": "забравиш",
+        "той/тя/то": "забрави",
+        "ние": "забравим",
+        "вие": "забравите",
+        "те": "забравят"
+      }
+    }
+  },
+  {
+    "word": "бройни",
+    "bg": "бройни",
+    "tr": "sayma (sıfatları)",
+    "translation": "sayısal, sayma ile ilgili (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "бройните",
+    "bg": "бройните",
+    "tr": "sayma (sıfatları)",
+    "translation": "sayma sıfatları (belirli çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "изменят",
+    "bg": "изменят",
+    "tr": "değiştirirler",
+    "translation": "değiştirmek / değiştirirler",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "изменя",
+        "ти": "измениш",
+        "той/тя/то": "измени",
+        "ние": "изменим",
+        "вие": "измените",
+        "те": "изменят"
+      }
+    }
+  },
+  {
+    "word": "изключение",
+    "bg": "изключение",
+    "tr": "istisna",
+    "translation": "istisna",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "изключение",
+      "çoğul": "изключения"
+    }
+  },
+  {
+    "word": "фурми",
+    "bg": "фурми",
+    "tr": "hurmalar",
+    "translation": "hurma (çoğul)",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "фурма",
+      "çoğul": "фурми"
+    }
+  },
+  {
+    "word": "пъпеша",
+    "bg": "пъпеша",
+    "tr": "kavun",
+    "translation": "kavun (belirli kısa form)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "пъпеш",
+      "çoğul": "пъпеши"
+    }
+  },
+  {
+    "word": "студентки",
+    "bg": "студентки",
+    "tr": "kız öğrenciler",
+    "translation": "üniversite öğrencileri (kız, çoğul)",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "студентка",
+      "çoğul": "студентки"
+    }
+  },
+  {
+    "word": "групата",
+    "bg": "групата",
+    "tr": "grup",
+    "translation": "grup (belirli form)",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "група",
+      "çoğul": "групи"
+    }
+  },
+  {
+    "word": "офиса",
+    "bg": "офиса",
+    "tr": "ofis",
+    "translation": "ofis (belirli kısa form)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "офис",
+      "çoğul": "офиси"
+    }
+  },
+  {
+    "word": "молива",
+    "bg": "молива",
+    "tr": "kalemi / kurşun kalemi",
+    "translation": "kalemi (belirli / nesne hali) veya (sayı hali: iki kalem)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "молив",
+      "çoğul": "моливи"
+    }
+  },
+  {
+    "word": "руски",
+    "bg": "руски",
+    "tr": "Rusça / Rus",
+    "translation": "Rus, Rusça, Rus'a ait",
+    "type": "sıfat"
+  },
+  {
+    "word": "практиката",
+    "bg": "практиката",
+    "tr": "pratik / uygulama",
+    "translation": "pratik, uygulama, deneyim (belirli hal)",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "практика",
+      "çoğul": "практики"
+    }
+  },
+  {
+    "word": "диктовките",
+    "bg": "диктовките",
+    "tr": "dikteler",
+    "translation": "dikte çalışmaları, yazımlama metinleri (belirli çoğul)",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "диктовка",
+      "çoğul": "диктовки"
+    }
+  },
+  {
+    "word": "съпътстват",
+    "bg": "съпътстват",
+    "tr": "eşlik ediyorlar",
+    "translation": "eşlik etmek, beraberinde getirmek (3. çoğul şahıs)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "съпътствам",
+        "ти": "съпътстваш",
+        "той/тя/то": "съпътства",
+        "ние": "съпътстваме",
+        "вие": "съпътствате",
+        "те": "съпътстват"
+      }
+    }
+  },
+  {
+    "word": "способстват",
+    "bg": "способстват",
+    "tr": "katkıda bulunuyorlar / kolaylaştırıyorlar",
+    "translation": "katkı sağlamak, yardımcı olmak (3. çoğul şahıs)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "способствам",
+        "ти": "способстваш",
+        "той/тя/то": "способства",
+        "ние": "способстваме",
+        "вие": "способствате",
+        "те": "способстват"
+      }
+    }
+  },
+  {
+    "word": "развитието",
+    "bg": "развитието",
+    "tr": "gelişim / gelişme",
+    "translation": "gelişim, ilerleme, kalkınma (belirli hal)",
+    "type": "isim",
+    "gender": "orta",
+    "nounForms": {
+      "tekil": "развитие",
+      "çoğul": "развития"
+    }
+  },
+  {
+    "word": "слуховата",
+    "bg": "слуховата",
+    "tr": "işitsel / duyusal",
+    "translation": "işitsel, kulakla ilgili (belirli dişil)",
+    "type": "sıfat"
+  },
+  {
+    "word": "зрителна",
+    "bg": "зрителна",
+    "tr": "görsel",
+    "translation": "görme ile ilgili, görsel (dişil)",
+    "type": "sıfat"
+  },
+  {
+    "word": "памет",
+    "bg": "памет",
+    "tr": "hafıza / bellek",
+    "translation": "hafıza, anı, bellek",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "памет",
+      "çoğul": "памети"
+    }
+  },
+  {
+    "word": "подборът",
+    "bg": "подборът",
+    "tr": "seçim / eleme",
+    "translation": "seçme, ayıklama, seçki (tam belirli eril)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "подбор",
+      "çoğul": "подбори"
+    }
+  },
+  {
+    "word": "преценка",
+    "bg": "преценка",
+    "tr": "değerlendirme / yargı",
+    "translation": "değerlendirme, takdir, tahmin",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "преценка",
+      "çoğul": "преценки"
+    }
+  },
+  {
+    "word": "обучаващите",
+    "bg": "обучаващите",
+    "tr": "öğrenenler / eğitilenler",
+    "translation": "eğitim gören kişiler / öğrenciler (belirli çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "хладилника",
+    "bg": "хладилника",
+    "tr": "buzdolabını",
+    "translation": "buzdolabı (kısa belirli hal / sayı hali)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "хладилник",
+      "çoğul": "хладилници"
+    }
+  },
+  {
+    "word": "карат",
+    "bg": "карат",
+    "tr": "sürüyorlar / kullanıyorlar",
+    "translation": "araç sürmek, zorlamak, yaptırmak (3. çoğul şahıs)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "карам",
+        "ти": "караш",
+        "той/тя/то": "кара",
+        "ние": "караме",
+        "вие": "карате",
+        "те": "карат"
+      }
+    }
+  },
+  {
+    "word": "ио",
+    "bg": "ио",
+    "tr": "io (harf bileşimi)",
+    "translation": "Bulgarca imlada 'ио' harf/ses grubu",
+    "type": "isim"
+  },
+  {
+    "word": "ие",
+    "bg": "ие",
+    "tr": "ie (harf bileşimi)",
+    "translation": "Bulgarca imlada 'ие' harf/ses grubu",
+    "type": "isim"
+  },
+  {
+    "word": "кухненски",
+    "bg": "кухненски",
+    "tr": "mutfakla ilgili / mutfak",
+    "translation": "mutfağa ait, mutfak eşyası vb.",
+    "type": "sıfat"
+  },
+  {
+    "word": "гумички",
+    "bg": "гумички",
+    "tr": "silgiler / lastikler",
+    "translation": "silgiler, küçük lastikler",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "гумичка",
+      "çoğul": "гумички"
+    }
+  },
+  {
+    "word": "предмети",
+    "bg": "предмети",
+    "tr": "nesneler / dersler",
+    "translation": "eşyalar, nesneler, okul dersleri",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "предмет",
+      "çoğul": "предмети"
+    }
+  },
+  {
+    "word": "вещества",
+    "bg": "вещества",
+    "tr": "maddeler",
+    "translation": "maddeler, kimyasal bileşikler",
+    "type": "isim",
+    "gender": "orta",
+    "nounForms": {
+      "tekil": "вещество",
+      "çoğul": "вещества"
+    }
+  },
+  {
+    "word": "животни",
+    "bg": "животни",
+    "tr": "hayvanlar",
+    "translation": "hayvanlar, canlılar",
+    "type": "isim",
+    "gender": "orta",
+    "nounForms": {
+      "tekil": "животно",
+      "çoğul": "животни"
+    }
+  },
+  {
+    "word": "преживявания",
+    "bg": "преживявания",
+    "tr": "deneyimler / yaşantılar",
+    "translation": "tecrübeler, duygusal yaşantılar, deneyimler",
+    "type": "isim",
+    "gender": "orta",
+    "nounForms": {
+      "tekil": "преживяване",
+      "çoğul": "преживявания"
+    }
+  },
+  {
+    "word": "свържем",
+    "bg": "свържем",
+    "tr": "bağlayalım / birleştirelim",
+    "translation": "bağlamak, birleştirmek, irtibat kurmak (1. çoğul şahıs)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "свържа",
+        "ти": "свържеш",
+        "той/тя/то": "свърже",
+        "ние": "свържем",
+        "вие": "свържете",
+        "те": "свържат"
+      }
+    }
+  },
+  {
+    "word": "обучава",
+    "bg": "обучава",
+    "tr": "eğitiyor / öğretiyor",
+    "translation": "eğitmek, yetiştirmek, öğretmek (3. tekil şahıs)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "обучавам",
+        "ти": "обучаваш",
+        "той/тя/то": "обучава",
+        "ние": "обучаваме",
+        "вие": "обучавате",
+        "те": "обучават"
+      }
+    }
+  },
+  {
+    "word": "преподавам",
+    "bg": "преподавам",
+    "tr": "ders veriyorum / öğretiyorum",
+    "translation": "öğretmenlik yapmak, ders vermek (1. tekil şahıs)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "преподавам",
+        "ти": "преподаваш",
+        "той/тя/то": "преподава",
+        "ние": "преподаваме",
+        "вие": "преподавате",
+        "те": "преподават"
+      }
+    }
+  },
+  {
+    "word": "броите",
+    "bg": "броите",
+    "tr": "sayıyorsunuz",
+    "translation": "saymak, hesap etmek (2. çoğul şahıs)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "броя",
+        "ти": "броиш",
+        "той/тя/то": "брои",
+        "ние": "броим",
+        "вие": "броите",
+        "те": "броят"
+      }
+    }
+  },
+  {
+    "word": "любимци",
+    "bg": "любимци",
+    "tr": "evcil hayvanlar / gözdeler",
+    "translation": "en sevilenler, evcil hayvanlar, gözdeler",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "любимец",
+      "çoğul": "любимци"
+    }
+  },
+  {
+    "word": "котката",
+    "bg": "котката",
+    "tr": "kedi",
+    "translation": "kedi (belirli dişil hal)",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "котка",
+      "çoğul": "котки"
+    }
+  },
+  {
+    "word": "мъчно",
+    "bg": "мъчно",
+    "tr": "zorlukla / hüzünlü",
+    "translation": "güçlükle, zor bir şekilde; hüzünlü/özlemle",
+    "type": "zarf"
+  },
+  {
+    "word": "сайтове",
+    "bg": "сайтове",
+    "tr": "web siteleri",
+    "translation": "internet siteleri",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "сайт",
+      "çoğul": "сайтове"
+    }
+  },
+  {
+    "word": "посетя",
+    "bg": "посетя",
+    "tr": "ziyaret edeyim",
+    "translation": "ziyaret etmek, uğramak (1. tekil şahıs)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "посетя",
+        "ти": "посетиш",
+        "той/тя/то": "посети",
+        "ние": "посетим",
+        "вие": "посетите",
+        "те": "посетят"
+      }
+    }
+  },
+  {
+    "word": "млада",
+    "bg": "млада",
+    "tr": "genç",
+    "translation": "genç (dişil form)",
+    "type": "sıfat"
+  },
+  {
+    "word": "грешки",
+    "bg": "грешки",
+    "tr": "hatalar / yanlışlar",
+    "translation": "yanılgılar, hatalar, kusurlar",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "грешка",
+      "çoğul": "грешки"
+    }
+  },
+  {
+    "word": "учебната",
+    "bg": "учебната",
+    "tr": "öğretim / eğitimle ilgili",
+    "translation": "öğrenimle/okulla ilgili (belirli dişil)",
+    "type": "sıfat"
+  },
+  {
+    "word": "разбирането",
+    "bg": "разбирането",
+    "tr": "anlayış / anlama",
+    "translation": "kavrama, anlama, idrak (belirli hal)",
+    "type": "isim",
+    "gender": "orta",
+    "nounForms": {
+      "tekil": "разбиране",
+      "çoğul": "разбирания"
+    }
+  },
+  {
+    "word": "търсят",
+    "bg": "търсят",
+    "tr": "arıyorlar",
+    "translation": "aramak, araştırmak (3. çoğul şahıs)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "търся",
+        "ти": "търсиш",
+        "той/тя/то": "търси",
+        "ние": "търсим",
+        "вие": "търсите",
+        "те": "търсят"
+      }
+    }
+  },
+  {
+    "word": "млади",
+    "bg": "млади",
+    "tr": "gençler / genç",
+    "translation": "genç (çoğul form)",
+    "type": "sıfat"
+  },
+  {
+    "word": "знаещи",
+    "bg": "знаещи",
+    "tr": "bilgili / bilenler",
+    "translation": "bilgili, haberdar olan, bilen (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "шофьорски",
+    "bg": "шофьорски",
+    "tr": "sürücü / şoförlük",
+    "translation": "sürücüye/şoföre ait (ör. ehliyet)",
+    "type": "sıfat"
+  },
+  {
+    "word": "продукти",
+    "bg": "продукти",
+    "tr": "ürünler / gıdalar",
+    "translation": "yiyecek maddeleri, mahsuller, ürünler",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "продукт",
+      "çoğul": "продукти"
+    }
+  },
+  {
+    "word": "цената",
+    "bg": "цената",
+    "tr": "fiyatı / fiyat",
+    "translation": "ücret, paha, fiyat (belirli hal)",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "цена",
+      "çoğul": "цени"
+    }
+  },
+  {
+    "word": "магданоза",
+    "bg": "магданоза",
+    "tr": "maydanozu",
+    "translation": "maydanoz (kısa belirli hal)",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "магданоз",
+      "çoğul": "магданози"
+    }
+  },
+  {
+    "word": "копър",
+    "bg": "копър",
+    "tr": "dereotu",
+    "translation": "dereotu",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "копър",
+      "çoğul": "копри"
+    }
+  },
+  {
+    "word": "консерви",
+    "bg": "консерви",
+    "tr": "konserveler",
+    "translation": "konserveler",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "консерва",
+      "çoğul": "консерви"
+    }
+  },
+  {
+    "word": "мариновани",
+    "bg": "мариновани",
+    "tr": "marine edilmiş / salamura",
+    "translation": "marine edilmiş, turşulanmış (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "грах",
+    "bg": "грах",
+    "tr": "bezelye",
+    "translation": "bezelye",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "грах",
+      "çoğul": "грахове"
+    }
+  },
+  {
+    "word": "компот",
+    "bg": "компот",
+    "tr": "komposto / hoşaf",
+    "translation": "komposto",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "компот",
+      "çoğul": "компоти"
+    }
+  },
+  {
+    "word": "сама",
+    "bg": "сама",
+    "tr": "yalnız (kendisi)",
+    "translation": "yalnız / tek başına (dişil)",
+    "type": "zamir",
+    "gender": "dişil"
+  },
+  {
+    "word": "красиви",
+    "bg": "красиви",
+    "tr": "güzel",
+    "translation": "güzel (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "усмивки",
+    "bg": "усмивки",
+    "tr": "gülümsemeler",
+    "translation": "gülümsemeler",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "усмивка",
+      "çoğul": "усмивки"
+    }
+  },
+  {
+    "word": "премериха",
+    "bg": "премериха",
+    "tr": "ölçtüler (denediler)",
+    "translation": "ölçtüler / denediler (kıyafet vb.)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "премервам",
+        "ти": "премерваш",
+        "той/тя/то": "премерва",
+        "ние": "премерваме",
+        "вие": "премервате",
+        "те": "премерват"
+      }
+    }
+  },
+  {
+    "word": "същия",
+    "bg": "същия",
+    "tr": "aynı",
+    "translation": "aynı / aynısı (eril belirli)",
+    "type": "sıfat",
+    "gender": "eril"
+  },
+  {
+    "word": "чудесно",
+    "bg": "чудесно",
+    "tr": "harika",
+    "translation": "harika / mükemmel",
+    "type": "zarf"
+  },
+  {
+    "word": "перални",
+    "bg": "перални",
+    "tr": "çamaşır makineleri",
+    "translation": "çamaşır makineleri",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "пералня",
+      "çoğul": "перални"
+    }
+  },
+  {
+    "word": "развалена",
+    "bg": "развалена",
+    "tr": "bozuk",
+    "translation": "bozuk / bozulmuş (dişil)",
+    "type": "sıfat",
+    "gender": "dişil"
+  },
+  {
+    "word": "поправи",
+    "bg": "поправи",
+    "tr": "tamir etti",
+    "translation": "tamir etti / düzeltti",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "поправям",
+        "ти": "поправяш",
+        "той/тя/то": "поправя",
+        "ние": "поправяме",
+        "вие": "поправяте",
+        "те": "поправят"
+      }
+    }
+  },
+  {
+    "word": "спряха",
+    "bg": "спряха",
+    "tr": "durdular",
+    "translation": "durdular / durdurdular",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "спирам",
+        "ти": "спираш",
+        "той/тя/то": "спира",
+        "ние": "спираме",
+        "вие": "спирате",
+        "те": "спират"
+      }
+    }
+  },
+  {
+    "word": "дали",
+    "bg": "дали",
+    "tr": "acaba (-ip ...mediği)",
+    "translation": "acaba / -ip ...mediği",
+    "type": "parçacık"
+  },
+  {
+    "word": "дъщеричката",
+    "bg": "дъщеричката",
+    "tr": "küçük kız çocuğu",
+    "translation": "(belirli) küçük kız çocuğu",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "дъщеричка",
+      "çoğul": "дъщерички"
+    }
+  },
+  {
+    "word": "учебни",
+    "bg": "учебни",
+    "tr": "eğitim (ders)",
+    "translation": "öğrenimle ilgili / ders (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "пособия",
+    "bg": "пособия",
+    "tr": "araç-gereçler",
+    "translation": "ders araç-gereçleri / materyaller",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "пособие",
+      "çoğul": "пособия"
+    }
+  },
+  {
+    "word": "луксозно",
+    "bg": "луксозно",
+    "tr": "lüks",
+    "translation": "lüks / lüks bir şekilde",
+    "type": "zarf"
+  },
+  {
+    "word": "ангел",
+    "bg": "ангел",
+    "tr": "melek",
+    "translation": "melek",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "ангел",
+      "çoğul": "ангели"
+    }
+  },
+  {
+    "word": "донесе",
+    "bg": "донесе",
+    "tr": "getirdi",
+    "translation": "getirdi",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "донося",
+        "ти": "доносиш",
+        "той/тя/то": "доноси",
+        "ние": "доносим",
+        "вие": "доносите",
+        "те": "доносят"
+      }
+    }
+  },
+  {
+    "word": "нишесте",
+    "bg": "нишесте",
+    "tr": "nişasta",
+    "translation": "nişasta",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "нишесте",
+      "çoğul": "нишестета"
+    }
+  },
+  {
+    "word": "показали",
+    "bg": "показали",
+    "tr": "göstermişler",
+    "translation": "göstermişler / gösterdiler",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "показвам",
+        "ти": "показваш",
+        "той/тя/то": "показва",
+        "ние": "показваме",
+        "вие": "показвате",
+        "те": "показват"
+      }
+    }
+  },
+  {
+    "word": "случайно",
+    "bg": "случайно",
+    "tr": "tesadüfen",
+    "translation": "tesadüfen / kazara",
+    "type": "zarf"
+  },
+  {
+    "word": "предишния",
+    "bg": "предишния",
+    "tr": "önceki",
+    "translation": "önceki / bir önceki (eril belirli)",
+    "type": "sıfat",
+    "gender": "eril"
+  },
+  {
+    "word": "демоде",
+    "bg": "демоде",
+    "tr": "demode",
+    "translation": "demode / modası geçmiş",
+    "type": "sıfat"
+  },
+  {
+    "word": "вълнена",
+    "bg": "вълнена",
+    "tr": "yünlü",
+    "translation": "yünlü / yünden yapılmış (dişil)",
+    "type": "sıfat",
+    "gender": "dişil"
+  },
+  {
+    "word": "подплата",
+    "bg": "подплата",
+    "tr": "astar",
+    "translation": "astar",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "подплата",
+      "çoğul": "подплати"
+    }
+  },
+  {
+    "word": "права",
+    "bg": "права",
+    "tr": "düz / haklar",
+    "translation": "düz (dişil) / haklar (çoğul)",
+    "type": "sıfat",
+    "gender": "dişil"
+  },
+  {
+    "word": "здрави",
+    "bg": "здрави",
+    "tr": "sağlam / sağlıklı",
+    "translation": "sağlam / sağlıklı (çoğul)",
+    "type": "sıfat"
+  },
+  {
+    "word": "капачетата",
+    "bg": "капачетата",
+    "tr": "küçük kapaklar",
+    "translation": "(belirli) küçük kapaklar / kapakçıklar",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "капаче",
+      "çoğul": "капачета"
+    }
+  },
+  {
+    "word": "старите",
+    "bg": "старите",
+    "tr": "eskiler / yaşlılar",
+    "translation": "(belirli) eskiler / yaşlılar",
+    "type": "sıfat"
+  },
+  {
+    "word": "занесем",
+    "bg": "занесем",
+    "tr": "götürelim",
+    "translation": "götürelim (1. çoğul şahıs)",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "занасям",
+        "ти": "занасяш",
+        "той/тя/то": "занася",
+        "ние": "занасяме",
+        "вие": "занасяте",
+        "те": "занасят"
+      }
+    }
+  },
+  {
+    "word": "небето",
+    "bg": "небето",
+    "tr": "gökyüzü",
+    "translation": "(belirli) gökyüzü",
+    "type": "isim",
+    "gender": "nötr",
+    "nounForms": {
+      "tekil": "небе",
+      "çoğul": "небеса"
+    }
+  },
+  {
+    "word": "красива",
+    "bg": "красива",
+    "tr": "güzel",
+    "translation": "güzel (dişil)",
+    "type": "sıfat",
+    "gender": "dişil"
+  },
+  {
+    "word": "химикалки",
+    "bg": "химикалки",
+    "tr": "tükenmez kalemler",
+    "translation": "tükenmez kalemler",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "химикалка",
+      "çoğul": "химикалки"
+    }
+  },
+  {
+    "word": "охридски",
+    "bg": "охридски",
+    "tr": "Ohri'ye ait",
+    "translation": "Ohri (gölü/şehri) ile ilgili / Ohrili",
+    "type": "sıfat",
+    "gender": "eril"
+  },
+  {
+    "word": "румънски",
+    "bg": "румънски",
+    "tr": "Romence / Rumen",
+    "translation": "Rumen / Romence",
+    "type": "sıfat",
+    "gender": "eril"
+  },
+  {
+    "word": "полски",
+    "bg": "полски",
+    "tr": "Lehçe / Polonya",
+    "translation": "Polonya / Lehçe / tarla ile ilgili",
+    "type": "sıfat",
+    "gender": "eril"
+  },
+  {
+    "word": "хладно",
+    "bg": "хладно",
+    "tr": "serin",
+    "translation": "serin",
+    "type": "zarf"
+  },
+  {
+    "word": "магазина",
+    "bg": "магазина",
+    "tr": "mağaza (dükkan)",
+    "translation": "(belirli) mağaza / dükkan",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "магазин",
+      "çoğul": "магазини"
+    }
+  },
+  {
+    "word": "повод",
+    "bg": "повод",
+    "tr": "vesile",
+    "translation": "vesile / sebep / fırsat",
+    "type": "isim",
+    "gender": "eril",
+    "nounForms": {
+      "tekil": "повод",
+      "çoğul": "поводи"
+    }
+  },
+  {
+    "word": "премина",
+    "bg": "премина",
+    "tr": "geçti",
+    "translation": "geçti / karşıya geçti",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "преминавам",
+        "ти": "преминаваш",
+        "той/тя/то": "преминава",
+        "ние": "преминаваме",
+        "вие": "преминавате",
+        "те": "преминават"
+      }
+    }
+  },
+  {
+    "word": "големина",
+    "bg": "големина",
+    "tr": "büyüklük",
+    "translation": "büyüklük / boyut / ebat",
+    "type": "isim",
+    "gender": "dişil",
+    "nounForms": {
+      "tekil": "големина",
+      "çoğul": "големини"
+    }
+  },
+  {
+    "word": "съжалявам",
+    "bg": "съжалявам",
+    "tr": "üzgünüm",
+    "translation": "üzgünüm / özür dilerim / pişmanım",
+    "type": "fiil",
+    "conjugation": {
+      "present": {
+        "аз": "съжалявам",
+        "ти": "съжаляваш",
+        "той/тя/то": "съжалява",
+        "ние": "съжаляваме",
+        "вие": "съжалявате",
+        "те": "съжаляват"
+      }
+    }
+  }
+]

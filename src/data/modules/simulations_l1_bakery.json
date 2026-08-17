@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 1: Fırında Alışveriş",
+  "difficulty": 1,
+  "description": "Mahalle fırınından ekmek ve poğaça alıyorsunuz. Sayılar ve rica kipleri.",
+  "questions": [
+    {
+      "id": "l1_b_1",
+      "type": "dialogue",
+      "speaker": "Fırıncı",
+      "sentence": "Добро утро! Какво ще желаете?",
+      "answer": "Добро утро! Искам един бял хляб, моля.",
+      "options": [
+        "Обичам ябълки.",
+        "Къде е спирката?",
+        "Имам две котки.",
+        "Добро утро! Искам един бял хляб, моля."
+      ],
+      "hint": "Günaydın! Bir beyaz ekmek istiyorum, lütfen.",
+      "explanation": "\"Искам\" (İstiyorum) kelimesi temel ihtiyaçları belirtirken kullanılır. \"Моля\" (Lütfen) nezaket bildirir.",
+      "optionsTr": [
+        "Elmaları severim.",
+        "durak nerede",
+        "İki kedim var.",
+        "Günaydın! Bir parça beyaz ekmek istiyorum lütfen."
+      ]
+    },
+    {
+      "id": "l1_b_2",
+      "type": "dialogue",
+      "speaker": "Fırıncı",
+      "sentence": "Ето белия хляб. Нещо сладко за закуска?",
+      "answer": "Да, дайте ми и две кифли с мармалад.",
+      "options": [
+        "Да, дайте ми и две кифли с мармалад.",
+        "Не, аз съм вегетарианец.",
+        "Търся обувки.",
+        "Аз не говоря български."
+      ],
+      "hint": "Evet, bana iki tane marmelatlı poğaça (kifla) da verin.",
+      "explanation": "Bulgarcada sayılardan sonra gelen isimler çoğul olur (кифла -> кифли). \"Дайте ми\" (Bana verin) emir kipi olsa da alışverişte yaygındır.",
+      "optionsTr": [
+        "Evet, bana da iki marmelatlı çörek ver.",
+        "Hayır, ben vejeteryanım.",
+        "Ayakkabı arıyorum.",
+        "Bulgarca bilmiyorum."
+      ]
+    },
+    {
+      "id": "l1_b_3",
+      "type": "dialogue",
+      "speaker": "Fırıncı",
+      "sentence": "Разбира се. Общо стават 4 лева и 50 стотинки.",
+      "answer": "Ето 5 лева. Задръжте рестото.",
+      "options": [
+        "Това е безплатно.",
+        "Нямам пари.",
+        "Ето 5 лева. Задръжте рестото.",
+        "Колко е часът?"
+      ],
+      "hint": "İşte 5 leva. Üstü kalsın.",
+      "explanation": "\"Задръжте рестото\" (Üstü kalsın / Para üstünü tutun), özellikle küçük hesaplarda kullanılan kibar bir bahşiş ifadesidir.",
+      "optionsTr": [
+        "Ücretsiz.",
+        "Hiç param yok.",
+        "İşte 5 BGN. Üstü kalsın.",
+        "saat kaç"
+      ]
+    },
+    {
+      "id": "l1_b_4",
+      "type": "dialogue",
+      "speaker": "Fırıncı",
+      "sentence": "Много благодарим! Заповядайте пак!",
+      "answer": "Ще дойда. Довиждане!",
+      "options": [
+        "Кога отваряте?",
+        "Ще дойда. Довиждане!",
+        "Аз съм изморен.",
+        "Не обичам хляб."
+      ],
+      "hint": "Geleceğim. Hoşça kalın!",
+      "explanation": "\"Заповядайте пак\" (Yine bekleriz) esnafın klasik vedasıdır.",
+      "optionsTr": [
+        "Ne zaman açıyorsunuz?",
+        "Geleceğim. Güle güle!",
+        "Yoruldum.",
+        "Ekmeği sevmiyorum."
+      ]
+    }
+  ]
+}

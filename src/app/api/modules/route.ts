@@ -21,8 +21,10 @@ export async function GET() {
         let bgCount = 0;
         let trCount = 0;
         
-        if (data.questions) {
-          data.questions.forEach((q: { type: string; module: string; id: string }) => {
+        if (file.startsWith('simulations_')) {
+          bgCount = data.questions ? data.questions.length : 0;
+        } else if (data.questions) {
+          data.questions.forEach((q: { type: string; module: string; id: string; hint?: string }) => {
             const hint = (q.hint || '').toLowerCase();
             if (hint.includes('bulgarca')) bgCount++;
             else if (hint.includes('türkçe')) trCount++;

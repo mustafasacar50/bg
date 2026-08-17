@@ -1,0 +1,91 @@
+{
+  "title": "Seviye 2: Eczanede İlaç Alma",
+  "difficulty": 2,
+  "description": "Baş ağrısı için ilaç alıyorsunuz. \"Трябва да\" (Gereklilik) yapısı.",
+  "questions": [
+    {
+      "id": "l2_p_1",
+      "type": "dialogue",
+      "speaker": "Siz",
+      "sentence": "...",
+      "answer": "Здравейте. Имам силно главоболие. Можете ли да ми препоръчате нещо?",
+      "options": [
+        "Къде е болницата?",
+        "Здравейте. Имам силно главоболие. Можете ли да ми препоръчате нещо?",
+        "Трябва ми вода.",
+        "Търся лекар."
+      ],
+      "hint": "Merhaba. Şiddetli baş ağrım var. Bana bir şey önerebilir misiniz?",
+      "explanation": "\"Главоболие\" (Baş ağrısı) kelimesi \"Глава\" (Baş) ve \"Болка\" (Ağrı) birleşimidir.",
+      "optionsTr": [
+        "hastane nerede",
+        "Merhaba. Başım çok kötü ağrıyor. Bir şey tavsiye edebilir misin?",
+        "Suya ihtiyacım var.",
+        "Bir doktor arıyorum."
+      ]
+    },
+    {
+      "id": "l2_p_2",
+      "type": "dialogue",
+      "speaker": "Eczacı",
+      "sentence": "Разбира се. Имате ли алергия към някакви лекарства, например парацетамол?",
+      "answer": "Не, нямам никакви алергии.",
+      "options": [
+        "Не, нямам никакви алергии.",
+        "Искам антибиотик.",
+        "Обичам шоколад.",
+        "Да, алергичен съм към котки."
+      ],
+      "hint": "Hayır, hiçbir alerjim yok.",
+      "explanation": "Bulgarcada olumsuzluk vurgulanırken \"никакви\" (hiçbir) ile çift olumsuzluk (\"нямам никакви\") yapılır.",
+      "optionsTr": [
+        "Hayır, herhangi bir alerjim yok.",
+        "Antibiyotik istiyorum.",
+        "Çikolatayı seviyorum.",
+        "Evet kedilere alerjim var."
+      ]
+    },
+    {
+      "id": "l2_p_3",
+      "type": "dialogue",
+      "speaker": "Eczacı",
+      "sentence": "Добре, вземете тези хапчета. Трябва да пиете по едно на всеки 8 часа.",
+      "answer": "Трябва ли да ги пия на пълен стомах?",
+      "options": [
+        "Какво е стомах?",
+        "Трябва ли да ги пия на пълен стомах?",
+        "Колко струва бирата?",
+        "Не искам хапчета."
+      ],
+      "hint": "Onları tok karnına mı (dolu mideye) içmeliyim?",
+      "explanation": "\"Трябва ли да...\" (Yapmalı mıyım?) kalıbı zorunluluk sorar. \"На пълен стомах\" tok karnına demektir.",
+      "optionsTr": [
+        "Mide nedir?",
+        "Bunları tok karnına mı içmeliyim?",
+        "Bir bira ne kadar?",
+        "Hap istemiyorum."
+      ]
+    },
+    {
+      "id": "l2_p_4",
+      "type": "dialogue",
+      "speaker": "Eczacı",
+      "sentence": "Да, препоръчително е след хранене. Струват 6 лева.",
+      "answer": "Добре, ето картата ми за плащане.",
+      "options": [
+        "Добре, ето картата ми за плащане.",
+        "Ще ги изхвърля.",
+        "Нямам проблеми.",
+        "Утре ще дойда."
+      ],
+      "hint": "Tamam, işte ödeme için kartım.",
+      "explanation": "\"Карта за плащане\" banka kartı/kredi kartı anlamında kullanılır.",
+      "optionsTr": [
+        "Tamam, işte ödeme kartım.",
+        "Onları atacağım.",
+        "Hiçbir sorunum yok.",
+        "Yarın geleceğim."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "title": "Seviye 4: Kiralık Ev Gezisi (Emlakçı)",
+  "difficulty": 4,
+  "description": "Emlakçı ile ev gezip detaylı sorular sormayı ve pazarlık yapmayı öğrenin.",
+  "questionCount": 8,
+  "questions": [
+    {
+      "id": "l4_real_1",
+      "type": "dialogue",
+      "speaker": "Emlakçı",
+      "sentence": "Здравейте! Аз съм брокерът. Това е апартаментът, който искахте да видите. Заповядайте вътре.",
+      "answer": "Здравейте. Благодаря! Изглежда доста просторен. Колко квадратни метра е?",
+      "options": [
+        "Здравейте. Благодаря! Изглежда доста просторен. Колко квадратни метра е?",
+        "Искам да ям в ресторант.",
+        "Не, не ми харесва колата.",
+        "Къде е спирката на автобуса?"
+      ],
+      "optionsTr": [
+        "Merhaba. Teşekkürler! Oldukça ferah görünüyor. Kaç metrekare?",
+        "Restoranda yemek yemek istiyorum.",
+        "Hayır, arabayı beğenmedim.",
+        "Otobüs durağı nerede?"
+      ],
+      "hint": "Merhaba. Teşekkürler! Oldukça ferah görünüyor. Kaç metrekare?",
+      "explanation": "Emlakçı ('брокерът') sizi içeri davet ediyor. Evin büyüklüğünü (metrekare) sormalısınız."
+    },
+    {
+      "id": "l4_real_2",
+      "type": "dialogue",
+      "speaker": "Emlakçı",
+      "sentence": "Апартаментът е 85 квадратни метра. Има две спални, хол с кухня и една баня.",
+      "answer": "Чудесно. А какво е отоплението? Има ли ТЕЦ или е на ток?",
+      "options": [
+        "Аз работя в болница.",
+        "Как се казвате?",
+        "Чудесно. А какво е отоплението? Има ли ТЕЦ или е на ток?",
+        "Обичам да пия сок от портокал."
+      ],
+      "optionsTr": [
+        "Ben hastanede çalışıyorum.",
+        "Adınız nedir?",
+        "Harika. Peki ısınma nasıl? Merkezi ısıtma mı (TEЦ) yoksa elektrikli mi?",
+        "Portakal suyu içmeyi severim."
+      ],
+      "hint": "Harika. Peki ısınma nasıl? Merkezi ısıtma mı (TEЦ) yoksa elektrikli mi?",
+      "explanation": "Evin özelliklerini duyduktan sonra ısınma sistemini (отопление) sormalısınız. 'ТЕЦ' merkezi ısıtma demektir."
+    },
+    {
+      "id": "l4_real_3",
+      "type": "dialogue",
+      "speaker": "Emlakçı",
+      "sentence": "Отоплението е на ТЕЦ, така че сметките през зимата са по-ниски. Апартаментът е и южен.",
+      "answer": "Това е много добре. Мебелите нови ли са? Изглеждат много запазени.",
+      "options": [
+        "Искам да си купя куче.",
+        "Това е много добре. Мебелите нови ли са? Изглеждат много запазени.",
+        "Къде мога да намеря банка?",
+        "Часът е осем и половина."
+      ],
+      "optionsTr": [
+        "Köpek almak istiyorum.",
+        "Bu çok iyi. Mobilyalar yeni mi? Çok korunmuş görünüyorlar.",
+        "Nerede banka bulabilirim?",
+        "Saat sekiz buçuk."
+      ],
+      "hint": "Bu çok iyi. Mobilyalar yeni mi? Çok korunmuş görünüyorlar.",
+      "explanation": "Isınma bilgisi iyi (южен = güneye bakan). Şimdi eşyalarla (мебели) ilgili bir soru sormalısınız."
+    },
+    {
+      "id": "l4_real_4",
+      "type": "dialogue",
+      "speaker": "Emlakçı",
+      "sentence": "Да, мебелите са купени преди една година. Имате напълно оборудвана кухня с печка, хладилник и пералня.",
+      "answer": "Има ли балкон? И къде гледа?",
+      "options": [
+        "Аз обичам да спя до късно.",
+        "Къде мога да купя билети?",
+        "Има ли балкон? И къде гледа?",
+        "Вчера валеше дъжд."
+      ],
+      "optionsTr": [
+        "Geç saate kadar uyumayı severim.",
+        "Nereden bilet alabilirim?",
+        "Balkon var mı? Ve nereye bakıyor?",
+        "Dün yağmur yağıyordu."
+      ],
+      "hint": "Balkon var mı? Ve nereye bakıyor?",
+      "explanation": "Evin içini incelemeye devam ederken balkon (балкон) ve manzarasını soruyorsunuz."
+    },
+    {
+      "id": "l4_real_5",
+      "type": "dialogue",
+      "speaker": "Emlakçı",
+      "sentence": "Да, има един малък балкон, който гледа към вътрешния двор. Много е тихо.",
+      "answer": "Звучи перфектно. А каква е цената на наема?",
+      "options": [
+        "Моят компютър е бавен.",
+        "Звучи перфектно. А каква е цената на наема?",
+        "Кога започва концертът?",
+        "Не, не обичам кафе."
+      ],
+      "optionsTr": [
+        "Bilgisayarım yavaş.",
+        "Mükemmel duyuluyor. Peki kira bedeli ne kadar?",
+        "Konser ne zaman başlıyor?",
+        "Hayır, kahve sevmem."
+      ],
+      "hint": "Mükemmel duyuluyor. Peki kira bedeli ne kadar?",
+      "explanation": "Evi beğendiniz, şimdi en önemli konuya; kiraya (наем) geçmelisiniz."
+    },
+    {
+      "id": "l4_real_6",
+      "type": "dialogue",
+      "speaker": "Emlakçı",
+      "sentence": "Месечният наем е 800 лева. Отделно се плащат таксите за входа, които са около 20 лева на месец.",
+      "answer": "Изисква ли се депозит при подписване на договора?",
+      "options": [
+        "Искам да пътувам до морето.",
+        "Влакът заминава в пет.",
+        "Изисква ли се депозит при подписване на договора?",
+        "Харесвам сини очи."
+      ],
+      "optionsTr": [
+        "Denize seyahat etmek istiyorum.",
+        "Tren beşte hareket ediyor.",
+        "Sözleşme imzalanırken depozito isteniyor mu?",
+        "Mavi gözleri severim."
+      ],
+      "hint": "Sözleşme imzalanırken depozito isteniyor mu?",
+      "explanation": "Kira belli oldu. Şimdi kiralama şartlarından biri olan depozitoyu (депозит) sormalısınız."
+    },
+    {
+      "id": "l4_real_7",
+      "type": "dialogue",
+      "speaker": "Emlakçı",
+      "sentence": "Да, изисква се един наем предварително и един наем като депозит. Общо 1600 лева при настаняване.",
+      "answer": "Разбирам. Цената подлежи ли на коментар?",
+      "options": [
+        "Цената подлежи ли на коментар?",
+        "Имате ли червено вино?",
+        "Колко струва тази книга?",
+        "Аз работя всеки ден."
+      ],
+      "optionsTr": [
+        "Fiyat yoruma (pazarlığa) açık mı?",
+        "Kırmızı şarabınız var mı?",
+        "Bu kitap ne kadar?",
+        "Ben her gün çalışıyorum."
+      ],
+      "hint": "Fiyat yoruma (pazarlığa) açık mı?",
+      "explanation": "Masrafları duydunuz. Fiyatın pazarlığa açık olup olmadığını (подлежи ли на коментар) kibarca soruyorsunuz."
+    },
+    {
+      "id": "l4_real_8",
+      "type": "dialogue",
+      "speaker": "Emlakçı",
+      "sentence": "Собственикът каза, че е готов да свали 50 лева, ако подпишете договор за поне една година.",
+      "answer": "Добре, съгласен съм. Кога можем да подпишем договора?",
+      "options": [
+        "Аз не говоря английски.",
+        "Къде е тоалетната?",
+        "Добре, съгласен съм. Кога можем да подпишем договора?",
+        "Кога пристига автобусът?"
+      ],
+      "optionsTr": [
+        "Ben İngilizce konuşmuyorum.",
+        "Tuvalet nerede?",
+        "Tamam, kabul ediyorum. Sözleşmeyi ne zaman imzalayabiliriz?",
+        "Otobüs ne zaman varıyor?"
+      ],
+      "hint": "Tamam, kabul ediyorum. Sözleşmeyi ne zaman imzalayabiliriz?",
+      "explanation": "Pazarlık başarılı. Sözleşmeyi (договор) ne zaman (кога) imzalayabileceğinizi sorun."
+    }
+  ]
+}

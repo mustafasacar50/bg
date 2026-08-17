@@ -1,0 +1,211 @@
+[
+  {
+    "id": "q8_1",
+    "type": "multiple_choice",
+    "question": "Той _____ (чета) книга.",
+    "options": ["чета", "чете", "четем", "четат"],
+    "correctAnswer": "чете",
+    "explanation": "'Чета' fiili 1. çekim grubundadır и 3. tekil şahıs için '-е' eki alır."
+  },
+  {
+    "id": "q8_2",
+    "type": "multiple_choice",
+    "question": "Ти _____ (живея) в собствено жилище ли?",
+    "options": ["живее", "живеят", "живееш", "живеем"],
+    "correctAnswer": "живееш",
+    "explanation": "'Живея' fiili 2. tekil şahısta '-еш' ekini alır (живееш)."
+  },
+  {
+    "id": "q8_3",
+    "type": "multiple_choice",
+    "question": "Ние _____ (пея) заедно.",
+    "options": ["пеем", "пеят", "пее", "пееш"],
+    "correctAnswer": "пеем",
+    "explanation": "'Пея' fiili 1. çoğul şahısta '-ем' eki alır (пеем)."
+  },
+  {
+    "id": "q8_4",
+    "type": "multiple_choice",
+    "question": "Те _____ (свиря) на китара.",
+    "options": ["свирят", "свири", "свириш", "свирим"],
+    "correctAnswer": "свирят",
+    "explanation": "'Свиря' fiili 2. çekim grubundadır (3. tekil şahıs: свири) ve 3. çoğul şahısta '-ят' alır (свирят)."
+  },
+  {
+    "id": "q8_5",
+    "type": "multiple_choice",
+    "question": "Аз _____ (рисувам) картина.",
+    "options": ["рисува", "рисуваш", "рисуваме", "рисувам"],
+    "correctAnswer": "рисувам",
+    "explanation": "'Рисувам' fiili 3. çekim grubundadır. 1. tekil şahıs çekimi 'рисувам' şeklindedir."
+  },
+  {
+    "id": "q8_6",
+    "type": "multiple_choice",
+    "question": "Вие _____ (летя) със самолет.",
+    "options": ["летите", "летиш", "лети", "летят"],
+    "correctAnswer": "летите",
+    "explanation": "'Летя' 2. çekim grubundadır. 2. çoğul şahısta '-ите' eki alır (летите)."
+  },
+  {
+    "id": "q8_7",
+    "type": "matching",
+    "question": "Eşyaları bulundukları odalarla eşleştirin.",
+    "pairs": [
+      { "left": "Печка", "right": "Кухня" },
+      { "left": "Диван", "right": "Хол" },
+      { "left": "Легло", "right": "Спалня" }
+    ],
+    "explanation": "Mutfakta (кухня) fırın (печка), salonda (хол) kanepe (диван), yatak odasında (спалня) yatak (легло) bulunur."
+  },
+  {
+    "id": "q8_8",
+    "type": "matching",
+    "question": "Diğer ev eşyalarını bulundukları odalarla eşleştirin.",
+    "pairs": [
+      { "left": "Радио", "right": "Детска стая" },
+      { "left": "Кристална ваза", "right": "Гостна стая" },
+      { "left": "Телевизор", "right": "Хол" }
+    ],
+    "explanation": "Metne göre radyo çocuk odasında, kristal vazo misafir odasında, televizyon ise salondadır."
+  },
+  {
+    "id": "q8_9",
+    "type": "multiple_choice",
+    "question": "В коя стая живеят Албена и Бояна според текста \"Домът на Албена\"?",
+    "options": ["В хола", "В спалнята", "В детската стая", "В гостната стая"],
+    "correctAnswer": "В детската стая",
+    "explanation": "Metinde \"Албена и сестра ѝ Бояна живеят в детската стая.\" geçmektedir."
+  },
+  {
+    "id": "q8_10",
+    "type": "multiple_choice",
+    "question": "Къде отсядат бабата и дядото на Албена, когато идват на гости?",
+    "options": ["В детската стая", "В кухнята", "В хола", "В гостната стая"],
+    "correctAnswer": "В гостната стая",
+    "explanation": "\"В гостната стая отсядат баба им и дядо им, когато идват на гости.\" cümlesinden anlaşılacağı üzere misafir odasında kalırlar."
+  },
+  {
+    "id": "q8_11",
+    "type": "multiple_choice",
+    "question": "Какъв килим има в хола на семейството?",
+    "options": ["Чипровски килим", "Котленски килим", "Огромен персийски килим", "Няма килим"],
+    "correctAnswer": "Огромен персийски килим",
+    "explanation": "Хол (salon) açıklamasında \"На пода е прострян огромен персийски килим.\" ifadesi yer almaktadır."
+  },
+  {
+    "id": "q8_12",
+    "type": "multiple_choice",
+    "question": "Къде учи Диана според текста?",
+    "options": ["В Техническия университет", "В Софийския университет", "В Медицинския университет", "В училище"],
+    "correctAnswer": "В Софийския университет",
+    "explanation": "Диана metninde \"Тя следва история в Софийския университет\" yazmaktadır."
+  },
+  {
+    "id": "q8_13",
+    "type": "multiple_choice",
+    "question": "От кой град е Ана (съквартирантката на Диана)?",
+    "options": ["От Габрово", "От София", "От Варна", "От Ловеч"],
+    "correctAnswer": "От Ловеч",
+    "explanation": "Metinde \"Ана е от Ловеч, а Ваня – от Габрово.\" geçmektedir."
+  },
+  {
+    "id": "q8_14",
+    "type": "multiple_choice",
+    "question": "\"Benim evim büyüktür\" cümlesinin Bulgarca çevirisi hangisidir?",
+    "options": ["Моята стая е малка.", "Моят дом е голям.", "Твоята къща е хубава.", "Нашият апартамент е нов."],
+    "correctAnswer": "Моят дом е голям.",
+    "explanation": "Моят (benim), дом (ev), е (dır/dir), голям (büyük) kelimelerinden oluşur."
+  },
+  {
+    "id": "q8_15",
+    "type": "multiple_choice",
+    "question": "\"Sen kendi evinde mi yaşıyorsun?\" cümlesinin Bulgarca karşılığı nedir?",
+    "options": ["Ти в собствено жилище ли живееш?", "Къде живееш?", "В кое общежитие си?", "Стаята ти на кой етаж е?"],
+    "correctAnswer": "Ти в собствено жилище ли живееш?",
+    "explanation": "Собствено жилище 'kendi evin / konutun' anlamına gelir."
+  },
+  {
+    "id": "q8_16",
+    "type": "multiple_choice",
+    "question": "\"Стаята ти на кой етаж е?\" cümlesinin Türkçe çevirisi nedir?",
+    "options": ["Senin evin nerede?", "Odan kaçıncı katta?", "Hangi bloktasın?", "Odan büyük mü?"],
+    "correctAnswer": "Odan kaçıncı katta?",
+    "explanation": "Стаята ти (Senin odan) на кой етаж (kaçıncı katta) е (dır)?"
+  },
+  {
+    "id": "q8_17",
+    "type": "multiple_choice",
+    "question": "\"Заповядай на гости.\" ifadesinin Türkçe anlamı nedir?",
+    "options": ["Sözleşmemiz gerekiyor.", "Memnuniyetle!", "Misafirliğe gel.", "Bugün dersimiz yok."],
+    "correctAnswer": "Misafirliğe gel.",
+    "explanation": "Заповядай (buyur/gel) на гости (misafirliğe) anlamındadır."
+  },
+  {
+    "id": "q8_18",
+    "type": "multiple_choice",
+    "question": "Къщата се намира _____ киното. (Evin konumu sinemanın arkasındadır.) Boşluğa hangi edat gelmelidir?",
+    "options": ["пред", "зад", "в", "на"],
+    "correctAnswer": "зад",
+    "explanation": "'Зад' arkasında demektir. 'Зад киното' (sinemanın arkasında) anlamına gelir."
+  },
+  {
+    "id": "q8_19",
+    "type": "multiple_choice",
+    "question": "_____ бюрото има два въртящи се стола. (Masanın önünde iki döner sandalye var.) Boşluğa hangi edat gelmelidir?",
+    "options": ["Зад", "Пред", "Върху", "Под"],
+    "correctAnswer": "Пред",
+    "explanation": "'Пред' önünde anlamına gelir. 'Пред бюрото' çalışma masasının önünde demektir."
+  },
+  {
+    "id": "q8_20",
+    "type": "multiple_choice",
+    "question": "Какви пердета има на всички прозорци в дома на Албена?",
+    "options": ["Копринени", "Плюшени", "Дантелени", "Няма пердета"],
+    "correctAnswer": "Дантелени",
+    "explanation": "Metinde \"На всички прозорци има дантелени пердета.\" geçmektedir."
+  },
+  {
+    "id": "q8_21",
+    "type": "multiple_choice",
+    "question": "\"Тя следва история.\" cümlesinin çevirisi hangisidir?",
+    "options": ["O tarih seviyor.", "O tarih okuyor.", "O üniversiteye gidiyor.", "Tarih dersi çok zor."],
+    "correctAnswer": "O tarih okuyor.",
+    "explanation": "Следва 'yükseköğrenim görmek/okumak' anlamına gelir."
+  },
+  {
+    "id": "q8_22",
+    "type": "multiple_choice",
+    "question": "\"Общежитието също си има своите предимства.\" cümlesinde 'предимство' kelimesi ne demektir?",
+    "options": ["Dezavantaj", "Kural", "Avantaj", "Oda"],
+    "correctAnswer": "Avantaj",
+    "explanation": "Предимство 'avantaj, üstünlük' anlamına gelmektedir."
+  },
+  {
+    "id": "q8_23",
+    "type": "multiple_choice",
+    "question": "Трапезарията е свързана с кухнята чрез преходна _____. (Yemek odası mutfağa geçiş kapısı ile bağlıdır.)",
+    "options": ["стена", "врата", "маса", "стая"],
+    "correctAnswer": "врата",
+    "explanation": "Врата 'kapı' demektir. 'Преходна врата' geçiş kapısıdır."
+  },
+  {
+    "id": "q8_24",
+    "type": "multiple_choice",
+    "question": "В кухнята се намират електрическата готварска _____ и хладилникът.",
+    "options": ["печка", "ваза", "маса", "мивка"],
+    "correctAnswer": "печка",
+    "explanation": "Електрическа готварска печка, elektrikli ocak/fırın demektir."
+  },
+  {
+    "id": "q8_25",
+    "type": "matching",
+    "question": "Fiilleri (1. tekil şahıs) ait oldukları çekim gruplarıyla eşleştirin.",
+    "pairs": [
+      { "left": "чета (той чете)", "right": "1. Спрежение" },
+      { "left": "летя (той лети)", "right": "2. Спрежение" },
+      { "left": "рисувам (той рисува)", "right": "3. Спрежение" }
+    ],
+    "explanation": "3. tekil şahısta '-е' ile bitenler 1. çekim, '-и' ile bitenler 2. çekim, '-а/-я' ile bitenler 3. çekimdir."
+  }
+]
