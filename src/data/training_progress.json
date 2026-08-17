@@ -333,6 +333,25 @@
         "mistakes": [],
         "timestamp": 1786992989292
       }
+    },
+    "simulations_l1_metro": {
+      "mistakes": [],
+      "allProgress": 0,
+      "mistakesProgress": 0,
+      "score": 67.99999999999997,
+      "lastUpdated": "2026-08-17T18:58:23.786Z",
+      "bgProgress": 4,
+      "uiState": {
+        "currentIndex": 4,
+        "score": 67.99999999999997,
+        "searchQuery": "",
+        "langFilter": "bg",
+        "isSwapped": false,
+        "layout": "bg",
+        "useCursiveBg": false,
+        "mistakes": [],
+        "timestamp": 1786993103246
+      }
     }
   },
   "u4": {
