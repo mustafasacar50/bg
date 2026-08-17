@@ -300,19 +300,19 @@
       "mistakes": [],
       "allProgress": 0,
       "mistakesProgress": 0,
-      "score": 60.399999999999984,
-      "lastUpdated": "2026-08-17T18:45:51.239Z",
+      "score": 64.39999999999998,
+      "lastUpdated": "2026-08-17T21:05:21.038Z",
       "bgProgress": 4,
       "uiState": {
         "currentIndex": 4,
-        "score": 60.399999999999984,
+        "score": 64.39999999999998,
         "searchQuery": "",
         "langFilter": "bg",
         "isSwapped": false,
         "layout": "bg",
         "useCursiveBg": false,
         "mistakes": [],
-        "timestamp": 1786992350725
+        "timestamp": 1787000720339
       }
     },
     "simulations_l1_cafe": {
